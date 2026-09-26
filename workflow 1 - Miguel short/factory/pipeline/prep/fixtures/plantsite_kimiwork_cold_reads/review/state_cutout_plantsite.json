@@ -1,0 +1,15 @@
+{
+ "staged": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/staging/tiktok/plantsite_cutout.mp4",
+ "phone_verdict": "PASS",
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/projects/plantsite_cutout",
+ "redesigned": false,
+ "cands": "",
+ "cold_crop_paths": [
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/bb23e443/00.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/bb23e443/01.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/bb23e443/02.png"
+ ],
+ "fails": [],
+ "flagged_for_clerk": "1) NO WATCHER CANDIDATE LIST FOR THIS LANE: review/cands_plantsite_cutout.json does not exist - clerk_video_gemini.py died on 429 RESOURCE_EXHAUSTED (monthly Gemini spending cap, $0 spent, upload failed on plantsite_cutout_p1_w1.mp4). render_and_check recorded it as watch_unavailable rather than a waiver, and staged on qc_pass alone. The clerk has nothing to adjudicate here and must watch the staged file itself if it wants a Gemini read. 2) qc_pass double_exposure and gate3_gemini_describe are REPORTED, not PASS/FAIL - read gen/_qcpass_plantsite_cutout.json. 3) The peak object (PLANT WEB PAGE) reads as 'flower' to every cold reader; that is a PASS under Miguel's 2026-09-06 ruling (same visual idea), not an unnoticed defect.",
+ "report": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/gen/_rc_plantsite_3lanes.json"
+}

@@ -1,0 +1,20 @@
+{
+  "tag": "wincand9",
+  "cold_dir": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/wincand9-474518a5",
+  "reader": "one independent `claude -p` process per crop, launched from /tmp, handed ONLY the absolute path of a blind copy under a random token - no plan, no topic, no manifest, no sealed key, and no path naming the video",
+  "prompt": "Look at the image at <absolute path of one blind crop> . Name the single everyday object drawn in it. At most FIVE words. Reply with ONE line of JSON and nothing else: {\"name\":\"<=5 words\",\"confidence\":\"sure|unsure|cannot tell\"}",
+  "dispatched_at": "2026-09-06T18:37:16",
+  "cli": "2.1.263 (Claude Code)",
+  "source_crops": {
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/phone_kw_win_W9/00.png": "bf316a4ab317bee698f48c7e1539c3fe2907900f9c564c0ea40f316436a206e7"
+  },
+  "names": [
+    {
+      "i": 0,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/wincand9-474518a5/00.png",
+      "name": "Browser window with app icon",
+      "confidence": "unsure",
+      "crop_sha256": "bf316a4ab317bee698f48c7e1539c3fe2907900f9c564c0ea40f316436a206e7"
+    }
+  ]
+}

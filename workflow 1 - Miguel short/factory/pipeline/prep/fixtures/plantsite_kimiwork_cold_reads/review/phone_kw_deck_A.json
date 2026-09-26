@@ -1,0 +1,37 @@
+{
+ "label": "kw_deck_A",
+ "video": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/projects/kimiwork_whiteboard",
+ "phone_scale": "405x720",
+ "sheet": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/phone_kw_deck_A.png",
+ "rule": "a FRESH judge (never read the plan) names each crop in <=3 words. Wrong name, hedge, or 'cannot tell' = the object is redesigned, not annotated.",
+ "answer_key": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/phone_kw_deck_A.key.json",
+ "answer_key_rule": "DO NOT OPEN the answer key until every judge_answer below is filled in. Reading it first voids the Phone Test.",
+ "cut_from": "headless page screenshots, no video render",
+ "mode": "phone-test",
+ "objects": [
+  {
+   "i": 0,
+   "t": 18.9,
+   "bbox_norm": [
+    0.6227,
+    0.2857,
+    0.8218,
+    0.3664
+   ],
+   "phone_box_px": [
+    252,
+    205,
+    332,
+    263
+   ],
+   "phone_size_px": [
+    80,
+    58
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/phone_kw_deck_A/00.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  }
+ ]
+}

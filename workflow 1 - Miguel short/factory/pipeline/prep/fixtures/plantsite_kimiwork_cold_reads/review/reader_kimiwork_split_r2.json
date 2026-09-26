@@ -1,0 +1,93 @@
+{
+ "label": "kimiwork_split",
+ "round": "r2",
+ "instrument": "one `claude -p` process per crop, fresh session, no plan / page / manifest / key, random crop name in its own folder",
+ "names": [
+  {
+   "i": 0,
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/split-r2-82a22b00/0ae653251fd6.png",
+   "name": "crown",
+   "confidence": "sure"
+  },
+  {
+   "i": 1,
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/split-r2-f79b3c6e/050e07f6ea74.png",
+   "name": "browser window",
+   "confidence": "sure"
+  },
+  {
+   "i": 2,
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/split-r2-9e292757/7189fe837072.png",
+   "name": "laptop",
+   "confidence": "sure"
+  },
+  {
+   "i": 3,
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/split-r2-2ead0adc/30eed5598801.png",
+   "name": "document with bar chart",
+   "confidence": "sure"
+  },
+  {
+   "i": 4,
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/split-r2-b2f6f99a/21bd52955e89.png",
+   "name": "presentation board on easel",
+   "confidence": "sure"
+  },
+  {
+   "i": 5,
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/split-r2-f277bae6/27644353745b.png",
+   "name": "receipt",
+   "confidence": "sure"
+  }
+ ],
+ "readers": [
+  {
+   "i": 0,
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/split-r2-82a22b00/0ae653251fd6.png",
+   "intended": "a crown",
+   "name": "crown",
+   "confidence": "sure",
+   "raw": null
+  },
+  {
+   "i": 1,
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/split-r2-f79b3c6e/050e07f6ea74.png",
+   "intended": "an app window",
+   "name": "browser window",
+   "confidence": "sure",
+   "raw": null
+  },
+  {
+   "i": 2,
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/split-r2-9e292757/7189fe837072.png",
+   "intended": "an open laptop",
+   "name": "laptop",
+   "confidence": "sure",
+   "raw": null
+  },
+  {
+   "i": 3,
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/split-r2-2ead0adc/30eed5598801.png",
+   "intended": "a paper report",
+   "name": "document with bar chart",
+   "confidence": "sure",
+   "raw": null
+  },
+  {
+   "i": 4,
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/split-r2-b2f6f99a/21bd52955e89.png",
+   "intended": "a presentation screen",
+   "name": "presentation board on easel",
+   "confidence": "sure",
+   "raw": null
+  },
+  {
+   "i": 5,
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/split-r2-f277bae6/27644353745b.png",
+   "intended": "a till receipt",
+   "name": "receipt",
+   "confidence": "sure",
+   "raw": null
+  }
+ ]
+}

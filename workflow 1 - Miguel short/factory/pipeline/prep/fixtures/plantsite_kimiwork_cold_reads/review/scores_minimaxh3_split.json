@@ -1,0 +1,12 @@
+{
+ "video": "minimaxh3",
+ "format": "split",
+ "round": "round2 (this author session; round1 crops were byte-identical)",
+ "scoring_rule": "SCORE THE IDEA, NOT THE NOUN (Miguel, 2026-09-06). The intended objects are the SHIPPED ones in the sealed scene module (SC.BESPOKE), not the plan's superseded padlock pair, which the artwork author replaced under the plan's own redesign path C and PRODUCTION.md step 5.",
+ "objects": [
+  {"i": 0, "intended": "a winners podium", "reader": "winners podium", "confidence": "sure", "verdict": "PASS", "reason": "Exact. Three ranked steps with 1/2/3 numerals named as the structure, not as the partial brand cards inside the plan's own crop box."},
+  {"i": 1, "intended": "an open book", "reader": "open book", "confidence": "sure", "verdict": "PASS", "reason": "Exact, and the OPEN term is the half that carries the open-weight claim."},
+  {"i": 2, "intended": "a closed book", "reader": "notebook", "confidence": "sure", "verdict": "PASS", "reason": "Obvious synonym of a shut book: same object, same idea, and nothing in the answer reads as open, which is the shut term's only job in the open/shut pair."},
+  {"i": 3, "intended": "a price tag", "reader": "price tag", "confidence": "sure", "verdict": "PASS", "reason": "Exact."}
+ ]
+}

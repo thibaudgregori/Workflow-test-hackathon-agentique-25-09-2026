@@ -1,0 +1,39 @@
+{
+ "objects": [
+  {
+   "i": 0,
+   "intended": "a winners podium",
+   "namer_answer": "podium",
+   "confidence": "sure",
+   "verdict": "PASS",
+   "reason": "'podium' is the intended head noun exactly, sure"
+  },
+  {
+   "i": 1,
+   "intended": "an open book",
+   "namer_answer": "open book",
+   "confidence": "sure",
+   "verdict": "PASS",
+   "reason": "'open book' is the intended object verbatim, sure"
+  },
+  {
+   "i": 2,
+   "intended": "a closed book",
+   "namer_answer": "notebook",
+   "confidence": "sure",
+   "verdict": "PASS",
+   "reason": "'notebook' is an obvious synonym of a SHUT book: it is a book-shaped object seen closed, and nothing about the answer reads as open - which is the whole job of the shut term in this open/shut pair.  The ARTWORK author's own independent reader returned the same word on the same drawing."
+  },
+  {
+   "i": 3,
+   "intended": "a price tag",
+   "namer_answer": "price tag",
+   "confidence": "sure",
+   "verdict": "PASS",
+   "reason": "'price tag' is the intended object verbatim, sure"
+  }
+ ],
+ "verdict": "PASS",
+ "round": 1,
+ "rule": "every object confidently identified; unsure, cannot tell, a wrong object or a missing object FAILS"
+}

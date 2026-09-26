@@ -1,0 +1,16 @@
+{
+ "pass": true,
+ "score_layout": 9,
+ "score_captions": 10,
+ "score_timing": 10,
+ "score_audio": 10,
+ "score_style_match": 10,
+ "issues": [
+  {
+   "severity": "minor",
+   "at_seconds": 0.4,
+   "description": "The 'THE FREE PLAN' header is slightly too close to the top screen edge."
+  }
+ ],
+ "summary": "The candidate is high-quality, perfectly matching the required brand aesthetic and professional tone. The caption syncing and audio levels are excellent. There is a minor spacing issue with the header, but it does not impact readability."
+}

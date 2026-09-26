@@ -1,0 +1,222 @@
+{
+ "app": "shorts-factory-sam2",
+ "session": "grokprice_2026-08-08",
+ "tag": "v2",
+ "gpu": "NVIDIA A10G",
+ "dtype": "fp32",
+ "model": "sam2.1_hiera_base_plus",
+ "torch": "2.13.0+cu130",
+ "cuda": "13.0",
+ "ckpt": "/root/ckpt/sam2.1_hiera_base_plus.pt",
+ "cfg": "configs/sam2.1/sam2.1_hiera_b+.yaml",
+ "width": 1080,
+ "height": 900,
+ "fps": 25,
+ "frames_on_disk": 1294,
+ "frames_tracked": 1294,
+ "chunk": 350,
+ "overlap": 8,
+ "warm_lap": 15,
+ "warm_frames_discarded": 16,
+ "keyframe_masks": 26,
+ "keyframes": [
+  0,
+  40,
+  80,
+  120,
+  160,
+  200,
+  240,
+  280,
+  320,
+  360,
+  400,
+  440,
+  500,
+  560,
+  620,
+  680,
+  740,
+  800,
+  860,
+  920,
+  980,
+  1040,
+  1100,
+  1160,
+  1220,
+  1280
+ ],
+ "prompts_applied": [
+  {
+   "kf": 0,
+   "local": 0,
+   "kind": "mask (discarded prompt copy)"
+  },
+  {
+   "kf": 40,
+   "local": 56,
+   "px": 392648
+  },
+  {
+   "kf": 80,
+   "local": 96,
+   "px": 402448
+  },
+  {
+   "kf": 120,
+   "local": 136,
+   "px": 395813
+  },
+  {
+   "kf": 160,
+   "local": 176,
+   "px": 394989
+  },
+  {
+   "kf": 200,
+   "local": 216,
+   "px": 392678
+  },
+  {
+   "kf": 240,
+   "local": 256,
+   "px": 394726
+  },
+  {
+   "kf": 280,
+   "local": 296,
+   "px": 399232
+  },
+  {
+   "kf": 320,
+   "local": 336,
+   "px": 396716
+  },
+  {
+   "kf": 360,
+   "local": 18,
+   "px": 392772
+  },
+  {
+   "kf": 400,
+   "local": 58,
+   "px": 399922
+  },
+  {
+   "kf": 440,
+   "local": 98,
+   "px": 396659
+  },
+  {
+   "kf": 500,
+   "local": 158,
+   "px": 394425
+  },
+  {
+   "kf": 560,
+   "local": 218,
+   "px": 398163
+  },
+  {
+   "kf": 620,
+   "local": 278,
+   "px": 391882
+  },
+  {
+   "kf": 680,
+   "local": 338,
+   "px": 403199
+  },
+  {
+   "kf": 740,
+   "local": 48,
+   "px": 399539
+  },
+  {
+   "kf": 800,
+   "local": 108,
+   "px": 402071
+  },
+  {
+   "kf": 860,
+   "local": 168,
+   "px": 398023
+  },
+  {
+   "kf": 920,
+   "local": 228,
+   "px": 399358
+  },
+  {
+   "kf": 980,
+   "local": 288,
+   "px": 398722
+  },
+  {
+   "kf": 1040,
+   "local": 348,
+   "px": 398142
+  },
+  {
+   "kf": 1100,
+   "local": 58,
+   "px": 394924
+  },
+  {
+   "kf": 1160,
+   "local": 118,
+   "px": 392682
+  },
+  {
+   "kf": 1220,
+   "local": 178,
+   "px": 395808
+  },
+  {
+   "kf": 1280,
+   "local": 238,
+   "px": 391160
+  }
+ ],
+ "prompt": "add_new_mask",
+ "seams": [
+  {
+   "seam_at": 350,
+   "overlap": 8,
+   "iou_min": 0.99895,
+   "iou_mean": 0.99908
+  },
+  {
+   "seam_at": 700,
+   "overlap": 8,
+   "iou_min": 0.99902,
+   "iou_mean": 0.99915
+  },
+  {
+   "seam_at": 1050,
+   "overlap": 8,
+   "iou_min": 0.99927,
+   "iou_mean": 0.99938
+  }
+ ],
+ "track_seconds": 381.33,
+ "ms_per_frame": 294.7,
+ "extract_seconds": 3.02,
+ "container_id": "69252252-89de-4346-a9b7-738bd1814d87",
+ "t_import_epoch": 1788245778.5977135,
+ "t_fn_entry_epoch": 1788245780.3655694,
+ "t_fn_exit_epoch": 1788246170.2786915,
+ "alpha_bytes": 44066713,
+ "alpha_on_volume": "/vol/grokprice_2026-08-08/alpha_v2.mkv",
+ "cold_start_seconds": 25.09,
+ "billed_container_seconds": 393.7,
+ "measured_cost_usd": 0.1551,
+ "cost_breakdown_usd": {
+  "gpu": 0.1205,
+  "cpu": 0.0206,
+  "mem": 0.014
+ },
+ "alpha_local": "sessions/grokprice_2026-08-08/alpha_v2.mkv",
+ "plate_local": "sessions/grokprice_2026-08-08/plate_wide_25.mp4"
+}

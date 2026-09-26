@@ -1,0 +1,68 @@
+{
+ "staged": "",
+ "phone_verdict": "FAIL",
+ "blocked": "Bespoke object 1 (AN APP WINDOW) fails the cold read: two of five independent fresh readers named a DIFFERENT object and named the SAME one, 'Refrigerator' (rounds 2 and 4), against 'browser window' from the other three. The measured cause is proportion, not contrast - the declared box is 188x202 canvas px, TALLER THAN WIDE, with a title-bar rule across its top sixth and a dark tile centred below, which is an appliance silhouette. The remedy is landscape proportions, i.e. a geometry change inside gen/kimiwork_scene.py: the artwork stage's artefact, hash-sealed by review/artwork_pass_kimiwork.json, forbidden to this lane by the brief and CLAIMS.md, and being consumed concurrently by the cutout and whiteboard authors. Nothing was rendered and no Modal render was submitted. The project is BUILD-GREEN (strict geometry 0 errors / 0 warnings, prerender_check PASS).",
+ "rounds": 4,
+ "redesigned": false,
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/projects/kimiwork_split",
+ "scene_handoff": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/plans/kimiwork_scene_handoff.md",
+ "lane": "icon choreography",
+ "lane_reason_quoted_from_plan": "Every noun this script speaks is a named product that already has a real colour registry mark - Kimi, Kimi Work, ChatGPT Work, Claude Cowork, ChatGPT, Anthropic - and the whole argument is which marks are in the same category, so the flagship lane's marks-plus-clean-diagram grammar carries it directly, while counter+meter would need numbers the transcript never gives and diagram build would have to invent a mechanism he never describes.",
+ "cands": "",
+ "cold_crop_paths": [
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/62fb5ed6/00.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/62fb5ed6/01.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/62fb5ed6/02.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/62fb5ed6/03.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/62fb5ed6/04.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/62fb5ed6/05.png"
+ ],
+ "fails": [
+  {
+   "i": 1,
+   "intended": "an app window",
+   "namer_answer": "Refrigerator (unsure) x2 of 5 independent readers; 'Browser window app icon' (unsure) once; 'browser window' (sure) twice"
+  }
+ ],
+ "flagged_for_clerk": "staging/youtube/kimiwork_split.mp4 (sha 0aec7e91defdf324ce2f1e2531b8317b5aa9229a441039e6de29c6707c8225ff, 13:55) IS THE PRE-SEAL RENDER and was NOT replaced by this session. It draws the app window with the half-ink frame the 18:17 artwork seal repaired. It must not be delivered as this lane's output. Its phone approval (review/phone_pass_kimiwork_split.json) is stale and production.check_phone already refuses it, so it cannot launder a render.",
+ "prerender": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/gen/_prerender_kimiwork_split.json",
+ "geometry_audit": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/gen/_geomaudit_kimiwork_split/report.json",
+ "phone_page": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/gen/_phonepage_kimiwork_split.json",
+ "reader_evidence": [
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/phone_reader_kimiwork_split.json",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/phone_reader_kimiwork_split_r2.json",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/phone_reader_kimiwork_split_r3.json",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/phone_reader_kimiwork_split_r4.json"
+ ],
+ "scoring": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/scores_kimiwork_split.json",
+ "report": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/plans/kimiwork_split_notes.md",
+ "unblocks_it": "Whoever owns gen/kimiwork_scene.py redraws kimi-window and its siblings LANDSCAPE (wider than tall), re-runs SC.assert_geometry(), re-seals with production.py artwork-pass, and all three kimiwork lanes rebuild from the new module.",
+ "prep_markers": {
+  "all_present": [
+   "cut",
+   "plate",
+   "prompt0",
+   "track",
+   "ship",
+   "cues",
+   "selection",
+   "display_plate"
+  ],
+  "missing": [],
+  "take_detection": "keeper opening at word 4, take_start_s 16.379, 112 of 116 raw words, 2 openings found [0,4], marker rule verdict EQUALITY (answer 4, 1 marker before take, 2 restarts), gap rule verdict BAND (thresholds 0.8/0.9/1.0 all answer 4, 0 words early)",
+  "cut": "status ok, wall_s 39.7, cut_master_duration_s 36.32, tight_audio_duration_s 36.316, analysis_wav_written false (48 kHz only, by design)",
+  "matte": "status ok, MatAnyone 2, 908 frames at 1980x990, soft alpha, rim 7 px, fractional_alpha_pixels 19885321, minimum_person_fraction 0.2793118, review_status needs_final_visual_review (MATTES_FINAL.md closes it)",
+  "modal_cost_usd": {
+   "track": 0.02111794745616844,
+   "ship": 0.04624623935197056,
+   "renders_this_session": 0.0
+  },
+  "cues": "cue_count 0 - no pointing cue, no source card, nothing to waive"
+ },
+ "checks_owed_by_hand": {
+  "ss3b_merge_count": "merge_function_only_beats() ran over the WHOLE beat stream before assert_no_function_only_beat(): 0 function-word merges were needed on this take. 39 pills, one size (56.2), measured pill height 114.53, widest 744.4 px inside the 756 px seat. One board-key echo merge stands from session 1 ('Kimi Work.' folded forward into 'Kimi Work. Now,', 517.0 px).",
+  "cast_resolve": "not applicable to the split - assert_cast_resolves is the cutout's depth field",
+  "guard_plate_box": "not applicable to the split - no matte layer is composited"
+ },
+ "disagreements": "None with the plan's creative content; the plan is built as written. Session 1's five deviations (s1-s5) stand and are unchanged. Session 2 adds s6 (the rebuild against the sealed module) and s7 (this failure)."
+}

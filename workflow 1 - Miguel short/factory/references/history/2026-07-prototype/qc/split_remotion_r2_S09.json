@@ -1,0 +1,16 @@
+{
+ "pass": true,
+ "score_layout": 9,
+ "score_captions": 10,
+ "score_timing": 10,
+ "score_audio": 10,
+ "score_style_match": 10,
+ "issues": [
+  {
+   "severity": "minor",
+   "at_seconds": 0.4,
+   "description": "The 'Claude' logo and header slightly exceed the safe zone at the top, though it is not cut off."
+  }
+ ],
+ "summary": "The video is well-produced and aligns with the required brand style. It is clear, clean, and visually coherent. The minor spacing issue at the start does not impact readability or quality."
+}

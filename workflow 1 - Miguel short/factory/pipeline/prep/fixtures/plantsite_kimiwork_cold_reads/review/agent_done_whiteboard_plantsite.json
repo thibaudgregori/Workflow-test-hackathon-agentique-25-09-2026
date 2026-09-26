@@ -1,0 +1,45 @@
+{
+ "staged": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/staging/reels/plantsite_whiteboard.mp4",
+ "staged_sha256": "10479f068e4465c3f8e4bf5755d70c30a4dcc74ef59e4979b031b2d065663776",
+ "phone_verdict": "PASS",
+ "blocked": "",
+ "rounds": 1,
+ "redesigned": false,
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/projects/plantsite_whiteboard",
+ "generator": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/gen/plantsite_whiteboard.py",
+ "report": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/gen/_rc_plantsite_3lanes.json",
+ "cands": "",
+ "cold_crop_paths": [
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/71be5c02/00.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/71be5c02/01.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/71be5c02/02.png"
+ ],
+ "fails": [],
+ "flagged_for_clerk": "1) No watcher list: clerk_video_gemini returned 429 RESOURCE_EXHAUSTED (monthly spending cap) on all three plantsite renders, so review/cands_plantsite_whiteboard.json does not exist and the clerk has no candidate list to adjudicate for this file; render_and_check recorded watch_unavailable, $0. 2) The plan declares boards.mode single; the harness reads the board as CHAPTERED because the source card and its three claim fills retire on one time (4 rigids against chapter_seams threshold 3). Both erases hand over to fully drawn objects; qc ran --seams 6.50,11.60 and whiteboard_seam_law PASSED. 3) The whiteboard outro carries no themed fynbos glyph: whiteboard_build.outro_block() has no glyph slot and forking the shared harness is forbidden; split and cutout carry it. 4) This session did not re-render: index.html is unchanged (sha256 6e83e770...) since the 15:36 render, and the re-cut phone crops came back byte-identical to the approved ones.",
+ "phone_pass": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/phone_pass_plantsite_whiteboard.json",
+ "reader_evidence": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/phone_reader_plantsite_whiteboard.json",
+ "scoring": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/scores_plantsite_whiteboard.json",
+ "geometry_strict": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/projects/plantsite_whiteboard/geometry_audit/report.json — strict true, step 0.25, 0 errors, 0 warnings, violations []",
+ "prerender_verdict": "PASS in 2.11s — refs_resolve PASS, assets_not_placeholder PASS (4 rasters), page_audit PASS, caption_canon_page PASS (25 pills, modal h 114.59px, spread 0.0), gate1_geometry_audit PASS (0 errors / 0 warnings); cutout_edge_fade_guard and cutout_checks_24_25 SKIP (cutout only)",
+ "qc_verdicts": "decoded_blank_frames PASS, zero_ink_law PASS, clip_coverage_page PASS, double_exposure REPORTED, face_centring PASS, pill_canon_rendered PASS, gate1_geometry_audit PASS, gate2_frame_review PASS, gate3_gemini_describe REPORTED, audio_guards PASS, contact_sheet PASS, phone_crops PASS, whiteboard_seam_law PASS",
+ "cold_reads": [
+  {"i": 0, "intended": "TICKED TASK LIST", "namer_answer": "Clipboard with checklist", "confidence": "sure", "verdict": "PASS"},
+  {"i": 1, "intended": "PLANT WEB PAGE", "namer_answer": "browser window with flower", "confidence": "sure", "verdict": "PASS"},
+  {"i": 2, "intended": "WEEKEND CALENDAR", "namer_answer": "calendar", "confidence": "sure", "verdict": "PASS"}
+ ],
+ "board_reports": {
+  "board_mode": "one board, plan view (fix); 576x460 design units; 24 strokes, 18 rigids",
+  "label_law": "PASS — key term PRODUCTIVITY first and alone at 2.06s, 22.0u (floor 22.0); INDIGENOUS PLANTS 9.44, MEANINGFUL 10.74, AI 12.82, WEEKEND 14.18; unplanned_text []",
+  "label_side": "PASS — 5 keys, every dx 0.0u",
+  "outro_clear": "PASS — opaque sheet rises 17.72-18.28, travel 862.5px, no rigid authored at or after 17.72",
+  "seams": "erase 6.50 completes 6.72 (card + 3 claim fills); erase 11.60 completes 11.90 (checklist + its key); qc --seams 6.50,11.60",
+  "lifetime_law": "PASS — chaptered true, 8 anchors declared, lingering []",
+  "spacing": "PASS — 12 objects, under_aim []",
+  "no_text_crossing": "PASS — 24 strokes vs 5 types",
+  "anchor_law": "PASS — plant-page, 2 connectors, spread 0.00u, level true, on_rect true",
+  "no_enclosure": "PASS — 0 rings, 1 box (plant-page, a drawn object), 3 highlights on the post-card raster",
+  "ss3b_merge_count": 0,
+  "captions": "25 pills, 25 before and after merge_function_only_beats, widest 741.0px against a 756.0px budget"
+ },
+ "disagreements_file": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/plans/plantsite_wb_notes.md"
+}

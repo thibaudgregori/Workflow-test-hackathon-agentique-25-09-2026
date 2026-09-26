@@ -1,0 +1,26 @@
+{
+ "staged": "",
+ "phone_verdict": "FAIL",
+ "blocked": "HOLD - object 1 'an app window' read back UNSURE by two fresh independent readers on the ARTWORK-SEALED drawing (round2seal 'laptop screen with app', round2 'app window with icon'). Every reader named the right idea; the hedge is the failure. pipeline/production.py read_rows refuses it ('A failed object cannot be rendered'), so no phone approval exists and render_and_check is refused. This lane cannot repair it: the drawing is in gen/kimiwork_scene.py, sealed by review/artwork_pass_kimiwork.json, shared with the split lane, and outside this lane's ownership per CLAIMS.md. Escalate to the ARTWORK stage (redesign object 1 or re-weigh WIN_EDGE between the pre-seal rgba(20,20,22,.55) that read `sure` three times and the sealed full INK, then re-run production.py artwork-pass), or to Miguel to rule that an artwork-sealed object re-read on a pixel-equivalent crop is not re-proven per lane.",
+ "rounds": 2,
+ "redesigned": false,
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/projects/kimiwork_cutout",
+ "cold_crop_paths": [
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/round2-337f11ab/00.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/round2-337f11ab/01.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/round2-337f11ab/02.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/round2-337f11ab/03.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/round2-337f11ab/04.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/round2-337f11ab/05.png"
+ ],
+ "fails": [
+  {
+   "i": 1,
+   "intended": "an app window",
+   "namer_answer": "app window with icon (unsure); round 1: laptop screen with app (unsure)"
+  }
+ ],
+ "cands": "none - no render was submitted, so review/cands_kimiwork_cutout.json was not written this round",
+ "flagged_for_clerk": "staging/tiktok/kimiwork_cutout.mp4 (sha256 254181e8ce26a765935978f5dc0fa2f65f3140d27b5818557d89e9a1380ac36b, 14:09) is the PRE-SEAL render and is STALE: its phone approval describes project 2389d0aa..., which no longer exists. It is left on disk, not deleted, but must not be delivered as a sealed-module export.",
+ "report": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/plans/kimiwork_cutout_notes.md (RE-BUILD ROUND section); scores /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/scores_kimiwork_cutout_round2.json; readers /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/phone_reader_kimiwork_cutout.json and .round1.json; strict geometry /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/gen/_geomstrict_kimiwork_cutout.json; prerender /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/gen/_prerender_kimiwork_cutout.json"
+}

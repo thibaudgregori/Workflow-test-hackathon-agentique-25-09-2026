@@ -1,0 +1,41 @@
+{
+ "file": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/sam2/sessions/grokprice_2026-08-08/plate_wide_25.mp4",
+ "master": [
+  3840,
+  2160,
+  1553
+ ],
+ "crop": "2592x2160+558+0",
+ "scale_k": 0.416667,
+ "window_wanted": "2692x2243",
+ "window_clamped_because": "the head-parity window is taller than the master",
+ "head_px_on_plate": 515.1,
+ "plate_scale_for_head_parity": 1.0592,
+ "head_px_on_canvas": 545.6,
+ "head_frac_of_1920": 0.2842,
+ "chassis_head_px_on_canvas": 545.6,
+ "cap_top_on_plate": 134.2,
+ "chin_on_plate": 646.7,
+ "face_cx_on_plate": 540.2,
+ "shoulder_rule_crop_w": 1495,
+ "deconform": {
+  "dup_count": 259,
+  "kept": [],
+  "dropped": 259,
+  "phase": "n % 6 == 3, one run 3..1551",
+  "gap_ratio": 13.8,
+  "planner_said_drop": 0,
+  "true_seconds": 51.7667,
+  "want_frames": 1294,
+  "expect_frames": 1294,
+  "drift_frames": -0.167
+ },
+ "ffmpeg_vf": "select='not(between(n\\,3\\,1551)*eq(mod(n-3\\,6)\\,0))',setpts=N/(25*TB),crop=2592:2160:558:0,scale=1080:900:flags=lanczos",
+ "probe": {
+  "width": 1080,
+  "height": 900,
+  "r_frame_rate": "25/1",
+  "duration": "51.760000",
+  "nb_read_frames": "1294"
+ }
+}

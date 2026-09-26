@@ -1,0 +1,61 @@
+{
+ "video": "kimiwork",
+ "fmt": "whiteboard",
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/projects/kimiwork_whiteboard",
+ "verdict": "PASS",
+ "rule": "SCORE THE IDEA, NOT THE NOUN (Miguel, 2026-09-06; STANDARD.md -> THE PHONE TEST) plus the confidence bar: a DIFFERENT thing, a hedge or 'cannot tell' fails. The bound evidence round is review/phone_reader_kimiwork_whiteboard.json (round10): six of six named the intended object and six of six answered 'sure'.",
+ "bound_evidence": "review/phone_reader_kimiwork_whiteboard.json (= phone_reader_kimiwork_whiteboard_round10.json)",
+ "objects": [
+  {
+   "i": 0,
+   "intended": "a crown",
+   "verdict": "PASS",
+   "reason": "'crown', sure, in every one of the seven independent whiteboard rounds (r4-r10). No reader ever named anything else."
+  },
+  {
+   "i": 1,
+   "intended": "an app window",
+   "verdict": "PASS",
+   "reason": "Every one of eleven independent readers named a WINDOW - 'browser window', 'browser window with app icon', 'app store window icon' - which is STANDARD.md's own worked PASS example ('browser window' for an app window). No reader ever named a different object; in particular the 'Refrigerator' the shared scene module drew from two of its readers never appeared once here. The confidence flag alternated (sure in r6, the W1/W2 pair unsure, sure in r10) at about the 20% per-object hedge rate this run measured across all three kimiwork lanes. FOUR redesigns were spent on it before the bound round: 8->11 px title-bar dots and a full-SW title rule (r4 remedy, the plan's own open_questions item 3), a crisper 0.26-wobble frame (r5), a 2.2 u inner edge so the frame has thickness rather than one chip outline, and the mark ink brought back to the GRAPHIC CHART's own 0.50 of the tile from 0.54 so the body is a window with a logo in it rather than two nested objects. A fifth candidate, a maximise square opposite the dots, was cold-read as 'washing machine' (sure) and REVERTED on that evidence; a sixth, the tile drawn without its border (KW_TILE=off), read identically to the shipped one and was not adopted."
+  },
+  {
+   "i": 2,
+   "intended": "an open laptop",
+   "verdict": "PASS",
+   "reason": "'laptop', sure, in every round r4-r10."
+  },
+  {
+   "i": 3,
+   "intended": "a paper report",
+   "verdict": "PASS",
+   "reason": "'lined notepad page' / 'document with folded corner' / 'notepad' / 'Sheet of lined paper', sure, in every round. A sibling noun for the drawn content - a written sheet - which STANDARD.md names as a PASS, not a fail for omitting the container word."
+  },
+  {
+   "i": 4,
+   "intended": "a slide deck",
+   "verdict": "PASS",
+   "reason": "'Presentation easel bar chart', sure. The metaphor was CHANGED after two failed redesigns, exactly as the stopping rule requires. Design 1 (the plan's stack of sheets) drew 'bar chart' and 'document with bar chart'; design 2 (full-SW stack ledges) drew 'Presentation slide with chart', unsure; design 3 (a true 16:9 front slide plus a 6/12 x 10/20 stack, the plan's own remedy order) drew 'stack of report cards', unsure. Two candidates were then cut and read blind: A, a projector screen on a tripod, read 'presentation easel with chart' SURE; B, the stack simplified, read 'stacked slide cards with chart' UNSURE. A ships. It has read sure in three consecutive independent rounds since (deckcand, r7, r8, r9, r10)."
+  },
+  {
+   "i": 5,
+   "intended": "a price tag",
+   "verdict": "PASS",
+   "reason": "'Price tag' / 'price tag with arrow', sure, in every round r4-r10."
+  }
+ ],
+ "rounds_run": 7,
+ "candidate_reads_run": 4,
+ "redesigns_run": 5,
+ "evidence_rounds": [
+  "review/phone_reader_kimiwork_whiteboard_r8.json",
+  "review/phone_reader_kimiwork_whiteboard_round9.json",
+  "review/phone_reader_kimiwork_whiteboard_round10.json",
+  "review/cand_reader_kimiwork_whiteboard_deck.json",
+  "review/cand_reader_kimiwork_whiteboard_win.json",
+  "review/cand_reader_kimiwork_whiteboard_win2.json",
+  "review/cand_reader_kimiwork_whiteboard_win9.json"
+ ],
+ "earlier_rounds_note": "Rounds 4, 5, 6 and 7 were written to review/phone_reader_kimiwork_whiteboard.json in turn and each was superseded by the next redesign's read; their answers are quoted verbatim in the per-object reasons above and in plans/kimiwork_wb_notes.md. Rounds 1-3 belong to an earlier author session on this same project and survive as review/coldread_kimiwork_whiteboard_round{1,2,3}.json.",
+ "instrument_note": "Every read is one independent `claude -p` per crop launched by pipeline/cold_read.py from /tmp on an absolute path to a blind copy under a random token: no plan, no topic, no manifest, no sealed key, no path naming the recording. Dispatch failures: none in any round.",
+ "cold_crops_blind_token": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/5bfd91b3"
+}

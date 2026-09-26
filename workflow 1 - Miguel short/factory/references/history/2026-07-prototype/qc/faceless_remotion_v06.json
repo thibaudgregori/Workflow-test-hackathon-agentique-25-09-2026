@@ -1,0 +1,16 @@
+{
+ "pass": true,
+ "score_layout": 10,
+ "score_captions": 9,
+ "score_timing": 10,
+ "score_audio": 10,
+ "score_style_match": 10,
+ "issues": [
+  {
+   "severity": "minor",
+   "at_seconds": 6,
+   "description": "Caption on the left card overlaps slightly with the border"
+  }
+ ],
+ "summary": "The video is a successful recreation of the reference with high-quality production. The only minor issue is a slight caption overlap on one of the UI card elements."
+}

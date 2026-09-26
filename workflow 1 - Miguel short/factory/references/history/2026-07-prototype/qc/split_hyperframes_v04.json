@@ -1,0 +1,16 @@
+{
+ "pass": true,
+ "score_layout": 10,
+ "score_captions": 9,
+ "score_timing": 10,
+ "score_audio": 10,
+ "score_style_match": 10,
+ "issues": [
+  {
+   "severity": "minor",
+   "at_seconds": 12.8,
+   "description": "The caption for 'Web Search' has a slight sync delay compared to the reference."
+  }
+ ],
+ "summary": "The candidate video effectively mirrors the structure, style, and content delivery of the reference. Layout and pacing are consistent, and audio levels are balanced. A minor caption timing discrepancy exists, but it does not affect the overall quality or impact of the video."
+}

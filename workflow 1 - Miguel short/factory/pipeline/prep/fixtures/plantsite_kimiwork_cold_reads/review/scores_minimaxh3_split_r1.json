@@ -1,0 +1,40 @@
+{
+ "label": "minimaxh3_split",
+ "round": 1,
+ "scored_by": "the split author",
+ "intended_source": "gen/minimaxh3_scene.py SC.BESPOKE (the built objects). Objects 1 and 2 are an OPEN BOOK and a CLOSED BOOK, not the plan's padlocks: the artwork author replaced the pair before animation under the plan's own redesign path C, because shorts_run15/gen/shieldstral_scene.py already ships padlock_svg() and PRODUCTION.md step 5 forbids a cross-video stock metaphor. See SC.PLAN_DEVIATIONS[4] and plans/minimaxh3_scene_notes.md.",
+ "objects": [
+  {
+   "i": 0,
+   "intended": "a winners podium",
+   "answer": "Winners' podium",
+   "confidence": "sure",
+   "verdict": "PASS",
+   "reason": "'Winners' podium' IS the intended object, named verbatim and sure. The three ranked steps and their numerals carry the rank with no text to read."
+  },
+  {
+   "i": 1,
+   "intended": "an open book",
+   "answer": "Open book",
+   "confidence": "sure",
+   "verdict": "PASS",
+   "reason": "'Open book' IS the intended object, named verbatim and sure."
+  },
+  {
+   "i": 2,
+   "intended": "a closed book",
+   "answer": "Notebook",
+   "confidence": "sure",
+   "verdict": "PASS",
+   "reason": "'Notebook' is an obvious synonym of a CLOSED book: a notebook is a book that is shut. Nothing in the answer reads as open, a page, a document or a sheet, which is the shut term's whole job in the open/shut pair; the pair therefore reads as a pair."
+  },
+  {
+   "i": 3,
+   "intended": "a price tag",
+   "answer": "Price tag with dollar sign",
+   "confidence": "sure",
+   "verdict": "PASS",
+   "reason": "'Price tag with dollar sign' IS the intended object, named verbatim and sure, and the reader also read the $ printed on it."
+  }
+ ]
+}

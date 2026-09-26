@@ -1,0 +1,30 @@
+{
+ "file": "sessions/meatwrapper/plate_wide_25.mp4",
+ "master": [
+  3840,
+  2160,
+  1771
+ ],
+ "crop": "2256x1880+672+280",
+ "scale_k": 0.478723,
+ "head_px_on_canvas": 495.6,
+ "head_frac_of_1920": 0.2581,
+ "face_px_on_canvas": 377.8,
+ "cap_top_on_plate": 64.1,
+ "chin_on_plate": 560.6,
+ "face_cx_on_plate": 540.2,
+ "shoulder_rule_crop_w": 1486,
+ "dropped": 295,
+ "kept_dupes": [
+  576
+ ],
+ "expect_frames": 1476,
+ "ffmpeg_vf": "select='not(between(n\\,3\\,573)*eq(mod(n-3\\,6)\\,0)+between(n\\,582\\,1770)*eq(mod(n-582\\,6)\\,0))',setpts=N/(25*TB),crop=2256:1880:672:280,scale=1080:900:flags=lanczos",
+ "probe": {
+  "width": 1080,
+  "height": 900,
+  "r_frame_rate": "25/1",
+  "duration": "59.040000",
+  "nb_read_frames": "1476"
+ }
+}

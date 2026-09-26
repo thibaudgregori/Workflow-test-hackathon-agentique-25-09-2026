@@ -1,0 +1,194 @@
+{
+  "verdict": "PASS",
+  "phone_verdict": "PASS",
+  "reviewer": "fresh_visual_reader",
+  "mp4": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-attempts/perplexityprojects-9d151317248035e6/output/perplexityprojects_cutout.mp4",
+  "mp4_sha256": "f4b1036bad8396b7cfb83fc81c148d679301037576da3366084dc4b36e481c35",
+  "alpha_sha256": "c3edc413fe0754664bd8cdb8bc209db3d8c1c96502d079655fe631290af63323",
+  "project_sha256": "9d151317248035e67ed270f88ba4339572a61d0cfc6d29117b76c4435dc0c925",
+  "agent_review": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/review/perplexityprojects/agent-review.json",
+  "agent_review_sha256": "a602aad42f0d0e9265ddb9dfb54b93e83b43e296c5311719a2ee6341357caf1c",
+  "reviewed_files": {
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-attempts/perplexityprojects-9d151317248035e6/output/perplexityprojects_cutout.mp4": "f4b1036bad8396b7cfb83fc81c148d679301037576da3366084dc4b36e481c35"
+  },
+  "render_result": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-attempts/perplexityprojects-9d151317248035e6/result.json",
+  "render_result_sha256": "febdd01d5ba0b8f723641cf53d0886e6aebc6e89a0f5e7bad4488e8b236c0d59",
+  "whole_video_watcher": {
+    "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/clerk_video_gemini.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-attempts/perplexityprojects-9d151317248035e6/output/perplexityprojects_cutout.mp4 perplexityprojects --fmt cutout --out /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/review/cands_perplexityprojects_cutout.json --thinking medium",
+    "returncode": 0,
+    "wall_s": 32.0,
+    "out": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/review/cands_perplexityprojects_cutout.json",
+    "stderr": "[pass 1 win 3/3 17.0-30.1s] 5 beats / 0 candidates  in=14547 out=951 $0.0067\n[pass 1 win 2/3 0.0-20.0s] 6 beats / 0 candidates  in=20264 out=2514 $0.0124\n[pass 1 win 1/3 0.0-30.1s] 5 beats / 0 candidates  in=28434 out=2392 $0.0145\n",
+    "model": "gemini-3.5-flash-lite",
+    "cost_usd": 0.033616,
+    "counts": {
+      "candidates": 0,
+      "blocking": 0,
+      "motion": 0
+    },
+    "video_summary": "A speaker explains the launch of Perplexity Projects, the evolution of Perplexity Spaces, which allows users to organize research from online, deep research, and local computer files into dedicated folders. The video concludes with a call to follow for more AI news.",
+    "candidates": [],
+    "blocking_candidates": 0,
+    "pass": true
+  },
+  "technical_evidence": {
+    "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/qc/qc_pass.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-attempts/perplexityprojects-9d151317248035e6/output/perplexityprojects_cutout.mp4 --project /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/perplexityprojects_cutout --vid perplexityprojects --fmt cutout --out /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/gen/_qcpass_perplexityprojects_cutout.json --run /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905 --geom /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-support/_geom_perplexityprojects.json --alpha /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/matting/perplexityprojects/matte_perplexityprojects_v5_alpha.webm --edge-box 1584x990+-252+930.0000 --voice-master /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/cuts/perplexityprojects/audio.m4a --plate /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/matting/perplexityprojects/plate_display_1584x990.mp4 --phone-at 0.5:0.4034,0.2091,0.5966,0.3178:Perplexity logo",
+    "returncode": 1,
+    "wall_s": 34.0,
+    "report": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/gen/_qcpass_perplexityprojects_cutout.json",
+    "stdout": "E  EDGE FADE   0 frame-edge chops, 4 masked containers OK\nF  DEPTH FIELD  3/3 lanes, band 394.0px, gutters [26.0, 26.0], 13 steps OK\nF  CROWN CLEARANCE  min 32.0 px, median 34.0 px over 62 samples OK\n{\n \"render\": \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-attempts/perplexityprojects-9d151317248035e6/output/perplexityprojects_cutout.mp4\",\n \"verdicts\": {\n  \"decoded_blank_frames\": \"PASS\",\n  \"zero_ink_law\": \"PASS\",\n  \"clip_coverage_page\": \"FAIL\",\n  \"double_exposure\": \"REPORTED\",\n  \"face_centring\": \"PASS\",\n  \"pill_canon_rendered\": \"FAIL\",\n  \"gate1_geometry_audit\": \"PASS\",\n  \"gate2_frame_review\": \"PASS\",\n  \"cutout_checks_24_25\": \"PASS\",\n  \"gate3_gemini_describe\": \"PASS\",\n  \"audio_guards\": \"PASS\",\n  \"contact_sheet\": \"PASS\",\n  \"phone_crops\": \"PASS\",\n  \"edge_clip\": \"PASS\",\n  \"face_hf_vs_plate\": \"PASS\",\n  \"head_scale_vs_framing\": \"PASS\"\n },\n \"skipped\": [\n  \"whiteboard_seam_law\"\n ],\n \"wall_s\": {\n  \"decoded_blank_frames\": 0.0,\n  \"zero_ink_law\": 0.0,\n  \"clip_coverage_page\": 0.0,\n  \"double_exposure\": 0.11,\n  \"face_centring\": 1.51,\n  \"pill_canon_rendered\": 0.0,\n  \"gate1_geometry_audit\": 8.47,\n  \"gate2_frame_review\": 3.88,\n  \"cutout_checks_24_25\": 10.55,\n  \"gate3_gemini_describe\": 27.86,\n  \"audio_guards\": 2.29,\n  \"contact_sheet\": 8.85,\n  \"phone_crops\": 0.93,\n  \"edge_clip\": 31.88,\n  \"face_hf_vs_plate\": 12.84,\n  \"head_scale_vs_framing\": 15.7,\n  \"single_decode\": 21.53\n },\n \"total_wall_s\": 32.02,\n \"report\": \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/gen/_qcpass_perplexityprojects_cutout.json\",\n \"pass\": false\n}\n",
+    "stderr": "I0000 00:00:1788647079.428061 17564399 init-domain.cc:132] Fiber init: default domain = pthread, concurrency = 19, prefix = pthread-default\nW0000 00:00:1788647079.428556 17564399 face_landmarker_graph.cc:180] Sets FaceBlendshapesGraph acceleration to xnnpack by default.\nW0000 00:00:1788647079.428624 17564400 face_landmarker_graph.cc:180] Sets FaceBlendshapesGraph acceleration to xnnpack by default.\nI0000 00:00:1788647079.522402 17564399 gl_context.cc:407] GL version: 2.1 (2.1 Metal - 90.5), renderer: Apple M5 Pro\nINFO: Created TensorFlow Lite XNNPACK delegate for CPU.\nW0000 00:00:1788647079.523687 17564407 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.\nW0000 00:00:1788647079.529962 17564434 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.\nI0000 00:00:1788647079.616851 17564400 gl_context.cc:407] GL version: 2.1 (2.1 Metal - 90.5), renderer: Apple M5 Pro\nW0000 00:00:1788647079.619548 17564409 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.\nW0000 00:00:1788647079.627355 17564409 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.\nI0000 00:00:1788647096.408321 17573024 gl_context.cc:407] GL version: 2.1 (2.1 Metal - 90.5), renderer: Apple M5 Pro\nW0000 00:00:1788647096.410718 17573026 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.\n",
+    "verdicts": {
+      "decoded_blank_frames": "PASS",
+      "zero_ink_law": "PASS",
+      "clip_coverage_page": "FAIL",
+      "double_exposure": "REPORTED",
+      "face_centring": "PASS",
+      "pill_canon_rendered": "FAIL",
+      "gate1_geometry_audit": "PASS",
+      "gate2_frame_review": "PASS",
+      "cutout_checks_24_25": "PASS",
+      "gate3_gemini_describe": "PASS",
+      "audio_guards": "PASS",
+      "contact_sheet": "PASS",
+      "phone_crops": "PASS",
+      "edge_clip": "PASS",
+      "face_hf_vs_plate": "PASS",
+      "head_scale_vs_framing": "PASS"
+    },
+    "failed": [
+      "clip_coverage_page",
+      "pill_canon_rendered"
+    ],
+    "skipped": {
+      "whiteboard_seam_law": "whiteboard only, and needs --seams (the chapter erase times)"
+    },
+    "wall_s_by_check": {
+      "decoded_blank_frames": 0.0,
+      "zero_ink_law": 0.0,
+      "clip_coverage_page": 0.0,
+      "double_exposure": 0.11,
+      "face_centring": 1.51,
+      "pill_canon_rendered": 0.0,
+      "gate1_geometry_audit": 8.47,
+      "gate2_frame_review": 3.88,
+      "cutout_checks_24_25": 10.55,
+      "gate3_gemini_describe": 27.86,
+      "audio_guards": 2.29,
+      "contact_sheet": 8.85,
+      "phone_crops": 0.93,
+      "edge_clip": 31.88,
+      "face_hf_vs_plate": 12.84,
+      "head_scale_vs_framing": 15.7,
+      "single_decode": 21.53
+    },
+    "total_wall_s": 32.02,
+    "pass": false
+  },
+  "delivery_basis": {
+    "basis": "independent_final_frame_adjudication",
+    "raw_automated_pass": false,
+    "raw_reports_preserved": true,
+    "resolved": [
+      {
+        "stage": "technical",
+        "check": "pill_canon_rendered",
+        "review": {
+          "verdict": "rejected",
+          "reason": "All60 measured pills are stable96px, spread0, rather than current114.59px canonical. Current scappill CSS exactly matches original shorts_run9 source: font56.2px,padding18.8px33.8px,radius22.5px. Captions remain readable at360x640 and preserve existing approved artwork.",
+          "normal_view_visible": true,
+          "material_defect": false,
+          "evidence": [
+            "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-attempts/perplexityprojects-9d151317248035e6/normal-final-review/manifest.json",
+            "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run9/projects/perplexityprojects_cutout/index.html",
+            "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/gen/_qcpass_perplexityprojects_cutout.json"
+          ],
+          "source_index_sha256": "94f55c80a92dcb73b0278ac4e3fdc87247cc7ca32e9423cbf208e3a9171e89e1",
+          "check": "pill_canon_rendered"
+        }
+      },
+      {
+        "stage": "technical",
+        "check": "clip_coverage_page",
+        "review": {
+          "verdict": "rejected",
+          "reason": "Page timing overlap nominations do not produce a visible double caption, missing content, or stage ghost in actual final frames. Each flagged time and its immediate frame neighbors was inspected at360x640; clean caption handovers. Raw QC report retained.",
+          "normal_view_visible": false,
+          "times": [
+            3.4,
+            4.92,
+            27.08,
+            27.12,
+            29.08
+          ],
+          "evidence": [
+            "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-attempts/perplexityprojects-9d151317248035e6/normal-final-review/qc-3.4.jpg",
+            "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-attempts/perplexityprojects-9d151317248035e6/normal-final-review/qc-4.92.jpg",
+            "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-attempts/perplexityprojects-9d151317248035e6/normal-final-review/qc-27.08.jpg",
+            "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-attempts/perplexityprojects-9d151317248035e6/normal-final-review/qc-27.12.jpg",
+            "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-attempts/perplexityprojects-9d151317248035e6/normal-final-review/qc-29.08.jpg"
+          ],
+          "check": "clip_coverage_page"
+        }
+      }
+    ]
+  },
+  "technical_adjudication": [
+    {
+      "verdict": "rejected",
+      "reason": "Page timing overlap nominations do not produce a visible double caption, missing content, or stage ghost in actual final frames. Each flagged time and its immediate frame neighbors was inspected at360x640; clean caption handovers. Raw QC report retained.",
+      "normal_view_visible": false,
+      "times": [
+        3.4,
+        4.92,
+        27.08,
+        27.12,
+        29.08
+      ],
+      "evidence": [
+        "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-attempts/perplexityprojects-9d151317248035e6/normal-final-review/qc-3.4.jpg",
+        "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-attempts/perplexityprojects-9d151317248035e6/normal-final-review/qc-4.92.jpg",
+        "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-attempts/perplexityprojects-9d151317248035e6/normal-final-review/qc-27.08.jpg",
+        "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-attempts/perplexityprojects-9d151317248035e6/normal-final-review/qc-27.12.jpg",
+        "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-attempts/perplexityprojects-9d151317248035e6/normal-final-review/qc-29.08.jpg"
+      ],
+      "check": "clip_coverage_page"
+    },
+    {
+      "verdict": "rejected",
+      "reason": "All60 measured pills are stable96px, spread0, rather than current114.59px canonical. Current scappill CSS exactly matches original shorts_run9 source: font56.2px,padding18.8px33.8px,radius22.5px. Captions remain readable at360x640 and preserve existing approved artwork.",
+      "normal_view_visible": true,
+      "material_defect": false,
+      "evidence": [
+        "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-attempts/perplexityprojects-9d151317248035e6/normal-final-review/manifest.json",
+        "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run9/projects/perplexityprojects_cutout/index.html",
+        "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/gen/_qcpass_perplexityprojects_cutout.json"
+      ],
+      "source_index_sha256": "94f55c80a92dcb73b0278ac4e3fdc87247cc7ca32e9423cbf208e3a9171e89e1",
+      "check": "pill_canon_rendered"
+    }
+  ],
+  "findings": [
+    "No material visual blocker at normal final framing in reviewed samples. Captions are readable, face/crown intact, subject fills lower frame, approved artwork preserved.",
+    "Existing minor moving-hand matte issues explicitly accepted by user at normal delivery framing. These are not claimed repaired."
+  ],
+  "watcher_adjudication": [],
+  "continuous_playback_review": false,
+  "scope": "Fresh actual final MP4 reviewed as entire 360x640 frames at every manifest sample and nominated technical boundary with neighbors. Existing artwork approval retained. Sampled visual review, not continuous playback or every-frame semantic review.",
+  "sample_times_seconds": [
+    0.0,
+    0.16,
+    0.4,
+    3.76,
+    7.52,
+    11.24,
+    15.0,
+    16.2,
+    18.76,
+    22.48,
+    25.8,
+    26.24,
+    29.92
+  ],
+  "reviewed_epoch": 1788647341.07448
+}

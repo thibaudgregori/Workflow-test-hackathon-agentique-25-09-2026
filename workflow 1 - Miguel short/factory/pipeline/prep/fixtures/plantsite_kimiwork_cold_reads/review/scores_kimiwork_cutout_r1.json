@@ -1,0 +1,26 @@
+{
+ "video": "kimiwork",
+ "format": "cutout",
+ "round": 1,
+ "reader": "review/reader_kimiwork_cutout_r1.json - six independent `claude -p` processes, one per crop, each started in /tmp and given ONE randomly named PNG in its own randomly named folder.  No plan, no page, no project, no sheet, no manifest, no sealed key, and no path naming the video.",
+ "scored_by": "the cutout author, against the scene's declared BESPOKE names",
+ "objects": [
+  {"i": 0, "verdict": "PASS", "intended": "a crown", "answer": "crown",
+   "reason": "the exact noun, `sure`"},
+  {"i": 1, "verdict": "PASS", "intended": "an app window",
+   "answer": "browser window with app icon",
+   "reason": "`window` is the intended noun and the reader also names the mark inside it; obvious synonym, `sure`"},
+  {"i": 2, "verdict": "PASS", "intended": "an open laptop", "answer": "laptop",
+   "reason": "the exact noun, `sure`"},
+  {"i": 3, "verdict": "PASS", "intended": "a paper report",
+   "answer": "document with bar chart",
+   "reason": "a report IS a document carrying a bar chart, which is exactly what the drawing shows (heading rule, ruled lines, three flat-top bars); obvious synonym, `sure`"},
+  {"i": 4, "verdict": "PASS", "intended": "a presentation screen",
+   "answer": "presentation board on easel",
+   "reason": "the intended noun plus its stand; obvious synonym, `sure`, and it is confidently NOT read as a document - the separation from object 3 that forced the metaphor change holds"},
+  {"i": 5, "verdict": "PASS", "intended": "a till receipt", "answer": "receipt",
+   "reason": "the exact noun, `sure`"}
+ ],
+ "verdict": "PASS",
+ "summary": "six of six SURE, six of six correct or an obvious synonym, first round.  The two objects whose metaphor was changed on the artwork author's cold-read evidence (the presentation screen and the receipt) both came back clean and neither collided with its chapter neighbour."
+}

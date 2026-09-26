@@ -1,0 +1,20 @@
+{
+ "plan_json": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/plans/kimiwork_plan.json",
+ "plan_md": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/plans/kimiwork_plan.md",
+ "lane": "icon choreography",
+ "lane_reason": "Every noun this script speaks is a named product with a real colour registry mark (Kimi, Kimi Work, ChatGPT Work, Claude Cowork, ChatGPT, Anthropic) and the argument is purely which marks are in the same category, so the flagship marks-plus-clean-diagram lane carries it directly; counter+meter would need numbers the transcript never gives and diagram build would have to invent a mechanism he never describes.",
+ "beats": 8,
+ "bespoke_names": ["a crown", "an app window", "an open laptop", "a paper report", "a slide deck", "a price tag"],
+ "board_mode": "chapters",
+ "cues": "0 cues. pipeline/pointing_cues.py --vid kimiwork returned 'no pointing cue in this take' (cue_count 0) and the prep marker kimiwork.cues.json agrees. Nothing to answer, nothing to waive; assert_cues_covered(cues, plan_cards) passes. The Notion Source URL (x.com/Kimi_Moonshot/status/2084245860339298423) is deliberately NOT raised: no sentence names a platform and GLOBAL LAW 3 admits a post only when the post IS the news.",
+ "open_questions": [
+  "1. The script says CLAUDE COWORK, not Claude Code - the intake keyterms and topic line are wrong against the audio; transcript is truth, so the mark is claude-cowork (orange) and the key is CLAUDE COWORK.",
+  "2. 'Anthropic' is drawn as the claude sunburst, with the written key ANTHROPIC below it, because the only Anthropic-specific asset is a wide wordmark that cannot sit in a 112 px tile without reading as a text pill.",
+  "3. Phone-test risk: 'an app window' vs 'a slide deck' could collide in a cold read; separated by radius vs sharp corners, dots vs no dots, one mark vs a stacked deck with bars, and they never co-exist on a board. Two failed cold reads = change the metaphor.",
+  "4. The key term is 46 px against the two sibling keys at 24 px - deliberate title-vs-label hierarchy, the same pattern the approved run-15 reference shipped.",
+  "5. No number appears anywhere, deliberately: he gives no figure, so no counter, meter or valued bar; the tag's arrow is a direction, not a quantity.",
+  "6. The outro is 4.36 s of 36.32 (12%) because the spoken sign-off is that long; one centred composition, no second event.",
+  "7. Chapter 2 ends on 3.27 s of hold on the finished six-window frame; that is a hold on a complete argument, and stillness is not gateable (2026-08-19)."
+ ],
+ "open_doubts": []
+}

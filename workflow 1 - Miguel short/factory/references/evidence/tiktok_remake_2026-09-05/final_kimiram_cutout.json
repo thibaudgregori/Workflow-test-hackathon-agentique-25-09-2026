@@ -1,0 +1,155 @@
+{
+  "verdict": "PASS",
+  "phone_verdict": "PASS",
+  "reviewer": "fresh_visual_reader",
+  "mp4": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-attempts/kimiram-590669549801d12e/output/kimiram_cutout.mp4",
+  "mp4_sha256": "46ac548f7a6b1633a07f92d548d59eef5daae19a3188338f2dff69a0fca6c037",
+  "alpha_sha256": "088b8ab8e55ce63df3e03be0cca8dd09f11b24ed5b7a8e662dd7a5349864b601",
+  "project_sha256": "590669549801d12e1beaceed58930d767da493803aad7edc84a96ddf0577cf77",
+  "agent_review": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/review/kimiram/agent-review.json",
+  "agent_review_sha256": "c12e0fb1478a34a4d736bd239498b9da507c7b8be08dfec41248c84065ad0c10",
+  "reviewed_files": {
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-attempts/kimiram-590669549801d12e/output/kimiram_cutout.mp4": "46ac548f7a6b1633a07f92d548d59eef5daae19a3188338f2dff69a0fca6c037"
+  },
+  "render_result": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-attempts/kimiram-590669549801d12e/result.json",
+  "render_result_sha256": "f70dd63e381a594b2202a1fd95d5c6083ff6021493f389619cac27dc1f9e54e7",
+  "whole_video_watcher": {
+    "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/clerk_video_gemini.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-attempts/kimiram-590669549801d12e/output/kimiram_cutout.mp4 kimiram --fmt cutout --out /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/review/cands_kimiram_cutout.json --thinking medium",
+    "returncode": 0,
+    "wall_s": 34.0,
+    "out": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/review/cands_kimiram_cutout.json",
+    "stderr": "[pass 1 win 3/4 17.0-37.0s] 1 beats / 0 candidates  in=20441 out=368 $0.0071\n[pass 1 win 4/4 34.0-47.9s] 3 beats / 0 candidates  in=15536 out=765 $0.0066\n[pass 1 win 2/4 0.0-20.0s] 4 beats / 0 candidates  in=20439 out=2745 $0.0130\n[pass 1 win 1/4 0.0-47.9s] 8 beats / 0 candidates  in=43312 out=3693 $0.0222\n",
+    "model": "gemini-3.5-flash-lite",
+    "cost_usd": 0.048845,
+    "counts": {
+      "candidates": 0,
+      "blocking": 0,
+      "motion": 0
+    },
+    "video_summary": "The video explains that running open-source AI models locally requires massive hardware investments, ranging from $40,000 for flagship models down to $5,000 for smaller alternatives. It concludes with a call to follow for daily AI news and tutorials.",
+    "candidates": [],
+    "blocking_candidates": 0,
+    "pass": true
+  },
+  "technical_evidence": {
+    "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/qc/qc_pass.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-attempts/kimiram-590669549801d12e/output/kimiram_cutout.mp4 --project /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/kimiram_cutout --vid kimiram --fmt cutout --out /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/gen/_qcpass_kimiram_cutout.json --run /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905 --geom /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-support/_geom_kimiram.json --alpha /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/matting/kimiram/matte_kimiram_v5_alpha.webm --edge-box 1584x990+-351+930.0000 --voice-master /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/cuts/kimiram/audio.m4a --plate /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/matting/kimiram/plate_display_1584x990.mp4 --cap-seat 871.5 --phone-at 16.3:0.3093,0.2677,0.5611,0.3208:RAM memory module --phone-at 32.5:0.587,0.2875,0.737,0.3208:RAM memory module --phone-at 34.14:0.7444,0.2875,0.8944,0.3208:RAM memory module --phone-at 37.5:0.425,0.2875,0.575,0.3208:RAM memory module",
+    "returncode": 1,
+    "wall_s": 42.2,
+    "report": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/gen/_qcpass_kimiram_cutout.json",
+    "stdout": "E  EDGE FADE   0 frame-edge chops, 15 masked containers OK\nF  DEPTH FIELD  3/3 lanes, band 394.0px, gutters [26.0, 26.0], 13 steps OK\nF  CROWN CLEARANCE  min 64.0 px, median 67.0 px over 99 samples OK\n{\n \"render\": \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-attempts/kimiram-590669549801d12e/output/kimiram_cutout.mp4\",\n \"verdicts\": {\n  \"decoded_blank_frames\": \"PASS\",\n  \"zero_ink_law\": \"PASS\",\n  \"clip_coverage_page\": \"FAIL\",\n  \"double_exposure\": \"REPORTED\",\n  \"face_centring\": \"PASS\",\n  \"pill_canon_rendered\": \"PASS\",\n  \"gate1_geometry_audit\": \"PASS\",\n  \"gate2_frame_review\": \"PASS\",\n  \"cutout_checks_24_25\": \"PASS\",\n  \"gate3_gemini_describe\": \"PASS\",\n  \"audio_guards\": \"PASS\",\n  \"contact_sheet\": \"PASS\",\n  \"phone_crops\": \"PASS\",\n  \"edge_clip\": \"PASS\",\n  \"face_hf_vs_plate\": \"PASS\",\n  \"head_scale_vs_framing\": \"PASS\"\n },\n \"skipped\": [\n  \"whiteboard_seam_law\"\n ],\n \"wall_s\": {\n  \"decoded_blank_frames\": 0.0,\n  \"zero_ink_law\": 0.0,\n  \"clip_coverage_page\": 0.0,\n  \"double_exposure\": 0.31,\n  \"face_centring\": 1.24,\n  \"pill_canon_rendered\": 0.0,\n  \"gate1_geometry_audit\": 8.64,\n  \"gate2_frame_review\": 3.91,\n  \"cutout_checks_24_25\": 11.93,\n  \"gate3_gemini_describe\": 28.89,\n  \"audio_guards\": 2.06,\n  \"contact_sheet\": 4.38,\n  \"phone_crops\": 1.65,\n  \"edge_clip\": 41.75,\n  \"face_hf_vs_plate\": 10.29,\n  \"head_scale_vs_framing\": 21.95,\n  \"single_decode\": 38.83\n },\n \"total_wall_s\": 41.8,\n \"report\": \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/gen/_qcpass_kimiram_cutout.json\",\n \"pass\": false\n}\n",
+    "stderr": "I0000 00:00:1788647145.755653 17599167 init-domain.cc:132] Fiber init: default domain = pthread, concurrency = 19, prefix = pthread-default\nW0000 00:00:1788647145.756144 17599167 face_landmarker_graph.cc:180] Sets FaceBlendshapesGraph acceleration to xnnpack by default.\nW0000 00:00:1788647145.756264 17599166 face_landmarker_graph.cc:180] Sets FaceBlendshapesGraph acceleration to xnnpack by default.\nI0000 00:00:1788647145.833033 17599167 gl_context.cc:407] GL version: 2.1 (2.1 Metal - 90.5), renderer: Apple M5 Pro\nINFO: Created TensorFlow Lite XNNPACK delegate for CPU.\nW0000 00:00:1788647145.834497 17599170 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.\nI0000 00:00:1788647145.835826 17599166 gl_context.cc:407] GL version: 2.1 (2.1 Metal - 90.5), renderer: Apple M5 Pro\nW0000 00:00:1788647145.837179 17599199 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.\nW0000 00:00:1788647145.841204 17599170 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.\nW0000 00:00:1788647145.873316 17599198 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.\nI0000 00:00:1788647181.042659 17616194 gl_context.cc:407] GL version: 2.1 (2.1 Metal - 90.5), renderer: Apple M5 Pro\nW0000 00:00:1788647181.044577 17616202 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.\n",
+    "verdicts": {
+      "decoded_blank_frames": "PASS",
+      "zero_ink_law": "PASS",
+      "clip_coverage_page": "FAIL",
+      "double_exposure": "REPORTED",
+      "face_centring": "PASS",
+      "pill_canon_rendered": "PASS",
+      "gate1_geometry_audit": "PASS",
+      "gate2_frame_review": "PASS",
+      "cutout_checks_24_25": "PASS",
+      "gate3_gemini_describe": "PASS",
+      "audio_guards": "PASS",
+      "contact_sheet": "PASS",
+      "phone_crops": "PASS",
+      "edge_clip": "PASS",
+      "face_hf_vs_plate": "PASS",
+      "head_scale_vs_framing": "PASS"
+    },
+    "failed": [
+      "clip_coverage_page"
+    ],
+    "skipped": {
+      "whiteboard_seam_law": "whiteboard only, and needs --seams (the chapter erase times)"
+    },
+    "wall_s_by_check": {
+      "decoded_blank_frames": 0.0,
+      "zero_ink_law": 0.0,
+      "clip_coverage_page": 0.0,
+      "double_exposure": 0.31,
+      "face_centring": 1.24,
+      "pill_canon_rendered": 0.0,
+      "gate1_geometry_audit": 8.64,
+      "gate2_frame_review": 3.91,
+      "cutout_checks_24_25": 11.93,
+      "gate3_gemini_describe": 28.89,
+      "audio_guards": 2.06,
+      "contact_sheet": 4.38,
+      "phone_crops": 1.65,
+      "edge_clip": 41.75,
+      "face_hf_vs_plate": 10.29,
+      "head_scale_vs_framing": 21.95,
+      "single_decode": 38.83
+    },
+    "total_wall_s": 41.8,
+    "pass": false
+  },
+  "delivery_basis": {
+    "basis": "independent_final_frame_adjudication",
+    "raw_automated_pass": false,
+    "raw_reports_preserved": true,
+    "resolved": [
+      {
+        "stage": "technical",
+        "check": "clip_coverage_page",
+        "review": {
+          "verdict": "rejected",
+          "reason": "Page timing overlap nominations do not produce a visible double caption, missing content, or stage ghost in actual final frames. Each flagged time and its immediate frame neighbors was inspected at360x640; clean caption handovers. Raw QC report retained.",
+          "normal_view_visible": false,
+          "times": [
+            23.72,
+            31.72,
+            44.72
+          ],
+          "evidence": [
+            "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-attempts/kimiram-590669549801d12e/normal-final-review/qc-23.72.jpg",
+            "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-attempts/kimiram-590669549801d12e/normal-final-review/qc-31.72.jpg",
+            "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-attempts/kimiram-590669549801d12e/normal-final-review/qc-44.72.jpg"
+          ],
+          "check": "clip_coverage_page"
+        }
+      }
+    ]
+  },
+  "technical_adjudication": [
+    {
+      "verdict": "rejected",
+      "reason": "Page timing overlap nominations do not produce a visible double caption, missing content, or stage ghost in actual final frames. Each flagged time and its immediate frame neighbors was inspected at360x640; clean caption handovers. Raw QC report retained.",
+      "normal_view_visible": false,
+      "times": [
+        23.72,
+        31.72,
+        44.72
+      ],
+      "evidence": [
+        "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-attempts/kimiram-590669549801d12e/normal-final-review/qc-23.72.jpg",
+        "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-attempts/kimiram-590669549801d12e/normal-final-review/qc-31.72.jpg",
+        "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-attempts/kimiram-590669549801d12e/normal-final-review/qc-44.72.jpg"
+      ],
+      "check": "clip_coverage_page"
+    }
+  ],
+  "findings": [
+    "No material visual blocker at normal final framing in reviewed samples. Captions are readable, face/crown intact, subject fills lower frame, approved artwork preserved."
+  ],
+  "watcher_adjudication": [],
+  "continuous_playback_review": false,
+  "scope": "Fresh actual final MP4 reviewed as entire 360x640 frames at every manifest sample and nominated technical boundary with neighbors. Existing artwork approval retained. Sampled visual review, not continuous playback or every-frame semantic review.",
+  "sample_times_seconds": [
+    0.0,
+    0.16,
+    0.4,
+    6.0,
+    11.96,
+    16.32,
+    17.92,
+    23.92,
+    29.92,
+    32.48,
+    35.88,
+    37.52,
+    41.84,
+    47.76
+  ],
+  "reviewed_epoch": 1788647340.995529
+}

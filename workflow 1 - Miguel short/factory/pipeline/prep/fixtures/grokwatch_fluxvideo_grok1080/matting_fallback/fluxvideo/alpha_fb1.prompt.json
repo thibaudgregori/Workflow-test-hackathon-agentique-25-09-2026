@@ -1,0 +1,8 @@
+{
+  "tag": "fb1",
+  "prompt_mask": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run20/matting/fluxvideo/selection.pre_astra.mask.png",
+  "prompt_mask_sha256": "46bbf6ba0c01dabd104ef747c5627bea55e223e6fcaec270ef792cdea66d537f",
+  "alpha": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run20/matting_fallback/fluxvideo/alpha_fb1.mkv",
+  "at": "2026-09-14T17:12:00",
+  "note": "SUPERSEDED contour, reconstructed post-hoc by the repair round: this 17:12 alpha was tracked before the chair-exclusion review, from the mask selection.json still records as base_mask_sha256. It must never be resumed for the reviewed contour."
+}

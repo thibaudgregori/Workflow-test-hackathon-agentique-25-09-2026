@@ -1,0 +1,154 @@
+{
+ "what": "Promotion verification, 2026-09-01: the deployed shorts-factory-sam2 lane re-tracking the standing hermesinfinite matte (round-6 DEFINITIVE cutout).",
+ "reference_track": "format_lab/_shared/sam2/alpha/sam2_canon_v4.mkv",
+ "reference_matte": "format_lab/_shared/matte_sam2_rim_v4.webm",
+ "plate": "format_lab/_shared/face_wide_25.mp4",
+ "prompts": "format_lab/_shared/sam2/capfix_v3 (24 kf masks)",
+ "config": {
+  "gpu": "NVIDIA A10",
+  "dtype": "fp32",
+  "model": "sam2.1_hiera_base_plus",
+  "torch": "2.13.0+cu130",
+  "cuda": "13.0",
+  "chunk": 350,
+  "overlap": 8,
+  "warm_lap": 15,
+  "warm_frames_discarded": 16,
+  "keyframe_masks": 24,
+  "prompt": "add_new_mask",
+  "width": 1080,
+  "height": 900,
+  "frames_tracked": 350
+ },
+ "speed_cost": {
+  "ms_per_frame": 340.4,
+  "track_seconds": 119.15,
+  "cold_start_seconds": 10.53,
+  "billed_container_seconds": 127.4,
+  "measured_cost_usd": 0.0502
+ },
+ "containment_raw_alpha": {
+  "iou_mean": 0.999673,
+  "iou_min": 0.99913,
+  "iou_p01": 0.999475,
+  "iou_p50": 0.999672,
+  "frames_below_0_999": 0,
+  "frames_below_0_99": 0,
+  "disagreeing_px_mean": 126.4,
+  "disagreeing_px_p95": 164,
+  "disagreeing_px_max": 344,
+  "area_a_mean": 387144.8,
+  "area_b_mean": 387134.2,
+  "area_delta_mean": -10.6,
+  "worst_frames": [
+   [
+    81,
+    0.99913
+   ],
+   [
+    246,
+    0.999441
+   ],
+   [
+    245,
+    0.999468
+   ],
+   [
+    54,
+    0.999475
+   ],
+   [
+    53,
+    0.999476
+   ],
+   [
+    51,
+    0.999506
+   ],
+   [
+    21,
+    0.999508
+   ],
+   [
+    242,
+    0.99952
+   ]
+  ],
+  "bands": [
+   {
+    "band": [
+     20,
+     99
+    ],
+    "iou_mean": 0.99966,
+    "iou_min": 0.99913,
+    "frames_below_0_999": 0
+   },
+   {
+    "band": [
+     100,
+     299
+    ],
+    "iou_mean": 0.999678,
+    "iou_min": 0.999441,
+    "frames_below_0_999": 0
+   },
+   {
+    "band": [
+     300,
+     349
+    ],
+    "iou_mean": 0.999679,
+    "iou_min": 0.999572,
+    "frames_below_0_999": 0
+   }
+  ],
+  "last_frame_below_0_999": null,
+  "verdict": "CONTAINED"
+ },
+ "shipped_matte_vs_approved": {
+  "frames": 8,
+  "iou_mean": 0.999557,
+  "iou_min": 0.999433,
+  "per_frame": [
+   0.99971,
+   0.99968,
+   0.99957,
+   0.99954,
+   0.99954,
+   0.99948,
+   0.99943,
+   0.9995
+  ]
+ },
+ "frame0_outlier_test": {
+  "cap_top": {
+   "f0": 0.596,
+   "neighbours_mean": 0.589,
+   "ratio": 1.013,
+   "rank_of_8": 4
+  },
+  "left": {
+   "f0": 0.766,
+   "neighbours_mean": 0.811,
+   "ratio": 0.945,
+   "rank_of_8": 4
+  },
+  "right": {
+   "f0": 0.939,
+   "neighbours_mean": 0.904,
+   "ratio": 1.039,
+   "rank_of_8": 3
+  },
+  "verdict": "frame 0 is NOT an outlier on any edge \u2014 the warm-up lap and the mirrored temporal pad both survived the promotion"
+ },
+ "truncated_probe_finding": {
+  "limit_24_iou_mean": 0.992945,
+  "limit_24_frames_below_0_999": 24,
+  "limit_350_iou_mean": 0.999673,
+  "limit_350_frames_below_0_999": 0,
+  "cause": "SAM2 attends to EVERY conditioning frame in a chunk regardless of temporal order, so the corrective masks at f40..f320 change the decision at f10. A truncated probe is not a prefix of a full run; containment needs a whole chunk.",
+  "also_measured": "video-bytes vs frames-tar input paths agreed with each other at IoU 0.999362 on the same truncated run \u2014 the JPEG encode is a ~6e-4 effect, not the 7e-3 seen here"
+ },
+ "total_spend_usd": 0.0634
+}

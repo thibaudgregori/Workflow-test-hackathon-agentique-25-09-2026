@@ -1,0 +1,24 @@
+{
+  "video": "minimaxh3",
+  "format": "whiteboard",
+  "round": 2,
+  "evidence": "shorts_run16/review/phone_reader_minimaxh3_whiteboard_r2.json",
+  "round1_evidence": "shorts_run16/review/phone_reader_minimaxh3_whiteboard.json",
+  "scoring_rule": "SCORE THE IDEA, NOT THE NOUN (Miguel, 2026-09-06). A reader who names the drawn content, its container, or a sibling noun of the same thing PASSES. A different thing, a hedge or 'cannot tell' FAILS.",
+  "objects": [
+    {"i": 0, "intended": "a winners podium", "reader": "podium", "confidence": "sure",
+     "verdict": "PASS", "reason": "the intended object named exactly"},
+    {"i": 1, "intended": "an open book", "reader": "open book", "confidence": "sure",
+     "verdict": "PASS", "reason": "the intended object named exactly, and the OPEN half of the comparison is explicit"},
+    {"i": 2, "intended": "a closed book", "reader": "notepad", "confidence": "sure",
+     "verdict": "PASS", "reason": "sibling noun of a shut book, sure; nothing in the answer reads as open, which is this term's whole job in the comparison. The sealed artwork passed the identical object on 'Notebook' (scene handoff §12)"},
+    {"i": 3, "intended": "a price tag", "reader": "price tag", "confidence": "sure",
+     "verdict": "PASS", "reason": "the intended object named exactly"}
+  ],
+  "round1": {
+    "result": "object 0 FAILED — 'kitchen drawers', unsure",
+    "fix": "the plan's own prescribed redesign for this object, verbatim: 'bigger numerals and a deeper height ratio between the steps, never a label'. The steps gained the TOP PLATE line that the sealed scene draws (review/proofs_minimaxh3/seal_podium.png) — the one stroke that makes a rectangle read as a block — and the numerals went from 45 to 54 canvas px. No label was added. One redesign round used.",
+    "objects_1_2_3": "PASS on round 1 already (open book / notepad / price tag, all sure); unchanged by the fix"
+  },
+  "verdict": "PASS"
+}

@@ -1,0 +1,56 @@
+{
+  "tag": "r1",
+  "variant": "window",
+  "composed_final": "shorts_run16/review/proofs_plantsite_r1/composed_final_frame.png",
+  "composed_opening": "shorts_run16/review/proofs_plantsite_r1/composed_opening_frame.png",
+  "objects": [
+    {
+      "key": "01",
+      "file": "shorts_run16/review/proofs_plantsite_r1/01.png",
+      "phone_box": [
+        158,
+        112,
+        248,
+        210
+      ],
+      "phone_px": [
+        90,
+        98
+      ],
+      "variant": "window",
+      "cold_copy": "shorts_run16/review/cold/8a1a6b78/01.png"
+    },
+    {
+      "key": "02",
+      "file": "shorts_run16/review/proofs_plantsite_r1/02.png",
+      "phone_box": [
+        195,
+        112,
+        360,
+        255
+      ],
+      "phone_px": [
+        165,
+        143
+      ],
+      "variant": "window",
+      "cold_copy": "shorts_run16/review/cold/8a1a6b78/02.png"
+    },
+    {
+      "key": "03",
+      "file": "shorts_run16/review/proofs_plantsite_r1/03.png",
+      "phone_box": [
+        49,
+        199,
+        139,
+        259
+      ],
+      "phone_px": [
+        90,
+        60
+      ],
+      "variant": "window",
+      "cold_copy": "shorts_run16/review/cold/8a1a6b78/03.png"
+    }
+  ]
+}

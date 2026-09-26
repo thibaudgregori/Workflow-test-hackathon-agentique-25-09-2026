@@ -1,0 +1,20 @@
+{
+  "tag": "wincand",
+  "cold_dir": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/wincand-44145896",
+  "reader": "one independent `claude -p` process per crop, launched from /tmp, handed ONLY the absolute path of a blind copy under a random token - no plan, no topic, no manifest, no sealed key, and no path naming the video",
+  "prompt": "Look at the image at <absolute path of one blind crop> . Name the single everyday object drawn in it. At most FIVE words. Reply with ONE line of JSON and nothing else: {\"name\":\"<=5 words\",\"confidence\":\"sure|unsure|cannot tell\"}",
+  "dispatched_at": "2026-09-06T18:34:01",
+  "cli": "2.1.263 (Claude Code)",
+  "source_crops": {
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/phone_kw_win/00.png": "1328fc61fa4923f1e526c1b8a80aa0776a985d73801c2037c295f308d01bb9ce"
+  },
+  "names": [
+    {
+      "i": 0,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/wincand-44145896/00.png",
+      "name": "washing machine",
+      "confidence": "sure",
+      "crop_sha256": "1328fc61fa4923f1e526c1b8a80aa0776a985d73801c2037c295f308d01bb9ce"
+    }
+  ]
+}

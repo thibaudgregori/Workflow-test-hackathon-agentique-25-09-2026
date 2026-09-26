@@ -1,0 +1,101 @@
+{
+  "verdict": "PASS",
+  "phone_verdict": "PASS",
+  "reviewer": "fresh_visual_reader",
+  "mp4": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-attempts/codexnondev-6fead1420cc00622/output/codexnondev_cutout.mp4",
+  "mp4_sha256": "271c05f9908c81c28843ff4614d37cce4720b62489487445941d72ea2ad43d2d",
+  "alpha_sha256": "60ec0020fb838675a7caca73f12a238e5df8c93d3ad8b77051e54bcb5b97a14e",
+  "project_sha256": "6fead1420cc0062290f3802aad8052a38a51fae490b7073cd17141824cefc5f9",
+  "agent_review": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/review/codexnondev/agent-review.json",
+  "agent_review_sha256": "7464d221009d8642c089028d7f4e800c368e7f30d269fa170bcae0b40a45f6ea",
+  "reviewed_files": {
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-attempts/codexnondev-6fead1420cc00622/output/codexnondev_cutout.mp4": "271c05f9908c81c28843ff4614d37cce4720b62489487445941d72ea2ad43d2d"
+  },
+  "render_result": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-attempts/codexnondev-6fead1420cc00622/result.json",
+  "render_result_sha256": "af77db9d30fbeb91ac6e2220cc95e6d434b6a77fefb4a22b095cc8261baaaa86",
+  "whole_video_watcher": {
+    "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/clerk_video_gemini.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-attempts/codexnondev-6fead1420cc00622/output/codexnondev_cutout.mp4 codexnondev --fmt cutout --out /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/review/cands_codexnondev_cutout.json --thinking medium",
+    "returncode": 0,
+    "wall_s": 27.9,
+    "out": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/review/cands_codexnondev_cutout.json",
+    "stderr": "[pass 1 win 4/4 34.0-44.6s] 3 beats / 0 candidates  in=12786 out=696 $0.0056\n[pass 1 win 2/4 0.0-20.0s] 5 beats / 0 candidates  in=20411 out=979 $0.0086\n[pass 1 win 1/4 0.0-44.6s] 10 beats / 0 candidates  in=40562 out=3015 $0.0197\n[pass 1 win 3/4 17.0-37.0s] 5 beats / 0 candidates  in=20413 out=4016 $0.0162\n",
+    "model": "gemini-3.5-flash-lite",
+    "cost_usd": 0.050017,
+    "counts": {
+      "candidates": 0,
+      "blocking": 0,
+      "motion": 0
+    },
+    "video_summary": "A speaker explains that over 40% of messages sent to AI coding assistants like Codex are unrelated to code, demonstrating that these tools are useful for everyone. The video introduces alternative tools like ChatGPT Work, Claude Cowork, and Claude Code to show how non-developers can solve problems with AI.",
+    "candidates": [],
+    "blocking_candidates": 0,
+    "pass": true
+  },
+  "technical_evidence": {
+    "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/qc/qc_pass.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-attempts/codexnondev-6fead1420cc00622/output/codexnondev_cutout.mp4 --project /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/codexnondev_cutout --vid codexnondev --fmt cutout --out /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/gen/_qcpass_codexnondev_cutout.json --run /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905 --geom /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-support/_geom_codexnondev.json --alpha /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/matting/codexnondev/matte_codexnondev_v5_alpha.webm --edge-box 1782x990+-252+930.0000 --voice-master /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/cuts/codexnondev/audio.m4a --plate /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/matting/codexnondev/plate_display_1782x990.mp4 --cap-seat 858.3 --phone-at 0.95:0.3519,0.1996,0.6481,0.3214:a message bubble carrying code",
+    "returncode": 0,
+    "wall_s": 23.1,
+    "report": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/gen/_qcpass_codexnondev_cutout.json",
+    "stdout": "E  EDGE FADE   0 frame-edge chops, 5 masked containers OK\nF  DEPTH FIELD  3/3 lanes, band 394.0px, gutters [26.0, 26.0], 13 steps OK\nF  CROWN CLEARANCE  min 70.0 px, median 81.0 px over 92 samples OK\n{\n \"render\": \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-attempts/codexnondev-6fead1420cc00622/output/codexnondev_cutout.mp4\",\n \"verdicts\": {\n  \"decoded_blank_frames\": \"PASS\",\n  \"zero_ink_law\": \"PASS\",\n  \"clip_coverage_page\": \"PASS\",\n  \"double_exposure\": \"REPORTED\",\n  \"face_centring\": \"PASS\",\n  \"pill_canon_rendered\": \"PASS\",\n  \"gate1_geometry_audit\": \"PASS\",\n  \"gate2_frame_review\": \"PASS\",\n  \"cutout_checks_24_25\": \"PASS\",\n  \"gate3_gemini_describe\": \"PASS\",\n  \"audio_guards\": \"PASS\",\n  \"contact_sheet\": \"PASS\",\n  \"phone_crops\": \"PASS\",\n  \"edge_clip\": \"PASS\",\n  \"face_hf_vs_plate\": \"PASS\",\n  \"head_scale_vs_framing\": \"PASS\"\n },\n \"skipped\": [\n  \"whiteboard_seam_law\"\n ],\n \"wall_s\": {\n  \"decoded_blank_frames\": 0.0,\n  \"zero_ink_law\": 0.0,\n  \"clip_coverage_page\": 0.0,\n  \"double_exposure\": 0.09,\n  \"face_centring\": 0.65,\n  \"pill_canon_rendered\": 0.0,\n  \"gate1_geometry_audit\": 5.2,\n  \"gate2_frame_review\": 1.99,\n  \"cutout_checks_24_25\": 6.09,\n  \"gate3_gemini_describe\": 22.89,\n  \"audio_guards\": 1.15,\n  \"contact_sheet\": 2.65,\n  \"phone_crops\": 0.28,\n  \"edge_clip\": 11.53,\n  \"face_hf_vs_plate\": 5.81,\n  \"head_scale_vs_framing\": 7.72,\n  \"single_decode\": 11.01\n },\n \"total_wall_s\": 22.9,\n \"report\": \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/gen/_qcpass_codexnondev_cutout.json\",\n \"pass\": true\n}\n",
+    "stderr": "I0000 00:00:1788638049.017395 16941569 init-domain.cc:132] Fiber init: default domain = pthread, concurrency = 19, prefix = pthread-default\nW0000 00:00:1788638049.019794 16941569 face_landmarker_graph.cc:180] Sets FaceBlendshapesGraph acceleration to xnnpack by default.\nW0000 00:00:1788638049.027909 16941593 face_landmarker_graph.cc:180] Sets FaceBlendshapesGraph acceleration to xnnpack by default.\nI0000 00:00:1788638049.199877 16941593 gl_context.cc:407] GL version: 2.1 (2.1 Metal - 90.5), renderer: Apple M5 Pro\nINFO: Created TensorFlow Lite XNNPACK delegate for CPU.\nW0000 00:00:1788638049.207748 16941825 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.\nI0000 00:00:1788638049.220310 16941569 gl_context.cc:407] GL version: 2.1 (2.1 Metal - 90.5), renderer: Apple M5 Pro\nW0000 00:00:1788638049.222709 16941800 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.\nW0000 00:00:1788638049.263700 16941825 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.\nW0000 00:00:1788638049.266490 16941813 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.\nI0000 00:00:1788638058.219909 16944548 gl_context.cc:407] GL version: 2.1 (2.1 Metal - 90.5), renderer: Apple M5 Pro\nW0000 00:00:1788638058.220783 16944552 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.\n",
+    "verdicts": {
+      "decoded_blank_frames": "PASS",
+      "zero_ink_law": "PASS",
+      "clip_coverage_page": "PASS",
+      "double_exposure": "REPORTED",
+      "face_centring": "PASS",
+      "pill_canon_rendered": "PASS",
+      "gate1_geometry_audit": "PASS",
+      "gate2_frame_review": "PASS",
+      "cutout_checks_24_25": "PASS",
+      "gate3_gemini_describe": "PASS",
+      "audio_guards": "PASS",
+      "contact_sheet": "PASS",
+      "phone_crops": "PASS",
+      "edge_clip": "PASS",
+      "face_hf_vs_plate": "PASS",
+      "head_scale_vs_framing": "PASS"
+    },
+    "failed": [],
+    "skipped": {
+      "whiteboard_seam_law": "whiteboard only, and needs --seams (the chapter erase times)"
+    },
+    "wall_s_by_check": {
+      "decoded_blank_frames": 0.0,
+      "zero_ink_law": 0.0,
+      "clip_coverage_page": 0.0,
+      "double_exposure": 0.09,
+      "face_centring": 0.65,
+      "pill_canon_rendered": 0.0,
+      "gate1_geometry_audit": 5.2,
+      "gate2_frame_review": 1.99,
+      "cutout_checks_24_25": 6.09,
+      "gate3_gemini_describe": 22.89,
+      "audio_guards": 1.15,
+      "contact_sheet": 2.65,
+      "phone_crops": 0.28,
+      "edge_clip": 11.53,
+      "face_hf_vs_plate": 5.81,
+      "head_scale_vs_framing": 7.72,
+      "single_decode": 11.01
+    },
+    "total_wall_s": 22.9,
+    "pass": true
+  },
+  "continuous_playback_review": false,
+  "scope": "Sampled source/matte, six staged frames and all nominated actual MP4 frames in manifest. Not continuous playback; no claim every frame inspected.",
+  "sample_times_seconds": [
+    0.0,
+    0.16,
+    0.4,
+    5.56,
+    11.12,
+    16.72,
+    22.28,
+    27.84,
+    33.44,
+    39.0,
+    44.48
+  ],
+  "reviewed_epoch": 1788638154.002242
+}

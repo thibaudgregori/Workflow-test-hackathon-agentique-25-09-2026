@@ -1,0 +1,37 @@
+{
+ "video": "plantsite",
+ "fmt": "cutout",
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/projects/plantsite_cutout",
+ "cold_dir": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/bb23e443",
+ "evidence": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/reader_plantsite_cutout_round1.json",
+ "reader": "one fresh `claude -p` process per crop, launched from /tmp with only an absolute path into review/cold/bb23e443 - no plan, no page, no project, no sheet, no manifest, no key, and no path naming the video",
+ "scored_by": "the cutout author, against the shared scene module's declared BESPOKE names (SC.BESPOKE), which are also the plan's bespoke_objects names",
+ "objects": [
+  {
+   "i": 0,
+   "intended": "a ticked checklist",
+   "namer_answer": "checklist clipboard (sure)",
+   "verdict": "PASS",
+   "reason": "'checklist' is the intended object verbatim and 'clipboard' is the plan's own listed synonym (bespoke_objects[0].cold_read_note: 'checklist' / 'to-do list' / 'clipboard' - all the intended object)."
+  },
+  {
+   "i": 1,
+   "intended": "a website about plants",
+   "namer_answer": "flower (sure)",
+   "verdict": "FAIL",
+   "reason": "The reader names only the flower and never the page. The plan wrote the passing read itself (bespoke_objects[1].cold_read_note: \"the read is 'plant website' / 'flower webpage', not 'browser window'\") and the container half is absent. With the split lane's three independent readers this drawing has now been read cold FOUR times and answered 'flower' every time. A partial read is a missing object, not a label to argue with. The plan's own named replacement - a laptop with the same flower on its screen, already drawn at gen/plantsite_proof.py::laptop_html - was read blind and came back 'laptop with flower' (sure), but it cannot be seated in the shared scene without re-deriving LAW 40's two connector anchors and moving LAW 38's emphasis off #plant-page's CSS border; see plans/plantsite_cutout_notes.md c2."
+  },
+  {
+   "i": 2,
+   "intended": "a calendar",
+   "namer_answer": "calendar (sure)",
+   "verdict": "PASS",
+   "reason": "the intended object verbatim; the WEEKEND key carries the rest on the board (bespoke_objects[2].cold_read_note)."
+  }
+ ],
+ "verdict": "FAIL",
+ "rounds": 1,
+ "redesigned": false,
+ "blocked_on": "bespoke object 1, the PLANT WEB PAGE. The drawing lives in the SHARED gen/plantsite_scene.py, which both format lanes import; re-drawing it is the artwork lane's job and would also invalidate projects/plantsite_split, which is build-green against the current module. Nothing was rendered: production-v2 forbids rendering a known cold-read failure.",
+ "not_submitted_to": "pipeline/production.py phone-pass (it refuses failures by design, and a hash-bound approval must never exist for this page)"
+}

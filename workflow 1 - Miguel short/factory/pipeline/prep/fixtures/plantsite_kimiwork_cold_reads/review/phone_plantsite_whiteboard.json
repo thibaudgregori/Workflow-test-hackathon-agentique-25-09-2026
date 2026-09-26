@@ -1,0 +1,90 @@
+{
+ "label": "plantsite_whiteboard",
+ "video": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/projects/plantsite_whiteboard",
+ "phone_scale": "405x720",
+ "sheet": "shorts_run16/review/phone_plantsite_whiteboard.png",
+ "rule": "a FRESH judge (never read the plan) names each crop in <=3 words. Wrong name, hedge, or 'cannot tell' = the object is redesigned, not annotated.",
+ "answer_key": "shorts_run16/review/phone_plantsite_whiteboard.key.json",
+ "answer_key_rule": "DO NOT OPEN the answer key until every judge_answer below is filled in. Reading it first voids the Phone Test.",
+ "cut_from": "headless page screenshots, no video render",
+ "mode": "phone-test",
+ "objects": [
+  {
+   "i": 0,
+   "t": 2.8,
+   "bbox_norm": [
+    0.3854,
+    0.1758,
+    0.6146,
+    0.3242
+   ],
+   "phone_box_px": [
+    156,
+    126,
+    248,
+    233
+   ],
+   "phone_size_px": [
+    92,
+    107
+   ],
+   "path": "shorts_run16/review/phone_plantsite_whiteboard/00.png",
+   "sheet_scale": 1.0,
+   "judge_answer": "checklist clipboard",
+   "verdict": "PASS"
+  },
+  {
+   "i": 1,
+   "t": 8.9,
+   "bbox_norm": [
+    0.4826,
+    0.2031,
+    0.8472,
+    0.373
+   ],
+   "phone_box_px": [
+    195,
+    146,
+    343,
+    268
+   ],
+   "phone_size_px": [
+    148,
+    122
+   ],
+   "path": "shorts_run16/review/phone_plantsite_whiteboard/01.png",
+   "sheet_scale": 1.0,
+   "judge_answer": "flower website",
+   "verdict": "PASS"
+  },
+  {
+   "i": 2,
+   "t": 14.95,
+   "bbox_norm": [
+    0.1285,
+    0.293,
+    0.3576,
+    0.3789
+   ],
+   "phone_box_px": [
+    52,
+    210,
+    144,
+    272
+   ],
+   "phone_size_px": [
+    92,
+    62
+   ],
+   "path": "shorts_run16/review/phone_plantsite_whiteboard/02.png",
+   "sheet_scale": 1.0,
+   "judge_answer": "calendar",
+   "verdict": "PASS"
+  }
+ ],
+ "clerk_scored": {
+  "by": "independent clerk audit_plantsite",
+  "result": "3/3 PASS",
+  "key_opened_after_answers": true
+ }
+}

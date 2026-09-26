@@ -1,0 +1,15 @@
+{
+  "id": "kimiwork",
+  "decision": "already-approved-no-action",
+  "selection": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/matting/kimiwork/selection.json",
+  "status": "reviewed",
+  "mask": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/matting/kimiwork/selection.mask.png",
+  "mask_sha256": "30fedbddf6d644bd125516a23a1d14daa239f3b429992400fca9d0491fabebc6",
+  "base_mask_sha256": "9cef979304e152815abf77b211460b82962d776083a44cda696010241ff0d2fa",
+  "reviewer": "Fable 5.1 (candidate r4b) + Astra (parent exact-hash PASS, checkpoint 10)",
+  "user_acceptance": "MATTES_FINAL.md - Miguel, 2026-09-06, seed mask sha256 matches",
+  "prepare_run": false,
+  "approve_run": false,
+  "file_modified": false,
+  "notes": "Prior-pass approval honoured. selection.json status=reviewed with two exclude polygons (headrest wing beside image-right ear; chair seat-back shadow above image-left shoulder); MATTES_FINAL.md (2026-09-06) records Miguel accepting the kimiwork cut-out with the identical seed mask sha256. No prepare, no approve, no write."
+}

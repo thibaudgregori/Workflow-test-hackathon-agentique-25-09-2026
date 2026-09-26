@@ -1,0 +1,372 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=1080, height=1920"/>
+<title>deepresearch — Diagram build (run 4)</title>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Nunito:wght@800&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500;700&display=block" rel="stylesheet">
+<style>
+
+* { margin:0; padding:0; box-sizing:border-box; }
+body { margin:0; background:#000; }
+#root { position:relative; width:1080px; height:1920px; overflow:hidden;
+  font-family:Poppins,sans-serif; }
+.clip { position:absolute; }
+.abs { position:absolute; }
+.tz { left:0; top:0; width:1080px; height:862.5px; overflow:hidden; }
+.tz.cream { background:#F6F1EA; }
+.tz.dark { background:#101012; }
+.serif { font-family:'Instrument Serif',serif; font-style:italic; line-height:1.0;
+  color:#DD7259; }
+.mono { font-family:'JetBrains Mono',monospace; letter-spacing:3.8px;
+  text-transform:uppercase; }
+.disp { font-family:Poppins,sans-serif; font-weight:800; letter-spacing:-0.02em;
+  line-height:1.05; color:#111111; overflow-wrap:break-word; }
+.disp.od { color:#F3EEE6; }
+.shot { overflow:hidden; background:#FFFFFF;
+  box-shadow:0 26.2px 63.8px rgba(0,0,0,0.20); }
+.shot img { display:block; width:100%; height:100%; }
+.ltile { background:#FFFFFF; display:flex; align-items:center; justify-content:center;
+  border:1px solid rgba(17,17,17,0.09);
+  box-shadow:0 7.5px 20.6px rgba(0,0,0,0.07); }
+.ltile.od { box-shadow:none; border:1px solid rgba(255,255,255,0.18); }
+.rule { display:block; transform-origin:left center; background:#C4573A; }
+.node { border-radius:24.4px; border:3.8px solid rgba(17,17,17,0.20);
+  background:#FFFFFF; display:flex; align-items:center; justify-content:center;
+  text-align:center; font-family:'JetBrains Mono',monospace; color:#111111;
+  text-transform:uppercase; }
+.node.hero { border-color:#DD7259; }
+.node.od { background:#1C1C21; border-color:rgba(255,255,255,0.20); color:#F3EEE6; }
+.node.od.hero { border-color:#DD7259; }
+.node.dash { border-style:dashed; border-color:rgba(17,17,17,0.30); background:transparent; }
+.card { border-radius:30.0px; border:3.8px solid rgba(17,17,17,0.16);
+  background:#FFFFFF; }
+.card.od { background:#1C1C21; border-color:rgba(255,255,255,0.16); }
+.ctchip { display:inline-block; background:rgba(16,16,18,0.62); color:#F6F1EA;
+  font-family:'JetBrains Mono',monospace; border-radius:1873.1px;
+  padding:16.9px 41.2px; letter-spacing:3.8px; white-space:nowrap; }
+.scap { left:0; width:1080px; text-align:center; }
+.scappill { display:inline-block; transform:translateY(-50%); background:#C4573A;
+  color:#fff; font-family:Nunito,sans-serif; font-weight:800;
+  padding:18.8px 33.8px; border-radius:22.5px; white-space:nowrap; }
+.mark { display:flex; align-items:center; justify-content:center;
+  font-family:Poppins,sans-serif; font-weight:800; color:#fff; }
+
+</style>
+</head>
+<body>
+<div id="root" data-composition-id="main" data-start="0" data-width="1080" data-height="1920"
+     data-duration="49.47" data-fps="30">
+
+  <video id="facebot" src="assets/v/deepresearch/face_bottom.mp4" data-start="0" data-duration="49.47" data-media-start="0" data-track-index="1" muted playsinline style="position:absolute;top:862.5px;left:0;width:1080px;height:1057.5px;object-fit:cover"></video>
+
+  <section id="tz-b1" class="clip tz cream" data-start="0.00" data-duration="14.71" data-track-index="2">
+    <div id="p10" class="abs ltile" style="left:133.1px;top:157.5px;width:93.8px;height:93.8px;border-radius:24.4px;opacity:0;"><img src="assets/img/logos/openai.png" alt="" style="width:56.2px;height:56.2px;object-fit:contain"/></div>
+    <div id="p11" class="abs ltile" style="left:253.1px;top:157.5px;width:93.8px;height:93.8px;border-radius:24.4px;opacity:0;"><img src="assets/img/logos/claude.png" alt="" style="width:56.2px;height:56.2px;object-fit:contain"/></div>
+    <div id="p12" class="abs ltile" style="left:373.1px;top:157.5px;width:93.8px;height:93.8px;border-radius:24.4px;opacity:0;"><img src="assets/img/logos/gemini.png" alt="" style="width:56.2px;height:56.2px;object-fit:contain"/></div>
+    <div id="p13" class="abs ltile" style="left:493.1px;top:157.5px;width:93.8px;height:93.8px;border-radius:24.4px;opacity:0;"><img src="assets/img/logos/grok.png" alt="" style="width:56.2px;height:56.2px;object-fit:contain"/></div>
+    <div id="p14" class="abs ltile" style="left:613.1px;top:157.5px;width:93.8px;height:93.8px;border-radius:24.4px;opacity:0;"><img src="assets/img/logos/perplexity.png" alt="" style="width:56.2px;height:56.2px;object-fit:contain"/></div>
+    <div id="p15" class="abs ltile" style="left:733.1px;top:157.5px;width:93.8px;height:93.8px;border-radius:24.4px;opacity:0;"><img src="assets/img/logos/deepseek.png" alt="" style="width:56.2px;height:56.2px;object-fit:contain"/></div>
+    <div id="p16" class="abs ltile" style="left:853.1px;top:157.5px;width:93.8px;height:93.8px;border-radius:24.4px;opacity:0;"><img src="assets/img/logos/copilot.png" alt="" style="width:56.2px;height:56.2px;object-fit:contain"/></div>
+    <div class="abs" style="left:180.0px;top:249.2px;width:33.8px;height:4.1px;transform:rotate(90.00deg);transform-origin:left center"><div id="st10" class="rule" style="width:100%;height:100%;background:#C4573A;transform:scaleX(0)"></div></div>
+    <div class="abs" style="left:300.0px;top:249.2px;width:33.8px;height:4.1px;transform:rotate(90.00deg);transform-origin:left center"><div id="st11" class="rule" style="width:100%;height:100%;background:#C4573A;transform:scaleX(0)"></div></div>
+    <div class="abs" style="left:420.0px;top:249.2px;width:33.8px;height:4.1px;transform:rotate(90.00deg);transform-origin:left center"><div id="st12" class="rule" style="width:100%;height:100%;background:#C4573A;transform:scaleX(0)"></div></div>
+    <div class="abs" style="left:540.0px;top:249.2px;width:33.8px;height:4.1px;transform:rotate(90.00deg);transform-origin:left center"><div id="st13" class="rule" style="width:100%;height:100%;background:#C4573A;transform:scaleX(0)"></div></div>
+    <div class="abs" style="left:660.0px;top:249.2px;width:33.8px;height:4.1px;transform:rotate(90.00deg);transform-origin:left center"><div id="st14" class="rule" style="width:100%;height:100%;background:#C4573A;transform:scaleX(0)"></div></div>
+    <div class="abs" style="left:780.0px;top:249.2px;width:33.8px;height:4.1px;transform:rotate(90.00deg);transform-origin:left center"><div id="st15" class="rule" style="width:100%;height:100%;background:#C4573A;transform:scaleX(0)"></div></div>
+    <div class="abs" style="left:900.0px;top:249.2px;width:33.8px;height:4.1px;transform:rotate(90.00deg);transform-origin:left center"><div id="st16" class="rule" style="width:100%;height:100%;background:#C4573A;transform:scaleX(0)"></div></div>
+    <div class="abs" style="left:180.0px;top:282.9px;width:720.0px;height:4.1px;transform:rotate(0.00deg);transform-origin:left center"><div id="bus1" class="rule" style="width:100%;height:100%;background:#C4573A;transform:scaleX(0)"></div></div>
+    <div class="abs" style="left:540.0px;top:282.9px;width:30.0px;height:4.1px;transform:rotate(90.00deg);transform-origin:left center"><div id="bus1c" class="rule" style="width:100%;height:100%;background:#C4573A;transform:scaleX(0)"></div></div>
+    <div id="dash1" class="abs node dash" style="left:315.0px;top:315.0px;width:450.0px;height:116.2px;font-size:28.1px;letter-spacing:2.8px;line-height:1.25;color:#6E6A62;opacity:0"></div>
+    <div id="hero1" class="abs node hero" style="left:315.0px;top:315.0px;width:450.0px;height:116.2px;font-size:28.1px;letter-spacing:2.8px;line-height:1.25;opacity:0"></div>
+    <div class="abs" style="left:540.0px;top:428.8px;width:116.2px;height:4.9px;transform:rotate(90.00deg);transform-origin:left center"><div id="a1" class="rule" style="width:105.9px;height:100%;background:#C4573A;transform:scaleX(0)"></div><div id="a1h" class="abs" style="left:95.6px;top:-9.5px;width:0;height:0;opacity:0;border-left:20.6px solid #C4573A;border-top:12.0px solid transparent;border-bottom:12.0px solid transparent"></div></div>
+    <div id="task1" class="abs node" style="left:333.8px;top:547.5px;width:412.5px;height:108.8px;font-size:28.1px;letter-spacing:2.8px;line-height:1.25;opacity:0">YOUR TASK</div>
+    <div id="k1t" class="abs disp" data-overlap-ok style="left:71.2px;top:150.0px;width:937.5px;font-size:97.5px;text-align:center;color:#111111;opacity:0;">DEEP RESEARCH</div>
+    <div class="abs" style="left:382.5px;top:262.1px;width:315.0px;height:9.4px"><div id="k1u" class="rule" style="width:100%;height:100%;background:#DD7259;transform:scaleX(0)"></div></div>
+    <div id="t1c" class="abs shot" style="left:99.4px;top:315.0px;width:881.2px;height:220.3px;border-radius:30.0px;"><img src="assets/img/tweet.png" alt=""/></div>
+    <div id="t1r" class="abs" style="left:117.4px;top:440.4px;width:827.4px;height:87.8px;border-radius:16.9px;border-style:solid;border-width:5.6px;border-color:#DD7259;opacity:0"></div>
+  </section>
+  <section id="tz-b2" class="clip tz cream" data-start="14.56" data-duration="11.07" data-track-index="3">
+    <div id="d2t" class="abs node" style="left:371.2px;top:105.0px;width:337.5px;height:86.2px;font-size:26.2px;letter-spacing:2.8px;line-height:1.25;opacity:0">YOUR TASK</div>
+    <div id="d2ds" class="abs node dash" style="left:315.0px;top:251.2px;width:450.0px;height:105.0px;font-size:28.1px;letter-spacing:2.8px;line-height:1.25;color:#6E6A62;opacity:0"></div>
+    <div id="d2h" class="abs node hero" style="left:315.0px;top:251.2px;width:450.0px;height:105.0px;font-size:28.1px;letter-spacing:2.8px;line-height:1.25;opacity:0">DEEP RESEARCH</div>
+    <div class="abs" style="left:540.0px;top:188.8px;width:60.0px;height:4.9px;transform:rotate(90.00deg);transform-origin:left center"><div id="d2a" class="rule" style="width:49.7px;height:100%;background:#C4573A;transform:scaleX(0)"></div><div id="d2ah" class="abs" style="left:39.4px;top:-9.5px;width:0;height:0;opacity:0;border-left:20.6px solid #C4573A;border-top:12.0px solid transparent;border-bottom:12.0px solid transparent"></div></div>
+    <div id="d2n0" class="abs node" style="left:58.1px;top:427.5px;width:221.2px;height:82.5px;font-size:22.5px;letter-spacing:2.8px;line-height:1.25;opacity:0">AGENT 01</div>
+    <div class="abs" style="left:540.0px;top:353.8px;width:378.0px;height:4.9px;transform:rotate(169.14deg);transform-origin:left center"><div id="d2f0" class="rule" style="width:367.7px;height:100%;background:#C4573A;transform:scaleX(0)"></div><div id="d2f0h" class="abs" style="left:357.4px;top:-9.5px;width:0;height:0;opacity:0;border-left:20.6px solid #C4573A;border-top:12.0px solid transparent;border-bottom:12.0px solid transparent"></div></div>
+    <div id="d2m0w" class="abs" style="left:91.9px;top:528.8px;width:153.8px;height:15.0px;background:rgba(17,17,17,0.10);border-radius:7.5px;overflow:hidden;opacity:0"><div id="d2m0" class="rule" style="width:100%;height:100%;background:#C4573A;border-radius:7.5px;transform:scaleX(0)"></div></div>
+    <div class="abs" style="left:168.8px;top:552.9px;width:372.8px;height:4.1px;transform:rotate(5.19deg);transform-origin:left center"><div id="d2c0" class="rule" style="width:100%;height:100%;background:#C4573A;transform:scaleX(0)"></div></div>
+    <div id="d2n1" class="abs node" style="left:305.6px;top:427.5px;width:221.2px;height:82.5px;font-size:22.5px;letter-spacing:2.8px;line-height:1.25;opacity:0">AGENT 02</div>
+    <div class="abs" style="left:540.0px;top:353.8px;width:142.8px;height:4.9px;transform:rotate(150.07deg);transform-origin:left center"><div id="d2f1" class="rule" style="width:132.5px;height:100%;background:#C4573A;transform:scaleX(0)"></div><div id="d2f1h" class="abs" style="left:122.2px;top:-9.5px;width:0;height:0;opacity:0;border-left:20.6px solid #C4573A;border-top:12.0px solid transparent;border-bottom:12.0px solid transparent"></div></div>
+    <div id="d2m1w" class="abs" style="left:339.4px;top:528.8px;width:153.8px;height:15.0px;background:rgba(17,17,17,0.10);border-radius:7.5px;overflow:hidden;opacity:0"><div id="d2m1" class="rule" style="width:100%;height:100%;background:#C4573A;border-radius:7.5px;transform:scaleX(0)"></div></div>
+    <div class="abs" style="left:416.2px;top:552.9px;width:128.3px;height:4.1px;transform:rotate(15.26deg);transform-origin:left center"><div id="d2c1" class="rule" style="width:100%;height:100%;background:#C4573A;transform:scaleX(0)"></div></div>
+    <div id="d2n2" class="abs node" style="left:553.1px;top:427.5px;width:221.2px;height:82.5px;font-size:22.5px;letter-spacing:2.8px;line-height:1.25;opacity:0">AGENT 03</div>
+    <div class="abs" style="left:540.0px;top:353.8px;width:142.8px;height:4.9px;transform:rotate(29.93deg);transform-origin:left center"><div id="d2f2" class="rule" style="width:132.5px;height:100%;background:#C4573A;transform:scaleX(0)"></div><div id="d2f2h" class="abs" style="left:122.2px;top:-9.5px;width:0;height:0;opacity:0;border-left:20.6px solid #C4573A;border-top:12.0px solid transparent;border-bottom:12.0px solid transparent"></div></div>
+    <div id="d2m2w" class="abs" style="left:586.9px;top:528.8px;width:153.8px;height:15.0px;background:rgba(17,17,17,0.10);border-radius:7.5px;overflow:hidden;opacity:0"><div id="d2m2" class="rule" style="width:100%;height:100%;background:#C4573A;border-radius:7.5px;transform:scaleX(0)"></div></div>
+    <div class="abs" style="left:663.8px;top:552.9px;width:128.3px;height:4.1px;transform:rotate(164.74deg);transform-origin:left center"><div id="d2c2" class="rule" style="width:100%;height:100%;background:#C4573A;transform:scaleX(0)"></div></div>
+    <div id="d2n3" class="abs node" style="left:800.6px;top:427.5px;width:221.2px;height:82.5px;font-size:22.5px;letter-spacing:2.8px;line-height:1.25;opacity:0">AGENT 04</div>
+    <div class="abs" style="left:540.0px;top:353.8px;width:378.0px;height:4.9px;transform:rotate(10.86deg);transform-origin:left center"><div id="d2f3" class="rule" style="width:367.7px;height:100%;background:#C4573A;transform:scaleX(0)"></div><div id="d2f3h" class="abs" style="left:357.4px;top:-9.5px;width:0;height:0;opacity:0;border-left:20.6px solid #C4573A;border-top:12.0px solid transparent;border-bottom:12.0px solid transparent"></div></div>
+    <div id="d2m3w" class="abs" style="left:834.4px;top:528.8px;width:153.8px;height:15.0px;background:rgba(17,17,17,0.10);border-radius:7.5px;overflow:hidden;opacity:0"><div id="d2m3" class="rule" style="width:100%;height:100%;background:#C4573A;border-radius:7.5px;transform:scaleX(0)"></div></div>
+    <div class="abs" style="left:911.2px;top:552.9px;width:372.8px;height:4.1px;transform:rotate(174.81deg);transform-origin:left center"><div id="d2c3" class="rule" style="width:100%;height:100%;background:#C4573A;transform:scaleX(0)"></div></div>
+    <div id="d2b" class="abs card node" style="left:240.0px;top:588.8px;width:600.0px;height:165.0px;opacity:0"></div>
+    <div id="d2bl" class="abs mono" style="left:285.0px;top:603.8px;width:375.0px;font-size:20.6px;text-align:left;color:#6E6A62;opacity:0;">your context</div>
+    <div id="d2s0" class="abs" style="left:285.0px;top:641.2px;width:510.0px;height:16.9px;border-radius:8.4px;background:rgba(196,87,58,0.88);opacity:0"></div>
+    <div id="d2s1" class="abs" style="left:285.0px;top:667.5px;width:423.8px;height:16.9px;border-radius:8.4px;background:rgba(196,87,58,0.88);opacity:0"></div>
+    <div id="d2s2" class="abs" style="left:285.0px;top:693.8px;width:510.0px;height:16.9px;border-radius:8.4px;background:rgba(196,87,58,0.88);opacity:0"></div>
+    <div id="d2s3" class="abs" style="left:285.0px;top:720.0px;width:423.8px;height:16.9px;border-radius:8.4px;background:rgba(196,87,58,0.88);opacity:0"></div>
+  </section>
+  <section id="tz-b3" class="clip tz dark" data-start="25.48" data-duration="8.93" data-track-index="4">
+    <div id="d3h" class="abs mono" style="left:90.0px;top:108.8px;width:900.0px;font-size:24.4px;text-align:center;color:#9C978D;opacity:0;">same agent</div>
+    <div id="d3a" class="abs card od" style="left:52.5px;top:195.0px;width:450.0px;height:435.0px;opacity:0"></div>
+    <div id="d3ga" class="abs" style="left:225.0px;top:228.8px;width:105.0px;height:105.0px;border-radius:27.3px;background:#26262C;border:1px solid rgba(255,255,255,0.18);opacity:0"><div class="abs" style="left:24.1px;top:24.1px;width:56.7px;height:56.7px;background:#DD7259;clip-path:polygon(50% 0%,61% 39%,100% 50%,61% 61%,50% 100%,39% 61%,0% 50%,39% 39%)"></div></div>
+    <div id="d3b" class="abs card od" style="left:577.5px;top:195.0px;width:450.0px;height:435.0px;opacity:0"></div>
+    <div id="d3gb" class="abs" style="left:750.0px;top:228.8px;width:105.0px;height:105.0px;border-radius:27.3px;background:#26262C;border:1px solid rgba(255,255,255,0.18);opacity:0"><div class="abs" style="left:24.1px;top:24.1px;width:56.7px;height:56.7px;background:#DD7259;clip-path:polygon(50% 0%,61% 39%,100% 50%,61% 61%,50% 100%,39% 61%,0% 50%,39% 39%)"></div></div>
+    <div id="d3ba0" class="abs" style="left:101.2px;top:390.0px;width:352.5px;height:30.0px;border-radius:15.0px;background:rgba(196,87,58,0.88);opacity:0"></div>
+    <div id="d3ba1" class="abs" style="left:101.2px;top:446.2px;width:352.5px;height:30.0px;border-radius:15.0px;background:rgba(196,87,58,0.88);opacity:0"></div>
+    <div id="d3bb0" class="abs" style="left:626.2px;top:390.0px;width:352.5px;height:24.4px;border-radius:12.2px;background:rgba(196,87,58,0.88);opacity:0"></div>
+    <div id="d3bb1" class="abs" style="left:626.2px;top:431.2px;width:352.5px;height:24.4px;border-radius:12.2px;background:rgba(196,87,58,0.88);opacity:0"></div>
+    <div id="d3bb2" class="abs" style="left:626.2px;top:472.5px;width:352.5px;height:24.4px;border-radius:12.2px;background:rgba(196,87,58,0.88);opacity:0"></div>
+    <div id="d3bb3" class="abs" style="left:626.2px;top:513.8px;width:352.5px;height:24.4px;border-radius:12.2px;background:rgba(196,87,58,0.88);opacity:0"></div>
+    <div id="d3bb4" class="abs" style="left:626.2px;top:555.0px;width:352.5px;height:24.4px;border-radius:12.2px;background:rgba(196,87,58,0.88);opacity:0"></div>
+    <div id="d3bb5" class="abs" style="left:626.2px;top:596.2px;width:352.5px;height:24.4px;border-radius:12.2px;background:rgba(196,87,58,0.88);opacity:0"></div>
+    <div id="d3k" class="abs mark" style="left:945.0px;top:225.0px;width:48.8px;height:48.8px;border-radius:14.6px;background:#C4573A;opacity:0;font-size:27.3px">&#10003;</div>
+    <div id="d3ta" class="abs disp od" style="left:52.5px;top:671.2px;width:450.0px;font-size:56.2px;text-align:center;color:#9C978D;opacity:0;">INTERN</div>
+    <div id="d3tb" class="abs disp od" style="left:577.5px;top:671.2px;width:450.0px;font-size:56.2px;text-align:center;color:#DD7259;opacity:0;">EMPLOYEE</div>
+  </section>
+  <section id="tz-b4" class="clip tz cream" data-start="34.26" data-duration="11.49" data-track-index="5">
+    <div id="d4p" class="abs card node" style="left:67.5px;top:221.2px;width:573.8px;height:465.0px;opacity:0"></div>
+    <div id="d4h" class="abs mono" style="left:101.2px;top:172.5px;width:281.2px;font-size:22.5px;text-align:left;color:#6E6A62;opacity:0;">research</div>
+    <div id="d4v" class="abs mono" style="left:345.0px;top:172.5px;width:281.2px;font-size:22.5px;text-align:right;color:#6E6A62;opacity:0;">verdict</div>
+    <div id="d4r0" class="abs mono" style="left:108.8px;top:277.5px;width:393.8px;font-size:24.4px;text-align:left;color:#111111;opacity:0;">ARCHITECTURE</div>
+    <div class="abs" style="left:101.2px;top:288.4px;width:231.8px;height:4.5px"><div id="d4s0" class="rule" style="width:100%;height:100%;background:#6E6A62;transform:scaleX(0)"></div></div>
+    <div id="d4k0" class="abs mark" style="left:547.5px;top:266.2px;width:45.0px;height:45.0px;border-radius:13.5px;background:#C4573A;opacity:0;font-size:25.2px">&#10003;</div>
+    <div id="d4r1" class="abs mono" style="left:108.8px;top:360.0px;width:393.8px;font-size:24.4px;text-align:left;color:#111111;opacity:0;">APPROACHES</div>
+    <div class="abs" style="left:101.2px;top:370.9px;width:195.0px;height:4.5px"><div id="d4s1" class="rule" style="width:100%;height:100%;background:#6E6A62;transform:scaleX(0)"></div></div>
+    <div id="d4x1" class="abs mark" style="left:547.5px;top:348.8px;width:45.0px;height:45.0px;border-radius:13.5px;background:#6E6A62;opacity:0;font-size:22.5px">&#10005;</div>
+    <div id="d4r2" class="abs mono" style="left:108.8px;top:442.5px;width:393.8px;font-size:24.4px;text-align:left;color:#111111;opacity:0;">LIMITATIONS</div>
+    <div class="abs" style="left:101.2px;top:453.4px;width:213.4px;height:4.5px"><div id="d4s2" class="rule" style="width:100%;height:100%;background:#6E6A62;transform:scaleX(0)"></div></div>
+    <div id="d4k2" class="abs mark" style="left:547.5px;top:431.2px;width:45.0px;height:45.0px;border-radius:13.5px;background:#C4573A;opacity:0;font-size:25.2px">&#10003;</div>
+    <div id="d4r3" class="abs mono" style="left:108.8px;top:525.0px;width:393.8px;font-size:24.4px;text-align:left;color:#111111;opacity:0;">TRADE-OFFS</div>
+    <div class="abs" style="left:101.2px;top:535.9px;width:195.0px;height:4.5px"><div id="d4s3" class="rule" style="width:100%;height:100%;background:#6E6A62;transform:scaleX(0)"></div></div>
+    <div id="d4k3" class="abs mark" style="left:547.5px;top:513.8px;width:45.0px;height:45.0px;border-radius:13.5px;background:#C4573A;opacity:0;font-size:25.2px">&#10003;</div>
+    <div id="d4r4" class="abs mono" style="left:108.8px;top:607.5px;width:393.8px;font-size:24.4px;text-align:left;color:#111111;opacity:0;">EDGE CASES</div>
+    <div class="abs" style="left:101.2px;top:618.4px;width:195.0px;height:4.5px"><div id="d4s4" class="rule" style="width:100%;height:100%;background:#6E6A62;transform:scaleX(0)"></div></div>
+    <div id="d4x4" class="abs mark" style="left:547.5px;top:596.2px;width:45.0px;height:45.0px;border-radius:13.5px;background:#6E6A62;opacity:0;font-size:22.5px">&#10005;</div>
+    <div id="d4o0" class="abs node hero" style="left:697.5px;top:266.2px;width:322.5px;height:101.2px;font-size:22.5px;letter-spacing:2.2px;line-height:1.25;opacity:0">YOUR APPLICATION</div>
+    <div class="abs" style="left:652.5px;top:451.3px;width:144.1px;height:4.9px;transform:rotate(-71.80deg);transform-origin:left center"><div id="d4a0" class="rule" style="width:133.8px;height:100%;background:#C4573A;transform:scaleX(0)"></div><div id="d4a0h" class="abs" style="left:123.5px;top:-9.5px;width:0;height:0;opacity:0;border-left:20.6px solid #C4573A;border-top:12.0px solid transparent;border-bottom:12.0px solid transparent"></div></div>
+    <div id="d4o1" class="abs node" style="left:697.5px;top:408.8px;width:322.5px;height:101.2px;font-size:22.5px;letter-spacing:2.2px;line-height:1.25;opacity:0">YOUR BRIEF</div>
+    <div class="abs" style="left:652.5px;top:451.3px;width:45.4px;height:4.9px;transform:rotate(7.13deg);transform-origin:left center"><div id="d4a1" class="rule" style="width:35.0px;height:100%;background:#C4573A;transform:scaleX(0)"></div><div id="d4a1h" class="abs" style="left:24.7px;top:-9.5px;width:0;height:0;opacity:0;border-left:20.6px solid #C4573A;border-top:12.0px solid transparent;border-bottom:12.0px solid transparent"></div></div>
+    <div id="d4o2" class="abs node" style="left:697.5px;top:551.2px;width:322.5px;height:101.2px;font-size:22.5px;letter-spacing:2.2px;line-height:1.25;opacity:0">ANYTHING</div>
+    <div class="abs" style="left:652.5px;top:451.3px;width:154.8px;height:4.9px;transform:rotate(73.10deg);transform-origin:left center"><div id="d4a2" class="rule" style="width:144.5px;height:100%;background:#C4573A;transform:scaleX(0)"></div><div id="d4a2h" class="abs" style="left:134.2px;top:-9.5px;width:0;height:0;opacity:0;border-left:20.6px solid #C4573A;border-top:12.0px solid transparent;border-bottom:12.0px solid transparent"></div></div>
+  </section>
+  <section id="tz-outro" class="clip tz cream" data-start="45.60" data-duration="3.87" data-track-index="6">
+    <div id="ohn" class="abs node hero" style="left:288.8px;top:142.5px;width:502.5px;height:142.5px;font-size:37.5px;letter-spacing:5.6px;line-height:1.25;opacity:0">FOLLOW</div>
+    <div id="on0" class="abs node" style="left:60.0px;top:405.0px;width:285.0px;height:97.5px;font-size:24.4px;letter-spacing:2.8px;line-height:1.25;opacity:0">AI VIDEOS</div>
+    <div class="abs" style="left:390.0px;top:282.8px;width:222.6px;height:4.5px;transform:rotate(147.38deg);transform-origin:left center"><div id="oa0" class="rule" style="width:213.2px;height:100%;background:#DD7259;transform:scaleX(0)"></div><div id="oa0h" class="abs" style="left:203.9px;top:-8.6px;width:0;height:0;opacity:0;border-left:18.8px solid #DD7259;border-top:10.9px solid transparent;border-bottom:10.9px solid transparent"></div></div>
+    <div id="on1" class="abs node" style="left:397.5px;top:405.0px;width:285.0px;height:97.5px;font-size:24.4px;letter-spacing:2.8px;line-height:1.25;opacity:0">TUTORIALS</div>
+    <div class="abs" style="left:540.0px;top:282.8px;width:120.0px;height:4.5px;transform:rotate(90.00deg);transform-origin:left center"><div id="oa1" class="rule" style="width:110.6px;height:100%;background:#DD7259;transform:scaleX(0)"></div><div id="oa1h" class="abs" style="left:101.2px;top:-8.6px;width:0;height:0;opacity:0;border-left:18.8px solid #DD7259;border-top:10.9px solid transparent;border-bottom:10.9px solid transparent"></div></div>
+    <div id="on2" class="abs node" style="left:735.0px;top:405.0px;width:285.0px;height:97.5px;font-size:24.4px;letter-spacing:2.8px;line-height:1.25;opacity:0">EVERY DAY</div>
+    <div class="abs" style="left:690.0px;top:282.8px;width:222.6px;height:4.5px;transform:rotate(32.62deg);transform-origin:left center"><div id="oa2" class="rule" style="width:213.2px;height:100%;background:#DD7259;transform:scaleX(0)"></div><div id="oa2h" class="abs" style="left:203.9px;top:-8.6px;width:0;height:0;opacity:0;border-left:18.8px solid #DD7259;border-top:10.9px solid transparent;border-bottom:10.9px solid transparent"></div></div>
+    <div id="od" class="abs serif" style="left:90.0px;top:555.0px;width:900.0px;font-size:60.0px;text-align:center;color:#DD7259;opacity:0;">one drop a day</div>
+    <div id="oe" class="abs" style="left:0;top:656.2px;width:1080.0px;text-align:center;opacity:0"><span class="ctchip" style="font-size:30.0px">Miguel Torrez AI</span></div>
+  </section>
+
+  <div id="cap0" class="clip scap" style="top:862.5px" data-start="0.24" data-duration="0.68" data-track-index="25"><span class="scappill" style="font-size:56.2px">If you're struggling to</span></div>
+  <div id="cap1" class="clip scap" style="top:862.5px" data-start="0.92" data-duration="0.82" data-track-index="25"><span class="scappill" style="font-size:56.2px">build with AI,</span></div>
+  <div id="cap2" class="clip scap" style="top:862.5px" data-start="1.74" data-duration="1.04" data-track-index="25"><span class="scappill" style="font-size:56.2px">follow this one simple</span></div>
+  <div id="cap3" class="clip scap" style="top:862.5px" data-start="2.78" data-duration="1.44" data-track-index="25"><span class="scappill" style="font-size:56.2px">trick. Before you actually</span></div>
+  <div id="cap4" class="clip scap" style="top:862.5px" data-start="4.22" data-duration="0.92" data-track-index="25"><span class="scappill" style="font-size:56.2px">start working on your</span></div>
+  <div id="cap5" class="clip scap" style="top:862.5px" data-start="5.14" data-duration="0.62" data-track-index="25"><span class="scappill" style="font-size:56.2px">task,</span></div>
+  <div id="cap6" class="clip scap" style="top:862.5px" data-start="5.76" data-duration="1.18" data-track-index="25"><span class="scappill" style="font-size:56.2px">actually use AI to</span></div>
+  <div id="cap7" class="clip scap" style="top:862.5px" data-start="6.94" data-duration="1.30" data-track-index="25"><span class="scappill" style="font-size:56.2px">do a deep research</span></div>
+  <div id="cap8" class="clip scap" style="top:862.5px" data-start="8.24" data-duration="0.70" data-track-index="25"><span class="scappill" style="font-size:56.2px">workflow.</span></div>
+  <div id="cap9" class="clip scap" style="top:862.5px" data-start="8.94" data-duration="1.04" data-track-index="25"><span class="scappill" style="font-size:56.2px">This is available on</span></div>
+  <div id="cap10" class="clip scap" style="top:862.5px" data-start="9.98" data-duration="1.44" data-track-index="25"><span class="scappill" style="font-size:56.2px">ChatGPT, Claude,</span></div>
+  <div id="cap11" class="clip scap" style="top:862.5px" data-start="11.42" data-duration="1.00" data-track-index="25"><span class="scappill" style="font-size:56.2px">Gemini, Grok,</span></div>
+  <div id="cap12" class="clip scap" style="top:862.5px" data-start="12.42" data-duration="1.48" data-track-index="25"><span class="scappill" style="font-size:56.2px">every major AI producer</span></div>
+  <div id="cap13" class="clip scap" style="top:862.5px" data-start="13.9" data-duration="0.66" data-track-index="25"><span class="scappill" style="font-size:56.2px">out there.</span></div>
+  <div id="cap14" class="clip scap" style="top:862.5px" data-start="14.56" data-duration="0.94" data-track-index="25"><span class="scappill" style="font-size:56.2px">What this will do</span></div>
+  <div id="cap15" class="clip scap" style="top:862.5px" data-start="15.5" data-duration="0.96" data-track-index="25"><span class="scappill" style="font-size:56.2px">is it will actually</span></div>
+  <div id="cap16" class="clip scap" style="top:862.5px" data-start="16.46" data-duration="1.30" data-track-index="25"><span class="scappill" style="font-size:56.2px">trigger the AI to</span></div>
+  <div id="cap17" class="clip scap" style="top:862.5px" data-start="17.76" data-duration="1.54" data-track-index="25"><span class="scappill" style="font-size:56.2px">use multiple agents to</span></div>
+  <div id="cap18" class="clip scap" style="top:862.5px" data-start="19.3" data-duration="1.04" data-track-index="25"><span class="scappill" style="font-size:56.2px">do research on the</span></div>
+  <div id="cap19" class="clip scap" style="top:862.5px" data-start="20.34" data-duration="0.80" data-track-index="25"><span class="scappill" style="font-size:56.2px">task that you actually</span></div>
+  <div id="cap20" class="clip scap" style="top:862.5px" data-start="21.14" data-duration="0.78" data-track-index="25"><span class="scappill" style="font-size:56.2px">want to tackle.</span></div>
+  <div id="cap21" class="clip scap" style="top:862.5px" data-start="21.92" data-duration="0.80" data-track-index="25"><span class="scappill" style="font-size:56.2px">That means that you</span></div>
+  <div id="cap22" class="clip scap" style="top:862.5px" data-start="22.72" data-duration="0.84" data-track-index="25"><span class="scappill" style="font-size:56.2px">will have all of</span></div>
+  <div id="cap23" class="clip scap" style="top:862.5px" data-start="23.56" data-duration="1.08" data-track-index="25"><span class="scappill" style="font-size:56.2px">the information inside of</span></div>
+  <div id="cap24" class="clip scap" style="top:862.5px" data-start="24.64" data-duration="0.84" data-track-index="25"><span class="scappill" style="font-size:56.2px">your context.</span></div>
+  <div id="cap25" class="clip scap" style="top:862.5px" data-start="25.48" data-duration="1.42" data-track-index="25"><span class="scappill" style="font-size:56.2px">Remember, an AI agent</span></div>
+  <div id="cap26" class="clip scap" style="top:862.5px" data-start="26.9" data-duration="0.70" data-track-index="25"><span class="scappill" style="font-size:56.2px">that has</span></div>
+  <div id="cap27" class="clip scap" style="top:862.5px" data-start="27.6" data-duration="1.50" data-track-index="25"><span class="scappill" style="font-size:56.2px">two paragraphs of briefs</span></div>
+  <div id="cap28" class="clip scap" style="top:862.5px" data-start="29.1" data-duration="1.08" data-track-index="25"><span class="scappill" style="font-size:56.2px">is an intern,</span></div>
+  <div id="cap29" class="clip scap" style="top:862.5px" data-start="30.18" data-duration="1.02" data-track-index="25"><span class="scappill" style="font-size:56.2px">one that has a</span></div>
+  <div id="cap30" class="clip scap" style="top:862.5px" data-start="31.2" data-duration="1.48" data-track-index="25"><span class="scappill" style="font-size:56.2px">full-blown brief is an</span></div>
+  <div id="cap31" class="clip scap" style="top:862.5px" data-start="32.68" data-duration="1.64" data-track-index="25"><span class="scappill" style="font-size:56.2px">employee. Remember to also</span></div>
+  <div id="cap32" class="clip scap" style="top:862.5px" data-start="34.32" data-duration="1.50" data-track-index="25"><span class="scappill" style="font-size:56.2px">read what the AI</span></div>
+  <div id="cap33" class="clip scap" style="top:862.5px" data-start="35.82" data-duration="1.72" data-track-index="25"><span class="scappill" style="font-size:56.2px">agents brought as research.</span></div>
+  <div id="cap34" class="clip scap" style="top:862.5px" data-start="37.54" data-duration="0.34" data-track-index="25"><span class="scappill" style="font-size:56.2px">That way,</span></div>
+  <div id="cap35" class="clip scap" style="top:862.5px" data-start="37.88" data-duration="1.12" data-track-index="25"><span class="scappill" style="font-size:56.2px">you can actually say</span></div>
+  <div id="cap36" class="clip scap" style="top:862.5px" data-start="39.0" data-duration="0.76" data-track-index="25"><span class="scappill" style="font-size:56.2px">what is good and</span></div>
+  <div id="cap37" class="clip scap" style="top:862.5px" data-start="39.76" data-duration="0.96" data-track-index="25"><span class="scappill" style="font-size:56.2px">what it is not</span></div>
+  <div id="cap38" class="clip scap" style="top:862.5px" data-start="40.72" data-duration="0.94" data-track-index="25"><span class="scappill" style="font-size:56.2px">good in order to</span></div>
+  <div id="cap39" class="clip scap" style="top:862.5px" data-start="41.66" data-duration="1.00" data-track-index="25"><span class="scappill" style="font-size:56.2px">be able to produce</span></div>
+  <div id="cap40" class="clip scap" style="top:862.5px" data-start="42.66" data-duration="0.78" data-track-index="25"><span class="scappill" style="font-size:56.2px">your application,</span></div>
+  <div id="cap41" class="clip scap" style="top:862.5px" data-start="43.44" data-duration="1.02" data-track-index="25"><span class="scappill" style="font-size:56.2px">your brief,</span></div>
+  <div id="cap42" class="clip scap" style="top:862.5px" data-start="44.46" data-duration="0.86" data-track-index="25"><span class="scappill" style="font-size:56.2px">anything that you really</span></div>
+  <div id="cap43" class="clip scap" style="top:862.5px" data-start="45.32" data-duration="1.16" data-track-index="25"><span class="scappill" style="font-size:56.2px">want. Follow for more</span></div>
+  <div id="cap44" class="clip scap" style="top:862.5px" data-start="46.48" data-duration="1.24" data-track-index="25"><span class="scappill" style="font-size:56.2px">AI videos and tutorials</span></div>
+  <div id="cap45" class="clip scap" style="top:862.5px" data-start="47.72" data-duration="0.66" data-track-index="25"><span class="scappill" style="font-size:56.2px">each and every single</span></div>
+  <div id="cap46" class="clip scap" style="top:862.5px" data-start="48.38" data-duration="0.58" data-track-index="25"><span class="scappill" style="font-size:56.2px">day. See you in</span></div>
+  <div id="cap47" class="clip scap" style="top:862.5px" data-start="48.96" data-duration="0.51" data-track-index="25"><span class="scappill" style="font-size:56.2px">the next one.</span></div>
+
+  <audio id="vo" src="assets/v/deepresearch/audio.m4a" data-start="0" data-duration="49.47" data-track-index="30" data-volume="1"></audio>
+  <audio id="bgm0" src="assets/music/bed_split.mp3" data-start="0.00" data-duration="49.47" data-track-index="31" data-volume="0.16"></audio>
+  <audio id="sfx0" src="assets/sfx/whoosh.mp3" data-start="0.02" data-duration="0.68" data-track-index="32" data-volume="0.2"></audio>
+  <audio id="sfx1" src="assets/sfx/pop.mp3" data-start="0.35" data-duration="0.60" data-track-index="33" data-volume="0.28"></audio>
+  <audio id="sfx2" src="assets/sfx/whoosh.mp3" data-start="14.56" data-duration="0.68" data-track-index="34" data-volume="0.2"></audio>
+  <audio id="sfx3" src="assets/sfx/pop.mp3" data-start="14.91" data-duration="0.60" data-track-index="35" data-volume="0.28"></audio>
+  <audio id="sfx4" src="assets/sfx/whoosh.mp3" data-start="25.48" data-duration="0.68" data-track-index="36" data-volume="0.2"></audio>
+  <audio id="sfx5" src="assets/sfx/pop.mp3" data-start="25.83" data-duration="0.60" data-track-index="37" data-volume="0.28"></audio>
+  <audio id="sfx6" src="assets/sfx/whoosh.mp3" data-start="34.26" data-duration="0.68" data-track-index="38" data-volume="0.2"></audio>
+  <audio id="sfx7" src="assets/sfx/pop.mp3" data-start="34.61" data-duration="0.60" data-track-index="39" data-volume="0.28"></audio>
+  <audio id="sfx8" src="assets/sfx/whoosh.mp3" data-start="45.60" data-duration="0.68" data-track-index="40" data-volume="0.2"></audio>
+  <audio id="sfx9" src="assets/sfx/boom.mp3" data-start="46.00" data-duration="0.88" data-track-index="41" data-volume="0.4"></audio>
+</div>
+
+<script>
+window.__timelines = window.__timelines || {};
+const tl = gsap.timeline({ paused: true });
+const POP = "back.out(2.2)";
+const SOFT = "power3.out";
+const SLAM = "power4.out";
+tl.fromTo("#t1c",{scale:0.965},{scale:1,duration:0.5,ease:SOFT},0.00);
+tl.fromTo("#t1r",{scale:0.9,opacity:0},{scale:1,opacity:1,duration:0.34,ease:POP},2.30);
+tl.fromTo("#t1c",{opacity:1},{opacity:0,duration:0.22,ease:SOFT},2.95);
+tl.set("#t1c",{opacity:0},3.17);
+tl.fromTo("#t1r",{opacity:1},{opacity:0,duration:0.22,ease:SOFT},2.95);
+tl.set("#t1r",{opacity:0},3.17);
+tl.fromTo("#task1",{scale:0.82,opacity:0},{scale:1,opacity:1,duration:0.44,ease:POP},3.26);
+tl.fromTo("#dash1",{scale:0.84,opacity:0},{scale:1,opacity:1,duration:0.44,ease:POP},4.54);
+tl.fromTo("#a1",{scaleX:0},{scaleX:1,duration:0.42,ease:SOFT},5.76);
+tl.fromTo("#a1h",{scale:0.3,opacity:0},{scale:1,opacity:1,duration:0.24,ease:POP},6.10);
+tl.fromTo("#k1t",{scale:1.2,opacity:0},{scale:1,opacity:1,duration:0.38,ease:SLAM},7.40);
+tl.fromTo("#k1u",{scaleX:0},{scaleX:1,duration:0.5,ease:SOFT},8.24);
+tl.fromTo("#k1u",{opacity:1},{opacity:0,duration:0.24,ease:SOFT},9.30);
+tl.set("#k1u",{opacity:0},9.54);
+tl.set("#k1u",{scaleX:0},9.54);
+tl.fromTo("#k1t",{x:0.0,y:0.0,scale:1.0},{x:0.0,y:171.9,scale:0.42,duration:0.62,ease:SOFT},9.30);
+tl.fromTo("#dash1",{opacity:1},{opacity:0,duration:0.26,ease:SOFT},9.54);
+tl.set("#dash1",{opacity:0},9.80);
+tl.fromTo("#hero1",{opacity:0},{opacity:1,duration:0.36,ease:SOFT},9.60);
+tl.fromTo("#p10",{scale:0.66,opacity:0},{scale:1,opacity:1,duration:0.36,ease:POP},9.98);
+tl.fromTo("#p11",{scale:0.66,opacity:0},{scale:1,opacity:1,duration:0.36,ease:POP},10.80);
+tl.fromTo("#p12",{scale:0.66,opacity:0},{scale:1,opacity:1,duration:0.36,ease:POP},11.42);
+tl.fromTo("#p13",{scale:0.66,opacity:0},{scale:1,opacity:1,duration:0.36,ease:POP},11.94);
+tl.fromTo("#p14",{scale:0.66,opacity:0},{scale:1,opacity:1,duration:0.36,ease:POP},12.56);
+tl.fromTo("#p15",{scale:0.66,opacity:0},{scale:1,opacity:1,duration:0.36,ease:POP},12.72);
+tl.fromTo("#p16",{scale:0.66,opacity:0},{scale:1,opacity:1,duration:0.36,ease:POP},12.88);
+tl.fromTo("#bus1",{scaleX:0},{scaleX:1,duration:0.5,ease:SOFT},13.02);
+tl.fromTo("#st10",{scaleX:0},{scaleX:1,duration:0.22,ease:SOFT},13.56);
+tl.fromTo("#st11",{scaleX:0},{scaleX:1,duration:0.22,ease:SOFT},13.61);
+tl.fromTo("#st12",{scaleX:0},{scaleX:1,duration:0.22,ease:SOFT},13.66);
+tl.fromTo("#st13",{scaleX:0},{scaleX:1,duration:0.22,ease:SOFT},13.71);
+tl.fromTo("#st14",{scaleX:0},{scaleX:1,duration:0.22,ease:SOFT},13.76);
+tl.fromTo("#st15",{scaleX:0},{scaleX:1,duration:0.22,ease:SOFT},13.81);
+tl.fromTo("#st16",{scaleX:0},{scaleX:1,duration:0.22,ease:SOFT},13.86);
+tl.fromTo("#bus1c",{scaleX:0},{scaleX:1,duration:0.26,ease:SOFT},14.06);
+tl.fromTo("#d2ds",{opacity:0},{opacity:1,duration:0.3,ease:SOFT},14.22);
+tl.fromTo("#d2t",{scale:0.82,opacity:0},{scale:1,opacity:1,duration:0.44,ease:POP},14.56);
+tl.fromTo("#d2h",{scale:0.84,opacity:0},{scale:1,opacity:1,duration:0.44,ease:POP},16.46);
+tl.fromTo("#d2ds",{opacity:1},{opacity:0,duration:0.24,ease:SOFT},16.68);
+tl.set("#d2ds",{opacity:0},16.92);
+tl.fromTo("#d2a",{scaleX:0},{scaleX:1,duration:0.32,ease:SOFT},16.92);
+tl.fromTo("#d2ah",{scale:0.3,opacity:0},{scale:1,opacity:1,duration:0.24,ease:POP},17.18);
+tl.fromTo("#d2n0",{scale:0.7,opacity:0},{scale:1,opacity:1,duration:0.34,ease:POP},18.20);
+tl.fromTo("#d2f0",{scaleX:0},{scaleX:1,duration:0.34,ease:SOFT},18.74);
+tl.fromTo("#d2f0h",{scale:0.3,opacity:0},{scale:1,opacity:1,duration:0.24,ease:POP},19.01);
+tl.fromTo("#d2m0w",{opacity:0},{opacity:1,duration:0.28,ease:SOFT},19.56);
+tl.fromTo("#d2m0",{scaleX:0},{scaleX:1.0,duration:0.5,ease:SOFT},19.72);
+tl.fromTo("#d2n1",{scale:0.7,opacity:0},{scale:1,opacity:1,duration:0.34,ease:POP},18.34);
+tl.fromTo("#d2f1",{scaleX:0},{scaleX:1,duration:0.34,ease:SOFT},18.86);
+tl.fromTo("#d2f1h",{scale:0.3,opacity:0},{scale:1,opacity:1,duration:0.24,ease:POP},19.13);
+tl.fromTo("#d2m1w",{opacity:0},{opacity:1,duration:0.28,ease:SOFT},19.66);
+tl.fromTo("#d2m1",{scaleX:0},{scaleX:1.0,duration:0.5,ease:SOFT},19.82);
+tl.fromTo("#d2n2",{scale:0.7,opacity:0},{scale:1,opacity:1,duration:0.34,ease:POP},18.48);
+tl.fromTo("#d2f2",{scaleX:0},{scaleX:1,duration:0.34,ease:SOFT},18.98);
+tl.fromTo("#d2f2h",{scale:0.3,opacity:0},{scale:1,opacity:1,duration:0.24,ease:POP},19.25);
+tl.fromTo("#d2m2w",{opacity:0},{opacity:1,duration:0.28,ease:SOFT},19.76);
+tl.fromTo("#d2m2",{scaleX:0},{scaleX:1.0,duration:0.5,ease:SOFT},19.92);
+tl.fromTo("#d2n3",{scale:0.7,opacity:0},{scale:1,opacity:1,duration:0.34,ease:POP},18.62);
+tl.fromTo("#d2f3",{scaleX:0},{scaleX:1,duration:0.34,ease:SOFT},19.10);
+tl.fromTo("#d2f3h",{scale:0.3,opacity:0},{scale:1,opacity:1,duration:0.24,ease:POP},19.37);
+tl.fromTo("#d2m3w",{opacity:0},{opacity:1,duration:0.28,ease:SOFT},19.86);
+tl.fromTo("#d2m3",{scaleX:0},{scaleX:1.0,duration:0.5,ease:SOFT},20.02);
+tl.fromTo("#d2b",{scale:0.9,opacity:0},{scale:1,opacity:1,duration:0.44,ease:POP},22.14);
+tl.fromTo("#d2bl",{opacity:0},{opacity:1,duration:0.32,ease:SOFT},22.44);
+tl.fromTo("#d2c0",{scaleX:0},{scaleX:1,duration:0.34,ease:SOFT},22.60);
+tl.fromTo("#d2c1",{scaleX:0},{scaleX:1,duration:0.34,ease:SOFT},22.69);
+tl.fromTo("#d2c2",{scaleX:0},{scaleX:1,duration:0.34,ease:SOFT},22.78);
+tl.fromTo("#d2c3",{scaleX:0},{scaleX:1,duration:0.34,ease:SOFT},22.87);
+tl.fromTo("#d2s0",{y:22.5,opacity:0},{y:0,opacity:1,duration:0.32,ease:SOFT},23.30);
+tl.fromTo("#d2s1",{y:22.5,opacity:0},{y:0,opacity:1,duration:0.32,ease:SOFT},23.43);
+tl.fromTo("#d2s2",{y:22.5,opacity:0},{y:0,opacity:1,duration:0.32,ease:SOFT},23.56);
+tl.fromTo("#d2s3",{y:22.5,opacity:0},{y:0,opacity:1,duration:0.32,ease:SOFT},23.69);
+tl.fromTo("#d2b",{borderColor:"rgba(17,17,17,0.16)"},{borderColor:"rgb(221,114,89)",duration:0.38,ease:SOFT},24.80);
+tl.fromTo("#d3a",{scale:0.86,opacity:0},{scale:1,opacity:1,duration:0.44,ease:POP},25.48);
+tl.fromTo("#d3ga",{scale:0.6,opacity:0},{scale:1,opacity:1,duration:0.36,ease:POP},25.60);
+tl.fromTo("#d3b",{scale:0.86,opacity:0},{scale:1,opacity:1,duration:0.44,ease:POP},25.62);
+tl.fromTo("#d3gb",{scale:0.6,opacity:0},{scale:1,opacity:1,duration:0.36,ease:POP},25.74);
+tl.fromTo("#d3h",{opacity:0},{opacity:1,duration:0.35,ease:SOFT},26.66);
+tl.fromTo("#d3ba0",{y:22.5,opacity:0},{y:0,opacity:1,duration:0.34,ease:SOFT},27.60);
+tl.fromTo("#d3ba1",{y:22.5,opacity:0},{y:0,opacity:1,duration:0.34,ease:SOFT},27.78);
+tl.fromTo("#d3ta",{scale:1.16,opacity:0},{scale:1,opacity:1,duration:0.36,ease:SLAM},29.44);
+tl.fromTo("#d3bb0",{y:22.5,opacity:0},{y:0,opacity:1,duration:0.32,ease:SOFT},31.20);
+tl.fromTo("#d3bb1",{y:22.5,opacity:0},{y:0,opacity:1,duration:0.32,ease:SOFT},31.31);
+tl.fromTo("#d3bb2",{y:22.5,opacity:0},{y:0,opacity:1,duration:0.32,ease:SOFT},31.42);
+tl.fromTo("#d3bb3",{y:22.5,opacity:0},{y:0,opacity:1,duration:0.32,ease:SOFT},31.53);
+tl.fromTo("#d3bb4",{y:22.5,opacity:0},{y:0,opacity:1,duration:0.32,ease:SOFT},31.64);
+tl.fromTo("#d3bb5",{y:22.5,opacity:0},{y:0,opacity:1,duration:0.32,ease:SOFT},31.75);
+tl.fromTo("#d3tb",{scale:1.16,opacity:0},{scale:1,opacity:1,duration:0.36,ease:SLAM},32.68);
+tl.fromTo("#d3k",{scale:0.4,opacity:0},{scale:1,opacity:1,duration:0.36,ease:POP},32.90);
+tl.fromTo("#d4p",{scale:0.9,opacity:0},{scale:1,opacity:1,duration:0.45,ease:POP},34.32);
+tl.fromTo("#d4h",{opacity:0},{opacity:1,duration:0.35,ease:SOFT},34.56);
+tl.fromTo("#d4r0",{x:-26.2,opacity:0},{x:0,opacity:1,duration:0.34,ease:SOFT},34.86);
+tl.fromTo("#d4r1",{x:-26.2,opacity:0},{x:0,opacity:1,duration:0.34,ease:SOFT},35.18);
+tl.fromTo("#d4r2",{x:-26.2,opacity:0},{x:0,opacity:1,duration:0.34,ease:SOFT},35.50);
+tl.fromTo("#d4r3",{x:-26.2,opacity:0},{x:0,opacity:1,duration:0.34,ease:SOFT},35.82);
+tl.fromTo("#d4r4",{x:-26.2,opacity:0},{x:0,opacity:1,duration:0.34,ease:SOFT},36.14);
+tl.fromTo("#d4v",{opacity:0},{opacity:1,duration:0.35,ease:SOFT},37.54);
+tl.fromTo("#d4k0",{scale:0.4,opacity:0},{scale:1,opacity:1,duration:0.34,ease:POP},39.36);
+tl.fromTo("#d4k2",{scale:0.4,opacity:0},{scale:1,opacity:1,duration:0.34,ease:POP},39.50);
+tl.fromTo("#d4k3",{scale:0.4,opacity:0},{scale:1,opacity:1,duration:0.34,ease:POP},39.64);
+tl.fromTo("#d4x1",{scale:0.4,opacity:0},{scale:1,opacity:1,duration:0.34,ease:POP},40.48);
+tl.fromTo("#d4s1",{scaleX:0},{scaleX:1,duration:0.34,ease:SOFT},40.56);
+tl.fromTo("#d4x4",{scale:0.4,opacity:0},{scale:1,opacity:1,duration:0.34,ease:POP},40.64);
+tl.fromTo("#d4s4",{scaleX:0},{scaleX:1,duration:0.34,ease:SOFT},40.72);
+tl.fromTo("#d4o0",{scale:0.74,opacity:0},{scale:1,opacity:1,duration:0.4,ease:POP},42.84);
+tl.fromTo("#d4a0",{scaleX:0},{scaleX:1,duration:0.3,ease:SOFT},43.04);
+tl.fromTo("#d4a0h",{scale:0.3,opacity:0},{scale:1,opacity:1,duration:0.24,ease:POP},43.28);
+tl.fromTo("#d4o1",{scale:0.74,opacity:0},{scale:1,opacity:1,duration:0.4,ease:POP},43.70);
+tl.fromTo("#d4a1",{scaleX:0},{scaleX:1,duration:0.3,ease:SOFT},43.90);
+tl.fromTo("#d4a1h",{scale:0.3,opacity:0},{scale:1,opacity:1,duration:0.24,ease:POP},44.14);
+tl.fromTo("#d4o2",{scale:0.74,opacity:0},{scale:1,opacity:1,duration:0.4,ease:POP},44.46);
+tl.fromTo("#d4a2",{scaleX:0},{scaleX:1,duration:0.3,ease:SOFT},44.66);
+tl.fromTo("#d4a2h",{scale:0.3,opacity:0},{scale:1,opacity:1,duration:0.24,ease:POP},44.90);
+tl.fromTo("#ohn",{scale:0.78,opacity:0},{scale:1,opacity:1,duration:0.5,ease:POP},45.66);
+tl.fromTo("#on0",{scale:0.74,opacity:0},{scale:1,opacity:1,duration:0.4,ease:POP},46.48);
+tl.fromTo("#oa0",{scaleX:0},{scaleX:1,duration:0.28,ease:SOFT},46.70);
+tl.fromTo("#oa0h",{scale:0.3,opacity:0},{scale:1,opacity:1,duration:0.24,ease:POP},46.92);
+tl.fromTo("#on1",{scale:0.74,opacity:0},{scale:1,opacity:1,duration:0.4,ease:POP},47.22);
+tl.fromTo("#oa1",{scaleX:0},{scaleX:1,duration:0.28,ease:SOFT},47.44);
+tl.fromTo("#oa1h",{scale:0.3,opacity:0},{scale:1,opacity:1,duration:0.24,ease:POP},47.66);
+tl.fromTo("#on2",{scale:0.74,opacity:0},{scale:1,opacity:1,duration:0.4,ease:POP},48.00);
+tl.fromTo("#oa2",{scaleX:0},{scaleX:1,duration:0.28,ease:SOFT},48.22);
+tl.fromTo("#oa2h",{scale:0.3,opacity:0},{scale:1,opacity:1,duration:0.24,ease:POP},48.44);
+tl.fromTo("#od",{opacity:0},{opacity:1,duration:0.4,ease:SOFT},48.62);
+tl.fromTo("#oe",{y:22.5,opacity:0},{y:0,opacity:1,duration:0.4,ease:SOFT},49.00);
+tl.to("#bgm0",{volume:0,duration:1.5},47.87);
+window.__timelines["main"] = tl;
+</script>
+</body>
+</html>

@@ -1,0 +1,88 @@
+{
+ "label": "plantsite_split",
+ "video": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/output/plantsite_split.mp4",
+ "phone_scale": "405x720",
+ "sheet": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/phone_plantsite_split.png",
+ "rule": "a FRESH judge (never read the plan) names each crop in <=3 words. Wrong name, hedge, or 'cannot tell' = the object is redesigned, not annotated.",
+ "answer_key": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/phone_plantsite_split.key.json",
+ "answer_key_rule": "DO NOT OPEN the answer key until every judge_answer below is filled in. Reading it first voids the Phone Test.",
+ "objects": [
+  {
+   "i": 0,
+   "t": 2.6,
+   "bbox_norm": [
+    0.389,
+    0.156,
+    0.611,
+    0.292
+   ],
+   "phone_box_px": [
+    157,
+    112,
+    247,
+    210
+   ],
+   "phone_size_px": [
+    90,
+    98
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/phone_plantsite_split/00.png",
+   "sheet_scale": 1.0,
+   "judge_answer": "checklist clipboard",
+   "verdict": "PASS"
+  },
+  {
+   "i": 1,
+   "t": 8.9,
+   "bbox_norm": [
+    0.481,
+    0.156,
+    0.889,
+    0.354
+   ],
+   "phone_box_px": [
+    194,
+    112,
+    360,
+    254
+   ],
+   "phone_size_px": [
+    166,
+    142
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/phone_plantsite_split/01.png",
+   "sheet_scale": 1.0,
+   "judge_answer": "flower website",
+   "verdict": "PASS"
+  },
+  {
+   "i": 2,
+   "t": 14.6,
+   "bbox_norm": [
+    0.12,
+    0.276,
+    0.343,
+    0.359
+   ],
+   "phone_box_px": [
+    48,
+    198,
+    138,
+    258
+   ],
+   "phone_size_px": [
+    90,
+    60
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/phone_plantsite_split/02.png",
+   "sheet_scale": 1.0,
+   "judge_answer": "calendar",
+   "verdict": "PASS"
+  }
+ ],
+ "clerk_scored": {
+  "by": "independent clerk audit_plantsite",
+  "result": "3/3 PASS",
+  "key_opened_after_answers": true
+ }
+}

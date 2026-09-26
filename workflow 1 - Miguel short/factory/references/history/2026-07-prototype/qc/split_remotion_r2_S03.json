@@ -1,0 +1,21 @@
+{
+ "pass": true,
+ "score_layout": 9,
+ "score_captions": 10,
+ "score_timing": 9,
+ "score_audio": 10,
+ "score_style_match": 10,
+ "issues": [
+  {
+   "severity": "minor",
+   "at_seconds": 14.1,
+   "description": "The web search UI element is slightly cropped at the top and bottom edges of the frame."
+  },
+  {
+   "severity": "minor",
+   "at_seconds": 21.0,
+   "description": "The 'Move chat' UI modal is slightly cropped on the right side."
+  }
+ ],
+ "summary": "The video maintains the brand's aesthetic perfectly. While some UI elements are slightly cropped at the edges, it does not impede readability or overall professional quality."
+}

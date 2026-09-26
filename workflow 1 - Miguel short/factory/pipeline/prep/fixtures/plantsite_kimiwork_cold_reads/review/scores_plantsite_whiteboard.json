@@ -1,0 +1,12 @@
+{
+ "label": "plantsite_whiteboard",
+ "round": "round2",
+ "reader_file": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/phone_reader_plantsite_whiteboard.json",
+ "scored_by": "whiteboard author (Fable 5.1) under STANDARD.md -> THE PHONE TEST -> SCORE THE IDEA, NOT THE NOUN",
+ "note": "Fresh independent cold_read.py dispatch (tag round2, blind copies under review/cold/round2-c0d5dc4a, one claude -p per crop from /tmp on absolute paths). Zero dispatch failures. The crops are byte-identical to the ones the earlier ruling readers saw, which proves the page is unchanged.",
+ "objects": [
+  {"i": 0, "intended": "TICKED TASK LIST", "reader": "Clipboard with checklist", "confidence": "sure", "verdict": "PASS", "reason": "the intended object, named by its container and its content"},
+  {"i": 1, "intended": "PLANT WEB PAGE", "reader": "browser window with flower", "confidence": "sure", "verdict": "PASS", "reason": "same visual idea; SCORE THE IDEA, NOT THE NOUN (Miguel 2026-09-06): a flower/plant inside a browser window IS the plant web page, and the reader names the container as well"},
+  {"i": 2, "intended": "WEEKEND CALENDAR", "reader": "calendar", "confidence": "sure", "verdict": "PASS", "reason": "intended thing; the WEEKEND key carries the rest"}
+ ]
+}

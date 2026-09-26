@@ -1,0 +1,33 @@
+{
+ "names": [
+  {
+   "i": 0,
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/689123a0/00.png",
+   "name": "podium",
+   "confidence": "sure"
+  },
+  {
+   "i": 1,
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/689123a0/01.png",
+   "name": "open book",
+   "confidence": "sure"
+  },
+  {
+   "i": 2,
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/689123a0/02.png",
+   "name": "notebook",
+   "confidence": "sure"
+  },
+  {
+   "i": 3,
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/689123a0/03.png",
+   "name": "price tag",
+   "confidence": "sure"
+  }
+ ],
+ "reader": "four INDEPENDENT fresh `claude -p` sessions, one per crop, each launched in parallel from its own working directory OUTSIDE the Workspace, given ONLY the image path in a random-token folder - no plan, no topic, no transcript, no project, no answer key, no sheet, and no filename carrying the video's name.  Five words maximum plus sure / unsure / cannot tell.  Subscription session capacity, no API key, no metered spend.",
+ "round": 1,
+ "label": "minimaxh3_cutout",
+ "manifest": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/phone_minimaxh3_cutout.json",
+ "cold_dir": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/689123a0"
+}

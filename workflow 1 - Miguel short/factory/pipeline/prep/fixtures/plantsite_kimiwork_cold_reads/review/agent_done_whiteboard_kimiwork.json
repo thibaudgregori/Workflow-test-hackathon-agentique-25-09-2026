@@ -1,0 +1,21 @@
+{
+ "staged": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/staging/reels/kimiwork_whiteboard.mp4",
+ "staged_sha256": "c4c48f1f6a3a94f8bea12a3fa292336e6536268fd72e82b55c71c2f51a85bdf8",
+ "phone_verdict": "PASS",
+ "blocked": "",
+ "rounds": 7,
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/projects/kimiwork_whiteboard",
+ "redesigned": true,
+ "cold_crop_paths": [
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/5bfd91b3/00.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/5bfd91b3/01.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/5bfd91b3/02.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/5bfd91b3/03.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/5bfd91b3/04.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/5bfd91b3/05.png"
+ ],
+ "fails": [],
+ "cands": "review/cands_kimiwork_whiteboard.json was NOT written: the Gemini watcher exited 1 on the spending cap (16.2 s) and render_and_check staged on qc_pass alone, recording watch_unavailable itself. No hand-edited candidate file was created.",
+ "flagged_for_clerk": "The Gemini watcher never ran (spending cap), so the clerk has no candidate list for this file and must decode it itself.",
+ "report": "see review/state_whiteboard_kimiwork.json"
+}

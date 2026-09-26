@@ -1,0 +1,27 @@
+{
+  "status": "ok",
+  "frames": 1081,
+  "width": 1980,
+  "height": 990,
+  "fps": 25.0,
+  "alpha_mode": "soft",
+  "rim_px": 7,
+  "temporal": 1,
+  "hashes": {
+    "cut": "9a2cc7cf561153d9ae55c0bde477879d918b46e0998d7ef5789ba8ea7b85caa8",
+    "rim": "b69f82df3edb7574d7441c9aad6fde25d0a3e7031848e91daa05096b017c8109",
+    "alpha": "2069d4d376467dd663980de3343d7e6ede5a2245fcee6fdf8674e87ec39864e2"
+  },
+  "seconds": 185.494762685,
+  "estimated_compute_usd": 0.0843481784881232,
+  "fractional_alpha_pixels": 23879644,
+  "minimum_person_fraction": 0.2703392510968268,
+  "review_status": "needs_final_visual_review",
+  "ship_source_sha256": "cf367be51d742c272d9f79db8a13e00297684001ebf666283095059206e149e7",
+  "client_wall_seconds": 308.41839262499707,
+  "outputs": {
+    "cut": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run21/matting/grokemail/matte_grokemail_v5_cut.webm",
+    "rim": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run21/matting/grokemail/matte_grokemail_v5_rim.webm",
+    "alpha": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run21/matting/grokemail/matte_grokemail_v5_alpha.webm"
+  }
+}

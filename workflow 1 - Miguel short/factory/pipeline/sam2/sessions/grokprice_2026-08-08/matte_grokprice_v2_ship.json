@@ -1,0 +1,24 @@
+{
+ "alpha": "sessions/grokprice_2026-08-08/alpha_v2.mkv",
+ "plate": "sessions/grokprice_2026-08-08/plate_wide_25.mp4",
+ "clean": "sessions/grokprice_2026-08-08/matte_grokprice_v2.webm",
+ "rim": "sessions/grokprice_2026-08-08/matte_grokprice_v2_rim.webm",
+ "frames": 1294,
+ "width": 1080,
+ "height": 900,
+ "fps": 25,
+ "crf": 24,
+ "temporal": 3,
+ "pad": "mirror",
+ "rim_px": 7,
+ "sigma_hi": 4.0,
+ "morph_k": 2,
+ "feather": 0.55,
+ "border_bleed": 8,
+ "cream_bgr": [
+  249,
+  253,
+  255
+ ],
+ "seconds": 66.3
+}

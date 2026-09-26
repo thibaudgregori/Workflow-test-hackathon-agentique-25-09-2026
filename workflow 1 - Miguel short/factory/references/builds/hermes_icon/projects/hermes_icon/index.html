@@ -1,0 +1,384 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=1080, height=1920"/>
+<title>hermes — Icon choreography</title>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Nunito:wght@800&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500;700&display=block" rel="stylesheet">
+<style>
+
+* { margin:0; padding:0; box-sizing:border-box; }
+body { margin:0; background:#000; }
+#root { position:relative; width:1080px; height:1920px; overflow:hidden;
+  font-family:Poppins,sans-serif; }
+.clip { position:absolute; }
+.abs { position:absolute; }
+.tz { left:0; top:0; width:1080px; height:862.5px; overflow:hidden; }
+.tz.cream { background:#F6F1EA; }
+.tz.dark { background:#101012; }
+.serif { font-family:'Instrument Serif',serif; font-style:italic; line-height:1.0;
+  color:#DD7259; }
+.serifup { font-family:'Instrument Serif',serif; line-height:1.0; }
+.mono { font-family:'JetBrains Mono',monospace; letter-spacing:4.1px;
+  text-transform:uppercase; }
+.disp { font-family:Poppins,sans-serif; font-weight:800; letter-spacing:-0.02em;
+  line-height:1.05; color:#111111; overflow-wrap:break-word; }
+.disp.od { color:#F3EEE6; }
+.shot { overflow:hidden; background:#FFFFFF;
+  box-shadow:0 26.2px 63.8px rgba(0,0,0,0.20); }
+.shot img { display:block; width:100%; height:100%; }
+.ltile { background:#FFFFFF; display:flex; align-items:center; justify-content:center;
+  border:1px solid rgba(17,17,17,0.09);
+  box-shadow:0 7.5px 20.6px rgba(0,0,0,0.07); }
+.ltile.od { box-shadow:none; border:1px solid rgba(255,255,255,0.18); }
+.rule { display:block; transform-origin:left center; background:#C66748; }
+/* meter fills are NOT connectors: they carry their own class so the geometry audit
+   stops scoring a partial fill's inner end as a floating connector end. */
+.mfill { display:block; transform-origin:left center; background:#C66748; }
+.mfillY { display:block; transform-origin:bottom center; background:#C66748; }
+.ring { border-style:solid; }
+.node { border-radius:26.2px; border:3.8px solid rgba(17,17,17,0.20);
+  background:#FFFFFF; display:flex; align-items:center; justify-content:center;
+  text-align:center; font-family:'JetBrains Mono',monospace; color:#111111; }
+.node.hero { border-color:#DD7259; }
+.node.od { background:#1C1C21; border-color:rgba(255,255,255,0.20); color:#F3EEE6; }
+.node.od.hero { border-color:#DD7259; }
+.tier { border-radius:26.2px; border:3.8px solid rgba(255,255,255,0.20);
+  background:#1C1C21; }
+.chip { display:inline-block; border-radius:1873.1px; background:rgba(198,103,72,0.13);
+  color:#C66748; font-family:'JetBrains Mono',monospace; padding:11.2px 28.1px;
+  text-transform:uppercase; letter-spacing:3.4px; white-space:nowrap; }
+.chip.od { background:rgba(221,114,89,0.22); color:#DD7259; }
+.ctchip { display:inline-block; background:rgba(16,16,18,0.62); color:#F6F1EA;
+  font-family:'JetBrains Mono',monospace; border-radius:1873.1px;
+  padding:16.9px 41.2px; letter-spacing:3.8px; white-space:nowrap; }
+.scap { left:0; width:1080px; text-align:center; }
+.scappill { display:inline-block; transform:translateY(-50%); background:#C4573A;
+  color:#fff; font-family:Nunito,sans-serif; font-weight:800;
+  padding:18.8px 33.8px; border-radius:22.5px; white-space:nowrap; }
+
+</style>
+</head>
+<body>
+<div id="root" data-composition-id="main" data-start="0" data-width="1080" data-height="1920"
+     data-duration="54.17" data-fps="30">
+
+  <video id="facebot" src="assets/v/hermes/face_bottom.mp4" data-start="0" data-duration="54.17" data-media-start="0" data-track-index="1" muted playsinline style="position:absolute;top:862.5px;left:0;width:1080px;height:1057.5px;object-fit:cover"></video>
+
+  <section id="tz-b1" class="clip tz cream" data-start="0.00" data-duration="11.95" data-track-index="2">
+    <div id="c1" class="abs shot" style="left:90.0px;top:243.8px;width:900.0px;height:320.4px;border-radius:33.8px;"><img src="assets/img/tweet.png" alt=""/></div>
+    <div id="c1r" class="abs ring" style="left:117.0px;top:377.7px;width:846.0px;height:87.2px;border-radius:18.8px;border-width:5.6px;border-color:#DD7259;opacity:0"></div>
+    <div id="t10" class="abs ltile" style="left:247.5px;top:112.5px;width:123.8px;height:123.8px;border-radius:32.2px;opacity:0;"><img src="assets/img/logos/github.png" alt="" style="width:74.2px;height:74.2px;object-fit:contain"/></div>
+    <div id="t11" class="abs ltile" style="left:401.2px;top:112.5px;width:123.8px;height:123.8px;border-radius:32.2px;opacity:0;"><img src="assets/img/logos/slack.png" alt="" style="width:74.2px;height:74.2px;object-fit:contain"/></div>
+    <div id="t12" class="abs ltile" style="left:555.0px;top:112.5px;width:123.8px;height:123.8px;border-radius:32.2px;opacity:0;"><img src="assets/img/logos/notion.png" alt="" style="width:74.2px;height:74.2px;object-fit:contain"/></div>
+    <div id="t13" class="abs ltile" style="left:708.8px;top:112.5px;width:123.8px;height:123.8px;border-radius:32.2px;opacity:0;"><img src="assets/img/logos/figma.png" alt="" style="width:74.2px;height:74.2px;object-fit:contain"/></div>
+    <div id="t14" class="abs ltile" style="left:247.5px;top:266.2px;width:123.8px;height:123.8px;border-radius:32.2px;opacity:0;"><img src="assets/img/logos/apify.png" alt="" style="width:74.2px;height:74.2px;object-fit:contain"/></div>
+    <div id="t15" class="abs ltile" style="left:401.2px;top:266.2px;width:123.8px;height:123.8px;border-radius:32.2px;opacity:0;"><img src="assets/img/logos/exa.png" alt="" style="width:74.2px;height:74.2px;object-fit:contain"/></div>
+    <div id="t16" class="abs ltile" style="left:555.0px;top:266.2px;width:123.8px;height:123.8px;border-radius:32.2px;opacity:0;"><img src="assets/img/logos/gdrive.png" alt="" style="width:74.2px;height:74.2px;object-fit:contain"/></div>
+    <div id="t17" class="abs ltile" style="left:708.8px;top:266.2px;width:123.8px;height:123.8px;border-radius:32.2px;opacity:0;"><img src="assets/img/logos/make.png" alt="" style="width:74.2px;height:74.2px;object-fit:contain"/></div>
+    <div id="t18" class="abs ltile" style="left:247.5px;top:420.0px;width:123.8px;height:123.8px;border-radius:32.2px;opacity:0;"><img src="assets/img/logos/modal.png" alt="" style="width:74.2px;height:74.2px;object-fit:contain"/></div>
+    <div id="t19" class="abs ltile" style="left:401.2px;top:420.0px;width:123.8px;height:123.8px;border-radius:32.2px;opacity:0;"><img src="assets/img/logos/youtube.png" alt="" style="width:74.2px;height:74.2px;object-fit:contain"/></div>
+    <div id="t110" class="abs ltile" style="left:555.0px;top:420.0px;width:123.8px;height:123.8px;border-radius:32.2px;opacity:0;"><img src="assets/img/logos/openrouter.png" alt="" style="width:74.2px;height:74.2px;object-fit:contain"/></div>
+    <div id="t111" class="abs ltile" style="left:708.8px;top:420.0px;width:123.8px;height:123.8px;border-radius:32.2px;opacity:0;"><img src="assets/img/logos/gmaps.png" alt="" style="width:74.2px;height:74.2px;object-fit:contain"/></div>
+    <div id="i1c" class="abs mono" style="left:90.0px;top:581.2px;width:900.0px;font-size:28.1px;text-align:center;color:#6E6A62;opacity:0;">12 servers  ·  3,320 tools</div>
+    <div id="i1n" class="abs" style="left:340.3px;top:660.0px;width:399.4px;height:78.8px;opacity:0"><div class="abs ltile" style="left:0;top:0;width:78.8px;height:78.8px;border-radius:18.9px"><img src="assets/img/logos/nous.png" alt="" style="width:59.9px;height:59.9px;object-fit:contain"/></div><div class="abs mono" style="left:101.2px;top:22.5px;width:298.1px;font-size:28.1px;color:#111111">Nous Research</div></div>
+    <div id="i1r" class="abs ring" style="left:314.1px;top:639.4px;width:451.9px;height:120.0px;border-radius:41.2px;border-width:5.6px;border-color:#DD7259;opacity:0"></div>
+  </section>
+  <section id="tz-b2" class="clip tz dark" data-start="11.80" data-duration="8.35" data-track-index="3">
+    <div id="k21" class="abs disp od" style="left:71.2px;top:300.0px;width:937.5px;font-size:105.0px;text-align:center;color:#F3EEE6;opacity:0;">PROCEDURAL</div>
+    <div id="k22" class="abs disp od" style="left:71.2px;top:423.9px;width:937.5px;font-size:105.0px;text-align:center;color:#DD7259;opacity:0;">DISCLOSURE</div>
+    <div class="abs" style="left:446.2px;top:554.1px;width:187.5px;height:9.4px"><div id="k2u" class="rule" style="width:100%;height:100%;background:#DD7259;transform:scaleX(0)"></div></div>
+    <div id="g2c0" class="abs tier" style="left:82.5px;top:165.0px;width:915.0px;height:157.5px;opacity:0"><div class="abs" style="left:45.0px;top:0;width:217.5px;height:157.5px;display:flex;align-items:center;justify-content:flex-end;font-family:'Instrument Serif',serif;font-size:63.8px;color:#DD7259">24</div><div class="abs" style="left:277.5px;top:0;width:97.5px;height:157.5px;display:flex;align-items:center;font-family:'JetBrains Mono',monospace;font-size:22.5px;letter-spacing:2.2px;text-transform:uppercase;color:#9C978D">tools</div><div class="abs" style="left:390.0px;top:75.9px;width:45.0px;height:5.6px;background:#DD7259"></div><div class="abs" style="left:435.0px;top:64.1px;width:0;height:0;border-left:24.4px solid #DD7259;border-top:14.6px solid transparent;border-bottom:14.6px solid transparent"></div><div class="abs" style="left:480.0px;top:0;width:390.0px;height:157.5px;display:flex;align-items:center;font-family:'JetBrains Mono',monospace;font-size:26.2px;letter-spacing:2.8px;text-transform:uppercase;color:#F3EEE6">full listing</div></div>
+    <div id="g2c1" class="abs tier" style="left:82.5px;top:352.5px;width:915.0px;height:157.5px;opacity:0"><div class="abs" style="left:45.0px;top:0;width:217.5px;height:157.5px;display:flex;align-items:center;justify-content:flex-end;font-family:'Instrument Serif',serif;font-size:63.8px;color:#DD7259">830</div><div class="abs" style="left:277.5px;top:0;width:97.5px;height:157.5px;display:flex;align-items:center;font-family:'JetBrains Mono',monospace;font-size:22.5px;letter-spacing:2.2px;text-transform:uppercase;color:#9C978D">tools</div><div class="abs" style="left:390.0px;top:75.9px;width:45.0px;height:5.6px;background:#DD7259"></div><div class="abs" style="left:435.0px;top:64.1px;width:0;height:0;border-left:24.4px solid #DD7259;border-top:14.6px solid transparent;border-bottom:14.6px solid transparent"></div><div class="abs" style="left:480.0px;top:0;width:390.0px;height:157.5px;display:flex;align-items:center;font-family:'JetBrains Mono',monospace;font-size:26.2px;letter-spacing:2.8px;text-transform:uppercase;color:#F3EEE6">names only</div></div>
+    <div id="g2c2" class="abs tier" style="left:82.5px;top:540.0px;width:915.0px;height:157.5px;opacity:0"><div class="abs" style="left:45.0px;top:0;width:217.5px;height:157.5px;display:flex;align-items:center;justify-content:flex-end;font-family:'Instrument Serif',serif;font-size:63.8px;color:#DD7259">3,320</div><div class="abs" style="left:277.5px;top:0;width:97.5px;height:157.5px;display:flex;align-items:center;font-family:'JetBrains Mono',monospace;font-size:22.5px;letter-spacing:2.2px;text-transform:uppercase;color:#9C978D">tools</div><div class="abs" style="left:390.0px;top:75.9px;width:45.0px;height:5.6px;background:#DD7259"></div><div class="abs" style="left:435.0px;top:64.1px;width:0;height:0;border-left:24.4px solid #DD7259;border-top:14.6px solid transparent;border-bottom:14.6px solid transparent"></div><div class="abs" style="left:480.0px;top:0;width:390.0px;height:157.5px;display:flex;align-items:center;font-family:'JetBrains Mono',monospace;font-size:26.2px;letter-spacing:2.8px;text-transform:uppercase;color:#F3EEE6">server hint + search</div></div>
+    <div id="g2a" class="abs ring" style="left:75.0px;top:157.5px;width:930.0px;height:172.5px;border-radius:33.8px;border-width:5.6px;border-color:#DD7259;opacity:0"></div>
+    <div id="g2b" class="abs ring" style="left:75.0px;top:532.5px;width:930.0px;height:172.5px;border-radius:33.8px;border-width:5.6px;border-color:#DD7259;opacity:0"></div>
+  </section>
+  <section id="tz-b3" class="clip tz dark" data-start="20.00" data-duration="20.73" data-track-index="4">
+    <div id="t30" class="abs ltile od" style="left:63.8px;top:142.5px;width:105.0px;height:105.0px;border-radius:27.3px;opacity:0;"><img src="assets/img/logos/github.png" alt="" style="width:63.0px;height:63.0px;object-fit:contain"/></div>
+    <div id="t31" class="abs ltile od" style="left:195.0px;top:142.5px;width:105.0px;height:105.0px;border-radius:27.3px;opacity:0;"><img src="assets/img/logos/slack.png" alt="" style="width:63.0px;height:63.0px;object-fit:contain"/></div>
+    <div id="t32" class="abs ltile od" style="left:326.2px;top:142.5px;width:105.0px;height:105.0px;border-radius:27.3px;opacity:0;"><img src="assets/img/logos/notion.png" alt="" style="width:63.0px;height:63.0px;object-fit:contain"/></div>
+    <div id="t33" class="abs ltile od" style="left:63.8px;top:273.8px;width:105.0px;height:105.0px;border-radius:27.3px;opacity:0;"><img src="assets/img/logos/figma.png" alt="" style="width:63.0px;height:63.0px;object-fit:contain"/></div>
+    <div id="t34" class="abs ltile od" style="left:195.0px;top:273.8px;width:105.0px;height:105.0px;border-radius:27.3px;opacity:0;"><img src="assets/img/logos/apify.png" alt="" style="width:63.0px;height:63.0px;object-fit:contain"/></div>
+    <div id="t35" class="abs ltile od" style="left:326.2px;top:273.8px;width:105.0px;height:105.0px;border-radius:27.3px;opacity:0;"><img src="assets/img/logos/exa.png" alt="" style="width:63.0px;height:63.0px;object-fit:contain"/></div>
+    <div id="t36" class="abs ltile od" style="left:63.8px;top:405.0px;width:105.0px;height:105.0px;border-radius:27.3px;opacity:0;"><img src="assets/img/logos/gdrive.png" alt="" style="width:63.0px;height:63.0px;object-fit:contain"/></div>
+    <div id="t37" class="abs ltile od" style="left:195.0px;top:405.0px;width:105.0px;height:105.0px;border-radius:27.3px;opacity:0;"><img src="assets/img/logos/make.png" alt="" style="width:63.0px;height:63.0px;object-fit:contain"/></div>
+    <div id="t38" class="abs ltile od" style="left:326.2px;top:405.0px;width:105.0px;height:105.0px;border-radius:27.3px;opacity:0;"><img src="assets/img/logos/modal.png" alt="" style="width:63.0px;height:63.0px;object-fit:contain"/></div>
+    <div id="t39" class="abs ltile od" style="left:63.8px;top:536.2px;width:105.0px;height:105.0px;border-radius:27.3px;opacity:0;"><img src="assets/img/logos/youtube.png" alt="" style="width:63.0px;height:63.0px;object-fit:contain"/></div>
+    <div id="t310" class="abs ltile od" style="left:195.0px;top:536.2px;width:105.0px;height:105.0px;border-radius:27.3px;opacity:0;"><img src="assets/img/logos/openrouter.png" alt="" style="width:63.0px;height:63.0px;object-fit:contain"/></div>
+    <div id="t311" class="abs ltile od" style="left:326.2px;top:536.2px;width:105.0px;height:105.0px;border-radius:27.3px;opacity:0;"><img src="assets/img/logos/gmaps.png" alt="" style="width:63.0px;height:63.0px;object-fit:contain"/></div>
+    <div id="b30" class="abs ltile od" style="left:468.8px;top:294.4px;width:195.0px;height:195.0px;border-radius:50.7px;opacity:0;"><img src="assets/img/logos/github.png" alt="" style="width:156.0px;height:156.0px;object-fit:contain"/></div>
+    <div id="b31" class="abs ltile od" style="left:468.8px;top:294.4px;width:195.0px;height:195.0px;border-radius:50.7px;opacity:0;"><img src="assets/img/logos/notion.png" alt="" style="width:156.0px;height:156.0px;object-fit:contain"/></div>
+    <div id="b32" class="abs ltile od" style="left:468.8px;top:294.4px;width:195.0px;height:195.0px;border-radius:50.7px;opacity:0;"><img src="assets/img/logos/modal.png" alt="" style="width:156.0px;height:156.0px;object-fit:contain"/></div>
+    <div id="i3n" class="abs mono" style="left:468.8px;top:515.6px;width:195.0px;font-size:24.4px;text-align:center;color:#9C978D;opacity:0;">active</div>
+    <div id="i3c" class="abs mono" style="left:738.8px;top:138.8px;width:285.0px;font-size:24.4px;text-align:center;color:#9C978D;opacity:0;">context</div>
+    <div id="ctx3w" class="abs" style="left:817.5px;top:206.2px;width:127.5px;height:435.0px;background:rgba(255,255,255,0.13);border-radius:33.8px;overflow:hidden;opacity:0"><div id="ctx3" class="mfillY abs" style="left:0;bottom:0;width:100%;height:100%;background:#C66748;transform:scaleY(0)"></div></div>
+    <div id="i3r" class="abs ring" style="left:795.0px;top:183.8px;width:172.5px;height:480.0px;border-radius:56.2px;border-width:5.6px;border-color:#DD7259;opacity:0"></div>
+    <div id="i3m" class="abs" style="left:63.8px;top:678.8px;width:395.6px;height:75.0px;opacity:0"><div class="abs ltile" style="left:0;top:0;width:75.0px;height:75.0px;border-radius:18.0px"><img src="assets/img/logos/nous.png" alt="" style="width:57.0px;height:57.0px;object-fit:contain"/></div><div class="abs mono" style="left:97.5px;top:20.6px;width:298.1px;font-size:28.1px;color:#F3EEE6">Nous Research</div></div>
+    <div id="i3h" class="abs" style="left:480.0px;top:690.0px;width:225.0px;text-align:left;opacity:0"><span class="chip od" style="font-size:26.2px">Hermes</span></div>
+  </section>
+  <section id="tz-b4" class="clip tz cream" data-start="40.58" data-duration="10.31" data-track-index="5">
+    <div id="t40" class="abs ltile" style="left:63.8px;top:165.0px;width:105.0px;height:105.0px;border-radius:27.3px;opacity:0;"><img src="assets/img/logos/github.png" alt="" style="width:63.0px;height:63.0px;object-fit:contain"/></div>
+    <div id="t41" class="abs ltile" style="left:195.0px;top:165.0px;width:105.0px;height:105.0px;border-radius:27.3px;opacity:0;"><img src="assets/img/logos/slack.png" alt="" style="width:63.0px;height:63.0px;object-fit:contain"/></div>
+    <div id="t42" class="abs ltile" style="left:326.2px;top:165.0px;width:105.0px;height:105.0px;border-radius:27.3px;opacity:0;"><img src="assets/img/logos/notion.png" alt="" style="width:63.0px;height:63.0px;object-fit:contain"/></div>
+    <div id="t43" class="abs ltile" style="left:63.8px;top:296.2px;width:105.0px;height:105.0px;border-radius:27.3px;opacity:0;"><img src="assets/img/logos/figma.png" alt="" style="width:63.0px;height:63.0px;object-fit:contain"/></div>
+    <div id="t44" class="abs ltile" style="left:195.0px;top:296.2px;width:105.0px;height:105.0px;border-radius:27.3px;opacity:0;"><img src="assets/img/logos/apify.png" alt="" style="width:63.0px;height:63.0px;object-fit:contain"/></div>
+    <div id="t45" class="abs ltile" style="left:326.2px;top:296.2px;width:105.0px;height:105.0px;border-radius:27.3px;opacity:0;"><img src="assets/img/logos/exa.png" alt="" style="width:63.0px;height:63.0px;object-fit:contain"/></div>
+    <div id="t46" class="abs ltile" style="left:63.8px;top:427.5px;width:105.0px;height:105.0px;border-radius:27.3px;opacity:0;"><img src="assets/img/logos/gdrive.png" alt="" style="width:63.0px;height:63.0px;object-fit:contain"/></div>
+    <div id="t47" class="abs ltile" style="left:195.0px;top:427.5px;width:105.0px;height:105.0px;border-radius:27.3px;opacity:0;"><img src="assets/img/logos/make.png" alt="" style="width:63.0px;height:63.0px;object-fit:contain"/></div>
+    <div id="t48" class="abs ltile" style="left:326.2px;top:427.5px;width:105.0px;height:105.0px;border-radius:27.3px;opacity:0;"><img src="assets/img/logos/modal.png" alt="" style="width:63.0px;height:63.0px;object-fit:contain"/></div>
+    <div id="t49" class="abs ltile" style="left:63.8px;top:558.8px;width:105.0px;height:105.0px;border-radius:27.3px;opacity:0;"><img src="assets/img/logos/youtube.png" alt="" style="width:63.0px;height:63.0px;object-fit:contain"/></div>
+    <div id="t410" class="abs ltile" style="left:195.0px;top:558.8px;width:105.0px;height:105.0px;border-radius:27.3px;opacity:0;"><img src="assets/img/logos/openrouter.png" alt="" style="width:63.0px;height:63.0px;object-fit:contain"/></div>
+    <div id="t411" class="abs ltile" style="left:326.2px;top:558.8px;width:105.0px;height:105.0px;border-radius:27.3px;opacity:0;"><img src="assets/img/logos/gmaps.png" alt="" style="width:63.0px;height:63.0px;object-fit:contain"/></div>
+    <div id="n4a" class="abs node hero" style="left:562.5px;top:281.2px;width:427.5px;height:135.0px;font-size:28.1px;letter-spacing:3.0px;opacity:0">SEARCH &amp; EXECUTE</div>
+    <div class="abs" style="left:431.2px;top:345.9px;width:131.2px;height:5.6px;transform:rotate(0.00deg);transform-origin:left center"><div id="a4a" class="rule" style="width:131.2px;height:100%;background:#C66748;transform:scaleX(0)"></div><div id="a4ah" class="abs" style="left:106.9px;top:-11.8px;width:0;height:0;opacity:0;border-left:24.4px solid #C66748;border-top:14.6px solid transparent;border-bottom:14.6px solid transparent"></div></div>
+    <div class="abs" style="left:776.2px;top:413.4px;width:60.0px;height:5.6px;transform:rotate(90.00deg);transform-origin:left center"><div id="a4b" class="rule" style="width:60.0px;height:100%;background:#C66748;transform:scaleX(0)"></div><div id="a4bh" class="abs" style="left:35.6px;top:-11.8px;width:0;height:0;opacity:0;border-left:24.4px solid #C66748;border-top:14.6px solid transparent;border-bottom:14.6px solid transparent"></div></div>
+    <div id="n4b" class="abs node hero" style="left:562.5px;top:476.2px;width:427.5px;height:135.0px;opacity:0"></div>
+    <div id="n4l" class="abs" style="left:596.2px;top:500.6px;width:86.2px;height:86.2px;opacity:0;"><img src="assets/img/logos/nous.png" alt="" style="width:100%;height:100%;object-fit:contain"/></div>
+    <div id="n4t" class="abs mono" style="left:708.8px;top:523.0px;width:232.5px;font-size:31.9px;text-align:left;color:#111111;opacity:0;">Hermes</div>
+    <div id="i4c" class="abs mono" style="left:562.5px;top:637.5px;width:180.0px;font-size:24.4px;text-align:left;color:#6E6A62;opacity:0;">context</div>
+    <div id="bf4w" class="abs" style="left:562.5px;top:678.8px;width:427.5px;height:30.0px;background:rgba(17,17,17,0.10);border-radius:9.4px;overflow:hidden;opacity:0"><div id="bf4" class="mfill" style="width:100%;height:100%;background:#C66748;border-radius:9.4px;transform:scaleX(0)"></div></div>
+    <div id="i4p" class="abs serif" style="left:37.5px;top:701.2px;width:420.0px;font-size:43.1px;text-align:center;color:#DD7259;opacity:0;">one door, every tool</div>
+  </section>
+  <section id="tz-outro" class="clip tz dark" data-start="50.74" data-duration="3.43" data-track-index="6">
+    <div id="ot0" class="abs ltile od" style="left:148.1px;top:157.5px;width:108.8px;height:108.8px;border-radius:28.3px;opacity:0;"><img src="assets/img/logos/github.png" alt="" style="width:65.2px;height:65.2px;object-fit:contain"/></div>
+    <div id="ot1" class="abs ltile od" style="left:283.1px;top:157.5px;width:108.8px;height:108.8px;border-radius:28.3px;opacity:0;"><img src="assets/img/logos/notion.png" alt="" style="width:65.2px;height:65.2px;object-fit:contain"/></div>
+    <div id="ot2" class="abs ltile od" style="left:418.1px;top:157.5px;width:108.8px;height:108.8px;border-radius:28.3px;opacity:0;"><img src="assets/img/logos/modal.png" alt="" style="width:65.2px;height:65.2px;object-fit:contain"/></div>
+    <div id="ot3" class="abs ltile od" style="left:553.1px;top:157.5px;width:108.8px;height:108.8px;border-radius:28.3px;opacity:0;"><img src="assets/img/logos/figma.png" alt="" style="width:65.2px;height:65.2px;object-fit:contain"/></div>
+    <div id="ot4" class="abs ltile od" style="left:688.1px;top:157.5px;width:108.8px;height:108.8px;border-radius:28.3px;opacity:0;"><img src="assets/img/logos/slack.png" alt="" style="width:65.2px;height:65.2px;object-fit:contain"/></div>
+    <div id="ot5" class="abs ltile od" style="left:823.1px;top:157.5px;width:108.8px;height:108.8px;border-radius:28.3px;opacity:0;"><img src="assets/img/logos/exa.png" alt="" style="width:65.2px;height:65.2px;object-fit:contain"/></div>
+    <div id="ohn" class="abs node od hero" style="left:258.8px;top:348.8px;width:562.5px;height:123.8px;font-size:28.1px;letter-spacing:3.0px;">FOLLOW FOR DAILY AI</div>
+    <div id="od" class="abs serif" style="left:90.0px;top:517.5px;width:900.0px;font-size:60.0px;text-align:center;color:#DD7259;opacity:0;">one drop a day</div>
+    <div id="oe" class="abs" style="left:0;top:630.0px;width:1080.0px;text-align:center;opacity:0"><span class="ctchip" style="font-size:30.0px;background:rgba(246,241,234,0.16)">Miguel Torrez AI</span></div>
+  </section>
+
+  <div id="cap0" class="clip scap" style="top:862.5px" data-start="0.22" data-duration="0.90" data-track-index="25"><span class="scappill" style="font-size:56.2px">Hermes Agent can now</span></div>
+  <div id="cap1" class="clip scap" style="top:862.5px" data-start="1.12" data-duration="2.02" data-track-index="25"><span class="scappill" style="font-size:52.7px">have literally infinite tools.</span></div>
+  <div id="cap2" class="clip scap" style="top:862.5px" data-start="3.14" data-duration="0.74" data-track-index="25"><span class="scappill" style="font-size:56.2px">You think an AI</span></div>
+  <div id="cap3" class="clip scap" style="top:862.5px" data-start="3.88" data-duration="1.26" data-track-index="25"><span class="scappill" style="font-size:56.2px">agent loads every tool</span></div>
+  <div id="cap4" class="clip scap" style="top:862.5px" data-start="5.14" data-duration="0.70" data-track-index="25"><span class="scappill" style="font-size:56.2px">all at once?</span></div>
+  <div id="cap5" class="clip scap" style="top:862.5px" data-start="5.84" data-duration="1.16" data-track-index="25"><span class="scappill" style="font-size:56.2px">Well, spoiler,</span></div>
+  <div id="cap6" class="clip scap" style="top:862.5px" data-start="7.0" data-duration="0.68" data-track-index="25"><span class="scappill" style="font-size:56.2px">they don't.</span></div>
+  <div id="cap7" class="clip scap" style="top:862.5px" data-start="7.68" data-duration="0.50" data-track-index="25"><span class="scappill" style="font-size:56.2px">You see,</span></div>
+  <div id="cap8" class="clip scap" style="top:862.5px" data-start="8.18" data-duration="1.38" data-track-index="25"><span class="scappill" style="font-size:56.2px">Hermes Agent managed to</span></div>
+  <div id="cap9" class="clip scap" style="top:862.5px" data-start="9.56" data-duration="0.94" data-track-index="25"><span class="scappill" style="font-size:56.2px">crack the code.</span></div>
+  <div id="cap10" class="clip scap" style="top:862.5px" data-start="10.5" data-duration="1.04" data-track-index="25"><span class="scappill" style="font-size:49.3px">They introduced something that's</span></div>
+  <div id="cap11" class="clip scap" style="top:862.5px" data-start="11.54" data-duration="1.66" data-track-index="25"><span class="scappill" style="font-size:54.4px">called procedural disclosure.</span></div>
+  <div id="cap12" class="clip scap" style="top:862.5px" data-start="13.2" data-duration="0.94" data-track-index="25"><span class="scappill" style="font-size:56.2px">What does that mean?</span></div>
+  <div id="cap13" class="clip scap" style="top:862.5px" data-start="14.14" data-duration="1.00" data-track-index="25"><span class="scappill" style="font-size:56.2px">It's very simple.</span></div>
+  <div id="cap14" class="clip scap" style="top:862.5px" data-start="15.14" data-duration="0.70" data-track-index="25"><span class="scappill" style="font-size:56.2px">It means that the</span></div>
+  <div id="cap15" class="clip scap" style="top:862.5px" data-start="15.84" data-duration="1.04" data-track-index="25"><span class="scappill" style="font-size:56.2px">agent will actually see</span></div>
+  <div id="cap16" class="clip scap" style="top:862.5px" data-start="16.88" data-duration="0.86" data-track-index="25"><span class="scappill" style="font-size:56.2px">the tools that it</span></div>
+  <div id="cap17" class="clip scap" style="top:862.5px" data-start="17.74" data-duration="1.48" data-track-index="25"><span class="scappill" style="font-size:56.2px">needs when it actually</span></div>
+  <div id="cap18" class="clip scap" style="top:862.5px" data-start="19.22" data-duration="0.78" data-track-index="25"><span class="scappill" style="font-size:56.2px">needs them.</span></div>
+  <div id="cap19" class="clip scap" style="top:862.5px" data-start="20.0" data-duration="1.26" data-track-index="25"><span class="scappill" style="font-size:56.2px">Tools consume context,</span></div>
+  <div id="cap20" class="clip scap" style="top:862.5px" data-start="21.26" data-duration="1.54" data-track-index="25"><span class="scappill" style="font-size:56.2px">and context is finite.</span></div>
+  <div id="cap21" class="clip scap" style="top:862.5px" data-start="22.8" data-duration="0.80" data-track-index="25"><span class="scappill" style="font-size:56.2px">That means that the</span></div>
+  <div id="cap22" class="clip scap" style="top:862.5px" data-start="23.6" data-duration="0.94" data-track-index="25"><span class="scappill" style="font-size:56.2px">best way to handle</span></div>
+  <div id="cap23" class="clip scap" style="top:862.5px" data-start="24.54" data-duration="1.00" data-track-index="25"><span class="scappill" style="font-size:56.2px">your context is by</span></div>
+  <div id="cap24" class="clip scap" style="top:862.5px" data-start="25.54" data-duration="1.16" data-track-index="25"><span class="scappill" style="font-size:56.2px">being very picky with</span></div>
+  <div id="cap25" class="clip scap" style="top:862.5px" data-start="26.7" data-duration="0.64" data-track-index="25"><span class="scappill" style="font-size:56.2px">the things that you</span></div>
+  <div id="cap26" class="clip scap" style="top:862.5px" data-start="27.34" data-duration="1.14" data-track-index="25"><span class="scappill" style="font-size:56.2px">actually give access to</span></div>
+  <div id="cap27" class="clip scap" style="top:862.5px" data-start="28.48" data-duration="1.22" data-track-index="25"><span class="scappill" style="font-size:56.2px">your AI agent.</span></div>
+  <div id="cap28" class="clip scap" style="top:862.5px" data-start="29.7" data-duration="0.84" data-track-index="25"><span class="scappill" style="font-size:56.2px">And the people over</span></div>
+  <div id="cap29" class="clip scap" style="top:862.5px" data-start="30.54" data-duration="1.38" data-track-index="25"><span class="scappill" style="font-size:56.2px">at Nous Research,</span></div>
+  <div id="cap30" class="clip scap" style="top:862.5px" data-start="31.92" data-duration="1.46" data-track-index="25"><span class="scappill" style="font-size:56.2px">the lab behind Hermes,</span></div>
+  <div id="cap31" class="clip scap" style="top:862.5px" data-start="33.38" data-duration="0.80" data-track-index="25"><span class="scappill" style="font-size:56.2px">have managed to make</span></div>
+  <div id="cap32" class="clip scap" style="top:862.5px" data-start="34.18" data-duration="0.78" data-track-index="25"><span class="scappill" style="font-size:56.2px">it so we can</span></div>
+  <div id="cap33" class="clip scap" style="top:862.5px" data-start="34.96" data-duration="0.94" data-track-index="25"><span class="scappill" style="font-size:56.2px">literally get all of</span></div>
+  <div id="cap34" class="clip scap" style="top:862.5px" data-start="35.9" data-duration="0.64" data-track-index="25"><span class="scappill" style="font-size:56.2px">the tools that we</span></div>
+  <div id="cap35" class="clip scap" style="top:862.5px" data-start="36.54" data-duration="0.92" data-track-index="25"><span class="scappill" style="font-size:56.2px">will ever need,</span></div>
+  <div id="cap36" class="clip scap" style="top:862.5px" data-start="37.46" data-duration="1.00" data-track-index="25"><span class="scappill" style="font-size:56.2px">and we no longer</span></div>
+  <div id="cap37" class="clip scap" style="top:862.5px" data-start="38.46" data-duration="1.40" data-track-index="25"><span class="scappill" style="font-size:56.2px">have to actually worry</span></div>
+  <div id="cap38" class="clip scap" style="top:862.5px" data-start="39.86" data-duration="0.72" data-track-index="25"><span class="scappill" style="font-size:56.2px">about that.</span></div>
+  <div id="cap39" class="clip scap" style="top:862.5px" data-start="40.58" data-duration="0.46" data-track-index="25"><span class="scappill" style="font-size:56.2px">If you have a</span></div>
+  <div id="cap40" class="clip scap" style="top:862.5px" data-start="41.04" data-duration="0.86" data-track-index="25"><span class="scappill" style="font-size:56.2px">Hermes agent,</span></div>
+  <div id="cap41" class="clip scap" style="top:862.5px" data-start="41.9" data-duration="0.84" data-track-index="25"><span class="scappill" style="font-size:56.2px">you can now literally</span></div>
+  <div id="cap42" class="clip scap" style="top:862.5px" data-start="42.74" data-duration="1.06" data-track-index="25"><span class="scappill" style="font-size:56.2px">just give up all</span></div>
+  <div id="cap43" class="clip scap" style="top:862.5px" data-start="43.8" data-duration="1.22" data-track-index="25"><span class="scappill" style="font-size:56.2px">of the MCP servers</span></div>
+  <div id="cap44" class="clip scap" style="top:862.5px" data-start="45.02" data-duration="0.74" data-track-index="25"><span class="scappill" style="font-size:56.2px">and all of the</span></div>
+  <div id="cap45" class="clip scap" style="top:862.5px" data-start="45.76" data-duration="0.66" data-track-index="25"><span class="scappill" style="font-size:56.2px">tools that you will</span></div>
+  <div id="cap46" class="clip scap" style="top:862.5px" data-start="46.42" data-duration="1.64" data-track-index="25"><span class="scappill" style="font-size:56.2px">need without bloating your</span></div>
+  <div id="cap47" class="clip scap" style="top:862.5px" data-start="48.06" data-duration="1.44" data-track-index="25"><span class="scappill" style="font-size:56.2px">context, which is just</span></div>
+  <div id="cap48" class="clip scap" style="top:862.5px" data-start="49.5" data-duration="1.24" data-track-index="25"><span class="scappill" style="font-size:56.2px">unbelievable.</span></div>
+  <div id="cap49" class="clip scap" style="top:862.5px" data-start="50.74" data-duration="1.04" data-track-index="25"><span class="scappill" style="font-size:56.2px">Follow for more AI</span></div>
+  <div id="cap50" class="clip scap" style="top:862.5px" data-start="51.78" data-duration="1.10" data-track-index="25"><span class="scappill" style="font-size:56.2px">news and tutorials every</span></div>
+  <div id="cap51" class="clip scap" style="top:862.5px" data-start="52.88" data-duration="0.64" data-track-index="25"><span class="scappill" style="font-size:56.2px">single day.</span></div>
+  <div id="cap52" class="clip scap" style="top:862.5px" data-start="53.52" data-duration="0.36" data-track-index="25"><span class="scappill" style="font-size:56.2px">See you</span></div>
+
+  <audio id="vo" src="assets/v/hermes/audio.m4a" data-start="0" data-duration="54.17" data-track-index="30" data-volume="1"></audio>
+  <audio id="bgm0" src="assets/music/bed_split.mp3" data-start="0.00" data-duration="52.00" data-track-index="31" data-volume="0.16"></audio>
+  <audio id="bgm1" src="assets/music/bed_split.mp3" data-start="52.00" data-duration="2.17" data-track-index="31" data-volume="0.16"></audio>
+  <audio id="sfx0" src="assets/sfx/whoosh.mp3" data-start="0.02" data-duration="0.68" data-track-index="32" data-volume="0.2"></audio>
+  <audio id="sfx1" src="assets/sfx/pop.mp3" data-start="0.35" data-duration="0.60" data-track-index="33" data-volume="0.28"></audio>
+  <audio id="sfx2" src="assets/sfx/whoosh.mp3" data-start="11.80" data-duration="0.68" data-track-index="34" data-volume="0.2"></audio>
+  <audio id="sfx3" src="assets/sfx/pop.mp3" data-start="12.15" data-duration="0.60" data-track-index="35" data-volume="0.28"></audio>
+  <audio id="sfx4" src="assets/sfx/whoosh.mp3" data-start="20.00" data-duration="0.68" data-track-index="36" data-volume="0.2"></audio>
+  <audio id="sfx5" src="assets/sfx/pop.mp3" data-start="20.35" data-duration="0.60" data-track-index="37" data-volume="0.28"></audio>
+  <audio id="sfx6" src="assets/sfx/whoosh.mp3" data-start="40.58" data-duration="0.68" data-track-index="38" data-volume="0.2"></audio>
+  <audio id="sfx7" src="assets/sfx/pop.mp3" data-start="40.93" data-duration="0.60" data-track-index="39" data-volume="0.28"></audio>
+  <audio id="sfx8" src="assets/sfx/whoosh.mp3" data-start="50.74" data-duration="0.68" data-track-index="40" data-volume="0.2"></audio>
+  <audio id="sfx9" src="assets/sfx/boom.mp3" data-start="51.14" data-duration="0.88" data-track-index="41" data-volume="0.4"></audio>
+</div>
+
+<script>
+window.__timelines = window.__timelines || {};
+const tl = gsap.timeline({ paused: true });
+const POP = "back.out(2.2)";
+const SOFT = "power3.out";
+const SLAM = "power4.out";
+tl.fromTo("#c1",{scale:0.965},{scale:1,duration:0.5,ease:SOFT},0.00);
+tl.fromTo("#c1r",{scale:0.9,opacity:0},{scale:1,opacity:1,duration:0.34,ease:POP},2.08);
+tl.fromTo("#c1",{opacity:1},{opacity:0,duration:0.2,ease:SOFT},3.40);
+tl.set("#c1",{opacity:0},3.60);
+tl.fromTo("#c1r",{opacity:1},{opacity:0,duration:0.2,ease:SOFT},3.40);
+tl.set("#c1r",{opacity:0},3.60);
+tl.fromTo("#t10",{scale:0.62,opacity:0},{scale:1,opacity:1,duration:0.34,ease:POP},3.58);
+tl.fromTo("#t11",{scale:0.62,opacity:0},{scale:1,opacity:1,duration:0.34,ease:POP},3.62);
+tl.fromTo("#t12",{scale:0.62,opacity:0},{scale:1,opacity:1,duration:0.34,ease:POP},3.67);
+tl.fromTo("#t13",{scale:0.62,opacity:0},{scale:1,opacity:1,duration:0.34,ease:POP},3.71);
+tl.fromTo("#t14",{scale:0.62,opacity:0},{scale:1,opacity:1,duration:0.34,ease:POP},3.76);
+tl.fromTo("#t15",{scale:0.62,opacity:0},{scale:1,opacity:1,duration:0.34,ease:POP},3.81);
+tl.fromTo("#t16",{scale:0.62,opacity:0},{scale:1,opacity:1,duration:0.34,ease:POP},3.85);
+tl.fromTo("#t17",{scale:0.62,opacity:0},{scale:1,opacity:1,duration:0.34,ease:POP},3.90);
+tl.fromTo("#t18",{scale:0.62,opacity:0},{scale:1,opacity:1,duration:0.34,ease:POP},3.94);
+tl.fromTo("#t19",{scale:0.62,opacity:0},{scale:1,opacity:1,duration:0.34,ease:POP},3.98);
+tl.fromTo("#t110",{scale:0.62,opacity:0},{scale:1,opacity:1,duration:0.34,ease:POP},4.03);
+tl.fromTo("#t111",{scale:0.62,opacity:0},{scale:1,opacity:1,duration:0.34,ease:POP},4.08);
+tl.fromTo("#i1c",{opacity:0},{opacity:1,duration:0.4,ease:SOFT},4.62);
+tl.fromTo("#t10",{opacity:1},{opacity:0.2,duration:0.4,ease:SOFT},7.18);
+tl.fromTo("#t11",{opacity:1},{opacity:0.2,duration:0.4,ease:SOFT},7.18);
+tl.fromTo("#t12",{opacity:1},{opacity:0.2,duration:0.4,ease:SOFT},7.18);
+tl.fromTo("#t13",{opacity:1},{opacity:0.2,duration:0.4,ease:SOFT},7.18);
+tl.fromTo("#t14",{opacity:1},{opacity:0.2,duration:0.4,ease:SOFT},7.18);
+tl.fromTo("#t15",{opacity:1},{opacity:0.2,duration:0.4,ease:SOFT},7.18);
+tl.fromTo("#t16",{opacity:1},{opacity:0.2,duration:0.4,ease:SOFT},7.18);
+tl.fromTo("#t17",{opacity:1},{opacity:0.2,duration:0.4,ease:SOFT},7.18);
+tl.fromTo("#t18",{opacity:1},{opacity:0.2,duration:0.4,ease:SOFT},7.18);
+tl.fromTo("#t19",{opacity:1},{opacity:0.2,duration:0.4,ease:SOFT},7.18);
+tl.fromTo("#t110",{opacity:1},{opacity:0.2,duration:0.4,ease:SOFT},7.18);
+tl.fromTo("#t111",{opacity:1},{opacity:0.2,duration:0.4,ease:SOFT},7.18);
+tl.fromTo("#i1c",{opacity:1},{opacity:0.2,duration:0.4,ease:SOFT},7.18);
+tl.fromTo("#i1n",{scale:0.82,opacity:0},{scale:1,opacity:1,duration:0.45,ease:POP},8.56);
+tl.fromTo("#i1r",{scale:0.8,opacity:0},{scale:1,opacity:1,duration:0.42,ease:POP},9.56);
+tl.fromTo("#k21",{scale:1.18,opacity:0},{scale:1,opacity:1,duration:0.36,ease:SLAM},11.88);
+tl.fromTo("#k22",{scale:1.18,opacity:0},{scale:1,opacity:1,duration:0.36,ease:SLAM},12.48);
+tl.fromTo("#k2u",{scaleX:0},{scaleX:1,duration:0.5,ease:SOFT},13.70);
+tl.fromTo("#k21",{opacity:1},{opacity:0,duration:0.26,ease:SOFT},15.20);
+tl.set("#k21",{opacity:0},15.46);
+tl.fromTo("#k22",{opacity:1},{opacity:0,duration:0.26,ease:SOFT},15.20);
+tl.set("#k22",{opacity:0},15.46);
+tl.fromTo("#k2u",{opacity:1},{opacity:0,duration:0.26,ease:SOFT},15.20);
+tl.set("#k2u",{opacity:0},15.46);
+tl.fromTo("#g2c0",{y:30.0,opacity:0},{y:0,opacity:1,duration:0.38,ease:SOFT},15.50);
+tl.fromTo("#g2c1",{y:30.0,opacity:0},{y:0,opacity:1,duration:0.38,ease:SOFT},15.64);
+tl.fromTo("#g2c2",{y:30.0,opacity:0},{y:0,opacity:1,duration:0.38,ease:SOFT},15.78);
+tl.fromTo("#g2a",{scale:0.88,opacity:0},{scale:1,opacity:1,duration:0.34,ease:POP},16.72);
+tl.fromTo("#g2a",{opacity:1},{opacity:0,duration:0.16,ease:SOFT},18.30);
+tl.set("#g2a",{opacity:0},18.46);
+tl.fromTo("#g2b",{scale:0.88,opacity:0},{scale:1,opacity:1,duration:0.34,ease:POP},18.50);
+tl.fromTo("#t30",{scale:0.62,opacity:0},{scale:1,opacity:1,duration:0.3,ease:POP},20.10);
+tl.fromTo("#t30",{opacity:1},{opacity:0.24,duration:0.2,ease:SOFT},20.44);
+tl.fromTo("#t31",{scale:0.62,opacity:0},{scale:1,opacity:1,duration:0.3,ease:POP},20.14);
+tl.fromTo("#t31",{opacity:1},{opacity:0.24,duration:0.2,ease:SOFT},20.48);
+tl.fromTo("#t32",{scale:0.62,opacity:0},{scale:1,opacity:1,duration:0.3,ease:POP},20.17);
+tl.fromTo("#t32",{opacity:1},{opacity:0.24,duration:0.2,ease:SOFT},20.51);
+tl.fromTo("#t33",{scale:0.62,opacity:0},{scale:1,opacity:1,duration:0.3,ease:POP},20.21);
+tl.fromTo("#t33",{opacity:1},{opacity:0.24,duration:0.2,ease:SOFT},20.55);
+tl.fromTo("#t34",{scale:0.62,opacity:0},{scale:1,opacity:1,duration:0.3,ease:POP},20.24);
+tl.fromTo("#t34",{opacity:1},{opacity:0.24,duration:0.2,ease:SOFT},20.58);
+tl.fromTo("#t35",{scale:0.62,opacity:0},{scale:1,opacity:1,duration:0.3,ease:POP},20.28);
+tl.fromTo("#t35",{opacity:1},{opacity:0.24,duration:0.2,ease:SOFT},20.62);
+tl.fromTo("#t36",{scale:0.62,opacity:0},{scale:1,opacity:1,duration:0.3,ease:POP},20.31);
+tl.fromTo("#t36",{opacity:1},{opacity:0.24,duration:0.2,ease:SOFT},20.65);
+tl.fromTo("#t37",{scale:0.62,opacity:0},{scale:1,opacity:1,duration:0.3,ease:POP},20.35);
+tl.fromTo("#t37",{opacity:1},{opacity:0.24,duration:0.2,ease:SOFT},20.69);
+tl.fromTo("#t38",{scale:0.62,opacity:0},{scale:1,opacity:1,duration:0.3,ease:POP},20.38);
+tl.fromTo("#t38",{opacity:1},{opacity:0.24,duration:0.2,ease:SOFT},20.72);
+tl.fromTo("#t39",{scale:0.62,opacity:0},{scale:1,opacity:1,duration:0.3,ease:POP},20.42);
+tl.fromTo("#t39",{opacity:1},{opacity:0.24,duration:0.2,ease:SOFT},20.76);
+tl.fromTo("#t310",{scale:0.62,opacity:0},{scale:1,opacity:1,duration:0.3,ease:POP},20.45);
+tl.fromTo("#t310",{opacity:1},{opacity:0.24,duration:0.2,ease:SOFT},20.79);
+tl.fromTo("#t311",{scale:0.62,opacity:0},{scale:1,opacity:1,duration:0.3,ease:POP},20.49);
+tl.fromTo("#t311",{opacity:1},{opacity:0.24,duration:0.2,ease:SOFT},20.83);
+tl.fromTo("#b30",{scale:0.7,opacity:0},{scale:1,opacity:1,duration:0.4,ease:POP},20.60);
+tl.fromTo("#i3n",{opacity:0},{opacity:1,duration:0.35,ease:SOFT},20.80);
+tl.fromTo("#i3c",{opacity:0},{opacity:1,duration:0.35,ease:SOFT},20.70);
+tl.fromTo("#ctx3w",{opacity:0},{opacity:1,duration:0.35,ease:SOFT},20.80);
+tl.fromTo("#ctx3",{scaleY:0},{scaleY:0.52,duration:0.5,ease:SOFT},21.50);
+tl.fromTo("#ctx3",{scaleY:0.52},{scaleY:1.0,duration:0.5,ease:SOFT},22.36);
+tl.fromTo("#i3r",{scale:0.88,opacity:0},{scale:1,opacity:1,duration:0.42,ease:POP},24.20);
+tl.fromTo("#i3r",{opacity:1},{opacity:0,duration:0.2,ease:SOFT},26.05);
+tl.set("#i3r",{opacity:0},26.25);
+tl.fromTo("#b30",{opacity:1},{opacity:0,duration:0.2,ease:SOFT},26.34);
+tl.set("#b30",{opacity:0},26.54);
+tl.fromTo("#b31",{scale:0.7,opacity:0},{scale:1,opacity:1,duration:0.4,ease:POP},26.30);
+tl.fromTo("#ctx3",{scaleY:1.0},{scaleY:0.14,duration:0.55,ease:SOFT},27.74);
+tl.fromTo("#i3m",{scale:0.82,opacity:0},{scale:1,opacity:1,duration:0.45,ease:POP},30.78);
+tl.fromTo("#i3h",{scale:0.7,opacity:0},{scale:1,opacity:1,duration:0.4,ease:POP},32.32);
+tl.fromTo("#b31",{opacity:1},{opacity:0,duration:0.2,ease:SOFT},35.66);
+tl.set("#b31",{opacity:0},35.86);
+tl.fromTo("#b32",{scale:0.7,opacity:0},{scale:1,opacity:1,duration:0.4,ease:POP},35.64);
+tl.fromTo("#t30",{opacity:0.24},{opacity:0.62,duration:0.3,ease:SOFT},35.74);
+tl.fromTo("#t31",{opacity:0.24},{opacity:0.62,duration:0.3,ease:SOFT},35.76);
+tl.fromTo("#t32",{opacity:0.24},{opacity:0.62,duration:0.3,ease:SOFT},35.78);
+tl.fromTo("#t33",{opacity:0.24},{opacity:0.62,duration:0.3,ease:SOFT},35.80);
+tl.fromTo("#t34",{opacity:0.24},{opacity:0.62,duration:0.3,ease:SOFT},35.82);
+tl.fromTo("#t35",{opacity:0.24},{opacity:0.62,duration:0.3,ease:SOFT},35.84);
+tl.fromTo("#t36",{opacity:0.24},{opacity:0.62,duration:0.3,ease:SOFT},35.86);
+tl.fromTo("#t37",{opacity:0.24},{opacity:0.62,duration:0.3,ease:SOFT},35.88);
+tl.fromTo("#t38",{opacity:0.24},{opacity:0.62,duration:0.3,ease:SOFT},35.90);
+tl.fromTo("#t39",{opacity:0.24},{opacity:0.62,duration:0.3,ease:SOFT},35.92);
+tl.fromTo("#t310",{opacity:0.24},{opacity:0.62,duration:0.3,ease:SOFT},35.94);
+tl.fromTo("#t311",{opacity:0.24},{opacity:0.62,duration:0.3,ease:SOFT},35.96);
+tl.fromTo("#t30",{opacity:0.62},{opacity:1.0,duration:0.34,ease:SOFT},37.80);
+tl.fromTo("#t31",{opacity:0.62},{opacity:1.0,duration:0.34,ease:SOFT},37.82);
+tl.fromTo("#t32",{opacity:0.62},{opacity:1.0,duration:0.34,ease:SOFT},37.84);
+tl.fromTo("#t33",{opacity:0.62},{opacity:1.0,duration:0.34,ease:SOFT},37.85);
+tl.fromTo("#t34",{opacity:0.62},{opacity:1.0,duration:0.34,ease:SOFT},37.87);
+tl.fromTo("#t35",{opacity:0.62},{opacity:1.0,duration:0.34,ease:SOFT},37.89);
+tl.fromTo("#t36",{opacity:0.62},{opacity:1.0,duration:0.34,ease:SOFT},37.91);
+tl.fromTo("#t37",{opacity:0.62},{opacity:1.0,duration:0.34,ease:SOFT},37.93);
+tl.fromTo("#t38",{opacity:0.62},{opacity:1.0,duration:0.34,ease:SOFT},37.94);
+tl.fromTo("#t39",{opacity:0.62},{opacity:1.0,duration:0.34,ease:SOFT},37.96);
+tl.fromTo("#t310",{opacity:0.62},{opacity:1.0,duration:0.34,ease:SOFT},37.98);
+tl.fromTo("#t311",{opacity:0.62},{opacity:1.0,duration:0.34,ease:SOFT},38.00);
+tl.fromTo("#n4b",{scale:0.8,opacity:0},{scale:1,opacity:1,duration:0.45,ease:POP},40.72);
+tl.fromTo("#n4l",{scale:0.62,opacity:0},{scale:1,opacity:1,duration:0.42,ease:POP},40.72);
+tl.fromTo("#n4t",{x:-26.2,opacity:0},{x:0,opacity:1,duration:0.4,ease:SOFT},40.72);
+tl.fromTo("#t40",{scale:0.62,opacity:0},{scale:1,opacity:1,duration:0.34,ease:POP},41.20);
+tl.fromTo("#t41",{scale:0.62,opacity:0},{scale:1,opacity:1,duration:0.34,ease:POP},41.25);
+tl.fromTo("#t42",{scale:0.62,opacity:0},{scale:1,opacity:1,duration:0.34,ease:POP},41.29);
+tl.fromTo("#t43",{scale:0.62,opacity:0},{scale:1,opacity:1,duration:0.34,ease:POP},41.34);
+tl.fromTo("#t44",{scale:0.62,opacity:0},{scale:1,opacity:1,duration:0.34,ease:POP},41.38);
+tl.fromTo("#t45",{scale:0.62,opacity:0},{scale:1,opacity:1,duration:0.34,ease:POP},41.43);
+tl.fromTo("#t46",{scale:0.62,opacity:0},{scale:1,opacity:1,duration:0.34,ease:POP},41.47);
+tl.fromTo("#t47",{scale:0.62,opacity:0},{scale:1,opacity:1,duration:0.34,ease:POP},41.52);
+tl.fromTo("#t48",{scale:0.62,opacity:0},{scale:1,opacity:1,duration:0.34,ease:POP},41.56);
+tl.fromTo("#t49",{scale:0.62,opacity:0},{scale:1,opacity:1,duration:0.34,ease:POP},41.61);
+tl.fromTo("#t410",{scale:0.62,opacity:0},{scale:1,opacity:1,duration:0.34,ease:POP},41.65);
+tl.fromTo("#t411",{scale:0.62,opacity:0},{scale:1,opacity:1,duration:0.34,ease:POP},41.70);
+tl.fromTo("#n4a",{scale:0.78,opacity:0},{scale:1,opacity:1,duration:0.42,ease:POP},43.26);
+tl.fromTo("#a4a",{scaleX:0},{scaleX:1,duration:0.42,ease:SOFT},44.90);
+tl.fromTo("#a4ah",{scale:0.3,opacity:0},{scale:1,opacity:1,duration:0.26,ease:POP},45.24);
+tl.fromTo("#a4b",{scaleX:0},{scaleX:1,duration:0.36,ease:SOFT},45.96);
+tl.fromTo("#a4bh",{scale:0.3,opacity:0},{scale:1,opacity:1,duration:0.26,ease:POP},46.25);
+tl.fromTo("#i4c",{opacity:0},{opacity:1,duration:0.35,ease:SOFT},46.90);
+tl.fromTo("#bf4w",{opacity:0},{opacity:1,duration:0.35,ease:SOFT},47.00);
+tl.fromTo("#bf4",{scaleX:0},{scaleX:0.12,duration:0.5,ease:SOFT},47.15);
+tl.fromTo("#i4p",{opacity:0},{opacity:1,duration:0.45,ease:SOFT},49.50);
+tl.fromTo("#ot0",{scale:0.6,opacity:0},{scale:1,opacity:1,duration:0.3,ease:POP},51.08);
+tl.fromTo("#ot1",{scale:0.6,opacity:0},{scale:1,opacity:1,duration:0.3,ease:POP},51.13);
+tl.fromTo("#ot2",{scale:0.6,opacity:0},{scale:1,opacity:1,duration:0.3,ease:POP},51.18);
+tl.fromTo("#ot3",{scale:0.6,opacity:0},{scale:1,opacity:1,duration:0.3,ease:POP},51.23);
+tl.fromTo("#ot4",{scale:0.6,opacity:0},{scale:1,opacity:1,duration:0.3,ease:POP},51.28);
+tl.fromTo("#ot5",{scale:0.6,opacity:0},{scale:1,opacity:1,duration:0.3,ease:POP},51.33);
+tl.fromTo("#ohn",{scale:0.965},{scale:1,duration:0.5,ease:SOFT},50.74);
+tl.fromTo("#od",{opacity:0},{opacity:1,duration:0.42,ease:SOFT},51.72);
+tl.fromTo("#oe",{y:26.2,opacity:0},{y:0,opacity:1,duration:0.38,ease:SOFT},52.06);
+tl.to("#bgm1",{volume:0,duration:1.5},52.57);
+window.__timelines["main"] = tl;
+</script>
+</body>
+</html>

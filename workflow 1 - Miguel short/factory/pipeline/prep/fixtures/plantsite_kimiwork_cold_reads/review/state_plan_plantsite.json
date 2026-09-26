@@ -1,0 +1,17 @@
+{
+  "plan_json": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/plans/plantsite_plan.json",
+  "plan_md": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/plans/plantsite_plan.md",
+  "lane": "diagram build",
+  "lane_reason": "The script assembles one causal picture out of parts it names in order - the productivity list you set aside, the plant page somebody actually built, and the two things that made it (AI plus one weekend) - so the top zone builds that diagram once and never swaps scenes.",
+  "beats": 6,
+  "bespoke_names": ["TICKED TASK LIST", "PLANT WEB PAGE", "WEEKEND CALENDAR PAGE"],
+  "board_mode": "single",
+  "cues": "scan returned 0 cues (prep/stages/plantsite.cues.json cue_count 0, and my own re-run of pointing_cues.py agrees); the plan still raises ONE card because the scanner's PATTERNS only match singular demonstratives while Miguel says the plural 'like these guys that, on X'. Answered, not waived: the genuine X post by chloe venn (@khloyakafe, 2083707803265286193) from shorts_run16/plants-source/, X frame, inner = the attached photo of the monitor showing the built plant page, highlight on the line 'wanted to build a webpage about indigenous south african fynbos'. 2.50 s hold, no metrics chrome. assert_cues_covered = PASS (cues 0, cards 1).",
+  "open_questions": [
+    "The drawn plant page's address pill must stay EMPTY - the source payload carries no published URL, so no domain may be invented; a terracotta dot is the allowed substitute.",
+    "Which genuine photo crops best inside the source card: plan picks photo 2 (the monitor showing the built page) cropped to the screen; photo 1 (the man at his desk) is the fallback if illegible at 405x720.",
+    "If the board gets tight, MEANINGFUL may be dropped rather than moved - never placed beside the page (LAW 39). INDIGENOUS PLANTS is the key that must survive.",
+    "wing review: the prompt0 marker exists and reports wing_review true, wing_cut_applied false, removed_px 0 (the instrument abstained). It belongs to the CUTOUT author."
+  ],
+  "open_doubts": []
+}

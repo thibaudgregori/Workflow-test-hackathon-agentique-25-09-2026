@@ -1,0 +1,245 @@
+{
+  "schema_version": 1,
+  "reviewed_at_utc": "2026-09-05T19:25:56.003690+00:00",
+  "reviewer": "budget_and_preference",
+  "format": "TikTok cutout only",
+  "mp4": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-attempts/shieldstral-c5a5d2f3c5e9f094/output/shieldstral_cutout.mp4",
+  "mp4_sha256": "89289fc50d0e1ff407ac25c8927043c428607f5fa30280868beec96dfc6e9ffd",
+  "verdict": "HOLD",
+  "continuous_playback_review": false,
+  "sample_times_seconds": [
+    0,
+    0.16,
+    0.4,
+    1.2,
+    11,
+    13.5,
+    15.28,
+    18,
+    21.92,
+    24.2,
+    25.52,
+    29.4
+  ],
+  "visual_findings": [
+    "Matched source expressions, face, ears, beard, cap and visible hands preserved in inspected samples.",
+    "Chair absent; cream rim follows subject in inspected frames."
+  ],
+  "evidence": [
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/gen/_qcpass_shieldstral_cutout_plumbing.json",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/review/shieldstral/headscale-corrected.json",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/review/cands_shieldstral_cutout.json",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/gen/_qcpass_shieldstral_cutout.json",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/review/shieldstral/final-native-0.00.png",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/review/shieldstral/final-native-0.16.png",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/review/shieldstral/final-native-0.40.png",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/review/shieldstral/final-native-1.20.png",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/review/shieldstral/final-native-11.00.png",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/review/shieldstral/final-native-13.50.png",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/review/shieldstral/final-native-15.28.png",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/review/shieldstral/final-native-18.00.png",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/review/shieldstral/final-native-21.92.png",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/review/shieldstral/final-native-24.20.png",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/review/shieldstral/final-native-25.52.png",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/review/shieldstral/final-native-29.40.png",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/review/shieldstral/final-phone-sheet-0.jpg",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/review/shieldstral/final-phone-sheet-1.jpg",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/review/shieldstral/final-phone-sheet-2.jpg",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/review/shieldstral/final-source-matched.jpg",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/review/shieldstral/final-worst-headroom.png",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/gen/_qcpass_shieldstral_cutout_corrected.json"
+  ],
+  "technical_adjudication": {
+    "original_head_scale_failure": "False failure from hardcoded plate_top930; corrected helper uses actual layer top.",
+    "corrected_head_scale": {
+      "video": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-attempts/shieldstral-c5a5d2f3c5e9f094/output/shieldstral_cutout.mp4",
+      "alpha": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/matting/shieldstral/matte_shieldstral_v5_alpha.webm",
+      "plate_top": 867.8372093023256,
+      "n": 12,
+      "head_canvas_px": {
+        "median": 505.6,
+        "p10": 496.2,
+        "p90": 526.6
+      },
+      "head_405x720_px": 189.6,
+      "head_frac_of_1920": 0.2634,
+      "law_496_delta_pct": 1.9,
+      "samples": [
+        {
+          "frame": 59,
+          "t": 2.36,
+          "crown_canvas_y": 947.8,
+          "chin_canvas_y": 1451.2,
+          "head_canvas_px": 503.3
+        },
+        {
+          "frame": 116,
+          "t": 4.64,
+          "crown_canvas_y": 944.8,
+          "chin_canvas_y": 1448.3,
+          "head_canvas_px": 503.4
+        },
+        {
+          "frame": 172,
+          "t": 6.88,
+          "crown_canvas_y": 945.8,
+          "chin_canvas_y": 1452.9,
+          "head_canvas_px": 507.1
+        },
+        {
+          "frame": 228,
+          "t": 9.12,
+          "crown_canvas_y": 946.8,
+          "chin_canvas_y": 1446.2,
+          "head_canvas_px": 499.3
+        },
+        {
+          "frame": 285,
+          "t": 11.4,
+          "crown_canvas_y": 947.8,
+          "chin_canvas_y": 1464.6,
+          "head_canvas_px": 516.7
+        },
+        {
+          "frame": 341,
+          "t": 13.64,
+          "crown_canvas_y": 948.8,
+          "chin_canvas_y": 1478.6,
+          "head_canvas_px": 529.8
+        },
+        {
+          "frame": 398,
+          "t": 15.92,
+          "crown_canvas_y": 943.8,
+          "chin_canvas_y": 1448.0,
+          "head_canvas_px": 504.2
+        },
+        {
+          "frame": 454,
+          "t": 18.16,
+          "crown_canvas_y": 946.8,
+          "chin_canvas_y": 1455.1,
+          "head_canvas_px": 508.2
+        },
+        {
+          "frame": 511,
+          "t": 20.44,
+          "crown_canvas_y": 948.8,
+          "chin_canvas_y": 1442.5,
+          "head_canvas_px": 493.6
+        },
+        {
+          "frame": 567,
+          "t": 22.68,
+          "crown_canvas_y": 943.8,
+          "chin_canvas_y": 1470.8,
+          "head_canvas_px": 526.9
+        },
+        {
+          "frame": 624,
+          "t": 24.96,
+          "crown_canvas_y": 946.8,
+          "chin_canvas_y": 1442.7,
+          "head_canvas_px": 495.8
+        },
+        {
+          "frame": 680,
+          "t": 27.2,
+          "crown_canvas_y": 944.8,
+          "chin_canvas_y": 1468.3,
+          "head_canvas_px": 523.5
+        }
+      ],
+      "pass": true
+    },
+    "crown_clearance": {
+      "file": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-attempts/shieldstral-c5a5d2f3c5e9f094/output/shieldstral_cutout.mp4",
+      "frames": 739,
+      "fps": 25.0,
+      "every_s": 0.5,
+      "samples": 61,
+      "min_clear_px": 32.0,
+      "p05_clear_px": 44.0,
+      "median_clear_px": 48.0,
+      "max_clear_px": 53.0,
+      "worst": {
+        "t": 10.56,
+        "pill_bottom": 903.0,
+        "crown": 935.0,
+        "clear": 32.0
+      },
+      "floor_px": 24.0,
+      "plate_top": 867.8372,
+      "samples_with_crown_at_plate_top": 0,
+      "crown_at_plate_top_frac": 0.0,
+      "crown_cut_frac_floor": 0.25,
+      "crown_is_a_cut": false,
+      "pass": true
+    },
+    "audio": "Free QC source mix comparison and sync PASS.",
+    "other_technical_verdicts": {
+      "decoded_blank_frames": "PASS",
+      "zero_ink_law": "PASS",
+      "clip_coverage_page": "PASS",
+      "double_exposure": "REPORTED",
+      "face_centring": "PASS",
+      "pill_canon_rendered": "PASS",
+      "gate1_geometry_audit": "PASS",
+      "gate2_frame_review": "PASS",
+      "cutout_checks_24_25": "PASS",
+      "audio_guards": "PASS",
+      "contact_sheet": "PASS",
+      "edge_clip": "PASS",
+      "face_hf_vs_plate": "PASS",
+      "head_scale_vs_framing": "FAIL"
+    },
+    "original_reports_preserved": true
+  },
+  "limitations": [
+    "Sampled native final and matched-source review; not uninterrupted audiovisual playback.",
+    "Approval applies only to this exact TikTok MP4, not three formats or future renders.",
+    "Original QC report remains unchanged; head-scale result is separately superseded by corrected measurement."
+  ],
+  "watcher_adjudication": {
+    "blocking_candidates": 0,
+    "describe_0s": "Brief draw-in visible through0.4s; identifiable symbol by1.2s, not a held unintelligible object.",
+    "describe_24_2s": "Dismissed after native inspection: staircase and key/lock visible, not empty black bar."
+  },
+  "sampling_scope": "Actual sampled native frames plus automated watcher/QC. Bottom stripe confirmed in actual frames; no uninterrupted playback claimed.",
+  "prior_review": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/review/final_shieldstral_cutout.prior-before-bottom-gap.json",
+  "fresh_technical_qc": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/gen/_qcpass_shieldstral_cutout_corrected.json",
+  "fresh_technical_verdicts": {
+    "decoded_blank_frames": "PASS",
+    "zero_ink_law": "PASS",
+    "clip_coverage_page": "PASS",
+    "double_exposure": "REPORTED",
+    "face_centring": "PASS",
+    "pill_canon_rendered": "PASS",
+    "gate1_geometry_audit": "PASS",
+    "gate2_frame_review": "PASS",
+    "cutout_checks_24_25": "PASS",
+    "audio_guards": "PASS",
+    "contact_sheet": "PASS",
+    "edge_clip": "PASS",
+    "face_hf_vs_plate": "PASS",
+    "head_scale_vs_framing": "PASS"
+  },
+  "paid_evidence_reused": {
+    "mp4_sha256": "89289fc50d0e1ff407ac25c8927043c428607f5fa30280868beec96dfc6e9ffd",
+    "render_result": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-attempts/shieldstral-c5a5d2f3c5e9f094/result.json",
+    "binding": "Saved render result SHA256 matches current MP4; its QC and watcher command arguments target this exact MP4 path. Original reports preserved.",
+    "watcher": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/review/cands_shieldstral_cutout.json",
+    "gate3_original_report": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/gen/_qcpass_shieldstral_cutout.json"
+  },
+  "blocking_findings": [
+    {
+      "kind": "bottom_torso_coverage",
+      "layer_top_px": 867.8372,
+      "layer_height_px": 990,
+      "layer_bottom_px": 1857.8372,
+      "uncovered_bottom_px": 62.1628,
+      "description": "Visible full-width cream stripe below the torso; original bottom-planted composition covered the frame bottom. Restore coverage while preserving subject size and caption clearance."
+    }
+  ],
+  "pass_revoked": true
+}

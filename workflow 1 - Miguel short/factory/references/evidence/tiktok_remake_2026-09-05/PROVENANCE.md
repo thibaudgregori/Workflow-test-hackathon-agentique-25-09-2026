@@ -1,0 +1,1 @@
+Accepted-run evidence copied 2026-09-20 from shorts_tiktok_remake_20260905 (the 2026-09-05 TikTok cutout remake), before that folder's retirement. Its tools moved to pipeline/matting/ (repair_stage, auto_repair, run_matting).

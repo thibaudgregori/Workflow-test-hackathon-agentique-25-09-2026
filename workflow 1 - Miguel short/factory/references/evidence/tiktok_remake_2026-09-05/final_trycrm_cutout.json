@@ -1,0 +1,107 @@
+{
+  "verdict": "PASS",
+  "phone_verdict": "PASS",
+  "reviewer": "prepare_crops final export review",
+  "mp4": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-attempts/trycrm-129a625785d1e0c0/output/trycrm_cutout.mp4",
+  "mp4_sha256": "0066bc220c7d4275523f68903b8f4dc459540948b77fe84729441021d3122439",
+  "alpha_sha256": "0d1df46c453e784ec26f6a7217d75bc667d7200fa93f3930c216292fdaea419c",
+  "project_sha256": "129a625785d1e0c0cbdf78712ee1ebfe54df97ce4e9a7072e8d6f94586920142",
+  "agent_review": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/review/trycrm/agent-review.json",
+  "agent_review_sha256": "037bb27e8292158c1223cc89558460383ff81930124895b249211037bfe3fabf",
+  "reviewed_files": {
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-attempts/trycrm-129a625785d1e0c0/output/trycrm_cutout.mp4": "0066bc220c7d4275523f68903b8f4dc459540948b77fe84729441021d3122439"
+  },
+  "render_result": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-attempts/trycrm-129a625785d1e0c0/result.json",
+  "render_result_sha256": "8ef3e5f6d26d716cf502e73bf8fa3bd17ae84367dae18c085a6ee58d3fd4f8b7",
+  "whole_video_watcher": {
+    "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/clerk_video_gemini.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-attempts/trycrm-129a625785d1e0c0/output/trycrm_cutout.mp4 trycrm --fmt cutout --out /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/review/cands_trycrm_cutout.json --thinking medium",
+    "returncode": 0,
+    "wall_s": 39.5,
+    "out": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/review/cands_trycrm_cutout.json",
+    "stderr": "[pass 1 win 4/4 34.0-41.1s] 2 beats / 0 candidates  in=9779 out=1631 $0.0070\n[pass 1 win 2/4 0.0-20.0s] 7 beats / 0 candidates  in=20398 out=1575 $0.0101\n[pass 1 win 3/4 17.0-37.0s] 6 beats / 0 candidates  in=20400 out=4104 $0.0164\n[pass 1 win 1/4 0.0-41.1s] 8 beats / 0 candidates  in=37555 out=3966 $0.0212\n",
+    "model": "gemini-3.5-flash-lite",
+    "cost_usd": 0.054629,
+    "counts": {
+      "candidates": 0,
+      "blocking": 0,
+      "motion": 0
+    },
+    "video_summary": "A presenter introduces a free AI-first CRM called TryCRM.ai built by trycomp.ai, detailing its lead research, record-keeping, and meeting follow-up features. He then demonstrates how to set it up using Claude Code or Codex instances before concluding with a call to follow for daily AI tutorials.",
+    "candidates": [],
+    "blocking_candidates": 0,
+    "pass": true
+  },
+  "technical_evidence": {
+    "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/qc/qc_pass.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-attempts/trycrm-129a625785d1e0c0/output/trycrm_cutout.mp4 --project /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/trycrm_cutout --vid trycrm --fmt cutout --out /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/gen/_qcpass_trycrm_cutout.json --run /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905 --geom /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-support/_geom_trycrm.json --alpha /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/matting/trycrm/matte_trycrm_v5_alpha.webm --edge-box 1584x990+-153+930.0000 --voice-master /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/cuts/trycrm/audio.m4a --plate /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/matting/trycrm/plate_display_1584x990.mp4 --phone-at 1.9:0.3,0.15,0.7,0.36:contact record card --phone-at 17.0:0.08,0.19,0.32,0.37:magnifier on card --phone-at 17.0:0.37,0.19,0.63,0.37:open file drawer --phone-at 18.4:0.68,0.19,0.92,0.37:calendar booked day --phone-at 20.3:0.37,0.17,0.63,0.38:zero price tag --phone-at 25.9:0.09,0.16,0.91,0.4:website browser card --phone-at 32.2:0.1,0.17,0.9,0.42:code terminal window",
+    "returncode": 0,
+    "wall_s": 29.8,
+    "report": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/gen/_qcpass_trycrm_cutout.json",
+    "stdout": "E  EDGE FADE   0 frame-edge chops, 5 masked containers OK\nF  DEPTH FIELD  3/3 lanes, band 394.0px, gutters [26.0, 26.0], 13 steps OK\nF  CROWN CLEARANCE  min 98.0 px, median 114.0 px over 85 samples OK\n{\n \"render\": \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-attempts/trycrm-129a625785d1e0c0/output/trycrm_cutout.mp4\",\n \"verdicts\": {\n  \"decoded_blank_frames\": \"PASS\",\n  \"zero_ink_law\": \"PASS\",\n  \"clip_coverage_page\": \"PASS\",\n  \"double_exposure\": \"REPORTED\",\n  \"face_centring\": \"PASS\",\n  \"pill_canon_rendered\": \"PASS\",\n  \"gate1_geometry_audit\": \"PASS\",\n  \"gate2_frame_review\": \"PASS\",\n  \"cutout_checks_24_25\": \"PASS\",\n  \"gate3_gemini_describe\": \"REPORTED\",\n  \"audio_guards\": \"PASS\",\n  \"contact_sheet\": \"PASS\",\n  \"phone_crops\": \"PASS\",\n  \"edge_clip\": \"PASS\",\n  \"face_hf_vs_plate\": \"PASS\",\n  \"head_scale_vs_framing\": \"PASS\"\n },\n \"skipped\": [\n  \"whiteboard_seam_law\"\n ],\n \"wall_s\": {\n  \"decoded_blank_frames\": 0.0,\n  \"zero_ink_law\": 0.0,\n  \"clip_coverage_page\": 0.0,\n  \"double_exposure\": 0.11,\n  \"face_centring\": 0.81,\n  \"pill_canon_rendered\": 0.0,\n  \"gate1_geometry_audit\": 12.96,\n  \"gate2_frame_review\": 5.44,\n  \"cutout_checks_24_25\": 19.67,\n  \"gate3_gemini_describe\": 27.69,\n  \"audio_guards\": 2.65,\n  \"contact_sheet\": 9.93,\n  \"phone_crops\": 2.73,\n  \"edge_clip\": 29.04,\n  \"face_hf_vs_plate\": 17.14,\n  \"head_scale_vs_framing\": 23.38,\n  \"single_decode\": 28.43\n },\n \"total_wall_s\": 29.49,\n \"report\": \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/gen/_qcpass_trycrm_cutout.json\",\n \"pass\": true\n}\n",
+    "stderr": "I0000 00:00:1788647164.189406 17608505 init-domain.cc:132] Fiber init: default domain = pthread, concurrency = 19, prefix = pthread-default\nW0000 00:00:1788647164.190034 17608505 face_landmarker_graph.cc:180] Sets FaceBlendshapesGraph acceleration to xnnpack by default.\nW0000 00:00:1788647164.190223 17608507 face_landmarker_graph.cc:180] Sets FaceBlendshapesGraph acceleration to xnnpack by default.\nI0000 00:00:1788647164.261234 17608505 gl_context.cc:407] GL version: 2.1 (2.1 Metal - 90.5), renderer: Apple M5 Pro\nINFO: Created TensorFlow Lite XNNPACK delegate for CPU.\nW0000 00:00:1788647164.262535 17608510 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.\nW0000 00:00:1788647164.269023 17608523 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.\nI0000 00:00:1788647164.423730 17608507 gl_context.cc:407] GL version: 2.1 (2.1 Metal - 90.5), renderer: Apple M5 Pro\nW0000 00:00:1788647164.425698 17608527 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.\nW0000 00:00:1788647164.433888 17608527 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.\nI0000 00:00:1788647186.500576 17617215 gl_context.cc:407] GL version: 2.1 (2.1 Metal - 90.5), renderer: Apple M5 Pro\nW0000 00:00:1788647186.501769 17617219 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.\n",
+    "verdicts": {
+      "decoded_blank_frames": "PASS",
+      "zero_ink_law": "PASS",
+      "clip_coverage_page": "PASS",
+      "double_exposure": "REPORTED",
+      "face_centring": "PASS",
+      "pill_canon_rendered": "PASS",
+      "gate1_geometry_audit": "PASS",
+      "gate2_frame_review": "PASS",
+      "cutout_checks_24_25": "PASS",
+      "gate3_gemini_describe": "REPORTED",
+      "audio_guards": "PASS",
+      "contact_sheet": "PASS",
+      "phone_crops": "PASS",
+      "edge_clip": "PASS",
+      "face_hf_vs_plate": "PASS",
+      "head_scale_vs_framing": "PASS"
+    },
+    "failed": [],
+    "skipped": {
+      "whiteboard_seam_law": "whiteboard only, and needs --seams (the chapter erase times)"
+    },
+    "wall_s_by_check": {
+      "decoded_blank_frames": 0.0,
+      "zero_ink_law": 0.0,
+      "clip_coverage_page": 0.0,
+      "double_exposure": 0.11,
+      "face_centring": 0.81,
+      "pill_canon_rendered": 0.0,
+      "gate1_geometry_audit": 12.96,
+      "gate2_frame_review": 5.44,
+      "cutout_checks_24_25": 19.67,
+      "gate3_gemini_describe": 27.69,
+      "audio_guards": 2.65,
+      "contact_sheet": 9.93,
+      "phone_crops": 2.73,
+      "edge_clip": 29.04,
+      "face_hf_vs_plate": 17.14,
+      "head_scale_vs_framing": 23.38,
+      "single_decode": 28.43
+    },
+    "total_wall_s": 29.49,
+    "pass": true
+  },
+  "findings": [
+    "Pre-existing caption note:5.12s says trycomp.ai while graphic says TRYCRM.AI. Exact cap4 text/style/timing is identical to hash-verified original source project. Not introduced by remake; accepted outside outline/remake scope per root. Text perfection is not claimed.",
+    "Normal-size outlines, captions spacing, graphics and torso coverage otherwise show no material issue. Historical zoom-only hand findings follow user acceptance."
+  ],
+  "watcher_adjudication": [],
+  "continuous_playback_review": false,
+  "scope": "12actual360x640full-frame stills; exact-export technical QC and existing watcher pass. No continuous manual playback or zoom.",
+  "sample_times_seconds": [
+    0.0,
+    0.16,
+    0.2,
+    0.4,
+    5.12,
+    10.24,
+    15.36,
+    20.48,
+    25.64,
+    30.76,
+    35.88,
+    40.92
+  ],
+  "reviewed_epoch": 1788647292.638871
+}

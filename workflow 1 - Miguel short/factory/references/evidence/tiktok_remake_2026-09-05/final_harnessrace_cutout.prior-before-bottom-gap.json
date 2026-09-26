@@ -1,0 +1,218 @@
+{
+  "schema_version": 1,
+  "reviewed_at_utc": "2026-09-05T19:19:16.543923+00:00",
+  "reviewer": "budget_and_preference",
+  "format": "TikTok cutout only",
+  "mp4": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-attempts/harnessrace-42c8abd7699b5c0a/output/harnessrace_cutout.mp4",
+  "mp4_sha256": "c3ac5268b4eaca3650c0e89af73b98abaf791dc8ee66647f67e75d1eda118d02",
+  "verdict": "HOLD",
+  "continuous_playback_review": false,
+  "sample_times_seconds": [
+    0,
+    0.3,
+    1.8,
+    4.1,
+    12.5,
+    18,
+    25.5,
+    27,
+    28.32,
+    29.5,
+    37.16,
+    40.3,
+    44.2
+  ],
+  "visual_findings": [
+    "Matched source expressions, face, ears, beard, cap and visible hands preserved in inspected samples.",
+    "Chair absent; cream rim follows subject in inspected frames."
+  ],
+  "evidence": [
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/gen/_qcpass_harnessrace_cutout_plumbing.json",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/review/harnessrace/headscale-corrected.json",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/review/cands_harnessrace_cutout.json",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/gen/_qcpass_harnessrace_cutout.json",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/review/harnessrace/final-native-0.00.png",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/review/harnessrace/final-native-0.30.png",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/review/harnessrace/final-native-1.80.png",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/review/harnessrace/final-native-12.50.png",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/review/harnessrace/final-native-18.00.png",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/review/harnessrace/final-native-25.50.png",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/review/harnessrace/final-native-27.00.png",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/review/harnessrace/final-native-28.32.png",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/review/harnessrace/final-native-29.50.png",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/review/harnessrace/final-native-37.16.png",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/review/harnessrace/final-native-4.10.png",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/review/harnessrace/final-native-40.30.png",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/review/harnessrace/final-native-44.20.png",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/review/harnessrace/final-phone-sheet-0.jpg",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/review/harnessrace/final-phone-sheet-1.jpg",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/review/harnessrace/final-phone-sheet-2.jpg",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/review/harnessrace/final-source-matched.jpg",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/review/harnessrace/final-worst-headroom.png"
+  ],
+  "technical_adjudication": {
+    "original_head_scale_failure": "False failure from hardcoded plate_top930; corrected helper uses actual layer top.",
+    "corrected_head_scale": {
+      "video": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-attempts/harnessrace-42c8abd7699b5c0a/output/harnessrace_cutout.mp4",
+      "alpha": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/matting/harnessrace/matte_harnessrace_v5_alpha.webm",
+      "plate_top": 847.9558011049724,
+      "n": 12,
+      "head_canvas_px": {
+        "median": 504.6,
+        "p10": 498.5,
+        "p90": 523.0
+      },
+      "head_405x720_px": 189.2,
+      "head_frac_of_1920": 0.2628,
+      "law_496_delta_pct": 1.7,
+      "samples": [
+        {
+          "frame": 89,
+          "t": 3.56,
+          "crown_canvas_y": 950.0,
+          "chin_canvas_y": 1434.2,
+          "head_canvas_px": 484.3
+        },
+        {
+          "frame": 173,
+          "t": 6.92,
+          "crown_canvas_y": 948.0,
+          "chin_canvas_y": 1471.2,
+          "head_canvas_px": 523.3
+        },
+        {
+          "frame": 258,
+          "t": 10.32,
+          "crown_canvas_y": 948.0,
+          "chin_canvas_y": 1458.0,
+          "head_canvas_px": 510.1
+        },
+        {
+          "frame": 342,
+          "t": 13.68,
+          "crown_canvas_y": 945.0,
+          "chin_canvas_y": 1478.8,
+          "head_canvas_px": 533.9
+        },
+        {
+          "frame": 427,
+          "t": 17.08,
+          "crown_canvas_y": 946.0,
+          "chin_canvas_y": 1448.9,
+          "head_canvas_px": 503.0
+        },
+        {
+          "frame": 512,
+          "t": 20.48,
+          "crown_canvas_y": 931.0,
+          "chin_canvas_y": 1433.5,
+          "head_canvas_px": 502.5
+        },
+        {
+          "frame": 596,
+          "t": 23.84,
+          "crown_canvas_y": 925.0,
+          "chin_canvas_y": 1427.3,
+          "head_canvas_px": 502.4
+        },
+        {
+          "frame": 681,
+          "t": 27.24,
+          "crown_canvas_y": 945.0,
+          "chin_canvas_y": 1447.7,
+          "head_canvas_px": 502.7
+        },
+        {
+          "frame": 766,
+          "t": 30.64,
+          "crown_canvas_y": 945.0,
+          "chin_canvas_y": 1454.7,
+          "head_canvas_px": 509.7
+        },
+        {
+          "frame": 850,
+          "t": 34.0,
+          "crown_canvas_y": 944.0,
+          "chin_canvas_y": 1450.1,
+          "head_canvas_px": 506.1
+        },
+        {
+          "frame": 935,
+          "t": 37.4,
+          "crown_canvas_y": 924.0,
+          "chin_canvas_y": 1422.0,
+          "head_canvas_px": 498.1
+        },
+        {
+          "frame": 1019,
+          "t": 40.76,
+          "crown_canvas_y": 945.0,
+          "chin_canvas_y": 1465.5,
+          "head_canvas_px": 520.6
+        }
+      ],
+      "pass": true
+    },
+    "crown_clearance": {
+      "file": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-attempts/harnessrace-42c8abd7699b5c0a/output/harnessrace_cutout.mp4",
+      "frames": 1108,
+      "fps": 25.0,
+      "every_s": 0.5,
+      "samples": 92,
+      "min_clear_px": 15.0,
+      "p05_clear_px": 27.6,
+      "median_clear_px": 48.0,
+      "max_clear_px": 55.0,
+      "worst": {
+        "t": 28.32,
+        "pill_bottom": 903.0,
+        "crown": 918.0,
+        "clear": 15.0
+      },
+      "floor_px": 24.0,
+      "plate_top": 847.9558,
+      "samples_with_crown_at_plate_top": 0,
+      "crown_at_plate_top_frac": 0.0,
+      "crown_cut_frac_floor": 0.25,
+      "crown_is_a_cut": false,
+      "pass": false
+    },
+    "audio": "Free QC source mix comparison and sync PASS.",
+    "other_technical_verdicts": {
+      "decoded_blank_frames": "PASS",
+      "zero_ink_law": "PASS",
+      "clip_coverage_page": "PASS",
+      "double_exposure": "REPORTED",
+      "face_centring": "PASS",
+      "pill_canon_rendered": "PASS",
+      "gate1_geometry_audit": "PASS",
+      "gate2_frame_review": "PASS",
+      "cutout_checks_24_25": "FAIL",
+      "audio_guards": "PASS",
+      "contact_sheet": "PASS",
+      "edge_clip": "PASS",
+      "face_hf_vs_plate": "PASS",
+      "head_scale_vs_framing": "FAIL"
+    },
+    "original_reports_preserved": true
+  },
+  "limitations": [
+    "Sampled native final and matched-source review; not uninterrupted audiovisual playback.",
+    "Approval applies only to this exact TikTok MP4, not three formats or future renders.",
+    "Original QC report remains unchanged; head-scale result is separately superseded by corrected measurement."
+  ],
+  "blocking_findings": [
+    {
+      "time_seconds": 28.32,
+      "kind": "caption_crown_spacing",
+      "measured_px": 15,
+      "required_floor_px": 24,
+      "evidence": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/review/harnessrace/final-native-28.32.png",
+      "action": "Increase vertical separation while preserving head size, rerender and repeat exact-artifact QC."
+    }
+  ],
+  "watcher_adjudication": {
+    "C1_25_33_to_29_58": "Side labels exist as original race-lane nameplates; readable, contained, no clipping. Minor design observation, not blocking cutout defect.",
+    "37_16s_overlap": "Brief outgoing race/incoming chip transition, not held ghosting."
+  }
+}

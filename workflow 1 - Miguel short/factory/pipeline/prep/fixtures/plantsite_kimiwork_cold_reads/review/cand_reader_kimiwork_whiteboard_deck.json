@@ -1,0 +1,28 @@
+{
+  "tag": "deckcand",
+  "cold_dir": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/deckcand-223877ea",
+  "reader": "one independent `claude -p` process per crop, launched from /tmp, handed ONLY the absolute path of a blind copy under a random token - no plan, no topic, no manifest, no sealed key, and no path naming the video",
+  "prompt": "Look at the image at <absolute path of one blind crop> . Name the single everyday object drawn in it. At most FIVE words. Reply with ONE line of JSON and nothing else: {\"name\":\"<=5 words\",\"confidence\":\"sure|unsure|cannot tell\"}",
+  "dispatched_at": "2026-09-06T18:31:45",
+  "cli": "2.1.263 (Claude Code)",
+  "source_crops": {
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/phone_kw_deck_A/00.png": "71ac09254c5203944cfbc6bb85534e294216ff12cc308aa222665a53958506b5",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/phone_kw_deck_B/00.png": "3897100c4f1c6b80ac8065c3c433c91c297da757145092c55f18a1c472a1d386"
+  },
+  "names": [
+    {
+      "i": 0,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/deckcand-223877ea/00.png",
+      "name": "presentation easel with chart",
+      "confidence": "sure",
+      "crop_sha256": "71ac09254c5203944cfbc6bb85534e294216ff12cc308aa222665a53958506b5"
+    },
+    {
+      "i": 1,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/deckcand-223877ea/01.png",
+      "name": "stacked slide cards with chart",
+      "confidence": "unsure",
+      "crop_sha256": "3897100c4f1c6b80ac8065c3c433c91c297da757145092c55f18a1c472a1d386"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+ "pass": true,
+ "score_layout": 10,
+ "score_captions": 10,
+ "score_timing": 10,
+ "score_audio": 10,
+ "score_style_match": 10,
+ "issues": [
+  {
+   "severity": "minor",
+   "at_seconds": 12.0,
+   "description": "The mock UI search query text in the candidate video differs slightly from the reference, but this is a legitimate content variation and not an error."
+  }
+ ],
+ "summary": "The candidate video is an excellent replica of the reference, maintaining all visual and technical standards while appropriately tailoring the mock UI content to reflect the new voiceover narration."
+}

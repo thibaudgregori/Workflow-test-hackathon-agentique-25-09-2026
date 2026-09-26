@@ -1,0 +1,16 @@
+{
+ "pass": true,
+ "score_layout": 10,
+ "score_captions": 9,
+ "score_timing": 10,
+ "score_audio": 10,
+ "score_style_match": 10,
+ "issues": [
+  {
+   "severity": "minor",
+   "at_seconds": 6,
+   "description": "The caption 'memory' is slightly misaligned with the voiceover, starting a fraction of a second early."
+  }
+ ],
+ "summary": "The candidate video is excellent and follows the reference video's structure, pacing, and visual style perfectly. The only issue is a minor caption synchronization discrepancy."
+}

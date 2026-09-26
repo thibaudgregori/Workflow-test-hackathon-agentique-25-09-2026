@@ -1,0 +1,36 @@
+{
+  "tag": "ruling",
+  "cold_dir": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/ruling-c21bc95c",
+  "reader": "one independent `claude -p` process per crop, launched from /tmp, handed ONLY the absolute path of a blind copy under a random token - no plan, no topic, no manifest, no sealed key, and no path naming the video",
+  "prompt": "Look at the image at <absolute path of one blind crop> . Name the single everyday object drawn in it. At most FIVE words. Reply with ONE line of JSON and nothing else: {\"name\":\"<=5 words\",\"confidence\":\"sure|unsure|cannot tell\"}",
+  "dispatched_at": "2026-09-06T15:34:14",
+  "cli": "2.1.263 (Claude Code)",
+  "source_crops": {
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/phone_plantsite_split/00.png": "cefc9861cde2cb41b07c6596e63d92c159367facc05406ed4a72dbcc04118810",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/phone_plantsite_split/01.png": "63bc96ff73784c694a58e9735490f6978a413d678204c6fcafa994d57894ef2d",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/phone_plantsite_split/02.png": "d91788f27bb1fea1385095823cd3a845733105b581165287d4903a95df10321d"
+  },
+  "names": [
+    {
+      "i": 0,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/ruling-c21bc95c/00.png",
+      "name": "Checklist on clipboard",
+      "confidence": "sure",
+      "crop_sha256": "cefc9861cde2cb41b07c6596e63d92c159367facc05406ed4a72dbcc04118810"
+    },
+    {
+      "i": 1,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/ruling-c21bc95c/01.png",
+      "name": "Flower in browser window",
+      "confidence": "sure",
+      "crop_sha256": "63bc96ff73784c694a58e9735490f6978a413d678204c6fcafa994d57894ef2d"
+    },
+    {
+      "i": 2,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/ruling-c21bc95c/02.png",
+      "name": "calendar",
+      "confidence": "sure",
+      "crop_sha256": "d91788f27bb1fea1385095823cd3a845733105b581165287d4903a95df10321d"
+    }
+  ]
+}

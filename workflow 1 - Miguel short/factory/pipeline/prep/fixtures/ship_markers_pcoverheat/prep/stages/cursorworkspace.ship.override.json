@@ -1,0 +1,25 @@
+{
+ "id": "cursorworkspace",
+ "stage": "ship",
+ "status": "ok",
+ "wall_s": 70.5872459160164,
+ "at": "2026-09-08T01:38:00",
+ "keys": {
+  "status": "ok",
+  "repair_reason": "Prep never failed: the ship stage landed ok at 00:35:38 and it was the GATE AGENT that returned nothing, so this override only restates a marker that was already ok and gives the retried gate a second unambiguous file to read; measured evidence: all three matte_cursorworkspace_v5_{cut,rim,alpha}.webm on disk at 1386x990 25fps with 538 decoded frames each (21.532s cut master x 25 = 538) and sha256 3a5568d8/e78cc20f/05274766 exactly equal to the hashes recorded in ship_v5.json, track marker ok at $0.016581, ship $0.027102, and gate_marker.py now re-hashes those three layers itself and reports outputs_verified=ok; nothing in prep refused or repaired this encode and no stage was re-run.",
+  "backend": "matanyone2",
+  "frames": 538,
+  "width": 1386,
+  "height": 990,
+  "fps": 25.0,
+  "alpha_mode": "soft",
+  "rim_px": 7,
+  "minimum_person_fraction": 0.394773856895069,
+  "ship_source_sha256": "cf367be51d742c272d9f79db8a13e00297684001ebf666283095059206e149e7",
+  "review_status": "needs_final_visual_review",
+  "outputs_verified": "ok",
+  "override_scope": "the gate's read of the ship MARKER only; it approves no visual quality, replaces no reviewed selection (matting/cursorworkspace/selection.json, reviewed 00:33:20) and does not stand in for the final visual review, which stays needs_final_visual_review",
+  "cost_usd": 0.0271023721842272,
+  "wall_s": 70.5872459160164
+ }
+}

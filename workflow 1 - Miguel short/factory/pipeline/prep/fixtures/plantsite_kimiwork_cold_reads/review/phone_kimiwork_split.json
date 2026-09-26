@@ -1,0 +1,155 @@
+{
+ "label": "kimiwork_split",
+ "video": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/output/kimiwork_split.mp4",
+ "phone_scale": "405x720",
+ "sheet": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/phone_kimiwork_split.png",
+ "rule": "a FRESH judge (never read the plan) names each crop in <=3 words. Wrong name, hedge, or 'cannot tell' = the object is redesigned, not annotated.",
+ "answer_key": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/phone_kimiwork_split.key.json",
+ "answer_key_rule": "DO NOT OPEN the answer key until every judge_answer below is filled in. Reading it first voids the Phone Test.",
+ "objects": [
+  {
+   "i": 0,
+   "t": 2.2,
+   "bbox_norm": [
+    0.4333,
+    0.151,
+    0.5667,
+    0.1969
+   ],
+   "phone_box_px": [
+    175,
+    108,
+    229,
+    141
+   ],
+   "phone_size_px": [
+    54,
+    33
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/phone_kimiwork_split/00.png",
+   "sheet_scale": 1.0,
+   "judge_answer": "a crown",
+   "verdict": null
+  },
+  {
+   "i": 1,
+   "t": 8.6,
+   "bbox_norm": [
+    0.4018,
+    0.2281,
+    0.5981,
+    0.3198
+   ],
+   "phone_box_px": [
+    162,
+    164,
+    242,
+    230
+   ],
+   "phone_size_px": [
+    80,
+    66
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/phone_kimiwork_split/01.png",
+   "sheet_scale": 1.0,
+   "judge_answer": "K app window",
+   "verdict": null
+  },
+  {
+   "i": 2,
+   "t": 14.2,
+   "bbox_norm": [
+    0.3704,
+    0.149,
+    0.6296,
+    0.2375
+   ],
+   "phone_box_px": [
+    149,
+    107,
+    255,
+    171
+   ],
+   "phone_size_px": [
+    106,
+    64
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/phone_kimiwork_split/02.png",
+   "sheet_scale": 1.0,
+   "judge_answer": "an open laptop",
+   "verdict": null
+  },
+  {
+   "i": 3,
+   "t": 18.3,
+   "bbox_norm": [
+    0.1991,
+    0.2844,
+    0.3287,
+    0.3729
+   ],
+   "phone_box_px": [
+    80,
+    204,
+    133,
+    268
+   ],
+   "phone_size_px": [
+    53,
+    64
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/phone_kimiwork_split/03.png",
+   "sheet_scale": 1.0,
+   "judge_answer": "report document with chart",
+   "verdict": null
+  },
+  {
+   "i": 4,
+   "t": 18.3,
+   "bbox_norm": [
+    0.6157,
+    0.2896,
+    0.8009,
+    0.3625
+   ],
+   "phone_box_px": [
+    249,
+    208,
+    324,
+    261
+   ],
+   "phone_size_px": [
+    75,
+    53
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/phone_kimiwork_split/04.png",
+   "sheet_scale": 1.0,
+   "judge_answer": "presentation slide screen",
+   "verdict": null
+  },
+  {
+   "i": 5,
+   "t": 23.0,
+   "bbox_norm": [
+    0.4259,
+    0.275,
+    0.5741,
+    0.3531
+   ],
+   "phone_box_px": [
+    172,
+    198,
+    232,
+    254
+   ],
+   "phone_size_px": [
+    60,
+    56
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/phone_kimiwork_split/05.png",
+   "sheet_scale": 1.0,
+   "judge_answer": "receipt with down arrow",
+   "verdict": null
+  }
+ ]
+}

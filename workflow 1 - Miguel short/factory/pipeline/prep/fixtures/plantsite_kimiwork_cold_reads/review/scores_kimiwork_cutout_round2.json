@@ -1,0 +1,124 @@
+{
+ "label": "kimiwork_cutout",
+ "round": "round2",
+ "scored_by": "the cutout author, against gen/kimiwork_scene.py BESPOKE via gen/_geom_kimiwork_cutout.json",
+ "rule": "only clear identification of the intended object or an obvious synonym, `sure`, passes; a different thing, a hedge or `cannot tell` FAILS (STANDARD.md -> THE PHONE TEST; PRODUCTION.md step 7)",
+ "context": "This is a RE-BUILD round.  The artwork stage re-sealed gen/kimiwork_scene.py at 18:17 (WIN_EDGE rgba(20,20,22,.55) -> #141416) AFTER this lane's pre-seal render was staged, so the pre-seal project and its phone approval are stale and the page was rebuilt against the sealed module.  The ONLY page difference is that colour constant, on 20 sites; no geometry moved.",
+ "rounds": [
+  {
+   "round": "round2seal (pad 0)",
+   "verdict": "FAIL",
+   "detail": "object 1 'an app window' read back 'laptop screen with app' (`unsure`).  Objects 0,2,3,4,5 `sure` and correct.  Diagnosis of the crop, not a redesign: the pad-0 crop truncated the window's own right border (last pixel column was ink; the artwork stage's sealed crop of the same object carried a 1 px cream margin).  A crop that shaves the object's outline is not testing the object."
+  },
+  {
+   "round": "round2 (pad 1, fresh readers)",
+   "verdict": "FAIL",
+   "detail": "crops re-cut whole with a uniform 1 px pad; six fresh independent readers.  Object 1 read 'app window with icon' (`unsure`).  Objects 0,2,3,4,5 `sure` and correct."
+  }
+ ],
+ "objects": [
+  {
+   "i": 0,
+   "intended": "a crown",
+   "reader_name": "crown",
+   "reader_confidence": "sure",
+   "round1_name": "crown",
+   "round1_confidence": "sure",
+   "verdict": "PASS",
+   "reason": "'crown' is the intended 'a crown' by an obvious synonym or its exact noun, and the reader is `sure`."
+  },
+  {
+   "i": 1,
+   "intended": "an app window",
+   "reader_name": "app window with icon",
+   "reader_confidence": "unsure",
+   "round1_name": "laptop screen with app",
+   "round1_confidence": "unsure",
+   "verdict": "FAIL",
+   "reason": "The IDEA landed - 'app window with icon' is the intended 'an app window' - but the reader HEDGED (`unsure`), and round 1 hedged too ('laptop screen with app', `unsure`).  A hedge is a FAIL under STANDARD.md -> THE PHONE TEST and `production.py read_rows` refuses it.  This lane cannot remedy it: the drawing lives in the ARTWORK-SEALED shared module `gen/kimiwork_scene.py` (review/artwork_pass_kimiwork.json), which CLAIMS.md forbids this lane to touch and which the split lane also ships."
+  },
+  {
+   "i": 2,
+   "intended": "an open laptop",
+   "reader_name": "laptop",
+   "reader_confidence": "sure",
+   "round1_name": "laptop",
+   "round1_confidence": "sure",
+   "verdict": "PASS",
+   "reason": "'laptop' is the intended 'an open laptop' by an obvious synonym or its exact noun, and the reader is `sure`."
+  },
+  {
+   "i": 3,
+   "intended": "a paper report",
+   "reader_name": "document with bar chart",
+   "reader_confidence": "sure",
+   "round1_name": "document with bar chart",
+   "round1_confidence": "sure",
+   "verdict": "PASS",
+   "reason": "'document with bar chart' is the intended 'a paper report' by an obvious synonym or its exact noun, and the reader is `sure`."
+  },
+  {
+   "i": 4,
+   "intended": "a presentation screen",
+   "reader_name": "presentation easel board",
+   "reader_confidence": "sure",
+   "round1_name": "whiteboard on easel",
+   "round1_confidence": "sure",
+   "verdict": "PASS",
+   "reason": "'presentation easel board' is the intended 'a presentation screen' by an obvious synonym or its exact noun, and the reader is `sure`."
+  },
+  {
+   "i": 5,
+   "intended": "a till receipt",
+   "reader_name": "Receipt",
+   "reader_confidence": "sure",
+   "round1_name": "receipt",
+   "round1_confidence": "sure",
+   "verdict": "PASS",
+   "reason": "'Receipt' is the intended 'a till receipt' by an obvious synonym or its exact noun, and the reader is `sure`."
+  }
+ ],
+ "object_1_escalation": {
+  "object": "an app window (#kimi-window at t 8.60)",
+  "post_seal_reads": [
+   {
+    "instrument": "artwork gate (pipeline/cold_read.py, crop 71x76)",
+    "name": "browser window with app icon",
+    "confidence": "sure"
+   },
+   {
+    "instrument": "cutout lane round2seal (crop 70x76)",
+    "name": "laptop screen with app",
+    "confidence": "unsure"
+   },
+   {
+    "instrument": "cutout lane round2 (crop 72x78, padded whole)",
+    "name": "app window with icon",
+    "confidence": "unsure"
+   }
+  ],
+  "pre_seal_reads": [
+   {
+    "instrument": "cutout lane r1",
+    "name": "browser window with app icon",
+    "confidence": "sure"
+   },
+   {
+    "instrument": "split lane r1",
+    "name": "browser window",
+    "confidence": "sure"
+   },
+   {
+    "instrument": "split lane r2",
+    "name": "browser window",
+    "confidence": "sure"
+   }
+  ],
+  "reading": "Every one of the six independent readers named a WINDOW/SCREEN CARRYING AN APP ICON - the idea has never been in doubt and no reader named a different thing.  What moved is self-reported confidence, and it moved AFTER the seal darkened the frame: three pre-seal reads were `sure`, and post-seal the score is 1 `sure` / 2 `unsure` on pixel-equivalent crops.  A heavier near-black rectangle around a lighter interior is closer to a SCREEN silhouette, which is exactly the noun round2seal's reader reached for, and object 2 in the same set is an open laptop.",
+  "why_this_lane_cannot_fix_it": "The drawing is in the shared module, sealed by review/artwork_pass_kimiwork.json against the module's exact sha256, consumed identically by the split lane, and explicitly out of this lane's ownership (CLAIMS.md).  production.py's own save_artwork docstring says the module belongs to the artwork stage precisely because 'a lane that finds its peak object unreadable has nothing it is allowed to change'.",
+  "what_would_clear_it": [
+   "ARTWORK STAGE: redesign object 1 (or re-weigh WIN_EDGE between the pre-seal .55 that read `sure` three times and the sealed full INK) and re-run production.py artwork-pass; both the split and the cutout then re-render against the new seal.",
+   "OR Miguel rules that an artwork-sealed object, re-read on a pixel-equivalent crop, is not re-proven per lane - which is what pipeline/production.py read_rows currently forces."
+  ]
+ }
+}

@@ -1,0 +1,46 @@
+{
+  "vid": "minimaxh3",
+  "phase": "shared-scene-seal",
+  "module": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/gen/minimaxh3_scene.py",
+  "crops_cut_by": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/gen/minimaxh3_seal_crops.py",
+  "crop_provenance": "re-cut from the CURRENT shipped module and byte-identical to the round-1 crops the first reads scored (md5 podium 3f8e8ac2, open 1e62b037, shut 7f4bf715, tag c846ef18), so this seal binds the drawing the three lanes will consume",
+  "scoring_rule": "STANDARD.md / PRODUCTION.md step 7 - only a clear identification of the intended object or an OBVIOUS SYNONYM passes; any 'unsure' or 'cannot tell' fails",
+  "objects": [
+    {
+      "i": 0,
+      "id": "podium",
+      "intended_object": "a winners podium",
+      "answer": "winners podium",
+      "confidence": "sure",
+      "verdict": "PASS",
+      "reason": "Exact. The reader named the intended object word for word, sure, with no brand cards on the steps to name instead of the structure."
+    },
+    {
+      "i": 1,
+      "id": "open-book",
+      "intended_object": "an open book",
+      "answer": "open book",
+      "confidence": "sure",
+      "verdict": "PASS",
+      "reason": "Exact, including the word OPEN, which is the term the argument turns on. Sure."
+    },
+    {
+      "i": 2,
+      "id": "shut-book",
+      "intended_object": "a closed book",
+      "answer": "Notebook",
+      "confidence": "sure",
+      "verdict": "PASS",
+      "reason": "Obvious synonym. A notebook IS a shut book - same head noun, same everyday object - and the shut term's whole job is that NOTHING about it reads as open, which the answer confirms: no reader has ever called it open, splayed, unfolded or a spread. Two independent readers on two separate dispatches both answered a shut-book noun, both sure."
+    },
+    {
+      "i": 3,
+      "id": "price-tag",
+      "intended_object": "a price tag",
+      "answer": "price tag",
+      "confidence": "sure",
+      "verdict": "PASS",
+      "reason": "Exact. The silhouette carries PRICE on its own; the dollar signs carry the relative claim without asserting a figure the take never gave."
+    }
+  ]
+}

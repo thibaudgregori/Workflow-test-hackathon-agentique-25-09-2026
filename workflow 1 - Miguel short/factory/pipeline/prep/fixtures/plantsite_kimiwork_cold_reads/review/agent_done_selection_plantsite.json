@@ -1,0 +1,23 @@
+{
+  "decision": "already_approved_by_miguel",
+  "action_taken": "none",
+  "selection_path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/matting/plantsite/selection.json",
+  "status": "reviewed",
+  "mask": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/matting/plantsite/selection.mask.png",
+  "mask_sha256": "ba0b0c2ef24294657cf84c49d95a662072fa60bb3e8d2610a7d7d1b3b30de337",
+  "base_mask_sha256": "ab12dde0cde5f3815894247e225d500b1a9d2404ab083133bfd4889cf786dcdd",
+  "reviewer": "Fable 5.1 (candidate) + Astra (parent seed review, checkpoint 6)",
+  "edits": [],
+  "notes": "Frame-0 seed reviewed cold by Fable (100 px grid + 2x/25 px neck zooms) and independently by the parent against source; both headrest wings outside the mask; cap, ears, beard, neck, shoulders kept; no polygon edits. Parent PASS hash recorded in output/shorts-factory-validation/2026-09-06/selection-review/plantsite.json",
+  "identity": {
+    "plate_sha256": "214aa55229ad365a631ea81d8885ad2d14c1c736ec45185facca8cc285d31e41",
+    "source_sha256": "7722c168e14c0967012f40aca61573d0e3fd801d7a9ec39c4ef9485b13f7ee8c",
+    "crop_sha256": "cc0a205176870b7b9ef7d41f1d3e43065bf713734404438b875cf3183b7bebad",
+    "first_frame_sha256": "654e4dd32f65486f99e34df118d11e93ae62a424e00f4f9ac1633d9400550430",
+    "width": 1260,
+    "height": 900,
+    "fps": 25.0,
+    "frames": 593
+  },
+  "evidence": "shorts_run16/MATTES_FINAL.md (Miguel, 2026-09-06) lists plantsite seed mask sha256 ba0b0c2e... as final; no prepare, approve, or file write performed."
+}

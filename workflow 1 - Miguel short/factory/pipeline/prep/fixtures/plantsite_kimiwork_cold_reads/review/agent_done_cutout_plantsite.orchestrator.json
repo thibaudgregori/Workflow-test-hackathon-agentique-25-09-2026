@@ -1,0 +1,12 @@
+{
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/projects/plantsite_cutout",
+ "label": "plantsite_cutout",
+ "staged": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/staging/tiktok/plantsite_cutout.mp4",
+ "phone_verdict": "PASS",
+ "blocked": "",
+ "rounds": 1,
+ "report": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/gen/_rc_plantsite_3lanes.json",
+ "completed_by": "orchestrator (Fable 5.1), 2026-09-06: the lane's earlier FAIL/HOLD was a phone-test SCORING error (readers said 'flower' for the plant web page; Miguel: same visual idea). Fresh cold_read.py reads on the current page crops, scored under STANDARD.md -> SCORE THE IDEA, NOT THE NOUN, phone-pass recorded (review/phone_pass_plantsite_cutout.json), render_and_check rendered/checked/staged this file. Artwork unchanged. Prior return kept as agent_done_cutout_plantsite.prefix_ruling.json.",
+ "staged_sha256": "c0dc36795b491bbad76b86896b8897ce1534aab1534c80b539ae3ff24e61d099",
+ "watch": "unavailable (Gemini spending cap)"
+}

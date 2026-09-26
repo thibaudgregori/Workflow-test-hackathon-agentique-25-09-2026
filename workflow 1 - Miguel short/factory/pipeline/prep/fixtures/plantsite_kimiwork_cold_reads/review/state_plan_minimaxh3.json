@@ -1,0 +1,22 @@
+{
+ "plan_json": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/plans/minimaxh3_plan.json",
+ "plan_md": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/plans/minimaxh3_plan.md",
+ "lane": "icon choreography",
+ "lane_reason": "The whole script is three NAMED PRODUCTS put in an order and then one of them singled out twice, so the marks themselves are the content and the argument is an arrangement of them (a ranked podium, then the same three cards in a row with one picked out) - not a number story, because the take speaks no measurable figure at all, and a meter built on 'second-best' or 'significantly cheaper' would be an invented quantity (LAW 11).",
+ "beats": 5,
+ "bespoke_names": [
+  "a winners podium",
+  "an open padlock",
+  "a closed padlock",
+  "a price tag"
+ ],
+ "board_mode": "chapters",
+ "cues": "0 cues. I ran pipeline/pointing_cues.py --vid minimaxh3 myself: it printed 'no pointing cue in this take' and rewrote gen/_cues_minimaxh3.json with an empty cue list; the prep marker minimaxh3.cues.json independently records cue_count 0, status ok. Nothing to answer and nothing to waive. No source post card is built and none is waived in silence: the Notion row cites https://x.com/arena/status/2084408459991421319 but the take never points at anyone and never names a platform, and GLOBAL LAW 3 admits a post only when the post IS the news. The reason is written into the plan's pointing_cues_note.",
+ "open_questions": [
+  "1. THE SEEDANCE MARK IS UNUSABLE AS SHIPPED AND THE PLAN HAS ALREADY DECIDED WHAT TO DO. assets/logos/ai-models/seedance-2-wordmark.png is not artwork on transparency - it is a 317x65 opaque crop of ByteDance's launch thumbnail: 'Seedance 2.0' in white type over a blurry pink-and-blue photographic gradient, alpha fully opaque, non-white pixels covering 75% of the file (measured with PIL 2026-09-06, and looked at). Decision in marks['mark:seedance']: derive an ink version (white lettering knocked out to alpha, re-inked #141416, letterforms untouched, registered as derived with provenance - the claude-cowork precedent); fallback is SEEDANCE 2.0 set in JetBrains Mono in ink with named_tool_no_mark recorded as ACCEPTED-BEHAVIOUR. Never paste the raster, never substitute the ByteDance corporate logo.",
+  "2. PHONE TEST RISK, RANKED, WITH THE REDESIGN PATH NAMED IN ADVANCE. Weakest cold name is 'an open padlock'; the two features that carry it are the shackle clearly not passing through the body and the keyhole in the face, and the key is the first thing to sacrifice. (B) drop the key and open the shackle wider; (C) after TWO failed cold reads change the metaphor per the run-15 rule (a box with its lid raised against two boxes sealed with a taped cross). Second risk: crop 'a winners podium' as the STEPS with their numerals and WITHOUT the brand cards, or the judge names the logos instead of the structure.",
+  "3. THE WORD 'CLOSED' IS WRITTEN AND HE NEVER SAYS IT, ON PURPOSE - whiteboard LAW 4 requires both terms of a spoken comparison on the board and assert_label_law's comparisons argument checks both key words are written. This names a drawn object; no card contradicts a word he said, which is the only thing TRANSCRIPT IS TRUTH forbids.",
+  "4. THE OUTRO HOLDS THE FINISHED FRAME FOR 2.1 s BEFORE THE WIPE (18.50-20.60). The sign-off runs 6.285 s, a quarter of the video; wiping at the top of it would put a bare handle card on screen for 6.0 s. Wiping at 20.60 keeps the outro chip at 3.6 s, inside the published range."
+ ],
+ "open_doubts": []
+}

@@ -1,0 +1,36 @@
+{
+  "tag": "repair-wb",
+  "cold_dir": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/repair-wb-578d60bd",
+  "reader": "one independent `claude -p` process per crop, launched from /tmp, handed ONLY the absolute path of a blind copy under a random token - no plan, no topic, no manifest, no sealed key, and no path naming the video",
+  "prompt": "Look at the image at <absolute path of one blind crop> . Name the single everyday object drawn in it. At most FIVE words. Reply with ONE line of JSON and nothing else: {\"name\":\"<=5 words\",\"confidence\":\"sure|unsure|cannot tell\"}",
+  "dispatched_at": "2026-09-06T14:17:29",
+  "cli": "2.1.263 (Claude Code)",
+  "source_crops": {
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/71be5c02/00.png": "d9041aa50442a7cc89f72ce307c89845365d31da71efcd693dfe1f9b75f3f4e4",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/71be5c02/01.png": "c1b7e2ad03224e48a31dff3bd23f3eddbc6a5285a24acc52c822f7dd18b4ec5e",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/71be5c02/02.png": "dcbcd393497c47e961baf02d393b0ee40bb46d29b958b9fda3246c52b3074928"
+  },
+  "names": [
+    {
+      "i": 0,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/repair-wb-578d60bd/00.png",
+      "name": "Clipboard with checklist",
+      "confidence": "sure",
+      "crop_sha256": "d9041aa50442a7cc89f72ce307c89845365d31da71efcd693dfe1f9b75f3f4e4"
+    },
+    {
+      "i": 1,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/repair-wb-578d60bd/01.png",
+      "name": "flower in browser window",
+      "confidence": "sure",
+      "crop_sha256": "c1b7e2ad03224e48a31dff3bd23f3eddbc6a5285a24acc52c822f7dd18b4ec5e"
+    },
+    {
+      "i": 2,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/repair-wb-578d60bd/02.png",
+      "name": "Calendar",
+      "confidence": "sure",
+      "crop_sha256": "dcbcd393497c47e961baf02d393b0ee40bb46d29b958b9fda3246c52b3074928"
+    }
+  ]
+}

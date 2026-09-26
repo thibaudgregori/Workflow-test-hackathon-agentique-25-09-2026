@@ -1,0 +1,71 @@
+{
+  "verdict": "PASS",
+  "phone_verdict": "PASS",
+  "confirmed": [],
+  "reviewer": "root independent final export review",
+  "mp4": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-attempts/shieldstral-8ad1b576f5c601f5/output/shieldstral_cutout.mp4",
+  "mp4_sha256": "b7798ccb44888b419af34b94327304a2a9ab14d1132eac03907ef19b37159299",
+  "reviewed_files": {
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-attempts/shieldstral-8ad1b576f5c601f5/output/shieldstral_cutout.mp4": "b7798ccb44888b419af34b94327304a2a9ab14d1132eac03907ef19b37159299"
+  },
+  "sample_times_seconds": [
+    0.0,
+    0.16,
+    0.4,
+    3.68,
+    7.36,
+    11.08,
+    14.76,
+    18.44,
+    22.16,
+    25.84,
+    29.44
+  ],
+  "continuous_playback_review": false,
+  "scope": "Actual decoded final MP4 frames at listed times plus same-MP4 whole-video watcher and technical QC. Not uninterrupted native playback.",
+  "findings": [
+    "Face, beard, cap and visible hand cores retained in sampled frames.",
+    "No chair sliver observed.",
+    "Torso fills lower frame; previous62px bottom gap corrected.",
+    "Caption clearance min94px. No overlap in reviewed samples.",
+    "Existing five bespoke objects match prior independent phone recognition; actual exported forms visually readable."
+  ],
+  "render_result": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-attempts/shieldstral-8ad1b576f5c601f5/result.json",
+  "technical_verdicts": {
+    "decoded_blank_frames": "PASS",
+    "zero_ink_law": "PASS",
+    "clip_coverage_page": "PASS",
+    "double_exposure": "REPORTED",
+    "face_centring": "PASS",
+    "pill_canon_rendered": "PASS",
+    "gate1_geometry_audit": "PASS",
+    "gate2_frame_review": "PASS",
+    "cutout_checks_24_25": "PASS",
+    "gate3_gemini_describe": "REPORTED",
+    "audio_guards": "PASS",
+    "contact_sheet": "PASS",
+    "phone_crops": "PASS",
+    "edge_clip": "PASS",
+    "face_hf_vs_plate": "PASS",
+    "head_scale_vs_framing": "PASS"
+  },
+  "whole_video_watcher": {
+    "returncode": 0,
+    "wall_s": 22.4,
+    "out": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/review/cands_shieldstral_cutout.json",
+    "model": "gemini-3.5-flash-lite",
+    "cost_usd": 0.032491,
+    "counts": {
+      "candidates": 0,
+      "blocking": 0,
+      "motion": 0
+    },
+    "video_summary": "The video discusses Mistral AI's new Shieldstral model for on-device content moderation. It illustrates the model using whiteboard graphics, diagrams, and icon cards while a presenter speaks.",
+    "candidates": [],
+    "blocking_candidates": 0,
+    "pass": true
+  },
+  "visual_evidence": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-attempts/shieldstral-8ad1b576f5c601f5/native-review/manifest.json",
+  "prior_hold": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/review/final_shieldstral_cutout.before-bottom-fixed.json",
+  "reviewed_epoch": 1788637048.3543448
+}

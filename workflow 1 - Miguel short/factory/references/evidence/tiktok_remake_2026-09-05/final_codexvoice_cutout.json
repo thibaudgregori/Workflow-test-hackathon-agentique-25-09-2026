@@ -1,0 +1,122 @@
+{
+  "verdict": "PASS",
+  "phone_verdict": "PASS",
+  "reviewer": "fresh_visual_reader",
+  "mp4": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-attempts/codexvoice-5d8c9ba44c6e41c3/output/codexvoice_cutout.mp4",
+  "mp4_sha256": "a236e3f5e5393eefc7bdd4cb3f812c9825b560c87938d824c2554e27700714e6",
+  "alpha_sha256": "eed12d1bae4c2a407d679a3f82d69044fb8737fd59185daed40204da44b7031b",
+  "project_sha256": "5d8c9ba44c6e41c398a689d042704bad386ce701edc0ccdb945a890a8b006f70",
+  "agent_review": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/review/codexvoice/agent-review.json",
+  "agent_review_sha256": "78c45557ee4b26af87235314a9661903718a2ac89f863de2fafa298791c559b5",
+  "reviewed_files": {
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-attempts/codexvoice-5d8c9ba44c6e41c3/output/codexvoice_cutout.mp4": "a236e3f5e5393eefc7bdd4cb3f812c9825b560c87938d824c2554e27700714e6"
+  },
+  "render_result": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-attempts/codexvoice-5d8c9ba44c6e41c3/result.json",
+  "render_result_sha256": "0de61947a922a50a6620c90e8220305604e874fe8f3a25edf9a3aa1fc74fd218",
+  "whole_video_watcher": {
+    "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/clerk_video_gemini.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-attempts/codexvoice-5d8c9ba44c6e41c3/output/codexvoice_cutout.mp4 codexvoice --fmt cutout --out /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/review/cands_codexvoice_cutout.json --thinking medium",
+    "returncode": 0,
+    "wall_s": 31.2,
+    "out": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/review/cands_codexvoice_cutout.json",
+    "stderr": "[pass 1 win 4/4 34.0-45.8s] 3 beats / 0 candidates  in=13671 out=702 $0.0059\n[pass 1 win 2/4 0.0-20.0s] 6 beats / 1 candidates  in=20478 out=1276 $0.0093\n[pass 1 win 3/4 17.0-37.0s] 5 beats / 0 candidates  in=20480 out=3720 $0.0154\n[pass 1 win 1/4 0.0-45.8s] 10 beats / 0 candidates  in=41447 out=3927 $0.0223\n",
+    "model": "gemini-3.5-flash-lite",
+    "cost_usd": 0.052885,
+    "counts": {
+      "candidates": 1,
+      "blocking": 0,
+      "motion": 0
+    },
+    "video_summary": "A creator explains how Codex Voice allows users to code on Android devices from anywhere without being tied to a desk. The video highlights the removal of traditional coding frictions and the convenience of mobile AI agents.",
+    "candidates": [
+      {
+        "t_start": 3.0,
+        "t_end": 10.0,
+        "klass": "empty_zone",
+        "severity": "minor",
+        "motion_or_held": "held",
+        "claim": "Computer monitor visual zone carries nothing inside for >= 1.5s"
+      }
+    ],
+    "blocking_candidates": 0,
+    "pass": true
+  },
+  "technical_evidence": {
+    "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/qc/qc_pass.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-attempts/codexvoice-5d8c9ba44c6e41c3/output/codexvoice_cutout.mp4 --project /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/codexvoice_cutout --vid codexvoice --fmt cutout --out /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/gen/_qcpass_codexvoice_cutout.json --run /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905 --geom /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-support/_geom_codexvoice.json --alpha /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/matting/codexvoice/matte_codexvoice_v5_alpha.webm --edge-box 1650x990+-384+930.0000 --voice-master /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/cuts/codexvoice/audio.m4a --plate /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/matting/codexvoice/plate_display_1650x990.mp4 --phone-at 1.6:0.4213,0.1484,0.5787,0.3057:the phone --phone-at 9.0:0.1778,0.1536,0.5074,0.3026:the monitor --phone-at 27.0:0.6333,0.1656,0.838,0.2687:the thread",
+    "returncode": 0,
+    "wall_s": 22.2,
+    "report": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/gen/_qcpass_codexvoice_cutout.json",
+    "stdout": "E  EDGE FADE   0 frame-edge chops, 4 masked containers OK\nF  DEPTH FIELD  3/3 lanes, band 394.0px, gutters [26.0, 26.0], 13 steps OK\nF  CROWN CLEARANCE  min 112.0 px, median 124.0 px over 95 samples OK\n{\n \"render\": \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-attempts/codexvoice-5d8c9ba44c6e41c3/output/codexvoice_cutout.mp4\",\n \"verdicts\": {\n  \"decoded_blank_frames\": \"PASS\",\n  \"zero_ink_law\": \"PASS\",\n  \"clip_coverage_page\": \"PASS\",\n  \"double_exposure\": \"REPORTED\",\n  \"face_centring\": \"PASS\",\n  \"pill_canon_rendered\": \"PASS\",\n  \"gate1_geometry_audit\": \"PASS\",\n  \"gate2_frame_review\": \"PASS\",\n  \"cutout_checks_24_25\": \"PASS\",\n  \"gate3_gemini_describe\": \"PASS\",\n  \"audio_guards\": \"PASS\",\n  \"contact_sheet\": \"PASS\",\n  \"phone_crops\": \"PASS\",\n  \"edge_clip\": \"PASS\",\n  \"face_hf_vs_plate\": \"PASS\",\n  \"head_scale_vs_framing\": \"PASS\"\n },\n \"skipped\": [\n  \"whiteboard_seam_law\"\n ],\n \"wall_s\": {\n  \"decoded_blank_frames\": 0.0,\n  \"zero_ink_law\": 0.0,\n  \"clip_coverage_page\": 0.0,\n  \"double_exposure\": 0.1,\n  \"face_centring\": 0.76,\n  \"pill_canon_rendered\": 0.0,\n  \"gate1_geometry_audit\": 5.28,\n  \"gate2_frame_review\": 2.01,\n  \"cutout_checks_24_25\": 7.07,\n  \"gate3_gemini_describe\": 21.99,\n  \"audio_guards\": 1.47,\n  \"contact_sheet\": 2.3,\n  \"phone_crops\": 0.82,\n  \"edge_clip\": 12.91,\n  \"face_hf_vs_plate\": 6.15,\n  \"head_scale_vs_framing\": 8.9,\n  \"single_decode\": 12.28\n },\n \"total_wall_s\": 22.01,\n \"report\": \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/gen/_qcpass_codexvoice_cutout.json\",\n \"pass\": true\n}\n",
+    "stderr": "I0000 00:00:1788638268.604623 16964528 init-domain.cc:132] Fiber init: default domain = pthread, concurrency = 19, prefix = pthread-default\nW0000 00:00:1788638268.611052 16964528 face_landmarker_graph.cc:180] Sets FaceBlendshapesGraph acceleration to xnnpack by default.\nW0000 00:00:1788638268.611884 16964527 face_landmarker_graph.cc:180] Sets FaceBlendshapesGraph acceleration to xnnpack by default.\nI0000 00:00:1788638269.117420 16964527 gl_context.cc:407] GL version: 2.1 (2.1 Metal - 90.5), renderer: Apple M5 Pro\nI0000 00:00:1788638269.118357 16964528 gl_context.cc:407] GL version: 2.1 (2.1 Metal - 90.5), renderer: Apple M5 Pro\nINFO: Created TensorFlow Lite XNNPACK delegate for CPU.\nW0000 00:00:1788638269.127309 16964541 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.\nW0000 00:00:1788638269.127309 16964533 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.\nW0000 00:00:1788638269.136609 16964533 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.\nW0000 00:00:1788638269.137142 16964541 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.\nI0000 00:00:1788638278.788762 16967789 gl_context.cc:407] GL version: 2.1 (2.1 Metal - 90.5), renderer: Apple M5 Pro\nW0000 00:00:1788638278.789813 16967794 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.\n",
+    "verdicts": {
+      "decoded_blank_frames": "PASS",
+      "zero_ink_law": "PASS",
+      "clip_coverage_page": "PASS",
+      "double_exposure": "REPORTED",
+      "face_centring": "PASS",
+      "pill_canon_rendered": "PASS",
+      "gate1_geometry_audit": "PASS",
+      "gate2_frame_review": "PASS",
+      "cutout_checks_24_25": "PASS",
+      "gate3_gemini_describe": "PASS",
+      "audio_guards": "PASS",
+      "contact_sheet": "PASS",
+      "phone_crops": "PASS",
+      "edge_clip": "PASS",
+      "face_hf_vs_plate": "PASS",
+      "head_scale_vs_framing": "PASS"
+    },
+    "failed": [],
+    "skipped": {
+      "whiteboard_seam_law": "whiteboard only, and needs --seams (the chapter erase times)"
+    },
+    "wall_s_by_check": {
+      "decoded_blank_frames": 0.0,
+      "zero_ink_law": 0.0,
+      "clip_coverage_page": 0.0,
+      "double_exposure": 0.1,
+      "face_centring": 0.76,
+      "pill_canon_rendered": 0.0,
+      "gate1_geometry_audit": 5.28,
+      "gate2_frame_review": 2.01,
+      "cutout_checks_24_25": 7.07,
+      "gate3_gemini_describe": 21.99,
+      "audio_guards": 1.47,
+      "contact_sheet": 2.3,
+      "phone_crops": 0.82,
+      "edge_clip": 12.91,
+      "face_hf_vs_plate": 6.15,
+      "head_scale_vs_framing": 8.9,
+      "single_decode": 12.28
+    },
+    "total_wall_s": 22.01,
+    "pass": true
+  },
+  "findings": [
+    "No confirmed defect after source-aware review. All11 normal MP4 samples and383\u2013391 gesture viewed; native385\u2013387 retain continuous blurred fingers. Empty-monitor watcher finding is an intentional reveal matching spoken named agents, not a delay."
+  ],
+  "watcher_adjudication": [
+    {
+      "klass": "empty_zone",
+      "verdict": "false_positive_intentional_reveal",
+      "confirmed_defect": false,
+      "finding": "Read exact transcript and current timeline. Desk established on Before; Codex logo begins4.60s matching spoken Codex4.599, Claude begins5.02 before spoken Claude5.139. Previously observed empty screen is intentional setup before named agents, not lag.",
+      "context_evidence": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/review/codexvoice/monitor-timing-adjudication.json"
+    }
+  ],
+  "continuous_playback_review": false,
+  "scope": "Sampled source/matte, six staged frames and all nominated actual MP4 frames in manifest. Not continuous playback; no claim every frame inspected.",
+  "sample_times_seconds": [
+    0.0,
+    0.16,
+    0.4,
+    5.72,
+    11.44,
+    17.16,
+    22.88,
+    28.56,
+    34.28,
+    40.0,
+    45.64
+  ],
+  "reviewed_epoch": 1788638602.512234
+}

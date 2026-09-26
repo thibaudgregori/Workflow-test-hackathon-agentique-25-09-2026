@@ -1,0 +1,123 @@
+{
+  "verdict": "PASS",
+  "phone_verdict": "PASS",
+  "reviewer": "prepare_crops final export review",
+  "mp4": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-attempts/viberesearch-a22820b3524e9eb3/output/viberesearch_cutout.mp4",
+  "mp4_sha256": "c6e0dbe6d657bfd71e03798986c5ab7d6a22ebae9622030c87f546481ddf3e2b",
+  "alpha_sha256": "15a75b9c60d119e946c0f5058f321df1e4bc620c2825e29d134f16d38872de1d",
+  "project_sha256": "a22820b3524e9eb36f59ef15040e9a89ea65c1074f04867b98b122534b18999a",
+  "agent_review": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/review/viberesearch/agent-review.json",
+  "agent_review_sha256": "39ef0d212f0a0b28cf7ba3db24144e80f39b81e17c60e24c54d83e56d11c7afa",
+  "reviewed_files": {
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-attempts/viberesearch-a22820b3524e9eb3/output/viberesearch_cutout.mp4": "c6e0dbe6d657bfd71e03798986c5ab7d6a22ebae9622030c87f546481ddf3e2b"
+  },
+  "render_result": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-attempts/viberesearch-a22820b3524e9eb3/result.json",
+  "render_result_sha256": "0bc5a55628d09d524a2351b1d74f309fa14edc73a9f9baab025a7a8777d8aea9",
+  "whole_video_watcher": {
+    "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/clerk_video_gemini.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-attempts/viberesearch-a22820b3524e9eb3/output/viberesearch_cutout.mp4 viberesearch --fmt cutout --out /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/review/cands_viberesearch_cutout.json --thinking medium",
+    "returncode": 0,
+    "wall_s": 49.3,
+    "out": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/review/cands_viberesearch_cutout.json",
+    "stderr": "[pass 1 win 3/4 17.0-37.0s] 7 beats / 1 candidates  in=20387 out=1395 $0.0096\n[pass 1 win 4/4 34.0-44.1s] 2 beats / 0 candidates  in=12217 out=1535 $0.0075\n[pass 1 win 2/4 0.0-20.0s] 9 beats / 0 candidates  in=20385 out=1635 $0.0102\n[pass 1 win 1/4 0.0-44.1s] 11 beats / 0 candidates  in=39993 out=6356 $0.0279\n",
+    "model": "gemini-3.5-flash-lite",
+    "cost_usd": 0.055198,
+    "counts": {
+      "candidates": 1,
+      "blocking": 0,
+      "motion": 0
+    },
+    "video_summary": "The video discusses 'vibe researching,' explaining how AI allows individuals to accumulate PhD-level knowledge in months. It illustrates exponential capability jumps in AI models, rising academic bars, and the overwhelming volume of new knowledge using clean vector diagrams, icons, and a social post card.",
+    "candidates": [
+      {
+        "t_start": 20.0,
+        "t_end": 22.0,
+        "klass": "empty_zone",
+        "severity": "minor",
+        "motion_or_held": "held",
+        "claim": "Empty visual zone inside the box persists for >= 1.5s with no content."
+      }
+    ],
+    "blocking_candidates": 0,
+    "pass": true
+  },
+  "technical_evidence": {
+    "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/qc/qc_pass.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-attempts/viberesearch-a22820b3524e9eb3/output/viberesearch_cutout.mp4 --project /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/viberesearch_cutout --vid viberesearch --fmt cutout --out /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/gen/_qcpass_viberesearch_cutout.json --run /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905 --geom /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-support/_geom_viberesearch.json --alpha /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/matting/viberesearch/matte_viberesearch_v5_alpha.webm --edge-box 1848x990+-434+930.0000 --voice-master /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/cuts/viberesearch/audio.m4a --plate /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/matting/viberesearch/plate_display_1848x990.mp4 --cap-seat 855.2 --phone-at 1.6:0.3544,0.1798,0.6456,0.3436:magnifying glass --phone-at 8.4:0.4004,0.1754,0.5996,0.322:open book --phone-at 15.1:0.3927,0.1599,0.6073,0.341:a ladder --phone-at 26.94:0.3038,0.1272,0.6962,0.3479:grid of squares --phone-at 29.7:0.3544,0.1772,0.6456,0.341:high jump bar --phone-at 36.3:0.5475,0.1427,0.7621,0.3005:funnel with papers",
+    "returncode": 0,
+    "wall_s": 57.1,
+    "report": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/gen/_qcpass_viberesearch_cutout.json",
+    "stdout": "E  EDGE FADE   0 frame-edge chops, 4 masked containers OK\nF  DEPTH FIELD  3/3 lanes, band 394.0px, gutters [26.0, 26.0], 13 steps OK\nF  CROWN CLEARANCE  min 87.0 px, median 106.0 px over 91 samples OK\n{\n \"render\": \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-attempts/viberesearch-a22820b3524e9eb3/output/viberesearch_cutout.mp4\",\n \"verdicts\": {\n  \"decoded_blank_frames\": \"PASS\",\n  \"zero_ink_law\": \"PASS\",\n  \"clip_coverage_page\": \"PASS\",\n  \"double_exposure\": \"REPORTED\",\n  \"face_centring\": \"PASS\",\n  \"pill_canon_rendered\": \"PASS\",\n  \"gate1_geometry_audit\": \"PASS\",\n  \"gate2_frame_review\": \"PASS\",\n  \"cutout_checks_24_25\": \"PASS\",\n  \"gate3_gemini_describe\": \"PASS\",\n  \"audio_guards\": \"PASS\",\n  \"contact_sheet\": \"PASS\",\n  \"phone_crops\": \"PASS\",\n  \"edge_clip\": \"PASS\",\n  \"face_hf_vs_plate\": \"PASS\",\n  \"head_scale_vs_framing\": \"PASS\"\n },\n \"skipped\": [\n  \"whiteboard_seam_law\"\n ],\n \"wall_s\": {\n  \"decoded_blank_frames\": 0.0,\n  \"zero_ink_law\": 0.04,\n  \"clip_coverage_page\": 0.0,\n  \"double_exposure\": 0.96,\n  \"face_centring\": 1.52,\n  \"pill_canon_rendered\": 0.0,\n  \"gate1_geometry_audit\": 12.69,\n  \"gate2_frame_review\": 6.13,\n  \"cutout_checks_24_25\": 21.23,\n  \"gate3_gemini_describe\": 31.17,\n  \"audio_guards\": 3.32,\n  \"contact_sheet\": 7.33,\n  \"phone_crops\": 3.92,\n  \"edge_clip\": 56.41,\n  \"face_hf_vs_plate\": 18.9,\n  \"head_scale_vs_framing\": 33.65,\n  \"single_decode\": 42.41\n },\n \"total_wall_s\": 56.5,\n \"report\": \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/gen/_qcpass_viberesearch_cutout.json\",\n \"pass\": true\n}\n",
+    "stderr": "I0000 00:00:1788647107.754728 17580388 init-domain.cc:132] Fiber init: default domain = pthread, concurrency = 19, prefix = pthread-default\nW0000 00:00:1788647107.755267 17580388 face_landmarker_graph.cc:180] Sets FaceBlendshapesGraph acceleration to xnnpack by default.\nW0000 00:00:1788647107.755269 17580381 face_landmarker_graph.cc:180] Sets FaceBlendshapesGraph acceleration to xnnpack by default.\nI0000 00:00:1788647107.840079 17580381 gl_context.cc:407] GL version: 2.1 (2.1 Metal - 90.5), renderer: Apple M5 Pro\nINFO: Created TensorFlow Lite XNNPACK delegate for CPU.\nW0000 00:00:1788647107.841537 17580399 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.\nW0000 00:00:1788647107.849203 17580399 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.\nI0000 00:00:1788647107.849269 17580388 gl_context.cc:407] GL version: 2.1 (2.1 Metal - 90.5), renderer: Apple M5 Pro\nW0000 00:00:1788647107.850692 17580391 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.\nW0000 00:00:1788647107.857709 17580391 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.\nI0000 00:00:1788647144.556488 17598707 gl_context.cc:407] GL version: 2.1 (2.1 Metal - 90.5), renderer: Apple M5 Pro\nW0000 00:00:1788647144.558003 17598709 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.\n",
+    "verdicts": {
+      "decoded_blank_frames": "PASS",
+      "zero_ink_law": "PASS",
+      "clip_coverage_page": "PASS",
+      "double_exposure": "REPORTED",
+      "face_centring": "PASS",
+      "pill_canon_rendered": "PASS",
+      "gate1_geometry_audit": "PASS",
+      "gate2_frame_review": "PASS",
+      "cutout_checks_24_25": "PASS",
+      "gate3_gemini_describe": "PASS",
+      "audio_guards": "PASS",
+      "contact_sheet": "PASS",
+      "phone_crops": "PASS",
+      "edge_clip": "PASS",
+      "face_hf_vs_plate": "PASS",
+      "head_scale_vs_framing": "PASS"
+    },
+    "failed": [],
+    "skipped": {
+      "whiteboard_seam_law": "whiteboard only, and needs --seams (the chapter erase times)"
+    },
+    "wall_s_by_check": {
+      "decoded_blank_frames": 0.0,
+      "zero_ink_law": 0.04,
+      "clip_coverage_page": 0.0,
+      "double_exposure": 0.96,
+      "face_centring": 1.52,
+      "pill_canon_rendered": 0.0,
+      "gate1_geometry_audit": 12.69,
+      "gate2_frame_review": 6.13,
+      "cutout_checks_24_25": 21.23,
+      "gate3_gemini_describe": 31.17,
+      "audio_guards": 3.32,
+      "contact_sheet": 7.33,
+      "phone_crops": 3.92,
+      "edge_clip": 56.41,
+      "face_hf_vs_plate": 18.9,
+      "head_scale_vs_framing": 33.65,
+      "single_decode": 42.41
+    },
+    "total_wall_s": 56.5,
+    "pass": true
+  },
+  "findings": "Normal-size actual full-frame samples have readable captions, coherent graphics, visible face and torso, and no material defect. Historical zoom-only hand findings follow the user acceptance policy.",
+  "watcher_adjudication": [
+    {
+      "t_start": 20,
+      "t_end": 22,
+      "verdict": "rejected",
+      "reason": "Full-frame19.52,20,21,22,23 and27.52s establish intentional quantity diagram: one tile labeled TWO YEARS becomes25 tiles labeled50 YEARS. Tile interior is deliberately blank, not a missing asset. Captions and speaker remain readable."
+    }
+  ],
+  "continuous_playback_review": false,
+  "scope": "Actual MP4 full-frame 360x640 sampled stills plus exact-export existing technical QC and whole-video watcher. Not continuous manual playback or every-frame visual review.",
+  "sample_times_seconds": [
+    0.0,
+    0.16,
+    0.4,
+    5.52,
+    11.0,
+    16.52,
+    19.52,
+    20.0,
+    21.0,
+    22.0,
+    23.0,
+    27.52,
+    33.04,
+    38.52,
+    43.96
+  ],
+  "reviewed_epoch": 1788647292.566807
+}

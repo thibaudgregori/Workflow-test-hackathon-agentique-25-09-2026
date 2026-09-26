@@ -1,0 +1,72 @@
+{
+  "staged": "",
+  "phone_verdict": "HOLD",
+  "blocked": "The cold phone read is not run: this author session has no agent-spawn verb (no native Agent/Task tool in its toolset), so it cannot dispatch the fresh independent namer the gate requires. production.py phone-check refuses (review/phone_pass_plantsite_whiteboard.json absent) and render_and_check would refuse with it, so no render was submitted and nothing was staged. The three cold crops are cut, copied and blind-named; dispatch brief at shorts_run16/review/phone_plantsite_whiteboard.namer_brief.md and render spec at shorts_run16/gen/_rcspec_plantsite_whiteboard.json.",
+  "rounds": 0,
+  "redesigned": false,
+  "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/projects/plantsite_whiteboard",
+  "generator": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/gen/plantsite_whiteboard.py",
+  "cold_crop_paths": [
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/71be5c02/00.png",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/71be5c02/01.png",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/71be5c02/02.png"
+  ],
+  "fails": [],
+  "cands": "",
+  "flagged_for_clerk": "The plan declares boards.mode = single; the harness detects the board as CHAPTERED because the source card and its three claim fills retire on one time (4 rigids, chapter_seams threshold 3). Both erases hand over to fully drawn objects; qc_pass --seams 6.50,11.60. Also: the whiteboard outro carries no themed fynbos glyph because whiteboard_build.outro_block() has no glyph slot and forking the shared harness is forbidden; the split and cutout carry it.",
+  "prerender_verdict": "PASS in 3.42s \u2014 refs_resolve PASS, assets_not_placeholder PASS (4 rasters), page_audit PASS, caption_canon_page PASS (25 pills, modal h 114.59px, spread 0.0), gate1_geometry_audit PASS (0 errors / 0 warnings); cutout_edge_fade_guard and cutout_checks_24_25 SKIP (cutout only)",
+  "geometry_strict": "shorts_run16/projects/plantsite_whiteboard/geometry_audit/report.json \u2014 strict true, 0 errors, 0 warnings, violations []",
+  "phone_test": {
+    "mode": "phone-test",
+    "objects": 3,
+    "sheet": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/phone_plantsite_whiteboard.png",
+    "phone_sizes_px": [
+      [
+        92,
+        107
+      ],
+      [
+        148,
+        122
+      ],
+      [
+        92,
+        62
+      ]
+    ],
+    "instants": [
+      2.8,
+      8.9,
+      14.95
+    ]
+  },
+  "board_reports": {
+    "board_mode": "one board, plan view (fix); 576x460 design units; 24 strokes, 18 rigids",
+    "label_law": "PASS \u2014 key term PRODUCTIVITY first and alone at 2.06s, 22.0u (floor 22.0); INDIGENOUS PLANTS 9.44, MEANINGFUL 10.74, AI 12.82, WEEKEND 14.18; unplanned_text []",
+    "label_side": "PASS \u2014 5 keys, every dx 0.0u, PRODUCTIVITY below task-list, INDIGENOUS PLANTS below plant-page, MEANINGFUL above plant-page, AI below ai-row, WEEKEND below weekend-cal",
+    "outro_clear": "PASS \u2014 opaque sheet rises 17.72-18.28, travel 862.5px, board never moves or fades, card ink enters at 322.5px against board covered at 532.5px (overlap 210.0px), no rigid authored at or after 17.72",
+    "seams": "erase 6.50 completes 6.72 (card + 3 claim fills, 4 rigids -> detected chapter seam); erase 11.60 completes 11.90 (checklist + its key, 2 rigids); qc --seams 6.50,11.60",
+    "lifetime_law": "PASS \u2014 chaptered true, 8 anchors declared, lingering []",
+    "spacing": "PASS \u2014 line boxes and glyph ink both clean, 12 objects, under_aim []",
+    "no_text_crossing": "PASS \u2014 24 strokes vs 5 types",
+    "anchor_law": "PASS \u2014 plant-page, 2 connectors, spread 0.00u, level true, on_rect true",
+    "no_enclosure": "PASS \u2014 0 rings, 1 box (target plant-page, a drawn object), 3 highlights (all on the post-card raster), wrong_tool_advisory []",
+    "ss3b_merge_count": 0,
+    "captions": "25 pills, 25 before and after merge_function_only_beats (the whiteboard chunker emitted no lone-function-word beat), widest 741.0px against a 756.0px budget",
+    "caption_band": "ink bottom 773.1px against the reserved band top 799.2px, clearance 26.1px (glyph ink 761.2px, 44.0px to the pill's painted top edge)",
+    "law12": "top ink 176.0u against 102.4u, marker top 132.7u, rail hits []"
+  },
+  "prep_numbers_quoted": {
+    "cut": "ok, 23.9s wall, master 23.72s, tight audio 23.70s, no analysis wav by design",
+    "plate": "ok, 98.7s, crop 2576x1840+480+130, scale_k 0.48913, head 450.2px on canvas, overwide_applied true, face_dx 0.111%, visible window drift 0.93px",
+    "prompt0": "ok, 14.7s, wing_review true, wing_cut_applied false, removed_px 0 (the instrument abstained); belongs to the CUTOUT author",
+    "selection": "ok, reviewed",
+    "track": "ok, 69.8s, backend matanyone2, cost_usd 0.017655, review_status needs_final_visual_review",
+    "ship": "ok, 71.9s, 593 frames 1386x990 @25, soft alpha, 7px rim, fractional_alpha_pixels 12691420, minimum_person_fraction 0.38605, estimated compute 0.028428 usd",
+    "cues": "ok, cue_count 0 \u2014 a scanner miss on the plural 'these guys that, on X'; the plan rules the cue real and the board raises the card",
+    "package_json": "shorts_run16/prep/plantsite.json present; no stage marker missing"
+  },
+  "report": "Built through the shared harness formats/whiteboard/lib/whiteboard_build.py (not forked). Build green; prerender_check PASS; strict geometry_audit 0/0; phone_test_page emitted 3 objects and the sealed key; cold copies made under review/cold/71be5c02. No render submitted, nothing staged, the sealed key was not opened.",
+  "disagreements_file": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/plans/plantsite_wb_notes.md",
+  "disagreements_summary": "9 notes: the plan's canvas_rects redrawn in board units (LAW 12 refuses the plan's band), no themed outro glyph (the shared harness has no slot), the card exit is a detected chapter seam (the plan counted one erase not two), LAW 40's own instrument forbids the plan's two-point left anchor pair (both connectors land on anchor_points(n=1), spread 0.00u), INDIGENOUS PLANTS written at 9.44 not 8.06 (LAW 4 double-caption), two phone instants moved off the marker sprite, the source card is a whitespace-only crop of the approved offline render, the flower completes at 8.24 so its own Phone Test instant is legible, plus five small logged items."
+}

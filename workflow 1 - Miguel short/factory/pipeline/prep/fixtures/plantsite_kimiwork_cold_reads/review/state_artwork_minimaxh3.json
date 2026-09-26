@@ -1,0 +1,58 @@
+{
+ "verdict": "PASS",
+ "scene_handoff": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/plans/minimaxh3_scene_handoff.md",
+ "scene_module": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/gen/minimaxh3_scene.py",
+ "artwork_pass": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/artwork_pass_minimaxh3.json",
+ "cold_reads_run": 4,
+ "proofs": {
+  "reader_evidence": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/phone_reader_minimaxh3_artwork.json",
+  "scoring": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/artwork_scores_minimaxh3.json",
+  "blind_cold_dir": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/round1-74d9c38a",
+  "seal_key": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/proofs_minimaxh3/key_seal.json",
+  "seal_crops": [
+   "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/proofs_minimaxh3/seal_podium.png",
+   "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/proofs_minimaxh3/seal_cand-b-open.png",
+   "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/proofs_minimaxh3/seal_cand-b-shut.png",
+   "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/proofs_minimaxh3/seal_price-tag.png"
+  ],
+  "seal_crop_cutter": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/gen/minimaxh3_seal_crops.py",
+  "round1_candidate_key": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/proofs_minimaxh3/key_r1.json",
+  "round1_cold_dir": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/ed56b52f",
+  "composed_frame": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/proofs_minimaxh3/composed_split_frame.png",
+  "chart_check_vs_run15": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/proofs_minimaxh3/chart_check_vs_run15.png",
+  "author_notes": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/plans/minimaxh3_scene_notes.md",
+  "rounds_used": 1,
+  "rounds_allowed": 2,
+  "reads": [
+   {
+    "i": 0,
+    "object": "a winners podium",
+    "answer": "winners podium",
+    "confidence": "sure",
+    "verdict": "PASS"
+   },
+   {
+    "i": 1,
+    "object": "an open book",
+    "answer": "open book",
+    "confidence": "sure",
+    "verdict": "PASS"
+   },
+   {
+    "i": 2,
+    "object": "a closed book",
+    "answer": "Notebook",
+    "confidence": "sure",
+    "verdict": "PASS"
+   },
+   {
+    "i": 3,
+    "object": "a price tag",
+    "answer": "price tag",
+    "confidence": "sure",
+    "verdict": "PASS"
+   }
+  ]
+ },
+ "reason": "Bespoke artwork for minimaxh3 is finished, cold-read and SEALED. Fresh metaphors for THIS recording: a winners podium (rank), an OPEN BOOK against two SHUT BOOKS (open weight vs closed), and a price tag carrying one $ against three (relative price, no invented figure). The plan's open/closed PADLOCK was rejected before animation because shorts_run15/gen/shieldstral_scene.py already ships padlock_svg()/key_svg() and PRODUCTION.md step 5 forbids a cross-video stock metaphor; the plan's own redesign path C authorised the replacement, and the two fresh candidates drawn for it were decided by cold read, not by taste - candidate A (lid-raised box vs taped boxes) failed its SHUT term ('Cabinet or safe icon', unsure) and was not polished, candidate B (book) passed both terms first read. THE SEAL, which is what this session added: the previous attempt did all the creative work but never ran the artwork-pass sealer, so review/artwork_pass_minimaxh3.json did not exist and three lanes were about to build on an unsealed module - the exact plantsite failure the gate was written for. I re-cut all four SHIPPED bespoke objects from the CURRENT module with gen/minimaxh3_seal_crops.py and they came out byte-identical to the round-1 crops (md5 podium 3f8e8ac2, open 1e62b037, shut 7f4bf715, tag c846ef18), so the drawing that was read is the drawing the lanes consume. I then dispatched them through the INSTRUMENT, pipeline/cold_read.py dispatch: four independent `claude -p` readers launched from /tmp on absolute paths of blind copies under random tokens in review/cold/round1-74d9c38a, no plan, no topic, no key, session capacity, zero dispatch failures. All four answered 'sure': 'winners podium', 'open book', 'Notebook', 'price tag'. Three are exact; 'Notebook' is an obvious synonym of a shut book and is the shut term doing its only job, since no reader on either dispatch has read it as open. Scored into review/artwork_scores_minimaxh3.json and sealed with production.py artwork-pass (objects 4); artwork-check re-verifies PASS against the module and handoff hashes. GRAPHIC CHART: the palette block is copied verbatim from run-15 geminitools_scene.py - cream #F6F1EA ground, cards #FFFDF9, ink #141416, terracotta #C4573A, JetBrains Mono uppercase keys, thin ink-line SVG with round caps, real registry marks in rounded cream tiles. I held the composed frame beside the run-15 geminitools frame myself (chart_check_vs_run15.png): a stranger files them under the same channel because both are one cream ink-line panel above the same talking head, the same terracotta caption pill in white bold rounded type sitting on the seam, the same monospaced all-caps key under every drawn object, the same stroke weight on every drawing, and real coloured brand marks seated in identical rounded cream tiles. Only the objects differ - which is the point. Module verification re-run this session: assert_plan_rects 28 rects at max delta 0.0 px with one logged waiver (key-grok-imagine-ch0, moved to clear a 6.0 px hypot gap under LAW 41's 16 px refusal); assert_spacing_law 89 concurrent non-block pairs, floor 24.0 core px (22.8 at the cutout's k=0.95); assert_cue_law every label inside the 1.0 s window, worst 0.30 s; assert_outro_clear 2.81 s. Re-running minimaxh3_still.py reproduced composed_split_frame.png byte-identically (md5 966d7ac9), so the chart evidence is the shipped module and not a stale build. Handoff section 12 now records the seal and tells all three lanes they may not redraw a bespoke object; section 11 still tells the Reels whiteboard author to draw the BOOK pair and use seedance-ink, so the three formats agree on the metaphor. MATTES_FINAL.md was honoured: no matting, no re-track, no re-selection. No render and no Modal call of any kind was made."
+}

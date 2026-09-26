@@ -1,0 +1,72 @@
+{
+ "app": "shorts-factory-sam2",
+ "session": "grokprice_2026-08-08",
+ "tag": "v1",
+ "gpu": "NVIDIA A10",
+ "dtype": "fp32",
+ "model": "sam2.1_hiera_base_plus",
+ "torch": "2.13.0+cu130",
+ "cuda": "13.0",
+ "ckpt": "/root/ckpt/sam2.1_hiera_base_plus.pt",
+ "cfg": "configs/sam2.1/sam2.1_hiera_b+.yaml",
+ "width": 1080,
+ "height": 900,
+ "fps": 25,
+ "frames_on_disk": 1294,
+ "frames_tracked": 1294,
+ "chunk": 350,
+ "overlap": 8,
+ "warm_lap": 15,
+ "warm_frames_discarded": 16,
+ "keyframe_masks": 1,
+ "keyframes": [
+  0
+ ],
+ "prompts_applied": [
+  {
+   "kf": 0,
+   "local": 0,
+   "kind": "mask (discarded prompt copy)"
+  }
+ ],
+ "prompt": "add_new_mask",
+ "seams": [
+  {
+   "seam_at": 350,
+   "overlap": 8,
+   "iou_min": 0.99878,
+   "iou_mean": 0.99892
+  },
+  {
+   "seam_at": 700,
+   "overlap": 8,
+   "iou_min": 0.99879,
+   "iou_mean": 0.99919
+  },
+  {
+   "seam_at": 1050,
+   "overlap": 8,
+   "iou_min": 0.99907,
+   "iou_mean": 0.99922
+  }
+ ],
+ "track_seconds": 311.22,
+ "ms_per_frame": 240.5,
+ "extract_seconds": 1.24,
+ "container_id": "36f2077d-f33b-46e1-bbaf-edf288e082ad",
+ "t_import_epoch": 1788218096.3049345,
+ "t_fn_entry_epoch": 1788218097.9700048,
+ "t_fn_exit_epoch": 1788218414.0829625,
+ "alpha_bytes": 41372348,
+ "alpha_on_volume": "/vol/grokprice_2026-08-08/alpha_v1.mkv",
+ "cold_start_seconds": 27.64,
+ "billed_container_seconds": 319.8,
+ "measured_cost_usd": 0.126,
+ "cost_breakdown_usd": {
+  "gpu": 0.0979,
+  "cpu": 0.0168,
+  "mem": 0.0114
+ },
+ "alpha_local": "sessions/grokprice_2026-08-08/alpha_v1.mkv",
+ "plate_local": "sessions/grokprice_2026-08-08/plate_wide_25.mp4"
+}

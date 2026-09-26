@@ -1,0 +1,108 @@
+{
+  "verdict": "PASS",
+  "phone_verdict": "PASS",
+  "reviewer": "fresh_visual_reader",
+  "mp4": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-attempts/impossibletask-f932de5b784b1b2b/output/impossibletask_cutout.mp4",
+  "mp4_sha256": "6cbe656d060965e79057c48f8ad47898a632034438900b32081c08f5dd8fca8d",
+  "alpha_sha256": "f40e4bed18020b81aa6c1e6483a25cad95574fdb206509874f1db60066922a9e",
+  "project_sha256": "f932de5b784b1b2b0cb4577ba29783344f1cda28dad7eef5b47d81ca888297f2",
+  "agent_review": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/review/impossibletask/agent-review.json",
+  "agent_review_sha256": "16662b0ff6cd23023ba6f4eaa84ac9c0431fb16e93f776966750de8fe14d117b",
+  "reviewed_files": {
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-attempts/impossibletask-f932de5b784b1b2b/output/impossibletask_cutout.mp4": "6cbe656d060965e79057c48f8ad47898a632034438900b32081c08f5dd8fca8d"
+  },
+  "render_result": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-attempts/impossibletask-f932de5b784b1b2b/result.json",
+  "render_result_sha256": "49d06db63ae6417c19b4e32a1860c362cef248e50955eaf70cdaffcb3cf8973a",
+  "whole_video_watcher": {
+    "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/clerk_video_gemini.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-attempts/impossibletask-f932de5b784b1b2b/output/impossibletask_cutout.mp4 impossibletask --fmt cutout --out /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/review/cands_impossibletask_cutout.json --thinking medium",
+    "returncode": 0,
+    "wall_s": 37.9,
+    "out": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/review/cands_impossibletask_cutout.json",
+    "stderr": "[pass 1 win 4/4 34.0-41.7s] 2 beats / 0 candidates  in=10352 out=2264 $0.0088\n[pass 1 win 3/4 17.0-37.0s] 5 beats / 0 candidates  in=20429 out=1496 $0.0099\n[pass 1 win 2/4 0.0-20.0s] 6 beats / 0 candidates  in=20427 out=1828 $0.0107\n[pass 1 win 1/4 0.0-41.7s] 8 beats / 0 candidates  in=38128 out=3014 $0.0190\n",
+    "model": "gemini-3.5-flash-lite",
+    "cost_usd": 0.048306,
+    "counts": {
+      "candidates": 0,
+      "blocking": 0,
+      "motion": 0
+    },
+    "video_summary": "The video explains how to assign ambitious AI tasks overnight using tools like Codex and the /goal command to ensure thorough verification and testing. It features a cutout presenter discussing AI capabilities accompanied by dynamic graphical cards, timeline sliders, and app icon rows.",
+    "candidates": [],
+    "blocking_candidates": 0,
+    "pass": true
+  },
+  "technical_evidence": {
+    "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/qc/qc_pass.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-attempts/impossibletask-f932de5b784b1b2b/output/impossibletask_cutout.mp4 --project /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/impossibletask_cutout --vid impossibletask --fmt cutout --out /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/gen/_qcpass_impossibletask_cutout.json --run /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905 --geom /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-support/_geom_impossibletask.json --alpha /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/matting/impossibletask/matte_impossibletask_v5_alpha.webm --edge-box 1386x990+-252+930.0000 --voice-master /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/cuts/impossibletask/audio.m4a --plate /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/matting/impossibletask/plate_display_1386x990.mp4 --cap-seat 886.9 --phone-at 10.2:0.7333,0.1279,0.8963,0.2446:clock --phone-at 3.6:0.213,0.1264,0.787,0.2831:source post card --phone-at 14.6:0.1111,0.2618,0.7009,0.4029:screen and printer",
+    "returncode": 0,
+    "wall_s": 44.2,
+    "report": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/gen/_qcpass_impossibletask_cutout.json",
+    "stdout": "E  EDGE FADE   0 frame-edge chops, 4 masked containers OK\nF  DEPTH FIELD  3/3 lanes, band 394.0px, gutters [26.0, 26.0], 13 steps OK\nF  CROWN CLEARANCE  min 46.0 px, median 49.0 px over 86 samples OK\n{\n \"render\": \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-attempts/impossibletask-f932de5b784b1b2b/output/impossibletask_cutout.mp4\",\n \"verdicts\": {\n  \"decoded_blank_frames\": \"PASS\",\n  \"zero_ink_law\": \"PASS\",\n  \"clip_coverage_page\": \"PASS\",\n  \"double_exposure\": \"REPORTED\",\n  \"face_centring\": \"PASS\",\n  \"pill_canon_rendered\": \"PASS\",\n  \"gate1_geometry_audit\": \"PASS\",\n  \"gate2_frame_review\": \"PASS\",\n  \"cutout_checks_24_25\": \"PASS\",\n  \"gate3_gemini_describe\": \"PASS\",\n  \"audio_guards\": \"PASS\",\n  \"contact_sheet\": \"PASS\",\n  \"phone_crops\": \"PASS\",\n  \"edge_clip\": \"PASS\",\n  \"face_hf_vs_plate\": \"PASS\",\n  \"head_scale_vs_framing\": \"PASS\"\n },\n \"skipped\": [\n  \"whiteboard_seam_law\"\n ],\n \"wall_s\": {\n  \"decoded_blank_frames\": 0.0,\n  \"zero_ink_law\": 0.0,\n  \"clip_coverage_page\": 0.0,\n  \"double_exposure\": 1.71,\n  \"face_centring\": 2.84,\n  \"pill_canon_rendered\": 0.0,\n  \"gate1_geometry_audit\": 13.75,\n  \"gate2_frame_review\": 8.33,\n  \"cutout_checks_24_25\": 18.35,\n  \"gate3_gemini_describe\": 27.91,\n  \"audio_guards\": 5.64,\n  \"contact_sheet\": 13.89,\n  \"phone_crops\": 4.54,\n  \"edge_clip\": 42.62,\n  \"face_hf_vs_plate\": 15.08,\n  \"head_scale_vs_framing\": 24.13,\n  \"single_decode\": 38.11\n },\n \"total_wall_s\": 43.24,\n \"report\": \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/gen/_qcpass_impossibletask_cutout.json\",\n \"pass\": true\n}\n",
+    "stderr": "I0000 00:00:1788647118.252725 17586324 init-domain.cc:132] Fiber init: default domain = pthread, concurrency = 19, prefix = pthread-default\nW0000 00:00:1788647118.253200 17586324 face_landmarker_graph.cc:180] Sets FaceBlendshapesGraph acceleration to xnnpack by default.\nW0000 00:00:1788647118.263832 17586346 face_landmarker_graph.cc:180] Sets FaceBlendshapesGraph acceleration to xnnpack by default.\nI0000 00:00:1788647118.592154 17586324 gl_context.cc:407] GL version: 2.1 (2.1 Metal - 90.5), renderer: Apple M5 Pro\nINFO: Created TensorFlow Lite XNNPACK delegate for CPU.\nW0000 00:00:1788647118.593769 17586332 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.\nI0000 00:00:1788647118.598812 17586346 gl_context.cc:407] GL version: 2.1 (2.1 Metal - 90.5), renderer: Apple M5 Pro\nW0000 00:00:1788647118.599878 17586357 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.\nW0000 00:00:1788647118.600356 17586332 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.\nW0000 00:00:1788647118.606181 17586354 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.\nI0000 00:00:1788647148.520954 17600363 gl_context.cc:407] GL version: 2.1 (2.1 Metal - 90.5), renderer: Apple M5 Pro\nW0000 00:00:1788647148.522667 17600366 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.\n",
+    "verdicts": {
+      "decoded_blank_frames": "PASS",
+      "zero_ink_law": "PASS",
+      "clip_coverage_page": "PASS",
+      "double_exposure": "REPORTED",
+      "face_centring": "PASS",
+      "pill_canon_rendered": "PASS",
+      "gate1_geometry_audit": "PASS",
+      "gate2_frame_review": "PASS",
+      "cutout_checks_24_25": "PASS",
+      "gate3_gemini_describe": "PASS",
+      "audio_guards": "PASS",
+      "contact_sheet": "PASS",
+      "phone_crops": "PASS",
+      "edge_clip": "PASS",
+      "face_hf_vs_plate": "PASS",
+      "head_scale_vs_framing": "PASS"
+    },
+    "failed": [],
+    "skipped": {
+      "whiteboard_seam_law": "whiteboard only, and needs --seams (the chapter erase times)"
+    },
+    "wall_s_by_check": {
+      "decoded_blank_frames": 0.0,
+      "zero_ink_law": 0.0,
+      "clip_coverage_page": 0.0,
+      "double_exposure": 1.71,
+      "face_centring": 2.84,
+      "pill_canon_rendered": 0.0,
+      "gate1_geometry_audit": 13.75,
+      "gate2_frame_review": 8.33,
+      "cutout_checks_24_25": 18.35,
+      "gate3_gemini_describe": 27.91,
+      "audio_guards": 5.64,
+      "contact_sheet": 13.89,
+      "phone_crops": 4.54,
+      "edge_clip": 42.62,
+      "face_hf_vs_plate": 15.08,
+      "head_scale_vs_framing": 24.13,
+      "single_decode": 38.11
+    },
+    "total_wall_s": 43.24,
+    "pass": true
+  },
+  "findings": [
+    "No material visual blocker at normal final framing in reviewed samples. Captions are readable, face/crown intact, subject fills lower frame, approved artwork preserved.",
+    "Existing minor moving-hand matte issues explicitly accepted by user at normal delivery framing. These are not claimed repaired."
+  ],
+  "watcher_adjudication": [],
+  "continuous_playback_review": false,
+  "scope": "Fresh actual final MP4 reviewed as entire 360x640 frames at every manifest sample and nominated technical boundary with neighbors. Existing artwork approval retained. Sampled visual review, not continuous playback or every-frame semantic review.",
+  "sample_times_seconds": [
+    0.0,
+    0.16,
+    0.4,
+    2.92,
+    3.92,
+    5.2,
+    10.4,
+    15.6,
+    20.8,
+    26.0,
+    31.2,
+    36.4,
+    41.52
+  ],
+  "reviewed_epoch": 1788647292.283154
+}

@@ -1,0 +1,128 @@
+{
+  "verdict": "PASS",
+  "phone_verdict": "PASS",
+  "reviewer": "stage_visuals",
+  "mp4": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-attempts/reasoninglevel-0fb39b0477a20740/output/reasoninglevel_cutout.mp4",
+  "mp4_sha256": "4007ac4a0cb4f2ea34cbdec7fe09c4acf837eef0c191db21e5c4ec2b18af6b02",
+  "alpha_sha256": "de7dcafe144aff90f4de5ac453429d190a53d0ea681555d5acd1a380ea5e10de",
+  "project_sha256": "0fb39b0477a2074057952bbdb7bdab9478abafd8eb88b7a9cc9b74d1458a5f33",
+  "agent_review": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/review/reasoninglevel/agent-review.json",
+  "agent_review_sha256": "46f06d250f0b6d8764a83b884b0df9e5dcbff4b47a07ce23c90643dd40851a31",
+  "reviewed_files": {
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-attempts/reasoninglevel-0fb39b0477a20740/output/reasoninglevel_cutout.mp4": "4007ac4a0cb4f2ea34cbdec7fe09c4acf837eef0c191db21e5c4ec2b18af6b02"
+  },
+  "render_result": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-attempts/reasoninglevel-0fb39b0477a20740/result.json",
+  "render_result_sha256": "dd72d276256b72c91a55ec04cd414680040cd37c9f1e29cb5b132e0c4c54860f",
+  "whole_video_watcher": {
+    "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/clerk_video_gemini.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-attempts/reasoninglevel-0fb39b0477a20740/output/reasoninglevel_cutout.mp4 reasoninglevel --fmt cutout --out /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/review/cands_reasoninglevel_cutout.json --thinking medium",
+    "returncode": 0,
+    "wall_s": 25.4,
+    "out": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/review/cands_reasoninglevel_cutout.json",
+    "stderr": "[pass 1 win 2/3 0.0-20.0s] 5 beats / 0 candidates  in=20311 out=1001 $0.0086\n[pass 1 win 3/3 17.0-30.7s] 4 beats / 0 candidates  in=15138 out=2934 $0.0119\n[pass 1 win 1/3 0.0-30.7s] 8 beats / 1 candidates  in=29025 out=3443 $0.0173\n",
+    "model": "gemini-3.5-flash-lite",
+    "cost_usd": 0.037787,
+    "counts": {
+      "candidates": 1,
+      "blocking": 0,
+      "motion": 0
+    },
+    "video_summary": "A creator explains how adjusting the reasoning level of an AI agent alters its problem-solving process and token usage, accompanied by whiteboard-style illustrations and diagrams. The video concludes with a prompt to follow for daily AI news.",
+    "candidates": [
+      {
+        "t_start": 5.66,
+        "t_end": 10.0,
+        "klass": "empty_zone",
+        "severity": "minor",
+        "motion_or_held": "held",
+        "claim": "White card container box carries no content inside for over 4 seconds."
+      }
+    ],
+    "blocking_candidates": 0,
+    "pass": true
+  },
+  "technical_evidence": {
+    "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/qc/qc_pass.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-attempts/reasoninglevel-0fb39b0477a20740/output/reasoninglevel_cutout.mp4 --project /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/reasoninglevel_cutout --vid reasoninglevel --fmt cutout --out /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/gen/_qcpass_reasoninglevel_cutout.json --run /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905 --geom /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-support/_geom_reasoninglevel.json --alpha /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/matting/reasoninglevel/matte_reasoninglevel_v5_alpha.webm --edge-box 1386x990+-202+930.0000 --voice-master /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/cuts/reasoninglevel/audio.m4a --plate /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/matting/reasoninglevel/plate_display_1386x990.mp4 --cap-seat 846.2 --phone-at 3.34:0.4266,0.1937,0.5734,0.3505:a step ladder --phone-at 11.9:0.4853,0.1821,0.7787,0.2407:two speech bubbles --phone-at 20.1:0.4054,0.2506,0.6562,0.3373:two paper documents --phone-at 26.3:0.6812,0.2275,0.7633,0.3373:a coin stack",
+    "returncode": 0,
+    "wall_s": 20.1,
+    "report": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/gen/_qcpass_reasoninglevel_cutout.json",
+    "stdout": "E  EDGE FADE   0 frame-edge chops, 4 masked containers OK\nF  DEPTH FIELD  3/3 lanes, band 394.0px, gutters [26.0, 26.0], 13 steps OK\nF  CROWN CLEARANCE  min 102.0 px, median 122.0 px over 63 samples OK\n{\n \"render\": \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-attempts/reasoninglevel-0fb39b0477a20740/output/reasoninglevel_cutout.mp4\",\n \"verdicts\": {\n  \"decoded_blank_frames\": \"PASS\",\n  \"zero_ink_law\": \"PASS\",\n  \"clip_coverage_page\": \"PASS\",\n  \"double_exposure\": \"REPORTED\",\n  \"face_centring\": \"PASS\",\n  \"pill_canon_rendered\": \"PASS\",\n  \"gate1_geometry_audit\": \"PASS\",\n  \"gate2_frame_review\": \"PASS\",\n  \"cutout_checks_24_25\": \"PASS\",\n  \"gate3_gemini_describe\": \"PASS\",\n  \"audio_guards\": \"PASS\",\n  \"contact_sheet\": \"PASS\",\n  \"phone_crops\": \"PASS\",\n  \"edge_clip\": \"PASS\",\n  \"face_hf_vs_plate\": \"PASS\",\n  \"head_scale_vs_framing\": \"PASS\"\n },\n \"skipped\": [\n  \"whiteboard_seam_law\"\n ],\n \"wall_s\": {\n  \"decoded_blank_frames\": 0.0,\n  \"zero_ink_law\": 0.0,\n  \"clip_coverage_page\": 0.0,\n  \"double_exposure\": 0.06,\n  \"face_centring\": 0.47,\n  \"pill_canon_rendered\": 0.0,\n  \"gate1_geometry_audit\": 4.35,\n  \"gate2_frame_review\": 1.5,\n  \"cutout_checks_24_25\": 4.78,\n  \"gate3_gemini_describe\": 19.92,\n  \"audio_guards\": 1.05,\n  \"contact_sheet\": 3.53,\n  \"phone_crops\": 0.8,\n  \"edge_clip\": 8.0,\n  \"face_hf_vs_plate\": 4.63,\n  \"head_scale_vs_framing\": 6.29,\n  \"single_decode\": 8.36\n },\n \"total_wall_s\": 19.94,\n \"report\": \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/gen/_qcpass_reasoninglevel_cutout.json\",\n \"pass\": true\n}\n",
+    "stderr": "I0000 00:00:1788638442.596306 16985576 init-domain.cc:132] Fiber init: default domain = pthread, concurrency = 19, prefix = pthread-default\nW0000 00:00:1788638442.598561 16985575 face_landmarker_graph.cc:180] Sets FaceBlendshapesGraph acceleration to xnnpack by default.\nW0000 00:00:1788638442.598559 16985576 face_landmarker_graph.cc:180] Sets FaceBlendshapesGraph acceleration to xnnpack by default.\nI0000 00:00:1788638442.741698 16985576 gl_context.cc:407] GL version: 2.1 (2.1 Metal - 90.5), renderer: Apple M5 Pro\nINFO: Created TensorFlow Lite XNNPACK delegate for CPU.\nI0000 00:00:1788638442.754641 16985575 gl_context.cc:407] GL version: 2.1 (2.1 Metal - 90.5), renderer: Apple M5 Pro\nW0000 00:00:1788638442.755207 16985633 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.\nW0000 00:00:1788638442.756035 16985630 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.\nW0000 00:00:1788638442.770854 16985630 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.\nW0000 00:00:1788638442.771314 16985633 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.\nI0000 00:00:1788638449.363108 16988389 gl_context.cc:407] GL version: 2.1 (2.1 Metal - 90.5), renderer: Apple M5 Pro\nW0000 00:00:1788638449.364584 16988392 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.\n",
+    "verdicts": {
+      "decoded_blank_frames": "PASS",
+      "zero_ink_law": "PASS",
+      "clip_coverage_page": "PASS",
+      "double_exposure": "REPORTED",
+      "face_centring": "PASS",
+      "pill_canon_rendered": "PASS",
+      "gate1_geometry_audit": "PASS",
+      "gate2_frame_review": "PASS",
+      "cutout_checks_24_25": "PASS",
+      "gate3_gemini_describe": "PASS",
+      "audio_guards": "PASS",
+      "contact_sheet": "PASS",
+      "phone_crops": "PASS",
+      "edge_clip": "PASS",
+      "face_hf_vs_plate": "PASS",
+      "head_scale_vs_framing": "PASS"
+    },
+    "failed": [],
+    "skipped": {
+      "whiteboard_seam_law": "whiteboard only, and needs --seams (the chapter erase times)"
+    },
+    "wall_s_by_check": {
+      "decoded_blank_frames": 0.0,
+      "zero_ink_law": 0.0,
+      "clip_coverage_page": 0.0,
+      "double_exposure": 0.06,
+      "face_centring": 0.47,
+      "pill_canon_rendered": 0.0,
+      "gate1_geometry_audit": 4.35,
+      "gate2_frame_review": 1.5,
+      "cutout_checks_24_25": 4.78,
+      "gate3_gemini_describe": 19.92,
+      "audio_guards": 1.05,
+      "contact_sheet": 3.53,
+      "phone_crops": 0.8,
+      "edge_clip": 8.0,
+      "face_hf_vs_plate": 4.63,
+      "head_scale_vs_framing": 6.29,
+      "single_decode": 8.36
+    },
+    "total_wall_s": 19.94,
+    "pass": true
+  },
+  "findings": [
+    "All11 normal MP4 samples and six watcher-neighbor samples inspected. No confirmed defect. The agent card is deliberately drawn and labelled before speech describes self-conversation; chat bubbles enter10.04\u201310.7 before spoken talk11.059. Empty-zone watcher is intentional diagram construction, not missing content. Subject and visible hands preserved, bottom filled, labels/captions legible."
+  ],
+  "watcher_adjudication": [
+    {
+      "verdict": "false_positive_intentional_reveal",
+      "confirmed_defect": false,
+      "times": [
+        5.32,
+        5.68,
+        7,
+        9.8,
+        10.4,
+        11.2
+      ],
+      "finding": "Card is agent diagram node established before internal conversation is described. Transcript agent7.159, talk11.059; current timeline agent-box5.46, bubbles10.04/10.18. Actual MP4 confirms construction and reveal."
+    }
+  ],
+  "continuous_playback_review": false,
+  "scope": "Sampled source/matte, six staged frames and all nominated actual MP4 frames in manifest. Not continuous playback; no claim every frame inspected.",
+  "sample_times_seconds": [
+    0.0,
+    0.16,
+    0.4,
+    3.84,
+    7.64,
+    11.48,
+    15.28,
+    19.12,
+    22.96,
+    26.76,
+    30.52
+  ],
+  "reviewed_epoch": 1788638619.5908291
+}

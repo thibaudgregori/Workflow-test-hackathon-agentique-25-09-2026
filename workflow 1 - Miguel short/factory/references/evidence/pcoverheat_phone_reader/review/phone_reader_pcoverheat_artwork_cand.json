@@ -1,0 +1,44 @@
+{
+  "tag": "cand",
+  "cold_dir": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run17/review/cold/cand-a9b5d332",
+  "reader": "one independent `claude -p` process per crop, launched from /tmp, handed ONLY the absolute path of a blind copy under a random token - no plan, no topic, no manifest, no sealed key, and no path naming the video",
+  "prompt": "Look at the image at <absolute path of one blind crop> . Name the single everyday object drawn in it. At most FIVE words. Reply with ONE line of JSON and nothing else: {\"name\":\"<=5 words\",\"confidence\":\"sure|unsure|cannot tell\"}",
+  "dispatched_at": "2026-09-08T01:10:32",
+  "cli": "2.1.263 (Claude Code)",
+  "source_crops": {
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run17/review/proofs/crop_cand_00_download-A.png": "29c5146a5650ee03b491e4ce3bf0622ef3c0dc73578eb4941d3e09a7fd2fa424",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run17/review/proofs/crop_cand_01_download-B.png": "75a108e3b258ff5b3270574ecb38cc1b047dbe17ec308856715aa71632c5f3cd",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run17/review/proofs/crop_cand_02_field-A.png": "16b8557cdc0eb5ec37643c61f3788d7066008ab5c642e21ed52899c379c32c6b",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run17/review/proofs/crop_cand_03_field-B.png": "1c608442790ea9c76ab4bb4d0d34aa2705e627730c3791a0621a712a3da6a2fd"
+  },
+  "names": [
+    {
+      "i": 0,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run17/review/cold/cand-a9b5d332/00.png",
+      "name": "Download icon (tray arrow)",
+      "confidence": "sure",
+      "crop_sha256": "29c5146a5650ee03b491e4ce3bf0622ef3c0dc73578eb4941d3e09a7fd2fa424"
+    },
+    {
+      "i": 1,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run17/review/cold/cand-a9b5d332/01.png",
+      "name": "download icon",
+      "confidence": "sure",
+      "crop_sha256": "75a108e3b258ff5b3270574ecb38cc1b047dbe17ec308856715aa71632c5f3cd"
+    },
+    {
+      "i": 2,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run17/review/cold/cand-a9b5d332/02.png",
+      "name": "Terminal command prompt",
+      "confidence": "sure",
+      "crop_sha256": "16b8557cdc0eb5ec37643c61f3788d7066008ab5c642e21ed52899c379c32c6b"
+    },
+    {
+      "i": 3,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run17/review/cold/cand-a9b5d332/03.png",
+      "name": "terminal command prompt bar",
+      "confidence": "unsure",
+      "crop_sha256": "1c608442790ea9c76ab4bb4d0d34aa2705e627730c3791a0621a712a3da6a2fd"
+    }
+  ]
+}

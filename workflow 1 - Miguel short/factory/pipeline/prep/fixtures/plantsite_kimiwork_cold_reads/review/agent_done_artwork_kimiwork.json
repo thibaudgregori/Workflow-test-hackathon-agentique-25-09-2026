@@ -1,0 +1,34 @@
+{
+ "verdict": "PASS",
+ "scene_handoff": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/plans/kimiwork_scene_handoff.md",
+ "scene_module": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/gen/kimiwork_scene.py",
+ "artwork_pass": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/artwork_pass_kimiwork.json",
+ "cold_reads_run": 6,
+ "proofs": {
+  "reader_evidence": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/phone_reader_kimiwork_artwork.json",
+  "scoring": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/proofs_kimiwork/scores_seal.json",
+  "cold_failing_round": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/seal-c1296487",
+  "cold_passing_round": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/seal2-16c311ab",
+  "crops": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/proofs_kimiwork/crops",
+  "scene_notes": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/plans/kimiwork_scene_notes.md",
+  "harness": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/gen/kimiwork_proof.py",
+  "chart_comparison": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/proofs_kimiwork/chart_comparison_run15_vs_kimiwork.png",
+  "composed_frames": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/proofs_kimiwork/frame_{2.20,8.60,10.90,14.20,18.30,23.00,28.60,33.20}.png",
+  "phone_frames": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/proofs_kimiwork/phone_*.png"
+ },
+ "cold_reads": [
+  {"i": 0, "intended": "a crown", "read": "crown", "confidence": "sure", "phone_px": [54, 33]},
+  {"i": 1, "intended": "an app window", "read": "browser window with app icon", "confidence": "sure", "phone_px": [71, 76]},
+  {"i": 2, "intended": "an open laptop", "read": "laptop", "confidence": "sure", "phone_px": [105, 64]},
+  {"i": 3, "intended": "a paper report", "read": "document with bar chart", "confidence": "sure", "phone_px": [52, 63]},
+  {"i": 4, "intended": "a presentation screen", "read": "presentation board on easel", "confidence": "sure", "phone_px": [75, 53]},
+  {"i": 5, "intended": "a till receipt", "read": "receipt", "confidence": "sure", "phone_px": [60, 56]}
+ ],
+ "module_change": {
+  "WIN_EDGE": "rgba(20,20,22,.55) -> #141416",
+  "window_bar_svg bar rule": "rgba(20,20,22,.55) -> #141416",
+  "geometry_moved": false
+ },
+ "action_required_downstream": "The split (staging/youtube/kimiwork_split.mp4) and cutout (staging/tiktok/kimiwork_cutout.mp4) were staged from the pre-seal module and must be re-rendered against the sealed one. No lane code changes; WIN_EDGE is a build-time colour constant.",
+ "reason": "A prior artwork session for kimiwork was killed before writing its sentinel, and the stage cache held its PASS. That cached PASS was not valid: review/artwork_pass_kimiwork.json - the record the brief makes mandatory, and the record production.py artwork-check demands before any lane consumes the shared module - did not exist on disk, and the prior session's cold reads were run by a scene-local harness rather than pipeline/cold_read.py. I did not redraw the scene; I read it and sealed it. THE SEAL FOUND A REAL DEFECT. Re-dispatched through the pipeline instrument (one independent `claude -p` per crop from /tmp, blind copy under a random token, no plan/topic/key), five objects came back `sure` and object 1, the app window, came back `unsure` - \"App window with K icon\". Against the module's own deviation note 13 that made four of five lifetime reads on that object uncertain (phone app icon window, app icon on tablet, phone app icon, App window with K icon) and the single `sure` the outlier. Under STANDARD.md an uncertain answer fails, and artwork-pass refuses it, so it could not be laundered - this is exactly the plantsite failure the gate exists to catch. THE DIAGNOSIS WAS CONTRAST, NOT METAPHOR: every reader named a window, so the drawing was right and the ink was wrong. The frame was LINE_INK rgba(20,20,22,.55) and was the ONLY bespoke outline in the scene not in full INK - the crown, laptop, report, screen and receipt are all #141416 at stroke 6-10 - so at the object's real phone size, 71 x 76 px, it was the faintest ink in the set and the eye landed on the solid black registry tile inside instead of the frame around it, which is what every failed read literally said. I raised two colour constants to INK, WIN_EDGE and the title bar's lower rule, and nothing else. This moves the object TOWARDS the graphic chart rather than away from it, and SC.assert_geometry() is numerically identical before and after: Law 41's tightest non-block pair is still key-anthropic/prov-win-3 at 28.0 core px, every Law 15 axis error is still 0.0, the content band still measures 94.0-578.0, Law 39 centre errors all 0.0 and Law 40's crown mirror error 0.0. The fresh blind dispatch on the repaired crops returned six objects, six `sure`, no dispatch failures, object 1 now \"browser window with app icon\". Sealed with production.py artwork-pass and verified with artwork-check (exit 0), binding the module, the handoff, the reads and the scoring by hash. GRAPHIC CHART: I put the regenerated 10.90 s frame beside run-15's geminitools split at chart_comparison_run15_vs_kimiwork.png and read both. A stranger files them under one channel because the constants were copied, not chosen - the same cream ground #F6F1EA, the same near-black #141416 with one terracotta #C4573A, the same JetBrains Mono 800 uppercase kicker over the subject with the smaller mono labels under the tiles, the same radius-18 tiles carrying real registry marks sized by ink, the same thin ink-line SVG, the same chassis mono outro lockup. What is fresh is only the metaphor and the objects: a crown three marks reach for, one drawn app window worn by six different marks, a laptop handing out a report and a presentation screen, and a receipt. HONEST COST: the split and cutout MP4s already in staging were built on the half-ink frame and no longer match the sealed drawing, so they need a re-render; that is the price of sealing after the lanes rather than before them, and it is recorded in the handoff's SEAL ROUND section and scene notes s14. No render, no Modal call and no matting call of any kind was made; MATTES_FINAL.md was honoured."
+}

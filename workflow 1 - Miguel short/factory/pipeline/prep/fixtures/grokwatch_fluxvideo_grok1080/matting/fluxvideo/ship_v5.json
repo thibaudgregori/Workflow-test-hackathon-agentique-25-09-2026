@@ -1,0 +1,51 @@
+{
+  "status": "ok",
+  "frames": 812,
+  "width": 1386,
+  "height": 990,
+  "fps": 25,
+  "alpha_mode": "sam2",
+  "rim_px": 7,
+  "temporal": 1,
+  "hashes": {
+    "cut": "49dc8d43a3b38fd4fb1eace7f9c45b213efcc5f061ab3a367bc8b4f124bcb4ec",
+    "rim": "975691a918cb869690acc246050ff5d7e27f0533cb232fd34e4727a457a58c53",
+    "alpha": "559785c133e7e71eda4b111f6d3d450597a95a53799dbf8edc6faba81282a978"
+  },
+  "seconds": 80.031959301,
+  "estimated_compute_usd": 0.03639213253335072,
+  "fractional_alpha_pixels": 8674392,
+  "minimum_person_fraction": 0.38932033174457414,
+  "review_status": "needs_final_visual_review",
+  "ship_source_sha256": "cf367be51d742c272d9f79db8a13e00297684001ebf666283095059206e149e7",
+  "client_wall_seconds": 100.56398350000381,
+  "outputs": {
+    "cut": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run20/matting/fluxvideo/matte_fluxvideo_v5_cut.webm",
+    "rim": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run20/matting/fluxvideo/matte_fluxvideo_v5_rim.webm",
+    "alpha": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run20/matting/fluxvideo/matte_fluxvideo_v5_alpha.webm"
+  },
+  "backend": "sam2",
+  "alpha_source": "alpha_v1.mkv (sam2 fallback)",
+  "fallback": {
+    "date": "2026-09-14T21:48:37",
+    "lane": "sam2 fallback: reviewed frame-0 contour as the only prompt, --no-chair-object, h100, tag fb2, ship temporal 1 / rim 7 / mirror pad, no exclusion guard",
+    "why": "the MatAnyone2 matte was HELD by the matte viewer test (see review/matte_<id>/); this is the lane that fixed geo on 2026-09-14 after the soft alpha smeared the hands and the chair object carved the face",
+    "session": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run20/matting_fallback/fluxvideo",
+    "prompt_mask_sha256": "e0fafdaa3fe798cfc5918dc542b5849a9327579e2c50640447bdc0ac1311d97b",
+    "gates": {
+      "protrusion": {
+        "left": "clean",
+        "right": "clean"
+      },
+      "presenter_loss": "clean",
+      "edge_clip": "CLEAN"
+    },
+    "validation": {
+      "ok": true,
+      "frames": 812,
+      "minimum_person_fraction": 0.38932033174457414,
+      "fractional_alpha_pixels": 8674392
+    },
+    "headroom_min_px": 59.400000000000006
+  }
+}

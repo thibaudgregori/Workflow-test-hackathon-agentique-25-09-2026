@@ -1,0 +1,17 @@
+{
+  "staged": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/staging/tiktok/minimaxh3_cutout.mp4",
+  "phone_verdict": "PASS",
+  "blocked": "",
+  "rounds": 1,
+  "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/projects/minimaxh3_cutout",
+  "sha256": "399b70e02e5b50fcac30104975b8c18f8c4e3e260fb1ac0e1d339d419078f565",
+  "cands": "none - the Gemini watcher was UNAVAILABLE (spending cap, upload refused); render_and_check staged on qc_pass alone and the clerk must decode the staged mp4 itself",
+  "cold_crop_paths": [
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/689123a0/00.png",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/689123a0/01.png",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/689123a0/02.png",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/689123a0/03.png"
+  ],
+  "flagged_for_clerk": "no Gemini candidate list exists for this render (watcher unavailable, spending cap); decode the staged file directly",
+  "redesigned": false
+}

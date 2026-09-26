@@ -1,0 +1,482 @@
+[
+  {
+    "file": "memory_chat_incognito-chat-home.png",
+    "kind": "image",
+    "subject": "memory",
+    "source_url": "https://claude.com/blog/memory",
+    "width": 1920,
+    "height": 1080,
+    "duration_s": null,
+    "notes": "full incognito chat window with ghost icon, greeting and complete composer; clean marketing render"
+  },
+  {
+    "file": "memory_chat_project-scoped-memory-side-by-side.png",
+    "kind": "image",
+    "subject": "memory",
+    "source_url": "https://claude.com/blog/memory",
+    "width": 1920,
+    "height": 1080,
+    "duration_s": null,
+    "notes": "two full claude.ai chat panels side by side, project-scoped memory, full composer with Research button and 'Claude Sonnet 4' model chip"
+  },
+  {
+    "file": "memory_settings_generate-memory-from-chat-history.png",
+    "kind": "image",
+    "subject": "memory",
+    "source_url": "https://support.claude.com/en/articles/11817273-use-claude-s-chat-search-and-memory-to-build-on-previous-context",
+    "width": 1600,
+    "height": 149,
+    "duration_s": null,
+    "notes": "clean settings toggle row, full title + description + toggle; a following UI element is clipped at the very bottom edge"
+  },
+  {
+    "file": "memory_settings_generate-memory-from-chats_alt.png",
+    "kind": "image",
+    "subject": "memory",
+    "source_url": "https://support.claude.com/en/articles/11817273-use-claude-s-chat-search-and-memory-to-build-on-previous-context",
+    "width": 1520,
+    "height": 168,
+    "duration_s": null,
+    "notes": "clean settings toggle row, older white theme variant"
+  },
+  {
+    "file": "memory_settings_privacy-memory-preferences.png",
+    "kind": "image",
+    "subject": "memory",
+    "source_url": "https://support.claude.com/en/articles/10593882-share-and-unshare-chats",
+    "width": 2474,
+    "height": 1040,
+    "duration_s": null,
+    "notes": "full Settings > Privacy page, shows left nav incl. Capabilities/Connectors and a 'Memory preferences' row"
+  },
+  {
+    "file": "memory_settings_search-and-reference-chats.png",
+    "kind": "image",
+    "subject": "memory",
+    "source_url": "https://support.claude.com/en/articles/11817273-use-claude-s-chat-search-and-memory-to-build-on-previous-context",
+    "width": 1600,
+    "height": 144,
+    "duration_s": null,
+    "notes": "clean settings toggle row, full title + description + Learn more link + blue toggle, cream theme"
+  },
+  {
+    "file": "memory_settings_search-and-reference-chats_alt.png",
+    "kind": "image",
+    "subject": "memory",
+    "source_url": "https://support.claude.com/en/articles/11817273-use-claude-s-chat-search-and-memory-to-build-on-previous-context",
+    "width": 1520,
+    "height": 168,
+    "duration_s": null,
+    "notes": "clean settings toggle row, older white theme variant of the same row"
+  },
+  {
+    "file": "video_memory_claude-now-has-memory.mp4",
+    "kind": "video",
+    "subject": "memory",
+    "source_url": "https://www.youtube.com/watch?v=PupmfSttxlc",
+    "width": 1920,
+    "height": 1080,
+    "duration_s": 58.95,
+    "notes": "official Anthropic YouTube channel; full 59s spot demoing memory in the Claude app"
+  },
+  {
+    "file": "websearch_chat_tool-permission-allow-deny.png",
+    "kind": "image",
+    "subject": "websearch",
+    "source_url": "https://support.claude.com/en/articles/14503775-mcp-web-search",
+    "width": 1552,
+    "height": 1302,
+    "duration_s": null,
+    "notes": "best web search asset: full chat flow with 'Web search' tool card, JSON query and Allow once / Deny buttons, entirely visible"
+  },
+  {
+    "file": "websearch_settings_data-sources-toggle.png",
+    "kind": "image",
+    "subject": "websearch",
+    "source_url": "https://support.claude.com/en/articles/10684626-enable-and-use-web-search",
+    "width": 1902,
+    "height": 254,
+    "duration_s": null,
+    "notes": "clean settings row: 'Data sources' heading + 'Web search' toggle with description; admin/team wording"
+  },
+  {
+    "file": "video_websearch_research-product-demo.mp4",
+    "kind": "video",
+    "subject": "websearch",
+    "source_url": "https://claude.com/blog/research",
+    "width": 1920,
+    "height": 1080,
+    "duration_s": 59.0,
+    "notes": "official claude.com product demo of Research (multi-step web search); full 59s, 1920x1080, no audio track expected"
+  },
+  {
+    "file": "projects_chat-history_move-chats-to-project.png",
+    "kind": "image",
+    "subject": "projects",
+    "source_url": "https://support.claude.com/en/articles/9519177-how-can-i-create-and-manage-projects",
+    "width": 1600,
+    "height": 603,
+    "duration_s": null,
+    "notes": "'Your chat history' with multi-select and 'Move N chats to a project' tooltip; HAS GREEN ARROW ANNOTATION over the toolbar"
+  },
+  {
+    "file": "projects_cowork_start-a-new-project.png",
+    "kind": "image",
+    "subject": "projects",
+    "source_url": "https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork",
+    "width": 540,
+    "height": 585,
+    "duration_s": null,
+    "notes": "clean full 'Start a new project' modal, Claude Cowork desktop app (not claude.ai web); local path blurred by Anthropic Native modal size (540px wide) - legible but do not upscale much."
+  },
+  {
+    "file": "projects_cowork_use-an-existing-folder.png",
+    "kind": "image",
+    "subject": "projects",
+    "source_url": "https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork",
+    "width": 559,
+    "height": 627,
+    "duration_s": null,
+    "notes": "clean full 'Use an existing folder' modal, Claude Cowork desktop app; paths blurred by Anthropic Native modal size (559px wide) - legible but do not upscale much."
+  },
+  {
+    "file": "projects_header_project-title-and-share.png",
+    "kind": "image",
+    "subject": "projects",
+    "source_url": "https://support.claude.com/en/articles/9519189-manage-project-visibility-and-sharing",
+    "width": 1512,
+    "height": 310,
+    "duration_s": null,
+    "notes": "clean project header bar: All projects breadcrumb, title, Private badge, Share button; HAS GREEN ARROW pointing at Share"
+  },
+  {
+    "file": "projects_menu_add-to-project.png",
+    "kind": "image",
+    "subject": "projects",
+    "source_url": "https://support.claude.com/en/articles/9519177-how-can-i-create-and-manage-projects",
+    "width": 672,
+    "height": 442,
+    "duration_s": null,
+    "notes": "chat title dropdown with Star / Rename / Add to project / Delete; HAS GREEN ARROW ANNOTATION"
+  },
+  {
+    "file": "projects_menu_change-or-remove-from-project.png",
+    "kind": "image",
+    "subject": "projects",
+    "source_url": "https://support.claude.com/en/articles/9519177-how-can-i-create-and-manage-projects",
+    "width": 842,
+    "height": 482,
+    "duration_s": null,
+    "notes": "chat title dropdown with Change project / Remove from project; HAS GREEN ARROW + GREEN BOX ANNOTATION"
+  },
+  {
+    "file": "projects_modal_create-a-project.png",
+    "kind": "image",
+    "subject": "projects",
+    "source_url": "https://support.claude.com/en/articles/9519189-manage-project-visibility-and-sharing",
+    "width": 544,
+    "height": 460,
+    "duration_s": null,
+    "notes": "clean full 'Create a project' modal incl. visibility radios and buttons; small (544px wide) Native modal size (544px wide) - legible but do not upscale much."
+  },
+  {
+    "file": "projects_modal_move-chat-to-project.png",
+    "kind": "image",
+    "subject": "projects",
+    "source_url": "https://support.claude.com/en/articles/9519177-how-can-i-create-and-manage-projects",
+    "width": 996,
+    "height": 792,
+    "duration_s": null,
+    "notes": "clean full 'Move chat' modal, no annotation, search field and project list fully visible"
+  },
+  {
+    "file": "projects_modal_share-project.png",
+    "kind": "image",
+    "subject": "projects",
+    "source_url": "https://support.claude.com/en/articles/9519189-manage-project-visibility-and-sharing",
+    "width": 1024,
+    "height": 860,
+    "duration_s": null,
+    "notes": "Share project modal with access dropdown open; HAS GREEN ARROW ANNOTATION, modal bottom slightly cropped"
+  },
+  {
+    "file": "projects_page_artifacts-panel.webp",
+    "kind": "image",
+    "subject": "projects",
+    "source_url": "https://www.anthropic.com/news/projects",
+    "width": 1920,
+    "height": 1080,
+    "duration_s": null,
+    "notes": "project chat with Artifacts side panel; marketing zoom render, edges cropped"
+  },
+  {
+    "file": "projects_page_project-overview-shared-chat.webp",
+    "kind": "image",
+    "subject": "projects",
+    "source_url": "https://www.anthropic.com/news/projects",
+    "width": 1920,
+    "height": 1080,
+    "duration_s": null,
+    "notes": "project landing page: title, description, team avatars, composer and Project knowledge list; right edge slightly cropped"
+  },
+  {
+    "file": "projects_panel_add-to-project-knowledge.webp",
+    "kind": "image",
+    "subject": "projects",
+    "source_url": "https://www.anthropic.com/news/projects",
+    "width": 1920,
+    "height": 1080,
+    "duration_s": null,
+    "notes": "Project knowledge panel with drag-and-drop file upload; left chat column is cropped by design (marketing zoom render)"
+  },
+  {
+    "file": "projects_panel_set-custom-instructions.webp",
+    "kind": "image",
+    "subject": "projects",
+    "source_url": "https://www.anthropic.com/news/projects",
+    "width": 1920,
+    "height": 1080,
+    "duration_s": null,
+    "notes": "Project knowledge panel with 'Set custom instructions' and file list; left chat column cropped (marketing zoom render)"
+  },
+  {
+    "file": "thinking_mobile_thinking-block-and-model-opus.png",
+    "kind": "image",
+    "subject": "thinking",
+    "source_url": "https://claude.com/blog/think-through-hard-problems-in-voice-mode",
+    "width": 2048,
+    "height": 1152,
+    "duration_s": null,
+    "notes": "best thinking asset: mobile chat showing collapsed 'Thinking' block above the answer, plus Voice settings sheet with Model = Opus"
+  },
+  {
+    "file": "thinking_mobile_three-panel-thinking-connector-model.png",
+    "kind": "image",
+    "subject": "thinking",
+    "source_url": "https://claude.com/blog/think-through-hard-problems-in-voice-mode",
+    "width": 2048,
+    "height": 1152,
+    "duration_s": null,
+    "notes": "three mobile panels: idle voice screen with 'Opus' model chip, 'Thinking' block, and External connector request sheet"
+  },
+  {
+    "file": "video_thinking_keep-thinking-with-claude.mp4",
+    "kind": "video",
+    "subject": "thinking",
+    "source_url": "https://www.youtube.com/watch?v=FDNkDBNR7AM",
+    "width": 1920,
+    "height": 1080,
+    "duration_s": 90.01,
+    "notes": "official Anthropic YouTube channel; full 90s spot on thinking/reasoning"
+  },
+  {
+    "file": "connectors_chat_google-calendar-and-gmail-tool-calls.png",
+    "kind": "image",
+    "subject": "connectors",
+    "source_url": "https://claude.com/blog/research",
+    "width": 2400,
+    "height": 1350,
+    "duration_s": null,
+    "notes": "full claude.ai chat: Google Calendar and Gmail connector tool cards mid-run, complete composer with Research BETA and 'Claude 3.7 Sonnet' model chip"
+  },
+  {
+    "file": "connectors_home_google-drive-suggestion-chips.png",
+    "kind": "image",
+    "subject": "connectors",
+    "source_url": "https://claude.com/blog/research",
+    "width": 2400,
+    "height": 1350,
+    "duration_s": null,
+    "notes": "full Claude home screen with greeting, composer, Research BETA button, model chip, and 'From Drive' suggestion dropdown"
+  },
+  {
+    "file": "connectors_microsoft365_powerpoint-settings.png",
+    "kind": "image",
+    "subject": "connectors",
+    "source_url": "https://support.claude.com/en/articles/13892150-work-across-microsoft-365-apps",
+    "width": 976,
+    "height": 908,
+    "duration_s": null,
+    "notes": "clean Claude for PowerPoint settings panel: Instructions box and 'Let Claude work across files' toggle with description"
+  },
+  {
+    "file": "connectors_mobile_external-connector-request.png",
+    "kind": "image",
+    "subject": "connectors",
+    "source_url": "https://claude.com/blog/think-through-hard-problems-in-voice-mode",
+    "width": 2048,
+    "height": 1152,
+    "duration_s": null,
+    "notes": "mobile 'External connector request' consent sheet for a Gmail MCP tool with Decline / Allow once / Always allow"
+  },
+  {
+    "file": "connectors_mobile_tripadvisor-spotify-ubereats.png",
+    "kind": "image",
+    "subject": "connectors",
+    "source_url": "https://claude.com/blog/connectors-for-everyday-life",
+    "width": 2048,
+    "height": 1152,
+    "duration_s": null,
+    "notes": "three mobile chats with Tripadvisor, Spotify and Uber Eats connector result cards; each shows the 'Sonnet 4.6' model chip in the header"
+  },
+  {
+    "file": "connectors_modal_browse-plugins-directory.png",
+    "kind": "image",
+    "subject": "connectors",
+    "source_url": "https://support.claude.com/en/articles/13837440-use-plugins-in-claude",
+    "width": 1600,
+    "height": 1029,
+    "duration_s": null,
+    "notes": "clean full 'Browse plugins' modal with By Anthropic / Your organization / Personal tabs, search and plugin cards; top row of cards clipped by the modal's own scroll"
+  },
+  {
+    "file": "connectors_modal_connectors-directory.png",
+    "kind": "image",
+    "subject": "connectors",
+    "source_url": "https://claude.com/blog/connectors-directory",
+    "width": 2880,
+    "height": 1620,
+    "duration_s": null,
+    "notes": "BEST connectors asset: full Connectors modal, Web / Desktop extensions tabs, Asana Atlassian Canva Cloudflare Gmail Google Calendar Google Drive Intercom Linear Notion PayPal Plaid with connect state icons"
+  },
+  {
+    "file": "connectors_settings_capabilities-and-skills.webp",
+    "kind": "image",
+    "subject": "connectors",
+    "source_url": "https://claude.com/blog/skills",
+    "width": 1920,
+    "height": 1080,
+    "duration_s": null,
+    "notes": "Settings > Capabilities page with Skills list and toggles; left nav shows General/Account/Usage/Capabilities/Connectors"
+  },
+  {
+    "file": "connectors_slack_claude-app-chat-tab.png",
+    "kind": "image",
+    "subject": "connectors",
+    "source_url": "https://support.claude.com/en/articles/11506255-get-started-with-claude-in-slack",
+    "width": 1290,
+    "height": 1412,
+    "duration_s": null,
+    "notes": "clean full Claude app surface in Slack: Home/Chat/History/About tabs, greeting, suggestion buttons and full composer"
+  },
+  {
+    "file": "connectors_slack_claude-side-panel.png",
+    "kind": "image",
+    "subject": "connectors",
+    "source_url": "https://support.claude.com/en/articles/11506255-get-started-with-claude-in-slack",
+    "width": 1776,
+    "height": 1332,
+    "duration_s": null,
+    "notes": "Slack workspace with the Claude app side panel open next to a channel; high-quality marketing render, left sidebar partly cropped by design"
+  },
+  {
+    "file": "video_connectors_getting-started-in-claude-ai.mp4",
+    "kind": "video",
+    "subject": "connectors",
+    "source_url": "https://www.youtube.com/watch?v=_jjSS0qGFbI",
+    "width": 1920,
+    "height": 1080,
+    "duration_s": 90.0,
+    "notes": "official Anthropic YouTube channel, 'Getting started with connectors in Claude.ai'; clipped to first 90s of a 224s tutorial"
+  },
+  {
+    "file": "models_admin_default-model-radio.png",
+    "kind": "image",
+    "subject": "models",
+    "source_url": "https://support.claude.com/en/articles/15330088-set-a-default-model-for-your-organization",
+    "width": 1808,
+    "height": 518,
+    "duration_s": null,
+    "notes": "clean 'Default model' settings block: recommended-default vs specific-model radios plus the model select"
+  },
+  {
+    "file": "models_admin_edit-role-model-dropdown-effort.png",
+    "kind": "image",
+    "subject": "models",
+    "source_url": "https://support.claude.com/en/articles/15694740-manage-model-access-for-your-organization",
+    "width": 1732,
+    "height": 1306,
+    "duration_s": null,
+    "notes": "Edit role modal with the model dropdown open (Opus 4.8/4.7/4.6/4.5, Opus 3, Sonnet 4.6, Haiku 4.5) and the Low/Medium/High/Max effort popover"
+  },
+  {
+    "file": "models_admin_edit-role-models-tab.png",
+    "kind": "image",
+    "subject": "models",
+    "source_url": "https://support.claude.com/en/articles/15694740-manage-model-access-for-your-organization",
+    "width": 1626,
+    "height": 1304,
+    "duration_s": null,
+    "notes": "clean full Edit role modal, Models tab, model chips and 'Default model' selector all visible"
+  },
+  {
+    "file": "models_admin_model-access-list.png",
+    "kind": "image",
+    "subject": "models",
+    "source_url": "https://support.claude.com/en/articles/15694740-manage-model-access-for-your-organization",
+    "width": 2048,
+    "height": 893,
+    "duration_s": null,
+    "notes": "Organization settings > Models page listing Claude Opus 4.8/4.7/4.6/4.5, Opus 3, Sonnet 4.6 and Haiku 4.5 with toggles; Haiku row is the last visible line"
+  },
+  {
+    "file": "models_admin_model-access-roles-dropdown.png",
+    "kind": "image",
+    "subject": "models",
+    "source_url": "https://support.claude.com/en/articles/15694740-manage-model-access-for-your-organization",
+    "width": 2026,
+    "height": 1093,
+    "duration_s": null,
+    "notes": "Model access page with a roles dropdown open; role names are blurred by Anthropic"
+  },
+  {
+    "file": "models_composer_color-mode-three-composers.png",
+    "kind": "image",
+    "subject": "models",
+    "source_url": "https://support.claude.com/en/articles/8887527-customizing-your-appearance-settings",
+    "width": 1600,
+    "height": 424,
+    "duration_s": null,
+    "notes": "Color mode setting showing three composer previews (Light / Match system / Dark), each with a 'Claude 3.5 Sonnet' model chip; older model naming"
+  },
+  {
+    "file": "models_composer_opus-model-chip.png",
+    "kind": "image",
+    "subject": "models",
+    "source_url": "https://support.claude.com/en/articles/8114491-get-started-with-claude",
+    "width": 1442,
+    "height": 334,
+    "duration_s": null,
+    "notes": "clean isolated claude.ai composer with '+' , history button, 'Opus 4.5' model chip with chevron and send button; whole composer visible"
+  },
+  {
+    "file": "models_mobile_select-model-opus-sonnet-haiku.png",
+    "kind": "image",
+    "subject": "models",
+    "source_url": "https://claude.com/blog/think-through-hard-problems-in-voice-mode",
+    "width": 2048,
+    "height": 1152,
+    "duration_s": null,
+    "notes": "BEST model-picker asset: mobile 'Select model' sheet listing Opus / Sonnet / Haiku with one-line descriptions, Opus checked, plus Effort and More models rows"
+  },
+  {
+    "file": "video_home_claude-com-hero.mp4",
+    "kind": "video",
+    "subject": "home",
+    "source_url": "https://claude.com/product/overview",
+    "width": 1920,
+    "height": 1080,
+    "duration_s": 8.01,
+    "notes": "claude.com product overview hero loop, 8s 1920x1080"
+  },
+  {
+    "file": "video_other_cowork-login-hero.mp4",
+    "kind": "video",
+    "subject": "other",
+    "source_url": "https://claude.com/",
+    "width": 1080,
+    "height": 1238,
+    "duration_s": 25.57,
+    "notes": "claude.com homepage hero loop for Cowork, 25.6s, vertical-ish 1080x1238"
+  }
+]

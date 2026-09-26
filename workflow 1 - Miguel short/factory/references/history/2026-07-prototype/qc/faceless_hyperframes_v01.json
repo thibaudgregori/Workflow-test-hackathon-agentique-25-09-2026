@@ -1,0 +1,16 @@
+{
+ "pass": true,
+ "score_layout": 10,
+ "score_captions": 9,
+ "score_timing": 10,
+ "score_audio": 10,
+ "score_style_match": 10,
+ "issues": [
+  {
+   "severity": "minor",
+   "at_seconds": 43,
+   "description": "The narration says '4.6' but the onscreen text shows '4.3' in the candidate video, which creates a slight mismatch between audio and video."
+  }
+ ],
+ "summary": "The candidate video is highly consistent with the reference video, maintaining all stylistic and structural elements. The only minor issue is a discrepancy in the numbers mentioned in the voiceover compared to the text display at 0:43."
+}

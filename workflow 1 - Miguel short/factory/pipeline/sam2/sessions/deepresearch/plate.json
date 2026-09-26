@@ -1,0 +1,30 @@
+{
+ "file": "sessions/deepresearch/plate_wide_25.mp4",
+ "master": [
+  3840,
+  2160,
+  1484
+ ],
+ "crop": "2304x1920+698+240",
+ "scale_k": 0.46875,
+ "head_px_on_canvas": 495.4,
+ "head_frac_of_1920": 0.258,
+ "face_px_on_canvas": 375.9,
+ "cap_top_on_plate": 67.5,
+ "chin_on_plate": 560.3,
+ "face_cx_on_plate": 540.4,
+ "shoulder_rule_crop_w": 1334,
+ "dropped": 247,
+ "kept_dupes": [
+  368
+ ],
+ "expect_frames": 1237,
+ "ffmpeg_vf": "select='not(between(n\\,3\\,363)*eq(mod(n-3\\,6)\\,0)+between(n\\,374\\,992)*eq(mod(n-374\\,6)\\,0)+between(n\\,997\\,1363)*eq(mod(n-997\\,6)\\,0)+between(n\\,1368\\,1482)*eq(mod(n-1368\\,6)\\,0))',setpts=N/(25*TB),crop=2304:1920:698:240,scale=1080:900:flags=lanczos",
+ "probe": {
+  "width": 1080,
+  "height": 900,
+  "r_frame_rate": "25/1",
+  "duration": "49.480000",
+  "nb_read_frames": "1237"
+ }
+}

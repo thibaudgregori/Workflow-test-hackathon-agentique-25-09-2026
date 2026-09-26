@@ -1,0 +1,18 @@
+{
+ "staged": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/staging/youtube/plantsite_split.mp4",
+ "phone_verdict": "PASS",
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/projects/plantsite_split",
+ "redesigned": false,
+ "fails": [],
+ "cands": "",
+ "cold_crop_paths": [
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/26bb260e/00.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/26bb260e/01.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/26bb260e/02.png"
+ ],
+ "flagged_for_clerk": "NO GEMINI WATCHER CANDIDATE LIST for this render. clerk_video_gemini.py exited 1 after 15.3s with Gemini API 429 RESOURCE_EXHAUSTED (monthly spending cap); $0 spent; review/cands_plantsite_split.json was never written. render_and_check recorded this as watch_unavailable (an external quota, not a waiver written around a blocking candidate) and staged on qc_pass alone: rc 0, pass true, 0 failed, verdicts decoded_blank_frames/zero_ink_law/clip_coverage_page/face_centring/pill_canon_rendered/gate1_geometry_audit/gate2_frame_review/audio_guards/contact_sheet/phone_crops all PASS, double_exposure + gate3_gemini_describe REPORTED. The clerk therefore has to watch this file itself instead of adjudicating a candidate list.",
+ "report": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/gen/_rc_plantsite_3lanes.json",
+ "notes": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/plans/plantsite_split_notes.md",
+ "staged_sha256": "52a8c9f4bd2908dad8b5a03015a38fc93e96cb6f580245613c8c9cd850c72035",
+ "session_note": "Session resumed a lane whose work was already complete: stage_cache check returned found=false, and the ONLY fingerprint input that had changed since the save was plans/plantsite_scene_handoff.md (prose SEAL ADDENDUM written 18:19). gen/plantsite_scene.py is byte-identical since 12:30 (sha 6585d7db656a772702c725e0166178eec0bc9000b44c9b7b9840dfc339b5bbcb), so the staged render is still the current artwork. Re-verified by hand this session rather than trusting the done file: production.py phone-check = PASS (approval not stale, project_sha256 898bebef... unchanged), strict geometry 0 errors / 0 warnings, prerender verdict PASS, staged sha matches, staged file probes 1080x1920 @ 25fps, 48 kHz, 23.741s. Cold crops refreshed from the current phone crops (pixel-identical drawings; max channel delta 16/255 from headless AA nondeterminism)."
+}

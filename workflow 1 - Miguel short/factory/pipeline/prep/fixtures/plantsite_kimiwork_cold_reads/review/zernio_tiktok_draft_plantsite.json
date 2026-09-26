@@ -1,0 +1,181 @@
+{
+ "request": {
+  "content": "[DRAFT PREVIEW] AI is not only for productivity: this guy built a whole website about South African plants over a weekend. #ai #passionproject",
+  "mediaItems": [
+   {
+    "type": "video",
+    "url": "https://media.zernio.com/temp/1788784655430_lqe4oinw_TikTok.mp4"
+   }
+  ],
+  "platforms": [
+   {
+    "platform": "tiktok",
+    "accountId": "6a89638677555aae014eec8a",
+    "platformSpecificData": {
+     "privacyLevel": "SELF_ONLY",
+     "draft": true,
+     "allowComment": true,
+     "allowDuet": false,
+     "allowStitch": false,
+     "contentPreviewConfirmed": true,
+     "expressConsentGiven": true,
+     "commercialContentType": "none",
+     "videoMadeWithAi": false,
+     "videoCoverImageUrl": "https://media.zernio.com/temp/1788784656876_k1kwto2e_tiktok-cover.jpg"
+    }
+   }
+  ],
+  "publishNow": true
+ },
+ "response": {
+  "post": {
+   "recycling": {
+    "enabled": false,
+    "gapFreq": "month",
+    "recycleCount": 0,
+    "contentVariations": [],
+    "contentVariationIndex": 0
+   },
+   "_id": "6a9eb01478b200f9aa9ca462",
+   "userId": "6a8961e414a0467a8e2832ab",
+   "title": "",
+   "content": "[DRAFT PREVIEW] AI is not only for productivity: this guy built a whole website about South African plants over a weekend. #ai #passionproject",
+   "mediaItems": [
+    {
+     "type": "video",
+     "url": "https://media.zernio.com/media/1788784655430_lqe4oinw_TikTok.mp4",
+     "_id": "6a9eb01478b200f9aa9ca463"
+    }
+   ],
+   "platforms": [
+    {
+     "platform": "tiktok",
+     "accountId": {
+      "_id": "6a89638677555aae014eec8a",
+      "platform": "tiktok",
+      "profileId": "6a8961e4223e2f6675fb17c7",
+      "displayName": "Miguel Torrez",
+      "isActive": true,
+      "profilePicture": "https://p19-common-sign.tiktokcdn-eu.com/tos-no1a-avt-0068c001-no/8570e721f45cc55acbe79231bad33485~tplv-tiktokx-cropcenter:168:168.jpeg?dr=10397&refresh_token=a66dc414&x-expires=1788926400&x-signature=bp7kDjHdd5d0qKKWPDngFO%2FyaBA%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=8aecc5ac&idc=no1a",
+      "username": "migueltorrez.ai"
+     },
+     "profileId": "6a8961e4223e2f6675fb17c7",
+     "customMedia": [],
+     "scheduledFor": "2026-09-07T12:37:37.258Z",
+     "platformSpecificData": {
+      "privacyLevel": "SELF_ONLY",
+      "draft": true,
+      "allowComment": true,
+      "allowDuet": false,
+      "allowStitch": false,
+      "contentPreviewConfirmed": true,
+      "expressConsentGiven": true,
+      "commercialContentType": "none",
+      "videoMadeWithAi": false,
+      "videoCoverImageUrl": "https://media.zernio.com/media/1788784656876_k1kwto2e_tiktok-cover.jpg",
+      "isDraft": true
+     },
+     "status": "published",
+     "publishAttempts": 0,
+     "contentHash": "5cd5a1d1e9daffc318106b31280c4070",
+     "_id": "6a9eb01478b200f9aa9ca464",
+     "platformPostId": "v_inbox_url~v2.7682771519604328471",
+     "publishedAt": "2026-09-07T12:38:25.344Z"
+    }
+   ],
+   "scheduledFor": "2026-09-07T12:37:37.258Z",
+   "timezone": "UTC",
+   "status": "published",
+   "tags": [],
+   "hashtags": [],
+   "mentions": [],
+   "visibility": "public",
+   "crosspostingEnabled": true,
+   "metadata": {
+    "usageCounted": true
+   },
+   "publishAttempts": 0,
+   "createdAt": "2026-09-07T12:37:40.185Z",
+   "updatedAt": "2026-09-07T12:38:25.649Z",
+   "__v": 0,
+   "publishingClaimedAt": "2026-09-07T12:37:40.266Z"
+  },
+  "message": "Post published successfully"
+ },
+ "readback": {
+  "recycling": {
+   "enabled": false,
+   "gapFreq": "month",
+   "recycleCount": 0,
+   "contentVariations": [],
+   "contentVariationIndex": 0
+  },
+  "_id": "6a9eb01478b200f9aa9ca462",
+  "userId": {
+   "name": "Miguel",
+   "image": "https://media.zernio.com/avatars/1787389023677_oirwc9cf_1e289fea-b73a-4b13-9ca1-edeb9f9c9994.jpg",
+   "id": "6a8961e414a0467a8e2832ab"
+  },
+  "title": "",
+  "content": "[DRAFT PREVIEW] AI is not only for productivity: this guy built a whole website about South African plants over a weekend. #ai #passionproject",
+  "mediaItems": [
+   {
+    "type": "video",
+    "url": "https://media.zernio.com/media/1788784655430_lqe4oinw_TikTok.mp4",
+    "_id": "6a9eb01478b200f9aa9ca463"
+   }
+  ],
+  "platforms": [
+   {
+    "platform": "tiktok",
+    "accountId": {
+     "_id": "6a89638677555aae014eec8a",
+     "platform": "tiktok",
+     "profileId": "6a8961e4223e2f6675fb17c7",
+     "displayName": "Miguel Torrez",
+     "isActive": true,
+     "profilePicture": "https://p19-common-sign.tiktokcdn-eu.com/tos-no1a-avt-0068c001-no/8570e721f45cc55acbe79231bad33485~tplv-tiktokx-cropcenter:168:168.jpeg?dr=10397&refresh_token=a66dc414&x-expires=1788926400&x-signature=bp7kDjHdd5d0qKKWPDngFO%2FyaBA%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=8aecc5ac&idc=no1a",
+     "username": "migueltorrez.ai"
+    },
+    "profileId": "6a8961e4223e2f6675fb17c7",
+    "customMedia": [],
+    "scheduledFor": "2026-09-07T12:37:37.258Z",
+    "platformSpecificData": {
+     "privacyLevel": "SELF_ONLY",
+     "draft": true,
+     "allowComment": true,
+     "allowDuet": false,
+     "allowStitch": false,
+     "contentPreviewConfirmed": true,
+     "expressConsentGiven": true,
+     "commercialContentType": "none",
+     "videoMadeWithAi": false,
+     "videoCoverImageUrl": "https://media.zernio.com/media/1788784656876_k1kwto2e_tiktok-cover.jpg",
+     "isDraft": true
+    },
+    "status": "published",
+    "publishAttempts": 0,
+    "contentHash": "5cd5a1d1e9daffc318106b31280c4070",
+    "_id": "6a9eb01478b200f9aa9ca464",
+    "platformPostId": "v_inbox_url~v2.7682771519604328471",
+    "publishedAt": "2026-09-07T12:38:25.344Z"
+   }
+  ],
+  "scheduledFor": "2026-09-07T12:37:37.258Z",
+  "timezone": "UTC",
+  "status": "published",
+  "tags": [],
+  "hashtags": [],
+  "mentions": [],
+  "visibility": "public",
+  "crosspostingEnabled": true,
+  "metadata": {
+   "usageCounted": true
+  },
+  "publishAttempts": 0,
+  "createdAt": "2026-09-07T12:37:40.185Z",
+  "updatedAt": "2026-09-07T12:38:25.649Z",
+  "__v": 0,
+  "publishingClaimedAt": "2026-09-07T12:37:40.266Z"
+ }
+}

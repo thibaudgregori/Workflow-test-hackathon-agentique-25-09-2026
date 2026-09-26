@@ -1,0 +1,23 @@
+{
+ "staged": "",
+ "phone_verdict": "FAIL",
+ "blocked": "bespoke object 1 (PLANT WEB PAGE) fails the cold read: three independent fresh readers named it 'flower' (sure) and never the page.  The drawing lives in the SHARED gen/plantsite_scene.py, which the cutout author is building from right now, so the plan's own named replacement (the laptop with the same flower, already drawn, cold-read 'laptop with flower' sure) is a shared-scene decision and not the split author's to make mid-flight.  Nothing was rendered.",
+ "rounds": 3,
+ "redesigned": false,
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/projects/plantsite_split",
+ "cands": "",
+ "cold_crop_paths": [
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/26bb260e/00.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/26bb260e/01.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/26bb260e/02.png"
+ ],
+ "fails": [
+  {
+   "i": 1,
+   "intended": "a website about plants",
+   "namer_answer": "flower (sure) x3 independent fresh readers"
+  }
+ ],
+ "flagged_for_clerk": "nothing \u2014 no render was submitted.  The split project is build-green (strict geometry 0/0, prerender PASS) and waits on the shared scene's peak object.",
+ "report": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/plans/plantsite_split_notes.md"
+}

@@ -1,0 +1,58 @@
+{
+ "frame": 0,
+ "plate": "sessions/deepresearch/plate_wide_25.mp4",
+ "dark_threshold": 60,
+ "wing_right": 700,
+ "wing_right_rows": "400,600",
+ "wing_left": 410,
+ "wing_left_rows": "285,570",
+ "removed_right_px": 7816,
+ "removed_left_px": 12522,
+ "removed": {
+  "px": 20338,
+  "median_luma": 14.0,
+  "max_luma": 59
+ },
+ "birefnet": {
+  "area": 484013,
+  "bands": {
+   "cap": {
+    "left": 340,
+    "right": 724
+   },
+   "head": {
+    "left": 327,
+    "right": 754
+   },
+   "jaw": {
+    "left": 305,
+    "right": 794
+   },
+   "neck": {
+    "left": 90,
+    "right": 1025
+   }
+  }
+ },
+ "prompt": {
+  "area": 463586,
+  "bands": {
+   "cap": {
+    "left": 340,
+    "right": 724
+   },
+   "head": {
+    "left": 343,
+    "right": 718
+   },
+   "jaw": {
+    "left": 305,
+    "right": 699
+   },
+   "neck": {
+    "left": 90,
+    "right": 1025
+   }
+  }
+ }
+}

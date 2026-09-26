@@ -1,0 +1,43 @@
+{
+ "label": "minimaxh3_split",
+ "round": 1,
+ "reader": {
+  "how": "four independent `claude -p` sessions, one per crop, launched in PARALLEL from a neutral scratchpad directory OUTSIDE the Workspace so no CLAUDE.md, plan, transcript, topic or project instruction could reach any of them",
+  "prompt": "Read the image file <random-name>.png in this directory and look at it. Name the single object drawn in it, in five words maximum. Then write, on a second line, exactly one of: sure / unsure / cannot tell. Output only those two lines, nothing else.",
+  "saw": "one crop image and its random 12-hex filename, nothing else",
+  "tools": "Read only",
+  "capacity": "subscription session capacity, not an API key",
+  "randomised_names": {
+   "0": "b537d2ee3ba5.png",
+   "1": "7a60f92dc620.png",
+   "2": "4f0eff004a61.png",
+   "3": "5cbf1541b713.png"
+  }
+ },
+ "names": [
+  {
+   "i": 0,
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/643171f1/00.png",
+   "name": "Winners' podium",
+   "confidence": "sure"
+  },
+  {
+   "i": 1,
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/643171f1/01.png",
+   "name": "Open book",
+   "confidence": "sure"
+  },
+  {
+   "i": 2,
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/643171f1/02.png",
+   "name": "Notebook",
+   "confidence": "sure"
+  },
+  {
+   "i": 3,
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/643171f1/03.png",
+   "name": "Price tag with dollar sign",
+   "confidence": "sure"
+  }
+ ]
+}

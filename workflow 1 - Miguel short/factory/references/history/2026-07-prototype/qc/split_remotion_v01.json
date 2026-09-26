@@ -1,0 +1,16 @@
+{
+ "pass": true,
+ "score_layout": 10,
+ "score_captions": 9,
+ "score_timing": 10,
+ "score_audio": 10,
+ "score_style_match": 10,
+ "issues": [
+  {
+   "severity": "minor",
+   "at_seconds": 6,
+   "description": "Caption alignment is slightly misaligned from the reference format in the second half of the video."
+  }
+ ],
+ "summary": "The candidate video successfully mimics the reference's pace, visual style, and layout. It effectively utilizes the same structure with minor deviations that do not impact the overall quality or brand identity."
+}

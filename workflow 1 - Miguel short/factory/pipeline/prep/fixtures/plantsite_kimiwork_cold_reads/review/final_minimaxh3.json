@@ -1,0 +1,35 @@
+{
+  "vid": "minimaxh3",
+  "verdict": "PASS",
+  "phone_verdict": "PASS",
+  "confirmed": 0,
+  "renders_judged": 3,
+  "dismissed": 12,
+  "clerk_originated_rows": 12,
+  "watcher_candidates_present": false,
+  "watcher_cost_usd_not_spent": 0.0,
+  "watcher_wall_clock_s": 0.0,
+  "watcher_note": "no cands_minimaxh3_*.json exists for any staged render; all three were watched by nothing and were adjudicated on the clerk's own decode. The watcher was NOT re-run.",
+  "phone_flag_present": false,
+  "instruments": {
+    "face_center_check_reels_worst_dx_pct": -3.24,
+    "face_center_check_reels_worst_t_s": 21.5,
+    "face_center_check_verdict": "PASS",
+    "whiteboard_zero_ink_min_ink_frac": 0.00206392,
+    "whiteboard_zero_ink_min_at_s": 0.16,
+    "whiteboard_zero_ink_blank_frames": 0,
+    "whiteboard_zero_ink_verdict": "PASS",
+    "durations_s": 24.806333,
+    "handles": {
+      "split": "@migueltorrezai",
+      "whiteboard": "@migueltorrez.ai",
+      "cutout": "@migueltorrez.ai"
+    }
+  },
+  "reviewed_files": {
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/staging/youtube/minimaxh3_split.mp4": "5590382c9f5f8452cdb4a3832a7090a5dd21d09ca8c821f619ad4ea3d534ffd8",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/staging/reels/minimaxh3_whiteboard.mp4": "78d98fdd54ce4d9d1b1cc314c56597433b946bf0d8d28fe515f439b3a6b8c107",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/staging/tiktok/minimaxh3_cutout.mp4": "399b70e02e5b50fcac30104975b8c18f8c4e3e260fb1ac0e1d339d419078f565"
+  },
+  "report": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/clerk_v3_minimaxh3.md"
+}

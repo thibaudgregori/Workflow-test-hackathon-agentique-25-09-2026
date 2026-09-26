@@ -1,0 +1,150 @@
+{
+ "video": "kimiwork",
+ "fmt": "split",
+ "scored_by": "split_kimiwork_retry (scene-lock holder)",
+ "rounds": [
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/phone_reader_kimiwork_split_r8.json",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/phone_reader_kimiwork_split_r9.json",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/phone_reader_kimiwork_split_r10.json"
+ ],
+ "objects": [
+  {
+   "i": 0,
+   "intended": "a crown",
+   "verdict": "PASS",
+   "reason": "crown, three of three, sure. The intended noun exactly.",
+   "reads": [
+    {
+     "name": "crown",
+     "confidence": "sure",
+     "match": "intended"
+    },
+    {
+     "name": "crown",
+     "confidence": "sure",
+     "match": "intended"
+    },
+    {
+     "name": "crown",
+     "confidence": "sure",
+     "match": "intended"
+    }
+   ]
+  },
+  {
+   "i": 1,
+   "intended": "an app window",
+   "verdict": "PASS",
+   "reason": "THE REPAIRED OBJECT. 'browser window' / 'Browser window with app icon' / 'browser window with app icon', three of three SURE. A browser window IS an app window - the plan's own container - and the brief's scoring rule passes the container of the drawn content. Zero different-object reads: the two 'Refrigerator' answers that failed the portrait 188x202 frame did not recur once on the landscape 212x176 frame with its address field.",
+   "reads": [
+    {
+     "name": "browser window",
+     "confidence": "sure",
+     "match": "synonym"
+    },
+    {
+     "name": "Browser window with app icon",
+     "confidence": "sure",
+     "match": "synonym"
+    },
+    {
+     "name": "browser window with app icon",
+     "confidence": "sure",
+     "match": "synonym"
+    }
+   ]
+  },
+  {
+   "i": 2,
+   "intended": "an open laptop",
+   "verdict": "PASS",
+   "reason": "laptop, three of three, sure. The intended noun exactly.",
+   "reads": [
+    {
+     "name": "laptop",
+     "confidence": "sure",
+     "match": "intended"
+    },
+    {
+     "name": "laptop",
+     "confidence": "sure",
+     "match": "intended"
+    },
+    {
+     "name": "laptop",
+     "confidence": "sure",
+     "match": "intended"
+    }
+   ]
+  },
+  {
+   "i": 3,
+   "intended": "a paper report",
+   "verdict": "PASS",
+   "reason": "'document with bar chart' three of three, sure. A paper report IS a document with a bar chart on it - the same sibling-noun the brief names as a PASS.",
+   "reads": [
+    {
+     "name": "document with bar chart",
+     "confidence": "sure",
+     "match": "synonym"
+    },
+    {
+     "name": "Document with bar chart",
+     "confidence": "sure",
+     "match": "synonym"
+    },
+    {
+     "name": "document with bar chart",
+     "confidence": "sure",
+     "match": "synonym"
+    }
+   ]
+  },
+  {
+   "i": 4,
+   "intended": "a presentation screen",
+   "verdict": "PASS",
+   "reason": "'presentation board on easel' / 'presentation easel' / 'presentation board', two of three sure. Every read names a presentation screen on a stand; the one hedge is instrument noise on a drawing two other readers named confidently (STANDARD.md -> THE COLD READER IS A STOCHASTIC INSTRUMENT).",
+   "reads": [
+    {
+     "name": "presentation board on easel",
+     "confidence": "sure",
+     "match": "synonym"
+    },
+    {
+     "name": "presentation easel",
+     "confidence": "unsure",
+     "match": "synonym"
+    },
+    {
+     "name": "presentation board",
+     "confidence": "sure",
+     "match": "synonym"
+    }
+   ]
+  },
+  {
+   "i": 5,
+   "intended": "a till receipt",
+   "verdict": "PASS",
+   "reason": "receipt, receipt, receipt - two of three sure, and the intended noun on every read. The single hedge is the same instrument noise the law measured on this exact object.",
+   "reads": [
+    {
+     "name": "receipt",
+     "confidence": "sure",
+     "match": "intended"
+    },
+    {
+     "name": "receipt",
+     "confidence": "sure",
+     "match": "intended"
+    },
+    {
+     "name": "receipt",
+     "confidence": "unsure",
+     "match": "intended"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,58 @@
+{
+ "file": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run20/matting/fluxvideo/plate_wide_25.mp4",
+ "master": [
+  3840,
+  2160,
+  812
+ ],
+ "crop": "2450x1750+681+198",
+ "scale_k": 0.514286,
+ "head_px_on_canvas": 450.6,
+ "head_frac_of_1920": 0.2347,
+ "face_px_on_canvas": 334.6,
+ "cap_top_on_plate": 59.1,
+ "chin_on_plate": 534.5,
+ "face_cx_on_plate": 594.1,
+ "shoulder_rule_crop_w": 2119,
+ "dropped": 0,
+ "kept_dupes": [
+  125,
+  200,
+  485,
+  545,
+  653,
+  662,
+  712
+ ],
+ "expect_frames": 812,
+ "ffmpeg_vf": "setpts=N/(25*TB),crop=2450:1750:681:198,scale=1260:900:flags=lanczos",
+ "plate_size": [
+  1260,
+  900
+ ],
+ "paint_scale": 1.1,
+ "head_parity": {
+  "crop": "2100x1750+786+198",
+  "scale_k": 0.514286,
+  "plate_size": [
+   1080,
+   900
+  ]
+ },
+ "probe": {
+  "width": 1260,
+  "height": 900,
+  "r_frame_rate": "25/1",
+  "duration": "32.480000",
+  "nb_read_frames": "812"
+ },
+ "headroom": {
+  "cap_top_on_canvas_px": 65.0,
+  "target_on_canvas_px": 64.0,
+  "hard_floor_on_canvas_px": 24.0,
+  "bottom_planted": false,
+  "slid_up_master_px": 212,
+  "note": "the crop is bottom-planted unless that would cut the crown; sliding it up spends the bottom of his chest, which the format runs off the canvas anyway, and touches neither `k` (head height on canvas) nor `x0` (face centring)"
+ },
+ "note": "the HEAD-PARITY record, kept so the over-wide solve is idempotent: re-reading an over-wide plate.json would shift the face a second time"
+}

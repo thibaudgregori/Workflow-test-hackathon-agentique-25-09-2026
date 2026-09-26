@@ -1,0 +1,58 @@
+{
+ "frame": 0,
+ "plate": "sessions/grokprice_2026-08-08/plate_wide_25.mp4",
+ "dark_threshold": 60,
+ "wing_right": 700,
+ "wing_right_rows": "400,605",
+ "wing_left": 415,
+ "wing_left_rows": "400,608",
+ "removed_right_px": 9483,
+ "removed_left_px": 13519,
+ "removed": {
+  "px": 23002,
+  "median_luma": 12.0,
+  "max_luma": 59
+ },
+ "birefnet": {
+  "area": 429226,
+  "bands": {
+   "cap": {
+    "left": 342,
+    "right": 724
+   },
+   "head": {
+    "left": 309,
+    "right": 763
+   },
+   "jaw": {
+    "left": 309,
+    "right": 787
+   },
+   "neck": {
+    "left": 191,
+    "right": 877
+   }
+  }
+ },
+ "prompt": {
+  "area": 406206,
+  "bands": {
+   "cap": {
+    "left": 342,
+    "right": 724
+   },
+   "head": {
+    "left": 323,
+    "right": 726
+   },
+   "jaw": {
+    "left": 350,
+    "right": 717
+   },
+   "neck": {
+    "left": 191,
+    "right": 877
+   }
+  }
+ }
+}

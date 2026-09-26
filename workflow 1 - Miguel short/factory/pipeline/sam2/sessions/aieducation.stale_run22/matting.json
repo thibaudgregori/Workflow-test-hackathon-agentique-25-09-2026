@@ -1,0 +1,91 @@
+{
+  "status": "ok",
+  "backend": "matanyone2",
+  "key": "ba0e0716af85fbb4acfd01ac1f9526bbfef1b9eef1834cbf3f4635870c1f67d7",
+  "selection": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/sam2/sessions/aieducation/selection.json",
+  "headroom": {
+    "identity": {
+      "alpha_sha256": "c4d98d9b0dcd24b986e96129145b7253d013c1d459021dd0170c93fd7b150893",
+      "display_sha256": "b7f27f2f374329775d78da3a1b8def789782b31b7d0824980c52385744ffa572",
+      "guard_sha256": "90e6a7f8cf1a142b9a8ab4cf0054f9803188279b68642b84430db31afe79999a",
+      "expected_frames": 803,
+      "floor_px": 24.0
+    },
+    "pass": true,
+    "frames_checked": 803,
+    "min_top_clearance_px": 25.3,
+    "floor_px": 24.0,
+    "worst_frame": 247,
+    "worst_seconds": 9.88,
+    "unsafe_frames": 0,
+    "first_unsafe_frames": [],
+    "scope": "Every matte frame, top edge of prepared person layer; no caption or semantic face claim"
+  },
+  "track": {
+    "ok": true,
+    "spec": {
+      "mode": "matanyone2",
+      "frames": 803,
+      "max_side": 1024,
+      "precision": "bf16",
+      "warmup": 10,
+      "input_sha256": "e5355b9e442aa1c6f415f79a412bdb8431989175eeaa7164cdd89e7c19d95592",
+      "mask_sha256": "75e25834bcd5a778dd9516edda7ec291687cd173c00105f3800b323fc96d5633"
+    },
+    "frames": 803,
+    "fps": 25.0,
+    "source_size": [
+      1440,
+      900
+    ],
+    "inference_size": [
+      1024,
+      640
+    ],
+    "load_seconds": 3.5479398149999994,
+    "process_seconds": 63.61708721400001,
+    "total_worker_seconds": 69.852687925,
+    "peak_gpu_gib": 0.9761972427368164,
+    "torch": "2.8.0+cu128",
+    "gpu": "NVIDIA L4",
+    "alpha_sha256": "c4d98d9b0dcd24b986e96129145b7253d013c1d459021dd0170c93fd7b150893",
+    "function_seconds": 73.67419542900001,
+    "estimated_compute_usd": 0.020902842727115883,
+    "model_revision": "40c894a6f68d1f55c86ab0de838d89dc61587930",
+    "worker_sha256": "c55c2915c27b87ef0a435cec744fd300e41a26aa268746328c9f1a35560c826f",
+    "cost_note": "Function runtime estimate; startup and scale-down additional, not an invoice.",
+    "client_wall_seconds": 83.13323683300405
+  },
+  "ship": {
+    "status": "ok",
+    "frames": 803,
+    "width": 1584,
+    "height": 990,
+    "fps": 25.0,
+    "alpha_mode": "soft",
+    "rim_px": 7,
+    "temporal": 1,
+    "hashes": {
+      "cut": "6fbd4304a2c5bdb1c51747d0717b561d27a29d51e31785c920029e18473d1ecf",
+      "rim": "73a1828994ae496e8572762155e1a05be978569e756059f9cae9f3f6760805f6",
+      "alpha": "0f0c1f303955734bc3571f51a0ebf750128b94bc39d2eb0bfef262919020e534"
+    },
+    "seconds": 64.755337291,
+    "estimated_compute_usd": 0.029445546972963522,
+    "fractional_alpha_pixels": 16766099,
+    "minimum_person_fraction": 0.36665136210590754,
+    "review_status": "needs_final_visual_review",
+    "ship_source_sha256": "cf367be51d742c272d9f79db8a13e00297684001ebf666283095059206e149e7",
+    "client_wall_seconds": 84.06857891698019,
+    "outputs": {
+      "cut": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/sam2/sessions/aieducation/matte_aieducation_v5_cut.webm",
+      "rim": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/sam2/sessions/aieducation/matte_aieducation_v5_rim.webm",
+      "alpha": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/sam2/sessions/aieducation/matte_aieducation_v5_alpha.webm"
+    }
+  },
+  "outputs": {
+    "cut": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/sam2/sessions/aieducation/matte_aieducation_v5_cut.webm",
+    "rim": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/sam2/sessions/aieducation/matte_aieducation_v5_rim.webm",
+    "alpha": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/sam2/sessions/aieducation/matte_aieducation_v5_alpha.webm"
+  }
+}

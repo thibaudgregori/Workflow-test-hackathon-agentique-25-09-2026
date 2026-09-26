@@ -1,0 +1,16 @@
+{
+ "pass": true,
+ "score_layout": 10,
+ "score_captions": 9,
+ "score_timing": 10,
+ "score_audio": 10,
+ "score_style_match": 10,
+ "issues": [
+  {
+   "severity": "minor",
+   "at_seconds": 16.5,
+   "description": "The caption 'actual source' is slightly misaligned compared to the reference placement."
+  }
+ ],
+ "summary": "The video is a high-quality production that adheres to the reference structure. The slight misalignment of a caption is a minor issue and does not affect the overall quality or pass status."
+}

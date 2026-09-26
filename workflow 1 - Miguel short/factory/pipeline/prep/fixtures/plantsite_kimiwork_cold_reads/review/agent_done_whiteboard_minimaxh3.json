@@ -1,0 +1,40 @@
+{
+  "staged": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/staging/reels/minimaxh3_whiteboard.mp4",
+  "phone_verdict": "PASS",
+  "rounds": 2,
+  "redesigned": true,
+  "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/projects/minimaxh3_whiteboard",
+  "cands": "MISSING - the Gemini watcher was UNAVAILABLE (spending cap); clerk_video_gemini.py exited 1 in 15.4s and wrote no /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cands_minimaxh3_whiteboard.json. render_and_check staged on qc_pass alone and recorded watch_unavailable in gen/_rc_minimaxh3_whiteboard.json. The clerk has no watcher list for this file and must decode it.",
+  "cold_crop_paths": [
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/bbf48463/00.png",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/bbf48463/01.png",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/bbf48463/02.png",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/bbf48463/03.png"
+  ],
+  "fails": [],
+  "flagged_for_clerk": "Gemini watcher unavailable (spending cap) so cands_minimaxh3_whiteboard.json does not exist; qc_pass gate3_gemini_describe was downgraded FAIL->REPORTED for the same reason. Everything else PASS.",
+  "prerender": "PASS in 2.17s - refs_resolve PASS, assets_not_placeholder PASS (3 rasters), page_audit PASS, caption_canon_page PASS (24 pills, modal h 114.6px, spread 0.0), gate1_geometry_audit PASS (0 errors / 0 warnings); cutout_edge_fade_guard and cutout_checks_24_25 SKIPPED (cutout only)",
+  "geometry_strict": "0 errors, 0 warnings @ 0.5s step -> gen/_geomstrict_minimaxh3_whiteboard.json",
+  "phone_page": "mode phone-test, 4 objects, sheet review/phone_minimaxh3_whiteboard.png",
+  "board_reports": {
+    "board_mode": "chapters (2), plan view (fix) variant, board 576x460 units, board_box [88,154,488,421]",
+    "chapter_seams_s": [8.9],
+    "outro_wipe": "opaque rising sheet 20.88 -> 21.44, sheet_opaque true, board_moves false, board_fades false, PASS",
+    "label_law": "PASS - key term MINIMAX H3 at 29.9u, 11 written keys all inside the 1.0s window, comparisons [[OPEN WEIGHT, CLOSED]], unplanned_text []",
+    "law2_no_enclosure": "PASS (0 rings, 1 box, 0 highlights)",
+    "law3_label_side": "PASS (5 checked)",
+    "law5_spacing": "PASS - gate 8.5u/15.9px, 29 objects; 5 pairs under the 12.8u aim, tightest box:card-minimax|book-open 9.6u (18.0px)",
+    "law5_no_crossing": "PASS (25 strokes vs 12 types)",
+    "law6_lifetimes": "PASS - chaptered, max_frac 0.40, anchors card-minimax/card-seedance/card-grok, lingering []",
+    "law4_anchors": "SKIP - no connectors declared (the plan declares none)",
+    "ss3b_merges": 0,
+    "ss3b": "24 beats before merge, 24 after, 0 merged away; widest pill 750.9px against a 756.0px budget",
+    "caption_clearance_px": {"line_boxes": 9.7, "glyph_ink": 9.7, "ink_to_rendered_pill_top": 15.7},
+    "seam_handover": "8.9 CARRY - the three brand cards are never erased; they travel from the podium into the row and settle at 9.36. qc_pass whiteboard_seam_law PASS on the rendered file."
+  },
+  "qc": "qc_pass PASS in 20.4s - decoded_blank_frames PASS, zero_ink_law PASS, clip_coverage_page PASS, face_centring PASS, pill_canon_rendered PASS, gate1_geometry_audit PASS, gate2_frame_review PASS, audio_guards PASS, contact_sheet PASS, phone_crops PASS, whiteboard_seam_law PASS; double_exposure and gate3_gemini_describe REPORTED",
+  "render": "1080x1920, 620 frames, 25fps, 24.81s, h264/aac 48kHz, 80.5s render, Modal $0.0118",
+  "prep_numbers": "cut ok 35.4s (master 24.785s, tight audio 24.785s, no 16kHz wav by design); plate ok 98.3s (crop 2562x1830+490+210, scale_k 0.491803, head_px_on_canvas 451.7, overwide_applied true); prompt0 ok 9.7s (wing_review true, no cut proposed); track ok 72.5s matanyone2 $0.0184; ship ok 76.5s (619 frames 1386x990, fractional_alpha_pixels 14,357,814, minimum_person_fraction 0.4107, review_status needs_final_visual_review) $0.0302; cues ok, cue_count 0. Every stage marker status ok; the whiteboard consumed none of the matte.",
+  "notes": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/plans/minimaxh3_wb_notes.md",
+  "disagreements": "Logged, plan built anyway: (1) the plan's bespoke objects 02/03 are padlocks; the board draws the artwork author's SEALED book pair, because handoff §11.1 instructs this lane by name and PRODUCTION.md step 5 forbids redrawing run-15's padlock. (2) the sealed phone-test key now carries the SHIPPED names (open book / closed book) instead of the plan's padlock wording, so a reader is scored against the drawing that exists. Bboxes, instants and object order are the plan's, untouched."
+}

@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=1080, height=1920"/>
+<title>mathvoice — Kinetic type (run 6)</title>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Nunito:wght@800&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500;700&display=block" rel="stylesheet">
+<style>
+
+* { margin:0; padding:0; box-sizing:border-box; }
+body { margin:0; background:#000; }
+#root { position:relative; width:1080px; height:1920px; overflow:hidden;
+  font-family:Poppins,sans-serif; }
+.clip { position:absolute; }
+.abs { position:absolute; }
+.tz { left:0; top:0; width:1080px; height:862.5px; overflow:hidden; }
+.tz.cream { background:#F6F1EA; }
+.tz.dark { background:#101012; }
+.ol { transform-origin:0% 50%; }
+/* type */
+.pop8 { font-weight:800; color:#141416; letter-spacing:-0.02em; line-height:1.04;
+  white-space:nowrap; }
+.pop8.d { color:#F6F1EA; }
+.mono { font-family:'JetBrains Mono',monospace; white-space:nowrap; color:#6E6A63;
+  letter-spacing:0.04em; }
+.mono.d { color:#A6A29A; }
+.mut { color:#6E6A63; }
+.mut.d { color:#A6A29A; }
+.tr { color:#C66748; }
+.tr.d { color:#DD7259; }
+/* surfaces */
+.strike { background:#C66748; }
+.strike.d { background:#DD7259; }
+.chip { display:inline-block; font-family:'JetBrains Mono',monospace; font-weight:700;
+  border-radius:33.8px; padding:15.0px 33.8px; letter-spacing:3.0px;
+  text-transform:uppercase; white-space:nowrap;
+  background:rgba(246,241,234,0.13); color:#F6F1EA; }
+/* THE CLIMB — a column grows out of, and collapses onto, its own base */
+.col { transform-origin:50% 100%; background:#141416; }
+.col.d { background:#F6F1EA; }
+.tok { background:#C66748; }
+.tok.d { background:#DD7259; }
+/* the REAL tweet (law 14) and its marker pen (law 5) */
+.shot { display:block; object-fit:contain;
+  filter:drop-shadow(0 22.5px 56.2px rgba(0,0,0,0.35)); }
+.hl { background:rgba(198,103,72,0.32); border-radius:11.2px; }
+/* captions */
+.scap { left:0; width:1080px; text-align:center; }
+.scappill { display:inline-block; transform:translateY(-50%); background:#C4573A;
+  color:#fff; font-family:Nunito,sans-serif; font-weight:800;
+  padding:18.8px 33.8px; border-radius:22.5px; white-space:nowrap; }
+
+</style>
+</head>
+<body>
+<div id="root" data-composition-id="main" data-start="0" data-width="1080" data-height="1920"
+     data-duration="37.13" data-fps="30">
+
+  <video id="facebot" src="assets/v/face_bottom_4k.mp4" data-start="0" data-duration="37.13" data-media-start="0" data-track-index="1" muted playsinline style="position:absolute;top:862.5px;left:0;width:1080px;height:1057.5px;object-fit:cover"></video>
+
+  <section id="tz-b1" class="clip tz cream" data-start="0.00" data-duration="4.83" data-track-index="2">
+        <div class="abs pop8" id="b1-hero" style="left:0;top:247.3px;width:1080.0px;text-align:center;font-size:105.6px;">ONLY HIS VOICE</div>
+        <div class="abs strike ol" id="b1-u" style="left:138.8px;top:362.8px;width:803.6px;height:13.1px;border-radius:6.6px"></div>
+        <div class="abs pop8" id="b1-hero2" style="left:0;top:446.4px;width:1080.0px;text-align:center;font-size:105.6px;color:#C66748;">AN OPEN PROBLEM</div>
+  </section>
+  <section id="tz-b2" class="clip tz dark" data-start="4.68" data-duration="3.81" data-track-index="3">
+        <img class="abs shot" id="b2-card" src="assets/img/mathvoice_card_DavidTurturean.png" alt="" data-source-quote style="left:52.5px;top:167.8px;width:975.0px;height:467.0px"/>
+        <div class="abs hl ol" id="b2-hl0" data-overlap-ok style="left:97.3px;top:317.2px;width:606.2px;height:45.9px;"></div>
+        <div class="abs hl ol" id="b2-hl1" data-overlap-ok style="left:97.3px;top:363.8px;width:800.1px;height:45.9px;"></div>
+  </section>
+  <section id="tz-b3" class="clip tz cream" data-start="8.34" data-duration="2.57" data-track-index="4">
+        <div class="abs pop8" id="b3-w1" style="left:0;top:238.1px;width:1080.0px;text-align:center;font-size:75.2px;">NOBODY HAD SOLVED IT</div>
+        <div class="abs strike ol" id="b3-u" style="left:104.6px;top:326.8px;width:875.1px;height:13.1px;border-radius:6.6px"></div>
+        <div class="abs pop8" id="b3-hero" style="left:0;top:400.3px;width:1080.0px;text-align:center;font-size:173.4px;color:#C66748;">UNTIL NOW</div>
+  </section>
+  <section id="tz-b4" class="clip tz dark" data-start="10.76" data-duration="4.01" data-track-index="5">
+        <img class="abs" id="b4-mk" src="assets/logos/chatgpt-color.png" alt="" style="left:461.2px;top:147.8px;width:157.5px;height:157.5px;object-fit:contain"/>
+        <div class="abs pop8 d" id="b4-n1" data-name style="left:0;top:338.6px;width:1080.0px;text-align:center;font-size:153.8px;">CHATGPT</div>
+        <div class="abs pop8 d" id="b4-n2" data-name style="left:0;top:519.4px;width:1080.0px;text-align:center;font-size:153.8px;color:#DD7259;">VOICE</div>
+  </section>
+  <section id="tz-b5" class="clip tz cream" data-start="14.62" data-duration="3.21" data-track-index="6">
+        <div class="abs col" id="b5-c0" style="left:106.9px;top:600.0px;width:135.0px;height:41.2px;"></div>
+        <div class="abs col" id="b5-c1" style="left:253.1px;top:525.0px;width:135.0px;height:116.2px;"></div>
+        <div class="abs col" id="b5-c2" style="left:399.4px;top:450.0px;width:135.0px;height:191.2px;"></div>
+        <div class="abs col" id="b5-c3" style="left:545.6px;top:375.0px;width:135.0px;height:266.2px;"></div>
+        <div class="abs col" id="b5-c4" style="left:691.9px;top:300.0px;width:135.0px;height:341.2px;"></div>
+        <div class="abs col" id="b5-c5" style="left:838.1px;top:225.0px;width:135.0px;height:416.2px;"></div>
+        <div class="abs tok" id="b5-tk" style="left:873.8px;top:161.2px;width:63.8px;height:63.8px;border-radius:17.8px"></div>
+  </section>
+  <section id="tz-b6" class="clip tz dark" data-start="17.68" data-duration="4.71" data-track-index="7">
+        <div class="abs col d" id="b6-c0" style="left:106.9px;top:600.0px;width:135.0px;height:41.2px;"></div>
+        <div class="abs col d" id="b6-c1" style="left:253.1px;top:525.0px;width:135.0px;height:116.2px;"></div>
+        <div class="abs col d" id="b6-c2" style="left:399.4px;top:450.0px;width:135.0px;height:191.2px;"></div>
+        <div class="abs col d" id="b6-c3" style="left:545.6px;top:375.0px;width:135.0px;height:266.2px;"></div>
+        <div class="abs col d" id="b6-c4" style="left:691.9px;top:300.0px;width:135.0px;height:341.2px;"></div>
+        <div class="abs col d" id="b6-c5" style="left:838.1px;top:225.0px;width:135.0px;height:416.2px;"></div>
+        <div class="abs tok d" id="b6-t0" style="left:142.5px;top:536.2px;width:63.8px;height:63.8px;border-radius:17.8px"></div>
+        <div class="abs tok d" id="b6-t1" style="left:288.8px;top:536.2px;width:63.8px;height:63.8px;border-radius:17.8px"></div>
+        <div class="abs tok d" id="b6-t2" style="left:435.0px;top:536.2px;width:63.8px;height:63.8px;border-radius:17.8px"></div>
+        <div class="abs tok d" id="b6-t3" style="left:581.2px;top:536.2px;width:63.8px;height:63.8px;border-radius:17.8px"></div>
+        <div class="abs tok d" id="b6-t4" style="left:727.5px;top:536.2px;width:63.8px;height:63.8px;border-radius:17.8px"></div>
+        <div class="abs tok d" id="b6-t5" style="left:873.8px;top:536.2px;width:63.8px;height:63.8px;border-radius:17.8px"></div>
+        <div class="abs pop8 d" id="b6-hero" style="left:0;top:139.3px;width:1080.0px;text-align:center;font-size:135.6px;color:#DD7259;">SAME</div>
+        <div class="abs pop8 d" id="b6-hero2" style="left:0;top:298.7px;width:1080.0px;text-align:center;font-size:135.6px;color:#DD7259;">STARTING LINE</div>
+  </section>
+  <section id="tz-b7" class="clip tz cream" data-start="22.24" data-duration="3.77" data-track-index="8">
+        <div class="abs pop8" id="b7-hero" style="left:0;top:244.1px;width:1080.0px;text-align:center;font-size:126.4px;">IF THE HARDEST</div>
+        <div class="abs pop8" id="b7-hero2" style="left:0;top:392.8px;width:1080.0px;text-align:center;font-size:126.4px;color:#C66748;">PROBLEM FALLS</div>
+        <div class="abs strike ol" id="b7-u" style="left:68.2px;top:526.5px;width:948.8px;height:13.1px;border-radius:6.6px"></div>
+  </section>
+  <section id="tz-b8" class="clip tz dark" data-start="25.86" data-duration="4.13" data-track-index="9">
+        <div class="abs pop8 d" id="b8-r0" style="left:0;top:200.2px;width:1080.0px;text-align:center;font-size:116.2px;">BUSY WORK</div>
+        <div class="abs pop8 d" id="b8-r1" style="left:0;top:341.4px;width:1080.0px;text-align:center;font-size:116.2px;">BUSINESSES</div>
+        <div class="abs pop8 d" id="b8-r2" style="left:0;top:482.8px;width:1080.0px;text-align:center;font-size:116.2px;color:#DD7259;">DAILY LIFE</div>
+  </section>
+  <section id="tz-b9" class="clip tz cream" data-start="29.84" data-duration="3.73" data-track-index="10">
+        <div class="abs pop8" id="b9-hero" style="left:0;top:254.8px;width:1080.0px;text-align:center;font-size:97.3px;">SOON MOST OF IT</div>
+        <div class="abs strike ol" id="b9-u" style="left:132.9px;top:362.8px;width:818.1px;height:13.1px;border-radius:6.6px"></div>
+        <div class="abs pop8" id="b9-hero2" style="left:0;top:447.8px;width:1080.0px;text-align:center;font-size:97.3px;color:#C66748;">IS A CONVERSATION</div>
+  </section>
+  <section id="tz-out" class="clip tz dark" data-start="33.42" data-duration="3.71" data-track-index="11">
+        <div class="abs pop8 d" id="out-w1" style="left:0;top:164.1px;width:1080.0px;text-align:center;font-size:142.5px;">FOLLOW</div>
+        <div class="abs pop8 d" id="out-w2" style="left:0;top:332.8px;width:1080.0px;text-align:center;font-size:105.0px;color:#DD7259;">FOR DAILY AI</div>
+        <div class="abs strike d ol" id="out-u" style="left:220.1px;top:447.8px;width:641.8px;height:13.1px;border-radius:6.6px"></div>
+        <div class="abs" id="out-hc" style="left:0;top:547.1px;width:1080.0px;text-align:center"><span class="chip" style="font-size:30.0px;text-transform:none">@migueltorrezai</span></div>
+  </section>
+
+  <div id="cap0" class="clip scap" style="top:862.5px" data-start="0.14" data-duration="0.80" data-track-index="25"><span class="scappill" style="font-size:56.2px">Using only AI and</span></div>
+  <div id="cap1" class="clip scap" style="top:862.5px" data-start="0.94" data-duration="0.80" data-track-index="25"><span class="scappill" style="font-size:56.2px">his voice,</span></div>
+  <div id="cap2" class="clip scap" style="top:862.5px" data-start="1.74" data-duration="1.22" data-track-index="25"><span class="scappill" style="font-size:54.4px">this mathematician managed to</span></div>
+  <div id="cap3" class="clip scap" style="top:862.5px" data-start="2.96" data-duration="1.30" data-track-index="25"><span class="scappill" style="font-size:56.2px">solve an open mathematics</span></div>
+  <div id="cap4" class="clip scap" style="top:862.5px" data-start="4.26" data-duration="1.58" data-track-index="25"><span class="scappill" style="font-size:51.0px">problem. David Turturean solved</span></div>
+  <div id="cap5" class="clip scap" style="top:862.5px" data-start="5.84" data-duration="1.44" data-track-index="25"><span class="scappill" style="font-size:56.2px">one of Epoch's AI</span></div>
+  <div id="cap6" class="clip scap" style="top:862.5px" data-start="7.28" data-duration="1.06" data-track-index="25"><span class="scappill" style="font-size:56.2px">frontier model,</span></div>
+  <div id="cap7" class="clip scap" style="top:862.5px" data-start="8.34" data-duration="2.42" data-track-index="25"><span class="scappill" style="font-size:40.5px">extremely complex mathematical problems</span></div>
+  <div id="cap8" class="clip scap" style="top:862.5px" data-start="10.76" data-duration="0.84" data-track-index="25"><span class="scappill" style="font-size:56.2px">using the new feature</span></div>
+  <div id="cap9" class="clip scap" style="top:862.5px" data-start="11.6" data-duration="1.06" data-track-index="25"><span class="scappill" style="font-size:56.2px">by</span></div>
+  <div id="cap10" class="clip scap" style="top:862.5px" data-start="12.66" data-duration="1.12" data-track-index="25"><span class="scappill" style="font-size:56.2px">ChatGPT Voice.</span></div>
+  <div id="cap11" class="clip scap" style="top:862.5px" data-start="13.78" data-duration="0.84" data-track-index="25"><span class="scappill" style="font-size:56.2px">This means that the</span></div>
+  <div id="cap12" class="clip scap" style="top:862.5px" data-start="14.62" data-duration="1.58" data-track-index="25"><span class="scappill" style="font-size:56.2px">frontier to getting the</span></div>
+  <div id="cap13" class="clip scap" style="top:862.5px" data-start="16.2" data-duration="0.78" data-track-index="25"><span class="scappill" style="font-size:56.2px">work done</span></div>
+  <div id="cap14" class="clip scap" style="top:862.5px" data-start="16.98" data-duration="1.54" data-track-index="25"><span class="scappill" style="font-size:56.2px">has actually dropped again</span></div>
+  <div id="cap15" class="clip scap" style="top:862.5px" data-start="18.52" data-duration="1.60" data-track-index="25"><span class="scappill" style="font-size:56.2px">significantly for each and</span></div>
+  <div id="cap16" class="clip scap" style="top:862.5px" data-start="20.12" data-duration="0.70" data-track-index="25"><span class="scappill" style="font-size:56.2px">every single one of</span></div>
+  <div id="cap17" class="clip scap" style="top:862.5px" data-start="20.82" data-duration="1.42" data-track-index="25"><span class="scappill" style="font-size:56.2px">us. If a mathematician</span></div>
+  <div id="cap18" class="clip scap" style="top:862.5px" data-start="22.24" data-duration="1.40" data-track-index="25"><span class="scappill" style="font-size:56.2px">can solve a very</span></div>
+  <div id="cap19" class="clip scap" style="top:862.5px" data-start="23.64" data-duration="1.48" data-track-index="25"><span class="scappill" style="font-size:56.2px">complex problem this way,</span></div>
+  <div id="cap20" class="clip scap" style="top:862.5px" data-start="25.12" data-duration="1.08" data-track-index="25"><span class="scappill" style="font-size:56.2px">that means that most</span></div>
+  <div id="cap21" class="clip scap" style="top:862.5px" data-start="26.2" data-duration="0.90" data-track-index="25"><span class="scappill" style="font-size:56.2px">busy work that we</span></div>
+  <div id="cap22" class="clip scap" style="top:862.5px" data-start="27.1" data-duration="1.10" data-track-index="25"><span class="scappill" style="font-size:56.2px">do in our businesses</span></div>
+  <div id="cap23" class="clip scap" style="top:862.5px" data-start="28.2" data-duration="1.20" data-track-index="25"><span class="scappill" style="font-size:56.2px">and our daily life</span></div>
+  <div id="cap24" class="clip scap" style="top:862.5px" data-start="29.4" data-duration="1.10" data-track-index="25"><span class="scappill" style="font-size:56.2px">is very close to</span></div>
+  <div id="cap25" class="clip scap" style="top:862.5px" data-start="30.5" data-duration="1.38" data-track-index="25"><span class="scappill" style="font-size:56.2px">being solvable by literally</span></div>
+  <div id="cap26" class="clip scap" style="top:862.5px" data-start="31.88" data-duration="0.94" data-track-index="25"><span class="scappill" style="font-size:56.2px">just talking with a</span></div>
+  <div id="cap27" class="clip scap" style="top:862.5px" data-start="32.82" data-duration="1.32" data-track-index="25"><span class="scappill" style="font-size:56.2px">computer. Now follow for</span></div>
+  <div id="cap28" class="clip scap" style="top:862.5px" data-start="34.14" data-duration="0.88" data-track-index="25"><span class="scappill" style="font-size:56.2px">more AI news and</span></div>
+  <div id="cap29" class="clip scap" style="top:862.5px" data-start="35.02" data-duration="0.84" data-track-index="25"><span class="scappill" style="font-size:56.2px">videos each and every</span></div>
+  <div id="cap30" class="clip scap" style="top:862.5px" data-start="35.86" data-duration="0.50" data-track-index="25"><span class="scappill" style="font-size:56.2px">single day.</span></div>
+  <div id="cap31" class="clip scap" style="top:862.5px" data-start="36.36" data-duration="0.38" data-track-index="25"><span class="scappill" style="font-size:56.2px">Catch you in the</span></div>
+  <div id="cap32" class="clip scap" style="top:862.5px" data-start="36.74" data-duration="0.39" data-track-index="25"><span class="scappill" style="font-size:56.2px">next one.</span></div>
+
+  <audio id="vo" src="assets/v/audio.m4a" data-start="0" data-duration="37.13" data-track-index="30" data-volume="1"></audio>
+  <audio id="bgm0" src="assets/music/bed_split.mp3" data-start="0.00" data-duration="37.13" data-track-index="31" data-volume="0.16"></audio>
+  <audio id="sfx0" src="assets/sfx/whoosh.mp3" data-start="4.68" data-duration="0.68" data-track-index="32" data-volume="0.2"></audio>
+  <audio id="sfx1" src="assets/sfx/pop.mp3" data-start="5.00" data-duration="0.60" data-track-index="33" data-volume="0.28"></audio>
+  <audio id="sfx2" src="assets/sfx/whoosh.mp3" data-start="8.34" data-duration="0.68" data-track-index="34" data-volume="0.2"></audio>
+  <audio id="sfx3" src="assets/sfx/pop.mp3" data-start="8.66" data-duration="0.60" data-track-index="35" data-volume="0.28"></audio>
+  <audio id="sfx4" src="assets/sfx/whoosh.mp3" data-start="10.76" data-duration="0.68" data-track-index="36" data-volume="0.2"></audio>
+  <audio id="sfx5" src="assets/sfx/pop.mp3" data-start="11.08" data-duration="0.60" data-track-index="37" data-volume="0.28"></audio>
+  <audio id="sfx6" src="assets/sfx/whoosh.mp3" data-start="14.62" data-duration="0.68" data-track-index="38" data-volume="0.2"></audio>
+  <audio id="sfx7" src="assets/sfx/pop.mp3" data-start="14.94" data-duration="0.60" data-track-index="39" data-volume="0.28"></audio>
+  <audio id="sfx8" src="assets/sfx/whoosh.mp3" data-start="17.68" data-duration="0.68" data-track-index="40" data-volume="0.2"></audio>
+  <audio id="sfx9" src="assets/sfx/pop.mp3" data-start="18.00" data-duration="0.60" data-track-index="41" data-volume="0.28"></audio>
+  <audio id="sfx10" src="assets/sfx/whoosh.mp3" data-start="22.24" data-duration="0.68" data-track-index="42" data-volume="0.2"></audio>
+  <audio id="sfx11" src="assets/sfx/pop.mp3" data-start="22.56" data-duration="0.60" data-track-index="43" data-volume="0.28"></audio>
+  <audio id="sfx12" src="assets/sfx/whoosh.mp3" data-start="25.86" data-duration="0.68" data-track-index="44" data-volume="0.2"></audio>
+  <audio id="sfx13" src="assets/sfx/pop.mp3" data-start="26.18" data-duration="0.60" data-track-index="45" data-volume="0.28"></audio>
+  <audio id="sfx14" src="assets/sfx/whoosh.mp3" data-start="29.84" data-duration="0.68" data-track-index="46" data-volume="0.2"></audio>
+  <audio id="sfx15" src="assets/sfx/pop.mp3" data-start="30.16" data-duration="0.60" data-track-index="47" data-volume="0.28"></audio>
+  <audio id="sfx16" src="assets/sfx/whoosh.mp3" data-start="33.42" data-duration="0.68" data-track-index="48" data-volume="0.2"></audio>
+  <audio id="sfx17" src="assets/sfx/boom.mp3" data-start="33.82" data-duration="0.88" data-track-index="49" data-volume="0.4"></audio>
+</div>
+
+<script>
+window.__timelines = window.__timelines || {};
+const tl = gsap.timeline({ paused: true });
+const POP = "back.out(2.2)";
+const SOFT = "power3.out";
+const SLAM = "power4.out";
+tl.fromTo("#b1-hero",{scale:0.968},{scale:1,duration:0.46,ease:SOFT},0.00);
+tl.fromTo("#b1-u",{scaleX:0.0},{scaleX:1,duration:0.42,ease:SOFT},1.10);
+tl.fromTo("#b1-hero2",{scale:1.22,opacity:0},{scale:1,opacity:1,duration:0.34,ease:POP},2.96);
+tl.set("#b1-hero",{y:99.6},0);
+tl.fromTo("#b1-hero",{y:99.6},{y:81.8,duration:0.36,ease:SOFT,immediateRender:false},0.90);
+tl.set("#b1-u",{y:81.8},0);
+tl.fromTo("#b1-hero,#b1-u",{y:81.8},{y:0.0,duration:0.36,ease:SOFT,immediateRender:false},2.76);
+tl.fromTo("#b2-card",{scale:0.972},{scale:1,duration:0.46,ease:SOFT},4.68);
+tl.fromTo("#b2-hl0",{scaleX:0.0},{scaleX:1,duration:0.34,ease:SOFT},5.58);
+tl.fromTo("#b2-hl1",{scaleX:0.0},{scaleX:1,duration:0.34,ease:SOFT},5.68);
+tl.fromTo("#b3-w1",{scale:0.968},{scale:1,duration:0.44,ease:SOFT},8.34);
+tl.fromTo("#b3-u",{scaleX:0.0},{scaleX:1,duration:0.42,ease:SOFT},8.98);
+tl.fromTo("#b3-hero",{scale:1.22,opacity:0},{scale:1,opacity:1,duration:0.34,ease:POP},9.44);
+tl.set("#b3-w1,#b3-u",{y:106.5},0);
+tl.fromTo("#b3-w1,#b3-u",{y:106.5},{y:0.0,duration:0.36,ease:SOFT,immediateRender:false},9.24);
+tl.fromTo("#b4-mk",{scale:0.968},{scale:1,duration:0.46,ease:SOFT},10.76);
+tl.fromTo("#b4-n1",{scale:1.16,opacity:0},{scale:1,opacity:1,duration:0.32,ease:POP},11.72);
+tl.fromTo("#b4-n2",{scale:1.16,opacity:0},{scale:1,opacity:1,duration:0.32,ease:POP},13.20);
+tl.set("#b4-mk",{y:174.8},0);
+tl.fromTo("#b4-mk",{y:174.8},{y:90.4,duration:0.36,ease:SOFT,immediateRender:false},11.52);
+tl.set("#b4-n1",{y:90.4},0);
+tl.fromTo("#b4-mk,#b4-n1",{y:90.4},{y:0.0,duration:0.36,ease:SOFT,immediateRender:false},13.00);
+tl.fromTo("#b5-c0",{scale:0.968},{scale:1,duration:0.46,ease:SOFT},14.62);
+tl.fromTo("#b5-c1",{scaleY:0.35484},{scaleY:1,duration:0.46,ease:SOFT},15.60);
+tl.fromTo("#b5-c2",{scaleY:0.21569},{scaleY:1,duration:0.46,ease:SOFT},15.68);
+tl.fromTo("#b5-c3",{scaleY:0.15493},{scaleY:1,duration:0.46,ease:SOFT},16.20);
+tl.fromTo("#b5-c4",{scaleY:0.12088},{scaleY:1,duration:0.46,ease:SOFT},16.28);
+tl.fromTo("#b5-c5",{scaleY:0.0991},{scaleY:1,duration:0.46,ease:SOFT},16.48);
+tl.set("#b5-c0,#b5-c1,#b5-c2,#b5-c3,#b5-c4,#b5-c5",{y:-219.4},0);
+tl.fromTo("#b5-c0,#b5-c1,#b5-c2,#b5-c3,#b5-c4,#b5-c5",{y:-219.4},{y:-144.4,duration:0.36,ease:SOFT,immediateRender:false},15.40);
+tl.fromTo("#b5-c0,#b5-c1,#b5-c2,#b5-c3,#b5-c4,#b5-c5",{y:-144.4},{y:-69.4,duration:0.36,ease:SOFT,immediateRender:false},16.00);
+tl.fromTo("#b5-c0,#b5-c1,#b5-c2,#b5-c3,#b5-c4,#b5-c5",{y:-69.4},{y:-31.9,duration:0.36,ease:SOFT,immediateRender:false},16.28);
+tl.set("#b5-tk",{y:-31.9},0);
+tl.fromTo("#b5-tk",{scale:0.72,opacity:0},{scale:1,opacity:1,duration:0.34,ease:POP},16.98);
+tl.fromTo("#b5-c0,#b5-c1,#b5-c2,#b5-c3,#b5-c4,#b5-c5,#b5-tk",{y:-31.9},{y:0.0,duration:0.36,ease:SOFT,immediateRender:false},16.78);
+tl.fromTo("#b6-c0",{scaleY:1.0,scaleX:1.0,y:0.0},{scaleY:1.0,scaleX:1.0,y:-93.8,duration:0.46,ease:SOFT},17.68);
+tl.fromTo("#b6-c0",{scaleY:1.0,scaleX:1.0,y:-93.8},{scaleY:1.0,scaleX:1.10417,y:-187.5,duration:0.46,ease:SOFT,immediateRender:false},18.52);
+tl.fromTo("#b6-c1",{scaleY:1.0,scaleX:1.0,y:0.0},{scaleY:0.67742,scaleX:1.0,y:-93.8,duration:0.46,ease:SOFT},17.68);
+tl.fromTo("#b6-c1",{scaleY:0.67742,scaleX:1.0,y:-93.8},{scaleY:0.35484,scaleX:1.10417,y:-187.5,duration:0.46,ease:SOFT,immediateRender:false},18.52);
+tl.fromTo("#b6-c2",{scaleY:1.0,scaleX:1.0,y:0.0},{scaleY:0.60784,scaleX:1.0,y:-93.8,duration:0.46,ease:SOFT},17.68);
+tl.fromTo("#b6-c2",{scaleY:0.60784,scaleX:1.0,y:-93.8},{scaleY:0.21569,scaleX:1.10417,y:-187.5,duration:0.46,ease:SOFT,immediateRender:false},18.52);
+tl.fromTo("#b6-c3",{scaleY:1.0,scaleX:1.0,y:0.0},{scaleY:0.57746,scaleX:1.0,y:-93.8,duration:0.46,ease:SOFT},17.68);
+tl.fromTo("#b6-c3",{scaleY:0.57746,scaleX:1.0,y:-93.8},{scaleY:0.15493,scaleX:1.10417,y:-187.5,duration:0.46,ease:SOFT,immediateRender:false},18.52);
+tl.fromTo("#b6-c4",{scaleY:1.0,scaleX:1.0,y:0.0},{scaleY:0.56044,scaleX:1.0,y:-93.8,duration:0.46,ease:SOFT},17.68);
+tl.fromTo("#b6-c4",{scaleY:0.56044,scaleX:1.0,y:-93.8},{scaleY:0.12088,scaleX:1.10417,y:-187.5,duration:0.46,ease:SOFT,immediateRender:false},18.52);
+tl.fromTo("#b6-c5",{scaleY:1.0,scaleX:1.0,y:0.0},{scaleY:0.54955,scaleX:1.0,y:-93.8,duration:0.46,ease:SOFT},17.68);
+tl.fromTo("#b6-c5",{scaleY:0.54955,scaleX:1.0,y:-93.8},{scaleY:0.0991,scaleX:1.10417,y:-187.5,duration:0.46,ease:SOFT,immediateRender:false},18.52);
+tl.fromTo("#b6-c0,#b6-c1,#b6-c2,#b6-c3,#b6-c4,#b6-c5",{y:-187.5},{y:1.9,duration:0.36,ease:SOFT,immediateRender:false},20.38);
+tl.set("#b6-t5",{y:-375.0},0);
+tl.fromTo("#b6-t5",{y:-375.0},{y:-281.2,duration:0.46,ease:SOFT,immediateRender:false},17.68);
+tl.fromTo("#b6-t5",{y:-281.2},{y:-187.5,duration:0.46,ease:SOFT,immediateRender:false},18.52);
+tl.set("#b6-t0,#b6-t1,#b6-t2,#b6-t3,#b6-t4",{y:-187.5},0);
+tl.fromTo("#b6-t0",{scale:0.62,opacity:0},{scale:1,opacity:1,duration:0.3,ease:POP},19.30);
+tl.fromTo("#b6-t1",{scale:0.62,opacity:0},{scale:1,opacity:1,duration:0.3,ease:POP},19.76);
+tl.fromTo("#b6-t2",{scale:0.62,opacity:0},{scale:1,opacity:1,duration:0.3,ease:POP},19.98);
+tl.fromTo("#b6-t3",{scale:0.62,opacity:0},{scale:1,opacity:1,duration:0.3,ease:POP},20.12);
+tl.fromTo("#b6-t4",{scale:0.62,opacity:0},{scale:1,opacity:1,duration:0.3,ease:POP},20.32);
+tl.fromTo("#b6-t0,#b6-t1,#b6-t2,#b6-t3,#b6-t4,#b6-t5",{y:-187.5},{y:1.9,duration:0.36,ease:SOFT,immediateRender:false},20.38);
+tl.fromTo("#b6-hero",{scale:1.2,opacity:0},{scale:1,opacity:1,duration:0.34,ease:POP},20.58);
+tl.fromTo("#b6-hero2",{scale:1.2,opacity:0},{scale:1,opacity:1,duration:0.34,ease:POP},20.68);
+tl.fromTo("#b7-hero",{scale:0.968},{scale:1,duration:0.44,ease:SOFT},22.24);
+tl.fromTo("#b7-hero2",{scale:1.18,opacity:0},{scale:1,opacity:1,duration:0.34,ease:POP},22.52);
+tl.fromTo("#b7-u",{scaleX:0.0},{scaleX:1,duration:0.42,ease:SOFT},24.48);
+tl.set("#b7-hero",{y:92.2},0);
+tl.fromTo("#b7-hero",{y:92.2},{y:0.0,duration:0.36,ease:SOFT,immediateRender:false},22.32);
+tl.fromTo("#b8-r0",{scale:0.968},{scale:1,duration:0.44,ease:SOFT},25.86);
+tl.fromTo("#b8-r1",{scale:1.16,opacity:0},{scale:1,opacity:1,duration:0.32,ease:POP},27.62);
+tl.fromTo("#b8-r2",{scale:1.16,opacity:0},{scale:1,opacity:1,duration:0.32,ease:POP},28.50);
+tl.set("#b8-r0",{y:141.2},0);
+tl.fromTo("#b8-r0",{y:141.2},{y:70.7,duration:0.36,ease:SOFT,immediateRender:false},27.42);
+tl.set("#b8-r1",{y:70.7},0);
+tl.fromTo("#b8-r0,#b8-r1",{y:70.7},{y:0.0,duration:0.36,ease:SOFT,immediateRender:false},28.30);
+tl.fromTo("#b9-hero",{scale:0.968},{scale:1,duration:0.44,ease:SOFT},29.84);
+tl.fromTo("#b9-u",{scaleX:0.0},{scaleX:1,duration:0.42,ease:SOFT},30.74);
+tl.fromTo("#b9-hero2",{scale:1.22,opacity:0},{scale:1,opacity:1,duration:0.34,ease:POP},32.32);
+tl.set("#b9-hero",{y:96.4},0);
+tl.fromTo("#b9-hero",{y:96.4},{y:78.6,duration:0.36,ease:SOFT,immediateRender:false},30.54);
+tl.set("#b9-u",{y:78.6},0);
+tl.fromTo("#b9-hero,#b9-u",{y:78.6},{y:0.0,duration:0.36,ease:SOFT,immediateRender:false},32.12);
+tl.fromTo("#out-w1",{scale:0.968},{scale:1,duration:0.44,ease:SOFT},33.42);
+tl.fromTo("#out-w2",{scale:1.18,opacity:0},{scale:1,opacity:1,duration:0.32,ease:POP},34.68);
+tl.fromTo("#out-u",{scaleX:0.0},{scaleX:1,duration:0.42,ease:SOFT},35.20);
+tl.fromTo("#out-hc",{scale:0.82,opacity:0},{scale:1,opacity:1,duration:0.34,ease:POP},36.10);
+tl.to("#bgm0",{volume:0,duration:1.5},35.53);
+window.__timelines["main"] = tl;
+</script>
+</body>
+</html>

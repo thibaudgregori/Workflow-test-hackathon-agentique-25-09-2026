@@ -1,0 +1,23 @@
+{
+ "staged": "",
+ "phone_verdict": "FAIL",
+ "blocked": "bespoke object 1 (PLANT WEB PAGE) fails the cold read: a fresh independent reader on my own page crops named it 'flower' (sure) and never the page, making four independent readers on this exact drawing across the two lanes.  The drawing lives in the SHARED gen/plantsite_scene.py.  The plan's own named replacement (a laptop with the same flower, already drawn, cold-read 'laptop with flower' sure) cannot be seated without re-deriving LAW 40's two connector anchors - visual_laws.py recomputes them from #plant-page's own box, pinning both ends on the box's LEFT EDGE at core (520,168.8) and (520,427.2), where the laptop has no ink (46 px and 19 px short) - and without moving LAW 38 rule 2's emphasis off the page's CSS border.  That is re-authoring the shared artwork, and it would also invalidate the build-green projects/plantsite_split.  Nothing was rendered.",
+ "rounds": 1,
+ "redesigned": false,
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/projects/plantsite_cutout",
+ "cands": "",
+ "cold_crop_paths": [
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/bb23e443/00.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/bb23e443/01.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/bb23e443/02.png"
+ ],
+ "fails": [
+  {
+   "i": 1,
+   "intended": "a website about plants",
+   "namer_answer": "flower (sure)"
+  }
+ ],
+ "flagged_for_clerk": "nothing - no render was submitted.  The cutout project is build-green (prerender PASS 7/7, strict geometry 0 errors / 0 warnings, edge-fade guard 3 masked containers @ 46 px, checks 24+25 OK) and waits on the shared scene's peak object.",
+ "report": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/plans/plantsite_cutout_notes.md"
+}

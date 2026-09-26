@@ -1,0 +1,66 @@
+{
+ "video": "plantsite",
+ "fmt": "split",
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/projects/plantsite_split",
+ "blind_token": "26bb260e",
+ "cold_dirs": [
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/26bb260e",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/26bb260e-cand"
+ ],
+ "reader": "one independent `claude -p` process per crop, launched from /tmp, handed ONLY the absolute path of a randomly-foldered crop \u2014 no plan, no topic, no manifest, no sealed key, no path naming the video",
+ "prompt": "Name the single everyday object drawn in it. <=5 words + confidence sure|unsure|cannot tell.",
+ "note_on_the_first_attempt": "the first dispatch handed the readers RELATIVE paths from /tmp and two of them answered 'file not found'.  That was a harness bug, not a read, and it is not scored; every row below is an absolute-path read.",
+ "names": [
+  {
+   "i": 0,
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/26bb260e/00.png",
+   "name": "checklist clipboard",
+   "confidence": "sure",
+   "reader": "round1",
+   "crop_sha256": "cefc9861cde2cb41b07c6596e63d92c159367facc05406ed4a72dbcc04118810"
+  },
+  {
+   "i": 1,
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/26bb260e/01.png",
+   "name": "flower",
+   "confidence": "sure",
+   "reader": "round1",
+   "crop_sha256": "63bc96ff73784c694a58e9735490f6978a413d678204c6fcafa994d57894ef2d"
+  },
+  {
+   "i": 2,
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/26bb260e/02.png",
+   "name": "calendar",
+   "confidence": "sure",
+   "reader": "round1",
+   "crop_sha256": "d91788f27bb1fea1385095823cd3a845733105b581165287d4903a95df10321d"
+  }
+ ],
+ "corroborating_reads": [
+  {
+   "i": 1,
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/26bb260e/01.png",
+   "name": "flower",
+   "confidence": "sure",
+   "reader": "round2 (fresh, same crop)",
+   "crop_sha256": "63bc96ff73784c694a58e9735490f6978a413d678204c6fcafa994d57894ef2d"
+  },
+  {
+   "i": 1,
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/26bb260e-cand/00.png",
+   "name": "flower",
+   "confidence": "sure",
+   "reader": "candidate A = the SHIPPED browser window (third fresh reader)",
+   "crop_sha256": "63bc96ff73784c694a58e9735490f6978a413d678204c6fcafa994d57894ef2d"
+  },
+  {
+   "i": 1,
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/26bb260e-cand/01.png",
+   "name": "laptop with flower",
+   "confidence": "sure",
+   "reader": "candidate B = the PLAN'S OWN named replacement, a laptop with the same flower on its screen",
+   "crop_sha256": "6f9782e3fa91da4abbdf28c390042803cb10e79739ab09346cd0a93796c21e5a"
+  }
+ ],
+ "corroborating_reads_note": "`names` carries ONE row per bespoke object \u2014 the contract production.py phone-pass checks.  The extra reads live here: object 1 was re-read by a second and a third fresh reader (both 'flower', sure), and the plan's own named replacement metaphor was read blind beside it in the same round."
+}

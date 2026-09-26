@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "alpha_sha256": "70ac16584186f36d742e22191199c603253df02c4c4d6fb5da8aa83d37ffde38",
+    "display_sha256": "30654612d51725acee1b09190cb45d911753f5925c8aad579ef1260b15e7ad50",
+    "guard_sha256": "90e6a7f8cf1a142b9a8ab4cf0054f9803188279b68642b84430db31afe79999a",
+    "expected_frames": 812,
+    "floor_px": 24.0
+  },
+  "pass": true,
+  "frames_checked": 812,
+  "min_top_clearance_px": 59.400000000000006,
+  "floor_px": 24.0,
+  "worst_frame": 82,
+  "worst_seconds": 3.28,
+  "unsafe_frames": 0,
+  "first_unsafe_frames": [],
+  "scope": "Every matte frame, top edge of prepared person layer; no caption or semantic face claim"
+}

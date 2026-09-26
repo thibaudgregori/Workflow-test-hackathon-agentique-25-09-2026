@@ -1,0 +1,58 @@
+{
+ "frame": 0,
+ "plate": "sessions/meatwrapper/plate_wide_25.mp4",
+ "dark_threshold": 60,
+ "wing_right": null,
+ "wing_right_rows": "400,620",
+ "wing_left": null,
+ "wing_left_rows": "400,520",
+ "removed_right_px": 0,
+ "removed_left_px": 0,
+ "removed": {
+  "px": 0,
+  "median_luma": -1,
+  "max_luma": -1
+ },
+ "birefnet": {
+  "area": 471515,
+  "bands": {
+   "cap": {
+    "left": 340,
+    "right": 725
+   },
+   "head": {
+    "left": 347,
+    "right": 721
+   },
+   "jaw": {
+    "left": 303,
+    "right": 809
+   },
+   "neck": {
+    "left": 93,
+    "right": 1038
+   }
+  }
+ },
+ "prompt": {
+  "area": 471515,
+  "bands": {
+   "cap": {
+    "left": 340,
+    "right": 725
+   },
+   "head": {
+    "left": 347,
+    "right": 721
+   },
+   "jaw": {
+    "left": 303,
+    "right": 809
+   },
+   "neck": {
+    "left": 93,
+    "right": 1038
+   }
+  }
+ }
+}

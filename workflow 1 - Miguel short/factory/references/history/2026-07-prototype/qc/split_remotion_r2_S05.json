@@ -1,0 +1,16 @@
+{
+ "pass": true,
+ "score_layout": 9,
+ "score_captions": 10,
+ "score_timing": 10,
+ "score_audio": 10,
+ "score_style_match": 10,
+ "issues": [
+  {
+   "severity": "minor",
+   "at_seconds": 0.05,
+   "description": "The UI screenshot of the settings menu is slightly partially cut off at the right edge, but the content remains readable."
+  }
+ ],
+ "summary": "The candidate video is well-produced, following the established brand identity. It incorporates a different, yet professional layout. The captions are perfectly synced, audio is clean, and timing is excellent. A minor issue with UI cropping was noted but does not impact the overall quality or readability."
+}

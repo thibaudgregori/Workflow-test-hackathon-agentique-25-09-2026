@@ -1,0 +1,101 @@
+{
+  "verdict": "PASS",
+  "phone_verdict": "PASS",
+  "reviewer": "Astra prepare_crops subagent",
+  "mp4": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-attempts/deepseekflash-ea2a2a6252de7820/output/deepseekflash_cutout.mp4",
+  "mp4_sha256": "0ddc299d2c5b5215f3bb63b92018720473f97e805b8b026b1d5a7a891d87dd9d",
+  "alpha_sha256": "86f6be1a7cde64fdd2bce954268a14dd38e2694e5eba18902c5fb4508aaee783",
+  "project_sha256": "ea2a2a6252de7820dd3fcbed71ea593f83e0b7382561333e5ea58788e2405524",
+  "agent_review": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/review/deepseekflash/agent-review.json",
+  "agent_review_sha256": "e4bbc93a092fe52881a769207e1c3681329710f98966a1ddd643d8b89046f82d",
+  "reviewed_files": {
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-attempts/deepseekflash-ea2a2a6252de7820/output/deepseekflash_cutout.mp4": "0ddc299d2c5b5215f3bb63b92018720473f97e805b8b026b1d5a7a891d87dd9d"
+  },
+  "render_result": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-attempts/deepseekflash-ea2a2a6252de7820/result.json",
+  "render_result_sha256": "76d525bcec3b7b98954f1cf6d47208fb53dfe5c363d52762beaa46b75c4f5652",
+  "whole_video_watcher": {
+    "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/clerk_video_gemini.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-attempts/deepseekflash-ea2a2a6252de7820/output/deepseekflash_cutout.mp4 deepseekflash --fmt cutout --out /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/review/cands_deepseekflash_cutout.json --thinking medium",
+    "returncode": 0,
+    "wall_s": 28.0,
+    "out": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/review/cands_deepseekflash_cutout.json",
+    "stderr": "[pass 1 win 4/4 34.0-39.5s] 4 beats / 0 candidates  in=8325 out=846 $0.0046\n[pass 1 win 2/4 0.0-20.0s] 7 beats / 0 candidates  in=20306 out=1369 $0.0095\n[pass 1 win 3/4 17.0-37.0s] 6 beats / 0 candidates  in=20308 out=3282 $0.0143\n[pass 1 win 1/4 0.0-39.5s] 8 beats / 0 candidates  in=36101 out=2569 $0.0173\n",
+    "model": "gemini-3.5-flash-lite",
+    "cost_usd": 0.045677,
+    "counts": {
+      "candidates": 0,
+      "blocking": 0,
+      "motion": 0
+    },
+    "video_summary": "The video announces the launch of DeepSeek V4 Flash, comparing its quality and cost favorably to Opus and Fable. It emphasizes that the model is small and affordable enough to run locally on a ten-thousand-dollar computer, enabling businesses to deploy private AI models.",
+    "candidates": [],
+    "blocking_candidates": 0,
+    "pass": true
+  },
+  "technical_evidence": {
+    "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/qc/qc_pass.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-attempts/deepseekflash-ea2a2a6252de7820/output/deepseekflash_cutout.mp4 --project /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/deepseekflash_cutout --vid deepseekflash --fmt cutout --out /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/gen/_qcpass_deepseekflash_cutout.json --run /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905 --geom /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-support/_geom_deepseekflash.json --alpha /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/matting/deepseekflash/matte_deepseekflash_v5_alpha.webm --edge-box 1386x990+-54+930.0000 --voice-master /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/cuts/deepseekflash/audio.m4a --plate /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/matting/deepseekflash/plate_display_1386x990.mp4 --cap-seat 846.2 --phone-at 16.0:0.338,0.203,0.662,0.354:the machine --phone-at 2.6:0.31,0.162,0.69,0.316:the price tag (hook)",
+    "returncode": 0,
+    "wall_s": 22.0,
+    "report": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/gen/_qcpass_deepseekflash_cutout.json",
+    "stdout": "E  EDGE FADE   0 frame-edge chops, 5 masked containers OK\nF  DEPTH FIELD  3/3 lanes, band 394.0px, gutters [26.0, 26.0], 13 steps OK\nF  CROWN CLEARANCE  min 75.0 px, median 97.0 px over 81 samples OK\n{\n \"render\": \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-attempts/deepseekflash-ea2a2a6252de7820/output/deepseekflash_cutout.mp4\",\n \"verdicts\": {\n  \"decoded_blank_frames\": \"PASS\",\n  \"zero_ink_law\": \"PASS\",\n  \"clip_coverage_page\": \"PASS\",\n  \"double_exposure\": \"REPORTED\",\n  \"face_centring\": \"PASS\",\n  \"pill_canon_rendered\": \"PASS\",\n  \"gate1_geometry_audit\": \"PASS\",\n  \"gate2_frame_review\": \"PASS\",\n  \"cutout_checks_24_25\": \"PASS\",\n  \"gate3_gemini_describe\": \"PASS\",\n  \"audio_guards\": \"PASS\",\n  \"contact_sheet\": \"PASS\",\n  \"phone_crops\": \"PASS\",\n  \"edge_clip\": \"PASS\",\n  \"face_hf_vs_plate\": \"PASS\",\n  \"head_scale_vs_framing\": \"PASS\"\n },\n \"skipped\": [\n  \"whiteboard_seam_law\"\n ],\n \"wall_s\": {\n  \"decoded_blank_frames\": 0.0,\n  \"zero_ink_law\": 0.0,\n  \"clip_coverage_page\": 0.0,\n  \"double_exposure\": 0.11,\n  \"face_centring\": 0.64,\n  \"pill_canon_rendered\": 0.0,\n  \"gate1_geometry_audit\": 7.05,\n  \"gate2_frame_review\": 2.5,\n  \"cutout_checks_24_25\": 7.6,\n  \"gate3_gemini_describe\": 21.8,\n  \"audio_guards\": 1.39,\n  \"contact_sheet\": 3.28,\n  \"phone_crops\": 0.92,\n  \"edge_clip\": 13.85,\n  \"face_hf_vs_plate\": 7.21,\n  \"head_scale_vs_framing\": 10.63,\n  \"single_decode\": 13.54\n },\n \"total_wall_s\": 21.81,\n \"report\": \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/gen/_qcpass_deepseekflash_cutout.json\",\n \"pass\": true\n}\n",
+    "stderr": "I0000 00:00:1788637494.742035 16868216 init-domain.cc:132] Fiber init: default domain = pthread, concurrency = 19, prefix = pthread-default\nW0000 00:00:1788637494.745084 16868216 face_landmarker_graph.cc:180] Sets FaceBlendshapesGraph acceleration to xnnpack by default.\nW0000 00:00:1788637494.745131 16868217 face_landmarker_graph.cc:180] Sets FaceBlendshapesGraph acceleration to xnnpack by default.\nI0000 00:00:1788637494.979375 16868217 gl_context.cc:407] GL version: 2.1 (2.1 Metal - 90.5), renderer: Apple M5 Pro\nINFO: Created TensorFlow Lite XNNPACK delegate for CPU.\nI0000 00:00:1788637494.987396 16868216 gl_context.cc:407] GL version: 2.1 (2.1 Metal - 90.5), renderer: Apple M5 Pro\nW0000 00:00:1788637495.015691 16868227 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.\nW0000 00:00:1788637495.012764 16868224 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.\nW0000 00:00:1788637495.123653 16868224 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.\nW0000 00:00:1788637495.123735 16868227 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.\nI0000 00:00:1788637505.746450 16874137 gl_context.cc:407] GL version: 2.1 (2.1 Metal - 90.5), renderer: Apple M5 Pro\nW0000 00:00:1788637505.747701 16874142 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.\n",
+    "verdicts": {
+      "decoded_blank_frames": "PASS",
+      "zero_ink_law": "PASS",
+      "clip_coverage_page": "PASS",
+      "double_exposure": "REPORTED",
+      "face_centring": "PASS",
+      "pill_canon_rendered": "PASS",
+      "gate1_geometry_audit": "PASS",
+      "gate2_frame_review": "PASS",
+      "cutout_checks_24_25": "PASS",
+      "gate3_gemini_describe": "PASS",
+      "audio_guards": "PASS",
+      "contact_sheet": "PASS",
+      "phone_crops": "PASS",
+      "edge_clip": "PASS",
+      "face_hf_vs_plate": "PASS",
+      "head_scale_vs_framing": "PASS"
+    },
+    "failed": [],
+    "skipped": {
+      "whiteboard_seam_law": "whiteboard only, and needs --seams (the chapter erase times)"
+    },
+    "wall_s_by_check": {
+      "decoded_blank_frames": 0.0,
+      "zero_ink_law": 0.0,
+      "clip_coverage_page": 0.0,
+      "double_exposure": 0.11,
+      "face_centring": 0.64,
+      "pill_canon_rendered": 0.0,
+      "gate1_geometry_audit": 7.05,
+      "gate2_frame_review": 2.5,
+      "cutout_checks_24_25": 7.6,
+      "gate3_gemini_describe": 21.8,
+      "audio_guards": 1.39,
+      "contact_sheet": 3.28,
+      "phone_crops": 0.92,
+      "edge_clip": 13.85,
+      "face_hf_vs_plate": 7.21,
+      "head_scale_vs_framing": 10.63,
+      "single_decode": 13.54
+    },
+    "total_wall_s": 21.81,
+    "pass": true
+  },
+  "continuous_playback_review": false,
+  "scope": "Agent visually inspected nominated matched source/alpha dark/light frames and current stage snapshots; actual MP4 sampled frames and cached whole-video watcher when final_mp4 present. Not continuous manual playback or every-frame semantic review. Uninstalled repair candidates do not affect current verdict.",
+  "sample_times_seconds": [
+    0.0,
+    0.16,
+    0.4,
+    4.92,
+    9.84,
+    14.8,
+    19.72,
+    24.64,
+    29.6,
+    34.52,
+    39.36
+  ],
+  "reviewed_epoch": 1788638094.709746
+}

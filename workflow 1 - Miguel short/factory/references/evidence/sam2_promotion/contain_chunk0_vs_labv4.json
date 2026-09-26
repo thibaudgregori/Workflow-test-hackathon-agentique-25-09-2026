@@ -1,0 +1,196 @@
+{
+ "a": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/format_lab/_shared/sam2/alpha/sam2_canon_v4.mkv",
+ "b": "work/smoke_chunk0/alpha_chunk0.mkv",
+ "frames_compared": 350,
+ "band": [
+  20,
+  349
+ ],
+ "opening": [
+  {
+   "frame": 0,
+   "iou": 0.9997,
+   "disagreeing_px": 113
+  },
+  {
+   "frame": 1,
+   "iou": 0.9997,
+   "disagreeing_px": 111
+  },
+  {
+   "frame": 2,
+   "iou": 0.9997,
+   "disagreeing_px": 112
+  },
+  {
+   "frame": 3,
+   "iou": 0.99968,
+   "disagreeing_px": 119
+  },
+  {
+   "frame": 4,
+   "iou": 0.99974,
+   "disagreeing_px": 97
+  },
+  {
+   "frame": 5,
+   "iou": 0.99963,
+   "disagreeing_px": 141
+  },
+  {
+   "frame": 6,
+   "iou": 0.99957,
+   "disagreeing_px": 163
+  },
+  {
+   "frame": 7,
+   "iou": 0.99957,
+   "disagreeing_px": 166
+  },
+  {
+   "frame": 8,
+   "iou": 0.9996,
+   "disagreeing_px": 156
+  },
+  {
+   "frame": 9,
+   "iou": 0.99957,
+   "disagreeing_px": 170
+  },
+  {
+   "frame": 10,
+   "iou": 0.99961,
+   "disagreeing_px": 154
+  },
+  {
+   "frame": 11,
+   "iou": 0.99954,
+   "disagreeing_px": 183
+  },
+  {
+   "frame": 12,
+   "iou": 0.99944,
+   "disagreeing_px": 221
+  },
+  {
+   "frame": 13,
+   "iou": 0.99974,
+   "disagreeing_px": 99
+  },
+  {
+   "frame": 14,
+   "iou": 0.99964,
+   "disagreeing_px": 139
+  },
+  {
+   "frame": 15,
+   "iou": 0.9997,
+   "disagreeing_px": 115
+  },
+  {
+   "frame": 16,
+   "iou": 0.99973,
+   "disagreeing_px": 103
+  },
+  {
+   "frame": 17,
+   "iou": 0.99971,
+   "disagreeing_px": 112
+  },
+  {
+   "frame": 18,
+   "iou": 0.99968,
+   "disagreeing_px": 123
+  },
+  {
+   "frame": 19,
+   "iou": 0.9996,
+   "disagreeing_px": 152
+  }
+ ],
+ "body": {
+  "iou_mean": 0.999673,
+  "iou_min": 0.99913,
+  "iou_p01": 0.999475,
+  "iou_p50": 0.999672,
+  "frames_below_0_999": 0,
+  "frames_below_0_99": 0,
+  "disagreeing_px_mean": 126.4,
+  "disagreeing_px_p95": 164,
+  "disagreeing_px_max": 344,
+  "area_a_mean": 387144.8,
+  "area_b_mean": 387134.2,
+  "area_delta_mean": -10.6,
+  "worst_frames": [
+   [
+    81,
+    0.99913
+   ],
+   [
+    246,
+    0.999441
+   ],
+   [
+    245,
+    0.999468
+   ],
+   [
+    54,
+    0.999475
+   ],
+   [
+    53,
+    0.999476
+   ],
+   [
+    51,
+    0.999506
+   ],
+   [
+    21,
+    0.999508
+   ],
+   [
+    242,
+    0.99952
+   ]
+  ]
+ },
+ "bands": [
+  {
+   "band": [
+    20,
+    99
+   ],
+   "iou_mean": 0.99966,
+   "iou_min": 0.99913,
+   "frames_below_0_999": 0
+  },
+  {
+   "band": [
+    100,
+    299
+   ],
+   "iou_mean": 0.999678,
+   "iou_min": 0.999441,
+   "frames_below_0_999": 0
+  },
+  {
+   "band": [
+    300,
+    349
+   ],
+   "iou_mean": 0.999679,
+   "iou_min": 0.999572,
+   "frames_below_0_999": 0
+  }
+ ],
+ "frames_below_0_999_all": [],
+ "last_frame_below_0_999": null,
+ "reference": {
+  "source": "gpu_bench/BENCHMARK_REPORT.md, CPU vs Modal A10G fp32",
+  "iou_mean": 0.999997,
+  "iou_min": 0.999982,
+  "frames_below_0_999": 0
+ }
+}

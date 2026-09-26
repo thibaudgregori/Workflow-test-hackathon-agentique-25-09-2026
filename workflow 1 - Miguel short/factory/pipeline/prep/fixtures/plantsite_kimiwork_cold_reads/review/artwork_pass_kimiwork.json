@@ -1,0 +1,16 @@
+{
+  "verdict": "PASS",
+  "vid": "kimiwork",
+  "objects": 6,
+  "seal_rounds": 3,
+  "module": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/gen/kimiwork_scene.py",
+  "handoff": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/plans/kimiwork_scene_handoff.md",
+  "evidence": {
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/gen/kimiwork_scene.py": "534e192f7f8b332f9cf875db7828ac1407a246c2366d27c35f6d03a473e9c0c6",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/plans/kimiwork_scene_handoff.md": "798a0bc3747f8762108366927756d8154062273ea3db0c842ee499c20528214c",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/phone_reader_kimiwork_split_r8.json": "326c69d7dbd069a690ad2cc3daa017cebc3a8c130425b99ed0cf1f35bcd2d98e",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/phone_reader_kimiwork_split_r9.json": "49bad2b47640d4f240e13b54fda778cf41e580adfe1a35e9506bfdb0b8657864",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/phone_reader_kimiwork_split_r10.json": "6f2136d60734a87703f072d589044e020e4f2da8f57830263be192549134ab42",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/scores_kimiwork_split_r8.json": "4ddb60af52968c9f4b2c1966d7d30cd0247132ac4020038bc1171cc3eaae4c5e"
+  }
+}

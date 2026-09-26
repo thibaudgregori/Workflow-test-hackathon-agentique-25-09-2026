@@ -1,0 +1,206 @@
+{
+ "label": "kimiwork_cutout",
+ "rounds": [
+  "r3",
+  "r4",
+  "r5",
+  "r6"
+ ],
+ "scored_by": "the cutout author, against gen/kimiwork_scene.py BESPOKE via gen/_geom_kimiwork_cutout.json",
+ "rule": "SCORE THE IDEA, NOT THE NOUN (Miguel, 2026-09-06). A read that names the drawn thing or an obvious sibling noun of it PASSES; a DIFFERENT thing, a hedge or `cannot tell` FAILS. The arithmetic over the four rounds is production.consensus's, not mine.",
+ "context": "REPAIR ROUND. split_kimiwork_retry held gen/.kimiwork_scene.lock, redrew object 1 LANDSCAPE (WIN_W,WIN_H 188x202 -> 212x176, DEVIATION 14) with an address field in the title bar, and re-sealed the shared module on three rounds (review/artwork_pass_kimiwork.json, module sha256 534e192f...). This lane rebuilt from that republished module and re-read all six objects over FOUR fresh independent rounds.",
+ "objects": [
+  {
+   "i": 0,
+   "intended": "a crown",
+   "verdict": "PASS",
+   "reason": "'crown' is the intended noun, four independent readers, four `sure`.",
+   "reads": [
+    {
+     "round": "r3",
+     "name": "crown",
+     "confidence": "sure",
+     "match": "intended"
+    },
+    {
+     "round": "r4",
+     "name": "crown",
+     "confidence": "sure",
+     "match": "intended"
+    },
+    {
+     "round": "r5",
+     "name": "crown",
+     "confidence": "sure",
+     "match": "intended"
+    },
+    {
+     "round": "r6",
+     "name": "Crown",
+     "confidence": "sure",
+     "match": "intended"
+    }
+   ]
+  },
+  {
+   "i": 1,
+   "intended": "an app window",
+   "verdict": "PASS",
+   "reason": "Every read is a window carrying an app icon - 'browser window with app icon' x2 and 'browser window' x2, four `sure`, ZERO different-object reads. STANDARD.md -> THE PHONE TEST names 'browser window' for an app window as a PASS by name. This is the object the repair round redrew LANDSCAPE (212x176); the portrait frame's 'Refrigerator' reads are gone.",
+   "reads": [
+    {
+     "round": "r3",
+     "name": "browser window with app icon",
+     "confidence": "sure",
+     "match": "synonym"
+    },
+    {
+     "round": "r4",
+     "name": "browser window with app icon",
+     "confidence": "sure",
+     "match": "synonym"
+    },
+    {
+     "round": "r5",
+     "name": "browser window",
+     "confidence": "sure",
+     "match": "synonym"
+    },
+    {
+     "round": "r6",
+     "name": "browser window",
+     "confidence": "sure",
+     "match": "synonym"
+    }
+   ]
+  },
+  {
+   "i": 2,
+   "intended": "an open laptop",
+   "verdict": "PASS",
+   "reason": "'laptop' is the intended 'an open laptop', four `sure`.",
+   "reads": [
+    {
+     "round": "r3",
+     "name": "Laptop",
+     "confidence": "sure",
+     "match": "intended"
+    },
+    {
+     "round": "r4",
+     "name": "laptop",
+     "confidence": "sure",
+     "match": "intended"
+    },
+    {
+     "round": "r5",
+     "name": "laptop",
+     "confidence": "sure",
+     "match": "intended"
+    },
+    {
+     "round": "r6",
+     "name": "laptop",
+     "confidence": "sure",
+     "match": "intended"
+    }
+   ]
+  },
+  {
+   "i": 3,
+   "intended": "a paper report",
+   "verdict": "PASS",
+   "reason": "'document with bar chart' is named in STANDARD.md as a PASS for a report: the reader named the drawn content of the thing it saw.",
+   "reads": [
+    {
+     "round": "r3",
+     "name": "document with bar chart",
+     "confidence": "sure",
+     "match": "synonym"
+    },
+    {
+     "round": "r4",
+     "name": "document with bar chart",
+     "confidence": "sure",
+     "match": "synonym"
+    },
+    {
+     "round": "r5",
+     "name": "document with bar chart",
+     "confidence": "sure",
+     "match": "synonym"
+    },
+    {
+     "round": "r6",
+     "name": "document with bar chart",
+     "confidence": "sure",
+     "match": "synonym"
+    }
+   ]
+  },
+  {
+   "i": 4,
+   "intended": "a presentation screen",
+   "verdict": "PASS",
+   "reason": "'presentation board on easel' / 'presentation easel board' / 'presentation board on stand' are the same object as the intended 'a presentation screen' - a screen on a stand - four `sure`.",
+   "reads": [
+    {
+     "round": "r3",
+     "name": "presentation board on easel",
+     "confidence": "sure",
+     "match": "synonym"
+    },
+    {
+     "round": "r4",
+     "name": "presentation easel board",
+     "confidence": "sure",
+     "match": "synonym"
+    },
+    {
+     "round": "r5",
+     "name": "presentation board on stand",
+     "confidence": "sure",
+     "match": "synonym"
+    },
+    {
+     "round": "r6",
+     "name": "presentation board on easel",
+     "confidence": "sure",
+     "match": "synonym"
+    }
+   ]
+  },
+  {
+   "i": 5,
+   "intended": "a till receipt",
+   "verdict": "PASS",
+   "reason": "Three of four readers said 'receipt', `sure`. Round 4 said 'document download icon', `sure` - a DIFFERENT thing, and it is the same single misread the artwork seal recorded on this drawing ('document with download arrow'). One different name in four reads is instrument noise under STANDARD.md -> THE COLD READER IS A STOCHASTIC INSTRUMENT and production.consensus (MISREAD_MAX 1, MISREAD_FRACTION 0.25): recorded, not fatal. Two different readers would have been the drawing.",
+   "reads": [
+    {
+     "round": "r3",
+     "name": "receipt",
+     "confidence": "sure",
+     "match": "intended"
+    },
+    {
+     "round": "r4",
+     "name": "document download icon",
+     "confidence": "sure",
+     "match": "different"
+    },
+    {
+     "round": "r5",
+     "name": "receipt",
+     "confidence": "sure",
+     "match": "intended"
+    },
+    {
+     "round": "r6",
+     "name": "receipt",
+     "confidence": "sure",
+     "match": "intended"
+    }
+   ]
+  }
+ ]
+}

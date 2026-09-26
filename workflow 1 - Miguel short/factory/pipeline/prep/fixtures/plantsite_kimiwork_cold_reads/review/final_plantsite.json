@@ -1,0 +1,31 @@
+{
+ "vid": "plantsite",
+ "run": "shorts_run16",
+ "clerk": "independent clerk v3.1 (audit_plantsite)",
+ "verdict": "PASS",
+ "phone_verdict": "PASS (9/9 objects, 0 fail, 0 pre-flagged)",
+ "confirmed": 0,
+ "dismissed": {
+  "split": 5,
+  "whiteboard": 5,
+  "cutout": 4
+ },
+ "renders_judged": 3,
+ "watcher_cands_found": false,
+ "watcher_cost_not_spent_usd": 0.0,
+ "gate3_gemini_describe": "REPORTED, describe_errors null on all three",
+ "instruments": {
+  "face_center_check_reels_worst_band_dx_pct": 4.35,
+  "face_center_check_verdict": "PASS",
+  "whiteboard_zero_ink_blank_frames": 0,
+  "whiteboard_zero_ink_verdict": "PASS",
+  "durations_s": 23.741333,
+  "handles": "youtube @migueltorrezai / reels+tiktok @migueltorrez.ai"
+ },
+ "reviewed_files": {
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/staging/youtube/plantsite_split.mp4": "52a8c9f4bd2908dad8b5a03015a38fc93e96cb6f580245613c8c9cd850c72035",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/staging/reels/plantsite_whiteboard.mp4": "10479f068e4465c3f8e4bf5755d70c30a4dcc74ef59e4979b031b2d065663776",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/staging/tiktok/plantsite_cutout.mp4": "c0dc36795b491bbad76b86896b8897ce1534aab1534c80b539ae3ff24e61d099"
+ },
+ "report": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/clerk_v3_plantsite.md"
+}

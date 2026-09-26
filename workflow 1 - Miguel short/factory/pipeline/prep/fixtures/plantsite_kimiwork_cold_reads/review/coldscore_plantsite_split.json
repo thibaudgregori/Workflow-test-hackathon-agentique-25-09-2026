@@ -1,0 +1,30 @@
+{
+ "video": "plantsite",
+ "fmt": "split",
+ "scored_by": "the split author, against the scene module's declared BESPOKE names (SC.BESPOKE) \u2014 the sealed key was never opened",
+ "objects": [
+  {
+   "i": 0,
+   "intended": "a ticked checklist",
+   "namer_answer": "checklist clipboard (sure)",
+   "verdict": "PASS",
+   "reason": "'checklist' is the intended object verbatim and 'clipboard' is the plan's own listed synonym (bespoke_objects[0].cold_read_note)."
+  },
+  {
+   "i": 1,
+   "intended": "a website about plants",
+   "namer_answer": "flower (sure) x3 independent readers",
+   "verdict": "FAIL",
+   "reason": "THREE fresh readers name only the flower.  The intended object is the PAGE somebody built \u2014 'plant website' / 'flower webpage' per the plan's own cold_read_note \u2014 and the container half of the answer is missing from every read.  A partial read is a missing object, not a label to argue with.  The plan's named replacement (a laptop with the same flower on its screen), already drawn by the artwork author, was read blind in the same round and came back 'laptop with flower' (sure): BOTH halves, first try."
+  },
+  {
+   "i": 2,
+   "intended": "a calendar",
+   "namer_answer": "calendar (sure)",
+   "verdict": "PASS",
+   "reason": "the intended object verbatim; the WEEKEND key carries the rest on the board (bespoke_objects[2].cold_read_note)."
+  }
+ ],
+ "verdict": "FAIL",
+ "blocked_on": "bespoke object 1, the PLANT WEB PAGE, which lives in the SHARED scene module gen/plantsite_scene.py and is therefore not the split author's to re-cut mid-flight."
+}

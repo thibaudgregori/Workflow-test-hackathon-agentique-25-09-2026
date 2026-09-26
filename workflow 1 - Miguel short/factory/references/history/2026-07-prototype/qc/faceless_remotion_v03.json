@@ -1,0 +1,16 @@
+{
+ "pass": true,
+ "score_layout": 10,
+ "score_captions": 10,
+ "score_timing": 9,
+ "score_audio": 10,
+ "score_style_match": 10,
+ "issues": [
+  {
+   "severity": "minor",
+   "at_seconds": 43.5,
+   "description": "The candidate video slightly deviates from the reference video in the narration at 43 seconds, mentioning 'Sonnet 4.3' instead of 'Sonnet 4.6' while displaying 'Sonnet 4.6' on the screen."
+  }
+ ],
+ "summary": "The candidate video maintains high quality and consistency with the reference. While there is a minor discrepancy in the audio narration versus the visual text at 43.5 seconds, it does not violate the pass criteria."
+}

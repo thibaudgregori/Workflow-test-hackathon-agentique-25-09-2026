@@ -1,0 +1,48 @@
+{
+ "round": 1,
+ "reader": "claude -p, one fresh process per crop, cwd /tmp, image path only",
+ "names": [
+  {
+   "i": 0,
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/r1-c4f6df50/fd4ad0bf4378.png",
+   "name": "crown",
+   "confidence": "sure",
+   "raw": null
+  },
+  {
+   "i": 1,
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/r1-ad38b5bc/eab6dd73cfca.png",
+   "name": "browser window with app icon",
+   "confidence": "sure",
+   "raw": null
+  },
+  {
+   "i": 2,
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/r1-9583b372/16526555d779.png",
+   "name": "laptop",
+   "confidence": "sure",
+   "raw": null
+  },
+  {
+   "i": 3,
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/r1-a9641671/8598fd8c446d.png",
+   "name": "document with bar chart",
+   "confidence": "sure",
+   "raw": null
+  },
+  {
+   "i": 4,
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/r1-f17205a9/c2ef2056e329.png",
+   "name": "presentation board on easel",
+   "confidence": "sure",
+   "raw": null
+  },
+  {
+   "i": 5,
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/r1-d7c15e4c/7bd5c8fac3e3.png",
+   "name": "receipt",
+   "confidence": "sure",
+   "raw": null
+  }
+ ]
+}

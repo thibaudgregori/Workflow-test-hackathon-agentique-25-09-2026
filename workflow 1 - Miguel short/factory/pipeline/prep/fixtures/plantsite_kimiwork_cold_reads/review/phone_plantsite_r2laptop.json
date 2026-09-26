@@ -1,0 +1,53 @@
+{
+  "tag": "r2laptop",
+  "variant": "laptop",
+  "composed_final": "shorts_run16/review/proofs_plantsite_r2laptop/composed_final_frame.png",
+  "composed_opening": "shorts_run16/review/proofs_plantsite_r2laptop/composed_opening_frame.png",
+  "objects": [
+    {
+      "key": "01",
+      "file": "shorts_run16/review/proofs_plantsite_r2laptop/01.png",
+      "phone_box": [
+        158,
+        112,
+        248,
+        210
+      ],
+      "phone_px": [
+        90,
+        98
+      ],
+      "variant": "laptop"
+    },
+    {
+      "key": "02",
+      "file": "shorts_run16/review/proofs_plantsite_r2laptop/02.png",
+      "phone_box": [
+        195,
+        112,
+        360,
+        255
+      ],
+      "phone_px": [
+        165,
+        143
+      ],
+      "variant": "laptop"
+    },
+    {
+      "key": "03",
+      "file": "shorts_run16/review/proofs_plantsite_r2laptop/03.png",
+      "phone_box": [
+        49,
+        199,
+        139,
+        259
+      ],
+      "phone_px": [
+        90,
+        60
+      ],
+      "variant": "laptop"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+ "staged": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/staging/tiktok/kimiwork_cutout.mp4",
+ "phone_verdict": "PASS",
+ "blocked": "",
+ "rounds": 1,
+ "redesigned": false,
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/projects/kimiwork_cutout",
+ "cold_crop_paths": [
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/cd096670/00.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/cd096670/01.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/cd096670/02.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/cd096670/03.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/cd096670/04.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/cd096670/05.png"
+ ],
+ "fails": [],
+ "cands": "none - the Gemini watcher returned code 1 (SPENDING CAP), so render_and_check staged on qc_pass alone and review/cands_kimiwork_cutout.json was never written. This is the tool's own fallback, not a watch_waiver I wrote around it; the clerk must decode the staged file itself for this lane.",
+ "flagged_for_clerk": "The Gemini watcher was UNAVAILABLE (spending cap) for this render, so there is no candidate list to adjudicate: clerk v3 has to watch staging/tiktok/kimiwork_cutout.mp4 (sha256 289da2f27c33c2b0...) directly. qc_pass PASS on every applicable check (only whiteboard_seam_law skipped, not applicable to cutout).",
+ "report": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/plans/kimiwork_cutout_notes.md (REPAIR ROUND section); scores /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/scores_kimiwork_cutout_round3.json; readers /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/phone_reader_kimiwork_cutout_r{3,4,5,6}.json; strict geometry /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/gen/_geomstrict_kimiwork_cutout.json; prerender /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/gen/_prerender_kimiwork_cutout.json; render/checks /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/gen/_rc_kimiwork_cutout.json; qc /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/gen/_qcpass_kimiwork_cutout.json"
+}

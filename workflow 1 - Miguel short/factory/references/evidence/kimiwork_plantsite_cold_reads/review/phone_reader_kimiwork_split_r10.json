@@ -1,0 +1,60 @@
+{
+  "tag": "round6",
+  "cold_dir": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/round6-68b5bf1c",
+  "reader": "one independent `claude -p` process per crop, launched from /tmp, handed ONLY the absolute path of a blind copy under a random token - no plan, no topic, no manifest, no sealed key, and no path naming the video",
+  "prompt": "Look at the image at <absolute path of one blind crop> . Name the single everyday object drawn in it. At most FIVE words. Reply with ONE line of JSON and nothing else: {\"name\":\"<=5 words\",\"confidence\":\"sure|unsure|cannot tell\"}",
+  "dispatched_at": "2026-09-06T19:14:28",
+  "cli": "2.1.263 (Claude Code)",
+  "source_crops": {
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/phone_kimiwork_split/00.png": "5d10eae4b0cbc908d81c69a711aa2b78e5b71b3e6a72c1b71ba014cd0064fcda",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/phone_kimiwork_split/01.png": "1d13d4fb417bc13cc1c88b244b1ff90d1794c46144c96309bed916ece1f73943",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/phone_kimiwork_split/02.png": "3f75a904459c0e4947b5c8bd5a8e2c0837313a31f064620cbe31334e9b39036e",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/phone_kimiwork_split/03.png": "903eb2d781c3b12a7235f7d6a8ee4170e3171f243c8fd84cd2f143244d1ba966",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/phone_kimiwork_split/04.png": "3837d9ffc37c971f44452e63048e9fb16e9524ff0b73a06bd2f6a938ade2f063",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/phone_kimiwork_split/05.png": "a084e51d9c5d55e222e9b1e30951df0a2543c49929fa7caf2b48976bf2a9d85f"
+  },
+  "names": [
+    {
+      "i": 0,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/round6-68b5bf1c/00.png",
+      "name": "crown",
+      "confidence": "sure",
+      "crop_sha256": "5d10eae4b0cbc908d81c69a711aa2b78e5b71b3e6a72c1b71ba014cd0064fcda"
+    },
+    {
+      "i": 1,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/round6-68b5bf1c/01.png",
+      "name": "browser window with app icon",
+      "confidence": "sure",
+      "crop_sha256": "1d13d4fb417bc13cc1c88b244b1ff90d1794c46144c96309bed916ece1f73943"
+    },
+    {
+      "i": 2,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/round6-68b5bf1c/02.png",
+      "name": "laptop",
+      "confidence": "sure",
+      "crop_sha256": "3f75a904459c0e4947b5c8bd5a8e2c0837313a31f064620cbe31334e9b39036e"
+    },
+    {
+      "i": 3,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/round6-68b5bf1c/03.png",
+      "name": "document with bar chart",
+      "confidence": "sure",
+      "crop_sha256": "903eb2d781c3b12a7235f7d6a8ee4170e3171f243c8fd84cd2f143244d1ba966"
+    },
+    {
+      "i": 4,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/round6-68b5bf1c/04.png",
+      "name": "presentation board",
+      "confidence": "sure",
+      "crop_sha256": "3837d9ffc37c971f44452e63048e9fb16e9524ff0b73a06bd2f6a938ade2f063"
+    },
+    {
+      "i": 5,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/round6-68b5bf1c/05.png",
+      "name": "receipt",
+      "confidence": "unsure",
+      "crop_sha256": "a084e51d9c5d55e222e9b1e30951df0a2543c49929fa7caf2b48976bf2a9d85f"
+    }
+  ]
+}

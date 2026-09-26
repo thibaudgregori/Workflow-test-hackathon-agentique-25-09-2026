@@ -1,0 +1,16 @@
+{
+ "pass": true,
+ "score_layout": 9,
+ "score_captions": 10,
+ "score_timing": 10,
+ "score_audio": 10,
+ "score_style_match": 10,
+ "issues": [
+  {
+   "severity": "minor",
+   "at_seconds": 6.8,
+   "description": "The 'Memory' section header and supporting text have tight vertical spacing."
+  }
+ ],
+ "summary": "The candidate video maintains high brand fidelity, with clean production and accurate captioning. The layout is functional and aesthetically pleasing despite being distinct from the reference video, and there are no critical issues."
+}

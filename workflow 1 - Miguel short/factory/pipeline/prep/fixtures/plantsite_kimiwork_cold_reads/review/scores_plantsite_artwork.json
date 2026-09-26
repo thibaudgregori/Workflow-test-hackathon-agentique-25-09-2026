@@ -1,0 +1,37 @@
+{
+  "vid": "plantsite",
+  "stage": "artwork",
+  "scored_at": "2026-09-06T18:19:00",
+  "evidence": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/phone_reader_plantsite_artwork.json",
+  "rule": "STANDARD.md -> THE PHONE TEST -> SCORE THE IDEA, NOT THE NOUN (Miguel, 2026-09-06). The score asks one question: would a stranger who said that get the picture the plan wants? An obvious synonym, a sibling noun of the same thing, or naming the content of the container passes. A different thing, a hedge or 'cannot tell' fails.",
+  "objects": [
+    {
+      "i": 0,
+      "object": "TICKED TASK LIST",
+      "intended": "a finished, ticked to-do list - the productivity habit the video argues against",
+      "reader_name": "clipboard checklist",
+      "reader_confidence": "sure",
+      "verdict": "PASS",
+      "reason": "The plan's own cold_read_note names 'checklist' / 'to-do list' / 'clipboard' as the intended read. The reader returned both words of that pair, confident, in two words. It is the intended object, not a sibling."
+    },
+    {
+      "i": 1,
+      "object": "PLANT WEB PAGE",
+      "intended": "a browser window with a plant page inside it - the website somebody actually built about indigenous plants",
+      "reader_name": "flower in browser window",
+      "reader_confidence": "sure",
+      "verdict": "PASS",
+      "reason": "Miguel's standing ruling on this exact object: 'flower' for a browser window with a plant drawn in it is a PASS - flower and plant are the same visual idea, and the reader named the content of the container it saw. This read is strictly stronger than the ruling requires: it names the container too ('in browser window'), so the stranger gets the whole picture the plan wants, a plant page in a browser. Scoring this literally is what stalled all three lanes in the first pass; the drawing is not to be redesigned."
+    },
+    {
+      "i": 2,
+      "object": "WEEKEND CALENDAR PAGE",
+      "intended": "a month calendar with two adjacent cells inked - the weekend the whole claim costs",
+      "reader_name": "Calendar",
+      "reader_confidence": "sure",
+      "verdict": "PASS",
+      "reason": "The plan's own cold_read_note: 'a cold namer landing on calendar has named the intended object; the WEEKEND key carries the rest.' Exact hit, confident."
+    }
+  ],
+  "summary": "3 bespoke objects, 3 independent cold reads, 3 confident reads, 0 dispatch failures, 3 PASS."
+}

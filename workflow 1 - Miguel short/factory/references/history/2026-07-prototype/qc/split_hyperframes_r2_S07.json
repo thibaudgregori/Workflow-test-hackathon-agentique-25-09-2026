@@ -1,0 +1,16 @@
+{
+ "pass": true,
+ "score_layout": 9,
+ "score_captions": 10,
+ "score_timing": 10,
+ "score_audio": 10,
+ "score_style_match": 10,
+ "issues": [
+  {
+   "severity": "minor",
+   "at_seconds": 0.05,
+   "description": "The 'Claude' title card at the start is slightly shifted to the left, resulting in less margin on the left side compared to the right."
+  }
+ ],
+ "summary": "The candidate video effectively maintains the brand's aesthetic and professional tone while using a distinct layout. The captions are perfectly synced, and the audio quality is excellent. The only minor issue is a slight misalignment of the introductory title card, which does not impact readability or brand consistency."
+}

@@ -1,0 +1,44 @@
+{
+  "tag": "round2",
+  "cold_dir": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/round2-ef9aa722",
+  "reader": "one independent `claude -p` process per crop, launched from /tmp, handed ONLY the absolute path of a blind copy under a random token - no plan, no topic, no manifest, no sealed key, and no path naming the video",
+  "prompt": "Look at the image at <absolute path of one blind crop> . Name the single everyday object drawn in it. At most FIVE words. Reply with ONE line of JSON and nothing else: {\"name\":\"<=5 words\",\"confidence\":\"sure|unsure|cannot tell\"}",
+  "dispatched_at": "2026-09-06T18:22:56",
+  "cli": "2.1.263 (Claude Code)",
+  "source_crops": {
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/phone_minimaxh3_split/00.png": "a1483bda1bb4fe4f82292c737dc33451bc398fd46ed7c9a15195db4360f94ac3",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/phone_minimaxh3_split/01.png": "582238c1301859a85495715d1397375f9c139391ecfc7129ff9f9cc30c137bcb",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/phone_minimaxh3_split/02.png": "b821475402f436706e2b7b6ec4550335e2a6b82b5d8b3c8b24ea6bd3021a4fae",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/phone_minimaxh3_split/03.png": "4b485c7a14890ef1b279c70e7a6129f01f3615306b7d7a7593a275d4ce5a3a23"
+  },
+  "names": [
+    {
+      "i": 0,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/round2-ef9aa722/00.png",
+      "name": "winners podium",
+      "confidence": "sure",
+      "crop_sha256": "a1483bda1bb4fe4f82292c737dc33451bc398fd46ed7c9a15195db4360f94ac3"
+    },
+    {
+      "i": 1,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/round2-ef9aa722/01.png",
+      "name": "open book",
+      "confidence": "sure",
+      "crop_sha256": "582238c1301859a85495715d1397375f9c139391ecfc7129ff9f9cc30c137bcb"
+    },
+    {
+      "i": 2,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/round2-ef9aa722/02.png",
+      "name": "notebook",
+      "confidence": "sure",
+      "crop_sha256": "b821475402f436706e2b7b6ec4550335e2a6b82b5d8b3c8b24ea6bd3021a4fae"
+    },
+    {
+      "i": 3,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/round2-ef9aa722/03.png",
+      "name": "price tag",
+      "confidence": "sure",
+      "crop_sha256": "4b485c7a14890ef1b279c70e7a6129f01f3615306b7d7a7593a275d4ce5a3a23"
+    }
+  ]
+}

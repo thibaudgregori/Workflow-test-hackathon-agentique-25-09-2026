@@ -1,0 +1,78 @@
+{
+ "app": "shorts-factory-sam2",
+ "session": "meatwrapper",
+ "tag": "v1",
+ "gpu": "NVIDIA A10",
+ "dtype": "fp32",
+ "model": "sam2.1_hiera_base_plus",
+ "torch": "2.13.0+cu130",
+ "cuda": "13.0",
+ "ckpt": "/root/ckpt/sam2.1_hiera_base_plus.pt",
+ "cfg": "configs/sam2.1/sam2.1_hiera_b+.yaml",
+ "width": 1080,
+ "height": 900,
+ "fps": 25,
+ "frames_on_disk": 1476,
+ "frames_tracked": 1476,
+ "chunk": 350,
+ "overlap": 8,
+ "warm_lap": 15,
+ "warm_frames_discarded": 16,
+ "keyframe_masks": 1,
+ "keyframes": [
+  0
+ ],
+ "prompts_applied": [
+  {
+   "kf": 0,
+   "local": 0,
+   "kind": "mask (discarded prompt copy)"
+  }
+ ],
+ "prompt": "add_new_mask",
+ "seams": [
+  {
+   "seam_at": 350,
+   "overlap": 8,
+   "iou_min": 0.99767,
+   "iou_mean": 0.99853
+  },
+  {
+   "seam_at": 700,
+   "overlap": 8,
+   "iou_min": 0.99895,
+   "iou_mean": 0.99923
+  },
+  {
+   "seam_at": 1050,
+   "overlap": 8,
+   "iou_min": 0.99929,
+   "iou_mean": 0.99953
+  },
+  {
+   "seam_at": 1400,
+   "overlap": 8,
+   "iou_min": 0.99929,
+   "iou_mean": 0.99952
+  }
+ ],
+ "track_seconds": 354.61,
+ "ms_per_frame": 240.3,
+ "extract_seconds": 1.4,
+ "container_id": "de8c57f7-78aa-4c06-b264-990d28a1b4b7",
+ "t_import_epoch": 1788217880.296022,
+ "t_fn_entry_epoch": 1788217881.8089113,
+ "t_fn_exit_epoch": 1788218241.280578,
+ "alpha_bytes": 46052107,
+ "alpha_on_volume": "/vol/meatwrapper/alpha_v1.mkv",
+ "cold_start_seconds": 5.91,
+ "billed_container_seconds": 363.0,
+ "measured_cost_usd": 0.143,
+ "cost_breakdown_usd": {
+  "gpu": 0.1111,
+  "cpu": 0.019,
+  "mem": 0.0129
+ },
+ "alpha_local": "sessions/meatwrapper/alpha_v1.mkv",
+ "plate_local": "sessions/meatwrapper/plate_wide_25.mp4"
+}

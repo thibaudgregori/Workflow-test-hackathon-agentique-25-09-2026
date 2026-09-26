@@ -1,0 +1,23 @@
+{
+ "label": "kimiwork_split",
+ "round": "r1b",
+ "instrument": "one `claude -p` process per crop, fresh session, no plan / page / manifest / key, random crop name in its own folder",
+ "names": [
+  {
+   "i": 3,
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/split-r1b-569012bd/e7c34b84e870.png",
+   "name": "document with text lines",
+   "confidence": "sure"
+  }
+ ],
+ "readers": [
+  {
+   "i": 3,
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/split-r1b-569012bd/e7c34b84e870.png",
+   "intended": "a paper report",
+   "name": "document with text lines",
+   "confidence": "sure",
+   "raw": null
+  }
+ ]
+}

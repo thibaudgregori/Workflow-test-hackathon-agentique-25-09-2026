@@ -1,0 +1,36 @@
+{
+  "tag": "round1",
+  "cold_dir": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/round1-22e00187",
+  "reader": "one independent `claude -p` process per crop, launched from /tmp, handed ONLY the absolute path of a blind copy under a random token - no plan, no topic, no manifest, no sealed key, and no path naming the video",
+  "prompt": "Look at the image at <absolute path of one blind crop> . Name the single everyday object drawn in it. At most FIVE words. Reply with ONE line of JSON and nothing else: {\"name\":\"<=5 words\",\"confidence\":\"sure|unsure|cannot tell\"}",
+  "dispatched_at": "2026-09-06T18:18:04",
+  "cli": "2.1.263 (Claude Code)",
+  "source_crops": {
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/proofs_plantsite_r1/01.png": "4396a935bc5df9d090a8ad7ffeb030cc526d4353baf79896f5bb8da1e6225884",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/proofs_plantsite_r1/02.png": "37916cbe82257d37c4998e5be1f68bf00554c513ea461cd7b5224a32603a6164",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/proofs_plantsite_r1/03.png": "e4cb2d15db9a6b437b8ca391c3d6c0c27d3d75b4a38f9880eef5bfc6a09a2abc"
+  },
+  "names": [
+    {
+      "i": 0,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/round1-22e00187/00.png",
+      "name": "clipboard checklist",
+      "confidence": "sure",
+      "crop_sha256": "4396a935bc5df9d090a8ad7ffeb030cc526d4353baf79896f5bb8da1e6225884"
+    },
+    {
+      "i": 1,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/round1-22e00187/01.png",
+      "name": "flower in browser window",
+      "confidence": "sure",
+      "crop_sha256": "37916cbe82257d37c4998e5be1f68bf00554c513ea461cd7b5224a32603a6164"
+    },
+    {
+      "i": 2,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/round1-22e00187/02.png",
+      "name": "Calendar",
+      "confidence": "sure",
+      "crop_sha256": "e4cb2d15db9a6b437b8ca391c3d6c0c27d3d75b4a38f9880eef5bfc6a09a2abc"
+    }
+  ]
+}

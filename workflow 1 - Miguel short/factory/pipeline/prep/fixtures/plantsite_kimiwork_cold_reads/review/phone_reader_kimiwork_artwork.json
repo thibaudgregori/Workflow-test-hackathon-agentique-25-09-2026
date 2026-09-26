@@ -1,0 +1,60 @@
+{
+  "tag": "seal2",
+  "cold_dir": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/seal2-16c311ab",
+  "reader": "one independent `claude -p` process per crop, launched from /tmp, handed ONLY the absolute path of a blind copy under a random token - no plan, no topic, no manifest, no sealed key, and no path naming the video",
+  "prompt": "Look at the image at <absolute path of one blind crop> . Name the single everyday object drawn in it. At most FIVE words. Reply with ONE line of JSON and nothing else: {\"name\":\"<=5 words\",\"confidence\":\"sure|unsure|cannot tell\"}",
+  "dispatched_at": "2026-09-06T18:18:19",
+  "cli": "2.1.263 (Claude Code)",
+  "source_crops": {
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/proofs_kimiwork/crops/00_a-crown.png": "12732a02a8139e47a06fcb4f5cac0eb9c9b7602856f8b57adc0fff5ebac23a8e",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/proofs_kimiwork/crops/01_an-app-window.png": "52b9d8f903654d75c562e335c1fcb9019e82f5db69367b6b4be2895700b62511",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/proofs_kimiwork/crops/02_an-open-laptop.png": "1f9643ff0f04b25153e917434f91f32cb2635e21d8a18981bb713338d4d6a3c4",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/proofs_kimiwork/crops/03_a-paper-report.png": "4673deddd7f0e360f25770be59dbe94f00723bfdd336ca71d1c278c46e2f3873",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/proofs_kimiwork/crops/04_a-presentation-screen.png": "3837d9ffc37c971f44452e63048e9fb16e9524ff0b73a06bd2f6a938ade2f063",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/proofs_kimiwork/crops/05_a-till-receipt.png": "a084e51d9c5d55e222e9b1e30951df0a2543c49929fa7caf2b48976bf2a9d85f"
+  },
+  "names": [
+    {
+      "i": 0,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/seal2-16c311ab/00.png",
+      "name": "crown",
+      "confidence": "sure",
+      "crop_sha256": "12732a02a8139e47a06fcb4f5cac0eb9c9b7602856f8b57adc0fff5ebac23a8e"
+    },
+    {
+      "i": 1,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/seal2-16c311ab/01.png",
+      "name": "browser window with app icon",
+      "confidence": "sure",
+      "crop_sha256": "52b9d8f903654d75c562e335c1fcb9019e82f5db69367b6b4be2895700b62511"
+    },
+    {
+      "i": 2,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/seal2-16c311ab/02.png",
+      "name": "laptop",
+      "confidence": "sure",
+      "crop_sha256": "1f9643ff0f04b25153e917434f91f32cb2635e21d8a18981bb713338d4d6a3c4"
+    },
+    {
+      "i": 3,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/seal2-16c311ab/03.png",
+      "name": "document with bar chart",
+      "confidence": "sure",
+      "crop_sha256": "4673deddd7f0e360f25770be59dbe94f00723bfdd336ca71d1c278c46e2f3873"
+    },
+    {
+      "i": 4,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/seal2-16c311ab/04.png",
+      "name": "presentation board on easel",
+      "confidence": "sure",
+      "crop_sha256": "3837d9ffc37c971f44452e63048e9fb16e9524ff0b73a06bd2f6a938ade2f063"
+    },
+    {
+      "i": 5,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/seal2-16c311ab/05.png",
+      "name": "receipt",
+      "confidence": "sure",
+      "crop_sha256": "a084e51d9c5d55e222e9b1e30951df0a2543c49929fa7caf2b48976bf2a9d85f"
+    }
+  ]
+}

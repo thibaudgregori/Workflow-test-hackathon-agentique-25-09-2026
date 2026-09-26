@@ -1,0 +1,55 @@
+{
+ "staged": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/staging/youtube/kimiwork_split.mp4",
+ "staged_sha256": "0aec7e91defdf324ce2f1e2531b8317b5aa9229a441039e6de29c6707c8225ff",
+ "phone_verdict": "PASS",
+ "blocked": "",
+ "rounds": 2,
+ "redesigned": true,
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/projects/kimiwork_split",
+ "scene_handoff": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/plans/kimiwork_scene_handoff.md",
+ "lane": "icon choreography",
+ "cold_crop_paths": [
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/62fb5ed6/00.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/62fb5ed6/01.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/62fb5ed6/02.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/62fb5ed6/03.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/62fb5ed6/04.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/62fb5ed6/05.png"
+ ],
+ "cands": "review/cands_kimiwork_split.json WAS NOT WRITTEN: the Gemini watcher returned 429 RESOURCE_EXHAUSTED (monthly spending cap), $0 spent.  render_and_check recorded watch_unavailable and staged on qc_pass alone, by its own design - no watch_waiver was written and nothing was hand-edited.  The clerk has no candidate list to adjudicate for this file and must decode it itself.",
+ "prerender": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/gen/_prerender_kimiwork_split.json",
+ "geometry_audit": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/gen/_geomaudit_kimiwork_split/report.json",
+ "phone_page": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/gen/_phonepage_kimiwork_split.json",
+ "reader_evidence": [
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/reader_kimiwork_split_r1.json",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/reader_kimiwork_split_r1b.json",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/reader_kimiwork_split_r2.json"
+ ],
+ "scoring": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/scores_kimiwork_split.json",
+ "notes": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/plans/kimiwork_split_notes.md",
+ "render_check": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/gen/_rc_kimiwork_split.json",
+ "qc_pass": {
+  "verdict": "PASS",
+  "failed": [],
+  "checks": [
+   "decoded_blank_frames PASS",
+   "zero_ink_law PASS",
+   "clip_coverage_page PASS",
+   "double_exposure REPORTED",
+   "face_centring PASS",
+   "pill_canon_rendered PASS",
+   "gate1_geometry_audit PASS",
+   "gate2_frame_review PASS",
+   "gate3_gemini_describe REPORTED",
+   "audio_guards PASS",
+   "contact_sheet PASS",
+   "phone_crops PASS"
+  ]
+ },
+ "modal_cost_usd": 0.0101,
+ "flagged_for_clerk": [
+  "The Gemini watcher never ran (429 monthly cap), so there is no candidate list; the clerk must decode the staged file itself.",
+  "gen/kimiwork_scene.py -> report_svg() was CHANGED by this author after a cold namer read the paper report as 'clipboard'.  The stack offset moved from up-right to down-right; no rect, block, key, connector, lifetime or cue moved.  The CUTOUT author must rebuild if it composed before 2026-09-06 14:00.  Written up in plans/kimiwork_split_notes.md s1.",
+  "The plan and the handoff both state 118.7 / 132.7 px of caption clearance, derived from a pill centred at y=960.  The published split seats the pill ON THE SEAM at 862.5, so the true clearance under the lowest ink is 35.21 px.  It passes the 24 px guard, but there is no slack left.  Notes s3."
+ ]
+}

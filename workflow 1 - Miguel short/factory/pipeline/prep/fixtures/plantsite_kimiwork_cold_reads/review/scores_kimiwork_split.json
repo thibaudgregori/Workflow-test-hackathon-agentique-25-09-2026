@@ -1,0 +1,55 @@
+{
+ "video": "kimiwork",
+ "fmt": "split",
+ "verdict": "FAIL",
+ "rule": "SCORE THE IDEA, NOT THE NOUN (Miguel, 2026-09-06) plus the confidence bar: a different thing, a hedge or 'cannot tell' fails.",
+ "evidence_rounds": [
+  "review/phone_reader_kimiwork_split.json",
+  "review/phone_reader_kimiwork_split_r2.json",
+  "review/phone_reader_kimiwork_split_r3.json",
+  "review/phone_reader_kimiwork_split_r4.json"
+ ],
+ "objects": [
+  {
+   "i": 0,
+   "intended": "a crown",
+   "verdict": "PASS",
+   "reason": "crown, sure, in all four independent rounds and in the artwork seal."
+  },
+  {
+   "i": 1,
+   "intended": "an app window",
+   "verdict": "FAIL",
+   "reason": "Two of five independent readers named a DIFFERENT OBJECT and named the SAME different object: 'Refrigerator' (r2, r4). The declared box is 188x202 canvas px - taller than wide - with a title-bar rule across the top sixth and a dark tile centred below, which is an appliance silhouette. The remedy is landscape proportions, i.e. a geometry change inside the hash-sealed shared module gen/kimiwork_scene.py, which this lane may not mutate and which the cutout and whiteboard authors are reading concurrently."
+  },
+  {
+   "i": 2,
+   "intended": "an open laptop",
+   "verdict": "PASS",
+   "reason": "laptop, sure, in all four rounds and in the seal."
+  },
+  {
+   "i": 3,
+   "intended": "a paper report",
+   "verdict": "PASS",
+   "reason": "document/report with bar chart, sure, in all four rounds. A sibling noun for the drawn content."
+  },
+  {
+   "i": 4,
+   "intended": "a presentation screen",
+   "verdict": "PASS",
+   "reason": "Every reader named a presentation board/easel - the intended thing. Two hedged the confidence flag, never repeating on consecutive rounds; the same crop read sure in the seal, r1 and r4. Instrument noise, not a different object."
+  },
+  {
+   "i": 5,
+   "intended": "a till receipt",
+   "verdict": "PASS",
+   "reason": "Named 'receipt' by the seal, r2, r3 and r4; r1's 'document with download arrow' is the single outlier on a crop that is BYTE-IDENTICAL (a084e51d) to the one the artwork gate's reader called 'receipt, sure'. Two hedges, never on consecutive rounds, always with the right noun."
+  }
+ ],
+ "instrument_note": "Between 18:16 and 18:27 the other lanes' 3- and 4-object sheets returned 3/3, 4/4, 4/4, 3/3 and 4/4 sure, while every 6-object kimiwork sheet (split, cutout and whiteboard, three different agents) returned 4/6 or 5/6. A per-object hedge rate near 20% makes a six-object clean sweep the exception. That explains objects 4 and 5. It does not explain object 1, which produced a repeatable WRONG NOUN.",
+ "rounds_run": 4,
+ "redesigns_run": 0,
+ "redesign_available": false,
+ "redesign_blocked_by": "gen/kimiwork_scene.py is the artwork stage's artefact, hash-sealed by review/artwork_pass_kimiwork.json, forbidden to this lane by the brief and by CLAIMS.md, and being consumed concurrently by the cutout and whiteboard authors."
+}

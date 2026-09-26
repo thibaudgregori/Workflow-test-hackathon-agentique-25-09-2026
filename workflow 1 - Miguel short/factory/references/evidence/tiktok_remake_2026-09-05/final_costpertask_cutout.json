@@ -1,0 +1,165 @@
+{
+  "verdict": "PASS",
+  "phone_verdict": "PASS",
+  "reviewer": "Astra gesture_early_review final export reviewer",
+  "mp4": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-attempts/costpertask-fe8a20680ee78757/output/costpertask_cutout.mp4",
+  "mp4_sha256": "b1011119d6fe6cf433ca525a730ba2d5f85b5c0d30460dea2a1f2d40309e3e95",
+  "alpha_sha256": "95745d62bd9755c9e498d0337246be6f71cba669693da57183d352ecd3c0dde2",
+  "project_sha256": "fe8a20680ee787575652cb7e165ad9f933342bdf4ec5ccd588341e7b4726c330",
+  "agent_review": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/review/costpertask/agent-review.json",
+  "agent_review_sha256": "35bb529cc7584771d683d8ef61fac452391f71521f9d23622d5ce68a89c2efa5",
+  "reviewed_files": {
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-attempts/costpertask-fe8a20680ee78757/output/costpertask_cutout.mp4": "b1011119d6fe6cf433ca525a730ba2d5f85b5c0d30460dea2a1f2d40309e3e95"
+  },
+  "render_result": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-attempts/costpertask-fe8a20680ee78757/result.json",
+  "render_result_sha256": "08c981220bdf55b5a5eee30f69c5bdd34be5a3315a9191a5b6dc92d2820aa634",
+  "whole_video_watcher": {
+    "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/clerk_video_gemini.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-attempts/costpertask-fe8a20680ee78757/output/costpertask_cutout.mp4 costpertask --fmt cutout --out /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/review/cands_costpertask_cutout.json --thinking medium",
+    "returncode": 0,
+    "wall_s": 45.2,
+    "out": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/review/cands_costpertask_cutout.json",
+    "stderr": "[pass 1 win 4/4 34.0-52.0s] 4 beats / 1 candidates  in=18878 out=1077 $0.0084\n[pass 1 win 2/4 0.0-20.0s] 6 beats / 0 candidates  in=20510 out=1165 $0.0091\n[pass 1 win 3/4 17.0-37.0s] 6 beats / 0 candidates  in=20512 out=3188 $0.0141\n[pass 1 win 1/4 0.0-52.0s] 13 beats / 0 candidates  in=46654 out=4545 $0.0254\n",
+    "model": "gemini-3.5-flash-lite",
+    "cost_usd": 0.056905,
+    "counts": {
+      "candidates": 1,
+      "blocking": 1,
+      "motion": 0
+    },
+    "video_summary": "This video features a speaker explaining why evaluating AI models based on cost per token is misleading compared to cost per task. Visual aids including price tags and receipts are used to illustrate model efficiency and comparative pricing across different AI systems.",
+    "candidates": [
+      {
+        "t_start": 38.5,
+        "t_end": 42.5,
+        "klass": "empty_zone",
+        "severity": "blocking",
+        "motion_or_held": "held",
+        "claim": "Browser window container remains completely empty of content while displayed."
+      }
+    ],
+    "blocking_candidates": 1,
+    "pass": false,
+    "failed_because": "1 blocking watcher candidate(s) and no watch_waiver on the job"
+  },
+  "technical_evidence": {
+    "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/qc/qc_pass.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-attempts/costpertask-fe8a20680ee78757/output/costpertask_cutout.mp4 --project /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/costpertask_cutout --vid costpertask --fmt cutout --out /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/gen/_qcpass_costpertask_cutout.json --run /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905 --geom /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-support/_geom_costpertask.json --alpha /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/matting/costpertask/matte_costpertask_v5_alpha.webm --edge-box 1782x990+-351+930.0000 --voice-master /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/cuts/costpertask/audio.m4a --plate /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/matting/costpertask/plate_display_1782x990.mp4 --cap-seat 846.2 --phone-at 3.6:0.3637,0.1422,0.6363,0.2524:a price tag --phone-at 10.1:0.5852,0.1302,0.747,0.2644:a paper receipt --phone-at 16.2:0.1678,0.1565,0.2956,0.2284:a circular arrow --phone-at 17.4:0.1678,0.3032,0.2956,0.3607:a document page --phone-at 23.4:0.0954,0.1484,0.3254,0.2826:a price tag --phone-at 44.6:0.4148,0.1757,0.8578,0.3195:a browser window",
+    "returncode": 0,
+    "wall_s": 31.8,
+    "report": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/gen/_qcpass_costpertask_cutout.json",
+    "stdout": "E  EDGE FADE   0 frame-edge chops, 4 masked containers OK\nF  DEPTH FIELD  3/3 lanes, band 394.0px, gutters [26.0, 26.0], 13 steps OK\nF  CROWN CLEARANCE  min 95.0 px, median 131.0 px over 108 samples OK\n{\n \"render\": \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-attempts/costpertask-fe8a20680ee78757/output/costpertask_cutout.mp4\",\n \"verdicts\": {\n  \"decoded_blank_frames\": \"PASS\",\n  \"zero_ink_law\": \"PASS\",\n  \"clip_coverage_page\": \"PASS\",\n  \"double_exposure\": \"REPORTED\",\n  \"face_centring\": \"PASS\",\n  \"pill_canon_rendered\": \"PASS\",\n  \"gate1_geometry_audit\": \"PASS\",\n  \"gate2_frame_review\": \"PASS\",\n  \"cutout_checks_24_25\": \"PASS\",\n  \"gate3_gemini_describe\": \"PASS\",\n  \"audio_guards\": \"PASS\",\n  \"contact_sheet\": \"PASS\",\n  \"phone_crops\": \"PASS\",\n  \"edge_clip\": \"PASS\",\n  \"face_hf_vs_plate\": \"PASS\",\n  \"head_scale_vs_framing\": \"PASS\"\n },\n \"skipped\": [\n  \"whiteboard_seam_law\"\n ],\n \"wall_s\": {\n  \"decoded_blank_frames\": 0.0,\n  \"zero_ink_law\": 0.0,\n  \"clip_coverage_page\": 0.0,\n  \"double_exposure\": 0.1,\n  \"face_centring\": 0.78,\n  \"pill_canon_rendered\": 0.0,\n  \"gate1_geometry_audit\": 14.53,\n  \"gate2_frame_review\": 7.77,\n  \"cutout_checks_24_25\": 19.89,\n  \"gate3_gemini_describe\": 30.76,\n  \"audio_guards\": 3.9,\n  \"contact_sheet\": 14.33,\n  \"phone_crops\": 3.22,\n  \"edge_clip\": 30.42,\n  \"face_hf_vs_plate\": 15.98,\n  \"head_scale_vs_framing\": 22.12,\n  \"single_decode\": 28.67\n },\n \"total_wall_s\": 30.81,\n \"report\": \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/gen/_qcpass_costpertask_cutout.json\",\n \"pass\": true\n}\n",
+    "stderr": "I0000 00:00:1788647167.754499 17610320 init-domain.cc:132] Fiber init: default domain = pthread, concurrency = 19, prefix = pthread-default\nW0000 00:00:1788647167.755025 17610320 face_landmarker_graph.cc:180] Sets FaceBlendshapesGraph acceleration to xnnpack by default.\nW0000 00:00:1788647167.762103 17610342 face_landmarker_graph.cc:180] Sets FaceBlendshapesGraph acceleration to xnnpack by default.\nI0000 00:00:1788647168.053120 17610320 gl_context.cc:407] GL version: 2.1 (2.1 Metal - 90.5), renderer: Apple M5 Pro\nINFO: Created TensorFlow Lite XNNPACK delegate for CPU.\nW0000 00:00:1788647168.054637 17610331 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.\nW0000 00:00:1788647168.062101 17610323 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.\nI0000 00:00:1788647168.161120 17610342 gl_context.cc:407] GL version: 2.1 (2.1 Metal - 90.5), renderer: Apple M5 Pro\nW0000 00:00:1788647168.167187 17610350 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.\nW0000 00:00:1788647168.181348 17610350 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.\nI0000 00:00:1788647188.510861 17617599 gl_context.cc:407] GL version: 2.1 (2.1 Metal - 90.5), renderer: Apple M5 Pro\nW0000 00:00:1788647188.512002 17617605 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.\n",
+    "verdicts": {
+      "decoded_blank_frames": "PASS",
+      "zero_ink_law": "PASS",
+      "clip_coverage_page": "PASS",
+      "double_exposure": "REPORTED",
+      "face_centring": "PASS",
+      "pill_canon_rendered": "PASS",
+      "gate1_geometry_audit": "PASS",
+      "gate2_frame_review": "PASS",
+      "cutout_checks_24_25": "PASS",
+      "gate3_gemini_describe": "PASS",
+      "audio_guards": "PASS",
+      "contact_sheet": "PASS",
+      "phone_crops": "PASS",
+      "edge_clip": "PASS",
+      "face_hf_vs_plate": "PASS",
+      "head_scale_vs_framing": "PASS"
+    },
+    "failed": [],
+    "skipped": {
+      "whiteboard_seam_law": "whiteboard only, and needs --seams (the chapter erase times)"
+    },
+    "wall_s_by_check": {
+      "decoded_blank_frames": 0.0,
+      "zero_ink_law": 0.0,
+      "clip_coverage_page": 0.0,
+      "double_exposure": 0.1,
+      "face_centring": 0.78,
+      "pill_canon_rendered": 0.0,
+      "gate1_geometry_audit": 14.53,
+      "gate2_frame_review": 7.77,
+      "cutout_checks_24_25": 19.89,
+      "gate3_gemini_describe": 30.76,
+      "audio_guards": 3.9,
+      "contact_sheet": 14.33,
+      "phone_crops": 3.22,
+      "edge_clip": 30.42,
+      "face_hf_vs_plate": 15.98,
+      "head_scale_vs_framing": 22.12,
+      "single_decode": 28.67
+    },
+    "total_wall_s": 30.81,
+    "pass": true
+  },
+  "delivery_basis": {
+    "basis": "independent_final_frame_adjudication",
+    "raw_automated_pass": false,
+    "raw_reports_preserved": true,
+    "resolved": [
+      {
+        "stage": "watcher",
+        "candidate": {
+          "t_start": 38.5,
+          "t_end": 42.5,
+          "klass": "empty_zone",
+          "severity": "blocking",
+          "motion_or_held": "held",
+          "claim": "Browser window container remains completely empty of content while displayed."
+        },
+        "review": {
+          "candidate": {
+            "t_start": 38.5,
+            "t_end": 42.5,
+            "klass": "empty_zone",
+            "severity": "blocking",
+            "motion_or_held": "held",
+            "claim": "Browser window container remains completely empty of content while displayed."
+          },
+          "verdict": "rejected",
+          "reason": "Rejected on exact MP4 at360x640: nominated38.5\u201342.5 interval contains DeepSeek price diagram followed by DON'T GET FOOLED and crossed price tag, not an empty browser. Reviewed38.28,38.48,40.48,42.48,42.72. Extended surrounding review43.52,44.48,45.52,46.48,47.52 shows browser entrance during 'favorite website', receipt draws during 'cost per task' at45.52 and is complete with PER TASK by46.48. This is a staged illustration synchronized to the explanation, not a held missing-content failure. Raw automated watch failure is preserved.",
+          "evidence_manifest": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-attempts/costpertask-fe8a20680ee78757/phone360-review/candidates-manifest.json"
+        }
+      }
+    ]
+  },
+  "technical_adjudication": [],
+  "findings": "Final full-frame phone-size review preserves face and body and legible captions. No material visible blocker in inspected frames; earlier localized hand findings remain covered only by the exact scoped user acceptance.",
+  "watcher_adjudication": [
+    {
+      "candidate": {
+        "t_start": 38.5,
+        "t_end": 42.5,
+        "klass": "empty_zone",
+        "severity": "blocking",
+        "motion_or_held": "held",
+        "claim": "Browser window container remains completely empty of content while displayed."
+      },
+      "verdict": "rejected",
+      "reason": "Rejected on exact MP4 at360x640: nominated38.5\u201342.5 interval contains DeepSeek price diagram followed by DON'T GET FOOLED and crossed price tag, not an empty browser. Reviewed38.28,38.48,40.48,42.48,42.72. Extended surrounding review43.52,44.48,45.52,46.48,47.52 shows browser entrance during 'favorite website', receipt draws during 'cost per task' at45.52 and is complete with PER TASK by46.48. This is a staged illustration synchronized to the explanation, not a held missing-content failure. Raw automated watch failure is preserved.",
+      "evidence_manifest": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/projects/render-attempts/costpertask-fe8a20680ee78757/phone360-review/candidates-manifest.json"
+    }
+  ],
+  "continuous_playback_review": false,
+  "scope": "Actual final export sampled at full-frame360x640 normal phone size including opening, representative moments, designated object times and ending; exact-export technical checks and whole-video watcher reused. Not continuous manual playback or every-frame semantic review. Zoom-only tiny hand findings and hands outside delivered frame do not block under scoped user instruction.",
+  "sample_times_seconds": [
+    0.0,
+    0.16,
+    0.4,
+    3.6,
+    6.48,
+    10.08,
+    13.0,
+    16.2,
+    17.4,
+    19.48,
+    23.4,
+    26.0,
+    32.48,
+    38.96,
+    44.6,
+    45.48,
+    51.88
+  ],
+  "reviewed_epoch": 1788647341.158956
+}

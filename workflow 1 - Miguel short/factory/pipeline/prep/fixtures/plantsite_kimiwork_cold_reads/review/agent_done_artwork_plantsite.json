@@ -1,0 +1,31 @@
+{
+  "verdict": "PASS",
+  "scene_handoff": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/plans/plantsite_scene_handoff.md",
+  "scene_module": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/gen/plantsite_scene.py",
+  "artwork_pass": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/artwork_pass_plantsite.json",
+  "cold_reads_run": 3,
+  "proofs": {
+    "instrument": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/gen/plantsite_proof.py",
+    "crops": [
+      "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/proofs_plantsite_r1/01.png",
+      "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/proofs_plantsite_r1/02.png",
+      "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/proofs_plantsite_r1/03.png"
+    ],
+    "unused_second_candidate": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/proofs_plantsite_r2laptop/02.png",
+    "reader_evidence": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/phone_reader_plantsite_artwork.json",
+    "scoring": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/scores_plantsite_artwork.json",
+    "cold_copies": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/round1-22e00187",
+    "chart_check": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/proofs_plantsite_r1/chart_check_run15_vs_plantsite.png",
+    "composed_frames": [
+      "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/proofs_plantsite_r1/composed_opening_frame.png",
+      "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/proofs_plantsite_r1/composed_final_frame.png"
+    ],
+    "reads": [
+      {"i": 0, "object": "TICKED TASK LIST", "name": "clipboard checklist", "confidence": "sure", "verdict": "PASS"},
+      {"i": 1, "object": "PLANT WEB PAGE", "name": "flower in browser window", "confidence": "sure", "verdict": "PASS"},
+      {"i": 2, "object": "WEEKEND CALENDAR PAGE", "name": "Calendar", "confidence": "sure", "verdict": "PASS"}
+    ],
+    "dispatch_failures": 0
+  },
+  "reason": "The stage-cache hit was a self-declared incomplete PASS (cold_reads_run 0, blocking_before_render true, no artwork_pass field), so it was not returned as verified. The artwork itself was already complete and is unchanged: gen/plantsite_scene.py (12:30) and its phone-size proofs (12:31) still match, and Miguel's ruling forbids redesigning the peak object. What was missing was the read and the seal, and this session had the instrument the first attempt lacked. cold_read.py dispatched three independent claude -p readers on blind copies of all three bespoke objects: clipboard checklist / flower in browser window / Calendar, all 'sure', exit 0, zero dispatch failures. All three scored PASS - object 02 under STANDARD.md SCORE THE IDEA, NOT THE NOUN, and this read names the container as well as the plant. production.py artwork-pass sealed module + handoff + evidence + scoring by SHA256; artwork-check returns PASS. Handoff section 7 and a seal addendum now record the reads and supersede the 'never sealed' repair note. The module hash the lanes built on is unchanged, so split, whiteboard and cutout consume it as-is; no lane may redraw it. No Modal call, no matting, no render."
+}

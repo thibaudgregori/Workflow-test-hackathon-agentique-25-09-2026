@@ -1,0 +1,8 @@
+# session media: plates, raw alphas and mattes are large and reproducible
+sessions/
+*.mkv
+*.webm
+*.mp4
+*.tar
+work/**/*.png
+__pycache__/

@@ -1,0 +1,16 @@
+{
+ "pass": true,
+ "score_layout": 9,
+ "score_captions": 9,
+ "score_timing": 10,
+ "score_audio": 10,
+ "score_style_match": 10,
+ "issues": [
+  {
+   "severity": "minor",
+   "at_seconds": 16.5,
+   "description": "Text in card slightly overlaps with visual element on the right side."
+  }
+ ],
+ "summary": "The candidate video is highly accurate in mimicking the reference's pace, style, and structure. There is a minor visual overlap issue on one of the cards, but it does not significantly impact quality or readability."
+}

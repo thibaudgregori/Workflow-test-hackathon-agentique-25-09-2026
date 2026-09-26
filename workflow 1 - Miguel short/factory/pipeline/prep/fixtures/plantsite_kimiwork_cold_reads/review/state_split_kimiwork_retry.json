@@ -1,0 +1,40 @@
+{
+ "staged": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/staging/youtube/kimiwork_split.mp4",
+ "phone_verdict": "PASS",
+ "blocked": "",
+ "rounds": 2,
+ "redesigned": true,
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/projects/kimiwork_split",
+ "scene_handoff": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/plans/kimiwork_scene_handoff.md",
+ "lane": "icon choreography",
+ "lane_reason_quoted_from_plan": "Every noun this script speaks is a named product that already has a real colour registry mark - Kimi, Kimi Work, ChatGPT Work, Claude Cowork, ChatGPT, Anthropic - and the whole argument is which marks are in the same category, so the flagship lane's marks-plus-clean-diagram grammar carries it directly, while counter+meter would need numbers the transcript never gives and diagram build would have to invent a mechanism he never describes.",
+ "cands": "NONE. render_and_check's Gemini watcher returned 429 RESOURCE_EXHAUSTED (monthly spending cap), so review/cands_kimiwork_split.json was NOT written and the job staged on qc_pass alone - the tool's own recorded reason, 'watcher UNAVAILABLE (Gemini spending cap) - staged on qc alone; the clerk decodes it'. gemini watcher $0. No waiver was written and none was needed: this is an unavailable instrument, not a blocking candidate.",
+ "cold_crop_paths": [
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/62fb5ed6/00.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/62fb5ed6/01.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/62fb5ed6/02.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/62fb5ed6/03.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/62fb5ed6/04.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/62fb5ed6/05.png"
+ ],
+ "fails": [],
+ "flagged_for_clerk": "The SHARED module gen/kimiwork_scene.py was REDRAWN this round under the scene lock and re-sealed; staging/tiktok/kimiwork_cutout.mp4 (14:09) is still the PRE-SEAL cutout and must not be delivered until the cutout lane rebuilds from the republished module. The staged split is the new render, sha256 c4e8a48e57cdb8e12cde71b479a0da73ad8f9f49358badf7e792f57851c25fb1, 19:17. The Gemini watcher was UNAVAILABLE (spending cap) so there is no cands file to adjudicate for this lane.",
+ "report": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/plans/kimiwork_split_notes.md",
+ "prerender": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/gen/_prerender_kimiwork_split.json",
+ "geometry_audit": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/projects/kimiwork_split/geometry_audit/report.json",
+ "phone_page": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/gen/_phonepage_kimiwork_split.json",
+ "artwork_pass": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/artwork_pass_kimiwork.json",
+ "phone_pass": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/phone_pass_kimiwork_split.json",
+ "reader_evidence": [
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/phone_reader_kimiwork_split_r8.json",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/phone_reader_kimiwork_split_r9.json",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/phone_reader_kimiwork_split_r10.json"
+ ],
+ "scoring": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/scores_kimiwork_split_r8.json",
+ "render_check": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/gen/_rc_kimiwork_split.json",
+ "cost_usd": {
+  "modal_render": 0.0125,
+  "gemini_watcher": 0.0,
+  "matting_this_session": 0.0
+ }
+}

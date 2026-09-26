@@ -1,0 +1,18 @@
+{
+  "id": "minimaxh3",
+  "decision": "already-approved",
+  "action_taken": "none",
+  "selection": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/matting/minimaxh3/selection.json",
+  "status": "reviewed",
+  "mask": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/matting/minimaxh3/selection.mask.png",
+  "mask_sha256": "f3d1e197936244a9241602febb797fd662bff510550bbdb0661acba51b442689",
+  "base_mask_sha256": "30ebd009f150f3818fe03a4bd1a9a847fb3b79f1895e7aba667bdacd98f5de9c",
+  "reviewer": "Fable 5.1 (candidate) + Astra (parent seed review, checkpoint 6)",
+  "edits": [],
+  "mattes_final": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/MATTES_FINAL.md",
+  "mattes_final_date": "2026-09-06",
+  "mattes_final_sha_match": true,
+  "prepare_run": false,
+  "approve_run": false,
+  "notes": "selection.json already status=reviewed and MATTES_FINAL.md (Miguel, 2026-09-06) records this exact seed mask sha for minimaxh3; per the guard the selection and its matte were approved in an earlier pass, so no prepare, no approve, file untouched."
+}

@@ -1,0 +1,62 @@
+{
+  "tag": "wbr1",
+  "cold_dir": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/wbr1-0ff78fe7",
+  "reader": "one independent `claude -p` process per crop, launched from /tmp, handed ONLY the absolute path of a blind copy under a random token - no plan, no topic, no manifest, no sealed key, and no path naming the video",
+  "prompt": "Look at the image at <absolute path of one blind crop> . Name the single everyday object drawn in it. At most FIVE words. Reply with ONE line of JSON and nothing else: {\"name\":\"<=5 words\",\"confidence\":\"sure|unsure|cannot tell\"}",
+  "dispatched_at": "2026-09-06T14:10:41",
+  "cli": "2.1.263 (Claude Code)",
+  "source_crops": {
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/phone_minimaxh3_whiteboard/00.png": "15726eff916e8bec006b9a26c86ae885d256171c0c545a737ad5f059ff249b14",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/phone_minimaxh3_whiteboard/01.png": "9c468839a64d669490d103717cdd0dc9102b4afcb196dbda1ca6fc445f94f054",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/phone_minimaxh3_whiteboard/02.png": "adb3d522c65d09636875d0e6bb1ee5dcf3add3c0579ae72ca48d98b370e1488c",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/phone_minimaxh3_whiteboard/03.png": "b995d7573ae6fc10d54cd49abffaf4fd67d4fd0a47bdd3d4d15f9ca8253d09a4"
+  },
+  "names": [
+    {
+      "i": 0,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/wbr1-0ff78fe7/00.png",
+      "name": "",
+      "confidence": "cannot tell",
+      "crop_sha256": "15726eff916e8bec006b9a26c86ae885d256171c0c545a737ad5f059ff249b14"
+    },
+    {
+      "i": 1,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/wbr1-0ff78fe7/01.png",
+      "name": "",
+      "confidence": "cannot tell",
+      "crop_sha256": "9c468839a64d669490d103717cdd0dc9102b4afcb196dbda1ca6fc445f94f054"
+    },
+    {
+      "i": 2,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/wbr1-0ff78fe7/02.png",
+      "name": "",
+      "confidence": "cannot tell",
+      "crop_sha256": "adb3d522c65d09636875d0e6bb1ee5dcf3add3c0579ae72ca48d98b370e1488c"
+    },
+    {
+      "i": 3,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/cold/wbr1-0ff78fe7/03.png",
+      "name": "",
+      "confidence": "cannot tell",
+      "crop_sha256": "b995d7573ae6fc10d54cd49abffaf4fd67d4fd0a47bdd3d4d15f9ca8253d09a4"
+    }
+  ],
+  "dispatch_failures": [
+    {
+      "i": 0,
+      "error": "claude -p exited 1: Error: Input must be provided either through stdin or as a prompt argument when using --print\n"
+    },
+    {
+      "i": 1,
+      "error": "claude -p exited 1: Error: Input must be provided either through stdin or as a prompt argument when using --print\n"
+    },
+    {
+      "i": 2,
+      "error": "claude -p exited 1: Error: Input must be provided either through stdin or as a prompt argument when using --print\n"
+    },
+    {
+      "i": 3,
+      "error": "claude -p exited 1: Error: Input must be provided either through stdin or as a prompt argument when using --print\n"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+ "label": "minimaxh3_whiteboard",
+ "video": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/output/minimaxh3_whiteboard.mp4",
+ "phone_scale": "405x720",
+ "sheet": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/phone_minimaxh3_whiteboard.png",
+ "rule": "a FRESH judge (never read the plan) names each crop in <=3 words. Wrong name, hedge, or 'cannot tell' = the object is redesigned, not annotated.",
+ "answer_key": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/phone_minimaxh3_whiteboard.key.json",
+ "answer_key_rule": "DO NOT OPEN the answer key until every judge_answer below is filled in. Reading it first voids the Phone Test.",
+ "objects": [
+  {
+   "i": 0,
+   "t": 8.4,
+   "bbox_norm": [
+    0.1528,
+    0.2906,
+    0.8472,
+    0.4104
+   ],
+   "phone_box_px": [
+    61,
+    209,
+    343,
+    295
+   ],
+   "phone_size_px": [
+    282,
+    86
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/phone_minimaxh3_whiteboard/00.png",
+   "sheet_scale": 1.0,
+   "judge_answer": "three-place ranking podium",
+   "verdict": "PASS"
+  },
+  {
+   "i": 1,
+   "t": 12.56,
+   "bbox_norm": [
+    0.2074,
+    0.2229,
+    0.3296,
+    0.2948
+   ],
+   "phone_box_px": [
+    84,
+    160,
+    133,
+    212
+   ],
+   "phone_size_px": [
+    49,
+    52
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/phone_minimaxh3_whiteboard/01.png",
+   "sheet_scale": 1.0,
+   "judge_answer": "open book",
+   "verdict": "PASS"
+  },
+  {
+   "i": 2,
+   "t": 14.45,
+   "bbox_norm": [
+    0.4491,
+    0.224,
+    0.5509,
+    0.2917
+   ],
+   "phone_box_px": [
+    181,
+    161,
+    223,
+    210
+   ],
+   "phone_size_px": [
+    42,
+    49
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/phone_minimaxh3_whiteboard/02.png",
+   "sheet_scale": 1.0,
+   "judge_answer": "closed book",
+   "verdict": "PASS"
+  },
+  {
+   "i": 3,
+   "t": 17.24,
+   "bbox_norm": [
+    0.1898,
+    0.3344,
+    0.3472,
+    0.3823
+   ],
+   "phone_box_px": [
+    76,
+    240,
+    140,
+    275
+   ],
+   "phone_size_px": [
+    64,
+    35
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/phone_minimaxh3_whiteboard/03.png",
+   "sheet_scale": 1.0,
+   "judge_answer": "price tag",
+   "verdict": "PASS"
+  }
+ ]
+}

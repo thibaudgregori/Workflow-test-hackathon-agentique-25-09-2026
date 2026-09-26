@@ -1,0 +1,115 @@
+{
+  "status": "ok",
+  "backend": "sam2",
+  "key": "05835e37b2ec666841476635dd30375309b73778f79c729f1ea59d10b02cb785",
+  "selection": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run20/matting/fluxvideo/selection.json",
+  "headroom": {
+    "identity": {
+      "alpha_sha256": "70ac16584186f36d742e22191199c603253df02c4c4d6fb5da8aa83d37ffde38",
+      "display_sha256": "30654612d51725acee1b09190cb45d911753f5925c8aad579ef1260b15e7ad50",
+      "guard_sha256": "90e6a7f8cf1a142b9a8ab4cf0054f9803188279b68642b84430db31afe79999a",
+      "expected_frames": 812,
+      "floor_px": 24.0
+    },
+    "pass": true,
+    "frames_checked": 812,
+    "min_top_clearance_px": 59.400000000000006,
+    "floor_px": 24.0,
+    "worst_frame": 82,
+    "worst_seconds": 3.28,
+    "unsafe_frames": 0,
+    "first_unsafe_frames": [],
+    "scope": "Every matte frame, top edge of prepared person layer; no caption or semantic face claim"
+  },
+  "track": {
+    "ok": true,
+    "spec": {
+      "mode": "matanyone2",
+      "frames": 812,
+      "max_side": 1024,
+      "precision": "bf16",
+      "warmup": 10,
+      "input_sha256": "acf4ddd09a5205da7f61f1a1aedcb1abd60301519f51f05cdaef6905f8865125",
+      "mask_sha256": "46bbf6ba0c01dabd104ef747c5627bea55e223e6fcaec270ef792cdea66d537f"
+    },
+    "frames": 812,
+    "fps": 25.0,
+    "source_size": [
+      1260,
+      900
+    ],
+    "inference_size": [
+      1024,
+      732
+    ],
+    "load_seconds": 3.7022376779999995,
+    "process_seconds": 71.075322248,
+    "total_worker_seconds": 77.269218074,
+    "peak_gpu_gib": 1.0969352722167969,
+    "torch": "2.8.0+cu128",
+    "gpu": "NVIDIA L4",
+    "alpha_sha256": "8088b2b9172e1669dd2fff4e063e73ea30a14f27c1cd677e3f3625f3158ca11a",
+    "function_seconds": 81.54292672199999,
+    "estimated_compute_usd": 0.023135359169565838,
+    "model_revision": "40c894a6f68d1f55c86ab0de838d89dc61587930",
+    "worker_sha256": "c55c2915c27b87ef0a435cec744fd300e41a26aa268746328c9f1a35560c826f",
+    "cost_note": "Function runtime estimate; startup and scale-down additional, not an invoice.",
+    "client_wall_seconds": 94.82641645899275
+  },
+  "ship": {
+    "status": "ok",
+    "frames": 812,
+    "width": 1386,
+    "height": 990,
+    "fps": 25.0,
+    "alpha_mode": "sam2",
+    "rim_px": 7,
+    "temporal": 1,
+    "hashes": {
+      "cut": "49dc8d43a3b38fd4fb1eace7f9c45b213efcc5f061ab3a367bc8b4f124bcb4ec",
+      "rim": "975691a918cb869690acc246050ff5d7e27f0533cb232fd34e4727a457a58c53",
+      "alpha": "559785c133e7e71eda4b111f6d3d450597a95a53799dbf8edc6faba81282a978"
+    },
+    "seconds": 80.031959301,
+    "estimated_compute_usd": 0.03639213253335072,
+    "fractional_alpha_pixels": 18273310,
+    "minimum_person_fraction": 0.3906583876280846,
+    "review_status": "needs_final_visual_review",
+    "ship_source_sha256": "cf367be51d742c272d9f79db8a13e00297684001ebf666283095059206e149e7",
+    "client_wall_seconds": 100.56398350000381,
+    "outputs": {
+      "cut": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run20/matting/fluxvideo/matte_fluxvideo_v5_cut.webm",
+      "rim": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run20/matting/fluxvideo/matte_fluxvideo_v5_rim.webm",
+      "alpha": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run20/matting/fluxvideo/matte_fluxvideo_v5_alpha.webm"
+    },
+    "backend": "sam2",
+    "alpha_source": "alpha_v1.mkv (sam2 fallback)"
+  },
+  "outputs": {
+    "cut": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run20/matting/fluxvideo/matte_fluxvideo_v5_cut.webm",
+    "rim": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run20/matting/fluxvideo/matte_fluxvideo_v5_rim.webm",
+    "alpha": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run20/matting/fluxvideo/matte_fluxvideo_v5_alpha.webm"
+  },
+  "fallback": {
+    "date": "2026-09-14T21:48:37",
+    "lane": "sam2 fallback: reviewed frame-0 contour as the only prompt, --no-chair-object, h100, tag fb2, ship temporal 1 / rim 7 / mirror pad, no exclusion guard",
+    "why": "the MatAnyone2 matte was HELD by the matte viewer test (see review/matte_<id>/); this is the lane that fixed geo on 2026-09-14 after the soft alpha smeared the hands and the chair object carved the face",
+    "session": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run20/matting_fallback/fluxvideo",
+    "prompt_mask_sha256": "e0fafdaa3fe798cfc5918dc542b5849a9327579e2c50640447bdc0ac1311d97b",
+    "gates": {
+      "protrusion": {
+        "left": "clean",
+        "right": "clean"
+      },
+      "presenter_loss": "clean",
+      "edge_clip": "CLEAN"
+    },
+    "validation": {
+      "ok": true,
+      "frames": 812,
+      "minimum_person_fraction": 0.38932033174457414,
+      "fractional_alpha_pixels": 8674392
+    },
+    "headroom_min_px": 59.400000000000006
+  }
+}

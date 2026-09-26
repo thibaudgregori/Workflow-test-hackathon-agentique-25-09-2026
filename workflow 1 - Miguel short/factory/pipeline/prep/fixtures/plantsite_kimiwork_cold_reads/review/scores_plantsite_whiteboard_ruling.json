@@ -1,0 +1,32 @@
+{
+ "label": "plantsite_whiteboard",
+ "round": "ruling",
+ "reader_file": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run16/review/phone_reader_plantsite_whiteboard.json",
+ "scored_by": "orchestrator (Fable 5.1) under STANDARD.md -> THE PHONE TEST -> SCORE THE IDEA, NOT THE NOUN",
+ "objects": [
+  {
+   "i": 0,
+   "intended": "TICKED TASK LIST",
+   "reader": "clipboard checklist",
+   "confidence": "sure",
+   "verdict": "PASS",
+   "reason": "intended thing or obvious synonym"
+  },
+  {
+   "i": 1,
+   "intended": "PLANT WEB PAGE",
+   "reader": "browser window with flower",
+   "confidence": "sure",
+   "verdict": "PASS",
+   "reason": "same visual idea; SCORE THE IDEA, NOT THE NOUN (Miguel 2026-09-06): flower/plant in a browser window = plant web page"
+  },
+  {
+   "i": 2,
+   "intended": "WEEKEND CALENDAR",
+   "reader": "Calendar",
+   "confidence": "sure",
+   "verdict": "PASS",
+   "reason": "intended thing or obvious synonym"
+  }
+ ]
+}
