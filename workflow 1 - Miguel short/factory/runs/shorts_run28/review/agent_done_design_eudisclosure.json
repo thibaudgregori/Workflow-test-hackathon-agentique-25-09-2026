@@ -1,0 +1,27 @@
+{
+  "verdict": "PASS",
+  "plan_json": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/plans/eudisclosure_plan.json",
+  "plan_md": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/plans/eudisclosure_plan.md",
+  "lane": "icon choreography",
+  "lane_reason": "Intake's kinetic guess is overruled: the script is one rule (disclose AI) applied to a run of concrete things, so the video is a cast of drawn objects (the EU flag, a chat bubble, a page, two Polaroids, a screenshot) that one recurring rubber stamp marks AI on the words, with the single key term DISCLOSE as the only large type.",
+  "beats": 6,
+  "bespoke_names": [
+    "European Union flag",
+    "AI rubber stamp",
+    "two stamped Polaroids",
+    "stamped Polaroid photo"
+  ],
+  "cues": "pointing_cues.py --vid eudisclosure: no pointing cue in this take (cues []); nothing raised, nothing waived. Markers at plan time: cut ok (60.3 s wall, master 27.64 s, tight audio 27.628 s, corroboration 'model-authored keep ranges', keep_words [[113,212]]); plate, prompt0, track, ship and cues markers not landed (no matte verdict, no Modal cost booked yet). No false start (LAW 46).",
+  "board_mode": "chapters",
+  "open_questions": [
+    "Wing review: prompt0 not landed at plan time - the cutout author owns it. Plate, track, ship and the cues marker had not landed either; only the cut (ok) had.",
+    "The intake card's title says 'From Aug 2'; the kept take never says a date, so nothing on screen shows one (TRANSCRIPT IS TRUTH).",
+    "The screenshot window is UI chrome, not a bespoke object; it is sized like the Polaroid (240 x 290) so the chapter-D pair reads as two siblings."
+  ],
+  "open_doubts": [],
+  "scene_handoff": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/plans/eudisclosure_scene_handoff.md",
+  "scene_module": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/gen/eudisclosure_scene.py",
+  "sealed": true,
+  "proofs": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_eudisclosure",
+  "reason": ""
+}

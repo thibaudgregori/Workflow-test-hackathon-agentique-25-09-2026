@@ -1,0 +1,4 @@
+interface:
+  display_name: "Shorts Thumbnail Factory"
+  short_description: "Transcript-led Instagram and TikTok covers in option 17 style"
+  default_prompt: "Use $shorts-thumbnail-factory to read the complete video transcript, choose and highlight its key word, and create option 17 covers using Miguel's corrected photos."

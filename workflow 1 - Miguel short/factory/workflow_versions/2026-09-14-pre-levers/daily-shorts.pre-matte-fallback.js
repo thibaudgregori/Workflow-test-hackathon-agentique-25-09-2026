@@ -1,0 +1,1085 @@
+export const meta = {
+  name: 'daily-shorts',
+  description: 'Production v2: reviewed per-recording MatAnyone 2 selection, prepared creative plan, original artwork proofs, shared scene, persistent format authors, independent review and approved delivery',
+  whenToUse: 'Run after approved intake with explicit {run, day, videos}. Read PRODUCTION.md. Each recording remains bespoke; only its own platform versions share artwork. Matting runs in parallel with planning. Failed previews never render, and final files require independent review.',
+  phases: [
+    { title: 'Prep', detail: 'prep_batch launched in the background over the whole batch; it stamps <run>/prep/stages/<id>.<stage>.json as each stage lands, and a tail reporter reads _batch.json when the batch closes' },
+    { title: 'Production', detail: 'Rolling limit of five recordings: prepare, plan, prove new artwork, build three formats, then independent review' },
+    { title: 'Audit', detail: 'the independent clerk of each video - fresh, no plan, no generators - starting as soon as THAT video\'s renders are staged; it adjudicates the post-render watcher\'s candidates, it does not re-watch' },
+    { title: 'Deliver', detail: 'the cost ledger totalled and the clerk-passed recordings pushed to Drive; neither can fail the run' },
+  ],
+}
+// THE RUN NEVER QUITS (2026-09-05).  Run 14 lost two lanes to things that were
+// not actually final - a ship marker that said "error" after a SUCCESSFUL paid
+// track (the crash was the last line of the driver) and a "REFUSED" that a
+// repair agent fixed twenty minutes later, by which time nothing was watching -
+// and then lost the whole run to the Claude session cap, twice in two runs.  So:
+// (1) a non-ok marker is NOT final while prep's repair loop can still act; the
+// gate keeps polling for the marker to be REWRITTEN and accepts an override file;
+// (2) every agent() call goes through run(), which survives a null return and
+// waits out a usage cap instead of dying; (3) every brief writes a started/done
+// sentinel so a resumed run skips what already finished.
+
+const F = '/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory'
+const PY = '/Users/migle/Documents/Workspace/.venv/bin/python'
+// args: either the intake list [{id, recording, lane, transcript, topic}] or {run: 'shorts_run14', videos: [...]}.
+// The run folder defaults to the NEXT run number; bump DEFAULT_RUN after each daily batch (or pass args.run).
+const DEFAULT_RUN = null
+const RAW = typeof args === 'string' ? JSON.parse(args) : args
+const RUN_NAME = (RAW && !Array.isArray(RAW) && RAW.run) ? RAW.run : DEFAULT_RUN
+if (!/^shorts_run\d+$/.test(RUN_NAME)) throw new Error(`daily-shorts: run must look like shorts_runNN, got ${RUN_NAME}`)
+const RUN = `${F}/${RUN_NAME}`
+const VIDEOS = Array.isArray(RAW) ? RAW : (RAW && RAW.videos)
+if (!VIDEOS || !VIDEOS.length) throw new Error('daily-shorts needs args: [{id, recording, lane, transcript, topic}] from intake, or {run, videos}')
+const RUN_N = RUN_NAME.replace('shorts_run', '')
+// A script has no clock (Date.now() would break resume), so the day the finals
+// were staged under is either passed in args.day or worked out by the Deliver
+// agent from `date +%F` and the staging folder itself.
+const DAY = (RAW && !Array.isArray(RAW) && RAW.day) || null
+if (!DAY || !/^\d{4}-\d{2}-\d{2}$/.test(DAY)) throw new Error('Pass the explicit delivery day as YYYY-MM-DD')
+const REVISION = 'production-v2-matanyone2'
+const REVIEW = `${RUN}/review`
+
+// =====================================================================
+// 0. THE RUN NEVER QUITS (2026-09-05).  Everything in this block exists
+//    because of run 14: a lane that ended on a transient marker, and a
+//    run that ended on the Claude session cap with 2 of 9 staged.
+//
+//    THE SENTINELS.  agent() returns NULL on a terminal API error - it
+//    does not throw and it carries no reason - so a killed agent and an
+//    agent that finished but lost its return look identical from here.
+//    Every brief therefore writes review/agent_started_<slug>.txt FIRST
+//    and review/agent_done_<slug>.json LAST, and re-reads its own done
+//    file before doing any work.  That single rule buys three things:
+//    a probe can tell "died" from "finished", a retry of a finished
+//    agent is free, and Workflow(resumeFromRunId) after a cap continues
+//    from where it died instead of rebuilding what already shipped.
+// =====================================================================
+const slugOf = (label) => String(label).replace(/[^A-Za-z0-9]+/g, '_').replace(/^_+|_+$/g, '')
+const SENTINEL = (s) => `
+
+=====================================================================
+TWO SENTINEL FILES, AND THEY COME BEFORE AND AFTER EVERYTHING ELSE YOU DO (2026-09-05).
+The workflow that spawned you cannot tell an agent that was KILLED from one that FINISHED
+and lost its return - a Claude usage cap killed run 14 mid-flight and the run had to be
+reconciled by hand. So you leave a trace, and you look for your own trace first.
+  BEFORE ANY WORK, THE FIRST THING YOU DO:
+    mkdir -p ${REVIEW}
+    Run ${PY} ${F}/pipeline/stage_cache.py check --run ${RUN} --label ${s}.
+    Only if found=true return its verified JSON verbatim. An old bare done file is not proof.
+    Otherwise: write ${REVIEW}/agent_started_${s}.txt (one line, your label) and carry on.
+  AFTER ALL YOUR WORK, THE LAST THING YOU DO, IMMEDIATELY BEFORE YOU RETURN:
+    write ${REVIEW}/agent_done_${s}.json with EXACTLY the json you are about to return
+    (when you have no structured schema, write {"done": true, "text": "<your whole return>"}),
+    and copy it to ${REVIEW}/state_${s}.json. Then run ${PY} ${F}/pipeline/stage_cache.py save --run ${RUN} --label ${s}.
+  Write the done file ONLY when the work really is done. A half-finished done file is worse
+  than no done file: the next attempt will believe it.`
+
+// The failure log. Nothing in this workflow throws out of a lane any more;
+// it records and continues, and every record lands in the run's result.
+const failures = []
+const capNotes = []
+let capSpend = 0              // cap ticks spent across the whole run (see CAP_BUDGET)
+const noteFail = (label, why) => { failures.push(`${label}: ${why}`); log(`FAILED ${label} - ${why}`) }
+
+const CAP_RX = /session limit|usage limit|rate.?limit|rate_limit|\b429\b|too many requests|quota|exceeded your/i
+const SOFT_RETRIES = 2        // a null/failed return is retried twice before it is recorded
+const CAP_BUDGET = 12         // total cap ticks the WHOLE run may spend before it stops waiting
+const FAST_TICKS = 6          // 6 x ~10 min = the first hour of a cap
+const SLOW_TICKS = 0          // 2026-09-08: a 6 h wait spent 976 of the run's 1000 agent
+                              // calls on ONE gate whose answer was already on disk. The cap
+                              // is the PARENT's (dispatch refuses before a subagent exists),
+                              // so waiting cannot help beyond an hour; the lane is marked and
+                              // the run moves on. Every cap tick also costs a sleeper agent,
+                              // so an unbounded wait is an unbounded budget leak.
+const TEN_MIN = 570           // the Bash tool caps one call at 600 s; 570 leaves room
+
+const SLEEPER = (secs, why) => `You are a SLEEPER and you are the workflow's clock. You do NO work of any kind.
+Run exactly one command with the Bash tool, with its timeout set to 600000 ms:
+  sleep ${secs}
+Then return the single word "slept". Read no file, write no file, judge nothing, spawn nothing, and do not look at the run folder. You exist because a workflow script has no wall clock of its own (Date.now() is unavailable - it would break resume) and must wait ${secs} seconds before it tries again. THE REASON IT IS WAITING: ${why}`
+
+const sleeper = (label, ph, secs, why) => agent(SLEEPER(secs, why),
+  { label: 'wait:' + label, phase: ph, effort: 'low' })
+
+const PROBE_SCHEMA = { type: 'object', required: ['found'], properties: {
+  found: { type: 'boolean' }, started: { type: 'boolean' },
+  json: { type: 'string' }, note: { type: 'string' } } }
+
+// The probe is how a null return gets a reason. It is deliberately the
+// cheapest possible agent: if even IT cannot run, the API itself is gone
+// and we are in a cap, which is exactly the signal we want.
+const probe = (label, s, ph) => agent(`You are the SENTINEL PROBE for the agent labelled "${label}". You read at most two files and you return. You do not do that agent's work, you do not create either file, and you do not fix anything.
+ 1. Run ${PY} ${F}/pipeline/stage_cache.py check --run ${RUN} --label ${s}; return its found/json fields.
+ 2. If found=false, report whether the started sentinel exists; do not trust unverified done files.
+Read nothing else. Return the structured output.`,
+  { label: 'probe:' + label, phase: ph, effort: 'low', schema: PROBE_SCHEMA })
+
+// spawn() - THE RUN WRAPPER. (It is `run(label, fn)` under another name: the
+// label lives in opts, so a caller physically cannot wrap the wrong thing, and
+// `run` next to `RUN` - the run FOLDER - would be a trap.)
+// EVERY agent call in this workflow goes through here.
+//   * null / thrown  -> ask the probe. Done file? use it. Otherwise retry.
+//   * a usage cap    -> log it, sleep through it with a sleeper agent, retry
+//                       the SAME call. 6 ticks in the first hour, then up to
+//                       6 h total. It never throws and it never ends a lane.
+const spawn = async (prompt, opts) => {
+  const label = opts.label
+  const s = slugOf(label)
+  const ph = opts.phase
+  const full = prompt + SENTINEL(s)
+  let soft = 0
+  let ticks = 0
+  for (let attempt = 0; ; attempt++) {
+    let r = null, err = null
+    try {
+      r = await agent(full, attempt ? { ...opts, label: label + ' #' + (attempt + 1) } : opts)
+    } catch (e) { err = e }
+    if (!err && r !== null && r !== undefined) return r
+    const text = err ? String((err && err.message) || err) : ''
+    let capped = err ? CAP_RX.test(text) : false
+    if (!err) {
+      // null: the harness gave up on this agent. Ask the sentinel who died.
+      const p = await probe(label, s, ph)
+      if (p && p.found && p.json) {
+        try {
+          const parsed = JSON.parse(p.json)
+          log(`${label}: recovered from its own done file (the agent finished, its return was lost)`)
+          return parsed
+        } catch (e) { log(`${label}: a done file exists but does not parse - treating as unfinished`) }
+      }
+      // A probe that ALSO returns nothing means the API is gone, not that
+      // this one agent is unlucky. That is the cap, seen from the outside.
+      if (!p) capped = true
+    }
+    if (capped) {
+      ticks++
+      capSpend++
+      if (ticks > FAST_TICKS + SLOW_TICKS || capSpend > CAP_BUDGET) {
+        noteFail(label, capSpend > CAP_BUDGET
+          ? `the run's cap budget (${CAP_BUDGET} ten-minute waits) is spent; this lane is not waiting further`
+          : `the usage cap did not lift after ${ticks - 1} ten-minute waits`)
+        return null
+      }
+      const why = `USAGE CAP at ${label}${text ? ' (' + text.slice(0, 200) + ')' : ' (even the sentinel probe could not run)'}`
+      log(`USAGE CAP at ${label}; waiting (tick ${ticks} of ${FAST_TICKS + SLOW_TICKS}, ~10 min each)`)
+      if (ticks === 1) capNotes.push(why)
+      await sleeper(label + '#' + ticks, ph, TEN_MIN, why)
+      continue                        // the cap is not a failure; do not spend a soft retry
+    }
+    soft++
+    if (soft > SOFT_RETRIES) {
+      noteFail(label, err ? text.slice(0, 300) : 'the agent returned nothing after ' + soft + ' attempts')
+      return null
+    }
+    log(`${label}: attempt ${attempt + 1} came back empty${err ? ' (' + text.slice(0, 120) + ')' : ''} - retrying (${soft}/${SOFT_RETRIES})`)
+  }
+}
+
+// =====================================================================
+// THE LAW POINTERS.  Every brief below points at the law text; none of
+// them restates it, and none of them carries a list of check commands
+// any more (2026-09-03).  The ORDER of the checks is enforced by this
+// workflow and by the two drivers, not by a numbered list a builder can
+// skip a line of.
+// =====================================================================
+const LAWS = `Read ${F}/PRODUCTION.md first. Its production-v2 procedure supersedes historical orchestration, binary-mask finishing and phone-gate instructions below. All creative quality requirements remain.
+MATTES MARKED FINAL ARE CONSUMED, NEVER REDONE (Miguel, 2026-09-06): when ${RUN}/MATTES_FINAL.md exists, every ${RUN}/matting/<id>/matte_<id>_v5_{cut,rim,alpha}.webm and its plate.json/selection.json are approved as they are - no re-track, no re-selection, no repair pass, no Modal matting call of any kind; the only Modal calls in this run are the renders.
+THE GRAPHIC CHART IS NOT YOURS TO INVENT (Miguel, 2026-09-06): STANDARD.md -> "GRAPHIC CHART" names the ONE visual language every top zone shares - cream ground, near-black ink + terracotta, JetBrains Mono uppercase kickers and labels, thin ink-line SVG drawings, real registry marks in 112 px tiles, mixed topical lanes, the chassis mono outro lockup. The reference is ${F}/shorts_run15/gen/geminitools_scene.py (and harnessrace/shieldstral beside it): study its palette, type, stroke weights and tile grammar and REPRODUCE them. "Fresh artwork" means a fresh metaphor and fresh objects for THIS recording drawn in THAT language; a new palette, a new face, filled shapes or a dark world is a rejection before render.
+LAW TEXT, and it is binding in full - read it, do not remember it:
+  ${F}/STANDARD.md            - THE LAWS, GLOBAL LAWS 21-36, DAILY TRIAL VERDICT,
+                                VISUAL QUALITY CHECKS, ROUND-2/3 LAWS, MARK IDENTITY,
+                                ROUND-4 LAWS 37-44, REJECTION MOVES BEFORE RENDER,
+                                STOPPING RULE, THE TWO EFFICIENCY LAWS,
+                                RUN-13 CLERK FINDINGS,
+                                RUN-13 REVIEW CHANGES (Miguel, 2026-09-04)
+  the shorts-factory skill    - the operating manual and the check index
+  ${F}/pipeline/captions.py   - header sections 1-4; SS3b IS A LAW
+  ${F}/formats/cutout/CHASSIS.md, ${F}/formats/whiteboard/CHASSIS.md
+  ${F}/PRODUCTION.md`
+
+const PREP_NOTE = (v) => `CONSUME THE PREP PACKAGE - THE CUT AND THE MATTE ARE ALREADY DONE (OR STILL LANDING; READ THE MARKERS).
+ONE runner launched ${PY} ${F}/pipeline/prep/prep_batch.py over the whole batch in the BACKGROUND: it cuts every raw, builds every plate OVER-WIDE, makes every frame-0 prompt, tracks every recording on the deployed Modal app CONCURRENTLY, uses the exact-recording reviewed selection for MatAnyone 2 and exports soft-alpha layers with full-frame structural checks; final visual review remains required, and scans every transcript for pointing cues.
+  ${RUN}/prep/${v.id}.json   (and ${RUN}/prep/_batch.json for the batch) - WRITTEN WHEN THE BATCH CLOSES.
+  ${RUN}/prep/stages/${v.id}.<stage>.json - THE PER-STAGE MARKERS, written the INSTANT that stage lands (2026-09-04). Shape: {id, stage, status, wall_s, at, keys{...}}. Stages: cut, plate, prompt0, track, ship, cues. THIS IS WHAT YOU READ WHILE THE BATCH IS STILL RUNNING; the package json is the same numbers, later.
+  SHAPE of the package: {id, run, recording, session, cut_dir, stages{...}, wall_s} - every stage carries its own "status" and "wall_s".
+    stages.cut     -> .master (4K cut master; the face plates ship HD: face_bottom_hd.mp4 1080x1058, face_full_hd.mp4 1080x1920), .transcript_tight, .take. The audio is 48 kHz ONLY: there is NO 16 kHz analysis wav by design.
+    stages.plate   -> .plate, .plate_box, .overwide_applied. THE PLATE IS OVER-WIDE BY DEFAULT, so the box is deliberately NOT centred: the cutout generator's plate_origin() MUST read "left" from plate_box instead of computing (1080 - box_w)/2. Use the production matting client to finish layers, keeping the saved display and crop mapping unchanged. ALSO READ stages.plate -> .headroom: the crop is bottom-planted UNLESS that would cut his cap, in which case it slides up to target 64 canvas px above the highest measured crown (plate.py::window, added 2026-09-03 after supergrokplus shipped with a flat slice across his head). THE CROWN IS NEVER THE PLATE'S TOP ROW: if a per-video envelope finds the silhouette touching alpha row 0 on any frame, the seat derived from it is hanging the caption on a CUT, not on a head - fix the plate and re-track, never the seat. And derive the caption clearance with the pill that RENDERS (114.59), not the frozen seat constant (108.2); the two differ by 6.4 px and only one of them is what the viewer sees.
+    stages.prompt0 -> .prompt_png, .wing_review
+    stages.track   -> .cost_usd (estimate), .alpha, .review_status, .backend
+    stages.ship    -> .fractional_alpha_pixels, .minimum_person_fraction, .review_status, .outputs (matte_${v.id}_v5_{cut,rim,alpha}.webm)
+    stages.cues    -> .answered, .needs_source, .cards
+  QUOTE THE NUMBERS YOU CAN SEE IN YOUR RETURN - take-detection corroboration, matte verdicts, Modal cost - and name any stage whose marker does not exist yet.
+  DO NOT RE-CUT AND DO NOT RE-TRACK unless a stage's "status" is not "ok", or you can name a measured defect in what it produced. A visual outline defect requires a corrected, re-reviewed selection for this exact recording and the production matting client. Never invoke the retired SAM2 tracker or carving scripts. Structural checks are not visual approval.`
+
+// =====================================================================
+// 1. THE PLAN AGENT.  The design happens ONCE, as its own artifact, and
+//    every lane reads the same one.  Since 2026-09-04 it starts as soon
+//    as THIS recording's CUT marker is ok: the cut and the tight
+//    transcript are everything the design needs, and the matte stages
+//    (plate -> prompt0 -> track -> ship, ~10 of prep's 11 minutes) serve
+//    the CUTOUT alone.
+// =====================================================================
+const PLAN = (v) => `You are the PLAN AGENT for ONE video in today's daily shorts run. You DESIGN; you do not build, you do not render and you do not check. Your whole output is two files, and every downstream agent is forbidden from re-planning what you write.
+
+FACTORY ROOT (F): ${F}. PYTHON: ${PY}. Run folder: ${RUN}.
+YOUR VIDEO: ${JSON.stringify(v)}
+
+${LAWS}
+
+YOU START EARLY, ON PURPOSE (2026-09-04). Only this recording's CUT is guaranteed done: the plate, prompt0, the track, the ship and the cue scan may still be running, because only the CUTOUT needs the silhouette. So:
+  - Read ${RUN}/prep/stages/${v.id}.<stage>.json for what has actually landed. Never block waiting for a marker; design from the cut and the transcript.
+  - The VISUAL SELECTION arrives during prep and belongs to the SELECTION AUTHOR, which starts after the ship. If the prompt0 marker exists and names your id in wing_review, say so in the plan; if it does not exist yet, write "wing review: prompt0 not landed at plan time - the cutout author owns it".
+  - DO NOT wait for the cues stage. Run the cue scan yourself: ${PY} ${F}/pipeline/pointing_cues.py --vid ${v.id} --json ${RUN}/gen/_cues_${v.id}.json.
+
+READ FIRST
+1. ${PREP_NOTE(v)}
+2. THE TIGHT TRANSCRIPT WITH WORD TIMESTAMPS: ${RUN}/cuts/${v.id}/transcript_tight.json. Every beat you write is anchored to WORDS in it, by time, never to a guess.
+   If the scripted opening appears TWICE in its first seconds, the cut is WRONG (LAW 46, 2026-09-03, amended 2026-09-04: a repeated prefix is a restart only when the earlier hit misses the full key and the keeper starts within one word of it): stop and report "false start not recut" instead of planning around it.
+
+Before design, run ${PY} ${F}/pipeline/production.py context --run ${RUN} --vid ${v.id}; read the complete context JSON and linked rules.
+WRITE the creative plan ${RUN}/plans/${v.id}_plan.json. Generate its readable copy using ${PY} ${F}/pipeline/production.py plan-report --run ${RUN} --vid ${v.id}. Do not author a second prose version.
+
+THE JSON PLAN'S SHAPE, and every field is load-bearing:
+{
+ "id": "${v.id}", "duration_s": <from the cut master>,
+ "lane": "<icon choreography | kinetic | counter+meter | diagram build | steps+checklist>",
+ "lane_reason": "<ONE sentence. intake's '${v.lane}' is a suggestion; the call is yours and you own it>",
+ "beats": [
+   {"i": 0, "t_start": <s>, "t_end": <s>,
+    "words": "<the exact words spoken across this beat, from transcript_tight>",
+    "says": "<the claim the sentence makes>",
+    "picture": "<the ONE picture that argues it - what a stranger sees, in plain words>",
+    "objects": ["<object name>", ...],
+    "emphasis": [{"target": "<object or text>", "kind": "highlight|box",
+                  "why": "<highlight = text living in a raster (post/screenshot/document/UI capture); box = a DRAWN object or a board/scene type. LAW 38, amended. NEVER a ring, an ellipse or a circle, on any target.>"}]}
+ ],
+ "bespoke_objects": [
+   {"name": "<the THREE-WORD name a cold stranger must produce>",
+    "t": <the instant it is fully on screen and settled>,
+    "bbox": [x0, y0, x1, y1], "space": "norm",
+    "why_bespoke": "<what it argues that a stock mark cannot>",
+    "how_drawn": "<the shapes, in one sentence>"}
+ ],
+ "labels": [
+   {"for": "<object name>", "text": "<the handwritten key word>",
+    "place": "above|below",
+    "at": <the beat time the word is SPOKEN - LABEL_WINDOW is 1.0 s>,
+    "note": "LAW 39: names go ABOVE or BELOW their object, centred inside its horizontal extent +/-15%. A name BESIDE its object is a Gate 1 'sidelabel' finding. Declare with data-label-for on the DOM and label_plan= on the board."}
+ ],
+ "lifetimes": [
+   {"mark": "<name>", "t_from": <s>, "t_to": <s or null>,
+    "anchor": "<name it in board_anchors= instead of giving a t_to, or null>",
+    "note": "LAW 42: on the WHITEBOARD every mark declares when it leaves. A mark on screen >40% of the take with neither a finite t_to nor an anchor is REFUSED by the build."}
+ ],
+ "connectors": [
+   {"to": "<target object>", "from": ["<a>", "<b>"],
+    "note": "LAW 40: two or more arrows into ONE target build their ends with whiteboard_build.anchor_points(box, n, side) and declare data-connect-to / connectors=[...]. Never hand-place an end on an irregular outline."}
+ ],
+ "blocks": [["<a>", "<b>"]],
+ "blocks_note": "LAW 41: anything authored as ONE object that geometry cannot infer - a welded label, a container's contents. A paragraph and a >=3 identical-shape series are inferred for you.",
+ "pointing_cues": [
+   {"cue_i": 0, "at": <s>, "phrase": "<the words that point>",
+    "asset": "<the source-post card that answers it>",
+    "platform": "<the platform whose FRAME the card wears - it MUST be the platform the sentence names>",
+    "inner": "<what that post carried inside (a screenshot, a quote, an image), or null>",
+    "highlight": "<the LINE inside that post carrying the claim>"}
+   /* or, for one the post cannot answer: {"at": <s>, "waived": "<why>"} */ ],
+ "boards": {
+   "mode": "chapters|single",
+   "why": "<LAW 43: CHAPTERS ARE THE DEFAULT. One board only for a script with ONE accumulating idea.>",
+   "chapters": [{"i": 0, "t_start": <s>, "t_end": <s>, "erase_at": <s or null>,
+                 "holds": ["<mark>", ...],
+                 "why_together": "<what makes these one chapter>"}],
+   "key_term": "<LAW 9: the ONE term written FIRST, alone, at >= 22 design units, with no other type on the board before it>"},
+ "cast": ["<registry key>", ...],
+ "cast_note": "THE ROSTER IS TOPICAL: the comparison the SCRIPT makes. Never a consumer-app wall, never a placeholder, never the story's own subject mark (that belongs on the stage). MARK IDENTITY: 'Claude Code' is the plain no-outline mascot (registry key 'claude-code'), NEVER 'claude-code-sticker'; Claude Cowork is the ORANGE mark.",
+ "cutout_logo_lanes": ["<registry key>", ...],
+ "cutout_logo_lanes_note": "THE LOGO LANES BEHIND HIM ARE TOPICAL (Miguel, 2026-09-04 run-13 review: 'it would be cool if the logos behind me in cutout are relevant to the video'). The marks travelling the background lanes are the products and companies THIS SHORT names, or their obvious neighbours in the same category. A generic house set is a rejection.",
+ "open_questions": ["<anything you could not decide that an author can still build around>"],
+ "open_doubts": [
+   {"question": "<ONE line, the way you would ask Miguel>",
+    "changes_what_viewer_sees": true,
+    "options": ["<a>", "<b>"],
+    "your_lean": "<what you would do if forced>"}
+ ],
+ "open_doubts_note": "AN OPEN DOUBT STOPS AND ASKS (Miguel, 2026-09-04). open_questions are things an author can build around. open_doubts are doubts that CHANGE WHAT THE VIEWER SEES - which card, which platform, which picture, which claim. If you write one with changes_what_viewer_sees true, THIS RECORDING DOES NOT GET BUILT: the workflow pauses it and asks Miguel one line. So do not park a real doubt in open_questions to keep the line moving, and do not invent a doubt you could decide yourself."
+}
+
+HOW TO DO THE WORK
+- POINTING CUES (LAW 37). YOUR PLAN MUST LIST EVERY CUE THE SCAN RETURNS AND THE CARD THAT ANSWERS IT. A cue the post cannot answer is WAIVED IN WRITING, never in silence. Still bound by GLOBAL LAW 3 (2-4 s, no metrics chrome, only when the post IS the news).
+- THE CARD IS THE POST YOU SAW (Miguel, 2026-09-04: "all my info come from X, and that precise X post had a LinkedIn post image"). When the sentence names a platform - "this guy on X", "someone on LinkedIn", "a Reddit thread" - the source card SHOWS THAT PLATFORM'S POST: that platform's frame, that platform's handle, and whatever the post carried inside it. If the thing the viewer must READ is a screenshot the post carried, show the NAMED platform's post first and THEN zoom into the screenshot inside it. Never show only the inner screenshot under a sentence that names the wrapper: run 13 held all three viberesearch renders for exactly that (the sentence said "on X", the card was the LinkedIn screenshot the X post carried). If you cannot build the named platform's card, that is an OPEN DOUBT, not a waiver.
+- ONE PLAN SERVES THREE LANES. The split (YouTube) and the cutout (TikTok) come off ONE shared lane scene; the whiteboard (Reels) redraws the SAME ARGUMENT as one continuous drawing that gains ink. All three draw the SAME PICTURES with the SAME bespoke objects and the SAME labels - that is what makes them one video on three platforms instead of three videos. Since 2026-09-04 the three lanes are built by THREE agents that start at different times (split and whiteboard off your plan, cutout when the matte ships), so publish precise pictures in the plan and the dedicated artwork stage will publish the shared scene before format construction.
+- The whiteboard does NOT reuse the lane scene, it reuses the argument - so say, per beat, what the board's version of that picture is when it differs.
+- Every bespoke object owes a THREE-WORD name that a stranger who never read you must produce cold, from a 405x720 crop with no context. A COLD NAMER now sees those crops BEFORE any render is paid for, so an object that needs your plan to be legible fails at page stage and costs you a rebuild, not a render.
+
+RETURN THE STRUCTURED OUTPUT: the two plan paths, the lane and its one-sentence reason, the beat count, every bespoke object's three-word name, the cue count with how each is answered or waived, the board mode, your open_questions, and your open_doubts EXACTLY as you wrote them into the json (an empty list if you have none). Do not build anything.`
+
+const PLAN_SCHEMA = { type: 'object', required: ['plan_json', 'lane', 'beats', 'bespoke_names', 'open_doubts'], properties: {
+  plan_json: { type: 'string' }, plan_md: { type: 'string' },
+  lane: { type: 'string' }, lane_reason: { type: 'string' },
+  beats: { type: 'number' }, board_mode: { type: 'string' },
+  bespoke_names: { type: 'array', items: { type: 'string' } },
+  cues: { type: 'string' },
+  open_questions: { type: 'array', items: { type: 'string' } },
+  open_doubts: { type: 'array', items: { type: 'object', required: ['question', 'changes_what_viewer_sees'], properties: {
+    question: { type: 'string' }, changes_what_viewer_sees: { type: 'boolean' },
+    options: { type: 'array', items: { type: 'string' } }, your_lean: { type: 'string' } } } },
+} }
+
+// =====================================================================
+// 2. THE AUTHORS.  Same plan, same pictures, no re-planning - but THREE
+//    lanes now, because only the cutout needs the silhouette.  An author
+//    stops at BUILD-GREEN; the render is a SECOND stage, after a cold
+//    namer has seen the crops.
+// =====================================================================
+const BUILD_GREEN = (v, fmt) => `=====================================================================
+YOU STOP AT BUILD-GREEN. YOU DO NOT RENDER (2026-09-04). Two tools, on the project you built, both must pass, and then you hand the phone crops to a COLD NAMER you will never meet. STANDARD.md -> "REJECTION MOVES BEFORE RENDER" and "RUN-13 REVIEW CHANGES".
+
+ (a) ${PY} ${F}/pipeline/prerender/prerender_check.py <project> --out ${RUN}/gen/_prerender_${v.id}_${fmt}.json
+     Gate 1 with every round-4 class, plus the build-time laws measured ON THE PAGE: the caption canon and SS3b on the MEASURED pills, dead tween targets and duplicate ids, every asset reference resolving and no mark reading as a missing-image icon, and (cutout) the edge-fade guard and checks 24+25. Non-zero exit means the project does NOT go on. Quote its verdict block.
+ (b) ${PY} ${F}/pipeline/prerender/phone_test_page.py <project> --out ${RUN}/review --label ${v.id}_${fmt} --plan ${RUN}/plans/${v.id}_plan.json --json ${RUN}/gen/_phonepage_${v.id}_${fmt}.json
+     The Phone Test crops cut from headless page screenshots, no video render: every bespoke object in the plan, alone, at 405x720. It emits the sheet ${RUN}/review/phone_${v.id}_${fmt}.png, the crops ${RUN}/review/phone_${v.id}_${fmt}/NN.png, the judge's manifest phone_${v.id}_${fmt}.json and the SEALED key phone_${v.id}_${fmt}.key.json. YOU PRODUCE THEM; YOU DO NOT JUDGE THEM AND YOU DO NOT OPEN THE KEY. If the plan declares no bespoke object it emits 8 spaced whole frames and SAYS SO (mode "spaced-fallback") - that is a legibility sheet, not the Phone Test, and a video that drew an object and declared none has not been tested.
+ (c) draft_watch.py is OFF (Miguel, 2026-09-03). Do not run it.
+
+THEN MAKE THE CROPS COLD, and this is the step that makes the namer honest:
+  - BLIND TOKEN: ${PY} -c "import hashlib;print(hashlib.md5(b'${v.id}_${fmt}').hexdigest()[:8])"
+  - mkdir -p ${RUN}/review/cold/<token> and COPY (cp, never move) every ${RUN}/review/phone_${v.id}_${fmt}/NN.png into it under THE SAME NN.png name. The index is the manifest's object index and the key's object index; keep it.
+  - Return the cold paths, in index order. The namer gets NOTHING ELSE: no sheet, no manifest, no key, no plan, no project, and no path with the video's name in it.
+
+RETURN THE STRUCTURED OUTPUT and stop. Do not submit a render, do not stage a file, do not open the key.`
+
+const RENDER_LANE = (v, fmt, projects, kind) => `=====================================================================
+THE REAL RENDER, AND ITS CHECKS, ARE ONE CALL:
+   ${PY} ${F}/pipeline/render/render_and_check.py --spec <your spec>.json --json ${RUN}/gen/_rc_${v.id}_${kind}.json --stage
+ It submits the render AND STARTS ITS qc_pass AND ITS GEMINI WATCHER THE MOMENT THE FILE LANDS. It stages a render ONLY after that render's own checks pass. Write the spec yourself:
+   {"run": "${RUN}", "out_dir": "${RUN}/output",
+    "jobs": [${projects}]}
+ THE WATCHER'S CANDIDATE FILE IS ${RUN}/review/cands_${v.id}_${fmt}.json AND IT IS THE CLERK'S INPUT (2026-09-04): the clerk no longer re-watches the file you staged, it adjudicates this list. Do not delete it, do not overwrite it with a hand-edited copy, and if a fix round re-renders, let render_and_check archive the prior one (<stem>.priorN.json) instead of clearing it.
+ A BLOCKING watcher candidate FAILS the watch check and the file is NOT staged unless the job carries "watch_waiver": "<why, with a measurement>" - write the waiver into the spec, never around it; it is recorded for the clerk.
+ Per job: {"project", "vid", "fmt", "quality": "high", "resolution": <OMIT IT - every daily composition is authored at its delivered 1080x1920; HD DELIVERY since 2026-09-03, a 2160-wide page is a rejection before render>, "stage": "<the staging path>", "qc_args": [<this format's extra qc_pass inputs, verbatim>]}
+ qc_args by format - qc_pass reports a missing input as SKIPPED, and A SKIP IS NOT A PASS:
+   every format : "--voice-master", "${RUN}/cuts/${v.id}/audio.m4a"
+                  "--phone-at", "t:x0,y0,x1,y1:name"  (repeat per bespoke object; the plan's bboxes)
+   cutout       : "--alpha", "<session>/matte_${v.id}_v5_alpha.webm",
+                  "--edge-box", "<overwide.plate_box VERBATIM, WxH+L+T>",
+                  "--plate", "<session>/plate_display_<W>x<H>.mp4"
+   whiteboard   : "--seams", "<the chapter erase times, comma-separated>"
+   split, for the warning-level variant: "--face-segments", "full", "--face-band"
+ The daily face-centring default is AUTO: never hand qc_pass --geom's segment map on a split, cutout or whiteboard - only takeover and facesplit have one.
+
+WHAT NO TOOL CAN DO FOR YOU, and it is still the law:
+  - the CAST RESOLVE before a frame renders (cutout_depthfield.assert_cast_resolves) - prerender_check catches a mark that reads as a broken-image glyph, but only YOU know which keys the field is asking for;
+  - guard_plate_box - the layer box is the ENCODED size of the staged layer at INTEGER offsets, never derived from PLATE_SCALE and never hand-typed;
+  - captions.merge_function_only_beats() over the WHOLE beat stream before assert_no_function_only_beat() - prerender_check proves the result, it does not do the merge;
+  - the whiteboard's own build-time asserts, which run inside whiteboard_build.build() and refuse the build there.
+
+SELF-REVIEW IS NOT A GATE (Miguel, 2026-09-02). Do NOT run the Viewer Test on your own work and do NOT report a Viewer Test verdict - you cannot un-know your own plan, which is exactly how an illegible bespoke object shipped. Look at your render, fix what you see, and hand judging to the clerk.
+mkdir -p your staging dirs. Never block the foreground >2 min; kill watchers before returning.`
+
+const PLAN_IS_LAW = (v, notes) => `THE PLAN IS ALREADY WRITTEN AND YOU DO NOT RE-PLAN IT.
+  ${RUN}/plans/${v.id}_plan.json   and   ${RUN}/plans/${v.id}_plan.md
+Read both. The lane, the beats, the picture per beat, the bespoke objects and their bboxes, the labels and their above/below placement, the lifetimes, the connectors, the blocks, the pointing cues and the cards that answer them (INCLUDING the platform each card must wear), the emphasis kind per target, the cast and the cutout's topical logo lanes are DECIDED. Build what it says.
+IF YOU DISAGREE WITH THE PLAN, YOU LOG IT AND YOU BUILD THE PLAN ANYWAY. Write your disagreement to ${RUN}/plans/${v.id}_${notes}.md with the reason and what you would have done, and say so in your return. Three lanes improvising fixes to one plan is how three platforms end up arguing three different things. The only exception is a plan instruction that a LAW forbids: then you follow the law, and the note says which law and which line.
+The plan's open_doubts list is EMPTY by the time you read it - a doubt that changes what the viewer sees stopped this recording and went to Miguel before you were spawned (2026-09-04). If you find one anyway, log it and build the plan.`
+
+const SPLIT_AUTHOR = (v) => `You are the SPLIT AUTHOR for video "${v.id}" in today's daily shorts run. You consume the artwork owner's completed scene and emit the SPLIT composition (YouTube) from it. A WHITEBOARD AUTHOR is working from the same plan right now, and a CUTOUT AUTHOR will re-compose YOUR lane scene for TikTok as soon as this recording's matte ships. You do not coordinate with either and you do not build a whiteboard or a cutout.
+
+FACTORY ROOT (F): ${F}. PYTHON: ${PY}. Run folder: ${RUN} (claim your row in CLAIMS.md; siblings run concurrently, touch only files containing your id, and inside those only the split's; the artwork owner owns the shared scene).
+YOUR VIDEO: ${JSON.stringify(v)}
+
+${LAWS}
+
+${PLAN_IS_LAW(v, 'split_notes')}
+
+${PREP_NOTE(v)}
+
+WHAT YOU BUILD
+1. CONSUME the completed custom scene from ${RUN}/plans/${v.id}_scene_handoff.md. The artwork stage already created it for THIS recording. Do not create another scene. The following describes the existing handoff contract: The shared-scene economy is still the whole point - the same scene serves the split's top zone and the cutout's stage zone - but since 2026-09-04 the cutout is a DIFFERENT AGENT that starts later, so the scene has to survive as an artefact instead of as a fact in your head. Read ${RUN}/plans/${v.id}_scene_handoff.md; do not overwrite it or mutate the shared scene. It specifies the scene module's path, its entry points, the units it is authored in, every asset key it resolves, what the cutout must change to seat it in the stage zone, and anything you learned building it that the cutout author would otherwise learn twice.
+2. SPLIT -> YOUTUBE. Classic 50/50, the lane scene in the top zone, captions.py canon, HANDLE_YT outro. Stage at "${RUN}/staging/youtube/${v.id}_split.mp4".
+TAKEOVER and FACESPLIT are NOT daily deliverables. Never ship one here. You do not build the cutout even if the matte has already shipped.
+
+${BUILD_GREEN(v, 'split')}
+
+RETURN: the project path; the scene handoff path; the plan's lane and the one line from the plan that justifies it (you are quoting the plan, not deciding); prerender_check's verdict block; phone_test_page's mode, object count and sheet path; the cold crop paths in index order; the checks you still owe by hand (the SS3b merge count); your disagreement notes if any; and - out of the PREP MARKERS you can see - the take-detection corroboration and any stage whose marker has not landed.`
+
+const WHITEBOARD_AUTHOR = (v) => `You are the WHITEBOARD AUTHOR for video "${v.id}" in today's daily shorts run. You build ONE composition - the WHITEBOARD, for Instagram / Reels. A SPLIT AUTHOR is building the lane scene and the split from the same plan right now, and a CUTOUT AUTHOR starts when the matte ships; you do not coordinate with either and you do not build a split or a cutout.
+YOU DO NOT WAIT FOR THE MATTE (2026-09-04). The board needs the cut and the plan, nothing from the silhouette. If you catch yourself waiting on a track or a ship marker, you have misread your job.
+
+FACTORY ROOT (F): ${F}. PYTHON: ${PY}. Run folder: ${RUN} (claim your row in CLAIMS.md; touch only files containing your id, and inside those only the whiteboard's).
+YOUR VIDEO: ${JSON.stringify(v)}
+
+${LAWS}
+Also load ${F}/formats/whiteboard/CHASSIS.md in full before you draw anything.
+
+${PLAN_IS_LAW(v, 'wb_notes')}
+The whiteboard does not reuse the lane scene - it reuses the ARGUMENT - so you redraw the plan's pictures as ONE continuous drawing that gains ink, using the SAME bespoke objects and the SAME labels the other two lanes are using.
+
+${PREP_NOTE(v)}
+
+WHAT YOU BUILD
+WHITEBOARD -> INSTAGRAM / REELS, always, every video, no per-video format choice (Miguel, 2026-09-02: "we'll change if I see that it's not good"). HANDLE_TIKTOK_IG outro. Stage at "${RUN}/staging/reels/${v.id}_whiteboard.mp4".
+
+YOU MUST BUILD THROUGH THE SHARED HARNESS: ${F}/formats/whiteboard/lib/whiteboard_build.py (canonical since 2026-09-02; ${RUN}/gen/whiteboard_build.py is a thin re-export shim). Do NOT fork it and do NOT re-implement a board. build() REQUIRES label_plan= and key_term= and accepts comparisons=, blocks=, connectors=, board_anchors= - a board cannot be built without declaring what it writes - and its own asserts refuse the build in place: assert_label_law, assert_outro_clear, caption_identity_guard, assert_no_enclosure, assert_label_side, assert_spacing_law, assert_no_text_crossing, assert_anchor_law, assert_lifetime_law. Feed them the plan's declarations; do not invent a second set.
+The outro is an OPAQUE RISING SHEET that wipes the board, never a scrim and never a fade; the wipe completes BEFORE the handle card starts and no ink is authored at or after the outro anchor. An erase is legal only to free a column, retire a superseded key, or leave the frame before the outro - authored as an opacity swap on the element's own id, never a default. THE PEN TAPS A POPPED BOX AT ITS TOP-LEFT CORNER, NEVER ITS CENTRE (run-13 finding): the centre of a big box is the finished ink the box is framing. A bespoke glyph must pass the cold namer UNLABELLED before its label is allowed to rescue it. A named model or tool that has a registry mark gets that mark inked in beside or inside its tag.
+
+${BUILD_GREEN(v, 'whiteboard')}
+Gate 1 SKIPS the whiteboard zone on purpose - progressive stroke-dashoffset ink cannot be measured from a DOM box - so the round-4 geometry for the board comes from whiteboard_build's own asserts, on the AUTHORED board in board units, and they are not optional because Gate 1 is quiet.
+
+RETURN: the project path; prerender_check's verdict block; phone_test_page's mode, object count and sheet path; the cold crop paths in index order; the board reports you owe by hand - label law, outro clear, seams, lifetime law, the SS3b merge count; the board mode you built and the chapter seam times; your disagreement notes if any.`
+
+const CUTOUT_AUTHOR = (v) => `You are the CUTOUT AUTHOR for video "${v.id}" in today's daily shorts run. You build ONE composition - the CUTOUT, for TikTok. You were started AFTER this recording's matte shipped, because the cutout is the only lane that needs the silhouette (Miguel, 2026-09-04: "we can make the split screen and whiteboard stop waiting for the cutout"). The split and the whiteboard are already built or building from the same plan; you do not coordinate with them and you build neither.
+
+FACTORY ROOT (F): ${F}. PYTHON: ${PY}. Run folder: ${RUN} (claim your row in CLAIMS.md; touch only files containing your id, and inside those only the cutout's).
+YOUR VIDEO: ${JSON.stringify(v)}
+
+${LAWS}
+Also load ${F}/formats/cutout/CHASSIS.md in full before you emit anything.
+
+${PLAN_IS_LAW(v, 'cutout_notes')}
+
+REUSE THE SPLIT AUTHOR'S LANE SCENE INSTEAD OF INVENTING A SECOND ONE.
+  ${RUN}/plans/${v.id}_scene_handoff.md - the split author's handoff: the scene module, its entry points, its units, its asset keys, and what to change to seat it in the stage zone. READ IT FIRST. The artwork stage has already finished. If the handoff is missing, return HOLD. Never draw an independent replacement.
+THE LOGO LANES BEHIND HIM ARE TOPICAL (Miguel, 2026-09-04): build the background lanes from the plan's cutout_logo_lanes - the marks this short actually names, or their obvious neighbours in the same category. A generic house set is a rejection.
+THE REVIEWED SELECTION is in ${RUN}/matting/${v.id}/selection.json. Inspect MatAnyone output and report face loss or retained chair. A repair changes this recording's selection and reruns its production matting client; do not invoke the retired SAM2 tracker or chair-carving scripts.
+LAW 48, THE OUTLINE IS JUDGED AGAINST ITS SIBLINGS: a matte with a visible chair beside the head, a splash by the neck or edge flicker is refused even when structural checks are clean.
+
+${PREP_NOTE(v)}
+
+WHAT YOU BUILD
+CUTOUT -> TIKTOK. The plan's scene re-composed for the stage zone per formats/cutout/CHASSIS.md (fix5 silhouette spec, the chassis DEPTH FIELD, guard_plate_box), HANDLE_TIKTOK_IG outro. Stage at "${RUN}/staging/tiktok/${v.id}_cutout.mp4".
+TAKEOVER and FACESPLIT are NOT daily deliverables. Never ship one here.
+
+${BUILD_GREEN(v, 'cutout')}
+
+RETURN: the project path; whether the scene handoff existed and what you took from it; prerender_check's verdict block (including the edge-fade guard and checks 24+25); phone_test_page's mode, object count and sheet path; the cold crop paths in index order; the checks you still owe by hand (the cast resolve, guard_plate_box, the SS3b merge count); the matte's structural checks, visual review state and estimated Modal cost out of the prep markers; your LAW 48 read of the outline; your disagreement notes if any.`
+
+const BUILD_SCHEMA = { type: 'object', required: ['project', 'label', 'phone_mode', 'cold_crop_paths', 'prerender_pass'], properties: {
+  project: { type: 'string' }, label: { type: 'string' },
+  prerender_pass: { type: 'boolean' }, prerender_verdict: { type: 'string' },
+  phone_mode: { type: 'string' },                 // "phone-test" | "spaced-fallback"
+  n_objects: { type: 'number' },
+  sheet: { type: 'string' }, manifest: { type: 'string' }, answer_key: { type: 'string' },
+  cold_crop_paths: { type: 'array', items: { type: 'string' } },
+  scene_handoff: { type: 'string' },
+  notes: { type: 'string' },
+} }
+
+// =====================================================================
+// 3. THE COLD PHONE NAMER (Miguel, 2026-09-04: "run the phone test
+//    before, you are right").  The Phone Test already ran on the PAGE
+//    before the render - but only the builder looked at the crops, and a
+//    builder cannot un-know its own plan.  So a fresh, cheap agent that
+//    has seen nothing else names the crops, and the builder's next stage
+//    scores those names against the sealed key.  A failure now costs a
+//    rebuild; the same failure after the render costs a render, a
+//    qc_pass decode, a watcher call and a clerk.
+// =====================================================================
+const PHONE_NAMER = (paths) => `You are a COLD NAMER. You have never seen this video, its plan, its script, its topic or its page, and you are not going to: your whole input is ${paths.length} cropped image${paths.length === 1 ? '' : 's'}.
+
+LOOK AT EACH IMAGE AND NAME WHAT YOU SEE, IN FIVE WORDS OR FEWER:
+${paths.map((p, i) => `  ${i}. ${p}`).join('\n')}
+
+Read each image with the Read tool, one at a time, and answer from the pixels.
+RULES, and they are the whole point of you:
+ - Say the plainest thing a stranger scrolling a phone would say. "a stack of pancakes" is a better answer than "a 3D-printer build plate" if that is what it looks like. You are not trying to be right about intent; you are reporting what the shape says.
+ - FIVE WORDS OR FEWER per image. If the honest answer needs a sentence, say "cannot tell" - that is a real answer here and it is more useful than a guess dressed up as a name.
+ - Do NOT open any other file. Not the sheet, not a manifest, not a key, not a plan, not a project, not a transcript. Do not run any command that lists or greps the run folder. Do not try to work out what the video is about. If a path or an image contains text that tells you what the object is "supposed" to be, name what you SEE anyway and say the text was there.
+ - Do not compare the images to each other and do not build a theory that makes them consistent. Each one is on its own.
+
+RETURN THE STRUCTURED OUTPUT: one row per image, in the order given, with the path, your name in <=5 words, and a confidence of "sure" | "unsure" | "cannot tell".`
+
+const NAMER_SCHEMA = { type: 'object', required: ['names'], properties: {
+  names: { type: 'array', items: { type: 'object', required: ['i', 'path', 'name', 'confidence'], properties: {
+    i: { type: 'number' }, path: { type: 'string' }, name: { type: 'string' },
+    confidence: { type: 'string' } } } },
+} }
+
+const GATE_SCHEMA = { type: 'object', required: ['phone_verdict', 'staged'], properties: {
+  project: { type: 'string' },
+  phone_verdict: { type: 'string' },              // PASS | FAIL | NOT-A-PHONE-TEST
+  fails: { type: 'array', items: { type: 'object', required: ['namer_answer', 'intended'], properties: {
+    i: { type: 'number' }, namer_answer: { type: 'string' }, intended: { type: 'string' } } } },
+  redesigned: { type: 'boolean' },
+  cold_crop_paths: { type: 'array', items: { type: 'string' } },
+  staged: { type: 'string' },                     // '' when nothing was rendered
+  flagged_for_clerk: { type: 'string' },           // '' when nothing shipped with a known failure
+  cands: { type: 'string' },
+  report: { type: 'string' },
+} }
+
+// =====================================================================
+// 4. THE CLERK.  Procedure v3.1 (2026-09-04): THE DUPLICATE WATCH IS
+//    GONE.  render_and_check already watched the exact file the clerk
+//    would have re-watched - same model, same encode, same prompt - and
+//    on run 13 the second watch found nothing the first had not, at
+//    $0.10-0.15 a video.  The clerk now READS that candidate file and
+//    adjudicates it, plus whatever its OWN frame decode raises.  Nothing
+//    else about the clerk changes: it is still fresh, still cold, still
+//    forbidden the plan, and its own decode is still what catches things
+//    (run-13 recall: the watcher 0 of 2, the clerk 2 of 2).
+// =====================================================================
+const instrumentSample = new Set((VIDEOS.length > 5 ? [VIDEOS[0], VIDEOS[5]] : [VIDEOS[0]]).filter(Boolean).map(v => v.id))
+const CLERK = (v, staged) => `You are the INDEPENDENT CLERK for video "${v.id}" in today's daily run. You did not build this and you will not read anything the plan agent or any author wrote. FACTORY ROOT: ${F}. PYTHON: ${PY}.
+
+YOUR ENTIRE INPUT IS:
+  - the staged renders that exist:
+${staged.map(s => `      "${s.path}"   (${s.fmt})`).join('\n') || '      NONE - report that and stop'}
+  - the POST-RENDER WATCHER'S CANDIDATES, one file per staged render: ${RUN}/review/cands_${v.id}_<fmt>.json
+  - the tight transcript ${RUN}/cuts/${v.id}/transcript_tight.json
+  - the review artefacts in ${RUN}/review/ that are IMAGES: sheet_${v.id}_*.png and phone_${v.id}_*.png (+ their phone_*.json ONLY to record your answers into; the phone_*.key.json answer keys stay CLOSED until you have written every answer)
+  - any ${RUN}/review/phone_flag_${v.id}_*.md - a file an author staged with a KNOWN cold-read failure after two redesign rounds. Read it AFTER you have written your own Phone Test answers, never before.
+  - the procedure ${F}/pipeline/semantic_review.md (v3.1)
+
+FORBIDDEN, and this is the whole point of your existence: do NOT open the project index.html, any *_gen.py, any plan json or markdown (${RUN}/plans/ is CLOSED to you), any autopsy, any paperwork json, any author return, any prerender report, any scene handoff, or any phone_*.key.json before you have answered. If you read the plan you will see what was meant instead of what was drawn, and your verdict is void. Decode COLD.
+
+STEP 1 - READ THE WATCHER'S CANDIDATES. DO NOT RE-RUN THE WATCHER (2026-09-04, Miguel: "remove the pure duplication in the second watch").
+  ${RUN}/review/cands_${v.id}_<fmt>.json, one per staged render, written by render_and_check the moment that file landed.
+It is the SAME watcher on the SAME file you are judging: gemini-3.5-flash-lite, re-encoded to 720x1280 with audio, HIGH media resolution / 3 fps, one whole-video call plus overlapping ~20 s windows, made to write a BEAT LOG before it was allowed to accuse anything. Running it again is the same call on the same bytes for the same money. Each file carries its own cost_usd and wall clock - quote them; you spent nothing.
+Read the BEAT LOG as well as the candidate rows: it is the watcher's account of what is on screen against what is said, and it is where a defect the watcher did not accuse often shows up in its own words.
+If a cands file is missing for a staged render, say so and note that render was watched by nothing; do NOT run the watcher to fill the hole - report it, and adjudicate that render on your own decode alone.
+
+STEP 2 - ADJUDICATE EVERY CANDIDATE YOURSELF. For each row: (a) decode the window t_start..t_end - a real window, so sample both ends and the middle, denser where the claim is about motion: ffmpeg -nostdin -v error -ss <t> -i <render> -frames:v 1 -vf scale=500:-1 f_<t>.png. Judge WHOLE frames, never a cropped zone. (b) Apply the law: empty_zone needs >= 1.5s of settled emptiness; named_tool_no_mark needs the mark still absent >= 2s AFTER the word ends; cramp_overlap_clipping is either a HELD collision or a MOTION collision and motion NEVER excuses it; contradictory_labels needs both labels settled >= 1.5s; side_label / uneven_baselines / unaligned_arrows / ring_or_box_on_image_text are geometry and have NO duration test; missing_source_post cross-checks ${PY} ${F}/pipeline/pointing_cues.py --vid ${v.id}; picture_contradicts_sentence includes THE PLATFORM: a sentence that names a platform ("this guy on X") under a card wearing a different platform's frame is a defect, and the inner screenshot is not the wrapper. (c) Apply the KNOWN AND ACCEPTED list - read the KNOWN_ACCEPTED block out of ${F}/pipeline/clerk_video_gemini.py. (d) Mark the row CONFIRMED (holds the render) / ACCEPTED-BEHAVIOUR (name the list item) / REFUTED (quote the measurement that killed it). Every verdict carries a number you measured. A FAILED DURATION TEST IS A DISMISSAL.
+YOUR OWN DECODE IS NOT OPTIONAL AND IT IS THE PART THAT WORKS. Run-13 recall: the watcher found 0 of the 2 real defects and the clerk's own eyes found both. So watch the renders yourself, end to end, and raise what the watcher missed as a clerk-originated candidate under the SAME rules with its measured window written in - and mark it clerk-originated, so the watcher's recall can be tracked honestly. NEVER re-word a claim to chase a CONFIRMED.
+
+VERDICT: PASS = zero CONFIRMED rows. ANY CONFIRMED row HOLDS the render - no warning tier.
+
+STEP 3 - THE PHONE TEST, on the delivered file. A COLD NAMER already named these objects off the PAGE before the render, and the author scored it against the key; you do not read that scoring and you do not read the flag file until your own answers are written. Open each ${RUN}/review/phone_${v.id}_*.png crop sheet. Each tile is one bespoke object, cropped alone at 405x720 phone scale, with NO context by design. Name each tile in FIVE WORDS OR FEWER, cold. Write your answers into "judge_answer" in phone_${v.id}_*.json. ONLY THEN open phone_${v.id}_*.key.json and compare, and only then read any phone_flag_${v.id}_*.md. A different name, a hedge, an "I cannot tell", or an answer needing more than five words is a FAIL and the object is REDESIGNED. Report every FAIL with both names, and say whether it is the same object the pre-render namer failed on (a defect that survived two redesign rounds is a different problem from a fresh one). A sheet whose manifest says mode "spaced-fallback" is NOT a Phone Test - report that the video declared no bespoke object and say whether you can see one in the frames anyway.
+
+WRITE IT DOWN: ${RUN}/review/clerk_v3_${v.id}.md, ONE SECTION PER RENDER, each with TWO tables - the NO-SENSE table (CONFIRMED only, with the window and the measurement) and the DISMISSED table. Nothing is deleted silently.
+
+STEP 4 - only if steps 1-3 pass: instruments. ` + (instrumentSample.has(v.id) ? `FULL re-measurement from disk of EVERY staged render: gates, caption canon (one 30px size, one 114.59px pill height, no beat that is a lone function word and no pill squarer than aspect 1.45; handles: split=@migueltorrezai, cutout+whiteboard=@migueltorrez.ai), audio 8-16k vs master, face HF vs plate, matte leak verdict, decoded frames at the densest beats + matte edges at 2x, and re-run these three yourself on each render (all must exit 0, report the numbers): ${PY} ${F}/pipeline/face_center_check.py (worst dx%), ${PY} ${F}/pipeline/clip_coverage_check.py (holes + ghosts + interior blank frames), ${PY} ${F}/formats/whiteboard/lib/whiteboard_build.py <render> --vid ${v.id} (the zero-ink scan; --zone-bottom 862.5 for split and cutout).` : `spot-check only: caption canon + the correct handle on each staged render, confirm the files exist with the right durations, and re-run on the reels render (report the numbers): ${PY} ${F}/pipeline/face_center_check.py (worst dx%) and ${PY} ${F}/formats/whiteboard/lib/whiteboard_build.py <render> --vid ${v.id} (the zero-ink scan).`) + `
+
+Never block >2min. RETURN, PER RENDER: CONFIRMED count + every CONFIRMED row with its measured window, DISMISSED count + each dismissal's verdict and reason, which rows were clerk-originated, the WATCHER COST YOU DID NOT SPEND (cost_usd of each cands_*.json) and its wall clock; then the PHONE TEST verdict (your five-word-or-shorter answer per object + PASS/FAIL, and whether any fail was pre-flagged), the instruments PASS/FAIL + discrepancies, and the paths of the contact sheets you reviewed. A FAIL holds the whole batch.
+
+YOU MAY BE JUDGING FEWER THAN THREE RENDERS, AND THAT IS NOT ITSELF A DEFECT (2026-09-05). A lane can end non-ok in prep and the run no longer waits for it; you judge what is in front of you and you say how many there were. Do not mark a video down for a format that was never staged, and do not go looking for it.
+GATE 3 IS ADVISORY (STANDARD.md, 2026-09-05): qc_pass reports gemini describe-mode under verdicts.gate3_gemini_describe = REPORTED instead of failing a render. Its describe_errors are candidates for YOU, adjudicated against the frames exactly like the watcher's - four files in two days were blocked by claims that measured false on the pixels.
+
+Before returning, save ${RUN}/review/final_${v.id}.json with verdict, phone_verdict, confirmed, and reviewed_files mapping EVERY exact staged MP4 path to its SHA256. PASS requires all three formats and no known failure.
+RETURN THE STRUCTURED OUTPUT. Put your whole prose report - every table, every number above - in "summary"; nothing is dropped by being structured. "verdict" is PASS only when every render you judged has zero CONFIRMED rows and the Phone Test passed; anything else is HOLD, and HOLD means the Drive push skips this recording.`
+
+const CLERK_SCHEMA = { type: 'object', required: ['verdict', 'summary'], properties: {
+  verdict: { type: 'string' },                    // PASS | HOLD
+  confirmed: { type: 'number' },
+  renders_judged: { type: 'number' },
+  phone_verdict: { type: 'string' },
+  instruments: { type: 'string' },
+  summary: { type: 'string' } } }
+
+// =====================================================================
+// PREP - LAUNCHED, not awaited (2026-09-04).  prep_batch still does the
+// whole batch's mechanical work once, in parallel, but the workflow no
+// longer waits for the batch to close before the first plan starts: each
+// stage stamps <run>/prep/stages/<id>.<stage>.json as it lands, and a
+// recording's chain begins at ITS OWN cut.  Measured on run 13: the cut
+// is ~70 s of an ~11 min prep, and the other ~10 min (plate sweep,
+// prompt0, track, ship) serve the CUTOUT alone.
+// =====================================================================
+phase('Prep')
+const PREP_INTAKE = `${RUN}/prep/_intake.json`
+const PREP_LAUNCH_SCHEMA = { type: 'object', required: ['launched', 'log'], properties: {
+  launched: { type: 'boolean' }, pid: { type: 'number' },
+  log: { type: 'string' }, intake: { type: 'string' },
+  rows: { type: 'number' }, note: { type: 'string' } } }
+
+const prepLaunch = await spawn(`You are the PREP LAUNCHER for today's daily shorts batch. You design nothing and you judge nothing: you author one list, start one script, prove it is running, and return. YOU DO NOT WAIT FOR THE BATCH TO FINISH - a separate reporter does that, and the per-recording chains start off the stage markers.
+FACTORY ROOT: ${F}. PYTHON: ${PY}.
+0. A PRE-PREPPED RUN IS NOT PREPPED AGAIN (2026-09-06): if ${RUN}/prep/stages/<id>.ship.json says "ok" for EVERY recording in today's batch and ${RUN}/MATTES_FINAL.md exists, the cuts, plates and mattes are already approved. Do NOT author a new intake and do NOT launch prep_batch: return {launched:false, log:"${RUN}/prep/_batch.log", intake:"${PREP_INTAKE}", rows:<count>, note:"pre-prepped run; markers already ok"} and stop. Every downstream gate reads the markers that already exist.
+1. AUTHOR the intake list at ${PREP_INTAKE}. IT IS NOT THE WORKFLOW ARGS SHAPE AND YOU CANNOT COPY THEM. Take detection is decided by the CONTENT rule - the LAST scripted opening that reaches the spoken SIGN-OFF - and there is no model anywhere in this pipeline to guess a script's opening, so EVERY row owes "opening_key" (or "opening_families") and "sign_off_key". A row without them cuts nothing and reports status SKIPPED_NEEDS_KEY. Read ${F}/pipeline/prep/prep_batch.py's docstring for the full shape; optional per row: "expected" (hand-verified pins, every one of them ASSERTED), "keyterms", "wings", "head_lead", "cues" (a source URL + claim span per pointing cue), "no_overwide", "allow_uncorroborated", "gpu".
+   BOOK INTAKE'S SCRIBE PASS (2026-09-04, the cost ledger): the raw transcripts in ${RUN}/intake/transcripts/ were made by ElevenLabs Scribe v2, which is a PAID call that no script prices - so for EACH recording, read its transcript's own "audio_duration_secs" and record one line: ${PY} ${F}/pipeline/costs.py add --run ${RUN} --service elevenlabs --stage scribe --video <id> --units "<secs> s audio" --usd $(${PY} -c "print(round(<secs>/3600*0.40,6))") --note "intake Scribe v2 on the raw recording, estimate at \\$0.40/audio-hour" --ref "intake/transcripts/<recording>.json@<secs>". Re-running it cannot double count (the ref is the key).
+   Get the keys from the RAW TRANSCRIPTS - ${RUN}/intake/transcripts/<recording>.json - plus whatever ${RUN}/CLAIMS.md already knows. Today's batch:
+${JSON.stringify(VIDEOS, null, 1)}
+2. LAUNCH IT DETACHED, in the background, and do not poll it to completion:
+   ${PY} ${F}/pipeline/prep/prep_batch.py --run ${RUN} --intake ${PREP_INTAKE} --backend matanyone2 --sessions ${RUN}/matting
+   (Production uses --backend matanyone2 --sessions ${RUN}/matting; supports --workers 5, --stride 6 and selective --skip stages. A reviewed selection is required. No --track-limit truncation, legacy carving or automatic SAM2 repair. The VPN preflight refuses to launch through ProtonVPN: if it refuses, STOP and report; never --allow-vpn.)
+   Write its stdout+stderr to ${RUN}/prep/_batch.log.
+3. PROVE IT IS ALIVE, then return: the process exists, the log has started moving, and ${RUN}/prep/stages/ has appeared or will (each stage stamps <id>.<stage>.json there the instant it lands - that is what every downstream agent watches). Do not wait for the first cut; just prove the launch. If the launch FAILED, say so loudly with the log's last lines - every chain downstream is waiting on markers that will never come.
+RETURN THE STRUCTURED OUTPUT: launched, the pid, the log path, the intake path, the row count, and any row you had to repair to make it launchable.`,
+  { label: 'prep:launch', phase: 'Prep', model: 'opus', effort: 'low', schema: PREP_LAUNCH_SCHEMA })
+
+log(`prep launched: ${prepLaunch && prepLaunch.launched ? 'yes' : 'NO - the chains will stall on missing markers'}, log ${prepLaunch && prepLaunch.log}`)
+
+// The batch's own report still gets written down, by an agent that waits for
+// _batch.json while the waves are already building.  Started here, awaited at
+// the very end, so nothing in the run is blocked on it.
+const prepReport = spawn(`You are the PREP REPORTER for today's daily shorts batch. prep_batch.py is ALREADY RUNNING in the background (log ${RUN}/prep/_batch.log, launched by the prep launcher). You run nothing and you fix nothing: you wait for the batch to close and you report what it measured. NO LLM WORK ANYWHERE.
+FACTORY ROOT: ${F}. PYTHON: ${PY}.
+1. Wait for ${RUN}/prep/_batch.json to appear. Poll it with a bounded background loop or a monitor - NEVER block the foreground more than 2 minutes, and if it has not appeared after ~40 minutes report that with the log's last 40 lines instead of waiting longer.
+2. Read ${RUN}/prep/_batch.json (batch_wall_s, per_stage_wall_s, status, stage_totals_s, serial_equivalent_s, modal_cost_usd, needs_source, wing_review, packages, repairs) and every ${RUN}/prep/stages/*.json marker.
+RETURN: for EVERY video - the per-stage status (cut / plate / prompt0 / track / ship / cues), the take-detection corroboration verdict, the over-wide extension the plate solve chose and its margin, the matte structural checks and final visual-review state, the cue count and which cues still say NEEDS_SOURCE - plus the per-stage wall clock, the batch's batch_wall_s against its serial_equivalent_s (that ratio IS the win), the TOTAL ESTIMATED MODAL COST (keep provider charges separate), and every repair round. Name every stage that is not "ok" and quote its error verbatim; do not fix it, report it. AND THE NEW NUMBER THAT MATTERS (2026-09-04): per recording, the wall clock from the CUT marker to the SHIP marker - that gap is exactly what the split and the whiteboard no longer wait for.`,
+  { label: 'prep:report', phase: 'Prep', model: 'opus', effort: 'low' })
+
+// =====================================================================
+// WAVES.  The cap is on VIDEOS, not on agents: at most 5 videos are in
+// flight.  The measured session-window cap that killed a fleet on
+// 2026-08-17 was 8 CONCURRENT BUILDERS each doing its own cut, plate,
+// track and three laptop renders.  These authors do none of that: prep
+// does the mechanical work once, and every render is on Modal - so the
+// Mac only AUTHORS.  Inside a wave the recordings flow through
+// pipeline(), NOT parallel(): there is no barrier between the stages, so
+// a recording whose cut lands first gets its plan, its lanes and its
+// clerk without waiting for a sibling.
+// =====================================================================
+const WAVE = 5
+const MAX_REDESIGNS = 2
+
+// A NON-OK MARKER IS NOT A VERDICT (2026-09-05).  Run 14 ended the whole cutout
+// lane on `trycrm.ship.json` status "error" - a crash on the LAST LINE of track.py
+// AFTER a successful paid track - and on grokbuild's "REFUSED", which a repair
+// agent turned into "ok" twenty minutes later with nothing left watching.  Both
+// markers are REWRITTEN in place when the stage runs again (prep_batch's Stage
+// context manager re-stamps them on every repair round), so a gate that reads one
+// non-ok marker and quits is reading a snapshot of a moving thing.
+const GATE_NOT_FINAL = (v, stage) => `
+A NON-OK MARKER IS NOT FINAL WHILE ANYTHING CAN STILL REWRITE IT (2026-09-05, from run 14).
+  - prep_batch's OWN auto-repair loop re-runs the stage and RE-STAMPS this same marker file in place (up to 2 rounds; see pipeline/prep/README.md "THE SELF-HEALS"). A "REFUSED"/"error" you read at minute 3 is routinely "ok" at minute 12, with no human anywhere.
+  - A REPAIR AGENT may also rewrite it, or write ${RUN}/prep/stages/${v.id}.${stage}.override.json - the SAME shape - to say the failure was handled outside prep. AN OVERRIDE FILE WINS over the marker; read it every poll and report override_used=true when you use it.
+  SO: on a non-ok marker, DO NOT RETURN YET. Keep watching - the marker's mtime and its "status", plus the override path, plus ${RUN}/prep/_batch.log - for the rest of your timeout, and return the moment it turns "ok" or "reused".
+  FINAL means only these, and you say final=true for them: "SKIPPED_NEEDS_KEY", "not_a_short", or a marker that is STILL non-ok when your timeout runs out. Everything else is final=false, and the workflow will poll you again after a wait - so when you time out on a non-ok marker, say final=false and report exactly what you last saw.
+  Report the marker's error VERBATIM, every time. It is what the repair agent gets handed.`
+
+const gateCut = (v, ph, poll) => spawn(`You are the CUT GATE for recording "${v.id}". You run nothing and you judge nothing: you wait for ONE marker file and report what it says.${poll ? `\nTHIS IS POLL ${poll + 1}: an earlier poll saw a non-ok marker and a repair may have landed since. Re-read from disk; trust nothing you were told.` : ''}
+WATCH: ${RUN}/prep/stages/${v.id}.cut.json - written by prep_batch the instant that recording's CUT stage lands (prep is running in the background over the whole batch; the log is ${RUN}/prep/_batch.log).
+YOU DO NOT PARSE IT YOURSELF AND YOU DO NOT INVENT A POLLING LOOP. Run this ONE command with the Bash tool (timeout 600000 ms) and report exactly what it prints:
+  ${PY} ${F}/pipeline/prep/gate_marker.py --run ${RUN} --id ${v.id} --stage cut --wait-s 570
+It blocks in python until the marker passes, applies the override rule for you, and always prints a json object with "status", "final", "override_used", "waited_s", "error" and "log_tail". If it comes back non-ok, run it AT MOST twice more (that is ~28 minutes) and then return what the last call printed. Never a monitor, never a background loop, never a foreground sleep.
+PASS when the marker's "status" is "ok" or "reused". Any other status (error, SKIPPED_NEEDS_KEY) is a STOP: this recording gets no plan and no build, so report the status and the marker's error verbatim.
+On a pass, also report: the cut master path, whether ${RUN}/cuts/${v.id}/transcript_tight.json exists, and the wall seconds you waited.
+${GATE_NOT_FINAL(v, 'cut')}
+RETURN THE STRUCTURED OUTPUT. Read nothing else - not the plan folder, not the package json, not another recording's markers.`,
+  { label: 'gate:cut ' + v.id + (poll ? ' p' + (poll + 1) : ''), phase: ph, effort: 'low', schema: { type: 'object', required: ['status'], properties: {
+    status: { type: 'string' }, master: { type: 'string' }, transcript_tight: { type: 'boolean' },
+    final: { type: 'boolean' }, override_used: { type: 'boolean' },
+    waited_s: { type: 'number' }, error: { type: 'string' } } } })
+
+const gateShip = (v, ph, poll) => spawn(`You are the MATTE GATE for recording "${v.id}". You run nothing and you judge nothing: you wait for ONE marker file and report what it says. Only the CUTOUT needs the silhouette - the split and the whiteboard are already building - so you are the only thing waiting on this.${poll ? `\nTHIS IS POLL ${poll + 1}: an earlier poll saw a non-ok marker and a repair may have landed since. Re-read from disk; trust nothing you were told.` : ''}
+WATCH: ${RUN}/prep/stages/${v.id}.ship.json - written by prep_batch the instant that recording's SHIP stage lands. ${RUN}/prep/stages/${v.id}.track.json lands before it, and a failed track is why a ship never comes.
+YOU DO NOT PARSE IT YOURSELF AND YOU DO NOT INVENT A POLLING LOOP. Run this ONE command with the Bash tool (timeout 600000 ms) and report exactly what it prints:
+  ${PY} ${F}/pipeline/prep/gate_marker.py --run ${RUN} --id ${v.id} --stage ship --wait-s 570
+It blocks in python until the marker passes, applies the override rule for you, and always prints a json object with "status", "final", "override_used", "waited_s", "error", "outputs" (the three matte layers), "track_cost_usd" and "log_tail". If it comes back non-ok, run it AT MOST four more times (that is ~48 minutes) and then return what the last call printed. Never a monitor, never a background loop, never a foreground sleep: on 2026-09-08 the forty-minute agentic poll is what made this gate return NOTHING three times over a marker that had said "ok" for half an hour.
+PASS when the marker's "status" is "ok" or "reused". "REFUSED" means a matte gate refused the encode (prep's own auto-repair already had its rounds) and there is NO cutout for this recording: report REFUSED with the verdict verbatim. Any error status is the same stop.
+On a pass, also report: the matte outputs, soft-alpha/frame checks, review state and estimated Modal track cost, and the wall seconds you waited.
+${GATE_NOT_FINAL(v, 'ship')}
+A CRASH IS NOT A REFUSAL, and run 14 lost a lane to exactly that confusion: trycrm's ship marker said "error" because track.py died on its LAST LINE, after a successful PAID track with every artifact on disk. If the marker's error names a serialisation, a write, or a missing run record rather than a GATE VERDICT, say so in your return - that failure has a recovery (recover_run_record) and it is the repair agent's first move, not a dead lane.
+RETURN THE STRUCTURED OUTPUT. Read nothing else - not the plan folder, not another recording's markers.`,
+  { label: 'gate:ship ' + v.id + (poll ? ' p' + (poll + 1) : ''), phase: ph, effort: 'low', schema: { type: 'object', required: ['status'], properties: {
+    status: { type: 'string' }, outputs: { type: 'string' }, protrusion: { type: 'string' },
+    edge_clip: { type: 'string' }, leak: { type: 'string' }, track_cost_usd: { type: 'number' },
+    final: { type: 'boolean' }, override_used: { type: 'boolean' }, crash_not_refusal: { type: 'boolean' },
+    waited_s: { type: 'number' }, error: { type: 'string' } } } })
+
+// =====================================================================
+// THE GATE THAT WAITS THROUGH A REPAIR, and THE REPAIR AGENT.
+// A gate is polled up to GATE_POLLS times with a wait between polls, and
+// a poll only stops early on ok/reused or on a FINAL status.  If the
+// gate is still non-ok after that, the recording gets ONE repair agent
+// (per recording, per run) and the gate is polled again.  Only then is
+// it needs_miguel.
+// =====================================================================
+const GATE_POLLS = 3
+const MARKER_READS = 2
+const okStatus = (g) => g && (g.status === 'ok' || g.status === 'reused')
+const FINAL_STATUS = new Set(['SKIPPED_NEEDS_KEY', 'not_a_short'])
+const isFinal = (g) => !!g && (g.final === true || FINAL_STATUS.has(g.status))
+const gateErr = (g, v, stage) => !g
+  ? `NO AGENT RETURNED. The ${stage || ''} gate AND its marker reader both came back empty, so ${v ? RUN + '/prep/stages/' + v.id + '.' + (stage || 'STAGE') + '.json' : 'the marker'} has not been read by anything - this is an AGENT-DISPATCH failure and it says nothing at all about the stage. FIRST MOVE, before any theory: run ${PY} ${F}/pipeline/prep/gate_marker.py --run ${RUN} --id ${v ? v.id : '<id>'} --stage ${stage || '<stage>'} and believe what it prints; on run 17 the marker had said "ok" for half an hour while two recordings each burned their one repair round on this string.`
+  : `status "${g.status || 'missing'}"${g.error ? ': ' + g.error : ''}`
+
+// "THE GATE AGENT NEVER RETURNED" IS NOT A FACT ABOUT THE MARKER (2026-09-08,
+// run 17, eudisclosure).  The matte gate came back null three times - it never
+// even wrote its started sentinel - while ship.json had said "ok" on disk since
+// 00:45:23.  gateErr(null) then handed `gateWithRepair` a string it could not
+// tell apart from a refused encode, and the recording spent its ONE repair
+// round on an answer that was already on disk.  So a null gate is never
+// believed: the marker is read directly, by a reader that runs ONE command and
+// judges nothing, before the poll is allowed to count as non-ok.
+const MARKER_SCHEMA = { type: 'object', required: ['status'], properties: {
+  status: { type: 'string' }, final: { type: 'boolean' }, override_used: { type: 'boolean' },
+  outputs: { type: 'string' }, track_cost_usd: { type: 'number' },
+  waited_s: { type: 'number' }, error: { type: 'string' } } }
+
+const markerRead = (v, stage, ph, retry) => spawn(`You are the MARKER READER for recording "${v.id}", stage "${stage}". The gate agent for this stage returned nothing, so you are the fallback and you are as small as an agent gets. Run EXACTLY one command with the Bash tool and return what it prints as the structured output, verbatim:
+  ${PY} ${F}/pipeline/prep/gate_marker.py --run ${RUN} --id ${v.id} --stage ${stage}
+It does not wait and it always prints a json object. Read no other file, judge nothing, wait for nothing, fix nothing, and do not look at any other recording.`,
+  { label: 'marker:' + stage + ' ' + v.id + (retry ? ' r' + (retry + 1) : ''), phase: ph, effort: 'low', schema: MARKER_SCHEMA })
+
+const gateWatch = async (v, stage, ph, fn) => {
+  let g = null
+  for (let poll = 0; poll < GATE_POLLS; poll++) {
+    g = await fn(v, ph, poll)
+    // ONE READER IS NOT A FALLBACK (2026-09-08, run 17, cursorworkspace).  The
+    // reader that covers "an agent returned nothing" is itself an agent, and on
+    // the SECOND recording of the same run it came back empty too, which put the
+    // workflow straight back in the trap the reader was written to close.  So it
+    // is tried MARKER_READS times, and if every one of them is empty the poll is
+    // recorded as "nobody read the marker" - never as a fact about the stage.
+    if (!g) {
+      for (let r = 0; r < MARKER_READS && !g; r++) {
+        const m = await markerRead(v, stage, ph, r)
+        if (m) { log(`${v.id}: the ${stage} gate agent returned nothing - the marker itself says "${m.status}"`); g = m }
+      }
+      if (!g) log(`${v.id}: neither the ${stage} gate nor ${MARKER_READS} marker readers returned - the marker on disk is UNREAD, which is not the same as non-ok`)
+    }
+    if (okStatus(g)) return g
+    if (isFinal(g)) { log(`${v.id}: ${stage} gate is FINAL - ${gateErr(g, v, stage)}`); return g }
+    if (poll < GATE_POLLS - 1) {
+      log(`${v.id}: ${stage} marker is not ok yet (${gateErr(g, v, stage)}) - prep's repair loop may still rewrite it; polling again`)
+      await sleeper(`${stage}:${v.id}#${poll}`, ph, TEN_MIN, `the ${stage} marker for ${v.id} is non-ok but not final; prep's auto-repair rewrites it in place`)
+    }
+  }
+  return g
+}
+
+const REPAIR = (v, what, detail) => `You are the REPAIR AGENT for recording "${v.id}" in today's daily shorts run, and you get ONE round. Something in the chain ended non-ok, the run is holding that lane open for you, and when you return the workflow re-runs the gate and the lane. If you fix it, the lane ships; if you cannot, the recording goes to Miguel.
+
+FACTORY ROOT (F): ${F}. PYTHON: ${PY}. Run folder: ${RUN}.
+YOUR VIDEO: ${JSON.stringify(v)}
+WHAT ENDED NON-OK: ${what}
+THE FAILURE, VERBATIM, AS THE GATE READ IT: ${detail}
+
+${LAWS}
+
+YOU ARE MODELLED ON THE PREP-FIX WORK OF 2026-09-04, and that is the standard you are held to. Read it before you touch anything: ${F}/LEARNINGS.md, the section "run 14's three prep failures, and three fixes that live in the pipeline", and ${F}/pipeline/prep/README.md, "THE SELF-HEALS". Miguel's rule there is the whole job: *"every time you encounter bugs like this fix them; the idea is to have a self-healing loop."* A per-run patch is NOT a fix. Three worked examples of the bar: a paid track lost by the last line of track.py became recover_run_record() plus a json_safe walk; a gate refusing his own jaw became a REFUSAL that says "that is a body, not a wedge" instead of a third automatic carve; a stumble refusing a cut became the markers_before rule. Two of those made a video pass with no cut and no human.
+
+DO THESE FIVE THINGS, IN THIS ORDER.
+1. ROOT-CAUSE IT ON THE ARTEFACTS, NEVER ON THE ERROR STRING. Open what the stage actually produced - ${RUN}/prep/stages/${v.id}.*.json, ${RUN}/prep/logs/, ${RUN}/prep/_batch.log, the session under ${RUN}/matting/${v.id}/, the alpha, the plate, the run record. Say in one sentence what really happened, and say whether the artifacts SURVIVED the failure (a crash after a successful paid track leaves everything on disk; a gate refusal does not).
+2. DECIDE WHICH KIND OF PROBLEM IT IS, and say so out loud. A CRASH with intact artifacts is recovered, never re-run - a re-track that was not needed is money burned. A HEADROOM HOLD requires moving/enlarging the crop first, then a fresh selection review and production matting. Never edit away head pixels to pass. Other matting defects are corrected in this exact recording's reviewed selection, then rerun through the production client. No legacy carve, SAM2 dispatch or quality waiver is allowed. A RULE BUG (game33c's cut refused a take over a mid-sentence stumble) is fixed in the rule.
+3. FIX IT AT THE SOURCE, IN THE PIPELINE, WITH A REGRESSION CHECK. Not in the run folder, not by hand-editing an artefact, not by a flag you pass once. Add the case to ${F}/pipeline/prep/test_regressions_2026_09_04.py (or the suite that covers the file you changed) asserted against THIS recording's numbers, and run the suite: ${PY} ${F}/pipeline/prep/test_regressions_2026_09_04.py. Report the check count before and after.
+4. RERUN ONLY THIS RECORDING'S FAILED STAGES. Copy this recording's row out of ${RUN}/prep/_intake.json into a ONE-ROW intake at ${RUN}/prep/_intake_repair_${v.id}.json, then:
+     ${PY} ${F}/pipeline/prep/prep_batch.py --run ${RUN} --intake ${RUN}/prep/_intake_repair_${v.id}.json --skip <every stage that already landed ok, comma separated>
+   (Always pass --backend matanyone2 --sessions ${RUN}/matting. --skip takes cut,transcribe,plate,prompt0,track,ship,cues. Skipping the stages that already passed is what stops this costing a second full prep. Never --allow-vpn.) DO NOT touch another recording's row, another recording's session, or the batch intake.
+5. REWRITE THE MARKER SO THE GATE CAN SEE IT. prep_batch re-stamps ${RUN}/prep/stages/${v.id}.<stage>.json itself when a stage re-runs, and that is the preferred path. If you fixed the failure OUTSIDE prep - a recovered run record, a recovered verified output, an artefact that was always good - write ${RUN}/prep/stages/${v.id}.<stage>.override.json in the SAME shape ({id, stage, status, wall_s, at, keys{...}}) with status "ok" and a "keys.repair_reason" saying in one sentence why it is ok and what evidence you measured. AN OVERRIDE IS A SIGNATURE: never write one you would not defend to Miguel, and never write one for a defect you merely hope is cosmetic. Overrides cannot approve visual defects or replace a missing reviewed selection.
+
+DO NOT: re-plan, build, render, stage or judge anything; touch another recording; re-run the whole batch; or write a done file before the fix is real.
+RETURN THE STRUCTURED OUTPUT: what really happened in one sentence, the kind of problem, the file:line you changed at the source, the regression check you added and the suite's result, exactly which stages you re-ran and what they cost, whether the marker is now ok (and whether that is a re-stamp or an override), and - if you could not fix it - the ONE line you would put to Miguel.`
+
+const REPAIR_SCHEMA = { type: 'object', required: ['fixed', 'root_cause'], properties: {
+  fixed: { type: 'boolean' }, root_cause: { type: 'string' }, kind: { type: 'string' },
+  source_fix: { type: 'string' }, regression: { type: 'string' },
+  stages_rerun: { type: 'string' }, cost_usd: { type: 'number' },
+  marker: { type: 'string' },                    // 're-stamped' | 'override' | 'unchanged'
+  for_miguel: { type: 'string' } } }
+
+// ONE repair round per recording per run. After that the recording is
+// needs_miguel and the run carries on around it.
+const repairBudget = new Set(VIDEOS.map(v => v.id))
+const needsRepair = []
+const needsMiguel = []
+const repairOnce = async (v, what, detail, ph) => {
+  needsRepair.push({ id: v.id, what, error: detail })
+  if (!repairBudget.has(v.id)) {
+    log(`${v.id}: ${what} failed and this recording has already had its repair round - NEEDS MIGUEL`)
+    needsMiguel.push({ id: v.id, what, error: detail, why: 'the one repair round per recording was already spent' })
+    return null
+  }
+  repairBudget.delete(v.id)
+  log(`${v.id}: ${what} ended non-ok - spawning the repair agent (one round, then Miguel). ${detail}`)
+  const r = await spawn(REPAIR(v, what, detail), { label: 'repair:' + v.id + ' ' + what, phase: ph, model: 'opus', schema: REPAIR_SCHEMA })
+  if (!r) { needsMiguel.push({ id: v.id, what, error: detail, why: 'the repair agent itself returned nothing' }); return null }
+  needsRepair[needsRepair.length - 1].repair = r
+  log(`${v.id}: repair ${r.fixed ? 'reports FIXED' : 'could NOT fix it'} - ${r.root_cause || ''}${r.source_fix ? ' (source: ' + r.source_fix + ')' : ''}`)
+  if (!r.fixed) needsMiguel.push({ id: v.id, what, error: detail, why: r.for_miguel || r.root_cause || 'the repair agent could not fix it' })
+  return r
+}
+
+// A gate, then - if it is still not ok and not final - one repair round and
+// the gate again. This is the thing run 14 did not have.
+const gateWithRepair = async (v, stage, ph, fn) => {
+  let g = await gateWatch(v, stage, ph, fn)
+  if (okStatus(g)) return g
+  if (isFinal(g) && FINAL_STATUS.has(g && g.status)) return g   // SKIPPED_NEEDS_KEY / not_a_short: nothing to repair
+  const r = await repairOnce(v, `prep's ${stage} stage`, gateErr(g, v, stage), ph)
+  if (!r || !r.fixed) return g
+  const g2 = await gateWatch(v, stage, ph, fn)
+  if (okStatus(g2)) { log(`${v.id}: ${stage} gate PASSED after the repair round`); return g2 }
+  log(`${v.id}: ${stage} gate still non-ok after the repair round - NEEDS MIGUEL (${gateErr(g2, v, stage)})`)
+  needsMiguel.push({ id: v.id, what: `prep's ${stage} stage`, error: gateErr(g2, v, stage), why: 'the repair round ran and the gate still did not pass' })
+  return g2
+}
+
+// ONE LANE = build-green -> cold namer -> the author's own scoring-and-render
+// stage, looping at most MAX_REDESIGNS times on a Phone Test failure.  The
+// namer is a DIFFERENT agent every round, on purpose: a namer that has already
+// seen the object once is not cold about it any more.
+const JOB = {
+  split: (v) => `\n      {"project": "${RUN}/projects/${v.id}_split", "vid": "${v.id}", "fmt": "split", "quality": "high", "stage": "${RUN}/staging/youtube/${v.id}_split.mp4", "qc_args": [...]}`,
+  cutout: (v) => `\n      {"project": "${RUN}/projects/${v.id}_cutout", "vid": "${v.id}", "fmt": "cutout", "quality": "high", "stage": "${RUN}/staging/tiktok/${v.id}_cutout.mp4", "qc_args": [...]}`,
+  whiteboard: (v) => `\n      {"project": "${RUN}/projects/${v.id}_whiteboard", "vid": "${v.id}", "fmt": "whiteboard", "quality": "high", "stage": "${RUN}/staging/reels/${v.id}_whiteboard.mp4", "qc_args": ["--seams", "<chapter erase times>", ...]}`,
+}
+const AUTHOR = { split: SPLIT_AUTHOR, cutout: CUTOUT_AUTHOR, whiteboard: WHITEBOARD_AUTHOR }
+
+// Each lane stage persists its own result (the SENTINEL block does it) at
+// review/state_<id>_<fmt>_<stage>.json, so a lane resumed after a cap skips
+// straight past the stages that already finished.
+const SELECTION = (v) => `You visually review the person selection for ${v.id}; no creative work. Read ${F}/PRODUCTION.md.
+IF ${RUN}/matting/${v.id}/selection.json ALREADY HAS status "reviewed" AND ${RUN}/MATTES_FINAL.md exists (2026-09-06), the selection and its matte were approved by Miguel in an earlier pass: do not run prepare or approve again, do not touch the file, and return that approval (its mask_sha256 and reviewer) as your result.
+Wait for ${RUN}/prep/stages/${v.id}.selection.json (bounded 25 minutes, background waits). Read keys for plate, source, crop, selection and initial_mask.
+Run ${PY} ${F}/pipeline/matting/selection.py prepare --plate <plate> --source <source> --crop <crop> --selection <selection>.
+LOOK at the frame and initial mask. Correct the boundary by writing explicit include/exclude polygons to a JSON file, preserving face, jaw, ears, hands and shoulders, excluding chair. Inspect the corrected preview before approval. Never reuse another recording's coordinates. Existing selection may be reused ONLY if selection.py validate passes all source/crop hashes.
+Use selection.py approve with the same arguments plus --mask <initial_mask> --edits <edits.json> --reviewer "visual-agent" --notes "<what you checked on these pixels>". If no edits are needed, approve the inspected mask with an explicit reason. Never invent a visual PASS without opening the image. This is manual visual selection on session capacity; no metered model API. Return selection path and decision. Failed or ambiguous selection stays unapproved.`
+
+const ARTWORK = (v) => `RUN-18 SUPERVISOR RULES (Miguel's live watch, 2026-09-08) - these are about SPENDING, and they are binding:
+  * NEVER RE-READ AN UNCHANGED CROP. saascut ran three seal rounds on byte-identical crops and got three identical verdicts (app window read "credit card", unsure, all three times) while the drawing never changed. After ANY cold round, SPLIT the set: objects that read are SEALED and are never re-read; an object that misses is REDRAWN and only the NEW crop goes to a fresh round. Identical crop + independent reader = the same answer; that is not evidence, it is a copy.
+  * DO NOT PRE-BUILD ALTERNATES. Two candidates for one object is the remedy AFTER two cold-read failures on it (STANDARD "two cold-read fails = change the metaphor"), never a first move. saascut drew a tape measure AND a glove up front and spent three rounds confirming that both read.
+  * WRITE FILES WITH THE Write TOOL. Never emit a plan/module/JSON as a literal inside a Bash heredoc: grokstripe's plan agent generated its whole plan inside a python heredoc and lost 30 minutes to a JSON null literal in Python source.
+You are the original artwork author for ${v.id}. Read ${F}/PRODUCTION.md and the complete creative plan and source context at ${RUN}/plans/${v.id}_{plan,context}.json. Preserve bespoke creation: invent fresh artwork for THIS recording; never pick a recycled metaphor/template.
+${LAWS}
+THE LOOK IS FIXED, THE OBJECTS ARE YOURS: draw in the GRAPHIC CHART's language (STANDARD.md -> GRAPHIC CHART; reference ${F}/shorts_run15/gen/geminitools_scene.py) - cream ground, ink-line SVG at those stroke weights, JetBrains Mono uppercase kickers/labels, terracotta connectors, real registry marks in the chassis tiles. Before you hand off, screenshot one composed frame of your scene beside a run-15 frame and say in your return why a stranger would file them under the same channel.
+Create one custom scene module and ${RUN}/plans/${v.id}_scene_handoff.md for the split and cutout to consume. Follow the existing scene-module/chassis interface, keeping placement parameters separate from artwork. Whiteboard adapts the same argument in its own drawing style.
+BEFORE full animation, draw phone-size still proofs for ambiguous bespoke objects. For an uncertain metaphor make two fresh candidates.
+DISPATCH THE COLD READERS WITH THE INSTRUMENT, NOT WITH A TOOL YOU MAY NOT HAVE (2026-09-06): ${PY} ${F}/pipeline/cold_read.py dispatch --crop <a.png> --crop <b.png> --out ${RUN}/review/phone_reader_${v.id}_artwork.json --tag round1 --cold-root ${RUN}/review/cold. It blind-copies each crop under a random token and launches ONE independent \`claude -p\` per crop from /tmp on absolute paths, on session capacity, with no plan/topic/key - a subagent WITHOUT an agent-spawn verb runs it exactly the same way. It exits non-zero on a dispatch failure, and a reader that never saw the image is not a read. "I could not spawn a reader" is NEVER a reason to hand on unread artwork. Keep the creator session for changes. After two failed candidates change the visual metaphor; do not keep polishing the same unreadable object. At most two metaphor attempts, then return HOLD. Never weaken the reader standard. Save candidate images, reader answers, chosen design and rationale. Readers use session capacity, not API keys.
+THEN SEAL THE SHARED SCENE: score obvious synonyms into {objects:[{i,verdict:PASS|FAIL,reason}]} and run ${PY} ${F}/pipeline/production.py artwork-pass --run ${RUN} --vid ${v.id} --module <scene module> --handoff <handoff.md> --evidence <reader.json> --scoring <scores.json>. It refuses an unread or failed object. An artwork PASS without that record is not a PASS: three format lanes are about to build on this module and NONE of them is allowed to redraw it (run 16, plantsite - a shared peak object that four readers called "flower" cost split, whiteboard and cutout all three).
+Once proofs pass, finish the scene and handoff; publish the source module, entry points, coordinates, supported layout parameters, asset paths and proof evidence. No video rendering here. Return {verdict:PASS|HOLD,scene_handoff,scene_module,artwork_pass:<review/artwork_pass_${v.id}.json>,cold_reads_run:<how many objects were actually read>,proofs,reason}.  verdict PASS REQUIRES artwork_pass on disk and cold_reads_run equal to the number of bespoke objects; if you could not read them, the verdict is HOLD.`
+
+const lane = async (v, fmt, ph, retry = false) => {
+  const brief = AUTHOR[fmt](v)
+    .replace('YOU STOP AT BUILD-GREEN. YOU DO NOT RENDER (2026-09-04).', 'BUILD-GREEN IS YOUR FIRST CHECKPOINT. Continue in THIS SAME AUTHOR SESSION through the independent phone test and corrections below.')
+  const result = await spawn(brief + (retry ? `
+THIS IS THE REPAIR ROUND, AND A SHARED-SCENE FAILURE IS NOW YOURS (Miguel's rule, 2026-09-06).  Run 16's plantsite lost all three lanes to one unreadable object in the SHARED gen/<vid>_scene.py: split, whiteboard and cutout each said, correctly, "that drawing is not mine to change", and an artefact with no live owner deadlocked the recording.  On a repair round it has one: take the lock ${RUN}/gen/.${v.id}_scene.lock atomically (python -c "import os;os.open(PATH,os.O_CREAT|os.O_EXCL|os.O_WRONLY)"; write your fmt into it).  If you TAKE it you own the shared module this round - seat the plan's sanctioned replacement or, after two failed candidates, a fresh metaphor per the law, re-read it cold with pipeline/cold_read.py, re-run production.py artwork-pass, and republish the module and handoff with a note.  If the lock is already held, poll it (bounded 20 minutes) and rebuild from the republished module hash rather than forking your own copy.  WHITEBOARD draws its own composition and NEVER takes this lock.  "Not mine to change" is not a terminal reason on this round.
+` : '') + `
+PRODUCTION V2: YOU REMAIN THE AUTHOR THROUGH CORRECTIONS AND RENDER. Do not return after build-green.
+Consume the approved custom artwork; split and cutout MUST import the same scene module. Whiteboard receives the proof images but still draws its own composition. Do not reuse artwork from another recording.
+Before phone approval run ${PY} ${F}/pipeline/geometry_audit.py <project> --strict. Every connector declares data-connect-to, data-anchor-side (left/right/top/bottom), optional data-anchor-fraction, and data-check-at (seconds after its draw completes). Every emphasis declares data-emphasis, data-emphasis-target and data-check-at. SVG path ends must touch the declared anchor within 4px. Completed emphasis must have a complete stroke, contrasting ink and a 4px gutter; inspect actual raster ink as well as these automatic bounds. No overlap/glyph exemptions. Every named tool uses its correct registry logo, ink-centred and checked against neighbours. Save the clean strict geometry report before phone approval; production refuses it otherwise.
+Once page checks pass, dispatch a FRESH independent cold reader for every crop with ${PY} ${F}/pipeline/cold_read.py dispatch --crop <...> --out ${RUN}/review/phone_reader_${v.id}_${fmt}.json --tag round<N> --cold-root ${RUN}/review/cold. It blind-copies the crops under a random token and launches ONE independent \`claude -p\` per crop from /tmp on absolute paths - it needs NO agent-spawn verb, so "my toolset has no Agent tool" is never a reason to return with nothing staged (run 16's whiteboard lane died of exactly that). It writes {names:[{i,path,name,confidence}]} with <=5 words and confidence sure|unsure|cannot tell, and exits non-zero if a reader never saw its image. Do not expose the plan or intended names. YOU score obvious synonyms against intended objects in {objects:[{i,verdict:PASS|FAIL,reason}]}.
+Every object must be confidently identified. SCORE THE IDEA, NOT THE NOUN (Miguel, 2026-09-06; STANDARD.md -> THE PHONE TEST): a reader who names the drawn content or its container, or a sibling noun of the same thing ("flower" for a plant web page, "document with bar chart" for a report, "browser window" for an app window) PASSES. Only a DIFFERENT thing, a hedge or "cannot tell" FAILS on a SINGLE round. SUBMIT SEVERAL ROUNDS AND THE NOUN IS THE MEASUREMENT (run 17, pcoverheat, 2026-09-08): score each read \`match\`: intended|synonym|different, and production.py::consensus rules on the set - a SECOND different name fails it, half the reads must have REACHED the object, and one reader must have been \`sure\` of a name that reached it in <=5 words. Do NOT write verdict FAIL for an object every reader named just because most of them hedged: pcoverheat's download arrow was named by six of six readers, refused on \`sure\` 2 of 6, and cost the cutout lane. A reader answering "none - UI table, not object" and then naming the panel is declining the prompt's "everyday OBJECT" premise, not failing to see the drawing; score the noun it gave. Keep revising in THIS session; each retry gets a fresh reader. After two failed redesigns, change the metaphor with two candidates and read again. If still unclear return HOLD with reason; never render a known failure. Do not mark a failed stage done.
+Run ${PY} ${F}/pipeline/production.py phone-pass --run ${RUN} --vid ${v.id} --fmt ${fmt} --project <project> --evidence <reader.json> --scoring <scores.json>. This records hashes and refuses failures; rendering refuses missing/stale approval. Generate evidence even for actual-size text/source-only compositions by checking their concrete visible contents.
+Then use render_and_check as below. ALL stage destinations are ${RUN}/staging/<youtube|reels|tiktok>/${v.id}_${fmt}.mp4. Ready to Publish title-based packages are reserved for independent final PASS through production.py deliver.
+${RENDER_LANE(v, fmt, JOB[fmt](v), fmt)}
+Return {staged:<path or empty>,phone_verdict:PASS|FAIL,blocked:<reason if held>,rounds:<count>,project:<path>}.`,
+    {label:fmt+':'+v.id+(retry?' retry':''),phase:ph,model:'opus',effort:'medium',schema:GATE_SCHEMA})
+  return {fmt,...(result || {blocked:'Author did not finish'})}
+}
+
+const selections = Object.fromEntries(VIDEOS.map(v => [v.id, spawn(SELECTION(v), {label:'selection:'+v.id,phase:'Prep',model:'opus',effort:'medium'})]))
+const results = []
+let nextRecording = 0
+async function processRecording(v) {
+  const ph = 'Production'
+  phase(ph)
+  // PER RECORDING, and NO BARRIER between the stages: the cut gate, then the
+  // plan, then three lanes that do not wait on each other, then that video's
+  // clerk.  A recording whose cut lands first is already building while a
+  // sibling is still being cut.
+  const w = await pipeline([v],
+    // 1. wait for THIS recording's cut, and nothing else in prep.  A non-ok
+    //    cut marker is polled through prep's repair loop and then, once, given
+    //    a repair agent of its own - run 14's game33c lost its plan AND all
+    //    three lanes to a cut refusal that was a rule bug.
+    (v) => gateWithRepair(v, 'cut', ph, gateCut).then(g => ({ v, cut: g })),
+    // 2. the plan, off the cut and the transcript alone
+    (prev) => {
+      const v = prev.v
+      const st = (prev.cut && prev.cut.status) || 'missing'
+      if (st !== 'ok' && st !== 'reused') {
+        log(`${v.id}: NO PLAN - prep's cut stage says "${st}"${prev.cut && prev.cut.error ? ': ' + prev.cut.error : ''}`)
+        return { ...prev, blocked: `prep cut "${st}"` }
+      }
+      return spawn(PLAN(v), { label: 'plan:' + v.id, phase: ph, model: 'opus', effort: 'medium', schema: PLAN_SCHEMA })
+        .then(plan => {
+          if (!plan) return { ...prev, blocked: 'the plan agent returned nothing' }
+          // AN OPEN DOUBT STOPS AND ASKS (Miguel, 2026-09-04).  A doubt that
+          // changes what the viewer sees is not something an author guesses
+          // around: this recording stops here and Miguel answers one line.
+          const stop = (plan.open_doubts || []).filter(d => d && d.changes_what_viewer_sees)
+          if (stop.length) {
+            stop.forEach(d => log(`NEEDS MIGUEL - ${v.id}: ${d.question}${d.options && d.options.length ? '  (' + d.options.join(' / ') + ')' : ''}${d.your_lean ? '  [plan leans: ' + d.your_lean + ']' : ''}`))
+            needsMiguel.push({ id: v.id, plan: plan.plan_json, doubts: stop })
+            return { ...prev, plan, blocked: 'open doubt: ' + stop.map(d => d.question).join(' | ') }
+          }
+          return { ...prev, plan }
+        })
+    },
+    // 3. three lanes, independent.  split + whiteboard start now; the cutout
+    //    waits for the matte, and only the cutout does.
+    async (prev) => {
+      if (prev.blocked) return prev
+      const v = prev.v
+      const art = await spawn(ARTWORK(v), {label:'artwork:'+v.id,phase:ph,model:'opus',effort:'medium',schema:{type:'object',required:['verdict','scene_handoff'],properties:{verdict:{type:'string'},scene_handoff:{type:'string'},scene_module:{type:'string'},artwork_pass:{type:'string'},cold_reads_run:{type:'number'},reason:{type:'string'}}}})
+      if (!art || art.verdict !== 'PASS' || !art.scene_handoff) return {...prev,blocked:'Custom artwork proof did not pass'}
+      // AN UNREAD SHARED SCENE IS NOT A PASS (run 16, plantsite, 2026-09-06).
+      // The artwork author had no agent-spawn verb, ran ZERO cold reads, said so
+      // in its own return - "cold_reads_run: 0, blocking_before_render: true" -
+      // and still said PASS.  Nothing checked it, three lanes built on the
+      // unread module, and all three then found its peak object read as
+      // "flower" and had nothing they were allowed to redraw.  The module
+      // belongs to THIS stage, so it is proven HERE or the recording holds.
+      if (!art.artwork_pass || !(art.cold_reads_run > 0)) return {...prev,blocked:`the shared scene was handed on unread (cold_reads_run ${art.cold_reads_run || 0}, artwork_pass ${art.artwork_pass || 'none'}) - no lane is allowed to redraw it, so it is proven at the artwork stage or not at all`}
+      const lanes = await Promise.all([
+        lane(v, 'split', ph),
+        lane(v, 'whiteboard', ph),
+        Promise.resolve(selections[v.id]).then(() => gateWithRepair(v, 'ship', ph, gateShip)).then(s => {
+          const st = (s && s.status) || 'missing'
+          if (st !== 'ok' && st !== 'reused') {
+            log(`${v.id}: NO CUTOUT - prep's ship stage says "${st}"${s && s.error ? ': ' + s.error : ''}`)
+            return { fmt: 'cutout', blocked: `prep ship "${st}"`, ship: s }
+          }
+          return lane(v, 'cutout', ph).then(r => ({ ...r, ship: s }))
+        }),
+      ])
+      // A LANE THAT ENDED NON-OK GETS THE REPAIR AGENT TOO, once per recording,
+      // and only the failed lanes are re-run.  Run 14's cutouts were fixed 20
+      // minutes after the workflow had already reported STOP and walked away.
+      let out = lanes.filter(Boolean)
+      const failed = out.filter(l => l && !l.staged)
+      if (failed.length && repairBudget.has(v.id)) {
+        const r = await repairOnce(v, failed.map(l => l.fmt).join(' + ') + ' lane' + (failed.length === 1 ? '' : 's'),
+          failed.map(l => `${l.fmt}: ${l.blocked || 'no staged path'}`).join(' | '), ph)
+        if (r && r.fixed) {
+          const redone = await Promise.all(failed.map(async (l) => {
+            if (l.fmt === 'cutout') {
+              const s = await gateWatch(v, 'ship', ph, gateShip)
+              if (!okStatus(s)) return { ...l, blocked: `prep ship "${(s && s.status) || 'missing'}" after the repair round` }
+              return lane(v, 'cutout', ph, true).then(x => ({ ...x, ship: s }))
+            }
+            return lane(v, l.fmt, ph, true)
+          }))
+          const byFmt = {}
+          redone.filter(Boolean).forEach(x => { byFmt[x.fmt] = x })
+          out = out.map(l => (byFmt[l.fmt] && byFmt[l.fmt].staged) ? byFmt[l.fmt] : (byFmt[l.fmt] || l))
+          const still = out.filter(l => l && !l.staged)
+          if (still.length) {
+            log(`${v.id}: ${still.map(l => l.fmt).join(', ')} still not staged after the repair round - NEEDS MIGUEL`)
+            needsMiguel.push({ id: v.id, what: still.map(l => l.fmt).join(', ') + ' lane(s)', error: still.map(l => l.blocked || '?').join(' | '), why: 'the repair round ran and the lane still did not stage' })
+          } else log(`${v.id}: every lane staged after the repair round`)
+        }
+      } else if (failed.length) {
+        needsMiguel.push({ id: v.id, what: failed.map(l => l.fmt).join(', ') + ' lane(s)', error: failed.map(l => l.blocked || '?').join(' | '), why: 'the one repair round per recording was already spent' })
+      }
+      return { ...prev, lanes: out }
+    },
+    // 4. that video's clerk, on WHATEVER STAGED - a failed lane never costs a
+    //    video its audit (2026-09-05).  Two of three renders still get judged.
+    (prev) => {
+      const v = prev.v
+      const staged = (prev.lanes || []).filter(l => l && l.staged).map(l => ({ fmt: l.fmt, path: l.staged }))
+      const missing = (prev.lanes || []).filter(l => l && !l.staged).map(l => ({ fmt: l.fmt, reason: l.blocked || 'no staged path' }))
+      if (!staged.length) {
+        log(`${v.id}: NO CLERK - nothing staged (${missing.map(l => l.fmt + ': ' + l.reason).join('; ') || prev.blocked || 'the recording never reached a lane'})`)
+        return { ...prev, staged: [], missing, blocked: prev.blocked || 'nothing staged' }
+      }
+      if (missing.length) log(`${v.id}: clerk starting on ${staged.length}/3 renders - missing ${missing.map(l => l.fmt + ' (' + l.reason + ')').join(', ')}`)
+      return spawn(CLERK(v, staged), { label: 'audit:' + v.id, phase: 'Audit', model: 'opus', schema: CLERK_SCHEMA })
+        .then(audit => {
+          if (!audit || audit.verdict !== 'PASS' || missing.length) {
+            const error = audit ? String(audit.summary || audit.verdict) : 'No independent review';
+            needsRepair.push({id:v.id,what:'final review',error});
+            return {...prev,staged,missing,audit,blocked:'Final review HOLD'}
+          }
+          return {...prev,staged,missing,audit}
+        })
+    },
+  )
+  results.push(...w.filter(Boolean))
+}
+await Promise.all(Array.from({length:Math.min(WAVE,VIDEOS.length)},async()=>{
+  while(nextRecording<VIDEOS.length) { const v=VIDEOS[nextRecording++];await processRecording(v) }
+}))
+
+// STOPPING RULE (STANDARD.md): clerks catch what Miguel would reject. A clerk HOLD
+// reopens a render only for defects of the kind Miguel rejects; non-blocking
+// observations are logged for the next batch. One clerk pass per fix round.
+// Approved renders are never reopened by clerk notes.
+//
+// PROCEDURE v3.1 (2026-09-04): the clerk does NOT re-run the Gemini watcher.
+// render_and_check already watched the exact file the clerk judges, with the same
+// model, the same encode and the same prompt, and its candidates live in
+// review/cands_<id>_<fmt>.json. The clerk adjudicates that list plus its own frame
+// decode - which is the half that works: run-13 recall was the watcher 0 of 2 real
+// defects, the clerk 2 of 2, at $0.10-0.15 a video for the duplicate watch.
+//
+// THE VIEWER TEST RUNS ON EVERY VIDEO, NOT A SAMPLE. Instruments can be sampled -
+// a geometry defect in one build is usually a chassis defect. MEANING CANNOT:
+// `impossibletask` shipped with 17 NO-SENSE frames while every instrument on it
+// was green, and it was one of the two sampled videos.
+//
+// INDEPENDENCE: the clerk is a FRESH agent that receives only the staged MP4s, the
+// watcher's candidate files and the tight transcript. It is forbidden from reading
+// the PLAN, any author's notes, the scene handoff, the project HTML or the
+// paperwork. The COLD PHONE NAMER is independent for the same reason and one step
+// earlier: it sees the crops and nothing else, before a render is paid for.
+
+const prep = await prepReport
+
+// WHAT THE RUN COST (Miguel, 2026-09-04: "by the end of the video I want to know
+// modal cost per video plus per total run as well as gemini costs").  Every paid
+// call booked itself into <run>/costs.jsonl as its price was measured; this only
+// adds them up.  A workflow script has no filesystem, so one cheap agent runs the
+// report and reads the total back.
+phase('Deliver')
+const COSTS_SCHEMA = { type: 'object', required: ['total_usd'], properties: {
+  total_usd: { type: 'number' }, modal_usd: { type: 'number' },
+  gemini_usd: { type: 'number' }, elevenlabs_usd: { type: 'number' },
+  usd_per_delivered_short: { type: 'number' }, staged_shorts: { type: 'number' },
+  per_video: { type: 'string' }, note: { type: 'string' } } }
+// THE COST REPORT CANNOT FAIL THE RUN (2026-09-05). It is Bash-only, cheap, and
+// wrapped: if it returns nothing the run still ends normally with the ledger path.
+const costs = await spawn(`You are the COST REPORTER. You measure nothing and you price nothing: every paid call in this run wrote its own measured price into ${RUN}/costs.jsonl at the moment it was made. Run ONE command and read its output back.
+   ${PY} ${F}/pipeline/cost_report.py --run ${RUN} --json
+It writes ${RUN}/review/COSTS.md and ${RUN}/review/costs.json. Return: the run total, the Modal / Gemini / ElevenLabs splits, staged_shorts, usd_per_delivered_short, and per_video as ONE line per video "id: modal X, gemini Y, total Z". If the report names any stage under "stages_never_recorded", say which in note - that is a paid call nobody booked, and it is the only way this number can be wrong.
+BASH AND FILE READS ONLY. You run that one command and you read the two files it wrote. You do not judge, you do not fix, you do not re-price anything, and you NEVER fail the run: if the command exits non-zero or a file is missing, return total_usd 0 with the reason in "note" and the ledger path so it can be totalled by hand.`,
+  { label: 'costs:report', phase: 'Deliver', model: 'opus', effort: 'low', schema: COSTS_SCHEMA })
+if (costs) log(`run cost: $${costs.total_usd} (modal $${costs.modal_usd || 0}, gemini $${costs.gemini_usd || 0}, elevenlabs $${costs.elevenlabs_usd || 0}) over ${costs.staged_shorts || 0} staged file(s)`)
+
+// THE DRIVE PUSH, and ONLY for recordings whose clerk passed. A HOLD is a file
+// Miguel should not find in his Drive folder looking finished.
+// A verdict is a word, not a sentence: clerks write 'PASS (9/9 objects ...)' and the old strict equality silently dropped plantsite from delivery (run 16, 2026-09-06).
+const isPass = (v) => typeof v === 'string' && /^PASS\b/.test(v.trim())
+const passed = results.filter(r => r && r.audit && isPass(r.audit.verdict) && isPass(r.audit.phone_verdict) && !r.audit.confirmed && (r.staged || []).length === 3 && !(r.missing || []).length).map(r => r.v.id)
+const held = results.filter(r => r && r.audit && String(r.audit.verdict || '').toUpperCase() !== 'PASS').map(r => `${r.v.id}: ${r.audit.verdict || '(no verdict)'}`)
+const DRIVE_SCHEMA = { type: 'object', required: ['pushed'], properties: {
+  pushed: { type: 'boolean' }, folder: { type: 'string' }, files: { type: 'number' },
+  ids: { type: 'string' }, note: { type: 'string' } } }
+for (const id of passed) {
+  const localDelivery = await spawn(`Read ${F}/pipeline/deliver/README.md fully. Prepare ${RUN}/delivery/${id}.json from this Short's complete intake, plan, generators and referenced assets. Preserve an existing short_id; use its Notion idea ID when available, otherwise assign a UUID once. Confirm the descriptive title from the approved plan/intake, never use a run name or invent one from the machine ID. If ambiguous, hold delivery and report it. Include all three editable projects, the raw recording, tight transcript, generator/shared code and dependencies. Resolve linked assets; do not declare dependencies_reviewed until inspected. Do not render or publish anything.
+Then run ${PY} ${F}/pipeline/production.py deliver --run ${RUN} --vid ${id} --day ${DAY} --verdict ${RUN}/review/final_${id}.json. This is the only finished local delivery: ~/Movies/Shorts Factory/Ready to Publish/<Short title>/{Exports,Project,Source Assets,Publishing}. No Daily or run-named delivery folders. Return verified paths; do not bypass a refusal.`, {label:'deliver:local:'+id,phase:'Deliver',model:'opus',effort:'low',schema:{type:'object',required:['approved_files'],properties:{approved_files:{type:'array',items:{type:'string'}}}}})
+  if (!localDelivery || localDelivery.approved_files.length !== 3) throw new Error('Approved local delivery failed for '+id)
+}
+let drive = null
+if (!passed.length) {
+  log(`Drive push SKIPPED - no recording passed its clerk${held.length ? ' (held: ' + held.join('; ') + ')' : ''}`)
+} else if (RAW.driveArchive === false) {
+  log('Drive archival opted out for this run (driveArchive: false); complete title-based local packages are ready')
+} else {
+  drive = await spawn(`You are the DRIVE DELIVERY for today's daily shorts run. You run ONE command and report. You judge nothing, you re-render nothing, and you never fail the run.
+   ${PY} ${F}/pipeline/deliver/push_run_to_drive.py --run ${RUN_NAME} --ids ${passed.join(',')} --write
+ONLY THESE IDS GO UP, and this is the point of the flag: ${passed.join(', ')} are the recordings whose independent clerk returned PASS.${held.length ? ` HELD, and deliberately not pushed: ${held.join('; ')}.` : ''} Do not add an id, do not drop the --ids flag, and do not push a file the clerk held.
+It archives the complete local package into My Drive / Content Creation / Video Library / Shorts / Ready to Publish / <Short title>, including Exports, Project, Source Assets and Publishing. It reuses stable short_id identity, verifies checksums, preserves remote platform statuses and refuses changed archives instead of overwriting them. It never creates a run folder. A NO_DRIVE marker in the run folder is an explicit opt-out and blocks writes; otherwise every validated package is archived automatically (Miguel, 2026-09-07). Read the returned folder URLs and verified result; no success claim on partial delivery.
+RETURN THE STRUCTURED OUTPUT: whether it pushed, the Drive folder name it used, how many files landed, the ids it pushed, and - if the command failed - its last 20 lines of output in "note" with pushed=false. A failure here is a delivery to redo by hand, never a reason to reopen a render.`,
+    { label: 'deliver:drive', phase: 'Deliver', model: 'opus', effort: 'low', schema: DRIVE_SCHEMA })
+  if (drive) log(`Drive: ${drive.pushed ? `${drive.files || 0} file(s) in "${drive.folder || '?'}"` : 'PUSH FAILED - ' + (drive.note || 'no reason given')}`)
+}
+
+const sheets = results.flatMap(r => (r.staged || []).map(s => `${RUN}/review/sheet_${r.v.id}_${s.fmt}.png`))
+return {
+  status: passed.length === VIDEOS.length ? 'approved' : 'needs_repair',
+  approved: passed.length + '/' + VIDEOS.length,
+  cost: costs || 'the cost report did not run; read ' + RUN + '/costs.jsonl',
+  prep: String(prep).slice(0, 1500),
+  prep_launch: prepLaunch,
+  planned: results.filter(r => r && r.plan).length + '/' + VIDEOS.length,
+  staged: results.reduce((n, r) => n + ((r.staged || []).length), 0) + '/' + (VIDEOS.length * 3),
+  shape: 'prep + per-recording visual selection -> prepared creative plan -> bespoke artwork proofs/shared scene -> three format authors retaining their correction context -> independent final review -> approved delivery',
+  platform_mapping: { youtube: 'split (best lane, chosen in the plan)', tiktok: 'cutout', reels: 'whiteboard' },
+  plans: VIDEOS.map(v => `${RUN}/plans/${v.id}_plan.json`),
+  // PER RECORDING, THE WHOLE STORY: what shipped, what did not and why, and what the clerk said.
+  per_recording: VIDEOS.map(v => {
+    const r = results.find(x => x && x.v && x.v.id === v.id)
+    if (!r) return { id: v.id, staged: [], missing: [{ fmt: 'all', reason: 'the recording never came back from its wave' }], clerk: 'none' }
+    return {
+      id: v.id,
+      staged: (r.staged || []).map(s => s.fmt),
+      missing: (r.missing || []).map(m => `${m.fmt}: ${m.reason}`),
+      clerk: r.audit ? `${r.audit.verdict || '?'} (${r.audit.confirmed || 0} confirmed over ${r.audit.renders_judged || (r.staged || []).length} render(s); phone ${r.audit.phone_verdict || '?'})` : (r.blocked ? 'no clerk - ' + r.blocked : 'no clerk'),
+    }
+  }),
+  needs_repair: needsRepair.map(n => `${n.id} ${n.what}: ${n.error}${n.repair ? ` -> repair ${n.repair.fixed ? 'FIXED' : 'could not fix'}: ${n.repair.root_cause || ''}${n.repair.source_fix ? ' [' + n.repair.source_fix + ']' : ''}` : ' -> no repair round left'}`),
+  needs_miguel: needsMiguel,
+  agent_failures: failures,
+  usage_cap: capNotes.length ? capNotes : 'no usage cap hit this run',
+  resume: `if this run was cut short, relaunch with Workflow({scriptPath, resumeFromRunId}) - every agent re-reads ${REVIEW}/agent_done_<label>.json first and returns it verbatim, so finished stages are skipped instead of rebuilt`,
+  phone_gate: results.flatMap(r => (r.lanes || []).map(l => `${r.v.id} ${l.fmt}: ${l.phone_verdict || l.blocked} (${l.rounds || 0} redesign round${l.rounds === 1 ? '' : 's'})${l.flagged_for_clerk ? ' FLAGGED: ' + l.flagged_for_clerk : ''}`)),
+  blocked: results.filter(r => r && r.blocked).map(r => r.v.id + ': ' + r.blocked),
+  contact_sheets: sheets,
+  drive: drive || (passed.length ? 'the Drive push did not report' : `skipped - no clerk PASS${held.length ? ' (held: ' + held.join('; ') + ')' : ''}`),
+  audits: results.filter(r => r && r.audit).map(r => r.v.id + ': ' + String((r.audit && r.audit.summary) || r.audit).slice(0, 500)),
+}

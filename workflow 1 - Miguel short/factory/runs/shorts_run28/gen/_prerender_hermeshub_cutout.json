@@ -1,0 +1,294 @@
+{
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/projects/hermeshub_cutout",
+ "fmt": "cutout",
+ "step": 0.25,
+ "checks": {
+  "refs_resolve": {
+   "referenced": 17,
+   "missing": [],
+   "pass": true,
+   "error": null,
+   "wall_s": 0.16
+  },
+  "assets_not_placeholder": {
+   "rasters": 10,
+   "placeholder_shaped": [],
+   "undecodable": [],
+   "report": {
+    "assets/logos/nous-girl-line.png": {
+     "size": [
+      2609,
+      2647
+     ],
+     "judged": "decode only (capture)"
+    },
+    "assets/logos/figma-color.png": {
+     "size": [
+      640,
+      640
+     ],
+     "ink_fill": 0.715,
+     "quantised_colours": 8,
+     "diag_fwd": 0.6,
+     "diag_back": 0.878,
+     "bbox": [
+      106,
+      0,
+      534,
+      640
+     ]
+    },
+    "assets/logos/notion-color.png": {
+     "size": [
+      1024,
+      1024
+     ],
+     "judged": "decode only (capture)"
+    },
+    "assets/logos/slack-color.png": {
+     "size": [
+      1024,
+      1024
+     ],
+     "judged": "decode only (capture)"
+    },
+    "assets/logos/chatgpt-color.png": {
+     "size": [
+      1024,
+      1024
+     ],
+     "judged": "decode only (capture)"
+    },
+    "assets/logos/claude-color.png": {
+     "size": [
+      640,
+      640
+     ],
+     "ink_fill": 0.399,
+     "quantised_colours": 1,
+     "diag_fwd": 0.463,
+     "diag_back": 0.541,
+     "bbox": [
+      0,
+      0,
+      640,
+      640
+     ]
+    },
+    "assets/logos/gemini-color.png": {
+     "size": [
+      640,
+      640
+     ],
+     "ink_fill": 0.353,
+     "quantised_colours": 77,
+     "diag_fwd": 0.381,
+     "diag_back": 0.381,
+     "bbox": [
+      26,
+      26,
+      614,
+      614
+     ]
+    },
+    "assets/logos/perplexity-color.png": {
+     "size": [
+      640,
+      640
+     ],
+     "ink_fill": 0.32,
+     "quantised_colours": 1,
+     "diag_fwd": 0.258,
+     "diag_back": 0.261,
+     "bbox": [
+      40,
+      0,
+      600,
+      640
+     ]
+    },
+    "assets/logos/copilot-color.png": {
+     "size": [
+      640,
+      640
+     ],
+     "ink_fill": 0.698,
+     "quantised_colours": 68,
+     "diag_fwd": 0.641,
+     "diag_back": 0.331,
+     "bbox": [
+      0,
+      26,
+      640,
+      614
+     ]
+    },
+    "assets/logos/openclaw-color.png": {
+     "size": [
+      640,
+      640
+     ],
+     "ink_fill": 0.609,
+     "quantised_colours": 17,
+     "diag_fwd": 0.592,
+     "diag_back": 0.591,
+     "bbox": [
+      0,
+      44,
+      640,
+      632
+     ]
+    }
+   },
+   "pass": true,
+   "error": null,
+   "wall_s": 0.3
+  },
+  "page_audit": {
+   "ids": 130,
+   "unique_ids": 130,
+   "duplicate_ids": [],
+   "tween_selectors": 39,
+   "dead_tween_targets": [],
+   "pass": true,
+   "error": null,
+   "wall_s": 0.0
+  },
+  "caption_canon_page": {
+   "pills": 24,
+   "modal_height_px": 114.63,
+   "canon_height_px": 114.59,
+   "height_spread_px": 0.0,
+   "tolerance_design_px": 3.0,
+   "heights_off_canon": [],
+   "squarer_than_min_aspect": [],
+   "min_aspect": 1.45,
+   "function_only_beat_law": null,
+   "pass": true,
+   "error": null,
+   "wall_s": 0.0
+  },
+  "gate1_geometry_audit": {
+   "returncode": 0,
+   "errors": 0,
+   "warnings": 0,
+   "warnings_after_waivers": 0,
+   "waived": [],
+   "report": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/projects/hermeshub_cutout/geometry_audit/report.json",
+   "stdout": "hermeshub_cutout: 0 errors, 0 warnings (24.1s @ 0.25s step)\n",
+   "stderr": "",
+   "bar": "0 errors, 0 warnings",
+   "pass": true,
+   "error": null,
+   "wall_s": 1.8
+  },
+  "cutout_edge_fade_guard": {
+   "masked_containers": 3,
+   "fade_px": 46.0,
+   "meters_exempt": [],
+   "pass": true,
+   "wall_s": 0.0
+  },
+  "cutout_checks_24_25": {
+   "check24_edge_fade": {
+    "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/projects/hermeshub_cutout",
+    "masks": {
+     "masked_containers": 3,
+     "fade_px": 46.0,
+     "meters_exempt": []
+    },
+    "gate1": {
+     "edgefade_violations": 0,
+     "elements": [],
+     "ok": true
+    },
+    "ok": true
+   },
+   "check25_depth_field": {
+    "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/projects/hermeshub_cutout",
+    "foundation": {
+     "tiles": [
+      78.0,
+      116.0,
+      148.0
+     ],
+     "gaps": [
+      30.0,
+      36.0,
+      44.0
+     ],
+     "inter_lane_gap": 26.0,
+     "band_h": 394.0
+    },
+    "band": [
+     1009.5,
+     1403.5
+    ],
+    "inter_lane_gutters": [
+     26.0,
+     26.0
+    ],
+    "band_h": 394.0,
+    "step_events": 6,
+    "pop_behind": false,
+    "lanes": {
+     "far": {
+      "y": 1009.5,
+      "wrapper": [
+       1080.0,
+       78.0
+      ],
+      "tiles": 16,
+      "tile_w": [
+       78.0
+      ],
+      "pitches": [
+       108.0
+      ]
+     },
+     "mid": {
+      "y": 1113.5,
+      "wrapper": [
+       1080.0,
+       116.0
+      ],
+      "tiles": 14,
+      "tile_w": [
+       116.0
+      ],
+      "pitches": [
+       152.0
+      ]
+     },
+     "near": {
+      "y": 1255.5,
+      "wrapper": [
+       1080.0,
+       148.0
+      ],
+      "tiles": 15,
+      "tile_w": [
+       148.0
+      ],
+      "pitches": [
+       192.0
+      ]
+     }
+    },
+    "violations": [],
+    "ok": true
+   },
+   "fails": [],
+   "pass": true,
+   "error": null,
+   "wall_s": 0.17
+  }
+ },
+ "skipped": {},
+ "duration_s": 24.08,
+ "page_zoom": 0.9996598639455783,
+ "page_load_wall_s": 1.02,
+ "failed": [],
+ "verdict": "PASS",
+ "total_wall_s": 3.45
+}

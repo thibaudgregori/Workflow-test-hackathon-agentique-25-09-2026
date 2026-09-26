@@ -1,0 +1,59 @@
+{
+  "run": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28",
+  "out_dir": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/output",
+  "jobs": [
+    {
+      "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/projects/hermeshub_split",
+      "vid": "hermeshub",
+      "fmt": "split",
+      "quality": "high",
+      "stage": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/staging/youtube/hermeshub_split.mp4",
+      "qc_args": [
+        "--voice-master",
+        "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/cuts/hermeshub/audio.m4a",
+        "--phone-at",
+        "3.2:0.1907,0.2115,0.8093,0.3812:open laptop computer",
+        "--phone-at",
+        "5.8:0.3296,0.2755,0.6704,0.3969:cardboard shipping box"
+      ]
+    },
+    {
+      "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/projects/hermeshub_whiteboard",
+      "vid": "hermeshub",
+      "fmt": "whiteboard",
+      "quality": "high",
+      "stage": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/staging/reels/hermeshub_whiteboard.mp4",
+      "qc_args": [
+        "--voice-master",
+        "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/cuts/hermeshub/audio.m4a",
+        "--phone-at",
+        "3.2:0.2014,0.1406,0.7986,0.3750:open laptop computer",
+        "--phone-at",
+        "5.82:0.3229,0.2773,0.6771,0.4004:cardboard shipping box",
+        "--seams",
+        "5.34,11.98,15.86"
+      ]
+    },
+    {
+      "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/projects/hermeshub_cutout",
+      "vid": "hermeshub",
+      "fmt": "cutout",
+      "quality": "high",
+      "stage": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/staging/tiktok/hermeshub_cutout.mp4",
+      "qc_args": [
+        "--voice-master",
+        "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/cuts/hermeshub/audio.m4a",
+        "--phone-at",
+        "3.2:0.1907,0.2115,0.8093,0.3812:open laptop computer",
+        "--phone-at",
+        "5.8:0.3296,0.2755,0.6704,0.3969:cardboard shipping box",
+        "--alpha",
+        "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/matting/hermeshub/matte_hermeshub_v5_alpha.webm",
+        "--edge-box",
+        "1386x990+-113+930",
+        "--plate",
+        "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/matting/hermeshub/plate_display_1386x990.mp4"
+      ]
+    }
+  ]
+}

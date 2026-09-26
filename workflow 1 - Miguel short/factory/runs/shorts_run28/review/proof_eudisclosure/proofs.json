@@ -1,0 +1,360 @@
+{
+ "crops": [
+  {
+   "i": 0,
+   "name": "European Union flag",
+   "t": 1.6,
+   "ui": false,
+   "core_box": [
+    396.0,
+    165.0,
+    684.0,
+    505.0
+   ],
+   "phone_box_px": [
+    148,
+    134,
+    256,
+    261
+   ],
+   "phone_size_px": [
+    108,
+    127
+   ],
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_eudisclosure/00.png"
+  },
+  {
+   "i": 1,
+   "name": "AI rubber stamp",
+   "t": 11.05,
+   "ui": false,
+   "core_box": [
+    430.0,
+    186.0,
+    650.0,
+    368.0
+   ],
+   "phone_box_px": [
+    161,
+    142,
+    244,
+    210
+   ],
+   "phone_size_px": [
+    83,
+    68
+   ],
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_eudisclosure/01.png"
+  },
+  {
+   "i": 2,
+   "name": "two stamped Polaroids",
+   "t": 13.6,
+   "ui": false,
+   "core_box": [
+    138.0,
+    180.0,
+    942.0,
+    500.0
+   ],
+   "phone_box_px": [
+    52,
+    140,
+    353,
+    260
+   ],
+   "phone_size_px": [
+    301,
+    120
+   ],
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_eudisclosure/02.png"
+  },
+  {
+   "i": 3,
+   "name": "stamped Polaroid photo",
+   "t": 23.28,
+   "ui": false,
+   "core_box": [
+    138.0,
+    180.0,
+    408.0,
+    500.0
+   ],
+   "phone_box_px": [
+    52,
+    140,
+    153,
+    260
+   ],
+   "phone_size_px": [
+    101,
+    120
+   ],
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_eudisclosure/03.png"
+  },
+  {
+   "i": 4,
+   "name": "chat bubble",
+   "t": 6.6,
+   "ui": true,
+   "core_box": [
+    138.0,
+    196.0,
+    408.0,
+    420.0
+   ],
+   "phone_box_px": [
+    52,
+    146,
+    153,
+    230
+   ],
+   "phone_size_px": [
+    101,
+    84
+   ],
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_eudisclosure/04.png"
+  },
+  {
+   "i": 5,
+   "name": "text page",
+   "t": 6.6,
+   "ui": true,
+   "core_box": [
+    692.0,
+    190.0,
+    922.0,
+    480.0
+   ],
+   "phone_box_px": [
+    260,
+    143,
+    346,
+    252
+   ],
+   "phone_size_px": [
+    86,
+    109
+   ],
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_eudisclosure/05.png"
+  },
+  {
+   "i": 6,
+   "name": "screenshot window",
+   "t": 23.28,
+   "ui": true,
+   "core_box": [
+    672.0,
+    180.0,
+    942.0,
+    500.0
+   ],
+   "phone_box_px": [
+    252,
+    140,
+    353,
+    260
+   ],
+   "phone_size_px": [
+    101,
+    120
+   ],
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_eudisclosure/06.png"
+  }
+ ],
+ "frames": [
+  {
+   "name": "hook_draw",
+   "t": 0.8,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_eudisclosure/frame_hook_draw.png"
+  },
+  {
+   "name": "hook_flag",
+   "t": 1.6,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_eudisclosure/frame_hook_flag.png"
+  },
+  {
+   "name": "keyterm",
+   "t": 2.4,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_eudisclosure/frame_keyterm.png"
+  },
+  {
+   "name": "bubble",
+   "t": 4.6,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_eudisclosure/frame_bubble.png"
+  },
+  {
+   "name": "page",
+   "t": 5.5,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_eudisclosure/frame_page.png"
+  },
+  {
+   "name": "hit_bubble",
+   "t": 5.72,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_eudisclosure/frame_hit_bubble.png"
+  },
+  {
+   "name": "hit_page",
+   "t": 6.32,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_eudisclosure/frame_hit_page.png"
+  },
+  {
+   "name": "chapB",
+   "t": 6.7,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_eudisclosure/frame_chapB.png"
+  },
+  {
+   "name": "gen",
+   "t": 8.5,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_eudisclosure/frame_gen.png"
+  },
+  {
+   "name": "mod",
+   "t": 11.1,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_eudisclosure/frame_mod.png"
+  },
+  {
+   "name": "hit_gen",
+   "t": 11.52,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_eudisclosure/frame_hit_gen.png"
+  },
+  {
+   "name": "hit_mod",
+   "t": 12.86,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_eudisclosure/frame_hit_mod.png"
+  },
+  {
+   "name": "chapC",
+   "t": 13.6,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_eudisclosure/frame_chapC.png"
+  },
+  {
+   "name": "real",
+   "t": 15.8,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_eudisclosure/frame_real.png"
+  },
+  {
+   "name": "shot",
+   "t": 17.5,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_eudisclosure/frame_shot.png"
+  },
+  {
+   "name": "color",
+   "t": 20.7,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_eudisclosure/frame_color.png"
+  },
+  {
+   "name": "light",
+   "t": 21.4,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_eudisclosure/frame_light.png"
+  },
+  {
+   "name": "hit_photo",
+   "t": 22.7,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_eudisclosure/frame_hit_photo.png"
+  },
+  {
+   "name": "hit_shot",
+   "t": 23.16,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_eudisclosure/frame_hit_shot.png"
+  },
+  {
+   "name": "outro",
+   "t": 25.0,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_eudisclosure/frame_outro.png"
+  }
+ ],
+ "presses": {
+  "hit_bubble": {
+   "pad_bottom_vs_imp_bottom": -5.8,
+   "pad_cx_vs_imp_cx": 0.1
+  },
+  "hit_page": {
+   "pad_bottom_vs_imp_bottom": -5.8,
+   "pad_cx_vs_imp_cx": 0.1
+  },
+  "hit_gen": {
+   "pad_bottom_vs_imp_bottom": -9.7,
+   "pad_cx_vs_imp_cx": -0.0
+  },
+  "hit_mod": {
+   "pad_bottom_vs_imp_bottom": -9.3,
+   "pad_cx_vs_imp_cx": 0.0
+  },
+  "hit_photo": {
+   "pad_bottom_vs_imp_bottom": -9.3,
+   "pad_cx_vs_imp_cx": 0.0
+  },
+  "hit_shot": {
+   "pad_bottom_vs_imp_bottom": -9.3,
+   "pad_cx_vs_imp_cx": 0.0
+  }
+ },
+ "imprint_in_host": {
+  "#imp-bub": {
+   "inside": true,
+   "margins_lrtb": [
+    93.0,
+    93.1,
+    106.7,
+    74.7
+   ]
+  },
+  "#imp-page": {
+   "inside": true,
+   "margins_lrtb": [
+    83.0,
+    83.1,
+    214.7,
+    32.7
+   ]
+  },
+  "#imp-pd-gen": {
+   "inside": true,
+   "margins_lrtb": [
+    23.6,
+    23.5,
+    255.2,
+    15.2
+   ]
+  },
+  "#imp-pd-mod": {
+   "inside": true,
+   "margins_lrtb": [
+    31.5,
+    31.5,
+    255.5,
+    15.5
+   ]
+  },
+  "#imp-pd-real": {
+   "inside": true,
+   "margins_lrtb": [
+    31.5,
+    31.5,
+    255.5,
+    15.5
+   ]
+  },
+  "#imp-shot": {
+   "inside": true,
+   "margins_lrtb": [
+    31.5,
+    31.5,
+    255.5,
+    15.5
+   ]
+  }
+ },
+ "stage_marks_resolve": {},
+ "cutout_lanes_resolve": {
+  "chatgpt": "/Users/migle/Documents/Workspace/assets/logos/ai-models/chatgpt-color.png",
+  "claude": "/Users/migle/Documents/Workspace/assets/logos/ai-models/claude-color.png",
+  "gemini": "/Users/migle/Documents/Workspace/assets/logos/ai-models/gemini-color.png",
+  "mistral": "/Users/migle/Documents/Workspace/assets/logos/ai-models/mistral.png",
+  "grok": "/Users/migle/Documents/Workspace/assets/logos/ai-models/grok.png",
+  "perplexity": "/Users/migle/Documents/Workspace/assets/logos/ai-models/perplexity-color.png",
+  "flux": "/Users/migle/Documents/Workspace/assets/logos/ai-models/flux.png",
+  "midjourney": "/Users/migle/Documents/Workspace/assets/logos/tool-web-icons-20260914/midjourney.png"
+ }
+}

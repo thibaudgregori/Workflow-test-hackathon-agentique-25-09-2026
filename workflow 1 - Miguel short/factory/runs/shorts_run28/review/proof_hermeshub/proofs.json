@@ -1,0 +1,431 @@
+{
+ "crops": [
+  {
+   "i": 0,
+   "name": "open laptop computer",
+   "t": 3.2,
+   "core_box": [
+    206.0,
+    214.0,
+    874.0,
+    540.0
+   ],
+   "phone_box_px": [
+    77,
+    152,
+    328,
+    274
+   ],
+   "phone_size_px": [
+    251,
+    122
+   ],
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_hermeshub/00.png"
+  },
+  {
+   "i": 1,
+   "name": "cardboard shipping box",
+   "t": 5.8,
+   "core_box": [
+    356.0,
+    337.0,
+    724.0,
+    570.0
+   ],
+   "phone_box_px": [
+    134,
+    198,
+    272,
+    286
+   ],
+   "phone_size_px": [
+    138,
+    88
+   ],
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_hermeshub/01.png"
+  }
+ ],
+ "frames": [
+  {
+   "name": "hook_tile_alone",
+   "t": 0.6,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_hermeshub/frame_hook_tile_alone.png"
+  },
+  {
+   "name": "laptop_apps",
+   "t": 3.2,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_hermeshub/frame_laptop_apps.png"
+  },
+  {
+   "name": "box",
+   "t": 5.8,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_hermeshub/frame_box.png"
+  },
+  {
+   "name": "toolbar_rising",
+   "t": 6.2,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_hermeshub/frame_toolbar_rising.png"
+  },
+  {
+   "name": "hub_mode",
+   "t": 7.6,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_hermeshub/frame_hub_mode.png"
+  },
+  {
+   "name": "always_on",
+   "t": 9.6,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_hermeshub/frame_always_on.png"
+  },
+  {
+   "name": "flip_toolbar",
+   "t": 11.6,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_hermeshub/frame_flip_toolbar.png"
+  },
+  {
+   "name": "windows",
+   "t": 13.1,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_hermeshub/frame_windows.png"
+  },
+  {
+   "name": "docked_figma",
+   "t": 13.9,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_hermeshub/frame_docked_figma.png"
+  },
+  {
+   "name": "gliding",
+   "t": 14.62,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_hermeshub/frame_gliding.png"
+  },
+  {
+   "name": "docked_slack",
+   "t": 15.6,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_hermeshub/frame_docked_slack.png"
+  },
+  {
+   "name": "centred",
+   "t": 16.6,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_hermeshub/frame_centred.png"
+  },
+  {
+   "name": "context",
+   "t": 17.1,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_hermeshub/frame_context.png"
+  },
+  {
+   "name": "window_flip",
+   "t": 18.5,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_hermeshub/frame_window_flip.png"
+  },
+  {
+   "name": "toolbar_flip",
+   "t": 19.6,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_hermeshub/frame_toolbar_flip.png"
+  },
+  {
+   "name": "outro",
+   "t": 22.0,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_hermeshub/frame_outro.png"
+  }
+ ],
+ "seat": {
+  "3.20": {
+   "tb": [
+    360,
+    442,
+    720,
+    546
+   ],
+   "fig": [
+    60,
+    542,
+    360,
+    752
+   ],
+   "slk": [
+    720,
+    542,
+    1020,
+    752
+   ],
+   "ht": [
+    484,
+    262,
+    596,
+    374
+   ],
+   "apps": [
+    [
+     340,
+     482,
+     452,
+     594
+    ],
+    [
+     484,
+     482,
+     596,
+     594
+    ],
+    [
+     628,
+     482,
+     740,
+     594
+    ]
+   ]
+  },
+  "13.90": {
+   "tb": [
+    98.39999389648438,
+    477.5199890136719,
+    321.5999755859375,
+    542
+   ],
+   "fig": [
+    60,
+    542,
+    360,
+    752
+   ],
+   "slk": [
+    720,
+    542,
+    1020,
+    752
+   ],
+   "ht": [
+    484,
+    262,
+    596,
+    374
+   ],
+   "apps": [
+    [
+     340,
+     482,
+     452,
+     594
+    ],
+    [
+     484,
+     482,
+     596,
+     594
+    ],
+    [
+     628,
+     482,
+     740,
+     594
+    ]
+   ]
+  },
+  "15.60": {
+   "tb": [
+    758.4000244140625,
+    477.5199890136719,
+    981.6000366210938,
+    542
+   ],
+   "fig": [
+    60,
+    542,
+    360,
+    752
+   ],
+   "slk": [
+    720,
+    542,
+    1020,
+    752
+   ],
+   "ht": [
+    484,
+    262,
+    596,
+    374
+   ],
+   "apps": [
+    [
+     340,
+     482,
+     452,
+     594
+    ],
+    [
+     484,
+     482,
+     596,
+     594
+    ],
+    [
+     628,
+     482,
+     740,
+     594
+    ]
+   ]
+  },
+  "16.60": {
+   "tb": [
+    389.3399963378906,
+    304.9519958496094,
+    690.6600341796875,
+    392
+   ],
+   "fig": [
+    60,
+    542,
+    360,
+    752
+   ],
+   "slk": [
+    337.5,
+    392,
+    742.5,
+    675.5
+   ],
+   "ht": [
+    484,
+    262,
+    596,
+    374
+   ],
+   "apps": [
+    [
+     340,
+     482,
+     452,
+     594
+    ],
+    [
+     484,
+     482,
+     596,
+     594
+    ],
+    [
+     628,
+     482,
+     740,
+     594
+    ]
+   ]
+  },
+  "18.50": {
+   "tb": [
+    389.3399963378906,
+    304.9519958496094,
+    690.6600341796875,
+    392
+   ],
+   "fig": [
+    60,
+    542,
+    360,
+    752
+   ],
+   "slk": [
+    337.5,
+    392,
+    742.5,
+    675.5
+   ],
+   "ht": [
+    484,
+    262,
+    596,
+    374
+   ],
+   "apps": [
+    [
+     340,
+     482,
+     452,
+     594
+    ],
+    [
+     484,
+     482,
+     596,
+     594
+    ],
+    [
+     628,
+     482,
+     740,
+     594
+    ]
+   ]
+  }
+ },
+ "seat_gaps_px": {
+  "3.20": {
+   "hermes_tile_bottom": 182.0,
+   "app_tops": [
+    290.0,
+    290.0,
+    290.0
+   ]
+  },
+  "13.90": {
+   "toolbar_bottom_minus_figma_top": 0
+  },
+  "15.60": {
+   "toolbar_bottom_minus_slack_top": 0,
+   "toolbar_cx_minus_slack_cx": 0.0
+  },
+  "16.60": {
+   "toolbar_bottom_minus_slack_top": 0,
+   "toolbar_cx_minus_slack_cx": 0.0
+  },
+  "18.50": {
+   "toolbar_bottom_minus_slack_top": 0,
+   "toolbar_cx_minus_slack_cx": 0.0
+  }
+ },
+ "stage_marks_resolve": {
+  "nous-girl-line": "/Users/migle/Documents/Workspace/assets/logos/ai-models/nous-girl-line.png",
+  "figma": "/Users/migle/Documents/Workspace/assets/logos/design-tools/figma-color.png",
+  "notion": "/Users/migle/Documents/Workspace/assets/logos/platforms/notion-color.png",
+  "slack": "/Users/migle/Documents/Workspace/assets/logos/platforms/slack-color.png"
+ },
+ "cutout_lanes_resolve": {
+  "chatgpt": "/Users/migle/Documents/Workspace/assets/logos/ai-models/chatgpt-color.png",
+  "claude": "/Users/migle/Documents/Workspace/assets/logos/ai-models/claude-color.png",
+  "gemini": "/Users/migle/Documents/Workspace/assets/logos/ai-models/gemini-color.png",
+  "perplexity": "/Users/migle/Documents/Workspace/assets/logos/ai-models/perplexity-color.png",
+  "copilot": "/Users/migle/Documents/Workspace/assets/logos/coding-tools/copilot-color.png",
+  "openclaw": "/Users/migle/Documents/Workspace/assets/logos/coding-tools/openclaw-color.png"
+ },
+ "law40_anchor_equality": {
+  "from": [
+   [
+    501.92,
+    182.0
+   ],
+   [
+    540.0,
+    182.0
+   ],
+   [
+    578.08,
+    182.0
+   ]
+  ],
+  "to": [
+   [
+    396.0,
+    290.0
+   ],
+   [
+    540.0,
+    290.0
+   ],
+   [
+    684.0,
+    290.0
+   ]
+  ]
+ }
+}

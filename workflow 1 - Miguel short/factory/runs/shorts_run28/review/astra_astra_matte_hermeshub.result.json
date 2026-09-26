@@ -1,0 +1,14 @@
+{
+  "status": "ok",
+  "ship": "ok",
+  "selection_changed": false,
+  "edits": 0,
+  "rounds": 1,
+  "what_you_saw": "Viewed the clean frame, full selection overlay and head overlay; approved the existing person contour unchanged because it preserves his anatomy and excludes the chair back and headrest. After one MatAnyone2 track and ship, viewed playback.jpg, face_2x.jpg at original resolution, chair_sides.jpg and hands.jpg. Playback shows an intact opaque presenter with no visible chair slab, grey wedge or neck splash. Followed both head outlines through cap brim, cap-to-temple junction, temple, ear top, ear and jaw against the source, including first and last frames: no introduced notch, step, bite or flat cut. Chin, neck and shoulders remain intact. The chair-side samples are clean, including the late 23-second sample. Hands remain present through the sampled gestures; soft blur on fast hands is accepted as normal motion blur, not a hold. No viewer-visible blocking defect was found in the four sheets. All 602 frames shipped, and the cut, rim and alpha file hashes match ship_v5.json.",
+  "hold_reason": "",
+  "outputs": [
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/matting/hermeshub/matte_hermeshub_v5_cut.webm",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/matting/hermeshub/matte_hermeshub_v5_rim.webm",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/matting/hermeshub/matte_hermeshub_v5_alpha.webm"
+  ]
+}

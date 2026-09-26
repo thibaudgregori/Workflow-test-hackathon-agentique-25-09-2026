@@ -1,0 +1,71 @@
+{
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/projects/eudisclosure_whiteboard",
+ "fmt": "whiteboard",
+ "step": 0.25,
+ "checks": {
+  "refs_resolve": {
+   "referenced": 9,
+   "missing": [],
+   "pass": true,
+   "error": null,
+   "wall_s": 0.08
+  },
+  "assets_not_placeholder": {
+   "rasters": 0,
+   "placeholder_shaped": [],
+   "undecodable": [],
+   "report": {},
+   "pass": true,
+   "error": null,
+   "wall_s": 0.03
+  },
+  "page_audit": {
+   "ids": 194,
+   "unique_ids": 194,
+   "duplicate_ids": [],
+   "tween_selectors": 108,
+   "dead_tween_targets": [],
+   "pass": true,
+   "error": null,
+   "wall_s": 0.0
+  },
+  "caption_canon_page": {
+   "pills": 30,
+   "modal_height_px": 114.53,
+   "canon_height_px": 114.59,
+   "height_spread_px": 0.0,
+   "tolerance_design_px": 3.0,
+   "heights_off_canon": [],
+   "squarer_than_min_aspect": [],
+   "min_aspect": 1.45,
+   "function_only_beat_law": null,
+   "pass": true,
+   "error": null,
+   "wall_s": 0.0
+  },
+  "gate1_geometry_audit": {
+   "returncode": 0,
+   "errors": 0,
+   "warnings": 0,
+   "warnings_after_waivers": 0,
+   "waived": [],
+   "report": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/projects/eudisclosure_whiteboard/geometry_audit/report.json",
+   "stdout": "eudisclosure_whiteboard: 0 errors, 0 warnings (27.6s @ 0.25s step)\n",
+   "stderr": "",
+   "bar": "0 errors, 0 warnings",
+   "pass": true,
+   "error": null,
+   "wall_s": 1.22
+  }
+ },
+ "skipped": {
+  "cutout_edge_fade_guard": "cutout only",
+  "cutout_checks_24_25": "cutout only"
+ },
+ "duration_s": 27.64,
+ "page_zoom": 1.000543114973262,
+ "page_load_wall_s": 0.88,
+ "failed": [],
+ "verdict": "PASS",
+ "total_wall_s": 2.22
+}

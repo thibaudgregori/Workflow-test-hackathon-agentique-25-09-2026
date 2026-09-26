@@ -1,0 +1,19 @@
+{
+ "id": "hermeshub",
+ "stage": "plate",
+ "status": "ok",
+ "wall_s": 102.8,
+ "at": "2026-09-23T20:33:40",
+ "keys": {
+  "status": "ok",
+  "plate": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/matting/hermeshub/plate_wide_25.mp4",
+  "crop": "2450x1750+729+226",
+  "scale_k": 0.514286,
+  "head_px_on_canvas": 451.9,
+  "overwide_applied": true,
+  "face_dx_pct": 0.089,
+  "visible_window_drift_master_px": 0.71,
+  "plate_json": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/matting/hermeshub/plate.json",
+  "wall_s": 102.8
+ }
+}

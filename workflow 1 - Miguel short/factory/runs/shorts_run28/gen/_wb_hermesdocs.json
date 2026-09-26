@@ -1,0 +1,597 @@
+{
+ "video": "hermesdocs",
+ "format": "whiteboard",
+ "variant": "plan view (fix)",
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/projects/hermesdocs_whiteboard",
+ "handle": "@migueltorrez.ai",
+ "handle_key": "tiktok_ig",
+ "duration_s": 28.28,
+ "fps": 25,
+ "render": "1080x1920 @ zoom 1",
+ "board": "576x460 design units",
+ "board_box": [
+  40.0,
+  150.0,
+  536.0,
+  425.0
+ ],
+ "strokes": 40,
+ "rigids": 33,
+ "board_text": [
+  "CONFIDENTIAL",
+  "ZERO RISK",
+  "LOCALLY",
+  "BUSINESS",
+  "CLIENTS",
+  "PDF",
+  "ANYDOC",
+  "OPEN SOURCE",
+  "FIRECRAWL"
+ ],
+ "top_ink_u": 150.0,
+ "top_band_u": 102.4,
+ "pen_top_u": 110.7,
+ "ink_bottom_px": 710.9,
+ "cap_band_top_px": 799.2,
+ "cap_clearance_px": 88.3,
+ "ink_bottom_ink_px": 704.5,
+ "cap_clearance_ink_px": 94.7,
+ "seam_pill_top_px": 805.2,
+ "cap_clearance_ink_to_pill_px": 100.7,
+ "seam_measures": "cap_clearance_px = line boxes vs the reserved band (THE GATE); cap_clearance_ink_px = glyph ink vs the same band; cap_clearance_ink_to_pill_px = glyph ink vs the pill's painted top edge (the clerk's surface)",
+ "rail_hits": [],
+ "label_law": {
+  "window_s": 1.0,
+  "key_term": "LOCALLY",
+  "key_term_fs_u": 23.0,
+  "written": {
+   "LOCALLY": 4.5,
+   "CONFIDENTIAL": 7.72,
+   "CONFIDENTIAL@p1": 10.02,
+   "BUSINESS": 10.08,
+   "CLIENTS": 10.8,
+   "ZERO RISK": 14.26,
+   "ZERO RISK@p2": 15.68,
+   "PDF": 17.74,
+   "ANYDOC": 18.02,
+   "OPEN SOURCE": 19.74,
+   "PDF@p1": 22.18,
+   "ANYDOC@p1": 22.18,
+   "OPEN SOURCE@p1": 22.18,
+   "FIRECRAWL": 23.2
+  },
+  "plan": {
+   "locally": "LOCALLY",
+   "confidential": "CONFIDENTIAL",
+   "business": "BUSINESS",
+   "clients": "CLIENTS",
+   "zero": "ZERO RISK",
+   "anydoc": "ANYDOC",
+   "open": "OPEN SOURCE",
+   "firecrawl": "FIRECRAWL"
+  },
+  "comparisons": [],
+  "unplanned_text": [],
+  "verdict": "PASS"
+ },
+ "law4": {
+  "law": "4 (overlap test)",
+  "board_words_that_also_appear_as_a_pill": {}
+ },
+ "round4": {
+  "law6_lifetimes": {
+   "duration_s": 28.28,
+   "chaptered": true,
+   "max_frac": 0.4,
+   "declared_anchors": [],
+   "lingering": [],
+   "verdict": "PASS"
+  },
+  "law2_no_enclosure": {
+   "rings": 0,
+   "boxes": 0,
+   "highlights": 0,
+   "rasters": [],
+   "wrong_tool_advisory": [],
+   "verdict": "PASS"
+  },
+  "law3_label_side": {
+   "checked": 8,
+   "detail": {
+    "LOCALLY": {
+     "host": "safe-open",
+     "dx_u": -19.0,
+     "band_u": 135.2,
+     "place": "above"
+    },
+    "CONFIDENTIAL": {
+     "host": "safe-open",
+     "dx_u": -19.0,
+     "band_u": 135.2,
+     "place": "below"
+    },
+    "BUSINESS": {
+     "host": "building",
+     "dx_u": 0.0,
+     "band_u": 33.8,
+     "place": "below"
+    },
+    "CLIENTS": {
+     "host": "bust",
+     "dx_u": 0.0,
+     "band_u": 32.5,
+     "place": "below"
+    },
+    "ZERO RISK": {
+     "host": "safe-p1",
+     "dx_u": -3.0,
+     "band_u": 114.4,
+     "place": "below"
+    },
+    "ANYDOC": {
+     "host": "page",
+     "dx_u": 0.0,
+     "band_u": 83.2,
+     "place": "below"
+    },
+    "OPEN SOURCE": {
+     "host": "page",
+     "dx_u": 0.0,
+     "band_u": 83.2,
+     "place": "below"
+    },
+    "FIRECRAWL": {
+     "host": "fc-tile",
+     "dx_u": 0.0,
+     "band_u": 38.8,
+     "place": "below"
+    }
+   },
+   "verdict": "PASS"
+  },
+  "law5_spacing": {
+   "gate_u": 8.5,
+   "gate_px": 15.9,
+   "aim_u": 12.8,
+   "aim_px": 24.0,
+   "measured_on": "element line boxes",
+   "under_aim": [
+    "safe-open-p1 | type:LOCALLY = 11.3u (21.3 px)"
+   ],
+   "objects": 33,
+   "verdict": "PASS"
+  },
+  "law5_spacing_ink": {
+   "gate_u": 8.5,
+   "gate_px": 15.9,
+   "aim_u": 12.8,
+   "aim_px": 24.0,
+   "measured_on": "glyph ink extents",
+   "under_aim": [],
+   "objects": 33,
+   "verdict": "PASS"
+  },
+  "law5_no_crossing": {
+   "strokes": 40,
+   "types": 9,
+   "verdict": "PASS"
+  },
+  "law4_anchors": {
+   "targets": 3,
+   "detail": {
+    "safe-open-p1": {
+     "n": 2,
+     "spread_u": 0.0,
+     "level": true,
+     "mirrored": false,
+     "on_rect": true
+    },
+    "safe-p2": {
+     "n": 1,
+     "spread_u": 0.0,
+     "level": true,
+     "mirrored": false,
+     "on_rect": true
+    },
+    "fc-tile": {
+     "n": 1,
+     "spread_u": 0.0,
+     "level": true,
+     "mirrored": false,
+     "on_rect": true
+    }
+   },
+   "verdict": "PASS"
+  }
+ },
+ "outro": {
+  "move": "opaque sheet rises over the board",
+  "wipe_start": 23.88,
+  "wipe_end": 24.44,
+  "travel_px": 862.5,
+  "sheet_opaque": true,
+  "sheet_covers_px": 862.5,
+  "card_ink_enters_px": 322.5,
+  "board_covered_px": 581.2,
+  "overlap_px": 258.8,
+  "board_moves": false,
+  "board_fades": false,
+  "outro_start": 23.88,
+  "verdict": "PASS"
+ },
+ "captions": 29,
+ "cap_font_px": 56.2,
+ "cap_max_pill_w_px": 748.4,
+ "cap_w_budget_px": 756.0,
+ "anchors": {
+  "start": 0.1,
+  "agent": 0.44,
+  "privacy": 2.22,
+  "now": 2.88,
+  "read": 3.3,
+  "documents": 3.7,
+  "locally": 4.5,
+  "confidential": 7.7,
+  "business": 9.62,
+  "clients": 10.46,
+  "and": 11.3,
+  "hermes2": 11.86,
+  "now2": 13.18,
+  "zero": 14.12,
+  "data": 15.28,
+  "actually": 15.7,
+  "leaking": 16.28,
+  "seam": 16.88,
+  "anydoc": 18.0,
+  "open": 19.72,
+  "pdf": 20.44,
+  "analyzer": 21.0,
+  "built": 21.78,
+  "team": 22.34,
+  "over": 22.7,
+  "firecrawl": 23.18,
+  "outro": 23.88,
+  "day": 26.82
+ },
+ "html_bytes": 107344,
+ "sfx": 25,
+ "pen_loops": 10,
+ "pen_seconds": 4.14,
+ "pen_duty_pct": 14.6,
+ "captions_law3b": {
+  "beats_before_merge": 29,
+  "beats_after_merge": 29,
+  "merges": 0,
+  "merged_away": [],
+  "widest_pill_px": 748.4,
+  "budget_px": 756.0,
+  "beats": [
+   [
+    0.1,
+    0.76,
+    "Hermes Agent"
+   ],
+   [
+    0.76,
+    1.18,
+    "just dropped"
+   ],
+   [
+    1.18,
+    1.98,
+    "another banger"
+   ],
+   [
+    1.98,
+    2.88,
+    "for privacy."
+   ],
+   [
+    2.88,
+    3.52,
+    "Now they read"
+   ],
+   [
+    3.52,
+    4.5,
+    "your documents"
+   ],
+   [
+    4.5,
+    5.94,
+    "locally, meaning that if"
+   ],
+   [
+    5.94,
+    7.12,
+    "you need to operate"
+   ],
+   [
+    7.12,
+    8.42,
+    "with high confidential"
+   ],
+   [
+    8.42,
+    8.94,
+    "documents"
+   ],
+   [
+    8.94,
+    10.12,
+    "from either your business"
+   ],
+   [
+    10.12,
+    11.3,
+    "or your clients"
+   ],
+   [
+    11.3,
+    12.22,
+    "and you run Hermes"
+   ],
+   [
+    12.22,
+    13.18,
+    "Agent locally,"
+   ],
+   [
+    13.18,
+    14.12,
+    "now you have"
+   ],
+   [
+    14.12,
+    15.28,
+    "zero risk of your"
+   ],
+   [
+    15.28,
+    16.88,
+    "data actually leaking out."
+   ],
+   [
+    16.88,
+    17.56,
+    "They do this by"
+   ],
+   [
+    17.56,
+    18.8,
+    "using AnyDoc,"
+   ],
+   [
+    18.8,
+    20.08,
+    "which is an open"
+   ],
+   [
+    20.08,
+    22.02,
+    "source PDF analyzer built"
+   ],
+   [
+    22.02,
+    22.92,
+    "by the team over"
+   ],
+   [
+    22.92,
+    23.88,
+    "at Firecrawl."
+   ],
+   [
+    23.88,
+    24.68,
+    "Now follow for more"
+   ],
+   [
+    24.68,
+    25.24,
+    "AI news,"
+   ],
+   [
+    25.24,
+    26.38,
+    "videos, and tutorials each"
+   ],
+   [
+    26.38,
+    27.28,
+    "and every single day,"
+   ],
+   [
+    27.28,
+    27.68,
+    "and catch you in"
+   ],
+   [
+    27.68,
+    28.18,
+    "the next one."
+   ]
+  ],
+  "law": "captions.py 3b: merge_function_only_beats over the WHOLE beat stream, then assert_no_function_only_beat inside build()"
+ },
+ "seam_law": {
+  "plan_mode": "chapters",
+  "chapters": 2,
+  "seams": [
+   16.88
+  ],
+  "erase_s": [
+   0.3
+  ],
+  "erase_completes": [
+   17.18
+  ],
+  "qc_seams": "16.88",
+  "handover": [
+   {
+    "seam": 16.88,
+    "incoming": "the big PDF page's outline draws 16.92-17.16 INSIDE the erase and its fold by 17.24"
+   }
+  ],
+  "outro_wipe": 23.88,
+  "note": "rigid windows also end together at 9.62, 11.60 and 15.28 (the safe's two slides and the sources' erase); chapter_seams() reads those as seams, but they are placements of one drawing, not erases of the board, so qc gets the one real seam only."
+ },
+ "phone_test_objects": [
+  {
+   "i": 0,
+   "name": "locked steel safe",
+   "t": 2.0,
+   "bbox_board_u": [
+    193.0,
+    190.0,
+    389.0,
+    348.0
+   ],
+   "bbox_norm": [
+    0.3351,
+    0.1855,
+    0.6754,
+    0.3398
+   ]
+  },
+  {
+   "i": 1,
+   "name": "open safe documents",
+   "t": 8.6,
+   "bbox_board_u": [
+    193.0,
+    189.0,
+    421.0,
+    348.0
+   ],
+   "bbox_norm": [
+    0.3351,
+    0.1846,
+    0.7309,
+    0.3398
+   ]
+  },
+  {
+   "i": 2,
+   "name": "scanned PDF page",
+   "t": 21.5,
+   "bbox_board_u": [
+    212.0,
+    170.0,
+    364.0,
+    326.0
+   ],
+   "bbox_norm": [
+    0.3681,
+    0.166,
+    0.6319,
+    0.3184
+   ]
+  }
+ ],
+ "phone_at_args": [
+  "2.0:0.3351,0.1855,0.6754,0.3398:locked steel safe",
+  "8.6:0.3351,0.1846,0.7309,0.3398:open safe documents",
+  "21.5:0.3681,0.166,0.6319,0.3184:scanned PDF page"
+ ],
+ "pointing_cues": {
+  "n": 0,
+  "cards": [],
+  "note": "gen/_cues_hermesdocs.json: cues []"
+ },
+ "emphasis": [
+  {
+   "at": 11.86,
+   "target": "hermes-tile",
+   "kind": "own border re-inked terracotta (board border flip), back to ink at +0.94 s"
+  },
+  {
+   "at": 14.12,
+   "target": "safe body",
+   "kind": "own outline re-inked terracotta, held to the chapter exit"
+  },
+  {
+   "at": 20.44,
+   "target": "pdf-tag",
+   "kind": "own border re-inked terracotta"
+  }
+ ],
+ "geometry_u": {
+  "safe_home": [
+   203.0,
+   200.0,
+   379.0,
+   340.0
+  ],
+  "safe_open": [
+   203.0,
+   197.0,
+   411.0,
+   340.0
+  ],
+  "dx1": 54.5,
+  "dx2": 81.0,
+  "hermes_home": [
+   127.3,
+   234.13,
+   187.033,
+   293.863
+  ],
+  "hermes_dx": 96.7,
+  "building": [
+   132.0,
+   178.0,
+   184.0,
+   231.0
+  ],
+  "bust": [
+   133.0,
+   273.0,
+   183.0,
+   335.0
+  ],
+  "stem_end": [
+   257.5,
+   264.0
+  ],
+  "cloud": [
+   116.0,
+   234.0,
+   214.0,
+   294.0
+  ],
+  "leak": [
+   [
+    214.0,
+    278.0
+   ],
+   [
+    284.0,
+    278.0
+   ]
+  ],
+  "page": [
+   224.0,
+   176.0,
+   352.0,
+   320.0
+  ],
+  "page_dx": -66.0,
+  "fc_tile": [
+   336.0,
+   218.1335,
+   395.733,
+   277.8665
+  ],
+  "wire": [
+   [
+    286.0,
+    248.0
+   ],
+   [
+    336.0,
+    248.0
+   ]
+  ]
+ }
+}

@@ -1,0 +1,348 @@
+{
+ "video": "hermeshub",
+ "format": "whiteboard",
+ "variant": "plan view (fix)",
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/projects/hermeshub_whiteboard",
+ "handle": "@migueltorrez.ai",
+ "handle_key": "tiktok_ig",
+ "duration_s": 24.08,
+ "fps": 25,
+ "render": "1080x1920 @ zoom 1",
+ "board": "576x460 design units",
+ "board_box": [
+  40.0,
+  150.0,
+  536.0,
+  425.0
+ ],
+ "strokes": 43,
+ "rigids": 35,
+ "board_text": [
+  "HUB MODE",
+  "ALWAYS ON"
+ ],
+ "top_ink_u": 148.5,
+ "top_band_u": 102.4,
+ "pen_top_u": 110.0,
+ "ink_bottom_px": 758.9,
+ "cap_band_top_px": 799.2,
+ "cap_clearance_px": 40.3,
+ "ink_bottom_ink_px": 758.9,
+ "cap_clearance_ink_px": 40.3,
+ "seam_pill_top_px": 805.2,
+ "cap_clearance_ink_to_pill_px": 46.3,
+ "seam_measures": "cap_clearance_px = line boxes vs the reserved band (THE GATE); cap_clearance_ink_px = glyph ink vs the same band; cap_clearance_ink_to_pill_px = glyph ink vs the pill's painted top edge (the clerk's surface)",
+ "rail_hits": [],
+ "label_law": {
+  "window_s": 1.0,
+  "key_term": "HUB MODE",
+  "key_term_fs_u": 25.6,
+  "written": {
+   "HUB MODE": 6.1,
+   "ALWAYS ON": 8.12
+  },
+  "plan": {
+   "mode": "HUB MODE",
+   "alwayson": "ALWAYS ON"
+  },
+  "comparisons": [],
+  "unplanned_text": [],
+  "verdict": "PASS"
+ },
+ "law4": {
+  "law": "4 (overlap test)",
+  "board_words_that_also_appear_as_a_pill": {}
+ },
+ "round4": {
+  "law6_lifetimes": {
+   "duration_s": 24.08,
+   "chaptered": true,
+   "max_frac": 0.4,
+   "declared_anchors": [],
+   "lingering": [],
+   "verdict": "PASS"
+  },
+  "law2_no_enclosure": {
+   "rings": 0,
+   "boxes": 0,
+   "highlights": 0,
+   "rasters": [],
+   "wrong_tool_advisory": [],
+   "verdict": "PASS"
+  },
+  "law3_label_side": {
+   "checked": 2,
+   "detail": {
+    "HUB MODE": {
+     "host": "hub-toolbar",
+     "dx_u": 0.0,
+     "band_u": 156.0,
+     "place": "above"
+    },
+    "ALWAYS ON": {
+     "host": "hub-toolbar",
+     "dx_u": 0.0,
+     "band_u": 156.0,
+     "place": "below"
+    }
+   },
+   "verdict": "PASS"
+  },
+  "law5_spacing": {
+   "gate_u": 8.5,
+   "gate_px": 15.9,
+   "aim_u": 12.8,
+   "aim_px": 24.0,
+   "measured_on": "element line boxes",
+   "under_aim": [
+    "window-figma | window-notion = 12.0u (22.5 px)",
+    "window-notion | window-slack = 12.0u (22.5 px)"
+   ],
+   "objects": 22,
+   "verdict": "PASS"
+  },
+  "law5_spacing_ink": {
+   "gate_u": 8.5,
+   "gate_px": 15.9,
+   "aim_u": 12.8,
+   "aim_px": 24.0,
+   "measured_on": "glyph ink extents",
+   "under_aim": [
+    "window-figma | window-notion = 12.0u (22.5 px)",
+    "window-notion | window-slack = 12.0u (22.5 px)"
+   ],
+   "objects": 22,
+   "verdict": "PASS"
+  },
+  "law5_no_crossing": {
+   "strokes": 43,
+   "types": 2,
+   "verdict": "PASS"
+  },
+  "law4_anchors": {
+   "targets": 4,
+   "detail": {
+    "app-figma": {
+     "n": 1,
+     "spread_u": 0.0,
+     "level": true,
+     "mirrored": false,
+     "on_rect": true
+    },
+    "app-notion": {
+     "n": 1,
+     "spread_u": 0.0,
+     "level": true,
+     "mirrored": false,
+     "on_rect": true
+    },
+    "app-slack": {
+     "n": 1,
+     "spread_u": 0.0,
+     "level": true,
+     "mirrored": false,
+     "on_rect": true
+    },
+    "tb-dock": {
+     "n": 3,
+     "spread_u": 0.0,
+     "level": true,
+     "mirrored": false,
+     "on_rect": true
+    }
+   },
+   "verdict": "PASS"
+  }
+ },
+ "outro": {
+  "move": "opaque sheet rises over the board",
+  "wipe_start": 19.98,
+  "wipe_end": 20.54,
+  "travel_px": 862.5,
+  "sheet_opaque": true,
+  "sheet_covers_px": 862.5,
+  "card_ink_enters_px": 322.5,
+  "board_covered_px": 584.0,
+  "overlap_px": 261.5,
+  "board_moves": false,
+  "board_fades": false,
+  "outro_start": 19.98,
+  "verdict": "PASS"
+ },
+ "captions": 25,
+ "cap_font_px": 56.2,
+ "cap_max_pill_w_px": 748.4,
+ "cap_w_budget_px": 756.0,
+ "anchors": {
+  "hermes": 0.1,
+  "any": 1.34,
+  "application": 1.52,
+  "working": 2.3,
+  "seam0": 5.34,
+  "hub": 5.86,
+  "mode": 6.08,
+  "allows": 6.98,
+  "alwayson": 8.08,
+  "agent": 8.94,
+  "toolbar": 11.26,
+  "seam1": 11.98,
+  "you": 12.56,
+  "drag": 13.2,
+  "your": 14.34,
+  "desktop": 15.1,
+  "seam2": 15.86,
+  "context": 16.84,
+  "app2": 17.84,
+  "sitting": 18.96,
+  "outro": 19.98,
+  "day": 22.66
+ },
+ "html_bytes": 174821,
+ "sfx": 19,
+ "pen_loops": 6,
+ "pen_seconds": 2.04,
+ "pen_duty_pct": 8.5,
+ "captions_law3b": {
+  "beats_before_merge": 25,
+  "beats_after_merge": 25,
+  "merges": 0,
+  "widest_pill_px": 748.4,
+  "budget_px": 756.0,
+  "beats": [
+   [
+    0.1,
+    0.92,
+    "Hermes can now help"
+   ],
+   [
+    0.92,
+    2.02,
+    "you in any application"
+   ],
+   [
+    2.02,
+    2.9,
+    "that you're working"
+   ],
+   [
+    2.9,
+    3.9,
+    "on your computer."
+   ],
+   [
+    3.9,
+    4.68,
+    "Now, a community"
+   ],
+   [
+    4.68,
+    5.08,
+    "member"
+   ],
+   [
+    5.08,
+    6.58,
+    "just shipped Hub mode."
+   ],
+   [
+    6.58,
+    7.36,
+    "Hub mode allows you"
+   ],
+   [
+    7.36,
+    8.94,
+    "to have an always-on"
+   ],
+   [
+    8.94,
+    10.08,
+    "Hermes Agent"
+   ],
+   [
+    10.08,
+    11.98,
+    "inside of a small toolbar"
+   ],
+   [
+    11.98,
+    12.82,
+    "that literally you can"
+   ],
+   [
+    12.82,
+    13.86,
+    "just drag and drop"
+   ],
+   [
+    13.86,
+    14.5,
+    "across your"
+   ],
+   [
+    14.5,
+    15.86,
+    "entire desktop,"
+   ],
+   [
+    15.86,
+    16.68,
+    "and it will get"
+   ],
+   [
+    16.68,
+    17.66,
+    "the context out of"
+   ],
+   [
+    17.66,
+    18.96,
+    "the application that it's"
+   ],
+   [
+    18.96,
+    19.98,
+    "sitting on top of."
+   ],
+   [
+    19.98,
+    20.72,
+    "Now, follow for more"
+   ],
+   [
+    20.72,
+    21.12,
+    "AI news,"
+   ],
+   [
+    21.12,
+    22.16,
+    "videos, and tutorials each"
+   ],
+   [
+    22.16,
+    23.14,
+    "and every single day,"
+   ],
+   [
+    23.14,
+    23.5,
+    "and catch you in"
+   ],
+   [
+    23.5,
+    23.96,
+    "the next one."
+   ]
+  ]
+ },
+ "seams": [
+  5.34,
+  11.98,
+  15.86
+ ],
+ "phone_at": [
+  "3.2:0.2014,0.1406,0.7986,0.3750:open laptop computer",
+  "5.82:0.3229,0.2773,0.6771,0.4004:cardboard shipping box"
+ ]
+}

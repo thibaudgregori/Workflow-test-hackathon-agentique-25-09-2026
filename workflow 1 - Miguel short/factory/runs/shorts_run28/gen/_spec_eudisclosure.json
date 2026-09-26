@@ -1,0 +1,71 @@
+{
+ "run": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28",
+ "out_dir": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/output",
+ "jobs": [
+  {
+   "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/projects/eudisclosure_split",
+   "vid": "eudisclosure",
+   "fmt": "split",
+   "quality": "high",
+   "stage": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/staging/youtube/eudisclosure_split.mp4",
+   "qc_args": [
+    "--voice-master",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/cuts/eudisclosure/audio.m4a",
+    "--phone-at",
+    "1.6:0.3667,0.1859,0.6333,0.363:European Union flag",
+    "--phone-at",
+    "11.05:0.3981,0.1969,0.6019,0.2917:AI rubber stamp",
+    "--phone-at",
+    "13.6:0.1278,0.1938,0.8722,0.3604:two stamped Polaroids",
+    "--phone-at",
+    "23.28:0.1278,0.1938,0.3778,0.3604:stamped Polaroid photo"
+   ]
+  },
+  {
+   "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/projects/eudisclosure_whiteboard",
+   "vid": "eudisclosure",
+   "fmt": "whiteboard",
+   "quality": "high",
+   "stage": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/staging/reels/eudisclosure_whiteboard.mp4",
+   "qc_args": [
+    "--voice-master",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/cuts/eudisclosure/audio.m4a",
+    "--phone-at",
+    "1.6:0.3667,0.1859,0.6333,0.363:European Union flag",
+    "--phone-at",
+    "11.05:0.3981,0.1938,0.6019,0.2917:AI rubber stamp",
+    "--phone-at",
+    "13.6:0.1278,0.1938,0.8722,0.3604:two stamped Polaroids",
+    "--phone-at",
+    "23.28:0.1278,0.1938,0.3778,0.3604:stamped Polaroid photo",
+    "--seams",
+    "3.96,7.16,13.98"
+   ]
+  },
+  {
+   "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/projects/eudisclosure_cutout",
+   "vid": "eudisclosure",
+   "fmt": "cutout",
+   "quality": "high",
+   "stage": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/staging/tiktok/eudisclosure_cutout.mp4",
+   "qc_args": [
+    "--voice-master",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/cuts/eudisclosure/audio.m4a",
+    "--phone-at",
+    "1.6:0.3667,0.1859,0.6333,0.363:European Union flag",
+    "--phone-at",
+    "11.05:0.3981,0.1969,0.6019,0.2917:AI rubber stamp",
+    "--phone-at",
+    "13.6:0.1278,0.1938,0.8722,0.3604:two stamped Polaroids",
+    "--phone-at",
+    "23.28:0.1278,0.1938,0.3778,0.3604:stamped Polaroid photo",
+    "--alpha",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/matting/eudisclosure/matte_eudisclosure_v5_alpha.webm",
+    "--edge-box",
+    "1584x990+-202+930",
+    "--plate",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/matting/eudisclosure/plate_display_1584x990.mp4"
+   ]
+  }
+ ]
+}

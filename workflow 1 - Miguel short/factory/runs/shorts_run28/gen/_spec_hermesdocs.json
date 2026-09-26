@@ -1,0 +1,65 @@
+{
+ "run": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28",
+ "out_dir": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/output",
+ "jobs": [
+  {
+   "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/projects/hermesdocs_split",
+   "vid": "hermesdocs",
+   "fmt": "split",
+   "quality": "high",
+   "stage": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/staging/youtube/hermesdocs_split.mp4",
+   "qc_args": [
+    "--voice-master",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/cuts/hermesdocs/audio.m4a",
+    "--phone-at",
+    "1.6:0.3444,0.1833,0.6556,0.351:locked steel safe",
+    "--phone-at",
+    "8.6:0.3519,0.1771,0.7074,0.351:open safe documents",
+    "--phone-at",
+    "21.5:0.3889,0.1677,0.6111,0.3083:scanned PDF page"
+   ]
+  },
+  {
+   "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/projects/hermesdocs_whiteboard",
+   "vid": "hermesdocs",
+   "fmt": "whiteboard",
+   "quality": "high",
+   "stage": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/staging/reels/hermesdocs_whiteboard.mp4",
+   "qc_args": [
+    "--voice-master",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/cuts/hermesdocs/audio.m4a",
+    "--phone-at",
+    "2.0:0.3351,0.1855,0.6754,0.3398:locked steel safe",
+    "--phone-at",
+    "8.6:0.3351,0.1846,0.7309,0.3398:open safe documents",
+    "--phone-at",
+    "21.5:0.3681,0.166,0.6319,0.3184:scanned PDF page",
+    "--seams",
+    "16.88"
+   ]
+  },
+  {
+   "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/projects/hermesdocs_cutout",
+   "vid": "hermesdocs",
+   "fmt": "cutout",
+   "quality": "high",
+   "stage": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/staging/tiktok/hermesdocs_cutout.mp4",
+   "qc_args": [
+    "--voice-master",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/cuts/hermesdocs/audio.m4a",
+    "--phone-at",
+    "1.6:0.3444,0.1833,0.6556,0.351:locked steel safe",
+    "--phone-at",
+    "8.6:0.3519,0.1771,0.7074,0.351:open safe documents",
+    "--phone-at",
+    "21.5:0.3889,0.1677,0.6111,0.3083:scanned PDF page",
+    "--alpha",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/matting/hermesdocs/matte_hermesdocs_v5_alpha.webm",
+    "--edge-box",
+    "1386x990+-153+930",
+    "--plate",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/matting/hermesdocs/plate_display_1386x990.mp4"
+   ]
+  }
+ ]
+}

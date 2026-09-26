@@ -1,0 +1,452 @@
+{
+ "video": "eudisclosure",
+ "format": "whiteboard",
+ "variant": "plan view (fix)",
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/projects/eudisclosure_whiteboard",
+ "handle": "@migueltorrez.ai",
+ "handle_key": "tiktok_ig",
+ "duration_s": 27.64,
+ "fps": 25,
+ "render": "1080x1920 @ zoom 1",
+ "board": "576x460 design units",
+ "board_box": [
+  40.0,
+  150.0,
+  536.0,
+  425.0
+ ],
+ "strokes": 57,
+ "rigids": 33,
+ "board_text": [
+  "DISCLOSE",
+  "EUROPE",
+  "CHATBOT",
+  "AI",
+  "CONTENT",
+  "AI",
+  "AI GENERATED",
+  "AI MODIFIED",
+  "REAL IMAGE",
+  "SCREENSHOT",
+  "AI MODIFIED",
+  "AI MODIFIED"
+ ],
+ "top_ink_u": 146.0,
+ "top_band_u": 102.4,
+ "pen_top_u": 110.7,
+ "ink_bottom_px": 759.6,
+ "cap_band_top_px": 799.2,
+ "cap_clearance_px": 39.6,
+ "ink_bottom_ink_px": 749.5,
+ "cap_clearance_ink_px": 49.7,
+ "seam_pill_top_px": 805.2,
+ "cap_clearance_ink_to_pill_px": 55.7,
+ "seam_measures": "cap_clearance_px = line boxes vs the reserved band (THE GATE); cap_clearance_ink_px = glyph ink vs the same band; cap_clearance_ink_to_pill_px = glyph ink vs the pill's painted top edge (the clerk's surface)",
+ "rail_hits": [],
+ "label_law": {
+  "window_s": 1.0,
+  "key_term": "DISCLOSE",
+  "key_term_fs_u": 25.6,
+  "written": {
+   "DISCLOSE": 1.38,
+   "EUROPE": 1.61,
+   "CHATBOT": 4.36,
+   "CHATBOT@l": 5.32,
+   "CONTENT": 5.9,
+   "AI": 6.32,
+   "AI GENERATED": 11.52,
+   "REAL IMAGE": 15.4,
+   "REAL IMAGE@l": 16.52,
+   "SCREENSHOT": 16.78,
+   "AI MODIFIED": 23.12
+  },
+  "plan": {
+   "disclose": "DISCLOSE",
+   "europe": "EUROPE",
+   "chatbot": "CHATBOT",
+   "content": "CONTENT",
+   "aigen": "AI GENERATED",
+   "image2": "REAL IMAGE",
+   "screenshot": "SCREENSHOT"
+  },
+  "comparisons": [],
+  "unplanned_text": [],
+  "verdict": "PASS"
+ },
+ "law4": {
+  "law": "4 (overlap test)",
+  "board_words_that_also_appear_as_a_pill": {}
+ },
+ "round4": {
+  "law6_lifetimes": {
+   "duration_s": 27.64,
+   "chaptered": true,
+   "max_frac": 0.4,
+   "declared_anchors": [
+    "type:DISCLOSE"
+   ],
+   "lingering": [],
+   "verdict": "PASS"
+  },
+  "law2_no_enclosure": {
+   "rings": 0,
+   "boxes": 0,
+   "highlights": 0,
+   "rasters": [
+    "screenshot-window",
+    "type:SCREENSHOT"
+   ],
+   "wrong_tool_advisory": [],
+   "verdict": "PASS"
+  },
+  "law3_label_side": {
+   "checked": 7,
+   "detail": {
+    "DISCLOSE": {
+     "host": "eu-flag",
+     "dx_u": 0.0,
+     "band_u": 103.4,
+     "place": "above"
+    },
+    "EUROPE": {
+     "host": "eu-flag",
+     "dx_u": 0.0,
+     "band_u": 103.4,
+     "place": "below"
+    },
+    "CHATBOT": {
+     "host": "chat-bubble-c",
+     "dx_u": 0.0,
+     "band_u": 85.8,
+     "place": "below"
+    },
+    "CONTENT": {
+     "host": "text-page",
+     "dx_u": 0.0,
+     "band_u": 70.2,
+     "place": "below"
+    },
+    "AI GENERATED": "unwelded",
+    "REAL IMAGE": {
+     "host": "polaroid-real-c",
+     "dx_u": 0.0,
+     "band_u": 92.3,
+     "place": "below"
+    },
+    "SCREENSHOT": {
+     "host": "screenshot-window",
+     "dx_u": 0.0,
+     "band_u": 92.3,
+     "place": "below"
+    }
+   },
+   "verdict": "PASS"
+  },
+  "law5_spacing": {
+   "gate_u": 8.5,
+   "gate_px": 15.9,
+   "aim_u": 12.8,
+   "aim_px": 24.0,
+   "measured_on": "element line boxes",
+   "under_aim": [],
+   "objects": 33,
+   "verdict": "PASS"
+  },
+  "law5_spacing_ink": {
+   "gate_u": 8.5,
+   "gate_px": 15.9,
+   "aim_u": 12.8,
+   "aim_px": 24.0,
+   "measured_on": "glyph ink extents",
+   "under_aim": [],
+   "objects": 33,
+   "verdict": "PASS"
+  },
+  "law5_no_crossing": {
+   "strokes": 57,
+   "types": 12,
+   "verdict": "PASS"
+  },
+  "law4_anchors": {
+   "targets": 0,
+   "verdict": "SKIP \u2014 no connectors declared"
+  }
+ },
+ "outro": {
+  "move": "opaque sheet rises over the board",
+  "wipe_start": 23.32,
+  "wipe_end": 23.88,
+  "travel_px": 862.5,
+  "sheet_opaque": true,
+  "sheet_covers_px": 862.5,
+  "card_ink_enters_px": 322.5,
+  "board_covered_px": 588.8,
+  "overlap_px": 266.2,
+  "board_moves": false,
+  "board_fades": false,
+  "outro_start": 23.32,
+  "verdict": "PASS"
+ },
+ "captions": 30,
+ "cap_font_px": 56.2,
+ "cap_max_pill_w_px": 748.4,
+ "cap_w_budget_px": 756.0,
+ "anchors": {
+  "start": 0.1,
+  "europe": 0.64,
+  "disclose": 1.48,
+  "chatbot": 3.96,
+  "ai1": 4.98,
+  "generated1": 5.2,
+  "content": 5.66,
+  "and": 6.26,
+  "ai2": 7.16,
+  "images": 7.92,
+  "because": 9.74,
+  "say": 10.36,
+  "image": 10.94,
+  "aigen": 11.46,
+  "aimod": 12.8,
+  "so": 13.98,
+  "real": 14.94,
+  "image2": 15.38,
+  "real2": 16.18,
+  "screenshot": 16.46,
+  "color": 20.3,
+  "lighting": 20.9,
+  "you": 21.62,
+  "disclose2": 22.64,
+  "that": 23.1,
+  "outro": 23.32,
+  "news": 24.32
+ },
+ "html_bytes": 152615,
+ "sfx": 20,
+ "pen_loops": 4,
+ "pen_seconds": 1.52,
+ "pen_duty_pct": 5.5,
+ "captions_law3b": {
+  "beats_before_merge": 30,
+  "beats_after_merge": 30,
+  "merges": 0,
+  "law4_glue": 1,
+  "merged_away": [
+   "is AI generated or",
+   "AI modified."
+  ],
+  "widest_pill_px": 748.4,
+  "budget_px": 756.0,
+  "beats": [
+   [
+    0.1,
+    0.64,
+    "If you live in"
+   ],
+   [
+    0.64,
+    1.36,
+    "Europe, now you have"
+   ],
+   [
+    1.36,
+    1.94,
+    "to disclose"
+   ],
+   [
+    1.94,
+    2.42,
+    "whenever you're"
+   ],
+   [
+    2.42,
+    3.26,
+    "using AI,"
+   ],
+   [
+    3.26,
+    4.64,
+    "whether it's a chatbot"
+   ],
+   [
+    4.64,
+    6.26,
+    "or AI generated content."
+   ],
+   [
+    6.26,
+    6.88,
+    "And in the case"
+   ],
+   [
+    6.88,
+    8.5,
+    "of AI generated images,"
+   ],
+   [
+    8.5,
+    9.74,
+    "it's even more complex"
+   ],
+   [
+    9.74,
+    10.36,
+    "because you have to"
+   ],
+   [
+    10.36,
+    11.24,
+    "say whether an image"
+   ],
+   [
+    11.24,
+    12.52,
+    "is AI generated"
+   ],
+   [
+    12.52,
+    13.98,
+    "or AI modified."
+   ],
+   [
+    13.98,
+    14.66,
+    "So if you took"
+   ],
+   [
+    14.66,
+    16.06,
+    "a real image or"
+   ],
+   [
+    16.06,
+    16.94,
+    "a real screenshot,"
+   ],
+   [
+    16.94,
+    17.7,
+    "and then you use"
+   ],
+   [
+    17.7,
+    18.86,
+    "AI to even do"
+   ],
+   [
+    18.86,
+    19.98,
+    "slight modifications"
+   ],
+   [
+    19.98,
+    20.72,
+    "to color"
+   ],
+   [
+    20.72,
+    21.62,
+    "or lighting,"
+   ],
+   [
+    21.62,
+    22.64,
+    "you also have to"
+   ],
+   [
+    22.64,
+    23.32,
+    "disclose that."
+   ],
+   [
+    23.32,
+    24.04,
+    "Now follow for more"
+   ],
+   [
+    24.04,
+    24.72,
+    "AI news,"
+   ],
+   [
+    24.72,
+    25.8,
+    "videos, and tutorials each"
+   ],
+   [
+    25.8,
+    26.66,
+    "and every single day,"
+   ],
+   [
+    26.66,
+    27.06,
+    "and catch you in"
+   ],
+   [
+    27.06,
+    27.54,
+    "the next one."
+   ]
+  ],
+  "law": "captions.py 3b \u2014 merge_function_only_beats over the WHOLE beat stream, then assert_no_function_only_beat inside build()"
+ },
+ "seam_law": {
+  "plan_mode": "chapters",
+  "chapters": 4,
+  "seams": [
+   3.96,
+   7.16,
+   13.98
+  ],
+  "erase_s": [
+   0.22,
+   0.22,
+   0.22
+  ],
+  "qc_seams": "3.96,7.16,13.98",
+  "handover": "DISCLOSE (the key term) is on the board across every seam; the incoming object starts inside or right after each erase (bubble 3.98, Polaroid 7.18, real Polaroid 14.40)",
+  "outro_wipe": 23.32
+ },
+ "phone_at": [
+  {
+   "t": 1.6,
+   "bbox_norm": [
+    0.3667,
+    0.1859,
+    0.6333,
+    0.363
+   ],
+   "name": "European Union flag"
+  },
+  {
+   "t": 11.05,
+   "bbox_norm": [
+    0.3981,
+    0.1938,
+    0.6019,
+    0.2917
+   ],
+   "name": "AI rubber stamp"
+  },
+  {
+   "t": 13.6,
+   "bbox_norm": [
+    0.1278,
+    0.1938,
+    0.8722,
+    0.3604
+   ],
+   "name": "two stamped Polaroids"
+  },
+  {
+   "t": 23.28,
+   "bbox_norm": [
+    0.1278,
+    0.1938,
+    0.3778,
+    0.3604
+   ],
+   "name": "stamped Polaroid photo"
+  }
+ ]
+}

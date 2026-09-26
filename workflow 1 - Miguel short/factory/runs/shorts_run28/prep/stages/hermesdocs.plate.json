@@ -1,0 +1,19 @@
+{
+ "id": "hermesdocs",
+ "stage": "plate",
+ "status": "ok",
+ "wall_s": 125.5,
+ "at": "2026-09-23T20:34:18",
+ "keys": {
+  "status": "ok",
+  "plate": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/matting/hermesdocs/plate_wide_25.mp4",
+  "crop": "2632x1880+578+240",
+  "scale_k": 0.478723,
+  "head_px_on_canvas": 449.9,
+  "overwide_applied": true,
+  "face_dx_pct": -0.01,
+  "visible_window_drift_master_px": 0.0,
+  "plate_json": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/matting/hermesdocs/plate.json",
+  "wall_s": 125.5
+ }
+}

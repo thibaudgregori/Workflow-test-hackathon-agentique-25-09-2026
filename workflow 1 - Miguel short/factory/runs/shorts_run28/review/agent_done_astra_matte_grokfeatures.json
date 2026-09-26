@@ -1,0 +1,14 @@
+{
+  "status": "ok",
+  "ship": "ok",
+  "selection_changed": false,
+  "edits": 0,
+  "rounds": 1,
+  "what_you_saw": "Viewed the clean first frame and both selection overlays: the outline includes the cap, ears, face, neck, shoulders and visible hands while excluding the chair back and headrest, so it was approved unchanged. Viewed all four shipped-matte sheets. Playback looks clean at phone size, with an opaque person and intact gestures. On face_2x, traced both sides from cap brim through the cap-to-temple junctions, temples, ear tops, ears and jaw against the source, including first and last frames; no source-missing notch, bite or flat cut was visible. Chair_sides shows no chair slab, grey wedge or neck splash, including the late samples at 33.8 and 34 seconds. Hands shows intact palms and fingers with normal soft motion blur on fast gestures, which passes. No viewer-visible defect was found in the reviewed samples. All 869 frames shipped, and all three output SHA256 hashes match ship_v5.json.",
+  "hold_reason": "",
+  "outputs": [
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/matting/grokfeatures/matte_grokfeatures_v5_cut.webm",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/matting/grokfeatures/matte_grokfeatures_v5_rim.webm",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/matting/grokfeatures/matte_grokfeatures_v5_alpha.webm"
+  ]
+}

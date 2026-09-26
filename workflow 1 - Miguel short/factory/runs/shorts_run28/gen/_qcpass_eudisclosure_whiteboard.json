@@ -1,0 +1,1289 @@
+{
+ "render": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/output/eudisclosure_whiteboard.mp4",
+ "vid": "eudisclosure",
+ "fmt": "whiteboard",
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/projects/eudisclosure_whiteboard",
+ "checks": {
+  "decoded_blank_frames": {
+   "ok": true,
+   "result": {
+    "frames": 691,
+    "fps": 25.0,
+    "zone": [
+     0,
+     799,
+     1080,
+     799
+    ],
+    "ink_floor": 0.0006,
+    "min_ink_frac": 0.0,
+    "empty_frames_total": 5,
+    "leading_trailing_empty": 5,
+    "interior_blank_frames": [],
+    "pass": true
+   },
+   "wall_s": 0.0
+  },
+  "zero_ink_law": {
+   "ok": true,
+   "result": {
+    "render": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/output/eudisclosure_whiteboard.mp4",
+    "frames": 691,
+    "fps": 25.0,
+    "zone_bottom_design_px": 799.205,
+    "zone_px": [
+     1080,
+     799
+    ],
+    "first_word_s": 0.1,
+    "leading_empty_frames": 5,
+    "first_judged_frame": 5,
+    "min_ink_frac_judged": 0.00204654,
+    "min_ink_frac_at_s": 0.2,
+    "blank_frames": [],
+    "verdict": "PASS"
+   },
+   "wall_s": 0.0
+  },
+  "clip_coverage_page": {
+   "ok": true,
+   "result": {
+    "duration_s": 27.64,
+    "fps": 25,
+    "groups": {
+     "stage": {
+      "clips": 0,
+      "checked": false,
+      "note": "fewer than two clips \u2014 nothing can hand over"
+     },
+     "tz": {
+      "clips": 1,
+      "checked": false,
+      "note": "fewer than two clips \u2014 nothing can hand over"
+     },
+     "scap": {
+      "clips": 30,
+      "checked": true,
+      "frames": 691,
+      "span": [
+       0.08,
+       27.5
+      ],
+      "holes": [],
+      "ghosts": [],
+      "pass": true
+     }
+    },
+    "holes": 0,
+    "ghosts": 0,
+    "pass": true
+   },
+   "wall_s": 0.0
+  },
+  "double_exposure": {
+   "ok": true,
+   "result": {
+    "frames": 691,
+    "fps": 25.0,
+    "first_word_s": 0.1,
+    "leading_blank_run_frames": 5,
+    "after_first_word": {
+     "from_frame": 3,
+     "from_t": 0.12,
+     "basis": "first spoken word",
+     "min_ink": 0,
+     "min_ink_t": 0.12,
+     "min_ink40": 0,
+     "min_ink40_t": 0.12,
+     "zero_ink_frames": [
+      0.12,
+      0.16
+     ],
+     "zero_ink40_frames": [
+      0.12,
+      0.16
+     ]
+    },
+    "after_leading_run": {
+     "from_frame": 5,
+     "from_t": 0.2,
+     "basis": "opening fade-up cleared",
+     "min_ink": 280,
+     "min_ink_t": 0.2,
+     "min_ink40": 247,
+     "min_ink40_t": 0.2,
+     "zero_ink_frames": [],
+     "zero_ink40_frames": []
+    },
+    "after_first_readable_ink": {
+     "from_frame": 5,
+     "from_t": 0.2,
+     "basis": "first READABLE ink on screen",
+     "min_ink": 280,
+     "min_ink_t": 0.2,
+     "min_ink40": 247,
+     "min_ink40_t": 0.2,
+     "zero_ink_frames": [],
+     "zero_ink40_frames": []
+    },
+    "double_exposure_floor_px": 600,
+    "double_exposure_frames": [
+     {
+      "t": 16.28,
+      "outgoing_px": 1185,
+      "incoming_px": 718
+     },
+     {
+      "t": 16.32,
+      "outgoing_px": 861,
+      "incoming_px": 1109
+     }
+    ],
+    "double_exposure_count": 2,
+    "note": "candidates, not a verdict \u2014 adjudicate each window (procedure v3); the opening fade-up legitimately fires"
+   },
+   "wall_s": 0.05
+  },
+  "face_centring": {
+   "ok": true,
+   "result": {
+    "label": "eudisclosure_whiteboard",
+    "video": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/output/eudisclosure_whiteboard.mp4",
+    "duration_s": 27.66,
+    "detector": "mediapipe/blazeface",
+    "segment_source": "auto:layout-detector",
+    "segments": null,
+    "every_s": 0.5,
+    "tol_pct": 4.0,
+    "band_level": "warning",
+    "full_face": {
+     "n": 0,
+     "worst_dx_pct": null,
+     "worst_t": null,
+     "mean_abs_dx_pct": null,
+     "offenders": []
+    },
+    "band": {
+     "n": 55,
+     "worst_dx_pct": 2.31,
+     "worst_t": 6.5,
+     "warnings": []
+    },
+    "pass": true,
+    "verdict": "PASS"
+   },
+   "wall_s": 0.88
+  },
+  "pill_canon_rendered": {
+   "ok": true,
+   "result": {
+    "samples": 60,
+    "band_rows_px": [
+     772,
+     952
+    ],
+    "frames_without_a_pill": 0,
+    "distinct_heights_px": {
+     "114": 60
+    },
+    "modal_height_px": 114,
+    "modal_height_design_px": 114.0,
+    "spread_px": 0,
+    "spread_max_px": 2.0,
+    "canonical_height_px": 114.59,
+    "canonical_height_design_px": 114.59,
+    "modal_vs_canon_px": 0.59,
+    "tolerance_px": 3.0,
+    "delivery_scale": 1.0,
+    "widest_pill_px": 748,
+    "widest_pill_in_design_px": 748.0,
+    "verdict": "PASS",
+    "pass": true
+   },
+   "wall_s": 0.0
+  },
+  "gate1_geometry_audit": {
+   "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/geometry_audit.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/projects/eudisclosure_whiteboard --step 0.25 --out /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/gen/_gate1_eudisclosure_whiteboard.json",
+   "rc": 0,
+   "stdout": "eudisclosure_whiteboard: 0 errors, 0 warnings (27.6s @ 0.25s step)\n",
+   "stderr": "",
+   "wall_s": 2.32
+  },
+  "gate2_frame_review": {
+   "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/qc/gate2_frames.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/output/eudisclosure_whiteboard.mp4 --full --transcript /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/cuts/eudisclosure/transcript_tight.json",
+   "rc": 0,
+   "stdout": "e_whiteboard/f_0016_666.jpg\n  t=00:17.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/output/frames_eudisclosure_whiteboard/f_0017_000.jpg\n  t=00:18.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/output/frames_eudisclosure_whiteboard/f_0018_000.jpg\n  t=00:18.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/output/frames_eudisclosure_whiteboard/f_0018_666.jpg\n  t=00:19.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/output/frames_eudisclosure_whiteboard/f_0019_000.jpg\n  t=00:19.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/output/frames_eudisclosure_whiteboard/f_0019_333.jpg\n  t=00:20.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/output/frames_eudisclosure_whiteboard/f_0020_000.jpg\n  t=00:20.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/output/frames_eudisclosure_whiteboard/f_0020_333.jpg\n  t=00:20.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/output/frames_eudisclosure_whiteboard/f_0020_666.jpg\n  t=00:21.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/output/frames_eudisclosure_whiteboard/f_0021_000.jpg\n  t=00:21.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/output/frames_eudisclosure_whiteboard/f_0021_666.jpg\n  t=00:22.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/output/frames_eudisclosure_whiteboard/f_0022_000.jpg\n  t=00:22.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/output/frames_eudisclosure_whiteboard/f_0022_666.jpg\n  t=00:23.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/output/frames_eudisclosure_whiteboard/f_0023_333.jpg\n  t=00:23.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/output/frames_eudisclosure_whiteboard/f_0023_666.jpg\n  t=00:24.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/output/frames_eudisclosure_whiteboard/f_0024_000.jpg\n  t=00:24.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/output/frames_eudisclosure_whiteboard/f_0024_333.jpg\n  t=00:24.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/output/frames_eudisclosure_whiteboard/f_0024_666.jpg\n  t=00:25.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/output/frames_eudisclosure_whiteboard/f_0025_000.jpg\n  t=00:25.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/output/frames_eudisclosure_whiteboard/f_0025_333.jpg\n  t=00:25.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/output/frames_eudisclosure_whiteboard/f_0025_666.jpg\n  t=00:26.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/output/frames_eudisclosure_whiteboard/f_0026_333.jpg\n  t=00:26.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/output/frames_eudisclosure_whiteboard/f_0026_666.jpg\n  t=00:27.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/output/frames_eudisclosure_whiteboard/f_0027_000.jpg\n  t=00:27.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/output/frames_eudisclosure_whiteboard/f_0027_333.jpg\n\nManifest: /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/output/frames_eudisclosure_whiteboard/manifest.md  (delete dir after review)\n",
+   "stderr": "",
+   "wall_s": 1.43
+  },
+  "audio_guards": {
+   "ok": true,
+   "result": {
+    "mix_8_16k_db": -29.51,
+    "master_8_16k_db": -29.27,
+    "delta_db": -0.24,
+    "tolerance_db": 6.0,
+    "speech_margin_db_p85_p15_33ms_s16le": 19.461,
+    "sync": {
+     "lag_ms": 0,
+     "r": 0.9966,
+     "instrument": "10 ms |x| envelope, +/-250 ms search"
+    },
+    "audio_initial_padding_samples": 0,
+    "verdict": "PASS",
+    "pass": true
+   },
+   "wall_s": 0.98
+  },
+  "contact_sheet": {
+   "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/contact_sheet.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/output/eudisclosure_whiteboard.mp4 --id eudisclosure --fmt whiteboard --run /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28",
+   "rc": 0,
+   "stdout": "{\n \"sheet\": \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/sheet_eudisclosure_whiteboard.png\",\n \"id\": \"eudisclosure\",\n \"fmt\": \"whiteboard\",\n \"duration_s\": 27.66,\n \"frame_source\": \"even\",\n \"times\": [\n  1.15,\n  3.46,\n  5.76,\n  8.07,\n  10.37,\n  12.68,\n  14.98,\n  17.29,\n  19.59,\n  21.9,\n  24.2,\n  26.51\n ],\n \"size_px\": [\n  1798,\n  4344\n ]\n}\n",
+   "stderr": "",
+   "wall_s": 2.8
+  },
+  "phone_crops": {
+   "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/phone_crops.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/output/eudisclosure_whiteboard.mp4 --out /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review --label eudisclosure_whiteboard --at 1.6:0.3667,0.1859,0.6333,0.363:European Union flag --at 11.05:0.3981,0.1938,0.6019,0.2917:AI rubber stamp --at 13.6:0.1278,0.1938,0.8722,0.3604:two stamped Polaroids --at 23.28:0.1278,0.1938,0.3778,0.3604:stamped Polaroid photo",
+   "rc": 0,
+   "stdout": "{\n \"sheet\": \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/phone_eudisclosure_whiteboard.png\",\n \"manifest\": \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/phone_eudisclosure_whiteboard.json\",\n \"answer_key\": \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/phone_eudisclosure_whiteboard.key.json\",\n \"n_objects\": 4,\n \"phone_sizes_px\": [\n  [\n   108,\n   128\n  ],\n  [\n   82,\n   71\n  ],\n  [\n   302,\n   120\n  ],\n  [\n   102,\n   120\n  ]\n ]\n}\n",
+   "stderr": "",
+   "wall_s": 0.98
+  },
+  "whiteboard_seam_law": {
+   "ok": true,
+   "result": {
+    "video": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/output/eudisclosure_whiteboard.mp4",
+    "erase_dur": 0.3,
+    "land_within": 0.3,
+    "scan_s": 1.6,
+    "thresholds": {
+     "ink_thr": 170,
+     "dilate_px": 9,
+     "min_minor_px": 46,
+     "min_major_px": 118,
+     "min_ink_px": 2600,
+     "min_sigma_px": 18.0,
+     "word": [
+      26,
+      80,
+      80,
+      900,
+      3
+     ],
+     "pen_match_min": 0.62,
+     "pen_bleed": 6,
+     "persist_frames": 3
+    },
+    "seams": [
+     {
+      "erase_at": 3.96,
+      "erase_completes": 4.26,
+      "law_probe_at": 4.58,
+      "dead_s": 0.0,
+      "dead_capped": false,
+      "at_law_probe": {
+       "t": 4.58,
+       "ink_pct_of_zone": 1.42,
+       "qualifying": 3,
+       "landed_on": {
+        "box": [
+         403,
+         372,
+         275,
+         242
+        ],
+        "ink": 7015,
+        "sigma_minor": 74.4,
+        "parts": 1,
+        "kind": "object",
+        "qualifies": true
+       },
+       "verdict": "PASS"
+      },
+      "blobs_at_law_probe": [
+       {
+        "box": [
+         403,
+         372,
+         275,
+         242
+        ],
+        "ink": 7015,
+        "sigma_minor": 74.4,
+        "parts": 1,
+        "kind": "object",
+        "qualifies": true
+       },
+       {
+        "box": [
+         419,
+         282,
+         242,
+         55
+        ],
+        "ink": 3430,
+        "sigma_minor": 11.2,
+        "parts": 8,
+        "kind": "word",
+        "qualifies": true
+       },
+       {
+        "box": [
+         474,
+         642,
+         127,
+         39
+        ],
+        "ink": 999,
+        "sigma_minor": 6.1,
+        "parts": 7,
+        "kind": "word",
+        "qualifies": true
+       },
+       {
+        "box": [
+         487,
+         423,
+         106,
+         38
+        ],
+        "ink": 747,
+        "sigma_minor": 5.3,
+        "parts": 3,
+        "kind": "-",
+        "qualifies": false
+       }
+      ],
+      "verdict": "PASS",
+      "window": [
+       {
+        "t": 4.26,
+        "ink_pct_of_zone": 1.184,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 4.3,
+        "ink_pct_of_zone": 1.184,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 4.34,
+        "ink_pct_of_zone": 1.211,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 4.38,
+        "ink_pct_of_zone": 1.251,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 4.42,
+        "ink_pct_of_zone": 1.314,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 4.46,
+        "ink_pct_of_zone": 1.339,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 4.5,
+        "ink_pct_of_zone": 1.364,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 4.54,
+        "ink_pct_of_zone": 1.389,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 4.58,
+        "ink_pct_of_zone": 1.42,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 4.62,
+        "ink_pct_of_zone": 1.438,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 4.66,
+        "ink_pct_of_zone": 1.438,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 4.7,
+        "ink_pct_of_zone": 1.438,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 4.74,
+        "ink_pct_of_zone": 1.438,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 4.78,
+        "ink_pct_of_zone": 1.438,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 4.82,
+        "ink_pct_of_zone": 1.438,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 4.86,
+        "ink_pct_of_zone": 1.438,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 4.9,
+        "ink_pct_of_zone": 1.438,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 4.94,
+        "ink_pct_of_zone": 1.438,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 4.98,
+        "ink_pct_of_zone": 1.437,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 5.02,
+        "ink_pct_of_zone": 1.438,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 5.06,
+        "ink_pct_of_zone": 1.436,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 5.1,
+        "ink_pct_of_zone": 1.514,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 5.14,
+        "ink_pct_of_zone": 1.642,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 5.18,
+        "ink_pct_of_zone": 1.778,
+        "qualifying": 4,
+        "verdict": "PASS"
+       },
+       {
+        "t": 5.22,
+        "ink_pct_of_zone": 1.96,
+        "qualifying": 4,
+        "verdict": "PASS"
+       },
+       {
+        "t": 5.26,
+        "ink_pct_of_zone": 2.125,
+        "qualifying": 4,
+        "verdict": "PASS"
+       },
+       {
+        "t": 5.3,
+        "ink_pct_of_zone": 2.259,
+        "qualifying": 4,
+        "verdict": "PASS"
+       },
+       {
+        "t": 5.34,
+        "ink_pct_of_zone": 2.299,
+        "qualifying": 4,
+        "verdict": "PASS"
+       },
+       {
+        "t": 5.38,
+        "ink_pct_of_zone": 2.305,
+        "qualifying": 4,
+        "verdict": "PASS"
+       },
+       {
+        "t": 5.42,
+        "ink_pct_of_zone": 2.405,
+        "qualifying": 4,
+        "verdict": "PASS"
+       },
+       {
+        "t": 5.46,
+        "ink_pct_of_zone": 2.453,
+        "qualifying": 4,
+        "verdict": "PASS"
+       },
+       {
+        "t": 5.5,
+        "ink_pct_of_zone": 2.544,
+        "qualifying": 4,
+        "verdict": "PASS"
+       },
+       {
+        "t": 5.54,
+        "ink_pct_of_zone": 2.567,
+        "qualifying": 4,
+        "verdict": "PASS"
+       },
+       {
+        "t": 5.58,
+        "ink_pct_of_zone": 2.581,
+        "qualifying": 4,
+        "verdict": "PASS"
+       },
+       {
+        "t": 5.62,
+        "ink_pct_of_zone": 2.74,
+        "qualifying": 4,
+        "verdict": "PASS"
+       },
+       {
+        "t": 5.66,
+        "ink_pct_of_zone": 2.827,
+        "qualifying": 5,
+        "verdict": "PASS"
+       },
+       {
+        "t": 5.7,
+        "ink_pct_of_zone": 3.001,
+        "qualifying": 5,
+        "verdict": "PASS"
+       },
+       {
+        "t": 5.74,
+        "ink_pct_of_zone": 3.009,
+        "qualifying": 5,
+        "verdict": "PASS"
+       },
+       {
+        "t": 5.78,
+        "ink_pct_of_zone": 3.089,
+        "qualifying": 5,
+        "verdict": "PASS"
+       },
+       {
+        "t": 5.82,
+        "ink_pct_of_zone": 3.148,
+        "qualifying": 6,
+        "verdict": "PASS"
+       },
+       {
+        "t": 5.86,
+        "ink_pct_of_zone": 3.2,
+        "qualifying": 6,
+        "verdict": "PASS"
+       }
+      ]
+     },
+     {
+      "erase_at": 7.16,
+      "erase_completes": 7.46,
+      "law_probe_at": 7.78,
+      "dead_s": 0.0,
+      "dead_capped": false,
+      "at_law_probe": {
+       "t": 7.78,
+       "ink_pct_of_zone": 2.347,
+       "qualifying": 2,
+       "landed_on": {
+        "box": [
+         393,
+         347,
+         294,
+         361
+        ],
+        "ink": 15976,
+        "sigma_minor": 100.4,
+        "parts": 3,
+        "kind": "object",
+        "qualifies": true
+       },
+       "verdict": "PASS"
+      },
+      "blobs_at_law_probe": [
+       {
+        "box": [
+         393,
+         347,
+         294,
+         361
+        ],
+        "ink": 15976,
+        "sigma_minor": 100.4,
+        "parts": 3,
+        "kind": "object",
+        "qualifies": true
+       },
+       {
+        "box": [
+         419,
+         282,
+         242,
+         55
+        ],
+        "ink": 3430,
+        "sigma_minor": 11.2,
+        "parts": 8,
+        "kind": "word",
+        "qualifies": true
+       },
+       {
+        "box": [
+         573,
+         409,
+         66,
+         66
+        ],
+        "ink": 772,
+        "sigma_minor": 14.6,
+        "parts": 1,
+        "kind": "-",
+        "qualifies": false
+       }
+      ],
+      "verdict": "PASS",
+      "window": [
+       {
+        "t": 7.46,
+        "ink_pct_of_zone": 2.016,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 7.5,
+        "ink_pct_of_zone": 2.016,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 7.54,
+        "ink_pct_of_zone": 2.149,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 7.58,
+        "ink_pct_of_zone": 2.231,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 7.62,
+        "ink_pct_of_zone": 2.219,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 7.66,
+        "ink_pct_of_zone": 2.274,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 7.7,
+        "ink_pct_of_zone": 2.325,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 7.74,
+        "ink_pct_of_zone": 2.33,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 7.78,
+        "ink_pct_of_zone": 2.347,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 7.82,
+        "ink_pct_of_zone": 2.347,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 7.86,
+        "ink_pct_of_zone": 2.347,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 7.9,
+        "ink_pct_of_zone": 2.421,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 7.94,
+        "ink_pct_of_zone": 2.421,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 7.98,
+        "ink_pct_of_zone": 2.421,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 8.02,
+        "ink_pct_of_zone": 2.421,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 8.06,
+        "ink_pct_of_zone": 2.421,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 8.1,
+        "ink_pct_of_zone": 2.421,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 8.14,
+        "ink_pct_of_zone": 2.421,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 8.18,
+        "ink_pct_of_zone": 2.421,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 8.22,
+        "ink_pct_of_zone": 2.421,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 8.26,
+        "ink_pct_of_zone": 2.421,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 8.3,
+        "ink_pct_of_zone": 2.421,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 8.34,
+        "ink_pct_of_zone": 2.421,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 8.38,
+        "ink_pct_of_zone": 2.421,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 8.42,
+        "ink_pct_of_zone": 2.421,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 8.46,
+        "ink_pct_of_zone": 2.421,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 8.5,
+        "ink_pct_of_zone": 2.421,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 8.54,
+        "ink_pct_of_zone": 2.421,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 8.58,
+        "ink_pct_of_zone": 2.421,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 8.62,
+        "ink_pct_of_zone": 2.421,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 8.66,
+        "ink_pct_of_zone": 2.421,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 8.7,
+        "ink_pct_of_zone": 2.421,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 8.74,
+        "ink_pct_of_zone": 2.421,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 8.78,
+        "ink_pct_of_zone": 2.421,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 8.82,
+        "ink_pct_of_zone": 2.421,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 8.86,
+        "ink_pct_of_zone": 2.421,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 8.9,
+        "ink_pct_of_zone": 2.421,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 8.94,
+        "ink_pct_of_zone": 2.421,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 8.98,
+        "ink_pct_of_zone": 2.421,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 9.02,
+        "ink_pct_of_zone": 2.421,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 9.06,
+        "ink_pct_of_zone": 2.421,
+        "qualifying": 2,
+        "verdict": "PASS"
+       }
+      ]
+     },
+     {
+      "erase_at": 13.98,
+      "erase_completes": 14.28,
+      "law_probe_at": 14.6,
+      "dead_s": 0.0,
+      "dead_capped": false,
+      "at_law_probe": {
+       "t": 14.6,
+       "ink_pct_of_zone": 1.335,
+       "qualifying": 2,
+       "landed_on": {
+        "box": [
+         393,
+         361,
+         294,
+         347
+        ],
+        "ink": 8026,
+        "sigma_minor": 101.2,
+        "parts": 1,
+        "kind": "object",
+        "qualifies": true
+       },
+       "verdict": "PASS"
+      },
+      "blobs_at_law_probe": [
+       {
+        "box": [
+         393,
+         361,
+         294,
+         347
+        ],
+        "ink": 8026,
+        "sigma_minor": 101.2,
+        "parts": 1,
+        "kind": "object",
+        "qualifies": true
+       },
+       {
+        "box": [
+         419,
+         282,
+         242,
+         55
+        ],
+        "ink": 3433,
+        "sigma_minor": 11.2,
+        "parts": 8,
+        "kind": "word",
+        "qualifies": true
+       }
+      ],
+      "verdict": "PASS",
+      "window": [
+       {
+        "t": 14.28,
+        "ink_pct_of_zone": 0.405,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 14.32,
+        "ink_pct_of_zone": 0.326,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 14.36,
+        "ink_pct_of_zone": 0.326,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 14.4,
+        "ink_pct_of_zone": 0.326,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 14.44,
+        "ink_pct_of_zone": 0.546,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 14.48,
+        "ink_pct_of_zone": 0.746,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 14.52,
+        "ink_pct_of_zone": 0.915,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 14.56,
+        "ink_pct_of_zone": 1.149,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 14.6,
+        "ink_pct_of_zone": 1.335,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 14.64,
+        "ink_pct_of_zone": 1.44,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 14.68,
+        "ink_pct_of_zone": 1.843,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 14.72,
+        "ink_pct_of_zone": 2.141,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 14.76,
+        "ink_pct_of_zone": 2.222,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 14.8,
+        "ink_pct_of_zone": 2.298,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 14.84,
+        "ink_pct_of_zone": 2.29,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 14.88,
+        "ink_pct_of_zone": 2.312,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 14.92,
+        "ink_pct_of_zone": 2.365,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 14.96,
+        "ink_pct_of_zone": 2.397,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 15.0,
+        "ink_pct_of_zone": 2.397,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 15.04,
+        "ink_pct_of_zone": 2.397,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 15.08,
+        "ink_pct_of_zone": 2.397,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 15.12,
+        "ink_pct_of_zone": 2.397,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 15.16,
+        "ink_pct_of_zone": 2.397,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 15.2,
+        "ink_pct_of_zone": 2.397,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 15.24,
+        "ink_pct_of_zone": 2.397,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 15.28,
+        "ink_pct_of_zone": 2.468,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 15.32,
+        "ink_pct_of_zone": 2.424,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 15.36,
+        "ink_pct_of_zone": 2.424,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 15.4,
+        "ink_pct_of_zone": 2.424,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 15.44,
+        "ink_pct_of_zone": 2.435,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 15.48,
+        "ink_pct_of_zone": 2.467,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 15.52,
+        "ink_pct_of_zone": 2.498,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 15.56,
+        "ink_pct_of_zone": 2.503,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 15.6,
+        "ink_pct_of_zone": 2.537,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 15.64,
+        "ink_pct_of_zone": 2.573,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 15.68,
+        "ink_pct_of_zone": 2.557,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 15.72,
+        "ink_pct_of_zone": 2.572,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 15.76,
+        "ink_pct_of_zone": 2.572,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 15.8,
+        "ink_pct_of_zone": 2.572,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 15.84,
+        "ink_pct_of_zone": 2.572,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 15.88,
+        "ink_pct_of_zone": 2.572,
+        "qualifying": 2,
+        "verdict": "PASS"
+       }
+      ]
+     }
+    ],
+    "extra_probes": [],
+    "dead_total_s": 0.0,
+    "failed": [],
+    "verdict": "PASS"
+   },
+   "wall_s": 5.3
+  }
+ },
+ "skipped": {
+  "cutout_checks_24_25": "cutout only, and needs --project",
+  "gate3_gemini_describe": "no --vid, or skipped",
+  "edge_clip": "cutout only, and needs --alpha",
+  "face_hf_vs_plate": "needs --plate (the display plate)",
+  "head_scale_vs_framing": "needs --alpha and --edge-box (the crown comes from the matte's own alpha, the chin from MediaPipe on the delivered frame)"
+ },
+ "zone_bottom_design_px": 799.21,
+ "decode": {
+  "frames": 691,
+  "fps": 25.0,
+  "size": [
+   1080,
+   1920
+  ],
+  "grid_frames": 55,
+  "caption_band_rows": [
+   772,
+   952
+  ],
+  "caption_seat_design_px": 862.5,
+  "wall_s": 5.65
+ },
+ "verdicts": {
+  "decoded_blank_frames": "PASS",
+  "zero_ink_law": "PASS",
+  "clip_coverage_page": "PASS",
+  "double_exposure": "REPORTED",
+  "face_centring": "PASS",
+  "pill_canon_rendered": "PASS",
+  "gate1_geometry_audit": "PASS",
+  "gate2_frame_review": "PASS",
+  "audio_guards": "PASS",
+  "contact_sheet": "PASS",
+  "phone_crops": "PASS",
+  "whiteboard_seam_law": "PASS"
+ },
+ "wall_s": {
+  "decoded_blank_frames": 0.0,
+  "zero_ink_law": 0.0,
+  "clip_coverage_page": 0.0,
+  "double_exposure": 0.05,
+  "face_centring": 0.88,
+  "pill_canon_rendered": 0.0,
+  "gate1_geometry_audit": 2.32,
+  "gate2_frame_review": 1.43,
+  "audio_guards": 0.98,
+  "contact_sheet": 2.8,
+  "phone_crops": 0.98,
+  "whiteboard_seam_law": 5.3,
+  "single_decode": 5.65
+ },
+ "total_wall_s": 6.65,
+ "pass": true
+}

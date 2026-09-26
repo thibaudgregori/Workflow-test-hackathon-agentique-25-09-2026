@@ -1,0 +1,74 @@
+{
+ "run": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28",
+ "intake": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/prep/_intake_eudisclosure.json",
+ "videos": 1,
+ "sessions_root": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/matting",
+ "workers": 5,
+ "tag": "v1",
+ "emit": "v5",
+ "backend": "matanyone2",
+ "gpu": "l4",
+ "cost_basis": "runtime estimates, not provider invoice",
+ "ship_where": "modal",
+ "batch_wall_s": 177.1,
+ "modal_cost_usd": 0.0787,
+ "modal_cost_breakdown_usd": {
+  "sweep": 0.0327,
+  "track": 0.0193,
+  "ship": 0.0267,
+  "repair": 0.0
+ },
+ "repairs": {},
+ "repair_rounds_max": 2,
+ "repair_detail": {},
+ "summary_lines": [
+  "eudisclosure         PREPARED; final visual review required"
+ ],
+ "ship_seconds": {
+  "eudisclosure": 58.618453569
+ },
+ "per_stage_wall_s": {
+  "eudisclosure": {
+   "cut": 60.3,
+   "plate": 116.7,
+   "display_plate": null,
+   "prompt0": 19.7,
+   "track": 105.9894873330013,
+   "ship": 69.99446712500139,
+   "cues": 0.0,
+   "repair": null
+  }
+ },
+ "status": {
+  "eudisclosure": {
+   "cut": "ok",
+   "plate": "ok",
+   "display_plate": "reused",
+   "prompt0": "ok",
+   "track": "ok",
+   "ship": "ok",
+   "cues": "ok",
+   "repair": "-"
+  }
+ },
+ "stage_totals_s": {
+  "cut": 60.3,
+  "plate": 116.7,
+  "display_plate": 0.0,
+  "prompt0": 19.7,
+  "track": 106.0,
+  "ship": 70.0,
+  "cues": 0.0,
+  "repair": 0.0
+ },
+ "serial_equivalent_s": 373.0,
+ "needs_source": {
+  "eudisclosure": []
+ },
+ "wing_review": [
+  "eudisclosure"
+ ],
+ "packages": {
+  "eudisclosure": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/prep/eudisclosure.json"
+ }
+}

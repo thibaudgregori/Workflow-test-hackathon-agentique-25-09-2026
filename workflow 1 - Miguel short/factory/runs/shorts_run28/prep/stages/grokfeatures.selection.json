@@ -1,0 +1,21 @@
+{
+ "id": "grokfeatures",
+ "stage": "selection",
+ "status": "ok",
+ "wall_s": 0.28884916699826135,
+ "at": "2026-09-23T20:36:59",
+ "keys": {
+  "status": "ok",
+  "selection": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/matting/grokfeatures/selection.json",
+  "plate": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/matting/grokfeatures/plate_wide_25.mp4",
+  "source": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/cuts/grokfeatures/master.mp4",
+  "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/matting/grokfeatures/plate.json",
+  "initial_mask": null,
+  "chair_audit_verdict": "clean",
+  "chair_audit_leak_px": 1789,
+  "chair_audit_carve_px": null,
+  "chair_audit_healed": false,
+  "chair_audit_mask_sha256": null,
+  "wall_s": 0.28884916699826135
+ }
+}

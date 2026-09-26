@@ -1,0 +1,107 @@
+{
+ "label": "grokfeatures_whiteboard",
+ "video": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/output/grokfeatures_whiteboard.mp4",
+ "phone_scale": "405x720",
+ "sheet": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/phone_grokfeatures_whiteboard.png",
+ "rule": "a FRESH judge (never read the plan) names each crop in <=3 words. Wrong name, hedge, or 'cannot tell' = the object is redesigned, not annotated.",
+ "answer_key": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/phone_grokfeatures_whiteboard.key.json",
+ "answer_key_rule": "DO NOT OPEN the answer key until every judge_answer below is filled in. Reading it first voids the Phone Test.",
+ "objects": [
+  {
+   "i": 0,
+   "t": 4.2,
+   "bbox_norm": [
+    0.2778,
+    0.1465,
+    0.7222,
+    0.3867
+   ],
+   "phone_box_px": [
+    112,
+    105,
+    292,
+    278
+   ],
+   "phone_size_px": [
+    180,
+    173
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/phone_grokfeatures_whiteboard/00.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  },
+  {
+   "i": 1,
+   "t": 12.6,
+   "bbox_norm": [
+    0.3056,
+    0.1406,
+    0.6944,
+    0.3828
+   ],
+   "phone_box_px": [
+    123,
+    101,
+    281,
+    275
+   ],
+   "phone_size_px": [
+    158,
+    174
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/phone_grokfeatures_whiteboard/01.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  },
+  {
+   "i": 2,
+   "t": 16.4,
+   "bbox_norm": [
+    0.2882,
+    0.252,
+    0.6875,
+    0.3887
+   ],
+   "phone_box_px": [
+    116,
+    181,
+    278,
+    279
+   ],
+   "phone_size_px": [
+    162,
+    98
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/phone_grokfeatures_whiteboard/02.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  },
+  {
+   "i": 3,
+   "t": 29.6,
+   "bbox_norm": [
+    0.2778,
+    0.1465,
+    0.7222,
+    0.3887
+   ],
+   "phone_box_px": [
+    112,
+    105,
+    292,
+    279
+   ],
+   "phone_size_px": [
+    180,
+    174
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/phone_grokfeatures_whiteboard/03.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  }
+ ]
+}

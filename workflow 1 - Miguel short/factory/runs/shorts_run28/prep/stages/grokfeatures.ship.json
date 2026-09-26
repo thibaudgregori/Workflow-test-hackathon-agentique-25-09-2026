@@ -1,0 +1,28 @@
+{
+ "id": "grokfeatures",
+ "stage": "ship",
+ "status": "ok",
+ "wall_s": 93.57385962499757,
+ "at": "2026-09-23T20:39:49",
+ "keys": {
+  "status": "ok",
+  "backend": "matanyone2",
+  "frames": 869,
+  "width": 1584,
+  "height": 990,
+  "fps": 25.0,
+  "alpha_mode": "soft",
+  "rim_px": 7,
+  "temporal": 1,
+  "seconds": 78.681116971,
+  "estimated_compute_usd": 0.03577787750905312,
+  "fractional_alpha_pixels": 17823922,
+  "minimum_person_fraction": 0.3584289868380777,
+  "review_status": "needs_final_visual_review",
+  "ship_source_sha256": "0154788627eb98961c3eb2bc600e14d29cbc4f0de84b5c925b98e03e19bbd250",
+  "client_wall_seconds": 93.57385962499757,
+  "ship_seconds": 78.681116971,
+  "wall_s": 93.57385962499757,
+  "cost_usd": 0.03577787750905312
+ }
+}

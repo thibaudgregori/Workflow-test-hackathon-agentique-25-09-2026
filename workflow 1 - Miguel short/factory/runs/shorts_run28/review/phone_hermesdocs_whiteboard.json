@@ -1,0 +1,83 @@
+{
+ "label": "hermesdocs_whiteboard",
+ "video": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/output/hermesdocs_whiteboard.mp4",
+ "phone_scale": "405x720",
+ "sheet": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/phone_hermesdocs_whiteboard.png",
+ "rule": "a FRESH judge (never read the plan) names each crop in <=3 words. Wrong name, hedge, or 'cannot tell' = the object is redesigned, not annotated.",
+ "answer_key": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/phone_hermesdocs_whiteboard.key.json",
+ "answer_key_rule": "DO NOT OPEN the answer key until every judge_answer below is filled in. Reading it first voids the Phone Test.",
+ "objects": [
+  {
+   "i": 0,
+   "t": 2.0,
+   "bbox_norm": [
+    0.3351,
+    0.1855,
+    0.6754,
+    0.3398
+   ],
+   "phone_box_px": [
+    135,
+    133,
+    273,
+    244
+   ],
+   "phone_size_px": [
+    138,
+    111
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/phone_hermesdocs_whiteboard/00.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  },
+  {
+   "i": 1,
+   "t": 8.6,
+   "bbox_norm": [
+    0.3351,
+    0.1846,
+    0.7309,
+    0.3398
+   ],
+   "phone_box_px": [
+    135,
+    132,
+    296,
+    244
+   ],
+   "phone_size_px": [
+    161,
+    112
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/phone_hermesdocs_whiteboard/01.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  },
+  {
+   "i": 2,
+   "t": 21.5,
+   "bbox_norm": [
+    0.3681,
+    0.166,
+    0.6319,
+    0.3184
+   ],
+   "phone_box_px": [
+    149,
+    119,
+    255,
+    229
+   ],
+   "phone_size_px": [
+    106,
+    110
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/phone_hermesdocs_whiteboard/02.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  }
+ ]
+}

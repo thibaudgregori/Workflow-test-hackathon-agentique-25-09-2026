@@ -1,0 +1,14 @@
+{
+ "status": "ok",
+ "ship": "ok",
+ "selection_changed": true,
+ "edits": 3,
+ "rounds": 2,
+ "what_you_saw": "The initial outline included black chair panels beside the neck and shoulders and a chair patch beside the left ear. Two exclusion polygons removed them, and one inclusion polygon restored the inherited notch below the right ear; the revised overlays preserve the cap, both ears, cheeks, jaw, chin, neck, shoulders and hands. One fresh MatAnyone2 track shipped all 691 frames after approval. I opened playback.jpg, face_2x.jpg, chair_sides.jpg and hands.jpg: the sampled phone-size composites show no visible chair slab, grey wedge or neck splash; following both complete head edges against the source shows smooth cap brim, cap-to-temple junctions, temples, ears and jaw, including the first and last frames. Hands remain present with opaque cores and natural soft motion blur during fast gestures. The brief 0.2-second haze metric around the moving hand is acceptable under Miguel's criteria, not a hold. No SAM2 fallback was needed. The intake row matches the original, the ship marker is newer than approval, and all three output hashes match ship_v5.json.",
+ "hold_reason": "",
+ "outputs": [
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/matting/eudisclosure/matte_eudisclosure_v5_cut.webm",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/matting/eudisclosure/matte_eudisclosure_v5_rim.webm",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/matting/eudisclosure/matte_eudisclosure_v5_alpha.webm"
+ ]
+}

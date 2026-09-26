@@ -1,0 +1,26 @@
+{
+ "verdict": "PASS",
+ "plan_json": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/plans/hermesdocs_plan.json",
+ "plan_md": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/plans/hermesdocs_plan.md",
+ "lane": "icon choreography",
+ "lane_reason": "Intake's 'diagram build' is overruled: the script is one physical picture (your documents and Hermes locked together inside a steel safe, nothing leaking out to the cloud) followed by one named tool (AnyDoc by Firecrawl), which is a bespoke object plus two real marks, not a node-and-arrow diagram.",
+ "beats": 6,
+ "bespoke_names": [
+  "locked steel safe",
+  "open safe documents",
+  "scanned PDF page"
+ ],
+ "cues": "pointing_cues.py --vid hermesdocs: no pointing cue in this take (cues []); stage marker cues ok cue_count 0; nothing raised, nothing waived",
+ "board_mode": "chapters",
+ "open_questions": [
+  "Wing review: the prompt0 marker names hermesdocs with wing_review true (instrument abstained, removed_px 0); look at matting/hermesdocs/prompts/kf_overlay_00000.png. The Astra matte step / cutout author owns it. Track and ship landed ok during artwork (MatAnyone 2, about $0.047 est. together), both 'needs_final_visual_review'.",
+  "Firecrawl's flame file is in the central library (tool-web-icons-20260914/firecrawl-product.png) but has no registry.json key; the scene maps it by path and assert_cast_resolves passes on it.",
+  "AnyDoc has no logo (the repo and site use Firecrawl branding), so it is drawn as the scanned PDF page and named in writing under it."
+ ],
+ "open_doubts": [],
+ "scene_handoff": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/plans/hermesdocs_scene_handoff.md",
+ "scene_module": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/gen/hermesdocs_scene.py",
+ "sealed": true,
+ "proofs": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_hermesdocs",
+ "reason": "Stage markers: cut ok (68.6 s, master 28.28 s, model-authored keep ranges); plate ok (crop 2632x1880+578+240, k 0.4787, overwide); prompt0 ok, wing_review true for hermesdocs (abstained, removed_px 0); selection ok (chair audit clean); track ok MatAnyone 2 est. $0.0209; ship ok 707 frames, min person fraction 0.416, est. $0.0264, both needs_final_visual_review. Connectors measured 0.0 px at all eight ends; all stage and lane marks resolve; seal PASS."
+}

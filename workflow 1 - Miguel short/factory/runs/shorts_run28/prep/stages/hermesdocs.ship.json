@@ -1,0 +1,28 @@
+{
+ "id": "hermesdocs",
+ "stage": "ship",
+ "status": "ok",
+ "wall_s": 71.12754629200208,
+ "at": "2026-09-23T20:39:59",
+ "keys": {
+  "status": "ok",
+  "backend": "matanyone2",
+  "frames": 707,
+  "width": 1386,
+  "height": 990,
+  "fps": 25.0,
+  "alpha_mode": "soft",
+  "rim_px": 7,
+  "temporal": 1,
+  "seconds": 57.996888244,
+  "estimated_compute_usd": 0.02637234502231168,
+  "fractional_alpha_pixels": 15813056,
+  "minimum_person_fraction": 0.41634964362237087,
+  "review_status": "needs_final_visual_review",
+  "ship_source_sha256": "0154788627eb98961c3eb2bc600e14d29cbc4f0de84b5c925b98e03e19bbd250",
+  "client_wall_seconds": 71.12754629200208,
+  "ship_seconds": 57.996888244,
+  "wall_s": 71.12754629200208,
+  "cost_usd": 0.02637234502231168
+ }
+}

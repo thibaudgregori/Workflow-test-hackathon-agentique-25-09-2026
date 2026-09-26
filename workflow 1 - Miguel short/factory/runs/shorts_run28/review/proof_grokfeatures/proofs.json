@@ -1,0 +1,287 @@
+{
+ "crops": [
+  {
+   "i": 0,
+   "name": "three-step winners podium",
+   "t": 4.2,
+   "ui": false,
+   "core_box": [
+    296.0,
+    90.0,
+    784.0,
+    470.0
+   ],
+   "phone_box_px": [
+    111,
+    106,
+    294,
+    248
+   ],
+   "phone_size_px": [
+    183,
+    142
+   ],
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_grokfeatures/00.png"
+  },
+  {
+   "i": 1,
+   "name": "calendar full of checkmarks",
+   "t": 12.6,
+   "ui": false,
+   "core_box": [
+    340.0,
+    84.0,
+    740.0,
+    468.0
+   ],
+   "phone_box_px": [
+    128,
+    104,
+    278,
+    248
+   ],
+   "phone_size_px": [
+    150,
+    144
+   ],
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_grokfeatures/01.png"
+  },
+  {
+   "i": 2,
+   "name": "open cardboard box",
+   "t": 16.4,
+   "ui": false,
+   "core_box": [
+    350.0,
+    310.0,
+    730.0,
+    538.0
+   ],
+   "phone_box_px": [
+    131,
+    188,
+    274,
+    274
+   ],
+   "phone_size_px": [
+    143,
+    86
+   ],
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_grokfeatures/02.png"
+  },
+  {
+   "i": 3,
+   "name": "pile of cardboard boxes",
+   "t": 29.6,
+   "ui": false,
+   "core_box": [
+    300.0,
+    104.0,
+    780.0,
+    518.0
+   ],
+   "phone_box_px": [
+    112,
+    111,
+    292,
+    266
+   ],
+   "phone_size_px": [
+    180,
+    155
+   ],
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_grokfeatures/03.png"
+  },
+  {
+   "i": 4,
+   "name": "four feature icons",
+   "t": 22.6,
+   "ui": true,
+   "core_box": [
+    100.0,
+    84.0,
+    980.0,
+    296.0
+   ],
+   "phone_box_px": [
+    38,
+    104,
+    368,
+    183
+   ],
+   "phone_size_px": [
+    330,
+    79
+   ],
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_grokfeatures/04.png"
+  }
+ ],
+ "frames": [
+  {
+   "name": "podium",
+   "t": 0.95,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_grokfeatures/frame_podium.png"
+  },
+  {
+   "name": "grok_ground",
+   "t": 1.85,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_grokfeatures/frame_grok_ground.png"
+  },
+  {
+   "name": "hop",
+   "t": 2.15,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_grokfeatures/frame_hop.png"
+  },
+  {
+   "name": "top3",
+   "t": 4.2,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_grokfeatures/frame_top3.png"
+  },
+  {
+   "name": "models",
+   "t": 6.8,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_grokfeatures/frame_models.png"
+  },
+  {
+   "name": "apps",
+   "t": 7.9,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_grokfeatures/frame_apps.png"
+  },
+  {
+   "name": "seam1",
+   "t": 8.8,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_grokfeatures/frame_seam1.png"
+  },
+  {
+   "name": "cal",
+   "t": 9.6,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_grokfeatures/frame_cal.png"
+  },
+  {
+   "name": "ticks",
+   "t": 11.4,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_grokfeatures/frame_ticks.png"
+  },
+  {
+   "name": "slide",
+   "t": 13.4,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_grokfeatures/frame_slide.png"
+  },
+  {
+   "name": "gbuild",
+   "t": 14.2,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_grokfeatures/frame_gbuild.png"
+  },
+  {
+   "name": "seam2",
+   "t": 15.2,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_grokfeatures/frame_seam2.png"
+  },
+  {
+   "name": "box",
+   "t": 16.4,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_grokfeatures/frame_box.png"
+  },
+  {
+   "name": "dash",
+   "t": 17.8,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_grokfeatures/frame_dash.png"
+  },
+  {
+   "name": "modal",
+   "t": 19.1,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_grokfeatures/frame_modal.png"
+  },
+  {
+   "name": "agent",
+   "t": 20.4,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_grokfeatures/frame_agent.png"
+  },
+  {
+   "name": "deep",
+   "t": 22.6,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_grokfeatures/frame_deep.png"
+  },
+  {
+   "name": "boxflip",
+   "t": 23.6,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_grokfeatures/frame_boxflip.png"
+  },
+  {
+   "name": "close",
+   "t": 24.8,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_grokfeatures/frame_close.png"
+  },
+  {
+   "name": "topile",
+   "t": 25.4,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_grokfeatures/frame_topile.png"
+  },
+  {
+   "name": "spacex",
+   "t": 26.2,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_grokfeatures/frame_spacex.png"
+  },
+  {
+   "name": "drops",
+   "t": 27.8,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_grokfeatures/frame_drops.png"
+  },
+  {
+   "name": "pile",
+   "t": 29.6,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_grokfeatures/frame_pile.png"
+  },
+  {
+   "name": "outro",
+   "t": 31.2,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_grokfeatures/frame_outro.png"
+  }
+ ],
+ "connectors": {
+  "arrow-cal": {
+   "line_x0": 596,
+   "head_tip_x": 702,
+   "line_y_mid": 594.0,
+   "page_path_bbox": [
+    232,
+    300,
+    592,
+    650
+   ],
+   "page_outer_right": 596.0,
+   "tile_outer_left": 702,
+   "gap_tail_px": 0.0,
+   "gap_tip_px": 0
+  }
+ },
+ "page_errors": [],
+ "anchor_law": {
+  "arrow": {
+   "tail": [
+    596.0,
+    402.0
+   ],
+   "tip": [
+    702.0,
+    402.0
+   ],
+   "tail_on": "calendar page outer right edge",
+   "tip_on": "t-gbuild outer left edge (anchor_points 1/left)"
+  }
+ },
+ "stage_marks_resolve": {
+  "chatgpt": "/Users/migle/Documents/Workspace/assets/logos/ai-models/chatgpt-color.png",
+  "gemini": "/Users/migle/Documents/Workspace/assets/logos/ai-models/gemini-color.png",
+  "grok": "/Users/migle/Documents/Workspace/assets/logos/ai-models/grok.png",
+  "spacex": "/Users/migle/Documents/Workspace/assets/logos/ai-models/spacex-wordmark.svg"
+ },
+ "cutout_lanes_resolve": {
+  "claude": "/Users/migle/Documents/Workspace/assets/logos/ai-models/claude-color.png",
+  "deepseek": "/Users/migle/Documents/Workspace/assets/logos/ai-models/deepseek.png",
+  "meta": "/Users/migle/Documents/Workspace/assets/logos/ai-models/meta.png",
+  "perplexity": "/Users/migle/Documents/Workspace/assets/logos/ai-models/perplexity-color.png",
+  "mistral": "/Users/migle/Documents/Workspace/assets/logos/ai-models/mistral.png",
+  "kimi": "/Users/migle/Documents/Workspace/assets/logos/ai-models/kimi.png"
+ }
+}
