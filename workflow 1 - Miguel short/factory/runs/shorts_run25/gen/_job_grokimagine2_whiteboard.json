@@ -1,0 +1,21 @@
+{
+  "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/projects/grokimagine2_whiteboard",
+  "vid": "grokimagine2",
+  "fmt": "whiteboard",
+  "quality": "high",
+  "stage": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/staging/reels/grokimagine2_whiteboard.mp4",
+  "qc_args": [
+    "--voice-master",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/cuts/grokimagine2/audio.m4a",
+    "--seams",
+    "5.8,13,17.86",
+    "--phone-at",
+    "2.6:0.36806,0.20312,0.63194,0.30859:a painter's palette",
+    "--phone-at",
+    "16.9:0.24306,0.21484,0.75694,0.35938:a winners' podium",
+    "--phone-at",
+    "20.8:0.12847,0.20703,0.47569,0.3418:a framed picture",
+    "--phone-at",
+    "22.2:0.54861,0.21094,0.82986,0.33789:a magic wand"
+  ]
+}

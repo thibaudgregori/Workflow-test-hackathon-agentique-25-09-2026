@@ -1,0 +1,311 @@
+{
+ "video": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/claudesessions_whiteboard.mp4",
+ "video_id": "claudesessions",
+ "fmt": "whiteboard",
+ "model": "gemini-3.5-flash-lite",
+ "duration_s": 21.261,
+ "fps_sampled": 3.0,
+ "windows": [
+  [
+   0.0,
+   21.26
+  ],
+  [
+   0.0,
+   20.0
+  ],
+  [
+   17.0,
+   21.26
+  ]
+ ],
+ "whole_pass": true,
+ "thinking": "medium",
+ "media_resolution": "HIGH",
+ "jobs": 3,
+ "transcript": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/cuts/claudesessions/transcript_tight.json",
+ "video_summary": "A speaker discusses how Claude Code sessions can now communicate with each other to work together on long-running tasks. The video ends with a call to follow for daily AI news and tutorials.",
+ "beat_log": [
+  {
+   "t_start": 0.0,
+   "t_end": 2.0,
+   "on_screen": "Two smartphone line drawings connected by a red arched line being drawn by a marker.",
+   "said": "Claude can now talk with itself. Now, if you're using",
+   "marks_visible": "none",
+   "labels_visible": "none",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "none",
+   "picture_vs_sentence": "picture illustrates phones talking",
+   "from_window": [
+    0.0,
+    21.26
+   ]
+  },
+  {
+   "t_start": 0.0,
+   "t_end": 2.5,
+   "on_screen": "two phone outlines on top, connecting line drawn by red pen",
+   "said": "Claude can now talk with itself.",
+   "marks_visible": "none",
+   "labels_visible": "none",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "none",
+   "picture_vs_sentence": "picture illustrates two things talking",
+   "from_window": [
+    0.0,
+    20.0
+   ]
+  },
+  {
+   "t_start": 2.0,
+   "t_end": 5.5,
+   "on_screen": "Two phones connected by a red line, with the Claude pixel mascot in the center.",
+   "said": "Claude Code, sessions can now communicate with one another.",
+   "marks_visible": "Claude pixel mascot",
+   "labels_visible": "SESSIONS TALK",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "ABOVE",
+   "picture_vs_sentence": "picture illustrates communicating sessions",
+   "from_window": [
+    0.0,
+    21.26
+   ]
+  },
+  {
+   "t_start": 2.5,
+   "t_end": 6.0,
+   "on_screen": "two phone outlines, middle pixel mascot logo, text SESSIONS TALK",
+   "said": "Now, if you're using Claude Code, sessions can now communicate with one another.",
+   "marks_visible": "Claude Code pixel mascot",
+   "labels_visible": "SESSIONS TALK",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "SESSIONS TALK above the connection",
+   "picture_vs_sentence": "picture illustrates session communication",
+   "from_window": [
+    0.0,
+    20.0
+   ]
+  },
+  {
+   "t_start": 5.5,
+   "t_end": 10.0,
+   "on_screen": "Two phones with a red line and a central user icon with a red X and horizontal arrows.",
+   "said": "That means that you no longer have to switch from session to session.",
+   "marks_visible": "Claude pixel mascot",
+   "labels_visible": "SESSIONS TALK",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "ABOVE",
+   "picture_vs_sentence": "picture illustrates switching sessions",
+   "from_window": [
+    0.0,
+    21.26
+   ]
+  },
+  {
+   "t_start": 6.0,
+   "t_end": 10.0,
+   "on_screen": "two phone outlines, middle user silhouette with double-sided arrows",
+   "said": "That means that you no longer have to switch from session to session.",
+   "marks_visible": "none",
+   "labels_visible": "SESSIONS TALK",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "SESSIONS TALK above",
+   "picture_vs_sentence": "picture illustrates switching between sessions",
+   "from_window": [
+    0.0,
+    20.0
+   ]
+  },
+  {
+   "t_start": 10.0,
+   "t_end": 13.0,
+   "on_screen": "A single phone drawing on the left with text below it.",
+   "said": "If you leave long-running tasks,",
+   "marks_visible": "none",
+   "labels_visible": "LONG-RUNNING",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "BELOW",
+   "picture_vs_sentence": "picture shows task phone",
+   "from_window": [
+    0.0,
+    21.26
+   ]
+  },
+  {
+   "t_start": 10.0,
+   "t_end": 13.5,
+   "on_screen": "left phone with LONG-RUNNING, middle phone, right phone with ONE SESSION",
+   "said": "If you leave long-running tasks, you can have one single session",
+   "marks_visible": "none",
+   "labels_visible": "LONG-RUNNING, ONE SESSION",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "labels below phones",
+   "picture_vs_sentence": "picture shows long-running tasks and single session",
+   "from_window": [
+    0.0,
+    20.0
+   ]
+  },
+  {
+   "t_start": 13.0,
+   "t_end": 16.5,
+   "on_screen": "Three phones displayed with labels below them, rightmost phone boxed in red.",
+   "said": "you can have one single session and just have them communicate and work together as teammates.",
+   "marks_visible": "none",
+   "labels_visible": "LONG-RUNNING, TEAMMATES, ONE SESSION",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "BELOW",
+   "picture_vs_sentence": "picture shows multiple session teammates",
+   "from_window": [
+    0.0,
+    21.26
+   ]
+  },
+  {
+   "t_start": 13.5,
+   "t_end": 17.0,
+   "on_screen": "three phones with connecting lines, labels LONG-RUNNING, TEAMMATES, ONE SESSION",
+   "said": "and just have them communicate and work together as teammates.",
+   "marks_visible": "none",
+   "labels_visible": "LONG-RUNNING, TEAMMATES, ONE SESSION",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "labels below the three phones",
+   "picture_vs_sentence": "picture illustrates communication and teamwork",
+   "from_window": [
+    0.0,
+    20.0
+   ]
+  },
+  {
+   "t_start": 16.5,
+   "t_end": 21.26,
+   "on_screen": "Outro handle card with a red line above text @migueltorrez.ai and daily AI below.",
+   "said": "Now, follow for more AI news, videos, and tutorials each and every single day, and catch you in the next one.",
+   "marks_visible": "none",
+   "labels_visible": "@migueltorrez.ai, daily AI",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "BELOW",
+   "picture_vs_sentence": "outro handle card",
+   "from_window": [
+    0.0,
+    21.26
+   ]
+  },
+  {
+   "t_start": 17.0,
+   "t_end": 20.0,
+   "on_screen": "cream card with @migueltorrez.ai and daily AI, red line above handle",
+   "said": "Now, follow for more AI news, videos, and tutorials each and every single day,",
+   "marks_visible": "none",
+   "labels_visible": "@migueltorrez.ai, daily AI",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "daily AI below handle",
+   "picture_vs_sentence": "outro card matches call to action",
+   "from_window": [
+    0.0,
+    20.0
+   ]
+  },
+  {
+   "t_start": 17.0,
+   "t_end": 18.5,
+   "on_screen": "Top whiteboard transitioning from a three walkie-talkie diagram to a handle card with a red bar and '@migueltorrez.ai', speaker at bottom, caption pill saying 'Now, follow for more AI news, videos'.",
+   "said": "Now, follow for more AI news, videos,",
+   "marks_visible": "none",
+   "labels_visible": "LONG-RUNNING, TEAMMATES, ONE SESSION, @migueltorrez.ai",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "Labels are correctly placed above or below objects.",
+   "picture_vs_sentence": "Picture shows outro transition and handle card, compatible with the call to action.",
+   "from_window": [
+    17.0,
+    21.26
+   ]
+  },
+  {
+   "t_start": 18.5,
+   "t_end": 21.26,
+   "on_screen": "Top whiteboard showing '@migueltorrez.ai' with a red bar above and 'daily AI' subtitle below, speaker at bottom, caption pill cycling through the final words.",
+   "said": "and tutorials each and every single day, and catch you in the next one.",
+   "marks_visible": "none",
+   "labels_visible": "@migueltorrez.ai, daily AI",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "Handle and subtitle are properly stacked and centered.",
+   "picture_vs_sentence": "Picture displays the standard outro handle card.",
+   "from_window": [
+    17.0,
+    21.26
+   ]
+  }
+ ],
+ "all_summaries": [
+  "A speaker discusses how Claude Code sessions can now communicate with each other to work together on long-running tasks. The video ends with a call to follow for daily AI news and tutorials.",
+  "A tech creator explains how Claude Code sessions can now communicate with each other and work together as teammates, illustrated through whiteboard animations. The video concludes with a call to follow for daily AI news and tutorials.",
+  "The video concludes with a call to follow the creator for daily AI news, videos, and tutorials, displaying the official outro handle card on the whiteboard. The speaker encourages viewers to return for future content."
+ ],
+ "candidates": [],
+ "counts": {
+  "candidates": 0,
+  "blocking": 0,
+  "motion": 0
+ },
+ "calls": [
+  {
+   "pass": 1,
+   "window": [
+    0.0,
+    21.26
+   ],
+   "model": "gemini-3.5-flash-lite",
+   "fps": 3.0,
+   "thinking": "medium",
+   "input_tokens": 21288,
+   "output_tokens": 2592,
+   "thinking_tokens": 1619,
+   "cost_usd": 0.012866
+  },
+  {
+   "pass": 1,
+   "window": [
+    0.0,
+    20.0
+   ],
+   "model": "gemini-3.5-flash-lite",
+   "fps": 3.0,
+   "thinking": "medium",
+   "input_tokens": 20201,
+   "output_tokens": 2562,
+   "thinking_tokens": 1574,
+   "cost_usd": 0.012465
+  },
+  {
+   "pass": 1,
+   "window": [
+    17.0,
+    21.26
+   ],
+   "model": "gemini-3.5-flash-lite",
+   "fps": 3.0,
+   "thinking": "medium",
+   "input_tokens": 7401,
+   "output_tokens": 1613,
+   "thinking_tokens": 1150,
+   "cost_usd": 0.006253
+  }
+ ],
+ "cost_usd": 0.031584,
+ "wall_clock_s": 20.9
+}

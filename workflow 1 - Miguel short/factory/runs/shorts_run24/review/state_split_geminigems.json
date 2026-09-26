@@ -1,0 +1,35 @@
+{
+ "staged": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/staging/youtube/geminigems_split.mp4",
+ "phone_verdict": "PASS",
+ "blocked": "",
+ "rounds": 1,
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/projects/geminigems_split",
+ "scene_handoff": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/plans/geminigems_scene_handoff.md",
+ "lane": "diagram build",
+ "lane_justification_from_the_plan": "Intake guessed 'steps & checklist' but the recording contains no steps at all - it is one argument that accumulates (a product dies, a standard replaces it, that standard fans out to two audiences), which is exactly what a diagram build draws.",
+ "prerender_check": "PASS in 2.29s - refs_resolve PASS, assets_not_placeholder PASS (2 rasters), page_audit PASS, caption_canon_page PASS (23 pills, modal h 114.55px, spread 0.0), gate1_geometry_audit PASS (0 errors / 0 warnings); cutout_edge_fade_guard and cutout_checks_24_25 SKIP (cutout only)",
+ "geometry_audit_strict": "0 errors, 0 warnings @ 0.5s step -> projects/geminigems_split/geometry_audit/report.json",
+ "phone_test": {
+  "mode": "phone-test",
+  "objects": 4,
+  "sheet": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/phone_geminigems_split.png"
+ },
+ "cold_crop_paths": [
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/cold/1db608b4/00.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/cold/1db608b4/01.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/cold/1db608b4/02.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/cold/1db608b4/03.png"
+ ],
+ "cold_read": "ONE confirmation round (all four sealed at the artwork seat): diamond/sure, gift box/sure, two people icon/unsure, group of people/unsure - 4 PASS, 0 different names, 0 redesigns",
+ "word_sync": "5 states checked, 0 disagreements",
+ "ss3b_merge_count": 0,
+ "render_and_check": "PASS - 1080x1920 523f, qc_pass PASS (12 checks; double_exposure REPORTED), gemini watcher PASS with 0 candidates, staged",
+ "costs_usd": {
+  "modal_render": 0.0086,
+  "gemini_watcher": 0.025172,
+  "wasted_first_render": 0.039937
+ },
+ "notes": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/plans/geminigems_split_notes.md",
+ "prep_markers": "all six ok: cut 58.7s (master 20.92s, tight audio 20.883s), plate 105.0s (crop 2816x1760+440+226, overwide true, head 449.9px), prompt0 33.2s (wing_review true, no cut proposed), selection 74.3s, track 69.3s (matanyone2, $0.0158), ship 76.3s (523f 1584x990, soft alpha, rim 7, fractional_alpha_pixels 11233636, minimum_person_fraction 0.3425, review_status needs_final_visual_review, $0.0266), cues 0.0s (cue_count 0). No marker missing.",
+ "take_corroboration": "cuts/geminigems/edl.json -> take_detection: keeper take = raw word 266 at 112.66s, 72 of 338 raw words; 8 openings found, 1 sign-off; marker rule EQUALITY answering 266 with 8 markers before the take; gap sweep BAND, correct at every threshold 0.8-2.0; corroboration.witnessed true."
+}

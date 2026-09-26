@@ -1,0 +1,16 @@
+{
+ "id": "grokimagine2",
+ "stage": "selection",
+ "status": "ok",
+ "wall_s": null,
+ "at": "2026-09-22T23:12:31",
+ "keys": {
+  "status": "ok",
+  "note": "selection inputs ready for the outline review",
+  "selection": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/matting/grokimagine2/selection.json",
+  "plate": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/matting/grokimagine2/plate_wide_25.mp4",
+  "source": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/cuts/grokimagine2/master.mp4",
+  "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/matting/grokimagine2/plate.json",
+  "initial_mask": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/matting/grokimagine2/prompts/kf_00000.png"
+ }
+}

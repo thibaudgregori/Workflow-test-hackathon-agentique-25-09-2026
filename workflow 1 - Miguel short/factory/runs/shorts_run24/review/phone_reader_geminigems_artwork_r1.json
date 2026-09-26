@@ -1,0 +1,44 @@
+{
+  "tag": "round_r1",
+  "cold_dir": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/cold/round_r1-7a6cd462",
+  "reader": "one independent `claude -p` process per crop, launched from /tmp, handed ONLY the absolute path of a blind copy under a random token - no plan, no topic, no manifest, no sealed key, and no path naming the video",
+  "prompt": "Look at the image at <absolute path of one blind crop> . Name the single everyday object drawn in it. At most FIVE words. Reply with ONE line of JSON and nothing else: {\"name\":\"<=5 words\",\"confidence\":\"sure|unsure|cannot tell\"}",
+  "dispatched_at": "2026-09-21T18:09:48",
+  "cli": "2.1.278 (Claude Code)",
+  "source_crops": {
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/proofs/crop_seal_00_gem.png": "c26d62e7d15c3e38c91ff18ac2c4562ea0ca74de9d05baa5fea1931e21efbb08",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/proofs/crop_seal_01_parcel.png": "f77899ff81666c070262cda135d4cc3959692410fb4beca4d474f8062b132850",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/proofs/crop_seal_02_trio.png": "392fbbe05beff70fc05d899d5fb88a9a62ce15b10799042acfd33dcbcfc136bf",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/proofs/crop_seal_03_crowd.png": "440b4176d636a1212f2b207b37cf81adb606d137c15132f1992bc59344c1a85a"
+  },
+  "names": [
+    {
+      "i": 0,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/cold/round_r1-7a6cd462/00.png",
+      "name": "diamond",
+      "confidence": "sure",
+      "crop_sha256": "c26d62e7d15c3e38c91ff18ac2c4562ea0ca74de9d05baa5fea1931e21efbb08"
+    },
+    {
+      "i": 1,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/cold/round_r1-7a6cd462/01.png",
+      "name": "gift box",
+      "confidence": "sure",
+      "crop_sha256": "f77899ff81666c070262cda135d4cc3959692410fb4beca4d474f8062b132850"
+    },
+    {
+      "i": 2,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/cold/round_r1-7a6cd462/02.png",
+      "name": "two people icon",
+      "confidence": "unsure",
+      "crop_sha256": "392fbbe05beff70fc05d899d5fb88a9a62ce15b10799042acfd33dcbcfc136bf"
+    },
+    {
+      "i": 3,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/cold/round_r1-7a6cd462/03.png",
+      "name": "group of people icon",
+      "confidence": "unsure",
+      "crop_sha256": "440b4176d636a1212f2b207b37cf81adb606d137c15132f1992bc59344c1a85a"
+    }
+  ]
+}

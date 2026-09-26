@@ -1,0 +1,608 @@
+{
+ "video": "grokimagine2",
+ "format": "whiteboard",
+ "variant": "plan view (fix)",
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/projects/grokimagine2_whiteboard",
+ "handle": "@migueltorrez.ai",
+ "handle_key": "tiktok_ig",
+ "duration_s": 32.32,
+ "fps": 25,
+ "render": "1080x1920 @ zoom 1",
+ "board": "576x460 design units",
+ "board_box": [
+  40.0,
+  150.0,
+  536.0,
+  425.0
+ ],
+ "strokes": 29,
+ "rigids": 28,
+ "board_text": [
+  "GROK IMAGINE 2.0",
+  "MOCKUPS",
+  "INFOGRAPHICS",
+  "IMAGES",
+  "VIDEOS",
+  "BEST VIDEO MODEL",
+  "MAGIC WAND",
+  "ANY IMAGE"
+ ],
+ "top_ink_u": 146.3,
+ "top_band_u": 102.4,
+ "pen_top_u": 107.8,
+ "ink_bottom_px": 788.4,
+ "cap_band_top_px": 799.2,
+ "cap_clearance_px": 10.8,
+ "ink_bottom_ink_px": 776.7,
+ "cap_clearance_ink_px": 22.5,
+ "seam_pill_top_px": 805.2,
+ "cap_clearance_ink_to_pill_px": 28.5,
+ "seam_measures": "cap_clearance_px = line boxes vs the reserved band (THE GATE); cap_clearance_ink_px = glyph ink vs the same band; cap_clearance_ink_to_pill_px = glyph ink vs the pill's painted top edge (the clerk's surface)",
+ "rail_hits": [],
+ "label_law": {
+  "window_s": 1.0,
+  "key_term": "GROK IMAGINE 2.0",
+  "key_term_fs_u": 22.5,
+  "written": {
+   "GROK IMAGINE 2.0": 1.3,
+   "MOCKUPS": 8.66,
+   "INFOGRAPHICS": 9.76,
+   "IMAGES": 10.76,
+   "VIDEOS": 11.3,
+   "1": 13.34,
+   "2": 13.42,
+   "3": 13.5,
+   "BEST VIDEO MODEL": 16.4,
+   "MAGIC WAND": 21.4,
+   "ANY IMAGE": 24.8
+  },
+  "plan": {
+   "twopt0": "GROK IMAGINE 2.0",
+   "mockups": "MOCKUPS",
+   "infographics": "INFOGRAPHICS",
+   "images": "IMAGES",
+   "videos": "VIDEOS",
+   "model": "BEST VIDEO MODEL",
+   "wand": "MAGIC WAND",
+   "image": "ANY IMAGE"
+  },
+  "comparisons": [],
+  "unplanned_text": [],
+  "verdict": "PASS"
+ },
+ "law4": {
+  "law": "4 (overlap test)",
+  "board_words_that_also_appear_as_a_pill": {}
+ },
+ "round4": {
+  "law6_lifetimes": {
+   "duration_s": 32.32,
+   "chaptered": true,
+   "max_frac": 0.4,
+   "declared_anchors": [],
+   "lingering": [],
+   "verdict": "PASS"
+  },
+  "law2_no_enclosure": {
+   "rings": 0,
+   "boxes": 0,
+   "highlights": 0,
+   "rasters": [],
+   "wrong_tool_advisory": [],
+   "verdict": "PASS"
+  },
+  "law3_label_side": {
+   "checked": 8,
+   "detail": {
+    "GROK IMAGINE 2.0": {
+     "host": "palette",
+     "dx_u": 0.0,
+     "band_u": 85.8,
+     "place": "below"
+    },
+    "MOCKUPS": {
+     "host": "phone",
+     "dx_u": 0.0,
+     "band_u": 22.1,
+     "place": "below"
+    },
+    "INFOGRAPHICS": {
+     "host": "poster",
+     "dx_u": 0.0,
+     "band_u": 29.9,
+     "place": "below"
+    },
+    "IMAGES": {
+     "host": "polaroid",
+     "dx_u": 0.0,
+     "band_u": 32.5,
+     "place": "below"
+    },
+    "VIDEOS": {
+     "host": "clapper",
+     "dx_u": 0.0,
+     "band_u": 36.4,
+     "place": "below"
+    },
+    "BEST VIDEO MODEL": {
+     "host": "podium",
+     "dx_u": 0.0,
+     "band_u": 179.4,
+     "place": "below"
+    },
+    "MAGIC WAND": {
+     "host": "wand",
+     "dx_u": 0.0,
+     "band_u": 94.9,
+     "place": "below"
+    },
+    "ANY IMAGE": {
+     "host": "picture",
+     "dx_u": 0.0,
+     "band_u": 117.0,
+     "place": "below"
+    }
+   },
+   "verdict": "PASS"
+  },
+  "law5_spacing": {
+   "gate_u": 8.5,
+   "gate_px": 15.9,
+   "aim_u": 12.8,
+   "aim_px": 24.0,
+   "measured_on": "element line boxes",
+   "under_aim": [
+    "type:MOCKUPS | type:INFOGRAPHICS = 12.2u (22.8 px)"
+   ],
+   "objects": 22,
+   "verdict": "PASS"
+  },
+  "law5_spacing_ink": {
+   "gate_u": 8.5,
+   "gate_px": 15.9,
+   "aim_u": 12.8,
+   "aim_px": 24.0,
+   "measured_on": "glyph ink extents",
+   "under_aim": [],
+   "objects": 22,
+   "verdict": "PASS"
+  },
+  "law5_no_crossing": {
+   "strokes": 29,
+   "types": 11,
+   "verdict": "PASS"
+  },
+  "law4_anchors": {
+   "targets": 4,
+   "detail": {
+    "phone": {
+     "n": 1,
+     "spread_u": 0.0,
+     "level": true,
+     "mirrored": false,
+     "on_rect": true
+    },
+    "poster": {
+     "n": 1,
+     "spread_u": 0.0,
+     "level": true,
+     "mirrored": false,
+     "on_rect": true
+    },
+    "polaroid": {
+     "n": 1,
+     "spread_u": 0.0,
+     "level": true,
+     "mirrored": false,
+     "on_rect": true
+    },
+    "clapper": {
+     "n": 1,
+     "spread_u": 0.0,
+     "level": true,
+     "mirrored": false,
+     "on_rect": true
+    }
+   },
+   "verdict": "PASS"
+  }
+ },
+ "outro": {
+  "move": "opaque sheet rises over the board",
+  "wipe_start": 28.24,
+  "wipe_end": 28.8,
+  "travel_px": 862.5,
+  "sheet_opaque": true,
+  "sheet_covers_px": 862.5,
+  "card_ink_enters_px": 322.5,
+  "board_covered_px": 588.1,
+  "overlap_px": 265.6,
+  "board_moves": false,
+  "board_fades": false,
+  "outro_start": 28.24,
+  "verdict": "PASS"
+ },
+ "captions": 32,
+ "cap_font_px": 56.2,
+ "cap_max_pill_w_px": 748.4,
+ "cap_w_budget_px": 756.0,
+ "anchors": {
+  "start": 0.1,
+  "twopt0": 0.72,
+  "grok2": 3.06,
+  "seam0": 5.8,
+  "uxui": 7.82,
+  "mockups": 8.64,
+  "infographics": 9.56,
+  "images": 10.56,
+  "videos": 11.1,
+  "seam1": 13.0,
+  "two": 14.36,
+  "model": 16.38,
+  "seam2": 17.86,
+  "application": 19.14,
+  "magic": 21.0,
+  "wand": 21.36,
+  "select": 22.5,
+  "image": 24.76,
+  "replace": 26.34,
+  "outro": 28.24,
+  "news": 29.18
+ },
+ "html_bytes": 107520,
+ "sfx": 19,
+ "pen_loops": 10,
+ "pen_seconds": 3.24,
+ "pen_duty_pct": 10.0,
+ "captions_law3b": {
+  "beats_before_merge": 32,
+  "beats_after_merge": 32,
+  "merges": 0,
+  "widest_pill_px": 748.4,
+  "budget_px": 756.0,
+  "beats": [
+   [
+    0.1,
+    0.72,
+    "Grok Imagine"
+   ],
+   [
+    0.72,
+    2.14,
+    "2.0 just released,"
+   ],
+   [
+    2.14,
+    3.06,
+    "the newest model by"
+   ],
+   [
+    3.06,
+    4.56,
+    "Grok for image and"
+   ],
+   [
+    4.56,
+    5.8,
+    "video generation."
+   ],
+   [
+    5.8,
+    7.04,
+    "Now, this model allows"
+   ],
+   [
+    7.04,
+    7.82,
+    "you to create"
+   ],
+   [
+    7.82,
+    9.56,
+    "UX/UI mockups,"
+   ],
+   [
+    9.56,
+    11.1,
+    "infographics, images,"
+   ],
+   [
+    11.1,
+    12.3,
+    "videos, anything that"
+   ],
+   [
+    12.3,
+    13.0,
+    "you might need."
+   ],
+   [
+    13.0,
+    13.72,
+    "It's also classed"
+   ],
+   [
+    13.72,
+    14.92,
+    "as number two for"
+   ],
+   [
+    14.92,
+    15.84,
+    "the best video"
+   ],
+   [
+    15.84,
+    16.94,
+    "generation model"
+   ],
+   [
+    16.94,
+    17.86,
+    "out there right now."
+   ],
+   [
+    17.86,
+    18.42,
+    "If you use it"
+   ],
+   [
+    18.42,
+    19.14,
+    "inside of the Grok"
+   ],
+   [
+    19.14,
+    20.56,
+    "application, you also get"
+   ],
+   [
+    20.56,
+    21.86,
+    "access to Magic Wand,"
+   ],
+   [
+    21.86,
+    22.5,
+    "which allows you to"
+   ],
+   [
+    22.5,
+    24.18,
+    "select a small section"
+   ],
+   [
+    24.18,
+    25.3,
+    "of any image"
+   ],
+   [
+    25.3,
+    26.06,
+    "and have your AI"
+   ],
+   [
+    26.06,
+    26.94,
+    "model replace"
+   ],
+   [
+    26.94,
+    28.24,
+    "exactly that."
+   ],
+   [
+    28.24,
+    28.98,
+    "Now follow for more"
+   ],
+   [
+    28.98,
+    29.42,
+    "AI news,"
+   ],
+   [
+    29.42,
+    30.44,
+    "videos, and tutorials each"
+   ],
+   [
+    30.44,
+    31.34,
+    "and every single day,"
+   ],
+   [
+    31.34,
+    31.72,
+    "and catch you in"
+   ],
+   [
+    31.72,
+    32.22,
+    "the next one."
+   ]
+  ],
+  "law": "captions.py 3b \u2014 merge_function_only_beats over the WHOLE beat stream, then assert_no_function_only_beat inside build()"
+ },
+ "seam_law": {
+  "plan_mode": "chapters",
+  "chapters": 4,
+  "seams": [
+   5.8,
+   13.0,
+   17.86
+  ],
+  "erase_s": 0.3,
+  "qc_seams": "5.8,13,17.86",
+  "handover": [
+   {
+    "seam": 5.8,
+    "incoming": "the palette never leaves (plan: it carries across)"
+   },
+   {
+    "seam": 13.0,
+    "incoming": "the podium draws inside the erase, 13.04-13.29"
+   },
+   {
+    "seam": 17.86,
+    "incoming": "the Grok tile travels to the picture's head, 17.86-18.36"
+   }
+  ],
+  "outro_wipe": 28.24
+ },
+ "pointing_cues": {
+  "n": 0,
+  "cards": [],
+  "waived": []
+ },
+ "phone_test_objects": [
+  {
+   "i": 0,
+   "name": "a painter's palette",
+   "t": 2.6,
+   "bbox_board_u": [
+    212.0,
+    208.0,
+    364.0,
+    316.0
+   ],
+   "bbox_norm": [
+    0.36806,
+    0.20312,
+    0.63194,
+    0.30859
+   ],
+   "plan_name": "a painter's palette",
+   "plan_t": 2.6
+  },
+  {
+   "i": 1,
+   "name": "a winners' podium",
+   "t": 16.9,
+   "bbox_board_u": [
+    140.0,
+    220.0,
+    436.0,
+    368.0
+   ],
+   "bbox_norm": [
+    0.24306,
+    0.21484,
+    0.75694,
+    0.35938
+   ],
+   "plan_name": "a winners' podium",
+   "plan_t": 16.9
+  },
+  {
+   "i": 2,
+   "name": "a framed picture",
+   "t": 20.8,
+   "bbox_board_u": [
+    74.0,
+    212.0,
+    274.0,
+    350.0
+   ],
+   "bbox_norm": [
+    0.12847,
+    0.20703,
+    0.47569,
+    0.3418
+   ],
+   "plan_name": "a framed picture",
+   "plan_t": 20.8
+  },
+  {
+   "i": 3,
+   "name": "a magic wand",
+   "t": 22.2,
+   "bbox_board_u": [
+    316.0,
+    216.0,
+    478.0,
+    346.0
+   ],
+   "bbox_norm": [
+    0.54861,
+    0.21094,
+    0.82986,
+    0.33789
+   ],
+   "plan_name": "a magic wand",
+   "plan_t": 22.2
+  }
+ ],
+ "emphasis": [
+  {
+   "at": 14.56,
+   "until": 17.4,
+   "target": "podium step 2",
+   "kind": "the step's own outline retraced in terracotta"
+  }
+ ],
+ "connectors": [
+  {
+   "name": "conn-phone",
+   "to": "phone",
+   "from": [
+    288.0,
+    308.0
+   ],
+   "end": [
+    132.0,
+    330.0
+   ],
+   "drawn_at": 7.82
+  },
+  {
+   "name": "conn-poster",
+   "to": "poster",
+   "from": [
+    288.0,
+    308.0
+   ],
+   "end": [
+    244.0,
+    330.0
+   ],
+   "drawn_at": 9.56
+  },
+  {
+   "name": "conn-polaroid",
+   "to": "polaroid",
+   "from": [
+    288.0,
+    308.0
+   ],
+   "end": [
+    352.0,
+    330.0
+   ],
+   "drawn_at": 10.56
+  },
+  {
+   "name": "conn-clapper",
+   "to": "clapper",
+   "from": [
+    288.0,
+    308.0
+   ],
+   "end": [
+    436.0,
+    330.0
+   ],
+   "drawn_at": 11.1
+  }
+ ],
+ "phone_at_args": [
+  "--phone-at",
+  "2.6:0.36806,0.20312,0.63194,0.30859:a painter's palette",
+  "--phone-at",
+  "16.9:0.24306,0.21484,0.75694,0.35938:a winners' podium",
+  "--phone-at",
+  "20.8:0.12847,0.20703,0.47569,0.3418:a framed picture",
+  "--phone-at",
+  "22.2:0.54861,0.21094,0.82986,0.33789:a magic wand"
+ ]
+}

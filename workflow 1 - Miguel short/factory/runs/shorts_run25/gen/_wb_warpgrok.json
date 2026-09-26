@@ -1,0 +1,388 @@
+{
+ "video": "warpgrok",
+ "format": "whiteboard",
+ "variant": "plan view (fix)",
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/projects/warpgrok_whiteboard",
+ "handle": "@migueltorrez.ai",
+ "handle_key": "tiktok_ig",
+ "duration_s": 26.32,
+ "fps": 25,
+ "render": "1080x1920 @ zoom 1",
+ "board": "576x460 design units",
+ "board_box": [
+  40.0,
+  148.0,
+  536.0,
+  425.0
+ ],
+ "strokes": 38,
+ "rigids": 29,
+ "board_text": [
+  "WARP",
+  "PROVIDERS",
+  "GROK"
+ ],
+ "top_ink_u": 147.2,
+ "top_band_u": 102.4,
+ "pen_top_u": 108.7,
+ "ink_bottom_px": 754.4,
+ "cap_band_top_px": 799.2,
+ "cap_clearance_px": 44.8,
+ "ink_bottom_ink_px": 748.0,
+ "cap_clearance_ink_px": 51.2,
+ "seam_pill_top_px": 805.2,
+ "cap_clearance_ink_to_pill_px": 57.2,
+ "seam_measures": "cap_clearance_px = line boxes vs the reserved band (THE GATE); cap_clearance_ink_px = glyph ink vs the same band; cap_clearance_ink_to_pill_px = glyph ink vs the pill's painted top edge (the clerk's surface)",
+ "rail_hits": [],
+ "label_law": {
+  "window_s": 1.0,
+  "key_term": "WARP",
+  "key_term_fs_u": 25.6,
+  "written": {
+   "WARP": 5.92,
+   "PROVIDERS": 8.16,
+   "PROVIDERS@left": 17.34,
+   "GROK": 19.62
+  },
+  "plan": {
+   "warp": "WARP",
+   "providers": "PROVIDERS",
+   "grok": "GROK"
+  },
+  "comparisons": [],
+  "unplanned_text": [],
+  "verdict": "PASS"
+ },
+ "law4": {
+  "law": "4 (overlap test)",
+  "board_words_that_also_appear_as_a_pill": {}
+ },
+ "round4": {
+  "law6_lifetimes": {
+   "duration_s": 26.32,
+   "chaptered": true,
+   "max_frac": 0.4,
+   "declared_anchors": [],
+   "lingering": [],
+   "verdict": "PASS"
+  },
+  "law2_no_enclosure": {
+   "rings": 0,
+   "boxes": 6,
+   "highlights": 0,
+   "rasters": [],
+   "wrong_tool_advisory": [],
+   "verdict": "PASS"
+  },
+  "law3_label_side": {
+   "checked": 3,
+   "detail": {
+    "WARP": "unwelded",
+    "PROVIDERS": {
+     "host": "key-openai",
+     "dx_u": 0.0,
+     "band_u": 33.3,
+     "place": "below"
+    },
+    "GROK": {
+     "host": "key-grok",
+     "dx_u": 0.0,
+     "band_u": 33.3,
+     "place": "below"
+    }
+   },
+   "verdict": "PASS"
+  },
+  "law5_spacing": {
+   "gate_u": 8.5,
+   "gate_px": 15.9,
+   "aim_u": 12.8,
+   "aim_px": 24.0,
+   "measured_on": "element line boxes",
+   "under_aim": [
+    "hook-1 | emph-head-claude = 9.3u (17.5 px)",
+    "hook-2 | emph-head-openai = 9.3u (17.5 px)",
+    "hook-3 | emph-head-gemini = 9.3u (17.5 px)",
+    "hook-4 | emph-head-grok = 9.3u (17.5 px)"
+   ],
+   "objects": 29,
+   "verdict": "PASS"
+  },
+  "law5_spacing_ink": {
+   "gate_u": 8.5,
+   "gate_px": 15.9,
+   "aim_u": 12.8,
+   "aim_px": 24.0,
+   "measured_on": "glyph ink extents",
+   "under_aim": [
+    "hook-1 | emph-head-claude = 9.3u (17.5 px)",
+    "hook-2 | emph-head-openai = 9.3u (17.5 px)",
+    "hook-3 | emph-head-gemini = 9.3u (17.5 px)",
+    "hook-4 | emph-head-grok = 9.3u (17.5 px)"
+   ],
+   "objects": 29,
+   "verdict": "PASS"
+  },
+  "law5_no_crossing": {
+   "strokes": 38,
+   "types": 3,
+   "verdict": "PASS"
+  },
+  "law4_anchors": {
+   "targets": 0,
+   "verdict": "SKIP \u2014 no connectors declared"
+  }
+ },
+ "outro": {
+  "move": "opaque sheet rises over the board",
+  "wipe_start": 22.3,
+  "wipe_end": 22.86,
+  "travel_px": 862.5,
+  "sheet_opaque": true,
+  "sheet_covers_px": 862.5,
+  "card_ink_enters_px": 322.5,
+  "board_covered_px": 586.5,
+  "overlap_px": 264.0,
+  "board_moves": false,
+  "board_fades": false,
+  "outro_start": 22.3,
+  "verdict": "PASS"
+ },
+ "captions": 27,
+ "cap_font_px": 56.2,
+ "cap_max_pill_w_px": 754.0,
+ "cap_w_budget_px": 756.0,
+ "anchors": {
+  "multiple": 1.06,
+  "ai": 1.5,
+  "agents": 1.76,
+  "same": 3.38,
+  "this": 4.1,
+  "warp": 5.62,
+  "central": 6.48,
+  "all": 7.06,
+  "different": 7.42,
+  "providers": 7.74,
+  "one": 9.62,
+  "every": 12.26,
+  "released": 16.84,
+  "new": 17.24,
+  "grok": 19.42,
+  "subscr": 19.7,
+  "warp2": 21.36,
+  "outro": 22.3,
+  "news": 23.22
+ },
+ "html_bytes": 108052,
+ "sfx": 15,
+ "pen_loops": 4,
+ "pen_seconds": 1.62,
+ "pen_duty_pct": 6.2,
+ "captions_law3b": {
+  "beats_before_merge": 27,
+  "beats_after_merge": 27,
+  "merges": 0,
+  "merged_away": [],
+  "widest_pill_px": 754.0,
+  "budget_px": 756.0,
+  "beats": [
+   [
+    0.16,
+    0.72,
+    "If you're someone who"
+   ],
+   [
+    0.72,
+    1.76,
+    "works with multiple AI"
+   ],
+   [
+    1.76,
+    2.6,
+    "agents inside of a"
+   ],
+   [
+    2.6,
+    3.24,
+    "terminal at"
+   ],
+   [
+    3.24,
+    4.1,
+    "the same time,"
+   ],
+   [
+    4.1,
+    5.16,
+    "this video's for you."
+   ],
+   [
+    5.16,
+    6.0,
+    "By using Warp,"
+   ],
+   [
+    6.0,
+    7.18,
+    "you can centralize all"
+   ],
+   [
+    7.18,
+    8.18,
+    "of the different providers"
+   ],
+   [
+    8.18,
+    9.28,
+    "that you're using inside"
+   ],
+   [
+    9.28,
+    11.06,
+    "of one simple application,"
+   ],
+   [
+    11.06,
+    12.26,
+    "giving you access to"
+   ],
+   [
+    12.26,
+    12.64,
+    "everything"
+   ],
+   [
+    12.64,
+    12.98,
+    "that you might"
+   ],
+   [
+    12.98,
+    14.32,
+    "need in a nicer"
+   ],
+   [
+    14.32,
+    15.58,
+    "interface. On top of"
+   ],
+   [
+    15.58,
+    16.84,
+    "this, they literally just"
+   ],
+   [
+    16.84,
+    17.76,
+    "released a new feature"
+   ],
+   [
+    17.76,
+    19.16,
+    "that allows you to use"
+   ],
+   [
+    19.16,
+    20.82,
+    "your Grok subscription"
+   ],
+   [
+    20.82,
+    22.3,
+    "with the Warp agent."
+   ],
+   [
+    22.3,
+    23.04,
+    "Now, follow for more"
+   ],
+   [
+    23.04,
+    23.46,
+    "AI news,"
+   ],
+   [
+    23.46,
+    24.5,
+    "videos, and tutorials each"
+   ],
+   [
+    24.5,
+    25.34,
+    "and every single day,"
+   ],
+   [
+    25.34,
+    25.72,
+    "and catch you in"
+   ],
+   [
+    25.72,
+    26.2,
+    "the next one."
+   ]
+  ]
+ },
+ "boards": [
+  {
+   "board": 0,
+   "mode": "single",
+   "in": 0.3,
+   "erase_at": 22.3,
+   "erase": "the outro's rising sheet",
+   "name": "three crooked provider keys (Claude, OpenAI, Gemini marks in their heads) become a Warp key rack: a plank with WARP on its face, the keys hanging straight on J-hooks with PROVIDERS under them; the row slides left and a Grok key hangs on a fourth hook with GROK under it",
+   "keys": [
+    "WARP",
+    "PROVIDERS",
+    "GROK"
+   ]
+  }
+ ],
+ "seam_law": {
+  "plan_mode": "single",
+  "chapters": 1,
+  "seams": [],
+  "note": "single board (plan.boards.mode == 'single'): no chapter erase, so no seam is passed to qc_pass. The registry's shared t_to at 16.84 is the row's SLIDE (old placement ends, @left placement begins), not an erase; the board holds the plank, WARP and all three keys through it.",
+  "outro_wipe": 22.3
+ },
+ "pointing_cues": {
+  "n": 0,
+  "note": "gen/_cues_warpgrok.json: 0 cues"
+ },
+ "phone_test_objects": [
+  {
+   "i": 0,
+   "name": "three loose keys",
+   "t": 2.6,
+   "core": [
+    312.11954252246437,
+    256.560259150949,
+    783.0024572612202,
+    525.7509699669067
+   ],
+   "norm": [
+    0.27974,
+    0.22842,
+    0.73426,
+    0.37904
+   ]
+  },
+  {
+   "i": 1,
+   "name": "wall key rack",
+   "t": 9.2,
+   "core": [
+    140.0,
+    88.0,
+    940.0,
+    500.5
+   ],
+   "norm": [
+    0.12037,
+    0.14062,
+    0.87963,
+    0.36589
+   ]
+  }
+ ]
+}

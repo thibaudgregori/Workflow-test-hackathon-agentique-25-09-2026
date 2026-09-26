@@ -1,0 +1,21 @@
+{
+  "vid": "cursorspacex",
+  "module": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/gen/cursorspacex_scene.py",
+  "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/proofs_cursorspacex/crop_seal_00_flag.png",
+  "rounds": 3,
+  "objects": [
+    {
+      "i": 0,
+      "label": "flag",
+      "intended": "a flag on a pole",
+      "kind": "metaphor",
+      "verdict": "PASS",
+      "reason": "Three independent readers, three separate dispatches on one crop, all answered 'flag with heart' and all were sure. The intended object is a flag on a pole and the heart is what is printed on it at that instant, so every read names the container AND its content: score the idea, not the noun (2026-09-06). Zero readers named a different thing, three of three reached it, three clean sure reads.",
+      "reads": [
+        {"round": 1, "name": "flag with heart", "confidence": "sure", "match": "intended"},
+        {"round": 2, "name": "flag with heart", "confidence": "sure", "match": "intended"},
+        {"round": 3, "name": "flag with heart", "confidence": "sure", "match": "intended"}
+      ]
+    }
+  ]
+}

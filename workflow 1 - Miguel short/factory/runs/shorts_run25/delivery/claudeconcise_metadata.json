@@ -1,0 +1,23 @@
+{
+  "title": "Claude's New Concise Output Style Ends the 3-Page Answers",
+  "lines": ["CLAUDE TOO", "WORDY? SET", "CONCISE"],
+  "kw": "Concise",
+  "pose": "neutral-smile",
+  "kw_reason": "Concise is the name of the new output style mode and the whole fix: set the output style to Concise and the answers get short and understandable.",
+  "hl_reason": "The cover states the problem (Claude answers too long for simple asks) and lands on the one setting that fixes it, so the highlight carries the fix.",
+  "sentence": "Claude too wordy? Set Concise.",
+  "claim": "Claude gives two to three pages of text for simple asks, and setting the new Output Styles mode to Concise makes it reply short and easy to understand.",
+  "quotes": [
+    "it's going to give you two to three pages worth of text to read",
+    "it ships with a new mode that's called Concise",
+    "set your output style to Concise, now your AI agent will always reply to you in a very short format"
+  ],
+  "ct": "tutorial",
+  "cl": "concise",
+  "reason": "A single setting the viewer can change right away (output style to Concise); the one step fits in a concise description without losing anything.",
+  "yd": "Ask Claude something very simple and you get two to three pages of text back. Anthropic shipped a fix called Output Styles: you tell your AI how you like your responses, and it comes with a new mode called Concise.\n\nHow to turn it on: go into your settings and set your output style to Concise. Your AI agent will then always reply in a very short format that is easier to understand.\n\nFollow @migueltorrezai for daily AI news and tutorials.\n\n#ClaudeCode #Anthropic #AITools",
+  "tags": ["Claude Code", "Claude", "Anthropic", "Output Styles", "Concise Mode", "AI Tools", "AI Tutorial"],
+  "tt": "Claude gives you two to three pages of text for a very simple question? Anthropic shipped Output Styles, and it has a new mode called Concise. Go into your settings, set your output style to Concise, and your AI agent replies short and easy to understand. Follow @migueltorrez.ai for daily AI news and tutorials. #claudecode #anthropic #aitools #claude",
+  "ig": "Simple question, three pages of answer. Sound familiar?\n\nAnthropic shipped Output Styles, and it comes with a new mode called Concise.\n\nGo into your settings and set your output style to Concise. From then on your AI agent replies in a very short format you can actually understand.\n\nFollow @migueltorrez.ai for daily AI news and tutorials.\n\n#claudecode #anthropic #aitools #claude",
+  "rr": "No prompt, link or resource is promised."
+}

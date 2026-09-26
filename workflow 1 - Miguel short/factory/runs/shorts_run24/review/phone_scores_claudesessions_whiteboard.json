@@ -1,0 +1,23 @@
+{
+ "video": "claudesessions",
+ "format": "whiteboard",
+ "round": "confirm2 (ONE round at the author seat, 2026-09-14 rule: these two drawings were already sealed on three independent rounds at the artwork seat, review/artwork_pass_claudesessions.json, and the whiteboard redraws the SAME metaphor in marker ink)",
+ "objects": [
+  {"i": 0,
+   "intended": "two walkie talkies",
+   "namer_answer": "two walkie-talkies",
+   "confidence": "sure",
+   "match": "intended",
+   "verdict": "PASS",
+   "reason": "the reader named the intended object exactly, in two words, sure. No hedge, no second name, and it reached the object (the crop holds nothing else)."},
+  {"i": 1,
+   "intended": "three walkie talkies",
+   "namer_answer": "walkie-talkie",
+   "confidence": "sure",
+   "match": "intended",
+   "verdict": "PASS",
+   "reason": "the reader named the intended object, sure. The singular/plural is a count, not a different thing: SCORE THE IDEA, NOT THE NOUN (Miguel, 2026-09-06). The trio is the same radio at 0.82 scale, so naming the radio IS naming the drawing."}
+ ],
+ "verdict": "PASS",
+ "note": "No object failed and no object is new to this lane's metaphor, so no redraw and no --rounds 3 seal round was dispatched. NEVER RE-DISPATCH AN UNCHANGED CROP."
+}

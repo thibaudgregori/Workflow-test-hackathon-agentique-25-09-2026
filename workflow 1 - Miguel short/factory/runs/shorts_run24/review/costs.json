@@ -1,0 +1,128 @@
+{
+ "run": "shorts_run24",
+ "run_dir": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24",
+ "ledger": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/costs.jsonl",
+ "rows": 85,
+ "total_usd": 1.479914,
+ "by_service": {
+  "modal": 0.837971,
+  "gemini": 0.512617,
+  "elevenlabs": 0.129326,
+  "other": 0.0
+ },
+ "by_stage": {
+  "scribe": 0.129326,
+  "sweep": 0.1287,
+  "track": 0.087131,
+  "ship": 0.31454,
+  "render": 0.3076,
+  "watch": 0.427226,
+  "gate3": 0.085391
+ },
+ "by_video": {
+  "claudesessions": {
+   "modal": 0.209727,
+   "gemini": 0.144682,
+   "elevenlabs": 0.009726,
+   "other": 0.0,
+   "total": 0.364135,
+   "rows": 22,
+   "stages": {
+    "scribe": 0.009726,
+    "track": 0.027811,
+    "ship": 0.100616,
+    "render": 0.0549,
+    "watch": 0.121717,
+    "gate3": 0.022965,
+    "sweep": 0.0264
+   }
+  },
+  "cursorspacex": {
+   "modal": 0.174286,
+   "gemini": 0.196237,
+   "elevenlabs": 0.01541,
+   "other": 0.0,
+   "total": 0.385933,
+   "rows": 24,
+   "stages": {
+    "scribe": 0.01541,
+    "track": 0.018002,
+    "ship": 0.055284,
+    "sweep": 0.0273,
+    "render": 0.0737,
+    "gate3": 0.034619,
+    "watch": 0.161618
+   }
+  },
+  "geminigems": {
+   "modal": 0.193547,
+   "gemini": 0.171698,
+   "elevenlabs": 0.017279,
+   "other": 0.0,
+   "total": 0.382524,
+   "rows": 25,
+   "stages": {
+    "scribe": 0.017279,
+    "track": 0.015795,
+    "ship": 0.053152,
+    "sweep": 0.0258,
+    "render": 0.0988,
+    "gate3": 0.027807,
+    "watch": 0.143891
+   }
+  },
+  "primeagent": {
+   "modal": 0.260411,
+   "gemini": 0.0,
+   "elevenlabs": 0.028214,
+   "other": 0.0,
+   "total": 0.288625,
+   "rows": 10,
+   "stages": {
+    "scribe": 0.028214,
+    "track": 0.025523,
+    "ship": 0.105488,
+    "sweep": 0.0492,
+    "render": 0.0802
+   }
+  },
+  "transcripts": {
+   "modal": 0.0,
+   "gemini": 0.0,
+   "elevenlabs": 0.058697,
+   "other": 0.0,
+   "total": 0.058697,
+   "rows": 4,
+   "stages": {
+    "scribe": 0.058697
+   }
+  }
+ },
+ "by_format": {
+  "cutout": 0.242133,
+  "split": 0.290415,
+  "whiteboard": 0.287669
+ },
+ "staged_shorts": 12,
+ "staged_files": [
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/staging/reels/claudesessions_whiteboard.mp4",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/staging/reels/cursorspacex_whiteboard.mp4",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/staging/reels/geminigems_whiteboard.mp4",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/staging/reels/primeagent_whiteboard.mp4",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/staging/tiktok/claudesessions_cutout.mp4",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/staging/tiktok/cursorspacex_cutout.mp4",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/staging/tiktok/geminigems_cutout.mp4",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/staging/tiktok/primeagent_cutout.mp4",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/staging/youtube/claudesessions_split.mp4",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/staging/youtube/cursorspacex_split.mp4",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/staging/youtube/geminigems_split.mp4",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/staging/youtube/primeagent_split.mp4"
+ ],
+ "usd_per_delivered_short": 0.123326,
+ "stages_never_recorded": [
+  "draft",
+  "verify",
+  "clerk_watch"
+ ],
+ "scribe_rate_note": "estimate at $0.40/audio-hour (ElevenLabs Scribe list rate, tools/elevenlabs.md; the API returns no cost, so this is not measured)"
+}

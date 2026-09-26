@@ -1,0 +1,376 @@
+{
+ "render": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/grokimagine2_split.mp4",
+ "vid": "grokimagine2",
+ "fmt": "split",
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/projects/grokimagine2_split",
+ "checks": {
+  "decoded_blank_frames": {
+   "ok": true,
+   "result": {
+    "frames": 808,
+    "fps": 25.0,
+    "zone": [
+     0,
+     862,
+     1080,
+     862
+    ],
+    "ink_floor": 0.0006,
+    "min_ink_frac": 0.0,
+    "empty_frames_total": 2,
+    "leading_trailing_empty": 2,
+    "interior_blank_frames": [],
+    "pass": true
+   },
+   "wall_s": 0.0
+  },
+  "zero_ink_law": {
+   "ok": true,
+   "result": {
+    "render": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/grokimagine2_split.mp4",
+    "frames": 808,
+    "fps": 25.0,
+    "zone_bottom_design_px": 862.5,
+    "zone_px": [
+     1080,
+     862
+    ],
+    "first_word_s": 0.1,
+    "leading_empty_frames": 2,
+    "first_judged_frame": 3,
+    "min_ink_frac_judged": 0.0190846,
+    "min_ink_frac_at_s": 7.84,
+    "blank_frames": [],
+    "verdict": "PASS"
+   },
+   "wall_s": 0.0
+  },
+  "clip_coverage_page": {
+   "ok": true,
+   "result": {
+    "duration_s": 32.32,
+    "fps": 25,
+    "groups": {
+     "stage": {
+      "clips": 0,
+      "checked": false,
+      "note": "fewer than two clips \u2014 nothing can hand over"
+     },
+     "tz": {
+      "clips": 1,
+      "checked": false,
+      "note": "fewer than two clips \u2014 nothing can hand over"
+     },
+     "scap": {
+      "clips": 31,
+      "checked": true,
+      "frames": 808,
+      "span": [
+       0.08,
+       32.3
+      ],
+      "holes": [],
+      "ghosts": [],
+      "pass": true
+     }
+    },
+    "holes": 0,
+    "ghosts": 0,
+    "pass": true
+   },
+   "wall_s": 0.0
+  },
+  "double_exposure": {
+   "ok": true,
+   "result": {
+    "frames": 808,
+    "fps": 25.0,
+    "first_word_s": 0.1,
+    "leading_blank_run_frames": 5,
+    "after_first_word": {
+     "from_frame": 3,
+     "from_t": 0.12,
+     "basis": "first spoken word",
+     "min_ink": 0,
+     "min_ink_t": 0.12,
+     "min_ink40": 0,
+     "min_ink40_t": 0.12,
+     "zero_ink_frames": [
+      0.12,
+      0.16,
+      28.52,
+      28.56,
+      28.6,
+      28.64,
+      28.68,
+      28.72
+     ],
+     "zero_ink40_frames": [
+      0.12,
+      0.16,
+      0.2,
+      28.52,
+      28.56,
+      28.6,
+      28.64,
+      28.68,
+      28.72
+     ]
+    },
+    "after_leading_run": {
+     "from_frame": 5,
+     "from_t": 0.2,
+     "basis": "opening fade-up cleared",
+     "min_ink": 0,
+     "min_ink_t": 28.52,
+     "min_ink40": 0,
+     "min_ink40_t": 0.2,
+     "zero_ink_frames": [
+      28.52,
+      28.56,
+      28.6,
+      28.64,
+      28.68,
+      28.72
+     ],
+     "zero_ink40_frames": [
+      0.2,
+      28.52,
+      28.56,
+      28.6,
+      28.64,
+      28.68,
+      28.72
+     ]
+    },
+    "after_first_readable_ink": {
+     "from_frame": 6,
+     "from_t": 0.24,
+     "basis": "first READABLE ink on screen",
+     "min_ink": 0,
+     "min_ink_t": 28.52,
+     "min_ink40": 0,
+     "min_ink40_t": 28.52,
+     "zero_ink_frames": [
+      28.52,
+      28.56,
+      28.6,
+      28.64,
+      28.68,
+      28.72
+     ],
+     "zero_ink40_frames": [
+      28.52,
+      28.56,
+      28.6,
+      28.64,
+      28.68,
+      28.72
+     ]
+    },
+    "double_exposure_floor_px": 600,
+    "double_exposure_frames": [
+     {
+      "t": 13.08,
+      "outgoing_px": 3430,
+      "incoming_px": 1373
+     },
+     {
+      "t": 21.2,
+      "outgoing_px": 630,
+      "incoming_px": 1112
+     }
+    ],
+    "double_exposure_count": 2,
+    "note": "candidates, not a verdict \u2014 adjudicate each window (procedure v3); the opening fade-up legitimately fires"
+   },
+   "wall_s": 0.06
+  },
+  "face_centring": {
+   "ok": true,
+   "result": {
+    "label": "grokimagine2_split",
+    "video": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/grokimagine2_split.mp4",
+    "duration_s": 32.34,
+    "detector": "mediapipe/blazeface",
+    "segment_source": "auto:layout-detector",
+    "segments": null,
+    "every_s": 0.5,
+    "tol_pct": 4.0,
+    "band_level": "warning",
+    "full_face": {
+     "n": 0,
+     "worst_dx_pct": null,
+     "worst_t": null,
+     "mean_abs_dx_pct": null,
+     "offenders": []
+    },
+    "band": {
+     "n": 65,
+     "worst_dx_pct": 5.28,
+     "worst_t": 23.0,
+     "warnings": [
+      {
+       "t": 14.0,
+       "dx_pct": 4.17,
+       "face_h_pct": 15.1,
+       "class": "band",
+       "score": 0.99,
+       "skin": 0.9
+      },
+      {
+       "t": 23.0,
+       "dx_pct": 5.28,
+       "face_h_pct": 14.9,
+       "class": "band",
+       "score": 0.99,
+       "skin": 0.91
+      }
+     ]
+    },
+    "pass": true,
+    "verdict": "PASS"
+   },
+   "wall_s": 1.0
+  },
+  "pill_canon_rendered": {
+   "ok": true,
+   "result": {
+    "samples": 60,
+    "band_rows_px": [
+     772,
+     952
+    ],
+    "frames_without_a_pill": 0,
+    "distinct_heights_px": {
+     "114": 60
+    },
+    "modal_height_px": 114,
+    "modal_height_design_px": 114.0,
+    "spread_px": 0,
+    "spread_max_px": 2.0,
+    "canonical_height_px": 114.59,
+    "canonical_height_design_px": 114.59,
+    "modal_vs_canon_px": 0.59,
+    "tolerance_px": 3.0,
+    "delivery_scale": 1.0,
+    "widest_pill_px": 720,
+    "widest_pill_in_design_px": 720.0,
+    "verdict": "PASS",
+    "pass": true
+   },
+   "wall_s": 0.0
+  },
+  "gate1_geometry_audit": {
+   "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/geometry_audit.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/projects/grokimagine2_split --step 0.25 --out /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/gen/_gate1_grokimagine2_split.json",
+   "rc": 0,
+   "stdout": "grokimagine2_split: 0 errors, 0 warnings (32.3s @ 0.25s step)\n",
+   "stderr": "",
+   "wall_s": 3.37
+  },
+  "gate2_frame_review": {
+   "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/qc/gate2_frames.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/grokimagine2_split.mp4 --full --transcript /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/cuts/grokimagine2/transcript_tight.json",
+   "rc": 0,
+   "stdout": "  t=00:23.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/frames_grokimagine2_split/f_0023_000.jpg\n  t=00:23.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/frames_grokimagine2_split/f_0023_333.jpg\n  t=00:23.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/frames_grokimagine2_split/f_0023_666.jpg\n  t=00:24.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/frames_grokimagine2_split/f_0024_000.jpg\n  t=00:24.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/frames_grokimagine2_split/f_0024_333.jpg\n  t=00:25.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/frames_grokimagine2_split/f_0025_000.jpg\n  t=00:25.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/frames_grokimagine2_split/f_0025_333.jpg\n  t=00:25.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/frames_grokimagine2_split/f_0025_666.jpg\n  t=00:26.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/frames_grokimagine2_split/f_0026_000.jpg\n  t=00:26.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/frames_grokimagine2_split/f_0026_333.jpg\n  t=00:26.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/frames_grokimagine2_split/f_0026_666.jpg\n  t=00:27.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/frames_grokimagine2_split/f_0027_000.jpg\n  t=00:27.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/frames_grokimagine2_split/f_0027_333.jpg\n  t=00:27.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/frames_grokimagine2_split/f_0027_666.jpg\n  t=00:28.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/frames_grokimagine2_split/f_0028_000.jpg\n  t=00:28.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/frames_grokimagine2_split/f_0028_333.jpg\n  t=00:28.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/frames_grokimagine2_split/f_0028_666.jpg\n  t=00:29.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/frames_grokimagine2_split/f_0029_000.jpg\n  t=00:29.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/frames_grokimagine2_split/f_0029_666.jpg\n  t=00:30.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/frames_grokimagine2_split/f_0030_000.jpg\n  t=00:30.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/frames_grokimagine2_split/f_0030_333.jpg\n  t=00:31.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/frames_grokimagine2_split/f_0031_000.jpg\n  t=00:31.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/frames_grokimagine2_split/f_0031_333.jpg\n  t=00:31.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/frames_grokimagine2_split/f_0031_666.jpg\n  t=00:32.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/frames_grokimagine2_split/f_0032_000.jpg\n\nManifest: /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/frames_grokimagine2_split/manifest.md  (delete dir after review)\n",
+   "stderr": "",
+   "wall_s": 1.38
+  },
+  "gate3_gemini_describe": {
+   "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/qc/gate3_gemini.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/grokimagine2_split.mp4 grokimagine2 --run /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25 --label qcpass_grokimagine2_split",
+   "rc": 1,
+   "stdout": "",
+   "stderr": "upload retry 1: 402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\nupload retry 2: 402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\nupload retry 3: 402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\nTraceback (most recent call last):\n  File \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/qc/gate3_gemini.py\", line 285, in <module>\n    cand = upload_retry(cand_path)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/qc/gate3_gemini.py\", line 202, in upload_retry\n    raise RuntimeError(f\"upload failed: {path}\")\nRuntimeError: upload failed: /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/grokimagine2_split.mp4\n",
+   "wall_s": 20.25
+  },
+  "audio_guards": {
+   "ok": true,
+   "result": {
+    "mix_8_16k_db": -29.49,
+    "master_8_16k_db": -29.34,
+    "delta_db": -0.15,
+    "tolerance_db": 6.0,
+    "speech_margin_db_p85_p15_33ms_s16le": 18.281,
+    "sync": {
+     "lag_ms": 0,
+     "r": 0.9945,
+     "instrument": "10 ms |x| envelope, +/-250 ms search"
+    },
+    "audio_initial_padding_samples": 0,
+    "verdict": "PASS",
+    "pass": true
+   },
+   "wall_s": 0.67
+  },
+  "contact_sheet": {
+   "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/contact_sheet.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/grokimagine2_split.mp4 --id grokimagine2 --fmt split --run /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25",
+   "rc": 0,
+   "stdout": "{\n \"sheet\": \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/review/sheet_grokimagine2_split.png\",\n \"id\": \"grokimagine2\",\n \"fmt\": \"split\",\n \"duration_s\": 32.34,\n \"frame_source\": \"even\",\n \"times\": [\n  1.35,\n  4.04,\n  6.74,\n  9.43,\n  12.13,\n  14.82,\n  17.52,\n  20.21,\n  22.91,\n  25.6,\n  28.3,\n  30.99\n ],\n \"size_px\": [\n  1798,\n  4344\n ]\n}\n",
+   "stderr": "",
+   "wall_s": 3.67
+  },
+  "phone_crops": {
+   "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/phone_crops.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/grokimagine2_split.mp4 --out /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/review --label grokimagine2_split --at 2.60:0.37685,0.22078,0.62315,0.32469:a painter's palette --at 16.90:0.24491,0.23167,0.75509,0.34052:a winners' podium --at 20.80:0.35486,0.21286,0.64514,0.33656:a framed picture --at 22.20:0.56157,0.21781,0.79028,0.33161:a magic wand",
+   "rc": 0,
+   "stdout": "{\n \"sheet\": \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/review/phone_grokimagine2_split.png\",\n \"manifest\": \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/review/phone_grokimagine2_split.json\",\n \"answer_key\": \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/review/phone_grokimagine2_split.key.json\",\n \"n_objects\": 4,\n \"phone_sizes_px\": [\n  [\n   100,\n   75\n  ],\n  [\n   206,\n   79\n  ],\n  [\n   118,\n   89\n  ],\n  [\n   93,\n   82\n  ]\n ]\n}\n",
+   "stderr": "",
+   "wall_s": 1.05
+  }
+ },
+ "skipped": {
+  "cutout_checks_24_25": "cutout only, and needs --project",
+  "edge_clip": "cutout only, and needs --alpha",
+  "whiteboard_seam_law": "whiteboard only, and needs --seams (the chapter erase times)",
+  "face_hf_vs_plate": "needs --plate (the display plate)",
+  "head_scale_vs_framing": "needs --alpha and --edge-box (the crown comes from the matte's own alpha, the chin from MediaPipe on the delivered frame)"
+ },
+ "zone_bottom_design_px": 862.5,
+ "decode": {
+  "frames": 808,
+  "fps": 25.0,
+  "size": [
+   1080,
+   1920
+  ],
+  "grid_frames": 65,
+  "caption_band_rows": [
+   772,
+   952
+  ],
+  "caption_seat_design_px": 862.5,
+  "wall_s": 7.05
+ },
+ "verdicts": {
+  "decoded_blank_frames": "PASS",
+  "zero_ink_law": "PASS",
+  "clip_coverage_page": "PASS",
+  "double_exposure": "REPORTED",
+  "face_centring": "PASS",
+  "pill_canon_rendered": "PASS",
+  "gate1_geometry_audit": "PASS",
+  "gate2_frame_review": "PASS",
+  "gate3_gemini_describe": "REPORTED",
+  "audio_guards": "PASS",
+  "contact_sheet": "PASS",
+  "phone_crops": "PASS"
+ },
+ "advisory": {
+  "gate3_gemini_describe": "FAIL from gemini describe-mode, downgraded to REPORTED: the clerk adjudicates its describe_errors against the frames"
+ },
+ "wall_s": {
+  "decoded_blank_frames": 0.0,
+  "zero_ink_law": 0.0,
+  "clip_coverage_page": 0.0,
+  "double_exposure": 0.06,
+  "face_centring": 1.0,
+  "pill_canon_rendered": 0.0,
+  "gate1_geometry_audit": 3.37,
+  "gate2_frame_review": 1.38,
+  "gate3_gemini_describe": 20.25,
+  "audio_guards": 0.67,
+  "contact_sheet": 3.67,
+  "phone_crops": 1.05,
+  "single_decode": 7.05
+ },
+ "total_wall_s": 20.27,
+ "pass": true
+}

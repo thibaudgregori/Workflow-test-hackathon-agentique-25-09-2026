@@ -1,0 +1,489 @@
+# claudeconcise — creative plan
+
+The script is one input-output chain told twice (a simple ask goes into Claude Code and a three-page scroll comes out; then a dial set to CONCISE goes in and the scroll is cut short), so a left-to-right diagram with the Claude Code mascot in the middle IS the argument, and intake's 'diagram build' fits it.
+
+```json
+{
+  "id": "claudeconcise",
+  "duration_s": 41.774,
+  "lane": "diagram build",
+  "lane_reason": "The script is one input-output chain told twice (a simple ask goes into Claude Code and a three-page scroll comes out; then a dial set to CONCISE goes in and the scroll is cut short), so a left-to-right diagram with the Claude Code mascot in the middle IS the argument, and intake's 'diagram build' fits it.",
+  "beats": [
+    {
+      "i": 0,
+      "t_start": 0.12,
+      "t_end": 2.7,
+      "words": "Claude no longer speaks English, and this is how to fix it.",
+      "says": "Claude's answers are no longer plain English, and there is a fix.",
+      "picture": "The Claude Code mascot tile pops in alone in the middle; a big speech bubble grows out of it upward and fills with scribbled gibberish glyphs (hash signs, braces, zigzag words, sigma, loops) on 'speaks'. On 'English' the key term NO LONGER ENGLISH is written large under the mascot.",
+      "whiteboard": "The marker draws the speech bubble first, alone on the axis, then scribbles the gibberish glyphs into it, then places the Claude Code mark under the bubble's tail and writes NO LONGER ENGLISH under the mark.",
+      "objects": [
+        "claude code tile",
+        "jargon speech bubble",
+        "NO LONGER ENGLISH"
+      ],
+      "emphasis": []
+    },
+    {
+      "i": 1,
+      "t_start": 2.88,
+      "t_end": 13.02,
+      "words": "Now, if you've been using Anthropic models for the last couple of months, you will notice that whenever you ask it for something very, very simple, it's going to give you two to three pages worth of text to read.",
+      "says": "Ask Claude something very simple and you get two to three pages of text back.",
+      "picture": "The bubble and the key term hold through 'Anthropic models ... couple of months' and leave on 'notice'. On 'ask' a tiny paper note with one short line and a big question mark pops in at the LEFT and a terracotta arrow draws from it into the mascot; SIMPLE is written above the note on 'simple'. On 'give' a second arrow draws from the mascot to the RIGHT and a paper scroll unrolls downward from its top roll across 'two to three pages worth of text to read', filling with rows of text lines until it reaches the bottom of the zone; 2-3 PAGES is written above the scroll.",
+      "whiteboard": "Same chapter: the bubble is erased; the note is drawn at the left, an arrow into the Claude Code mark, an arrow out to the right, then the scroll is drawn top roll first and its paper and lines are inked downward line by line; SIMPLE above the note, 2-3 PAGES above the scroll.",
+      "objects": [
+        "simple note",
+        "claude code tile",
+        "long paper scroll",
+        "arrow note to claude code",
+        "arrow claude code to scroll",
+        "SIMPLE",
+        "2-3 PAGES"
+      ],
+      "emphasis": []
+    },
+    {
+      "i": 2,
+      "t_start": 13.22,
+      "t_end": 17.88,
+      "words": "Now, Anthropic just shipped a new feature that allows you to change that. It's called Output Styles.",
+      "says": "Anthropic shipped a new feature to change that, called Output Styles.",
+      "picture": "The chain clears. The ANTHROPIC wordmark card pops in at the top centre on 'Anthropic'. On 'feature' a big rotary selector dial draws in under it (a round knob with a grip ridge, a pointer notch and a scale of ticks above it, the pointer resting on the left tick) and a terracotta arrow drops from the card into the dial. On 'Output Styles' OUTPUT STYLES is written under the dial.",
+      "whiteboard": "New chapter: the ANTHROPIC wordmark placed at the top, an arrow down, the dial drawn (knob, ridge, ticks), OUTPUT STYLES written under it.",
+      "objects": [
+        "anthropic card",
+        "style selector dial",
+        "arrow anthropic to dial",
+        "OUTPUT STYLES"
+      ],
+      "emphasis": []
+    },
+    {
+      "i": 3,
+      "t_start": 18.26,
+      "t_end": 25.08,
+      "words": "Output Styles allows you to tell your AI how you like your responses to be, and it ships with a new mode that's called Concise.",
+      "says": "Output Styles lets you tell the AI how to answer, and it has a new mode called Concise.",
+      "picture": "The Anthropic card and its arrow leave. On 'AI' the dial with its label slides left and the Claude Code mascot tile pops in on the right; a terracotta arrow draws from the dial into the mascot: you tell your AI. On 'Concise' the word CONCISE appears on the dial's scale at the right-hand tick, and that tick turns terracotta.",
+      "whiteboard": "Same chapter: the Claude Code mark is drawn right of the dial with an arrow dial -> mark; CONCISE is written at the dial's right tick.",
+      "objects": [
+        "style selector dial",
+        "claude code tile",
+        "arrow dial to claude code",
+        "CONCISE (on the dial)"
+      ],
+      "emphasis": []
+    },
+    {
+      "i": 4,
+      "t_start": 25.44,
+      "t_end": 29.42,
+      "words": "Meaning that if you just go into your settings, set your output style to Concise,",
+      "says": "Turn it on in settings by setting the output style to Concise.",
+      "picture": "The same dial: on 'Concise' the knob TURNS, the pointer sweeping from the left tick to CONCISE, and the knob's grip ridge flips terracotta.",
+      "whiteboard": "The pointer is redrawn at the CONCISE tick (the old pointer erased) and a terracotta marker box is drawn around the dial.",
+      "objects": [
+        "style selector dial"
+      ],
+      "emphasis": [
+        {
+          "target": "style selector dial",
+          "kind": "box",
+          "why": "LAW 38 rule 2: the dial is a DRAWN object, so its emphasis is boxing: in the DOM lanes its own part (the grip ridge) flips terracotta, adding no geometry; on the board, box_emphasis around the dial. The round knob is never outlined in terracotta: that would be a ring."
+        }
+      ]
+    },
+    {
+      "i": 5,
+      "t_start": 29.78,
+      "t_end": 37.42,
+      "words": "now your AI agent will always reply to you in a very short format, and also helping you actually understand what they mean.",
+      "says": "With Concise on, the agent always answers short and easy to understand.",
+      "picture": "The payoff chain, mirroring beat 1: the dial (now set to CONCISE) shrinks to the LEFT seat with CONCISE written above it; the Claude Code mascot pops in the middle on 'AI'; an arrow dial -> mascot on 'agent', an arrow mascot -> right on 'always', and on 'reply' the long scroll unrolls again. On 'a very' a pair of scissors slides in from the left at the scroll's middle and on 'short' the blades close: SNIP, the lower half of the scroll falls away and only a short note stays; SHORT is written above it. On 'understand' UNDERSTOOD is written under the short note and its paper edge turns terracotta.",
+      "whiteboard": "New chapter carrying the dial: dial at the left with CONCISE above, arrow into the Claude Code mark, arrow out to a scroll; the scissors are drawn at the scroll's middle, the lower half is erased, SHORT above the note and UNDERSTOOD below it, and a marker box around the short note.",
+      "objects": [
+        "style selector dial",
+        "claude code tile",
+        "long paper scroll",
+        "scissors",
+        "short note",
+        "CONCISE",
+        "SHORT",
+        "UNDERSTOOD"
+      ],
+      "emphasis": [
+        {
+          "target": "short note",
+          "kind": "box",
+          "why": "LAW 38 rule 2: the note is a DRAWN paper, so the emphasis is its own paper edge flipping terracotta (DOM) and box_emphasis around it on the board. No highlight: there is no raster text."
+        }
+      ]
+    },
+    {
+      "i": 6,
+      "t_start": 37.76,
+      "t_end": 41.774,
+      "words": "Now, follow for more AI news, videos, and tutorials each and every single day, and catch you in the next one.",
+      "says": "The daily sign-off.",
+      "picture": "The opaque cream sheet rises over the board and the chassis outro lockup lands on a small ink glyph of the short note (top roll, a short paper, two lines): terracotta rule, mono handle, daily AI micro-line.",
+      "whiteboard": "The rising sheet, then the same lockup on the board's own small short-note glyph.",
+      "objects": [
+        "outro lockup",
+        "short note glyph"
+      ],
+      "emphasis": []
+    }
+  ],
+  "bespoke_objects": [
+    {
+      "name": "jargon speech bubble",
+      "t": 2.6,
+      "bbox": [
+        0.3056,
+        0.1052,
+        0.6944,
+        0.2219
+      ],
+      "space": "norm",
+      "why_bespoke": "'Claude no longer speaks English' needs speech a stranger can see is unreadable; a speech bubble full of symbol gibberish coming out of the Claude Code mascot is that claim as one object, and no registry mark argues it.",
+      "how_drawn": "One ink-line rounded speech bubble with a tail pointing down at the mascot, holding three rows of scribbled glyphs (hash, braces, sigma, percent, zigzag and looped fake words)."
+    },
+    {
+      "name": "long paper scroll",
+      "t": 12.95,
+      "bbox": [
+        0.7315,
+        0.15,
+        0.9167,
+        0.399
+      ],
+      "space": "norm",
+      "why_bespoke": "'two to three pages worth of text' is a length, and a scroll unrolling to the bottom of the zone shows the length at a glance; it is also the object the payoff cuts.",
+      "how_drawn": "A top roll and a bottom roll (rounded bars) with a tall cream paper between them carrying rows of uneven ink text lines."
+    },
+    {
+      "name": "style selector dial",
+      "t": 29.5,
+      "bbox": [
+        0.1889,
+        0.1781,
+        0.5222,
+        0.3031
+      ],
+      "space": "norm",
+      "why_bespoke": "'set your output style to Concise' is an act of turning something to a setting; an oven-style selector knob turning from its first tick to CONCISE makes the setting physical. A dial is not one of the refused glyphs (not a gear, cylinder, bell or magnifier).",
+      "how_drawn": "A round ink knob with a vertical grip ridge and a pointer notch, a scale of five ticks above it, the word CONCISE printed at the right-hand tick."
+    },
+    {
+      "name": "scissors cut scroll",
+      "t": 34.4,
+      "bbox": [
+        0.6296,
+        0.15,
+        0.9167,
+        0.2792
+      ],
+      "space": "norm",
+      "why_bespoke": "The payoff 'a very short format' is the same scroll cut short; scissors closing on it is the LAW 13 peak, one before/after on one object, declared as ONE bespoke object (scissors + the short note they leave).",
+      "how_drawn": "Ink-line scissors (two handle loops, two blades crossing at a pivot) whose blades close across the scroll's paper, the lower half falling away and a short note with its top roll staying."
+    }
+  ],
+  "labels": [
+    {
+      "for": "claude code tile",
+      "text": "NO LONGER ENGLISH",
+      "place": "below",
+      "at": 1.4,
+      "note": "LAW 9 key term and LAW 39: under the mascot tile, centred on its axis; 'English,' ends 1.34. data-label-for=\"mascot-a\"."
+    },
+    {
+      "for": "simple note",
+      "text": "SIMPLE",
+      "place": "above",
+      "at": 8.84,
+      "note": "LAW 39 / LAW 50: above the note; its sibling 2-3 PAGES also sits above its object."
+    },
+    {
+      "for": "long paper scroll",
+      "text": "2-3 PAGES",
+      "place": "above",
+      "at": 11.12,
+      "note": "LAW 39 / LAW 50: above the scroll's top roll; word-sync: 'two to three pages'."
+    },
+    {
+      "for": "style selector dial",
+      "text": "OUTPUT STYLES",
+      "place": "below",
+      "at": 17.2,
+      "note": "LAW 39: below the dial, moves with it on the 20.08 shift (LAW 28)."
+    },
+    {
+      "for": "style selector dial",
+      "text": "CONCISE",
+      "place": "above",
+      "at": 29.94,
+      "note": "LAW 39 / LAW 50: above the small dial at the left seat (the chain's left-slot label sits above, like SIMPLE in beat 1). 'Concise,' starts 28.96; the label lands as the dial reaches its seat. The CONCISE printed on the dial's own scale at 24.60 is the dial's content, not a label."
+    },
+    {
+      "for": "short note",
+      "text": "SHORT",
+      "place": "above",
+      "at": 33.2,
+      "note": "LAW 39 / LAW 50: above the scroll/short note, same seat as 2-3 PAGES."
+    },
+    {
+      "for": "short note",
+      "text": "UNDERSTOOD",
+      "place": "below",
+      "at": 36.1,
+      "note": "LAW 39: below the short note once the lower half has fallen away; 'understand' starts 36.10."
+    }
+  ],
+  "lifetimes": [
+    {
+      "mark": "mascot-a",
+      "t_from": 0.12,
+      "t_to": 13.5,
+      "anchor": null,
+      "note": "chapter 0."
+    },
+    {
+      "mark": "bubble",
+      "t_from": 0.34,
+      "t_to": 6.64,
+      "anchor": null,
+      "note": "leaves on 'notice'."
+    },
+    {
+      "mark": "key-term",
+      "t_from": 1.4,
+      "t_to": 6.64,
+      "anchor": null,
+      "note": "leaves with the bubble, before the note arrives."
+    },
+    {
+      "mark": "note-a",
+      "t_from": 7.4,
+      "t_to": 13.5,
+      "anchor": null,
+      "note": "chapter 0."
+    },
+    {
+      "mark": "scroll-a",
+      "t_from": 10.04,
+      "t_to": 13.5,
+      "anchor": null,
+      "note": "chapter 0."
+    },
+    {
+      "mark": "anth-card",
+      "t_from": 13.54,
+      "t_to": 18.54,
+      "anchor": null,
+      "note": "beat 2 only."
+    },
+    {
+      "mark": "dial",
+      "t_from": 14.9,
+      "t_to": null,
+      "anchor": "dial",
+      "note": "LAW 42: the dial is the cause the payoff chain points back to; anchored from its arrival to the outro sheet."
+    },
+    {
+      "mark": "lbl-styles",
+      "t_from": 17.2,
+      "t_to": 30.06,
+      "anchor": null,
+      "note": "beats 2-4."
+    },
+    {
+      "mark": "mascot-b",
+      "t_from": 20.16,
+      "t_to": 30.06,
+      "anchor": null,
+      "note": "beats 3-4."
+    },
+    {
+      "mark": "mascot-c",
+      "t_from": 30.16,
+      "t_to": null,
+      "anchor": "mascot-c",
+      "note": "payoff chain, held to the sheet."
+    },
+    {
+      "mark": "scroll-b",
+      "t_from": 31.48,
+      "t_to": null,
+      "anchor": "scroll-b",
+      "note": "payoff; lower half leaves at 33.32-33.82."
+    },
+    {
+      "mark": "scissors",
+      "t_from": 32.62,
+      "t_to": 35.24,
+      "anchor": null,
+      "note": "leaves before UNDERSTOOD is written under the note."
+    }
+  ],
+  "connectors": [
+    {
+      "to": "mascot-a",
+      "from": [
+        "note-a"
+      ],
+      "note": "one arrow, level, note right-edge centre -> tile left-edge centre, anchor_points. data-connect-to=\"mascot-a\"."
+    },
+    {
+      "to": "scroll-a",
+      "from": [
+        "mascot-a"
+      ],
+      "note": "one arrow, level, tile right-edge centre -> the scroll PAPER's left edge (its virtual rectangle)."
+    },
+    {
+      "to": "dial",
+      "from": [
+        "anth-card"
+      ],
+      "note": "one arrow, card bottom-centre -> dial box top-centre."
+    },
+    {
+      "to": "mascot-b",
+      "from": [
+        "dial"
+      ],
+      "note": "one arrow, knob box right-edge centre -> tile left-edge centre."
+    },
+    {
+      "to": "mascot-c",
+      "from": [
+        "dial"
+      ],
+      "note": "one arrow, small knob right-edge centre -> tile left-edge centre."
+    },
+    {
+      "to": "scroll-b",
+      "from": [
+        "mascot-c"
+      ],
+      "note": "one arrow, tile right-edge centre -> paper left edge, above the cut line so it still lands on the short note."
+    }
+  ],
+  "blocks": [
+    [
+      "mascot-a",
+      "key-term"
+    ],
+    [
+      "bubble",
+      "mascot-a"
+    ],
+    [
+      "note-a",
+      "lbl-simple"
+    ],
+    [
+      "scroll-a",
+      "lbl-pages"
+    ],
+    [
+      "dial",
+      "lbl-styles"
+    ],
+    [
+      "dial",
+      "lbl-concise"
+    ],
+    [
+      "scroll-b",
+      "scissors"
+    ],
+    [
+      "scroll-b",
+      "lbl-short"
+    ],
+    [
+      "scroll-b",
+      "lbl-under"
+    ],
+    [
+      "anth-card",
+      "mark-anthropic"
+    ]
+  ],
+  "blocks_note": "LAW 41: every key is welded to its object; the bubble's tail points at the mascot it comes from; the scissors are drawn over the scroll they cut. Non-block gutters are authored >= 24 core px.",
+  "pointing_cues": [],
+  "pointing_cues_note": "LAW 37: pointing_cues.py --vid claudeconcise returned 'no pointing cue in this take' (gen/_cues_claudeconcise.json, cues []). Nothing answered, nothing waived; no post is the news, so no source card (GLOBAL LAW 3).",
+  "boards": {
+    "mode": "chapters",
+    "why": "LAW 43: chapters are the default and the script has three idea groups: the problem (gibberish, a simple ask gets a three-page scroll), the feature (Output Styles, the Concise dial), the payoff (the dial set to Concise cuts the scroll short). The dial is carried across the second seam.",
+    "chapters": [
+      {
+        "i": 0,
+        "t_start": 0.12,
+        "t_end": 13.02,
+        "erase_at": 13.22,
+        "holds": [
+          "mascot-a",
+          "bubble",
+          "key-term",
+          "note-a",
+          "scroll-a",
+          "lbl-simple",
+          "lbl-pages"
+        ],
+        "why_together": "The problem: unreadable, far too long answers to simple asks."
+      },
+      {
+        "i": 1,
+        "t_start": 13.22,
+        "t_end": 29.42,
+        "erase_at": 29.78,
+        "holds": [
+          "anth-card",
+          "dial",
+          "lbl-styles",
+          "mascot-b"
+        ],
+        "why_together": "The fix: Anthropic's Output Styles, a dial you turn to Concise."
+      },
+      {
+        "i": 2,
+        "t_start": 29.78,
+        "t_end": 37.42,
+        "erase_at": null,
+        "holds": [
+          "dial",
+          "lbl-concise",
+          "mascot-c",
+          "scroll-b",
+          "scissors",
+          "lbl-short",
+          "lbl-under"
+        ],
+        "why_together": "The result: Concise in, a short understandable answer out."
+      }
+    ],
+    "key_term": "NO LONGER ENGLISH"
+  },
+  "cast": [],
+  "cast_note": "THE ROSTER IS TOPICAL: the script compares Claude only with its own old behaviour, never with another product, so there is no comparison roster. Stage marks, not cast: Claude Code = the plain no-outline mascot (MARK IDENTITY: file coding-tools/claudecode-color.png; the registry's own 'claude-code' entry points at the outlined sticker file, so the scene names the FILE), Anthropic = ai-models/anthropic-wordmark.png (the company the sentence names at 'Anthropic just shipped').",
+  "cutout_logo_lanes": [
+    "codex",
+    "cursor",
+    "gemini",
+    "chatgpt",
+    "copilot",
+    "opencode"
+  ],
+  "cutout_logo_lanes_note": "Topical: the AI coding agents and assistants in Claude Code's own category (Codex, Cursor, Gemini, ChatGPT, GitHub Copilot, OpenCode). None is a stage mark (claude code and anthropic are on stage), none repeated. Files: coding-tools/codex-color.png, coding-tools/cursor.png, ai-models/gemini-color.png, ai-models/chatgpt-color.png, coding-tools/copilot-color.png, coding-tools/opencode-color.png.",
+  "open_questions": [
+    "Stage markers at plan time: cut ok (41.774 s master, wall 37.8 s), plate ok (over-wide, crop 2360x1800+636+264, head 451.4 px), prompt0 ok with wing_review true (the instrument proposed no cut; the cutout author / Astra matte step owns the look at kf_overlay_00000.png), selection ok (chair audit clean, leak 2272 px), track ok (MatAnyone 2, $0.025), ship ok (1044 frames, minimum person fraction 0.441, fractional alpha pixels 21,592,682, $0.047, review_status needs_final_visual_review), cues ok (0 cues).",
+    "The mascot appears in three windows (chapter 0 centre, chapter 1 right, chapter 2 centre) as three elements; each is a fresh pop, never a slide across chapters.",
+    "The dial carries only ONE printed position word (CONCISE); the left tick is unlabelled because the script never names the old mode."
+  ],
+  "open_doubts": [],
+  "open_doubts_note": "None: the Claude Code mark choice follows the topic line and MARK IDENTITY; there is no source post to choose."
+}
+```

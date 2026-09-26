@@ -1,0 +1,366 @@
+{
+ "video": "geminigems",
+ "format": "cutout",
+ "fps": 25,
+ "duration": 20.92,
+ "plate": {
+  "box": {
+   "w": 1584.0,
+   "h": 990.0,
+   "left": -252.0,
+   "top": 930.0
+  },
+  "whole_pixels": true,
+  "equals_encoded": {
+   "cut": {
+    "w": 1584,
+    "h": 990
+   },
+   "rim": {
+    "w": 1584,
+    "h": 990
+   }
+  },
+  "plate_scale": 1.1,
+  "derived_from": "the ENCODED size of the staged layers, never PLATE_SCALE, and the origin READ from plate.json"
+ },
+ "seat": 900.2,
+ "shared": {
+  "beat_edges": [
+   0.119,
+   2.74,
+   5.52,
+   7.8,
+   10.46,
+   14.18,
+   17.52,
+   20.92
+  ],
+  "phone_test_objects": [
+   {
+    "name": "a cracked gem",
+    "t": 2.0,
+    "space": "norm",
+    "bbox": [
+     0.37963,
+     0.21979,
+     0.62037,
+     0.33177
+    ],
+    "canvas": [
+     410.0,
+     422.0,
+     670.0,
+     637.0
+    ],
+    "phone_px": [
+     98,
+     81
+    ]
+   },
+   {
+    "name": "a tied parcel",
+    "t": 8.6,
+    "space": "norm",
+    "bbox": [
+     0.61111,
+     0.21979,
+     0.85185,
+     0.33177
+    ],
+    "canvas": [
+     660.0,
+     422.0,
+     920.0,
+     637.0
+    ],
+    "phone_px": [
+     98,
+     81
+    ]
+   },
+   {
+    "name": "two people together",
+    "t": 12.0,
+    "space": "norm",
+    "bbox": [
+     0.125,
+     0.26562,
+     0.33796,
+     0.36458
+    ],
+    "canvas": [
+     135.0,
+     510.0,
+     365.0,
+     700.0
+    ],
+    "phone_px": [
+     86,
+     71
+    ]
+   },
+   {
+    "name": "a crowd of people",
+    "t": 14.6,
+    "space": "norm",
+    "bbox": [
+     0.66204,
+     0.26562,
+     0.875,
+     0.36458
+    ],
+    "canvas": [
+     715.0,
+     510.0,
+     945.0,
+     700.0
+    ],
+    "phone_px": [
+     86,
+     71
+    ]
+   }
+  ]
+ },
+ "matte": {
+  "cut": {
+   "w": 1584,
+   "h": 990
+  },
+  "rim": {
+   "w": 1584,
+   "h": 990
+  },
+  "plate": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/matting/geminigems/plate_display_1584x990.mp4",
+  "session": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/matting/geminigems",
+  "alpha_sha256": "91b70312e11b472d781b6d5f4dcf9d605305938c7bd2100cdf1abee3e4c9eb7e",
+  "consumed_as_is": "MATTES_FINAL.md is absent, so no decree binds \u2014 and nothing here asks for another track.  Stage 17's independent viewer returned PASS on this exact session, so no SAM2 fallback and no repair round ever ran.  The layers this build stages are the first and only export; they keep `needs_final_visual_review` until the clerk answers it (PRODUCTION.md, 2026-09-06).",
+  "hashes": {
+   "cut": "f1ffc598ac228ef1d9f6a48781c04d0c1ba77ec0aec22dac42424ca612ebbacb",
+   "rim": "92edb95ad33117833e6c6a93edf72b7757e49fab96ff47c4a189007ecb450751",
+   "alpha": "91b70312e11b472d781b6d5f4dcf9d605305938c7bd2100cdf1abee3e4c9eb7e"
+  },
+  "frames": 523,
+  "alpha_mode": "soft",
+  "rim_px": 7,
+  "fractional_alpha_pixels": 11233636,
+  "minimum_person_fraction": 0.3424631415161718,
+  "review_status": "needs_final_visual_review",
+  "backend": "matanyone2",
+  "headroom_guard": {
+   "pass": true,
+   "frames_checked": 523,
+   "min_top_clearance_px": 55.00000000000001,
+   "floor_px": 24.0,
+   "unsafe_frames": 0,
+   "worst_frame": 295
+  },
+  "selection": "reviewed",
+  "cost_usd": {
+   "track": 0.015794759123851,
+   "ship": 0.02657567630291616,
+   "total": 0.04237
+  }
+ },
+ "depth_field": {
+  "seat": {
+   "band": [
+    1021.5,
+    1415.5
+   ],
+   "band_h": 394.0,
+   "inter_lane_gap": 26.0,
+   "seat_offset_from_pill": 64.0,
+   "foundation_offset": 63.61,
+   "drift_from_foundation_seat": 0.39,
+   "margin_px": 105.9,
+   "candidates_scanned": 92,
+   "candidates_safe": 49,
+   "instrument": "5th percentile of the PER-FRAME gutter; the union envelope describes a body that never existed",
+   "lanes": [
+    {
+     "lane": "far",
+     "tile": 78.0,
+     "y": 1021.5,
+     "frames": 175,
+     "gutter_p05": 287.8,
+     "gutter_median": 335.4,
+     "gutter_min_single_frame": 249.6,
+     "frames_under_tile": 0
+    },
+    {
+     "lane": "mid",
+     "tile": 116.0,
+     "y": 1125.5,
+     "frames": 175,
+     "gutter_p05": 266.2,
+     "gutter_median": 311.2,
+     "gutter_min_single_frame": 69.2,
+     "frames_under_tile": 1
+    },
+    {
+     "lane": "near",
+     "tile": 148.0,
+     "y": 1267.5,
+     "frames": 175,
+     "gutter_p05": 253.9,
+     "gutter_median": 314.5,
+     "gutter_min_single_frame": -194.8,
+     "frames_under_tile": 7
+    }
+   ]
+  },
+  "lanes": {
+   "far": {
+    "x0": -216.0,
+    "w": 1788.0,
+    "y": 1021.5,
+    "tile": 78.0,
+    "gap": 30.0,
+    "pitch": 108.0,
+    "tiles": 16,
+    "opacity": 0.34,
+    "dist": 46.0,
+    "travel": 276.0,
+    "steps": 6
+   },
+   "mid": {
+    "x0": -304.0,
+    "w": 2360.0,
+    "y": 1125.5,
+    "tile": 116.0,
+    "gap": 36.0,
+    "pitch": 152.0,
+    "tiles": 15,
+    "opacity": 0.66,
+    "dist": 112.0,
+    "travel": 672.0,
+    "steps": 6
+   },
+   "near": {
+    "x0": -384.0,
+    "w": 3096.0,
+    "y": 1267.5,
+    "tile": 148.0,
+    "gap": 44.0,
+    "pitch": 192.0,
+    "tiles": 16,
+    "opacity": 1.0,
+    "dist": 208.0,
+    "travel": 1248.0,
+    "steps": 6
+   }
+  },
+  "tiles": 47,
+  "step_beats": [
+   2.96,
+   6.0,
+   9.08,
+   12.16,
+   15.12,
+   18.44
+  ],
+  "step_n": 6,
+  "step_pulse_s": 3.02,
+  "foundation_pulse_s": 3.17,
+  "pop_behind": null,
+  "spoken_depth_marks": [],
+  "pop_behind_why_none": "MEASURED, not omitted.  Cutout law 16 keys the crossing to 'the beat where he NAMES the tool'.  A lexical sweep of all six lane marks over the whole tight transcript returns ZERO hits: the only products this take names are Gemini Gems and Skills, and both live on the STAGE.  There is no legal beat to key a crossing to, and improvising one is exactly what this lane may not do.",
+  "cast": [
+   "chatgpt",
+   "grok",
+   "perplexity",
+   "copilot",
+   "kimi",
+   "deepseek"
+  ],
+  "cast_list_why": "the field's stride is 7 and this roster is 6 long; gcd(7,6)=1, so every lane cycles all six of the plan's marks with no repeat knob needed.",
+  "cast_source": "plan.cutout_logo_lanes, unchanged",
+  "substitutions": {},
+  "banned_asserted": [
+   "anthropic-wordmark",
+   "claude",
+   "claude-code",
+   "claude-code-sticker",
+   "claude-color",
+   "claude-cowork",
+   "gemini",
+   "gemini-color",
+   "google",
+   "google-color",
+   "instagram",
+   "nous-girl",
+   "openai-wordmark",
+   "spotify",
+   "telegram",
+   "tiktok",
+   "twitter",
+   "whatsapp",
+   "x",
+   "x-logo",
+   "youtube"
+  ],
+  "opacities": [
+   0.34,
+   0.66,
+   1.0
+  ],
+  "hook_clear_s": 2.0,
+  "seams": [],
+  "foundation": "formats/cutout/lib/cutout_depthfield.py (grokpublish, approved 2026-09-01) \u2014 unmodified"
+ },
+ "core": {
+  "left": 0.0,
+  "top": 192.0,
+  "w": 1080.0,
+  "h": 600.0,
+  "placement": {
+   "k": 1.0,
+   "k_uncapped": 1.2467,
+   "left": 0.0,
+   "top": 192.0,
+   "seat": "the scene's own origin: the band already lands legally in this session's MEASURED stage zone at k = 1, so the cutout's canvas rects ARE the scene's, the split's and the plan's, the cold Phone Test crops the object it means to, and LAW 51's cross-lane parity with the split is exact rather than close",
+   "identity_seat": true,
+   "stage_zone": [
+    192.0,
+    816.4
+   ],
+   "stage_zone_px": 624.4,
+   "content_band_core": [
+    80.0,
+    568.0
+   ],
+   "content_band_px": 488.0,
+   "content_band_canvas": [
+    272.0,
+    760.0
+   ],
+   "core_margin": 8.0,
+   "handoff_note": "the handoff says to seat the core so its CONTENT BAND is centred on the stage zone, with k from THIS session's matte envelope.  This session's envelope gives a 624.4 px stage zone against a 488.0 px content band, so the cap at 1.0 binds and the scene is seated unscaled at the handoff's own origin."
+  }
+ },
+ "envelope": {
+  "CAP_H_seat_constant": 108.2,
+  "CAP_H_true_rendered": 114.59,
+  "CAP_MIN_CLEAR": 26.5,
+  "true_clear_to_crown": 26.5,
+  "CAP_Y": 900.2,
+  "CAP_Y_pct": 0.4689,
+  "pill_bottom": 957.5,
+  "pill_bottom_pct": 0.4987,
+  "ZY0": 192.0,
+  "ZY1": 816.4,
+  "stage_height": 624.4,
+  "vs_definitive": {
+   "CAP_Y": 949.5,
+   "ZY1": 868.9,
+   "why_different": "a different plate: this session's crown sits below the plate's top row (bottom_planted false, crop slid up 174 master px), and the plate is OVER-WIDE (1584x990 at -252)"
+  }
+ },
+ "voice": {
+  "source": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/cuts/geminigems/audio.m4a",
+  "sample_rate": 48000,
+  "channels": 2
+ }
+}

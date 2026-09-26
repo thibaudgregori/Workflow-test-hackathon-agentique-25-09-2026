@@ -1,0 +1,19 @@
+{
+ "id": "nextslide",
+ "stage": "plate",
+ "status": "ok",
+ "wall_s": 141.7,
+ "at": "2026-09-22T22:29:06",
+ "keys": {
+  "status": "ok",
+  "plate": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/matting/nextslide/plate_wide_25.mp4",
+  "crop": "2848x1780+230+248",
+  "scale_k": 0.505618,
+  "head_px_on_canvas": 449.8,
+  "overwide_applied": true,
+  "face_dx_pct": 0.0,
+  "visible_window_drift_master_px": 0.0,
+  "plate_json": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/matting/nextslide/plate.json",
+  "wall_s": 141.7
+ }
+}

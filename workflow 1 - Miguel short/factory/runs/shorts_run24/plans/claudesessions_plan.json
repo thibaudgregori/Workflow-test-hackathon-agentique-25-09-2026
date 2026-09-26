@@ -1,0 +1,152 @@
+{
+ "id": "claudesessions",
+ "duration_s": 21.24,
+ "lane": "diagram build",
+ "lane_reason": "The whole claim is a STRUCTURE - two Claude Code sessions, a live link between them, then a third joining the same link - so the top zone builds that structure node by node on the words that name each part, which is exactly what diagram build does and what icon choreography (a wall of marks) cannot.",
+ "beats": [
+  {"i": 0, "t_start": 0.40, "t_end": 2.02,
+   "words": "Claude can now talk with itself.",
+   "says": "Claude's own sessions can now hold a conversation with each other.",
+   "picture": "Two walkie-talkies stand facing each other, antennas up, and a curved terracotta signal line draws from one antenna to the other with a small pulse running along it.",
+   "objects": ["walkie talkie left", "walkie talkie right", "signal arc", "signal pulse"],
+   "emphasis": [],
+   "whiteboard_version": "Same two walkie-talkies in marker ink, drawn left then right on the axis, the signal arc drawn last as one stroke between the antennas."},
+
+  {"i": 1, "t_start": 2.02, "t_end": 6.38,
+   "words": "Now, if you're using Claude Code, sessions can now communicate with one another.",
+   "says": "The feature is in Claude Code: one session sends a message to another session.",
+   "picture": "The Claude Code mark arrives on a tile in the empty slot between the two radios, the key term SESSIONS TALK is written large above them, and the pulse runs the arc left-to-right and then right-to-left.",
+   "objects": ["claude code tile", "key term SESSIONS TALK", "signal pulse", "walkie talkie left", "walkie talkie right"],
+   "emphasis": [],
+   "whiteboard_version": "The key term SESSIONS TALK is written first and alone on the board, the two radios are drawn under it, and the Claude Code mark is stamped between them."},
+
+  {"i": 2, "t_start": 6.38, "t_end": 9.72,
+   "words": "That means that you no longer have to switch from session to session.",
+   "says": "You stop being the messenger between two sessions.",
+   "picture": "The Claude Code tile leaves the middle slot and a small ink figure of a person takes its place with two dashed arrows shuttling out to each radio; a terracotta box flips around that figure and then one terracotta stroke crosses it out.",
+   "objects": ["you the developer", "shuttle arrows", "walkie talkie left", "walkie talkie right", "signal arc"],
+   "emphasis": [{"target": "you the developer", "kind": "box",
+                 "why": "LAW 38: the target is a DRAWN object (an ink figure with two dashed arrows), not text living in a raster, so the emphasis is the panel border flip - a box - and never a ring, an ellipse or a circle."}],
+   "whiteboard_version": "The little figure is drawn between the two radios with its two shuttle arrows, then struck through with one marker stroke."},
+
+  {"i": 3, "t_start": 9.72, "t_end": 17.00,
+   "words": "If you leave long-running tasks, you can have one single session and just have them communicate and work together as teammates.",
+   "says": "Leave the slow work running in its own sessions, keep one session in front of you, and let them talk to each other like teammates.",
+   "picture": "The board clears to three walkie-talkies in a row; the two on the left are the jobs you left running, the right-hand one is the session you keep and its border flips terracotta; two signal arcs draw over the tops joining all three, a pulse runs across both, and TEAMMATES is written under the row.",
+   "objects": ["team radio left", "team radio centre", "team radio right", "team signal arcs", "team pulse", "LONG-RUNNING key", "ONE SESSION key", "TEAMMATES key"],
+   "emphasis": [{"target": "team radio right", "kind": "box",
+                 "why": "LAW 38: the radio is a DRAWN object, so the emphasis is its own panel border flipping to terracotta on the word 'single'. No ring, no ellipse, no circle."}],
+   "whiteboard_version": "Three radios drawn left to right, the right one gaining a terracotta outline on 'single', the two arcs drawn over the tops on 'communicate', the three keys handwritten on their words."},
+
+  {"i": 4, "t_start": 17.00, "t_end": 21.24,
+   "words": "Now, follow for more AI news, videos, and tutorials each and every single day, and catch you in the next one.",
+   "says": "The sign-off.",
+   "picture": "An opaque cream sheet rises over the board and the outro lockup settles on one centred column: a single small walkie-talkie, the terracotta rule, the handle and the daily AI micro-line.",
+   "objects": ["outro walkie talkie", "outro rule", "outro handle lockup"],
+   "emphasis": [],
+   "whiteboard_version": "Identical: the rising sheet, then the same centred lockup on the same small radio."}
+ ],
+
+ "bespoke_objects": [
+  {"name": "two walkie talkies",
+   "t": 2.40,
+   "bbox": [0.2009, 0.1667, 0.7991, 0.3510],
+   "space": "norm",
+   "why_bespoke": "The claim is that two machines now speak DIRECTLY to each other with nobody relaying. A handset, an envelope or a chat bubble all argue 'a message exists'; a pair of two-way radios argues that each end can both send and receive without a person in between, which is the entire news. It is declared as ONE object - two radios plus the signal line - because the argument only exists between them.",
+   "how_drawn": "Two ink-line radios mirrored about the axis: a rounded-rectangle body with a four-bar speaker grille, a small display panel and a 2x2 button grid, a thick antenna rising from the inner top corner of each, and one terracotta curve joining the two antenna tips with a small terracotta pulse marker riding it."},
+
+  {"name": "three walkie talkies",
+   "t": 16.00,
+   "bbox": [0.1898, 0.1500, 0.8102, 0.2786],
+   "space": "norm",
+   "why_bespoke": "The peak claim is that the pair becomes a TEAM: the same object in a new state, three of them on one shared link, so the viewer sees the count change rather than a new metaphor. A generic node graph would argue 'things are connected'; three of the same radios argue 'the same sessions, now three of them, still talking'.",
+   "how_drawn": "The same radio glyph at 0.81 scale, three of them in a row on the axis, with two terracotta arcs joining adjacent antenna tips over the tops and a terracotta pulse marker on the arcs."}
+ ],
+
+ "labels": [
+  {"for": "team radio left", "text": "LONG-RUNNING", "place": "below", "at": 10.60,
+   "note": "LAW 39: the name sits BELOW its radio, centred on that radio's own axis (x 270 core) to 0.0 px. LAW 50: it is a sibling of ONE SESSION and takes the same placement on the same baseline. Declared with data-label-for on the DOM and label_plan= on the board."},
+  {"for": "team radio right", "text": "ONE SESSION", "place": "below", "at": 13.20,
+   "note": "LAW 39 + LAW 50: same kind of label as LONG-RUNNING, so the SAME placement (below) on the SAME baseline (core y 418), centred on its own radio's axis (x 810 core). Declared with data-label-for."},
+  {"for": "three walkie talkies", "text": "TEAMMATES", "place": "below", "at": 16.26,
+   "note": "LAW 39: this one names the WHOLE row, so it sits below the row centred on the row's own axis (x 540 core) on its own lower baseline. It is not a sibling of the two radio names - it labels a different object - so LAW 50's same-placement rule is satisfied by it also sitting BELOW."}
+ ],
+
+ "lifetimes": [
+  {"mark": "walkie talkie left", "t_from": 0.10, "t_to": 9.72, "anchor": null,
+   "note": "LAW 42: chapter 0's radios leave at the chapter-0 erase; the erase is a handover, the first team radio is already arriving."},
+  {"mark": "walkie talkie right", "t_from": 0.30, "t_to": 9.72, "anchor": null, "note": "LAW 42, chapter 0."},
+  {"mark": "signal arc", "t_from": 0.94, "t_to": 9.72, "anchor": null, "note": "LAW 42, chapter 0."},
+  {"mark": "signal pulse", "t_from": 1.32, "t_to": 9.72, "anchor": null, "note": "LAW 42, chapter 0."},
+  {"mark": "claude code tile", "t_from": 2.94, "t_to": 6.38, "anchor": null,
+   "note": "LAW 42: it vacates the middle slot before the figure takes it, so the two never share the slot."},
+  {"mark": "key term SESSIONS TALK", "t_from": 3.84, "t_to": 9.72, "anchor": null, "note": "LAW 42, chapter 0."},
+  {"mark": "you the developer", "t_from": 6.94, "t_to": 9.72, "anchor": null, "note": "LAW 42, chapter 0."},
+  {"mark": "shuttle arrows", "t_from": 7.90, "t_to": 9.72, "anchor": null, "note": "LAW 42, chapter 0."},
+  {"mark": "strike stroke", "t_from": 8.98, "t_to": 9.72, "anchor": null, "note": "LAW 42, chapter 0."},
+  {"mark": "team radio left", "t_from": 10.04, "t_to": 17.00, "anchor": null, "note": "LAW 42, chapter 1; the rising sheet takes it at 17.00."},
+  {"mark": "team radio centre", "t_from": 10.26, "t_to": 17.00, "anchor": null, "note": "LAW 42, chapter 1."},
+  {"mark": "team radio right", "t_from": 12.54, "t_to": 17.00, "anchor": null, "note": "LAW 42, chapter 1."},
+  {"mark": "team signal arcs", "t_from": 14.44, "t_to": 17.00, "anchor": null, "note": "LAW 42, chapter 1."},
+  {"mark": "team pulse", "t_from": 15.24, "t_to": 17.00, "anchor": null, "note": "LAW 42, chapter 1."},
+  {"mark": "LONG-RUNNING key", "t_from": 10.60, "t_to": 17.00, "anchor": null, "note": "LAW 42, chapter 1."},
+  {"mark": "ONE SESSION key", "t_from": 13.20, "t_to": 17.00, "anchor": null, "note": "LAW 42, chapter 1."},
+  {"mark": "TEAMMATES key", "t_from": 16.26, "t_to": 17.00, "anchor": null, "note": "LAW 42, chapter 1."},
+  {"mark": "outro walkie talkie", "t_from": 17.50, "t_to": null, "anchor": "o-glyph",
+   "note": "LAW 42: an anchor, named in board_anchors=, so it needs no finite t_to."},
+  {"mark": "outro rule", "t_from": 17.80, "t_to": null, "anchor": "o-rule", "note": "LAW 42 anchor."},
+  {"mark": "outro handle lockup", "t_from": 17.90, "t_to": null, "anchor": "o-slot", "note": "LAW 42 anchor."}
+ ],
+
+ "connectors": [
+  {"to": "team radio centre", "from": ["team radio left", "team radio right"],
+   "note": "LAW 40: the centre radio is the one target two arcs terminate on, so both ends are built with whiteboard_build.anchor_points(TEAM_B_BOX, 1, 'left') and (..., 1, 'right') - never hand-placed on the antenna outline - and both arcs carry data-connect-to=\"team-b\" and connectors=[...] on the board."}
+ ],
+
+ "blocks": [
+  ["walkie talkie left", "signal arc"],
+  ["walkie talkie right", "signal arc"],
+  ["signal arc", "signal pulse"],
+  ["you the developer", "shuttle arrows"],
+  ["you the developer", "strike stroke"],
+  ["team radio left", "LONG-RUNNING key"],
+  ["team radio right", "ONE SESSION key"],
+  ["team radio centre", "team signal arcs"],
+  ["team signal arcs", "team pulse"],
+  ["outro walkie talkie", "outro rule"]
+ ],
+ "blocks_note": "LAW 41: these are the welds geometry cannot infer - each key to the radio it names, the pulse to the arc it rides, the shuttle arrows and the strike to the figure they belong to, and each radio to the arc that leaves its antenna. The middle slot's occupants sit 84 core px clear of both radio bodies, so nothing outside a declared block is cramped.",
+
+ "pointing_cues": [],
+ "pointing_cues_note": "LAW 37: pipeline/pointing_cues.py --vid claudesessions returned 'no pointing cue in this take' - zero cues, written to gen/_cues_claudesessions.json. There is nothing to answer and nothing to waive. No source-post card appears anywhere in this video, so GLOBAL LAW 3 is satisfied by absence and no platform frame has to be chosen.",
+
+ "boards": {
+  "mode": "chapters",
+  "why": "LAW 43: chapters are the default and this script has TWO separate ideas, not one that accumulates. Idea one is the pair (they talk, so you stop shuttling); idea two is the team (three of them, one of which you keep). Drawing the second on top of the first would leave the struck-out figure and the Claude Code tile on the board under the teammates argument, which is exactly the crowding LAW 43 inverted the format for. Two chapters in 17 s of content, with the erase at 9.72 landing on 'If' - a real idea handover (LAW 45), not a sentence end.",
+  "chapters": [
+   {"i": 0, "t_start": 0.10, "t_end": 9.72, "erase_at": 9.72,
+    "holds": ["walkie talkie left", "walkie talkie right", "signal arc", "signal pulse", "claude code tile", "key term SESSIONS TALK", "you the developer", "shuttle arrows", "strike stroke"],
+    "why_together": "One accumulating picture of THE PAIR: the radios are drawn, they get their link, the link is named as Claude Code sessions, and then the person who used to carry the messages is struck off it. Every mark here argues about those same two radios."},
+   {"i": 1, "t_start": 9.72, "t_end": 17.00, "erase_at": 17.00,
+    "holds": ["team radio left", "team radio centre", "team radio right", "team signal arcs", "team pulse", "LONG-RUNNING key", "ONE SESSION key", "TEAMMATES key"],
+    "why_together": "One picture of THE TEAM: the count goes from two to three, the row gains its arcs, and the three written keys say which radio is which. The erase at 9.72 is a handover - the first team radio is already arriving while the pair fades, so the zone's ink never reaches zero."}
+  ],
+  "key_term": "SESSIONS TALK"
+ },
+
+ "cast": ["claude-code"],
+ "cast_note": "The script names exactly ONE product, Claude Code, and it is the story's own subject, so it belongs ON THE STAGE - one 112 px tile in the slot between the two radios - and not in the depth field. MARK IDENTITY: the registry key is 'claude-code' (assets/logos/coding-tools/claudecode-color.png), the plain no-outline mascot, NEVER 'claude-code-sticker' (claude-code.png), whose die-cut white edge would halo on the cream card. There is no comparison in this script, so there is no second stage tile and no placeholder is invented to fill a row.",
+
+ "cutout_logo_lanes": ["codex", "cursor", "copilot", "opencode", "antigravity", "openclaw"],
+ "cutout_logo_lanes_note": "Topical to THIS short: the coding agents in the same category as the one it names, mixed, none repeated, and Claude Code itself deliberately absent because it is the stage mark (GRAPHIC CHART clause 7). Files: coding-tools/codex-color.png, coding-tools/cursor.png, coding-tools/copilot-color.png, coding-tools/opencode-color.png, coding-tools/antigravity-color.png, coding-tools/openclaw-color.png - all real registry marks, no generic glyph (LAW 33).",
+
+ "wing_review": "prompt0 not landed at plan time - the cutout author owns it. At plan time the only marker on disk for claudesessions is prep/stages/claudesessions.cut.json (status ok, wall 48.3 s, cut master 21.24 s, tight audio 21.23 s, no 16 kHz analysis wav by design). plate, prompt0, track, ship and cues have no marker yet.",
+
+ "open_questions": [
+  "The cutout's k is derived from that session's own matte envelope. At k below about 0.88 the two 26 px sibling keys (LONG-RUNNING, ONE SESSION) fall under 23 canvas px; if the cutout author lands there, raise those two keys to 30 core px rather than moving them, since their baseline is a LAW 50 commitment.",
+  "The middle slot (core 461..619 x 288..446) is used twice in chapter 0 - the Claude Code tile until 6.38, then the struck figure from 6.94. If a lane needs the tile to persist longer, the figure has to move instead, and that is a LAW 25 move with no spoken reason, so the tile leaving is the correct answer."
+ ],
+
+ "open_doubts": [],
+ "open_doubts_note": "Nothing here changes what the viewer sees in a way I could not decide. There are no pointing cues, so no card and no platform to choose; the script names one product and one claim; the metaphor question (a radio pair rather than a handset, an envelope or a chat bubble) is a craft decision I own and have argued in why_bespoke. No doubt has been parked in open_questions to keep the line moving."
+}

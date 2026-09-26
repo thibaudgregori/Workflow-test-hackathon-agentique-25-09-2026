@@ -1,0 +1,19 @@
+{
+  "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/projects/geminigems_split",
+  "vid": "geminigems",
+  "fmt": "split",
+  "quality": "high",
+  "stage": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/staging/youtube/geminigems_split.mp4",
+  "qc_args": [
+    "--voice-master",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/cuts/geminigems/audio.m4a",
+    "--phone-at",
+    "2.00:0.37963,0.21979,0.62037,0.33177:a cracked gem",
+    "--phone-at",
+    "8.60:0.61111,0.21979,0.85185,0.33177:a tied parcel",
+    "--phone-at",
+    "12.00:0.125,0.26562,0.33796,0.36458:two people together",
+    "--phone-at",
+    "14.60:0.66204,0.26562,0.875,0.36458:a crowd of people"
+  ]
+}

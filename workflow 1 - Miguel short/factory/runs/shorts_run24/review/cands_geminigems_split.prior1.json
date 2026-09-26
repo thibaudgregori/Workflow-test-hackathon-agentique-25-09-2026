@@ -1,0 +1,343 @@
+{
+ "video": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/geminigems_split.mp4",
+ "video_id": "geminigems",
+ "fmt": "split",
+ "model": "gemini-3.5-flash-lite",
+ "duration_s": 20.941,
+ "fps_sampled": 3.0,
+ "windows": [
+  [
+   0.0,
+   20.94
+  ],
+  [
+   0.0,
+   20.0
+  ],
+  [
+   17.0,
+   20.94
+  ]
+ ],
+ "whole_pass": true,
+ "thinking": "medium",
+ "media_resolution": "HIGH",
+ "jobs": 3,
+ "transcript": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/cuts/geminigems/transcript_tight.json",
+ "video_summary": "The speaker discusses Google sunsetting Gemini Gems and replacing them with Skills, advising viewers to migrate their gems before October 20th. The visual aids illustrate Gemini Gems, the transition to Skills, and sharing workflows with teammates and community.",
+ "beat_log": [
+  {
+   "t_start": 0.0,
+   "t_end": 2.56,
+   "on_screen": "blank cream zone transitioning to a diamond drawing in the center",
+   "said": "Google just killed another one of their products yet again.",
+   "marks_visible": "none",
+   "labels_visible": "none",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "none",
+   "picture_vs_sentence": "picture shows a diamond being drawn, matching the discussion of Google killing a product.",
+   "from_window": [
+    0.0,
+    20.94
+   ]
+  },
+  {
+   "t_start": 0.0,
+   "t_end": 2.56,
+   "on_screen": "Speaker at bottom, caption pill 'Google just killed' on seam, blank cream zone above from 0.0 to 0.3s, then a cracked diamond icon appears at 0.3s.",
+   "said": "Google just killed another one of their products yet again.",
+   "marks_visible": "none",
+   "labels_visible": "Google just killed",
+   "touching_or_clipped": "none",
+   "empty_regions": "cream zone is empty from 0.00 to 0.33s (0.33s, not >= 1.5s)",
+   "label_placement": "caption pill on seam",
+   "picture_vs_sentence": "picture shows a cracked diamond representing a killed product, matching the sentence",
+   "from_window": [
+    0.0,
+    20.0
+   ]
+  },
+  {
+   "t_start": 2.56,
+   "t_end": 5.58,
+   "on_screen": "diamond drawing with Gemini spark icon above and GEMINI GEMS label below",
+   "said": "Now, Gemini Gems are being sunset on October 20th, and",
+   "marks_visible": "Gemini spark icon",
+   "labels_visible": "GEMINI GEMS SUNSET OCT 20",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "labels are below the icon",
+   "picture_vs_sentence": "picture illustrates Gemini Gems and its sunset date.",
+   "from_window": [
+    0.0,
+    20.94
+   ]
+  },
+  {
+   "t_start": 2.56,
+   "t_end": 5.58,
+   "on_screen": "Cracked diamond icon at top centre, 'GEMINI GEMS' label below it, 'SUNSET OCT 20' sublabel below that. Speaker at bottom.",
+   "said": "Now, Gemini Gems are being sunset on October 20th, and",
+   "marks_visible": "Google Sparkle logo above diamond",
+   "labels_visible": "GEMINI GEMS, SUNSET OCT 20",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "GEMINI GEMS and SUNSET OCT 20 are BELOW the diamond icon, sharing baselines",
+   "picture_vs_sentence": "picture shows Gemini Gems sunset date, matching the sentence",
+   "from_window": [
+    0.0,
+    20.0
+   ]
+  },
+  {
+   "t_start": 5.58,
+   "t_end": 8.88,
+   "on_screen": "diamond drawing connected by a red line to a gift box icon with SKILLS label",
+   "said": "they're being completely replaced by Skills, the new standard way",
+   "marks_visible": "Gemini spark icon and Skills star icon",
+   "labels_visible": "SKILLS",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "labels are below the icons",
+   "picture_vs_sentence": "picture shows replacement of Gemini with Skills.",
+   "from_window": [
+    0.0,
+    20.94
+   ]
+  },
+  {
+   "t_start": 5.58,
+   "t_end": 10.5,
+   "on_screen": "Cracked diamond icon connected by a red line to a gift box icon labeled SKILLS with a star logo above it.",
+   "said": "they're being completely replaced by Skills, the new standard way of sharing your AI workflows, either",
+   "marks_visible": "Google Sparkle and Skills star logo",
+   "labels_visible": "SKILLS",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "SKILLS is BELOW the gift box icon",
+   "picture_vs_sentence": "picture shows replacement by Skills, matching sentence",
+   "from_window": [
+    0.0,
+    20.0
+   ]
+  },
+  {
+   "t_start": 8.88,
+   "t_end": 11.96,
+   "on_screen": "workflow diagram with gift box and teammates icon connected by red line",
+   "said": "of sharing your AI workflows, either with your teammates or",
+   "marks_visible": "Skills star icon",
+   "labels_visible": "SKILLS TEAMMATES",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "labels are below the icons",
+   "picture_vs_sentence": "picture illustrates sharing workflows with teammates.",
+   "from_window": [
+    0.0,
+    20.94
+   ]
+  },
+  {
+   "t_start": 10.5,
+   "t_end": 14.0,
+   "on_screen": "Gift box icon with SKILLS label in centre, connected via red lines to a teammates icon on the left and a community icon on the right.",
+   "said": "with your teammates or with members of your community.",
+   "marks_visible": "Skills star logo",
+   "labels_visible": "SKILLS, TEAMMATES, COMMUNITY",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "TEAMMATES and COMMUNITY labels are BELOW their respective icons, sharing baselines",
+   "picture_vs_sentence": "picture shows sharing with teammates and community, matching sentence",
+   "from_window": [
+    0.0,
+    20.0
+   ]
+  },
+  {
+   "t_start": 11.96,
+   "t_end": 15.04,
+   "on_screen": "workflow diagram with gift box, teammates, and community icons",
+   "said": "with members of your community. Now, follow for more AI",
+   "marks_visible": "Skills star icon",
+   "labels_visible": "SKILLS TEAMMATES COMMUNITY",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "labels are below the icons",
+   "picture_vs_sentence": "picture illustrates sharing with community.",
+   "from_window": [
+    0.0,
+    20.94
+   ]
+  },
+  {
+   "t_start": 14.0,
+   "t_end": 17.68,
+   "on_screen": "Same diagram with SKILLS, TEAMMATES, and COMMUNITY icons.",
+   "said": "Now, follow for more AI news, videos, and tutorials each and every single day.",
+   "marks_visible": "Skills star logo",
+   "labels_visible": "SKILLS, TEAMMATES, COMMUNITY",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "TEAMMATES and COMMUNITY labels share baselines below icons",
+   "picture_vs_sentence": "picture shows the previous workflow diagram while CTA is spoken, compatible/neutral",
+   "from_window": [
+    0.0,
+    20.0
+   ]
+  },
+  {
+   "t_start": 15.04,
+   "t_end": 17.68,
+   "on_screen": "workflow diagram remaining on screen during call to action",
+   "said": "news, videos, and tutorials each and every single day. Don't",
+   "marks_visible": "Skills star icon",
+   "labels_visible": "SKILLS TEAMMATES COMMUNITY",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "labels are below the icons",
+   "picture_vs_sentence": "picture holds the workflow diagram during the call to action.",
+   "from_window": [
+    0.0,
+    20.94
+   ]
+  },
+  {
+   "t_start": 17.0,
+   "t_end": 17.67,
+   "on_screen": "top cream zone showing a three-part diagram with SKILLS box, TEAMMATES, and COMMUNITY; speaker below; caption pill on seam",
+   "said": "each and every single day.",
+   "marks_visible": "none",
+   "labels_visible": "SKILLS, TEAMMATES, COMMUNITY, every single day.",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "labels are below their respective icons",
+   "picture_vs_sentence": "picture recaps the workflow sharing concept while sentence finishes the daily reminder",
+   "from_window": [
+    17.0,
+    20.94
+   ]
+  },
+  {
+   "t_start": 17.67,
+   "t_end": 19.33,
+   "on_screen": "top cream zone transitioning to an open gift box with a diamond rising out of it; speaker below; caption pill on seam",
+   "said": "Don't forget to migrate your gems, and see you",
+   "marks_visible": "none",
+   "labels_visible": "Don't forget, to migrate your, gems, and see you",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "caption pill on seam",
+   "picture_vs_sentence": "picture shows a gem coming out of a box, matching the migration instruction",
+   "from_window": [
+    17.0,
+    20.94
+   ]
+  },
+  {
+   "t_start": 17.68,
+   "t_end": 20.94,
+   "on_screen": "gift box opening with diamond going inside, followed by outro handle card @migueltorrezai daily AI",
+   "said": "forget to migrate your gems, and see you in the next one",
+   "marks_visible": "none",
+   "labels_visible": "@migueltorrezai daily AI",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "labels are below the handle card",
+   "picture_vs_sentence": "picture shows migrating gems and the outro handle card.",
+   "from_window": [
+    0.0,
+    20.94
+   ]
+  },
+  {
+   "t_start": 17.68,
+   "t_end": 20.64,
+   "on_screen": "Open gift box with a diamond inside, handle card '@migueltorrezai' and subtitle 'daily AI'.",
+   "said": "Don't forget to migrate your gems, and see you in the next one",
+   "marks_visible": "none",
+   "labels_visible": "@migueltorrezai, daily AI",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "@migueltorrezai and daily AI are centered below the box, proper placement",
+   "picture_vs_sentence": "picture shows migrating gems back into the box and outro handle card, matching sentence",
+   "from_window": [
+    0.0,
+    20.0
+   ]
+  },
+  {
+   "t_start": 19.33,
+   "t_end": 20.94,
+   "on_screen": "top cream zone showing the gift box with diamond and the outro handle card (@migueltorrezai, daily AI); speaker below; caption pill on seam",
+   "said": "in the next one",
+   "marks_visible": "none",
+   "labels_visible": "@migueltorrezai, daily AI, in the next one",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "outro handle card complete by design",
+   "picture_vs_sentence": "picture shows outro handle card and gem icon as the video ends",
+   "from_window": [
+    17.0,
+    20.94
+   ]
+  }
+ ],
+ "all_summaries": [
+  "The speaker discusses Google sunsetting Gemini Gems and replacing them with Skills, advising viewers to migrate their gems before October 20th. The visual aids illustrate Gemini Gems, the transition to Skills, and sharing workflows with teammates and community.",
+  "A creator discusses Google killing Gemini Gems and replacing them with Skills, urging users to migrate their gems and follow for daily AI content. The visuals use whiteboard-style icons and connected diagrams on a cream background.",
+  "The video concludes by reminding viewers to migrate their Gemini gems before they are sunset and displays the creator's handle card. It wraps up the tutorial series on transitioning AI workflows to Skills."
+ ],
+ "candidates": [],
+ "counts": {
+  "candidates": 0,
+  "blocking": 0,
+  "motion": 0
+ },
+ "calls": [
+  {
+   "pass": 1,
+   "window": [
+    0.0,
+    20.94
+   ],
+   "model": "gemini-3.5-flash-lite",
+   "fps": 3.0,
+   "thinking": "medium",
+   "input_tokens": 21000,
+   "output_tokens": 3580,
+   "thinking_tokens": 2401,
+   "cost_usd": 0.01525
+  },
+  {
+   "pass": 1,
+   "window": [
+    0.0,
+    20.0
+   ],
+   "model": "gemini-3.5-flash-lite",
+   "fps": 3.0,
+   "thinking": "medium",
+   "input_tokens": 20185,
+   "output_tokens": 1210,
+   "thinking_tokens": 0,
+   "cost_usd": 0.009081
+  },
+  {
+   "pass": 1,
+   "window": [
+    17.0,
+    20.94
+   ],
+   "model": "gemini-3.5-flash-lite",
+   "fps": 3.0,
+   "thinking": "medium",
+   "input_tokens": 7113,
+   "output_tokens": 2149,
+   "thinking_tokens": 1551,
+   "cost_usd": 0.007506
+  }
+ ],
+ "cost_usd": 0.031837,
+ "wall_clock_s": 23.0
+}

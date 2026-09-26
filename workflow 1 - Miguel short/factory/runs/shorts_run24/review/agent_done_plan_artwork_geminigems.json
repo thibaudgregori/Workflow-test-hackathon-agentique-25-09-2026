@@ -1,0 +1,23 @@
+{
+  "verdict": "PASS",
+  "plan_json": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/plans/geminigems_plan.json",
+  "plan_md": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/plans/geminigems_plan.md",
+  "lane": "diagram build",
+  "lane_reason": "Intake guessed 'steps & checklist' but the recording contains no steps at all - it is one argument that accumulates (a product dies, a standard replaces it, that standard fans out to two audiences), which is exactly what a diagram build draws.",
+  "beats": 7,
+  "bespoke_names": ["a cracked gem", "a tied parcel", "two people together", "a crowd of people"],
+  "cues": "0 pointing cues. pipeline/pointing_cues.py --vid geminigems printed 'no pointing cue in this take' and wrote gen/_cues_geminigems.json with cues: []. Nothing to answer and nothing to waive - he cites nobody and there is no source post, screenshot or raster anywhere in this video.",
+  "board_mode": "chapters",
+  "open_questions": [
+    "The wing review: the prompt0 marker does not exist yet at plan time (only geminigems.cut.json has landed), so the visual selection is not mine - wing review: prompt0 not landed at plan time, the cutout author owns it.",
+    "Beat 5 (14.18-17.52) adds no ink by design. If the cutout author finds 3.3 s of a held stage zone too static behind a moving silhouette, the sanctioned move is a behind-the-silhouette crossing of one lane mark, not new diagram ink.",
+    "The parcel's tag is drawn blank. If a lane wants type in it, the only legal string is one already spoken by that instant, and it would become a label under LAW 39 - easier to leave it blank."
+  ],
+  "open_doubts": [],
+  "scene_module": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/gen/geminigems_scene.py",
+  "scene_handoff": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/plans/geminigems_scene_handoff.md",
+  "artwork_pass": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/artwork_pass_geminigems.json",
+  "cold_reads_run": 4,
+  "proofs": "review/proofs/crop_seal_0{0..3}_*.png (405x720 phone scale) + proofs_seal.json; three concurrent rounds in review/phone_reader_geminigems_artwork_r{1,2,3}.json, blind copies under review/cold/round_r{1,2,3}-*; scoring in review/artwork_scores_geminigems.json; composed full frames review/proofs/compose_{ch0,ch1,ch2,outro}.png",
+  "reason": "Plan written and sealed artwork published. 12 independent cold reads over 4 bespoke objects, 0 readers naming a different object: 'diamond' x3 sure, 'gift box' x3 sure, 'two people' x3 hedged, 'group of people' x3 hedged. Objects 2 and 3 are hedged passes routed to the clerk on the delivered render. artwork-pass returned PASS with seal_rounds 3 and objects 4. No open doubt."
+}

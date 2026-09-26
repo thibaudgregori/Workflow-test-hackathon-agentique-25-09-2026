@@ -1,0 +1,501 @@
+{
+ "video": "cursorspacex",
+ "format": "whiteboard",
+ "variant": "plan view (fix)",
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/projects/cursorspacex_whiteboard",
+ "handle": "@migueltorrez.ai",
+ "handle_key": "tiktok_ig",
+ "duration_s": 22.12,
+ "fps": 25,
+ "render": "1080x1920 @ zoom 1",
+ "board": "576x460 design units",
+ "board_box": [
+  40.0,
+  142.0,
+  536.0,
+  424.0
+ ],
+ "strokes": 14,
+ "rigids": 13,
+ "board_text": [
+  "SUNSET"
+ ],
+ "top_ink_u": 142.0,
+ "top_band_u": 102.4,
+ "pen_top_u": 102.7,
+ "ink_bottom_px": 783.2,
+ "cap_band_top_px": 799.2,
+ "cap_clearance_px": 16.0,
+ "ink_bottom_ink_px": 783.2,
+ "cap_clearance_ink_px": 16.0,
+ "seam_pill_top_px": 805.2,
+ "cap_clearance_ink_to_pill_px": 22.0,
+ "seam_measures": "cap_clearance_px = line boxes vs the reserved band (THE GATE); cap_clearance_ink_px = glyph ink vs the same band; cap_clearance_ink_to_pill_px = glyph ink vs the pill's painted top edge (the clerk's surface)",
+ "rail_hits": [],
+ "label_law": {
+  "window_s": 1.0,
+  "key_term": "SUNSET",
+  "key_term_fs_u": 23.0,
+  "written": {
+   "SUNSET": 5.08
+  },
+  "plan": {
+   "ksunset": "SUNSET"
+  },
+  "comparisons": [],
+  "unplanned_text": [],
+  "verdict": "PASS"
+ },
+ "law4": {
+  "law": "4 (overlap test)",
+  "board_words_that_also_appear_as_a_pill": {}
+ },
+ "round4": {
+  "law6_lifetimes": {
+   "duration_s": 22.12,
+   "chaptered": false,
+   "max_frac": 0.4,
+   "declared_anchors": [
+    "card-spacex",
+    "mast",
+    "tile-grok",
+    "type:SUNSET"
+   ],
+   "lingering": [],
+   "verdict": "PASS (single board: all anchors)"
+  },
+  "law2_no_enclosure": {
+   "rings": 0,
+   "boxes": 2,
+   "highlights": 0,
+   "rasters": [],
+   "wrong_tool_advisory": [],
+   "verdict": "PASS"
+  },
+  "law3_label_side": {
+   "checked": 1,
+   "detail": {
+    "SUNSET": {
+     "host": "mast",
+     "dx_u": 11.8,
+     "band_u": 77.7,
+     "place": "above"
+    }
+   },
+   "verdict": "PASS"
+  },
+  "law5_spacing": {
+   "gate_u": 8.5,
+   "gate_px": 15.9,
+   "aim_u": 12.8,
+   "aim_px": 24.0,
+   "measured_on": "element line boxes",
+   "under_aim": [
+    "mast | box:card-spacex = 9.0u (16.9 px)",
+    "mast | box:tile-grok = 9.0u (16.9 px)",
+    "mast | card-spacex = 9.0u (16.9 px)",
+    "mast | tile-grok = 9.0u (16.9 px)"
+   ],
+   "objects": 7,
+   "verdict": "PASS"
+  },
+  "law5_spacing_ink": {
+   "gate_u": 8.5,
+   "gate_px": 15.9,
+   "aim_u": 12.8,
+   "aim_px": 24.0,
+   "measured_on": "glyph ink extents",
+   "under_aim": [
+    "mast | box:card-spacex = 9.0u (16.9 px)",
+    "mast | box:tile-grok = 9.0u (16.9 px)",
+    "mast | card-spacex = 9.0u (16.9 px)",
+    "mast | tile-grok = 9.0u (16.9 px)"
+   ],
+   "objects": 7,
+   "verdict": "PASS"
+  },
+  "law5_no_crossing": {
+   "strokes": 14,
+   "types": 1,
+   "verdict": "PASS"
+  },
+  "law4_anchors": {
+   "targets": 2,
+   "detail": {
+    "card-spacex": {
+     "n": 1,
+     "spread_u": 0.0,
+     "level": true,
+     "mirrored": false,
+     "on_rect": true
+    },
+    "tile-grok": {
+     "n": 1,
+     "spread_u": 0.0,
+     "level": true,
+     "mirrored": false,
+     "on_rect": true
+    }
+   },
+   "verdict": "PASS"
+  }
+ },
+ "outro": {
+  "move": "opaque sheet rises over the board",
+  "wipe_start": 18.38,
+  "wipe_end": 18.94,
+  "travel_px": 862.5,
+  "sheet_opaque": true,
+  "sheet_covers_px": 862.5,
+  "card_ink_enters_px": 322.5,
+  "board_covered_px": 596.2,
+  "overlap_px": 273.8,
+  "board_moves": false,
+  "board_fades": false,
+  "outro_start": 18.38,
+  "verdict": "PASS"
+ },
+ "captions": 21,
+ "cap_font_px": 56.2,
+ "cap_max_pill_w_px": 748.4,
+ "cap_w_budget_px": 756.0,
+ "anchors": {
+  "start": 0.18,
+  "flag": 0.52,
+  "heart": 1.08,
+  "ksunset": 5.08,
+  "cursor": 5.68,
+  "spacex": 7.08,
+  "step1": 9.84,
+  "step2": 12.0,
+  "step3": 13.24,
+  "absorb": 14.62,
+  "spxflip": 15.82,
+  "grok": 17.44,
+  "outro": 18.38,
+  "news": 18.86
+ },
+ "html_bytes": 53181,
+ "sfx": 12,
+ "pen_loops": 6,
+ "pen_seconds": 3.0,
+ "pen_duty_pct": 13.6,
+ "captions_law3b": {
+  "beats_before_merge": 21,
+  "beats_after_merge": 21,
+  "merges": 0,
+  "merged_away": [],
+  "widest_pill_px": 748.4,
+  "budget_px": 756.0,
+  "beats": [
+   [
+    0.18,
+    1.08,
+    "One of the most"
+   ],
+   [
+    1.08,
+    2.32,
+    "loved brands in the"
+   ],
+   [
+    2.32,
+    3.72,
+    "AI space by developers"
+   ],
+   [
+    3.72,
+    4.88,
+    "is soon going to"
+   ],
+   [
+    4.88,
+    5.68,
+    "be sunset."
+   ],
+   [
+    5.68,
+    6.78,
+    "Cursor has been acquired"
+   ],
+   [
+    6.78,
+    8.24,
+    "by SpaceX AI,"
+   ],
+   [
+    8.24,
+    9.12,
+    "and they confirmed that"
+   ],
+   [
+    9.12,
+    9.84,
+    "they're going to be"
+   ],
+   [
+    9.84,
+    10.7,
+    "mapping out the"
+   ],
+   [
+    10.7,
+    11.62,
+    "Cursor brand"
+   ],
+   [
+    11.62,
+    13.24,
+    "over the next few coming"
+   ],
+   [
+    13.24,
+    14.62,
+    "months while it gets"
+   ],
+   [
+    14.62,
+    16.94,
+    "absorbed by SpaceX AI"
+   ],
+   [
+    16.94,
+    17.88,
+    "and Grok."
+   ],
+   [
+    17.88,
+    18.64,
+    "Now, follow for more"
+   ],
+   [
+    18.64,
+    19.12,
+    "AI news,"
+   ],
+   [
+    19.12,
+    20.22,
+    "videos, and tutorials each"
+   ],
+   [
+    20.22,
+    21.12,
+    "and every single day,"
+   ],
+   [
+    21.12,
+    21.54,
+    "and catch you in"
+   ],
+   [
+    21.54,
+    22.02,
+    "the next one."
+   ]
+  ],
+  "law": "captions.py 3b \u2014 merge_function_only_beats over the WHOLE beat stream, then assert_no_function_only_beat inside build()"
+ },
+ "boards": [
+  {
+   "board": 0,
+   "in": 0.18,
+   "erase_at": null,
+   "erase": "the outro's rising sheet",
+   "name": "one mast with a splayed foot and a flag flying at its top; a heart printed on the cloth, then the Cursor mark in its place; SUNSET written above; the flag redrawn three steps lower and one grade fainter each time, leaving a broken ghost at every height it left; and under the foot a card carrying the SpaceX wordmark beside a tile carrying the Grok mark, each taking one terracotta stroke out of the retired flag and each flipping its own border terracotta as it is named",
+   "keys": [
+    "SUNSET"
+   ]
+  }
+ ],
+ "seam_law": {
+  "plan_mode": "single",
+  "chapters": 1,
+  "seams": [],
+  "erase_s": [],
+  "qc_seams": "",
+  "handover": [],
+  "outro_wipe": 18.38,
+  "outro_note": "18.38 is the OUTRO WIPE \u2014 an opaque rising sheet, not a chapter seam.  This board is SINGLE (LAW 43's exception, the plan's own choice with its own reason), so there is NO chapter seam, nothing is erased, seam_check is not run and qc_pass gets an EMPTY --seams list."
+ },
+ "pointing_cues": {
+  "n": 0,
+  "waived": [],
+  "cards": [],
+  "note": "pipeline/pointing_cues.py returned zero cues on this take (gen/_cues_cursorspacex.json, prep/stages/cursorspacex.cues.json -> cue_count 0).  Nothing is answered and nothing is waived; GLOBAL LAW 3 is satisfied trivially because the acquisition is the news, not anybody's post."
+ },
+ "phone_test_objects": [
+  {
+   "i": 0,
+   "name": "a flag on a pole",
+   "t": 2.6,
+   "bbox_board_u": [
+    223.5,
+    182.0,
+    354.0,
+    356.0
+   ],
+   "bbox_canvas": [
+    419.06,
+    341.25,
+    663.75,
+    667.5
+   ],
+   "bbox_norm": [
+    0.38802,
+    0.17773,
+    0.61458,
+    0.34766
+   ],
+   "plan_name": "flag on pole",
+   "plan_t": 2.6
+  }
+ ],
+ "phone_test_source": "plans/cursorspacex_plan.json -> bespoke_objects, redrawn in marker at THIS board's seat: the plan's bbox is the shared core's (canvas space) and cannot be copied onto a 576 x 460 board.  The TIME is this lane's own, per the 2026-09-15 whiteboard rule.",
+ "emphasis": [
+  {
+   "at": 15.82,
+   "target": "card-spacex",
+   "kind": "terracotta marker box, pad 0",
+   "why": "LAW 38 rule 2: the SpaceX card is a DRAWN object with its own outline, so it takes boxing, never a ring and never a marker highlight (there is no raster text in this video).  pad 0 lands the box ON the card's own border \u2014 the board's reading of the DOM lane's PANEL BORDER FLIP \u2014 so the connector that terminates at the card's top edge is never crossed.  The pen taps the top-left corner (RUN-13)."
+  },
+  {
+   "at": 17.78,
+   "target": "tile-grok",
+   "kind": "terracotta marker box, pad 0",
+   "why": "LAW 38 rule 2 again, on the second drawn chassis tile.  Same primitive, same corner tap."
+  }
+ ],
+ "marks_inked": {
+  "cursor": "coding-tools/cursor.png \u2014 the PRODUCT mark (LAW 35), printed INSIDE the flag at 23 u ink and REDRAWN at every height the flag steps down to (LAW 51: whatever is on the cloth travels with it).",
+  "spacex": "ai-models/spacex-wordmark.svg \u2014 SpaceX publishes a WORDMARK and nothing else (viewBox 400 x 50), so the acquirer's mark is a 118 x 59.7 u CARD carrying the wordmark at 96 u wide rather than a square tile.  The plan's first open question, answered the same way the sealed lane module answers it.",
+  "grok": "ai-models/grok.png in the chart's 112 frame px tile at radius 18 with the marker's detail hairline, the mark's INK at 0.50 of the tile.",
+  "not_used": "no placeholder, no text pill, no consumer-app wall \u2014 the plan declares an EMPTY cast (no roster wall) because this script makes no comparison."
+ },
+ "connectors": [
+  {
+   "name": "conn-spacex",
+   "to": "card-spacex",
+   "from": [
+    267.36,
+    335.0
+   ],
+   "end": [
+    245.13,
+    358.0
+   ],
+   "drawn_at": 14.62,
+   "note": "LAW 40: source ends anchor_points(BANNER_LOW, 2, 'bottom'), level to 0.0 u and mirror-symmetric about the flag's own axis; target ends anchor_points(<target>, 1, 'top').  ONE source fanning into TWO targets, so the law's letter (two arrows into one target) does not bind \u2014 both ends are built with its helper anyway and no end is hand-placed.  Both terminate AT the target's top edge, never on top of it (LAW 7)."
+  },
+  {
+   "name": "conn-grok",
+   "to": "tile-grok",
+   "from": [
+    332.64,
+    335.0
+   ],
+   "end": [
+    360.0,
+    358.0
+   ],
+   "drawn_at": 17.6,
+   "note": "LAW 40: source ends anchor_points(BANNER_LOW, 2, 'bottom'), level to 0.0 u and mirror-symmetric about the flag's own axis; target ends anchor_points(<target>, 1, 'top').  ONE source fanning into TWO targets, so the law's letter (two arrows into one target) does not bind \u2014 both ends are built with its helper anyway and no end is hand-placed.  Both terminate AT the target's top edge, never on top of it (LAW 7)."
+  }
+ ],
+ "plan_geometry": {
+  "mast_u": [
+   228.5,
+   188.0,
+   348.0,
+   349.0
+  ],
+  "pole_u": [
+   249.5,
+   188.0,
+   348.0
+  ],
+  "flags_u": [
+   [
+    252.0,
+    204.0,
+    348.0,
+    242.0
+   ],
+   [
+    252.0,
+    235.0,
+    348.0,
+    273.0
+   ],
+   [
+    252.0,
+    266.0,
+    348.0,
+    304.0
+   ],
+   [
+    252.0,
+    297.0,
+    348.0,
+    335.0
+   ]
+  ],
+  "flag_opacity": [
+   1.0,
+   0.82,
+   0.72,
+   0.62
+  ],
+  "banner_low_u": [
+   252.0,
+   297.0,
+   348.0,
+   335.0
+  ],
+  "card_spacex_u": [
+   186.13,
+   358.0,
+   304.13,
+   417.73
+  ],
+  "tile_grok_u": [
+   330.13,
+   358.0,
+   389.87,
+   417.73
+  ],
+  "flag_ends_u": [
+   [
+    267.36,
+    335.0
+   ],
+   [
+    332.64,
+    335.0
+   ]
+  ],
+  "spx_end_u": [
+   245.13,
+   358.0
+  ],
+  "grok_end_u": [
+   360.0,
+   358.0
+  ],
+  "key_u": {
+   "SUNSET": [
+    245.38,
+    142.0,
+    354.62,
+    177.65
+   ]
+  },
+  "gutters_u": {
+   "key -> mast": 10.35,
+   "mast -> card row": 9.0,
+   "card -> tile": 26.0
+  },
+  "symmetry": "the mast assembly spans x 228.5 \u2026 348 (centre 288.25) and the card row spans 186.13 \u2026 389.87 (centre 288), both on the composition axis by construction.  The key term is centred on the FLAG (300), inside the mast's +/-15 % band.",
+  "note": "THIS BOARD'S geometry, asserted against the plan's ORDER, SIDES, BOARD MODE and INSTANTS rather than its coordinates: the same one bespoke object, the same one key written first and alone and ABOVE, the same three marks, the same single board with no erase, the same three stepped descents on the same three words, and the same two connectors out of the retired flag into the same two targets."
+ }
+}

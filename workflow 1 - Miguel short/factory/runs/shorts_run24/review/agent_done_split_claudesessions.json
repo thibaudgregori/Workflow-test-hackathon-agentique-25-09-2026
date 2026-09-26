@@ -1,0 +1,23 @@
+{
+ "staged": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/staging/youtube/claudesessions_split.mp4",
+ "phone_verdict": "PASS",
+ "blocked": "",
+ "rounds": 1,
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/projects/claudesessions_split",
+ "scene_handoff": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/plans/claudesessions_scene_handoff.md",
+ "lane": "diagram build",
+ "lane_quote": "The whole claim is a STRUCTURE - two Claude Code sessions, a live link between them, then a third joining the same link - so the top zone builds that structure node by node on the words that name each part, which is exactly what diagram build does and what icon choreography (a wall of marks) cannot.",
+ "prerender": "PASS in 2.51s - refs_resolve PASS, assets_not_placeholder PASS (1 raster), page_audit PASS, caption_canon_page PASS (23 pills, modal h 114.67px, spread 0.0), gate1_geometry_audit PASS (0 errors / 0 warnings); cutout_edge_fade_guard and cutout_checks_24_25 SKIP (cutout only)",
+ "geometry_audit_strict": "claudesessions_split: 0 errors, 0 warnings (21.2s @ 0.5s step) -> gen/_geomstrict_claudesessions_split.json + projects/claudesessions_split/geometry_audit/report.json",
+ "phone_test_page": {"mode": "phone-test", "objects": 2, "sheet": "review/phone_claudesessions_split.png", "source": "--plan"},
+ "cold_crops": ["/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/cold/c1c111a5/00.png",
+                "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/cold/c1c111a5/01.png"],
+ "cold_read": "1 confirmation round - #0 'Two walkie-talkies' sure, #1 'walkie-talkie' sure; 0 FAIL, 0 redesigns",
+ "word_sync": "4 states checked, 0 disagreements",
+ "ss3b": "function_word_merges 0, orphan repartitions 0, solo-word merges 0, board-key echo repairs 0; 23 pills, one size, min aspect 3.26",
+ "render_and_check": "PASS - 1080x1920 531f, qc_pass PASS (12 checks, 2 REPORTED, 0 FAIL), watcher PASS with 0 blocking candidates, staged",
+ "cands": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/cands_claudesessions_split.json",
+ "notes": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/plans/claudesessions_split_notes.md",
+ "prep_markers_missing": ["ship"],
+ "prep_track_status": "running"
+}

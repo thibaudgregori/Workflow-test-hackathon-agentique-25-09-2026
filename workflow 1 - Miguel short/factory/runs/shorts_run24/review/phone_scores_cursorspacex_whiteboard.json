@@ -1,0 +1,16 @@
+{
+ "vid": "cursorspacex",
+ "fmt": "whiteboard",
+ "rounds": 1,
+ "round_kind": "confirmation (the object was sealed at the artwork seat over three independent rounds; this lane's page crop is the same ink in a new frame, so ONE round is the measurement)",
+ "artwork_pass": "review/artwork_pass_cursorspacex.json",
+ "objects": [
+  {"i": 0,
+   "intended": "flag on pole",
+   "reads": [{"round": 1, "name": "flag with heart", "confidence": "sure", "match": "synonym"}],
+   "verdict": "PASS",
+   "reason": "One independent reader REACHED the object and was SURE in three words. 'flag with heart' names the drawn content and its container: the flag IS the intended noun and the heart is what is printed on it at this instant. SCORE THE IDEA, NOT THE NOUN - a sibling noun of the same thing passes. Zero different names, zero hedges. This is the SAME ink the artwork seat sealed 3/3 sure ('flag with heart' x3, review/phone_reader_cursorspacex_artwork_r{1,2,3}.json), so it is not re-read."}
+ ],
+ "new_objects": [],
+ "redesigns": 0
+}

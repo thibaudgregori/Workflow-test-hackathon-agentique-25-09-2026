@@ -1,0 +1,22 @@
+{
+  "verdict": "PASS",
+  "plan_json": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/plans/cursorspacex_plan.json",
+  "plan_md": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/plans/cursorspacex_plan.md",
+  "lane": "icon choreography",
+  "lane_reason": "The script is a change of ownership between three real brands, so the registry marks have to be the actors and one drawn flagpole carries the whole arc of the brand going down.",
+  "beats": 6,
+  "bespoke_names": ["flag on pole"],
+  "cues": "pointing_cues.py returned 0 cues on this take ('no pointing cue in this take'), so none is answered and none is waived; there is no source card and no raster text in the scene.",
+  "board_mode": "single",
+  "scene_module": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/gen/cursorspacex_scene.py",
+  "scene_handoff": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/plans/cursorspacex_scene_handoff.md",
+  "artwork_pass": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/artwork_pass_cursorspacex.json",
+  "cold_reads_run": 1,
+  "proofs": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/proofs_cursorspacex (crop_seal_00_flag.png, frame_seal_00.png, compose_{hook,named,final,outro}[_phone].png, chart_contact_sheet.png); reads in review/phone_reader_cursorspacex_artwork_r{1,2,3}.json, scoring in review/artwork_scores_cursorspacex.json",
+  "reason": "One bespoke object, one cold-read set of three concurrent independent rounds, all three 'flag with heart' and sure, zero different: sealed on the first round with no redraw. The shared scene is published and neither lane may redraw it.",
+  "open_questions": [
+    "SpaceX publishes only a WORDMARK, so the acquirer's mark is a 236x116 card carrying the wordmark at 200 px wide rather than a 112 px square tile; the Grok tile keeps the standard 112 px chassis tile. If a square SpaceX mark is ever registered, the card becomes a tile and the row becomes two equal tiles.",
+    "The flag's descent is three stepped hard moves (9.84, 12.00, 13.24) rather than one continuous slide, because LAW 1 forbids a continuous drift; an author may retime the three steps inside their own words but must not make them one glide."
+  ],
+  "open_doubts": []
+}

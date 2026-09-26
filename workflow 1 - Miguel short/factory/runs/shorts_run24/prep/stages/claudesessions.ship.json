@@ -1,0 +1,33 @@
+{
+ "id": "claudesessions",
+ "stage": "ship",
+ "status": "ok",
+ "wall_s": 111.7,
+ "at": "2026-09-21T22:54:59",
+ "keys": {
+  "status": "ok",
+  "backend": "sam2",
+  "frames": 531,
+  "width": 1584,
+  "height": 990,
+  "fps": 25,
+  "alpha_mode": "sam2",
+  "rim_px": 7,
+  "temporal": 1,
+  "seconds": 60.894957083,
+  "estimated_compute_usd": 0.02769015488478176,
+  "fractional_alpha_pixels": 5887220,
+  "minimum_person_fraction": 0.3632639526578921,
+  "review_status": "needs_final_visual_review",
+  "ship_source_sha256": "0154788627eb98961c3eb2bc600e14d29cbc4f0de84b5c925b98e03e19bbd250",
+  "client_wall_seconds": 73.25413474999368,
+  "ship_seconds": 60.894957083,
+  "wall_s": 73.25413474999368,
+  "cost_usd": 0.02769015488478176,
+  "fallback": "sam2_nochair_temporal1:fb1_pd5d93595",
+  "prompt_mask_sha256": "d5d93595c107e4fb8a30759edb77346a7a77fa076d2a74676931b6c07e4ef9fa",
+  "cut_sha256": "3a5245d9c1886fe6cd46e313d868d2d942b7985c570124048f7a62b24db2d226",
+  "rim_sha256": "95b91cae18193084a1a95653b66765c9186643f1d9545071d48f999f91d334f0",
+  "alpha_sha256": "d65eff56ca03ecd73da76d3e0b2f2ca9c268501f15199843ab33b67490badc91"
+ }
+}

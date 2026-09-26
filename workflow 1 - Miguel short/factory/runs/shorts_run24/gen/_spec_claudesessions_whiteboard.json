@@ -1,0 +1,9 @@
+{"run": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24", "out_dir": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output",
+ "jobs": [
+  {"project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/projects/claudesessions_whiteboard",
+   "vid": "claudesessions", "fmt": "whiteboard", "quality": "high",
+   "stage": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/staging/reels/claudesessions_whiteboard.mp4",
+   "qc_args": ["--voice-master", "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/cuts/claudesessions/audio.m4a",
+               "--phone-at", "2.55:0.21181,0.17773,0.78819,0.36133:two walkie talkies",
+               "--phone-at", "15.90:0.18056,0.17578,0.80903,0.32813:three walkie talkies",
+               "--seams", "9.72"]}]}

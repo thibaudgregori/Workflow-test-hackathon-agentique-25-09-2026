@@ -1,0 +1,94 @@
+{
+ "set": "seal",
+ "phone_scale": "405x720",
+ "module": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/gen/primeagent_scene.py",
+ "objects": [
+  {
+   "i": 0,
+   "label": "rack",
+   "intended": "an open toolbox with tools",
+   "core_box": [
+    364.5,
+    176.6,
+    715.5,
+    453.5
+   ],
+   "norm_box": [
+    0.3375,
+    0.192,
+    0.6625,
+    0.3362
+   ],
+   "phone_box_px": [
+    137,
+    138,
+    268,
+    242
+   ],
+   "phone_size_px": [
+    131,
+    104
+   ],
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/proof_primeagent/crop_seal_00_rack.png",
+   "frame": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/proof_primeagent/frame_seal_00.png"
+  },
+  {
+   "i": 1,
+   "label": "machine",
+   "intended": "a tool printing machine",
+   "core_box": [
+    356.4,
+    203.1,
+    723.6,
+    456.9
+   ],
+   "norm_box": [
+    0.33,
+    0.2058,
+    0.67,
+    0.338
+   ],
+   "phone_box_px": [
+    134,
+    148,
+    271,
+    243
+   ],
+   "phone_size_px": [
+    137,
+    95
+   ],
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/proof_primeagent/crop_seal_01_machine.png",
+   "frame": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/proof_primeagent/frame_seal_01.png"
+  },
+  {
+   "i": 2,
+   "label": "pair",
+   "intended": "crossed hammer and screwdriver",
+   "core_box": [
+    310.0,
+    123.0,
+    770.0,
+    549.0
+   ],
+   "norm_box": [
+    0.287,
+    0.1641,
+    0.713,
+    0.3859
+   ],
+   "phone_box_px": [
+    116,
+    118,
+    289,
+    278
+   ],
+   "phone_size_px": [
+    173,
+    160
+   ],
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/proof_primeagent/crop_seal_02_pair.png",
+   "frame": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/proof_primeagent/frame_seal_02.png"
+  }
+ ]
+}

@@ -1,0 +1,83 @@
+{
+ "label": "primeagent_split",
+ "video": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/primeagent_split.mp4",
+ "phone_scale": "405x720",
+ "sheet": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/phone_primeagent_split.png",
+ "rule": "a FRESH judge (never read the plan) names each crop in <=3 words. Wrong name, hedge, or 'cannot tell' = the object is redesigned, not annotated.",
+ "answer_key": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/phone_primeagent_split.key.json",
+ "answer_key_rule": "DO NOT OPEN the answer key until every judge_answer below is filled in. Reading it first voids the Phone Test.",
+ "objects": [
+  {
+   "i": 0,
+   "t": 8.2,
+   "bbox_norm": [
+    0.3375,
+    0.192,
+    0.6625,
+    0.3362
+   ],
+   "phone_box_px": [
+    136,
+    138,
+    268,
+    242
+   ],
+   "phone_size_px": [
+    132,
+    104
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/phone_primeagent_split/00.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  },
+  {
+   "i": 1,
+   "t": 1.8,
+   "bbox_norm": [
+    0.33,
+    0.2058,
+    0.67,
+    0.338
+   ],
+   "phone_box_px": [
+    133,
+    148,
+    271,
+    243
+   ],
+   "phone_size_px": [
+    138,
+    95
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/phone_primeagent_split/01.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  },
+  {
+   "i": 2,
+   "t": 24.4,
+   "bbox_norm": [
+    0.287,
+    0.1641,
+    0.713,
+    0.3859
+   ],
+   "phone_box_px": [
+    116,
+    118,
+    288,
+    277
+   ],
+   "phone_size_px": [
+    172,
+    159
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/phone_primeagent_split/02.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  }
+ ]
+}

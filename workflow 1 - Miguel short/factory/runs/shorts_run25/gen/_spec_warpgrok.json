@@ -1,0 +1,57 @@
+{
+  "run": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25",
+  "out_dir": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output",
+  "jobs": [
+    {
+      "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/projects/warpgrok_split",
+      "vid": "warpgrok",
+      "fmt": "split",
+      "quality": "high",
+      "stage": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/staging/youtube/warpgrok_split.mp4",
+      "qc_args": [
+        "--voice-master",
+        "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/cuts/warpgrok/audio.m4a",
+        "--phone-at",
+        "2.6:0.2685,0.2208,0.7315,0.3719:three loose keys",
+        "--phone-at",
+        "9.2:0.1296,0.1469,0.8704,0.3604:wall key rack"
+      ]
+    },
+    {
+      "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/projects/warpgrok_whiteboard",
+      "vid": "warpgrok",
+      "fmt": "whiteboard",
+      "quality": "high",
+      "stage": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/staging/reels/warpgrok_whiteboard.mp4",
+      "qc_args": [
+        "--voice-master",
+        "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/cuts/warpgrok/audio.m4a",
+        "--phone-at",
+        "2.6:0.27974,0.22842,0.73426,0.37904:three loose keys",
+        "--phone-at",
+        "9.2:0.12037,0.14062,0.87963,0.36589:wall key rack"
+      ]
+    },
+    {
+      "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/projects/warpgrok_cutout",
+      "vid": "warpgrok",
+      "fmt": "cutout",
+      "quality": "high",
+      "stage": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/staging/tiktok/warpgrok_cutout.mp4",
+      "qc_args": [
+        "--voice-master",
+        "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/cuts/warpgrok/audio.m4a",
+        "--phone-at",
+        "2.6:0.2778,0.2194,0.7315,0.3652:three loose keys",
+        "--phone-at",
+        "9.2:0.1296,0.135,0.8704,0.3511:wall key rack",
+        "--alpha",
+        "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/matting/warpgrok/matte_warpgrok_v5_alpha.webm",
+        "--edge-box",
+        "1320x990+-120+930",
+        "--plate",
+        "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/matting/warpgrok/plate_display_1320x990.mp4"
+      ]
+    }
+  ]
+}

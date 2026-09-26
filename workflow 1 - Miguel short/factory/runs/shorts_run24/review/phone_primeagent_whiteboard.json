@@ -1,0 +1,83 @@
+{
+ "label": "primeagent_whiteboard",
+ "video": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/primeagent_whiteboard.mp4",
+ "phone_scale": "405x720",
+ "sheet": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/phone_primeagent_whiteboard.png",
+ "rule": "a FRESH judge (never read the plan) names each crop in <=3 words. Wrong name, hedge, or 'cannot tell' = the object is redesigned, not annotated.",
+ "answer_key": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/phone_primeagent_whiteboard.key.json",
+ "answer_key_rule": "DO NOT OPEN the answer key until every judge_answer below is filled in. Reading it first voids the Phone Test.",
+ "objects": [
+  {
+   "i": 0,
+   "t": 1.8,
+   "bbox_norm": [
+    0.2934,
+    0.1973,
+    0.7066,
+    0.3603
+   ],
+   "phone_box_px": [
+    118,
+    142,
+    286,
+    259
+   ],
+   "phone_size_px": [
+    168,
+    117
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/phone_primeagent_whiteboard/00.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  },
+  {
+   "i": 1,
+   "t": 8.2,
+   "bbox_norm": [
+    0.2891,
+    0.207,
+    0.7109,
+    0.3865
+   ],
+   "phone_box_px": [
+    117,
+    149,
+    287,
+    278
+   ],
+   "phone_size_px": [
+    170,
+    129
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/phone_primeagent_whiteboard/01.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  },
+  {
+   "i": 2,
+   "t": 24.4,
+   "bbox_norm": [
+    0.3049,
+    0.1689,
+    0.6982,
+    0.3622
+   ],
+   "phone_box_px": [
+    123,
+    121,
+    282,
+    260
+   ],
+   "phone_size_px": [
+    159,
+    139
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/phone_primeagent_whiteboard/02.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  }
+ ]
+}

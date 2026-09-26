@@ -1,0 +1,17 @@
+{
+  "id": "cursorspacex",
+  "stage": "selection",
+  "decision": "approved",
+  "selection": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/matting/cursorspacex/selection.json",
+  "mask": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/matting/cursorspacex/selection.mask.png",
+  "mask_sha256": "76ca8b9b0883e48eabc020be91a1944952c7cbbd5b99877eabdf219b4b3a3293",
+  "base_mask_sha256": "053eb0b3bf8948156b52afd54ca6ccc2de851574293b2b437cf01bae024460c2",
+  "reviewer": "visual-agent",
+  "status": "reviewed",
+  "validated": true,
+  "edits": 1,
+  "edit_summary": "one exclude polygon removing the viewer-left chair wing between its wall edge (x~368) and its neck edge (x~443-458), from y~376 down to ~6px above the left shoulder seam",
+  "checked": "head band at 2x (cap crown, hairline, both ears, jaw, beard), both chair-shoulder junctions at 5-7x with shadow lift, both motion-blurred hands, lower-left and lower-right shoulder edges, single connected component, no holes",
+  "coverage_before": 0.4524,
+  "coverage_after": 0.4469
+}

@@ -1,0 +1,422 @@
+{
+ "render": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/geminigems_split.mp4",
+ "vid": "geminigems",
+ "fmt": "split",
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/projects/geminigems_split",
+ "checks": {
+  "decoded_blank_frames": {
+   "ok": true,
+   "result": {
+    "frames": 523,
+    "fps": 25.0,
+    "zone": [
+     0,
+     862,
+     1080,
+     862
+    ],
+    "ink_floor": 0.0006,
+    "min_ink_frac": 0.0,
+    "empty_frames_total": 3,
+    "leading_trailing_empty": 3,
+    "interior_blank_frames": [],
+    "pass": true
+   },
+   "wall_s": 0.0
+  },
+  "zero_ink_law": {
+   "ok": true,
+   "result": {
+    "render": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/geminigems_split.mp4",
+    "frames": 523,
+    "fps": 25.0,
+    "zone_bottom_design_px": 862.5,
+    "zone_px": [
+     1080,
+     862
+    ],
+    "first_word_s": 0.12,
+    "leading_empty_frames": 3,
+    "first_judged_frame": 3,
+    "min_ink_frac_judged": 0.02013728,
+    "min_ink_frac_at_s": 20.88,
+    "blank_frames": [],
+    "verdict": "PASS"
+   },
+   "wall_s": 0.0
+  },
+  "clip_coverage_page": {
+   "ok": true,
+   "result": {
+    "duration_s": 20.92,
+    "fps": 25,
+    "groups": {
+     "stage": {
+      "clips": 0,
+      "checked": false,
+      "note": "fewer than two clips \u2014 nothing can hand over"
+     },
+     "tz": {
+      "clips": 1,
+      "checked": false,
+      "note": "fewer than two clips \u2014 nothing can hand over"
+     },
+     "scap": {
+      "clips": 23,
+      "checked": true,
+      "frames": 523,
+      "span": [
+       0.12,
+       20.86
+      ],
+      "holes": [],
+      "ghosts": [],
+      "pass": true
+     }
+    },
+    "holes": 0,
+    "ghosts": 0,
+    "pass": true
+   },
+   "wall_s": 0.0
+  },
+  "double_exposure": {
+   "ok": true,
+   "result": {
+    "frames": 523,
+    "fps": 25.0,
+    "first_word_s": 0.12,
+    "leading_blank_run_frames": 9,
+    "after_first_word": {
+     "from_frame": 3,
+     "from_t": 0.12,
+     "basis": "first spoken word",
+     "min_ink": 0,
+     "min_ink_t": 0.12,
+     "min_ink40": 0,
+     "min_ink40_t": 0.12,
+     "zero_ink_frames": [
+      0.12,
+      0.16,
+      0.2,
+      0.24,
+      0.28,
+      0.32,
+      17.8,
+      17.84,
+      17.88,
+      17.92,
+      17.96,
+      18.0,
+      18.04
+     ],
+     "zero_ink40_frames": [
+      0.12,
+      0.16,
+      0.2,
+      0.24,
+      0.28,
+      0.32,
+      0.36,
+      17.8,
+      17.84,
+      17.88,
+      17.92,
+      17.96,
+      18.0,
+      18.04
+     ]
+    },
+    "after_leading_run": {
+     "from_frame": 9,
+     "from_t": 0.36,
+     "basis": "opening fade-up cleared",
+     "min_ink": 0,
+     "min_ink_t": 17.8,
+     "min_ink40": 0,
+     "min_ink40_t": 0.36,
+     "zero_ink_frames": [
+      17.8,
+      17.84,
+      17.88,
+      17.92,
+      17.96,
+      18.0,
+      18.04
+     ],
+     "zero_ink40_frames": [
+      0.36,
+      17.8,
+      17.84,
+      17.88,
+      17.92,
+      17.96,
+      18.0,
+      18.04
+     ]
+    },
+    "after_first_readable_ink": {
+     "from_frame": 10,
+     "from_t": 0.4,
+     "basis": "first READABLE ink on screen",
+     "min_ink": 0,
+     "min_ink_t": 17.8,
+     "min_ink40": 0,
+     "min_ink40_t": 17.8,
+     "zero_ink_frames": [
+      17.8,
+      17.84,
+      17.88,
+      17.92,
+      17.96,
+      18.0,
+      18.04
+     ],
+     "zero_ink40_frames": [
+      17.8,
+      17.84,
+      17.88,
+      17.92,
+      17.96,
+      18.0,
+      18.04
+     ]
+    },
+    "double_exposure_floor_px": 600,
+    "double_exposure_frames": [],
+    "double_exposure_count": 0,
+    "note": "candidates, not a verdict \u2014 adjudicate each window (procedure v3); the opening fade-up legitimately fires"
+   },
+   "wall_s": 0.04
+  },
+  "face_centring": {
+   "ok": true,
+   "result": {
+    "label": "geminigems_split",
+    "video": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/geminigems_split.mp4",
+    "duration_s": 20.94,
+    "detector": "mediapipe/blazeface",
+    "segment_source": "explicit:--segments",
+    "segments": [
+     [
+      0.0,
+      20.94
+     ]
+    ],
+    "every_s": 0.5,
+    "tol_pct": 4.0,
+    "band_level": "warning",
+    "full_face": {
+     "n": 0,
+     "worst_dx_pct": null,
+     "worst_t": null,
+     "mean_abs_dx_pct": null,
+     "offenders": []
+    },
+    "band": {
+     "n": 42,
+     "worst_dx_pct": 6.94,
+     "worst_t": 19.5,
+     "warnings": [
+      {
+       "t": 4.5,
+       "dx_pct": 4.81,
+       "face_h_pct": 15.6,
+       "class": "band",
+       "score": 0.99,
+       "skin": 0.89
+      },
+      {
+       "t": 6.0,
+       "dx_pct": -4.44,
+       "face_h_pct": 16.0,
+       "class": "band",
+       "score": 0.98,
+       "skin": 0.89
+      },
+      {
+       "t": 13.0,
+       "dx_pct": 4.07,
+       "face_h_pct": 15.4,
+       "class": "band",
+       "score": 0.99,
+       "skin": 0.89
+      },
+      {
+       "t": 19.5,
+       "dx_pct": 6.94,
+       "face_h_pct": 14.5,
+       "class": "band",
+       "score": 0.99,
+       "skin": 0.91
+      },
+      {
+       "t": 20.0,
+       "dx_pct": 5.93,
+       "face_h_pct": 14.8,
+       "class": "band",
+       "score": 0.99,
+       "skin": 0.88
+      },
+      {
+       "t": 20.5,
+       "dx_pct": 5.65,
+       "face_h_pct": 14.9,
+       "class": "band",
+       "score": 0.99,
+       "skin": 0.89
+      }
+     ]
+    },
+    "pass": true,
+    "verdict": "PASS"
+   },
+   "wall_s": 0.95
+  },
+  "pill_canon_rendered": {
+   "ok": true,
+   "result": {
+    "samples": 60,
+    "band_rows_px": [
+     772,
+     952
+    ],
+    "frames_without_a_pill": 0,
+    "distinct_heights_px": {
+     "114": 60
+    },
+    "modal_height_px": 114,
+    "modal_height_design_px": 114.0,
+    "spread_px": 0,
+    "spread_max_px": 2.0,
+    "canonical_height_px": 114.59,
+    "canonical_height_design_px": 114.59,
+    "modal_vs_canon_px": 0.59,
+    "tolerance_px": 3.0,
+    "delivery_scale": 1.0,
+    "widest_pill_px": 724,
+    "widest_pill_in_design_px": 724.0,
+    "verdict": "PASS",
+    "pass": true
+   },
+   "wall_s": 0.0
+  },
+  "gate1_geometry_audit": {
+   "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/geometry_audit.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/projects/geminigems_split --step 0.25 --out /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/gen/_gate1_geminigems_split.json",
+   "rc": 0,
+   "stdout": "geminigems_split: 0 errors, 0 warnings (20.9s @ 0.25s step)\n",
+   "stderr": "",
+   "wall_s": 2.94
+  },
+  "gate2_frame_review": {
+   "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/qc/gate2_frames.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/geminigems_split.mp4 --full --transcript /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/cuts/geminigems/transcript_tight.json",
+   "rc": 0,
+   "stdout": "run24/output/frames_geminigems_split/f_0010_333.jpg\n  t=00:10.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_geminigems_split/f_0010_666.jpg\n  t=00:11.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_geminigems_split/f_0011_000.jpg\n  t=00:11.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_geminigems_split/f_0011_333.jpg\n  t=00:11.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_geminigems_split/f_0011_666.jpg\n  t=00:12.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_geminigems_split/f_0012_000.jpg\n  t=00:12.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_geminigems_split/f_0012_333.jpg\n  t=00:12.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_geminigems_split/f_0012_666.jpg\n  t=00:13.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_geminigems_split/f_0013_000.jpg\n  t=00:14.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_geminigems_split/f_0014_000.jpg\n  t=00:14.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_geminigems_split/f_0014_333.jpg\n  t=00:14.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_geminigems_split/f_0014_666.jpg\n  t=00:15.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_geminigems_split/f_0015_000.jpg\n  t=00:15.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_geminigems_split/f_0015_666.jpg\n  t=00:16.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_geminigems_split/f_0016_333.jpg\n  t=00:17.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_geminigems_split/f_0017_000.jpg\n  t=00:17.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_geminigems_split/f_0017_333.jpg\n  t=00:17.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_geminigems_split/f_0017_666.jpg\n  t=00:18.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_geminigems_split/f_0018_000.jpg\n  t=00:18.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_geminigems_split/f_0018_666.jpg\n  t=00:19.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_geminigems_split/f_0019_000.jpg\n  t=00:19.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_geminigems_split/f_0019_333.jpg\n  t=00:19.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_geminigems_split/f_0019_666.jpg\n  t=00:20.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_geminigems_split/f_0020_000.jpg\n  t=00:20.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_geminigems_split/f_0020_333.jpg\n  t=00:20.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_geminigems_split/f_0020_666.jpg\n\nManifest: /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_geminigems_split/manifest.md  (delete dir after review)\n",
+   "stderr": "",
+   "wall_s": 0.98
+  },
+  "gate3_gemini_describe": {
+   "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/qc/gate3_gemini.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/geminigems_split.mp4 geminigems --run /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24 --label qcpass_geminigems_split",
+   "rc": 0,
+   "stdout": "{\n \"pass\": true,\n \"describe_errors\": [],\n \"visual_errors\": [],\n \"semantic_errors\": [],\n \"described_frames\": 14,\n \"model\": \"gemini-3.5-flash-lite\",\n \"usage\": {\n  \"in\": 8184,\n  \"out\": 1141,\n  \"thoughts\": 0,\n  \"calls\": 3\n },\n \"cost_usd\": 0.005308\n}\n",
+   "stderr": "",
+   "wall_s": 19.89,
+   "cost_usd": 0.005308,
+   "model": "gemini-3.5-flash-lite",
+   "usage": {
+    "in": 8184,
+    "out": 1141,
+    "thoughts": 0,
+    "calls": 3
+   }
+  },
+  "audio_guards": {
+   "ok": true,
+   "result": {
+    "mix_8_16k_db": -30.82,
+    "master_8_16k_db": -30.72,
+    "delta_db": -0.1,
+    "tolerance_db": 6.0,
+    "speech_margin_db_p85_p15_33ms_s16le": 20.475,
+    "sync": {
+     "lag_ms": 0,
+     "r": 0.9953,
+     "instrument": "10 ms |x| envelope, +/-250 ms search"
+    },
+    "audio_initial_padding_samples": 0,
+    "verdict": "PASS",
+    "pass": true
+   },
+   "wall_s": 0.49
+  },
+  "contact_sheet": {
+   "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/contact_sheet.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/geminigems_split.mp4 --id geminigems --fmt split --run /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24",
+   "rc": 0,
+   "stdout": "{\n \"sheet\": \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/sheet_geminigems_split.png\",\n \"id\": \"geminigems\",\n \"fmt\": \"split\",\n \"duration_s\": 20.94,\n \"frame_source\": \"even\",\n \"times\": [\n  0.87,\n  2.62,\n  4.36,\n  6.11,\n  7.85,\n  9.6,\n  11.34,\n  13.09,\n  14.83,\n  16.58,\n  18.32,\n  20.07\n ],\n \"size_px\": [\n  1798,\n  4344\n ]\n}\n",
+   "stderr": "",
+   "wall_s": 2.93
+  },
+  "phone_crops": {
+   "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/phone_crops.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/geminigems_split.mp4 --out /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review --label geminigems_split --at 2.0:410,422,670,637:a_cracked_gem --at 8.6:660,422,920,637:a_tied_parcel --at 12.0:135,510,365,700:two_people_together --at 14.6:715,510,945,700:a_crowd_of_people",
+   "rc": 1,
+   "stdout": "",
+   "stderr": "object #0 has an empty box at phone scale: [166050, 303840, 405, 720]\n",
+   "wall_s": 0.31
+  }
+ },
+ "skipped": {
+  "cutout_checks_24_25": "cutout only, and needs --project",
+  "edge_clip": "cutout only, and needs --alpha",
+  "whiteboard_seam_law": "whiteboard only, and needs --seams (the chapter erase times)",
+  "face_hf_vs_plate": "needs --plate (the display plate)",
+  "head_scale_vs_framing": "needs --alpha and --edge-box (the crown comes from the matte's own alpha, the chin from MediaPipe on the delivered frame)"
+ },
+ "zone_bottom_design_px": 862.5,
+ "decode": {
+  "frames": 523,
+  "fps": 25.0,
+  "size": [
+   1080,
+   1920
+  ],
+  "grid_frames": 42,
+  "caption_band_rows": [
+   772,
+   952
+  ],
+  "caption_seat_design_px": 862.5,
+  "wall_s": 5.03
+ },
+ "gate3_cost_usd": 0.005308,
+ "verdicts": {
+  "decoded_blank_frames": "PASS",
+  "zero_ink_law": "PASS",
+  "clip_coverage_page": "PASS",
+  "double_exposure": "REPORTED",
+  "face_centring": "PASS",
+  "pill_canon_rendered": "PASS",
+  "gate1_geometry_audit": "PASS",
+  "gate2_frame_review": "PASS",
+  "gate3_gemini_describe": "PASS",
+  "audio_guards": "PASS",
+  "contact_sheet": "PASS",
+  "phone_crops": "FAIL"
+ },
+ "wall_s": {
+  "decoded_blank_frames": 0.0,
+  "zero_ink_law": 0.0,
+  "clip_coverage_page": 0.0,
+  "double_exposure": 0.04,
+  "face_centring": 0.95,
+  "pill_canon_rendered": 0.0,
+  "gate1_geometry_audit": 2.94,
+  "gate2_frame_review": 0.98,
+  "gate3_gemini_describe": 19.89,
+  "audio_guards": 0.49,
+  "contact_sheet": 2.93,
+  "phone_crops": 0.31,
+  "single_decode": 5.03
+ },
+ "total_wall_s": 19.91,
+ "pass": false
+}

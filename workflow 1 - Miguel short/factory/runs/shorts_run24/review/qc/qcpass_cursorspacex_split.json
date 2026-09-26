@@ -1,0 +1,127 @@
+{
+ "pass": false,
+ "visual": {
+  "pass": true,
+  "errors": [],
+  "minor_notes": [],
+  "summary": "The video satisfies all standard quality control criteria without any noticeable visual or layout violations."
+ },
+ "semantic": {
+  "pass": true,
+  "errors": [],
+  "minor_notes": [],
+  "summary": "The visuals successfully support the narration with relevant diagrams, brand logos (SpaceX and Grok), and flowcharts indicating acquisition and sunsetting of the brand, meeting all semantic QC standards."
+ },
+ "describe": {
+  "enabled": true,
+  "frames": [
+   {
+    "at_seconds": 0.0,
+    "description": "A vertical line with a base on a beige background, a red caption box below with text, and a man in a black T-shirt and black cap sitting in a room below.",
+    "spoken_words": "One of the",
+    "object_identifiable": false,
+    "unidentifiable_reason": "The line drawing is too abstract to identify a specific real-world object.",
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 1.7,
+    "description": "A flag icon with a heart symbol on it on a beige background, with the man visible underneath.",
+    "spoken_words": "loved brands in",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 3.4,
+    "description": "The same flag with a heart icon, a red caption box below, and the presenter speaking.",
+    "spoken_words": "developers is soon",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 5.1,
+    "description": "The word SUNSET appears above the flag with a heart icon on the beige background.",
+    "spoken_words": "going to be sunset.",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 6.8,
+    "description": "The heart inside the flag has been replaced by a cube wireframe, with the SpaceX logo added underneath.",
+    "spoken_words": "acquired by SpaceX AI,",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 8.5,
+    "description": "The diagram with the flag, cube icon, and SpaceX logo displayed above the presenter.",
+    "spoken_words": "and they confirmed",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 10.2,
+    "description": "The same diagram showing the flag with the cube icon and the SpaceX logo below it.",
+    "spoken_words": "to be mapping out",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 11.9,
+    "description": "The diagram remains on screen with the flag and SpaceX logo while the man talks.",
+    "spoken_words": "over the next few",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 13.6,
+    "description": "A red arrow has been added connecting the SpaceX logo to the flag pole.",
+    "spoken_words": "coming months",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 15.3,
+    "description": "A second box with a slashed-circle icon connected by a red arrow to the diagram.",
+    "spoken_words": "by SpaceX AI",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 17.0,
+    "description": "The full diagram showing the flag, SpaceX logo, and the icon box connected with arrows.",
+    "spoken_words": "and Grok.",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 18.7,
+    "description": "A flag icon with the handle @migueltorrezai and the text daily AI on a beige background.",
+    "spoken_words": "AI news, videos,",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 20.4,
+    "description": "The same social media handle card displayed above the presenter.",
+    "spoken_words": "every single day,",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 21.8,
+    "description": "The social media handle graphic remains above the presenter as he points toward the camera.",
+    "spoken_words": "in the next one.",
+    "object_identifiable": true,
+    "matches_beat": true
+   }
+  ],
+  "summary": "A short video explaining the rebranding and acquisition of Cursor by SpaceX AI and Grok, featuring graphics on screen matching the commentary.",
+  "errors": [
+   {
+    "kind": "unidentifiable_object",
+    "at_seconds": 0.0,
+    "description": "described as \"A vertical line with a base on a beige background, a red caption box below with text, and a man in a black T-shirt and black cap sitting in a room below.\" - The line drawing is too abstract to identify a specific real-world object."
+   }
+  ]
+ }
+}

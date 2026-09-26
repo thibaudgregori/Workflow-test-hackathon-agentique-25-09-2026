@@ -1,0 +1,120 @@
+{
+ "pass": true,
+ "visual": {
+  "pass": true,
+  "errors": [],
+  "minor_notes": [],
+  "summary": "The video successfully adheres to all standard production guidelines without any detected visual or captioning errors."
+ },
+ "semantic": {
+  "pass": true,
+  "errors": [],
+  "minor_notes": [],
+  "summary": "The video successfully matches the spoken content with appropriate visual diagrams, icons, and logos throughout the narration without any semantic or alignment errors."
+ },
+ "describe": {
+  "enabled": true,
+  "frames": [
+   {
+    "at_seconds": 0.5,
+    "description": "a diamond line drawing with a crack through it above the caption Google just killed, with a man wearing a black cap in the lower half",
+    "spoken_words": "Google just killed",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 2.1,
+    "description": "the same cracked diamond drawing above the caption yet again, with the man speaking below",
+    "spoken_words": "yet again.",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 3.7,
+    "description": "a small colored star icon and the text GEMINI GEMS under it, above the cracked diamond, with the caption are being sunset on",
+    "spoken_words": "are being sunset on",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 5.2,
+    "description": "the cracked diamond with the text SUNSET OCT 20 under it, and the caption October 20th, and",
+    "spoken_words": "October 20th, and",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 6.8,
+    "description": "an arrow pointing from the cracked diamond to a gift box with a star icon on its right, with the caption replaced by Skills,",
+    "spoken_words": "replaced by",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 8.4,
+    "description": "the gift box diagram with the word SKILLS written below the box, and the caption the new standard",
+    "spoken_words": "way of sharing your",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 10.0,
+    "description": "lines connecting the gift box to two icons of people labeled TEAMMATES, with the caption AI workflows, either",
+    "spoken_words": "either",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 11.6,
+    "description": "the gift box connected to icons for teammates and an icon showing a group of people for community, with the caption or with members",
+    "spoken_words": "or",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 13.2,
+    "description": "the full diagram of skills connected to teammates and community, with the caption of your community.",
+    "spoken_words": "of your community.",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 14.8,
+    "description": "the community diagram remaining on screen above the speaking man, with the caption AI news, videos, and",
+    "spoken_words": "AI news, videos, and",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 16.4,
+    "description": "the diagram still visible above the man, with the caption every single day.",
+    "spoken_words": "and",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 18.0,
+    "description": "an icon of an open gift box above the caption to migrate your",
+    "spoken_words": "to",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 19.6,
+    "description": "the open gift box icon above the handle @migueltorrezai and daily AI, with the caption gems, and see you",
+    "spoken_words": "and",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 20.4,
+    "description": "the open gift box icon and handle card above the speaking man, with the caption in the next one",
+    "spoken_words": "one",
+    "object_identifiable": true,
+    "matches_beat": true
+   }
+  ],
+  "summary": "A tech creator announces that Google is sunsetting Gemini Gems and replacing them with Skills for sharing AI workflows.",
+  "errors": []
+ }
+}

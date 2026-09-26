@@ -1,0 +1,122 @@
+{
+ "pass": true,
+ "visual": {
+  "pass": true,
+  "errors": [],
+  "minor_notes": [],
+  "summary": "The video follows all visual and technical guidelines with clean transitions, legible captions, no overlay collisions or floating animations, and meets all standard v1 requirements."
+ },
+ "semantic": {
+  "pass": true,
+  "errors": [],
+  "minor_notes": [
+   "Diagrams and icons successfully illustrate Gemini Gems sunsetting and Skills replacement."
+  ],
+  "summary": "The video successfully illustrates the narrator's explanation of Google sunsetting Gemini Gems and replacing them with Skills, providing helpful visual diagrams and clear annotations throughout."
+ },
+ "describe": {
+  "enabled": true,
+  "frames": [
+   {
+    "at_seconds": 0.0,
+    "description": "A diamond outline on a beige background, with a caption box reading Google just killed below it, and the presenter's face visible at the bottom.",
+    "spoken_words": "Google just killed",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 1.6,
+    "description": "A diamond outline above a red caption box reading yet again., with the presenter's face below.",
+    "spoken_words": "yet again.",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 3.1,
+    "description": "A four-pointed star icon above a diamond outline, with a caption box reading Now, Gemini Gems below.",
+    "spoken_words": "Now, Gemini Gems",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 4.6,
+    "description": "A red caption box reading October 20th, and below a diamond outline and star icon.",
+    "spoken_words": "October 20th, and",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 6.2,
+    "description": "A red caption box reading replaced by Skills, placed below a diamond outline connected by a red line to a wrapped gift box with a star icon.",
+    "spoken_words": "replaced by Skills,",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 7.7,
+    "description": "A red caption box reading the new standard below a diagram connecting a star-topped diamond to a gift box with a star.",
+    "spoken_words": "the new standard",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 9.2,
+    "description": "A red caption box reading way of sharing your, beneath a diagram showing a diamond and a gift box.",
+    "spoken_words": "way of sharing your",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 10.8,
+    "description": "A red caption box reading with your teammates below a diagram that now includes two user silhouette icons linked to the gift box.",
+    "spoken_words": "with your teammates",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 12.3,
+    "description": "A red caption box reading or with members below a diagram showing two groups of user silhouettes connected to a gift box.",
+    "spoken_words": "or with members",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 13.8,
+    "description": "A red caption box reading of your community. below a diagram showing a gift box and user silhouettes.",
+    "spoken_words": "of your community.",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 15.4,
+    "description": "A red caption box reading AI news, videos, and above the presenter's face.",
+    "spoken_words": "AI news, videos, and",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 16.9,
+    "description": "A red caption box reading every single day. above the presenter's face.",
+    "spoken_words": "every single day.",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 18.5,
+    "description": "A red caption box reading to migrate your above an open cardboard box icon with a diamond resting on top.",
+    "spoken_words": "to migrate your",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 20.0,
+    "description": "A handle card reading @migueltorrez.ai below an open box icon with a diamond on top, and the presenter's face at the bottom.",
+    "spoken_words": "in the next one",
+    "object_identifiable": true,
+    "matches_beat": true
+   }
+  ],
+  "summary": "The video is a short tech update explaining that Google is sunsetting Gemini Gems on October 20th and replacing them with Skills for sharing AI workflows.",
+  "errors": []
+ }
+}

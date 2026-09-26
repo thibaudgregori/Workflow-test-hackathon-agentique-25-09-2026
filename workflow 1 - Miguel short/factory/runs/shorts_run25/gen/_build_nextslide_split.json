@@ -1,0 +1,752 @@
+{
+ "video": "nextslide",
+ "lane": "icon choreography",
+ "fps": 25,
+ "duration": 33.2,
+ "seam": 862.5,
+ "formats": {
+  "split": {
+   "cues": {
+    "easel": {
+     "word": 0,
+     "text": "AI",
+     "t": 0.14
+    },
+    "shift": {
+     "word": 12,
+     "text": "OpenAI",
+     "t": 3.94
+    },
+    "ns": {
+     "word": 15,
+     "text": "NextSlide,",
+     "t": 5.2
+    },
+    "built": {
+     "word": 20,
+     "text": "built",
+     "t": 7.38
+    },
+    "ch1": {
+     "word": 24,
+     "text": "The",
+     "t": 8.98
+    },
+    "nsflip": {
+     "word": 28,
+     "text": "NextSlide",
+     "t": 9.78
+    },
+    "claude": {
+     "word": 35,
+     "text": "any",
+     "t": 13.02
+    },
+    "gemini": {
+     "word": 36,
+     "text": "AI",
+     "t": 13.26
+    },
+    "grok": {
+     "word": 37,
+     "text": "model",
+     "t": 13.5
+    },
+    "models": {
+     "word": 38,
+     "text": "out",
+     "t": 13.82
+    },
+    "create": {
+     "word": 42,
+     "text": "presentations",
+     "t": 14.94
+    },
+    "createout": {
+     "word": 45,
+     "text": "things",
+     "t": 16.36
+    },
+    "ch2": {
+     "word": 47,
+     "text": "They",
+     "t": 17.5
+    },
+    "openai2": {
+     "word": 53,
+     "text": "OpenAI",
+     "t": 18.92
+    },
+    "gpt": {
+     "word": 58,
+     "text": "ChatGPT.",
+     "t": 20.72
+    },
+    "ch3": {
+     "word": 59,
+     "text": "And",
+     "t": 21.62
+    },
+    "home": {
+     "word": 60,
+     "text": "honestly,",
+     "t": 21.86
+    },
+    "wipe": {
+     "word": 69,
+     "text": "presentations",
+     "t": 25.08
+    },
+    "bars": {
+     "word": 70,
+     "text": "that",
+     "t": 25.72
+    },
+    "pretty": {
+     "word": 74,
+     "text": "pretty",
+     "t": 26.94
+    },
+    "under": {
+     "word": 77,
+     "text": "understandable.",
+     "t": 28.06
+    },
+    "outro": {
+     "word": 78,
+     "text": "Now",
+     "t": 29.14
+    },
+    "mess": {
+     "word": 0,
+     "text": "AI",
+     "t": 0.3,
+     "window": [
+      0.14,
+      1.4
+     ]
+    },
+    "keyterm": {
+     "word": 4,
+     "text": "presentations,",
+     "t": 1.8,
+     "window": [
+      1.2,
+      2.78
+     ]
+    },
+    "openai": {
+     "word": 12,
+     "text": "OpenAI",
+     "t": 4.1,
+     "window": [
+      3.94,
+      5.38
+     ]
+    },
+    "acq": {
+     "word": 15,
+     "text": "NextSlide,",
+     "t": 5.52,
+     "window": [
+      5.2,
+      6.76
+     ]
+    },
+    "nsflipout": {
+     "word": 29,
+     "text": "were",
+     "t": 10.6,
+     "window": [
+      10.6,
+      11.8
+     ]
+    },
+    "acq2": {
+     "word": 53,
+     "text": "OpenAI",
+     "t": 19.1,
+     "window": [
+      18.92,
+      20.4
+     ]
+    },
+    "gptconn": {
+     "word": 58,
+     "text": "ChatGPT.",
+     "t": 20.9,
+     "window": [
+      20.72,
+      22.3
+     ]
+    },
+    "clean": {
+     "word": 69,
+     "text": "presentations",
+     "t": 25.24,
+     "window": [
+      25.08,
+      26.7
+     ]
+    }
+   },
+   "word_sync": {
+    "typed_states": [
+     {
+      "state": "key-term",
+      "first_visible_text": "AI PRESENTATIONS",
+      "at": 1.8,
+      "word": "presentations,",
+      "word_window": [
+       1.2,
+       2.78
+      ]
+     },
+     {
+      "state": "vA",
+      "first_visible_text": "PRETTY",
+      "at": 26.94,
+      "word": "pretty",
+      "word_window": [
+       26.94,
+       28.28
+      ]
+     },
+     {
+      "state": "vB",
+      "first_visible_text": "UNDERSTANDABLE",
+      "at": 28.06,
+      "word": "understandable.",
+      "word_window": [
+       28.06,
+       29.78
+      ]
+     }
+    ],
+    "disagreements": 0,
+    "digits_that_tick": 0
+   },
+   "law37": {
+    "scan_cue_count": 0,
+    "plan_declared_cards": 0,
+    "prep_marker_cue_count": 0,
+    "source_cards_in_the_page": 0
+   },
+   "law39": {
+    "key-term": {
+     "host": "easel",
+     "side": "above",
+     "text": "AI PRESENTATIONS",
+     "at": 1.8,
+     "box_canvas": [
+      290.0,
+      202.0,
+      790.0,
+      260.0
+     ]
+    },
+    "key-verdict": {
+     "host": "easel",
+     "side": "below",
+     "text": "PRETTY + UNDERSTANDABLE",
+     "at": 26.94,
+     "box_canvas": [
+      328.0,
+      722.0,
+      752.0,
+      766.0
+     ]
+    },
+    "_key_term": {
+     "text": "AI PRESENTATIONS",
+     "font_px": 48.0,
+     "design_units": 25.6,
+     "first_type": true
+    }
+   },
+   "law42": {
+    "board_mode": "chapters",
+    "chapters": 4,
+    "anchors": [
+     "clean-slide",
+     "easel",
+     "emph-easel",
+     "key-term",
+     "key-verdict"
+    ],
+    "nextslide_card_share": 0.503,
+    "nextslide_card_note": "the card is the referent of beats 1-3 (plan lifetimes), leaves at 21.90",
+    "plan_marks": [
+     "chatgpt-tile",
+     "claude-tile",
+     "clean-slide",
+     "conn-acq",
+     "conn-built",
+     "conn-gpt",
+     "conn-models (x3)",
+     "easel",
+     "gemini-tile",
+     "grok-tile",
+     "key-term",
+     "key-verdict",
+     "messy-slide",
+     "nextslide-card",
+     "openai-tile",
+     "openai-tile (return)"
+    ]
+   },
+   "law41": {
+    "tightest_core_px": 44.0,
+    "tightest_pair": [
+     "claude-tile",
+     "gemini-tile",
+     14.5
+    ],
+    "refusal_line": 16.0,
+    "blocks": [
+     [
+      "easel",
+      "messy-slide"
+     ],
+     [
+      "easel",
+      "clean-slide"
+     ],
+     [
+      "easel",
+      "key-term"
+     ],
+     [
+      "easel",
+      "key-verdict"
+     ],
+     [
+      "nextslide-card",
+      "mark-nextslide"
+     ],
+     [
+      "openai-tile",
+      "mark-openai"
+     ],
+     [
+      "chatgpt-tile",
+      "mark-chatgpt"
+     ],
+     [
+      "claude-tile",
+      "mark-claude"
+     ],
+     [
+      "gemini-tile",
+      "mark-gemini"
+     ],
+     [
+      "grok-tile",
+      "mark-grok"
+     ]
+    ]
+   },
+   "law38": {
+    "border_flips": [
+     {
+      "on": "nextslide-card",
+      "target": "mark-nextslide",
+      "check_at": 10.3,
+      "held": [
+       10.16,
+       10.6
+      ]
+     },
+     {
+      "on": "easel-frame",
+      "target": "easel",
+      "check_at": 28.6,
+      "held": [
+       28.439999999999998,
+       29.14
+      ]
+     }
+    ],
+    "rings_ellipses_circles": 0,
+    "highlights": 0,
+    "dom_elements_added": 0
+   },
+   "law2": {
+    "stage_marks": [
+     "chatgpt",
+     "claude",
+     "gemini",
+     "grok",
+     "nextslide",
+     "openai"
+    ],
+    "resolved": {
+     "openai": "/Users/migle/Documents/Workspace/assets/logos/ai-models/openai.png",
+     "chatgpt": "/Users/migle/Documents/Workspace/assets/logos/ai-models/chatgpt-color.png",
+     "claude": "/Users/migle/Documents/Workspace/assets/logos/ai-models/claude-color.png",
+     "gemini": "/Users/migle/Documents/Workspace/assets/logos/ai-models/gemini-color.png",
+     "grok": "/Users/migle/Documents/Workspace/assets/logos/ai-models/grok.png",
+     "nextslide": "/Users/migle/Documents/Workspace/assets/logos/design-tools/nextslide-wordmark.png"
+    },
+    "mark_side_core_px": 56.0,
+    "cutout_lanes_not_ours": [
+     "canva",
+     "copilot",
+     "google-workspace",
+     "perplexity",
+     "mistral"
+    ]
+   },
+   "law22": {
+    "events": 15,
+    "tightest_gap_s": 0.48,
+    "deliberately_silent": {
+     "openai 4.10": "0.16 s after the shift whoosh",
+     "acq 5.52": "0.32 s after the card pop; one pop scores both",
+     "gemini/grok": "one pop scores the three tiles",
+     "flips/exits": "a colour flip or a fade-out is not an arrival"
+    }
+   },
+   "law40": {
+    "conn-acq": {
+     "target": "openai-tile",
+     "side": "left",
+     "fraction": 0.5,
+     "check_at": 7.0,
+     "tip_core": [
+      846.0,
+      231.0
+     ],
+     "anchor_core": [
+      850.0,
+      231.0
+     ],
+     "miss_px": 4.0,
+     "from_planned_end_px": 0.0,
+     "first_drawn": 5.52
+    },
+    "conn-built": {
+     "target": "easel-board",
+     "side": "right",
+     "fraction": 0.5,
+     "check_at": 8.4,
+     "tip_core": [
+      436.0,
+      231.0
+     ],
+     "anchor_core": [
+      432.0,
+      231.0
+     ],
+     "miss_px": 4.0,
+     "from_planned_end_px": 0.0,
+     "first_drawn": 7.38
+    },
+    "conn-claude": {
+     "target": "nextslide-card",
+     "side": "right",
+     "fraction": 0.1321,
+     "check_at": 14.4,
+     "tip_core": [
+      760.5,
+      189.8
+     ],
+     "anchor_core": [
+      758.0,
+      189.8
+     ],
+     "miss_px": 2.5,
+     "from_planned_end_px": 3.12,
+     "first_drawn": 13.82
+    },
+    "conn-gemini": {
+     "target": "nextslide-card",
+     "side": "right",
+     "fraction": 0.5,
+     "check_at": 14.4,
+     "tip_core": [
+      762.0,
+      231.0
+     ],
+     "anchor_core": [
+      758.0,
+      231.0
+     ],
+     "miss_px": 4.0,
+     "from_planned_end_px": 0.0,
+     "first_drawn": 13.92
+    },
+    "conn-grok": {
+     "target": "nextslide-card",
+     "side": "right",
+     "fraction": 0.8688,
+     "check_at": 14.4,
+     "tip_core": [
+      760.5,
+      272.3
+     ],
+     "anchor_core": [
+      758.0,
+      272.31
+     ],
+     "miss_px": 2.5,
+     "from_planned_end_px": 3.23,
+     "first_drawn": 14.02
+    },
+    "conn-gpt": {
+     "target": "chatgpt-tile",
+     "side": "top",
+     "fraction": 0.5,
+     "check_at": 21.2,
+     "tip_core": [
+      906.0,
+      327.0
+     ],
+     "anchor_core": [
+      906.0,
+      331.0
+     ],
+     "miss_px": 4.0,
+     "from_planned_end_px": 0.0,
+     "first_drawn": 20.9
+    }
+   },
+   "declared": {
+    "connectors_stamped": 6,
+    "emphases_stamped": 2,
+    "retargeted": {
+     "conn-built": "easel -> easel-board (the board rect, per the plan's note)"
+    }
+   },
+   "band": {
+    "content_top": 202.0,
+    "content_bottom": 766.0,
+    "pill_top_rendered": 805.205,
+    "clear_above_pill": 39.21,
+    "clear_below_law30": 10.0
+   },
+   "rail": {
+    "readable_type_right_x": 785.4,
+    "readable_type_left_x": 36.6,
+    "ink_left_x": 32.0,
+    "ink_right_x": 962.0,
+    "law30_rail_x": 918.0
+   },
+   "staged": {
+    "voice": {
+     "source": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/cuts/nextslide/audio.m4a",
+     "sample_rate": 48000,
+     "channels": 2
+    },
+    "bed": "/Users/migle/Documents/Workspace/assets/audio/music/shorts-factory/bed_split_v2.mp3",
+    "sfx_sources": {
+     "whoosh": "/Users/migle/Documents/Workspace/assets/audio/sfx/shorts-factory/whoosh.mp3",
+     "pop": "/Users/migle/Documents/Workspace/assets/audio/sfx/shorts-factory/pop.mp3",
+     "click": "/Users/migle/Documents/Workspace/assets/audio/sfx/shorts-factory/click.mp3"
+    },
+    "face": {
+     "file": "face_bottom_hd.mp4",
+     "w": 1080,
+     "h": 1058
+    },
+    "marks": {
+     "openai": {
+      "source": "/Users/migle/Documents/Workspace/assets/logos/ai-models/openai.png",
+      "url": "assets/logos/openai.png"
+     },
+     "chatgpt": {
+      "source": "/Users/migle/Documents/Workspace/assets/logos/ai-models/chatgpt-color.png",
+      "url": "assets/logos/chatgpt-color.png"
+     },
+     "claude": {
+      "source": "/Users/migle/Documents/Workspace/assets/logos/ai-models/claude-color.png",
+      "url": "assets/logos/claude-color.png"
+     },
+     "gemini": {
+      "source": "/Users/migle/Documents/Workspace/assets/logos/ai-models/gemini-color.png",
+      "url": "assets/logos/gemini-color.png"
+     },
+     "grok": {
+      "source": "/Users/migle/Documents/Workspace/assets/logos/ai-models/grok.png",
+      "url": "assets/logos/grok.png"
+     },
+     "nextslide": {
+      "source": "/Users/migle/Documents/Workspace/assets/logos/design-tools/nextslide-wordmark.png",
+      "url": "assets/logos/nextslide-wordmark.png"
+     }
+    }
+   },
+   "seat": 862.5,
+   "scale": 1.0,
+   "core": {
+    "left": 0.0,
+    "top": 192.0
+   },
+   "phone_objects": [
+    {
+     "name": "slide on easel",
+     "t": 3.0,
+     "bbox": [
+      0.3481,
+      0.1573,
+      0.6519,
+      0.3646
+     ],
+     "canvas": [
+      376.0,
+      302.0,
+      704.0,
+      700.0
+     ]
+    },
+    {
+     "name": "chart on easel",
+     "t": 28.5,
+     "bbox": [
+      0.3481,
+      0.1573,
+      0.6519,
+      0.3646
+     ],
+     "canvas": [
+      376.0,
+      302.0,
+      704.0,
+      700.0
+     ]
+    }
+   ],
+   "transcript": {
+    "law47_tail_s": 0.22,
+    "law47_cap_s": 0.24,
+    "law47_verdict": "PASS \u2014 0.220s past the last word against a 0.240s cap",
+    "law46": "the scripted opening occurs ONCE inside the keeper take",
+    "take_corroboration": {
+     "method": "last scripted opening that reaches the spoken sign-off; the content rule decides, the marker rule and the gap sweep witness",
+     "raw_word_index": 114,
+     "raw_start_s": 85.42,
+     "words": 99,
+     "of_raw_words": 213,
+     "openings_found": [
+      2,
+      25,
+      66,
+      114
+     ],
+     "marker_rule": "equality",
+     "marker_answer": 114,
+     "markers_before_take": 5,
+     "gap_rule": "band",
+     "corroboration": {
+      "marker": "equality",
+      "gap": "band",
+      "witnessed": true,
+      "allow_uncorroborated": false
+     }
+    },
+    "words": 99,
+    "function_word_merges": 0,
+    "beats_before_merge": 33,
+    "orphan_repartitions": [],
+    "solo_word_merges": [],
+    "board_keys_forbidden_at_split": [
+     "ai presentations",
+     "ai presentations!",
+     "ai presentations,",
+     "ai presentations.",
+     "ai presentations?",
+     "pretty",
+     "pretty!",
+     "pretty,",
+     "pretty.",
+     "pretty?",
+     "understandable",
+     "understandable!",
+     "understandable,",
+     "understandable.",
+     "understandable?"
+    ]
+   },
+   "captions": {
+    "n": 33,
+    "widest_px": 711.3,
+    "texts": [
+     "AI sucks at",
+     "creating presentations,",
+     "but that might be",
+     "changing soon enough.",
+     "OpenAI just",
+     "acquired NextSlide,",
+     "an application that was",
+     "built exactly for this.",
+     "The team over",
+     "at NextSlide",
+     "were creating",
+     "an application",
+     "that allowed any AI",
+     "model out there to",
+     "create presentations",
+     "to communicate",
+     "things clearly.",
+     "They will now be",
+     "working with OpenAI",
+     "on the development",
+     "of ChatGPT.",
+     "And honestly,",
+     "I really hope that",
+     "for once we get",
+     "presentations that are",
+     "actually both pretty and",
+     "also understandable.",
+     "Now follow for more",
+     "AI news, videos, and",
+     "tutorials each and",
+     "every single day,",
+     "and catch you",
+     "in the next one"
+    ],
+    "starts": [
+     0.14,
+     0.86,
+     2.1,
+     2.72,
+     3.94,
+     4.64,
+     6.1,
+     7.38,
+     8.98,
+     9.66,
+     10.6,
+     11.44,
+     12.44,
+     13.5,
+     14.52,
+     15.58,
+     16.36,
+     17.5,
+     18.18,
+     19.7,
+     20.46,
+     21.62,
+     22.76,
+     23.86,
+     25.08,
+     26.06,
+     27.64,
+     29.14,
+     29.86,
+     30.66,
+     31.36,
+     32.22,
+     32.56
+    ]
+   },
+   "render": {
+    "w": 1080,
+    "h": 1920,
+    "zoom": 1
+   },
+   "handle": "@migueltorrezai"
+  }
+ }
+}

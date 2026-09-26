@@ -1,0 +1,18 @@
+{
+ "id": "grokimagine2",
+ "stage": "cut",
+ "status": "ok",
+ "wall_s": 72.1,
+ "at": "2026-09-22T22:26:38",
+ "keys": {
+  "status": "ok",
+  "master": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/cuts/grokimagine2/master.mp4",
+  "audio": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/cuts/grokimagine2/audio.m4a",
+  "edl": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/cuts/grokimagine2/edl.json",
+  "transcript_tight": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/cuts/grokimagine2/transcript_tight.json",
+  "cut_master_duration_s": 32.32,
+  "analysis_wav_written": false,
+  "tight_audio_duration_s": 32.3,
+  "wall_s": 72.1
+ }
+}

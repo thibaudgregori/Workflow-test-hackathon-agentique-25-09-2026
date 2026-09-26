@@ -1,0 +1,133 @@
+{
+ "label": "ws_geminigems_cutout",
+ "video": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/projects/geminigems_cutout",
+ "phone_scale": "405x720",
+ "sheet": "review/wordsync_geminigems_cutout/phone_ws_geminigems_cutout.png",
+ "rule": "a FRESH judge (never read the plan) names each crop in <=3 words. Wrong name, hedge, or 'cannot tell' = the object is redesigned, not annotated.",
+ "answer_key": "review/wordsync_geminigems_cutout/phone_ws_geminigems_cutout.key.json",
+ "answer_key_rule": "DO NOT OPEN the answer key until every judge_answer below is filled in. Reading it first voids the Phone Test.",
+ "cut_from": "headless page screenshots, no video render",
+ "mode": "phone-test",
+ "objects": [
+  {
+   "i": 0,
+   "t": 3.4,
+   "bbox_norm": [
+    0.3259,
+    0.3354,
+    0.6741,
+    0.374
+   ],
+   "phone_box_px": [
+    132,
+    241,
+    273,
+    269
+   ],
+   "phone_size_px": [
+    141,
+    28
+   ],
+   "path": "review/wordsync_geminigems_cutout/phone_ws_geminigems_cutout/00.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  },
+  {
+   "i": 1,
+   "t": 5.18,
+   "bbox_norm": [
+    0.3778,
+    0.3688,
+    0.6222,
+    0.4
+   ],
+   "phone_box_px": [
+    153,
+    265,
+    252,
+    288
+   ],
+   "phone_size_px": [
+    99,
+    23
+   ],
+   "path": "review/wordsync_geminigems_cutout/phone_ws_geminigems_cutout/01.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  },
+  {
+   "i": 2,
+   "t": 7.58,
+   "bbox_norm": [
+    0.6667,
+    0.3396,
+    0.7963,
+    0.3708
+   ],
+   "phone_box_px": [
+    270,
+    244,
+    322,
+    267
+   ],
+   "phone_size_px": [
+    52,
+    23
+   ],
+   "path": "review/wordsync_geminigems_cutout/phone_ws_geminigems_cutout/02.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  },
+  {
+   "i": 3,
+   "t": 11.64,
+   "bbox_norm": [
+    0.1426,
+    0.3667,
+    0.3204,
+    0.3979
+   ],
+   "phone_box_px": [
+    57,
+    264,
+    129,
+    286
+   ],
+   "phone_size_px": [
+    72,
+    22
+   ],
+   "path": "review/wordsync_geminigems_cutout/phone_ws_geminigems_cutout/03.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  },
+  {
+   "i": 4,
+   "t": 13.4,
+   "bbox_norm": [
+    0.6796,
+    0.3667,
+    0.8574,
+    0.3979
+   ],
+   "phone_box_px": [
+    275,
+    264,
+    347,
+    286
+   ],
+   "phone_size_px": [
+    72,
+    22
+   ],
+   "path": "review/wordsync_geminigems_cutout/phone_ws_geminigems_cutout/04.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  }
+ ]
+}

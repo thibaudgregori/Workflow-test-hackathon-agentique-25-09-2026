@@ -1,0 +1,15 @@
+{
+  "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/projects/warpgrok_whiteboard",
+  "vid": "warpgrok",
+  "fmt": "whiteboard",
+  "quality": "high",
+  "stage": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/staging/reels/warpgrok_whiteboard.mp4",
+  "qc_args": [
+    "--voice-master",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/cuts/warpgrok/audio.m4a",
+    "--phone-at",
+    "2.6:0.27974,0.22842,0.73426,0.37904:three loose keys",
+    "--phone-at",
+    "9.2:0.12037,0.14062,0.87963,0.36589:wall key rack"
+  ]
+}

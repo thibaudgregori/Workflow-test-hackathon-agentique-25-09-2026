@@ -1,0 +1,28 @@
+{
+  "tag": "seal_r1",
+  "cold_dir": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/cold/seal_r1-2610777b",
+  "reader": "one independent `claude -p` process per crop, launched from /tmp, handed ONLY the absolute path of a blind copy under a random token - no plan, no topic, no manifest, no sealed key, and no path naming the video",
+  "prompt": "Look at the image at <absolute path of one blind crop> . Name the single everyday object drawn in it. At most FIVE words. Reply with ONE line of JSON and nothing else: {\"name\":\"<=5 words\",\"confidence\":\"sure|unsure|cannot tell\"}",
+  "dispatched_at": "2026-09-21T18:11:00",
+  "cli": "2.1.278 (Claude Code)",
+  "source_crops": {
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/proofs/crop_seal_00_pair.png": "110b60cf6f31701f44d756c1a8639fa77f43b3a8bb0a2033d268c4b58ea4e8a3",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/proofs/crop_seal_01_team.png": "78ccd20274d64ca0cb100af012ea26515964b22ab93e8b3950f2c2dc3ee7b613"
+  },
+  "names": [
+    {
+      "i": 0,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/cold/seal_r1-2610777b/00.png",
+      "name": "walkie-talkies",
+      "confidence": "sure",
+      "crop_sha256": "110b60cf6f31701f44d756c1a8639fa77f43b3a8bb0a2033d268c4b58ea4e8a3"
+    },
+    {
+      "i": 1,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/cold/seal_r1-2610777b/01.png",
+      "name": "walkie-talkie",
+      "confidence": "sure",
+      "crop_sha256": "78ccd20274d64ca0cb100af012ea26515964b22ab93e8b3950f2c2dc3ee7b613"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/projects/geminigems_split",
+ "label": "geminigems_split",
+ "mode": "phone-test",
+ "composition_px": [
+  1080,
+  1920
+ ],
+ "duration_s": 20.92,
+ "sheet": "runs/shorts_run24/review/phone_geminigems_split.png",
+ "manifest": "runs/shorts_run24/review/phone_geminigems_split.json",
+ "answer_key": "runs/shorts_run24/review/phone_geminigems_split.key.json",
+ "n_objects": 4,
+ "phone_sizes_px": [
+  [
+   98,
+   80
+  ],
+  [
+   98,
+   80
+  ],
+  [
+   86,
+   71
+  ],
+  [
+   86,
+   71
+  ]
+ ],
+ "wall_s": 1.83
+}

@@ -1,0 +1,20 @@
+{
+  "tag": "confirm",
+  "cold_dir": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/cold/confirm-aa9b97f5",
+  "reader": "one independent `claude -p` process per crop, launched from /tmp, handed ONLY the absolute path of a blind copy under a random token - no plan, no topic, no manifest, no sealed key, and no path naming the video",
+  "prompt": "Look at the image at <absolute path of one blind crop> . Name the single everyday object drawn in it. At most FIVE words. Reply with ONE line of JSON and nothing else: {\"name\":\"<=5 words\",\"confidence\":\"sure|unsure|cannot tell\"}",
+  "dispatched_at": "2026-09-21T18:26:27",
+  "cli": "2.1.278 (Claude Code)",
+  "source_crops": {
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/phone_cursorspacex_whiteboard/00.png": "6119a5c559fc511a91b5d5eac847d540e12ba73b8853338534283499bbe56d59"
+  },
+  "names": [
+    {
+      "i": 0,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/cold/confirm-aa9b97f5/00.png",
+      "name": "flag with heart",
+      "confidence": "sure",
+      "crop_sha256": "6119a5c559fc511a91b5d5eac847d540e12ba73b8853338534283499bbe56d59"
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+ "pass": false,
+ "visual": {
+  "pass": true,
+  "errors": [],
+  "minor_notes": [
+   "The video followed all formatting rules and successfully avoided all specified failure conditions."
+  ],
+  "summary": "The video passed all visual quality control checks with no detected errors."
+ },
+ "semantic": {
+  "pass": true,
+  "errors": [],
+  "minor_notes": [],
+  "summary": "The video successfully matches the semantic quality control criteria with clear visuals, correct logo usage, and in-sync branding and claims throughout."
+ },
+ "describe": {
+  "enabled": true,
+  "frames": [
+   {
+    "at_seconds": 0.0,
+    "description": "A vertical line with a base on a cream background above a man wearing a cap and black t-shirt.",
+    "spoken_words": "One of the",
+    "object_identifiable": false,
+    "unidentifiable_reason": "The line drawing at the top is an abstract symbol with no clear real-world equivalent.",
+    "matches_beat": false,
+    "mismatch_reason": "The symbol displayed does not match the phrase 'One of the'."
+   },
+   {
+    "at_seconds": 1.5,
+    "description": "A flag icon with a heart in the center above the man, with the caption 'loved brands in'.",
+    "spoken_words": "loved brands in",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 3.0,
+    "description": "A flag with a heart icon above the man, with the caption 'developers is soon'.",
+    "spoken_words": "developers is soon",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 4.5,
+    "description": "The word 'SUNSET' above a flag icon with a heart, with the caption 'going to be sunset.'",
+    "spoken_words": "going to be sunset.",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 6.0,
+    "description": "The word 'SUNSET' above a flag icon containing a cube shape, with the caption 'acquired by SpaceX AI,'",
+    "spoken_words": "acquired by SpaceX AI,",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 7.5,
+    "description": "A SpaceX logo box below the flag icon, with the caption 'and they confirmed'.",
+    "spoken_words": "and they confirmed",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 9.0,
+    "description": "The SpaceX logo box below the flag icon, with the caption 'to be mapping out'.",
+    "spoken_words": "to be mapping out",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 10.5,
+    "description": "The SpaceX logo box below the flag icon, with the caption 'the Cursor brand'.",
+    "spoken_words": "the Cursor brand",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 12.0,
+    "description": "The SpaceX logo box below the flag icon, with the caption 'over the next few coming'.",
+    "spoken_words": "over the next few coming",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 13.5,
+    "description": "A red arrow pointing from the SpaceX logo box upward, with the caption 'while it gets absorbed'.",
+    "spoken_words": "while it gets absorbed",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 15.0,
+    "description": "A red arrow pointing from the SpaceX logo box to a second empty boxed icon, with the caption 'by SpaceX AI'.",
+    "spoken_words": "by SpaceX AI",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 16.5,
+    "description": "Two boxed icons connected by red arrows from the flag, with the caption 'and Grok.'",
+    "spoken_words": "and Grok.",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 18.0,
+    "description": "A minimalist flag graphic above the presenter, with the caption 'Now, follow for more'.",
+    "spoken_words": "Now, follow for more",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 21.0,
+    "description": "A handle card showing '@migueltorrez.ai' and 'daily AI' under a flag icon, with the caption 'catch you in'.",
+    "spoken_words": "catch you in",
+    "object_identifiable": true,
+    "matches_beat": true
+   }
+  ],
+  "summary": "The presenter discusses the acquisition and branding transition of Cursor by SpaceX AI, illustrated by simple diagrammatic overlays on screen.",
+  "errors": [
+   {
+    "kind": "unidentifiable_object",
+    "at_seconds": 0.0,
+    "description": "described as \"A vertical line with a base on a cream background above a man wearing a cap and black t-shirt.\" - The line drawing at the top is an abstract symbol with no clear real-world equivalent."
+   },
+   {
+    "kind": "beat_mismatch",
+    "at_seconds": 0.0,
+    "description": "picture \"A vertical line with a base on a cream background above a man wearing a cap and black t-shirt.\" vs words \"One of the\" - The symbol displayed does not match the phrase 'One of the'."
+   }
+  ]
+ }
+}

@@ -1,0 +1,122 @@
+{
+ "pass": true,
+ "visual": {
+  "pass": true,
+  "errors": [],
+  "minor_notes": [],
+  "summary": "The video successfully passes all QC requirements with no detected errors."
+ },
+ "semantic": {
+  "pass": true,
+  "errors": [],
+  "minor_notes": [
+   "Visual illustrations and animations effectively supplement narration by showing custom diagrams of Gemini Gems being replaced by Skills."
+  ],
+  "summary": "The video successfully matches visual diagrams and icons to the spoken narration without any semantic errors or missing requirements."
+ },
+ "describe": {
+  "enabled": true,
+  "frames": [
+   {
+    "at_seconds": 0.0,
+    "description": "A diamond outline drawing with a red pencil on top, a man in a black cap below, and a caption pill reading 'Google just'.",
+    "spoken_words": "Google just",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 1.5,
+    "description": "A diamond outline drawing with a red pencil on top, a man in a black cap below, and a caption pill reading 'yet again.'",
+    "spoken_words": "yet again.",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 3.0,
+    "description": "A diamond drawing with a star icon above it, the text 'GEMINI', and the caption 'Now, Gemini Gems are'.",
+    "spoken_words": "Now, Gemini Gems are",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 4.5,
+    "description": "A diamond drawing with a red strike-through, text 'GEMINI GEMS SUNSET OCT 20', and the caption 'being sunset on October'.",
+    "spoken_words": "being sunset on October",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 6.0,
+    "description": "A red arrow pointing from a broken diamond drawing to a blank rectangle box, with the caption 'replaced by Skills,'.",
+    "spoken_words": "replaced by Skills,",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 7.5,
+    "description": "A box with a star icon on top and the word 'SKILLS' below, with the caption 'the new standard way'.",
+    "spoken_words": "the new standard way",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 9.0,
+    "description": "A box with a star icon connected by a red line, and the caption 'of sharing your AI'.",
+    "spoken_words": "of sharing your AI",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 10.5,
+    "description": "A diagram showing a box connected to two person icons, with the caption 'with your teammates'.",
+    "spoken_words": "with your teammates",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 12.0,
+    "description": "A diagram showing a box connected to teammates and community groups, with the caption 'or with members of'.",
+    "spoken_words": "or with members of",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 13.5,
+    "description": "A diagram showing a box connected to two groups labeled 'TEAMMATES' and 'COMMUNITY', with the caption 'your community.'.",
+    "spoken_words": "your community.",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 15.0,
+    "description": "The community diagram remains on top, with the caption reading 'videos, and tutorials each'.",
+    "spoken_words": "videos, and tutorials each",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 16.5,
+    "description": "The community diagram remains on top, with the caption reading 'and every single day.'.",
+    "spoken_words": "and every single day.",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 18.0,
+    "description": "The handle '@migueltorrez.ai' and 'daily AI' appear on screen, with the caption 'to migrate your gems,'.",
+    "spoken_words": "to migrate your gems,",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 20.0,
+    "description": "The handle '@migueltorrez.ai' is displayed on top, with the caption 'the next one'.",
+    "spoken_words": "the next one",
+    "object_identifiable": true,
+    "matches_beat": true
+   }
+  ],
+  "summary": "A video explaining that Google is sunsetting Gemini Gems on October 20th and replacing them with Skills for sharing AI workflows.",
+  "errors": []
+ }
+}

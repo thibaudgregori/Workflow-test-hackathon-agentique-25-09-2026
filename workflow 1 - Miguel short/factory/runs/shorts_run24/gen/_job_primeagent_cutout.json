@@ -1,0 +1,24 @@
+{
+  "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/projects/primeagent_cutout",
+  "vid": "primeagent",
+  "fmt": "cutout",
+  "quality": "high",
+  "geom": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/gen/_geom_primeagent_cutout.json",
+  "stage": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/staging/tiktok/primeagent_cutout.mp4",
+  "qc_args": [
+    "--voice-master",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/cuts/primeagent/audio.m4a",
+    "--phone-at",
+    "8.2:0.3375,0.19443,0.6625,0.33865:open toolbox with tools",
+    "--phone-at",
+    "1.8:0.33,0.20823,0.67,0.34042:tool printing machine",
+    "--phone-at",
+    "24.4:0.28704,0.16651,0.71296,0.38839:two crossed tools",
+    "--alpha",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/matting/primeagent/matte_primeagent_v5_alpha.webm",
+    "--edge-box",
+    "1496x990+-197+930",
+    "--plate",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/matting/primeagent/plate_display_1496x990.mp4"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+ "staged": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/staging/tiktok/cursorspacex_cutout.mp4",
+ "phone_verdict": "PASS",
+ "blocked": "",
+ "rounds": 1,
+ "redesigned": false,
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/projects/cursorspacex_cutout",
+ "cands": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/cands_cursorspacex_cutout.json",
+ "cold_crop_paths": ["/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/cold/297757a8/00.png"],
+ "fails": [],
+ "flagged_for_clerk": "ONE MINOR, NON-BLOCKING watcher candidate C1 at 17.33-17.80 s, klass ring_or_box_on_image_text: 'A hand-drawn circle around the Grok box'. It is a misread of LAW 38 rule 2's PANEL BORDER FLIP - the Grok tile's own 3 px rounded border tweens from rgba(17,17,17,0.16) to terracotta over 0.38 s from 17.78, adding no element and no geometry. The build asserts on the EMITTED page that no <circle> and no <ellipse> tag exists anywhere in the composition, and the strict geometry audit returns 0 errors / 0 warnings.",
+ "word_sync": "1 state checked, 0 disagreements",
+ "scene_handoff": "consumed - gen/cursorspacex_scene.py imported unmodified; k=1.0, left=0.0, top=192.0 (identity seat)",
+ "matte": "stage 17 viewer PASS; 553 frames 1342x990, soft alpha, rim 7, min person fraction 0.44094, headroom 0/553 unsafe, min top clearance 36.3 px; Modal track+ship $0.045644",
+ "render_cost_usd": 0.0257,
+ "notes": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/plans/cursorspacex_cutout_notes.md"
+}

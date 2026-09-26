@@ -1,0 +1,72 @@
+{
+ "run": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25",
+ "out_dir": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output",
+ "jobs": [
+  {
+   "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/projects/claudeconcise_split",
+   "vid": "claudeconcise",
+   "fmt": "split",
+   "quality": "high",
+   "stage": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/staging/youtube/claudeconcise_split.mp4",
+   "qc_args": [
+    "--voice-master",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/cuts/claudeconcise/audio.m4a",
+    "--phone-at",
+    "2.6:0.3056,0.1052,0.6944,0.2219:jargon speech bubble",
+    "--phone-at",
+    "12.95:0.7315,0.15,0.9167,0.399:long paper scroll",
+    "--phone-at",
+    "29.5:0.1889,0.1781,0.5222,0.3031:style selector dial",
+    "--phone-at",
+    "34.4:0.6296,0.15,0.9167,0.2792:scissors cut scroll"
+   ]
+  },
+  {
+   "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/projects/claudeconcise_whiteboard",
+   "vid": "claudeconcise",
+   "fmt": "whiteboard",
+   "quality": "high",
+   "stage": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/staging/reels/claudeconcise_whiteboard.mp4",
+   "qc_args": [
+    "--voice-master",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/cuts/claudeconcise/audio.m4a",
+    "--phone-at",
+    "2.6:0.3368,0.1445,0.6632,0.3065:jargon speech bubble",
+    "--phone-at",
+    "12.95:0.6597,0.2148,0.8264,0.4102:long paper scroll",
+    "--phone-at",
+    "29.5:0.191,0.2197,0.4726,0.3125:style selector dial",
+    "--phone-at",
+    "34.4:0.5764,0.2148,0.8264,0.3262:scissors cut scroll",
+    "--seams",
+    "13.22,29.78"
+   ]
+  },
+  {
+   "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/projects/claudeconcise_cutout",
+   "vid": "claudeconcise",
+   "fmt": "cutout",
+   "quality": "high",
+   "geom": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/gen/_geom_claudeconcise_cutout.json",
+   "stage": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/staging/tiktok/claudeconcise_cutout.mp4",
+   "qc_args": [
+    "--voice-master",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/cuts/claudeconcise/audio.m4a",
+    "--phone-at",
+    "2.6:0.3056,0.1126,0.6944,0.2293:jargon speech bubble",
+    "--phone-at",
+    "12.95:0.7315,0.1574,0.9167,0.4064:long paper scroll",
+    "--phone-at",
+    "29.5:0.1889,0.1855,0.5222,0.3105:style selector dial",
+    "--phone-at",
+    "34.4:0.6296,0.1574,0.9167,0.2866:scissors cut scroll",
+    "--alpha",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/matting/claudeconcise/matte_claudeconcise_v5_alpha.webm",
+    "--edge-box",
+    "1298x990+-118+930",
+    "--plate",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/matting/claudeconcise/plate_display_1298x990.mp4"
+   ]
+  }
+ ]
+}

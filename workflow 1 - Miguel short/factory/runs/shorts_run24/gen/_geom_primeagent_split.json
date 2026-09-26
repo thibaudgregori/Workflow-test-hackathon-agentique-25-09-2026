@@ -1,0 +1,163 @@
+{
+ "video": "primeagent",
+ "fps": 25,
+ "duration": 43.175,
+ "shared": {
+  "beat_edges": [
+   0.1,
+   2.36,
+   8.72,
+   12.74,
+   15.78,
+   25.42,
+   30.32,
+   38.78,
+   43.175
+  ],
+  "phone_objects": [
+   {
+    "name": "open toolbox with tools",
+    "t": 8.2,
+    "space": "norm",
+    "bbox": [
+     0.3375,
+     0.19198,
+     0.6625,
+     0.3362
+    ],
+    "canvas": [
+     364.5,
+     368.6,
+     715.5,
+     645.5
+    ],
+    "phone_px": [
+     132,
+     104
+    ]
+   },
+   {
+    "name": "tool printing machine",
+    "t": 1.8,
+    "space": "norm",
+    "bbox": [
+     0.33,
+     0.20578,
+     0.67,
+     0.33797
+    ],
+    "canvas": [
+     356.4,
+     395.1,
+     723.6,
+     648.9
+    ],
+    "phone_px": [
+     138,
+     95
+    ]
+   },
+   {
+    "name": "two crossed tools",
+    "t": 24.4,
+    "space": "norm",
+    "bbox": [
+     0.28704,
+     0.16406,
+     0.71296,
+     0.38594
+    ],
+    "canvas": [
+     310.0,
+     315.0,
+     770.0,
+     741.0
+    ],
+    "phone_px": [
+     172,
+     160
+    ]
+   }
+  ]
+ },
+ "formats": {
+  "split": {
+   "phone_objects": [
+    {
+     "name": "open toolbox with tools",
+     "t": 8.2,
+     "space": "norm",
+     "bbox": [
+      0.3375,
+      0.19198,
+      0.6625,
+      0.3362
+     ],
+     "canvas": [
+      364.5,
+      368.6,
+      715.5,
+      645.5
+     ],
+     "phone_px": [
+      132,
+      104
+     ]
+    },
+    {
+     "name": "tool printing machine",
+     "t": 1.8,
+     "space": "norm",
+     "bbox": [
+      0.33,
+      0.20578,
+      0.67,
+      0.33797
+     ],
+     "canvas": [
+      356.4,
+      395.1,
+      723.6,
+      648.9
+     ],
+     "phone_px": [
+      138,
+      95
+     ]
+    },
+    {
+     "name": "two crossed tools",
+     "t": 24.4,
+     "space": "norm",
+     "bbox": [
+      0.28704,
+      0.16406,
+      0.71296,
+      0.38594
+     ],
+     "canvas": [
+      310.0,
+      315.0,
+      770.0,
+      741.0
+     ],
+     "phone_px": [
+      172,
+      160
+     ]
+    }
+   ],
+   "core": {
+    "left": 0.0,
+    "top": 192.0
+   },
+   "scale": 1.0,
+   "seat": 862.5,
+   "voice": {
+    "source": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/cuts/primeagent/audio.m4a",
+    "sample_rate": 48000,
+    "channels": 2
+   }
+  }
+ }
+}

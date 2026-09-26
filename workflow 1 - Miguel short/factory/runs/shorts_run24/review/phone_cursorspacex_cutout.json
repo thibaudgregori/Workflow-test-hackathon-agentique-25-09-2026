@@ -1,0 +1,35 @@
+{
+ "label": "cursorspacex_cutout",
+ "video": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/cursorspacex_cutout.mp4",
+ "phone_scale": "405x720",
+ "sheet": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/phone_cursorspacex_cutout.png",
+ "rule": "a FRESH judge (never read the plan) names each crop in <=3 words. Wrong name, hedge, or 'cannot tell' = the object is redesigned, not annotated.",
+ "answer_key": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/phone_cursorspacex_cutout.key.json",
+ "answer_key_rule": "DO NOT OPEN the answer key until every judge_answer below is filled in. Reading it first voids the Phone Test.",
+ "objects": [
+  {
+   "i": 0,
+   "t": 2.6,
+   "bbox_norm": [
+    0.3713,
+    0.1583,
+    0.6287,
+    0.3104
+   ],
+   "phone_box_px": [
+    150,
+    113,
+    254,
+    223
+   ],
+   "phone_size_px": [
+    104,
+    110
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/phone_cursorspacex_cutout/00.png",
+   "sheet_scale": 1.0,
+   "judge_answer": "flag with a heart",
+   "verdict": null
+  }
+ ]
+}

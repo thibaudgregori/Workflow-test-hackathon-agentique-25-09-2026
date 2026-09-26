@@ -1,0 +1,1523 @@
+{
+ "render": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/primeagent_whiteboard.mp4",
+ "vid": "primeagent",
+ "fmt": "whiteboard",
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/projects/primeagent_whiteboard",
+ "checks": {
+  "decoded_blank_frames": {
+   "ok": true,
+   "result": {
+    "frames": 1080,
+    "fps": 25.0,
+    "zone": [
+     0,
+     799,
+     1080,
+     799
+    ],
+    "ink_floor": 0.0006,
+    "min_ink_frac": 0.0,
+    "empty_frames_total": 5,
+    "leading_trailing_empty": 5,
+    "interior_blank_frames": [],
+    "pass": true
+   },
+   "wall_s": 0.0
+  },
+  "zero_ink_law": {
+   "ok": true,
+   "result": {
+    "render": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/primeagent_whiteboard.mp4",
+    "frames": 1080,
+    "fps": 25.0,
+    "zone_bottom_design_px": 799.205,
+    "zone_px": [
+     1080,
+     799
+    ],
+    "first_word_s": 0.1,
+    "leading_empty_frames": 5,
+    "first_judged_frame": 5,
+    "min_ink_frac_judged": 0.00204538,
+    "min_ink_frac_at_s": 0.2,
+    "blank_frames": [],
+    "verdict": "PASS"
+   },
+   "wall_s": 0.0
+  },
+  "clip_coverage_page": {
+   "ok": true,
+   "result": {
+    "duration_s": 43.2,
+    "fps": 25,
+    "groups": {
+     "stage": {
+      "clips": 0,
+      "checked": false,
+      "note": "fewer than two clips \u2014 nothing can hand over"
+     },
+     "tz": {
+      "clips": 1,
+      "checked": false,
+      "note": "fewer than two clips \u2014 nothing can hand over"
+     },
+     "scap": {
+      "clips": 46,
+      "checked": true,
+      "frames": 1080,
+      "span": [
+       0.08,
+       43.1
+      ],
+      "holes": [],
+      "ghosts": [],
+      "pass": true
+     }
+    },
+    "holes": 0,
+    "ghosts": 0,
+    "pass": true
+   },
+   "wall_s": 0.0
+  },
+  "double_exposure": {
+   "ok": true,
+   "result": {
+    "frames": 1080,
+    "fps": 25.0,
+    "first_word_s": 0.1,
+    "leading_blank_run_frames": 5,
+    "after_first_word": {
+     "from_frame": 3,
+     "from_t": 0.12,
+     "basis": "first spoken word",
+     "min_ink": 0,
+     "min_ink_t": 0.12,
+     "min_ink40": 0,
+     "min_ink40_t": 0.12,
+     "zero_ink_frames": [
+      0.12,
+      0.16
+     ],
+     "zero_ink40_frames": [
+      0.12,
+      0.16
+     ]
+    },
+    "after_leading_run": {
+     "from_frame": 5,
+     "from_t": 0.2,
+     "basis": "opening fade-up cleared",
+     "min_ink": 280,
+     "min_ink_t": 0.2,
+     "min_ink40": 248,
+     "min_ink40_t": 0.2,
+     "zero_ink_frames": [],
+     "zero_ink40_frames": []
+    },
+    "after_first_readable_ink": {
+     "from_frame": 5,
+     "from_t": 0.2,
+     "basis": "first READABLE ink on screen",
+     "min_ink": 280,
+     "min_ink_t": 0.2,
+     "min_ink40": 248,
+     "min_ink40_t": 0.2,
+     "zero_ink_frames": [],
+     "zero_ink40_frames": []
+    },
+    "double_exposure_floor_px": 600,
+    "double_exposure_frames": [],
+    "double_exposure_count": 0,
+    "note": "candidates, not a verdict \u2014 adjudicate each window (procedure v3); the opening fade-up legitimately fires"
+   },
+   "wall_s": 0.08
+  },
+  "face_centring": {
+   "ok": true,
+   "result": {
+    "label": "primeagent_whiteboard",
+    "video": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/primeagent_whiteboard.mp4",
+    "duration_s": 43.22,
+    "detector": "mediapipe/blazeface",
+    "segment_source": "auto:layout-detector",
+    "segments": null,
+    "every_s": 0.5,
+    "tol_pct": 4.0,
+    "band_level": "warning",
+    "full_face": {
+     "n": 0,
+     "worst_dx_pct": null,
+     "worst_t": null,
+     "mean_abs_dx_pct": null,
+     "offenders": []
+    },
+    "band": {
+     "n": 86,
+     "worst_dx_pct": 4.72,
+     "worst_t": 42.0,
+     "warnings": [
+      {
+       "t": 42.0,
+       "dx_pct": 4.72,
+       "face_h_pct": 14.9,
+       "class": "band",
+       "score": 0.98,
+       "skin": 0.91
+      }
+     ]
+    },
+    "pass": true,
+    "verdict": "PASS"
+   },
+   "wall_s": 1.1
+  },
+  "pill_canon_rendered": {
+   "ok": true,
+   "result": {
+    "samples": 60,
+    "band_rows_px": [
+     772,
+     952
+    ],
+    "frames_without_a_pill": 0,
+    "distinct_heights_px": {
+     "114": 60
+    },
+    "modal_height_px": 114,
+    "modal_height_design_px": 114.0,
+    "spread_px": 0,
+    "spread_max_px": 2.0,
+    "canonical_height_px": 114.59,
+    "canonical_height_design_px": 114.59,
+    "modal_vs_canon_px": 0.59,
+    "tolerance_px": 3.0,
+    "delivery_scale": 1.0,
+    "widest_pill_px": 748,
+    "widest_pill_in_design_px": 748.0,
+    "verdict": "PASS",
+    "pass": true
+   },
+   "wall_s": 0.0
+  },
+  "gate1_geometry_audit": {
+   "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/geometry_audit.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/projects/primeagent_whiteboard --step 0.25 --out /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/gen/_gate1_primeagent_whiteboard.json",
+   "rc": 0,
+   "stdout": "primeagent_whiteboard: 0 errors, 0 warnings (43.2s @ 0.25s step)\n",
+   "stderr": "",
+   "wall_s": 4.32
+  },
+  "gate2_frame_review": {
+   "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/qc/gate2_frames.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/primeagent_whiteboard.mp4 --full --transcript /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/cuts/primeagent/transcript_tight.json",
+   "rc": 0,
+   "stdout": "-factory/runs/shorts_run24/output/frames_primeagent_whiteboard/f_0034_333.jpg\n  t=00:34.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_primeagent_whiteboard/f_0034_666.jpg\n  t=00:35.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_primeagent_whiteboard/f_0035_000.jpg\n  t=00:35.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_primeagent_whiteboard/f_0035_333.jpg\n  t=00:35.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_primeagent_whiteboard/f_0035_666.jpg\n  t=00:36.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_primeagent_whiteboard/f_0036_000.jpg\n  t=00:36.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_primeagent_whiteboard/f_0036_333.jpg\n  t=00:36.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_primeagent_whiteboard/f_0036_666.jpg\n  t=00:37.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_primeagent_whiteboard/f_0037_000.jpg\n  t=00:37.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_primeagent_whiteboard/f_0037_333.jpg\n  t=00:37.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_primeagent_whiteboard/f_0037_666.jpg\n  t=00:38.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_primeagent_whiteboard/f_0038_333.jpg\n  t=00:38.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_primeagent_whiteboard/f_0038_666.jpg\n  t=00:39.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_primeagent_whiteboard/f_0039_000.jpg\n  t=00:39.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_primeagent_whiteboard/f_0039_333.jpg\n  t=00:39.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_primeagent_whiteboard/f_0039_666.jpg\n  t=00:40.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_primeagent_whiteboard/f_0040_000.jpg\n  t=00:40.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_primeagent_whiteboard/f_0040_333.jpg\n  t=00:40.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_primeagent_whiteboard/f_0040_666.jpg\n  t=00:41.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_primeagent_whiteboard/f_0041_000.jpg\n  t=00:41.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_primeagent_whiteboard/f_0041_333.jpg\n  t=00:42.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_primeagent_whiteboard/f_0042_000.jpg\n  t=00:42.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_primeagent_whiteboard/f_0042_333.jpg\n  t=00:42.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_primeagent_whiteboard/f_0042_666.jpg\n  t=00:43.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_primeagent_whiteboard/f_0043_000.jpg\n\nManifest: /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_primeagent_whiteboard/manifest.md  (delete dir after review)\n",
+   "stderr": "",
+   "wall_s": 1.92
+  },
+  "gate3_gemini_describe": {
+   "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/qc/gate3_gemini.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/primeagent_whiteboard.mp4 primeagent --run /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24 --label qcpass_primeagent_whiteboard",
+   "rc": 1,
+   "stdout": "",
+   "stderr": "upload retry 1: 402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\nupload retry 2: 402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\nupload retry 3: 402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\nTraceback (most recent call last):\n  File \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/qc/gate3_gemini.py\", line 285, in <module>\n    cand = upload_retry(cand_path)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/qc/gate3_gemini.py\", line 202, in upload_retry\n    raise RuntimeError(f\"upload failed: {path}\")\nRuntimeError: upload failed: /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/primeagent_whiteboard.mp4\n",
+   "wall_s": 20.57
+  },
+  "audio_guards": {
+   "ok": true,
+   "result": {
+    "mix_8_16k_db": -30.54,
+    "master_8_16k_db": -30.31,
+    "delta_db": -0.23,
+    "tolerance_db": 6.0,
+    "speech_margin_db_p85_p15_33ms_s16le": 18.107,
+    "sync": {
+     "lag_ms": 0,
+     "r": 0.995,
+     "instrument": "10 ms |x| envelope, +/-250 ms search"
+    },
+    "audio_initial_padding_samples": 0,
+    "verdict": "PASS",
+    "pass": true
+   },
+   "wall_s": 1.23
+  },
+  "contact_sheet": {
+   "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/contact_sheet.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/primeagent_whiteboard.mp4 --id primeagent --fmt whiteboard --run /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24",
+   "rc": 0,
+   "stdout": "{\n \"sheet\": \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/sheet_primeagent_whiteboard.png\",\n \"id\": \"primeagent\",\n \"fmt\": \"whiteboard\",\n \"duration_s\": 43.22,\n \"frame_source\": \"even\",\n \"times\": [\n  1.8,\n  5.4,\n  9.0,\n  12.61,\n  16.21,\n  19.81,\n  23.41,\n  27.01,\n  30.62,\n  34.22,\n  37.82,\n  41.42\n ],\n \"size_px\": [\n  1798,\n  4344\n ]\n}\n",
+   "stderr": "",
+   "wall_s": 4.35
+  },
+  "phone_crops": {
+   "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/phone_crops.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/primeagent_whiteboard.mp4 --out /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review --label primeagent_whiteboard --at 1.8:0.29341,0.19727,0.70659,0.36032:a machine that prints a tool --at 8.2:0.28906,0.20703,0.71094,0.38654:an open toolbox with tools --at 24.4:0.30486,0.1689,0.69819,0.36218:two crossed tools",
+   "rc": 0,
+   "stdout": "{\n \"sheet\": \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/phone_primeagent_whiteboard.png\",\n \"manifest\": \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/phone_primeagent_whiteboard.json\",\n \"answer_key\": \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/phone_primeagent_whiteboard.key.json\",\n \"n_objects\": 3,\n \"phone_sizes_px\": [\n  [\n   168,\n   117\n  ],\n  [\n   170,\n   129\n  ],\n  [\n   159,\n   139\n  ]\n ]\n}\n",
+   "stderr": "",
+   "wall_s": 0.9
+  },
+  "whiteboard_seam_law": {
+   "ok": true,
+   "result": {
+    "video": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/primeagent_whiteboard.mp4",
+    "erase_dur": 0.3,
+    "land_within": 0.3,
+    "scan_s": 1.6,
+    "thresholds": {
+     "ink_thr": 170,
+     "dilate_px": 9,
+     "min_minor_px": 46,
+     "min_major_px": 118,
+     "min_ink_px": 2600,
+     "min_sigma_px": 18.0,
+     "word": [
+      26,
+      80,
+      80,
+      900,
+      3
+     ],
+     "pen_match_min": 0.62,
+     "pen_bleed": 6,
+     "persist_frames": 3
+    },
+    "seams": [
+     {
+      "erase_at": 2.36,
+      "erase_completes": 2.66,
+      "law_probe_at": 2.98,
+      "dead_s": 0.0,
+      "dead_capped": false,
+      "at_law_probe": {
+       "t": 2.98,
+       "ink_pct_of_zone": 1.532,
+       "qualifying": 1,
+       "landed_on": {
+        "box": [
+         306,
+         463,
+         468,
+         285
+        ],
+        "ink": 13136,
+        "sigma_minor": 94.0,
+        "parts": 1,
+        "kind": "object",
+        "qualifies": true
+       },
+       "verdict": "PASS"
+      },
+      "blobs_at_law_probe": [
+       {
+        "box": [
+         306,
+         463,
+         468,
+         285
+        ],
+        "ink": 13136,
+        "sigma_minor": 94.0,
+        "parts": 1,
+        "kind": "object",
+        "qualifies": true
+       }
+      ],
+      "verdict": "PASS",
+      "window": [
+       {
+        "t": 2.66,
+        "ink_pct_of_zone": 1.19,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 2.7,
+        "ink_pct_of_zone": 1.19,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 2.74,
+        "ink_pct_of_zone": 1.233,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 2.78,
+        "ink_pct_of_zone": 1.286,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 2.82,
+        "ink_pct_of_zone": 1.354,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 2.86,
+        "ink_pct_of_zone": 1.419,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 2.9,
+        "ink_pct_of_zone": 1.449,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 2.94,
+        "ink_pct_of_zone": 1.511,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 2.98,
+        "ink_pct_of_zone": 1.532,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 3.02,
+        "ink_pct_of_zone": 1.533,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 3.06,
+        "ink_pct_of_zone": 1.533,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 3.1,
+        "ink_pct_of_zone": 1.533,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 3.14,
+        "ink_pct_of_zone": 1.569,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 3.18,
+        "ink_pct_of_zone": 1.61,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 3.22,
+        "ink_pct_of_zone": 1.652,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 3.26,
+        "ink_pct_of_zone": 1.678,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 3.3,
+        "ink_pct_of_zone": 1.722,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 3.34,
+        "ink_pct_of_zone": 1.765,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 3.38,
+        "ink_pct_of_zone": 1.78,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 3.42,
+        "ink_pct_of_zone": 1.78,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 3.46,
+        "ink_pct_of_zone": 1.78,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 3.5,
+        "ink_pct_of_zone": 1.78,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 3.54,
+        "ink_pct_of_zone": 1.78,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 3.58,
+        "ink_pct_of_zone": 1.78,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 3.62,
+        "ink_pct_of_zone": 1.78,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 3.66,
+        "ink_pct_of_zone": 1.78,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 3.7,
+        "ink_pct_of_zone": 1.778,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 3.74,
+        "ink_pct_of_zone": 1.78,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 3.78,
+        "ink_pct_of_zone": 1.78,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 3.82,
+        "ink_pct_of_zone": 1.78,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 3.86,
+        "ink_pct_of_zone": 1.834,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 3.9,
+        "ink_pct_of_zone": 1.905,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 3.94,
+        "ink_pct_of_zone": 1.939,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 3.98,
+        "ink_pct_of_zone": 1.954,
+        "qualifying": 4,
+        "verdict": "PASS"
+       },
+       {
+        "t": 4.02,
+        "ink_pct_of_zone": 1.978,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 4.06,
+        "ink_pct_of_zone": 2.046,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 4.1,
+        "ink_pct_of_zone": 2.178,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 4.14,
+        "ink_pct_of_zone": 2.178,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 4.18,
+        "ink_pct_of_zone": 2.178,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 4.22,
+        "ink_pct_of_zone": 2.236,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 4.26,
+        "ink_pct_of_zone": 2.317,
+        "qualifying": 3,
+        "verdict": "PASS"
+       }
+      ]
+     },
+     {
+      "erase_at": 8.58,
+      "erase_completes": 8.88,
+      "law_probe_at": 9.2,
+      "dead_s": 0.0,
+      "dead_capped": false,
+      "at_law_probe": {
+       "t": 9.2,
+       "ink_pct_of_zone": 2.08,
+       "qualifying": 1,
+       "landed_on": {
+        "box": [
+         293,
+         382,
+         497,
+         353
+        ],
+        "ink": 17281,
+        "sigma_minor": 111.6,
+        "parts": 1,
+        "kind": "object",
+        "qualifies": true
+       },
+       "verdict": "PASS"
+      },
+      "blobs_at_law_probe": [
+       {
+        "box": [
+         293,
+         382,
+         497,
+         353
+        ],
+        "ink": 17281,
+        "sigma_minor": 111.6,
+        "parts": 1,
+        "kind": "object",
+        "qualifies": true
+       },
+       {
+        "box": [
+         332,
+         472,
+         58,
+         58
+        ],
+        "ink": 600,
+        "sigma_minor": 12.3,
+        "parts": 1,
+        "kind": "-",
+        "qualifies": false
+       }
+      ],
+      "verdict": "PASS",
+      "window": [
+       {
+        "t": 8.88,
+        "ink_pct_of_zone": 1.386,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 8.92,
+        "ink_pct_of_zone": 1.512,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 8.96,
+        "ink_pct_of_zone": 1.683,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 9.0,
+        "ink_pct_of_zone": 1.831,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 9.04,
+        "ink_pct_of_zone": 1.84,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 9.08,
+        "ink_pct_of_zone": 1.875,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 9.12,
+        "ink_pct_of_zone": 1.975,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 9.16,
+        "ink_pct_of_zone": 1.969,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 9.2,
+        "ink_pct_of_zone": 2.08,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 9.24,
+        "ink_pct_of_zone": 2.08,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 9.28,
+        "ink_pct_of_zone": 2.08,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 9.32,
+        "ink_pct_of_zone": 2.08,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 9.36,
+        "ink_pct_of_zone": 2.08,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 9.4,
+        "ink_pct_of_zone": 2.08,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 9.44,
+        "ink_pct_of_zone": 2.08,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 9.48,
+        "ink_pct_of_zone": 2.08,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 9.52,
+        "ink_pct_of_zone": 2.08,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 9.56,
+        "ink_pct_of_zone": 2.08,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 9.6,
+        "ink_pct_of_zone": 2.08,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 9.64,
+        "ink_pct_of_zone": 2.08,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 9.68,
+        "ink_pct_of_zone": 2.08,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 9.72,
+        "ink_pct_of_zone": 2.08,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 9.76,
+        "ink_pct_of_zone": 2.08,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 9.8,
+        "ink_pct_of_zone": 2.08,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 9.84,
+        "ink_pct_of_zone": 2.08,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 9.88,
+        "ink_pct_of_zone": 2.08,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 9.92,
+        "ink_pct_of_zone": 2.08,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 9.96,
+        "ink_pct_of_zone": 2.08,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 10.0,
+        "ink_pct_of_zone": 2.079,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 10.04,
+        "ink_pct_of_zone": 2.079,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 10.08,
+        "ink_pct_of_zone": 2.079,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 10.12,
+        "ink_pct_of_zone": 2.079,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 10.16,
+        "ink_pct_of_zone": 2.079,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 10.2,
+        "ink_pct_of_zone": 2.079,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 10.24,
+        "ink_pct_of_zone": 2.079,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 10.28,
+        "ink_pct_of_zone": 2.079,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 10.32,
+        "ink_pct_of_zone": 2.079,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 10.36,
+        "ink_pct_of_zone": 2.079,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 10.4,
+        "ink_pct_of_zone": 2.079,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 10.44,
+        "ink_pct_of_zone": 2.079,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 10.48,
+        "ink_pct_of_zone": 2.079,
+        "qualifying": 1,
+        "verdict": "PASS"
+       }
+      ]
+     },
+     {
+      "erase_at": 21.5,
+      "erase_completes": 21.8,
+      "law_probe_at": 22.12,
+      "dead_s": 0.0,
+      "dead_capped": false,
+      "at_law_probe": {
+       "t": 22.12,
+       "ink_pct_of_zone": 0.944,
+       "qualifying": 1,
+       "landed_on": {
+        "box": [
+         323,
+         318,
+         327,
+         366
+        ],
+        "ink": 8100,
+        "sigma_minor": 58.2,
+        "parts": 1,
+        "kind": "object",
+        "qualifies": true
+       },
+       "verdict": "PASS"
+      },
+      "blobs_at_law_probe": [
+       {
+        "box": [
+         323,
+         318,
+         327,
+         366
+        ],
+        "ink": 8100,
+        "sigma_minor": 58.2,
+        "parts": 1,
+        "kind": "object",
+        "qualifies": true
+       }
+      ],
+      "verdict": "PASS",
+      "window": [
+       {
+        "t": 21.8,
+        "ink_pct_of_zone": 0.484,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 21.84,
+        "ink_pct_of_zone": 0.551,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 21.88,
+        "ink_pct_of_zone": 0.525,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 21.92,
+        "ink_pct_of_zone": 0.725,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 21.96,
+        "ink_pct_of_zone": 0.824,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 22.0,
+        "ink_pct_of_zone": 0.923,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 22.04,
+        "ink_pct_of_zone": 0.944,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 22.08,
+        "ink_pct_of_zone": 0.944,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 22.12,
+        "ink_pct_of_zone": 0.944,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 22.16,
+        "ink_pct_of_zone": 0.95,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 22.2,
+        "ink_pct_of_zone": 0.953,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 22.24,
+        "ink_pct_of_zone": 0.953,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 22.28,
+        "ink_pct_of_zone": 0.953,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 22.32,
+        "ink_pct_of_zone": 1.035,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 22.36,
+        "ink_pct_of_zone": 1.039,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 22.4,
+        "ink_pct_of_zone": 1.21,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 22.44,
+        "ink_pct_of_zone": 1.375,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 22.48,
+        "ink_pct_of_zone": 1.318,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 22.52,
+        "ink_pct_of_zone": 1.373,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 22.56,
+        "ink_pct_of_zone": 1.385,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 22.6,
+        "ink_pct_of_zone": 1.375,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 22.64,
+        "ink_pct_of_zone": 1.402,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 22.68,
+        "ink_pct_of_zone": 1.416,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 22.72,
+        "ink_pct_of_zone": 1.469,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 22.76,
+        "ink_pct_of_zone": 1.539,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 22.8,
+        "ink_pct_of_zone": 1.674,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 22.84,
+        "ink_pct_of_zone": 1.659,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 22.88,
+        "ink_pct_of_zone": 1.658,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 22.92,
+        "ink_pct_of_zone": 1.658,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 22.96,
+        "ink_pct_of_zone": 1.658,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 23.0,
+        "ink_pct_of_zone": 1.658,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 23.04,
+        "ink_pct_of_zone": 1.658,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 23.08,
+        "ink_pct_of_zone": 1.658,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 23.12,
+        "ink_pct_of_zone": 1.658,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 23.16,
+        "ink_pct_of_zone": 1.658,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 23.2,
+        "ink_pct_of_zone": 1.658,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 23.24,
+        "ink_pct_of_zone": 1.658,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 23.28,
+        "ink_pct_of_zone": 1.658,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 23.32,
+        "ink_pct_of_zone": 1.658,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 23.36,
+        "ink_pct_of_zone": 1.658,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 23.4,
+        "ink_pct_of_zone": 1.658,
+        "qualifying": 1,
+        "verdict": "PASS"
+       }
+      ]
+     },
+     {
+      "erase_at": 25.34,
+      "erase_completes": 25.64,
+      "law_probe_at": 25.96,
+      "dead_s": 0.0,
+      "dead_capped": false,
+      "at_law_probe": {
+       "t": 25.96,
+       "ink_pct_of_zone": 0.926,
+       "qualifying": 1,
+       "landed_on": {
+        "box": [
+         400,
+         293,
+         282,
+         203
+        ],
+        "ink": 7963,
+        "sigma_minor": 60.0,
+        "parts": 2,
+        "kind": "object",
+        "qualifies": true
+       },
+       "verdict": "PASS"
+      },
+      "blobs_at_law_probe": [
+       {
+        "box": [
+         400,
+         293,
+         282,
+         203
+        ],
+        "ink": 7963,
+        "sigma_minor": 60.0,
+        "parts": 2,
+        "kind": "object",
+        "qualifies": true
+       }
+      ],
+      "verdict": "PASS",
+      "window": [
+       {
+        "t": 25.64,
+        "ink_pct_of_zone": 0.597,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 25.68,
+        "ink_pct_of_zone": 0.63,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 25.72,
+        "ink_pct_of_zone": 0.768,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 25.76,
+        "ink_pct_of_zone": 0.818,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 25.8,
+        "ink_pct_of_zone": 0.771,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 25.84,
+        "ink_pct_of_zone": 0.837,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 25.88,
+        "ink_pct_of_zone": 0.84,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 25.92,
+        "ink_pct_of_zone": 0.926,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 25.96,
+        "ink_pct_of_zone": 0.926,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 26.0,
+        "ink_pct_of_zone": 0.926,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 26.04,
+        "ink_pct_of_zone": 0.926,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 26.08,
+        "ink_pct_of_zone": 0.926,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 26.12,
+        "ink_pct_of_zone": 0.926,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 26.16,
+        "ink_pct_of_zone": 0.926,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 26.2,
+        "ink_pct_of_zone": 0.926,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 26.24,
+        "ink_pct_of_zone": 0.926,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 26.28,
+        "ink_pct_of_zone": 0.926,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 26.32,
+        "ink_pct_of_zone": 0.926,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 26.36,
+        "ink_pct_of_zone": 0.926,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 26.4,
+        "ink_pct_of_zone": 0.926,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 26.44,
+        "ink_pct_of_zone": 0.926,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 26.48,
+        "ink_pct_of_zone": 0.926,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 26.52,
+        "ink_pct_of_zone": 0.926,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 26.56,
+        "ink_pct_of_zone": 0.926,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 26.6,
+        "ink_pct_of_zone": 0.926,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 26.64,
+        "ink_pct_of_zone": 0.926,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 26.68,
+        "ink_pct_of_zone": 0.926,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 26.72,
+        "ink_pct_of_zone": 0.926,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 26.76,
+        "ink_pct_of_zone": 0.926,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 26.8,
+        "ink_pct_of_zone": 0.926,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 26.84,
+        "ink_pct_of_zone": 0.926,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 26.88,
+        "ink_pct_of_zone": 0.926,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 26.92,
+        "ink_pct_of_zone": 0.931,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 26.96,
+        "ink_pct_of_zone": 0.931,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 27.0,
+        "ink_pct_of_zone": 0.931,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 27.04,
+        "ink_pct_of_zone": 0.966,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 27.08,
+        "ink_pct_of_zone": 1.046,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 27.12,
+        "ink_pct_of_zone": 1.201,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 27.16,
+        "ink_pct_of_zone": 1.305,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 27.2,
+        "ink_pct_of_zone": 1.353,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 27.24,
+        "ink_pct_of_zone": 1.51,
+        "qualifying": 1,
+        "verdict": "PASS"
+       }
+      ]
+     }
+    ],
+    "extra_probes": [],
+    "dead_total_s": 0.0,
+    "failed": [],
+    "verdict": "PASS"
+   },
+   "wall_s": 8.24
+  }
+ },
+ "skipped": {
+  "cutout_checks_24_25": "cutout only, and needs --project",
+  "edge_clip": "cutout only, and needs --alpha",
+  "face_hf_vs_plate": "needs --plate (the display plate)",
+  "head_scale_vs_framing": "needs --alpha and --edge-box (the crown comes from the matte's own alpha, the chin from MediaPipe on the delivered frame)"
+ },
+ "zone_bottom_design_px": 799.21,
+ "decode": {
+  "frames": 1080,
+  "fps": 25.0,
+  "size": [
+   1080,
+   1920
+  ],
+  "grid_frames": 86,
+  "caption_band_rows": [
+   772,
+   952
+  ],
+  "caption_seat_design_px": 862.5,
+  "wall_s": 9.8
+ },
+ "verdicts": {
+  "decoded_blank_frames": "PASS",
+  "zero_ink_law": "PASS",
+  "clip_coverage_page": "PASS",
+  "double_exposure": "REPORTED",
+  "face_centring": "PASS",
+  "pill_canon_rendered": "PASS",
+  "gate1_geometry_audit": "PASS",
+  "gate2_frame_review": "PASS",
+  "gate3_gemini_describe": "REPORTED",
+  "audio_guards": "PASS",
+  "contact_sheet": "PASS",
+  "phone_crops": "PASS",
+  "whiteboard_seam_law": "PASS"
+ },
+ "advisory": {
+  "gate3_gemini_describe": "FAIL from gemini describe-mode, downgraded to REPORTED: the clerk adjudicates its describe_errors against the frames"
+ },
+ "wall_s": {
+  "decoded_blank_frames": 0.0,
+  "zero_ink_law": 0.0,
+  "clip_coverage_page": 0.0,
+  "double_exposure": 0.08,
+  "face_centring": 1.1,
+  "pill_canon_rendered": 0.0,
+  "gate1_geometry_audit": 4.32,
+  "gate2_frame_review": 1.92,
+  "gate3_gemini_describe": 20.57,
+  "audio_guards": 1.23,
+  "contact_sheet": 4.35,
+  "phone_crops": 0.9,
+  "whiteboard_seam_law": 8.24,
+  "single_decode": 9.8
+ },
+ "total_wall_s": 20.59,
+ "pass": true
+}

@@ -1,0 +1,31 @@
+{
+ "run": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25",
+ "out_dir": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output",
+ "jobs": [
+  {
+   "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/projects/grokimagine2_cutout",
+   "vid": "grokimagine2",
+   "fmt": "cutout",
+   "quality": "high",
+   "stage": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/staging/tiktok/grokimagine2_cutout.mp4",
+   "qc_args": [
+    "--voice-master",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/cuts/grokimagine2/audio.m4a",
+    "--phone-at",
+    "2.6:0.37685,0.21906,0.62315,0.32297:a painter's palette",
+    "--phone-at",
+    "16.9:0.24491,0.22995,0.75509,0.3388:a winners' podium",
+    "--phone-at",
+    "20.8:0.35486,0.21115,0.64514,0.33484:a framed picture",
+    "--phone-at",
+    "22.2:0.56157,0.21609,0.79028,0.3299:a magic wand",
+    "--alpha",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/matting/grokimagine2/matte_grokimagine2_v5_alpha.webm",
+    "--edge-box",
+    "1584x990+-153+930",
+    "--plate",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/matting/grokimagine2/plate_display_1584x990.mp4"
+   ]
+  }
+ ]
+}

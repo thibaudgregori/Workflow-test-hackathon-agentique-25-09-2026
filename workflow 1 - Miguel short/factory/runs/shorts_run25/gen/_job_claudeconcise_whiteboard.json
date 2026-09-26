@@ -1,0 +1,15 @@
+{
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/projects/claudeconcise_whiteboard",
+ "vid": "claudeconcise",
+ "fmt": "whiteboard",
+ "quality": "high",
+ "stage": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/staging/reels/claudeconcise_whiteboard.mp4",
+ "qc_args": [
+  "--voice-master", "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/cuts/claudeconcise/audio.m4a",
+  "--phone-at", "2.6:0.3368,0.1445,0.6632,0.3065:jargon speech bubble",
+  "--phone-at", "12.95:0.6597,0.2148,0.8264,0.4102:long paper scroll",
+  "--phone-at", "29.5:0.191,0.2197,0.4726,0.3125:style selector dial",
+  "--phone-at", "34.4:0.5764,0.2148,0.8264,0.3262:scissors cut scroll",
+  "--seams", "13.22,29.78"
+ ]
+}

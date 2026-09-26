@@ -1,0 +1,14 @@
+{
+  "verdict": "PASS (approved by miguel, 2026-09-22T21:36:05)",
+  "phone_verdict": "PASS (v4: no phone test; approved on the staged videos)",
+  "confirmed": 0,
+  "approved_by": "miguel",
+  "approved_at": "2026-09-22T21:36:05",
+  "note": "approved on the staged videos, 2026-09-21",
+  "reviewed_files": {
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/staging/youtube/geminigems_split.mp4": "eef98ffb325358a72a77cc431feb580ea69c3dc4e3d18a6eaef1e714af5022de",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/staging/tiktok/geminigems_cutout.mp4": "387d99544379548bd5e17fab762392163d71feb590957130875538ac9fb6a7f8",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/staging/reels/geminigems_whiteboard.mp4": "26108999a3d88e8c679381b5e43e563a2267db0de29a668885d924620d8ca7a6"
+  },
+  "procedure": "production-v4-2026-09-21"
+}

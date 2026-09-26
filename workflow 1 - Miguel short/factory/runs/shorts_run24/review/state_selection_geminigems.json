@@ -1,0 +1,21 @@
+{
+  "id": "geminigems",
+  "stage": "selection",
+  "decision": "approved",
+  "selection": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/matting/geminigems/selection.json",
+  "status": "reviewed",
+  "reviewer": "visual-agent",
+  "mask": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/matting/geminigems/selection.mask.png",
+  "mask_sha256": "9e166026195dd2af2454c053752ce852f7a412f5f001558cf2626eb2544a317c",
+  "base_mask_sha256": "e268b16bd98647abf224af680c2776e1a6e34168351290feca2052b5d67dd07a",
+  "edits": 0,
+  "validated": true,
+  "inspected": "frame-0 plate 1440x900 + BiRefNet mask overlay, 2x-3x zooms on cap/left ear, cap/right ear, both shoulder-to-chair seams, bottom torso band",
+  "findings": "cap traced tight on both sides, both ears/jaw/beard/neck inside, chair post + chair wing + armrest excluded without carving ear or cheek, shoulder seams follow the shirt, 1 component, 0 holes, coverage 34.72%, bbox x139-1284 y83-899 touching only the bottom edge",
+  "identity": {
+    "plate_sha256": "94a06cde7b1d9f502bb80fe68ed58a745c4839112e53235c4fd9c5d5fd734005",
+    "source_sha256": "b697c7504dc30271a6753eb3b16433716bc72fd689297f06c1e966bc072e39c5",
+    "crop_sha256": "ca65cae61bd0006bc66ce48f1196d0312ef670562ec8fa764c71e0848b1cc548",
+    "first_frame_sha256": "955df1a269abb6b2035c492ae10bfca9ae1e1ddb9d774dc8ef2c4201816441fe"
+  }
+}

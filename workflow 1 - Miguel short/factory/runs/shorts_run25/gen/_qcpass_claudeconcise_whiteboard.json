@@ -1,0 +1,988 @@
+{
+ "render": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/claudeconcise_whiteboard.mp4",
+ "vid": "claudeconcise",
+ "fmt": "whiteboard",
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/projects/claudeconcise_whiteboard",
+ "checks": {
+  "decoded_blank_frames": {
+   "ok": true,
+   "result": {
+    "frames": 1045,
+    "fps": 25.0,
+    "zone": [
+     0,
+     799,
+     1080,
+     799
+    ],
+    "ink_floor": 0.0006,
+    "min_ink_frac": 0.0,
+    "empty_frames_total": 1,
+    "leading_trailing_empty": 1,
+    "interior_blank_frames": [],
+    "pass": true
+   },
+   "wall_s": 0.0
+  },
+  "zero_ink_law": {
+   "ok": true,
+   "result": {
+    "render": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/claudeconcise_whiteboard.mp4",
+    "frames": 1045,
+    "fps": 25.0,
+    "zone_bottom_design_px": 799.205,
+    "zone_px": [
+     1080,
+     799
+    ],
+    "first_word_s": 0.12,
+    "leading_empty_frames": 1,
+    "first_judged_frame": 3,
+    "min_ink_frac_judged": 0.00206624,
+    "min_ink_frac_at_s": 0.12,
+    "blank_frames": [],
+    "verdict": "PASS"
+   },
+   "wall_s": 0.0
+  },
+  "clip_coverage_page": {
+   "ok": true,
+   "result": {
+    "duration_s": 41.774,
+    "fps": 25,
+    "groups": {
+     "stage": {
+      "clips": 0,
+      "checked": false,
+      "note": "fewer than two clips \u2014 nothing can hand over"
+     },
+     "tz": {
+      "clips": 1,
+      "checked": false,
+      "note": "fewer than two clips \u2014 nothing can hand over"
+     },
+     "scap": {
+      "clips": 45,
+      "checked": true,
+      "frames": 1044,
+      "span": [
+       0.12,
+       41.74
+      ],
+      "holes": [],
+      "ghosts": [],
+      "pass": true
+     }
+    },
+    "holes": 0,
+    "ghosts": 0,
+    "pass": true
+   },
+   "wall_s": 0.0
+  },
+  "double_exposure": {
+   "ok": true,
+   "result": {
+    "frames": 1045,
+    "fps": 25.0,
+    "first_word_s": 0.12,
+    "leading_blank_run_frames": 1,
+    "after_first_word": {
+     "from_frame": 3,
+     "from_t": 0.12,
+     "basis": "first spoken word",
+     "min_ink": 289,
+     "min_ink_t": 0.12,
+     "min_ink40": 253,
+     "min_ink40_t": 0.12,
+     "zero_ink_frames": [],
+     "zero_ink40_frames": []
+    },
+    "after_leading_run": {
+     "from_frame": 3,
+     "from_t": 0.12,
+     "basis": "opening fade-up cleared",
+     "min_ink": 289,
+     "min_ink_t": 0.12,
+     "min_ink40": 253,
+     "min_ink40_t": 0.12,
+     "zero_ink_frames": [],
+     "zero_ink40_frames": []
+    },
+    "after_first_readable_ink": {
+     "from_frame": 1,
+     "from_t": 0.04,
+     "basis": "first READABLE ink on screen",
+     "min_ink": 282,
+     "min_ink_t": 0.04,
+     "min_ink40": 250,
+     "min_ink40_t": 0.04,
+     "zero_ink_frames": [],
+     "zero_ink40_frames": []
+    },
+    "double_exposure_floor_px": 600,
+    "double_exposure_frames": [],
+    "double_exposure_count": 0,
+    "note": "candidates, not a verdict \u2014 adjudicate each window (procedure v3); the opening fade-up legitimately fires"
+   },
+   "wall_s": 0.08
+  },
+  "face_centring": {
+   "ok": true,
+   "result": {
+    "label": "claudeconcise_whiteboard",
+    "video": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/claudeconcise_whiteboard.mp4",
+    "duration_s": 41.8,
+    "detector": "mediapipe/blazeface",
+    "segment_source": "auto:layout-detector",
+    "segments": null,
+    "every_s": 0.5,
+    "tol_pct": 4.0,
+    "band_level": "warning",
+    "full_face": {
+     "n": 0,
+     "worst_dx_pct": null,
+     "worst_t": null,
+     "mean_abs_dx_pct": null,
+     "offenders": []
+    },
+    "band": {
+     "n": 84,
+     "worst_dx_pct": 6.48,
+     "worst_t": 8.5,
+     "warnings": [
+      {
+       "t": 8.0,
+       "dx_pct": 4.91,
+       "face_h_pct": 14.5,
+       "class": "band",
+       "score": 0.99,
+       "skin": 0.91
+      },
+      {
+       "t": 8.5,
+       "dx_pct": 6.48,
+       "face_h_pct": 14.4,
+       "class": "band",
+       "score": 0.99,
+       "skin": 0.9
+      },
+      {
+       "t": 17.0,
+       "dx_pct": 4.35,
+       "face_h_pct": 15.1,
+       "class": "band",
+       "score": 0.98,
+       "skin": 0.9
+      },
+      {
+       "t": 33.5,
+       "dx_pct": -4.26,
+       "face_h_pct": 16.2,
+       "class": "band",
+       "score": 0.98,
+       "skin": 0.89
+      }
+     ]
+    },
+    "pass": true,
+    "verdict": "PASS"
+   },
+   "wall_s": 1.1
+  },
+  "pill_canon_rendered": {
+   "ok": true,
+   "result": {
+    "samples": 60,
+    "band_rows_px": [
+     772,
+     952
+    ],
+    "frames_without_a_pill": 0,
+    "distinct_heights_px": {
+     "113": 1,
+     "114": 59
+    },
+    "modal_height_px": 114,
+    "modal_height_design_px": 114.0,
+    "spread_px": 1,
+    "spread_max_px": 2.0,
+    "canonical_height_px": 114.59,
+    "canonical_height_design_px": 114.59,
+    "modal_vs_canon_px": 0.59,
+    "tolerance_px": 3.0,
+    "delivery_scale": 1.0,
+    "widest_pill_px": 748,
+    "widest_pill_in_design_px": 748.0,
+    "verdict": "PASS",
+    "pass": true
+   },
+   "wall_s": 0.0
+  },
+  "gate1_geometry_audit": {
+   "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/geometry_audit.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/projects/claudeconcise_whiteboard --step 0.25 --out /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/gen/_gate1_claudeconcise_whiteboard.json",
+   "rc": 0,
+   "stdout": "claudeconcise_whiteboard: 0 errors, 0 warnings (41.8s @ 0.25s step)\n",
+   "stderr": "",
+   "wall_s": 4.49
+  },
+  "gate2_frame_review": {
+   "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/qc/gate2_frames.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/claudeconcise_whiteboard.mp4 --full --transcript /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/cuts/claudeconcise/transcript_tight.json",
+   "rc": 0,
+   "stdout": "pg\n  t=00:31.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/frames_claudeconcise_whiteboard/f_0031_333.jpg\n  t=00:31.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/frames_claudeconcise_whiteboard/f_0031_666.jpg\n  t=00:32.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/frames_claudeconcise_whiteboard/f_0032_000.jpg\n  t=00:32.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/frames_claudeconcise_whiteboard/f_0032_333.jpg\n  t=00:32.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/frames_claudeconcise_whiteboard/f_0032_666.jpg\n  t=00:33.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/frames_claudeconcise_whiteboard/f_0033_000.jpg\n  t=00:33.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/frames_claudeconcise_whiteboard/f_0033_333.jpg\n  t=00:33.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/frames_claudeconcise_whiteboard/f_0033_666.jpg\n  t=00:34.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/frames_claudeconcise_whiteboard/f_0034_000.jpg\n  t=00:34.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/frames_claudeconcise_whiteboard/f_0034_333.jpg\n  t=00:34.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/frames_claudeconcise_whiteboard/f_0034_666.jpg\n  t=00:35.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/frames_claudeconcise_whiteboard/f_0035_000.jpg\n  t=00:36.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/frames_claudeconcise_whiteboard/f_0036_666.jpg\n  t=00:37.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/frames_claudeconcise_whiteboard/f_0037_000.jpg\n  t=00:37.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/frames_claudeconcise_whiteboard/f_0037_333.jpg\n  t=00:37.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/frames_claudeconcise_whiteboard/f_0037_666.jpg\n  t=00:38.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/frames_claudeconcise_whiteboard/f_0038_000.jpg\n  t=00:38.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/frames_claudeconcise_whiteboard/f_0038_333.jpg\n  t=00:38.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/frames_claudeconcise_whiteboard/f_0038_666.jpg\n  t=00:39.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/frames_claudeconcise_whiteboard/f_0039_000.jpg\n  t=00:40.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/frames_claudeconcise_whiteboard/f_0040_000.jpg\n  t=00:40.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/frames_claudeconcise_whiteboard/f_0040_666.jpg\n  t=00:41.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/frames_claudeconcise_whiteboard/f_0041_000.jpg\n  t=00:41.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/frames_claudeconcise_whiteboard/f_0041_333.jpg\n\nManifest: /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/frames_claudeconcise_whiteboard/manifest.md  (delete dir after review)\n",
+   "stderr": "",
+   "wall_s": 1.75
+  },
+  "gate3_gemini_describe": {
+   "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/qc/gate3_gemini.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/claudeconcise_whiteboard.mp4 claudeconcise --run /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25 --label qcpass_claudeconcise_whiteboard",
+   "rc": 1,
+   "stdout": "",
+   "stderr": "upload retry 1: 402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\nupload retry 2: 402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\nupload retry 3: 402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\nTraceback (most recent call last):\n  File \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/qc/gate3_gemini.py\", line 285, in <module>\n    cand = upload_retry(cand_path)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/qc/gate3_gemini.py\", line 202, in upload_retry\n    raise RuntimeError(f\"upload failed: {path}\")\nRuntimeError: upload failed: /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/claudeconcise_whiteboard.mp4\n",
+   "wall_s": 20.65
+  },
+  "audio_guards": {
+   "ok": true,
+   "result": {
+    "mix_8_16k_db": -29.15,
+    "master_8_16k_db": -28.93,
+    "delta_db": -0.22,
+    "tolerance_db": 6.0,
+    "speech_margin_db_p85_p15_33ms_s16le": 19.29,
+    "sync": {
+     "lag_ms": 0,
+     "r": 0.9958,
+     "instrument": "10 ms |x| envelope, +/-250 ms search"
+    },
+    "audio_initial_padding_samples": 0,
+    "verdict": "PASS",
+    "pass": true
+   },
+   "wall_s": 1.16
+  },
+  "contact_sheet": {
+   "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/contact_sheet.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/claudeconcise_whiteboard.mp4 --id claudeconcise --fmt whiteboard --run /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25",
+   "rc": 0,
+   "stdout": "{\n \"sheet\": \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/review/sheet_claudeconcise_whiteboard.png\",\n \"id\": \"claudeconcise\",\n \"fmt\": \"whiteboard\",\n \"duration_s\": 41.8,\n \"frame_source\": \"even\",\n \"times\": [\n  1.74,\n  5.22,\n  8.71,\n  12.19,\n  15.67,\n  19.16,\n  22.64,\n  26.12,\n  29.61,\n  33.09,\n  36.57,\n  40.06\n ],\n \"size_px\": [\n  1798,\n  4344\n ]\n}\n",
+   "stderr": "",
+   "wall_s": 4.2
+  },
+  "phone_crops": {
+   "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/phone_crops.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/claudeconcise_whiteboard.mp4 --out /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/review --label claudeconcise_whiteboard --at 2.6:0.3368,0.1445,0.6632,0.3065:jargon speech bubble --at 12.95:0.6597,0.2148,0.8264,0.4102:long paper scroll --at 29.5:0.191,0.2197,0.4726,0.3125:style selector dial --at 34.4:0.5764,0.2148,0.8264,0.3262:scissors cut scroll",
+   "rc": 0,
+   "stdout": "{\n \"sheet\": \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/review/phone_claudeconcise_whiteboard.png\",\n \"manifest\": \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/review/phone_claudeconcise_whiteboard.json\",\n \"answer_key\": \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/review/phone_claudeconcise_whiteboard.key.json\",\n \"n_objects\": 4,\n \"phone_sizes_px\": [\n  [\n   132,\n   116\n  ],\n  [\n   67,\n   141\n  ],\n  [\n   114,\n   67\n  ],\n  [\n   101,\n   80\n  ]\n ]\n}\n",
+   "stderr": "",
+   "wall_s": 1.09
+  },
+  "whiteboard_seam_law": {
+   "ok": true,
+   "result": {
+    "video": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/claudeconcise_whiteboard.mp4",
+    "erase_dur": 0.3,
+    "land_within": 0.3,
+    "scan_s": 1.6,
+    "thresholds": {
+     "ink_thr": 170,
+     "dilate_px": 9,
+     "min_minor_px": 46,
+     "min_major_px": 118,
+     "min_ink_px": 2600,
+     "min_sigma_px": 18.0,
+     "word": [
+      26,
+      80,
+      80,
+      900,
+      3
+     ],
+     "pen_match_min": 0.62,
+     "pen_bleed": 6,
+     "persist_frames": 3
+    },
+    "seams": [
+     {
+      "erase_at": 13.22,
+      "erase_completes": 13.52,
+      "law_probe_at": 13.84,
+      "dead_s": 0.0,
+      "dead_capped": false,
+      "at_law_probe": {
+       "t": 13.84,
+       "ink_pct_of_zone": 0.758,
+       "qualifying": 2,
+       "landed_on": {
+        "box": [
+         386,
+         268,
+         306,
+         100
+        ],
+        "ink": 3851,
+        "sigma_minor": 34.3,
+        "parts": 1,
+        "kind": "object",
+        "qualifies": true
+       },
+       "verdict": "PASS"
+      },
+      "blobs_at_law_probe": [
+       {
+        "box": [
+         386,
+         268,
+         306,
+         100
+        ],
+        "ink": 3851,
+        "sigma_minor": 34.3,
+        "parts": 1,
+        "kind": "object",
+        "qualifies": true
+       },
+       {
+        "box": [
+         421,
+         297,
+         239,
+         43
+        ],
+        "ink": 2667,
+        "sigma_minor": 7.1,
+        "parts": 9,
+        "kind": "word",
+        "qualifies": true
+       }
+      ],
+      "verdict": "PASS",
+      "window": [
+       {
+        "t": 13.52,
+        "ink_pct_of_zone": 0.758,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 13.56,
+        "ink_pct_of_zone": 0.795,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 13.6,
+        "ink_pct_of_zone": 0.794,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 13.64,
+        "ink_pct_of_zone": 0.798,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 13.68,
+        "ink_pct_of_zone": 0.761,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 13.72,
+        "ink_pct_of_zone": 0.758,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 13.76,
+        "ink_pct_of_zone": 0.758,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 13.8,
+        "ink_pct_of_zone": 0.758,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 13.84,
+        "ink_pct_of_zone": 0.758,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 13.88,
+        "ink_pct_of_zone": 0.758,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 13.92,
+        "ink_pct_of_zone": 0.758,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 13.96,
+        "ink_pct_of_zone": 0.758,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 14.0,
+        "ink_pct_of_zone": 0.758,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 14.04,
+        "ink_pct_of_zone": 0.758,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 14.08,
+        "ink_pct_of_zone": 0.758,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 14.12,
+        "ink_pct_of_zone": 0.758,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 14.16,
+        "ink_pct_of_zone": 0.758,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 14.2,
+        "ink_pct_of_zone": 0.758,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 14.24,
+        "ink_pct_of_zone": 0.758,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 14.28,
+        "ink_pct_of_zone": 0.758,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 14.32,
+        "ink_pct_of_zone": 0.758,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 14.36,
+        "ink_pct_of_zone": 0.758,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 14.4,
+        "ink_pct_of_zone": 0.758,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 14.44,
+        "ink_pct_of_zone": 0.758,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 14.48,
+        "ink_pct_of_zone": 0.758,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 14.52,
+        "ink_pct_of_zone": 0.758,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 14.56,
+        "ink_pct_of_zone": 0.758,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 14.6,
+        "ink_pct_of_zone": 0.758,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 14.64,
+        "ink_pct_of_zone": 0.758,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 14.68,
+        "ink_pct_of_zone": 0.758,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 14.72,
+        "ink_pct_of_zone": 0.758,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 14.76,
+        "ink_pct_of_zone": 0.758,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 14.8,
+        "ink_pct_of_zone": 0.763,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 14.84,
+        "ink_pct_of_zone": 0.763,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 14.88,
+        "ink_pct_of_zone": 0.764,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 14.92,
+        "ink_pct_of_zone": 0.769,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 14.96,
+        "ink_pct_of_zone": 0.774,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 15.0,
+        "ink_pct_of_zone": 0.786,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 15.04,
+        "ink_pct_of_zone": 0.808,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 15.08,
+        "ink_pct_of_zone": 0.818,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 15.12,
+        "ink_pct_of_zone": 0.826,
+        "qualifying": 2,
+        "verdict": "PASS"
+       }
+      ]
+     },
+     {
+      "erase_at": 29.78,
+      "erase_completes": 30.08,
+      "law_probe_at": 30.4,
+      "dead_s": 0.08,
+      "dead_capped": false,
+      "at_law_probe": {
+       "t": 30.4,
+       "ink_pct_of_zone": 0.97,
+       "qualifying": 2,
+       "landed_on": {
+        "box": [
+         472,
+         456,
+         135,
+         138
+        ],
+        "ink": 4823,
+        "sigma_minor": 30.2,
+        "parts": 2,
+        "kind": "object",
+        "qualifies": true
+       },
+       "verdict": "PASS"
+      },
+      "blobs_at_law_probe": [
+       {
+        "box": [
+         472,
+         456,
+         135,
+         138
+        ],
+        "ink": 4823,
+        "sigma_minor": 30.2,
+        "parts": 2,
+        "kind": "object",
+        "qualifies": true
+       },
+       {
+        "box": [
+         191,
+         462,
+         170,
+         109
+        ],
+        "ink": 2108,
+        "sigma_minor": 21.5,
+        "parts": 14,
+        "kind": "-",
+        "qualifies": false
+       },
+       {
+        "box": [
+         174,
+         403,
+         147,
+         42
+        ],
+        "ink": 1396,
+        "sigma_minor": 7.3,
+        "parts": 7,
+        "kind": "word",
+        "qualifies": true
+       }
+      ],
+      "verdict": "PASS",
+      "window": [
+       {
+        "t": 30.08,
+        "ink_pct_of_zone": 0.328,
+        "qualifying": 0,
+        "verdict": "FAIL"
+       },
+       {
+        "t": 30.12,
+        "ink_pct_of_zone": 0.35,
+        "qualifying": 0,
+        "verdict": "FAIL"
+       },
+       {
+        "t": 30.16,
+        "ink_pct_of_zone": 0.376,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 30.2,
+        "ink_pct_of_zone": 0.45,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 30.24,
+        "ink_pct_of_zone": 0.479,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 30.28,
+        "ink_pct_of_zone": 0.511,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 30.32,
+        "ink_pct_of_zone": 0.721,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 30.36,
+        "ink_pct_of_zone": 0.736,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 30.4,
+        "ink_pct_of_zone": 0.97,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 30.44,
+        "ink_pct_of_zone": 0.979,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 30.48,
+        "ink_pct_of_zone": 0.967,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 30.52,
+        "ink_pct_of_zone": 0.966,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 30.56,
+        "ink_pct_of_zone": 1.009,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 30.6,
+        "ink_pct_of_zone": 1.032,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 30.64,
+        "ink_pct_of_zone": 1.033,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 30.68,
+        "ink_pct_of_zone": 1.017,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 30.72,
+        "ink_pct_of_zone": 1.026,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 30.76,
+        "ink_pct_of_zone": 1.029,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 30.8,
+        "ink_pct_of_zone": 1.029,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 30.84,
+        "ink_pct_of_zone": 1.029,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 30.88,
+        "ink_pct_of_zone": 1.029,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 30.92,
+        "ink_pct_of_zone": 1.029,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 30.96,
+        "ink_pct_of_zone": 1.029,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 31.0,
+        "ink_pct_of_zone": 1.029,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 31.04,
+        "ink_pct_of_zone": 1.029,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 31.08,
+        "ink_pct_of_zone": 0.911,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 31.12,
+        "ink_pct_of_zone": 1.072,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 31.16,
+        "ink_pct_of_zone": 1.072,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 31.2,
+        "ink_pct_of_zone": 1.072,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 31.24,
+        "ink_pct_of_zone": 1.108,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 31.28,
+        "ink_pct_of_zone": 1.124,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 31.32,
+        "ink_pct_of_zone": 1.141,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 31.36,
+        "ink_pct_of_zone": 0.976,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 31.4,
+        "ink_pct_of_zone": 1.174,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 31.44,
+        "ink_pct_of_zone": 1.182,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 31.48,
+        "ink_pct_of_zone": 1.186,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 31.52,
+        "ink_pct_of_zone": 1.276,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 31.56,
+        "ink_pct_of_zone": 1.324,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 31.6,
+        "ink_pct_of_zone": 1.259,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 31.64,
+        "ink_pct_of_zone": 1.423,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 31.68,
+        "ink_pct_of_zone": 1.434,
+        "qualifying": 2,
+        "verdict": "PASS"
+       }
+      ]
+     }
+    ],
+    "extra_probes": [],
+    "dead_total_s": 0.08,
+    "failed": [],
+    "verdict": "PASS"
+   },
+   "wall_s": 5.77
+  }
+ },
+ "skipped": {
+  "cutout_checks_24_25": "cutout only, and needs --project",
+  "edge_clip": "cutout only, and needs --alpha",
+  "face_hf_vs_plate": "needs --plate (the display plate)",
+  "head_scale_vs_framing": "needs --alpha and --edge-box (the crown comes from the matte's own alpha, the chin from MediaPipe on the delivered frame)"
+ },
+ "zone_bottom_design_px": 799.21,
+ "decode": {
+  "frames": 1045,
+  "fps": 25.0,
+  "size": [
+   1080,
+   1920
+  ],
+  "grid_frames": 84,
+  "caption_band_rows": [
+   772,
+   952
+  ],
+  "caption_seat_design_px": 862.5,
+  "wall_s": 9.45
+ },
+ "verdicts": {
+  "decoded_blank_frames": "PASS",
+  "zero_ink_law": "PASS",
+  "clip_coverage_page": "PASS",
+  "double_exposure": "REPORTED",
+  "face_centring": "PASS",
+  "pill_canon_rendered": "PASS",
+  "gate1_geometry_audit": "PASS",
+  "gate2_frame_review": "PASS",
+  "gate3_gemini_describe": "REPORTED",
+  "audio_guards": "PASS",
+  "contact_sheet": "PASS",
+  "phone_crops": "PASS",
+  "whiteboard_seam_law": "PASS"
+ },
+ "advisory": {
+  "gate3_gemini_describe": "FAIL from gemini describe-mode, downgraded to REPORTED: the clerk adjudicates its describe_errors against the frames"
+ },
+ "wall_s": {
+  "decoded_blank_frames": 0.0,
+  "zero_ink_law": 0.0,
+  "clip_coverage_page": 0.0,
+  "double_exposure": 0.08,
+  "face_centring": 1.1,
+  "pill_canon_rendered": 0.0,
+  "gate1_geometry_audit": 4.49,
+  "gate2_frame_review": 1.75,
+  "gate3_gemini_describe": 20.65,
+  "audio_guards": 1.16,
+  "contact_sheet": 4.2,
+  "phone_crops": 1.09,
+  "whiteboard_seam_law": 5.77,
+  "single_decode": 9.45
+ },
+ "total_wall_s": 20.67,
+ "pass": true
+}

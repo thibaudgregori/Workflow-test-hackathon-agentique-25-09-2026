@@ -1,0 +1,19 @@
+{
+  "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/projects/claudeconcise_split",
+  "vid": "claudeconcise",
+  "fmt": "split",
+  "quality": "high",
+  "stage": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/staging/youtube/claudeconcise_split.mp4",
+  "qc_args": [
+    "--voice-master",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/cuts/claudeconcise/audio.m4a",
+    "--phone-at",
+    "2.6:0.3056,0.1052,0.6944,0.2219:jargon speech bubble",
+    "--phone-at",
+    "12.95:0.7315,0.15,0.9167,0.399:long paper scroll",
+    "--phone-at",
+    "29.5:0.1889,0.1781,0.5222,0.3031:style selector dial",
+    "--phone-at",
+    "34.4:0.6296,0.15,0.9167,0.2792:scissors cut scroll"
+  ]
+}

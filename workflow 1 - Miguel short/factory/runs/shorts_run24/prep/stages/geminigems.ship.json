@@ -1,0 +1,28 @@
+{
+ "id": "geminigems",
+ "stage": "ship",
+ "status": "ok",
+ "wall_s": 76.2907647920074,
+ "at": "2026-09-21T18:00:49",
+ "keys": {
+  "status": "ok",
+  "backend": "matanyone2",
+  "frames": 523,
+  "width": 1584,
+  "height": 990,
+  "fps": 25.0,
+  "alpha_mode": "soft",
+  "rim_px": 7,
+  "temporal": 1,
+  "seconds": 58.444045353,
+  "estimated_compute_usd": 0.02657567630291616,
+  "fractional_alpha_pixels": 11233636,
+  "minimum_person_fraction": 0.3424631415161718,
+  "review_status": "needs_final_visual_review",
+  "ship_source_sha256": "0154788627eb98961c3eb2bc600e14d29cbc4f0de84b5c925b98e03e19bbd250",
+  "client_wall_seconds": 76.2907647920074,
+  "ship_seconds": 58.444045353,
+  "wall_s": 76.2907647920074,
+  "cost_usd": 0.02657567630291616
+ }
+}

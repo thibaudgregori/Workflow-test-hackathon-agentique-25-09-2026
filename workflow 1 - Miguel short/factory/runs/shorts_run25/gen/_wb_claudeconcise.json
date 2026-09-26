@@ -1,0 +1,635 @@
+{
+ "video": "claudeconcise",
+ "format": "whiteboard",
+ "variant": "plan view (fix)",
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/projects/claudeconcise_whiteboard",
+ "handle": "@migueltorrez.ai",
+ "handle_key": "tiktok_ig",
+ "duration_s": 41.774,
+ "fps": 25,
+ "render": "1080x1920 @ zoom 1",
+ "board": "576x460 design units",
+ "board_box": [
+  40.0,
+  150.0,
+  536.0,
+  425.0
+ ],
+ "strokes": 102,
+ "rigids": 28,
+ "board_text": [
+  "NO LONGER ENGLISH",
+  "SIMPLE",
+  "2-3 PAGES",
+  "OUTPUT STYLES",
+  "CONCISE",
+  "SHORT",
+  "UNDERSTOOD"
+ ],
+ "top_ink_u": 146.6,
+ "top_band_u": 102.4,
+ "pen_top_u": 108.1,
+ "ink_bottom_px": 776.3,
+ "cap_band_top_px": 799.2,
+ "cap_clearance_px": 22.9,
+ "ink_bottom_ink_px": 776.3,
+ "cap_clearance_ink_px": 22.9,
+ "seam_pill_top_px": 805.2,
+ "cap_clearance_ink_to_pill_px": 28.9,
+ "seam_measures": "cap_clearance_px = line boxes vs the reserved band (THE GATE); cap_clearance_ink_px = glyph ink vs the same band; cap_clearance_ink_to_pill_px = glyph ink vs the pill's painted top edge (the clerk's surface)",
+ "rail_hits": [],
+ "label_law": {
+  "window_s": 1.0,
+  "key_term": "NO LONGER ENGLISH",
+  "key_term_fs_u": 24.0,
+  "written": {
+   "NO LONGER ENGLISH": 1.4,
+   "SIMPLE": 8.84,
+   "2-3 PAGES": 11.12,
+   "OUTPUT STYLES": 17.2,
+   "CONCISE": 29.94,
+   "SHORT": 33.2,
+   "UNDERSTOOD": 36.1
+  },
+  "plan": {
+   "english": "NO LONGER ENGLISH",
+   "simple": "SIMPLE",
+   "pages": "2-3 PAGES",
+   "output": "OUTPUT STYLES",
+   "concise2": "CONCISE",
+   "short": "SHORT",
+   "understand": "UNDERSTOOD"
+  },
+  "comparisons": [],
+  "unplanned_text": [],
+  "verdict": "PASS"
+ },
+ "law4": {
+  "law": "4 (overlap test)",
+  "board_words_that_also_appear_as_a_pill": {}
+ },
+ "round4": {
+  "law6_lifetimes": {
+   "duration_s": 41.77,
+   "chaptered": true,
+   "max_frac": 0.4,
+   "declared_anchors": [
+    "dial",
+    "mascot-c",
+    "scroll-b"
+   ],
+   "lingering": [],
+   "verdict": "PASS"
+  },
+  "law2_no_enclosure": {
+   "rings": 0,
+   "boxes": 2,
+   "highlights": 0,
+   "rasters": [],
+   "wrong_tool_advisory": [],
+   "verdict": "PASS"
+  },
+  "law3_label_side": {
+   "checked": 7,
+   "detail": {
+    "NO LONGER ENGLISH": {
+     "host": "mascot-a",
+     "dx_u": 0.0,
+     "band_u": 38.8,
+     "place": "below"
+    },
+    "SIMPLE": {
+     "host": "note-a",
+     "dx_u": 0.0,
+     "band_u": 33.8,
+     "place": "above"
+    },
+    "2-3 PAGES": {
+     "host": "scroll-a",
+     "dx_u": 0.0,
+     "band_u": 46.8,
+     "place": "above"
+    },
+    "OUTPUT STYLES": {
+     "host": "dial-home",
+     "dx_u": 0.0,
+     "band_u": 62.4,
+     "place": "below"
+    },
+    "CONCISE": {
+     "host": "dial",
+     "dx_u": -13.7,
+     "band_u": 56.5,
+     "place": "above"
+    },
+    "SHORT": {
+     "host": "scroll-b",
+     "dx_u": 0.0,
+     "band_u": 46.8,
+     "place": "above"
+    },
+    "UNDERSTOOD": {
+     "host": "scroll-b",
+     "dx_u": -3.1,
+     "band_u": 46.8,
+     "place": "below"
+    }
+   },
+   "verdict": "PASS"
+  },
+  "law5_spacing": {
+   "gate_u": 8.5,
+   "gate_px": 15.9,
+   "aim_u": 12.8,
+   "aim_px": 24.0,
+   "measured_on": "element line boxes",
+   "under_aim": [],
+   "objects": 24,
+   "verdict": "PASS"
+  },
+  "law5_spacing_ink": {
+   "gate_u": 8.5,
+   "gate_px": 15.9,
+   "aim_u": 12.8,
+   "aim_px": 24.0,
+   "measured_on": "glyph ink extents",
+   "under_aim": [],
+   "objects": 24,
+   "verdict": "PASS"
+  },
+  "law5_no_crossing": {
+   "strokes": 102,
+   "types": 7,
+   "verdict": "PASS"
+  },
+  "law4_anchors": {
+   "targets": 6,
+   "detail": {
+    "mascot-a": {
+     "n": 1,
+     "spread_u": 0.0,
+     "level": true,
+     "mirrored": false,
+     "on_rect": true
+    },
+    "scroll-a": {
+     "n": 1,
+     "spread_u": 0.0,
+     "level": true,
+     "mirrored": false,
+     "on_rect": true
+    },
+    "dial-home": {
+     "n": 1,
+     "spread_u": 0.0,
+     "level": true,
+     "mirrored": false,
+     "on_rect": true
+    },
+    "mascot-b": {
+     "n": 1,
+     "spread_u": 0.0,
+     "level": true,
+     "mirrored": false,
+     "on_rect": true
+    },
+    "mascot-c": {
+     "n": 1,
+     "spread_u": 0.0,
+     "level": true,
+     "mirrored": false,
+     "on_rect": true
+    },
+    "scroll-b": {
+     "n": 1,
+     "spread_u": 0.0,
+     "level": true,
+     "mirrored": false,
+     "on_rect": true
+    }
+   },
+   "verdict": "PASS"
+  }
+ },
+ "outro": {
+  "move": "opaque sheet rises over the board",
+  "wipe_start": 37.76,
+  "wipe_end": 38.32,
+  "travel_px": 862.5,
+  "sheet_opaque": true,
+  "sheet_covers_px": 862.5,
+  "card_ink_enters_px": 322.5,
+  "board_covered_px": 587.7,
+  "overlap_px": 265.2,
+  "board_moves": false,
+  "board_fades": false,
+  "outro_start": 37.76,
+  "verdict": "PASS"
+ },
+ "captions": 45,
+ "cap_font_px": 56.2,
+ "cap_max_pill_w_px": 748.4,
+ "cap_w_budget_px": 756.0,
+ "anchors": {
+  "claude": 0.12,
+  "no": 0.34,
+  "speaks": 0.78,
+  "english": 1.06,
+  "notice": 6.36,
+  "ask": 7.4,
+  "for": 7.72,
+  "simple": 8.84,
+  "give": 9.84,
+  "you2": 10.04,
+  "pages": 11.12,
+  "seam0": 13.22,
+  "anthropic": 13.54,
+  "feature": 14.9,
+  "that": 15.2,
+  "output": 17.2,
+  "output2": 18.26,
+  "ai": 20.08,
+  "how": 20.56,
+  "concise": 24.6,
+  "concise2": 28.96,
+  "seam1": 29.78,
+  "ai2": 30.16,
+  "agent": 30.48,
+  "always": 31.2,
+  "reply": 31.48,
+  "a": 32.62,
+  "short": 33.2,
+  "helping": 34.96,
+  "understand": 36.1,
+  "outro": 37.76,
+  "news": 38.64
+ },
+ "html_bytes": 175756,
+ "sfx": 22,
+ "pen_loops": 10,
+ "pen_seconds": 3.9,
+ "pen_duty_pct": 9.3,
+ "captions_law3b": {
+  "beats_before_merge": 45,
+  "beats_after_merge": 45,
+  "merges": 0,
+  "widest_pill_px": 748.4,
+  "budget_px": 756.0,
+  "beats": [
+   [
+    0.12,
+    1.06,
+    "Claude no longer speaks"
+   ],
+   [
+    1.06,
+    2.02,
+    "English, and this is"
+   ],
+   [
+    2.02,
+    2.88,
+    "how to fix it."
+   ],
+   [
+    2.88,
+    3.56,
+    "Now, if you've been"
+   ],
+   [
+    3.56,
+    4.24,
+    "using Anthropic"
+   ],
+   [
+    4.24,
+    4.94,
+    "models for"
+   ],
+   [
+    4.94,
+    5.62,
+    "the last couple of"
+   ],
+   [
+    5.62,
+    6.66,
+    "months, you will notice"
+   ],
+   [
+    6.66,
+    7.58,
+    "that whenever you ask"
+   ],
+   [
+    7.58,
+    8.58,
+    "it for something"
+   ],
+   [
+    8.58,
+    9.38,
+    "very simple,"
+   ],
+   [
+    9.38,
+    10.04,
+    "it's going to give"
+   ],
+   [
+    10.04,
+    11.12,
+    "you two to three"
+   ],
+   [
+    11.12,
+    12.72,
+    "pages worth of text"
+   ],
+   [
+    12.72,
+    13.22,
+    "to read."
+   ],
+   [
+    13.22,
+    13.94,
+    "Now, Anthropic"
+   ],
+   [
+    13.94,
+    14.44,
+    "just shipped"
+   ],
+   [
+    14.44,
+    15.36,
+    "a new feature that"
+   ],
+   [
+    15.36,
+    15.92,
+    "allows you to"
+   ],
+   [
+    15.92,
+    16.6,
+    "change that."
+   ],
+   [
+    16.6,
+    18.26,
+    "It's called Output Styles."
+   ],
+   [
+    18.26,
+    19.38,
+    "Output Styles allows you"
+   ],
+   [
+    19.38,
+    20.56,
+    "to tell your AI"
+   ],
+   [
+    20.56,
+    21.16,
+    "how you like your"
+   ],
+   [
+    21.16,
+    22.26,
+    "responses to be,"
+   ],
+   [
+    22.26,
+    23.22,
+    "and it ships with"
+   ],
+   [
+    23.22,
+    24.34,
+    "a new mode that's"
+   ],
+   [
+    24.34,
+    25.44,
+    "called Concise."
+   ],
+   [
+    25.44,
+    26.28,
+    "Meaning that if you"
+   ],
+   [
+    26.28,
+    27.72,
+    "just go into your settings,"
+   ],
+   [
+    27.72,
+    28.86,
+    "set your output style"
+   ],
+   [
+    28.86,
+    29.78,
+    "to Concise,"
+   ],
+   [
+    29.78,
+    30.82,
+    "now your AI agent"
+   ],
+   [
+    30.82,
+    32.02,
+    "will always reply to"
+   ],
+   [
+    32.02,
+    33.2,
+    "you in a very"
+   ],
+   [
+    33.2,
+    34.38,
+    "short format,"
+   ],
+   [
+    34.38,
+    35.8,
+    "and also helping you"
+   ],
+   [
+    35.8,
+    36.86,
+    "actually understand"
+   ],
+   [
+    36.86,
+    37.76,
+    "what they mean."
+   ],
+   [
+    37.76,
+    38.46,
+    "Now, follow for more"
+   ],
+   [
+    38.46,
+    38.88,
+    "AI news,"
+   ],
+   [
+    38.88,
+    39.92,
+    "videos, and tutorials each"
+   ],
+   [
+    39.92,
+    40.82,
+    "and every single day,"
+   ],
+   [
+    40.82,
+    41.2,
+    "and catch you in"
+   ],
+   [
+    41.2,
+    41.74,
+    "the next one."
+   ]
+  ],
+  "law": "captions.py 3b \u2014 merge_function_only_beats over the WHOLE beat stream, then assert_no_function_only_beat inside build()"
+ },
+ "seam_law": {
+  "plan_mode": "chapters",
+  "chapters": 3,
+  "seams": [
+   13.22,
+   29.78
+  ],
+  "erase_s": 0.3,
+  "qc_seams": "13.22,29.78",
+  "handover": [
+   {
+    "seam": 13.22,
+    "incoming": "the ANTHROPIC card, started inside the erase, complete at 13.70s"
+   },
+   {
+    "seam": 29.78,
+    "incoming": "the dial carries across and shrinks to the chain's left seat"
+   }
+  ],
+  "outro_wipe": 37.76
+ },
+ "pointing_cues": {
+  "n": 0,
+  "cards": [],
+  "waived": []
+ },
+ "phone_test_objects": [
+  {
+   "i": 0,
+   "name": "jargon speech bubble",
+   "t": 2.6,
+   "bbox_board_u": [
+    194.0,
+    148.0,
+    382.0,
+    313.87
+   ],
+   "bbox_norm": [
+    0.3368,
+    0.1445,
+    0.6632,
+    0.3065
+   ],
+   "plan_name": "jargon speech bubble",
+   "plan_t": 2.6
+  },
+  {
+   "i": 1,
+   "name": "long paper scroll",
+   "t": 12.95,
+   "bbox_board_u": [
+    380.0,
+    220.0,
+    476.0,
+    420.0
+   ],
+   "bbox_norm": [
+    0.6597,
+    0.2148,
+    0.8264,
+    0.4102
+   ],
+   "plan_name": "long paper scroll",
+   "plan_t": 12.95
+  },
+  {
+   "i": 2,
+   "name": "style selector dial",
+   "t": 29.5,
+   "bbox_board_u": [
+    110.0,
+    225.0,
+    272.2,
+    320.0
+   ],
+   "bbox_norm": [
+    0.191,
+    0.2197,
+    0.4726,
+    0.3125
+   ],
+   "plan_name": "style selector dial",
+   "plan_t": 29.5
+  },
+  {
+   "i": 3,
+   "name": "scissors cut scroll",
+   "t": 34.4,
+   "bbox_board_u": [
+    332.0,
+    220.0,
+    476.0,
+    334.0
+   ],
+   "bbox_norm": [
+    0.5764,
+    0.2148,
+    0.8264,
+    0.3262
+   ],
+   "plan_name": "scissors cut scroll",
+   "plan_t": 34.4
+  }
+ ],
+ "emphasis": [
+  {
+   "at": 29.26,
+   "until": 29.78,
+   "target": "dial",
+   "kind": "box_emphasis"
+  },
+  {
+   "at": 36.56,
+   "until": 37.76,
+   "target": "short note (scroll-b)",
+   "kind": "box_emphasis"
+  }
+ ],
+ "phone_at_args": [
+  "--phone-at",
+  "2.6:0.3368,0.1445,0.6632,0.3065:jargon speech bubble",
+  "--phone-at",
+  "12.95:0.6597,0.2148,0.8264,0.4102:long paper scroll",
+  "--phone-at",
+  "29.5:0.191,0.2197,0.4726,0.3125:style selector dial",
+  "--phone-at",
+  "34.4:0.5764,0.2148,0.8264,0.3262:scissors cut scroll"
+ ]
+}

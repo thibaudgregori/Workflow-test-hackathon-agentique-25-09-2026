@@ -1,0 +1,16 @@
+{
+  "reviewer": "codex-astra",
+  "selection_verdict": "approved",
+  "selection_mask_sha256": "d5d93595c107e4fb8a30759edb77346a7a77fa076d2a74676931b6c07e4ef9fa",
+  "selection_note": "Viewed the current full-frame overlay. Cap, both ears, cheeks, beard, chin, neck, shirt, shoulders and visible lower hand remain inside the contour. Both headrest sides and the chair beside the neck and shoulders are outside. The existing codex-astra approval and source-traced correction are retained.",
+  "fallback": "Reused the already completed and installed fb1_pd5d93595 fallback, bound to the current corrected mask. No MatAnyone re-track or duplicate SAM2 call was made.",
+  "matte_sheets_viewed": ["matte_claudesessions/playback.jpg", "matte_claudesessions/face_2x.jpg", "matte_claudesessions/chair_sides.jpg", "matte_claudesessions/hands.jpg"],
+  "matte_verdict": "No chair band or wedge visible on the sampled composites, including frames 400, 405 and 410. Face and hands remain intact; motion softness follows the source. All 531 alpha frames were swept for the layout, with minimum top clearance 32 display pixels at threshold 24.",
+  "page_stills_viewed_seconds": [1.9, 2.4, 4.6, 9.4, 16.8, 19.4],
+  "page_verdict": "The two radios, Claude Code tile, crossed-out messenger, linked trio, sibling labels and TikTok/Instagram outro are readable and clear of the caption. The scene remains unscaled at x0/y216.7, with the caption centered at y878.2 and the layers at the recorded -153/930 origin. No chair is visible in these full-frame screenshots.",
+  "prerender": "PASS",
+  "strict_geometry": "0 errors, 0 warnings",
+  "word_sync": "Four printed states checked against the tight transcript; zero disagreements.",
+  "impeccable": "Mechanical detector ran in degraded regex mode; its Inter-font warning concerns the established chassis font link. The approved typography is preserved. The full-frame visual review supplies the visual evidence.",
+  "scope": "Cutout only. Approved split and whiteboard pages and videos were not rebuilt or rendered. This is build evidence for Miguel, not publication approval."
+}

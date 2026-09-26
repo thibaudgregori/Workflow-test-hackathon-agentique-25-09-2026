@@ -1,0 +1,12 @@
+{
+  "recording": "primeagent",
+  "reviewer": "astra",
+  "method": "Local headless Chromium full-composition screenshots, with the page timeline and clip windows seeked to settled instants; no video playback, phone test, or external reader.",
+  "formats": ["split", "whiteboard", "cutout"],
+  "times": [1.8, 8.2, 12.7, 15.3, 18.3, 24.4, 29.9, 35.5, 41.5],
+  "evidence": "review/primeagent_page_frames/",
+  "findings": "The toolbox, printing machine including its open spool hole, accepted crossed pair, RLM base, three agent marks and themed handles are visible and unclipped. Labels stay centered above or below their objects. Cutout retains the scene at scale 1 with top 195.7 and caption center 892.2. Caption samples agree with their transcript beats; the 12.7-second split/cutout frame is between caption clips, not a missing label. ONE SINGLE TOOL uses the inherited 12.32-second cue correction. No scene change needed.",
+  "matte": "Consumed the shipped hash-matching layer set and headroom record; no matte review or repair.",
+  "design_detector": "Impeccable ran in degraded regex mode and flagged an inherited Inter font import. Factory graphic chart and mandatory prerender/strict geometry checks govern this video composition.",
+  "final_video_approval": "Miguel reviews the staged videos."
+}

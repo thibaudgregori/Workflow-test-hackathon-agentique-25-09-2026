@@ -1,0 +1,14 @@
+{
+  "status": "hold",
+  "ship": "ok",
+  "selection_changed": true,
+  "edits": 2,
+  "rounds": 1,
+  "what_you_saw": "Inspected the original full overlay, head overlay, clean frame and enlarged shoulder source. The prior contour retained both chair wings and cut into the right ear/jaw. Rebuilt the selection from the initial mask with two source-traced chair exclusions, approved as codex-astra, then viewed both regenerated overlays: cap, ears, cheeks, jaw, chin, neck, hands and shirt shoulders are selected, with both chair backs and shoulder wings excluded. Ran SAM2 fallback fb1 directly, without a MatAnyone retrack. Viewed all four fresh sheets: face_2x preserves the face and cap; chair_sides shows no chair slab, grey wedge or neck splash; hands shows opaque hands at its six sampled gesture peaks; playback reveals a large erased hand/forearm at frame 1050 (42.00 s). A separate source-versus-installed-matte comparison at frames 1045, 1050 and 1055 confirms the real moving hand and forearm are replaced by cream at 1050 and return at 1055. All 1080 frames shipped, headroom minimum is 48.4 px, and all three installed hashes match the fresh ship marker. Structural success does not clear the visible missing hand.",
+  "hold_reason": "SAM2 removes the chair but erases the moving hand and forearm at frame 1050 (42.00 s), clearly visible at normal composition size. Hold for Miguel. The reviewed frame-0 mask already includes both complete hands; there is no source-supported frame-0 correction that explains this later loss, so no speculative second track or hand-cut alpha was attempted. Evidence: review/astra_primeagent/tail_source_composite.jpg and review/matte_primeagent/playback.jpg.",
+  "outputs": [
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/matting/primeagent/matte_primeagent_v5_cut.webm",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/matting/primeagent/matte_primeagent_v5_rim.webm",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/matting/primeagent/matte_primeagent_v5_alpha.webm"
+  ]
+}

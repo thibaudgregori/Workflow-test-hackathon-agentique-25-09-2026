@@ -1,0 +1,56 @@
+{
+  "vid": "geminigems",
+  "module": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/gen/geminigems_scene.py",
+  "scored_by": "the artwork author, on the three independent rounds in review/phone_reader_geminigems_artwork_r{1,2,3}.json",
+  "note": "Twelve independent reads, zero readers naming a DIFFERENT object. Objects 2 and 3 are HEDGED passes under the 2026-09-08 ruling: every reader reached the intended noun and hedged only on the prompt's 'everyday object' premise for a drawn person. The clerk adjudicates them on the delivered render, where each carries its own key (TEAMMATES / COMMUNITY) and lands on the word being spoken.",
+  "objects": [
+    {
+      "i": 0,
+      "kind": "metaphor",
+      "name": "a cracked gem",
+      "verdict": "PASS",
+      "reason": "'diamond' three times, all sure. A diamond IS the cut stone this draws and the product is called a Gem; the noun is reached with no hedge and no competitor.",
+      "reads": [
+        {"name": "diamond", "match": "synonym", "confidence": "sure"},
+        {"name": "diamond", "match": "synonym", "confidence": "sure"},
+        {"name": "diamond", "match": "synonym", "confidence": "sure"}
+      ]
+    },
+    {
+      "i": 1,
+      "kind": "metaphor",
+      "name": "a tied parcel",
+      "verdict": "PASS",
+      "reason": "'gift box' three times, all sure. A tied box with a bow is exactly what the drawing argues - a package you hand to somebody - and no reader saw a window, a card or a screen.",
+      "reads": [
+        {"name": "gift box", "match": "synonym", "confidence": "sure"},
+        {"name": "gift box", "match": "synonym", "confidence": "sure"},
+        {"name": "gift box", "match": "synonym", "confidence": "sure"}
+      ]
+    },
+    {
+      "i": 2,
+      "kind": "metaphor",
+      "name": "two people together",
+      "verdict": "PASS",
+      "reason": "'two people icon' / 'two people' / 'Two people icon' - three of three readers reached TWO PEOPLE, zero different. The hedge is about whether a drawn person counts as an 'everyday object', not about what the drawing shows; HEDGED, routed to the clerk on the moving render.",
+      "reads": [
+        {"name": "two people icon", "match": "intended", "confidence": "unsure"},
+        {"name": "two people", "match": "intended", "confidence": "unsure"},
+        {"name": "Two people icon", "match": "intended", "confidence": "unsure"}
+      ]
+    },
+    {
+      "i": 3,
+      "kind": "metaphor",
+      "name": "a crowd of people",
+      "verdict": "PASS",
+      "reason": "'group of people icon' three times, zero different. A group of people IS the crowd this draws, and the contrast the beat needs is that this one is a GROUP where its sibling is a pair - which every reader saw. HEDGED for the same premise reason, routed to the clerk.",
+      "reads": [
+        {"name": "group of people icon", "match": "synonym", "confidence": "unsure"},
+        {"name": "group of people icon", "match": "synonym", "confidence": "unsure"},
+        {"name": "group of people icon", "match": "synonym", "confidence": "unsure"}
+      ]
+    }
+  ]
+}

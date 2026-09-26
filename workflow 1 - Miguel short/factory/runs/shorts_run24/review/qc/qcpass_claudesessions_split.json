@@ -1,0 +1,128 @@
+{
+ "pass": false,
+ "visual": {
+  "pass": true,
+  "errors": [],
+  "minor_notes": [],
+  "summary": "The video successfully meets all QC standards with no visible errors in motion, overlays, captions, tweets, legibility, cuts, face zoom, or pop-ins."
+ },
+ "semantic": {
+  "pass": false,
+  "errors": [
+   {
+    "kind": "missing_logo",
+    "at_seconds": 2.9,
+    "description": "Claude Code is mentioned at 2.9s, but instead of its official logo, a generic text pill or generic robot icon is shown without the proper branding."
+   }
+  ],
+  "minor_notes": [
+   "The video uses simple animated diagrams of walkie-talkies to visualize sessions communicating, which effectively supports the narration visually."
+  ],
+  "summary": "The video fails the semantic QC gate because Claude Code is mentioned without showing its official logo, relying on text/generic elements instead."
+ },
+ "describe": {
+  "enabled": true,
+  "frames": [
+   {
+    "at_seconds": 0.0,
+    "description": "Two outline drawings of walkie-talkies at the top, a brown caption pill reading 'Claude can now' below them, and a man in a black cap and t-shirt at the bottom.",
+    "spoken_words": "Claude can now",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 1.5,
+    "description": "The two walkie-talkies connected by a red arched line above, the caption pill reading 'talk with itself.'",
+    "spoken_words": "talk with itself.",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 3.0,
+    "description": "A small square icon of a red robot placed between the two walkie-talkies, the caption pill reading 'using Claude Code,'",
+    "spoken_words": "using Claude Code,",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 4.5,
+    "description": "Top heading 'SESSIONS TALK' above the walkie-talkies, the caption reading 'sessions can now'",
+    "spoken_words": "sessions can now",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 6.0,
+    "description": "The walkie-talkies with the red connection line, the caption pill reading 'communicate with'",
+    "spoken_words": "communicate with",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 7.5,
+    "description": "A silhouette of a person icon between the two walkie-talkies with dashed arrows pointing both ways, the caption pill reading 'no longer have to switch'",
+    "spoken_words": "no longer have to switch",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 9.0,
+    "description": "A red diagonal cross over the person icon, the caption pill reading 'from session to session.'",
+    "spoken_words": "from session to session.",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 10.5,
+    "description": "Two walkie-talkie outlines without connections, the left one labeled 'LONG-RUNNING', the caption pill reading 'long-running tasks,'",
+    "spoken_words": "long-running tasks,",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 12.0,
+    "description": "Three walkie-talkie outlines in a row, the right one enclosed in a red box, the caption pill reading 'you can have'",
+    "spoken_words": "you can have",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 13.5,
+    "description": "The rightmost walkie-talkie boxed in red labeled 'ONE SESSION', the caption pill reading 'one single session'",
+    "spoken_words": "one single session",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 15.0,
+    "description": "Red arched lines connecting the three walkie-talkies together, the caption pill reading 'and work'",
+    "spoken_words": "and work",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 16.5,
+    "description": "Blank white space above the man, the caption pill reading 'Now, follow for more'",
+    "spoken_words": "Now, follow for more",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 18.0,
+    "description": "A single walkie-talkie outline with handle card '@migueltorrezai daily AI', the caption pill reading 'AI news, videos, and'",
+    "spoken_words": "AI news, videos, and",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 20.0,
+    "description": "The man pointing his finger forward against a plain background, the caption pill reading 'and catch you'",
+    "spoken_words": "and catch you",
+    "object_identifiable": true,
+    "matches_beat": true
+   }
+  ],
+  "summary": "The video features a presenter explaining how Claude Code allows multiple sessions to communicate and work together like teammates, illustrated with walkie-talkie diagrams.",
+  "errors": []
+ }
+}

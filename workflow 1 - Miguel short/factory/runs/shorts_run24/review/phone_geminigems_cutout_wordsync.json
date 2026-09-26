@@ -1,0 +1,133 @@
+{
+ "label": "geminigems_cutout_wordsync",
+ "video": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/projects/geminigems_cutout",
+ "phone_scale": "405x720",
+ "sheet": "review/phone_geminigems_cutout_wordsync.png",
+ "rule": "a FRESH judge (never read the plan) names each crop in <=3 words. Wrong name, hedge, or 'cannot tell' = the object is redesigned, not annotated.",
+ "answer_key": "review/phone_geminigems_cutout_wordsync.key.json",
+ "answer_key_rule": "DO NOT OPEN the answer key until every judge_answer below is filled in. Reading it first voids the Phone Test.",
+ "cut_from": "headless page screenshots, no video render",
+ "mode": "phone-test",
+ "objects": [
+  {
+   "i": 0,
+   "t": 3.62,
+   "bbox_norm": [
+    0.3056,
+    0.3281,
+    0.6944,
+    0.3802
+   ],
+   "phone_box_px": [
+    123,
+    236,
+    281,
+    273
+   ],
+   "phone_size_px": [
+    158,
+    37
+   ],
+   "path": "review/phone_geminigems_cutout_wordsync/00.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  },
+  {
+   "i": 1,
+   "t": 5.4,
+   "bbox_norm": [
+    0.3611,
+    0.3646,
+    0.6389,
+    0.4062
+   ],
+   "phone_box_px": [
+    146,
+    262,
+    258,
+    292
+   ],
+   "phone_size_px": [
+    112,
+    30
+   ],
+   "path": "review/phone_geminigems_cutout_wordsync/01.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  },
+  {
+   "i": 2,
+   "t": 7.8,
+   "bbox_norm": [
+    0.6482,
+    0.3333,
+    0.8148,
+    0.375
+   ],
+   "phone_box_px": [
+    262,
+    239,
+    329,
+    270
+   ],
+   "phone_size_px": [
+    67,
+    31
+   ],
+   "path": "review/phone_geminigems_cutout_wordsync/02.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  },
+  {
+   "i": 3,
+   "t": 11.86,
+   "bbox_norm": [
+    0.1296,
+    0.362,
+    0.3333,
+    0.4037
+   ],
+   "phone_box_px": [
+    52,
+    260,
+    134,
+    290
+   ],
+   "phone_size_px": [
+    82,
+    30
+   ],
+   "path": "review/phone_geminigems_cutout_wordsync/03.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  },
+  {
+   "i": 4,
+   "t": 13.62,
+   "bbox_norm": [
+    0.6667,
+    0.362,
+    0.8704,
+    0.4037
+   ],
+   "phone_box_px": [
+    270,
+    260,
+    352,
+    290
+   ],
+   "phone_size_px": [
+    82,
+    30
+   ],
+   "path": "review/phone_geminigems_cutout_wordsync/04.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  }
+ ]
+}

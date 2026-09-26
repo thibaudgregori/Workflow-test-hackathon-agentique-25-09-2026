@@ -1,0 +1,28 @@
+{
+ "id": "claudeconcise",
+ "stage": "ship",
+ "status": "ok",
+ "wall_s": 121.54278195899678,
+ "at": "2026-09-22T22:56:09",
+ "keys": {
+  "status": "ok",
+  "backend": "matanyone2",
+  "frames": 1044,
+  "width": 1298,
+  "height": 990,
+  "fps": 25.0,
+  "alpha_mode": "soft",
+  "rim_px": 7,
+  "temporal": 1,
+  "seconds": 103.44708178299999,
+  "estimated_compute_usd": 0.047039457028365754,
+  "fractional_alpha_pixels": 21592682,
+  "minimum_person_fraction": 0.4414756190565127,
+  "review_status": "needs_final_visual_review",
+  "ship_source_sha256": "0154788627eb98961c3eb2bc600e14d29cbc4f0de84b5c925b98e03e19bbd250",
+  "client_wall_seconds": 121.54278195899678,
+  "ship_seconds": 103.44708178299999,
+  "wall_s": 121.54278195899678,
+  "cost_usd": 0.047039457028365754
+ }
+}

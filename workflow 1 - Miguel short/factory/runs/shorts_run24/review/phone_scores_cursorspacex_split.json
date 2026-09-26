@@ -1,0 +1,21 @@
+{
+  "vid": "cursorspacex",
+  "fmt": "split",
+  "rounds": 1,
+  "round_kind": "confirmation (the object was sealed at the artwork seat on three independent rounds; this crop is byte-identical ink in a new frame)",
+  "artwork_seal": "review/artwork_pass_cursorspacex.json",
+  "objects": [
+    {
+      "i": 0,
+      "intended": "flag on pole",
+      "reader_name": "Flag with heart",
+      "reader_confidence": "sure",
+      "match": "intended",
+      "verdict": "PASS",
+      "reason": "The reader named the intended object itself, with the mark printed on it: 'Flag with heart' is the flag on its pole carrying the heart that is on it at t=2.60. Confidence 'sure', three words, inside the five-word cap, and it agrees with all three sealed artwork rounds ('flag with heart' x3, all sure). SCORE THE IDEA, NOT THE NOUN: a reader who names the drawn content or its container passes; this reader named the thing itself."
+    }
+  ],
+  "redesigns": 0,
+  "new_objects_this_lane": 0,
+  "verdict": "PASS"
+}

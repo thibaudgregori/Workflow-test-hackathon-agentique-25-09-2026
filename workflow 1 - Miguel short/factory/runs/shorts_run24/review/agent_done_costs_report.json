@@ -1,0 +1,10 @@
+{
+ "total_usd": 1.362814,
+ "modal_usd": 0.720871,
+ "gemini_usd": 0.512617,
+ "elevenlabs_usd": 0.129326,
+ "staged_shorts": 8,
+ "usd_per_delivered_short": 0.170352,
+ "per_video": "claudesessions: modal 0.195527, gemini 0.144682, total 0.349935\ncursorspacex: modal 0.174286, gemini 0.196237, total 0.385933\ngeminigems: modal 0.170847, gemini 0.171698, total 0.359824\nprimeagent: modal 0.180211, gemini 0.0, total 0.208425\ntranscripts: modal 0.0, gemini 0.0, total 0.058697",
+ "note": "stages_never_recorded: draft, verify, clerk_watch - paid calls at those stages were never booked, the only way this total can be wrong. Scribe is an estimate at $0.40/audio-hour (ElevenLabs list rate); the API returns no cost. Ledger: /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/costs.jsonl"
+}

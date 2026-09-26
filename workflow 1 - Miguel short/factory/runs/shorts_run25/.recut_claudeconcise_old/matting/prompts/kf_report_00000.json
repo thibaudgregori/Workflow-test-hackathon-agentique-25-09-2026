@@ -1,0 +1,58 @@
+{
+ "frame": 0,
+ "plate": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/matting/claudeconcise/plate_wide_25.mp4",
+ "dark_threshold": 60,
+ "wing_right": null,
+ "wing_right_rows": "400,620",
+ "wing_left": null,
+ "wing_left_rows": "400,520",
+ "removed_right_px": 0,
+ "removed_left_px": 0,
+ "removed": {
+  "px": 0,
+  "median_luma": -1,
+  "max_luma": -1
+ },
+ "birefnet": {
+  "area": 482588,
+  "bands": {
+   "cap": {
+    "left": 444,
+    "right": 792
+   },
+   "head": {
+    "left": 393,
+    "right": 782
+   },
+   "jaw": {
+    "left": 230,
+    "right": 890
+   },
+   "neck": {
+    "left": 131,
+    "right": 1081
+   }
+  }
+ },
+ "prompt": {
+  "area": 482588,
+  "bands": {
+   "cap": {
+    "left": 444,
+    "right": 792
+   },
+   "head": {
+    "left": 393,
+    "right": 782
+   },
+   "jaw": {
+    "left": 230,
+    "right": 890
+   },
+   "neck": {
+    "left": 131,
+    "right": 1081
+   }
+  }
+ }
+}

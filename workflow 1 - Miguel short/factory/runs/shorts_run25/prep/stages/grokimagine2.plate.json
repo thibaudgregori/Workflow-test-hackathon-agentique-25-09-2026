@@ -1,0 +1,19 @@
+{
+ "id": "grokimagine2",
+ "stage": "plate",
+ "status": "ok",
+ "wall_s": 37.9,
+ "at": "2026-09-22T23:11:58",
+ "keys": {
+  "status": "ok",
+  "plate": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/matting/grokimagine2/plate_wide_25.mp4",
+  "crop": "2912x1820+626+270",
+  "scale_k": 0.494505,
+  "head_px_on_canvas": 451.0,
+  "overwide_applied": true,
+  "face_dx_pct": 0.015,
+  "visible_window_drift_master_px": 0.0,
+  "plate_json": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/matting/grokimagine2/plate.json",
+  "wall_s": 37.9
+ }
+}

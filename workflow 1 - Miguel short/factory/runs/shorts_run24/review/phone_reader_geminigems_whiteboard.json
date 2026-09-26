@@ -1,0 +1,44 @@
+{
+  "tag": "confirm",
+  "cold_dir": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/cold/confirm-4fe800cc",
+  "reader": "one independent `claude -p` process per crop, launched from /tmp, handed ONLY the absolute path of a blind copy under a random token - no plan, no topic, no manifest, no sealed key, and no path naming the video",
+  "prompt": "Look at the image at <absolute path of one blind crop> . Name the single everyday object drawn in it. At most FIVE words. Reply with ONE line of JSON and nothing else: {\"name\":\"<=5 words\",\"confidence\":\"sure|unsure|cannot tell\"}",
+  "dispatched_at": "2026-09-21T18:27:59",
+  "cli": "2.1.278 (Claude Code)",
+  "source_crops": {
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/cold/38ef69c1/00.png": "6a97257a930ab419ea1446794b76388b66a17837be152a872308a8fee6d87feb",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/cold/38ef69c1/01.png": "eef0bb2f517651cf414f399a8bff89eab79eda0eaa335565e45b9bbe193238b3",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/cold/38ef69c1/02.png": "4a2787ebb08035703d4fcab051f1ba418513bd475495eeb3edc125105ab29e45",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/cold/38ef69c1/03.png": "65457a1b3607502cfda401c2b1adfa3f180debe9f1d0ab8904dadd48d7310c0b"
+  },
+  "names": [
+    {
+      "i": 0,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/cold/confirm-4fe800cc/00.png",
+      "name": "diamond",
+      "confidence": "sure",
+      "crop_sha256": "6a97257a930ab419ea1446794b76388b66a17837be152a872308a8fee6d87feb"
+    },
+    {
+      "i": 1,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/cold/confirm-4fe800cc/01.png",
+      "name": "Wrapped gift box",
+      "confidence": "sure",
+      "crop_sha256": "eef0bb2f517651cf414f399a8bff89eab79eda0eaa335565e45b9bbe193238b3"
+    },
+    {
+      "i": 2,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/cold/confirm-4fe800cc/02.png",
+      "name": "two people icon",
+      "confidence": "unsure",
+      "crop_sha256": "4a2787ebb08035703d4fcab051f1ba418513bd475495eeb3edc125105ab29e45"
+    },
+    {
+      "i": 3,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/cold/confirm-4fe800cc/03.png",
+      "name": "group of people",
+      "confidence": "unsure",
+      "crop_sha256": "65457a1b3607502cfda401c2b1adfa3f180debe9f1d0ab8904dadd48d7310c0b"
+    }
+  ]
+}

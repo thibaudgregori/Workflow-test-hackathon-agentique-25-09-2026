@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "staged": {
+    "split": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/staging/youtube/geminigems_split.mp4",
+    "whiteboard": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/staging/reels/geminigems_whiteboard.mp4",
+    "cutout": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/staging/tiktok/geminigems_cutout.mp4"
+  },
+  "kept": [
+    "whiteboard"
+  ],
+  "rc_json": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/gen/_rc_geminigems.json",
+  "waivers": [],
+  "not_staged": {},
+  "cutout_built": true,
+  "what_you_changed": "Consumed the already corrected and resealed shared scene, whose Anthropic/Claude tile now fades out at 10.46 seconds over 0.22 seconds as the script turns to either with your teammates. Verified both seal hashes and the corrected split page, reran the existing cutout generator unchanged, and rendered split and cutout together through render_and_check. Both pages passed prerender and strict geometry checks, word-sync checks passed, and settled-frame screenshots confirmed the mark disappears. Staged both HD exports with audio. The approved whiteboard stayed byte-identical and the shipped matte hashes stayed unchanged; no other artwork, generator, scene module, or shared tool was edited. Final MP4 frames at 10.44, 10.72 and 13.80 seconds visually confirm the corrected exit in both formats. The Gemini watcher was unavailable for both: Gemini API 429 RESOURCE_EXHAUSTED (monthly spending cap); $0. The existing driver staged on passing QC under its unavailable-watcher policy; no manual waiver or rerender was used."
+}

@@ -1,0 +1,61 @@
+{
+ "label": "cursorspacex_cutout_wordsync",
+ "video": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/projects/cursorspacex_cutout",
+ "phone_scale": "405x720",
+ "sheet": "runs/shorts_run24/review/phone_cursorspacex_cutout_wordsync.png",
+ "rule": "a FRESH judge (never read the plan) names each crop in <=3 words. Wrong name, hedge, or 'cannot tell' = the object is redesigned, not annotated.",
+ "answer_key": "runs/shorts_run24/review/phone_cursorspacex_cutout_wordsync.key.json",
+ "answer_key_rule": "DO NOT OPEN the answer key until every judge_answer below is filled in. Reading it first voids the Phone Test.",
+ "cut_from": "headless page screenshots, no video render",
+ "mode": "phone-test",
+ "objects": [
+  {
+   "i": 0,
+   "t": 5.4,
+   "bbox_norm": [
+    0.25,
+    0.09,
+    0.75,
+    0.17
+   ],
+   "phone_box_px": [
+    101,
+    64,
+    303,
+    122
+   ],
+   "phone_size_px": [
+    202,
+    58
+   ],
+   "path": "runs/shorts_run24/review/phone_cursorspacex_cutout_wordsync/00.png",
+   "sheet_scale": 1.0,
+   "judge_answer": "SUNSET label card",
+   "verdict": null
+  },
+  {
+   "i": 1,
+   "t": 5.06,
+   "bbox_norm": [
+    0.25,
+    0.09,
+    0.75,
+    0.17
+   ],
+   "phone_box_px": [
+    101,
+    64,
+    303,
+    122
+   ],
+   "phone_size_px": [
+    202,
+    58
+   ],
+   "path": "runs/shorts_run24/review/phone_cursorspacex_cutout_wordsync/01.png",
+   "sheet_scale": 1.0,
+   "judge_answer": "blank cream card",
+   "verdict": null
+  }
+ ]
+}

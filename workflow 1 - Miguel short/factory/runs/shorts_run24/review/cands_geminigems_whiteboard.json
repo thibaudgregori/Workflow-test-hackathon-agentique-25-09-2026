@@ -1,0 +1,343 @@
+{
+ "video": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/geminigems_whiteboard.mp4",
+ "video_id": "geminigems",
+ "fmt": "whiteboard",
+ "model": "gemini-3.5-flash-lite",
+ "duration_s": 20.941,
+ "fps_sampled": 3.0,
+ "windows": [
+  [
+   0.0,
+   20.94
+  ],
+  [
+   0.0,
+   20.0
+  ],
+  [
+   17.0,
+   20.94
+  ]
+ ],
+ "whole_pass": true,
+ "thinking": "medium",
+ "media_resolution": "HIGH",
+ "jobs": 3,
+ "transcript": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/cuts/geminigems/transcript_tight.json",
+ "video_summary": "A creator discusses Google sunsetting Gemini Gems and replacing them with Skills for sharing AI workflows. The video uses a whiteboard animation style with step-by-step drawings to illustrate the transition.",
+ "beat_log": [
+  {
+   "t_start": 0.0,
+   "t_end": 2.56,
+   "on_screen": "Diamond outline being drawn in upper center, caption pill below, speaker in lower half.",
+   "said": "Google just killed another one of their products yet again.",
+   "marks_visible": "none",
+   "labels_visible": "Google just killed another one of their products yet again.",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "none",
+   "picture_vs_sentence": "Picture draws a diamond outline representing a product being killed, matching the sentence.",
+   "from_window": [
+    0.0,
+    20.94
+   ]
+  },
+  {
+   "t_start": 0.0,
+   "t_end": 2.68,
+   "on_screen": "Whiteboard at the top showing a cracked diamond drawing and red pencil, with the creator talking in the lower section.",
+   "said": "Google just killed another one of their products yet again.",
+   "marks_visible": "none",
+   "labels_visible": "none",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "none",
+   "picture_vs_sentence": "Picture shows a cracked diamond representing a killed product, matching the sentence.",
+   "from_window": [
+    0.0,
+    20.0
+   ]
+  },
+  {
+   "t_start": 2.56,
+   "t_end": 5.58,
+   "on_screen": "Diamond with crack, star icon above, labels GEMINI GEMS and SUNSET OCT 20.",
+   "said": "Now, Gemini Gems are being sunset on October 20th, and",
+   "marks_visible": "none",
+   "labels_visible": "GEMINI GEMS, SUNSET OCT 20",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "GEMINI GEMS and SUNSET OCT 20 are below the icons, sharing centered alignment.",
+   "picture_vs_sentence": "Picture illustrates Gemini Gems and its sunset date, matching the sentence.",
+   "from_window": [
+    0.0,
+    20.94
+   ]
+  },
+  {
+   "t_start": 2.68,
+   "t_end": 5.58,
+   "on_screen": "Whiteboard showing cracked diamond with a Gemini star icon above and 'GEMINI GEMS' / 'SUNSET OCT 20' labels below.",
+   "said": "Now, Gemini Gems are being sunset on October 20th, and",
+   "marks_visible": "Gemini star icon",
+   "labels_visible": "GEMINI GEMS, SUNSET OCT 20",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "labels are positioned below the drawn objects",
+   "picture_vs_sentence": "Picture illustrates Gemini Gems being sunset.",
+   "from_window": [
+    0.0,
+    20.0
+   ]
+  },
+  {
+   "t_start": 5.58,
+   "t_end": 8.88,
+   "on_screen": "Red arrow pointing right from diamond to a box icon labelled SKILLS with star icon above.",
+   "said": "they're being completely replaced by Skills, the new standard way",
+   "marks_visible": "none",
+   "labels_visible": "SKILLS",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "SKILLS is below the box icon.",
+   "picture_vs_sentence": "Picture illustrates replacement by Skills, matching the sentence.",
+   "from_window": [
+    0.0,
+    20.94
+   ]
+  },
+  {
+   "t_start": 5.58,
+   "t_end": 8.88,
+   "on_screen": "Whiteboard showing diamond connected by a red arrow to a gift box labeled 'SKILLS' with a star icon above.",
+   "said": "they're being completely replaced by Skills, the new standard way",
+   "marks_visible": "none",
+   "labels_visible": "SKILLS",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "label is below the box",
+   "picture_vs_sentence": "Picture shows replacement of Gems with Skills.",
+   "from_window": [
+    0.0,
+    20.0
+   ]
+  },
+  {
+   "t_start": 8.88,
+   "t_end": 11.96,
+   "on_screen": "Box icon with grid lines, arrow pointing down-left to two person silhouettes labelled TEAMMATES.",
+   "said": "of sharing your AI workflows, either with your teammates or",
+   "marks_visible": "none",
+   "labels_visible": "TEAMMATES",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "TEAMMATES is below the silhouettes.",
+   "picture_vs_sentence": "Picture illustrates sharing workflows with teammates, matching the sentence.",
+   "from_window": [
+    0.0,
+    20.94
+   ]
+  },
+  {
+   "t_start": 8.88,
+   "t_end": 14.0,
+   "on_screen": "Whiteboard showing SKILLS box branching via arrows to two figures labeled 'TEAMMATES' and a group labeled 'COMMUNITY'.",
+   "said": "of sharing your AI workflows, either with your teammates or with members of your community.",
+   "marks_visible": "none",
+   "labels_visible": "SKILLS, TEAMMATES, COMMUNITY",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "labels are below their respective figures and boxes",
+   "picture_vs_sentence": "Picture illustrates sharing workflows with teammates and community.",
+   "from_window": [
+    0.0,
+    20.0
+   ]
+  },
+  {
+   "t_start": 11.96,
+   "t_end": 15.04,
+   "on_screen": "Box icon, arrow pointing down-right to four person silhouettes labelled COMMUNITY.",
+   "said": "with members of your community. Now, follow for more AI",
+   "marks_visible": "none",
+   "labels_visible": "COMMUNITY",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "COMMUNITY is below the silhouettes.",
+   "picture_vs_sentence": "Picture illustrates sharing with community, matching the sentence.",
+   "from_window": [
+    0.0,
+    20.94
+   ]
+  },
+  {
+   "t_start": 14.0,
+   "t_end": 17.68,
+   "on_screen": "Whiteboard showing the complete workflow diagram with teammates and community.",
+   "said": "Now, follow for more AI news, videos, and tutorials each and every single day.",
+   "marks_visible": "none",
+   "labels_visible": "SKILLS, TEAMMATES, COMMUNITY",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "labels are below",
+   "picture_vs_sentence": "Picture shows the workflow diagram while call-to-action is spoken.",
+   "from_window": [
+    0.0,
+    20.0
+   ]
+  },
+  {
+   "t_start": 15.04,
+   "t_end": 17.64,
+   "on_screen": "Whiteboard diagram of boxes and figures holding on screen.",
+   "said": "news, videos, and tutorials each and every single day. Don't",
+   "marks_visible": "none",
+   "labels_visible": "none",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "none",
+   "picture_vs_sentence": "Picture shows accumulated whiteboard drawings holding on screen.",
+   "from_window": [
+    0.0,
+    20.94
+   ]
+  },
+  {
+   "t_start": 17.0,
+   "t_end": 17.68,
+   "on_screen": "Top visual zone shows whiteboard diagram of a box with two groups (teammates, community) connected by red lines. Bottom zone shows speaker talking. Caption pill says 'and every single day.'",
+   "said": "Now, follow for more AI news, videos, and tutorials each and every single day.",
+   "marks_visible": "none",
+   "labels_visible": "TEAMMATES, COMMUNITY, and every single day.",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "Labels sit below the icon groups; caption pill is centered.",
+   "picture_vs_sentence": "Picture remains consistent with previous community/sharing beat.",
+   "from_window": [
+    17.0,
+    20.94
+   ]
+  },
+  {
+   "t_start": 17.64,
+   "t_end": 20.94,
+   "on_screen": "Outro handle card with @migueltorrez.ai and daily AI text below.",
+   "said": "forget to migrate your gems, and see you in the next one",
+   "marks_visible": "none",
+   "labels_visible": "@migueltorrez.ai, daily AI",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "daily AI is below @migueltorrez.ai.",
+   "picture_vs_sentence": "Picture shows outro handle card, standard for the format.",
+   "from_window": [
+    0.0,
+    20.94
+   ]
+  },
+  {
+   "t_start": 17.68,
+   "t_end": 20.64,
+   "on_screen": "Whiteboard showing handle card '@migueltorrez.ai' with 'daily AI' subtitle.",
+   "said": "Don't forget to migrate your gems, and see you in the next one",
+   "marks_visible": "none",
+   "labels_visible": "@migueltorrez.ai, daily AI",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "none",
+   "picture_vs_sentence": "Picture shows the outro handle card.",
+   "from_window": [
+    0.0,
+    20.0
+   ]
+  },
+  {
+   "t_start": 17.68,
+   "t_end": 18.5,
+   "on_screen": "Top visual zone transitions to handle card: red line above '@migueltorrez.ai'. Caption pill says 'Don't forget'. Speaker is talking below.",
+   "said": "Don't forget to migrate your gems, and see you in the",
+   "marks_visible": "none",
+   "labels_visible": "@migueltorrez.ai, Don't forget",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "Label is centered below the red line bar.",
+   "picture_vs_sentence": "Picture shows outro handle card as the video concludes.",
+   "from_window": [
+    17.0,
+    20.94
+   ]
+  },
+  {
+   "t_start": 18.5,
+   "t_end": 20.94,
+   "on_screen": "Top visual zone shows handle '@migueltorrez.ai' with red line above, and 'daily AI' underneath. Caption pills change through 'to migrate your gems,', 'and see you in', 'the next one'. Speaker talking.",
+   "said": "to migrate your gems, and see you in the next one",
+   "marks_visible": "none",
+   "labels_visible": "@migueltorrez.ai, daily AI, to migrate your gems,, and see you in, the next one",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "Outro handle card is properly structured.",
+   "picture_vs_sentence": "Picture shows outro handle card.",
+   "from_window": [
+    17.0,
+    20.94
+   ]
+  }
+ ],
+ "all_summaries": [
+  "A creator discusses Google sunsetting Gemini Gems and replacing them with Skills for sharing AI workflows. The video uses a whiteboard animation style with step-by-step drawings to illustrate the transition.",
+  "A creator discusses Google sunsetting Gemini Gems and replacing them with Skills, illustrated through a whiteboard drawing of a diamond transforming into a workflow sharing diagram. The video concludes with a call to action and a handle card.",
+  "The video discusses Google shutting down Gemini Gems and replacing them with Skills, encouraging viewers to follow for daily AI updates. The final section shows the speaker telling users to migrate their gems, ending with an outro handle card."
+ ],
+ "candidates": [],
+ "counts": {
+  "candidates": 0,
+  "blocking": 0,
+  "motion": 0
+ },
+ "calls": [
+  {
+   "pass": 1,
+   "window": [
+    0.0,
+    20.94
+   ],
+   "model": "gemini-3.5-flash-lite",
+   "fps": 3.0,
+   "thinking": "medium",
+   "input_tokens": 21015,
+   "output_tokens": 3233,
+   "thinking_tokens": 2028,
+   "cost_usd": 0.014387
+  },
+  {
+   "pass": 1,
+   "window": [
+    0.0,
+    20.0
+   ],
+   "model": "gemini-3.5-flash-lite",
+   "fps": 3.0,
+   "thinking": "medium",
+   "input_tokens": 20200,
+   "output_tokens": 4234,
+   "thinking_tokens": 3163,
+   "cost_usd": 0.016645
+  },
+  {
+   "pass": 1,
+   "window": [
+    17.0,
+    20.94
+   ],
+   "model": "gemini-3.5-flash-lite",
+   "fps": 3.0,
+   "thinking": "medium",
+   "input_tokens": 7128,
+   "output_tokens": 660,
+   "thinking_tokens": 0,
+   "cost_usd": 0.003788
+  }
+ ],
+ "cost_usd": 0.03482,
+ "wall_clock_s": 28.8
+}

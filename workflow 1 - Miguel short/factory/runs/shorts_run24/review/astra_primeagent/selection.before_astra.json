@@ -1,0 +1,471 @@
+{
+  "version": 1,
+  "status": "reviewed",
+  "identity": {
+    "plate_sha256": "cf53bde7aee1b1a73b349f75be6597cf880311eb3d16993827d5da61a461c771",
+    "source_sha256": "bef5e9f2727210277d4b0edc70151c5acd1ab725a05054fcd69aeebc6a7dd8bd",
+    "crop_sha256": "df0e776c0a11f7f5dd2e56cfdab8097ca31ef0d6252fb4cc197d1b1970163808",
+    "first_frame_sha256": "62f8f98dc90a169de0105bf4cb064e96fc02c8ffbf180df54cbbd52686fc8d13",
+    "width": 1360,
+    "height": 900,
+    "fps": 25.0,
+    "frames": 1080
+  },
+  "mask": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/matting/primeagent/selection.mask.png",
+  "mask_sha256": "27aaca54c778b56906016ba0fda954021578fae8a036a9421fd433a850928096",
+  "base_mask_sha256": "e316325ee95cf0cefed09d9fe9f218a5a42c473530b78e85e2782d7097b021d3",
+  "edits": [
+    {
+      "operation": "exclude",
+      "label": "gaming-chair backrest left of his head, between the chair's outer edge and his ear/cheek/jaw/neck, stopping above the shoulder line",
+      "points": [
+        [
+          486,
+          256
+        ],
+        [
+          487,
+          266
+        ],
+        [
+          489,
+          278
+        ],
+        [
+          491,
+          290
+        ],
+        [
+          493,
+          302
+        ],
+        [
+          496,
+          314
+        ],
+        [
+          499,
+          326
+        ],
+        [
+          503,
+          338
+        ],
+        [
+          506,
+          350
+        ],
+        [
+          510,
+          362
+        ],
+        [
+          527,
+          370
+        ],
+        [
+          529,
+          382
+        ],
+        [
+          532,
+          394
+        ],
+        [
+          536,
+          406
+        ],
+        [
+          541,
+          418
+        ],
+        [
+          546,
+          430
+        ],
+        [
+          550,
+          442
+        ],
+        [
+          551,
+          452
+        ],
+        [
+          547,
+          458
+        ],
+        [
+          540,
+          459
+        ],
+        [
+          530,
+          468
+        ],
+        [
+          520,
+          473
+        ],
+        [
+          510,
+          479
+        ],
+        [
+          500,
+          483
+        ],
+        [
+          490,
+          487
+        ],
+        [
+          480,
+          490
+        ],
+        [
+          470,
+          495
+        ],
+        [
+          460,
+          498
+        ],
+        [
+          452,
+          500
+        ],
+        [
+          445,
+          500
+        ],
+        [
+          445,
+          250
+        ]
+      ]
+    },
+    {
+      "operation": "exclude",
+      "label": "gaming-chair backrest right of his head, between his ear/jaw/neck and the chair's outer edge, stopping above the shoulder",
+      "points": [
+        [
+          834,
+          262
+        ],
+        [
+          836,
+          278
+        ],
+        [
+          836,
+          296
+        ],
+        [
+          834,
+          310
+        ],
+        [
+          832,
+          322
+        ],
+        [
+          828,
+          332
+        ],
+        [
+          818,
+          342
+        ],
+        [
+          808,
+          352
+        ],
+        [
+          800,
+          362
+        ],
+        [
+          797,
+          374
+        ],
+        [
+          806,
+          390
+        ],
+        [
+          806,
+          404
+        ],
+        [
+          796,
+          414
+        ],
+        [
+          788,
+          426
+        ],
+        [
+          784,
+          438
+        ],
+        [
+          784,
+          452
+        ],
+        [
+          788,
+          468
+        ],
+        [
+          794,
+          484
+        ],
+        [
+          800,
+          496
+        ],
+        [
+          820,
+          500
+        ],
+        [
+          840,
+          500
+        ],
+        [
+          856,
+          494
+        ],
+        [
+          868,
+          486
+        ],
+        [
+          874,
+          476
+        ],
+        [
+          881,
+          466
+        ],
+        [
+          882,
+          420
+        ],
+        [
+          881,
+          380
+        ],
+        [
+          880,
+          340
+        ],
+        [
+          878,
+          310
+        ],
+        [
+          872,
+          292
+        ],
+        [
+          860,
+          276
+        ],
+        [
+          848,
+          266
+        ]
+      ]
+    }
+  ],
+  "reviewer": "visual-agent",
+  "notes": "Opened the actual frame-0 plate (1360x900) and the BiRefNet initial mask overlay at 4-8x. The initial mask included the gaming-chair backrest on BOTH sides of his head as solid foreground (two wedges, roughly x445-556 and x784-882, y256-500). Measured the chair edges from luma on this frame only: outer chair/wall edge 450-485 left and 850-875 right; inner skin edge from the ear down the cheek, jaw, beard and neck; shoulder/shirt top edge per column (left 503 at x455 rising to 462 at x540; right ~500-527). Wrote two exclude polygons that sit 3-4px on the chair side of every skin edge and 4px above the shoulder line, so cap, forehead, both ears, jaw, beard, neck and both shoulders are untouched. Re-inspected the corrected mask as a composite and as 4-8x crops of both chair zones, plus the cap crown, both hands and the bottom-left arm: both ears fully intact, no jaw or cheek carving, both hands and all fingertips still inside with margin, chair fully outside the contour on both sides, no leftover chair column at the right outer edge. 28205 px removed, foreground 43.4 -> 41.1 percent. Coordinates measured on this recording only.",
+  "crop": {
+    "file": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/matting/primeagent/plate_wide_25.mp4",
+    "master": [
+      3840,
+      2160,
+      1080
+    ],
+    "crop": "2856x1890+477+222",
+    "scale_k": 0.47619,
+    "head_px_on_canvas": 450.0,
+    "head_frac_of_1920": 0.2344,
+    "face_px_on_canvas": 329.8,
+    "cap_top_on_plate": 59.0,
+    "chin_on_plate": 502.1,
+    "face_cx_on_plate": 670.4,
+    "shoulder_rule_crop_w": 1352,
+    "dropped": 0,
+    "kept_dupes": [],
+    "expect_frames": 1080,
+    "ffmpeg_vf": "setpts=N/(25*TB),crop=2856:1890:477:222,scale=1360:900:flags=lanczos",
+    "plate_size": [
+      1360,
+      900
+    ],
+    "paint_scale": 1.1,
+    "head_parity": {
+      "crop": "2268x1890+750+222",
+      "scale_k": 0.47619,
+      "plate_size": [
+        1080,
+        900
+      ]
+    },
+    "probe": {
+      "width": 1360,
+      "height": 900,
+      "r_frame_rate": "25/1",
+      "duration": "43.200000",
+      "nb_read_frames": "1080"
+    },
+    "headroom": {
+      "cap_top_on_canvas_px": 64.9,
+      "target_on_canvas_px": 64.0,
+      "hard_floor_on_canvas_px": 24.0,
+      "bottom_planted": false,
+      "slid_up_master_px": 48,
+      "note": "the crop is bottom-planted unless that would cut the crown; sliding it up spends the bottom of his chest, which the format runs off the canvas anyway, and touches neither `k` (head height on canvas) nor `x0` (face centring)"
+    },
+    "overwide": {
+      "applied": true,
+      "k": {
+        "exact": "10/21",
+        "float": 0.4761904762
+      },
+      "lattice": {
+        "extension_step_master_px": 21,
+        "plate_width_multiple_of": 20,
+        "derivation": "box_w = plate_w * 1.10 whole (plate_w % 10), EVEN (plate_w % 20), and plate_w moves in steps of p=10; lcm(20, 10) = 20"
+      },
+      "measured_need_master_px": {
+        "left": 261.8,
+        "right": 306.8
+      },
+      "need_floor_master_px": {},
+      "margin_floor": {
+        "canvas_px": 24.0,
+        "master_px": 45.8,
+        "source": "edge_clip_check's own limb-margin floor"
+      },
+      "extension": {
+        "left_master_px": 273,
+        "left_plate_px": 130,
+        "left_canvas_px": 143.0,
+        "right_master_px": 315,
+        "right_plate_px": 150,
+        "right_canvas_px": 165.0,
+        "left_headroom_remaining_master_px": 477,
+        "right_headroom_remaining_master_px": 507,
+        "clamped_by_master_edge": {
+          "left": false,
+          "right": false
+        },
+        "lattice_padding_steps": 0
+      },
+      "window_headparity": "2268x1890+750+222",
+      "window_overwide": "2856x1890+477+222",
+      "crop": [
+        2856,
+        1890,
+        477,
+        222
+      ],
+      "plate_size": [
+        1360,
+        900
+      ],
+      "plate_aspect": "1360:900 = 1.511:1",
+      "plate_box": {
+        "w": 1496.0,
+        "h": 990.0,
+        "left": -197.0,
+        "top": 930.0,
+        "right": 1299.0,
+        "centred": false,
+        "note": "the origin is NOT (1080 - box_w)/2.  An over-wide plate is deliberately asymmetric; the generator's plate_origin() reads `left` from here, and ship.py's edge gate takes it as --edge-box."
+      },
+      "nothing_on_canvas_moves": {
+        "visible_master_window_headparity": [
+          853.09,
+          2914.91
+        ],
+        "visible_master_window_overwide": [
+          853.09,
+          2914.91
+        ],
+        "visible_window_drift_master_px": 0.0,
+        "visible_window_drift_canvas_px": 0.0,
+        "head_on_delivery_canvas_px": 495.0,
+        "head_law_framing_md": 496.0,
+        "face_centre_canvas_x": 540.47,
+        "face_dx_pct": 0.044,
+        "frozen_post_params_still_valid": "BLEED 8, MORPH_K 2, SIGMA_HI 4.0, FEATHER 0.55, RIM_PX 7 are all in PLATE px and k is unchanged, so a plate px is the same physical size it has always been"
+      },
+      "cost": "the plate carries 1.26x the columns, so the track and the staged layers cost proportionally more, and the chassis reads a non-centred box.  Nothing the viewer receives changes except that his hands now have an outline where the frame cuts them.",
+      "proof": "this only MAKES the plate.  The window is proved afterwards on the newly tracked SAM2 alpha, every frame, by pipeline/edge_clip_check.py inside ship.py.",
+      "silhouette_measurement": {
+        "crop_window": "2268x?+750+222",
+        "frames_measured": 181,
+        "sweep_rows_inside_crop": 646,
+        "left": {
+          "shoulder_baseline_master_row": 1878,
+          "rows_above_baseline": 552,
+          "contact_coverage_at_baseline": 0.9006,
+          "extreme_master_x_above_baseline": 534,
+          "head_parity_border_master_x": 750,
+          "clearance_master_px": 216
+        },
+        "right": {
+          "shoulder_baseline_master_row": 2025,
+          "rows_above_baseline": 601,
+          "contact_coverage_at_baseline": 0.9171,
+          "extreme_master_x_above_baseline": 3279,
+          "head_parity_border_master_x": 3018,
+          "clearance_master_px": 261
+        }
+      },
+      "sweep": {
+        "file": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/gen/_birefnet_master_primeagent.json",
+        "frames_measured": 181,
+        "stride": 6,
+        "model": "birefnet-general",
+        "wall_seconds": 118.0,
+        "lane": {
+          "where": "modal",
+          "app": "shorts-factory-birefnet",
+          "gpu": "A10G",
+          "container": "1ed0ab33-4391-4e35-aed3-b46c95ba0f4d",
+          "onnx": "birefnet-general.onnx",
+          "providers": [
+            "CUDAExecutionProvider",
+            "CPUExecutionProvider"
+          ],
+          "input_bytes": 32915069,
+          "model_load_seconds": 4.2,
+          "inference_seconds": 96.8,
+          "seconds_per_frame": 0.535,
+          "t_import_epoch": 1790006086.2002106,
+          "t_fn_enter_epoch": 1790006088.4214237,
+          "t_fn_exit_epoch": 1790006194.4750195,
+          "proxy": true,
+          "proxy_seconds": 2.7,
+          "client_wall_seconds": 118.0,
+          "uploaded_bytes": 32915069,
+          "cold_start_seconds": 7.08,
+          "billed_container_seconds": 110.3,
+          "measured_cost_usd": 0.0492,
+          "cost_breakdown_usd": {
+            "gpu": 0.0337,
+            "cpu": 0.0116,
+            "mem": 0.0039
+          }
+        }
+      }
+    }
+  },
+  "reuse_scope": "this exact source, plate and crop only"
+}

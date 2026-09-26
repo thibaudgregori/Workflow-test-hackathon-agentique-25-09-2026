@@ -1,0 +1,24 @@
+{
+ "verdict": "HOLD",
+ "plan_json": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/plans/primeagent_plan.json",
+ "plan_md": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/plans/primeagent_plan.md",
+ "lane": "diagram build",
+ "lane_reason": "The script is one mechanism being assembled in front of the viewer - a fixed toolbox, then a single machine, then the two things it makes, then the base it stands on - so the argument IS the diagram growing.",
+ "beats": 8,
+ "bespoke_names": ["open toolbox with tools", "tool printing machine", "crossed hammer and screwdriver"],
+ "cues": "0 cues returned by pointing_cues.py ('no pointing cue in this take'); none answered, none waived - the script names no platform, post or person.",
+ "board_mode": "chapters",
+ "scene_module": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/gen/primeagent_scene.py",
+ "scene_handoff": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/plans/primeagent_scene_handoff.md",
+ "artwork_pass": null,
+ "cold_reads_run": 3,
+ "proofs": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/proofs",
+ "reason": "Objects 0 and 1 sealed 3/3 sure. Object 2 (the crossed pair) failed four independent cold rounds across two metaphors; STANDARD's two-metaphor ceiling is reached, so no artwork_pass was written and the recording waits for Miguel.",
+ "open_questions": [
+  "The machine's filament spool hole may close up below k ~0.90; the cutout author should widen the hole rather than enlarge the machine.",
+  "wing review: prompt0 not landed at plan time - the cutout author owns it.",
+  "The three agent tiles are obvious neighbours, not a claim about who Prime Agent competes with.",
+  "Bespoke object 2 is the open item: accept 'two crossed tools' as its name and re-score, swap the screwdriver for the saw or wrench (contradicts the spoken word), or drop the pair as a bespoke object."
+ ],
+ "open_doubts": []
+}

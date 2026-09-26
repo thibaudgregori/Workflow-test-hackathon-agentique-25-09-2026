@@ -1,0 +1,280 @@
+{
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/projects/geminigems_cutout",
+ "fmt": "cutout",
+ "step": 0.25,
+ "checks": {
+  "refs_resolve": {
+   "referenced": 15,
+   "missing": [],
+   "pass": true,
+   "error": null,
+   "wall_s": 0.09
+  },
+  "assets_not_placeholder": {
+   "rasters": 8,
+   "placeholder_shaped": [],
+   "undecodable": [],
+   "report": {
+    "assets/logos/gemini-color.png": {
+     "size": [
+      640,
+      640
+     ],
+     "ink_fill": 0.353,
+     "quantised_colours": 77,
+     "diag_fwd": 0.381,
+     "diag_back": 0.381,
+     "bbox": [
+      26,
+      26,
+      614,
+      614
+     ]
+    },
+    "assets/logos/claude-color.png": {
+     "size": [
+      640,
+      640
+     ],
+     "ink_fill": 0.399,
+     "quantised_colours": 1,
+     "diag_fwd": 0.463,
+     "diag_back": 0.541,
+     "bbox": [
+      0,
+      0,
+      640,
+      640
+     ]
+    },
+    "assets/logos/chatgpt-color.png": {
+     "size": [
+      1024,
+      1024
+     ],
+     "judged": "decode only (capture)"
+    },
+    "assets/logos/grok.png": {
+     "size": [
+      1000,
+      1000
+     ],
+     "judged": "decode only (capture)"
+    },
+    "assets/logos/perplexity-color.png": {
+     "size": [
+      640,
+      640
+     ],
+     "ink_fill": 0.32,
+     "quantised_colours": 1,
+     "diag_fwd": 0.258,
+     "diag_back": 0.261,
+     "bbox": [
+      40,
+      0,
+      600,
+      640
+     ]
+    },
+    "assets/logos/copilot-color.png": {
+     "size": [
+      640,
+      640
+     ],
+     "ink_fill": 0.698,
+     "quantised_colours": 68,
+     "diag_fwd": 0.641,
+     "diag_back": 0.331,
+     "bbox": [
+      0,
+      26,
+      640,
+      614
+     ]
+    },
+    "assets/logos/kimi-mark.svg": {
+     "size": [
+      256,
+      256
+     ],
+     "ink_fill": 0.354,
+     "quantised_colours": 1,
+     "diag_fwd": 0.117,
+     "diag_back": 0.441,
+     "bbox": [
+      0,
+      3,
+      256,
+      253
+     ]
+    },
+    "assets/logos/deepseek-mark.svg": {
+     "size": [
+      256,
+      256
+     ],
+     "ink_fill": 0.5,
+     "quantised_colours": 1,
+     "diag_fwd": 0.613,
+     "diag_back": 0.461,
+     "bbox": [
+      0,
+      33,
+      256,
+      223
+     ]
+    }
+   },
+   "pass": true,
+   "error": null,
+   "wall_s": 0.27
+  },
+  "page_audit": {
+   "ids": 123,
+   "unique_ids": 123,
+   "duplicate_ids": [],
+   "tween_selectors": 36,
+   "dead_tween_targets": [],
+   "pass": true,
+   "error": null,
+   "wall_s": 0.0
+  },
+  "caption_canon_page": {
+   "pills": 23,
+   "modal_height_px": 114.55,
+   "canon_height_px": 114.59,
+   "height_spread_px": 0.0,
+   "tolerance_design_px": 3.0,
+   "heights_off_canon": [],
+   "squarer_than_min_aspect": [],
+   "min_aspect": 1.45,
+   "function_only_beat_law": null,
+   "pass": true,
+   "error": null,
+   "wall_s": 0.0
+  },
+  "gate1_geometry_audit": {
+   "returncode": 0,
+   "errors": 0,
+   "warnings": 0,
+   "warnings_after_waivers": 0,
+   "waived": [],
+   "report": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/projects/geminigems_cutout/geometry_audit/report.json",
+   "stdout": "geminigems_cutout: 0 errors, 0 warnings (20.9s @ 0.25s step)\n",
+   "stderr": "",
+   "bar": "0 errors, 0 warnings",
+   "pass": true,
+   "error": null,
+   "wall_s": 1.39
+  },
+  "cutout_edge_fade_guard": {
+   "masked_containers": 3,
+   "fade_px": 46.0,
+   "meters_exempt": [],
+   "pass": true,
+   "wall_s": 0.0
+  },
+  "cutout_checks_24_25": {
+   "check24_edge_fade": {
+    "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/projects/geminigems_cutout",
+    "masks": {
+     "masked_containers": 3,
+     "fade_px": 46.0,
+     "meters_exempt": []
+    },
+    "gate1": {
+     "edgefade_violations": 0,
+     "elements": [],
+     "ok": true
+    },
+    "ok": true
+   },
+   "check25_depth_field": {
+    "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/projects/geminigems_cutout",
+    "foundation": {
+     "tiles": [
+      78.0,
+      116.0,
+      148.0
+     ],
+     "gaps": [
+      30.0,
+      36.0,
+      44.0
+     ],
+     "inter_lane_gap": 26.0,
+     "band_h": 394.0
+    },
+    "band": [
+     1021.5,
+     1415.5
+    ],
+    "inter_lane_gutters": [
+     26.0,
+     26.0
+    ],
+    "band_h": 394.0,
+    "step_events": 7,
+    "pop_behind": false,
+    "lanes": {
+     "far": {
+      "y": 1021.5,
+      "wrapper": [
+       1080.0,
+       78.0
+      ],
+      "tiles": 16,
+      "tile_w": [
+       78.0
+      ],
+      "pitches": [
+       108.0
+      ]
+     },
+     "mid": {
+      "y": 1125.5,
+      "wrapper": [
+       1080.0,
+       116.0
+      ],
+      "tiles": 15,
+      "tile_w": [
+       116.0
+      ],
+      "pitches": [
+       152.0
+      ]
+     },
+     "near": {
+      "y": 1267.5,
+      "wrapper": [
+       1080.0,
+       148.0
+      ],
+      "tiles": 16,
+      "tile_w": [
+       148.0
+      ],
+      "pitches": [
+       192.0
+      ]
+     }
+    },
+    "violations": [],
+    "ok": true
+   },
+   "fails": [],
+   "pass": true,
+   "error": null,
+   "wall_s": 0.12
+  }
+ },
+ "skipped": {},
+ "duration_s": 20.92,
+ "page_zoom": 1.0003658746556474,
+ "page_load_wall_s": 1.45,
+ "failed": [],
+ "verdict": "PASS",
+ "total_wall_s": 3.34
+}

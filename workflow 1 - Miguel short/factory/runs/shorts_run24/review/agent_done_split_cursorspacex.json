@@ -1,0 +1,97 @@
+{
+  "staged": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/staging/youtube/cursorspacex_split.mp4",
+  "phone_verdict": "PASS",
+  "blocked": "",
+  "rounds": 1,
+  "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/projects/cursorspacex_split",
+  "generator": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/gen/cursorspacex_split_gen.py",
+  "scene_handoff": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/plans/cursorspacex_scene_handoff.md",
+  "scene_module": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/gen/cursorspacex_scene.py",
+  "module_bytes_changed": 0,
+  "lane": "icon choreography",
+  "lane_reason_quoted_from_plan": "The script is a change of ownership between three real brands, so the registry marks have to be the actors and one drawn flagpole carries the whole arc of the brand going down.",
+  "prerender_check": {
+    "verdict": "PASS in 2.55s",
+    "refs_resolve": "PASS",
+    "assets_not_placeholder": "PASS (3 rasters)",
+    "page_audit": "PASS",
+    "caption_canon_page": "PASS (22 pills, modal h 114.56px, spread 0.0)",
+    "gate1_geometry_audit": "PASS (0 errors / 0 warnings)",
+    "cutout_edge_fade_guard": "SKIP (cutout only)",
+    "cutout_checks_24_25": "SKIP (cutout only)",
+    "report": "gen/_prerender_cursorspacex_split.json"
+  },
+  "geometry_audit_strict": "0 errors, 0 warnings (22.1s @ 0.5s step) -> gen/_geomstrict_cursorspacex_split.json + projects/cursorspacex_split/geometry_audit/report.json",
+  "phone_test_page": {
+    "mode": "phone-test",
+    "n_objects": 1,
+    "phone_size_px": [108, 110],
+    "sheet": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/phone_cursorspacex_split.png",
+    "source": "--plan"
+  },
+  "cold_crop_paths": [
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/cold/915968a5/00.png"
+  ],
+  "cold_read": {
+    "rounds": 1,
+    "kind": "confirmation (object sealed on 3 independent artwork rounds)",
+    "reader_answer": "Flag with heart (sure)",
+    "intended": "flag on pole",
+    "verdict": "PASS",
+    "evidence": "review/phone_reader_cursorspacex_split.json",
+    "scoring": "review/phone_scores_cursorspacex_split.json"
+  },
+  "word_sync": "5 states checked, 0 disagreements",
+  "checks_owed_by_hand": {
+    "ss3b_merge_count": 0,
+    "orphan_repartitions": 0,
+    "solo_word_merges": 0,
+    "board_key_echo_repairs": 0,
+    "caption_beats": 22,
+    "cast_resolve": "PASS (cursor.png, grok.png rasterised and measured; spacex-wordmark.svg resolved separately)",
+    "guard_plate_box": "not applicable to the split lane (no matte layer)"
+  },
+  "render_and_check": {
+    "verdict": "PASS",
+    "render": "1080x1920 553f",
+    "qc_pass": "PASS 22.0s",
+    "watch": "PASS 21.7s",
+    "blocking_candidates": 0,
+    "modal_usd": 0.0099,
+    "gemini_watcher_usd": 0.027435,
+    "candidates_file": "review/cands_cursorspacex_split.json",
+    "first_attempt": "FAIL on gate2_frame_review (shared-tool ModuleNotFoundError) and phone_crops (my --phone-at was canvas px where phone_crops defaults to norm); both fixed, one re-render"
+  },
+  "shared_tool_fixed": "pipeline/qc/gate2_frames.py imported the shared `media` helper with no sys.path insert, so Gate 2 died with ModuleNotFoundError on EVERY lane it judged. Added the same one-line insert its two siblings already carry (qc_pass.py:132, gate3_gemini.py:52). Verified, then the lane passed.",
+  "disagreement_notes": "plans/cursorspacex_split_notes.md",
+  "disagreements": [
+    "the plan's bespoke bbox is 4.0 canvas px wider on x than the sealed drawing (1.5 px at phone scale); handoff 9.5 claims it was updated and that is true of y only. Built the plan, cut the Phone Test with --plan as instructed, reported the delta.",
+    "runs/shorts_run24/MATTES_FINAL.md does not exist. Irrelevant to this lane (no Modal call of any kind was made), flagged for the cutout author."
+  ],
+  "prep_markers": {
+    "all_landed": true,
+    "cut": "ok, 59.5s, cut master 22.12s",
+    "plate": "ok, 107.3s, crop 2562x1890+641+266, overwide applied",
+    "prompt0": "ok, 30.2s, wing_review true, no cut proposed",
+    "selection": "ok, 349.4s",
+    "track": "ok, 100.3s, MatAnyone 2, $0.0180, needs_final_visual_review",
+    "ship": "ok, 75.1s, $0.0276, fractional_alpha_pixels 11587715, minimum_person_fraction 0.4409, needs_final_visual_review",
+    "cues": "ok, 0 cues",
+    "missing": []
+  },
+  "take_detection_corroboration": {
+    "method": "last scripted opening that reaches the spoken sign-off",
+    "take_word_index": 172,
+    "take_words": 74,
+    "of_raw_words": 246,
+    "take_start_s": 92.86,
+    "openings_found": 5,
+    "sign_offs_found": 1,
+    "marker_rule": "bound, answers 168 (before the keeper take, so legal)",
+    "gap_rule": "band — >=0.8 and >=0.9 both answer 172, 0 words early; boundary gap 0.98s",
+    "corroboration_witnessed": true,
+    "silence_before_take_s": 0.93,
+    "law47_tail_s": 0.22,
+    "law47_cap_s": 0.24
+  }
+}

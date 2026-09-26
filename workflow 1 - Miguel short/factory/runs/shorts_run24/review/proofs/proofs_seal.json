@@ -1,0 +1,36 @@
+{
+ "set": "seal",
+ "phone_scale": "405x720",
+ "module": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/gen/primeagent_scene.py",
+ "objects": [
+  {
+   "i": 2,
+   "label": "pair",
+   "intended": "crossed hammer and screwdriver",
+   "core_box": [
+    310.0,
+    123.0,
+    770.0,
+    549.0
+   ],
+   "norm_box": [
+    0.287,
+    0.1641,
+    0.713,
+    0.3859
+   ],
+   "phone_box_px": [
+    116,
+    118,
+    289,
+    278
+   ],
+   "phone_size_px": [
+    173,
+    160
+   ],
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/proofs/crop_seal_02_pair.png",
+   "frame": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/proofs/frame_seal_02.png"
+  }
+ ]
+}

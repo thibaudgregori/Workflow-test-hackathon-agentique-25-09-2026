@@ -1,0 +1,975 @@
+{
+ "render": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/geminigems_whiteboard.mp4",
+ "vid": "geminigems",
+ "fmt": "whiteboard",
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/projects/geminigems_whiteboard",
+ "checks": {
+  "decoded_blank_frames": {
+   "ok": true,
+   "result": {
+    "frames": 523,
+    "fps": 25.0,
+    "zone": [
+     0,
+     799,
+     1080,
+     799
+    ],
+    "ink_floor": 0.0006,
+    "min_ink_frac": 0.0,
+    "empty_frames_total": 2,
+    "leading_trailing_empty": 2,
+    "interior_blank_frames": [],
+    "pass": true
+   },
+   "wall_s": 0.0
+  },
+  "zero_ink_law": {
+   "ok": true,
+   "result": {
+    "render": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/geminigems_whiteboard.mp4",
+    "frames": 523,
+    "fps": 25.0,
+    "zone_bottom_design_px": 799.205,
+    "zone_px": [
+     1080,
+     799
+    ],
+    "first_word_s": 0.12,
+    "leading_empty_frames": 2,
+    "first_judged_frame": 3,
+    "min_ink_frac_judged": 0.00205002,
+    "min_ink_frac_at_s": 0.12,
+    "blank_frames": [],
+    "verdict": "PASS"
+   },
+   "wall_s": 0.0
+  },
+  "clip_coverage_page": {
+   "ok": true,
+   "result": {
+    "duration_s": 20.92,
+    "fps": 25,
+    "groups": {
+     "stage": {
+      "clips": 0,
+      "checked": false,
+      "note": "fewer than two clips \u2014 nothing can hand over"
+     },
+     "tz": {
+      "clips": 1,
+      "checked": false,
+      "note": "fewer than two clips \u2014 nothing can hand over"
+     },
+     "scap": {
+      "clips": 23,
+      "checked": true,
+      "frames": 523,
+      "span": [
+       0.12,
+       20.74
+      ],
+      "holes": [],
+      "ghosts": [],
+      "pass": true
+     }
+    },
+    "holes": 0,
+    "ghosts": 0,
+    "pass": true
+   },
+   "wall_s": 0.0
+  },
+  "double_exposure": {
+   "ok": true,
+   "result": {
+    "frames": 523,
+    "fps": 25.0,
+    "first_word_s": 0.12,
+    "leading_blank_run_frames": 2,
+    "after_first_word": {
+     "from_frame": 3,
+     "from_t": 0.12,
+     "basis": "first spoken word",
+     "min_ink": 283,
+     "min_ink_t": 0.16,
+     "min_ink40": 254,
+     "min_ink40_t": 0.12,
+     "zero_ink_frames": [],
+     "zero_ink40_frames": []
+    },
+    "after_leading_run": {
+     "from_frame": 3,
+     "from_t": 0.12,
+     "basis": "opening fade-up cleared",
+     "min_ink": 283,
+     "min_ink_t": 0.16,
+     "min_ink40": 254,
+     "min_ink40_t": 0.12,
+     "zero_ink_frames": [],
+     "zero_ink40_frames": []
+    },
+    "after_first_readable_ink": {
+     "from_frame": 2,
+     "from_t": 0.08,
+     "basis": "first READABLE ink on screen",
+     "min_ink": 279,
+     "min_ink_t": 0.08,
+     "min_ink40": 247,
+     "min_ink40_t": 0.08,
+     "zero_ink_frames": [],
+     "zero_ink40_frames": []
+    },
+    "double_exposure_floor_px": 600,
+    "double_exposure_frames": [],
+    "double_exposure_count": 0,
+    "note": "candidates, not a verdict \u2014 adjudicate each window (procedure v3); the opening fade-up legitimately fires"
+   },
+   "wall_s": 0.04
+  },
+  "face_centring": {
+   "ok": true,
+   "result": {
+    "label": "geminigems_whiteboard",
+    "video": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/geminigems_whiteboard.mp4",
+    "duration_s": 20.94,
+    "detector": "mediapipe/blazeface",
+    "segment_source": "auto:layout-detector",
+    "segments": null,
+    "every_s": 0.5,
+    "tol_pct": 4.0,
+    "band_level": "warning",
+    "full_face": {
+     "n": 0,
+     "worst_dx_pct": null,
+     "worst_t": null,
+     "mean_abs_dx_pct": null,
+     "offenders": []
+    },
+    "band": {
+     "n": 42,
+     "worst_dx_pct": 6.67,
+     "worst_t": 19.5,
+     "warnings": [
+      {
+       "t": 4.5,
+       "dx_pct": 4.81,
+       "face_h_pct": 15.6,
+       "class": "band",
+       "score": 0.99,
+       "skin": 0.89
+      },
+      {
+       "t": 6.0,
+       "dx_pct": -4.35,
+       "face_h_pct": 16.1,
+       "class": "band",
+       "score": 0.98,
+       "skin": 0.89
+      },
+      {
+       "t": 19.5,
+       "dx_pct": 6.67,
+       "face_h_pct": 14.4,
+       "class": "band",
+       "score": 0.99,
+       "skin": 0.91
+      },
+      {
+       "t": 20.0,
+       "dx_pct": 6.02,
+       "face_h_pct": 14.7,
+       "class": "band",
+       "score": 0.99,
+       "skin": 0.89
+      },
+      {
+       "t": 20.5,
+       "dx_pct": 5.56,
+       "face_h_pct": 14.8,
+       "class": "band",
+       "score": 0.99,
+       "skin": 0.89
+      }
+     ]
+    },
+    "pass": true,
+    "verdict": "PASS"
+   },
+   "wall_s": 1.29
+  },
+  "pill_canon_rendered": {
+   "ok": true,
+   "result": {
+    "samples": 60,
+    "band_rows_px": [
+     772,
+     952
+    ],
+    "frames_without_a_pill": 1,
+    "distinct_heights_px": {
+     "114": 59
+    },
+    "modal_height_px": 114,
+    "modal_height_design_px": 114.0,
+    "spread_px": 0,
+    "spread_max_px": 2.0,
+    "canonical_height_px": 114.59,
+    "canonical_height_design_px": 114.59,
+    "modal_vs_canon_px": 0.59,
+    "tolerance_px": 3.0,
+    "delivery_scale": 1.0,
+    "widest_pill_px": 748,
+    "widest_pill_in_design_px": 748.0,
+    "verdict": "PASS",
+    "pass": true
+   },
+   "wall_s": 0.0
+  },
+  "gate1_geometry_audit": {
+   "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/geometry_audit.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/projects/geminigems_whiteboard --step 0.25 --out /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/gen/_gate1_geminigems_whiteboard.json",
+   "rc": 0,
+   "stdout": "geminigems_whiteboard: 0 errors, 0 warnings (20.9s @ 0.25s step)\n",
+   "stderr": "",
+   "wall_s": 2.78
+  },
+  "gate2_frame_review": {
+   "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/qc/gate2_frames.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/geminigems_whiteboard.mp4 --full --transcript /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/cuts/geminigems/transcript_tight.json",
+   "rc": 0,
+   "stdout": "-factory/runs/shorts_run24/output/frames_geminigems_whiteboard/f_0011_000.jpg\n  t=00:11.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_geminigems_whiteboard/f_0011_333.jpg\n  t=00:11.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_geminigems_whiteboard/f_0011_666.jpg\n  t=00:12.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_geminigems_whiteboard/f_0012_000.jpg\n  t=00:12.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_geminigems_whiteboard/f_0012_333.jpg\n  t=00:12.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_geminigems_whiteboard/f_0012_666.jpg\n  t=00:13.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_geminigems_whiteboard/f_0013_000.jpg\n  t=00:14.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_geminigems_whiteboard/f_0014_000.jpg\n  t=00:14.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_geminigems_whiteboard/f_0014_333.jpg\n  t=00:14.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_geminigems_whiteboard/f_0014_666.jpg\n  t=00:15.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_geminigems_whiteboard/f_0015_000.jpg\n  t=00:15.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_geminigems_whiteboard/f_0015_333.jpg\n  t=00:15.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_geminigems_whiteboard/f_0015_666.jpg\n  t=00:16.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_geminigems_whiteboard/f_0016_333.jpg\n  t=00:17.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_geminigems_whiteboard/f_0017_000.jpg\n  t=00:17.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_geminigems_whiteboard/f_0017_333.jpg\n  t=00:17.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_geminigems_whiteboard/f_0017_666.jpg\n  t=00:18.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_geminigems_whiteboard/f_0018_000.jpg\n  t=00:18.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_geminigems_whiteboard/f_0018_333.jpg\n  t=00:18.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_geminigems_whiteboard/f_0018_666.jpg\n  t=00:19.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_geminigems_whiteboard/f_0019_000.jpg\n  t=00:19.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_geminigems_whiteboard/f_0019_666.jpg\n  t=00:20.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_geminigems_whiteboard/f_0020_000.jpg\n  t=00:20.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_geminigems_whiteboard/f_0020_333.jpg\n  t=00:20.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_geminigems_whiteboard/f_0020_666.jpg\n\nManifest: /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_geminigems_whiteboard/manifest.md  (delete dir after review)\n",
+   "stderr": "",
+   "wall_s": 0.92
+  },
+  "gate3_gemini_describe": {
+   "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/qc/gate3_gemini.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/geminigems_whiteboard.mp4 geminigems --run /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24 --label qcpass_geminigems_whiteboard",
+   "rc": 0,
+   "stdout": "{\n \"pass\": true,\n \"describe_errors\": [],\n \"visual_errors\": [],\n \"semantic_errors\": [],\n \"described_frames\": 14,\n \"model\": \"gemini-3.5-flash-lite\",\n \"usage\": {\n  \"in\": 8184,\n  \"out\": 1291,\n  \"thoughts\": 0,\n  \"calls\": 3\n },\n \"cost_usd\": 0.005683\n}\n",
+   "stderr": "",
+   "wall_s": 20.66,
+   "cost_usd": 0.005683,
+   "model": "gemini-3.5-flash-lite",
+   "usage": {
+    "in": 8184,
+    "out": 1291,
+    "thoughts": 0,
+    "calls": 3
+   }
+  },
+  "audio_guards": {
+   "ok": true,
+   "result": {
+    "mix_8_16k_db": -30.9,
+    "master_8_16k_db": -30.72,
+    "delta_db": -0.18,
+    "tolerance_db": 6.0,
+    "speech_margin_db_p85_p15_33ms_s16le": 20.485,
+    "sync": {
+     "lag_ms": 0,
+     "r": 0.9954,
+     "instrument": "10 ms |x| envelope, +/-250 ms search"
+    },
+    "audio_initial_padding_samples": 0,
+    "verdict": "PASS",
+    "pass": true
+   },
+   "wall_s": 0.71
+  },
+  "contact_sheet": {
+   "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/contact_sheet.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/geminigems_whiteboard.mp4 --id geminigems --fmt whiteboard --run /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24",
+   "rc": 0,
+   "stdout": "{\n \"sheet\": \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/sheet_geminigems_whiteboard.png\",\n \"id\": \"geminigems\",\n \"fmt\": \"whiteboard\",\n \"duration_s\": 20.94,\n \"frame_source\": \"even\",\n \"times\": [\n  0.87,\n  2.62,\n  4.36,\n  6.11,\n  7.85,\n  9.6,\n  11.34,\n  13.09,\n  14.83,\n  16.58,\n  18.32,\n  20.07\n ],\n \"size_px\": [\n  1798,\n  4344\n ]\n}\n",
+   "stderr": "",
+   "wall_s": 2.91
+  },
+  "phone_crops": {
+   "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/phone_crops.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/geminigems_whiteboard.mp4 --out /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review --label geminigems_whiteboard --at 2.0:428,428,652,638:a cracked gem --at 8.8:634,424,952,671:a tied parcel --at 12.7:150,532,435,724:two people together --at 14.6:660,551,911,724:a crowd of people",
+   "rc": 1,
+   "stdout": "",
+   "stderr": "object #0 has an empty box at phone scale: [173340, 308160, 405, 720]\n",
+   "wall_s": 0.31
+  },
+  "whiteboard_seam_law": {
+   "ok": true,
+   "result": {
+    "video": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/geminigems_whiteboard.mp4",
+    "erase_dur": 0.3,
+    "land_within": 0.3,
+    "scan_s": 1.6,
+    "thresholds": {
+     "ink_thr": 170,
+     "dilate_px": 9,
+     "min_minor_px": 46,
+     "min_major_px": 118,
+     "min_ink_px": 2600,
+     "min_sigma_px": 18.0,
+     "word": [
+      26,
+      80,
+      80,
+      900,
+      3
+     ],
+     "pen_match_min": 0.62,
+     "pen_bleed": 6,
+     "persist_frames": 3
+    },
+    "seams": [
+     {
+      "erase_at": 5.52,
+      "erase_completes": 5.82,
+      "law_probe_at": 6.14,
+      "dead_s": 0.0,
+      "dead_capped": false,
+      "at_law_probe": {
+       "t": 6.14,
+       "ink_pct_of_zone": 0.731,
+       "qualifying": 1,
+       "landed_on": {
+        "box": [
+         175,
+         453,
+         175,
+         167
+        ],
+        "ink": 5717,
+        "sigma_minor": 39.3,
+        "parts": 1,
+        "kind": "object",
+        "qualifies": true
+       },
+       "verdict": "PASS"
+      },
+      "blobs_at_law_probe": [
+       {
+        "box": [
+         175,
+         453,
+         175,
+         167
+        ],
+        "ink": 5717,
+        "sigma_minor": 39.3,
+        "parts": 1,
+        "kind": "object",
+        "qualifies": true
+       },
+       {
+        "box": [
+         214,
+         318,
+         111,
+         31
+        ],
+        "ink": 505,
+        "sigma_minor": 1.8,
+        "parts": 1,
+        "kind": "-",
+        "qualifies": false
+       }
+      ],
+      "verdict": "PASS",
+      "window": [
+       {
+        "t": 5.82,
+        "ink_pct_of_zone": 0.369,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 5.86,
+        "ink_pct_of_zone": 0.369,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 5.9,
+        "ink_pct_of_zone": 0.484,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 5.94,
+        "ink_pct_of_zone": 0.598,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 5.98,
+        "ink_pct_of_zone": 0.543,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 6.02,
+        "ink_pct_of_zone": 0.569,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 6.06,
+        "ink_pct_of_zone": 0.548,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 6.1,
+        "ink_pct_of_zone": 0.71,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 6.14,
+        "ink_pct_of_zone": 0.731,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 6.18,
+        "ink_pct_of_zone": 0.766,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 6.22,
+        "ink_pct_of_zone": 0.866,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 6.26,
+        "ink_pct_of_zone": 0.913,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 6.3,
+        "ink_pct_of_zone": 1.043,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 6.34,
+        "ink_pct_of_zone": 1.081,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 6.38,
+        "ink_pct_of_zone": 1.076,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 6.42,
+        "ink_pct_of_zone": 1.068,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 6.46,
+        "ink_pct_of_zone": 1.095,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 6.5,
+        "ink_pct_of_zone": 1.122,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 6.54,
+        "ink_pct_of_zone": 1.149,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 6.58,
+        "ink_pct_of_zone": 1.175,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 6.62,
+        "ink_pct_of_zone": 1.202,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 6.66,
+        "ink_pct_of_zone": 1.229,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 6.7,
+        "ink_pct_of_zone": 1.254,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 6.74,
+        "ink_pct_of_zone": 1.265,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 6.78,
+        "ink_pct_of_zone": 1.279,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 6.82,
+        "ink_pct_of_zone": 1.279,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 6.86,
+        "ink_pct_of_zone": 1.279,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 6.9,
+        "ink_pct_of_zone": 1.279,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 6.94,
+        "ink_pct_of_zone": 1.279,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 6.98,
+        "ink_pct_of_zone": 1.279,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 7.02,
+        "ink_pct_of_zone": 1.279,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 7.06,
+        "ink_pct_of_zone": 1.284,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 7.1,
+        "ink_pct_of_zone": 1.287,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 7.14,
+        "ink_pct_of_zone": 1.287,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 7.18,
+        "ink_pct_of_zone": 1.287,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 7.22,
+        "ink_pct_of_zone": 1.393,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 7.26,
+        "ink_pct_of_zone": 1.476,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 7.3,
+        "ink_pct_of_zone": 1.573,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 7.34,
+        "ink_pct_of_zone": 1.646,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 7.38,
+        "ink_pct_of_zone": 1.806,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 7.42,
+        "ink_pct_of_zone": 1.916,
+        "qualifying": 2,
+        "verdict": "PASS"
+       }
+      ]
+     },
+     {
+      "erase_at": 10.46,
+      "erase_completes": 10.76,
+      "law_probe_at": 11.08,
+      "dead_s": 0.0,
+      "dead_capped": false,
+      "at_law_probe": {
+       "t": 11.08,
+       "ink_pct_of_zone": 1.741,
+       "qualifying": 1,
+       "landed_on": {
+        "box": [
+         323,
+         254,
+         398,
+         265
+        ],
+        "ink": 14968,
+        "sigma_minor": 70.3,
+        "parts": 7,
+        "kind": "object",
+        "qualifies": true
+       },
+       "verdict": "PASS"
+      },
+      "blobs_at_law_probe": [
+       {
+        "box": [
+         323,
+         254,
+         398,
+         265
+        ],
+        "ink": 14968,
+        "sigma_minor": 70.3,
+        "parts": 7,
+        "kind": "object",
+        "qualifies": true
+       }
+      ],
+      "verdict": "PASS",
+      "window": [
+       {
+        "t": 10.76,
+        "ink_pct_of_zone": 1.703,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 10.8,
+        "ink_pct_of_zone": 1.583,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 10.84,
+        "ink_pct_of_zone": 1.593,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 10.88,
+        "ink_pct_of_zone": 1.602,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 10.92,
+        "ink_pct_of_zone": 1.636,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 10.96,
+        "ink_pct_of_zone": 1.609,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 11.0,
+        "ink_pct_of_zone": 1.641,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 11.04,
+        "ink_pct_of_zone": 1.689,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 11.08,
+        "ink_pct_of_zone": 1.741,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 11.12,
+        "ink_pct_of_zone": 1.774,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 11.16,
+        "ink_pct_of_zone": 1.795,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 11.2,
+        "ink_pct_of_zone": 1.902,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 11.24,
+        "ink_pct_of_zone": 1.964,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 11.28,
+        "ink_pct_of_zone": 2.062,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 11.32,
+        "ink_pct_of_zone": 2.158,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 11.36,
+        "ink_pct_of_zone": 2.296,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 11.4,
+        "ink_pct_of_zone": 2.397,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 11.44,
+        "ink_pct_of_zone": 2.579,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 11.48,
+        "ink_pct_of_zone": 2.638,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 11.52,
+        "ink_pct_of_zone": 2.71,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 11.56,
+        "ink_pct_of_zone": 2.747,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 11.6,
+        "ink_pct_of_zone": 2.746,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 11.64,
+        "ink_pct_of_zone": 2.689,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 11.68,
+        "ink_pct_of_zone": 2.726,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 11.72,
+        "ink_pct_of_zone": 2.831,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 11.76,
+        "ink_pct_of_zone": 2.865,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 11.8,
+        "ink_pct_of_zone": 2.886,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 11.84,
+        "ink_pct_of_zone": 2.867,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 11.88,
+        "ink_pct_of_zone": 2.867,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 11.92,
+        "ink_pct_of_zone": 2.867,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 11.96,
+        "ink_pct_of_zone": 2.867,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 12.0,
+        "ink_pct_of_zone": 2.867,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 12.04,
+        "ink_pct_of_zone": 2.867,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 12.08,
+        "ink_pct_of_zone": 2.867,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 12.12,
+        "ink_pct_of_zone": 2.867,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 12.16,
+        "ink_pct_of_zone": 2.867,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 12.2,
+        "ink_pct_of_zone": 2.867,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 12.24,
+        "ink_pct_of_zone": 2.915,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 12.28,
+        "ink_pct_of_zone": 2.888,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 12.32,
+        "ink_pct_of_zone": 2.888,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 12.36,
+        "ink_pct_of_zone": 2.888,
+        "qualifying": 2,
+        "verdict": "PASS"
+       }
+      ]
+     }
+    ],
+    "extra_probes": [],
+    "dead_total_s": 0.0,
+    "failed": [],
+    "verdict": "PASS"
+   },
+   "wall_s": 4.06
+  }
+ },
+ "skipped": {
+  "cutout_checks_24_25": "cutout only, and needs --project",
+  "edge_clip": "cutout only, and needs --alpha",
+  "face_hf_vs_plate": "needs --plate (the display plate)",
+  "head_scale_vs_framing": "needs --alpha and --edge-box (the crown comes from the matte's own alpha, the chin from MediaPipe on the delivered frame)"
+ },
+ "zone_bottom_design_px": 799.21,
+ "decode": {
+  "frames": 523,
+  "fps": 25.0,
+  "size": [
+   1080,
+   1920
+  ],
+  "grid_frames": 42,
+  "caption_band_rows": [
+   772,
+   952
+  ],
+  "caption_seat_design_px": 862.5,
+  "wall_s": 5.13
+ },
+ "gate3_cost_usd": 0.005683,
+ "verdicts": {
+  "decoded_blank_frames": "PASS",
+  "zero_ink_law": "PASS",
+  "clip_coverage_page": "PASS",
+  "double_exposure": "REPORTED",
+  "face_centring": "PASS",
+  "pill_canon_rendered": "PASS",
+  "gate1_geometry_audit": "PASS",
+  "gate2_frame_review": "PASS",
+  "gate3_gemini_describe": "PASS",
+  "audio_guards": "PASS",
+  "contact_sheet": "PASS",
+  "phone_crops": "FAIL",
+  "whiteboard_seam_law": "PASS"
+ },
+ "wall_s": {
+  "decoded_blank_frames": 0.0,
+  "zero_ink_law": 0.0,
+  "clip_coverage_page": 0.0,
+  "double_exposure": 0.04,
+  "face_centring": 1.29,
+  "pill_canon_rendered": 0.0,
+  "gate1_geometry_audit": 2.78,
+  "gate2_frame_review": 0.92,
+  "gate3_gemini_describe": 20.66,
+  "audio_guards": 0.71,
+  "contact_sheet": 2.91,
+  "phone_crops": 0.31,
+  "whiteboard_seam_law": 4.06,
+  "single_decode": 5.13
+ },
+ "total_wall_s": 20.69,
+ "pass": false
+}

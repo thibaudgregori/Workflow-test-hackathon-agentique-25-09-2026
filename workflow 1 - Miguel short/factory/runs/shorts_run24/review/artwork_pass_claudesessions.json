@@ -1,0 +1,16 @@
+{
+  "verdict": "PASS",
+  "vid": "claudesessions",
+  "objects": 2,
+  "seal_rounds": 3,
+  "module": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/gen/claudesessions_scene.py",
+  "handoff": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/plans/claudesessions_scene_handoff.md",
+  "evidence": {
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/gen/claudesessions_scene.py": "df2326bed373af632d37e866b157ff3d84fc97b633b7c4151b6188ba04734be2",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/plans/claudesessions_scene_handoff.md": "d4968baa674401c37681ae40667d57cf0991f231b9c62cd60fa4ebb31e266faf",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/phone_reader_claudesessions_artwork_r1.json": "0fe1e6704d2643c8a068db0a5060ab3d5d9592d2cff724677117121952d4f3ae",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/phone_reader_claudesessions_artwork_r2.json": "f2a4ae2a35dc27906993317ab529730d8ecdfe953cfc4c2a551d094e53200b3c",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/phone_reader_claudesessions_artwork_r3.json": "52bbcd190221947f05da9e51022bd6a9cb9bda2bfe9febd5cf008fe501c9a2d4",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/artwork_scores_claudesessions.json": "c743360e445a5ecc29c74c4a0028292bc2eba66faf7b892f375a3646231a3dd0"
+  }
+}

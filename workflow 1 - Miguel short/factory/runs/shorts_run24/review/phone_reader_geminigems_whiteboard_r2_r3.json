@@ -1,0 +1,28 @@
+{
+  "tag": "redraw_r3",
+  "cold_dir": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/cold/redraw_r3-4aef20e5",
+  "reader": "one independent `claude -p` process per crop, launched from /tmp, handed ONLY the absolute path of a blind copy under a random token - no plan, no topic, no manifest, no sealed key, and no path naming the video",
+  "prompt": "Look at the image at <absolute path of one blind crop> . Name the single everyday object drawn in it. At most FIVE words. Reply with ONE line of JSON and nothing else: {\"name\":\"<=5 words\",\"confidence\":\"sure|unsure|cannot tell\"}",
+  "dispatched_at": "2026-09-21T18:31:13",
+  "cli": "2.1.278 (Claude Code)",
+  "source_crops": {
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/cold/38ef69c1/02.png": "9101f3ddf0c73c70177a45cf5cca93bf8e4063c51dbf2f56ecef527f2115e7ab",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/cold/38ef69c1/03.png": "9f2c187a01afded601d0e26f7eabc9e3db3c5a6ec5ae6a5c00ba39772ec9df53"
+  },
+  "names": [
+    {
+      "i": 0,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/cold/redraw_r3-4aef20e5/00.png",
+      "name": "two people",
+      "confidence": "unsure",
+      "crop_sha256": "9101f3ddf0c73c70177a45cf5cca93bf8e4063c51dbf2f56ecef527f2115e7ab"
+    },
+    {
+      "i": 1,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/cold/redraw_r3-4aef20e5/01.png",
+      "name": "group of people",
+      "confidence": "sure",
+      "crop_sha256": "9f2c187a01afded601d0e26f7eabc9e3db3c5a6ec5ae6a5c00ba39772ec9df53"
+    }
+  ]
+}

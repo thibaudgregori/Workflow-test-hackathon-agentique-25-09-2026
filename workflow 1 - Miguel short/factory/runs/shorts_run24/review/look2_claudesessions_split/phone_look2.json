@@ -1,0 +1,157 @@
+{
+ "label": "look2",
+ "video": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/projects/claudesessions_split",
+ "phone_scale": "405x720",
+ "sheet": "review/look2_claudesessions_split/phone_look2.png",
+ "rule": "a FRESH judge (never read the plan) names each crop in <=3 words. Wrong name, hedge, or 'cannot tell' = the object is redesigned, not annotated.",
+ "answer_key": "review/look2_claudesessions_split/phone_look2.key.json",
+ "answer_key_rule": "DO NOT OPEN the answer key until every judge_answer below is filled in. Reading it first voids the Phone Test.",
+ "cut_from": "headless page screenshots, no video render",
+ "mode": "phone-test",
+ "objects": [
+  {
+   "i": 0,
+   "t": 9.4,
+   "bbox_norm": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "phone_box_px": [
+    0,
+    0,
+    405,
+    720
+   ],
+   "phone_size_px": [
+    405,
+    720
+   ],
+   "path": "review/look2_claudesessions_split/phone_look2/00.png",
+   "sheet_scale": 0.417,
+   "judge_answer": null,
+   "verdict": null
+  },
+  {
+   "i": 1,
+   "t": 9.85,
+   "bbox_norm": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "phone_box_px": [
+    0,
+    0,
+    405,
+    720
+   ],
+   "phone_size_px": [
+    405,
+    720
+   ],
+   "path": "review/look2_claudesessions_split/phone_look2/01.png",
+   "sheet_scale": 0.417,
+   "judge_answer": null,
+   "verdict": null
+  },
+  {
+   "i": 2,
+   "t": 14.95,
+   "bbox_norm": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "phone_box_px": [
+    0,
+    0,
+    405,
+    720
+   ],
+   "phone_size_px": [
+    405,
+    720
+   ],
+   "path": "review/look2_claudesessions_split/phone_look2/02.png",
+   "sheet_scale": 0.417,
+   "judge_answer": null,
+   "verdict": null
+  },
+  {
+   "i": 3,
+   "t": 15.5,
+   "bbox_norm": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "phone_box_px": [
+    0,
+    0,
+    405,
+    720
+   ],
+   "phone_size_px": [
+    405,
+    720
+   ],
+   "path": "review/look2_claudesessions_split/phone_look2/03.png",
+   "sheet_scale": 0.417,
+   "judge_answer": null,
+   "verdict": null
+  },
+  {
+   "i": 4,
+   "t": 17.3,
+   "bbox_norm": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "phone_box_px": [
+    0,
+    0,
+    405,
+    720
+   ],
+   "phone_size_px": [
+    405,
+    720
+   ],
+   "path": "review/look2_claudesessions_split/phone_look2/04.png",
+   "sheet_scale": 0.417,
+   "judge_answer": null,
+   "verdict": null
+  },
+  {
+   "i": 5,
+   "t": 1.55,
+   "bbox_norm": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "phone_box_px": [
+    0,
+    0,
+    405,
+    720
+   ],
+   "phone_size_px": [
+    405,
+    720
+   ],
+   "path": "review/look2_claudesessions_split/phone_look2/05.png",
+   "sheet_scale": 0.417,
+   "judge_answer": null,
+   "verdict": null
+  }
+ ]
+}

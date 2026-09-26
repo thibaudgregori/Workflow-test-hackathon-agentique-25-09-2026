@@ -1,0 +1,28 @@
+{
+  "tag": "confirm2",
+  "cold_dir": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/cold/confirm2-5100a94e",
+  "reader": "one independent `claude -p` process per crop, launched from /tmp, handed ONLY the absolute path of a blind copy under a random token - no plan, no topic, no manifest, no sealed key, and no path naming the video",
+  "prompt": "Look at the image at <absolute path of one blind crop> . Name the single everyday object drawn in it. At most FIVE words. Reply with ONE line of JSON and nothing else: {\"name\":\"<=5 words\",\"confidence\":\"sure|unsure|cannot tell\"}",
+  "dispatched_at": "2026-09-21T18:33:28",
+  "cli": "2.1.278 (Claude Code)",
+  "source_crops": {
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/cold/573c58a3/00.png": "7c860e40b743e50d01aeb41535a8975af1436b3409455f477893d36fa57320d2",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/cold/573c58a3/01.png": "073f13bdd757b648f0b1416ec4397f8b57290d79654ee7243994d4e4e7cdffe9"
+  },
+  "names": [
+    {
+      "i": 0,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/cold/confirm2-5100a94e/00.png",
+      "name": "two walkie-talkies",
+      "confidence": "sure",
+      "crop_sha256": "7c860e40b743e50d01aeb41535a8975af1436b3409455f477893d36fa57320d2"
+    },
+    {
+      "i": 1,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/cold/confirm2-5100a94e/01.png",
+      "name": "walkie-talkie",
+      "confidence": "sure",
+      "crop_sha256": "073f13bdd757b648f0b1416ec4397f8b57290d79654ee7243994d4e4e7cdffe9"
+    }
+  ]
+}

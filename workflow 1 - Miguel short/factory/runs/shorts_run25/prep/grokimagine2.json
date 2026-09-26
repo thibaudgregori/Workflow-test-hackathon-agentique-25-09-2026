@@ -1,0 +1,320 @@
+{
+ "id": "grokimagine2",
+ "run": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25",
+ "recording": "2026-09-21 14-50-24",
+ "gpu": null,
+ "session": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/matting/grokimagine2",
+ "cut_dir": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/cuts/grokimagine2",
+ "stages": {
+  "cut": {
+   "status": "ok",
+   "master": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/cuts/grokimagine2/master.mp4",
+   "audio": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/cuts/grokimagine2/audio.m4a",
+   "face_plates": [
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/cuts/grokimagine2/face_full_hd.mp4",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/cuts/grokimagine2/face_bottom_hd.mp4"
+   ],
+   "edl": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/cuts/grokimagine2/edl.json",
+   "transcript_tight": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/cuts/grokimagine2/transcript_tight.json",
+   "cut_master_duration_s": 32.32,
+   "take": {
+    "word_index": 63,
+    "start_s": 41.98,
+    "words": 104,
+    "of_raw_words": 167,
+    "openings": 4
+   },
+   "corroboration": {
+    "marker": "bound",
+    "gap": "band",
+    "witnessed": true,
+    "allow_uncorroborated": false
+   },
+   "analysis_wav_written": false,
+   "tight_audio_duration_s": 32.3,
+   "wall_s": 72.1
+  },
+  "plate": {
+   "status": "ok",
+   "plate": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/matting/grokimagine2/plate_wide_25.mp4",
+   "crop": "2912x1820+626+270",
+   "plate_size": [
+    1440,
+    900
+   ],
+   "scale_k": 0.494505,
+   "head_px_on_canvas": 451.0,
+   "overwide_applied": true,
+   "extension_master_px": {
+    "left_master_px": 182,
+    "left_plate_px": 90,
+    "left_canvas_px": 99.0,
+    "right_master_px": 546,
+    "right_plate_px": 270,
+    "right_canvas_px": 297.0,
+    "left_headroom_remaining_master_px": 626,
+    "right_headroom_remaining_master_px": 302,
+    "clamped_by_master_edge": {
+     "left": false,
+     "right": false
+    },
+    "lattice_padding_steps": 3
+   },
+   "plate_box": {
+    "w": 1584.0,
+    "h": 990.0,
+    "left": -153.0,
+    "top": 930.0,
+    "right": 1431.0,
+    "centred": false,
+    "note": "the origin is NOT (1080 - box_w)/2.  An over-wide plate is deliberately asymmetric; the generator's plate_origin() reads `left` from here, and ship.py's edge gate takes it as --edge-box."
+   },
+   "face_dx_pct": 0.015,
+   "visible_window_drift_master_px": 0.0,
+   "sweep": {
+    "file": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/gen/_birefnet_master_grokimagine2.json",
+    "frames_measured": 136,
+    "stride": 6,
+    "model": "birefnet-general",
+    "wall_seconds": 94.8,
+    "lane": {
+     "where": "modal",
+     "app": "shorts-factory-birefnet",
+     "gpu": "A10G",
+     "container": "691d942c-3133-464f-a6ba-2cfd3092d5c6",
+     "onnx": "birefnet-general.onnx",
+     "providers": [
+      "CUDAExecutionProvider",
+      "CPUExecutionProvider"
+     ],
+     "input_bytes": 24910274,
+     "model_load_seconds": 4.7,
+     "inference_seconds": 73.4,
+     "seconds_per_frame": 0.54,
+     "t_import_epoch": 1790108834.452346,
+     "t_fn_enter_epoch": 1790108836.4260745,
+     "t_fn_exit_epoch": 1790108918.5535526,
+     "proxy": true,
+     "proxy_seconds": 2.7,
+     "client_wall_seconds": 94.8,
+     "uploaded_bytes": 24910274,
+     "cold_start_seconds": 7.49,
+     "billed_container_seconds": 86.1,
+     "measured_cost_usd": 0.0384,
+     "cost_breakdown_usd": {
+      "gpu": 0.0263,
+      "cpu": 0.009,
+      "mem": 0.0031
+     }
+    }
+   },
+   "plate_json": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/matting/grokimagine2/plate.json",
+   "wall_s": 37.9
+  },
+  "prompt0": {
+   "status": "ok",
+   "retries": [],
+   "prompt_guard": {
+    "repaired": false,
+    "why": "the live prompt is the original"
+   },
+   "prompt0_status": "ok",
+   "prompt_png": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/matting/grokimagine2/prompts/kf_00000.png",
+   "overlay_png": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/matting/grokimagine2/prompts/kf_overlay_00000.png",
+   "wings_source": "MEASURED on this plate's frame 0",
+   "wing_right": null,
+   "wing_left": null,
+   "wing_cut_applied": false,
+   "wing_review": true,
+   "wing_review_note": "the instrument proposed no cut.  It abstains rather than guesses (see the module docstring: zero false positives, zero recall on the run-9 corpus).  Look at kf_overlay_00000.png; if a headrest wing is inside the green prompt, measure its inner column and pass an explicit `wings` block on the intake row.  If you miss one, the protrusion gate inside ship.py is the net.",
+   "removed_px": 0,
+   "prompt_area_px": 486040,
+   "chair_prompt": {
+    "status": "ok",
+    "json": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/matting/grokimagine2/chair_prompt.json",
+    "overlay": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/matting/grokimagine2/prompts/chair_overlay_00000.png",
+    "band": {
+     "crown": 54,
+     "head_width": 321.0,
+     "band_top": 346,
+     "shoulder_arrival": 526
+    },
+    "found": [
+     "left",
+     "right"
+    ],
+    "overridden_sides": null,
+    "left": {
+     "found": true,
+     "box": [
+      352,
+      268,
+      487,
+      489
+     ],
+     "points": [
+      [
+       422,
+       298,
+       1
+      ],
+      [
+       425,
+       352,
+       1
+      ],
+      [
+       437,
+       405,
+       1
+      ],
+      [
+       438,
+       459,
+       1
+      ],
+      [
+       600,
+       212,
+       0
+      ],
+      [
+       465,
+       379,
+       0
+      ],
+      [
+       529,
+       588,
+       0
+      ],
+      [
+       575,
+       646,
+       0
+      ]
+     ],
+     "rows": [
+      272,
+      485
+     ],
+     "rows_with_run": 214,
+     "cols": [
+      360,
+      479
+     ],
+     "run_width": {
+      "min": 4,
+      "max": 99,
+      "median": 59
+     },
+     "luma": {
+      "mean": 23.9,
+      "p95": 37,
+      "max": 98
+     },
+     "area_px": 11012
+    },
+    "right": {
+     "found": true,
+     "box": [
+      700,
+      222,
+      836,
+      426
+     ],
+     "points": [
+      [
+       755,
+       250,
+       1
+      ],
+      [
+       793,
+       299,
+       1
+      ],
+      [
+       791,
+       349,
+       1
+      ],
+      [
+       779,
+       398,
+       1
+      ],
+      [
+       600,
+       166,
+       0
+      ],
+      [
+       760,
+       324,
+       0
+      ],
+      [
+       658,
+       588,
+       0
+      ],
+      [
+       575,
+       646,
+       0
+      ]
+     ],
+     "rows": [
+      226,
+      422
+     ],
+     "rows_with_run": 197,
+     "cols": [
+      708,
+      828
+     ],
+     "run_width": {
+      "min": 13,
+      "max": 121,
+      "median": 63
+     },
+     "luma": {
+      "mean": 15.5,
+      "p95": 29,
+      "max": 137
+     },
+     "area_px": 12651
+    }
+   },
+   "wall_s": 30.0
+  },
+  "cues": {
+   "status": "ok",
+   "cue_count": 0,
+   "cues_json": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/gen/_cues_grokimagine2.json",
+   "answered": [],
+   "needs_source": [],
+   "cards": [],
+   "wall_s": 0.0
+  },
+  "track": {
+   "status": "REFUSED",
+   "error": "Chair audit hold: the reviewed contour holds the headrest wing; the contour is corrected so the chair band can see it, and the production track is held: a frame-0 carve does not stop MatAnyone 2 re-growing a dark region welded to his shirt (measured 2026-09-21: 9,077 of 9,077 carved px kept on every frame)"
+  },
+  "selection": {
+   "status": "ok",
+   "note": "selection inputs ready for the outline review",
+   "selection": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/matting/grokimagine2/selection.json",
+   "plate": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/matting/grokimagine2/plate_wide_25.mp4",
+   "source": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/cuts/grokimagine2/master.mp4",
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/matting/grokimagine2/plate.json",
+   "initial_mask": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/matting/grokimagine2/prompts/kf_00000.png"
+  }
+ },
+ "no_chair_object": false,
+ "started": "2026-09-22T23:11:20",
+ "backend": "matanyone2",
+ "finished": "2026-09-22T23:12:31",
+ "wall_s": 140.0
+}

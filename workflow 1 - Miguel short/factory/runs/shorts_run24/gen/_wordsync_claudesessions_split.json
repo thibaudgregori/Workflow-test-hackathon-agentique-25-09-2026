@@ -1,0 +1,33 @@
+{
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/projects/claudesessions_split",
+ "label": "ws_claudesessions_split",
+ "mode": "phone-test",
+ "composition_px": [
+  1080,
+  1920
+ ],
+ "duration_s": 21.24,
+ "sheet": "review/wordsync_claudesessions_split/phone_ws_claudesessions_split.png",
+ "manifest": "review/wordsync_claudesessions_split/phone_ws_claudesessions_split.json",
+ "answer_key": "review/wordsync_claudesessions_split/phone_ws_claudesessions_split.key.json",
+ "n_objects": 4,
+ "phone_sizes_px": [
+  [
+   202,
+   21
+  ],
+  [
+   86,
+   16
+  ],
+  [
+   75,
+   16
+  ],
+  [
+   112,
+   22
+  ]
+ ],
+ "wall_s": 1.88
+}

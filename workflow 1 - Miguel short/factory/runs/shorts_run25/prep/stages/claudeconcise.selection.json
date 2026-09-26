@@ -1,0 +1,16 @@
+{
+ "id": "claudeconcise",
+ "stage": "selection",
+ "status": "ok",
+ "wall_s": null,
+ "at": "2026-09-22T23:12:31",
+ "keys": {
+  "status": "ok",
+  "note": "selection inputs ready for the outline review",
+  "selection": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/matting/claudeconcise/selection.json",
+  "plate": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/matting/claudeconcise/plate_wide_25.mp4",
+  "source": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/cuts/claudeconcise/master.mp4",
+  "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/matting/claudeconcise/plate.json",
+  "initial_mask": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/matting/claudeconcise/prompts/kf_00000.png"
+ }
+}

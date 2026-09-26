@@ -1,0 +1,347 @@
+{
+  "id": "warpgrok",
+  "duration_s": 26.32,
+  "lane": "icon choreography",
+  "lane_reason": "Intake's icon-choreography guess stands: the script is one accumulating picture (loose provider keys get hung on one Warp key rack, then a new Grok key joins it), carried by real provider marks seated in bespoke key drawings, with no numbers to count and no steps to tick.",
+  "stage_markers_at_plan_time": {
+    "cut": "ok, 74.0 s wall, cut master 26.32 s, tight audio 26.29 s, analysis_wav_written false",
+    "plate": "ok, 109.9 s wall, crop 2440x1830+642+280, scale_k 0.491803, head 449.8 px on canvas, overwide_applied true, face_dx_pct -0.005",
+    "prompt0": "ok, 16.2 s wall, wing_review TRUE for warpgrok (the instrument proposed no cut and abstained; the Astra matte step owns the look at kf_overlay_00000.png)",
+    "track": "skipped (backend matanyone2) - the Astra matte step owns track and ship",
+    "ship": "marker not landed at plan time",
+    "cues": "ok, cue_count 0"
+  },
+  "false_start_check": "The tight transcript opens 'If you're someone who works with multiple AI agents' once, at 0.16 s; the scripted opening does not repeat, so the cut is right (LAW 46).",
+  "beats": [
+    {
+      "i": 0,
+      "t_start": 0.16,
+      "t_end": 4.78,
+      "words": "If you're someone who works with multiple AI agents inside of a terminal at the same time, this video's for you.",
+      "says": "This is for people juggling several AI agents at once.",
+      "picture": "Three loose keys, tossed at odd angles in the middle of the cream board. Each key's square head (its bow) carries one provider mark: Claude, OpenAI, Gemini. The Claude key lands first, alone and centred; on 'multiple' it slides left and the OpenAI and Gemini keys drop in beside it on 'AI' and 'agents'. On 'same time' all three jangle once (a single small swing) and settle, still loose and crooked.",
+      "objects": [
+        "key-claude",
+        "key-openai",
+        "key-gemini"
+      ],
+      "emphasis": [],
+      "whiteboard_version": "The marker draws the three crooked keys one after another, the first one centred, each mark stamped into its key's head as the key is drawn; on 'same time' three short marker ticks beside the keys show the jangle, then nothing moves."
+    },
+    {
+      "i": 1,
+      "t_start": 5.16,
+      "t_end": 10.72,
+      "words": "By using Warp, you can centralize all of the different providers that you're using inside of one simple application,",
+      "says": "Warp puts every provider you use into one application.",
+      "picture": "On 'Warp' a wall key rack draws above the loose keys: a long plank with two screws, the Warp mark and the word WARP on its face. On 'centralize' three J-hooks draw under the plank, and on 'all', 'different' and 'providers' each loose key flies up, straightens and hangs on its own hook with one small swing. PROVIDERS is written under the three hanging keys. On 'one simple application' the plank's own outline flips terracotta.",
+      "objects": [
+        "key-rack",
+        "warp-mark",
+        "key-term-warp",
+        "hook-1",
+        "hook-2",
+        "hook-3",
+        "key-claude",
+        "key-openai",
+        "key-gemini",
+        "label-providers"
+      ],
+      "emphasis": [
+        {
+          "target": "key-rack plank",
+          "kind": "box",
+          "why": "The plank is a DRAWN object, so LAW 38 rule 2 applies: the plank's own outline stroke tweens from ink to terracotta (the board lane's panel border flip) on 'one' (9.62) and back at 11.00. Never a ring, never a highlight; there is no raster text in this video."
+        }
+      ],
+      "whiteboard_version": "Same picture: the plank and WARP are written first as the only type, the hooks are three short strokes, and each key is redrawn hanging (the crooked key is erased in the same instant its straight twin is inked on the hook, so each key only ever exists once)."
+    },
+    {
+      "i": 2,
+      "t_start": 11.06,
+      "t_end": 14.8,
+      "words": "giving you access to everything that you might need in a nicer interface.",
+      "says": "One place gives you access to everything you need, and it is nicer to use.",
+      "picture": "The full rack holds still. On 'everything' the three key heads' outlines flip terracotta together, the keys you now have in one place; they return to ink at 13.70, before 'nicer interface' finishes.",
+      "objects": [
+        "key-rack",
+        "key-claude",
+        "key-openai",
+        "key-gemini"
+      ],
+      "emphasis": [
+        {
+          "target": "key-claude, key-openai, key-gemini bows",
+          "kind": "box",
+          "why": "Each key head is a DRAWN object: its own outline stroke flips to terracotta (LAW 38 rule 2, border flip, no added geometry). The marks inside are rasters and are never boxed."
+        }
+      ],
+      "whiteboard_version": "The marker retraces the three key heads in terracotta on 'everything'."
+    },
+    {
+      "i": 3,
+      "t_start": 15.12,
+      "t_end": 22.02,
+      "words": "On top of this, they literally just released a new feature that allows you to use your Grok subscription with the Warp agent.",
+      "says": "New: your Grok subscription now works with Warp's agent.",
+      "picture": "On 'released' the three hanging keys, their hooks and PROVIDERS slide left together along the plank to make room. On 'new feature' a fourth J-hook draws at the right end of the plank. On 'Grok' a fourth key, with the Grok mark in its head, drops onto the new hook, swings once and settles; GROK is written under it on the same baseline as PROVIDERS. On 'subscription' the Grok key's head flips terracotta, and on 'Warp agent' the plank's outline flips terracotta with it, the new key now part of Warp.",
+      "objects": [
+        "key-rack",
+        "hook-4",
+        "key-grok",
+        "label-grok",
+        "key-claude",
+        "key-openai",
+        "key-gemini",
+        "label-providers"
+      ],
+      "emphasis": [
+        {
+          "target": "key-grok bow",
+          "kind": "box",
+          "why": "Drawn object, border flip to terracotta at 19.70 ('subscription'), held to the outro sheet."
+        },
+        {
+          "target": "key-rack plank",
+          "kind": "box",
+          "why": "Drawn object, border flip to terracotta at 21.36 ('Warp'), held to the outro sheet."
+        }
+      ],
+      "whiteboard_version": "On 'released' the three hung keys and PROVIDERS are erased and redrawn one step left on the same plank (the legal erase that frees a column); on 'new feature' the marker draws the fourth hook at the plank's right end, on 'Grok' the Grok key on it, GROK under it on the PROVIDERS baseline; the Grok head and the plank are retraced in terracotta on 'subscription' and 'Warp'."
+    },
+    {
+      "i": 4,
+      "t_start": 22.3,
+      "t_end": 26.32,
+      "words": "Now, follow for more AI news, videos, and tutorials each and every single day, and catch you in the next one.",
+      "says": "The channel's standing call to action.",
+      "picture": "The opaque cream sheet rises and wipes the board. On it, small and centred, one plain key with an empty round head (no mark), then the terracotta rule and the handle lockup.",
+      "objects": [
+        "o-sheet",
+        "o-glyph",
+        "o-rule",
+        "o-slot"
+      ],
+      "emphasis": [],
+      "whiteboard_version": "Identical: the rising sheet, the small key, the rule, the lockup."
+    }
+  ],
+  "bespoke_objects": [
+    {
+      "name": "three loose keys",
+      "t": 2.6,
+      "bbox": [
+        0.2685,
+        0.2208,
+        0.7315,
+        0.3719
+      ],
+      "space": "norm",
+      "why_bespoke": "The hook object (LAW 20): three separate crooked keys, each with a provider's mark in its head, argue 'many separate AI agents to juggle' in one picture; a row of logo tiles would be furniture and says nothing about being scattered.",
+      "how_drawn": "Each key is a rounded-square head (card fill, 7 px ink outline, the provider mark inside at 0.58 of the head) over a small ring loop, then a straight shaft with a groove line, three stepped teeth on the right and a pointed tip; the three sit at -18, +5 and +16 degrees at slightly different heights."
+    },
+    {
+      "name": "wall key rack",
+      "t": 9.2,
+      "bbox": [
+        0.1296,
+        0.1469,
+        0.8704,
+        0.3604
+      ],
+      "space": "norm",
+      "why_bespoke": "The payoff object (LAW 13): Warp as the one plank every provider key hangs on is 'centralize all your providers in one application' as an everyday object, and it can take a new key later, which is exactly the Grok news.",
+      "how_drawn": "A long rounded plank (card fill, 8 px ink outline) with two screw heads at its ends and the Warp mark plus WARP on its face, three J-hooks under it, and the three keys hanging straight from the hooks."
+    }
+  ],
+  "labels": [
+    {
+      "for": "key-rack",
+      "text": "WARP",
+      "place": "inside",
+      "at": 5.62,
+      "note": "LAW 9 key term: the FIRST type on the board, alone, 48 px (25.6 design units), written INSIDE the plank's face to the right of the Warp mark, like the word on a real key-rack sign, so it is the plank's own content (LAW 39: a key CONTAINED by its shape is that shape's content, never a label beside it). Spoken 5.62-5.86. Declare data-label-for=\"key-rack\" in the DOM and label_plan= on the board."
+    },
+    {
+      "for": "keys (claude, openai, gemini)",
+      "text": "PROVIDERS",
+      "place": "below",
+      "at": 7.74,
+      "note": "LAW 39: centred under the three hanging keys' group axis (the middle key's axis), entirely below the key tips. Spoken 7.74-8.14. Travels with the three keys on the slide at 16.84 (LAW 28, one block). Declare data-label-for=\"key-openai\" (the host it is centred under)."
+    },
+    {
+      "for": "key-grok",
+      "text": "GROK",
+      "place": "below",
+      "at": 19.42,
+      "note": "LAW 39 + LAW 50: entirely below the Grok key, centred on its axis, on the SAME baseline and in the same size as PROVIDERS, so the two sibling labels sit the same way. Spoken 19.42-19.64. data-label-for=\"key-grok\"."
+    }
+  ],
+  "lifetimes": [
+    {
+      "mark": "key-claude",
+      "t_from": 0.3,
+      "t_to": null,
+      "anchor": "key-claude",
+      "note": "LAW 42: single board, anchor - it is one of the keys the finished rack holds; it leaves only with the outro sheet at 22.30."
+    },
+    {
+      "mark": "key-openai",
+      "t_from": 1.5,
+      "t_to": null,
+      "anchor": "key-openai",
+      "note": "Anchor, as above."
+    },
+    {
+      "mark": "key-gemini",
+      "t_from": 1.76,
+      "t_to": null,
+      "anchor": "key-gemini",
+      "note": "Anchor, as above."
+    },
+    {
+      "mark": "key-rack",
+      "t_from": 5.62,
+      "t_to": null,
+      "anchor": "key-rack",
+      "note": "Anchor: the spine of the argument."
+    },
+    {
+      "mark": "key-term-warp",
+      "t_from": 5.62,
+      "t_to": null,
+      "anchor": "key-rack",
+      "note": "Welded to the plank."
+    },
+    {
+      "mark": "hooks 1-3",
+      "t_from": 6.48,
+      "t_to": null,
+      "anchor": "key-rack",
+      "note": "Welded to the plank."
+    },
+    {
+      "mark": "label-providers",
+      "t_from": 7.74,
+      "t_to": null,
+      "anchor": "key-openai",
+      "note": "Welded to the three keys it names."
+    },
+    {
+      "mark": "hook-4",
+      "t_from": 17.24,
+      "t_to": null,
+      "anchor": "key-rack",
+      "note": "Welded to the plank."
+    },
+    {
+      "mark": "key-grok",
+      "t_from": 19.42,
+      "t_to": null,
+      "anchor": null,
+      "note": "On screen 2.9 s of 26.32 (11 %), under the 40 % line; leaves with the outro sheet at 22.30."
+    },
+    {
+      "mark": "label-grok",
+      "t_from": 19.42,
+      "t_to": 22.3,
+      "anchor": null,
+      "note": "Leaves with the outro sheet."
+    },
+    {
+      "mark": "emphasis boxes",
+      "t_from": 9.62,
+      "t_to": 22.3,
+      "anchor": null,
+      "note": "Each border flip lives only inside the beat that argues it: plank 9.62-11.00, key heads 12.26-13.70, Grok head 19.70-22.30, plank 21.36-22.30."
+    }
+  ],
+  "connectors": [],
+  "connectors_note": "LAW 40: no arrows. The hooks ARE the connection (each key physically hangs on the plank), so no line is drawn into any target and there is no multi-arrow group to align.",
+  "blocks": [
+    [
+      "key-rack",
+      "warp-mark",
+      "key-term-warp",
+      "hook-1",
+      "hook-2",
+      "hook-3",
+      "hook-4"
+    ],
+    [
+      "hook-1",
+      "key-claude"
+    ],
+    [
+      "hook-2",
+      "key-openai"
+    ],
+    [
+      "hook-3",
+      "key-gemini"
+    ],
+    [
+      "hook-4",
+      "key-grok",
+      "label-grok"
+    ],
+    [
+      "key-claude",
+      "key-openai",
+      "key-gemini",
+      "label-providers"
+    ]
+  ],
+  "blocks_note": "LAW 41: each key hangs THROUGH its hook (the key's ring loop overlaps the hook's curl by design), each hook is screwed into the plank, the Warp mark and WARP are the plank's face, and PROVIDERS names the three-key group. Each provider mark sits inside its key head (a container's contents, inferred).",
+  "pointing_cues": [],
+  "pointing_cues_note": "LAW 37: pipeline/pointing_cues.py --vid warpgrok printed 'no pointing cue in this take' and wrote gen/_cues_warpgrok.json with cues []. He cites no post and points at nothing, so no source card is raised and nothing is waived.",
+  "boards": {
+    "mode": "single",
+    "why": "LAW 43's exception, chosen on purpose: the whole script is ONE accumulating object. The loose keys of the hook are the same keys that get hung on the rack, and the Grok news is one more key on that same rack; the finished frame (a Warp rack holding Claude, OpenAI, Gemini and Grok keys) IS the argument. An erase anywhere would cut the keys away from the rack they are about to hang on.",
+    "chapters": [
+      {
+        "i": 0,
+        "t_start": 0.16,
+        "t_end": 22.3,
+        "erase_at": 22.3,
+        "holds": [
+          "key-claude",
+          "key-openai",
+          "key-gemini",
+          "key-rack",
+          "key-term-warp",
+          "hooks",
+          "label-providers",
+          "key-grok",
+          "label-grok"
+        ],
+        "why_together": "One idea that accumulates: separate keys, then one rack that holds them all, then one more key on it."
+      }
+    ],
+    "key_term": "WARP"
+  },
+  "cast": [
+    "claude",
+    "openai",
+    "gemini",
+    "grok"
+  ],
+  "cast_note": "THERE IS NO CAST WALL. These four are the marks seated INSIDE the bespoke key heads: `claude` (ai-models/claude-color.png, Anthropic's product mark), `openai` (ai-models/openai.png, the black corporate blossom: the provider is OpenAI, not the ChatGPT app), `gemini` (ai-models/gemini-color.png) and `grok` (ai-models/grok.png, the xAI/Grok mark: 'your Grok subscription'). The subject mark `warp` (coding-tools/warp.png, added to the library 2026-09-22 from the official warp.dev silhouette) sits on the plank's face, on the stage. MARK IDENTITY: no Claude Code mascot and no sticker appear, because the script says 'providers', not a coding agent.",
+  "cutout_logo_lanes": [
+    "codex",
+    "cursor",
+    "opencode",
+    "copilot",
+    "kimi",
+    "deepseek"
+  ],
+  "cutout_logo_lanes_note": "Topical to THIS short: the terminal coding agents Warp sits beside (Codex, Cursor, OpenCode, Copilot) and two more model providers (Kimi, DeepSeek), mixed, none repeated, and deliberately excluding `warp`, `grok`, `claude`, `openai` and `gemini` because those are on the stage (GRAPHIC CHART clause 7). `claude-code` is left out because its registry path still points at the outlined sticker file (MARK IDENTITY).",
+  "open_questions": [
+    "Wing review: the prompt0 marker has landed and names warpgrok with wing_review true (the instrument abstained: no cut proposed, removed_px 0). The Astra matte step owns the look at matting/warpgrok/prompts/kf_overlay_00000.png; the track marker says skipped (matanyone2) and the ship marker has not landed.",
+    "The three provider keys (Claude, OpenAI, Gemini) illustrate 'all of the different providers' and are not named aloud. They are factual (Warp's agent runs Anthropic, OpenAI and Google models) and LAW 11 lets the diagram place them; no label names them individually, the group label is the spoken word PROVIDERS.",
+    "The Warp mark was not in the asset library. It was added as assets/logos/coding-tools/warp.png (+ warp.svg), registry key `warp`, from the official warp.dev favicon silhouette via Simple Icons, rendered black. Warp's brand mark is monochrome, so black is its own colour, not a reduction (LAW 12).",
+    "In the DOM lanes the keys slide left at 16.84 to make room for the fourth hook (LAW 19's sanctioned displacement). The whiteboard may do the same as an erase-and-redraw of the three hung keys one step left (an erase to free a column is legal), so both boards start centred and end centred."
+  ],
+  "open_doubts": [],
+  "open_doubts_note": "Nothing here changes what the viewer sees without Miguel's answer: there is no source post and no pointing cue, so no card or platform doubt can arise, and the provider marks and the added Warp mark are facts I can decide and have recorded in open_questions."
+}

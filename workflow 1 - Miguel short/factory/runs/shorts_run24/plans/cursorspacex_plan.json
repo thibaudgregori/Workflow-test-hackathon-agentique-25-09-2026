@@ -1,0 +1,223 @@
+{
+  "id": "cursorspacex",
+  "duration_s": 22.12,
+  "lane": "icon choreography",
+  "lane_reason": "The script is a change of ownership between three real brands, so the registry marks have to be the actors and one drawn flagpole carries the whole arc of the brand going down.",
+  "beats": [
+    {
+      "i": 0,
+      "t_start": 0.18,
+      "t_end": 5.5,
+      "words": "One of the most loved brands in the AI space by developers is soon going to be sunset.",
+      "says": "A brand developers love is about to be retired.",
+      "picture": "A flagpole stands alone in the middle of the screen and a flag unfurls at its top; a hand-drawn heart prints on the flag on the word 'loved'. On the word 'sunset' the term SUNSET is written large above it.",
+      "whiteboard": "The marker draws the pole first, alone on the axis, then the flag, then the heart inside it, then writes SUNSET above.",
+      "objects": ["flagpole", "flag", "heart on the flag", "SUNSET"],
+      "emphasis": []
+    },
+    {
+      "i": 1,
+      "t_start": 5.68,
+      "t_end": 7.92,
+      "words": "Cursor has been acquired by SpaceX AI,",
+      "says": "The loved brand is Cursor, and SpaceX AI has bought it.",
+      "picture": "The heart on the flag cross-fades in place into the real Cursor mark, so the flag becomes the Cursor flag. Below the pole a card carrying the SpaceX wordmark arrives: the new owner, stated plainly under the mast.",
+      "whiteboard": "The heart is wiped and the Cursor mark is placed inside the flag; the SpaceX card is drawn under the pole.",
+      "objects": ["flag", "cursor mark", "spacex card"],
+      "emphasis": []
+    },
+    {
+      "i": 2,
+      "t_start": 8.24,
+      "t_end": 11.26,
+      "words": "and they confirmed that they're going to be mapping out the Cursor brand",
+      "says": "They have confirmed the Cursor name itself is being phased out.",
+      "picture": "The Cursor flag makes its first step DOWN the pole and its ink lightens one grade. Nothing else moves.",
+      "whiteboard": "The flag is redrawn one step lower on the pole and the first drawing of it is left as a faint broken outline.",
+      "objects": ["flag", "flagpole"],
+      "emphasis": []
+    },
+    {
+      "i": 3,
+      "t_start": 11.62,
+      "t_end": 13.5,
+      "words": "over the next few coming months",
+      "says": "The phase-out runs over the coming months.",
+      "picture": "Two more stepped descents on 'next' and on 'months' bring the flag to the foot of the pole, its outline now broken and muted. The pole is empty above it.",
+      "whiteboard": "Two more redrawings of the flag, each lower and fainter, each leaving its broken ghost behind, so the descent reads as a passage of time.",
+      "objects": ["flag", "flagpole"],
+      "emphasis": []
+    },
+    {
+      "i": 4,
+      "t_start": 13.8,
+      "t_end": 17.7,
+      "words": "while it gets absorbed by SpaceX AI and Grok.",
+      "says": "What Cursor was flows into SpaceX AI and into Grok.",
+      "picture": "Two terracotta connectors draw out of the bottom edge of the retired flag: the first down into the SpaceX card on 'absorbed', the second down into a Grok tile that arrives beside it on 'Grok'. Each card's own border flips terracotta as it is named.",
+      "whiteboard": "The same two strokes run from the lowered flag into the two marks, drawn one at a time on the words that name them.",
+      "objects": ["flag", "spacex card", "grok tile", "two connectors"],
+      "emphasis": [
+        {
+          "target": "spacex card",
+          "kind": "box",
+          "why": "LAW 38 rule 2: the SpaceX card is a DRAWN object with its own background, so the emphasis is the panel border flip to terracotta, never a ring and never a marker highlight."
+        },
+        {
+          "target": "grok tile",
+          "kind": "box",
+          "why": "LAW 38 rule 2: a drawn chassis tile takes boxing, and the DOM lane's boxing is the tile's own border flipped to terracotta."
+        }
+      ]
+    },
+    {
+      "i": 5,
+      "t_start": 17.88,
+      "t_end": 22.12,
+      "words": "Now, follow for more AI news, videos, and tutorials each and every single day, and catch you in the next one.",
+      "says": "The daily sign-off.",
+      "picture": "The opaque sheet rises over the scene and the chassis outro lockup lands on a small ink flag glyph: terracotta rule, mono handle, daily AI micro-line.",
+      "whiteboard": "The rising sheet, then the same lockup on the board's own small flag.",
+      "objects": ["outro lockup", "small flag glyph"],
+      "emphasis": []
+    }
+  ],
+  "bespoke_objects": [
+    {
+      "name": "flag on pole",
+      "t": 2.6,
+      "bbox": [0.3676, 0.1583, 0.6324, 0.3104],
+      "space": "norm",
+      "why_bespoke": "A brand being retired is an abstraction; a flag coming down a pole while another mark takes the ground under it is the one picture everybody already reads as 'this name is being taken down and somebody else owns the mast now'. No stock mark says that, and no registry logo can be lowered.",
+      "how_drawn": "One vertical ink line with a small two-stroke foot, and a banner hanging from its top drawn as a single closed outline with a gently waving trailing edge, round caps and joins, stroke 8, no fill; the heart, and later the Cursor mark, sits centred inside it with even margins."
+    }
+  ],
+  "labels": [
+    {
+      "for": "flag",
+      "text": "SUNSET",
+      "place": "above",
+      "at": 5.08,
+      "note": "LAW 39: SUNSET sits entirely ABOVE the flag, its centre (x 540) inside the flag's horizontal extent 423..683 plus/minus 15 percent (514..592). Declared with data-label-for=\"banner\" on the DOM and label_plan= on the board. It is also the key term (LAW 9), written first and alone: no other type exists on the board before 5.08."
+    }
+  ],
+  "lifetimes": [
+    {
+      "mark": "pole",
+      "t_from": 0.18,
+      "t_to": null,
+      "anchor": "board_anchors",
+      "note": "LAW 42: the mast is the spine of the argument and every later beat points back at it, so it is a declared anchor. The board is SINGLE (LAW 43's exception) and therefore all-anchor by definition; the anchors are declared anyway so the law holds under either reading."
+    },
+    {
+      "mark": "foot",
+      "t_from": 0.18,
+      "t_to": null,
+      "anchor": "board_anchors",
+      "note": "LAW 42: part of the mast block."
+    },
+    {
+      "mark": "banner",
+      "t_from": 0.52,
+      "t_to": null,
+      "anchor": "board_anchors",
+      "note": "LAW 42: the flag never leaves the frame, it is LOWERED and left retired at the foot of the pole, which is the claim. It is an anchor on purpose."
+    },
+    {
+      "mark": "heart",
+      "t_from": 1.08,
+      "t_to": 5.9,
+      "anchor": null,
+      "note": "LAW 42: the heart is the referent only while 'most loved' is the claim; it cross-fades out in place as the Cursor mark arrives."
+    },
+    {
+      "mark": "key-sunset",
+      "t_from": 5.08,
+      "t_to": null,
+      "anchor": "board_anchors",
+      "note": "LAW 42: the key term is the argument's title and stays."
+    },
+    {
+      "mark": "mark-cursor",
+      "t_from": 5.68,
+      "t_to": null,
+      "anchor": "board_anchors",
+      "note": "LAW 42: it travels down the pole with the flag it is printed on and stays, muted, as the retired brand."
+    },
+    {
+      "mark": "card-spacex",
+      "t_from": 7.08,
+      "t_to": null,
+      "anchor": "board_anchors",
+      "note": "LAW 42: the acquirer is on screen from the moment it is named to the end, because every later beat points at it."
+    },
+    {
+      "mark": "tile-grok",
+      "t_from": 17.44,
+      "t_to": null,
+      "anchor": "board_anchors",
+      "note": "LAW 42: arrives on its own word and holds to the outro."
+    },
+    {
+      "mark": "conn-spacex",
+      "t_from": 14.62,
+      "t_to": null,
+      "anchor": "board_anchors",
+      "note": "LAW 42: the absorption strokes are the final claim and stay."
+    },
+    {
+      "mark": "conn-grok",
+      "t_from": 17.44,
+      "t_to": null,
+      "anchor": "board_anchors",
+      "note": "LAW 42: as above."
+    }
+  ],
+  "connectors": [
+    {
+      "to": "card-spacex",
+      "from": ["banner"],
+      "note": "LAW 40: ONE source fanning into TWO targets, so the law's letter (two arrows into one target) does not bind, but both ends are still built with anchor_points and never hand-placed. Source ends: anchor_points(BANNER_LOW_BOX, 2, 'bottom') = (464.6, 404) and (641.4, 404), level to 0.0 px and mirror-symmetric about the flag's own axis. Target end: anchor_points(SPACEX_BOX, 1, 'top') = (460.0, 452). Declared data-connect-to=\"card-spacex\" and data-overlap-ok."
+    },
+    {
+      "to": "tile-grok",
+      "from": ["banner"],
+      "note": "LAW 40: target end anchor_points(GROK_BOX, 1, 'top') = (682.0, 452), source end (641.4, 404). Declared data-connect-to=\"tile-grok\" and data-overlap-ok. Both connectors terminate AT the box edge, never on top of the target (LAW 7)."
+    }
+  ],
+  "blocks": [
+    ["pole", "foot", "banner"],
+    ["banner", "heart"],
+    ["banner", "mark-cursor"],
+    ["banner", "key-sunset"],
+    ["card-spacex", "mark-spacex"],
+    ["tile-grok", "mark-grok"]
+  ],
+  "blocks_note": "LAW 41: the flag hangs ON the pole and the pole stands ON its foot, so the mast is one authored assembly; the heart and then the Cursor mark are printed INSIDE the flag and move with it; the key term is welded to the flag it names (LAW 39 / GLOBAL LAW 9); each card holds its own mark. Everything else keeps a real gutter: mast foot 404 to the card row 452 is 48 core px, the SpaceX card 578 to the Grok tile 626 is 48 core px, the key term 68 to the pole top 112 is 44 core px.",
+  "pointing_cues": [],
+  "pointing_cues_note": "LAW 37: pipeline/pointing_cues.py returned 'no pointing cue in this take' - zero cues, so nothing is waived and no source card is raised. GLOBAL LAW 3 is satisfied trivially: there is no post in this video because the post is not the news, the acquisition is.",
+  "boards": {
+    "mode": "single",
+    "why": "LAW 43: this is the exception the law names - ONE idea that accumulates on one surface. There is exactly one pole and the finished frame IS the argument: the Cursor flag retired at its foot, the two marks that absorbed it underneath, two strokes joining them. Erasing any of it would erase the claim, so there is no chapter seam and nothing was ever meant to leave.",
+    "chapters": [
+      {
+        "i": 0,
+        "t_start": 0.18,
+        "t_end": 22.12,
+        "erase_at": null,
+        "holds": ["pole", "foot", "banner", "heart", "key-sunset", "mark-cursor", "card-spacex", "tile-grok", "conn-spacex", "conn-grok"],
+        "why_together": "One mast, one descent, one handover. Every mark on it is still being pointed at when the sign-off starts."
+      }
+    ],
+    "key_term": "SUNSET"
+  },
+  "cast": [],
+  "cast_note": "THE ROSTER IS TOPICAL and this script makes no comparison, so there is no roster wall: the three marks this short names are STAGE marks, not cast. On stage: 'cursor' (assets/logos/coding-tools/cursor.png) printed inside the flag, 'spacex' (assets/logos/ai-models/spacex-wordmark.svg) on the card under the mast, 'grok' (assets/logos/ai-models/grok.png) in the 112 px tile beside it. No placeholder, no text pill, no consumer-app wall.",
+  "cutout_logo_lanes": ["codex", "copilot", "antigravity", "lovable", "openai"],
+  "cutout_logo_lanes_note": "Topical to THIS short: the AI coding tools Cursor is measured against every day, plus the lab that ships one of them. None of them is repeated and none of them is a subject mark of this story - cursor, spacex and grok are all on the stage, so they are barred from the depth lanes.",
+  "open_questions": [
+    "SpaceX publishes only a WORDMARK, so the acquirer's mark is a 236x116 card carrying the wordmark at 200 px wide rather than a 112 px square tile; the Grok tile keeps the standard 112 px chassis tile. If a square SpaceX mark is ever registered, the card becomes a tile and the row becomes two equal tiles.",
+    "The flag's descent is three stepped hard moves (9.84, 12.00, 13.24) rather than one continuous slide, because LAW 1 forbids a continuous drift; an author may retime the three steps inside their own words but must not make them one glide."
+  ],
+  "open_doubts": []
+}

@@ -1,0 +1,95 @@
+[
+  {
+    "format": "split",
+    "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/staging/youtube/primeagent_split.mp4",
+    "sha256": "33dccf8a64696b512d232962ff2d5547d8a2d22b744c89a79be69b3871ea5215",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "25/1"
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0"
+        }
+      ],
+      "format": {
+        "duration": "43.221406"
+      }
+    },
+    "qc_pass": true,
+    "watch_unavailable": "Gemini API 429 RESOURCE_EXHAUSTED (monthly spending cap); $0",
+    "stage_matches_render": true
+  },
+  {
+    "format": "whiteboard",
+    "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/staging/reels/primeagent_whiteboard.mp4",
+    "sha256": "55289f2069214fcef28f1a35c11c19b4ce32e659636c517e8eaf0a74b70dc977",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "25/1"
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0"
+        }
+      ],
+      "format": {
+        "duration": "43.221333"
+      }
+    },
+    "qc_pass": true,
+    "watch_unavailable": "Gemini API 429 RESOURCE_EXHAUSTED (monthly spending cap); $0",
+    "stage_matches_render": true
+  },
+  {
+    "format": "cutout",
+    "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/staging/tiktok/primeagent_cutout.mp4",
+    "sha256": "7b90a0fc348f87d9806931e71a570207ca44d7836ca6f8f29f3e929cd5749b41",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "25/1"
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0"
+        }
+      ],
+      "format": {
+        "duration": "43.221406"
+      }
+    },
+    "qc_pass": true,
+    "watch_unavailable": "Gemini API 429 RESOURCE_EXHAUSTED (monthly spending cap); $0",
+    "stage_matches_render": true
+  }
+]

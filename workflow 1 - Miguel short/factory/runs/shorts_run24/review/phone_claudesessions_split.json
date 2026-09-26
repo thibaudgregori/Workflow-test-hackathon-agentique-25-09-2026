@@ -1,0 +1,59 @@
+{
+ "label": "claudesessions_split",
+ "video": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/claudesessions_split.mp4",
+ "phone_scale": "405x720",
+ "sheet": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/phone_claudesessions_split.png",
+ "rule": "a FRESH judge (never read the plan) names each crop in <=3 words. Wrong name, hedge, or 'cannot tell' = the object is redesigned, not annotated.",
+ "answer_key": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/phone_claudesessions_split.key.json",
+ "answer_key_rule": "DO NOT OPEN the answer key until every judge_answer below is filled in. Reading it first voids the Phone Test.",
+ "objects": [
+  {
+   "i": 0,
+   "t": 2.4,
+   "bbox_norm": [
+    0.2009,
+    0.1667,
+    0.7991,
+    0.351
+   ],
+   "phone_box_px": [
+    81,
+    120,
+    323,
+    252
+   ],
+   "phone_size_px": [
+    242,
+    132
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/phone_claudesessions_split/00.png",
+   "sheet_scale": 1.0,
+   "judge_answer": "two walkie-talkies linked",
+   "verdict": null
+  },
+  {
+   "i": 1,
+   "t": 16.0,
+   "bbox_norm": [
+    0.1898,
+    0.15,
+    0.8102,
+    0.2787
+   ],
+   "phone_box_px": [
+    76,
+    108,
+    328,
+    200
+   ],
+   "phone_size_px": [
+    252,
+    92
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/phone_claudesessions_split/01.png",
+   "sheet_scale": 1.0,
+   "judge_answer": "three walkie-talkies chained together",
+   "verdict": null
+  }
+ ]
+}

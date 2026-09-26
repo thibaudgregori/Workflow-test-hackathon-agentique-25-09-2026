@@ -1,0 +1,109 @@
+{
+ "label": "ws_claudesessions_split",
+ "video": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/projects/claudesessions_split",
+ "phone_scale": "405x720",
+ "sheet": "review/wordsync_claudesessions_split/phone_ws_claudesessions_split.png",
+ "rule": "a FRESH judge (never read the plan) names each crop in <=3 words. Wrong name, hedge, or 'cannot tell' = the object is redesigned, not annotated.",
+ "answer_key": "review/wordsync_claudesessions_split/phone_ws_claudesessions_split.key.json",
+ "answer_key_rule": "DO NOT OPEN the answer key until every judge_answer below is filled in. Reading it first voids the Phone Test.",
+ "cut_from": "headless page screenshots, no video render",
+ "mode": "phone-test",
+ "objects": [
+  {
+   "i": 0,
+   "t": 4.16,
+   "bbox_norm": [
+    0.25,
+    0.1125,
+    0.75,
+    0.1427
+   ],
+   "phone_box_px": [
+    101,
+    81,
+    303,
+    102
+   ],
+   "phone_size_px": [
+    202,
+    21
+   ],
+   "path": "review/wordsync_claudesessions_split/phone_ws_claudesessions_split/00.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  },
+  {
+   "i": 1,
+   "t": 10.86,
+   "bbox_norm": [
+    0.1435,
+    0.3005,
+    0.3565,
+    0.3234
+   ],
+   "phone_box_px": [
+    58,
+    216,
+    144,
+    232
+   ],
+   "phone_size_px": [
+    86,
+    16
+   ],
+   "path": "review/wordsync_claudesessions_split/phone_ws_claudesessions_split/01.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  },
+  {
+   "i": 2,
+   "t": 13.46,
+   "bbox_norm": [
+    0.6574,
+    0.3005,
+    0.8426,
+    0.3234
+   ],
+   "phone_box_px": [
+    266,
+    216,
+    341,
+    232
+   ],
+   "phone_size_px": [
+    75,
+    16
+   ],
+   "path": "review/wordsync_claudesessions_split/phone_ws_claudesessions_split/02.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  },
+  {
+   "i": 3,
+   "t": 16.56,
+   "bbox_norm": [
+    0.3611,
+    0.3453,
+    0.6389,
+    0.3755
+   ],
+   "phone_box_px": [
+    146,
+    248,
+    258,
+    270
+   ],
+   "phone_size_px": [
+    112,
+    22
+   ],
+   "path": "review/wordsync_claudesessions_split/phone_ws_claudesessions_split/03.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  }
+ ]
+}

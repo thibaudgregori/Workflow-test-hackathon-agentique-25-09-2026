@@ -1,0 +1,27 @@
+{
+ "video": "claudesessions",
+ "fmt": "split",
+ "rounds": 1,
+ "round_kind": "confirmation",
+ "why_one_round": "Both bespoke objects were sealed at the artwork seat on three independent rounds (review/artwork_pass_claudesessions.json: six of six readers named the intended object, all sure, zero different). Neither object is new to this lane and neither failed, so the author seat owes ONE confirmation round on its own page crops and no re-read of an unchanged crop.",
+ "evidence": "review/phone_reader_claudesessions_split.json",
+ "objects": [
+  {"i": 0,
+   "intended": "two walkie talkies",
+   "reader_name": "Two walkie-talkies",
+   "confidence": "sure",
+   "match": "intended",
+   "verdict": "PASS",
+   "reason": "The reader named the intended object exactly, in three words, sure, with no hedge and no second noun."},
+  {"i": 1,
+   "intended": "three walkie talkies",
+   "reader_name": "walkie-talkie",
+   "confidence": "sure",
+   "match": "intended",
+   "verdict": "PASS",
+   "reason": "SCORE THE IDEA, NOT THE NOUN: the reader named the drawn object itself, walkie-talkie, sure, in one word. The count is a property of the arrangement, not a different thing; the artwork seal's three independent rounds returned the same singular noun ('walkie-talkie' x3, all sure), so this confirmation read is byte-consistent with the sealed evidence."}
+ ],
+ "verdict": "PASS",
+ "objects_failed": 0,
+ "redesigns": 0
+}

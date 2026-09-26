@@ -1,0 +1,301 @@
+{
+ "video": "cursorspacex",
+ "format": "cutout",
+ "fps": 25,
+ "duration": 22.12,
+ "plate": {
+  "box": {
+   "w": 1342.0,
+   "h": 990.0,
+   "left": -109.0,
+   "top": 930.0
+  },
+  "whole_pixels": true,
+  "equals_encoded": {
+   "cut": {
+    "w": 1342,
+    "h": 990
+   },
+   "rim": {
+    "w": 1342,
+    "h": 990
+   }
+  },
+  "plate_scale": 1.1,
+  "derived_from": "the ENCODED size of the staged layers, never PLATE_SCALE, and the origin READ from plate.json"
+ },
+ "seat": 881.2,
+ "shared": {
+  "beat_edges": [
+   0.18,
+   5.68,
+   8.24,
+   11.62,
+   13.8,
+   17.88,
+   22.12
+  ],
+  "phone_test_objects": [
+   {
+    "name": "flag on pole",
+    "t": 2.6,
+    "space": "norm",
+    "bbox": [
+     0.3713,
+     0.15833,
+     0.6287,
+     0.31042
+    ],
+    "canvas": [
+     401.0,
+     304.0,
+     679.0,
+     596.0
+    ],
+    "phone_px": [
+     104,
+     110
+    ]
+   }
+  ]
+ },
+ "matte": {
+  "cut": {
+   "w": 1342,
+   "h": 990
+  },
+  "rim": {
+   "w": 1342,
+   "h": 990
+  },
+  "plate": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/matting/cursorspacex/plate_display_1342x990.mp4",
+  "session": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/matting/cursorspacex",
+  "alpha_sha256": "8f0feb7645bd2e6c8bbbf7192cb47af16ca13edf2b71dab1494ce1bb50fa7e19",
+  "consumed_as_is": "MATTES_FINAL.md is absent, so no decree binds \u2014 and nothing here asks for another track.  Stage 17's independent viewer returned PASS on this exact session, so no SAM2 fallback and no repair round ever ran.  The layers this build stages are the first and only export; they keep `needs_final_visual_review` until the clerk answers it (PRODUCTION.md, 2026-09-06).",
+  "hashes": {
+   "cut": "aecfa32c2582f8514eab5321c226ef0335746150df7fc2b9343630915e12160f",
+   "rim": "db1c179712d2d3d4acfe261b489c693c6076e0c2ddb678191f6bdbe554404caa",
+   "alpha": "8f0feb7645bd2e6c8bbbf7192cb47af16ca13edf2b71dab1494ce1bb50fa7e19"
+  },
+  "frames": 553,
+  "alpha_mode": "soft",
+  "rim_px": 7,
+  "fractional_alpha_pixels": 11587715,
+  "minimum_person_fraction": 0.4409407036083638,
+  "review_status": "needs_final_visual_review",
+  "backend": "matanyone2",
+  "headroom_guard": {
+   "pass": true,
+   "frames_checked": 553,
+   "min_top_clearance_px": 36.300000000000004,
+   "floor_px": 24.0,
+   "unsafe_frames": 0,
+   "worst_frame": 343
+  },
+  "selection": "reviewed",
+  "cost_usd": {
+   "track": 0.0180021564875984,
+   "ship": 0.02764171659389056,
+   "total": 0.045644
+  }
+ },
+ "depth_field": {
+  "seat": {
+   "band": [
+    1002.5,
+    1396.5
+   ],
+   "band_h": 394.0,
+   "inter_lane_gap": 26.0,
+   "seat_offset_from_pill": 64.0,
+   "foundation_offset": 63.61,
+   "drift_from_foundation_seat": 0.39,
+   "margin_px": 150.2,
+   "candidates_scanned": 101,
+   "candidates_safe": 75,
+   "instrument": "5th percentile of the PER-FRAME gutter; the union envelope describes a body that never existed",
+   "lanes": [
+    {
+     "lane": "far",
+     "tile": 78.0,
+     "y": 1002.5,
+     "frames": 185,
+     "gutter_p05": 297.6,
+     "gutter_median": 343.1,
+     "gutter_min_single_frame": 252.9,
+     "frames_under_tile": 0
+    },
+    {
+     "lane": "mid",
+     "tile": 116.0,
+     "y": 1106.5,
+     "frames": 185,
+     "gutter_p05": 280.4,
+     "gutter_median": 321.1,
+     "gutter_min_single_frame": 225.4,
+     "frames_under_tile": 0
+    },
+    {
+     "lane": "near",
+     "tile": 148.0,
+     "y": 1248.5,
+     "frames": 185,
+     "gutter_p05": 298.2,
+     "gutter_median": 329.9,
+     "gutter_min_single_frame": 106.6,
+     "frames_under_tile": 1
+    }
+   ]
+  },
+  "lanes": {
+   "far": {
+    "x0": -216.0,
+    "w": 1788.0,
+    "y": 1002.5,
+    "tile": 78.0,
+    "gap": 30.0,
+    "pitch": 108.0,
+    "tiles": 16,
+    "opacity": 0.34,
+    "dist": 46.0,
+    "travel": 276.0,
+    "steps": 6
+   },
+   "mid": {
+    "x0": -304.0,
+    "w": 2360.0,
+    "y": 1106.5,
+    "tile": 116.0,
+    "gap": 36.0,
+    "pitch": 152.0,
+    "tiles": 15,
+    "opacity": 0.66,
+    "dist": 112.0,
+    "travel": 672.0,
+    "steps": 6
+   },
+   "near": {
+    "x0": -384.0,
+    "w": 3096.0,
+    "y": 1248.5,
+    "tile": 148.0,
+    "gap": 44.0,
+    "pitch": 192.0,
+    "tiles": 16,
+    "opacity": 1.0,
+    "dist": 208.0,
+    "travel": 1248.0,
+    "steps": 6
+   }
+  },
+  "tiles": 47,
+  "step_beats": [
+   3.04,
+   6.36,
+   9.6,
+   13.24,
+   16.24,
+   19.48
+  ],
+  "step_n": 6,
+  "step_pulse_s": 3.22,
+  "foundation_pulse_s": 3.17,
+  "pop_behind": null,
+  "spoken_depth_marks": [],
+  "pop_behind_why_none": "MEASURED, not omitted.  Cutout law 16 keys the crossing to 'the beat where he NAMES the tool'.  A lexical sweep of all five lane marks over the whole tight transcript returns ZERO hits: the only products this take names are Cursor, SpaceX AI and Grok, and all three are STAGE marks and therefore barred from the lanes by the plan's own note.  There is no legal beat to key a crossing to, and improvising one is exactly what this lane may not do.",
+  "cast": [
+   "codex",
+   "copilot",
+   "antigravity",
+   "lovable",
+   "openai"
+  ],
+  "cast_list_why": "the field's stride is 7 and this roster is 5 long; gcd(7,5)=1, so every lane cycles all five of the plan's marks with no repeat knob needed.",
+  "cast_source": "plan.cutout_logo_lanes, unchanged",
+  "substitutions": {},
+  "banned_asserted": [
+   "anthropic-wordmark",
+   "claude-code",
+   "cursor",
+   "grok",
+   "grok-bot",
+   "grok-bot-app",
+   "instagram",
+   "nous-girl",
+   "openai-wordmark",
+   "spacex",
+   "spacex-wordmark",
+   "spotify",
+   "telegram",
+   "tesla",
+   "tiktok",
+   "twitter",
+   "whatsapp",
+   "x",
+   "x-logo",
+   "xai",
+   "youtube"
+  ],
+  "opacities": [
+   0.34,
+   0.66,
+   1.0
+  ],
+  "hook_clear_s": 2.6,
+  "seams": [],
+  "foundation": "formats/cutout/lib/cutout_depthfield.py (grokpublish, approved 2026-09-01) \u2014 unmodified"
+ },
+ "core": {
+  "left": 0.0,
+  "top": 192.0,
+  "w": 1080.0,
+  "h": 600.0,
+  "placement": {
+   "k": 1.0,
+   "k_uncapped": 1.0639,
+   "left": 0.0,
+   "top": 192.0,
+   "seat": "the scene's own origin: the band already lands legally in this session's MEASURED stage zone at k = 1, so the cutout's canvas rects ARE the scene's, the split's and the plan's, the cold Phone Test crops the object it means to, and LAW 51's cross-lane parity with the split is exact rather than close",
+   "identity_seat": true,
+   "stage_zone": [
+    192.0,
+    797.4
+   ],
+   "stage_zone_px": 605.4,
+   "content_band_core": [
+    10.0,
+    564.0
+   ],
+   "content_band_px": 554.0,
+   "content_band_canvas": [
+    202.0,
+    756.0
+   ],
+   "core_margin": 8.0,
+   "handoff_note": "the handoff says 'k from THAT session's matte envelope'.  This session's envelope gives a 605.4 px stage zone against a 554.0 px content band, so the cap at 1.0 binds and the scene is seated unscaled."
+  }
+ },
+ "envelope": {
+  "CAP_H_seat_constant": 108.2,
+  "CAP_H_true_rendered": 114.59,
+  "CAP_MIN_CLEAR": 26.5,
+  "true_clear_to_crown": 26.5,
+  "CAP_Y": 881.2,
+  "CAP_Y_pct": 0.459,
+  "pill_bottom": 938.5,
+  "pill_bottom_pct": 0.4888,
+  "ZY0": 192.0,
+  "ZY1": 797.4,
+  "stage_height": 605.4,
+  "vs_definitive": {
+   "CAP_Y": 949.5,
+   "ZY1": 868.9,
+   "why_different": "a different plate: this session's crown sits below the plate's top row (bottom_planted false, crop slid up 4 master px), and the plate is OVER-WIDE (1342x990 at -109)"
+  }
+ },
+ "voice": {
+  "source": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/cuts/cursorspacex/audio.m4a",
+  "sample_rate": 48000,
+  "channels": 2
+ }
+}

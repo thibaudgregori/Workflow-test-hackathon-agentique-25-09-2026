@@ -1,0 +1,14 @@
+{
+  "verdict": "PASS (approved by miguel, 2026-09-22T21:36:04)",
+  "phone_verdict": "PASS (v4: no phone test; approved on the staged videos)",
+  "confirmed": 0,
+  "approved_by": "miguel",
+  "approved_at": "2026-09-22T21:36:04",
+  "note": "approved on the staged videos, 2026-09-21",
+  "reviewed_files": {
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/staging/youtube/claudesessions_split.mp4": "c768f3a284f1c8e862b8b8f2a0060717e8fba259baeea74e06ad32927ef2caac",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/staging/tiktok/claudesessions_cutout.mp4": "5ecd696d2f93ed57f61938cc4d736910d3e22ef20cda580c017956f6fe3ed288",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/staging/reels/claudesessions_whiteboard.mp4": "a634393be359c6e7e8cd68a3b215769e1d9f1f06f430d8b3171cb92354599c9f"
+  },
+  "procedure": "production-v4-2026-09-21"
+}

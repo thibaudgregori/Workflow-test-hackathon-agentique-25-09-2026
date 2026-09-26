@@ -1,0 +1,766 @@
+{
+ "video": "primeagent",
+ "format": "whiteboard",
+ "variant": "plan view (fix)",
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/projects/primeagent_whiteboard",
+ "handle": "@migueltorrez.ai",
+ "handle_key": "tiktok_ig",
+ "duration_s": 43.2,
+ "fps": 25,
+ "render": "1080x1920 @ zoom 1",
+ "board": "576x460 design units",
+ "board_box": [
+  40.0,
+  150.0,
+  536.0,
+  425.0
+ ],
+ "strokes": 27,
+ "rigids": 35,
+ "board_text": [
+  "PRIME AGENT",
+  "REGULAR AGENTS",
+  "ONE SINGLE TOOL",
+  "RLM"
+ ],
+ "top_ink_u": 156.0,
+ "top_band_u": 102.4,
+ "pen_top_u": 110.7,
+ "ink_bottom_px": 751.4,
+ "cap_band_top_px": 799.2,
+ "cap_clearance_px": 47.8,
+ "ink_bottom_ink_px": 751.4,
+ "cap_clearance_ink_px": 47.8,
+ "seam_pill_top_px": 805.2,
+ "cap_clearance_ink_to_pill_px": 53.8,
+ "seam_measures": "cap_clearance_px = line boxes vs the reserved band (THE GATE); cap_clearance_ink_px = glyph ink vs the same band; cap_clearance_ink_to_pill_px = glyph ink vs the pill's painted top edge (the clerk's surface)",
+ "rail_hits": [],
+ "label_law": {
+  "window_s": 1.0,
+  "key_term": "PRIME AGENT",
+  "key_term_fs_u": 23.0,
+  "written": {
+   "PRIME AGENT": 1.1,
+   "REGULAR AGENTS": 3.06,
+   "ONE SINGLE TOOL": 12.78,
+   "RLM": 29.4
+  },
+  "plan": {
+   "kterm": "PRIME AGENT",
+   "kreg": "REGULAR AGENTS",
+   "kone": "ONE SINGLE TOOL",
+   "krlm": "RLM"
+  },
+  "comparisons": [],
+  "unplanned_text": [],
+  "verdict": "PASS"
+ },
+ "law4": {
+  "law": "4 (overlap test)",
+  "board_words_that_also_appear_as_a_pill": {
+   "ONE SINGLE TOOL": [
+    12.78,
+    21.5
+   ]
+  }
+ },
+ "round4": {
+  "law6_lifetimes": {
+   "duration_s": 43.2,
+   "chaptered": true,
+   "max_frac": 0.4,
+   "declared_anchors": [],
+   "lingering": [],
+   "verdict": "PASS"
+  },
+  "law2_no_enclosure": {
+   "rings": 0,
+   "boxes": 4,
+   "highlights": 0,
+   "rasters": [],
+   "wrong_tool_advisory": [],
+   "verdict": "PASS"
+  },
+  "law3_label_side": {
+   "checked": 4,
+   "detail": {
+    "PRIME AGENT": {
+     "host": "machine-hook",
+     "dx_u": 0.0,
+     "band_u": 149.5,
+     "place": "above"
+    },
+    "REGULAR AGENTS": {
+     "host": "toolbox",
+     "dx_u": 0.0,
+     "band_u": 152.8,
+     "place": "above"
+    },
+    "ONE SINGLE TOOL": {
+     "host": "machine-main",
+     "dx_u": 0.0,
+     "band_u": 162.5,
+     "place": "above"
+    },
+    "RLM": {
+     "host": "rlm-slab",
+     "dx_u": 0.0,
+     "band_u": 117.0,
+     "place": "below"
+    }
+   },
+   "verdict": "PASS"
+  },
+  "law5_spacing": {
+   "gate_u": 8.5,
+   "gate_px": 15.9,
+   "aim_u": 12.8,
+   "aim_px": 24.0,
+   "measured_on": "element line boxes",
+   "under_aim": [],
+   "objects": 20,
+   "verdict": "PASS"
+  },
+  "law5_spacing_ink": {
+   "gate_u": 8.5,
+   "gate_px": 15.9,
+   "aim_u": 12.8,
+   "aim_px": 24.0,
+   "measured_on": "glyph ink extents",
+   "under_aim": [],
+   "objects": 20,
+   "verdict": "PASS"
+  },
+  "law5_no_crossing": {
+   "strokes": 27,
+   "types": 4,
+   "verdict": "PASS"
+  },
+  "law4_anchors": {
+   "targets": 0,
+   "verdict": "SKIP \u2014 no connectors declared"
+  }
+ },
+ "outro": {
+  "move": "opaque sheet rises over the board",
+  "wipe_start": 38.78,
+  "wipe_end": 39.34,
+  "travel_px": 862.5,
+  "sheet_opaque": true,
+  "sheet_covers_px": 862.5,
+  "card_ink_enters_px": 322.5,
+  "board_covered_px": 570.0,
+  "overlap_px": 247.5,
+  "board_moves": false,
+  "board_fades": false,
+  "outro_start": 38.78,
+  "verdict": "PASS"
+ },
+ "captions": 46,
+ "cap_font_px": 56.2,
+ "cap_max_pill_w_px": 748.4,
+ "cap_w_budget_px": 756.0,
+ "anchors": {
+  "start": 0.1,
+  "kterm": 1.1,
+  "seam0": 2.36,
+  "kreg": 3.06,
+  "list": 3.8,
+  "tools": 4.18,
+  "decide": 4.7,
+  "read": 6.38,
+  "write": 7.32,
+  "seam1": 8.1,
+  "now2": 8.72,
+  "kone": 12.32,
+  "build": 14.06,
+  "workshop": 17.62,
+  "hammer": 21.62,
+  "screw": 22.28,
+  "settle": 25.0,
+  "now3": 25.42,
+  "built": 27.02,
+  "krlm": 29.4,
+  "against": 32.8,
+  "regular2": 33.28,
+  "outro": 38.78,
+  "news": 39.88
+ },
+ "html_bytes": 94129,
+ "sfx": 21,
+ "pen_loops": 6,
+ "pen_seconds": 1.86,
+ "pen_duty_pct": 4.3,
+ "captions_law3b": {
+  "beats_before_merge": 46,
+  "beats_after_merge": 46,
+  "merges": 0,
+  "merged_away": [],
+  "widest_pill_px": 748.4,
+  "budget_px": 756.0,
+  "beats": [
+   [
+    0.1,
+    0.94,
+    "Prime Agent is a"
+   ],
+   [
+    0.94,
+    2.36,
+    "new type of AI agent."
+   ],
+   [
+    2.36,
+    3.66,
+    "Regular AI agents have"
+   ],
+   [
+    3.66,
+    4.44,
+    "a list of tools"
+   ],
+   [
+    4.44,
+    5.24,
+    "that they decide to"
+   ],
+   [
+    5.24,
+    6.22,
+    "use, whether they need"
+   ],
+   [
+    6.22,
+    7.16,
+    "to read a document"
+   ],
+   [
+    7.16,
+    7.96,
+    "or write code,"
+   ],
+   [
+    7.96,
+    8.72,
+    "for example."
+   ],
+   [
+    8.72,
+    10.0,
+    "Now, Prime Agent is"
+   ],
+   [
+    10.0,
+    10.68,
+    "different in the way"
+   ],
+   [
+    10.68,
+    11.62,
+    "that it only has"
+   ],
+   [
+    11.62,
+    12.74,
+    "one single tool."
+   ],
+   [
+    12.74,
+    13.8,
+    "This tool allows it"
+   ],
+   [
+    13.8,
+    14.88,
+    "to build any tool"
+   ],
+   [
+    14.88,
+    15.78,
+    "that it might need."
+   ],
+   [
+    15.78,
+    16.74,
+    "Think about it like"
+   ],
+   [
+    16.74,
+    17.62,
+    "having a personalized"
+   ],
+   [
+    17.62,
+    18.24,
+    "workshop,"
+   ],
+   [
+    18.24,
+    19.5,
+    "and your AI agent"
+   ],
+   [
+    19.5,
+    20.74,
+    "is literally just able"
+   ],
+   [
+    20.74,
+    21.62,
+    "to create either a"
+   ],
+   [
+    21.62,
+    23.14,
+    "hammer or a screwdriver"
+   ],
+   [
+    23.14,
+    24.14,
+    "depending on the task"
+   ],
+   [
+    24.14,
+    25.0,
+    "that it needs to"
+   ],
+   [
+    25.0,
+    25.82,
+    "settle. Now,"
+   ],
+   [
+    25.82,
+    26.56,
+    "it's the first type"
+   ],
+   [
+    26.56,
+    27.36,
+    "of agent built on"
+   ],
+   [
+    27.36,
+    28.42,
+    "top of this technology,"
+   ],
+   [
+    28.42,
+    30.32,
+    "which is called RLM,"
+   ],
+   [
+    30.32,
+    30.98,
+    "so we don't really"
+   ],
+   [
+    30.98,
+    31.72,
+    "know if it's going"
+   ],
+   [
+    31.72,
+    32.8,
+    "to really be competing"
+   ],
+   [
+    32.8,
+    33.74,
+    "against regular"
+   ],
+   [
+    33.74,
+    34.58,
+    "AI agents,"
+   ],
+   [
+    34.58,
+    35.42,
+    "but it's always super"
+   ],
+   [
+    35.42,
+    36.06,
+    "interesting"
+   ],
+   [
+    36.06,
+    36.84,
+    "and exciting to"
+   ],
+   [
+    36.84,
+    37.74,
+    "see how the technology"
+   ],
+   [
+    37.74,
+    38.78,
+    "is moving forward."
+   ],
+   [
+    38.78,
+    39.66,
+    "Now follow for more"
+   ],
+   [
+    39.66,
+    40.14,
+    "AI news,"
+   ],
+   [
+    40.14,
+    41.26,
+    "videos, and tutorials each"
+   ],
+   [
+    41.26,
+    42.2,
+    "and every single day,"
+   ],
+   [
+    42.2,
+    42.58,
+    "and catch you in"
+   ],
+   [
+    42.58,
+    43.1,
+    "the next one."
+   ]
+  ],
+  "law": "captions.py 3b \u2014 merge_function_only_beats over the WHOLE beat stream, then assert_no_function_only_beat inside build()"
+ },
+ "boards": [
+  {
+   "board": 0,
+   "in": 0.3,
+   "erase_at": 2.36,
+   "erase": 0.3,
+   "name": "one ink-line tool printing machine on the axis \u2014 an open gantry on two feet, a filament spool on a stub axle off its left upright, a carriage and nozzle on the rail and a half-built part in stacked layer lines on the bed \u2014 with PRIME AGENT written large above it",
+   "keys": [
+    "PRIME AGENT"
+   ]
+  },
+  {
+   "board": 1,
+   "in": 2.42,
+   "erase_at": 8.58,
+   "erase": 0.3,
+   "name": "an open toolbox: a deep box with a latch, a strap handle arching over its rim, an open-end wrench standing out of it on the left and a toothed saw on the right, each lifting clear of the box and dropping back on the words that name a choice, REGULAR AGENTS written above it",
+   "keys": [
+    "REGULAR AGENTS"
+   ]
+  },
+  {
+   "board": 2,
+   "in": 8.64,
+   "erase_at": 21.5,
+   "erase": 0.3,
+   "name": "the same machine, larger and alone, its bed empty, ONE SINGLE TOOL written above it; then one terracotta extrusion stroke from the nozzle and five layer lines growing a part on the bed, and the gantry inside a terracotta marker box",
+   "keys": [
+    "ONE SINGLE TOOL"
+   ]
+  },
+  {
+   "board": 3,
+   "in": 21.56,
+   "erase_at": 25.34,
+   "erase": 0.3,
+   "name": "a claw hammer and a flat-blade screwdriver laid across each other at +/-34 degrees, alone on the whole board",
+   "keys": []
+  },
+  {
+   "board": 4,
+   "in": 25.4,
+   "erase_at": 38.78,
+   "erase": "the outro's rising sheet",
+   "name": "the machine drawn small at the top standing on one heavy slab with RLM written under it, a terracotta rule below, and a row of three ink tiles carrying the Claude Code, Codex and Cursor marks, each tile's border flipping terracotta",
+   "keys": [
+    "RLM"
+   ]
+  }
+ ],
+ "seam_law": {
+  "plan_mode": "chapters",
+  "chapters": 5,
+  "seams": [
+   2.36,
+   8.58,
+   21.5,
+   25.34
+  ],
+  "erase_s": [
+   0.3,
+   0.3,
+   0.3,
+   0.3
+  ],
+  "erase_completes": [
+   2.66,
+   8.88,
+   21.8,
+   25.64
+  ],
+  "qc_seams": "2.36,8.58,21.5,25.34",
+  "handover": [
+   {
+    "seam": 2.36,
+    "completes": 2.66,
+    "incoming": "toolbox: first ink 2.42 (INSIDE the erase), complete 2.9"
+   },
+   {
+    "seam": 8.58,
+    "completes": 8.88,
+    "incoming": "machine-main: first ink 8.64 (INSIDE the erase), complete 9.14"
+   },
+   {
+    "seam": 21.5,
+    "completes": 21.8,
+    "incoming": "hammer: first ink 21.56 (INSIDE the erase), complete 22.04"
+   },
+   {
+    "seam": 25.34,
+    "completes": 25.64,
+    "incoming": "machine-out: first ink 25.4 (INSIDE the erase), complete 25.86"
+   }
+  ],
+  "outro_wipe": 38.78,
+  "outro_note": "38.78 is the OUTRO WIPE \u2014 an opaque rising sheet, not a chapter seam \u2014 so it is not passed to seam_check and not passed to qc_pass as a seam."
+ },
+ "pointing_cues": {
+  "n": 0,
+  "waived": [],
+  "cards": [],
+  "note": "pipeline/pointing_cues.py --vid primeagent returned zero cues (gen/_cues_primeagent.json, cue_count 0). There is nothing to answer and nothing to waive; no source-post card appears anywhere on this board, so GLOBAL LAW 3 is satisfied by absence and no platform frame had to be chosen."
+ },
+ "phone_test_objects": [
+  {
+   "i": 0,
+   "name": "an open toolbox with tools",
+   "t": 8.2,
+   "bbox_board_u": [
+    166.5,
+    212.0,
+    409.5,
+    395.81
+   ],
+   "bbox_canvas": [
+    312.19,
+    397.5,
+    767.81,
+    742.15
+   ],
+   "bbox_norm": [
+    0.28906,
+    0.20703,
+    0.71094,
+    0.38654
+   ],
+   "plan_name": "open toolbox with tools",
+   "plan_t": 8.2
+  },
+  {
+   "i": 1,
+   "name": "a machine that prints a tool",
+   "t": 1.8,
+   "bbox_board_u": [
+    169.0,
+    202.0,
+    407.0,
+    368.97
+   ],
+   "bbox_canvas": [
+    316.88,
+    378.75,
+    763.12,
+    691.82
+   ],
+   "bbox_norm": [
+    0.29341,
+    0.19727,
+    0.70659,
+    0.36032
+   ],
+   "plan_name": "tool printing machine",
+   "plan_t": 1.8
+  },
+  {
+   "i": 2,
+   "name": "two crossed tools",
+   "t": 24.4,
+   "bbox_board_u": [
+    175.6,
+    172.95,
+    402.16,
+    370.87
+   ],
+   "bbox_canvas": [
+    329.25,
+    324.28,
+    754.05,
+    695.39
+   ],
+   "bbox_norm": [
+    0.30486,
+    0.1689,
+    0.69819,
+    0.36218
+   ],
+   "plan_name": "two crossed tools",
+   "plan_t": 24.4
+  }
+ ],
+ "phone_test_source": "plans/primeagent_plan.json -> bespoke_objects, redrawn in marker at THIS board's seats: the plan's bboxes are the shared core's (canvas space) and cannot be copied onto a 576 x 460 board. The TIMES are the plan's own. See plans/primeagent_wb_notes.md.",
+ "emphasis": [
+  {
+   "at": 17.62,
+   "target": "machine-main",
+   "kind": "terracotta marker box",
+   "why": "LAW 38 rule 2: the machine is a DRAWN object, so the emphasis is the marker box around its own gantry \u2014 the plan's own emphasis entry for beat 4 ('kind': 'box'). The pen taps its top-left corner (RUN-13). No ring, no ellipse, no circle."
+  },
+  {
+   "at": 33.28,
+   "target": "tile-claude-code",
+   "kind": "terracotta marker box",
+   "why": "LAW 38 rule 2: the tile is a DRAWN container with its own outline, so the boxing is the tile border. Rule 2b: the flip is never drawn on the raster mark itself."
+  },
+  {
+   "at": 33.34,
+   "target": "tile-codex",
+   "kind": "terracotta marker box",
+   "why": "LAW 38 rule 2: the tile is a DRAWN container with its own outline, so the boxing is the tile border. Rule 2b: the flip is never drawn on the raster mark itself."
+  },
+  {
+   "at": 33.4,
+   "target": "tile-cursor",
+   "kind": "terracotta marker box",
+   "why": "LAW 38 rule 2: the tile is a DRAWN container with its own outline, so the boxing is the tile border. Rule 2b: the flip is never drawn on the raster mark itself."
+  }
+ ],
+ "marks_inked": {
+  "cast": "claude-code, codex, cursor \u2014 the plan's own topical cast (plan.cast_note: 'the script's own comparison is regular AI agents, and these three are the agents this channel actually names'), as PRODUCT marks in COLOUR (coding-tools/claudecode-color.png \u2014 the plain no-outline mascot, NEVER coding-tools/claude-code.png, whose die-cut white edge would halo on the cream tile \u2014 codex-color.png and cursor.png) in the chart's 112 frame px tiles at radius 18 with the marker's detail hairline and each mark's INK at 0.50 of its tile.",
+  "not_used": "Prime Agent itself has NO registry mark and is the story's own DRAWN stage object, so chassis law 2's first half applies: it is named in the marker's hand and owes no logo."
+ },
+ "connectors": {
+  "n": 0,
+  "note": "LAW 40 binds connectors that exist; it does not require any. plan.connectors == [] and plan.connectors_note: every remaining relationship on this board is CONTAINMENT (the tools in the box, the part on the bed, the machine on the slab) and is carried by the declared blocks."
+ },
+ "plan_geometry": {
+  "machine_hook_u": [
+   173.0,
+   206.0,
+   403.0,
+   364.97
+  ],
+  "toolbox_u": [
+   170.5,
+   216.0,
+   405.5,
+   391.81
+  ],
+  "machine_main_u": [
+   163.0,
+   212.0,
+   413.0,
+   384.79
+  ],
+  "machine_gantry_u": [
+   231.01,
+   212.0,
+   413.0,
+   370.09
+  ],
+  "bed_part_u": [
+   294.43,
+   302.07,
+   349.58,
+   338.84
+  ],
+  "hammer_u": [
+   179.6,
+   176.95,
+   335.96,
+   357.31
+  ],
+  "screwdriver_u": [
+   268.09,
+   194.94,
+   398.16,
+   366.87
+  ],
+  "pair_u": [
+   179.6,
+   176.95,
+   398.16,
+   366.87
+  ],
+  "machine_out_u": [
+   220.0,
+   164.0,
+   356.0,
+   258.0
+  ],
+  "slab_u": [
+   198.0,
+   258.0,
+   378.0,
+   272.0
+  ],
+  "rule_u": [
+   170.65,
+   314.0,
+   405.35,
+   317.73
+  ],
+  "tiles_u": [
+   [
+    170.73,
+    336.0,
+    230.47,
+    395.73
+   ],
+   [
+    258.13,
+    336.0,
+    317.87,
+    395.73
+   ],
+   [
+    345.53,
+    336.0,
+    405.27,
+    395.73
+   ]
+  ],
+  "keys_u": {
+   "PRIME AGENT": [
+    193.12,
+    156.0,
+    382.88,
+    191.65
+   ],
+   "REGULAR AGENTS": [
+    210.72,
+    166.0,
+    365.28,
+    189.15
+   ],
+   "ONE SINGLE TOOL": [
+    205.5,
+    172.0,
+    370.5,
+    195.15
+   ],
+   "RLM": [
+    268.21,
+    278.0,
+    307.79,
+    301.15
+   ]
+  },
+  "symmetry": "every chapter is symmetric about x = 288 by construction: the three machines (173+403, 163+413, 220+356), the toolbox (170.5+405.5), the crossed pair's ink (179.6+398.2), the slab (198+378), the rule (170.65+405.35), the tile row (200.6/288/375.4) and all four written keys on the axis.",
+  "note": "THIS BOARD'S geometry, asserted against the plan's ORDER, SIDES, CHAPTERS and INSTANTS rather than its coordinates: the same three bespoke objects (redrawn from the sealed module's own authoring paths), the same four keys, the same above/below placement, the same five chapters with the same four erases, no connector, and the same two emphasis kinds."
+ }
+}

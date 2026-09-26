@@ -1,0 +1,135 @@
+{
+ "pass": false,
+ "visual": {
+  "pass": false,
+  "errors": [
+   {
+    "kind": "pop_in",
+    "at_seconds": 6,
+    "description": "The SpaceX logo box pops in mid-beat with no entrance state."
+   },
+   {
+    "kind": "pop_in",
+    "at_seconds": 18,
+    "description": "The Grok logo box pops in mid-beat without a proper entrance."
+   }
+  ],
+  "minor_notes": [
+   "The speaker's face and lower-third presentation are clear, but the whiteboard graphic elements suffer from abrupt pop-ins rather than smooth drawing/entrance animations."
+  ],
+  "summary": "The video failed the QC check due to pop-in errors where structural elements appeared fully formed mid-beat without smooth entrances."
+ },
+ "semantic": {
+  "pass": true,
+  "errors": [],
+  "minor_notes": [
+   "The video uses simple animated doodles to illustrate the narrative context effectively."
+  ],
+  "summary": "The visual elements nicely complement the narration, illustrating concepts like the Cursor brand acquisition by SpaceX and Grok without repeating transcript text."
+ },
+ "describe": {
+  "enabled": true,
+  "frames": [
+   {
+    "at_seconds": 0.0,
+    "description": "A vertical line with a red pencil icon drawing a stroke next to it, with the presenter's face below and caption 'One of the'",
+    "spoken_words": "One of the",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 1.7,
+    "description": "A flag with a heart on it, a pole, and a red pencil above it, with the presenter and caption 'loved brands in the'",
+    "spoken_words": "loved brands in the",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 3.4,
+    "description": "The flag with heart is unchanged, with caption 'AI space by developers'",
+    "spoken_words": "AI space by developers",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 5.1,
+    "description": "The word SUNSET appears above the flag with heart, with caption 'be sunset.'",
+    "spoken_words": "be sunset.",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 6.8,
+    "description": "A box with SPACEX text appears below the flag, and the heart is replaced by a cube icon, with caption 'Cursor has been acquired'",
+    "spoken_words": "Cursor has been acquired",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 8.5,
+    "description": "A red pencil icon is drawing below the SpaceX box, with caption 'by SpaceX AI,'",
+    "spoken_words": "by SpaceX AI,",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 10.2,
+    "description": "Dotted lines appear above the flag pole, with caption 'mapping out the'",
+    "spoken_words": "mapping out the",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 11.9,
+    "description": "More dotted lines are drawn upwards along the flag pole by the red pencil, with caption 'over the next few coming'",
+    "spoken_words": "over the next few coming",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 13.6,
+    "description": "The flag is now at the top of a multi-tiered pole with dotted lines, with caption 'months while it gets'",
+    "spoken_words": "months while it gets",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 15.3,
+    "description": "The red pencil draws a box next to the SpaceX box, with caption 'absorbed by SpaceX AI'",
+    "spoken_words": "absorbed by SpaceX AI",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 17.0,
+    "description": "A slash-zero symbol appears inside the second box next to SpaceX, with caption 'and Grok.'",
+    "spoken_words": "and Grok.",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 18.7,
+    "description": "The upper graphic changes to text '@migueltorrez.ai daily AI', with caption 'videos, and tutorials each'",
+    "spoken_words": "videos, and tutorials each",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 20.4,
+    "description": "The social handle graphic remains, with caption 'and every single day,'",
+    "spoken_words": "and every single day,",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 21.8,
+    "description": "The social handle graphic remains, with caption '(none)'",
+    "spoken_words": "(none)",
+    "object_identifiable": true,
+    "matches_beat": true
+   }
+  ],
+  "summary": "The presenter explains that the brand Cursor is being sunsetted and acquired by SpaceX AI and Grok, accompanied by animated diagrams on screen.",
+  "errors": []
+ }
+}

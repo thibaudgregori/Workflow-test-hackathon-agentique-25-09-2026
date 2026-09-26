@@ -1,0 +1,24 @@
+{
+  "verdict": "PASS",
+  "plan_json": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/plans/claudesessions_plan.json",
+  "plan_md": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/plans/claudesessions_plan.md",
+  "lane": "diagram build",
+  "lane_reason": "The whole claim is a STRUCTURE - two Claude Code sessions, a live link between them, then a third joining the same link - so the top zone builds that structure node by node on the words that name each part, which is exactly what diagram build does and what icon choreography (a wall of marks) cannot.",
+  "beats": 5,
+  "bespoke_names": [
+    "two walkie talkies",
+    "three walkie talkies"
+  ],
+  "cues": "pointing_cues: the scan returned 0 cues (gen/_cues_claudesessions.json cues=[]); plan pointing_cues is [] - nothing to answer and nothing to waive.",
+  "board_mode": "chapters",
+  "open_questions": [
+    "The cutout's k is derived from that session's own matte envelope. At k below about 0.88 the two 26 px sibling keys (LONG-RUNNING, ONE SESSION) fall under 23 canvas px; if the cutout author lands there, raise those two keys to 30 core px rather than moving them, since their baseline is a LAW 50 commitment.",
+    "The middle slot (core 461..619 x 288..446) is used twice in chapter 0 - the Claude Code tile until 6.38, then the struck figure from 6.94. If a lane needs the tile to persist longer, the figure has to move instead, and that is a LAW 25 move with no spoken reason, so the tile leaving is the correct answer."
+  ],
+  "open_doubts": [],
+  "scene_handoff": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/plans/claudesessions_scene_handoff.md",
+  "scene_module": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/gen/claudesessions_scene.py",
+  "sealed": true,
+  "proofs": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/proofs_claudesessions",
+  "reason": "Partial rerun, no design change requested. Plan, scene module and handoff already exist and are unchanged; the seal review/artwork_pass_claudesessions.json is PASS and its two evidence hashes still match the files on disk byte for byte (scene df2326be..., handoff d4968baa...). Both bespoke crops re-opened and re-read: two walkie talkies / three walkie talkies, terracotta arc link, no common-UI-glyph silhouette. The chair in the cutout matte is Astra's lane, not a design change."
+}

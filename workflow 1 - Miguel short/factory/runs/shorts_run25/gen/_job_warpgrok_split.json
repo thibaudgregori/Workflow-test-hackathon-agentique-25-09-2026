@@ -1,0 +1,15 @@
+{
+  "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/projects/warpgrok_split",
+  "vid": "warpgrok",
+  "fmt": "split",
+  "quality": "high",
+  "stage": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/staging/youtube/warpgrok_split.mp4",
+  "qc_args": [
+    "--voice-master",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/cuts/warpgrok/audio.m4a",
+    "--phone-at",
+    "2.6:0.2685,0.2208,0.7315,0.3719:three loose keys",
+    "--phone-at",
+    "9.2:0.1296,0.1469,0.8704,0.3604:wall key rack"
+  ]
+}

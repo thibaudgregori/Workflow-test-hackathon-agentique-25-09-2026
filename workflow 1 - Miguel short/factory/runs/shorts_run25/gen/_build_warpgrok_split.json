@@ -1,0 +1,603 @@
+{
+ "video": "warpgrok",
+ "lane": "icon choreography",
+ "fps": 25,
+ "duration": 26.32,
+ "seam": 862.5,
+ "formats": {
+  "split": {
+   "staged": {
+    "voice": {
+     "source": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/cuts/warpgrok/audio.m4a",
+     "sample_rate": 48000,
+     "channels": 2
+    },
+    "bed": "/Users/migle/Documents/Workspace/assets/audio/music/shorts-factory/bed_split_v2.mp3",
+    "sfx_sources": {
+     "whoosh": "/Users/migle/Documents/Workspace/assets/audio/sfx/shorts-factory/whoosh.mp3",
+     "pop": "/Users/migle/Documents/Workspace/assets/audio/sfx/shorts-factory/pop.mp3",
+     "click": "/Users/migle/Documents/Workspace/assets/audio/sfx/shorts-factory/click.mp3"
+    },
+    "face": {
+     "file": "face_bottom_hd.mp4",
+     "w": 1080,
+     "h": 1058
+    },
+    "marks": {
+     "warp": {
+      "source": "/Users/migle/Documents/Workspace/assets/logos/coding-tools/warp.png",
+      "url": "assets/logos/warp.png"
+     },
+     "claude": {
+      "source": "/Users/migle/Documents/Workspace/assets/logos/ai-models/claude-color.png",
+      "url": "assets/logos/claude-color.png"
+     },
+     "openai": {
+      "source": "/Users/migle/Documents/Workspace/assets/logos/ai-models/openai.png",
+      "url": "assets/logos/openai.png"
+     },
+     "gemini": {
+      "source": "/Users/migle/Documents/Workspace/assets/logos/ai-models/gemini-color.png",
+      "url": "assets/logos/gemini-color.png"
+     },
+     "grok": {
+      "source": "/Users/migle/Documents/Workspace/assets/logos/ai-models/grok.png",
+      "url": "assets/logos/grok.png"
+     }
+    }
+   },
+   "seat": 862.5,
+   "scale": 1.0,
+   "core": {
+    "left": 0.0,
+    "top": 192.0
+   },
+   "band": {
+    "content_top": 280.0,
+    "content_bottom": 754.0,
+    "pill_top_rendered": 805.205,
+    "clear_above_pill": 51.21,
+    "clear_below_law30": 88.0
+   },
+   "rail": {
+    "readable_type_right_x": 890.4,
+    "ink_left_x": 140.0,
+    "ink_right_x": 947.0,
+    "law30_rail_x": 918.0
+   },
+   "cues": {
+    "slide1": {
+     "word": 6,
+     "text": "multiple",
+     "t": 1.06
+    },
+    "k2": {
+     "word": 7,
+     "text": "AI",
+     "t": 1.5
+    },
+    "k3": {
+     "word": 8,
+     "text": "agents",
+     "t": 1.76
+    },
+    "jangle": {
+     "word": 15,
+     "text": "same",
+     "t": 3.38
+    },
+    "plank": {
+     "word": 23,
+     "text": "Warp,",
+     "t": 5.62
+    },
+    "hooks": {
+     "word": 26,
+     "text": "centralize",
+     "t": 6.48
+    },
+    "hang1": {
+     "word": 27,
+     "text": "all",
+     "t": 7.06
+    },
+    "hang2": {
+     "word": 30,
+     "text": "different",
+     "t": 7.42
+    },
+    "hang3": {
+     "word": 31,
+     "text": "providers",
+     "t": 7.74
+    },
+    "plankflip": {
+     "word": 37,
+     "text": "one",
+     "t": 9.62
+    },
+    "bowflip": {
+     "word": 44,
+     "text": "everything",
+     "t": 12.26
+    },
+    "shift": {
+     "word": 60,
+     "text": "released",
+     "t": 16.84
+    },
+    "hook4": {
+     "word": 62,
+     "text": "new",
+     "t": 17.24
+    },
+    "grok": {
+     "word": 70,
+     "text": "Grok",
+     "t": 19.42
+    },
+    "grokflip": {
+     "word": 71,
+     "text": "subscription",
+     "t": 19.7
+    },
+    "plankflip2": {
+     "word": 74,
+     "text": "Warp",
+     "t": 21.36
+    },
+    "outro": {
+     "word": 76,
+     "text": "Now,",
+     "t": 22.3
+    },
+    "k1": {
+     "word": 1,
+     "text": "you're",
+     "t": 0.3,
+     "window": [
+      0.24,
+      1.34
+     ]
+    },
+    "wmark": {
+     "word": 23,
+     "text": "Warp,",
+     "t": 5.8,
+     "window": [
+      5.62,
+      6.86
+     ]
+    },
+    "keyterm": {
+     "word": 23,
+     "text": "Warp,",
+     "t": 5.92,
+     "window": [
+      5.62,
+      6.86
+     ]
+    },
+    "providers": {
+     "word": 31,
+     "text": "providers",
+     "t": 8.16,
+     "window": [
+      7.74,
+      9.14
+     ]
+    },
+    "grokkey": {
+     "word": 70,
+     "text": "Grok",
+     "t": 19.6,
+     "window": [
+      19.42,
+      20.64
+     ]
+    },
+    "_law43": {
+     "board_mode": "single",
+     "chapters": 1,
+     "only_erase": "the outro sheet at 22.30"
+    }
+   },
+   "word_sync": {
+    "typed_states": [
+     {
+      "state": "key-term-warp",
+      "first_visible_text": "WARP",
+      "at": 5.92,
+      "word": "Warp,",
+      "word_window": [
+       5.62,
+       6.86
+      ]
+     },
+     {
+      "state": "label-providers",
+      "first_visible_text": "PROVIDERS",
+      "at": 8.16,
+      "word": "providers",
+      "word_window": [
+       7.74,
+       9.14
+      ]
+     },
+     {
+      "state": "label-grok",
+      "first_visible_text": "GROK",
+      "at": 19.6,
+      "word": "Grok",
+      "word_window": [
+       19.42,
+       20.64
+      ]
+     }
+    ],
+    "disagreements": 0,
+    "digits_that_tick": 0
+   },
+   "law37": {
+    "scan_cue_count": 0,
+    "plan_declared_cards": 0,
+    "source_cards_in_the_page": 0
+   },
+   "law39": {
+    "key-term-warp": {
+     "host": "key-rack",
+     "side": "inside",
+     "text": "WARP",
+     "at": 5.92,
+     "box_canvas": [
+      517.0,
+      295.0,
+      645.0,
+      353.0
+     ]
+    },
+    "label-providers": {
+     "host": "key-openai",
+     "side": "below",
+     "text": "PROVIDERS",
+     "at": 8.16,
+     "box_canvas": [
+      448.0,
+      710.0,
+      632.0,
+      754.0
+     ]
+    },
+    "label-grok": {
+     "host": "key-grok",
+     "side": "below",
+     "text": "GROK",
+     "at": 19.6,
+     "box_canvas": [
+      763.0,
+      710.0,
+      947.0,
+      754.0
+     ]
+    },
+    "_law50": {
+     "baseline_core_y": 518.0,
+     "font_px": 28.0
+    },
+    "_key_term": {
+     "text": "WARP",
+     "font_px": 48.0,
+     "design_units": 25.6,
+     "first_type": true
+    }
+   },
+   "law42": {
+    "board_mode": "single",
+    "anchors": [
+     "hook-1",
+     "hook-2",
+     "hook-3",
+     "key-claude",
+     "key-gemini",
+     "key-openai",
+     "key-rack",
+     "key-term-warp",
+     "label-providers",
+     "o-glyph",
+     "o-rule",
+     "o-sheet",
+     "o-slot",
+     "warp-mark"
+    ],
+    "finite": {
+     "emph-plank": [
+      9.62,
+      11.24
+     ],
+     "emph-heads": [
+      12.26,
+      13.94
+     ],
+     "hook-4": [
+      17.24,
+      22.78
+     ],
+     "key-grok": [
+      19.42,
+      22.78
+     ],
+     "label-grok": [
+      19.6,
+      22.78
+     ],
+     "emph-grok": [
+      19.7,
+      22.78
+     ],
+     "emph-plank-2": [
+      21.36,
+      22.78
+     ]
+    },
+    "grok_share": 0.128,
+    "plan_marks": [
+     "emphasis boxes",
+     "hook-4",
+     "hooks 1-3",
+     "key-claude",
+     "key-gemini",
+     "key-grok",
+     "key-openai",
+     "key-rack",
+     "key-term-warp",
+     "label-grok",
+     "label-providers"
+    ]
+   },
+   "law41": {
+    "tightest_core_px": 61.0,
+    "tightest_pair": [
+     "key-rack",
+     "key-claude",
+     8.54
+    ],
+    "refusal_line": 16.0,
+    "blocks": [
+     [
+      "key-rack",
+      "warp-mark",
+      "key-term-warp"
+     ],
+     [
+      "hook-1",
+      "key-claude"
+     ],
+     [
+      "hook-2",
+      "key-openai"
+     ],
+     [
+      "hook-3",
+      "key-gemini"
+     ],
+     [
+      "hook-4",
+      "key-grok",
+      "label-grok"
+     ],
+     [
+      "key-claude",
+      "key-openai",
+      "key-gemini",
+      "label-providers"
+     ]
+    ]
+   },
+   "law38": {
+    "border_flips": [
+     {
+      "target": "plank-outline",
+      "from": 9.62,
+      "until": 11.0
+     },
+     {
+      "target": "key-heads x3",
+      "from": 12.26,
+      "until": 13.7
+     },
+     {
+      "target": "key-grok-head",
+      "from": 19.7,
+      "until": 22.3
+     },
+     {
+      "target": "plank-outline",
+      "from": 21.36,
+      "until": 22.3
+     }
+    ],
+    "rings_ellipses_circles": 0,
+    "highlights": 0,
+    "dom_elements_added": 0
+   },
+   "law2": {
+    "stage_marks": [
+     "claude",
+     "gemini",
+     "grok",
+     "openai",
+     "warp"
+    ],
+    "resolved": {
+     "warp": "/Users/migle/Documents/Workspace/assets/logos/coding-tools/warp.png",
+     "claude": "/Users/migle/Documents/Workspace/assets/logos/ai-models/claude-color.png",
+     "openai": "/Users/migle/Documents/Workspace/assets/logos/ai-models/openai.png",
+     "gemini": "/Users/migle/Documents/Workspace/assets/logos/ai-models/gemini-color.png",
+     "grok": "/Users/migle/Documents/Workspace/assets/logos/ai-models/grok.png"
+    },
+    "sides_core_px": {
+     "claude": 50.0,
+     "openai": 50.0,
+     "gemini": 50.0,
+     "grok": 48.0,
+     "warp": 54.0
+    },
+    "cutout_lanes_not_ours": [
+     "codex",
+     "cursor",
+     "opencode",
+     "copilot",
+     "kimi",
+     "deepseek"
+    ]
+   },
+   "law22": {
+    "events": 12,
+    "tightest_gap_s": 0.3,
+    "deliberately_silent": {
+     "k3 1.76": "0.26 s after the OpenAI pop; one pop scores the pair",
+     "hang2/hang3": "one whoosh scores the three hangs as one gesture",
+     "flips": "a colour flip is not an arrival",
+     "label-grok 19.60": "0.18 s after the Grok pop"
+    }
+   },
+   "draw_on": {
+    "dash_selectors": {
+     "#hook-4 .hk": 1,
+     "#hook-2 .hk": 1,
+     "#plank-outline": 1,
+     "#hook-3 .hk": 1,
+     "#hook-1 .hk": 1
+    },
+    "verdict": "every dash equals its path's declared length (100)"
+   },
+   "transcript": {
+    "law47_tail_s": 0.24,
+    "law47_cap_s": 0.24,
+    "law47_verdict": "REPORTED \u2014 0.240s past the last word against a 0.240s cap",
+    "law46": "the scripted opening occurs ONCE inside the keeper take, at word 0 / 0.16 s",
+    "take_corroboration": {
+     "method": "last scripted opening that reaches the spoken sign-off; the content rule decides, the marker rule and the gap sweep witness",
+     "raw_word_index": 359,
+     "raw_start_s": 162.2,
+     "words": 98,
+     "of_raw_words": 457,
+     "openings_without_truncation_arm": 13,
+     "sign_offs_found": 1,
+     "marker_rule": "equality",
+     "marker_answer": 359,
+     "markers_before_take": 14,
+     "gap_rule": "DISAGREES",
+     "gap_boundary_gap_s": 0.8,
+     "corroboration": {
+      "marker": "equality",
+      "gap": "DISAGREES",
+      "witnessed": true,
+      "allow_uncorroborated": false
+     }
+    },
+    "words": 97,
+    "function_word_merges": 0,
+    "beats_before_merge": 27,
+    "orphan_repartitions": [],
+    "solo_word_merges": [
+     {
+      "solo": "one.",
+      "direction": "backward",
+      "merged_to": "catch you in the next one."
+     }
+    ],
+    "board_keys_forbidden_at_split": [
+     "grok",
+     "grok!",
+     "grok,",
+     "grok.",
+     "grok?",
+     "providers",
+     "providers!",
+     "providers,",
+     "providers.",
+     "providers?",
+     "warp",
+     "warp!",
+     "warp,",
+     "warp.",
+     "warp?"
+    ]
+   },
+   "phone_objects": [
+    {
+     "name": "three loose keys",
+     "t": 2.6,
+     "bbox": [
+      0.2778,
+      0.2302,
+      0.7315,
+      0.376
+     ],
+     "canvas": [
+      300.0,
+      442.0,
+      790.0,
+      722.0
+     ]
+    },
+    {
+     "name": "wall key rack",
+     "t": 9.2,
+     "bbox": [
+      0.1296,
+      0.1458,
+      0.8704,
+      0.362
+     ],
+     "canvas": [
+      140.0,
+      280.0,
+      940.0,
+      695.0
+     ]
+    }
+   ],
+   "render": {
+    "w": 1080,
+    "h": 1920,
+    "zoom": 1
+   },
+   "handle": "@migueltorrezai",
+   "captions": {
+    "n": 26,
+    "widest_px": 749.0,
+    "texts": [
+     "If you're someone",
+     "who works with",
+     "multiple AI agents",
+     "inside of a terminal",
+     "at the same time,",
+     "this video's for you.",
+     "By using Warp, you",
+     "can centralize all of the",
+     "different providers that",
+     "you're using inside of",
+     "one simple application,",
+     "giving you access",
+     "to everything that",
+     "you might need in",
+     "a nicer interface.",
+     "On top of this, they",
+     "literally just released",
+     "a new feature that",
+     "allows you to use",
+     "your Grok subscription",
+     "with the Warp agent.",
+     "Now, follow for more",
+     "AI news, videos, and",
+     "tutorials each and",
+     "every single day, and",
+     "catch you in the next one."
+    ],
+    "min_aspect": 4.34
+   }
+  }
+ }
+}

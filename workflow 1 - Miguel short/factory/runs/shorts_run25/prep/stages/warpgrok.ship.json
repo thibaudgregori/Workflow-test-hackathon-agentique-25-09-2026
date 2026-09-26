@@ -1,0 +1,28 @@
+{
+ "id": "warpgrok",
+ "stage": "ship",
+ "status": "ok",
+ "wall_s": 109.27406058399356,
+ "at": "2026-09-22T22:55:37",
+ "keys": {
+  "status": "ok",
+  "backend": "matanyone2",
+  "frames": 658,
+  "width": 1320,
+  "height": 990,
+  "fps": 25.0,
+  "alpha_mode": "soft",
+  "rim_px": 7,
+  "temporal": 1,
+  "seconds": 79.68482754300001,
+  "estimated_compute_usd": 0.03623428478035296,
+  "fractional_alpha_pixels": 13194696,
+  "minimum_person_fraction": 0.4464845423936333,
+  "review_status": "needs_final_visual_review",
+  "ship_source_sha256": "0154788627eb98961c3eb2bc600e14d29cbc4f0de84b5c925b98e03e19bbd250",
+  "client_wall_seconds": 109.27406058399356,
+  "ship_seconds": 79.68482754300001,
+  "wall_s": 109.27406058399356,
+  "cost_usd": 0.03623428478035296
+ }
+}

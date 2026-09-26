@@ -1,0 +1,65 @@
+{
+ "set": "seal",
+ "phone_scale": "405x720",
+ "module": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/gen/claudesessions_scene.py",
+ "objects": [
+  {
+   "i": 0,
+   "label": "pair",
+   "intended": "two walkie talkies",
+   "core_box": [
+    217.0,
+    128.0,
+    863.0,
+    482.0
+   ],
+   "norm_box": [
+    0.2009,
+    0.1667,
+    0.7991,
+    0.351
+   ],
+   "phone_box_px": [
+    81,
+    120,
+    324,
+    253
+   ],
+   "phone_size_px": [
+    243,
+    133
+   ],
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/proofs_claudesessions/crop_seal_00_pair.png",
+   "frame": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/proofs_claudesessions/frame_seal_00.png"
+  },
+  {
+   "i": 1,
+   "label": "team",
+   "intended": "three walkie talkies",
+   "core_box": [
+    205.0,
+    96.0,
+    875.0,
+    343.0
+   ],
+   "norm_box": [
+    0.1898,
+    0.15,
+    0.8102,
+    0.2786
+   ],
+   "phone_box_px": [
+    77,
+    108,
+    328,
+    201
+   ],
+   "phone_size_px": [
+    251,
+    93
+   ],
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/proofs_claudesessions/crop_seal_01_team.png",
+   "frame": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/proofs_claudesessions/frame_seal_01.png"
+  }
+ ]
+}

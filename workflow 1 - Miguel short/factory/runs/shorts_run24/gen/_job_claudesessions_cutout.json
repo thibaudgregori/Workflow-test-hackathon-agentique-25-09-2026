@@ -1,0 +1,22 @@
+{
+  "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/projects/claudesessions_cutout",
+  "vid": "claudesessions",
+  "fmt": "cutout",
+  "quality": "high",
+  "geom": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/gen/_geom_claudesessions_cutout.json",
+  "stage": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/staging/tiktok/claudesessions_cutout.mp4",
+  "qc_args": [
+    "--voice-master",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/cuts/claudesessions/audio.m4a",
+    "--phone-at",
+    "2.4:0.20093,0.17953,0.79907,0.36391:two walkie talkies",
+    "--phone-at",
+    "16.0:0.18981,0.16286,0.81019,0.29151:three walkie talkies",
+    "--alpha",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/matting/claudesessions/matte_claudesessions_v5_alpha.webm",
+    "--edge-box",
+    "1584x990+-153+930",
+    "--plate",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/matting/claudesessions/plate_display_1584x990.mp4"
+  ]
+}

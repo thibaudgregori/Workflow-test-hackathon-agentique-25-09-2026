@@ -1,0 +1,24 @@
+{
+ "video": "cursorspacex",
+ "format": "cutout",
+ "round": "confirm (ONE round, 2026-09-14 rule): the object was SEALED at the artwork seat over three independent concurrent rounds (review/artwork_pass_cursorspacex.json), and this lane's page crop is byte-identical ink in a new frame.  No object is new to this lane and none failed, so no redraw and no --rounds 3 re-read is owed.  The crop was never re-dispatched.",
+ "evidence": "review/phone_reader_cursorspacex_cutout.json",
+ "artwork_seal": "review/artwork_pass_cursorspacex.json",
+ "objects": [
+  {
+   "i": 0,
+   "verdict": "PASS",
+   "intended": "flag on pole",
+   "reader_name": "flag with heart",
+   "reader_confidence": "sure",
+   "words": 3,
+   "match": "synonym",
+   "reason": "SCORE THE IDEA, NOT THE NOUN.  The drawn object is a flag on a pole carrying a heart, and the reader named the flag AND the thing printed on it in three words, `sure`, on a single round.  That is the intended object plus its own content, not a different thing, and it is the same answer all three artwork-seat readers gave ('flag with heart' x3, all sure).  No hedge, no 'cannot tell'."
+  }
+ ],
+ "verdict": "PASS",
+ "objects_passed": 1,
+ "objects_failed": 0,
+ "redesigns": 0,
+ "rounds": 1
+}

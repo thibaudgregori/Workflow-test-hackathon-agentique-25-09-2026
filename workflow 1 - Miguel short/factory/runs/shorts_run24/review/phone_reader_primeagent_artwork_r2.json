@@ -1,0 +1,36 @@
+{
+  "tag": "round_r2",
+  "cold_dir": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/cold/round_r2-b7d23c55",
+  "reader": "one independent `claude -p` process per crop, launched from /tmp, handed ONLY the absolute path of a blind copy under a random token - no plan, no topic, no manifest, no sealed key, and no path naming the video",
+  "prompt": "Look at the image at <absolute path of one blind crop> . Name the single everyday object drawn in it. At most FIVE words. Reply with ONE line of JSON and nothing else: {\"name\":\"<=5 words\",\"confidence\":\"sure|unsure|cannot tell\"}",
+  "dispatched_at": "2026-09-21T18:14:08",
+  "cli": "2.1.278 (Claude Code)",
+  "source_crops": {
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/proofs/crop_seal_00_rack.png": "c7e6eff0d8c0d0ad77dc2ae67a201c8e9b2c64e770306b69b1d22b4fbdfef798",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/proofs/crop_seal_01_machine.png": "f47bbc02eeb86e41b6780a3796bc484e8c326c5fb44bafd2cb9b19ce7e82db75",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/proofs/crop_seal_02_pair.png": "be3649d308285db079755d15845749e324170378341e7b151c7f86228a34bd0b"
+  },
+  "names": [
+    {
+      "i": 0,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/cold/round_r2-b7d23c55/00.png",
+      "name": "toolbox",
+      "confidence": "sure",
+      "crop_sha256": "c7e6eff0d8c0d0ad77dc2ae67a201c8e9b2c64e770306b69b1d22b4fbdfef798"
+    },
+    {
+      "i": 1,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/cold/round_r2-b7d23c55/01.png",
+      "name": "3D printer",
+      "confidence": "sure",
+      "crop_sha256": "f47bbc02eeb86e41b6780a3796bc484e8c326c5fb44bafd2cb9b19ce7e82db75"
+    },
+    {
+      "i": 2,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/cold/round_r2-b7d23c55/02.png",
+      "name": "signpost and potted plant",
+      "confidence": "unsure",
+      "crop_sha256": "be3649d308285db079755d15845749e324170378341e7b151c7f86228a34bd0b"
+    }
+  ]
+}

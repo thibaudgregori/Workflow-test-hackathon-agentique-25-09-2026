@@ -1,0 +1,128 @@
+{
+ "pass": false,
+ "visual": {
+  "pass": true,
+  "errors": [],
+  "minor_notes": [],
+  "summary": "The video follows all visual quality control criteria properly with no detected errors."
+ },
+ "semantic": {
+  "pass": false,
+  "errors": [
+   {
+    "kind": "missing_logo",
+    "at_seconds": 2.9,
+    "description": "Claude Code is mentioned at 2.9s, but instead of the official Claude logo or icon, a generic text/pixel icon is displayed."
+   }
+  ],
+  "minor_notes": [
+   "Diagrams effectively illustrate session communication."
+  ],
+  "summary": "The video fails due to missing the official Claude logo when Claude Code is mentioned."
+ },
+ "describe": {
+  "enabled": true,
+  "frames": [
+   {
+    "at_seconds": 0.0,
+    "description": "An icon of a walkie-talkie on the left and a sheet of paper with a pencil on the right, with the caption 'Claude can now talk' at the bottom.",
+    "spoken_words": "Claude can now talk",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 1.5,
+    "description": "Two walkie-talkie icons connected by a red curved line with a pencil icon near the right one, and the caption 'with itself.' below.",
+    "spoken_words": "with itself.",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 3.0,
+    "description": "A presenter wearing a cap and black shirt speaks in front of sunflowers, with an icon diagram above him and the caption 'Claude Code,'.",
+    "spoken_words": "Claude Code,",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 4.5,
+    "description": "The presenter speaking with his hands up, with a diagram of walkie-talkies above showing 'SESSIONS TALK', and caption 'communicate'.",
+    "spoken_words": "communicate",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 6.0,
+    "description": "The presenter speaking, with the diagram above showing two connected walkie-talkies and caption 'with one another.'",
+    "spoken_words": "with one another.",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 7.5,
+    "description": "The presenter gesturing while speaking, with a diagram showing a person icon between walkie-talkies, and caption 'have to'.",
+    "spoken_words": "have to",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 9.0,
+    "description": "The presenter looking at the camera, with the diagram showing dashed arrows and a pencil, and the caption 'session.'.",
+    "spoken_words": "session.",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 10.5,
+    "description": "The presenter holding his fists up with a slight smile, with a diagram showing two separate walkie-talkies and caption 'long-running'.",
+    "spoken_words": "long-running",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 12.0,
+    "description": "The presenter gesturing outward with open hands, with a diagram showing three walkie-talkie units and caption 'have'.",
+    "spoken_words": "have",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 13.5,
+    "description": "The presenter speaking with a focused expression, with a diagram above highlighting one session box and caption 'and just'.",
+    "spoken_words": "and just",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 15.0,
+    "description": "The presenter with hands gesturing outward, with the diagram above showing a red connecting line and caption 'and'.",
+    "spoken_words": "and",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 16.5,
+    "description": "The presenter looking forward, with the diagram above finished and the caption 'as teammates.' at the bottom.",
+    "spoken_words": "as teammates.",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 18.0,
+    "description": "The presenter speaking with a social media handle card '@migueltorrez.ai' displayed above him and caption 'news,'.",
+    "spoken_words": "news,",
+    "object_identifiable": true,
+    "matches_beat": true
+   },
+   {
+    "at_seconds": 20.0,
+    "description": "The presenter pointing forward with his finger, with the social media handle card above him and caption 'day,'.",
+    "spoken_words": "day,",
+    "object_identifiable": true,
+    "matches_beat": true
+   }
+  ],
+  "summary": "A short video explaining how Claude Code sessions can now communicate with one another to handle long-running tasks together as teammates, accompanied by illustrated diagrams and spoken narration.",
+  "errors": []
+ }
+}

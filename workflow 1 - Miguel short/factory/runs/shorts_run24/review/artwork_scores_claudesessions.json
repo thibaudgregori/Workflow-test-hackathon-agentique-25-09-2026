@@ -1,0 +1,25 @@
+{
+ "vid": "claudesessions",
+ "module": "runs/shorts_run24/gen/claudesessions_scene.py",
+ "crops": {
+  "0": "review/proofs_claudesessions/crop_seal_00_pair.png  sha256 110b60cf6f31701f44d756c1a8639fa77f43b3a8bb0a2033d268c4b58ea4e8a3",
+  "1": "review/proofs_claudesessions/crop_seal_01_team.png  sha256 78ccd20274d64ca0cb100af012ea26515964b22ab93e8b3950f2c2dc3ee7b613"
+ },
+ "note": "Three INDEPENDENT seal rounds, dispatched concurrently by pipeline/cold_read.py --rounds 3 on blind copies under random tokens. No crop was ever re-read: every read below is of a distinct dispatch of the same two byte-identical crops, which is what the seal contract asks for. The crops were later re-rendered into the per-video proofs directory and hash-compared byte-for-byte, so no read is stale.",
+ "objects": [
+  {"i": 0, "kind": "metaphor", "name": "two walkie talkies", "verdict": "PASS",
+   "reason": "Three of three independent readers answered 'walkie-talkies', all 'sure', in one word. That is the intended object exactly, with zero readers naming anything else. The crop is the pair plus its signal line and nothing else - at 2.40 the Claude Code tile has not yet taken the middle slot, so the real render's crop is the proof's crop.",
+   "reads": [
+    {"round": 1, "name": "walkie-talkies", "confidence": "sure", "match": "intended"},
+    {"round": 2, "name": "walkie-talkies", "confidence": "sure", "match": "intended"},
+    {"round": 3, "name": "walkie-talkies", "confidence": "sure", "match": "intended"}
+   ]},
+  {"i": 1, "kind": "metaphor", "name": "three walkie talkies", "verdict": "PASS",
+   "reason": "Three of three independent readers answered 'walkie-talkie', all 'sure'. The noun is the intended object; only the count is left out, which the crop itself shows and which the five-word contract does not require. Zero readers named a different object.",
+   "reads": [
+    {"round": 1, "name": "walkie-talkie", "confidence": "sure", "match": "synonym"},
+    {"round": 2, "name": "walkie-talkie", "confidence": "sure", "match": "synonym"},
+    {"round": 3, "name": "walkie-talkie", "confidence": "sure", "match": "synonym"}
+   ]}
+ ]
+}

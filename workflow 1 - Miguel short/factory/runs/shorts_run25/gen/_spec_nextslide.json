@@ -1,0 +1,60 @@
+{
+ "run": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25",
+ "out_dir": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output",
+ "jobs": [
+  {
+   "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/projects/nextslide_split",
+   "vid": "nextslide",
+   "fmt": "split",
+   "quality": "high",
+   "stage": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/staging/youtube/nextslide_split.mp4",
+   "qc_args": [
+    "--voice-master",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/cuts/nextslide/audio.m4a",
+    "--phone-at",
+    "3.0:0.3481,0.1573,0.6519,0.3646:slide on easel",
+    "--phone-at",
+    "28.5:0.3481,0.1573,0.6519,0.3646:chart on easel"
+   ]
+  },
+  {
+   "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/projects/nextslide_whiteboard",
+   "vid": "nextslide",
+   "fmt": "whiteboard",
+   "quality": "high",
+   "stage": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/staging/reels/nextslide_whiteboard.mp4",
+   "qc_args": [
+    "--voice-master",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/cuts/nextslide/audio.m4a",
+    "--phone-at",
+    "3.0:0.3542,0.1875,0.6458,0.3691:slide on easel",
+    "--phone-at",
+    "28.5:0.3542,0.1875,0.6458,0.3691:chart on easel",
+    "--seams",
+    "8.98,17.5,21.62"
+   ]
+  },
+  {
+   "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/projects/nextslide_cutout",
+   "vid": "nextslide",
+   "fmt": "cutout",
+   "quality": "high",
+   "geom": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/gen/_geom_nextslide_cutout.json",
+   "stage": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/staging/tiktok/nextslide_cutout.mp4",
+   "qc_args": [
+    "--voice-master",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/cuts/nextslide/audio.m4a",
+    "--phone-at",
+    "3.0:0.3481,0.1634,0.6519,0.3707:slide on easel",
+    "--phone-at",
+    "28.5:0.3481,0.1634,0.6519,0.3707:chart on easel",
+    "--alpha",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/matting/nextslide/matte_nextslide_v5_alpha.webm",
+    "--edge-box",
+    "1584x990+-351+930",
+    "--plate",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/matting/nextslide/plate_display_1584x990.mp4"
+   ]
+  }
+ ]
+}

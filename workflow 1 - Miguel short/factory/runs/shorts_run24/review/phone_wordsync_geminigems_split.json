@@ -1,0 +1,133 @@
+{
+ "label": "wordsync_geminigems_split",
+ "video": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/projects/geminigems_split",
+ "phone_scale": "405x720",
+ "sheet": "runs/shorts_run24/review/phone_wordsync_geminigems_split.png",
+ "rule": "a FRESH judge (never read the plan) names each crop in <=3 words. Wrong name, hedge, or 'cannot tell' = the object is redesigned, not annotated.",
+ "answer_key": "runs/shorts_run24/review/phone_wordsync_geminigems_split.key.json",
+ "answer_key_rule": "DO NOT OPEN the answer key until every judge_answer below is filled in. Reading it first voids the Phone Test.",
+ "cut_from": "headless page screenshots, no video render",
+ "mode": "phone-test",
+ "objects": [
+  {
+   "i": 0,
+   "t": 3.62,
+   "bbox_norm": [
+    0.3148,
+    0.3333,
+    0.6852,
+    0.376
+   ],
+   "phone_box_px": [
+    127,
+    240,
+    277,
+    270
+   ],
+   "phone_size_px": [
+    150,
+    30
+   ],
+   "path": "runs/shorts_run24/review/phone_wordsync_geminigems_split/00.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  },
+  {
+   "i": 1,
+   "t": 5.4,
+   "bbox_norm": [
+    0.3667,
+    0.3677,
+    0.6333,
+    0.4021
+   ],
+   "phone_box_px": [
+    148,
+    264,
+    256,
+    289
+   ],
+   "phone_size_px": [
+    108,
+    25
+   ],
+   "path": "runs/shorts_run24/review/phone_wordsync_geminigems_split/01.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  },
+  {
+   "i": 2,
+   "t": 7.8,
+   "bbox_norm": [
+    0.6556,
+    0.3385,
+    0.8074,
+    0.3729
+   ],
+   "phone_box_px": [
+    265,
+    243,
+    327,
+    268
+   ],
+   "phone_size_px": [
+    62,
+    25
+   ],
+   "path": "runs/shorts_run24/review/phone_wordsync_geminigems_split/02.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  },
+  {
+   "i": 3,
+   "t": 11.86,
+   "bbox_norm": [
+    0.1315,
+    0.3656,
+    0.3315,
+    0.4
+   ],
+   "phone_box_px": [
+    53,
+    263,
+    134,
+    288
+   ],
+   "phone_size_px": [
+    81,
+    25
+   ],
+   "path": "runs/shorts_run24/review/phone_wordsync_geminigems_split/03.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  },
+  {
+   "i": 4,
+   "t": 13.62,
+   "bbox_norm": [
+    0.6685,
+    0.3656,
+    0.8685,
+    0.4
+   ],
+   "phone_box_px": [
+    270,
+    263,
+    351,
+    288
+   ],
+   "phone_size_px": [
+    81,
+    25
+   ],
+   "path": "runs/shorts_run24/review/phone_wordsync_geminigems_split/04.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  }
+ ]
+}

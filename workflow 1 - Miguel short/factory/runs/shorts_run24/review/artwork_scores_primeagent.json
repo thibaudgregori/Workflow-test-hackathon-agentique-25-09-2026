@@ -1,0 +1,59 @@
+{
+ "vid": "primeagent",
+ "module": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/gen/primeagent_scene.py",
+ "note": "Honest scoring of every independent cold read this seat dispatched. Objects 0 and 1 PASS and are SEALED - their crops are never re-read. Object 2 FAILS after two metaphors and four rounds, so no artwork-pass record was written and this seat returns HOLD. Scoring an 'axe', a 'paint roller' or a 'paintbrush' as a synonym for a screwdriver would be weakening the reader standard, which STANDARD forbids.",
+ "objects": [
+  {
+   "i": 0,
+   "intended": "open toolbox with tools",
+   "verdict": "PASS",
+   "reason": "Three independent readers, three rounds, all 'toolbox', all sure. Zero different.",
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/proofs/crop_seal_00_rack.png",
+   "crop_sha256": "c7e6eff0d8c0d0ad77dc2ae67a201c8e9b2c64e770306b69b1d22b4fbdfef798",
+   "reads": [
+    {"round": "artwork_r1", "name": "toolbox", "confidence": "sure", "match": "intended"},
+    {"round": "artwork_r2", "name": "toolbox", "confidence": "sure", "match": "intended"},
+    {"round": "artwork_r3", "name": "toolbox", "confidence": "sure", "match": "intended"}
+   ]
+  },
+  {
+   "i": 1,
+   "intended": "tool printing machine",
+   "verdict": "PASS",
+   "reason": "Three independent readers, three rounds, all '3D printer', all sure. A 3D printer IS the intended object: a machine whose output is objects. Zero different.",
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/proofs/crop_seal_01_machine.png",
+   "crop_sha256": "f47bbc02eeb86e41b6780a3796bc484e8c326c5fb44bafd2cb9b19ce7e82db75",
+   "reads": [
+    {"round": "artwork_r1", "name": "3D printer", "confidence": "sure", "match": "synonym"},
+    {"round": "artwork_r2", "name": "3D printer", "confidence": "sure", "match": "synonym"},
+    {"round": "artwork_r3", "name": "3D printer", "confidence": "sure", "match": "synonym"}
+   ]
+  },
+  {
+   "i": 2,
+   "intended": "crossed hammer and screwdriver",
+   "verdict": "FAIL",
+   "reason": "Four independent rounds across TWO metaphors. The HAMMER is named every time; the second tool is named differently by almost every reader. In the final round 2 of 3 named a different object, which is above MISREAD_MAX and is the drawing, not the instrument. STANDARD's ceiling of two metaphor attempts is reached, so this object goes to Miguel rather than to a third attempt.",
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/proofs/crop_seal_02_pair.png",
+   "metaphor_1": {
+    "what": "the two tools standing side by side on an output shelf",
+    "round_1": ["hand mirror / unsure", "hand mirror / unsure", "signpost and potted plant / unsure"],
+    "round_1_note": "180 core px per tool, sharing the board with the full-size machine",
+    "round_2": ["table lamp / unsure", "hammer / unsure", "hammer and lamp / unsure"],
+    "round_2_note": "313 core px per tool, the machine reprised small; evidence phone_reader_primeagent_pair2_r1..r3.json"
+   },
+   "metaphor_2": {
+    "what": "the two tools crossed at +/-34 degrees, owning the whole board at 350 core px each",
+    "round_3": ["hammer and paintbrush crossed / unsure", "hammer and paint roller / unsure", "crossed hammer and axe / unsure"],
+    "round_3_note": "flared trapezoid blade; evidence phone_reader_primeagent_pair3_r1..r3.json",
+    "round_4": ["crossed hammer and axe / unsure", "crossed hammer and paint roller / unsure", "hammer and screwdriver / unsure"],
+    "round_4_note": "narrow square blade, plain barrel handle, no grip bands; evidence phone_reader_primeagent_pair4_r1..r3.json"
+   },
+   "reads": [
+    {"round": "pair4_r1", "name": "crossed hammer and axe", "confidence": "unsure", "match": "different"},
+    {"round": "pair4_r2", "name": "crossed hammer and paint roller", "confidence": "unsure", "match": "different"},
+    {"round": "pair4_r3", "name": "hammer and screwdriver", "confidence": "unsure", "match": "intended"}
+   ]
+  }
+ ]
+}

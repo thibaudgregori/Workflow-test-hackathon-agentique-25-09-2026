@@ -1,0 +1,87 @@
+{
+ "vid": "geminigems",
+ "fmt": "split",
+ "round": "confirm (ONE round, 2026-09-14 rule: these four drawings were sealed at the artwork seat over three independent rounds and my page crops are the same ink in a new frame)",
+ "artwork_seal": "review/artwork_pass_geminigems.json (4 objects, 3 rounds, 12 reads, zero readers naming a different object)",
+ "evidence": "review/phone_reader_geminigems_split.json",
+ "objects": [
+  {
+   "i": 0,
+   "intended": "a cracked gem",
+   "namer_answer": "diamond",
+   "confidence": "sure",
+   "match": "synonym",
+   "verdict": "PASS",
+   "reason": "a diamond IS a cut gem; the reader named the intended thing in one word and was sure. Same noun the three artwork rounds returned.",
+   "reads": [
+    {
+     "round": "confirm",
+     "name": "diamond",
+     "confidence": "sure",
+     "match": "synonym"
+    }
+   ]
+  },
+  {
+   "i": 1,
+   "intended": "a tied parcel",
+   "namer_answer": "gift box",
+   "confidence": "sure",
+   "match": "synonym",
+   "verdict": "PASS",
+   "reason": "a gift box with a bow IS the tied parcel; sure, two words. Same noun the three artwork rounds returned.",
+   "reads": [
+    {
+     "round": "confirm",
+     "name": "gift box",
+     "confidence": "sure",
+     "match": "synonym"
+    }
+   ]
+  },
+  {
+   "i": 2,
+   "intended": "two people together",
+   "namer_answer": "two people icon",
+   "confidence": "unsure",
+   "match": "intended",
+   "verdict": "PASS",
+   "reason": "the reader reached the intended noun exactly and named no different thing. The hedge is on whether a drawn PERSON answers the prompt's 'everyday object' premise, not on what the drawing shows - which is the 2026-09-08 ruling's routed-not-refused case, and the same hedge all three artwork rounds carried. The clerk adjudicates it on the delivered render, where it lands on the spoken word 'teammates' and wears its own key.",
+   "reads": [
+    {
+     "round": "confirm",
+     "name": "two people icon",
+     "confidence": "unsure",
+     "match": "intended"
+    }
+   ]
+  },
+  {
+   "i": 3,
+   "intended": "a crowd of people",
+   "namer_answer": "group of people",
+   "confidence": "unsure",
+   "match": "synonym",
+   "verdict": "PASS",
+   "reason": "a group of people IS a crowd; the reader reached the intended noun and named no different thing. Hedged for the same premise reason as object 2, routed not refused, and handed to the clerk on the delivered render where it lands on 'community'.",
+   "reads": [
+    {
+     "round": "confirm",
+     "name": "group of people",
+     "confidence": "unsure",
+     "match": "synonym"
+    }
+   ]
+  }
+ ],
+ "summary": {
+  "objects": 4,
+  "pass": 4,
+  "fail": 0,
+  "different_names": 0,
+  "sure": 2,
+  "unsure": 2,
+  "cannot_tell": 0,
+  "redesigns": 0
+ }
+}

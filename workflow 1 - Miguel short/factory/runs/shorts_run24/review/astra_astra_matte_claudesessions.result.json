@@ -1,0 +1,14 @@
+{
+  "status": "ok",
+  "ship": "ok",
+  "selection_changed": true,
+  "edits": 1,
+  "rounds": 1,
+  "what_you_saw": "Viewed the original full and head overlays and clean frame, then an enlarged source neck/shoulder crop. The prior mask retained a chair block below the viewer-right jaw and its earlier carve notched the beard. Starting from the preserved original mask, one source-traced exclusion removed the right headrest and chair beside the neck and shoulder while restoring the beard; the refreshed overlay showed the whole person with chair outside, approved as codex-astra. The correction removed 11884 selected pixels and restored 976 relative to the prior mask. Skipped MatAnyone and tracked SAM2 under fb1_pd5d93595, bound to corrected mask d5d93595c107e4fb8a30759edb77346a7a77fa076d2a74676931b6c07e4ef9fa; the original fb1 alpha was not reused. Inspected all four fresh sheets: playback shows clean person silhouettes across the sampled speech and gesture frames; face_2x preserves cap brim, both ears, cheek, beard, jaw, chin and neck including first and last frames; chair_sides shows cream background beside the head and shoulders with no chair slab, grey wedge or neck splash, including frames 400/405/410; hands shows opaque palms and fingers with natural motion softness. All 531 frames shipped, headroom minimum 33 px, no automatic holds. Visual approval covers the reviewed matte evidence, not a rendered cutout video. Split and whiteboard were untouched.",
+  "hold_reason": "",
+  "outputs": [
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/matting/claudesessions/matte_claudesessions_v5_cut.webm",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/matting/claudesessions/matte_claudesessions_v5_rim.webm",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/matting/claudesessions/matte_claudesessions_v5_alpha.webm"
+  ]
+}

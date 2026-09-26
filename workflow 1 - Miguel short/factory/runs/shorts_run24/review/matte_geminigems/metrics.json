@@ -1,0 +1,100 @@
+{
+  "vid": "geminigems",
+  "session": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/matting/geminigems",
+  "cut": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/matting/geminigems/matte_geminigems_v5_cut.webm",
+  "size": [
+    1584,
+    990
+  ],
+  "frames": 523,
+  "sample_fps": 5,
+  "sampled": 105,
+  "soft_alpha_px": {
+    "rest_median": 13723,
+    "p95_over_rest": 1.42,
+    "max_over_rest": 2.5,
+    "frames_over_2p5x": 0
+  },
+  "chair_band_px": {
+    "reference": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/matting/geminigems/selection.mask.png",
+    "p50": 3521,
+    "p95": 11306,
+    "max": 15490,
+    "max_at_s": 19.8
+  },
+  "background_haze": {
+    "px_floor": 1500,
+    "detach_px": 14,
+    "p50": 0,
+    "p95": 176,
+    "max": 5929,
+    "frames_over_floor": 2,
+    "longest_run_s": 0.2,
+    "hold_seconds_limit": 1.0,
+    "worst_sample_s": 2.0,
+    "hold": false
+  },
+  "frozen_edge": {
+    "frozen_sd": 1.5,
+    "min_cols": 12,
+    "sd_ratio": 4.0,
+    "runs": [],
+    "hold": false
+  },
+  "extra_components": {
+    "max": 0,
+    "frames": 0
+  },
+  "holes": {
+    "max": 1,
+    "frames": 1
+  },
+  "iou_frame_to_frame": {
+    "p05": 0.8719,
+    "min": 0.8345
+  },
+  "sheets": {
+    "playback": [
+      12,
+      25,
+      50,
+      55,
+      75,
+      100,
+      120,
+      125,
+      490,
+      500,
+      505
+    ],
+    "face_2x": [
+      0,
+      50,
+      65,
+      130,
+      261,
+      392,
+      500,
+      522
+    ],
+    "chair_sides": [
+      12,
+      25,
+      50,
+      490,
+      495,
+      500
+    ],
+    "hands": [
+      5,
+      50,
+      120,
+      280,
+      295,
+      500
+    ]
+  },
+  "auto_hold": [],
+  "reference_bar": "run 19's five approved mattes: soft p95/rest <= 1.41, max/rest <= 5.9 (hands), extra components <= 1 frame, IoU p05 >= 0.92. These numbers did NOT separate geo's rejected mattes from the approved ones; the sheets did. Look.",
+  "wall_s": 24.7
+}

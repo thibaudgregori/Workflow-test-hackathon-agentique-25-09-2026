@@ -1,0 +1,59 @@
+{
+ "label": "claudesessions_cutout",
+ "video": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/claudesessions_cutout.mp4",
+ "phone_scale": "405x720",
+ "sheet": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/phone_claudesessions_cutout.png",
+ "rule": "a FRESH judge (never read the plan) names each crop in <=3 words. Wrong name, hedge, or 'cannot tell' = the object is redesigned, not annotated.",
+ "answer_key": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/phone_claudesessions_cutout.key.json",
+ "answer_key_rule": "DO NOT OPEN the answer key until every judge_answer below is filled in. Reading it first voids the Phone Test.",
+ "objects": [
+  {
+   "i": 0,
+   "t": 2.4,
+   "bbox_norm": [
+    0.2009,
+    0.1795,
+    0.7991,
+    0.3639
+   ],
+   "phone_box_px": [
+    81,
+    129,
+    323,
+    262
+   ],
+   "phone_size_px": [
+    242,
+    133
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/phone_claudesessions_cutout/00.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  },
+  {
+   "i": 1,
+   "t": 16.0,
+   "bbox_norm": [
+    0.1898,
+    0.1629,
+    0.8102,
+    0.2915
+   ],
+   "phone_box_px": [
+    76,
+    117,
+    328,
+    209
+   ],
+   "phone_size_px": [
+    252,
+    92
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/phone_claudesessions_cutout/01.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  }
+ ]
+}

@@ -1,0 +1,19 @@
+{
+  "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/projects/primeagent_whiteboard",
+  "vid": "primeagent",
+  "fmt": "whiteboard",
+  "quality": "high",
+  "stage": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/staging/reels/primeagent_whiteboard.mp4",
+  "qc_args": [
+    "--voice-master",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/cuts/primeagent/audio.m4a",
+    "--phone-at",
+    "1.8:0.29341,0.19727,0.70659,0.36032:a machine that prints a tool",
+    "--phone-at",
+    "8.2:0.28906,0.20703,0.71094,0.38654:an open toolbox with tools",
+    "--phone-at",
+    "24.4:0.30486,0.1689,0.69819,0.36218:two crossed tools",
+    "--seams",
+    "2.36,8.58,21.5,25.34"
+  ]
+}

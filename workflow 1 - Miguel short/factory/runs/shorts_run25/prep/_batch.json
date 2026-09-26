@@ -1,0 +1,99 @@
+{
+ "run": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25",
+ "intake": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/prep/_intake.json",
+ "videos": 2,
+ "sessions_root": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/matting",
+ "workers": 5,
+ "tag": "v1",
+ "emit": "v5",
+ "backend": "matanyone2",
+ "gpu": "l4",
+ "cost_basis": "runtime estimates, not provider invoice",
+ "ship_where": "modal",
+ "batch_wall_s": 70.5,
+ "modal_cost_usd": 0.1648,
+ "modal_cost_breakdown_usd": {
+  "sweep": 0.0926,
+  "track": 0.0252,
+  "ship": 0.047,
+  "repair": 0.0
+ },
+ "repairs": {},
+ "repair_rounds_max": 2,
+ "repair_detail": {},
+ "summary_lines": [
+  "claudeconcise        PREPARED; final visual review required",
+  "grokimagine2         no ship"
+ ],
+ "ship_seconds": {
+  "claudeconcise": 103.44708178299999,
+  "grokimagine2": null
+ },
+ "per_stage_wall_s": {
+  "claudeconcise": {
+   "cut": 37.8,
+   "plate": 45.0,
+   "display_plate": null,
+   "prompt0": 25.4,
+   "track": 105.87793454100029,
+   "ship": 121.54278195899678,
+   "cues": 0.0,
+   "repair": null
+  },
+  "grokimagine2": {
+   "cut": 72.1,
+   "plate": 37.9,
+   "display_plate": null,
+   "prompt0": 30.0,
+   "track": null,
+   "ship": null,
+   "cues": 0.0,
+   "repair": null
+  }
+ },
+ "status": {
+  "claudeconcise": {
+   "cut": "ok",
+   "plate": "ok",
+   "display_plate": "reused",
+   "prompt0": "ok",
+   "track": "ok",
+   "ship": "ok",
+   "cues": "ok",
+   "repair": "-"
+  },
+  "grokimagine2": {
+   "cut": "ok",
+   "plate": "ok",
+   "display_plate": "-",
+   "prompt0": "ok",
+   "track": "REFUSED",
+   "ship": "-",
+   "cues": "ok",
+   "repair": "-"
+  }
+ },
+ "stage_totals_s": {
+  "cut": 109.9,
+  "plate": 82.9,
+  "display_plate": 0.0,
+  "prompt0": 55.4,
+  "track": 105.9,
+  "ship": 121.5,
+  "cues": 0.0,
+  "repair": 0.0
+ },
+ "serial_equivalent_s": 475.6,
+ "needs_source": {
+  "claudeconcise": [],
+  "grokimagine2": []
+ },
+ "wing_review": [
+  "claudeconcise",
+  "grokimagine2"
+ ],
+ "packages": {
+  "claudeconcise": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/prep/claudeconcise.json",
+  "grokimagine2": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/prep/grokimagine2.json"
+ }
+}

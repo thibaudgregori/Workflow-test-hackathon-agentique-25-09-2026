@@ -1,0 +1,52 @@
+{
+ "vid": "geminigems",
+ "fmt": "cutout",
+ "round": "confirm (ONE round, 2026-09-14 rule: these four drawings were sealed at the artwork seat over three independent concurrent rounds and my page crops are the same ink in a new frame, at the identity seat k=1.0 top=192.0, so the cutout's canvas boxes are the split's and the artwork's)",
+ "artwork_seal": "review/artwork_pass_geminigems.json (4 objects, 3 rounds, 12 reads, zero readers naming a different object)",
+ "evidence": "review/phone_reader_geminigems_cutout.json",
+ "objects": [
+  {
+   "i": 0,
+   "intended": "a cracked gem",
+   "namer_answer": "diamond",
+   "confidence": "sure",
+   "match": "synonym",
+   "verdict": "PASS",
+   "reason": "a diamond IS a cut gem; the reader named the intended thing in one word and was sure. Same noun all three artwork rounds returned and the same the split's confirmation round returned.",
+   "reads": [{"round": "confirm", "name": "diamond", "confidence": "sure", "match": "synonym"}]
+  },
+  {
+   "i": 1,
+   "intended": "a tied parcel",
+   "namer_answer": "gift box",
+   "confidence": "sure",
+   "match": "synonym",
+   "verdict": "PASS",
+   "reason": "a gift box with a bow IS the tied parcel; sure, two words. Same noun all three artwork rounds returned.",
+   "reads": [{"round": "confirm", "name": "gift box", "confidence": "sure", "match": "synonym"}]
+  },
+  {
+   "i": 2,
+   "intended": "two people together",
+   "namer_answer": "two people icon",
+   "confidence": "unsure",
+   "match": "intended",
+   "verdict": "PASS",
+   "reason": "the reader reached the intended noun exactly and named no different thing. The hedge is on whether a drawn PERSON answers the prompt's 'everyday object' premise, not on what the drawing shows - the 2026-09-08 routed-not-refused case, and the same hedge all three artwork rounds carried. The clerk adjudicates it on the delivered render, where it lands on the spoken word 'teammates' and wears its own key.",
+   "reads": [{"round": "confirm", "name": "two people icon", "confidence": "unsure", "match": "intended"}]
+  },
+  {
+   "i": 3,
+   "intended": "a crowd of people",
+   "namer_answer": "group of people",
+   "confidence": "sure",
+   "match": "intended",
+   "verdict": "PASS",
+   "reason": "a group of people IS a crowd, named in four words and SURE - a stronger read than the three hedged artwork rounds gave for the same ink.",
+   "reads": [{"round": "confirm", "name": "group of people", "confidence": "sure", "match": "intended"}]
+  }
+ ],
+ "summary": {"objects": 4, "pass": 4, "fail": 0, "different_names": 0,
+             "redesigns": 0, "rounds": 1, "new_to_this_lane": 0,
+             "note": "no object is new to this lane and none failed, so no object gets the seal treatment and no crop is re-dispatched (NEVER RE-DISPATCH AN UNCHANGED CROP)."}
+}

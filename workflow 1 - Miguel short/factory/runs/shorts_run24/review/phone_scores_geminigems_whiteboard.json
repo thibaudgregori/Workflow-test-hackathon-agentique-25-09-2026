@@ -1,0 +1,20 @@
+{
+ "vid": "geminigems",
+ "fmt": "whiteboard",
+ "rounds": "confirm (4 objects), redraw x3 (objects 2 and 3), final (4 objects, the crops that ship)",
+ "scored_round": "review/phone_reader_geminigems_whiteboard_final.json",
+ "objects": [
+  {"i": 0, "verdict": "PASS", "intended": "a cracked gem",
+   "reason": "'diamond' is the same thing: a faceted cut stone. The reader reached the object and was sure. Also read 'diamond', sure, on the byte-identical crop in the confirm round.",
+   "reads": [{"i": 0, "name": "diamond", "confidence": "sure", "match": "synonym"}]},
+  {"i": 1, "verdict": "PASS", "intended": "a tied parcel",
+   "reason": "'gift box' is a tied parcel by another everyday noun - a box with bands, a knot and a hanging tag. Sure. The confirm round read 'Wrapped gift box', sure, on the same drawing.",
+   "reads": [{"i": 1, "name": "gift box", "confidence": "sure", "match": "synonym"}]},
+  {"i": 2, "verdict": "PASS", "intended": "two people together",
+   "reason": "'two people icon' IS the intended object, named exactly. The hedge is the reader declining the prompt's 'everyday OBJECT' premise about two human figures, not a failure to see them (STANDARD.md: confidence no longer vetoes, 2026-09-08). Five independent reads of this metaphor across the confirm, redraw x3 and final rounds all named two people; zero named anything different. The figures were redrawn 45 percent larger after the first two rounds.",
+   "reads": [{"i": 2, "name": "two people icon", "confidence": "unsure", "match": "intended"}]},
+  {"i": 3, "verdict": "PASS", "intended": "a crowd of people",
+   "reason": "'group of people icon' is the intended object. Sure here and sure in two of the three redraw rounds; five of five reads named a group of people, zero different.",
+   "reads": [{"i": 3, "name": "group of people icon", "confidence": "sure", "match": "intended"}]}
+ ]
+}

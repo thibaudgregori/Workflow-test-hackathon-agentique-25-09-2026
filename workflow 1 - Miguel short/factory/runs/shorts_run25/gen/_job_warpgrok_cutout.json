@@ -1,0 +1,21 @@
+{
+  "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/projects/warpgrok_cutout",
+  "vid": "warpgrok",
+  "fmt": "cutout",
+  "quality": "high",
+  "stage": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/staging/tiktok/warpgrok_cutout.mp4",
+  "qc_args": [
+    "--voice-master",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/cuts/warpgrok/audio.m4a",
+    "--phone-at",
+    "2.6:0.2778,0.2194,0.7315,0.3652:three loose keys",
+    "--phone-at",
+    "9.2:0.1296,0.135,0.8704,0.3511:wall key rack",
+    "--alpha",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/matting/warpgrok/matte_warpgrok_v5_alpha.webm",
+    "--edge-box",
+    "1320x990+-120+930",
+    "--plate",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/matting/warpgrok/plate_display_1320x990.mp4"
+  ]
+}

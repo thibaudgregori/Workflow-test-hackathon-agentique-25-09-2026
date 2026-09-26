@@ -1,0 +1,670 @@
+{
+ "video": "geminigems",
+ "format": "whiteboard",
+ "variant": "plan view (fix)",
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/projects/geminigems_whiteboard",
+ "handle": "@migueltorrez.ai",
+ "handle_key": "tiktok_ig",
+ "duration_s": 20.92,
+ "fps": 25,
+ "render": "1080x1920 @ zoom 1",
+ "board": "576x460 design units",
+ "board_box": [
+  40.0,
+  150.0,
+  536.0,
+  425.0
+ ],
+ "strokes": 20,
+ "rigids": 18,
+ "board_text": [
+  "GEMINI GEMS",
+  "SUNSET OCT 20",
+  "SKILLS",
+  "TEAMMATES",
+  "COMMUNITY"
+ ],
+ "top_ink_u": 147.0,
+ "top_band_u": 102.4,
+ "pen_top_u": 105.7,
+ "ink_bottom_px": 774.6,
+ "cap_band_top_px": 799.2,
+ "cap_clearance_px": 24.6,
+ "ink_bottom_ink_px": 762.0,
+ "cap_clearance_ink_px": 37.2,
+ "seam_pill_top_px": 805.2,
+ "cap_clearance_ink_to_pill_px": 43.2,
+ "seam_measures": "cap_clearance_px = line boxes vs the reserved band (THE GATE); cap_clearance_ink_px = glyph ink vs the same band; cap_clearance_ink_to_pill_px = glyph ink vs the pill's painted top edge (the clerk's surface)",
+ "rail_hits": [],
+ "label_law": {
+  "window_s": 1.0,
+  "key_term": "GEMINI GEMS",
+  "key_term_fs_u": 23.0,
+  "written": {
+   "GEMINI GEMS": 3.32,
+   "SUNSET OCT 20": 5.1,
+   "SKILLS": 7.98,
+   "TEAMMATES": 11.56,
+   "COMMUNITY": 13.32
+  },
+  "plan": {
+   "gems": "GEMINI GEMS",
+   "date": "SUNSET OCT 20",
+   "skills": "SKILLS",
+   "teammates": "TEAMMATES",
+   "community": "COMMUNITY"
+  },
+  "comparisons": [
+   [
+    "GEMINI GEMS",
+    "SKILLS"
+   ]
+  ],
+  "unplanned_text": [],
+  "verdict": "PASS"
+ },
+ "law4": {
+  "law": "4 (overlap test)",
+  "board_words_that_also_appear_as_a_pill": {}
+ },
+ "round4": {
+  "law6_lifetimes": {
+   "duration_s": 20.92,
+   "chaptered": true,
+   "max_frac": 0.4,
+   "declared_anchors": [],
+   "lingering": [],
+   "verdict": "PASS"
+  },
+  "law2_no_enclosure": {
+   "rings": 0,
+   "boxes": 1,
+   "highlights": 0,
+   "rasters": [],
+   "wrong_tool_advisory": [],
+   "verdict": "PASS"
+  },
+  "law3_label_side": {
+   "checked": 5,
+   "detail": {
+    "GEMINI GEMS": {
+     "host": "gem",
+     "dx_u": 0.0,
+     "band_u": 65.0,
+     "place": "below"
+    },
+    "SUNSET OCT 20": "unwelded",
+    "SKILLS": {
+     "host": "parcel",
+     "dx_u": -15.0,
+     "band_u": 97.5,
+     "place": "below"
+    },
+    "TEAMMATES": {
+     "host": "trio",
+     "dx_u": 0.0,
+     "band_u": 93.6,
+     "place": "below"
+    },
+    "COMMUNITY": {
+     "host": "crowd",
+     "dx_u": 0.0,
+     "band_u": 88.4,
+     "place": "below"
+    }
+   },
+   "verdict": "PASS"
+  },
+  "law5_spacing": {
+   "gate_u": 8.5,
+   "gate_px": 15.9,
+   "aim_u": 12.8,
+   "aim_px": 24.0,
+   "measured_on": "element line boxes",
+   "under_aim": [],
+   "objects": 12,
+   "verdict": "PASS"
+  },
+  "law5_spacing_ink": {
+   "gate_u": 8.5,
+   "gate_px": 15.9,
+   "aim_u": 12.8,
+   "aim_px": 24.0,
+   "measured_on": "glyph ink extents",
+   "under_aim": [],
+   "objects": 12,
+   "verdict": "PASS"
+  },
+  "law5_no_crossing": {
+   "strokes": 20,
+   "types": 5,
+   "verdict": "PASS"
+  },
+  "law4_anchors": {
+   "targets": 3,
+   "detail": {
+    "parcel": {
+     "n": 1,
+     "spread_u": 0.0,
+     "level": true,
+     "mirrored": false,
+     "on_rect": true
+    },
+    "trio": {
+     "n": 1,
+     "spread_u": 0.0,
+     "level": true,
+     "mirrored": false,
+     "on_rect": true
+    },
+    "crowd": {
+     "n": 1,
+     "spread_u": 0.0,
+     "level": true,
+     "mirrored": false,
+     "on_rect": true
+    }
+   },
+   "verdict": "PASS"
+  }
+ },
+ "outro": {
+  "move": "opaque sheet rises over the board",
+  "wipe_start": 17.52,
+  "wipe_end": 18.08,
+  "travel_px": 862.5,
+  "sheet_opaque": true,
+  "sheet_covers_px": 862.5,
+  "card_ink_enters_px": 322.5,
+  "board_covered_px": 586.9,
+  "overlap_px": 264.4,
+  "board_moves": false,
+  "board_fades": false,
+  "outro_start": 17.52,
+  "verdict": "PASS"
+ },
+ "captions": 23,
+ "cap_font_px": 56.2,
+ "cap_max_pill_w_px": 748.4,
+ "cap_w_budget_px": 756.0,
+ "anchors": {
+  "start": 0.12,
+  "killed": 0.52,
+  "gemini": 2.94,
+  "gems": 3.32,
+  "date": 5.06,
+  "seam0": 5.52,
+  "replaced": 6.4,
+  "skills": 7.16,
+  "standard": 8.26,
+  "sharing": 9.08,
+  "seam1": 10.46,
+  "teammates": 11.14,
+  "members": 12.36,
+  "community": 13.28,
+  "outro": 17.52,
+  "news": 19.2
+ },
+ "html_bytes": 68716,
+ "sfx": 16,
+ "pen_loops": 8,
+ "pen_seconds": 3.59,
+ "pen_duty_pct": 17.2,
+ "captions_law3b": {
+  "beats_before_merge": 23,
+  "beats_after_merge": 23,
+  "merges": 0,
+  "merged_away": [],
+  "widest_pill_px": 748.4,
+  "budget_px": 756.0,
+  "beats": [
+   [
+    0.12,
+    0.52,
+    "Google just"
+   ],
+   [
+    0.52,
+    1.04,
+    "killed another"
+   ],
+   [
+    1.04,
+    2.14,
+    "one of their products"
+   ],
+   [
+    2.14,
+    2.74,
+    "yet again."
+   ],
+   [
+    2.74,
+    3.68,
+    "Now, Gemini Gems are"
+   ],
+   [
+    3.68,
+    5.06,
+    "being sunset on October"
+   ],
+   [
+    5.06,
+    5.98,
+    "20th, and they're being"
+   ],
+   [
+    5.98,
+    6.4,
+    "completely"
+   ],
+   [
+    6.4,
+    7.8,
+    "replaced by Skills,"
+   ],
+   [
+    7.8,
+    8.92,
+    "the new standard way"
+   ],
+   [
+    8.92,
+    9.86,
+    "of sharing your AI"
+   ],
+   [
+    9.86,
+    10.74,
+    "workflows, either"
+   ],
+   [
+    10.74,
+    11.86,
+    "with your teammates"
+   ],
+   [
+    11.86,
+    13.14,
+    "or with members of"
+   ],
+   [
+    13.14,
+    14.18,
+    "your community."
+   ],
+   [
+    14.18,
+    14.92,
+    "Now, follow for more"
+   ],
+   [
+    14.92,
+    15.32,
+    "AI news,"
+   ],
+   [
+    15.32,
+    16.4,
+    "videos, and tutorials each"
+   ],
+   [
+    16.4,
+    17.52,
+    "and every single day."
+   ],
+   [
+    17.52,
+    18.42,
+    "Don't forget"
+   ],
+   [
+    18.42,
+    19.72,
+    "to migrate your gems,"
+   ],
+   [
+    19.72,
+    20.28,
+    "and see you in"
+   ],
+   [
+    20.28,
+    20.76,
+    "the next one"
+   ]
+  ],
+  "law": "captions.py 3b \u2014 merge_function_only_beats over the WHOLE beat stream, then assert_no_function_only_beat inside build()"
+ },
+ "boards": [
+  {
+   "board": 0,
+   "in": 0.18,
+   "erase_at": 5.52,
+   "erase": 0.3,
+   "name": "one cut gem in ink lines \u2014 flat table, girdle, four facets to a point \u2014 with a jagged crack straight through it, the Gemini mark on a tile above it, GEMINI GEMS written large beneath it and SUNSET OCT 20 in terracotta under that",
+   "keys": [
+    "GEMINI GEMS",
+    "SUNSET OCT 20"
+   ]
+  },
+  {
+   "board": 1,
+   "in": 5.56,
+   "erase_at": 10.46,
+   "erase": 0.3,
+   "name": "the same cracked gem re-inked smaller at the left under its Gemini tile, a terracotta arrow crossing the board to a tied parcel at the right \u2014 lid seam, two bands, a knot and a hanging tag \u2014 with the Claude mark on a tile above it inside a terracotta marker box and SKILLS written beneath; the knot then unties and the lid tilts open",
+   "keys": [
+    "SKILLS"
+   ]
+  },
+  {
+   "board": 2,
+   "in": 10.46,
+   "erase_at": 17.52,
+   "erase": "the outro's rising sheet",
+   "name": "the same open parcel, travelled to the top of the axis, with two terracotta connectors leaving its left and right edges and dropping to two ink-line busts standing shoulder to shoulder at the left and a crowd of seven at the right, TEAMMATES and COMMUNITY written under them on one baseline",
+   "keys": [
+    "TEAMMATES",
+    "COMMUNITY"
+   ]
+  }
+ ],
+ "seam_law": {
+  "plan_mode": "chapters",
+  "chapters": 3,
+  "seams": [
+   5.52,
+   10.46
+  ],
+  "erase_s": [
+   0.3,
+   0.3
+  ],
+  "erase_completes": [
+   5.82,
+   10.76
+  ],
+  "qc_seams": "5.52,10.46",
+  "handover": [
+   {
+    "seam": 5.52,
+    "completes": 5.82,
+    "incoming": "the same gem re-inked at the left, first ink 5.56 (INSIDE the erase), closed silhouette at 5.79 \u2014 before the erase finishes, inside LAW 45's 0.30 s"
+   },
+   {
+    "seam": 10.46,
+    "completes": 10.76,
+    "incoming": "the PARCEL itself: the outgoing board's anchor object is never erased, it travels to the axis over 10.46-10.96, so a complete nameable object is on the incoming board at the instant the erase completes (LAW 45's second sanctioned method)"
+   }
+  ],
+  "outro_wipe": 17.52,
+  "outro_note": "17.52 is the OUTRO WIPE \u2014 an opaque rising sheet, not a chapter seam \u2014 so it is not passed to qc_pass as a seam."
+ },
+ "pointing_cues": {
+  "n": 0,
+  "waived": [],
+  "cards": [],
+  "note": "pipeline/pointing_cues.py --vid geminigems returned ZERO cues (gen/_cues_geminigems.json, cue_count 0). He cites nobody and points at nothing, so there is no source card and nothing to waive \u2014 and no raster anywhere, which is why the single emphasis is a box and never a highlight."
+ },
+ "phone_test_objects": [
+  {
+   "i": 0,
+   "name": "a cracked gem",
+   "t": 2.0,
+   "bbox_board_u": [
+    228.0,
+    228.0,
+    348.0,
+    340.0
+   ],
+   "bbox_canvas": [
+    427.5,
+    427.5,
+    652.5,
+    637.5
+   ],
+   "bbox_norm": [
+    0.39583,
+    0.22266,
+    0.60417,
+    0.33203
+   ],
+   "plan_name": "a cracked gem",
+   "plan_t": 2.0
+  },
+  {
+   "i": 1,
+   "name": "a tied parcel",
+   "t": 8.8,
+   "bbox_board_u": [
+    338.0,
+    226.0,
+    508.0,
+    358.0
+   ],
+   "bbox_canvas": [
+    633.75,
+    423.75,
+    952.5,
+    671.25
+   ],
+   "bbox_norm": [
+    0.58681,
+    0.2207,
+    0.88194,
+    0.34961
+   ],
+   "plan_name": "a tied parcel",
+   "plan_t": 8.6
+  },
+  {
+   "i": 2,
+   "name": "two people together",
+   "t": 12.7,
+   "bbox_board_u": [
+    80.0,
+    284.0,
+    232.0,
+    386.0
+   ],
+   "bbox_canvas": [
+    150.0,
+    532.5,
+    435.0,
+    723.75
+   ],
+   "bbox_norm": [
+    0.13889,
+    0.27734,
+    0.40278,
+    0.37695
+   ],
+   "plan_name": "two people together",
+   "plan_t": 12.0
+  },
+  {
+   "i": 3,
+   "name": "a crowd of people",
+   "t": 14.6,
+   "bbox_board_u": [
+    352.0,
+    294.0,
+    486.0,
+    386.0
+   ],
+   "bbox_canvas": [
+    660.0,
+    551.25,
+    911.25,
+    723.75
+   ],
+   "bbox_norm": [
+    0.61111,
+    0.28711,
+    0.84375,
+    0.37695
+   ],
+   "plan_name": "a crowd of people",
+   "plan_t": 14.6
+  }
+ ],
+ "phone_test_source": "plans/geminigems_plan.json -> bespoke_objects, redrawn in marker at THIS board's seats: the plan's bboxes are the shared core's (canvas space) and cannot be copied onto a 576 x 460 board. The TIMES are this lane's own, per the 2026-09-15 whiteboard rule (the drawing complete and the pen gone). See plans/geminigems_wb_notes.md.",
+ "emphasis": [
+  {
+   "at": 8.26,
+   "target": "mark:claude-tile",
+   "kind": "terracotta marker box",
+   "why": "LAW 38 rule 2: the Claude tile is a DRAWN panel with its own border, not a raster, so it takes box_emphasis(). The pen taps its top-left corner (RUN-13). There is no raster text anywhere in this video, so no highlight is used."
+  }
+ ],
+ "marks_inked": {
+  "cast": "gemini / claude \u2014 the plan's own two STAGE marks, one per tile, each the PRODUCT mark (LAW 35: ai-models/gemini-color.png over the gem because the product is Gemini's; ai-models/claude-color.png over the parcel because Skills is Anthropic's standard \u2014 never claude-code, never the anthropic wordmark, never the outlined sticker) in COLOUR, in the chart's 112 frame px tile at radius 18 with the marker's detail hairline and the mark's INK at 0.50 of the tile.",
+  "cast_wall": "NONE \u2014 the plan says there is no cast wall in this video."
+ },
+ "connectors": [
+  {
+   "name": "arrow",
+   "to": "parcel",
+   "from": [
+    186.0,
+    287.0
+   ],
+   "end": [
+    348.0,
+    300.0
+   ],
+   "drawn_at": 6.4,
+   "note": "LAW 40: ONE arrow into this target, end built with anchor_points(PARCEL_BODY, 1, 'left')."
+  },
+  {
+   "name": "conn-left",
+   "to": "trio",
+   "from": [
+    228.0,
+    218.0
+   ],
+   "end": [
+    156.0,
+    282.0
+   ],
+   "drawn_at": 10.9,
+   "note": "LAW 40: end built with anchor_points(TRIO_BOX, 1, 'top'); level with the crowd's end to 0.0 u and mirror-symmetric about x = 288."
+  },
+  {
+   "name": "conn-right",
+   "to": "crowd",
+   "from": [
+    348.0,
+    218.0
+   ],
+   "end": [
+    420.0,
+    282.0
+   ],
+   "drawn_at": 12.36,
+   "note": "LAW 40: end built with anchor_points(CROWD_BOX, 1, 'top'); level with the pair's end to 0.0 u and mirror-symmetric about x = 288."
+  }
+ ],
+ "plan_geometry": {
+  "gem_u": [
+   238.0,
+   238.0,
+   338.0,
+   330.0
+  ],
+  "tile0_u": [
+   258.1335,
+   160.0,
+   317.8665,
+   219.733
+  ],
+  "gem2_u": [
+   100.0,
+   250.0,
+   180.0,
+   324.0
+  ],
+  "tile1_u": [
+   110.1335,
+   176.0,
+   169.8665,
+   235.733
+  ],
+  "claude_tile_u": [
+   378.1335,
+   152.0,
+   437.8665,
+   211.733
+  ],
+  "parcel_u": [
+   348.0,
+   234.0,
+   498.0,
+   348.0
+  ],
+  "parcel_body_u": [
+   348.0,
+   252.0,
+   468.0,
+   348.0
+  ],
+  "parcel2_u": [
+   228.0,
+   152.0,
+   378.0,
+   266.0
+  ],
+  "travel_u": [
+   -120.0,
+   -82.0
+  ],
+  "trio_u": [
+   84.0,
+   282.0,
+   228.0,
+   382.0
+  ],
+  "crowd_u": [
+   352.0,
+   282.0,
+   488.0,
+   382.0
+  ],
+  "keys_u": {
+   "GEMINI GEMS": [
+    193.12,
+    344.0,
+    382.88,
+    379.65
+   ],
+   "SUNSET OCT 20": [
+    215.95,
+    390.0,
+    360.05,
+    413.15
+   ],
+   "SKILLS": [
+    372.53,
+    354.0,
+    443.47,
+    377.15
+   ],
+   "TEAMMATES": [
+    104.85,
+    388.0,
+    207.15,
+    411.15
+   ],
+   "COMMUNITY": [
+    368.85,
+    388.0,
+    471.15,
+    411.15
+   ]
+  },
+  "key_row_y": 388.0,
+  "symmetry": "chapters 0 and 2 are symmetric about x = 288 by construction; chapter 1 is the deliberate PAIR \u2014 the gem at cx 140 and the parcel body at cx 408, the replacement reading left to right.",
+  "note": "THIS BOARD'S geometry, asserted against the plan's ORDER, SIDES, CHAPTERS and INSTANTS rather than its coordinates: the same four bespoke objects, the same five keys, the same above/below placement, the same chapters with the same erase instants, the same three connectors and the same one box emphasis."
+ }
+}

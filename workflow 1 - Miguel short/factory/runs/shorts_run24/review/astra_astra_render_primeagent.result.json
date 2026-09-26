@@ -1,0 +1,14 @@
+{
+  "status": "ok",
+  "staged": {
+    "split": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/staging/youtube/primeagent_split.mp4",
+    "whiteboard": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/staging/reels/primeagent_whiteboard.mp4",
+    "cutout": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/staging/tiktok/primeagent_cutout.mp4"
+  },
+  "kept": [],
+  "rc_json": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/gen/_rc_primeagent.json",
+  "waivers": [],
+  "not_staged": {},
+  "cutout_built": true,
+  "what_you_changed": "Built the missing cutout generator and page from the existing hash-sealed scene and shipped matte, preserving the accepted round-4 two crossed tools. The handoff already had the rejection banner removed and acceptance closed, so it and the scene stayed unchanged. Measured all 1080 alpha frames for caption and stage placement, retained the encoded 1496x990 plate at left -197 and top 930, used the six planned topical depth-lane marks and TikTok/Instagram outro, and inherited the split's ONE SINGLE TOOL timing correction to 12.32 seconds. Reused the existing split and whiteboard pages and jobs. Inspected settled full-page screenshots, passed prerender and strict geometry checks, rendered all three formats in one render_and_check call, and verified staged SHA256 hashes plus 1080x1920, 25 fps and 48 kHz stereo audio with ffprobe. All QC passed. The driver staged all three with watcher unavailable: Gemini API 429 RESOURCE_EXHAUSTED (monthly spending cap); $0. No watcher waiver or rerender was applied; final viewing remains Miguel's."
+}

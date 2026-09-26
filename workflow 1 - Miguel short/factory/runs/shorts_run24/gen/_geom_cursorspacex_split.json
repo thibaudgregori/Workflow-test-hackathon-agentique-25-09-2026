@@ -1,0 +1,77 @@
+{
+ "video": "cursorspacex",
+ "fps": 25,
+ "duration": 22.12,
+ "shared": {
+  "beat_edges": [
+   0.18,
+   5.68,
+   8.24,
+   11.62,
+   13.8,
+   17.88,
+   22.12
+  ],
+  "phone_test_objects": [
+   {
+    "name": "flag on pole",
+    "t": 2.6,
+    "space": "norm",
+    "bbox": [
+     0.3713,
+     0.15833,
+     0.6287,
+     0.31042
+    ],
+    "canvas": [
+     401.0,
+     304.0,
+     679.0,
+     596.0
+    ],
+    "phone_px": [
+     104,
+     110
+    ]
+   }
+  ]
+ },
+ "formats": {
+  "split": {
+   "phone_test_objects": [
+    {
+     "name": "flag on pole",
+     "t": 2.6,
+     "space": "norm",
+     "bbox": [
+      0.3713,
+      0.15833,
+      0.6287,
+      0.31042
+     ],
+     "canvas": [
+      401.0,
+      304.0,
+      679.0,
+      596.0
+     ],
+     "phone_px": [
+      104,
+      110
+     ]
+    }
+   ],
+   "core": {
+    "left": 0.0,
+    "top": 192.0
+   },
+   "scale": 1.0,
+   "seat": 862.5,
+   "voice": {
+    "source": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/cuts/cursorspacex/audio.m4a",
+    "sample_rate": 48000,
+    "channels": 2
+   }
+  }
+ }
+}

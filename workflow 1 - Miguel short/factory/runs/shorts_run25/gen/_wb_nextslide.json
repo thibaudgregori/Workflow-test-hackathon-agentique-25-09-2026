@@ -1,0 +1,486 @@
+{
+ "video": "nextslide",
+ "format": "whiteboard",
+ "variant": "plan view (fix)",
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/projects/nextslide_whiteboard",
+ "handle": "@migueltorrez.ai",
+ "handle_key": "tiktok_ig",
+ "duration_s": 33.2,
+ "fps": 25,
+ "render": "1080x1920 @ zoom 1",
+ "board": "576x460 design units",
+ "board_box": [
+  40.0,
+  150.0,
+  536.0,
+  425.0
+ ],
+ "strokes": 38,
+ "rigids": 26,
+ "board_text": [
+  "AI PRESENTATIONS",
+  "PRETTY",
+  "+ UNDERSTANDABLE"
+ ],
+ "top_ink_u": 144.5,
+ "top_band_u": 102.4,
+ "pen_top_u": 106.0,
+ "ink_bottom_px": 765.7,
+ "cap_band_top_px": 799.2,
+ "cap_clearance_px": 33.5,
+ "ink_bottom_ink_px": 751.3,
+ "cap_clearance_ink_px": 47.9,
+ "seam_pill_top_px": 805.2,
+ "cap_clearance_ink_to_pill_px": 53.9,
+ "seam_measures": "cap_clearance_px = line boxes vs the reserved band (THE GATE); cap_clearance_ink_px = glyph ink vs the same band; cap_clearance_ink_to_pill_px = glyph ink vs the pill's painted top edge (the clerk's surface)",
+ "rail_hits": [],
+ "label_law": {
+  "window_s": 1.0,
+  "key_term": "AI PRESENTATIONS",
+  "key_term_fs_u": 24.0,
+  "written": {
+   "AI PRESENTATIONS": 1.8,
+   "AI PRESENTATIONS [left]": 4.44,
+   "AI PRESENTATIONS [home]": 22.36,
+   "PRETTY": 26.94,
+   "+ UNDERSTANDABLE": 28.06
+  },
+  "plan": {
+   "presentations": "AI PRESENTATIONS",
+   "pretty": "PRETTY",
+   "understandable": "+ UNDERSTANDABLE"
+  },
+  "comparisons": [],
+  "unplanned_text": [],
+  "verdict": "PASS"
+ },
+ "law4": {
+  "law": "4 (overlap test)",
+  "board_words_that_also_appear_as_a_pill": {}
+ },
+ "round4": {
+  "law6_lifetimes": {
+   "duration_s": 33.2,
+   "chaptered": true,
+   "max_frac": 0.4,
+   "declared_anchors": [
+    "clean-slide",
+    "easel",
+    "type:AI PRESENTATIONS [home]"
+   ],
+   "lingering": [],
+   "verdict": "PASS"
+  },
+  "law2_no_enclosure": {
+   "rings": 0,
+   "boxes": 0,
+   "highlights": 0,
+   "rasters": [],
+   "wrong_tool_advisory": [],
+   "verdict": "PASS"
+  },
+  "law3_label_side": {
+   "checked": 3,
+   "detail": {
+    "AI PRESENTATIONS": {
+     "host": "easel",
+     "dx_u": 0.0,
+     "band_u": 98.8,
+     "place": "above"
+    },
+    "PRETTY": {
+     "host": "easel",
+     "dx_u": -86.7,
+     "band_u": 98.8,
+     "place": "below"
+    },
+    "+ UNDERSTANDABLE": {
+     "host": "easel",
+     "dx_u": 35.7,
+     "band_u": 98.8,
+     "place": "below"
+    }
+   },
+   "verdict": "PASS"
+  },
+  "law5_spacing": {
+   "gate_u": 8.5,
+   "gate_px": 15.9,
+   "aim_u": 12.8,
+   "aim_px": 24.0,
+   "measured_on": "element line boxes",
+   "under_aim": [],
+   "objects": 13,
+   "verdict": "PASS"
+  },
+  "law5_spacing_ink": {
+   "gate_u": 8.5,
+   "gate_px": 15.9,
+   "aim_u": 12.8,
+   "aim_px": 24.0,
+   "measured_on": "glyph ink extents",
+   "under_aim": [],
+   "objects": 13,
+   "verdict": "PASS"
+  },
+  "law5_no_crossing": {
+   "strokes": 38,
+   "types": 5,
+   "verdict": "PASS"
+  },
+  "law4_anchors": {
+   "targets": 4,
+   "detail": {
+    "nextslide-card": {
+     "n": 3,
+     "spread_u": 0.0,
+     "level": true,
+     "mirrored": false,
+     "on_rect": true
+    },
+    "mark:openai-tile": {
+     "n": 2,
+     "spread_u": 0.0,
+     "level": true,
+     "mirrored": false,
+     "on_rect": true
+    },
+    "easel-left": {
+     "n": 1,
+     "spread_u": 0.0,
+     "level": true,
+     "mirrored": false,
+     "on_rect": true
+    },
+    "mark:chatgpt-tile": {
+     "n": 1,
+     "spread_u": 0.0,
+     "level": true,
+     "mirrored": false,
+     "on_rect": true
+    }
+   },
+   "verdict": "PASS"
+  }
+ },
+ "outro": {
+  "move": "opaque sheet rises over the board",
+  "wipe_start": 29.14,
+  "wipe_end": 29.7,
+  "travel_px": 862.5,
+  "sheet_opaque": true,
+  "sheet_covers_px": 862.5,
+  "card_ink_enters_px": 322.5,
+  "board_covered_px": 591.6,
+  "overlap_px": 269.1,
+  "board_moves": false,
+  "board_fades": false,
+  "outro_start": 29.14,
+  "verdict": "PASS"
+ },
+ "captions": 34,
+ "cap_font_px": 56.2,
+ "cap_max_pill_w_px": 748.4,
+ "cap_w_budget_px": 756.0,
+ "anchors": {
+  "start": 0.14,
+  "sucks": 0.5,
+  "presentations": 1.2,
+  "openai": 3.94,
+  "nextslide": 5.2,
+  "built": 7.38,
+  "seam0": 8.98,
+  "nextslide2": 9.78,
+  "any": 13.02,
+  "ai2": 13.26,
+  "model": 13.5,
+  "out": 13.82,
+  "seam1": 17.5,
+  "openai2": 18.92,
+  "chatgpt": 20.72,
+  "seam2": 21.62,
+  "honestly": 21.86,
+  "presentations2": 25.08,
+  "that2": 25.72,
+  "pretty": 26.94,
+  "understandable": 28.06,
+  "outro": 29.14,
+  "news": 30.02
+ },
+ "html_bytes": 87767,
+ "sfx": 18,
+ "pen_loops": 9,
+ "pen_seconds": 3.28,
+ "pen_duty_pct": 9.9,
+ "captions_law3b": {
+  "beats_before_merge": 34,
+  "beats_after_merge": 34,
+  "merges": 0,
+  "widest_pill_px": 748.4,
+  "budget_px": 756.0,
+  "beats": [
+   [
+    0.14,
+    1.2,
+    "AI sucks at creating"
+   ],
+   [
+    1.2,
+    2.1,
+    "presentations,"
+   ],
+   [
+    2.1,
+    2.72,
+    "but that might be"
+   ],
+   [
+    2.72,
+    3.94,
+    "changing soon enough."
+   ],
+   [
+    3.94,
+    4.64,
+    "OpenAI just"
+   ],
+   [
+    4.64,
+    6.1,
+    "acquired NextSlide,"
+   ],
+   [
+    6.1,
+    7.38,
+    "an application that was"
+   ],
+   [
+    7.38,
+    8.98,
+    "built exactly for this."
+   ],
+   [
+    8.98,
+    9.66,
+    "The team over"
+   ],
+   [
+    9.66,
+    10.6,
+    "at NextSlide"
+   ],
+   [
+    10.6,
+    11.44,
+    "were creating"
+   ],
+   [
+    11.44,
+    12.44,
+    "an application"
+   ],
+   [
+    12.44,
+    13.5,
+    "that allowed any AI"
+   ],
+   [
+    13.5,
+    14.52,
+    "model out there to"
+   ],
+   [
+    14.52,
+    15.58,
+    "create presentations"
+   ],
+   [
+    15.58,
+    16.36,
+    "to communicate"
+   ],
+   [
+    16.36,
+    17.5,
+    "things clearly."
+   ],
+   [
+    17.5,
+    18.18,
+    "They will now be"
+   ],
+   [
+    18.18,
+    19.78,
+    "working with OpenAI on"
+   ],
+   [
+    19.78,
+    20.46,
+    "the development"
+   ],
+   [
+    20.46,
+    21.62,
+    "of ChatGPT."
+   ],
+   [
+    21.62,
+    22.76,
+    "And honestly,"
+   ],
+   [
+    22.76,
+    23.86,
+    "I really hope that"
+   ],
+   [
+    23.86,
+    25.08,
+    "for once we get"
+   ],
+   [
+    25.08,
+    25.72,
+    "presentations"
+   ],
+   [
+    25.72,
+    26.52,
+    "that are actually"
+   ],
+   [
+    26.52,
+    27.34,
+    "both pretty"
+   ],
+   [
+    27.34,
+    29.14,
+    "and also understandable."
+   ],
+   [
+    29.14,
+    29.86,
+    "Now follow for more"
+   ],
+   [
+    29.86,
+    30.24,
+    "AI news,"
+   ],
+   [
+    30.24,
+    31.28,
+    "videos, and tutorials each"
+   ],
+   [
+    31.28,
+    32.22,
+    "and every single day,"
+   ],
+   [
+    32.22,
+    32.64,
+    "and catch you in"
+   ],
+   [
+    32.64,
+    33.1,
+    "the next one"
+   ]
+  ],
+  "law": "captions.py 3b \u2014 merge_function_only_beats over the WHOLE beat stream, then assert_no_function_only_beat inside build()"
+ },
+ "seam_law": {
+  "plan_mode": "chapters",
+  "chapters": 4,
+  "seams": [
+   8.98,
+   17.5,
+   21.62
+  ],
+  "erase_s": 0.3,
+  "qc_seams": "8.98,17.5,21.62",
+  "handover": [
+   {
+    "seam": 8.98,
+    "incoming": "the easel and the NEXTSLIDE card carry across"
+   },
+   {
+    "seam": 17.5,
+    "incoming": "the easel and the NEXTSLIDE card carry across"
+   },
+   {
+    "seam": 21.62,
+    "incoming": "the easel carries across and slides home"
+   }
+  ],
+  "outro_wipe": 29.14
+ },
+ "pointing_cues": {
+  "n": 0,
+  "cards": [],
+  "waived": []
+ },
+ "phone_test_objects": [
+  {
+   "i": 0,
+   "name": "slide on easel",
+   "t": 3.0,
+   "bbox_board_u": [
+    204.0,
+    192.0,
+    372.0,
+    378.0
+   ],
+   "bbox_norm": [
+    0.3542,
+    0.1875,
+    0.6458,
+    0.3691
+   ],
+   "plan_name": "slide on easel",
+   "plan_t": 3.0
+  },
+  {
+   "i": 1,
+   "name": "chart on easel",
+   "t": 28.5,
+   "bbox_board_u": [
+    204.0,
+    192.0,
+    372.0,
+    378.0
+   ],
+   "bbox_norm": [
+    0.3542,
+    0.1875,
+    0.6458,
+    0.3691
+   ],
+   "plan_name": "chart on easel",
+   "plan_t": 28.5
+  }
+ ],
+ "emphasis": [
+  {
+   "at": 9.78,
+   "until": 10.84,
+   "target": "nextslide-card",
+   "kind": "the card's own border retraced in terracotta"
+  },
+  {
+   "at": 28.06,
+   "until": 29.14,
+   "target": "easel",
+   "kind": "the easel board's own frame retraced in terracotta"
+  }
+ ],
+ "phone_at_args": [
+  "--phone-at",
+  "3.0:0.3542,0.1875,0.6458,0.3691:slide on easel",
+  "--phone-at",
+  "28.5:0.3542,0.1875,0.6458,0.3691:chart on easel"
+ ]
+}

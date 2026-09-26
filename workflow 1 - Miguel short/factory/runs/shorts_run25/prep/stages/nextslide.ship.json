@@ -1,0 +1,28 @@
+{
+ "id": "nextslide",
+ "stage": "ship",
+ "status": "ok",
+ "wall_s": 106.69750416598981,
+ "at": "2026-09-22T22:55:44",
+ "keys": {
+  "status": "ok",
+  "backend": "matanyone2",
+  "frames": 830,
+  "width": 1584,
+  "height": 990,
+  "fps": 25.0,
+  "alpha_mode": "soft",
+  "rim_px": 7,
+  "temporal": 1,
+  "seconds": 84.393640197,
+  "estimated_compute_usd": 0.03837547607037984,
+  "fractional_alpha_pixels": 17324299,
+  "minimum_person_fraction": 0.35004144985205593,
+  "review_status": "needs_final_visual_review",
+  "ship_source_sha256": "0154788627eb98961c3eb2bc600e14d29cbc4f0de84b5c925b98e03e19bbd250",
+  "client_wall_seconds": 106.69750416598981,
+  "ship_seconds": 84.393640197,
+  "wall_s": 106.69750416598981,
+  "cost_usd": 0.03837547607037984
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "id": "warpgrok",
+ "stage": "plate",
+ "status": "ok",
+ "wall_s": 109.9,
+ "at": "2026-09-22T22:28:30",
+ "keys": {
+  "status": "ok",
+  "plate": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/matting/warpgrok/plate_wide_25.mp4",
+  "crop": "2440x1830+642+280",
+  "scale_k": 0.491803,
+  "head_px_on_canvas": 449.8,
+  "overwide_applied": true,
+  "face_dx_pct": -0.005,
+  "visible_window_drift_master_px": 0.0,
+  "plate_json": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/matting/warpgrok/plate.json",
+  "wall_s": 109.9
+ }
+}

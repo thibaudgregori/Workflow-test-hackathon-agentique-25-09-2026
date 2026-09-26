@@ -1,0 +1,28 @@
+{
+ "id": "cursorspacex",
+ "stage": "ship",
+ "status": "ok",
+ "wall_s": 75.12370537500829,
+ "at": "2026-09-21T18:05:54",
+ "keys": {
+  "status": "ok",
+  "backend": "matanyone2",
+  "frames": 553,
+  "width": 1342,
+  "height": 990,
+  "fps": 25.0,
+  "alpha_mode": "soft",
+  "rim_px": 7,
+  "temporal": 1,
+  "seconds": 60.788433747999996,
+  "estimated_compute_usd": 0.02764171659389056,
+  "fractional_alpha_pixels": 11587715,
+  "minimum_person_fraction": 0.4409407036083638,
+  "review_status": "needs_final_visual_review",
+  "ship_source_sha256": "0154788627eb98961c3eb2bc600e14d29cbc4f0de84b5c925b98e03e19bbd250",
+  "client_wall_seconds": 75.12370537500829,
+  "ship_seconds": 60.788433747999996,
+  "wall_s": 75.12370537500829,
+  "cost_usd": 0.02764171659389056
+ }
+}

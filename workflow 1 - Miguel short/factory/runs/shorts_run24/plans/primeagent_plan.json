@@ -1,0 +1,456 @@
+{
+  "id": "primeagent",
+  "duration_s": 43.175,
+  "lane": "diagram build",
+  "lane_reason": "The script is one mechanism being assembled in front of the viewer - a fixed toolbox, then a single machine, then the two things it makes, then the base it stands on - so the argument IS the diagram growing, which is what diagram build does and what icon choreography (a wall of real marks) cannot do for a product nobody has a logo for yet.",
+  "beats": [
+    {
+      "i": 0,
+      "t_start": 0.1,
+      "t_end": 1.98,
+      "words": "Prime Agent is a new type of AI agent.",
+      "says": "There is a new kind of AI agent and it is called Prime Agent.",
+      "picture": "A tool-making machine stands alone in the middle of the cream board: an open square frame on a base, a filament spool on its side, a nozzle head hanging from the rail, and a half-built object sitting on its bed. The key term PRIME AGENT is written above it, large, and it is the only type on the board.",
+      "objects": [
+        "tool printing machine",
+        "key term PRIME AGENT"
+      ],
+      "whiteboard": "The same machine, drawn as one continuous marker outline centred on the board's axis, alone (LAW 19), then the key term above it.",
+      "emphasis": []
+    },
+    {
+      "i": 1,
+      "t_start": 2.36,
+      "t_end": 8.48,
+      "words": "Regular AI agents have a list of tools that they decide to use, whether they need to read a document or write code, for example.",
+      "says": "A normal agent owns a fixed set of ready-made tools and picks one off the shelf.",
+      "picture": "The machine leaves and an OPEN TOOLBOX takes the centre: a deep box with a strap handle arching over it, an open-end wrench standing out of it on the left and a toothed saw on the right, both arriving as he says 'a list of tools'. Then one tool at a time lifts clear of the box and drops back - the agent choosing - on 'decide', on 'read' and on 'write'. REGULAR AGENTS is written above the box.",
+      "objects": [
+        "open toolbox",
+        "key REGULAR AGENTS"
+      ],
+      "whiteboard": "The same box, handle and two tools in marker ink; the choosing is a short lift of each tool, drawn as the tool redrawn 26 board-units higher and back.",
+      "emphasis": []
+    },
+    {
+      "i": 2,
+      "t_start": 8.72,
+      "t_end": 12.48,
+      "words": "Now, Prime Agent is different in the way that it only has one single tool.",
+      "says": "Prime Agent owns exactly one tool, not a list.",
+      "picture": "The toolbox goes and the machine comes back, larger, centred and alone on the board. ONE SINGLE TOOL is written above it. Nothing else is on screen: the whole claim is that there is only this.",
+      "objects": [
+        "tool printing machine",
+        "key ONE SINGLE TOOL"
+      ],
+      "whiteboard": "Same handover: the toolbox's ink wipes as the machine's first stroke lands, so the board never goes empty.",
+      "emphasis": []
+    },
+    {
+      "i": 3,
+      "t_start": 12.74,
+      "t_end": 15.48,
+      "words": "This tool allows it to build any tool that it might need.",
+      "says": "That one tool's job is making whatever other tool is needed.",
+      "picture": "The machine works: its nozzle head travels once across the rail and a new object grows on the bed underneath it in layers, drawn line by line as he says 'build'.",
+      "objects": [
+        "tool printing machine",
+        "part on the bed"
+      ],
+      "whiteboard": "The nozzle stroke and the layer lines on the bed are drawn in the same order; the board keeps the machine it already has.",
+      "emphasis": []
+    },
+    {
+      "i": 4,
+      "t_start": 15.78,
+      "t_end": 25.24,
+      "words": "Think about it like having a personalized workshop, and your AI agent is literally just able to create either a hammer or a screwdriver depending on the task that it needs to settle.",
+      "says": "It is a workshop: it makes a hammer when the job wants a hammer and a screwdriver when the job wants a screwdriver.",
+      "picture": "On 'workshop' the machine's own gantry outline flips terracotta for a beat - this is the workshop. Then the board clears and the two finished tools OWN it: a hammer and a screwdriver laid across each other at +/-34 degrees, each 350 core px long, the hammer landing on the word 'hammer' and the screwdriver crossing it on the word 'screwdriver'.",
+      "objects": [
+        "tool printing machine",
+        "two crossed tools"
+      ],
+      "whiteboard": "Same two tools, same crossing, drawn as marker strokes; the emphasis is the machine's outline redrawn in terracotta rather than a border flip.",
+      "emphasis": [
+        {
+          "target": "tool printing machine",
+          "kind": "box",
+          "why": "LAW 38 rule 2: the machine is a DRAWN object, so it takes boxing, and the DOM lane's boxing is the panel border flip of its own frame - it adds no geometry and no new gutter. Never a ring, an ellipse or a circle."
+        }
+      ]
+    },
+    {
+      "i": 5,
+      "t_start": 25.42,
+      "t_end": 30.0,
+      "words": "Now, it's the first type of agent built on top of this technology, which is called RLM.",
+      "says": "It is the first agent standing on a new underlying technology named RLM.",
+      "picture": "The two tools clear; the machine is drawn again, small, at the top of the board and a slab draws underneath it, the machine standing on it. RLM is written under the slab.",
+      "objects": [
+        "tool printing machine",
+        "RLM base slab",
+        "key RLM"
+      ],
+      "whiteboard": "Same: the machine redrawn smaller, then one heavy horizontal marker slab under its feet, then the three letters.",
+      "emphasis": []
+    },
+    {
+      "i": 6,
+      "t_start": 30.32,
+      "t_end": 38.36,
+      "words": "so we don't really know if it's going to really be competing against regular AI agents, but it's always super interesting and exciting to see how the technology is moving forward.",
+      "says": "Nobody knows yet whether it beats the normal agents, and that is the interesting part.",
+      "picture": "Under the machine on its slab, a row of three real agent marks in tiles arrives - Claude Code, Codex, Cursor - the regular agents it would have to beat, with a terracotta rule drawn between the two halves. On 'regular' the three tiles' own borders flip terracotta together.",
+      "objects": [
+        "tool printing machine",
+        "RLM base slab",
+        "agent mark tiles",
+        "terracotta rule"
+      ],
+      "whiteboard": "The three marks are drawn as three ink tiles with the real marks seated in them, same row, same rule.",
+      "emphasis": [
+        {
+          "target": "agent mark tiles",
+          "kind": "box",
+          "why": "LAW 38 rule 2: the tiles are DRAWN containers with their own background, so the boxing is the tile border flipping terracotta. The flip is never drawn on the raster mark itself (rule 2b), and it is never a ring."
+        }
+      ]
+    },
+    {
+      "i": 7,
+      "t_start": 38.78,
+      "t_end": 43.175,
+      "words": "Now follow for more AI news, videos, and tutorials each and every single day, and catch you in the next one.",
+      "says": "Follow the channel.",
+      "picture": "An opaque cream sheet rises over the board and the outro lockup settles on it: the machine drawn small, a terracotta rule, the mono handle and the daily AI micro-line.",
+      "objects": [
+        "outro lockup"
+      ],
+      "whiteboard": "Same lockup on the same small machine glyph, drawn in marker.",
+      "emphasis": []
+    }
+  ],
+  "bespoke_objects": [
+    {
+      "name": "open toolbox with tools",
+      "t": 8.2,
+      "bbox": [
+        0.3375,
+        0.192,
+        0.6625,
+        0.3362
+      ],
+      "space": "norm",
+      "why_bespoke": "No registry mark says 'a fixed set of tools you pick from'. The box is the whole claim of the second sentence in one silhouette: the tools already exist, they sit there, and all the agent does is reach in. It replaced a pegboard rack whose perforations and thin hanging tools vanished at 405x720 (`review/proofs/round0/`).",
+      "how_drawn": "A deep ink-line box with a front latch, a strap handle arching over its rim, and two tool heads standing proud of it: an open-end wrench on the left and a toothed saw on the right."
+    },
+    {
+      "name": "tool printing machine",
+      "t": 1.8,
+      "bbox": [
+        0.33,
+        0.2058,
+        0.67,
+        0.338
+      ],
+      "space": "norm",
+      "why_bespoke": "The video turns on one tool whose output is other tools; a machine that manufactures objects on demand is the everyday object for that, and no stock mark or chassis furniture argues it. Checked against the refused-silhouette list: it is not a cylinder, a gear, a bell or a magnifier.",
+      "how_drawn": "An open square gantry frame on two feet, a horizontal rail across the top with a small nozzle head hanging from it, a filament spool on a stub axle at the left upright, and a flat bed inside the frame carrying a part built from stacked horizontal layer lines."
+    },
+    {
+      "name": "two crossed tools",
+      "t": 24.4,
+      "bbox": [
+        0.287,
+        0.1641,
+        0.713,
+        0.3859
+      ],
+      "space": "norm",
+      "why_bespoke": "The script's own example and the payoff of the machine: two DIFFERENT finished tools is the picture that says 'whichever one the task wants'. Declared as ONE bespoke object with ONE bbox because the pair, not either tool, is the idea. Miguel reviewed the round-4 drawing himself on 2026-09-21 and accepted it; its cold name is 'two crossed tools'.",
+      "how_drawn": "A claw hammer and a flat-blade screwdriver laid across each other at +/-34 degrees about two centres 60 px apart, both open ink outlines, mirror-placed about the board axis."
+    }
+  ],
+  "labels": [
+    {
+      "for": "tool printing machine",
+      "text": "PRIME AGENT",
+      "place": "above",
+      "at": 1.1,
+      "note": "LAW 9: the key term, written FIRST among all type, alone, at 48 px (25.6 design units), centred on the machine's own axis. Both its words are spoken by 0.70 so it does not peek ahead. LAW 39: declared with data-label-for=\"machine\" and label_plan= on the board."
+    },
+    {
+      "for": "open toolbox",
+      "text": "REGULAR AGENTS",
+      "place": "above",
+      "at": 3.06,
+      "note": "LAW 39 + LAW 50: it sits ABOVE its object exactly as the key term does, centred on the box's own axis, so the two written keys of the first two chapters sit the same way. Lands on the word 'agents' (3.06-3.36)."
+    },
+    {
+      "for": "tool printing machine",
+      "text": "ONE SINGLE TOOL",
+      "place": "above",
+      "at": 11.62,
+      "note": "LAW 39: centred on the machine's axis, ABOVE it, on the word 'one' (11.62-11.82). It is alone on the board in its chapter, so it has no sibling to match; placing it above also matches the two keys before it (LAW 50) and leaves the machine's bed clear for the part that grows at 14.06."
+    },
+    {
+      "for": "RLM base slab",
+      "text": "RLM",
+      "place": "below",
+      "at": 29.4,
+      "note": "LAW 39: centred on the slab's axis, below it, on the word 'RLM' (29.40-30.00). The only written key in its chapter."
+    }
+  ],
+  "lifetimes": [
+    {
+      "mark": "machine-hook",
+      "t_from": 0.3,
+      "t_to": 2.36,
+      "anchor": "machine",
+      "note": "LAW 42: the hook instance. The MACHINE is on screen across chapters 0, 2 and 4 for more than 40% of the take, so it is DECLARED in board_anchors; each instance also carries a finite window."
+    },
+    {
+      "mark": "key-prime-agent",
+      "t_from": 1.1,
+      "t_to": 2.36,
+      "anchor": null,
+      "note": "LAW 42: leaves with chapter 0."
+    },
+    {
+      "mark": "toolbox",
+      "t_from": 2.46,
+      "t_to": 8.58,
+      "anchor": null,
+      "note": "LAW 42: the box's whole life is chapter 1; its two tools are children of its own SVG."
+    },
+    {
+      "mark": "key-regular-agents",
+      "t_from": 3.06,
+      "t_to": 8.58,
+      "anchor": null,
+      "note": "LAW 42: leaves with its object (LAW 28, one block)."
+    },
+    {
+      "mark": "machine-main",
+      "t_from": 8.72,
+      "t_to": 21.5,
+      "anchor": "machine",
+      "note": "LAW 42."
+    },
+    {
+      "mark": "key-one-tool",
+      "t_from": 11.62,
+      "t_to": 21.5,
+      "anchor": null,
+      "note": "LAW 42."
+    },
+    {
+      "mark": "bed-part",
+      "t_from": 14.06,
+      "t_to": 21.5,
+      "anchor": null,
+      "note": "LAW 42: the thing being built lives only while it is the claim."
+    },
+    {
+      "mark": "emph-machine",
+      "t_from": 17.62,
+      "t_to": 18.6,
+      "anchor": null,
+      "note": "LAW 38/42: an emphasis lives only inside the beat that argues it."
+    },
+    {
+      "mark": "toolpair",
+      "t_from": 21.62,
+      "t_to": 25.34,
+      "anchor": null,
+      "note": "LAW 42: the hammer at 21.62, the screwdriver crossing it at 22.28, both gone at the seam."
+    },
+    {
+      "mark": "machine-out",
+      "t_from": 25.42,
+      "t_to": 38.6,
+      "anchor": "machine",
+      "note": "LAW 42."
+    },
+    {
+      "mark": "rlm-slab",
+      "t_from": 27.02,
+      "t_to": 38.6,
+      "anchor": null,
+      "note": "LAW 42."
+    },
+    {
+      "mark": "key-rlm",
+      "t_from": 29.4,
+      "t_to": 38.6,
+      "anchor": null,
+      "note": "LAW 42."
+    },
+    {
+      "mark": "tile-claude-code",
+      "t_from": 32.8,
+      "t_to": 38.6,
+      "anchor": null,
+      "note": "LAW 42."
+    },
+    {
+      "mark": "tile-codex",
+      "t_from": 32.96,
+      "t_to": 38.6,
+      "anchor": null,
+      "note": "LAW 42."
+    },
+    {
+      "mark": "tile-cursor",
+      "t_from": 33.12,
+      "t_to": 38.6,
+      "anchor": null,
+      "note": "LAW 42."
+    },
+    {
+      "mark": "vs-rule",
+      "t_from": 33.28,
+      "t_to": 38.6,
+      "anchor": null,
+      "note": "LAW 42."
+    },
+    {
+      "mark": "emph-tiles",
+      "t_from": 33.28,
+      "t_to": 34.6,
+      "anchor": null,
+      "note": "LAW 38/42."
+    },
+    {
+      "mark": "outro",
+      "t_from": 38.78,
+      "t_to": null,
+      "anchor": "outro",
+      "note": "LAW 42: the lockup is the last thing on screen and never leaves."
+    }
+  ],
+  "connectors": [],
+  "blocks": [
+    [
+      "machine-hook",
+      "key-prime-agent"
+    ],
+    [
+      "toolbox",
+      "key-regular-agents"
+    ],
+    [
+      "machine-main",
+      "key-one-tool"
+    ],
+    [
+      "machine-main",
+      "bed-part"
+    ],
+    [
+      "toolpair",
+      "hammer",
+      "screwdriver"
+    ],
+    [
+      "machine-out",
+      "rlm-slab",
+      "key-rlm"
+    ]
+  ],
+  "blocks_note": "LAW 41: each written key is welded to the object it names, the part being built is welded to the bed it grows on, the two crossed tools are welded to the pair they form, and the machine is welded to the slab it stands on. The toolbox's two tools are children of the box's own SVG and move with it by construction (LAW 28). The three agent tiles are a >=3 identical-shape series and are inferred, so they are not declared.",
+  "pointing_cues": [],
+  "pointing_cues_note": "LAW 37: pointing_cues.py returned 'no pointing cue in this take' - cues: [] in gen/_cues_primeagent.json. The script names no platform, no post and no person, so there is nothing to raise and nothing to waive. No source card is built and GLOBAL LAW 3 never engages.",
+  "boards": {
+    "mode": "chapters",
+    "why": "LAW 43: chapters are the default and this script changes subject four times. The toolbox is not modified by the machine - it is REPLACED by it - what the machine makes is its own picture, and the RLM slab with the competing marks is a fourth. Every seam lands on the object the next sentence is about (LAW 45).",
+    "chapters": [
+      {
+        "i": 0,
+        "t_start": 0.1,
+        "t_end": 2.36,
+        "erase_at": 2.36,
+        "holds": [
+          "machine-hook",
+          "key-prime-agent"
+        ],
+        "why_together": "The hook: the video's idea as an object (LAW 20) plus the key term (LAW 9), and nothing else on the board."
+      },
+      {
+        "i": 1,
+        "t_start": 2.36,
+        "t_end": 8.58,
+        "erase_at": 8.58,
+        "holds": [
+          "toolbox",
+          "key-regular-agents"
+        ],
+        "why_together": "One sentence, one picture: what a NORMAL agent has. The machine is deliberately off the board so the contrast is a replacement, not a comparison across a gutter."
+      },
+      {
+        "i": 2,
+        "t_start": 8.72,
+        "t_end": 21.5,
+        "erase_at": 21.5,
+        "holds": [
+          "machine-main",
+          "key-one-tool",
+          "bed-part"
+        ],
+        "why_together": "Two sentences that modify ONE picture: the single tool, and that tool working."
+      },
+      {
+        "i": 3,
+        "t_start": 21.62,
+        "t_end": 25.34,
+        "erase_at": 25.34,
+        "holds": [
+          "toolpair"
+        ],
+        "why_together": "What comes out. It owns the whole board because the two tools have to be legible at 405x720, which is what two cold rounds proved they were not when they shared it."
+      },
+      {
+        "i": 4,
+        "t_start": 25.42,
+        "t_end": 38.6,
+        "erase_at": 38.6,
+        "holds": [
+          "machine-out",
+          "rlm-slab",
+          "key-rlm",
+          "tile-claude-code",
+          "tile-codex",
+          "tile-cursor",
+          "vs-rule"
+        ],
+        "why_together": "The technology underneath and the field it would have to beat: one picture of where this thing stands."
+      }
+    ],
+    "key_term": "PRIME AGENT"
+  },
+  "cast": [
+    "claude-code",
+    "codex",
+    "cursor"
+  ],
+  "cast_note": "THE ROSTER IS TOPICAL: the script's own comparison is 'regular AI agents', and these three are the agents this channel actually names. MARK IDENTITY: 'claude-code' is the plain no-outline mascot (assets/logos/coding-tools/claudecode-color.png), never 'claude-code-sticker'. Prime Agent itself is NOT in the cast - it is the stage object, drawn, and it has no registry mark.",
+  "cutout_logo_lanes": [
+    "claude-code",
+    "codex",
+    "cursor",
+    "opencode",
+    "copilot",
+    "antigravity"
+  ],
+  "cutout_logo_lanes_note": "Topical to this short: six real coding/agent products - the category the script compares Prime Agent against - mixed, no mark repeated, and never the story's own stage object (which has no mark anyway).",
+  "open_questions": [
+    "The machine's filament spool is what stops the frame reading as a plain box; if the cutout's k shrinks the core below ~0.90 the spool's inner hole may close up at 405x720. The cutout author should check the spool hole at its own k and, if it fills, widen the hole rather than enlarging the machine.",
+    "wing review: prompt0 not landed at plan time - the cutout author owns it. Only the cut marker existed when this plan was written (status ok, cut master 43.2 s, tight audio 43.175 s, analysis wav written false by design); plate, prompt0, track, ship and cues markers did not exist yet, and the cue scan was run directly by this seat instead.",
+    "The three agent tiles in chapter 3 are the obvious neighbours, not a claim about who Prime Agent actually competes with - the script says 'we don't really know'. If a later seat wants a fourth mark, keep the row symmetric about the axis.",
+    "Bespoke object 2 is CLOSED: Miguel accepted the round-4 crossed pair on 2026-09-21 under the name 'two crossed tools'. The drawing in gen/primeagent_scene.py is final and must not be redrawn."
+  ],
+  "open_doubts": [],
+  "open_doubts_note": "Nothing here changes what the viewer sees in a way this seat could not decide. There is no source post, no platform named, no metric and no second reading of the claim: the transcript says a machine that makes tools, and that is what is drawn.",
+  "connectors_note": "NO CONNECTOR IS DRAWN. The plan's first cut ran two terracotta lines from the machine to the two finished tools; the pair's two cold-read failures were SIZE failures and the remedy was to give the pair the whole board, which leaves no machine on screen for a line to leave. Every remaining relationship is CONTAINMENT and is carried by the declared blocks. LAW 40 binds connectors that exist; it does not require any. `anchor_points` stays in the scene module so a lane that later adds one cannot hand-place its end."
+}

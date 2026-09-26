@@ -1,0 +1,311 @@
+{
+ "video": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/cursorspacex_whiteboard.mp4",
+ "video_id": "cursorspacex",
+ "fmt": "whiteboard",
+ "model": "gemini-3.5-flash-lite",
+ "duration_s": 22.141,
+ "fps_sampled": 3.0,
+ "windows": [
+  [
+   0.0,
+   22.14
+  ],
+  [
+   0.0,
+   20.0
+  ],
+  [
+   17.0,
+   22.14
+  ]
+ ],
+ "whole_pass": true,
+ "thinking": "medium",
+ "media_resolution": "HIGH",
+ "jobs": 3,
+ "transcript": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/cuts/cursorspacex/transcript_tight.json",
+ "video_summary": "A speaker talks about the AI tool Cursor being acquired by SpaceX AI and sunsetted over the coming months. The video uses a whiteboard format where drawings and labels accumulate as he speaks, ending with an outro handle card.",
+ "beat_log": [
+  {
+   "t_start": 0.0,
+   "t_end": 2.86,
+   "on_screen": "A flag on a pole being drawn on a cream whiteboard, speaker below",
+   "said": "One of the most loved brands in the AI space",
+   "marks_visible": "none",
+   "labels_visible": "none",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "none",
+   "picture_vs_sentence": "Picture draws a flag, matching the intro metaphor.",
+   "from_window": [
+    0.0,
+    22.14
+   ]
+  },
+  {
+   "t_start": 0.0,
+   "t_end": 5.0,
+   "on_screen": "A red pencil drawing a flagpole with a heart flag on top; caption 'One of the most loved brands in the'",
+   "said": "One of the most loved brands in the AI space by developers is soon going to",
+   "marks_visible": "none",
+   "labels_visible": "One of the most loved brands in the",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "BELOW (captions)",
+   "picture_vs_sentence": "picture shows a flagpole being drawn matching the topic of brands",
+   "from_window": [
+    0.0,
+    20.0
+   ]
+  },
+  {
+   "t_start": 2.86,
+   "t_end": 5.33,
+   "on_screen": "Flag with a heart on it, speaker below",
+   "said": "by developers is soon going to be sunset.",
+   "marks_visible": "none",
+   "labels_visible": "none",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "none",
+   "picture_vs_sentence": "Picture shows a heart on a flag.",
+   "from_window": [
+    0.0,
+    22.14
+   ]
+  },
+  {
+   "t_start": 5.0,
+   "t_end": 7.5,
+   "on_screen": "Flagpole with heart flag and word 'SUNSET' above it; red pencil drawing a card below; caption 'be sunset. Cursor has been acquired by SpaceX AI,'",
+   "said": "be sunset. Cursor has been acquired by SpaceX AI,",
+   "marks_visible": "none",
+   "labels_visible": "SUNSET",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "ABOVE the flag",
+   "picture_vs_sentence": "picture illustrates sunset of Cursor and acquisition",
+   "from_window": [
+    0.0,
+    20.0
+   ]
+  },
+  {
+   "t_start": 5.33,
+   "t_end": 7.0,
+   "on_screen": "Flag with a cube logo, text SUNSET above, speaker below",
+   "said": "Cursor has been acquired by SpaceX AI, and they confirmed that they're",
+   "marks_visible": "cube logo",
+   "labels_visible": "SUNSET",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "ABOVE",
+   "picture_vs_sentence": "Picture adds SUNSET text and cube logo.",
+   "from_window": [
+    0.0,
+    22.14
+   ]
+  },
+  {
+   "t_start": 7.0,
+   "t_end": 11.94,
+   "on_screen": "Flag, SUNSET text, SpaceX box added below, speaker below",
+   "said": "going to be mapping out the Cursor brand over the next few coming months while it gets absorbed by SpaceX AI",
+   "marks_visible": "cube logo, SPACEX wordmark",
+   "labels_visible": "SUNSET, SPACEX",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "ABOVE",
+   "picture_vs_sentence": "Picture shows SpaceX box added.",
+   "from_window": [
+    0.0,
+    22.14
+   ]
+  },
+  {
+   "t_start": 7.5,
+   "t_end": 12.0,
+   "on_screen": "Flagpole with cube logo on flag, 'SUNSET' above, card with 'SPACEX' logo below; caption 'and they confirmed that they're going to be mapping out the Cursor brand'",
+   "said": "and they confirmed that they're going to be mapping out the Cursor brand over the next few coming",
+   "marks_visible": "SPACEX",
+   "labels_visible": "SUNSET, SPACEX",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "ABOVE and INSIDE cards",
+   "picture_vs_sentence": "picture shows brand mapping and SpaceX acquisition",
+   "from_window": [
+    0.0,
+    20.0
+   ]
+  },
+  {
+   "t_start": 11.94,
+   "t_end": 19.38,
+   "on_screen": "Flag with crossed lines, SpaceX box, Grok box added, speaker below",
+   "said": "and Grok. Now, follow for more AI news, videos, and tutorials each and every single day,",
+   "marks_visible": "cube logo, SPACEX wordmark, Grok symbol",
+   "labels_visible": "SUNSET, SPACEX",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "ABOVE",
+   "picture_vs_sentence": "Picture adds Grok box.",
+   "from_window": [
+    0.0,
+    22.14
+   ]
+  },
+  {
+   "t_start": 12.0,
+   "t_end": 18.0,
+   "on_screen": "Flagpole with dashed horizontal lines (fading out lines), card with 'SPACEX', card with Grok logo ('\u00d8'); caption 'months while it gets absorbed by SpaceX AI and Grok.'",
+   "said": "months while it gets absorbed by SpaceX AI and Grok.",
+   "marks_visible": "SPACEX",
+   "labels_visible": "SUNSET, SPACEX",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "ABOVE and INSIDE cards",
+   "picture_vs_sentence": "picture shows absorption of the brand across timelines",
+   "from_window": [
+    0.0,
+    20.0
+   ]
+  },
+  {
+   "t_start": 17.0,
+   "t_end": 18.0,
+   "on_screen": "Whiteboard drawing at top with 'SUNSET', horizontal lines, a box with logo, and a boxed SPACEX logo below it; speaker at bottom in front of a white wall.",
+   "said": "Now, follow for more",
+   "marks_visible": "SPACEX",
+   "labels_visible": "SUNSET, SPACEX",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "SUNSET is above the chart; SPACEX is inside a red box below the main chart.",
+   "picture_vs_sentence": "Picture shows the whiteboard chart while speech starts outro call to action.",
+   "from_window": [
+    17.0,
+    22.14
+   ]
+  },
+  {
+   "t_start": 18.0,
+   "t_end": 20.0,
+   "on_screen": "Outro handle card '@migueltorrez.ai' with subtitle 'daily AI'; caption 'Now, follow for more AI news, videos, and tutorials each'",
+   "said": "Now, follow for more AI news, videos, and tutorials each and every single day, and catch you in the next one.",
+   "marks_visible": "none",
+   "labels_visible": "@migueltorrez.ai, daily AI",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "ABOVE and BELOW handle",
+   "picture_vs_sentence": "outro handle card",
+   "from_window": [
+    0.0,
+    20.0
+   ]
+  },
+  {
+   "t_start": 18.0,
+   "t_end": 18.7,
+   "on_screen": "Whiteboard drawing at top showing two red-boxed logos (SPACEX and Grok symbol); speaker at bottom.",
+   "said": "AI news,",
+   "marks_visible": "SPACEX, Grok symbol",
+   "labels_visible": "SUNSET, SPACEX",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "SPACEX and Grok symbol in boxes below chart.",
+   "picture_vs_sentence": "Picture is compatible with general outro.",
+   "from_window": [
+    17.0,
+    22.14
+   ]
+  },
+  {
+   "t_start": 18.7,
+   "t_end": 22.14,
+   "on_screen": "Outro card at top with handle '@migueltorrez.ai' and subtitle 'daily AI' with a red line above it; speaker at bottom.",
+   "said": "videos, and tutorials each and every single day, and catch you in the next one.",
+   "marks_visible": "none",
+   "labels_visible": "@migueltorrez.ai, daily AI",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "daily AI is below the handle @migueltorrez.ai.",
+   "picture_vs_sentence": "Picture shows standard handle card for outro.",
+   "from_window": [
+    17.0,
+    22.14
+   ]
+  },
+  {
+   "t_start": 19.38,
+   "t_end": 22.14,
+   "on_screen": "Outro handle card with @migueltorrez.ai and daily AI, speaker below",
+   "said": "and catch you in the next one.",
+   "marks_visible": "none",
+   "labels_visible": "@migueltorrez.ai, daily AI",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "ABOVE",
+   "picture_vs_sentence": "Picture shows outro handle card.",
+   "from_window": [
+    0.0,
+    22.14
+   ]
+  }
+ ],
+ "all_summaries": [
+  "A speaker talks about the AI tool Cursor being acquired by SpaceX AI and sunsetted over the coming months. The video uses a whiteboard format where drawings and labels accumulate as he speaks, ending with an outro handle card.",
+  "A creator discusses how the AI coding brand Cursor is being sunset and acquired by SpaceX AI and Grok. The video uses a whiteboard format where drawings and labels accumulate as the speaker narrates.",
+  "The video discusses the acquisition of Cursor by SpaceX AI and Grok, concluding with a call to follow the creator for daily AI news. The visual shows a whiteboard drawing with tools and logos transitioning into a final handle card."
+ ],
+ "candidates": [],
+ "counts": {
+  "candidates": 0,
+  "blocking": 0,
+  "motion": 0
+ },
+ "calls": [
+  {
+   "pass": 1,
+   "window": [
+    0.0,
+    22.14
+   ],
+   "model": "gemini-3.5-flash-lite",
+   "fps": 3.0,
+   "thinking": "medium",
+   "input_tokens": 21830,
+   "output_tokens": 986,
+   "thinking_tokens": 0,
+   "cost_usd": 0.009014
+  },
+  {
+   "pass": 1,
+   "window": [
+    0.0,
+    20.0
+   ],
+   "model": "gemini-3.5-flash-lite",
+   "fps": 3.0,
+   "thinking": "medium",
+   "input_tokens": 20196,
+   "output_tokens": 959,
+   "thinking_tokens": 0,
+   "cost_usd": 0.008456
+  },
+  {
+   "pass": 1,
+   "window": [
+    17.0,
+    22.14
+   ],
+   "model": "gemini-3.5-flash-lite",
+   "fps": 3.0,
+   "thinking": "medium",
+   "input_tokens": 7943,
+   "output_tokens": 611,
+   "thinking_tokens": 0,
+   "cost_usd": 0.00391
+  }
+ ],
+ "cost_usd": 0.02138,
+ "wall_clock_s": 15.9
+}

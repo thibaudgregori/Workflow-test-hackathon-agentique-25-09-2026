@@ -1,0 +1,107 @@
+{
+ "label": "geminigems_whiteboard",
+ "video": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/geminigems_whiteboard.mp4",
+ "phone_scale": "405x720",
+ "sheet": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/phone_geminigems_whiteboard.png",
+ "rule": "a FRESH judge (never read the plan) names each crop in <=3 words. Wrong name, hedge, or 'cannot tell' = the object is redesigned, not annotated.",
+ "answer_key": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/phone_geminigems_whiteboard.key.json",
+ "answer_key_rule": "DO NOT OPEN the answer key until every judge_answer below is filled in. Reading it first voids the Phone Test.",
+ "objects": [
+  {
+   "i": 0,
+   "t": 2.0,
+   "bbox_norm": [
+    0.3958,
+    0.2227,
+    0.6042,
+    0.332
+   ],
+   "phone_box_px": [
+    160,
+    160,
+    244,
+    239
+   ],
+   "phone_size_px": [
+    84,
+    79
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/phone_geminigems_whiteboard/00.png",
+   "sheet_scale": 1.0,
+   "judge_answer": "cut diamond gemstone",
+   "verdict": null
+  },
+  {
+   "i": 1,
+   "t": 8.8,
+   "bbox_norm": [
+    0.5868,
+    0.2207,
+    0.8819,
+    0.3496
+   ],
+   "phone_box_px": [
+    237,
+    158,
+    357,
+    251
+   ],
+   "phone_size_px": [
+    120,
+    93
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/phone_geminigems_whiteboard/01.png",
+   "sheet_scale": 1.0,
+   "judge_answer": "gift box being drawn",
+   "verdict": null
+  },
+  {
+   "i": 2,
+   "t": 12.7,
+   "bbox_norm": [
+    0.1389,
+    0.2773,
+    0.4028,
+    0.377
+   ],
+   "phone_box_px": [
+    56,
+    199,
+    163,
+    271
+   ],
+   "phone_size_px": [
+    107,
+    72
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/phone_geminigems_whiteboard/02.png",
+   "sheet_scale": 1.0,
+   "judge_answer": "two people standing",
+   "verdict": null
+  },
+  {
+   "i": 3,
+   "t": 14.6,
+   "bbox_norm": [
+    0.6111,
+    0.2871,
+    0.8438,
+    0.377
+   ],
+   "phone_box_px": [
+    247,
+    206,
+    341,
+    271
+   ],
+   "phone_size_px": [
+    94,
+    65
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/phone_geminigems_whiteboard/03.png",
+   "sheet_scale": 1.0,
+   "judge_answer": "crowd of people",
+   "verdict": null
+  }
+ ]
+}

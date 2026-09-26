@@ -1,0 +1,246 @@
+{
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/projects/grokimagine2_cutout",
+ "fmt": "cutout",
+ "step": 0.25,
+ "checks": {
+  "refs_resolve": {
+   "referenced": 14,
+   "missing": [],
+   "pass": true,
+   "error": null,
+   "wall_s": 0.08
+  },
+  "assets_not_placeholder": {
+   "rasters": 7,
+   "placeholder_shaped": [],
+   "undecodable": [],
+   "report": {
+    "assets/logos/grok.png": {
+     "size": [
+      1000,
+      1000
+     ],
+     "judged": "decode only (capture)"
+    },
+    "assets/logos/midjourney.png": {
+     "size": [
+      180,
+      180
+     ],
+     "ink_fill": 1.0,
+     "quantised_colours": 12,
+     "diag_fwd": 1.0,
+     "diag_back": 1.0,
+     "bbox": [
+      0,
+      0,
+      180,
+      180
+     ]
+    },
+    "assets/logos/flux.png": {
+     "size": [
+      1200,
+      857
+     ],
+     "judged": "decode only (capture)"
+    },
+    "assets/logos/minimax-color.png": {
+     "size": [
+      2000,
+      2000
+     ],
+     "judged": "decode only (capture)"
+    },
+    "assets/logos/higgsfield.png": {
+     "size": [
+      180,
+      180
+     ],
+     "ink_fill": 0.987,
+     "quantised_colours": 20,
+     "diag_fwd": 0.944,
+     "diag_back": 0.944,
+     "bbox": [
+      0,
+      0,
+      180,
+      180
+     ]
+    },
+    "assets/logos/gemini-color.png": {
+     "size": [
+      640,
+      640
+     ],
+     "ink_fill": 0.353,
+     "quantised_colours": 77,
+     "diag_fwd": 0.381,
+     "diag_back": 0.381,
+     "bbox": [
+      26,
+      26,
+      614,
+      614
+     ]
+    },
+    "assets/logos/chatgpt-color.png": {
+     "size": [
+      1024,
+      1024
+     ],
+     "judged": "decode only (capture)"
+    }
+   },
+   "pass": true,
+   "error": null,
+   "wall_s": 0.08
+  },
+  "page_audit": {
+   "ids": 145,
+   "unique_ids": 145,
+   "duplicate_ids": [],
+   "tween_selectors": 50,
+   "dead_tween_targets": [],
+   "pass": true,
+   "error": null,
+   "wall_s": 0.0
+  },
+  "caption_canon_page": {
+   "pills": 31,
+   "modal_height_px": 114.55,
+   "canon_height_px": 114.59,
+   "height_spread_px": 0.0,
+   "tolerance_design_px": 3.0,
+   "heights_off_canon": [],
+   "squarer_than_min_aspect": [],
+   "min_aspect": 1.45,
+   "function_only_beat_law": null,
+   "pass": true,
+   "error": null,
+   "wall_s": 0.0
+  },
+  "gate1_geometry_audit": {
+   "returncode": 0,
+   "errors": 0,
+   "warnings": 0,
+   "warnings_after_waivers": 0,
+   "waived": [],
+   "report": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/projects/grokimagine2_cutout/geometry_audit/report.json",
+   "stdout": "grokimagine2_cutout: 0 errors, 0 warnings (32.3s @ 0.25s step)\n",
+   "stderr": "",
+   "bar": "0 errors, 0 warnings",
+   "pass": true,
+   "error": null,
+   "wall_s": 1.38
+  },
+  "cutout_edge_fade_guard": {
+   "masked_containers": 3,
+   "fade_px": 46.0,
+   "meters_exempt": [],
+   "pass": true,
+   "wall_s": 0.0
+  },
+  "cutout_checks_24_25": {
+   "check24_edge_fade": {
+    "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/projects/grokimagine2_cutout",
+    "masks": {
+     "masked_containers": 3,
+     "fade_px": 46.0,
+     "meters_exempt": []
+    },
+    "gate1": {
+     "edgefade_violations": 0,
+     "elements": [],
+     "ok": true
+    },
+    "ok": true
+   },
+   "check25_depth_field": {
+    "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/projects/grokimagine2_cutout",
+    "foundation": {
+     "tiles": [
+      78.0,
+      116.0,
+      148.0
+     ],
+     "gaps": [
+      30.0,
+      36.0,
+      44.0
+     ],
+     "inter_lane_gap": 26.0,
+     "band_h": 394.0
+    },
+    "band": [
+     1002.5,
+     1396.5
+    ],
+    "inter_lane_gutters": [
+     26.0,
+     26.0
+    ],
+    "band_h": 394.0,
+    "step_events": 10,
+    "pop_behind": false,
+    "lanes": {
+     "far": {
+      "y": 1002.5,
+      "wrapper": [
+       1080.0,
+       78.0
+      ],
+      "tiles": 17,
+      "tile_w": [
+       78.0
+      ],
+      "pitches": [
+       108.0
+      ]
+     },
+     "mid": {
+      "y": 1106.5,
+      "wrapper": [
+       1080.0,
+       116.0
+      ],
+      "tiles": 17,
+      "tile_w": [
+       116.0
+      ],
+      "pitches": [
+       152.0
+      ]
+     },
+     "near": {
+      "y": 1248.5,
+      "wrapper": [
+       1080.0,
+       148.0
+      ],
+      "tiles": 19,
+      "tile_w": [
+       148.0
+      ],
+      "pitches": [
+       192.0
+      ]
+     }
+    },
+    "violations": [],
+    "ok": true
+   },
+   "fails": [],
+   "pass": true,
+   "error": null,
+   "wall_s": 0.05
+  }
+ },
+ "skipped": {},
+ "duration_s": 32.32,
+ "page_zoom": 1.0004128998609179,
+ "page_load_wall_s": 0.83,
+ "failed": [],
+ "verdict": "PASS",
+ "total_wall_s": 2.42
+}

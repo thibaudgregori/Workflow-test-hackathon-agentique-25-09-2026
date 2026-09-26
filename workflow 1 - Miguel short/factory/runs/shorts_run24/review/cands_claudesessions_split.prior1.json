@@ -1,0 +1,455 @@
+{
+ "video": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/claudesessions_split.mp4",
+ "video_id": "claudesessions",
+ "fmt": "split",
+ "model": "gemini-3.5-flash-lite",
+ "duration_s": 21.261,
+ "fps_sampled": 3.0,
+ "windows": [
+  [
+   0.0,
+   21.26
+  ],
+  [
+   0.0,
+   20.0
+  ],
+  [
+   17.0,
+   21.26
+  ]
+ ],
+ "whole_pass": true,
+ "thinking": "medium",
+ "media_resolution": "HIGH",
+ "jobs": 3,
+ "transcript": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/cuts/claudesessions/transcript_tight.json",
+ "video_summary": "A speaker explains that Claude Code sessions can now communicate with one another so users don't have to switch between them, visualizing this with two-way radio icons. The short ends with an outro handle card.",
+ "beat_log": [
+  {
+   "t_start": 0.0,
+   "t_end": 0.667,
+   "on_screen": "Blank cream zone at top",
+   "said": "Claude can now",
+   "marks_visible": "none",
+   "labels_visible": "none",
+   "touching_or_clipped": "none",
+   "empty_regions": "cream zone is empty from 0.00 to 0.33 s",
+   "label_placement": "none",
+   "picture_vs_sentence": "picture says nothing",
+   "from_window": [
+    0.0,
+    21.26
+   ]
+  },
+  {
+   "t_start": 0.0,
+   "t_end": 2.0,
+   "on_screen": "Two walkie-talkie icons in the cream zone, connected by a red curved arrow above.",
+   "said": "Claude can now talk with itself. Now, if you're using",
+   "marks_visible": "none",
+   "labels_visible": "Claude can now",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "Caption pill is below the drawing zone; no printed labels on icons.",
+   "picture_vs_sentence": "The picture illustrates Claude talking to itself via two connected walkie-talkies, matching the sentence.",
+   "from_window": [
+    0.0,
+    20.0
+   ]
+  },
+  {
+   "t_start": 0.0,
+   "t_end": 0.5,
+   "on_screen": "three curved arch lines at top centre, speaker in black cap and black t-shirt at bottom centre, caption pill on seam",
+   "said": "Now, follow for more",
+   "marks_visible": "none",
+   "labels_visible": "Now, follow for more",
+   "touching_or_clipped": "none",
+   "empty_regions": "brief transition as arch lines fade out",
+   "label_placement": "none",
+   "picture_vs_sentence": "picture shows abstract lines while closing call to action is spoken",
+   "from_window": [
+    17.0,
+    21.26
+   ]
+  },
+  {
+   "t_start": 0.5,
+   "t_end": 1.0,
+   "on_screen": "walkie-talkie icon at top centre, speaker at bottom centre, caption pill on seam",
+   "said": "AI news, videos, and",
+   "marks_visible": "none",
+   "labels_visible": "AI news, videos, and",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "none",
+   "picture_vs_sentence": "picture transitions to introduce outro card elements",
+   "from_window": [
+    17.0,
+    21.26
+   ]
+  },
+  {
+   "t_start": 0.667,
+   "t_end": 3.0,
+   "on_screen": "Two walkie-talkie icons (one detailed, one blank outline) in top cream zone",
+   "said": "talk with itself. Now, if you're using",
+   "marks_visible": "none",
+   "labels_visible": "none",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "none",
+   "picture_vs_sentence": "picture supports sentence",
+   "from_window": [
+    0.0,
+    21.26
+   ]
+  },
+  {
+   "t_start": 1.0,
+   "t_end": 4.26,
+   "on_screen": "walkie-talkie icon at top centre, handle text @migueltorrezai and daily AI below it, speaker at bottom centre, caption pill on seam",
+   "said": "tutorials each and every single day, and catch you in the next one.",
+   "marks_visible": "none",
+   "labels_visible": "@migueltorrezai, daily AI, tutorials each and every single day, and catch you in the next one.",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "daily AI is below @migueltorrezai, which is below the icon",
+   "picture_vs_sentence": "picture shows standard outro handle card as the short concludes",
+   "from_window": [
+    17.0,
+    21.26
+   ]
+  },
+  {
+   "t_start": 2.0,
+   "t_end": 4.0,
+   "on_screen": "Two walkie-talkie icons with a Claude pixel mascot appearing in the center.",
+   "said": "Claude Code, sessions can now communicate with one another. That",
+   "marks_visible": "Claude pixel mascot",
+   "labels_visible": "using Claude Code, / sessions can now",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "Labels are centered below elements.",
+   "picture_vs_sentence": "The picture shows the Claude brand mark between communicating sessions, matching the sentence.",
+   "from_window": [
+    0.0,
+    20.0
+   ]
+  },
+  {
+   "t_start": 3.0,
+   "t_end": 4.0,
+   "on_screen": "Two walkie-talkie icons and a Claude Code pixel logo in the middle of the cream zone",
+   "said": "Claude Code,",
+   "marks_visible": "Claude Code pixel mascot",
+   "labels_visible": "none",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "none",
+   "picture_vs_sentence": "picture supports sentence",
+   "from_window": [
+    0.0,
+    21.26
+   ]
+  },
+  {
+   "t_start": 4.0,
+   "t_end": 6.56,
+   "on_screen": "Two walkie-talkies, central Claude logo, curved red arrow between them, and text SESSIONS TALK at top",
+   "said": "sessions can now communicate with one another. That",
+   "marks_visible": "Claude Code pixel mascot",
+   "labels_visible": "SESSIONS TALK",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "ABOVE the icons",
+   "picture_vs_sentence": "picture supports sentence",
+   "from_window": [
+    0.0,
+    21.26
+   ]
+  },
+  {
+   "t_start": 4.0,
+   "t_end": 6.0,
+   "on_screen": "Two walkie-talkie icons with Claude mascot in middle, header text 'SESSIONS TALK' added.",
+   "said": "communicate with one another. That means that you no",
+   "marks_visible": "Claude pixel mascot",
+   "labels_visible": "SESSIONS TALK",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "'SESSIONS TALK' sits above the walkie-talkies.",
+   "picture_vs_sentence": "The picture reinforces that sessions are talking.",
+   "from_window": [
+    0.0,
+    20.0
+   ]
+  },
+  {
+   "t_start": 6.0,
+   "t_end": 8.0,
+   "on_screen": "Two walkie-talkie icons with a user silhouette in the middle.",
+   "said": "longer have to switch from session",
+   "marks_visible": "none",
+   "labels_visible": "SESSIONS TALK",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "Header above icons.",
+   "picture_vs_sentence": "The picture shows the user between sessions.",
+   "from_window": [
+    0.0,
+    20.0
+   ]
+  },
+  {
+   "t_start": 6.56,
+   "t_end": 10.0,
+   "on_screen": "Two walkie-talkies, user silhouette icon in middle, arrows pointing both ways",
+   "said": "means that you no longer have to switch from session to session. If you leave",
+   "marks_visible": "none",
+   "labels_visible": "SESSIONS TALK",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "ABOVE",
+   "picture_vs_sentence": "picture supports sentence",
+   "from_window": [
+    0.0,
+    21.26
+   ]
+  },
+  {
+   "t_start": 8.0,
+   "t_end": 10.0,
+   "on_screen": "Two walkie-talkies with user silhouette crossed out by a red slash.",
+   "said": "to session. If you leave",
+   "marks_visible": "none",
+   "labels_visible": "SESSIONS TALK",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "Header above icons.",
+   "picture_vs_sentence": "The picture illustrates eliminating the need to switch sessions.",
+   "from_window": [
+    0.0,
+    20.0
+   ]
+  },
+  {
+   "t_start": 10.0,
+   "t_end": 11.0,
+   "on_screen": "Blank cream zone briefly",
+   "said": "long-running",
+   "marks_visible": "none",
+   "labels_visible": "none",
+   "touching_or_clipped": "none",
+   "empty_regions": "cream zone is empty from 10.00 to 10.33 s",
+   "label_placement": "none",
+   "picture_vs_sentence": "picture says nothing",
+   "from_window": [
+    0.0,
+    21.26
+   ]
+  },
+  {
+   "t_start": 10.0,
+   "t_end": 12.0,
+   "on_screen": "Two walkie-talkie icons, left one labeled 'LONG-RUNNING'.",
+   "said": "long-running tasks, you can have",
+   "marks_visible": "none",
+   "labels_visible": "LONG-RUNNING",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "'LONG-RUNNING' sits below the left walkie-talkie.",
+   "picture_vs_sentence": "The picture shows long-running tasks.",
+   "from_window": [
+    0.0,
+    20.0
+   ]
+  },
+  {
+   "t_start": 11.0,
+   "t_end": 13.0,
+   "on_screen": "Two walkie talkie icons, label LONG-RUNNING under left one",
+   "said": "tasks, you can have one single session",
+   "marks_visible": "none",
+   "labels_visible": "LONG-RUNNING",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "BELOW",
+   "picture_vs_sentence": "picture supports sentence",
+   "from_window": [
+    0.0,
+    21.26
+   ]
+  },
+  {
+   "t_start": 12.0,
+   "t_end": 14.0,
+   "on_screen": "Three walkie-talkie icons; left labeled 'LONG-RUNNING', right outlined in red.",
+   "said": "one single session and just have them",
+   "marks_visible": "none",
+   "labels_visible": "LONG-RUNNING",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "Labels below walkies on a consistent baseline.",
+   "picture_vs_sentence": "The picture illustrates a single targeted session.",
+   "from_window": [
+    0.0,
+    20.0
+   ]
+  },
+  {
+   "t_start": 13.0,
+   "t_end": 17.0,
+   "on_screen": "Three walkie-talkie icons, red arrow connecting them, labels LONG-RUNNING, ONE SESSION, and TEAMMATES",
+   "said": "and just have them communicate and work together as teammates.",
+   "marks_visible": "none",
+   "labels_visible": "LONG-RUNNING, ONE SESSION, TEAMMATES",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "BELOW",
+   "picture_vs_sentence": "picture supports sentence",
+   "from_window": [
+    0.0,
+    21.26
+   ]
+  },
+  {
+   "t_start": 14.0,
+   "t_end": 16.0,
+   "on_screen": "Three walkie-talkie icons with red connection arcs, labels 'LONG-RUNNING' and 'ONE SESSION'.",
+   "said": "communicate and work together as teammates.",
+   "marks_visible": "none",
+   "labels_visible": "LONG-RUNNING / ONE SESSION / TEAMMATES",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "Labels sit below their respective walkie icons.",
+   "picture_vs_sentence": "The picture shows multiple sessions communicating and working together.",
+   "from_window": [
+    0.0,
+    20.0
+   ]
+  },
+  {
+   "t_start": 16.0,
+   "t_end": 18.0,
+   "on_screen": "Transition showing animated brackets, then resetting to a single walkie-talkie icon.",
+   "said": "Now, follow for more AI news, videos, and",
+   "marks_visible": "none",
+   "labels_visible": "none",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "none",
+   "picture_vs_sentence": "Transition element compatible with closing out.",
+   "from_window": [
+    0.0,
+    20.0
+   ]
+  },
+  {
+   "t_start": 17.0,
+   "t_end": 17.667,
+   "on_screen": "Blank cream zone",
+   "said": "Now, follow for more",
+   "marks_visible": "none",
+   "labels_visible": "none",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "none",
+   "picture_vs_sentence": "picture says nothing",
+   "from_window": [
+    0.0,
+    21.26
+   ]
+  },
+  {
+   "t_start": 17.667,
+   "t_end": 21.26,
+   "on_screen": "One walkie-talkie icon, handle @migueltorrezai, and subtitle daily AI",
+   "said": "AI news, videos, and tutorials each and every single day, and catch you in the next one.",
+   "marks_visible": "none",
+   "labels_visible": "@migueltorrezai, daily AI",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "BELOW",
+   "picture_vs_sentence": "picture supports sentence",
+   "from_window": [
+    0.0,
+    21.26
+   ]
+  },
+  {
+   "t_start": 18.0,
+   "t_end": 20.0,
+   "on_screen": "Single walkie-talkie icon with handle card '@migueltorrezai' and subtitle 'daily AI'.",
+   "said": "tutorials each and every single day, and catch you",
+   "marks_visible": "none",
+   "labels_visible": "@migueltorrezai / daily AI",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "Handle card labels sit correctly below the walkie-talkie icon.",
+   "picture_vs_sentence": "Outro handle card displaying creator credentials.",
+   "from_window": [
+    0.0,
+    20.0
+   ]
+  }
+ ],
+ "all_summaries": [
+  "A speaker explains that Claude Code sessions can now communicate with one another so users don't have to switch between them, visualizing this with two-way radio icons. The short ends with an outro handle card.",
+  "The video explains that Claude Code sessions can now communicate with one another, allowing multiple long-running tasks to work together as teammates. The visual aid uses walkie-talkie icons connected by red signals to illustrate session communication.",
+  "This final segment of the short shows the speaker wrapping up the video while an outro handle card and walkie-talkie icon appear on the cream visual zone above. The speaker encourages viewers to follow for daily AI news, videos, and tutorials."
+ ],
+ "candidates": [],
+ "counts": {
+  "candidates": 0,
+  "blocking": 0,
+  "motion": 0
+ },
+ "calls": [
+  {
+   "pass": 1,
+   "window": [
+    0.0,
+    21.26
+   ],
+   "model": "gemini-3.5-flash-lite",
+   "fps": 3.0,
+   "thinking": "medium",
+   "input_tokens": 21273,
+   "output_tokens": 1536,
+   "thinking_tokens": 0,
+   "cost_usd": 0.010222
+  },
+  {
+   "pass": 1,
+   "window": [
+    0.0,
+    20.0
+   ],
+   "model": "gemini-3.5-flash-lite",
+   "fps": 3.0,
+   "thinking": "medium",
+   "input_tokens": 20186,
+   "output_tokens": 2912,
+   "thinking_tokens": 1244,
+   "cost_usd": 0.013336
+  },
+  {
+   "pass": 1,
+   "window": [
+    17.0,
+    21.26
+   ],
+   "model": "gemini-3.5-flash-lite",
+   "fps": 3.0,
+   "thinking": "medium",
+   "input_tokens": 7386,
+   "output_tokens": 1793,
+   "thinking_tokens": 1198,
+   "cost_usd": 0.006698
+  }
+ ],
+ "cost_usd": 0.030256,
+ "wall_clock_s": 21.6
+}

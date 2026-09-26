@@ -1,0 +1,404 @@
+{
+ "render": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/nextslide_split.mp4",
+ "vid": "nextslide",
+ "fmt": "split",
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/projects/nextslide_split",
+ "checks": {
+  "decoded_blank_frames": {
+   "ok": true,
+   "result": {
+    "frames": 830,
+    "fps": 25.0,
+    "zone": [
+     0,
+     862,
+     1080,
+     862
+    ],
+    "ink_floor": 0.0006,
+    "min_ink_frac": 0.0,
+    "empty_frames_total": 4,
+    "leading_trailing_empty": 4,
+    "interior_blank_frames": [],
+    "pass": true
+   },
+   "wall_s": 0.0
+  },
+  "zero_ink_law": {
+   "ok": true,
+   "result": {
+    "render": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/nextslide_split.mp4",
+    "frames": 830,
+    "fps": 25.0,
+    "zone_bottom_design_px": 862.5,
+    "zone_px": [
+     1080,
+     862
+    ],
+    "first_word_s": 0.14,
+    "leading_empty_frames": 4,
+    "first_judged_frame": 4,
+    "min_ink_frac_judged": 0.02054653,
+    "min_ink_frac_at_s": 0.16,
+    "blank_frames": [],
+    "verdict": "PASS"
+   },
+   "wall_s": 0.0
+  },
+  "clip_coverage_page": {
+   "ok": true,
+   "result": {
+    "duration_s": 33.2,
+    "fps": 25,
+    "groups": {
+     "stage": {
+      "clips": 0,
+      "checked": false,
+      "note": "fewer than two clips \u2014 nothing can hand over"
+     },
+     "tz": {
+      "clips": 1,
+      "checked": false,
+      "note": "fewer than two clips \u2014 nothing can hand over"
+     },
+     "scap": {
+      "clips": 33,
+      "checked": true,
+      "frames": 830,
+      "span": [
+       0.16,
+       33.18
+      ],
+      "holes": [],
+      "ghosts": [],
+      "pass": true
+     }
+    },
+    "holes": 0,
+    "ghosts": 0,
+    "pass": true
+   },
+   "wall_s": 0.0
+  },
+  "double_exposure": {
+   "ok": true,
+   "result": {
+    "frames": 830,
+    "fps": 25.0,
+    "first_word_s": 0.14,
+    "leading_blank_run_frames": 5,
+    "after_first_word": {
+     "from_frame": 4,
+     "from_t": 0.16,
+     "basis": "first spoken word",
+     "min_ink": 0,
+     "min_ink_t": 0.16,
+     "min_ink40": 0,
+     "min_ink40_t": 0.16,
+     "zero_ink_frames": [
+      0.16,
+      29.44,
+      29.48,
+      29.52,
+      29.56,
+      29.6
+     ],
+     "zero_ink40_frames": [
+      0.16,
+      0.2,
+      29.44,
+      29.48,
+      29.52,
+      29.56,
+      29.6
+     ]
+    },
+    "after_leading_run": {
+     "from_frame": 5,
+     "from_t": 0.2,
+     "basis": "opening fade-up cleared",
+     "min_ink": 0,
+     "min_ink_t": 29.44,
+     "min_ink40": 0,
+     "min_ink40_t": 0.2,
+     "zero_ink_frames": [
+      29.44,
+      29.48,
+      29.52,
+      29.56,
+      29.6
+     ],
+     "zero_ink40_frames": [
+      0.2,
+      29.44,
+      29.48,
+      29.52,
+      29.56,
+      29.6
+     ]
+    },
+    "after_first_readable_ink": {
+     "from_frame": 6,
+     "from_t": 0.24,
+     "basis": "first READABLE ink on screen",
+     "min_ink": 0,
+     "min_ink_t": 29.44,
+     "min_ink40": 0,
+     "min_ink40_t": 29.44,
+     "zero_ink_frames": [
+      29.44,
+      29.48,
+      29.52,
+      29.56,
+      29.6
+     ],
+     "zero_ink40_frames": [
+      29.44,
+      29.48,
+      29.52,
+      29.56,
+      29.6
+     ]
+    },
+    "double_exposure_floor_px": 600,
+    "double_exposure_frames": [
+     {
+      "t": 4.12,
+      "outgoing_px": 1496,
+      "incoming_px": 948
+     },
+     {
+      "t": 4.16,
+      "outgoing_px": 1063,
+      "incoming_px": 1505
+     },
+     {
+      "t": 4.2,
+      "outgoing_px": 659,
+      "incoming_px": 1995
+     },
+     {
+      "t": 22.04,
+      "outgoing_px": 1492,
+      "incoming_px": 859
+     },
+     {
+      "t": 22.08,
+      "outgoing_px": 1175,
+      "incoming_px": 1160
+     },
+     {
+      "t": 22.12,
+      "outgoing_px": 833,
+      "incoming_px": 1515
+     }
+    ],
+    "double_exposure_count": 6,
+    "note": "candidates, not a verdict \u2014 adjudicate each window (procedure v3); the opening fade-up legitimately fires"
+   },
+   "wall_s": 0.06
+  },
+  "face_centring": {
+   "ok": true,
+   "result": {
+    "label": "nextslide_split",
+    "video": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/nextslide_split.mp4",
+    "duration_s": 33.22,
+    "detector": "mediapipe/blazeface",
+    "segment_source": "auto:layout-detector",
+    "segments": null,
+    "every_s": 0.5,
+    "tol_pct": 4.0,
+    "band_level": "warning",
+    "full_face": {
+     "n": 0,
+     "worst_dx_pct": null,
+     "worst_t": null,
+     "mean_abs_dx_pct": null,
+     "offenders": []
+    },
+    "band": {
+     "n": 66,
+     "worst_dx_pct": 6.94,
+     "worst_t": 32.0,
+     "warnings": [
+      {
+       "t": 23.0,
+       "dx_pct": -4.54,
+       "face_h_pct": 15.7,
+       "class": "band",
+       "score": 0.98,
+       "skin": 0.92
+      },
+      {
+       "t": 27.0,
+       "dx_pct": 5.83,
+       "face_h_pct": 15.3,
+       "class": "band",
+       "score": 0.99,
+       "skin": 0.91
+      },
+      {
+       "t": 32.0,
+       "dx_pct": 6.94,
+       "face_h_pct": 14.3,
+       "class": "band",
+       "score": 0.99,
+       "skin": 0.92
+      },
+      {
+       "t": 32.5,
+       "dx_pct": 5.74,
+       "face_h_pct": 15.0,
+       "class": "band",
+       "score": 0.99,
+       "skin": 0.89
+      }
+     ]
+    },
+    "pass": true,
+    "verdict": "PASS"
+   },
+   "wall_s": 0.92
+  },
+  "pill_canon_rendered": {
+   "ok": true,
+   "result": {
+    "samples": 60,
+    "band_rows_px": [
+     772,
+     952
+    ],
+    "frames_without_a_pill": 0,
+    "distinct_heights_px": {
+     "114": 60
+    },
+    "modal_height_px": 114,
+    "modal_height_design_px": 114.0,
+    "spread_px": 0,
+    "spread_max_px": 2.0,
+    "canonical_height_px": 114.59,
+    "canonical_height_design_px": 114.59,
+    "modal_vs_canon_px": 0.59,
+    "tolerance_px": 3.0,
+    "delivery_scale": 1.0,
+    "widest_pill_px": 712,
+    "widest_pill_in_design_px": 712.0,
+    "verdict": "PASS",
+    "pass": true
+   },
+   "wall_s": 0.0
+  },
+  "gate1_geometry_audit": {
+   "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/geometry_audit.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/projects/nextslide_split --step 0.25 --out /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/gen/_gate1_nextslide_split.json",
+   "rc": 0,
+   "stdout": "nextslide_split: 0 errors, 0 warnings (33.2s @ 0.25s step)\n",
+   "stderr": "",
+   "wall_s": 3.4
+  },
+  "gate2_frame_review": {
+   "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/qc/gate2_frames.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/nextslide_split.mp4 --full --transcript /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/cuts/nextslide/transcript_tight.json",
+   "rc": 0,
+   "stdout": "shorts-factory/runs/shorts_run25/output/frames_nextslide_split/f_0023_000.jpg\n  t=00:23.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/frames_nextslide_split/f_0023_333.jpg\n  t=00:23.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/frames_nextslide_split/f_0023_666.jpg\n  t=00:24.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/frames_nextslide_split/f_0024_000.jpg\n  t=00:24.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/frames_nextslide_split/f_0024_333.jpg\n  t=00:24.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/frames_nextslide_split/f_0024_666.jpg\n  t=00:25.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/frames_nextslide_split/f_0025_000.jpg\n  t=00:25.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/frames_nextslide_split/f_0025_333.jpg\n  t=00:26.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/frames_nextslide_split/f_0026_000.jpg\n  t=00:26.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/frames_nextslide_split/f_0026_333.jpg\n  t=00:26.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/frames_nextslide_split/f_0026_666.jpg\n  t=00:27.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/frames_nextslide_split/f_0027_000.jpg\n  t=00:27.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/frames_nextslide_split/f_0027_333.jpg\n  t=00:27.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/frames_nextslide_split/f_0027_666.jpg\n  t=00:28.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/frames_nextslide_split/f_0028_000.jpg\n  t=00:28.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/frames_nextslide_split/f_0028_666.jpg\n  t=00:29.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/frames_nextslide_split/f_0029_000.jpg\n  t=00:29.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/frames_nextslide_split/f_0029_333.jpg\n  t=00:29.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/frames_nextslide_split/f_0029_666.jpg\n  t=00:30.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/frames_nextslide_split/f_0030_000.jpg\n  t=00:30.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/frames_nextslide_split/f_0030_666.jpg\n  t=00:31.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/frames_nextslide_split/f_0031_333.jpg\n  t=00:32.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/frames_nextslide_split/f_0032_000.jpg\n  t=00:32.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/frames_nextslide_split/f_0032_333.jpg\n  t=00:32.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/frames_nextslide_split/f_0032_666.jpg\n  t=00:33.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/frames_nextslide_split/f_0033_000.jpg\n\nManifest: /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/frames_nextslide_split/manifest.md  (delete dir after review)\n",
+   "stderr": "",
+   "wall_s": 1.37
+  },
+  "gate3_gemini_describe": {
+   "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/qc/gate3_gemini.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/nextslide_split.mp4 nextslide --run /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25 --label qcpass_nextslide_split",
+   "rc": 1,
+   "stdout": "",
+   "stderr": "upload retry 1: 402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\nupload retry 2: 402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\nupload retry 3: 402 RESOURCE_EXHAUSTED. {'error': {'code': 402, 'message': 'Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. ', 'status': 'RESOURCE_EXHAUSTED'}}\nTraceback (most recent call last):\n  File \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/qc/gate3_gemini.py\", line 285, in <module>\n    cand = upload_retry(cand_path)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/qc/gate3_gemini.py\", line 202, in upload_retry\n    raise RuntimeError(f\"upload failed: {path}\")\nRuntimeError: upload failed: /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/nextslide_split.mp4\n",
+   "wall_s": 20.8
+  },
+  "audio_guards": {
+   "ok": true,
+   "result": {
+    "mix_8_16k_db": -29.82,
+    "master_8_16k_db": -29.52,
+    "delta_db": -0.3,
+    "tolerance_db": 6.0,
+    "speech_margin_db_p85_p15_33ms_s16le": 19.554,
+    "sync": {
+     "lag_ms": 0,
+     "r": 0.9954,
+     "instrument": "10 ms |x| envelope, +/-250 ms search"
+    },
+    "audio_initial_padding_samples": 0,
+    "verdict": "PASS",
+    "pass": true
+   },
+   "wall_s": 0.73
+  },
+  "contact_sheet": {
+   "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/contact_sheet.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/nextslide_split.mp4 --id nextslide --fmt split --run /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25",
+   "rc": 0,
+   "stdout": "{\n \"sheet\": \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/review/sheet_nextslide_split.png\",\n \"id\": \"nextslide\",\n \"fmt\": \"split\",\n \"duration_s\": 33.22,\n \"frame_source\": \"even\",\n \"times\": [\n  1.38,\n  4.15,\n  6.92,\n  9.69,\n  12.46,\n  15.23,\n  17.99,\n  20.76,\n  23.53,\n  26.3,\n  29.07,\n  31.84\n ],\n \"size_px\": [\n  1798,\n  4344\n ]\n}\n",
+   "stderr": "",
+   "wall_s": 3.26
+  },
+  "phone_crops": {
+   "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/phone_crops.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/nextslide_split.mp4 --out /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/review --label nextslide_split --at 3.0:0.3481,0.1573,0.6519,0.3646:slide on easel --at 28.5:0.3481,0.1573,0.6519,0.3646:chart on easel",
+   "rc": 0,
+   "stdout": "{\n \"sheet\": \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/review/phone_nextslide_split.png\",\n \"manifest\": \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/review/phone_nextslide_split.json\",\n \"answer_key\": \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/review/phone_nextslide_split.key.json\",\n \"n_objects\": 2,\n \"phone_sizes_px\": [\n  [\n   124,\n   149\n  ],\n  [\n   124,\n   149\n  ]\n ]\n}\n",
+   "stderr": "",
+   "wall_s": 0.78
+  }
+ },
+ "skipped": {
+  "cutout_checks_24_25": "cutout only, and needs --project",
+  "edge_clip": "cutout only, and needs --alpha",
+  "whiteboard_seam_law": "whiteboard only, and needs --seams (the chapter erase times)",
+  "face_hf_vs_plate": "needs --plate (the display plate)",
+  "head_scale_vs_framing": "needs --alpha and --edge-box (the crown comes from the matte's own alpha, the chin from MediaPipe on the delivered frame)"
+ },
+ "zone_bottom_design_px": 862.5,
+ "decode": {
+  "frames": 830,
+  "fps": 25.0,
+  "size": [
+   1080,
+   1920
+  ],
+  "grid_frames": 66,
+  "caption_band_rows": [
+   772,
+   952
+  ],
+  "caption_seat_design_px": 862.5,
+  "wall_s": 6.97
+ },
+ "verdicts": {
+  "decoded_blank_frames": "PASS",
+  "zero_ink_law": "PASS",
+  "clip_coverage_page": "PASS",
+  "double_exposure": "REPORTED",
+  "face_centring": "PASS",
+  "pill_canon_rendered": "PASS",
+  "gate1_geometry_audit": "PASS",
+  "gate2_frame_review": "PASS",
+  "gate3_gemini_describe": "REPORTED",
+  "audio_guards": "PASS",
+  "contact_sheet": "PASS",
+  "phone_crops": "PASS"
+ },
+ "advisory": {
+  "gate3_gemini_describe": "FAIL from gemini describe-mode, downgraded to REPORTED: the clerk adjudicates its describe_errors against the frames"
+ },
+ "wall_s": {
+  "decoded_blank_frames": 0.0,
+  "zero_ink_law": 0.0,
+  "clip_coverage_page": 0.0,
+  "double_exposure": 0.06,
+  "face_centring": 0.92,
+  "pill_canon_rendered": 0.0,
+  "gate1_geometry_audit": 3.4,
+  "gate2_frame_review": 1.37,
+  "gate3_gemini_describe": 20.8,
+  "audio_guards": 0.73,
+  "contact_sheet": 3.26,
+  "phone_crops": 0.78,
+  "single_decode": 6.97
+ },
+ "total_wall_s": 20.82,
+ "pass": true
+}

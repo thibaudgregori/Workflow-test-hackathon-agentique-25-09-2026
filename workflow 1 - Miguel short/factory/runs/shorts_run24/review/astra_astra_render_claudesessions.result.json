@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "staged": {
+    "split": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/staging/youtube/claudesessions_split.mp4",
+    "whiteboard": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/staging/reels/claudesessions_whiteboard.mp4",
+    "cutout": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/staging/tiktok/claudesessions_cutout.mp4"
+  },
+  "kept": ["split", "whiteboard"],
+  "rc_json": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/gen/_rc_claudesessions.json",
+  "waivers": [
+    "cutout: The render driver automatically staged on passing technical QC with watch_unavailable: Gemini API 429 RESOURCE_EXHAUSTED (monthly spending cap); $0. No watcher candidate report was produced, no manual watch_waiver was added, and no provider or billing limit was changed. Astra inspected the page proofs and rendered contact sheet; Miguel remains the reviewer."
+  ],
+  "not_staged": {},
+  "cutout_built": true,
+  "what_you_changed": "Verified the current codex-astra-approved d5d93595 selection on its overlay and inspected all four matte sheets. The requested corrected-mask SAM2 fallback fb1_pd5d93595 had already completed and was installed, so its hash-verified cut/rim/alpha layers were reused without repeating MatAnyone or SAM2. Built a cutout envelope from all 531 shipped alpha frames, then a cutout-only generator consuming the unchanged sealed scene and the approved split generator's caption/audio/contracts helpers. The new page uses the recorded 1584x990 plate box at -153/930, caption y878.2, unscaled scene at y216.7, the plan's six topical depth marks and @migueltorrez.ai outro. Prerender and strict geometry passed with zero errors or warnings; four word-sync states agreed. Viewed six full-frame page proofs, rendered only cutout through one render_and_check call, read its QC/result reports and viewed its rendered contact sheet. Verified the staged file is 1080x1920 with 48 kHz stereo audio and matches the output SHA256 5ecd696d2f93ed57f61938cc4d736910d3e22ef20cda580c017956f6fe3ed288. Split and whiteboard were neither rebuilt nor rendered, and their staged hashes remain unchanged. Technical QC passed; Gemini watcher remained unavailable because of its spending cap."
+}

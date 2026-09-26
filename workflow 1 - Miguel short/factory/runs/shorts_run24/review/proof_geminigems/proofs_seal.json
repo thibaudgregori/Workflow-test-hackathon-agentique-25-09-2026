@@ -1,0 +1,123 @@
+{
+ "set": "seal",
+ "phone_scale": "405x720",
+ "module": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/gen/geminigems_scene.py",
+ "objects": [
+  {
+   "i": 0,
+   "label": "gem",
+   "intended": "a cracked gem",
+   "core_box": [
+    410.0,
+    230.0,
+    670.0,
+    445.0
+   ],
+   "norm_box": [
+    0.3796,
+    0.2198,
+    0.6204,
+    0.3318
+   ],
+   "phone_box_px": [
+    154,
+    158,
+    251,
+    239
+   ],
+   "phone_size_px": [
+    97,
+    81
+   ],
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/proof_geminigems/crop_seal_00_gem.png",
+   "frame": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/proof_geminigems/frame_seal_00.png"
+  },
+  {
+   "i": 1,
+   "label": "parcel",
+   "intended": "a tied parcel",
+   "core_box": [
+    660.0,
+    230.0,
+    920.0,
+    445.0
+   ],
+   "norm_box": [
+    0.6111,
+    0.2198,
+    0.8519,
+    0.3318
+   ],
+   "phone_box_px": [
+    248,
+    158,
+    345,
+    239
+   ],
+   "phone_size_px": [
+    97,
+    81
+   ],
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/proof_geminigems/crop_seal_01_parcel.png",
+   "frame": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/proof_geminigems/frame_seal_01.png"
+  },
+  {
+   "i": 2,
+   "label": "trio",
+   "intended": "two people together",
+   "core_box": [
+    135.0,
+    318.0,
+    365.0,
+    508.0
+   ],
+   "norm_box": [
+    0.125,
+    0.2656,
+    0.338,
+    0.3646
+   ],
+   "phone_box_px": [
+    51,
+    191,
+    137,
+    262
+   ],
+   "phone_size_px": [
+    86,
+    71
+   ],
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/proof_geminigems/crop_seal_02_trio.png",
+   "frame": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/proof_geminigems/frame_seal_02.png"
+  },
+  {
+   "i": 3,
+   "label": "crowd",
+   "intended": "a crowd of people",
+   "core_box": [
+    715.0,
+    318.0,
+    945.0,
+    508.0
+   ],
+   "norm_box": [
+    0.662,
+    0.2656,
+    0.875,
+    0.3646
+   ],
+   "phone_box_px": [
+    268,
+    191,
+    354,
+    262
+   ],
+   "phone_size_px": [
+    86,
+    71
+   ],
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/proof_geminigems/crop_seal_03_crowd.png",
+   "frame": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/proof_geminigems/frame_seal_03.png"
+  }
+ ]
+}

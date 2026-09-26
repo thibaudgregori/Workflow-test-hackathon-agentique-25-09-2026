@@ -1,0 +1,16 @@
+{
+ "status": "approved",
+ "video": "primeagent",
+ "selection": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/matting/primeagent/selection.json",
+ "mask": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/matting/primeagent/selection.mask.png",
+ "mask_sha256": "27aaca54c778b56906016ba0fda954021578fae8a036a9421fd433a850928096",
+ "base_mask_sha256": "e316325ee95cf0cefed09d9fe9f218a5a42c473530b78e85e2782d7097b021d3",
+ "reviewer": "visual-agent",
+ "edits": 2,
+ "edit_summary": "two exclude polygons removing the gaming-chair backrest on both sides of the head; no include polygons needed",
+ "removed_px": 28205,
+ "fg_fraction_before": 0.4337,
+ "fg_fraction_after": 0.4107,
+ "validated": true,
+ "decision": "APPROVED"
+}

@@ -1,0 +1,204 @@
+{
+ "video": "geminigems",
+ "fps": 25,
+ "duration": 20.92,
+ "shared": {
+  "beat_edges": [
+   0.119,
+   2.74,
+   5.52,
+   7.8,
+   10.46,
+   14.18,
+   17.52,
+   20.92
+  ],
+  "phone_test_objects": [
+   {
+    "name": "a cracked gem",
+    "t": 2.0,
+    "space": "norm",
+    "bbox": [
+     0.37963,
+     0.21979,
+     0.62037,
+     0.33177
+    ],
+    "canvas": [
+     410.0,
+     422.0,
+     670.0,
+     637.0
+    ],
+    "phone_px": [
+     98,
+     81
+    ]
+   },
+   {
+    "name": "a tied parcel",
+    "t": 8.6,
+    "space": "norm",
+    "bbox": [
+     0.61111,
+     0.21979,
+     0.85185,
+     0.33177
+    ],
+    "canvas": [
+     660.0,
+     422.0,
+     920.0,
+     637.0
+    ],
+    "phone_px": [
+     98,
+     81
+    ]
+   },
+   {
+    "name": "two people together",
+    "t": 12.0,
+    "space": "norm",
+    "bbox": [
+     0.125,
+     0.26562,
+     0.33796,
+     0.36458
+    ],
+    "canvas": [
+     135.0,
+     510.0,
+     365.0,
+     700.0
+    ],
+    "phone_px": [
+     86,
+     71
+    ]
+   },
+   {
+    "name": "a crowd of people",
+    "t": 14.6,
+    "space": "norm",
+    "bbox": [
+     0.66204,
+     0.26562,
+     0.875,
+     0.36458
+    ],
+    "canvas": [
+     715.0,
+     510.0,
+     945.0,
+     700.0
+    ],
+    "phone_px": [
+     86,
+     71
+    ]
+   }
+  ]
+ },
+ "formats": {
+  "split": {
+   "phone_test_objects": [
+    {
+     "name": "a cracked gem",
+     "t": 2.0,
+     "space": "norm",
+     "bbox": [
+      0.37963,
+      0.21979,
+      0.62037,
+      0.33177
+     ],
+     "canvas": [
+      410.0,
+      422.0,
+      670.0,
+      637.0
+     ],
+     "phone_px": [
+      98,
+      81
+     ]
+    },
+    {
+     "name": "a tied parcel",
+     "t": 8.6,
+     "space": "norm",
+     "bbox": [
+      0.61111,
+      0.21979,
+      0.85185,
+      0.33177
+     ],
+     "canvas": [
+      660.0,
+      422.0,
+      920.0,
+      637.0
+     ],
+     "phone_px": [
+      98,
+      81
+     ]
+    },
+    {
+     "name": "two people together",
+     "t": 12.0,
+     "space": "norm",
+     "bbox": [
+      0.125,
+      0.26562,
+      0.33796,
+      0.36458
+     ],
+     "canvas": [
+      135.0,
+      510.0,
+      365.0,
+      700.0
+     ],
+     "phone_px": [
+      86,
+      71
+     ]
+    },
+    {
+     "name": "a crowd of people",
+     "t": 14.6,
+     "space": "norm",
+     "bbox": [
+      0.66204,
+      0.26562,
+      0.875,
+      0.36458
+     ],
+     "canvas": [
+      715.0,
+      510.0,
+      945.0,
+      700.0
+     ],
+     "phone_px": [
+      86,
+      71
+     ]
+    }
+   ],
+   "core": {
+    "left": 0.0,
+    "top": 192.0
+   },
+   "scale": 1.0,
+   "seat": 862.5,
+   "voice": {
+    "source": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/cuts/geminigems/audio.m4a",
+    "sample_rate": 48000,
+    "channels": 2
+   }
+  }
+ }
+}

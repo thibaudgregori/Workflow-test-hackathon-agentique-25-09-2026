@@ -1,0 +1,1422 @@
+{
+ "video": "grokimagine2",
+ "format": "cutout",
+ "platform": "tiktok",
+ "fps": 25,
+ "duration": 32.32,
+ "seal": {
+  "grokimagine2_scene.py": "a0630bd8d6af0543b876479659675e3fa894ced5abd5c37feb626a51560a5845",
+  "grokimagine2_scene_handoff.md": "1991f29a46bf1206bd5887a8ff914da7ab2b3da73cebbf5e752d78ac09022757"
+ },
+ "plate": {
+  "box": {
+   "w": 1584.0,
+   "h": 990.0,
+   "left": -153.0,
+   "top": 930.0
+  },
+  "whole_pixels": true,
+  "equals_encoded": {
+   "cut": {
+    "w": 1584,
+    "h": 990
+   },
+   "rim": {
+    "w": 1584,
+    "h": 990
+   }
+  },
+  "origin": "read from plate.json overwide.plate_box (not centred)",
+  "face_centre_canvas": {
+   "frames_sampled": 81,
+   "band_rows": 160,
+   "mass_cx_median": 511.7,
+   "mass_cx_p5_p95": [
+    469.5,
+    581.9
+   ],
+   "extent_mid_median": 508.0,
+   "offset_from_540": -28.3
+  }
+ },
+ "seat": 881.2,
+ "envelope": {
+  "CAP_Y": 881.2,
+  "ZY0": 192.0,
+  "ZY1": 797.4,
+  "CAP_H_true_rendered": 114.59,
+  "true_clear_to_crown": 26.5
+ },
+ "crown_gate": {
+  "frames": 808,
+  "frames_on_plate_top": 0,
+  "minimum": 35,
+  "worst_frame": 109
+ },
+ "core": {
+  "k": 0.95,
+  "k_uncapped": 1.304,
+  "k_cap": 0.95,
+  "k_cap_why": "LAW 30 rail (key VIDEOS)",
+  "left": 27.0,
+  "top": 204.0,
+  "stage_zone": [
+   192.0,
+   797.4
+  ],
+  "content_band_canvas": [
+   280.0,
+   709.4
+  ]
+ },
+ "band": {
+  "content_top": 280.0,
+  "content_bottom": 709.4,
+  "pill_top_rendered": 823.905,
+  "clear_above_pill": 114.51,
+  "clear_below_law30": 88.0
+ },
+ "rail": {
+  "readable_type_right_x": 915.6,
+  "key": "key-clapper",
+  "rail_x": 918.0
+ },
+ "voice": {
+  "source": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/cuts/grokimagine2/audio.m4a",
+  "sample_rate": 48000,
+  "channels": 2
+ },
+ "matte": {
+  "session": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/matting/grokimagine2",
+  "layers": {
+   "cut": {
+    "w": 1584,
+    "h": 990
+   },
+   "rim": {
+    "w": 1584,
+    "h": 990
+   }
+  },
+  "hashes": {
+   "cut": "7d05147a2fcc79e6783c0d04a877df342fb1eb3643163a8dfb19cdcd02f33ea9",
+   "rim": "c54e0b1c63ad94e0573137ad323c18dd64705bbdac30ff9ffbf3660492353f31",
+   "alpha": "d7ce47a92321691fedbd405cd040ba9ed5501954629135b287863148a447bae2"
+  },
+  "headroom": {
+   "identity": {
+    "alpha_sha256": "55bbc0e57d4bd815c7baecdd5e8a485f25a69e1ddcd867f9ba7885d1efc34d6b",
+    "display_sha256": "4b2e2e221ac93b8a21e1af7210a1a93b7024f6aa3f35a3adf9eaf9cf8b209a6e",
+    "guard_sha256": "90e6a7f8cf1a142b9a8ab4cf0054f9803188279b68642b84430db31afe79999a",
+    "expected_frames": 808,
+    "floor_px": 24.0
+   },
+   "pass": true,
+   "frames_checked": 808,
+   "min_top_clearance_px": 36.300000000000004,
+   "floor_px": 24.0,
+   "worst_frame": 109,
+   "worst_seconds": 4.36,
+   "unsafe_frames": 0,
+   "first_unsafe_frames": [],
+   "scope": "Every matte frame, top edge of prepared person layer; no caption or semantic face claim"
+  }
+ },
+ "depth_field": {
+  "seat": {
+   "band": [
+    1002.5,
+    1396.5
+   ],
+   "band_h": 394.0,
+   "inter_lane_gap": 26.0,
+   "seat_offset_from_pill": 64.0,
+   "foundation_offset": 63.61,
+   "drift_from_foundation_seat": 0.39,
+   "margin_px": 138.4,
+   "candidates_scanned": 101,
+   "candidates_safe": 75,
+   "instrument": "5th percentile of the PER-FRAME gutter; the union envelope describes a body that never existed",
+   "lanes": [
+    {
+     "lane": "far",
+     "tile": 78.0,
+     "y": 1002.5,
+     "frames": 270,
+     "gutter_p05": 293.5,
+     "gutter_median": 333.2,
+     "gutter_min_single_frame": 282.6,
+     "frames_under_tile": 0
+    },
+    {
+     "lane": "mid",
+     "tile": 116.0,
+     "y": 1106.5,
+     "frames": 270,
+     "gutter_p05": 277.6,
+     "gutter_median": 312.3,
+     "gutter_min_single_frame": 262.8,
+     "frames_under_tile": 0
+    },
+    {
+     "lane": "near",
+     "tile": 148.0,
+     "y": 1248.5,
+     "frames": 270,
+     "gutter_p05": 286.4,
+     "gutter_median": 315.6,
+     "gutter_min_single_frame": 12.0,
+     "frames_under_tile": 5
+    }
+   ]
+  },
+  "lanes": {
+   "far": {
+    "x0": -216.0,
+    "w": 1926.0,
+    "y": 1002.5,
+    "tile": 78.0,
+    "gap": 30.0,
+    "pitch": 108.0,
+    "tiles": 17,
+    "opacity": 0.34,
+    "dist": 46.0,
+    "travel": 414.0,
+    "steps": 9
+   },
+   "mid": {
+    "x0": -304.0,
+    "w": 2696.0,
+    "y": 1106.5,
+    "tile": 116.0,
+    "gap": 36.0,
+    "pitch": 152.0,
+    "tiles": 17,
+    "opacity": 0.66,
+    "dist": 112.0,
+    "travel": 1008.0,
+    "steps": 9
+   },
+   "near": {
+    "x0": -384.0,
+    "w": 3720.0,
+    "y": 1248.5,
+    "tile": 148.0,
+    "gap": 44.0,
+    "pitch": 192.0,
+    "tiles": 19,
+    "opacity": 1.0,
+    "dist": 208.0,
+    "travel": 1872.0,
+    "steps": 9
+   }
+  },
+  "tiles": 53,
+  "step_beats": [
+   3.04,
+   6.4,
+   9.56,
+   13.12,
+   16.36,
+   19.88,
+   23.12,
+   26.32,
+   29.44
+  ],
+  "step_n": 9,
+  "cast": [
+   "midjourney",
+   "flux",
+   "minimax",
+   "higgsfield",
+   "gemini",
+   "chatgpt"
+  ],
+  "files": {
+   "midjourney": "tool-web-icons-20260914/midjourney.png",
+   "flux": "ai-models/flux.png",
+   "minimax": "ai-models/minimax-color.png",
+   "higgsfield": "tool-web-icons-20260914/higgsfield.png",
+   "gemini": "ai-models/gemini-color.png",
+   "chatgpt": "ai-models/chatgpt-color.png"
+  },
+  "hook_clear_s": 1.8,
+  "intro_dur": 0.66,
+  "pop_behind": null,
+  "pop_behind_why_none": "the take names only Grok, the stage mark; the depth field never carries the story's own subject mark and the plan declares no window"
+ },
+ "shared": {
+  "beat_edges": [
+   0.1,
+   5.38,
+   12.7,
+   17.7,
+   21.58,
+   27.8,
+   32.32
+  ],
+  "phone_test_objects": [
+   {
+    "name": "a painter's palette",
+    "t": 2.6,
+    "bbox": [
+     0.37685,
+     0.21906,
+     0.62315,
+     0.32297
+    ],
+    "canvas": [
+     407.0,
+     420.6,
+     673.0,
+     620.1
+    ]
+   },
+   {
+    "name": "a winners' podium",
+    "t": 16.9,
+    "bbox": [
+     0.24491,
+     0.22995,
+     0.75509,
+     0.3388
+    ],
+    "canvas": [
+     264.5,
+     441.5,
+     815.5,
+     650.5
+    ]
+   },
+   {
+    "name": "a framed picture",
+    "t": 20.8,
+    "bbox": [
+     0.35486,
+     0.21115,
+     0.64514,
+     0.33484
+    ],
+    "canvas": [
+     383.2,
+     405.4,
+     696.8,
+     642.9
+    ]
+   },
+   {
+    "name": "a magic wand",
+    "t": 22.2,
+    "bbox": [
+     0.56157,
+     0.21609,
+     0.79028,
+     0.3299
+    ],
+    "canvas": [
+     606.5,
+     414.9,
+     853.5,
+     633.4
+    ]
+   }
+  ]
+ },
+ "declared": {
+  "connectors_stamped": 4,
+  "emphases_stamped": 1
+ },
+ "captions": {
+  "n": 31,
+  "texts": [
+   "Grok Imagine",
+   "2.0 just released,",
+   "the newest model by",
+   "Grok for image and",
+   "video generation.",
+   "Now, this model",
+   "allows you to create",
+   "UX/UI",
+   "mockups, infographics,",
+   "images, videos,",
+   "anything that",
+   "you might need.",
+   "It's also classed as",
+   "number two for the best",
+   "video generation model",
+   "out there right now.",
+   "If you use it inside of",
+   "the Grok application,",
+   "you also get access",
+   "to Magic Wand,",
+   "which allows you to",
+   "select a small",
+   "section of any image",
+   "and have your AI model",
+   "replace exactly that.",
+   "Now follow for more",
+   "AI news, videos, and",
+   "tutorials each and",
+   "every single day,",
+   "and catch you",
+   "in the next one."
+  ],
+  "widest_px": 719.3
+ },
+ "caption_beats": [
+  {
+   "text": "Grok Imagine",
+   "start": 0.1,
+   "end": 0.62,
+   "w": 423.97,
+   "dur": 0.62
+  },
+  {
+   "text": "2.0 just released,",
+   "start": 0.72,
+   "end": 1.8,
+   "w": 521.08,
+   "dur": 1.42
+  },
+  {
+   "text": "the newest model by",
+   "start": 2.14,
+   "end": 3.0,
+   "w": 625.39,
+   "dur": 0.92
+  },
+  {
+   "text": "Grok for image and",
+   "start": 3.06,
+   "end": 4.46,
+   "w": 581.27,
+   "dur": 1.5
+  },
+  {
+   "text": "video generation.",
+   "start": 4.56,
+   "end": 5.38,
+   "w": 530.23,
+   "dur": 1.24
+  },
+  {
+   "text": "Now, this model",
+   "start": 5.8,
+   "end": 6.64,
+   "w": 500.67,
+   "dur": 0.98
+  },
+  {
+   "text": "allows you to create",
+   "start": 6.78,
+   "end": 7.5,
+   "w": 607.02,
+   "dur": 1.04
+  },
+  {
+   "text": "UX/UI",
+   "start": 7.82,
+   "end": 8.54,
+   "w": 225.64,
+   "dur": 0.82
+  },
+  {
+   "text": "mockups, infographics,",
+   "start": 8.64,
+   "end": 10.24,
+   "w": 676.75,
+   "dur": 1.92
+  },
+  {
+   "text": "images, videos,",
+   "start": 10.56,
+   "end": 11.44,
+   "w": 472.3,
+   "dur": 1.26
+  },
+  {
+   "text": "anything that",
+   "start": 11.82,
+   "end": 12.28,
+   "w": 429.7,
+   "dur": 0.48
+  },
+  {
+   "text": "you might need.",
+   "start": 12.3,
+   "end": 12.7,
+   "w": 494.27,
+   "dur": 0.7
+  },
+  {
+   "text": "It's also classed as",
+   "start": 13.0,
+   "end": 13.82,
+   "w": 562.83,
+   "dur": 1.0
+  },
+  {
+   "text": "number two for the best",
+   "start": 14.0,
+   "end": 15.44,
+   "w": 719.3,
+   "dur": 1.56
+  },
+  {
+   "text": "video generation model",
+   "start": 15.56,
+   "end": 16.62,
+   "w": 698.22,
+   "dur": 1.38
+  },
+  {
+   "text": "out there right now.",
+   "start": 16.94,
+   "end": 17.7,
+   "w": 600.09,
+   "dur": 0.92
+  },
+  {
+   "text": "If you use it inside of",
+   "start": 17.86,
+   "end": 18.76,
+   "w": 619.77,
+   "dur": 0.94
+  },
+  {
+   "text": "the Grok application,",
+   "start": 18.8,
+   "end": 19.62,
+   "w": 627.08,
+   "dur": 1.1
+  },
+  {
+   "text": "you also get access",
+   "start": 19.9,
+   "end": 20.8,
+   "w": 578.69,
+   "dur": 0.94
+  },
+  {
+   "text": "to Magic Wand,",
+   "start": 20.84,
+   "end": 21.58,
+   "w": 484.61,
+   "dur": 1.02
+  },
+  {
+   "text": "which allows you to",
+   "start": 21.86,
+   "end": 22.48,
+   "w": 599.25,
+   "dur": 0.64
+  },
+  {
+   "text": "select a small",
+   "start": 22.5,
+   "end": 23.44,
+   "w": 434.14,
+   "dur": 1.06
+  },
+  {
+   "text": "section of any image",
+   "start": 23.56,
+   "end": 24.98,
+   "w": 615.78,
+   "dur": 1.74
+  },
+  {
+   "text": "and have your AI model",
+   "start": 25.3,
+   "end": 26.3,
+   "w": 698.61,
+   "dur": 1.04
+  },
+  {
+   "text": "replace exactly that.",
+   "start": 26.34,
+   "end": 27.8,
+   "w": 612.45,
+   "dur": 1.9
+  },
+  {
+   "text": "Now follow for more",
+   "start": 28.24,
+   "end": 28.92,
+   "w": 623.25,
+   "dur": 0.74
+  },
+  {
+   "text": "AI news, videos, and",
+   "start": 28.98,
+   "end": 29.84,
+   "w": 611.56,
+   "dur": 0.9
+  },
+  {
+   "text": "tutorials each and",
+   "start": 29.88,
+   "end": 30.5,
+   "w": 547.44,
+   "dur": 0.64
+  },
+  {
+   "text": "every single day,",
+   "start": 30.52,
+   "end": 31.0,
+   "w": 511.53,
+   "dur": 0.82
+  },
+  {
+   "text": "and catch you",
+   "start": 31.34,
+   "end": 31.62,
+   "w": 434.31,
+   "dur": 0.3
+  },
+  {
+   "text": "in the next one.",
+   "start": 31.64,
+   "end": 32.1,
+   "w": 481.3,
+   "dur": 0.68
+  }
+ ],
+ "transcript": {
+  "law47_tail_s": 0.22,
+  "law47_cap_s": 0.24,
+  "law47_verdict": "PASS - 0.220s past the last word against a 0.240s cap",
+  "take_corroboration": {
+   "method": "last scripted opening that reaches the spoken sign-off; the content rule decides, the marker rule and the gap sweep witness",
+   "raw_word_index": 63,
+   "raw_start_s": 41.98,
+   "words": 104,
+   "of_raw_words": 167,
+   "sign_offs_found": 1,
+   "marker_rule": "bound",
+   "marker_answer": 53,
+   "markers_before_take": 3,
+   "gap_rule": "band",
+   "gap_correct_thresholds": [
+    0.8,
+    0.9,
+    1.0
+   ],
+   "corroboration": {
+    "marker": "bound",
+    "gap": "band",
+    "witnessed": true,
+    "allow_uncorroborated": false
+   }
+  },
+  "words": 104,
+  "function_word_merges": 0,
+  "beats_before_merge": 31,
+  "orphan_repartitions": [],
+  "board_key_echo_repairs": [
+   {
+    "pill": "infographics,",
+    "key": "key-poster",
+    "repartitioned_to": [
+     "UX/UI",
+     "mockups, infographics,",
+     "images, videos,"
+    ]
+   }
+  ],
+  "solo_word_merges": []
+ },
+ "checks": {
+  "cues": {
+   "keyterm": {
+    "word": 3,
+    "text": "just",
+    "t": 1.3
+   },
+   "tile": {
+    "word": 9,
+    "text": "Grok",
+    "t": 3.06
+   },
+   "seam1": {
+    "word": 15,
+    "text": "Now,",
+    "t": 5.8
+   },
+   "c_mock": {
+    "word": 22,
+    "text": "UX/UI",
+    "t": 7.82
+   },
+   "c_info": {
+    "word": 24,
+    "text": "infographics,",
+    "t": 9.56
+   },
+   "c_img": {
+    "word": 25,
+    "text": "images,",
+    "t": 10.56
+   },
+   "c_vid": {
+    "word": 26,
+    "text": "videos,",
+    "t": 11.1
+   },
+   "seam2": {
+    "word": 32,
+    "text": "It's",
+    "t": 13.0
+   },
+   "tile2": {
+    "word": 37,
+    "text": "two",
+    "t": 14.36
+   },
+   "seam3": {
+    "word": 48,
+    "text": "If",
+    "t": 17.86
+   },
+   "picture": {
+    "word": 56,
+    "text": "application,",
+    "t": 19.14
+   },
+   "wand_move": {
+    "word": 62,
+    "text": "Magic",
+    "t": 21.0
+   },
+   "select": {
+    "word": 68,
+    "text": "select",
+    "t": 22.5
+   },
+   "replace": {
+    "word": 80,
+    "text": "replace",
+    "t": 26.34
+   },
+   "outro": {
+    "word": 83,
+    "text": "Now",
+    "t": 28.24
+   },
+   "palette": {
+    "word": 0,
+    "text": "Grok",
+    "t": 0.14,
+    "window": [
+     0.1,
+     1.28
+    ]
+   },
+   "o_mock": {
+    "word": 22,
+    "text": "UX/UI",
+    "t": 8.0,
+    "window": [
+     7.82,
+     9.54
+    ]
+   },
+   "k_mock": {
+    "word": 23,
+    "text": "mockups,",
+    "t": 8.66,
+    "window": [
+     8.64,
+     10.06
+    ]
+   },
+   "o_info": {
+    "word": 24,
+    "text": "infographics,",
+    "t": 9.62,
+    "window": [
+     9.56,
+     11.24
+    ]
+   },
+   "k_info": {
+    "word": 24,
+    "text": "infographics,",
+    "t": 9.76,
+    "window": [
+     9.56,
+     11.24
+    ]
+   },
+   "o_img": {
+    "word": 25,
+    "text": "images,",
+    "t": 10.62,
+    "window": [
+     10.56,
+     11.92
+    ]
+   },
+   "k_img": {
+    "word": 25,
+    "text": "images,",
+    "t": 10.76,
+    "window": [
+     10.56,
+     11.92
+    ]
+   },
+   "o_vid": {
+    "word": 26,
+    "text": "videos,",
+    "t": 11.16,
+    "window": [
+     11.1,
+     12.44
+    ]
+   },
+   "k_vid": {
+    "word": 26,
+    "text": "videos,",
+    "t": 11.3,
+    "window": [
+     11.1,
+     12.44
+    ]
+   },
+   "emph": {
+    "word": 37,
+    "text": "two",
+    "t": 14.56,
+    "window": [
+     14.36,
+     15.48
+    ]
+   },
+   "emphout": {
+    "word": 46,
+    "text": "right",
+    "t": 17.4,
+    "window": [
+     17.36,
+     18.5
+    ]
+   },
+   "k_best": {
+    "word": 43,
+    "text": "model",
+    "t": 16.4,
+    "window": [
+     16.379,
+     17.62
+    ]
+   },
+   "wand": {
+    "word": 62,
+    "text": "Magic",
+    "t": 21.1,
+    "window": [
+     21.0,
+     22.28
+    ]
+   },
+   "k_wand": {
+    "word": 63,
+    "text": "Wand,",
+    "t": 21.4,
+    "window": [
+     21.36,
+     22.58
+    ]
+   },
+   "k_image": {
+    "word": 74,
+    "text": "image",
+    "t": 24.8,
+    "window": [
+     24.76,
+     25.98
+    ]
+   },
+   "_law45": {
+    "seams": [
+     {
+      "erase_at": 5.8,
+      "last_word_ends": 5.38,
+      "carried_across": [
+       "palette"
+      ],
+      "born_in_erase": [],
+      "handover": "palette (travels across the seam)"
+     },
+     {
+      "erase_at": 13.0,
+      "last_word_ends": 12.7,
+      "carried_across": [],
+      "born_in_erase": [
+       "podium"
+      ],
+      "handover": "podium (pops inside the erase)"
+     },
+     {
+      "erase_at": 17.86,
+      "last_word_ends": 17.7,
+      "carried_across": [
+       "grok-tile-2"
+      ],
+      "born_in_erase": [],
+      "handover": "grok-tile-2 (travels across the seam)"
+     },
+     {
+      "erase_at": 28.24,
+      "last_word_ends": 27.8,
+      "carried_across": [],
+      "born_in_erase": [
+       "o-glyph",
+       "o-sheet"
+      ],
+      "handover": "o-sheet (the opaque sheet IS the handover)"
+     }
+    ],
+    "last_board_arrival_completes": 26.82,
+    "outro_at": 28.24
+   }
+  },
+  "word_sync": {
+   "states_checked": 8,
+   "disagreements": 0,
+   "states": [
+    {
+     "state": "key-grok-imagine",
+     "text": "GROK IMAGINE 2.0",
+     "at": 1.3,
+     "last_word_of_key": "2.0",
+     "word_window": [
+      0.72,
+      2.08
+     ]
+    },
+    {
+     "state": "key-phone",
+     "text": "MOCKUPS",
+     "at": 8.66,
+     "last_word_of_key": "mockups,",
+     "word_window": [
+      8.64,
+      10.06
+     ]
+    },
+    {
+     "state": "key-poster",
+     "text": "INFOGRAPHICS",
+     "at": 9.76,
+     "last_word_of_key": "infographics,",
+     "word_window": [
+      9.56,
+      11.24
+     ]
+    },
+    {
+     "state": "key-polaroid",
+     "text": "IMAGES",
+     "at": 10.76,
+     "last_word_of_key": "images,",
+     "word_window": [
+      10.56,
+      11.92
+     ]
+    },
+    {
+     "state": "key-clapper",
+     "text": "VIDEOS",
+     "at": 11.3,
+     "last_word_of_key": "videos,",
+     "word_window": [
+      11.1,
+      12.44
+     ]
+    },
+    {
+     "state": "key-best-video",
+     "text": "BEST VIDEO MODEL",
+     "at": 16.4,
+     "last_word_of_key": "model",
+     "word_window": [
+      16.379,
+      17.62
+     ]
+    },
+    {
+     "state": "key-magic-wand",
+     "text": "MAGIC WAND",
+     "at": 21.4,
+     "last_word_of_key": "Wand,",
+     "word_window": [
+      21.36,
+      22.58
+     ]
+    },
+    {
+     "state": "key-any-image",
+     "text": "ANY IMAGE",
+     "at": 24.8,
+     "last_word_of_key": "image",
+     "word_window": [
+      24.76,
+      25.98
+     ]
+    }
+   ],
+   "digits_that_tick": 0,
+   "note": "no counter ticks; the podium digits 1/2/3 are the shape's own content and arrive with it at 13.00 on \"It's\", before 'number two' (14.00) - they are a ranking object, not a spoken value, and the tile lands on 2 on 'two'."
+  },
+  "law37": {
+   "scan_cue_count": 0,
+   "plan_declared_cards": 0,
+   "prep_marker_cue_count": 0,
+   "source_post_cards": 0
+  },
+  "law39": {
+   "key-grok-imagine": {
+    "host": "palette",
+    "side": "below",
+    "text": "GROK IMAGINE 2.0",
+    "centre_error_px": 0.0,
+    "gap_px": 18.0,
+    "at": 1.3,
+    "key_box_canvas": [
+     297.8,
+     637.2,
+     782.2,
+     692.3
+    ]
+   },
+   "key-phone": {
+    "host": "phone",
+    "side": "below",
+    "text": "MOCKUPS",
+    "centre_error_px": 0.0,
+    "gap_px": 20.0,
+    "at": 8.66,
+    "key_box_canvas": [
+     115.3,
+     650.5,
+     309.1,
+     692.3
+    ]
+   },
+   "key-poster": {
+    "host": "poster",
+    "side": "below",
+    "text": "INFOGRAPHICS",
+    "centre_error_px": 0.0,
+    "gap_px": 20.0,
+    "at": 9.76,
+    "key_box_canvas": [
+     333.8,
+     650.5,
+     527.6,
+     692.3
+    ]
+   },
+   "key-polaroid": {
+    "host": "polaroid",
+    "side": "below",
+    "text": "IMAGES",
+    "centre_error_px": 0.0,
+    "gap_px": 20.0,
+    "at": 10.76,
+    "key_box_canvas": [
+     552.4,
+     650.5,
+     746.1,
+     692.3
+    ]
+   },
+   "key-clapper": {
+    "host": "clapper",
+    "side": "below",
+    "text": "VIDEOS",
+    "centre_error_px": 0.0,
+    "gap_px": 20.0,
+    "at": 11.3,
+    "key_box_canvas": [
+     770.8,
+     650.5,
+     964.6,
+     692.3
+    ]
+   },
+   "key-best-video": {
+    "host": "podium",
+    "side": "below",
+    "text": "BEST VIDEO MODEL",
+    "centre_error_px": 0.0,
+    "gap_px": 18.0,
+    "at": 16.4,
+    "key_box_canvas": [
+     395.6,
+     667.6,
+     684.4,
+     709.4
+    ]
+   },
+   "key-magic-wand": {
+    "host": "wand",
+    "side": "below",
+    "text": "MAGIC WAND",
+    "centre_error_px": 0.0,
+    "gap_px": 28.0,
+    "at": 21.4,
+    "key_box_canvas": [
+     638.8,
+     660.0,
+     821.2,
+     701.8
+    ]
+   },
+   "key-any-image": {
+    "host": "picture",
+    "side": "below",
+    "text": "ANY IMAGE",
+    "centre_error_px": 0.0,
+    "gap_px": 18.0,
+    "at": 24.8,
+    "key_box_canvas": [
+     292.1,
+     660.0,
+     474.4,
+     701.8
+    ]
+   },
+   "_key_term": {
+    "text": "GROK IMAGINE 2.0",
+    "at": 1.3,
+    "rendered_px": 45.6,
+    "design_units": 24.32,
+    "alone_until": 8.66
+   },
+   "_law50": {
+    "siblings": [
+     [
+      "key-phone",
+      "key-poster",
+      "key-polaroid",
+      "key-clapper"
+     ],
+     [
+      "key-magic-wand",
+      "key-any-image"
+     ]
+    ],
+    "note": "one size, one seat, one baseline per sibling set (module constants OUT_KEY_* and SIB_KEY_*)."
+   }
+  },
+  "law42": {
+   "board_mode": "chapters",
+   "chapters": 5,
+   "anchors": [
+    "o-sheet",
+    "o-glyph",
+    "o-rule",
+    "o-slot"
+   ],
+   "windowed": {
+    "sun": "replaced on 'replace'",
+    "emph-step2": "an emphasis lives only inside its beat"
+   },
+   "longest_lived_mark": {
+    "mark": "grok-tile-2",
+    "share": 0.429
+   },
+   "note": "palette (39.8 %) and grok-tile-2 (42.9 %) carry finite t_to at chapter seams - the plan's own declaration."
+  },
+  "law41": {
+   "pairs_measured": 1869,
+   "judged": 1216,
+   "tightest_page_px": 24.7,
+   "tightest_pair": [
+    "key-phone",
+    "key-poster",
+    9.8
+   ],
+   "under_aim": [],
+   "under_aim_count": 0,
+   "blocks": [
+    [
+     "grok-tile",
+     "palette",
+     "key-grok-imagine"
+    ],
+    [
+     "phone",
+     "key-phone"
+    ],
+    [
+     "poster",
+     "key-poster"
+    ],
+    [
+     "polaroid",
+     "key-polaroid"
+    ],
+    [
+     "clapper",
+     "key-clapper"
+    ],
+    [
+     "podium",
+     "grok-tile-2",
+     "key-best-video"
+    ],
+    [
+     "grok-tile-2",
+     "picture",
+     "selection",
+     "key-any-image"
+    ],
+    [
+     "wand",
+     "key-magic-wand"
+    ],
+    [
+     "o-glyph",
+     "o-rule"
+    ]
+   ],
+   "instrument": "0.1 s co-alive sweep over time-dependent rects, transit windows skipped; geometry_audit --strict is the independent DOM measurement"
+  },
+  "law38": {
+   "emphasis": {
+    "id": "emph-step2",
+    "kind": "border",
+    "target": "podium",
+    "fires": 14.56,
+    "releases": 17.4,
+    "check_at": 16.0,
+    "ink": "rgb(221,114,89)",
+    "rest_ink": "#141416"
+   },
+   "rings_ellipses_circles": 0,
+   "highlights": 0,
+   "why": "rule 2: podium step 2 is DRAWN, so it takes boxing, and the DOM lane's boxing is the step's OWN outline flipping to terracotta. No raster text exists, so no highlight."
+  },
+  "law2": {
+   "stage_marks": [
+    "grok"
+   ],
+   "resolve": {
+    "grok": {
+     "path": "/Users/migle/Documents/Workspace/assets/logos/ai-models/grok.png",
+     "bytes": 31458,
+     "size": [
+      1000,
+      1000
+     ],
+     "ink_fill": 0.235,
+     "quantised_colours": 1,
+     "diag_fwd": 0.174,
+     "diag_back": 0.358,
+     "bbox": [
+      39,
+      57,
+      961,
+      942
+     ]
+    }
+   },
+   "ink_side_core_px": {
+    "grok": 74.0
+   },
+   "tile_px": 112.0,
+   "cutout_lanes_not_ours": [
+    "midjourney",
+    "flux",
+    "minimax",
+    "higgsfield",
+    "gemini",
+    "chatgpt"
+   ]
+  },
+  "law40": {
+   "connectors": {
+    "conn-phone": {
+     "target": "phone",
+     "side": "top",
+     "fraction": 0.5,
+     "check_at": 12.4,
+     "end_core": [
+      195.0,
+      300.0
+     ],
+     "end_canvas": [
+      212.25,
+      489.0
+     ],
+     "stroke_completes": 8.12
+    },
+    "conn-poster": {
+     "target": "poster",
+     "side": "top",
+     "fraction": 0.5,
+     "check_at": 12.4,
+     "end_core": [
+      425.0,
+      300.0
+     ],
+     "end_canvas": [
+      430.75,
+      489.0
+     ],
+     "stroke_completes": 9.86
+    },
+    "conn-polaroid": {
+     "target": "polaroid",
+     "side": "top",
+     "fraction": 0.5,
+     "check_at": 12.4,
+     "end_core": [
+      655.0,
+      300.0
+     ],
+     "end_canvas": [
+      649.25,
+      489.0
+     ],
+     "stroke_completes": 10.86
+    },
+    "conn-clapper": {
+     "target": "clapper",
+     "side": "top",
+     "fraction": 0.5,
+     "check_at": 12.4,
+     "end_core": [
+      885.0,
+      300.0
+     ],
+     "end_canvas": [
+      867.75,
+      489.0
+     ],
+     "stroke_completes": 11.4
+    }
+   },
+   "arrowheads": 0,
+   "module": {
+    "ends": {
+     "phone": [
+      195.0,
+      300.0
+     ],
+     "poster": [
+      425.0,
+      300.0
+     ],
+     "polaroid": [
+      655.0,
+      300.0
+     ],
+     "clapper": [
+      885.0,
+      300.0
+     ]
+    },
+    "from": [
+     540.0,
+     227.0
+    ],
+    "level_px": 0.0,
+    "mirror_axis": 540.0,
+    "verdict": "PASS"
+   }
+  },
+  "axis": {
+   "beats": [
+    {
+     "beat": 0,
+     "at": 5.37,
+     "ink": [
+      297.8,
+      782.2
+     ],
+     "offset_from_540": 0.0
+    },
+    {
+     "beat": 1,
+     "at": 12.69,
+     "ink": [
+      115.3,
+      964.6
+     ],
+     "offset_from_540": 0.0
+    },
+    {
+     "beat": 2,
+     "at": 17.689999999999998,
+     "ink": [
+      264.5,
+      815.5
+     ],
+     "offset_from_540": 0.0
+    },
+    {
+     "beat": 3,
+     "at": 21.569999999999997,
+     "ink": [
+      226.5,
+      853.5
+     ],
+     "offset_from_540": 0.0
+    },
+    {
+     "beat": 4,
+     "at": 27.79,
+     "ink": [
+      226.5,
+      853.5
+     ],
+     "offset_from_540": 0.0
+    },
+    {
+     "beat": 5,
+     "at": 28.21,
+     "ink": [
+      226.5,
+      853.5
+     ],
+     "offset_from_540": 0.0
+    }
+   ]
+  },
+  "law22": {
+   "events": 17,
+   "tightest_gap_s": 0.54,
+   "deliberately_silent": {
+    "keys 2-4 of the fan / MAGIC WAND": "each lands 0.14-0.30 s after its own object's pop; one sound per gesture",
+    "moves (5.80, 17.86, 21.00)": "a travel is not an arrival",
+    "emph 14.56": "an outline flip adds nothing",
+    "outro lockup": "rides the sheet's whoosh"
+   }
+  }
+ },
+ "cast_check": {
+  "grok": "/Users/migle/Documents/Workspace/assets/logos/ai-models/grok.png",
+  "midjourney": "/Users/migle/Documents/Workspace/assets/logos/tool-web-icons-20260914/midjourney.png",
+  "flux": "/Users/migle/Documents/Workspace/assets/logos/ai-models/flux.png",
+  "minimax": "/Users/migle/Documents/Workspace/assets/logos/ai-models/minimax-color.png",
+  "higgsfield": "/Users/migle/Documents/Workspace/assets/logos/tool-web-icons-20260914/higgsfield.png",
+  "gemini": "/Users/migle/Documents/Workspace/assets/logos/ai-models/gemini-color.png",
+  "chatgpt": "/Users/migle/Documents/Workspace/assets/logos/ai-models/chatgpt-color.png"
+ },
+ "edge_fade": {
+  "masked_containers": 3,
+  "fade_px": 46.0,
+  "meters_exempt": []
+ },
+ "handle": "@migueltorrez.ai",
+ "render": {
+  "w": 1080,
+  "h": 1920,
+  "zoom": 1
+ }
+}

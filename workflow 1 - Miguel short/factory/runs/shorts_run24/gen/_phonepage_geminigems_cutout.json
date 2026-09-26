@@ -1,0 +1,33 @@
+{
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/projects/geminigems_cutout",
+ "label": "geminigems_cutout",
+ "mode": "phone-test",
+ "composition_px": [
+  1080,
+  1920
+ ],
+ "duration_s": 20.92,
+ "sheet": "review/phone_geminigems_cutout.png",
+ "manifest": "review/phone_geminigems_cutout.json",
+ "answer_key": "review/phone_geminigems_cutout.key.json",
+ "n_objects": 4,
+ "phone_sizes_px": [
+  [
+   98,
+   80
+  ],
+  [
+   98,
+   80
+  ],
+  [
+   86,
+   71
+  ],
+  [
+   86,
+   71
+  ]
+ ],
+ "wall_s": 1.99
+}

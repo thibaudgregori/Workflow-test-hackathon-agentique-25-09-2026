@@ -1,0 +1,22 @@
+{
+ "staged": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/staging/tiktok/geminigems_cutout.mp4",
+ "phone_verdict": "PASS",
+ "blocked": "",
+ "rounds": 1,
+ "redesigned": false,
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/projects/geminigems_cutout",
+ "cands": "MISSING for this render - the Gemini watcher died on a 429 RESOURCE_EXHAUSTED (org monthly spending cap) while uploading its first window; render_and_check staged on qc alone under its own watcher-unavailable rule. review/cands_geminigems_cutout.prior1.json is a watcher pass against an EARLIER build of this lane (0 candidates, 0 blocking, $0.0242) and is corroboration, not this render's evidence.",
+ "cold_crop_paths": [
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/cold/11d970b3/00.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/cold/11d970b3/01.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/cold/11d970b3/02.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/cold/11d970b3/03.png"
+ ],
+ "fails": [],
+ "flagged_for_clerk": "TWO items. (1) NO WATCHER CANDIDATE LIST exists for the staged file - the Gemini spending cap killed clerk_video_gemini.py on upload, so the clerk must decode this file itself rather than adjudicate a list. An earlier build of the same lane watched clean at 18:42 (0 candidates, 0 blocking) and is archived as cands_geminigems_cutout.prior1.json. (2) OBJECT 2, 'two people together', is a HEDGED PASS: the reader named the intended noun exactly ('two people icon') but was unsure, the same hedge all three artwork seal rounds carried. Per the 2026-09-08 ruling it is routed, not refused, and the clerk adjudicates it on the delivered render where it lands on the spoken word 'teammates' and wears its own TEAMMATES key. gate3_gemini_describe is REPORTED (downgraded from FAIL by qc_pass's own advisory) and double_exposure is REPORTED.",
+ "word_sync": "5 states checked, 0 disagreements",
+ "scene_handoff": "consumed - gen/geminigems_scene.py imported unmodified; k=1.0, left=0.0, top=192.0 (identity seat, the split's own origin)",
+ "matte": "stage 17 viewer PASS; 523 frames 1584x990, soft alpha, rim 7, min person fraction 0.3424631, fractional alpha pixels 11,233,636, headroom 0/523 unsafe, min top clearance 55.0 px, crown gate 0/523 frames on plate row 0; Modal track+ship $0.042370",
+ "render_cost_usd": 0.0274,
+ "notes": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/plans/geminigems_cutout_notes.md"
+}

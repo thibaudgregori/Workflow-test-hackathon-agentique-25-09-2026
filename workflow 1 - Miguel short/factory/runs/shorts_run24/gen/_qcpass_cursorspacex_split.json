@@ -1,0 +1,351 @@
+{
+ "render": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/cursorspacex_split.mp4",
+ "vid": "cursorspacex",
+ "fmt": "split",
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/projects/cursorspacex_split",
+ "checks": {
+  "decoded_blank_frames": {
+   "ok": true,
+   "result": {
+    "frames": 553,
+    "fps": 25.0,
+    "zone": [
+     0,
+     862,
+     1080,
+     862
+    ],
+    "ink_floor": 0.0006,
+    "min_ink_frac": 0.0,
+    "empty_frames_total": 4,
+    "leading_trailing_empty": 4,
+    "interior_blank_frames": [],
+    "pass": true
+   },
+   "wall_s": 0.0
+  },
+  "zero_ink_law": {
+   "ok": true,
+   "result": {
+    "render": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/cursorspacex_split.mp4",
+    "frames": 553,
+    "fps": 25.0,
+    "zone_bottom_design_px": 862.5,
+    "zone_px": [
+     1080,
+     862
+    ],
+    "first_word_s": 0.18,
+    "leading_empty_frames": 4,
+    "first_judged_frame": 5,
+    "min_ink_frac_judged": 0.02824289,
+    "min_ink_frac_at_s": 0.2,
+    "blank_frames": [],
+    "verdict": "PASS"
+   },
+   "wall_s": 0.0
+  },
+  "clip_coverage_page": {
+   "ok": true,
+   "result": {
+    "duration_s": 22.12,
+    "fps": 25,
+    "groups": {
+     "stage": {
+      "clips": 0,
+      "checked": false,
+      "note": "fewer than two clips \u2014 nothing can hand over"
+     },
+     "tz": {
+      "clips": 1,
+      "checked": false,
+      "note": "fewer than two clips \u2014 nothing can hand over"
+     },
+     "scap": {
+      "clips": 22,
+      "checked": true,
+      "frames": 553,
+      "span": [
+       0.16,
+       22.1
+      ],
+      "holes": [],
+      "ghosts": [],
+      "pass": true
+     }
+    },
+    "holes": 0,
+    "ghosts": 0,
+    "pass": true
+   },
+   "wall_s": 0.0
+  },
+  "double_exposure": {
+   "ok": true,
+   "result": {
+    "frames": 553,
+    "fps": 25.0,
+    "first_word_s": 0.18,
+    "leading_blank_run_frames": 6,
+    "after_first_word": {
+     "from_frame": 5,
+     "from_t": 0.2,
+     "basis": "first spoken word",
+     "min_ink": 0,
+     "min_ink_t": 0.2,
+     "min_ink40": 0,
+     "min_ink40_t": 0.2,
+     "zero_ink_frames": [
+      0.2,
+      18.64
+     ],
+     "zero_ink40_frames": [
+      0.2,
+      0.24,
+      18.52,
+      18.56,
+      18.6,
+      18.64,
+      18.68
+     ]
+    },
+    "after_leading_run": {
+     "from_frame": 6,
+     "from_t": 0.24,
+     "basis": "opening fade-up cleared",
+     "min_ink": 0,
+     "min_ink_t": 18.64,
+     "min_ink40": 0,
+     "min_ink40_t": 0.24,
+     "zero_ink_frames": [
+      18.64
+     ],
+     "zero_ink40_frames": [
+      0.24,
+      18.52,
+      18.56,
+      18.6,
+      18.64,
+      18.68
+     ]
+    },
+    "after_first_readable_ink": {
+     "from_frame": 7,
+     "from_t": 0.28,
+     "basis": "first READABLE ink on screen",
+     "min_ink": 0,
+     "min_ink_t": 18.64,
+     "min_ink40": 0,
+     "min_ink40_t": 18.52,
+     "zero_ink_frames": [
+      18.64
+     ],
+     "zero_ink40_frames": [
+      18.52,
+      18.56,
+      18.6,
+      18.64,
+      18.68
+     ]
+    },
+    "double_exposure_floor_px": 600,
+    "double_exposure_frames": [],
+    "double_exposure_count": 0,
+    "note": "candidates, not a verdict \u2014 adjudicate each window (procedure v3); the opening fade-up legitimately fires"
+   },
+   "wall_s": 0.04
+  },
+  "face_centring": {
+   "ok": true,
+   "result": {
+    "label": "cursorspacex_split",
+    "video": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/cursorspacex_split.mp4",
+    "duration_s": 22.14,
+    "detector": "mediapipe/blazeface",
+    "segment_source": "explicit:--segments",
+    "segments": [
+     [
+      0.0,
+      22.14
+     ]
+    ],
+    "every_s": 0.5,
+    "tol_pct": 4.0,
+    "band_level": "warning",
+    "full_face": {
+     "n": 0,
+     "worst_dx_pct": null,
+     "worst_t": null,
+     "mean_abs_dx_pct": null,
+     "offenders": []
+    },
+    "band": {
+     "n": 44,
+     "worst_dx_pct": -5.09,
+     "worst_t": 13.0,
+     "warnings": [
+      {
+       "t": 13.0,
+       "dx_pct": -5.09,
+       "face_h_pct": 15.9,
+       "class": "band",
+       "score": 0.98,
+       "skin": 0.9
+      }
+     ]
+    },
+    "pass": true,
+    "verdict": "PASS"
+   },
+   "wall_s": 0.93
+  },
+  "pill_canon_rendered": {
+   "ok": true,
+   "result": {
+    "samples": 60,
+    "band_rows_px": [
+     772,
+     952
+    ],
+    "frames_without_a_pill": 0,
+    "distinct_heights_px": {
+     "114": 60
+    },
+    "modal_height_px": 114,
+    "modal_height_design_px": 114.0,
+    "spread_px": 0,
+    "spread_max_px": 2.0,
+    "canonical_height_px": 114.59,
+    "canonical_height_design_px": 114.59,
+    "modal_vs_canon_px": 0.59,
+    "tolerance_px": 3.0,
+    "delivery_scale": 1.0,
+    "widest_pill_px": 744,
+    "widest_pill_in_design_px": 744.0,
+    "verdict": "PASS",
+    "pass": true
+   },
+   "wall_s": 0.0
+  },
+  "gate1_geometry_audit": {
+   "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/geometry_audit.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/projects/cursorspacex_split --step 0.25 --out /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/gen/_gate1_cursorspacex_split.json",
+   "rc": 0,
+   "stdout": "cursorspacex_split: 0 errors, 0 warnings (22.1s @ 0.25s step)\n",
+   "stderr": "",
+   "wall_s": 3.42
+  },
+  "gate2_frame_review": {
+   "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/qc/gate2_frames.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/cursorspacex_split.mp4 --full --transcript /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/cuts/cursorspacex/transcript_tight.json",
+   "rc": 0,
+   "stdout": "  t=00:11.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_cursorspacex_split/f_0011_666.jpg\n  t=00:12.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_cursorspacex_split/f_0012_000.jpg\n  t=00:12.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_cursorspacex_split/f_0012_333.jpg\n  t=00:12.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_cursorspacex_split/f_0012_666.jpg\n  t=00:13.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_cursorspacex_split/f_0013_000.jpg\n  t=00:13.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_cursorspacex_split/f_0013_333.jpg\n  t=00:13.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_cursorspacex_split/f_0013_666.jpg\n  t=00:14.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_cursorspacex_split/f_0014_000.jpg\n  t=00:14.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_cursorspacex_split/f_0014_333.jpg\n  t=00:15.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_cursorspacex_split/f_0015_333.jpg\n  t=00:15.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_cursorspacex_split/f_0015_666.jpg\n  t=00:16.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_cursorspacex_split/f_0016_000.jpg\n  t=00:16.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_cursorspacex_split/f_0016_666.jpg\n  t=00:17.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_cursorspacex_split/f_0017_000.jpg\n  t=00:17.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_cursorspacex_split/f_0017_333.jpg\n  t=00:17.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_cursorspacex_split/f_0017_666.jpg\n  t=00:18.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_cursorspacex_split/f_0018_000.jpg\n  t=00:18.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_cursorspacex_split/f_0018_333.jpg\n  t=00:18.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_cursorspacex_split/f_0018_666.jpg\n  t=00:19.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_cursorspacex_split/f_0019_000.jpg\n  t=00:19.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_cursorspacex_split/f_0019_333.jpg\n  t=00:20.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_cursorspacex_split/f_0020_000.jpg\n  t=00:21.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_cursorspacex_split/f_0021_000.jpg\n  t=00:21.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_cursorspacex_split/f_0021_333.jpg\n  t=00:21.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_cursorspacex_split/f_0021_666.jpg\n\nManifest: /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/frames_cursorspacex_split/manifest.md  (delete dir after review)\n",
+   "stderr": "",
+   "wall_s": 1.05
+  },
+  "gate3_gemini_describe": {
+   "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/qc/gate3_gemini.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/cursorspacex_split.mp4 cursorspacex --run /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24 --label qcpass_cursorspacex_split",
+   "rc": 1,
+   "stdout": "{\n \"pass\": false,\n \"describe_errors\": [\n  {\n   \"kind\": \"unidentifiable_object\",\n   \"at_seconds\": 0.0,\n   \"description\": \"described as \\\"A vertical line with a base on a beige background, a red caption box below with text, and a man in a black T-shirt and black cap sitting in a room below.\\\" - The line drawing is too abstract to identify a specific real-world object.\"\n  }\n ],\n \"visual_errors\": [],\n \"semantic_errors\": [],\n \"described_frames\": 14,\n \"model\": \"gemini-3.5-flash-lite\",\n \"usage\": {\n  \"in\": 8482,\n  \"out\": 1214,\n  \"thoughts\": 0,\n  \"calls\": 3\n },\n \"cost_usd\": 0.00558\n}\n",
+   "stderr": "",
+   "wall_s": 21.78,
+   "cost_usd": 0.00558,
+   "model": "gemini-3.5-flash-lite",
+   "usage": {
+    "in": 8482,
+    "out": 1214,
+    "thoughts": 0,
+    "calls": 3
+   }
+  },
+  "audio_guards": {
+   "ok": true,
+   "result": {
+    "mix_8_16k_db": -29.06,
+    "master_8_16k_db": -28.87,
+    "delta_db": -0.19,
+    "tolerance_db": 6.0,
+    "speech_margin_db_p85_p15_33ms_s16le": 19.848,
+    "sync": {
+     "lag_ms": 0,
+     "r": 0.9959,
+     "instrument": "10 ms |x| envelope, +/-250 ms search"
+    },
+    "audio_initial_padding_samples": 0,
+    "verdict": "PASS",
+    "pass": true
+   },
+   "wall_s": 0.62
+  },
+  "contact_sheet": {
+   "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/contact_sheet.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/cursorspacex_split.mp4 --id cursorspacex --fmt split --run /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24",
+   "rc": 0,
+   "stdout": "{\n \"sheet\": \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/sheet_cursorspacex_split.png\",\n \"id\": \"cursorspacex\",\n \"fmt\": \"split\",\n \"duration_s\": 22.14,\n \"frame_source\": \"even\",\n \"times\": [\n  0.92,\n  2.77,\n  4.61,\n  6.46,\n  8.3,\n  10.15,\n  11.99,\n  13.84,\n  15.68,\n  17.53,\n  19.37,\n  21.22\n ],\n \"size_px\": [\n  1798,\n  4344\n ]\n}\n",
+   "stderr": "",
+   "wall_s": 3.14
+  },
+  "phone_crops": {
+   "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/phone_crops.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/cursorspacex_split.mp4 --out /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review --label cursorspacex_split --at 2.60:0.3676,0.1583,0.6324,0.3104:flag on pole",
+   "rc": 0,
+   "stdout": "{\n \"sheet\": \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/phone_cursorspacex_split.png\",\n \"manifest\": \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/phone_cursorspacex_split.json\",\n \"answer_key\": \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/phone_cursorspacex_split.key.json\",\n \"n_objects\": 1,\n \"phone_sizes_px\": [\n  [\n   108,\n   110\n  ]\n ]\n}\n",
+   "stderr": "",
+   "wall_s": 0.42
+  }
+ },
+ "skipped": {
+  "cutout_checks_24_25": "cutout only, and needs --project",
+  "edge_clip": "cutout only, and needs --alpha",
+  "whiteboard_seam_law": "whiteboard only, and needs --seams (the chapter erase times)",
+  "face_hf_vs_plate": "needs --plate (the display plate)",
+  "head_scale_vs_framing": "needs --alpha and --edge-box (the crown comes from the matte's own alpha, the chin from MediaPipe on the delivered frame)"
+ },
+ "zone_bottom_design_px": 862.5,
+ "decode": {
+  "frames": 553,
+  "fps": 25.0,
+  "size": [
+   1080,
+   1920
+  ],
+  "grid_frames": 44,
+  "caption_band_rows": [
+   772,
+   952
+  ],
+  "caption_seat_design_px": 862.5,
+  "wall_s": 5.49
+ },
+ "gate3_cost_usd": 0.00558,
+ "verdicts": {
+  "decoded_blank_frames": "PASS",
+  "zero_ink_law": "PASS",
+  "clip_coverage_page": "PASS",
+  "double_exposure": "REPORTED",
+  "face_centring": "PASS",
+  "pill_canon_rendered": "PASS",
+  "gate1_geometry_audit": "PASS",
+  "gate2_frame_review": "PASS",
+  "gate3_gemini_describe": "REPORTED",
+  "audio_guards": "PASS",
+  "contact_sheet": "PASS",
+  "phone_crops": "PASS"
+ },
+ "advisory": {
+  "gate3_gemini_describe": "FAIL from gemini describe-mode, downgraded to REPORTED: the clerk adjudicates its describe_errors against the frames"
+ },
+ "wall_s": {
+  "decoded_blank_frames": 0.0,
+  "zero_ink_law": 0.0,
+  "clip_coverage_page": 0.0,
+  "double_exposure": 0.04,
+  "face_centring": 0.93,
+  "pill_canon_rendered": 0.0,
+  "gate1_geometry_audit": 3.42,
+  "gate2_frame_review": 1.05,
+  "gate3_gemini_describe": 21.78,
+  "audio_guards": 0.62,
+  "contact_sheet": 3.14,
+  "phone_crops": 0.42,
+  "single_decode": 5.49
+ },
+ "total_wall_s": 21.81,
+ "pass": true
+}

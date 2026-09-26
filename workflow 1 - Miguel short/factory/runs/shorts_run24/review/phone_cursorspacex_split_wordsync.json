@@ -1,0 +1,85 @@
+{
+ "label": "cursorspacex_split_wordsync",
+ "video": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/projects/cursorspacex_split",
+ "phone_scale": "405x720",
+ "sheet": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/phone_cursorspacex_split_wordsync.png",
+ "rule": "a FRESH judge (never read the plan) names each crop in <=3 words. Wrong name, hedge, or 'cannot tell' = the object is redesigned, not annotated.",
+ "answer_key": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/phone_cursorspacex_split_wordsync.key.json",
+ "answer_key_rule": "DO NOT OPEN the answer key until every judge_answer below is filled in. Reading it first voids the Phone Test.",
+ "cut_from": "headless page screenshots, no video render",
+ "mode": "phone-test",
+ "objects": [
+  {
+   "i": 0,
+   "t": 5.6,
+   "bbox_norm": [
+    0.2593,
+    0.0938,
+    0.7407,
+    0.1458
+   ],
+   "phone_box_px": [
+    105,
+    67,
+    300,
+    105
+   ],
+   "phone_size_px": [
+    195,
+    38
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/phone_cursorspacex_split_wordsync/00.png",
+   "sheet_scale": 1.0,
+   "judge_answer": "SUNSET label card",
+   "verdict": null
+  },
+  {
+   "i": 1,
+   "t": 6.4,
+   "bbox_norm": [
+    0.3519,
+    0.151,
+    0.6481,
+    0.3177
+   ],
+   "phone_box_px": [
+    142,
+    108,
+    262,
+    228
+   ],
+   "phone_size_px": [
+    120,
+    120
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/phone_cursorspacex_split_wordsync/01.png",
+   "sheet_scale": 1.0,
+   "judge_answer": "flag with cube logo",
+   "verdict": null
+  },
+  {
+   "i": 2,
+   "t": 18.1,
+   "bbox_norm": [
+    0.2963,
+    0.3281,
+    0.7037,
+    0.401
+   ],
+   "phone_box_px": [
+    120,
+    236,
+    285,
+    288
+   ],
+   "phone_size_px": [
+    165,
+    52
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/review/phone_cursorspacex_split_wordsync/02.png",
+   "sheet_scale": 1.0,
+   "judge_answer": "SpaceX and Grok cards",
+   "verdict": null
+  }
+ ]
+}

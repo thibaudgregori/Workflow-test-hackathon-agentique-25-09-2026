@@ -1,0 +1,17 @@
+{
+  "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/projects/primeagent_split",
+  "vid": "primeagent",
+  "fmt": "split",
+  "quality": "high",
+  "stage": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/staging/youtube/primeagent_split.mp4",
+  "qc_args": [
+    "--voice-master",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/cuts/primeagent/audio.m4a",
+    "--phone-at",
+    "8.2:0.3375,0.192,0.6625,0.3362:open toolbox with tools",
+    "--phone-at",
+    "1.8:0.33,0.2058,0.67,0.338:tool printing machine",
+    "--phone-at",
+    "24.4:0.287,0.1641,0.713,0.3859:two crossed tools"
+  ]
+}

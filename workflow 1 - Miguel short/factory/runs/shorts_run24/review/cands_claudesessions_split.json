@@ -1,0 +1,295 @@
+{
+ "video": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/output/claudesessions_split.mp4",
+ "video_id": "claudesessions",
+ "fmt": "split",
+ "model": "gemini-3.5-flash-lite",
+ "duration_s": 21.261,
+ "fps_sampled": 3.0,
+ "windows": [
+  [
+   0.0,
+   21.26
+  ],
+  [
+   0.0,
+   20.0
+  ],
+  [
+   17.0,
+   21.26
+  ]
+ ],
+ "whole_pass": true,
+ "thinking": "medium",
+ "media_resolution": "HIGH",
+ "jobs": 3,
+ "transcript": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/cuts/claudesessions/transcript_tight.json",
+ "video_summary": "A creator in a split-format video explains how Claude Code sessions can now communicate with one another to work on long-running tasks together. The visuals illustrate communicating devices and conclude with an outro handle card.",
+ "beat_log": [
+  {
+   "t_start": 0.0,
+   "t_end": 2.5,
+   "on_screen": "Two device outlines in the cream zone connected by a red curved line above.",
+   "said": "Claude can now talk with itself.",
+   "marks_visible": "none",
+   "labels_visible": "none",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "none",
+   "picture_vs_sentence": "Picture illustrates two systems talking to each other, matching the sentence.",
+   "from_window": [
+    0.0,
+    21.26
+   ]
+  },
+  {
+   "t_start": 0.0,
+   "t_end": 2.92,
+   "on_screen": "Two talkie icons with a red arc connecting them at the top, caption pill below.",
+   "said": "Claude can now talk with itself. Now, if you're using",
+   "marks_visible": "none",
+   "labels_visible": "Claude can now",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "caption pill is below",
+   "picture_vs_sentence": "picture illustrates the sentence about talking",
+   "from_window": [
+    0.0,
+    20.0
+   ]
+  },
+  {
+   "t_start": 0.0,
+   "t_end": 0.5,
+   "on_screen": "cream zone top with fading curved lines, caption pill on seam saying Now follow for more, speaker below",
+   "said": "together as teammates. Now, follow for more AI news, videos,",
+   "marks_visible": "none",
+   "labels_visible": "Now, follow for more",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "caption pill on seam",
+   "picture_vs_sentence": "picture shows outro transition matching outro script.",
+   "from_window": [
+    17.0,
+    21.26
+   ]
+  },
+  {
+   "t_start": 0.5,
+   "t_end": 4.26,
+   "on_screen": "walkie-talkie icon centered in cream zone, handle card label @migueltorrezai with sublabel daily AI below it, caption pill on seam changing text, speaker below",
+   "said": "AI news, videos, and tutorials each and every single day, and catch you in the next one.",
+   "marks_visible": "none",
+   "labels_visible": "@migueltorrezai, daily AI",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "daily AI is below @migueltorrezai, which is below the icon",
+   "picture_vs_sentence": "picture shows outro handle card matching sign-off.",
+   "from_window": [
+    17.0,
+    21.26
+   ]
+  },
+  {
+   "t_start": 2.5,
+   "t_end": 6.0,
+   "on_screen": "Two device outlines with a Claude pixel mascot between them and a red connecting line.",
+   "said": "Claude Code, sessions can now communicate with one another.",
+   "marks_visible": "Claude pixel mascot",
+   "labels_visible": "SESSIONS TALK",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "SESSIONS TALK is above the objects, centered correctly.",
+   "picture_vs_sentence": "Picture shows Claude Code sessions communicating, matching the sentence.",
+   "from_window": [
+    0.0,
+    21.26
+   ]
+  },
+  {
+   "t_start": 2.92,
+   "t_end": 6.5,
+   "on_screen": "Two talkie icons, small Claude pixel mascot in center, heading 'SESSIONS TALK' at top.",
+   "said": "Claude Code, sessions can now communicate with one another. That",
+   "marks_visible": "Claude pixel mascot",
+   "labels_visible": "SESSIONS TALK",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "heading is above",
+   "picture_vs_sentence": "picture illustrates communication between sessions",
+   "from_window": [
+    0.0,
+    20.0
+   ]
+  },
+  {
+   "t_start": 6.0,
+   "t_end": 10.0,
+   "on_screen": "Two device outlines, a user silhouette with arrows and a red cross-out overlay in the middle.",
+   "said": "That means that you no longer have to switch from session to session.",
+   "marks_visible": "none",
+   "labels_visible": "SESSIONS TALK",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "SESSIONS TALK is above the objects.",
+   "picture_vs_sentence": "Picture illustrates not needing to switch between sessions, matching the sentence.",
+   "from_window": [
+    0.0,
+    21.26
+   ]
+  },
+  {
+   "t_start": 6.5,
+   "t_end": 10.0,
+   "on_screen": "Talkie icons with profile icon and red cross in center, heading 'SESSIONS TALK' at top.",
+   "said": "means that you no longer have to switch from session to session. If you leave",
+   "marks_visible": "none",
+   "labels_visible": "SESSIONS TALK",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "heading is above",
+   "picture_vs_sentence": "picture illustrates avoiding session switching",
+   "from_window": [
+    0.0,
+    20.0
+   ]
+  },
+  {
+   "t_start": 10.0,
+   "t_end": 16.5,
+   "on_screen": "Three device outlines with connecting red lines, labelled LONG-RUNNING and ONE SESSION.",
+   "said": "If you leave long-running tasks, you can have one single session and just have them communicate and work together as teammates.",
+   "marks_visible": "none",
+   "labels_visible": "LONG-RUNNING, ONE SESSION",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "Labels are below their respective device outlines, sharing consistent baseline/margins.",
+   "picture_vs_sentence": "Picture shows multiple tasks consolidating into a single session working together, matching the sentence.",
+   "from_window": [
+    0.0,
+    21.26
+   ]
+  },
+  {
+   "t_start": 10.0,
+   "t_end": 13.5,
+   "on_screen": "Two talkie icons, left labeled 'LONG-RUNNING', right framed in red.",
+   "said": "long-running tasks, you can have one single session",
+   "marks_visible": "none",
+   "labels_visible": "LONG-RUNNING",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "label is below the icon",
+   "picture_vs_sentence": "picture illustrates long-running tasks and single session",
+   "from_window": [
+    0.0,
+    20.0
+   ]
+  },
+  {
+   "t_start": 13.5,
+   "t_end": 17.0,
+   "on_screen": "Three talkie icons with connecting arcs, labeled 'LONG-RUNNING', 'TEAMMATES', 'ONE SESSION'.",
+   "said": "and just have them communicate and work together as teammates.",
+   "marks_visible": "none",
+   "labels_visible": "LONG-RUNNING TEAMMATES ONE SESSION",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "labels are below their respective icons",
+   "picture_vs_sentence": "picture illustrates multiple sessions working together as teammates",
+   "from_window": [
+    0.0,
+    20.0
+   ]
+  },
+  {
+   "t_start": 16.5,
+   "t_end": 21.26,
+   "on_screen": "A single device outline with a red underline and handle text @migueltorrezai and daily AI below it.",
+   "said": "Now, follow for more AI news, videos, and tutorials each and every single day, and catch you in the next one.",
+   "marks_visible": "none",
+   "labels_visible": "@migueltorrezai, daily AI",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "Labels are vertically stacked below the device outline and handle line.",
+   "picture_vs_sentence": "Picture shows the outro handle card, matching the call to action.",
+   "from_window": [
+    0.0,
+    21.26
+   ]
+  },
+  {
+   "t_start": 17.0,
+   "t_end": 20.0,
+   "on_screen": "Single talkie icon with handle card '@migueltorrezai' and 'daily AI'.",
+   "said": "Now, follow for more AI news, videos, and tutorials each and every single day",
+   "marks_visible": "none",
+   "labels_visible": "@migueltorrezai daily AI",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "handle labels are below the icon",
+   "picture_vs_sentence": "picture displays the outro handle card",
+   "from_window": [
+    0.0,
+    20.0
+   ]
+  }
+ ],
+ "all_summaries": [
+  "A creator in a split-format video explains how Claude Code sessions can now communicate with one another to work on long-running tasks together. The visuals illustrate communicating devices and conclude with an outro handle card.",
+  "A presenter explains that Claude Code sessions can now communicate with each other, eliminating the need to switch between them. Visuals feature animated talkie icons representing connected sessions and teamwork, ending with an outro handle card.",
+  "This video is the conclusion of a short about Claude Code, where the speaker delivers an outro sign-off and call to action to follow for daily AI news. The upper frame displays an outro handle card with a walkie-talkie icon while the speaker talks below."
+ ],
+ "candidates": [],
+ "counts": {
+  "candidates": 0,
+  "blocking": 0,
+  "motion": 0
+ },
+ "calls": [
+  {
+   "pass": 1,
+   "window": [
+    0.0,
+    21.26
+   ],
+   "model": "gemini-3.5-flash-lite",
+   "fps": 3.0,
+   "thinking": "medium",
+   "input_tokens": 21273,
+   "output_tokens": 2192,
+   "thinking_tokens": 1282,
+   "cost_usd": 0.011862
+  },
+  {
+   "pass": 1,
+   "window": [
+    0.0,
+    20.0
+   ],
+   "model": "gemini-3.5-flash-lite",
+   "fps": 3.0,
+   "thinking": "medium",
+   "input_tokens": 20186,
+   "output_tokens": 2843,
+   "thinking_tokens": 1818,
+   "cost_usd": 0.013163
+  },
+  {
+   "pass": 1,
+   "window": [
+    17.0,
+    21.26
+   ],
+   "model": "gemini-3.5-flash-lite",
+   "fps": 3.0,
+   "thinking": "medium",
+   "input_tokens": 7386,
+   "output_tokens": 1755,
+   "thinking_tokens": 1317,
+   "cost_usd": 0.006603
+  }
+ ],
+ "cost_usd": 0.031628,
+ "wall_clock_s": 21.9
+}

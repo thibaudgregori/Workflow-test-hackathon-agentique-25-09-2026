@@ -1,0 +1,1006 @@
+{
+ "video": "claudeconcise",
+ "lane": "diagram build",
+ "fps": 25,
+ "duration": 41.774,
+ "seam": 862.5,
+ "formats": {
+  "split": {
+   "cues": {
+    "mascot": {
+     "word": 0,
+     "text": "Claude",
+     "t": 0.12
+    },
+    "bubble": {
+     "word": 1,
+     "text": "no",
+     "t": 0.34
+    },
+    "jargon": {
+     "word": 3,
+     "text": "speaks",
+     "t": 0.78
+    },
+    "hookout": {
+     "word": 27,
+     "text": "notice",
+     "t": 6.36
+    },
+    "note": {
+     "word": 31,
+     "text": "ask",
+     "t": 7.4
+    },
+    "conn_na": {
+     "word": 33,
+     "text": "for",
+     "t": 7.72
+    },
+    "simple": {
+     "word": 37,
+     "text": "simple,",
+     "t": 8.84
+    },
+    "conn_ms": {
+     "word": 41,
+     "text": "give",
+     "t": 9.84
+    },
+    "scroll": {
+     "word": 42,
+     "text": "you",
+     "t": 10.04
+    },
+    "pages": {
+     "word": 46,
+     "text": "pages",
+     "t": 11.12
+    },
+    "ch1": {
+     "word": 52,
+     "text": "Now,",
+     "t": 13.22
+    },
+    "anth": {
+     "word": 53,
+     "text": "Anthropic",
+     "t": 13.54
+    },
+    "dial": {
+     "word": 58,
+     "text": "feature",
+     "t": 14.9
+    },
+    "conn_ad": {
+     "word": 59,
+     "text": "that",
+     "t": 15.2
+    },
+    "styles": {
+     "word": 67,
+     "text": "Output",
+     "t": 17.2
+    },
+    "anthout": {
+     "word": 69,
+     "text": "Output",
+     "t": 18.26
+    },
+    "shift": {
+     "word": 76,
+     "text": "AI",
+     "t": 20.08
+    },
+    "conn_dm": {
+     "word": 77,
+     "text": "how",
+     "t": 20.56
+    },
+    "concise": {
+     "word": 93,
+     "text": "Concise.",
+     "t": 24.6
+    },
+    "turn": {
+     "word": 108,
+     "text": "Concise,",
+     "t": 28.96
+    },
+    "ch2": {
+     "word": 109,
+     "text": "now",
+     "t": 29.78
+    },
+    "mascot_c": {
+     "word": 111,
+     "text": "AI",
+     "t": 30.16
+    },
+    "conn_dc": {
+     "word": 112,
+     "text": "agent",
+     "t": 30.48
+    },
+    "conn_cs": {
+     "word": 114,
+     "text": "always",
+     "t": 31.2
+    },
+    "scroll_b": {
+     "word": 115,
+     "text": "reply",
+     "t": 31.48
+    },
+    "scissors": {
+     "word": 119,
+     "text": "a",
+     "t": 32.62
+    },
+    "snip": {
+     "word": 121,
+     "text": "short",
+     "t": 33.2
+    },
+    "scissout": {
+     "word": 125,
+     "text": "helping",
+     "t": 34.96
+    },
+    "under": {
+     "word": 128,
+     "text": "understand",
+     "t": 36.1
+    },
+    "outro": {
+     "word": 132,
+     "text": "Now,",
+     "t": 37.76
+    },
+    "keyterm": {
+     "word": 4,
+     "text": "English,",
+     "t": 1.4,
+     "window": [
+      1.06,
+      2.34
+     ]
+    },
+    "mascot_b": {
+     "word": 76,
+     "text": "AI",
+     "t": 20.16,
+     "window": [
+      20.08,
+      21.32
+     ]
+    },
+    "lblconcise": {
+     "word": 108,
+     "text": "Concise,",
+     "t": 29.94,
+     "window": [
+      28.96,
+      30.42
+     ]
+    },
+    "drop": {
+     "word": 121,
+     "text": "short",
+     "t": 33.32,
+     "window": [
+      33.2,
+      34.56
+     ]
+    }
+   },
+   "word_sync": {
+    "typed_states": [
+     {
+      "state": "key-term",
+      "first_visible_text": "NO LONGER ENGLISH",
+      "at": 1.4,
+      "word": "English,",
+      "spoken": "no longer speaks english",
+      "word_window": [
+       0.34,
+       2.34
+      ]
+     },
+     {
+      "state": "lbl-simple",
+      "first_visible_text": "SIMPLE",
+      "at": 8.84,
+      "word": "simple,",
+      "spoken": "simple",
+      "word_window": [
+       8.84,
+       10.1
+      ]
+     },
+     {
+      "state": "lbl-pages",
+      "first_visible_text": "2-3 PAGES",
+      "at": 11.12,
+      "word": "pages",
+      "spoken": "two to three pages",
+      "word_window": [
+       10.44,
+       12.52
+      ]
+     },
+     {
+      "state": "lbl-styles",
+      "first_visible_text": "OUTPUT STYLES",
+      "at": 17.2,
+      "word": "Styles.",
+      "spoken": "output styles",
+      "word_window": [
+       17.2,
+       18.88
+      ]
+     },
+     {
+      "state": "dial-word",
+      "first_visible_text": "CONCISE",
+      "at": 24.6,
+      "word": "Concise.",
+      "spoken": "concise",
+      "word_window": [
+       24.6,
+       26.08
+      ]
+     },
+     {
+      "state": "lbl-concise",
+      "first_visible_text": "CONCISE",
+      "at": 29.94,
+      "word": "Concise,",
+      "spoken": "concise",
+      "word_window": [
+       28.96,
+       30.42
+      ]
+     },
+     {
+      "state": "lbl-short",
+      "first_visible_text": "SHORT",
+      "at": 33.2,
+      "word": "short",
+      "spoken": "short",
+      "word_window": [
+       33.2,
+       34.56
+      ]
+     },
+     {
+      "state": "lbl-under",
+      "first_visible_text": "UNDERSTOOD",
+      "at": 36.1,
+      "word": "understand",
+      "spoken": "understand",
+      "word_window": [
+       36.1,
+       37.58
+      ]
+     }
+    ],
+    "disagreements": 0,
+    "digits_that_tick": 0,
+    "note": "2-3 PAGES lands on 'pages' after 'two to three' is heard; UNDERSTOOD prints the past participle of 'understand'."
+   },
+   "law37": {
+    "scan_cue_count": 0,
+    "plan_declared_cards": 0,
+    "prep_marker_cue_count": 0,
+    "source_cards_in_the_page": 0
+   },
+   "law39": {
+    "key-term": {
+     "host": "mascot-a",
+     "side": "below",
+     "text": "NO LONGER ENGLISH",
+     "at": 1.4,
+     "checked_at": [
+      1.7,
+      2.6,
+      5.0
+     ],
+     "box_canvas": [
+      270.0,
+      578.0,
+      810.0,
+      636.0
+     ]
+    },
+    "lbl-simple": {
+     "host": "note-a",
+     "side": "above",
+     "text": "SIMPLE",
+     "at": 8.84,
+     "checked_at": [
+      9.14,
+      10.0,
+      12.95
+     ],
+     "box_canvas": [
+      95.0,
+      377.0,
+      285.0,
+      413.0
+     ]
+    },
+    "lbl-pages": {
+     "host": "scroll-a",
+     "side": "above",
+     "text": "2-3 PAGES",
+     "at": 11.12,
+     "checked_at": [
+      11.42,
+      12.95
+     ],
+     "box_canvas": [
+      790.0,
+      232.0,
+      990.0,
+      268.0
+     ]
+    },
+    "lbl-styles": {
+     "host": "dial",
+     "side": "below",
+     "text": "OUTPUT STYLES",
+     "at": 17.2,
+     "checked_at": [
+      17.5,
+      19.0,
+      21.2,
+      24.0,
+      27.0,
+      29.7
+     ],
+     "box_canvas": [
+      360.0,
+      602.0,
+      720.0,
+      638.0
+     ]
+    },
+    "lbl-concise": {
+     "host": "dial",
+     "side": "above",
+     "text": "CONCISE",
+     "at": 30.14,
+     "checked_at": [
+      30.44,
+      30.9,
+      32.55,
+      33.0,
+      34.4,
+      36.6,
+      37.5
+     ],
+     "box_canvas": [
+      100.0,
+      290.0,
+      280.0,
+      326.0
+     ]
+    },
+    "lbl-short": {
+     "host": "scroll-b",
+     "side": "above",
+     "text": "SHORT",
+     "at": 33.2,
+     "checked_at": [
+      33.5,
+      34.4,
+      36.6,
+      37.5
+     ],
+     "box_canvas": [
+      790.0,
+      232.0,
+      990.0,
+      268.0
+     ]
+    },
+    "lbl-under": {
+     "host": "short-note",
+     "side": "below",
+     "text": "UNDERSTOOD",
+     "at": 36.1,
+     "checked_at": [
+      36.4,
+      36.6,
+      37.5
+     ],
+     "box_canvas": [
+      790.0,
+      516.0,
+      990.0,
+      552.0
+     ]
+    },
+    "_key_term": {
+     "text": "NO LONGER ENGLISH",
+     "font_px": 48.0,
+     "design_units": 25.6,
+     "first_type": true
+    }
+   },
+   "law42": {
+    "board_mode": "chapters",
+    "chapters": 3,
+    "anchors": [
+     "dial",
+     "lbl-concise",
+     "mascot-c",
+     "conn-dc",
+     "conn-cs",
+     "scroll-b",
+     "lbl-short",
+     "lbl-under",
+     "o-glyph",
+     "o-rule",
+     "o-slot"
+    ],
+    "longest_finite_share": 0.32
+   },
+   "law41": {
+    "tightest_core_px": 54.0,
+    "tightest_pair": [
+     "anth-card",
+     "dial",
+     16.5
+    ],
+    "refusal_line": 16.0,
+    "blocks": [
+     [
+      "mascot-a",
+      "key-term"
+     ],
+     [
+      "bubble",
+      "mascot-a"
+     ],
+     [
+      "note-a",
+      "lbl-simple"
+     ],
+     [
+      "scroll-a",
+      "lbl-pages"
+     ],
+     [
+      "dial",
+      "lbl-styles"
+     ],
+     [
+      "dial",
+      "lbl-concise"
+     ],
+     [
+      "scroll-b",
+      "scissors"
+     ],
+     [
+      "scroll-b",
+      "lbl-short"
+     ],
+     [
+      "scroll-b",
+      "lbl-under"
+     ],
+     [
+      "anth-card",
+      "mark-anthropic"
+     ]
+    ]
+   },
+   "law38": {
+    "flips": [
+     {
+      "on": "dial-ridge",
+      "kind": "fill",
+      "target": "dial-knob",
+      "check_at": 29.7,
+      "held": [
+       29.64,
+       29.78
+      ]
+     },
+     {
+      "on": "scroll-b-edge",
+      "kind": "border",
+      "target": "scroll-b-note",
+      "check_at": 37.0,
+      "held": [
+       36.480000000000004,
+       37.76
+      ]
+     }
+    ],
+    "rings_ellipses_circles": 0,
+    "highlights": 0,
+    "dom_elements_added": 0
+   },
+   "law2": {
+    "stage_marks": [
+     "anthropic-wordmark",
+     "claude-code"
+    ],
+    "resolved": {
+     "claude-code": "/Users/migle/Documents/Workspace/assets/logos/coding-tools/claudecode-color.png",
+     "anthropic-wordmark": "/Users/migle/Documents/Workspace/assets/logos/ai-models/anthropic-wordmark.png"
+    },
+    "mark_side_core_px": 56.0,
+    "cutout_lanes_not_ours": [
+     "codex",
+     "cursor",
+     "gemini",
+     "chatgpt",
+     "copilot",
+     "opencode"
+    ]
+   },
+   "law22": {
+    "events": 22,
+    "tightest_gap_s": 0.32,
+    "deliberately_silent": {
+     "bubble 0.34": "0.22 s after the tile pop",
+     "conn_na 7.72": "one pop scores the note and its arrow",
+     "scroll 10.04": "0.20 s after the arrow click",
+     "conn_ad 15.20": "0.30 s after the dial pop",
+     "mascot_b 20.16": "0.08 s after the shift whoosh",
+     "scroll_b 31.48": "0.28 s after the arrow click",
+     "fades/exits": "a fade-out is not an arrival"
+    }
+   },
+   "law40": {
+    "conn-na": {
+     "target": "mascot-a",
+     "side": "left",
+     "fraction": 0.5,
+     "check_at": 8.5,
+     "tip_core": [
+      480.0,
+      310.0
+     ],
+     "anchor_core": [
+      484.0,
+      310.0
+     ],
+     "miss_px": 4.0,
+     "from_planned_end_px": 0.0
+    },
+    "conn-ms": {
+     "target": "scroll-a-paper",
+     "side": "left",
+     "fraction": 0.450704225352,
+     "check_at": 12.95,
+     "tip_core": [
+      802.0,
+      310.0
+     ],
+     "anchor_core": [
+      806.0,
+      310.0
+     ],
+     "miss_px": 4.0,
+     "from_planned_end_px": 0.0
+    },
+    "conn-ad": {
+     "target": "dial",
+     "side": "top",
+     "fraction": 0.5,
+     "check_at": 16.5,
+     "tip_core": [
+      540.0,
+      146.0
+     ],
+     "anchor_core": [
+      540.0,
+      150.0
+     ],
+     "miss_px": 4.0,
+     "from_planned_end_px": 0.0
+    },
+    "conn-dm": {
+     "target": "mascot-b",
+     "side": "left",
+     "fraction": 0.5,
+     "check_at": 24.0,
+     "tip_core": [
+      760.0,
+      290.0
+     ],
+     "anchor_core": [
+      764.0,
+      290.0
+     ],
+     "miss_px": 4.0,
+     "from_planned_end_px": 0.0
+    },
+    "conn-dc": {
+     "target": "mascot-c",
+     "side": "left",
+     "fraction": 0.5,
+     "check_at": 31.0,
+     "tip_core": [
+      480.0,
+      220.0
+     ],
+     "anchor_core": [
+      484.0,
+      220.0
+     ],
+     "miss_px": 4.0,
+     "from_planned_end_px": 0.0
+    },
+    "conn-cs": {
+     "target": "scroll-b-note",
+     "side": "left",
+     "fraction": 0.56043956044,
+     "check_at": 32.55,
+     "tip_core": [
+      802.0,
+      220.0
+     ],
+     "anchor_core": [
+      806.0,
+      220.0
+     ],
+     "miss_px": 4.0,
+     "from_planned_end_px": 0.0
+    }
+   },
+   "declared": {
+    "connectors_stamped": 6,
+    "emphases_stamped": 2,
+    "retargeted": {
+     "conn-ms": "scroll-a -> scroll-a-paper",
+     "conn-cs": "scroll-b -> scroll-b-note"
+    },
+    "virtual_rects": [
+     "scroll-a-paper",
+     "scroll-b-note",
+     "dial-knob"
+    ]
+   },
+   "band": {
+    "content_top": 202.0,
+    "content_bottom": 766.0,
+    "pill_top_rendered": 805.205,
+    "clear_above_pill": 39.21,
+    "clear_below_law30": 10.0
+   },
+   "rail": {
+    "rail_band_y": [
+     576.0,
+     1824.0
+    ],
+    "keys": {
+     "key-term": {
+      "y": [
+       578.0,
+       636.0
+      ],
+      "in_rail_band": true
+     },
+     "lbl-simple": {
+      "y": [
+       377.0,
+       413.0
+      ],
+      "in_rail_band": false
+     },
+     "lbl-pages": {
+      "y": [
+       232.0,
+       268.0
+      ],
+      "in_rail_band": false
+     },
+     "lbl-styles": {
+      "y": [
+       602.0,
+       638.0
+      ],
+      "in_rail_band": true
+     },
+     "lbl-concise": {
+      "y": [
+       290.0,
+       326.0
+      ],
+      "in_rail_band": false
+     },
+     "lbl-short": {
+      "y": [
+       232.0,
+       268.0
+      ],
+      "in_rail_band": false
+     },
+     "lbl-under": {
+      "y": [
+       516.0,
+       552.0
+      ],
+      "in_rail_band": false
+     }
+    },
+    "keys_in_rail_band": [
+     "key-term",
+     "lbl-styles"
+    ],
+    "law30_rail_x": 918.0
+   },
+   "staged": {
+    "voice": {
+     "source": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/cuts/claudeconcise/audio.m4a",
+     "sample_rate": 48000,
+     "channels": 2
+    },
+    "bed": "/Users/migle/Documents/Workspace/assets/audio/music/shorts-factory/bed_split_v2.mp3",
+    "sfx_sources": {
+     "whoosh": "/Users/migle/Documents/Workspace/assets/audio/sfx/shorts-factory/whoosh.mp3",
+     "pop": "/Users/migle/Documents/Workspace/assets/audio/sfx/shorts-factory/pop.mp3",
+     "click": "/Users/migle/Documents/Workspace/assets/audio/sfx/shorts-factory/click.mp3"
+    },
+    "face": {
+     "file": "face_bottom_hd.mp4",
+     "w": 1080,
+     "h": 1058
+    },
+    "marks": {
+     "claude-code": {
+      "source": "/Users/migle/Documents/Workspace/assets/logos/coding-tools/claudecode-color.png",
+      "url": "assets/logos/claudecode-color.png"
+     },
+     "anthropic-wordmark": {
+      "source": "/Users/migle/Documents/Workspace/assets/logos/ai-models/anthropic-wordmark.png",
+      "url": "assets/logos/anthropic-wordmark.png"
+     }
+    }
+   },
+   "seat": 862.5,
+   "scale": 1.0,
+   "core": {
+    "left": 0.0,
+    "top": 192.0
+   },
+   "phone_objects": [
+    {
+     "name": "jargon speech bubble",
+     "t": 2.6,
+     "bbox": [
+      0.3056,
+      0.1052,
+      0.6944,
+      0.2219
+     ],
+     "canvas": [
+      330.0,
+      202.0,
+      750.0,
+      426.0
+     ]
+    },
+    {
+     "name": "long paper scroll",
+     "t": 12.95,
+     "bbox": [
+      0.7315,
+      0.15,
+      0.9167,
+      0.399
+     ],
+     "canvas": [
+      790.0,
+      288.0,
+      990.0,
+      766.0
+     ]
+    },
+    {
+     "name": "style selector dial",
+     "t": 29.5,
+     "bbox": [
+      0.1889,
+      0.1781,
+      0.5222,
+      0.3031
+     ],
+     "canvas": [
+      204.0,
+      342.0,
+      564.0,
+      582.0
+     ]
+    },
+    {
+     "name": "scissors cut scroll",
+     "t": 34.4,
+     "bbox": [
+      0.6296,
+      0.15,
+      0.9167,
+      0.2792
+     ],
+     "canvas": [
+      680.0,
+      288.0,
+      990.0,
+      536.0
+     ]
+    }
+   ],
+   "transcript": {
+    "law47_tail_s": 0.154,
+    "law47_cap_s": 0.24,
+    "law47_verdict": "PASS \u2014 0.154s past the last word against a 0.240s cap",
+    "law46": "the scripted opening occurs ONCE inside the keeper take",
+    "take_corroboration": {
+     "method": "last scripted opening that reaches the spoken sign-off; the content rule decides, the marker rule and the gap sweep witness",
+     "raw_word_index": 181,
+     "raw_start_s": 109.34,
+     "words": 153,
+     "of_raw_words": 334,
+     "openings_found": [
+      4,
+      169,
+      181
+     ],
+     "marker_rule": "bound",
+     "marker_answer": 169,
+     "markers_before_take": 8,
+     "gap_rule": "band",
+     "corroboration": {
+      "marker": "bound",
+      "gap": "band",
+      "witnessed": true,
+      "allow_uncorroborated": false
+     }
+    },
+    "words": 153,
+    "function_word_merges": 0,
+    "beats_before_merge": 40,
+    "orphan_repartitions": [],
+    "solo_word_merges": [],
+    "board_keys_forbidden_at_split": [
+     "2-3 pages",
+     "2-3 pages!",
+     "2-3 pages,",
+     "2-3 pages.",
+     "2-3 pages?",
+     "concise",
+     "concise!",
+     "concise,",
+     "concise.",
+     "concise?",
+     "no longer english",
+     "no longer english!",
+     "no longer english,",
+     "no longer english.",
+     "no longer english?",
+     "output styles",
+     "output styles!",
+     "output styles,",
+     "output styles.",
+     "output styles?",
+     "short",
+     "short!",
+     "short,",
+     "short.",
+     "short?",
+     "simple",
+     "simple!",
+     "simple,",
+     "simple.",
+     "simple?",
+     "understood",
+     "understood!",
+     "understood,",
+     "understood.",
+     "understood?"
+    ]
+   },
+   "captions": {
+    "n": 40,
+    "widest_px": 748.0,
+    "texts": [
+     "Claude no longer",
+     "speaks English, and",
+     "this is how to fix it.",
+     "Now, if you've been",
+     "using Anthropic models",
+     "for the last couple of",
+     "months, you will notice",
+     "that whenever you ask",
+     "it for something",
+     "very, very simple,",
+     "it's going to give you",
+     "two to three pages",
+     "worth of text to read.",
+     "Now, Anthropic",
+     "just shipped a new",
+     "feature that allows",
+     "you to change that.",
+     "It's called Output Styles.",
+     "Output Styles allows you",
+     "to tell your AI how you",
+     "like your responses to be,",
+     "and it ships with a",
+     "new mode that's",
+     "called Concise.",
+     "Meaning that if you just",
+     "go into your settings,",
+     "set your output",
+     "style to Concise,",
+     "now your AI agent will",
+     "always reply to you in",
+     "a very short format,",
+     "and also helping you",
+     "actually understand",
+     "what they mean.",
+     "Now, follow for more",
+     "AI news, videos, and",
+     "tutorials each and",
+     "every single day,",
+     "and catch you",
+     "in the next one."
+    ],
+    "starts": [
+     0.12,
+     0.78,
+     1.76,
+     2.88,
+     3.56,
+     4.76,
+     5.62,
+     6.66,
+     7.58,
+     8.32,
+     9.38,
+     10.44,
+     11.58,
+     13.22,
+     13.94,
+     14.9,
+     15.62,
+     16.6,
+     18.26,
+     19.38,
+     20.86,
+     22.26,
+     23.36,
+     24.34,
+     25.44,
+     26.48,
+     27.72,
+     28.58,
+     29.78,
+     31.2,
+     32.619,
+     34.38,
+     35.8,
+     36.86,
+     37.76,
+     38.46,
+     39.34,
+     40.02,
+     40.82,
+     41.12
+    ]
+   },
+   "render": {
+    "w": 1080,
+    "h": 1920,
+    "zoom": 1
+   },
+   "handle": "@migueltorrezai"
+  }
+ }
+}
