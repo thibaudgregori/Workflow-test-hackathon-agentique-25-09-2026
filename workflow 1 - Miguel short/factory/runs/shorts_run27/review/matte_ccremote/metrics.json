@@ -1,0 +1,99 @@
+{
+  "vid": "ccremote",
+  "session": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/matting/ccremote",
+  "cut": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/matting/ccremote/matte_ccremote_v5_cut.webm",
+  "size": [
+    1430,
+    990
+  ],
+  "frames": 873,
+  "sample_fps": 5,
+  "sampled": 175,
+  "soft_alpha_px": {
+    "rest_median": 13765,
+    "p95_over_rest": 1.1,
+    "max_over_rest": 1.64,
+    "frames_over_2p5x": 0
+  },
+  "chair_band_px": {
+    "reference": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/matting/ccremote/selection.mask.png",
+    "p50": 1748,
+    "p95": 6259,
+    "max": 7834,
+    "max_at_s": 34.0
+  },
+  "background_haze": {
+    "px_floor": 1500,
+    "detach_px": 14,
+    "p50": 0,
+    "p95": 0,
+    "max": 2316,
+    "frames_over_floor": 1,
+    "longest_run_s": 0.2,
+    "hold_seconds_limit": 1.0,
+    "worst_sample_s": 0.4,
+    "hold": false
+  },
+  "frozen_edge": {
+    "frozen_sd": 1.5,
+    "min_cols": 12,
+    "sd_ratio": 4.0,
+    "runs": [],
+    "hold": false
+  },
+  "extra_components": {
+    "max": 0,
+    "frames": 0
+  },
+  "holes": {
+    "max": 0,
+    "frames": 0
+  },
+  "iou_frame_to_frame": {
+    "p05": 0.9412,
+    "min": 0.8831
+  },
+  "sheets": {
+    "playback": [
+      5,
+      10,
+      12,
+      25,
+      50,
+      75,
+      95,
+      100,
+      125,
+      845
+    ],
+    "face_2x": [
+      0,
+      5,
+      10,
+      109,
+      218,
+      436,
+      654,
+      872
+    ],
+    "chair_sides": [
+      12,
+      25,
+      50,
+      100,
+      545,
+      850
+    ],
+    "hands": [
+      5,
+      10,
+      30,
+      95,
+      770,
+      845
+    ]
+  },
+  "auto_hold": [],
+  "reference_bar": "run 19's five approved mattes: soft p95/rest <= 1.41, max/rest <= 5.9 (hands), extra components <= 1 frame, IoU p05 >= 0.92. These numbers did NOT separate geo's rejected mattes from the approved ones; the sheets did. Look.",
+  "wall_s": 26.2
+}

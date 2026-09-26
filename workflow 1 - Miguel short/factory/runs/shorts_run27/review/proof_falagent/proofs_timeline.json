@@ -1,0 +1,170 @@
+{
+ "set": "timeline",
+ "bespoke": [
+  {
+   "i": 0,
+   "name": "an artist's palette",
+   "t": 2.0,
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_falagent/tl_00.png"
+  },
+  {
+   "i": 1,
+   "name": "a movie clapperboard",
+   "t": 9.3,
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_falagent/tl_01.png"
+  },
+  {
+   "i": 2,
+   "name": "a painter's easel",
+   "t": 10.4,
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_falagent/tl_02.png"
+  },
+  {
+   "i": 3,
+   "name": "a dartboard with dart",
+   "t": 14.6,
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_falagent/tl_03.png"
+  },
+  {
+   "i": 4,
+   "name": "a film strip",
+   "t": 16.9,
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_falagent/tl_04.png"
+  }
+ ],
+ "frames": [
+  {
+   "frame": "hook",
+   "t": 0.8,
+   "png": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_falagent/tl_frame_hook.png"
+  },
+  {
+   "frame": "spark",
+   "t": 1.8,
+   "png": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_falagent/tl_frame_spark.png"
+  },
+  {
+   "frame": "fal",
+   "t": 4.2,
+   "png": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_falagent/tl_frame_fal.png"
+  },
+  {
+   "frame": "keyterm",
+   "t": 5.4,
+   "png": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_falagent/tl_frame_keyterm.png"
+  },
+  {
+   "frame": "seam1",
+   "t": 6.5,
+   "png": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_falagent/tl_frame_seam1.png"
+  },
+  {
+   "frame": "videos",
+   "t": 9.1,
+   "png": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_falagent/tl_frame_videos.png"
+  },
+  {
+   "frame": "images",
+   "t": 10.4,
+   "png": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_falagent/tl_frame_images.png"
+  },
+  {
+   "frame": "models",
+   "t": 12.3,
+   "png": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_falagent/tl_frame_models.png"
+  },
+  {
+   "frame": "seam3",
+   "t": 13.2,
+   "png": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_falagent/tl_frame_seam3.png"
+  },
+  {
+   "frame": "dart",
+   "t": 14.4,
+   "png": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_falagent/tl_frame_dart.png"
+  },
+  {
+   "frame": "cats",
+   "t": 16.0,
+   "png": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_falagent/tl_frame_cats.png"
+  },
+  {
+   "frame": "strip_emph",
+   "t": 17.4,
+   "png": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_falagent/tl_frame_strip_emph.png"
+  },
+  {
+   "frame": "tuned",
+   "t": 19.8,
+   "png": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_falagent/tl_frame_tuned.png"
+  },
+  {
+   "frame": "links",
+   "t": 21.4,
+   "png": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_falagent/tl_frame_links.png"
+  },
+  {
+   "frame": "seam6",
+   "t": 24.3,
+   "png": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_falagent/tl_frame_seam6.png"
+  },
+  {
+   "frame": "window",
+   "t": 25.8,
+   "png": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_falagent/tl_frame_window.png"
+  },
+  {
+   "frame": "anygen",
+   "t": 28.6,
+   "png": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_falagent/tl_frame_anygen.png"
+  },
+  {
+   "frame": "outro",
+   "t": 30.8,
+   "png": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_falagent/tl_frame_outro.png"
+  }
+ ],
+ "connectors": [
+  {
+   "id": "conn-friend",
+   "t": 5.0,
+   "ends": [
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_falagent/tl_conn_conn-friend_0.png",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_falagent/tl_conn_conn-friend_1.png"
+   ]
+  },
+  {
+   "id": "conn-prompt",
+   "t": 22.0,
+   "ends": [
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_falagent/tl_conn_conn-prompt_0.png",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_falagent/tl_conn_conn-prompt_1.png"
+   ]
+  },
+  {
+   "id": "conn-consist",
+   "t": 22.0,
+   "ends": [
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_falagent/tl_conn_conn-consist_0.png",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_falagent/tl_conn_conn-consist_1.png"
+   ]
+  },
+  {
+   "id": "conn-out-a",
+   "t": 28.0,
+   "ends": [
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_falagent/tl_conn_conn-out-a_0.png",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_falagent/tl_conn_conn-out-a_1.png"
+   ]
+  },
+  {
+   "id": "conn-out-b",
+   "t": 28.0,
+   "ends": [
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_falagent/tl_conn_conn-out-b_0.png",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_falagent/tl_conn_conn-out-b_1.png"
+   ]
+  }
+ ],
+ "errors": []
+}

@@ -1,0 +1,339 @@
+{
+ "crops": [
+  {
+   "i": 0,
+   "name": "phone with Siri",
+   "t": 1.6,
+   "core_box": [
+    365.0,
+    158.0,
+    715.0,
+    458.0
+   ],
+   "phone_box_px": [
+    132,
+    126,
+    273,
+    249
+   ],
+   "phone_size_px": [
+    141,
+    123
+   ],
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_codexsiri/00.png"
+  },
+  {
+   "i": 1,
+   "name": "phone in box",
+   "t": 9.9,
+   "core_box": [
+    380.0,
+    112.0,
+    700.0,
+    470.0
+   ],
+   "phone_box_px": [
+    137,
+    109,
+    268,
+    254
+   ],
+   "phone_size_px": [
+    131,
+    145
+   ],
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_codexsiri/01.png"
+  },
+  {
+   "i": 2,
+   "name": "clipboard with checkmarks",
+   "t": 26.02,
+   "core_box": [
+    665.0,
+    202.0,
+    825.0,
+    412.0
+   ],
+   "phone_box_px": [
+    244,
+    142,
+    315,
+    232
+   ],
+   "phone_size_px": [
+    71,
+    90
+   ],
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_codexsiri/02.png"
+  },
+  {
+   "i": 3,
+   "name": "free price tag",
+   "t": 28.5,
+   "core_box": [
+    456.0,
+    186.0,
+    736.0,
+    306.0
+   ],
+   "phone_box_px": [
+    166,
+    136,
+    281,
+    192
+   ],
+   "phone_size_px": [
+    115,
+    56
+   ],
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_codexsiri/03.png"
+  }
+ ],
+ "frames": [
+  {
+   "name": "hook_alone",
+   "t": 0.3,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_codexsiri/frame_hook_alone.png"
+  },
+  {
+   "name": "hook",
+   "t": 1.6,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_codexsiri/frame_hook.png"
+  },
+  {
+   "name": "hook_hold",
+   "t": 3.4,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_codexsiri/frame_hook_hold.png"
+  },
+  {
+   "name": "post",
+   "t": 4.0,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_codexsiri/frame_post.png"
+  },
+  {
+   "name": "post_hl",
+   "t": 5.0,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_codexsiri/frame_post_hl.png"
+  },
+  {
+   "name": "box_phone",
+   "t": 8.2,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_codexsiri/frame_box_phone.png"
+  },
+  {
+   "name": "box",
+   "t": 9.9,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_codexsiri/frame_box.png"
+  },
+  {
+   "name": "move3",
+   "t": 11.0,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_codexsiri/frame_move3.png"
+  },
+  {
+   "name": "github",
+   "t": 14.2,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_codexsiri/frame_github.png"
+  },
+  {
+   "name": "line_a",
+   "t": 15.8,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_codexsiri/frame_line_a.png"
+  },
+  {
+   "name": "codex",
+   "t": 17.6,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_codexsiri/frame_codex.png"
+  },
+  {
+   "name": "openai",
+   "t": 19.5,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_codexsiri/frame_openai.png"
+  },
+  {
+   "name": "charge",
+   "t": 20.8,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_codexsiri/frame_charge.png"
+  },
+  {
+   "name": "swap",
+   "t": 21.4,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_codexsiri/frame_swap.png"
+  },
+  {
+   "name": "emph",
+   "t": 22.2,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_codexsiri/frame_emph.png"
+  },
+  {
+   "name": "talk",
+   "t": 24.3,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_codexsiri/frame_talk.png"
+  },
+  {
+   "name": "done",
+   "t": 26.02,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_codexsiri/frame_done.png"
+  },
+  {
+   "name": "repo",
+   "t": 26.8,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_codexsiri/frame_repo.png"
+  },
+  {
+   "name": "tag",
+   "t": 28.5,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_codexsiri/frame_tag.png"
+  },
+  {
+   "name": "desc",
+   "t": 30.6,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_codexsiri/frame_desc.png"
+  },
+  {
+   "name": "outro",
+   "t": 33.5,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_codexsiri/frame_outro.png"
+  }
+ ],
+ "ends": [
+  {
+   "name": "lineA_phone",
+   "t": 15.8,
+   "at_core": [
+    360.0,
+    262.0
+   ],
+   "zoom": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_codexsiri/end_lineA_phone.png"
+  },
+  {
+   "name": "lineA_gh",
+   "t": 15.8,
+   "at_core": [
+    484.0,
+    262.0
+   ],
+   "zoom": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_codexsiri/end_lineA_gh.png"
+  },
+  {
+   "name": "lineB_gh",
+   "t": 17.6,
+   "at_core": [
+    596.0,
+    262.0
+   ],
+   "zoom": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_codexsiri/end_lineB_gh.png"
+  },
+  {
+   "name": "lineB_codex",
+   "t": 17.6,
+   "at_core": [
+    778.0,
+    262.0
+   ],
+   "zoom": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_codexsiri/end_lineB_codex.png"
+  },
+  {
+   "name": "charge_phone",
+   "t": 21.4,
+   "at_core": [
+    360.0,
+    262.0
+   ],
+   "zoom": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_codexsiri/end_charge_phone.png"
+  },
+  {
+   "name": "string_tile",
+   "t": 28.5,
+   "at_core": [
+    456.0,
+    246.0
+   ],
+   "zoom": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_codexsiri/end_string_tile.png"
+  },
+  {
+   "name": "string_hole",
+   "t": 28.5,
+   "at_core": [
+    543.0,
+    246.0
+   ],
+   "zoom": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_codexsiri/end_string_hole.png"
+  }
+ ],
+ "font_loaded": true,
+ "page_errors": [],
+ "stage_marks_resolve": {
+  "siri": "/Users/migle/Documents/Workspace/assets/logos/ai-models/siri-color.png",
+  "codex": "/Users/migle/Documents/Workspace/assets/logos/coding-tools/codex-color.png",
+  "github": "/Users/migle/Documents/Workspace/assets/logos/coding-tools/github-mark.png",
+  "openai": "/Users/migle/Documents/Workspace/assets/logos/ai-models/openai.png",
+  "x-logo": "/Users/migle/Documents/Workspace/assets/logos/platforms/x-logo.svg"
+ },
+ "cutout_lanes_resolve": {
+  "chatgpt": "/Users/migle/Documents/Workspace/assets/logos/ai-models/chatgpt-color.png",
+  "gemini": "/Users/migle/Documents/Workspace/assets/logos/ai-models/gemini-color.png",
+  "claude": "/Users/migle/Documents/Workspace/assets/logos/ai-models/claude-color.png",
+  "perplexity": "/Users/migle/Documents/Workspace/assets/logos/ai-models/perplexity-color.png",
+  "grok": "/Users/migle/Documents/Workspace/assets/logos/ai-models/grok.png",
+  "meta": "/Users/migle/Documents/Workspace/assets/logos/ai-models/meta.png"
+ },
+ "law40_anchor_equality": {
+  "line-a.from": [
+   360.0,
+   262.0
+  ],
+  "line-a.to": [
+   484.0,
+   262.0
+  ],
+  "line-b.from": [
+   596.0,
+   262.0
+  ],
+  "line-b.to": [
+   778.0,
+   262.0
+  ],
+  "string.from": [
+   456.0,
+   246.0
+  ],
+  "module": {
+   "line-a": {
+    "from": [
+     360.0,
+     262.0
+    ],
+    "to": [
+     484.0,
+     262.0
+    ],
+    "gap_px": 0.0
+   },
+   "line-b": {
+    "from": [
+     596.0,
+     262.0
+    ],
+    "to": [
+     778.0,
+     262.0
+    ],
+    "gap_px": 0.0
+   },
+   "string": {
+    "from": [
+     456.0,
+     246.0
+    ],
+    "to": [
+     543.0,
+     246.0
+    ],
+    "gap_px": 0.0
+   },
+   "verdict": "PASS"
+  }
+ }
+}

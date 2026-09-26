@@ -1,0 +1,334 @@
+{
+ "id": "codexsiri",
+ "run": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27",
+ "recording": "2026-09-21 14-46-51",
+ "gpu": null,
+ "session": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/matting/codexsiri",
+ "cut_dir": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/cuts/codexsiri",
+ "stages": {
+  "cut": {
+   "status": "ok",
+   "master": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/cuts/codexsiri/master.mp4",
+   "audio": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/cuts/codexsiri/audio.m4a",
+   "face_plates": [
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/cuts/codexsiri/face_full_hd.mp4",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/cuts/codexsiri/face_bottom_hd.mp4"
+   ],
+   "edl": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/cuts/codexsiri/edl.json",
+   "transcript_tight": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/cuts/codexsiri/transcript_tight.json",
+   "cut_master_duration_s": 36.16,
+   "take": {
+    "word_index": 289,
+    "start_s": 144.9,
+    "words": 122,
+    "of_raw_words": 411,
+    "openings": 0
+   },
+   "corroboration": "model-authored keep ranges",
+   "analysis_wav_written": false,
+   "tight_audio_duration_s": 36.128,
+   "wall_s": 78.0
+  },
+  "plate": {
+   "status": "ok",
+   "plate": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/matting/codexsiri/plate_wide_25.mp4",
+   "crop": "2848x1780+561+274",
+   "plate_size": [
+    1440,
+    900
+   ],
+   "scale_k": 0.505618,
+   "head_px_on_canvas": 451.1,
+   "overwide_applied": true,
+   "extension_master_px": {
+    "left_master_px": 267,
+    "left_plate_px": 135,
+    "left_canvas_px": 148.5,
+    "right_master_px": 445,
+    "right_plate_px": 225,
+    "right_canvas_px": 247.5,
+    "left_headroom_remaining_master_px": 561,
+    "right_headroom_remaining_master_px": 431,
+    "clamped_by_master_edge": {
+     "left": false,
+     "right": false
+    },
+    "lattice_padding_steps": 1
+   },
+   "plate_box": {
+    "w": 1584.0,
+    "h": 990.0,
+    "left": -202.0,
+    "top": 930.0,
+    "right": 1382.0,
+    "centred": false,
+    "note": "the origin is NOT (1080 - box_w)/2.  An over-wide plate is deliberately asymmetric; the generator's plate_origin() reads `left` from here, and ship.py's edge gate takes it as --edge-box."
+   },
+   "face_dx_pct": 0.036,
+   "visible_window_drift_master_px": 0.9,
+   "sweep": {
+    "file": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/gen/_birefnet_master_codexsiri.json",
+    "frames_measured": 152,
+    "stride": 6,
+    "model": "birefnet-general",
+    "wall_seconds": 135.0,
+    "lane": {
+     "where": "modal",
+     "app": "shorts-factory-birefnet",
+     "gpu": "A10G",
+     "container": "7e24b69f-e386-4a17-8415-cabba7786da6",
+     "onnx": "birefnet-general.onnx",
+     "providers": [
+      "CUDAExecutionProvider",
+      "CPUExecutionProvider"
+     ],
+     "input_bytes": 28002237,
+     "model_load_seconds": 4.0,
+     "inference_seconds": 81.1,
+     "seconds_per_frame": 0.534,
+     "t_import_epoch": 1790180719.5679905,
+     "t_fn_enter_epoch": 1790180780.8153336,
+     "t_fn_exit_epoch": 1790180870.414673,
+     "proxy": true,
+     "proxy_seconds": 2.7,
+     "client_wall_seconds": 135.0,
+     "uploaded_bytes": 28002237,
+     "cold_start_seconds": -19.32,
+     "billed_container_seconds": 152.8,
+     "measured_cost_usd": 0.0682,
+     "cost_breakdown_usd": {
+      "gpu": 0.0468,
+      "cpu": 0.016,
+      "mem": 0.0054
+     }
+    }
+   },
+   "plate_json": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/matting/codexsiri/plate.json",
+   "wall_s": 74.2
+  },
+  "prompt0": {
+   "status": "ok",
+   "retries": [],
+   "prompt_guard": {
+    "repaired": false,
+    "why": "the live prompt is the original"
+   },
+   "prompt0_status": "ok",
+   "prompt_png": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/matting/codexsiri/prompts/kf_00000.png",
+   "overlay_png": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/matting/codexsiri/prompts/kf_overlay_00000.png",
+   "wings_source": "MEASURED on this plate's frame 0",
+   "wing_right": null,
+   "wing_left": null,
+   "wing_cut_applied": false,
+   "wing_review": true,
+   "wing_review_note": "the instrument proposed no cut.  It abstains rather than guesses (see the module docstring: zero false positives, zero recall on the run-9 corpus).  Look at kf_overlay_00000.png; if a headrest wing is inside the green prompt, measure its inner column and pass an explicit `wings` block on the intake row.  If you miss one, the protrusion gate inside ship.py is the net.",
+   "removed_px": 0,
+   "prompt_area_px": 494440,
+   "chair_prompt": {
+    "status": "ok",
+    "json": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/matting/codexsiri/chair_prompt.json",
+    "overlay": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/matting/codexsiri/prompts/chair_overlay_00000.png",
+    "band": {
+     "crown": 54,
+     "head_width": 336.0,
+     "band_top": 357,
+     "shoulder_arrival": 537
+    },
+    "found": [
+     "left",
+     "right"
+    ],
+    "overridden_sides": null,
+    "left": {
+     "found": true,
+     "box": [
+      380,
+      248,
+      516,
+      500
+     ],
+     "points": [
+      [
+       461,
+       281,
+       1
+      ],
+      [
+       459,
+       343,
+       1
+      ],
+      [
+       464,
+       405,
+       1
+      ],
+      [
+       466,
+       467,
+       1
+      ],
+      [
+       658,
+       192,
+       0
+      ],
+      [
+       492,
+       374,
+       0
+      ],
+      [
+       558,
+       608,
+       0
+      ],
+      [
+       610,
+       657,
+       0
+      ]
+     ],
+     "rows": [
+      252,
+      496
+     ],
+     "rows_with_run": 245,
+     "cols": [
+      388,
+      508
+     ],
+     "run_width": {
+      "min": 4,
+      "max": 94,
+      "median": 56
+     },
+     "luma": {
+      "mean": 25.7,
+      "p95": 40,
+      "max": 97
+     },
+     "area_px": 13195
+    },
+    "right": {
+     "found": true,
+     "box": [
+      737,
+      233,
+      875,
+      442
+     ],
+     "points": [
+      [
+       819,
+       261,
+       1
+      ],
+      [
+       840,
+       312,
+       1
+      ],
+      [
+       835,
+       363,
+       1
+      ],
+      [
+       815,
+       414,
+       1
+      ],
+      [
+       658,
+       177,
+       0
+      ],
+      [
+       776,
+       338,
+       0
+      ],
+      [
+       695,
+       604,
+       0
+      ],
+      [
+       610,
+       657,
+       0
+      ]
+     ],
+     "rows": [
+      237,
+      438
+     ],
+     "rows_with_run": 202,
+     "cols": [
+      745,
+      867
+     ],
+     "run_width": {
+      "min": 19,
+      "max": 123,
+      "median": 54
+     },
+     "luma": {
+      "mean": 15.4,
+      "p95": 42,
+      "max": 129
+     },
+     "area_px": 11846
+    }
+   },
+   "wall_s": 81.8
+  },
+  "cues": {
+   "status": "ok",
+   "cue_count": 1,
+   "cues_json": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/gen/_cues_codexsiri.json",
+   "answered": [
+    {
+     "cue_i": 0,
+     "at": 4.12,
+     "phrase": "this guy",
+     "kind": "person",
+     "window": [
+      3.12,
+      5.12
+     ],
+     "card_hold_s": [
+      2.0,
+      4.0
+     ],
+     "status": "NEEDS_SOURCE",
+     "note": "no source URL was supplied for this cue.  The prep stage never chooses which post answers a cue and never chooses the claim span \u2014 supply `url` (+ optional `body` prefix and `claim`) on the intake row's cues block, or waive the cue in writing."
+    }
+   ],
+   "needs_source": [
+    0
+   ],
+   "cards": [],
+   "wall_s": 0.0
+  },
+  "track": {
+   "status": "REFUSED",
+   "error": "Chair audit hold: the reviewed contour holds the headrest wing; the contour is corrected so the chair band can see it, and the production track is held: a frame-0 carve does not stop MatAnyone 2 re-growing a dark region welded to his shirt (measured 2026-09-21: 9,077 of 9,077 carved px kept on every frame)"
+  },
+  "selection": {
+   "status": "ok",
+   "note": "selection inputs ready for the outline review",
+   "selection": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/matting/codexsiri/selection.json",
+   "plate": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/matting/codexsiri/plate_wide_25.mp4",
+   "source": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/cuts/codexsiri/master.mp4",
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/matting/codexsiri/plate.json",
+   "initial_mask": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/matting/codexsiri/prompts/kf_00000.png"
+  }
+ },
+ "no_chair_object": false,
+ "started": "2026-09-23T19:53:49",
+ "backend": "matanyone2",
+ "finished": "2026-09-23T19:57:24",
+ "wall_s": 234.0
+}

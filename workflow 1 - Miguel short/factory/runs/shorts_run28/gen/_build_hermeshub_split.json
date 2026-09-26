@@ -1,0 +1,665 @@
+{
+ "video": "hermeshub",
+ "lane": "icon choreography",
+ "fps": 25,
+ "duration": 24.08,
+ "seam": 862.5,
+ "formats": {
+  "split": {
+   "staged": {
+    "voice": {
+     "source": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/cuts/hermeshub/audio.m4a",
+     "sample_rate": 48000,
+     "channels": 2
+    },
+    "bed": "/Users/migle/Documents/Workspace/assets/audio/music/shorts-factory/bed_split_v2.mp3",
+    "sfx_sources": {
+     "whoosh": "/Users/migle/Documents/Workspace/assets/audio/sfx/shorts-factory/whoosh.mp3",
+     "pop": "/Users/migle/Documents/Workspace/assets/audio/sfx/shorts-factory/pop.mp3",
+     "click": "/Users/migle/Documents/Workspace/assets/audio/sfx/shorts-factory/click.mp3"
+    },
+    "face": {
+     "file": "face_bottom_hd.mp4",
+     "w": 1080,
+     "h": 1058
+    },
+    "marks": {
+     "nous-girl-line": {
+      "source": "/Users/migle/Documents/Workspace/assets/logos/ai-models/nous-girl-line.png",
+      "url": "assets/logos/nous-girl-line.png"
+     },
+     "figma": {
+      "source": "/Users/migle/Documents/Workspace/assets/logos/design-tools/figma-color.png",
+      "url": "assets/logos/figma-color.png"
+     },
+     "notion": {
+      "source": "/Users/migle/Documents/Workspace/assets/logos/platforms/notion-color.png",
+      "url": "assets/logos/notion-color.png"
+     },
+     "slack": {
+      "source": "/Users/migle/Documents/Workspace/assets/logos/platforms/slack-color.png",
+      "url": "assets/logos/slack-color.png"
+     }
+    }
+   },
+   "seat": 862.5,
+   "scale": 1.0,
+   "core": {
+    "left": 0.0,
+    "top": 192.0
+   },
+   "band": {
+    "content_top": 262.0,
+    "content_bottom": 762.0,
+    "pill_top_rendered": 805.205,
+    "clear_above_pill": 43.21,
+    "clear_below_law30": 70.0
+   },
+   "rail": {
+    "readable_type_right_x": 662.2,
+    "ink_left_x": 60.0,
+    "ink_right_x": 1020.0,
+    "law30_rail_x": 918.0
+   },
+   "cues": {
+    "tile": {
+     "word": 0,
+     "text": "Hermes",
+     "t": 0.1,
+     "word_start": 0.1
+    },
+    "rise": {
+     "word": 6,
+     "text": "any",
+     "t": 1.34,
+     "word_start": 1.34
+    },
+    "laptop": {
+     "word": 7,
+     "text": "application",
+     "t": 1.52,
+     "word_start": 1.52
+    },
+    "links": {
+     "word": 10,
+     "text": "working",
+     "t": 2.3,
+     "word_start": 2.3
+    },
+    "seamA": {
+     "word": 20,
+     "text": "shipped",
+     "t": 5.34,
+     "word_start": 5.34
+    },
+    "open": {
+     "word": 21,
+     "text": "Hub",
+     "t": 5.86,
+     "word_start": 5.86
+    },
+    "boxout": {
+     "word": 25,
+     "text": "allows",
+     "t": 6.98,
+     "word_start": 6.98
+    },
+    "led": {
+     "word": 30,
+     "text": "always-on",
+     "t": 8.08,
+     "word_start": 8.08
+    },
+    "mark": {
+     "word": 31,
+     "text": "Hermes",
+     "t": 8.94,
+     "word_start": 8.94
+    },
+    "flip1": {
+     "word": 37,
+     "text": "toolbar",
+     "t": 11.26,
+     "word_start": 11.26
+    },
+    "seamB": {
+     "word": 38,
+     "text": "that",
+     "t": 11.98,
+     "word_start": 11.98
+    },
+    "win": {
+     "word": 40,
+     "text": "you",
+     "t": 12.56,
+     "word_start": 12.56
+    },
+    "drag": {
+     "word": 43,
+     "text": "drag",
+     "t": 13.2,
+     "word_start": 13.2
+    },
+    "drop": {
+     "word": 45,
+     "text": "drop",
+     "t": 13.52,
+     "word_start": 13.52
+    },
+    "across": {
+     "word": 47,
+     "text": "your",
+     "t": 14.34,
+     "word_start": 14.34
+    },
+    "drop2": {
+     "word": 49,
+     "text": "desktop,",
+     "t": 15.1,
+     "word_start": 15.1
+    },
+    "seamC": {
+     "word": 50,
+     "text": "and",
+     "t": 15.86,
+     "word_start": 15.86
+    },
+    "context": {
+     "word": 55,
+     "text": "context",
+     "t": 16.84,
+     "word_start": 16.84
+    },
+    "flip2": {
+     "word": 59,
+     "text": "application",
+     "t": 17.84,
+     "word_start": 17.84
+    },
+    "flip3": {
+     "word": 62,
+     "text": "sitting",
+     "t": 18.96,
+     "word_start": 18.96
+    },
+    "outro": {
+     "word": 66,
+     "text": "Now,",
+     "t": 19.98,
+     "word_start": 19.98
+    },
+    "apps": {
+     "word": 7,
+     "text": "application",
+     "t": 1.7,
+     "window": [
+      1.52,
+      2.98
+     ]
+    },
+    "box": {
+     "word": 20,
+     "text": "shipped",
+     "t": 5.4,
+     "window": [
+      5.34,
+      6.6
+     ]
+    },
+    "toolbar": {
+     "word": 21,
+     "text": "Hub",
+     "t": 5.9,
+     "window": [
+      5.86,
+      7.02
+     ]
+    },
+    "keyterm": {
+     "word": 22,
+     "text": "mode.",
+     "t": 6.1,
+     "window": [
+      6.08,
+      7.28
+     ]
+    },
+    "lbl_on": {
+     "word": 30,
+     "text": "always-on",
+     "t": 8.12,
+     "window": [
+      8.08,
+      9.64
+     ]
+    },
+    "centre": {
+     "word": 50,
+     "text": "and",
+     "t": 15.92,
+     "window": [
+      15.86,
+      16.98
+     ]
+    },
+    "_law43": {
+     "board_mode": "chapters",
+     "chapters": 4,
+     "erase_at": [
+      5.34,
+      11.98,
+      15.86,
+      19.98
+     ],
+     "anchor_across_seams": [
+      "hub-toolbar"
+     ]
+    }
+   },
+   "word_sync": {
+    "typed_states": [
+     {
+      "state": "key-hub-mode",
+      "first_visible_text": "HUB MODE",
+      "at": 6.1,
+      "words": "hub mode.",
+      "window": [
+       6.08,
+       7.28
+      ]
+     },
+     {
+      "state": "lbl-always-on",
+      "first_visible_text": "ALWAYS ON",
+      "at": 8.12,
+      "words": "always-on",
+      "window": [
+       8.08,
+       9.64
+      ]
+     }
+    ],
+    "disagreements": 0,
+    "digits_that_tick": 0
+   },
+   "law37": {
+    "scan_cue_count": 0,
+    "plan_declared_cards": 0,
+    "source_cards_in_the_page": 0
+   },
+   "law39": {
+    "key-hub-mode": {
+     "host": "hub-toolbar",
+     "side": "above",
+     "text": "HUB MODE",
+     "at": 6.1,
+     "gutter_core_px": 42.0,
+     "box_canvas": [
+      390.0,
+      342.0,
+      690.0,
+      400.0
+     ],
+     "declared": "data-label-for=\"hub-toolbar\""
+    },
+    "lbl-always-on": {
+     "host": "hub-toolbar",
+     "side": "below",
+     "text": "ALWAYS ON",
+     "at": 8.12,
+     "gutter_core_px": 34.0,
+     "box_canvas": [
+      440.0,
+      580.0,
+      640.0,
+      624.0
+     ],
+     "declared": "data-label-for=\"hub-toolbar\""
+    },
+    "_key_term": {
+     "text": "HUB MODE",
+     "font_px": 48.0,
+     "design_units": 25.6,
+     "first_type": true
+    }
+   },
+   "law42": {
+    "board_mode": "chapters",
+    "anchors": [
+     "hub-toolbar"
+    ],
+    "covers": [
+     "o-sheet",
+     "o-glyph",
+     "o-rule",
+     "o-slot"
+    ],
+    "mark_shares": {
+     "hb-tile": 0.23,
+     "app-figma": 0.164,
+     "app-notion": 0.159,
+     "app-slack": 0.155
+    }
+   },
+   "law38": {
+    "border_flips": [
+     {
+      "target": "#hub-toolbar",
+      "from": 11.26,
+      "until": 11.9,
+      "check_at": null
+     },
+     {
+      "target": "#win-slack",
+      "from": 17.84,
+      "until": 18.9,
+      "check_at": 18.5
+     },
+     {
+      "target": "#hub-toolbar",
+      "from": 18.96,
+      "until": 19.98,
+      "check_at": 19.6
+     }
+    ],
+    "rings_ellipses_circles": 0,
+    "highlights": 0,
+    "dom_elements_added": 0,
+    "note": "the 11.26 toolbar flip shares its element with the held 18.96 flip, which carries the one declaration"
+   },
+   "law40": {
+    "connectors": [
+     {
+      "id": "link-figma",
+      "to": "app-figma",
+      "side": "top",
+      "fraction": 0.5,
+      "check_at": 3.2,
+      "from_core": [
+       501.92,
+       182.0
+      ],
+      "to_core": [
+       396.0,
+       290.0
+      ]
+     },
+     {
+      "id": "link-notion",
+      "to": "app-notion",
+      "side": "top",
+      "fraction": 0.5,
+      "check_at": 3.2,
+      "from_core": [
+       540.0,
+       182.0
+      ],
+      "to_core": [
+       540.0,
+       290.0
+      ]
+     },
+     {
+      "id": "link-slack",
+      "to": "app-slack",
+      "side": "top",
+      "fraction": 0.5,
+      "check_at": 3.2,
+      "from_core": [
+       578.08,
+       182.0
+      ],
+      "to_core": [
+       684.0,
+       290.0
+      ]
+     }
+    ],
+    "emphases_stamped": [
+     "win-slack",
+     "hub-toolbar"
+    ],
+    "toolbar_parts_blocked_hub": [
+     "tb-slot",
+     "tb-mark",
+     "tb-led"
+    ]
+   },
+   "law2": {
+    "stage_marks": [
+     "figma",
+     "notion",
+     "nous-girl-line",
+     "slack"
+    ],
+    "resolved": {
+     "nous-girl-line": "/Users/migle/Documents/Workspace/assets/logos/ai-models/nous-girl-line.png",
+     "figma": "/Users/migle/Documents/Workspace/assets/logos/design-tools/figma-color.png",
+     "notion": "/Users/migle/Documents/Workspace/assets/logos/platforms/notion-color.png",
+     "slack": "/Users/migle/Documents/Workspace/assets/logos/platforms/slack-color.png"
+    },
+    "mark_identity": "Hermes = nous-girl-line, never the H glyph",
+    "cutout_lanes_not_ours": [
+     "chatgpt",
+     "claude",
+     "gemini",
+     "perplexity",
+     "copilot",
+     "openclaw"
+    ]
+   },
+   "law22": {
+    "events": 20,
+    "tightest_gap_s": 0.48,
+    "deliberately_silent": {
+     "rise 1.34": "the tile's own move; the laptop pop 0.18 s later scores the arrival",
+     "apps 1.70-1.90": "inside the laptop pop's 0.36 s",
+     "seam 5.34": "0.06 s before the box pop",
+     "lid 5.86": "0.04 s before the toolbar whoosh",
+     "labels leave 11.98 / Figma+Notion leave 15.86": "exits",
+     "outro lockup 20.48": "rides the sheet's whoosh"
+    }
+   },
+   "draw_on": {
+    "dash_selectors": {
+     "#link-figma .sline": 1,
+     "#link-notion .sline": 1,
+     "#link-slack .sline": 1
+    },
+    "verdict": "every dash equals its path's declared length (100)"
+   },
+   "transcript": {
+    "law47_tail_s": 0.24,
+    "law47_cap_s": 0.24,
+    "law47_verdict": "PASS - 0.240s past the last word against a 0.240s cap",
+    "law46": "the scripted opening occurs ONCE inside the keeper take, at word 0 / 0.10 s",
+    "inner_stumble_kept": "'on on your computer' (2.62 / 2.90) - INNER STUMBLES STAY",
+    "take_corroboration": {
+     "mode": "model keep_words (the agent read the transcript and chose the words; no rule detection)",
+     "keep_words": [
+      [
+       31,
+       117
+      ]
+     ],
+     "take_word_index": 31,
+     "take_start_s": 31.04,
+     "words": 87,
+     "of_raw_words": 118,
+     "dropped_words": 31,
+     "corroboration": "model-authored keep ranges"
+    },
+    "words": 87,
+    "function_word_merges": 0,
+    "beats_before_merge": 24,
+    "orphan_repartitions": [],
+    "solo_word_merges": [],
+    "board_keys_forbidden_at_split": [
+     "always on",
+     "always on!",
+     "always on,",
+     "always on.",
+     "always on?",
+     "always-on",
+     "always-on!",
+     "always-on,",
+     "always-on.",
+     "always-on?",
+     "hub mode",
+     "hub mode!",
+     "hub mode,",
+     "hub mode.",
+     "hub mode?",
+     "hub-mode",
+     "hub-mode!",
+     "hub-mode,",
+     "hub-mode.",
+     "hub-mode?"
+    ]
+   },
+   "phone_objects": [
+    {
+     "name": "open laptop computer",
+     "t": 3.2,
+     "bbox": [
+      0.1907,
+      0.2115,
+      0.8093,
+      0.3812
+     ],
+     "canvas": [
+      206.0,
+      406.0,
+      874.0,
+      732.0
+     ]
+    },
+    {
+     "name": "cardboard shipping box",
+     "t": 5.8,
+     "bbox": [
+      0.3296,
+      0.2755,
+      0.6704,
+      0.3969
+     ],
+     "canvas": [
+      356.0,
+      529.0,
+      724.0,
+      762.0
+     ]
+    }
+   ],
+   "render": {
+    "w": 1080,
+    "h": 1920,
+    "zoom": 1
+   },
+   "handle": "@migueltorrezai",
+   "captions": {
+    "n": 24,
+    "widest_px": 734.8,
+    "beats": [
+     [
+      "Hermes can now help",
+      0.1
+     ],
+     [
+      "you in any application",
+      0.92
+     ],
+     [
+      "that you're working",
+      2.02
+     ],
+     [
+      "on on your computer.",
+      2.62
+     ],
+     [
+      "Now, a community",
+      3.9
+     ],
+     [
+      "member just",
+      4.68
+     ],
+     [
+      "shipped Hub mode.",
+      5.34
+     ],
+     [
+      "Hub mode allows you",
+      6.58
+     ],
+     [
+      "to have an always-on",
+      7.36
+     ],
+     [
+      "Hermes Agent",
+      8.94
+     ],
+     [
+      "inside of a small toolbar",
+      10.08
+     ],
+     [
+      "that literally you can just",
+      11.98
+     ],
+     [
+      "drag and drop across",
+      13.2
+     ],
+     [
+      "your entire desktop,",
+      14.34
+     ],
+     [
+      "and it will get",
+      15.86
+     ],
+     [
+      "the context out",
+      16.68
+     ],
+     [
+      "of the application",
+      17.5
+     ],
+     [
+      "that it's sitting on top of.",
+      18.68
+     ],
+     [
+      "Now, follow for more",
+      19.98
+     ],
+     [
+      "AI news, videos, and",
+      20.72
+     ],
+     [
+      "tutorials each and",
+      21.58
+     ],
+     [
+      "every single day,",
+      22.24
+     ],
+     [
+      "and catch you",
+      23.14
+     ],
+     [
+      "in the next one.",
+      23.44
+     ]
+    ],
+    "min_aspect": 3.5
+   }
+  }
+ }
+}

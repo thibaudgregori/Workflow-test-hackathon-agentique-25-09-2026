@@ -1,0 +1,16 @@
+{
+ "id": "falagent",
+ "stage": "selection",
+ "status": "ok",
+ "wall_s": null,
+ "at": "2026-09-23T19:57:24",
+ "keys": {
+  "status": "ok",
+  "note": "selection inputs ready for the outline review",
+  "selection": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/matting/falagent/selection.json",
+  "plate": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/matting/falagent/plate_wide_25.mp4",
+  "source": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/cuts/falagent/master.mp4",
+  "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/matting/falagent/plate.json",
+  "initial_mask": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/matting/falagent/prompts/kf_00000.png"
+ }
+}

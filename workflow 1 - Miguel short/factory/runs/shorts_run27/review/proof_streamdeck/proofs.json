@@ -1,0 +1,287 @@
+{
+ "crops": [
+  {
+   "i": 0,
+   "name": "Claude button keypad",
+   "t": 2.6,
+   "ui": false,
+   "core_box": [
+    350.0,
+    96.0,
+    730.0,
+    452.0
+   ],
+   "phone_box_px": [
+    131,
+    108,
+    274,
+    242
+   ],
+   "phone_size_px": [
+    143,
+    134
+   ],
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_streamdeck/00.png"
+  },
+  {
+   "i": 1,
+   "name": "flashlight finding devices",
+   "t": 14.1,
+   "ui": false,
+   "core_box": [
+    40.0,
+    96.0,
+    1080.0,
+    514.0
+   ],
+   "phone_box_px": [
+    15,
+    108,
+    405,
+    265
+   ],
+   "phone_size_px": [
+    390,
+    157
+   ],
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_streamdeck/01.png"
+  },
+  {
+   "i": 2,
+   "name": "devices wired to keypad",
+   "t": 20.9,
+   "ui": false,
+   "core_box": [
+    350.0,
+    100.0,
+    730.0,
+    522.0
+   ],
+   "phone_box_px": [
+    131,
+    110,
+    274,
+    268
+   ],
+   "phone_size_px": [
+    143,
+    158
+   ],
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_streamdeck/02.png"
+  },
+  {
+   "i": 3,
+   "name": "pressed light button",
+   "t": 26.3,
+   "ui": false,
+   "core_box": [
+    665.0,
+    190.0,
+    1025.0,
+    492.0
+   ],
+   "phone_box_px": [
+    249,
+    143,
+    384,
+    256
+   ],
+   "phone_size_px": [
+    135,
+    113
+   ],
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_streamdeck/03.png"
+  },
+  {
+   "i": 4,
+   "name": "chat prompt window",
+   "t": 24.95,
+   "ui": true,
+   "core_box": [
+    340.0,
+    145.0,
+    740.0,
+    415.0
+   ],
+   "phone_box_px": [
+    128,
+    126,
+    278,
+    228
+   ],
+   "phone_size_px": [
+    150,
+    102
+   ],
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_streamdeck/04.png"
+  }
+ ],
+ "frames": [
+  {
+   "name": "marks",
+   "t": 1.3,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_streamdeck/frame_marks.png"
+  },
+  {
+   "name": "keyterm",
+   "t": 2.6,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_streamdeck/frame_keyterm.png"
+  },
+  {
+   "name": "shifted",
+   "t": 4.2,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_streamdeck/frame_shifted.png"
+  },
+  {
+   "name": "cable",
+   "t": 5.4,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_streamdeck/frame_cable.png"
+  },
+  {
+   "name": "torch",
+   "t": 6.9,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_streamdeck/frame_torch.png"
+  },
+  {
+   "name": "torch_mark",
+   "t": 8.2,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_streamdeck/frame_torch_mark.png"
+  },
+  {
+   "name": "beam",
+   "t": 9.7,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_streamdeck/frame_beam.png"
+  },
+  {
+   "name": "devices",
+   "t": 11.4,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_streamdeck/frame_devices.png"
+  },
+  {
+   "name": "lights",
+   "t": 14.1,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_streamdeck/frame_lights.png"
+  },
+  {
+   "name": "tvflip",
+   "t": 15.3,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_streamdeck/frame_tvflip.png"
+  },
+  {
+   "name": "deck2",
+   "t": 17.4,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_streamdeck/frame_deck2.png"
+  },
+  {
+   "name": "arrows",
+   "t": 18.6,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_streamdeck/frame_arrows.png"
+  },
+  {
+   "name": "keys",
+   "t": 20.4,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_streamdeck/frame_keys.png"
+  },
+  {
+   "name": "deckflip",
+   "t": 21.5,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_streamdeck/frame_deckflip.png"
+  },
+  {
+   "name": "prompt",
+   "t": 24.95,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_streamdeck/frame_prompt.png"
+  },
+  {
+   "name": "press",
+   "t": 26.3,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_streamdeck/frame_press.png"
+  },
+  {
+   "name": "outro",
+   "t": 28.5,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_streamdeck/frame_outro.png"
+  }
+ ],
+ "connectors": {
+  "cable": {
+   "cable_x0": 345.5,
+   "cable_x1": 497,
+   "cable_y": 425.0,
+   "tile_right_outer": 347,
+   "tile_border_inner": 344.0,
+   "body_left_outer": 497,
+   "body_left_inner": 507.0,
+   "body_y": [
+    302,
+    548
+   ]
+  },
+  "arrows": {
+   "body_top_outer": 454,
+   "body_top_inner": 464.0,
+   "tips": [
+    [
+     438,
+     449
+    ],
+    [
+     540,
+     449
+    ],
+    [
+     642,
+     449
+    ]
+   ],
+   "starts": [
+    [
+     438,
+     388
+    ],
+    [
+     540,
+     388
+    ],
+    [
+     642,
+     382
+    ]
+   ],
+   "mini_boxes": {
+    "bulb": [
+     414.390625,
+     314.796875,
+     461.484375,
+     387.984375
+    ],
+    "fridge": [
+     517.09375,
+     301.796875,
+     562.890625,
+     387.984375
+    ],
+    "tv": [
+     599.5,
+     312,
+     684.5,
+     388
+    ]
+   }
+  }
+ },
+ "stage_marks_resolve": {
+  "claude": "/Users/migle/Documents/Workspace/assets/logos/ai-models/claude-color.png",
+  "claude-code": "/Users/migle/Documents/Workspace/assets/logos/coding-tools/claudecode-color.png"
+ },
+ "cutout_lanes_resolve": {
+  "codex": "/Users/migle/Documents/Workspace/assets/logos/coding-tools/codex-color.png",
+  "cursor": "/Users/migle/Documents/Workspace/assets/logos/coding-tools/cursor.png",
+  "openclaw": "/Users/migle/Documents/Workspace/assets/logos/coding-tools/openclaw-color.png",
+  "hermes-agent": "/Users/migle/Documents/Workspace/assets/logos/automation/hermes-agent.png",
+  "chatgpt": "/Users/migle/Documents/Workspace/assets/logos/ai-models/chatgpt-color.png",
+  "gemini": "/Users/migle/Documents/Workspace/assets/logos/ai-models/gemini-color.png",
+  "mcp": "/Users/migle/Documents/Workspace/assets/logos/ai-models/mcp-mark.svg",
+  "obs-studio": "/Users/migle/Documents/Workspace/assets/logos/platforms/obs-studio.svg"
+ }
+}

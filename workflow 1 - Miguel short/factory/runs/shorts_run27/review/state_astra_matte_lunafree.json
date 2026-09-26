@@ -1,0 +1,14 @@
+{
+  "status": "ok",
+  "ship": "ok",
+  "selection_changed": true,
+  "edits": 0,
+  "rounds": 2,
+  "what_you_saw": "Viewed the clean frame, full overlay and head overlay: the original contour preserves cap brim, ears, cheeks, jaw, chin, neck, shoulders and raised hands while excluding the visible chair. The prep chair audit added two automatic exclusions and held MatAnyone; those exclusions cut actual right temple/cap and jaw anatomy. First SAM2 fallback fb1 visibly retained the temple bite across multiple sampled frames. In the one anatomy-repair round I restored the original approved mask, removing both automatic edits, and retracked through SAM2 as fb1_p6c70d07d. Thus selection_changed records the intervening repair; the final mask equals the original approved outline and has zero polygon edits. Viewed all four fresh sheets: playback shows an intact opaque presenter at phone size; face_2x confirms the restored temple, cap, ears, cheek and jaw, including first and last frames; chair_sides shows no chair slab, grey wedge or neck splash; hands shows intact hands with acceptable source motion blur on fast gestures. No visible blocking defect in the reviewed evidence. The ship marker is ok for 528 frames; all three installed output hashes and the final prompt-mask binding were verified. Rejected first-pass sheets are preserved in review/matte_lunafree_fb1_anatomy_rejected.",
+  "hold_reason": "",
+  "outputs": [
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/matting/lunafree/matte_lunafree_v5_cut.webm",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/matting/lunafree/matte_lunafree_v5_rim.webm",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/matting/lunafree/matte_lunafree_v5_alpha.webm"
+  ]
+}

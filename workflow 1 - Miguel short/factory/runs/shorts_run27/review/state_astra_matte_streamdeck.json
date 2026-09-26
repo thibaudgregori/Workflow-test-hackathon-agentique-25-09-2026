@@ -1,0 +1,14 @@
+{
+  "status": "ok",
+  "ship": "ok",
+  "selection_changed": false,
+  "edits": 0,
+  "rounds": 1,
+  "what_you_saw": "The full frame and head overlays follow the cap brim, ears, cheeks, jaw, chin, neck and shoulders while excluding the chair back and headrest, so I approved the initial outline unchanged. I viewed playback.jpg, face_2x.jpg, chair_sides.jpg and hands.jpg. At normal viewing size the sampled composites retain opaque facial anatomy, shirt, shoulders and hands; the source/composite face pairs, including first and last frames, show no bitten ear, cheek, jaw or cap. Both chair-side bands are clean, with no black or grey wedge and no neck splash. The gesture samples preserve fingers and hand cores with acceptable soft motion blur on fast hands. The measured isolated 0.2-second haze peak is not a visible sustained furniture defect and is accepted under Miguel's criteria. No SAM2 fallback was needed.",
+  "hold_reason": "",
+  "outputs": [
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/matting/streamdeck/matte_streamdeck_v5_cut.webm",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/matting/streamdeck/matte_streamdeck_v5_rim.webm",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/matting/streamdeck/matte_streamdeck_v5_alpha.webm"
+  ]
+}

@@ -1,0 +1,421 @@
+# ccremote — creative plan
+
+Intake's steps & checklist guess is overruled for most of the take: the script is one physical picture that accumulates (your phone, a wall switch, your Claude Code sessions, wired through that switch, which starts OFF and gets taped ON), then a crossed-out reminder note, and only the last sentence is two steps, so the video is icon choreography with a closing two-row checklist.
+
+```json
+{
+  "id": "ccremote",
+  "duration_s": 34.92,
+  "lane": "icon choreography",
+  "lane_reason": "Intake's steps & checklist guess is overruled for most of the take: the script is one physical picture that accumulates (your phone, a wall switch, your Claude Code sessions, wired through that switch, which starts OFF and gets taped ON), then a crossed-out reminder note, and only the last sentence is two steps, so the video is icon choreography with a closing two-row checklist.",
+  "stage_markers_at_plan_time": {
+    "cut": "ok, 63.9 s wall, cut master 34.92 s, tight audio 34.916 s, corroboration 'model-authored keep ranges' (keep_words [[418, 552]]), analysis_wav_written false",
+    "plate": "ok (landed during artwork), 492.9 s wall, crop 2600x1800+450+270, scale_k 0.5, head 449.9 px on canvas, overwide_applied true, face_dx_pct 0.053",
+    "prompt0": "ok (landed during artwork), 21.7 s wall, wing_review TRUE for ccremote (the instrument proposed no cut and abstained, removed_px 0); the Astra matte step owns the look at matting/ccremote/prompts/kf_overlay_00000.png",
+    "track": "status 'skipped' (backend matanyone2): the Astra matte step owns the track; no Modal cost booked in the marker",
+    "ship": "marker not landed at plan time",
+    "cues": "ok, cue_count 0 (matches the scan run here)",
+    "selection": "ok: selection inputs ready for the outline review (matting/ccremote/selection.json)"
+  },
+  "false_start_check": "The tight transcript opens 'This is one setting that completely changed the way through which I work with Claude Code directly from my phone.' once, at 0.10 s, and does not repeat it, so the cut is right (LAW 46).",
+  "beats": [
+    {
+      "i": 0,
+      "t_start": 0.1,
+      "t_end": 4.86,
+      "words": "This is one setting that completely changed the way through which I work with Claude Code directly from my phone.",
+      "says": "One setting changed how Miguel works with Claude Code from his phone.",
+      "picture": "A wall light switch (a rounded plate, two slotted screws, a toggle lever pointing DOWN, off) draws alone in the centre on 'one setting'. On 'Claude Code' a Claude Code tile lands to its right; on 'phone' a smartphone draws to its left. The switch never moves: it is the middle of what will become a circuit.",
+      "objects": [
+        "light-switch",
+        "claude-code-tile-mid",
+        "phone"
+      ],
+      "emphasis": [],
+      "whiteboard_version": "Same picture: the marker draws the switch plate, the two screws and the lever pointing down, alone and centred; then the Claude Code mark stamped right of it, then the phone outline left of it."
+    },
+    {
+      "i": 1,
+      "t_start": 4.98,
+      "t_end": 11.62,
+      "words": "Now, remote control allows you to control all of your Claude Code sessions from your phone, but it is not turned on by default.",
+      "says": "Remote control lets your phone control every Claude Code session, but it ships switched off.",
+      "picture": "REMOTE CONTROL is written across the top on 'remote control', the first type in the video. On 'all of your Claude Code sessions' two more Claude Code tiles land above and below the first: three sessions in a column. On 'from your phone' a terracotta wire draws from the phone into the switch and stops there, because the switch is off. On 'not' the switch plate's own outline flips terracotta, and OFF BY DEFAULT is written under the switch on 'default'.",
+      "objects": [
+        "key-term-remote-control",
+        "claude-code-tile-top",
+        "claude-code-tile-bottom",
+        "wire-phone-to-switch",
+        "label-off-by-default"
+      ],
+      "emphasis": [
+        {
+          "target": "light-switch plate",
+          "kind": "box",
+          "why": "The switch is a DRAWN object, so LAW 38 rule 2: the plate's own outline stroke flips ink -> terracotta at 10.10 ('not') and back at 11.62. No ring, no highlight; there is no raster text in this video."
+        }
+      ],
+      "whiteboard_version": "REMOTE CONTROL written first across the top of the board; two more Claude Code marks under and over the first; a terracotta wire from the phone into the switch; the switch plate retraced in terracotta on 'not'; OFF BY DEFAULT written under the switch."
+    },
+    {
+      "i": 2,
+      "t_start": 12.0,
+      "t_end": 20.18,
+      "words": "By using Claude Code, you can change it and set it on by default, meaning that any new session that you set up with your Claude Code will be on your phone.",
+      "says": "Ask Claude Code to flip it on by default, and every new session shows up on your phone.",
+      "picture": "On 'Claude Code' the middle Claude Code tile's border flips terracotta (Claude Code is the one that changes it). On 'change it' OFF BY DEFAULT leaves and the lever flips UP. On 'on by default' a strip of tape slaps across the lever, holding it up, and ON BY DEFAULT is written under the switch. On 'any new session' three terracotta wires fan out from the switch into the three Claude Code tiles: the circuit is closed. On 'phone' three session rows (each with a small Claude Code mark) pop onto the phone's screen.",
+      "objects": [
+        "light-switch",
+        "switch-tape",
+        "label-on-by-default",
+        "wire-switch-to-tile-top",
+        "wire-switch-to-tile-mid",
+        "wire-switch-to-tile-bottom",
+        "phone-session-rows"
+      ],
+      "emphasis": [
+        {
+          "target": "claude-code-tile-mid",
+          "kind": "box",
+          "why": "A tile is a DRAWN object carrying a raster mark but no raster TEXT, so LAW 38 rule 2: the DOM lane's panel border flip on the tile's own border, 12.40-13.30."
+        }
+      ],
+      "whiteboard_version": "The marker flips the lever (erase the down stroke, draw it up), draws a strip of tape across it with zig-zag ends, writes ON BY DEFAULT where OFF BY DEFAULT was erased, then draws three terracotta wires from the switch to the three marks and sketches three rows into the phone."
+    },
+    {
+      "i": 3,
+      "t_start": 20.46,
+      "t_end": 24.02,
+      "words": "You will never, ever, ever be frustrated because you forgot to turn it on.",
+      "says": "You will never again lose work because you forgot to switch it on.",
+      "picture": "The circuit leaves. A square sticky note with a folded corner draws in the centre with TURN / IT / ON written on it in three lines, the reminder you used to need. On 'never', 'ever', 'ever' one terracotta strike goes through each word: the reminder is crossed out.",
+      "objects": [
+        "sticky-note",
+        "note-text",
+        "strike-1",
+        "strike-2",
+        "strike-3"
+      ],
+      "emphasis": [],
+      "whiteboard_version": "The board clears; the marker draws the sticky note with its folded corner, writes TURN IT ON on it in three lines, and strikes through one word per 'ever' in terracotta."
+    },
+    {
+      "i": 4,
+      "t_start": 24.18,
+      "t_end": 30.38,
+      "words": "Now, go ahead onto your Claude Code, ask it to turn it on, and then just keep working from your phone wherever you are.",
+      "says": "Two steps: ask Claude Code to turn it on, then keep working from your phone.",
+      "picture": "The note stays until 'Claude Code', then leaves as a two-row checklist builds. Row 1: a Claude Code tile, ASK IT TO TURN IT ON, a check box that ticks on 'on'. Row 2: a tile with a small drawn phone, WORK FROM YOUR PHONE, a check box that ticks on 'phone'. Each box's border flips terracotta as it ticks.",
+      "objects": [
+        "step-1-tile",
+        "step-1-text",
+        "step-1-box",
+        "step-2-tile",
+        "step-2-text",
+        "step-2-box"
+      ],
+      "emphasis": [
+        {
+          "target": "step check boxes",
+          "kind": "box",
+          "why": "Drawn boxes: the box's own border flips terracotta as its tick draws (LAW 38 rule 2)."
+        }
+      ],
+      "whiteboard_version": "The board clears to the two rows: the Claude Code mark, ASK IT TO TURN IT ON, a hand-drawn box ticked on 'on'; a small phone sketch, WORK FROM YOUR PHONE, a box ticked on 'phone'."
+    },
+    {
+      "i": 5,
+      "t_start": 30.64,
+      "t_end": 34.92,
+      "words": "Now, follow for more AI news, videos, and tutorials each and every single day, and catch you on the next one.",
+      "says": "The channel's standing call to action.",
+      "picture": "The opaque cream sheet rises and wipes the board. On it, small and centred, the switch plate with its lever up, then the terracotta rule and the handle lockup.",
+      "objects": [
+        "o-sheet",
+        "o-glyph",
+        "o-rule",
+        "o-slot"
+      ],
+      "emphasis": [],
+      "whiteboard_version": "The rising-sheet outro: a small switch with its lever up, rule, lockup."
+    }
+  ],
+  "bespoke_objects": [
+    {
+      "name": "wall light switch",
+      "t": 2.6,
+      "bbox": [
+        0.4167,
+        0.2042,
+        0.5833,
+        0.35
+      ],
+      "space": "norm",
+      "why_bespoke": "The hook object (LAW 20): 'one setting' made physical. A wall toggle switch says 'a thing that is on or off' to anyone, and its lever position carries the whole story (off by default, then flipped and held on), which a settings screen or a UI toggle pill could not do without text.",
+      "how_drawn": "A tall rounded plate outlined in ink on card fill, a slotted screw above and below, a small inner base plate and a round-tipped lever that pivots from its centre (down = off, up = on)."
+    },
+    {
+      "name": "taped light switch",
+      "t": 15.3,
+      "bbox": [
+        0.4167,
+        0.2042,
+        0.5833,
+        0.35
+      ],
+      "space": "norm",
+      "why_bespoke": "The Law 13 payoff: 'set it on by default' as the thing people really do with a switch nobody may turn off, tape it in the ON position. It argues 'always on, you will not have to remember' in one picture.",
+      "how_drawn": "The same switch with its lever flipped up and a strip of tape (card-toned fill, ink outline, zig-zag torn ends, two faint lengthwise lines) laid across the lever at a slight tilt, the lever's round tip showing above it."
+    },
+    {
+      "name": "crossed-out sticky note",
+      "t": 22.6,
+      "bbox": [
+        0.3704,
+        0.1781,
+        0.6296,
+        0.324
+      ],
+      "space": "norm",
+      "why_bespoke": "'Never frustrated because you forgot to turn it on' is a reminder you no longer need: the note that says TURN IT ON, struck through word by word on 'never, ever, ever'.",
+      "how_drawn": "A square note outlined in ink with a folded dog-ear at the bottom right corner, three lines of handwritten mono type, and three terracotta strike lines each exactly the width of its word."
+    }
+  ],
+  "ui_objects": [
+    {
+      "name": "smartphone",
+      "t": 19.9,
+      "note": "Declared UI chrome drawn in ink (A SCREEN IS NOT AN OBJECT): a phone handset outline with a speaker slot, a home bar and, from 19.90, three session rows with small Claude Code marks."
+    }
+  ],
+  "labels": [
+    {
+      "for": "light-switch",
+      "text": "OFF BY DEFAULT",
+      "place": "below",
+      "at": 11.24,
+      "note": "LAW 39: centred under the switch plate on x = 540. 'default.' is spoken 11.24-11.62. Leaves on 'change' (13.38). data-label-for=\"sw\"."
+    },
+    {
+      "for": "light-switch",
+      "text": "ON BY DEFAULT",
+      "place": "below",
+      "at": 14.68,
+      "note": "LAW 39 / LAW 50: the same seat and size as OFF BY DEFAULT, centred under the switch. 'default,' is spoken 14.68-15.00. data-label-for=\"sw\"."
+    }
+  ],
+  "labels_note": "LAW 50: both labels are the same kind, the same size (28 px mono, 44 px row) and the same seat, below the switch on x = 540. REMOTE CONTROL is the key term (48 px) across the top, a chapter title rather than a name beside anything. The checklist texts are row content, set 64 px clear of their tiles and boxes so no weld is inferred.",
+  "lifetimes": [
+    {
+      "mark": "light-switch (plate, screws, lever, tape)",
+      "t_from": 0.4,
+      "t_to": 20.76,
+      "anchor": null,
+      "note": "Chapter 1; exits on 'You' (20.46-20.76). On screen 58% of the take, so it carries a finite t_to (LAW 42)."
+    },
+    {
+      "mark": "phone + session rows",
+      "t_from": 4.68,
+      "t_to": 20.76,
+      "anchor": null,
+      "note": "Chapter 1."
+    },
+    {
+      "mark": "claude-code tiles x3",
+      "t_from": 3.2,
+      "t_to": 20.76,
+      "anchor": null,
+      "note": "Chapter 1; the middle tile from 3.20, top 7.44, bottom 7.92."
+    },
+    {
+      "mark": "key-term REMOTE CONTROL",
+      "t_from": 5.14,
+      "t_to": 20.76,
+      "anchor": null,
+      "note": "Chapter 1."
+    },
+    {
+      "mark": "wire phone->switch",
+      "t_from": 8.56,
+      "t_to": 20.76,
+      "anchor": null,
+      "note": "Chapter 1."
+    },
+    {
+      "mark": "label OFF BY DEFAULT",
+      "t_from": 11.24,
+      "t_to": 13.62,
+      "anchor": null,
+      "note": "Leaves on 'change'."
+    },
+    {
+      "mark": "label ON BY DEFAULT",
+      "t_from": 14.68,
+      "t_to": 20.76,
+      "anchor": null,
+      "note": "Chapter 1."
+    },
+    {
+      "mark": "wires switch->tiles x3",
+      "t_from": 16.2,
+      "t_to": 20.76,
+      "anchor": null,
+      "note": "Chapter 1."
+    },
+    {
+      "mark": "sticky note + text + strikes",
+      "t_from": 20.5,
+      "t_to": 25.9,
+      "anchor": null,
+      "note": "Chapter 2; carried across the seam until the first checklist row lands (LAW 45), exits on 'Claude' (25.60-25.90)."
+    },
+    {
+      "mark": "checklist rows",
+      "t_from": 25.64,
+      "t_to": 31.1,
+      "anchor": null,
+      "note": "Chapter 3; wiped by the outro sheet (30.64-31.10)."
+    },
+    {
+      "mark": "emphasis flips",
+      "t_from": 10.1,
+      "t_to": 31.1,
+      "anchor": null,
+      "note": "Switch plate 10.10-11.86; mid tile 12.40-13.54; each check box from its tick to the outro."
+    }
+  ],
+  "connectors": [
+    {
+      "to": "light-switch",
+      "from": [
+        "phone"
+      ],
+      "note": "One terracotta wire, phone right edge (core x 290, y 340) to the switch plate's outer left edge (x 450, y 340). Horizontal, butt caps, touches both outlines (measured 0.0 px gap both ends). data-connect-to=\"sw\"."
+    },
+    {
+      "to": "claude-code-tile-top",
+      "from": [
+        "light-switch"
+      ],
+      "note": "Fan from the switch's right edge. The three switch-side ends are whiteboard_build.anchor_points(SW_BOX (450,200,630,480), 3, 'right') = (630, 244.8 / 340 / 435.2); each lands on its tile's outer left edge at the tile's centre (824, 204 / 340 / 476). Measured 0.0 px gap at every end. data-connect-to per tile."
+    },
+    {
+      "to": "claude-code-tile-mid",
+      "from": [
+        "light-switch"
+      ],
+      "note": "As above."
+    },
+    {
+      "to": "claude-code-tile-bottom",
+      "from": [
+        "light-switch"
+      ],
+      "note": "As above."
+    }
+  ],
+  "connectors_note": "LAW 40: no target receives two arrows; the only fan is ONE source out to THREE targets and its source ends are still built with anchor_points. Every connector ends ON both outlines, no gap and no overshoot (Miguel, 2026-09-22).",
+  "blocks": [
+    [
+      "sw-plate",
+      "sw-screws",
+      "sw-lever",
+      "sw-tape",
+      "label-off-by-default",
+      "label-on-by-default"
+    ],
+    [
+      "phone",
+      "phone-session-rows"
+    ],
+    [
+      "sticky-note",
+      "note-text",
+      "strike-1",
+      "strike-2",
+      "strike-3"
+    ],
+    [
+      "step-1-tile",
+      "step-1-text",
+      "step-1-box"
+    ],
+    [
+      "step-2-tile",
+      "step-2-text",
+      "step-2-box"
+    ]
+  ],
+  "blocks_note": "LAW 41: the tape overlaps the lever and plate by design; the session rows are the phone screen's contents; the note's type and strikes sit on the note; each checklist row is one step. The three Claude Code tiles are an identical-shape series (inferred).",
+  "pointing_cues": [],
+  "pointing_cues_note": "LAW 37: pipeline/pointing_cues.py --vid ccremote printed 'no pointing cue in this take' and wrote gen/_cues_ccremote.json with cues []. He cites no post and points at nothing, so no card is raised and nothing is waived.",
+  "boards": {
+    "mode": "chapters",
+    "why": "LAW 43 default. The first 20 s are one accumulating circuit (phone, switch, sessions), but the reminder note and the two-step checklist are separate ideas that would crowd it, so the board erases twice.",
+    "chapters": [
+      {
+        "i": 0,
+        "t_start": 0.1,
+        "t_end": 20.46,
+        "erase_at": 20.46,
+        "holds": [
+          "light-switch",
+          "claude-code tiles",
+          "phone",
+          "key-term-remote-control",
+          "wires",
+          "label-off/on-by-default",
+          "switch-tape",
+          "phone-session-rows"
+        ],
+        "why_together": "One circuit: the phone reaches the Claude Code sessions only through the switch, which starts off and is set (and taped) on by default."
+      },
+      {
+        "i": 1,
+        "t_start": 20.46,
+        "t_end": 25.6,
+        "erase_at": 25.6,
+        "holds": [
+          "sticky-note",
+          "note-text",
+          "strikes"
+        ],
+        "why_together": "The payoff: the reminder you no longer need."
+      },
+      {
+        "i": 2,
+        "t_start": 25.6,
+        "t_end": 30.64,
+        "erase_at": 30.64,
+        "holds": [
+          "step-1 row",
+          "step-2 row"
+        ],
+        "why_together": "What to do now: two steps, each ticked as it is said."
+      }
+    ],
+    "key_term": "REMOTE CONTROL"
+  },
+  "cast": [
+    "claude-code"
+  ],
+  "cast_note": "THERE IS NO CAST WALL. `claude-code` (coding-tools/claudecode-color.png, the plain no-outline mascot, MARK IDENTITY; never claude-code-sticker) is the only product named, shown as the three session tiles, inside the phone rows and on checklist row 1.",
+  "cutout_logo_lanes": [
+    "claude",
+    "codex",
+    "cursor",
+    "copilot",
+    "opencode",
+    "antigravity",
+    "warp"
+  ],
+  "cutout_logo_lanes_note": "Topical: the Claude app (ai-models/claude-color.png, where remote-control sessions show up on the phone) and the neighbouring coding agents you would also drive remotely: codex (coding-tools/codex-color.png), cursor (coding-tools/cursor.png), copilot (coding-tools/copilot-color.png), opencode (coding-tools/opencode-color.png), antigravity (coding-tools/antigravity-color.png), warp (coding-tools/warp.png). Mixed, none repeated, excluding the stage mark claude-code (GRAPHIC CHART clause 7).",
+  "open_questions": [
+    "Wing review: the prompt0 marker names ccremote with wing_review true (instrument abstained, removed_px 0); look at matting/ccremote/prompts/kf_overlay_00000.png. The Astra matte step / cutout author owns it; track was 'skipped' and the ship marker had not landed when the artwork was sealed.",
+    "The lever position is the switch's only state cue (no ON/OFF engraving, because no type may precede the key term): down is off, up is on, and the labels OFF BY DEFAULT / ON BY DEFAULT confirm it in words.",
+    "Checklist row 2 uses a tile holding a small ink-drawn phone rather than a registry mark, so both rows share one grammar (tile, text, box); there is no brand to put there."
+  ],
+  "open_doubts": [],
+  "open_doubts_note": "Nothing here changes what the viewer sees without Miguel's answer: there is no source post and no pointing cue, the only mark is Claude Code with its fixed registry file, and every picture follows his own words."
+}
+```

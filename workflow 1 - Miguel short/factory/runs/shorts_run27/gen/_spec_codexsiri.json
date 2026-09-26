@@ -1,0 +1,31 @@
+{
+ "run": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27",
+ "out_dir": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/output",
+ "jobs": [
+  {
+   "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/projects/codexsiri_cutout",
+   "vid": "codexsiri",
+   "fmt": "cutout",
+   "quality": "high",
+   "stage": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/staging/tiktok/codexsiri_cutout.mp4",
+   "qc_args": [
+    "--voice-master",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/cuts/codexsiri/audio.m4a",
+    "--phone-at",
+    "1.6:0.338,0.1823,0.662,0.3385:phone with Siri",
+    "--phone-at",
+    "9.9:0.3519,0.1583,0.6481,0.3448:phone in box",
+    "--phone-at",
+    "26.02:0.6157,0.2052,0.7639,0.3146:clipboard with checkmarks",
+    "--phone-at",
+    "28.5:0.4222,0.1969,0.6815,0.2594:free price tag",
+    "--alpha",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/matting/codexsiri/matte_codexsiri_v5_alpha.webm",
+    "--edge-box",
+    "1584x990+-202+930",
+    "--plate",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/matting/codexsiri/plate_display_1584x990.mp4"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "id": "codexappshots",
+ "stage": "cut",
+ "status": "ok",
+ "wall_s": 56.6,
+ "at": "2026-09-23T18:27:14",
+ "keys": {
+  "status": "ok",
+  "master": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/cuts/codexappshots/master.mp4",
+  "audio": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/cuts/codexappshots/audio.m4a",
+  "edl": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/cuts/codexappshots/edl.json",
+  "transcript_tight": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/cuts/codexappshots/transcript_tight.json",
+  "cut_master_duration_s": 34.12,
+  "corroboration": "model-authored keep ranges",
+  "analysis_wav_written": false,
+  "tight_audio_duration_s": 34.12,
+  "wall_s": 56.6
+ }
+}

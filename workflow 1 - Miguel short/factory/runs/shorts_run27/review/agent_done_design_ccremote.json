@@ -1,0 +1,22 @@
+{
+  "verdict": "PASS",
+  "plan_json": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/plans/ccremote_plan.json",
+  "plan_md": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/plans/ccremote_plan.md",
+  "lane": "icon choreography",
+  "lane_reason": "Intake's steps & checklist guess is overruled for most of the take: the script is one physical picture that accumulates (your phone, a wall switch, your Claude Code sessions, wired through that switch, which starts OFF and gets taped ON), then a crossed-out reminder note, and only the last sentence is two steps, so the video is icon choreography with a closing two-row checklist.",
+  "beats": 6,
+  "bespoke_names": ["wall light switch", "taped light switch", "crossed-out sticky note"],
+  "cues": "pointing_cues.py --vid ccremote: no pointing cue in this take (cues []); nothing raised, nothing waived. Markers: cut ok (63.9 s wall, master 34.92 s, model-authored keep ranges), plate ok (crop 2600x1800+450+270, k 0.5, head 449.9 px, over-wide), prompt0 ok with wing_review true (removed_px 0), selection ok, track skipped (matanyone2, no Modal cost booked), ship not landed, cues ok (0).",
+  "board_mode": "chapters",
+  "open_questions": [
+    "Wing review: the prompt0 marker names ccremote with wing_review true (instrument abstained, removed_px 0); look at matting/ccremote/prompts/kf_overlay_00000.png. The Astra matte step / cutout author owns it; track was 'skipped' and the ship marker had not landed when the artwork was sealed.",
+    "The lever position is the switch's only state cue (no ON/OFF engraving, because no type may precede the key term): down is off, up is on, and the labels OFF BY DEFAULT / ON BY DEFAULT confirm it in words.",
+    "Checklist row 2 uses a tile holding a small ink-drawn phone rather than a registry mark, so both rows share one grammar (tile, text, box); there is no brand to put there."
+  ],
+  "open_doubts": [],
+  "scene_handoff": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/plans/ccremote_scene_handoff.md",
+  "scene_module": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/gen/ccremote_scene.py",
+  "sealed": true,
+  "proofs": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_ccremote",
+  "reason": ""
+}

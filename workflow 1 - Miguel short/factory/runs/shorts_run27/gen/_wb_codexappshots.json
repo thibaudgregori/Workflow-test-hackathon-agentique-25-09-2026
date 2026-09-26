@@ -1,0 +1,430 @@
+{
+ "video": "codexappshots",
+ "format": "whiteboard",
+ "variant": "plan view (fix)",
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/projects/codexappshots_whiteboard",
+ "handle": "@migueltorrez.ai",
+ "handle_key": "tiktok_ig",
+ "duration_s": 34.12,
+ "fps": 25,
+ "render": "1080x1920 @ zoom 1",
+ "board": "576x460 design units",
+ "board_box": [
+  40.0,
+  150.0,
+  536.0,
+  425.0
+ ],
+ "strokes": 38,
+ "rigids": 30,
+ "board_text": [
+  "APPSHOTS",
+  "AI ASSISTANT",
+  "TWO COMMAND KEYS",
+  "SCREENSHOT",
+  "DESKTOP APP",
+  "MORE TIME"
+ ],
+ "top_ink_u": 152.4,
+ "top_band_u": 102.4,
+ "pen_top_u": 110.7,
+ "ink_bottom_px": 708.1,
+ "cap_band_top_px": 799.2,
+ "cap_clearance_px": 91.1,
+ "ink_bottom_ink_px": 686.6,
+ "cap_clearance_ink_px": 112.7,
+ "seam_pill_top_px": 805.2,
+ "cap_clearance_ink_to_pill_px": 118.7,
+ "seam_measures": "cap_clearance_px = line boxes vs the reserved band (THE GATE); cap_clearance_ink_px = glyph ink vs the same band; cap_clearance_ink_to_pill_px = glyph ink vs the pill's painted top edge (the clerk's surface)",
+ "rail_hits": [],
+ "label_law": {
+  "window_s": 1.0,
+  "key_term": "APPSHOTS",
+  "key_term_fs_u": 25.6,
+  "written": {
+   "APPSHOTS": 6.36,
+   "AI ASSISTANT": 12.74,
+   "TWO COMMAND KEYS": 15.72,
+   "SCREENSHOT": 18.94,
+   "DESKTOP APP": 23.9,
+   "MORE TIME": 26.94
+  },
+  "plan": {
+   "appshots": "APPSHOTS",
+   "assistant.": "AI ASSISTANT",
+   "keys": "TWO COMMAND KEYS",
+   "screenshot": "SCREENSHOT",
+   "application": "DESKTOP APP",
+   "time": "MORE TIME"
+  },
+  "comparisons": [],
+  "unplanned_text": [],
+  "verdict": "PASS"
+ },
+ "law4": {
+  "law": "4 (overlap test)",
+  "board_words_that_also_appear_as_a_pill": {}
+ },
+ "round4": {
+  "law6_lifetimes": {
+   "duration_s": 34.12,
+   "chaptered": true,
+   "max_frac": 0.4,
+   "declared_anchors": [],
+   "lingering": [],
+   "verdict": "PASS"
+  },
+  "law2_no_enclosure": {
+   "rings": 0,
+   "boxes": 0,
+   "highlights": 0,
+   "rasters": [
+    "type:SCREENSHOT"
+   ],
+   "wrong_tool_advisory": [],
+   "verdict": "PASS"
+  },
+  "law3_label_side": {
+   "checked": 6,
+   "detail": {
+    "APPSHOTS": {
+     "host": "top-hat",
+     "dx_u": 0.0,
+     "band_u": 106.6,
+     "place": "below"
+    },
+    "AI ASSISTANT": {
+     "host": "c1-codex",
+     "dx_u": 0.0,
+     "band_u": 38.8,
+     "place": "below"
+    },
+    "TWO COMMAND KEYS": {
+     "host": "key-space",
+     "dx_u": 0.0,
+     "band_u": 130.0,
+     "place": "below"
+    },
+    "SCREENSHOT": {
+     "host": "polaroid",
+     "dx_u": 0.0,
+     "band_u": 61.5,
+     "place": "below"
+    },
+    "DESKTOP APP": {
+     "host": "codex-window",
+     "dx_u": 0.0,
+     "band_u": 111.8,
+     "place": "below"
+    },
+    "MORE TIME": {
+     "host": "piggy-bank",
+     "dx_u": -1.0,
+     "band_u": 128.7,
+     "place": "below"
+    }
+   },
+   "verdict": "PASS"
+  },
+  "law5_spacing": {
+   "gate_u": 8.5,
+   "gate_px": 15.9,
+   "aim_u": 12.8,
+   "aim_px": 24.0,
+   "measured_on": "element line boxes",
+   "under_aim": [],
+   "objects": 25,
+   "verdict": "PASS"
+  },
+  "law5_spacing_ink": {
+   "gate_u": 8.5,
+   "gate_px": 15.9,
+   "aim_u": 12.8,
+   "aim_px": 24.0,
+   "measured_on": "glyph ink extents",
+   "under_aim": [],
+   "objects": 25,
+   "verdict": "PASS"
+  },
+  "law5_no_crossing": {
+   "strokes": 38,
+   "types": 6,
+   "verdict": "PASS"
+  },
+  "law4_anchors": {
+   "targets": 2,
+   "detail": {
+    "c1-codex": {
+     "n": 1,
+     "spread_u": 0.0,
+     "level": true,
+     "mirrored": false,
+     "on_rect": true
+    },
+    "c4-codex": {
+     "n": 1,
+     "spread_u": 0.0,
+     "level": true,
+     "mirrored": false,
+     "on_rect": true
+    }
+   },
+   "verdict": "PASS"
+  }
+ },
+ "outro": {
+  "move": "opaque sheet rises over the board",
+  "wipe_start": 29.94,
+  "wipe_end": 30.5,
+  "travel_px": 862.5,
+  "sheet_opaque": true,
+  "sheet_covers_px": 862.5,
+  "card_ink_enters_px": 322.5,
+  "board_covered_px": 576.8,
+  "overlap_px": 254.2,
+  "board_moves": false,
+  "board_fades": false,
+  "outro_start": 29.94,
+  "verdict": "PASS"
+ },
+ "captions": 36,
+ "cap_font_px": 56.2,
+ "cap_max_pill_w_px": 748.4,
+ "cap_w_budget_px": 756.0,
+ "anchors": {
+  "here": 0.1,
+  "simple": 0.6,
+  "trick": 0.88,
+  "chatgpt": 3.52,
+  "codex": 4.68,
+  "appshots": 6.0,
+  "seam0": 7.24,
+  "switch": 8.34,
+  "where": 9.32,
+  "from": 10.02,
+  "give": 10.64,
+  "assistant.": 12.74,
+  "seam1": 13.52,
+  "two": 14.9,
+  "command": 15.28,
+  "keys": 15.7,
+  "seam2": 17.48,
+  "screenshot": 18.44,
+  "send": 21.34,
+  "open": 23.18,
+  "application": 23.88,
+  "seam3": 24.94,
+  "save": 25.8,
+  "more": 26.62,
+  "time": 26.92,
+  "outro": 29.94,
+  "day": 32.56
+ },
+ "html_bytes": 162503,
+ "sfx": 24,
+ "pen_loops": 12,
+ "pen_seconds": 4.3,
+ "pen_duty_pct": 12.6,
+ "captions_law3b": {
+  "beats_before_merge": 36,
+  "beats_after_merge": 36,
+  "merges": 0,
+  "widest_pill_px": 748.4,
+  "budget_px": 756.0,
+  "beats": [
+   [
+    0.1,
+    0.88,
+    "Here is one simple"
+   ],
+   [
+    0.88,
+    1.64,
+    "trick that is going"
+   ],
+   [
+    1.64,
+    2.46,
+    "to change the way"
+   ],
+   [
+    2.46,
+    3.3,
+    "that you work"
+   ],
+   [
+    3.3,
+    4.68,
+    "with ChatGPT Work and"
+   ],
+   [
+    4.68,
+    6.0,
+    "Codex. By using the"
+   ],
+   [
+    6.0,
+    7.24,
+    "Appshots functionality,"
+   ],
+   [
+    7.24,
+    8.08,
+    "you no longer have"
+   ],
+   [
+    8.08,
+    9.48,
+    "to switch places where"
+   ],
+   [
+    9.48,
+    10.64,
+    "you're working from to"
+   ],
+   [
+    10.64,
+    11.52,
+    "give everything that you"
+   ],
+   [
+    11.52,
+    12.16,
+    "might need"
+   ],
+   [
+    12.16,
+    13.52,
+    "to your AI assistant."
+   ],
+   [
+    13.52,
+    14.48,
+    "Simply click on"
+   ],
+   [
+    14.48,
+    16.28,
+    "the two command keys"
+   ],
+   [
+    16.28,
+    17.48,
+    "on your keyboard,"
+   ],
+   [
+    17.48,
+    18.28,
+    "and it will take"
+   ],
+   [
+    18.28,
+    19.54,
+    "a screenshot of any"
+   ],
+   [
+    19.54,
+    19.88,
+    "screen that"
+   ],
+   [
+    19.88,
+    20.4,
+    "you're currently"
+   ],
+   [
+    20.4,
+    21.1,
+    "working on"
+   ],
+   [
+    21.1,
+    21.96,
+    "and send that as"
+   ],
+   [
+    21.96,
+    23.38,
+    "Codex and also open"
+   ],
+   [
+    23.38,
+    23.88,
+    "the desktop"
+   ],
+   [
+    23.88,
+    24.58,
+    "application for"
+   ],
+   [
+    24.58,
+    25.38,
+    "you, meaning that you"
+   ],
+   [
+    25.38,
+    26.1,
+    "are going to save"
+   ],
+   [
+    26.1,
+    27.5,
+    "even more time by"
+   ],
+   [
+    27.5,
+    28.54,
+    "not having to switch"
+   ],
+   [
+    28.54,
+    29.94,
+    "left and right."
+   ],
+   [
+    29.94,
+    30.64,
+    "Now, follow for more"
+   ],
+   [
+    30.64,
+    31.08,
+    "AI news,"
+   ],
+   [
+    31.08,
+    32.12,
+    "videos, and tutorials each"
+   ],
+   [
+    32.12,
+    33.02,
+    "and every single day,"
+   ],
+   [
+    33.02,
+    33.5,
+    "and catch you in"
+   ],
+   [
+    33.5,
+    34.04,
+    "the next one."
+   ]
+  ]
+ },
+ "seams": [
+  7.24,
+  13.52,
+  17.48,
+  24.94
+ ],
+ "phone_at": [
+  "2.6:0.3472,0.1660,0.7639,0.3223:magician's top hat",
+  "9.9:0.4028,0.1875,0.7118,0.2715:trail of footprints",
+  "16.0:0.1458,0.1895,0.8542,0.2832:keyboard command keys",
+  "20.4:0.3924,0.1680,0.5590,0.2832:instant polaroid photo",
+  "27.4:0.3194,0.1465,0.6840,0.3242:piggy bank coins"
+ ]
+}

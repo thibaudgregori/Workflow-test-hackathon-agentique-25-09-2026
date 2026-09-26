@@ -1,0 +1,226 @@
+{
+ "run": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27",
+ "intake": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/prep/_intake.json",
+ "videos": 7,
+ "sessions_root": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/matting",
+ "workers": 5,
+ "tag": "v1",
+ "emit": "v5",
+ "backend": "matanyone2",
+ "gpu": "l4",
+ "cost_basis": "runtime estimates, not provider invoice",
+ "ship_where": "modal",
+ "batch_wall_s": 214.8,
+ "modal_cost_usd": 0.6813,
+ "modal_cost_breakdown_usd": {
+  "sweep": 0.3704,
+  "track": 0.1004,
+  "ship": 0.2105,
+  "repair": 0.0
+ },
+ "repairs": {},
+ "repair_rounds_max": 2,
+ "repair_detail": {},
+ "summary_lines": [
+  "lunafree             no ship",
+  "claudemanaged        PREPARED; final visual review required",
+  "falagent             PREPARED; final visual review required",
+  "codexsiri            no ship",
+  "codexappshots        PREPARED; final visual review required",
+  "ccremote             PREPARED; final visual review required",
+  "streamdeck           PREPARED; final visual review required"
+ ],
+ "ship_seconds": {
+  "lunafree": null,
+  "claudemanaged": 106.743961635,
+  "falagent": 91.695372124,
+  "codexsiri": null,
+  "codexappshots": 100.155717066,
+  "ccremote": 100.566873228,
+  "streamdeck": 63.661444194999994
+ },
+ "per_stage_wall_s": {
+  "lunafree": {
+   "cut": 55.2,
+   "plate": 31.5,
+   "display_plate": null,
+   "prompt0": 50.9,
+   "track": null,
+   "ship": null,
+   "cues": 0.0,
+   "repair": null
+  },
+  "claudemanaged": {
+   "cut": 78.1,
+   "plate": 93.1,
+   "display_plate": null,
+   "prompt0": 65.6,
+   "track": 108.54046004099837,
+   "ship": 255.70817800000077,
+   "cues": 0.0,
+   "repair": null
+  },
+  "falagent": {
+   "cut": 65.0,
+   "plate": 73.2,
+   "display_plate": null,
+   "prompt0": 83.2,
+   "track": 81.42149200000131,
+   "ship": 167.0549685829992,
+   "cues": 0.0,
+   "repair": null
+  },
+  "codexsiri": {
+   "cut": 78.0,
+   "plate": 74.2,
+   "display_plate": null,
+   "prompt0": 81.8,
+   "track": null,
+   "ship": null,
+   "cues": 0.0,
+   "repair": null
+  },
+  "codexappshots": {
+   "cut": 56.6,
+   "plate": 72.2,
+   "display_plate": null,
+   "prompt0": 83.7,
+   "track": 70.01161854199927,
+   "ship": 142.72063612499915,
+   "cues": 0.0,
+   "repair": null
+  },
+  "ccremote": {
+   "cut": 63.9,
+   "plate": 98.1,
+   "display_plate": null,
+   "prompt0": 20.7,
+   "track": 235.47396679200028,
+   "ship": 116.02493470799891,
+   "cues": 0.0,
+   "repair": null
+  },
+  "streamdeck": {
+   "cut": 58.6,
+   "plate": 44.5,
+   "display_plate": null,
+   "prompt0": 14.1,
+   "track": 256.3988882909998,
+   "ship": 80.85510849999991,
+   "cues": 0.0,
+   "repair": null
+  }
+ },
+ "status": {
+  "lunafree": {
+   "cut": "ok",
+   "plate": "ok",
+   "display_plate": "-",
+   "prompt0": "ok",
+   "track": "REFUSED",
+   "ship": "-",
+   "cues": "ok",
+   "repair": "-"
+  },
+  "claudemanaged": {
+   "cut": "ok",
+   "plate": "ok",
+   "display_plate": "reused",
+   "prompt0": "ok",
+   "track": "ok",
+   "ship": "ok",
+   "cues": "ok",
+   "repair": "-"
+  },
+  "falagent": {
+   "cut": "ok",
+   "plate": "ok",
+   "display_plate": "reused",
+   "prompt0": "ok",
+   "track": "ok",
+   "ship": "ok",
+   "cues": "ok",
+   "repair": "-"
+  },
+  "codexsiri": {
+   "cut": "ok",
+   "plate": "ok",
+   "display_plate": "-",
+   "prompt0": "ok",
+   "track": "REFUSED",
+   "ship": "-",
+   "cues": "ok",
+   "repair": "-"
+  },
+  "codexappshots": {
+   "cut": "ok",
+   "plate": "ok",
+   "display_plate": "reused",
+   "prompt0": "ok",
+   "track": "ok",
+   "ship": "ok",
+   "cues": "ok",
+   "repair": "-"
+  },
+  "ccremote": {
+   "cut": "ok",
+   "plate": "ok",
+   "display_plate": "reused",
+   "prompt0": "ok",
+   "track": "ok",
+   "ship": "ok",
+   "cues": "ok",
+   "repair": "-"
+  },
+  "streamdeck": {
+   "cut": "ok",
+   "plate": "ok",
+   "display_plate": "reused",
+   "prompt0": "ok",
+   "track": "ok",
+   "ship": "ok",
+   "cues": "ok",
+   "repair": "-"
+  }
+ },
+ "stage_totals_s": {
+  "cut": 455.4,
+  "plate": 486.8,
+  "display_plate": 0.0,
+  "prompt0": 400.0,
+  "track": 751.8,
+  "ship": 762.4,
+  "cues": 0.0,
+  "repair": 0.0
+ },
+ "serial_equivalent_s": 2856.4,
+ "needs_source": {
+  "lunafree": [],
+  "claudemanaged": [],
+  "falagent": [],
+  "codexsiri": [
+   0
+  ],
+  "codexappshots": [],
+  "ccremote": [],
+  "streamdeck": []
+ },
+ "wing_review": [
+  "lunafree",
+  "claudemanaged",
+  "falagent",
+  "codexsiri",
+  "codexappshots",
+  "ccremote",
+  "streamdeck"
+ ],
+ "packages": {
+  "lunafree": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/prep/lunafree.json",
+  "claudemanaged": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/prep/claudemanaged.json",
+  "falagent": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/prep/falagent.json",
+  "codexsiri": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/prep/codexsiri.json",
+  "codexappshots": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/prep/codexappshots.json",
+  "ccremote": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/prep/ccremote.json",
+  "streamdeck": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/prep/streamdeck.json"
+ }
+}

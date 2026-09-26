@@ -1,0 +1,17 @@
+{
+ "id": "codexappshots",
+ "stage": "track",
+ "status": "ok",
+ "wall_s": 70.01161854199927,
+ "at": "2026-09-23T18:41:16",
+ "keys": {
+  "status": "ok",
+  "backend": "matanyone2",
+  "model": "MatAnyone 2",
+  "alpha": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/matting/codexappshots/alpha_v1.mkv",
+  "track_seconds": 59.701297654,
+  "cost_usd": 0.01693845217039288,
+  "review_status": "needs_final_visual_review",
+  "wall_s": 70.01161854199927
+ }
+}

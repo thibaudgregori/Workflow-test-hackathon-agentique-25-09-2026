@@ -1,0 +1,88 @@
+{
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/projects/claudemanaged_split",
+ "fmt": "split",
+ "step": 0.25,
+ "checks": {
+  "refs_resolve": {
+   "referenced": 7,
+   "missing": [],
+   "pass": true,
+   "error": null,
+   "wall_s": 0.1
+  },
+  "assets_not_placeholder": {
+   "rasters": 1,
+   "placeholder_shaped": [],
+   "undecodable": [],
+   "report": {
+    "assets/logos/claude-color.png": {
+     "size": [
+      640,
+      640
+     ],
+     "ink_fill": 0.399,
+     "quantised_colours": 1,
+     "diag_fwd": 0.463,
+     "diag_back": 0.541,
+     "bbox": [
+      0,
+      0,
+      640,
+      640
+     ]
+    }
+   },
+   "pass": true,
+   "error": null,
+   "wall_s": 0.07
+  },
+  "page_audit": {
+   "ids": 104,
+   "unique_ids": 104,
+   "duplicate_ids": [],
+   "tween_selectors": 49,
+   "dead_tween_targets": [],
+   "pass": true,
+   "error": null,
+   "wall_s": 0.0
+  },
+  "caption_canon_page": {
+   "pills": 38,
+   "modal_height_px": 114.64,
+   "canon_height_px": 114.59,
+   "height_spread_px": 0.0,
+   "tolerance_design_px": 3.0,
+   "heights_off_canon": [],
+   "squarer_than_min_aspect": [],
+   "min_aspect": 1.45,
+   "function_only_beat_law": null,
+   "pass": true,
+   "error": null,
+   "wall_s": 0.0
+  },
+  "gate1_geometry_audit": {
+   "returncode": 0,
+   "errors": 0,
+   "warnings": 0,
+   "warnings_after_waivers": 0,
+   "waived": [],
+   "report": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/projects/claudemanaged_split/geometry_audit/report.json",
+   "stdout": "claudemanaged_split: 0 errors, 0 warnings (38.4s @ 0.25s step)\n",
+   "stderr": "",
+   "bar": "0 errors, 0 warnings",
+   "pass": true,
+   "error": null,
+   "wall_s": 1.35
+  }
+ },
+ "skipped": {
+  "cutout_edge_fade_guard": "cutout only",
+  "cutout_checks_24_25": "cutout only"
+ },
+ "duration_s": 38.44,
+ "page_zoom": 0.9995855437665783,
+ "page_load_wall_s": 0.79,
+ "failed": [],
+ "verdict": "PASS",
+ "total_wall_s": 2.31
+}

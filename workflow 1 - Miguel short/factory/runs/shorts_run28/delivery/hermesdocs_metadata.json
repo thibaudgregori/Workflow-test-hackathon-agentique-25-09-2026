@@ -1,0 +1,23 @@
+{
+  "title": "Hermes Agent Now Reads Your Documents Locally",
+  "lines": ["HERMES NOW", "READS DOCS", "LOCALLY"],
+  "kw": "locally",
+  "pose": "auto",
+  "kw_reason": "The whole update is about where the reading happens: Hermes Agent reads your documents on your own machine, so confidential files never leak out. 'locally' is spoken twice in the transcript ('Now they read your documents locally', 'you run Hermes Agent locally') and is 7 characters.",
+  "hl_reason": "The cover names the tool (Hermes), the new ability (reading documents) and puts the privacy payoff, LOCALLY, on the terracotta line as the biggest word.",
+  "sentence": "Hermes now reads docs locally.",
+  "claim": "Hermes Agent can now read your documents locally, using Firecrawl's open source PDF analyzer AnyDoc, so confidential business or client documents have zero risk of leaking out when you run it locally.",
+  "quotes": [
+    "Now they read your documents locally,",
+    "you run Hermes Agent locally, now you have zero risk of your data actually leaking out.",
+    "They do this by using AnyDoc, which is an open source PDF analyzer built by the team over at Firecrawl."
+  ],
+  "ct": "news",
+  "cl": "concise",
+  "reason": "A product update (Hermes Agent now reads documents locally through AnyDoc) and why it matters for confidential files; no steps or settings are shown, so a concise news description delivers everything useful.",
+  "yd": "Hermes Agent now reads your documents locally.\n\nIf you work with confidential documents from your business or your clients and you run Hermes Agent on your own machine, your data never has to leave it. The reading is done by AnyDoc, an open source PDF analyzer built by the Firecrawl team.\n\nFollow @migueltorrezai for daily AI news and tutorials.\n\n#HermesAgent #LocalAI #Privacy",
+  "tags": ["Hermes Agent", "AnyDoc", "Firecrawl", "Local AI", "AI Privacy", "PDF Analyzer", "AI Agents", "AI News"],
+  "tt": "Hermes Agent now reads your documents locally. Confidential files from your business or your clients stay on your machine when you run Hermes locally, so there is zero risk of your data leaking out. It works through AnyDoc, the open source PDF analyzer built by Firecrawl. Follow @migueltorrez.ai for daily AI news and tutorials. #HermesAgent #LocalAI #Privacy #OpenSource",
+  "ig": "Hermes Agent now reads your documents locally.\n\nWorking with confidential documents from your business or your clients? Run Hermes locally and your data stays on your machine, with zero risk of it leaking out.\n\nThe reading is done by AnyDoc, an open source PDF analyzer built by the Firecrawl team.\n\nFollow @migueltorrez.ai for daily AI news and tutorials.\n\n#HermesAgent #LocalAI #Privacy #OpenSource",
+  "rr": "No prompt, link or resource is promised."
+}

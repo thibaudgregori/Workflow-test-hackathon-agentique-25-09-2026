@@ -1,0 +1,27 @@
+{
+ "verdict": "PASS",
+ "plan_json": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/plans/streamdeck_plan.json",
+ "plan_md": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/plans/streamdeck_plan.md",
+ "lane": "icon choreography",
+ "lane_reason": "Intake's icon-choreography suggestion stands: the script is four pictures in a row (a keypad full of Claude buttons, a Claude Code flashlight finding the devices on the network, those devices wired onto the keypad's keys, one key pressed instead of a typed prompt), carried by bespoke ink objects and the real Claude and Claude Code marks.",
+ "beats": 7,
+ "bespoke_names": [
+  "Claude button keypad",
+  "flashlight finding devices",
+  "devices wired to keypad",
+  "pressed light button"
+ ],
+ "cues": "pointing_cues.py --vid streamdeck: 0 cues (gen/_cues_streamdeck.json); no card raised, nothing waived. Stage markers at plan time: cut ok (58.6 s wall, master 30.48 s, corroboration 'model-authored keep ranges'), plate ok (135.7 s, crop 2640x1800+494+264, k 0.5, overwide), prompt0 ok (wing_review true, removed_px 0), cues ok (0); track and ship not landed (no Modal cost booked yet). No false start: the opening appears once.",
+ "board_mode": "chapters",
+ "open_questions": [
+  "Wing review: the prompt0 marker names streamdeck with wing_review true (instrument abstained, removed_px 0). Track and ship had not landed at plan time; the Astra matte step owns the outline review at matting/streamdeck/prompts/kf_overlay_00000.png.",
+  "The registry has no Elgato / Stream Deck mark; LAW 2 is met by drawing the device itself (the keypad) and naming it with the key term STREAM DECK. If Miguel later wants the Elgato mark, it would sit as a tile beside the keypad in chapter 1 only.",
+  "The keypad is drawn as the six-key (3 x 2) Stream Deck so every key is big enough to carry a readable mark at phone size and no key is a dead slot (every key carries a Claude mark or a device).",
+  "The TV stands in for 'anything whatsoever'; it is the third device found by the beam and the third key in the mapping."
+ ],
+ "open_doubts": [],
+ "scene_handoff": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/plans/streamdeck_scene_handoff.md",
+ "scene_module": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/gen/streamdeck_scene.py",
+ "sealed": true,
+ "proofs": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_streamdeck"
+}

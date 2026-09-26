@@ -1,0 +1,101 @@
+{
+  "vid": "codexsiri",
+  "session": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/matting/codexsiri",
+  "cut": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/matting/codexsiri/matte_codexsiri_v5_cut.webm",
+  "size": [
+    1584,
+    990
+  ],
+  "frames": 904,
+  "sample_fps": 5,
+  "sampled": 181,
+  "soft_alpha_px": {
+    "rest_median": 7342,
+    "p95_over_rest": 1.15,
+    "max_over_rest": 1.31,
+    "frames_over_2p5x": 0
+  },
+  "chair_band_px": {
+    "reference": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/matting/codexsiri/selection.mask.png",
+    "p50": 2942,
+    "p95": 10908,
+    "max": 15424,
+    "max_at_s": 29.6
+  },
+  "background_haze": {
+    "px_floor": 1500,
+    "detach_px": 14,
+    "p50": 0,
+    "p95": 0,
+    "max": 0,
+    "frames_over_floor": 0,
+    "longest_run_s": 0.0,
+    "hold_seconds_limit": 1.0,
+    "worst_sample_s": 0.0,
+    "hold": false
+  },
+  "frozen_edge": {
+    "frozen_sd": 1.5,
+    "min_cols": 12,
+    "sd_ratio": 4.0,
+    "runs": [],
+    "hold": false
+  },
+  "extra_components": {
+    "max": 0,
+    "frames": 0
+  },
+  "holes": {
+    "max": 0,
+    "frames": 0
+  },
+  "iou_frame_to_frame": {
+    "p05": 0.9138,
+    "min": 0.8552
+  },
+  "sheets": {
+    "playback": [
+      12,
+      25,
+      50,
+      75,
+      80,
+      100,
+      105,
+      125,
+      805,
+      810,
+      815,
+      875
+    ],
+    "face_2x": [
+      0,
+      113,
+      226,
+      452,
+      678,
+      805,
+      810,
+      903
+    ],
+    "chair_sides": [
+      12,
+      25,
+      50,
+      115,
+      735,
+      740
+    ],
+    "hands": [
+      80,
+      105,
+      115,
+      800,
+      805,
+      810
+    ]
+  },
+  "auto_hold": [],
+  "reference_bar": "run 19's five approved mattes: soft p95/rest <= 1.41, max/rest <= 5.9 (hands), extra components <= 1 frame, IoU p05 >= 0.92. These numbers did NOT separate geo's rejected mattes from the approved ones; the sheets did. Look.",
+  "wall_s": 35.4
+}

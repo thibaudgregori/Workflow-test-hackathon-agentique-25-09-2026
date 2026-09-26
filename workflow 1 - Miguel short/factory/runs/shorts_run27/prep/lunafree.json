@@ -1,0 +1,315 @@
+{
+ "id": "lunafree",
+ "run": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27",
+ "recording": "2026-09-21 14-33-14",
+ "gpu": null,
+ "session": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/matting/lunafree",
+ "cut_dir": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/cuts/lunafree",
+ "stages": {
+  "cut": {
+   "status": "ok",
+   "master": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/cuts/lunafree/master.mp4",
+   "audio": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/cuts/lunafree/audio.m4a",
+   "face_plates": [
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/cuts/lunafree/face_full_hd.mp4",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/cuts/lunafree/face_bottom_hd.mp4"
+   ],
+   "edl": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/cuts/lunafree/edl.json",
+   "transcript_tight": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/cuts/lunafree/transcript_tight.json",
+   "cut_master_duration_s": 21.12,
+   "take": {
+    "word_index": 7,
+    "start_s": 12.58,
+    "words": 74,
+    "of_raw_words": 81,
+    "openings": 0
+   },
+   "corroboration": "model-authored keep ranges",
+   "analysis_wav_written": false,
+   "tight_audio_duration_s": 21.119,
+   "wall_s": 55.2
+  },
+  "plate": {
+   "status": "ok",
+   "plate": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/matting/lunafree/plate_wide_25.mp4",
+   "crop": "2848x1780+254+262",
+   "plate_size": [
+    1440,
+    900
+   ],
+   "scale_k": 0.505618,
+   "head_px_on_canvas": 450.1,
+   "overwide_applied": true,
+   "extension_master_px": {
+    "left_master_px": 534,
+    "left_plate_px": 270,
+    "left_canvas_px": 297.0,
+    "right_master_px": 178,
+    "right_plate_px": 90,
+    "right_canvas_px": 99.0,
+    "left_headroom_remaining_master_px": 254,
+    "right_headroom_remaining_master_px": 738,
+    "clamped_by_master_edge": {
+     "left": false,
+     "right": false
+    },
+    "lattice_padding_steps": 0
+   },
+   "plate_box": {
+    "w": 1584.0,
+    "h": 990.0,
+    "left": -351.0,
+    "top": 930.0,
+    "right": 1233.0,
+    "centred": false,
+    "note": "the origin is NOT (1080 - box_w)/2.  An over-wide plate is deliberately asymmetric; the generator's plate_origin() reads `left` from here, and ship.py's edge gate takes it as --edge-box."
+   },
+   "face_dx_pct": 0.062,
+   "visible_window_drift_master_px": 0.0,
+   "sweep": {
+    "file": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/gen/_birefnet_master_lunafree.json",
+    "frames_measured": 89,
+    "stride": 6,
+    "model": "birefnet-general",
+    "wall_seconds": 71.7,
+    "lane": {
+     "where": "modal",
+     "app": "shorts-factory-birefnet",
+     "gpu": "A10G",
+     "container": "7e24b69f-e386-4a17-8415-cabba7786da6",
+     "onnx": "birefnet-general.onnx",
+     "providers": [
+      "CUDAExecutionProvider",
+      "CPUExecutionProvider"
+     ],
+     "input_bytes": 16101748,
+     "model_load_seconds": 4.8,
+     "inference_seconds": 47.9,
+     "seconds_per_frame": 0.538,
+     "t_import_epoch": 1790180719.5679905,
+     "t_fn_enter_epoch": 1790180721.2832875,
+     "t_fn_exit_epoch": 1790180776.731135,
+     "proxy": true,
+     "proxy_seconds": 1.5,
+     "client_wall_seconds": 71.7,
+     "uploaded_bytes": 16101748,
+     "cold_start_seconds": 11.03,
+     "billed_container_seconds": 59.2,
+     "measured_cost_usd": 0.0264,
+     "cost_breakdown_usd": {
+      "gpu": 0.0181,
+      "cpu": 0.0062,
+      "mem": 0.0021
+     }
+    }
+   },
+   "plate_json": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/matting/lunafree/plate.json",
+   "wall_s": 31.5
+  },
+  "prompt0": {
+   "status": "ok",
+   "retries": [],
+   "prompt_guard": {
+    "repaired": false,
+    "why": "the live prompt is the original"
+   },
+   "prompt0_status": "ok",
+   "prompt_png": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/matting/lunafree/prompts/kf_00000.png",
+   "overlay_png": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/matting/lunafree/prompts/kf_overlay_00000.png",
+   "wings_source": "MEASURED on this plate's frame 0",
+   "wing_right": null,
+   "wing_left": null,
+   "wing_cut_applied": false,
+   "wing_review": true,
+   "wing_review_note": "the instrument proposed no cut.  It abstains rather than guesses (see the module docstring: zero false positives, zero recall on the run-9 corpus).  Look at kf_overlay_00000.png; if a headrest wing is inside the green prompt, measure its inner column and pass an explicit `wings` block on the intake row.  If you miss one, the protrusion gate inside ship.py is the net.",
+   "removed_px": 0,
+   "prompt_area_px": 499530,
+   "chair_prompt": {
+    "status": "ok",
+    "json": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/matting/lunafree/chair_prompt.json",
+    "overlay": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/matting/lunafree/prompts/chair_overlay_00000.png",
+    "band": {
+     "crown": 54,
+     "head_width": 331.0,
+     "band_top": 321,
+     "shoulder_arrival": 501
+    },
+    "found": [
+     "left",
+     "right"
+    ],
+    "overridden_sides": null,
+    "left": {
+     "found": true,
+     "box": [
+      557,
+      250,
+      684,
+      464
+     ],
+     "points": [
+      [
+       606,
+       279,
+       1
+      ],
+      [
+       604,
+       331,
+       1
+      ],
+      [
+       614,
+       383,
+       1
+      ],
+      [
+       621,
+       435,
+       1
+      ],
+      [
+       812,
+       194,
+       0
+      ],
+      [
+       643,
+       357,
+       0
+      ],
+      [
+       726,
+       610,
+       0
+      ],
+      [
+       784,
+       621,
+       0
+      ]
+     ],
+     "rows": [
+      254,
+      460
+     ],
+     "rows_with_run": 207,
+     "cols": [
+      565,
+      676
+     ],
+     "run_width": {
+      "min": 9,
+      "max": 112,
+      "median": 67
+     },
+     "luma": {
+      "mean": 24.8,
+      "p95": 36,
+      "max": 59
+     },
+     "area_px": 14588
+    },
+    "right": {
+     "found": true,
+     "box": [
+      851,
+      215,
+      1013,
+      464
+     ],
+     "points": [
+      [
+       966,
+       248,
+       1
+      ],
+      [
+       987,
+       309,
+       1
+      ],
+      [
+       982,
+       370,
+       1
+      ],
+      [
+       966,
+       431,
+       1
+      ],
+      [
+       812,
+       159,
+       0
+      ],
+      [
+       969,
+       340,
+       0
+      ],
+      [
+       809,
+       521,
+       0
+      ],
+      [
+       784,
+       621,
+       0
+      ]
+     ],
+     "rows": [
+      219,
+      460
+     ],
+     "rows_with_run": 242,
+     "cols": [
+      859,
+      1005
+     ],
+     "run_width": {
+      "min": 10,
+      "max": 147,
+      "median": 30
+     },
+     "luma": {
+      "mean": 18.9,
+      "p95": 57,
+      "max": 128
+     },
+     "area_px": 10597
+    }
+   },
+   "wall_s": 50.9
+  },
+  "cues": {
+   "status": "ok",
+   "cue_count": 0,
+   "cues_json": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/gen/_cues_lunafree.json",
+   "answered": [],
+   "needs_source": [],
+   "cards": [],
+   "wall_s": 0.0
+  },
+  "track": {
+   "status": "REFUSED",
+   "error": "Chair audit hold: the reviewed contour holds the headrest wing; the contour is corrected so the chair band can see it, and the production track is held: a frame-0 carve does not stop MatAnyone 2 re-growing a dark region welded to his shirt (measured 2026-09-21: 9,077 of 9,077 carved px kept on every frame)"
+  },
+  "selection": {
+   "status": "ok",
+   "note": "selection inputs ready for the outline review",
+   "selection": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/matting/lunafree/selection.json",
+   "plate": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/matting/lunafree/plate_wide_25.mp4",
+   "source": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/cuts/lunafree/master.mp4",
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/matting/lunafree/plate.json",
+   "initial_mask": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/matting/lunafree/prompts/kf_00000.png"
+  }
+ },
+ "no_chair_object": false,
+ "started": "2026-09-23T19:53:49",
+ "backend": "matanyone2",
+ "finished": "2026-09-23T19:57:24",
+ "wall_s": 137.6
+}

@@ -1,0 +1,19 @@
+{
+ "id": "falagent",
+ "stage": "plate",
+ "status": "ok",
+ "wall_s": 73.2,
+ "at": "2026-09-23T19:55:02",
+ "keys": {
+  "status": "ok",
+  "plate": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/matting/falagent/plate_wide_25.mp4",
+  "crop": "3640x1820+52+238",
+  "scale_k": 0.494505,
+  "head_px_on_canvas": 449.7,
+  "overwide_applied": true,
+  "face_dx_pct": -0.02,
+  "visible_window_drift_master_px": 0.0,
+  "plate_json": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/matting/falagent/plate.json",
+  "wall_s": 73.2
+ }
+}

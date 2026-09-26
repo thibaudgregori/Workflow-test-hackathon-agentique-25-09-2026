@@ -1,0 +1,28 @@
+{
+ "id": "streamdeck",
+ "stage": "ship",
+ "status": "ok",
+ "wall_s": 80.85510849999991,
+ "at": "2026-09-23T18:43:36",
+ "keys": {
+  "status": "ok",
+  "backend": "matanyone2",
+  "frames": 762,
+  "width": 1452,
+  "height": 990,
+  "fps": 25.0,
+  "alpha_mode": "soft",
+  "rim_px": 7,
+  "temporal": 1,
+  "seconds": 63.661444194999994,
+  "estimated_compute_usd": 0.028948131904350395,
+  "fractional_alpha_pixels": 16732022,
+  "minimum_person_fraction": 0.39167153629963547,
+  "review_status": "needs_final_visual_review",
+  "ship_source_sha256": "0154788627eb98961c3eb2bc600e14d29cbc4f0de84b5c925b98e03e19bbd250",
+  "client_wall_seconds": 80.85510849999991,
+  "ship_seconds": 63.661444194999994,
+  "wall_s": 80.85510849999991,
+  "cost_usd": 0.028948131904350395
+ }
+}

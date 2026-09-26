@@ -1,0 +1,628 @@
+{
+ "video": "ccremote",
+ "format": "whiteboard",
+ "variant": "plan view (fix)",
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/projects/ccremote_whiteboard",
+ "handle": "@migueltorrez.ai",
+ "handle_key": "tiktok_ig",
+ "duration_s": 34.92,
+ "fps": 25,
+ "render": "1080x1920 @ zoom 1",
+ "board": "576x460 design units",
+ "board_box": [
+  40.0,
+  150.0,
+  536.0,
+  425.0
+ ],
+ "strokes": 34,
+ "rigids": 26,
+ "board_text": [
+  "REMOTE CONTROL",
+  "OFF BY DEFAULT",
+  "ON BY DEFAULT",
+  "TURN",
+  "IT",
+  "ON",
+  "ASK IT TO TURN IT ON",
+  "WORK FROM YOUR PHONE"
+ ],
+ "top_ink_u": 146.0,
+ "top_band_u": 102.4,
+ "pen_top_u": 110.7,
+ "ink_bottom_px": 755.2,
+ "cap_band_top_px": 799.2,
+ "cap_clearance_px": 44.0,
+ "ink_bottom_ink_px": 755.2,
+ "cap_clearance_ink_px": 44.0,
+ "seam_pill_top_px": 805.2,
+ "cap_clearance_ink_to_pill_px": 50.0,
+ "seam_measures": "cap_clearance_px = line boxes vs the reserved band (THE GATE); cap_clearance_ink_px = glyph ink vs the same band; cap_clearance_ink_to_pill_px = glyph ink vs the pill's painted top edge (the clerk's surface)",
+ "rail_hits": [],
+ "label_law": {
+  "window_s": 1.0,
+  "key_term": "REMOTE CONTROL",
+  "key_term_fs_u": 25.0,
+  "written": {
+   "REMOTE CONTROL": 5.14,
+   "OFF BY DEFAULT": 11.24,
+   "ON BY DEFAULT": 14.68,
+   "TURN": 20.66,
+   "IT": 20.72,
+   "ON": 20.76,
+   "ASK IT TO TURN IT ON": 26.52,
+   "WORK FROM YOUR PHONE": 28.48
+  },
+  "plan": {
+   "off": "OFF BY DEFAULT",
+   "on": "ON BY DEFAULT"
+  },
+  "comparisons": [
+   [
+    "OFF BY DEFAULT",
+    "ON BY DEFAULT"
+   ]
+  ],
+  "unplanned_text": [],
+  "verdict": "PASS"
+ },
+ "law4": {
+  "law": "4 (overlap test)",
+  "board_words_that_also_appear_as_a_pill": {}
+ },
+ "round4": {
+  "law6_lifetimes": {
+   "duration_s": 34.92,
+   "chaptered": true,
+   "max_frac": 0.4,
+   "declared_anchors": [],
+   "lingering": [],
+   "verdict": "PASS"
+  },
+  "law2_no_enclosure": {
+   "rings": 0,
+   "boxes": 0,
+   "highlights": 0,
+   "rasters": [],
+   "wrong_tool_advisory": [],
+   "verdict": "PASS"
+  },
+  "law3_label_side": {
+   "checked": 2,
+   "detail": {
+    "OFF BY DEFAULT": {
+     "host": "sw",
+     "dx_u": 0.0,
+     "band_u": 52.0,
+     "place": "below"
+    },
+    "ON BY DEFAULT": {
+     "host": "sw",
+     "dx_u": 0.0,
+     "band_u": 52.0,
+     "place": "below"
+    }
+   },
+   "verdict": "PASS"
+  },
+  "law5_spacing": {
+   "gate_u": 8.5,
+   "gate_px": 15.9,
+   "aim_u": 12.8,
+   "aim_px": 24.0,
+   "measured_on": "element line boxes",
+   "under_aim": [],
+   "objects": 18,
+   "verdict": "PASS"
+  },
+  "law5_spacing_ink": {
+   "gate_u": 8.5,
+   "gate_px": 15.9,
+   "aim_u": 12.8,
+   "aim_px": 24.0,
+   "measured_on": "glyph ink extents",
+   "under_aim": [],
+   "objects": 18,
+   "verdict": "PASS"
+  },
+  "law5_no_crossing": {
+   "strokes": 34,
+   "types": 8,
+   "verdict": "PASS"
+  },
+  "law4_anchors": {
+   "targets": 4,
+   "detail": {
+    "sw": {
+     "n": 1,
+     "spread_u": 0.0,
+     "level": true,
+     "mirrored": false,
+     "on_rect": true
+    },
+    "tile-top": {
+     "n": 1,
+     "spread_u": 0.0,
+     "level": true,
+     "mirrored": false,
+     "on_rect": true
+    },
+    "tile-mid": {
+     "n": 1,
+     "spread_u": 0.0,
+     "level": true,
+     "mirrored": false,
+     "on_rect": true
+    },
+    "tile-bot": {
+     "n": 1,
+     "spread_u": 0.0,
+     "level": true,
+     "mirrored": false,
+     "on_rect": true
+    }
+   },
+   "verdict": "PASS"
+  }
+ },
+ "outro": {
+  "move": "opaque sheet rises over the board",
+  "wipe_start": 30.64,
+  "wipe_end": 31.2,
+  "travel_px": 862.5,
+  "sheet_opaque": true,
+  "sheet_covers_px": 862.5,
+  "card_ink_enters_px": 322.5,
+  "board_covered_px": 588.8,
+  "overlap_px": 266.2,
+  "board_moves": false,
+  "board_fades": false,
+  "outro_start": 30.64,
+  "verdict": "PASS"
+ },
+ "captions": 41,
+ "cap_font_px": 56.2,
+ "cap_max_pill_w_px": 748.4,
+ "cap_w_budget_px": 756.0,
+ "anchors": {
+  "one": 0.4,
+  "setting": 0.6,
+  "claude0": 3.2,
+  "phone0": 4.68,
+  "remote": 5.14,
+  "claude1": 7.44,
+  "sessions": 7.92,
+  "from": 8.56,
+  "not": 10.1,
+  "off": 11.24,
+  "claude2": 12.4,
+  "change": 13.38,
+  "tape": 14.36,
+  "on": 14.68,
+  "new": 16.2,
+  "phone1": 19.9,
+  "seam0": 20.46,
+  "never": 20.8,
+  "ever1": 21.14,
+  "ever2": 21.48,
+  "seam1": 25.6,
+  "ask": 26.52,
+  "tick1": 27.26,
+  "keep": 28.3,
+  "tick2": 29.22,
+  "outro": 30.64,
+  "day": 33.48
+ },
+ "html_bytes": 89314,
+ "sfx": 20,
+ "pen_loops": 10,
+ "pen_seconds": 3.74,
+ "pen_duty_pct": 10.7,
+ "captions_law3b": {
+  "beats_before_merge": 41,
+  "beats_after_merge": 41,
+  "merges": 0,
+  "merged_away": [
+   "because",
+   "you forgot to turn"
+  ],
+  "widest_pill_px": 748.4,
+  "budget_px": 756.0,
+  "beats": [
+   [
+    0.1,
+    0.86,
+    "This is one setting"
+   ],
+   [
+    0.86,
+    1.54,
+    "that completely"
+   ],
+   [
+    1.54,
+    1.92,
+    "changed the"
+   ],
+   [
+    1.92,
+    2.84,
+    "way through which I"
+   ],
+   [
+    2.84,
+    3.82,
+    "work with Claude Code"
+   ],
+   [
+    3.82,
+    4.98,
+    "directly from my phone."
+   ],
+   [
+    4.98,
+    5.48,
+    "Now, remote"
+   ],
+   [
+    5.48,
+    6.16,
+    "control allows"
+   ],
+   [
+    6.16,
+    7.14,
+    "you to control all"
+   ],
+   [
+    7.14,
+    7.7,
+    "of your Claude"
+   ],
+   [
+    7.7,
+    8.56,
+    "Code sessions"
+   ],
+   [
+    8.56,
+    9.38,
+    "from your phone,"
+   ],
+   [
+    9.38,
+    10.56,
+    "but it is not"
+   ],
+   [
+    10.56,
+    12.0,
+    "turned on by default."
+   ],
+   [
+    12.0,
+    12.96,
+    "By using Claude Code,"
+   ],
+   [
+    12.96,
+    13.86,
+    "you can change it"
+   ],
+   [
+    13.86,
+    14.52,
+    "and set it on"
+   ],
+   [
+    14.52,
+    15.32,
+    "by default,"
+   ],
+   [
+    15.32,
+    15.98,
+    "meaning that"
+   ],
+   [
+    15.98,
+    16.9,
+    "any new session that"
+   ],
+   [
+    16.9,
+    17.72,
+    "you set up with"
+   ],
+   [
+    17.72,
+    18.7,
+    "your Claude Code"
+   ],
+   [
+    18.7,
+    19.9,
+    "will be on your"
+   ],
+   [
+    19.9,
+    21.48,
+    "phone. You will never,"
+   ],
+   [
+    21.48,
+    22.42,
+    "ever be frustrated"
+   ],
+   [
+    22.42,
+    22.88,
+    "because you"
+   ],
+   [
+    22.88,
+    23.76,
+    "forgot to turn"
+   ],
+   [
+    23.76,
+    24.18,
+    "it on."
+   ],
+   [
+    24.18,
+    25.12,
+    "Now, go ahead"
+   ],
+   [
+    25.12,
+    26.52,
+    "onto your Claude Code,"
+   ],
+   [
+    26.52,
+    27.16,
+    "ask it to turn"
+   ],
+   [
+    27.16,
+    27.7,
+    "it on,"
+   ],
+   [
+    27.7,
+    28.56,
+    "and then just keep"
+   ],
+   [
+    28.56,
+    29.78,
+    "working from your phone"
+   ],
+   [
+    29.78,
+    30.64,
+    "wherever you are."
+   ],
+   [
+    30.64,
+    31.4,
+    "Now, follow for more"
+   ],
+   [
+    31.4,
+    32.06,
+    "AI news,"
+   ],
+   [
+    32.06,
+    33.08,
+    "videos, and tutorials each"
+   ],
+   [
+    33.08,
+    33.98,
+    "and every single day,"
+   ],
+   [
+    33.98,
+    34.32,
+    "and catch you on"
+   ],
+   [
+    34.32,
+    34.84,
+    "the next one."
+   ]
+  ],
+  "law": "captions.py 3b: merge_function_only_beats over the WHOLE beat stream, then assert_no_function_only_beat inside build()"
+ },
+ "seam_law": {
+  "plan_mode": "chapters",
+  "chapters": 3,
+  "seams": [
+   20.46,
+   25.6
+  ],
+  "erase_s": [
+   0.3,
+   0.3
+  ],
+  "erase_completes": [
+   20.76,
+   25.9
+  ],
+  "qc_seams": "20.46,25.6",
+  "handover": [
+   {
+    "seam": 20.46,
+    "incoming": "the sticky note's edge draws 20.46-20.66 INSIDE the erase, TURN written by 20.76, IT / ON by 20.80"
+   },
+   {
+    "seam": 25.6,
+    "incoming": "row 1's Claude Code tile draws 25.64-25.90 and its mark pops 25.76-26.02, inside LAW 45's 0.30 s"
+   }
+  ],
+  "outro_wipe": 30.64
+ },
+ "phone_test_objects": [
+  {
+   "i": 0,
+   "name": "wall light switch",
+   "t": 2.6,
+   "bbox_board_u": [
+    238.0,
+    226.0,
+    338.0,
+    374.0
+   ],
+   "bbox_norm": [
+    0.4132,
+    0.2207,
+    0.5868,
+    0.3652
+   ]
+  },
+  {
+   "i": 1,
+   "name": "taped light switch",
+   "t": 15.3,
+   "bbox_board_u": [
+    238.0,
+    226.0,
+    338.0,
+    374.0
+   ],
+   "bbox_norm": [
+    0.4132,
+    0.2207,
+    0.5868,
+    0.3652
+   ]
+  },
+  {
+   "i": 2,
+   "name": "crossed-out sticky note",
+   "t": 22.6,
+   "bbox_board_u": [
+    186.0,
+    180.0,
+    390.0,
+    384.0
+   ],
+   "bbox_norm": [
+    0.3229,
+    0.1758,
+    0.6771,
+    0.375
+   ]
+  }
+ ],
+ "phone_at_args": [
+  "2.6:0.4132,0.2207,0.5868,0.3652:wall light switch",
+  "15.3:0.4132,0.2207,0.5868,0.3652:taped light switch",
+  "22.6:0.3229,0.1758,0.6771,0.375:crossed-out sticky note"
+ ],
+ "geometry_u": {
+  "switch": [
+   248.0,
+   236.0,
+   328.0,
+   364.0
+  ],
+  "phone": [
+   83.0,
+   225.0,
+   159.0,
+   375.0
+  ],
+  "tiles": [
+   [
+    425.1335,
+    197.6335,
+    484.8665,
+    257.3665
+   ],
+   [
+    425.1335,
+    270.1335,
+    484.8665,
+    329.8665
+   ],
+   [
+    425.1335,
+    342.6335,
+    484.8665,
+    402.3665
+   ]
+  ],
+  "fan_from": [
+   [
+    328.0,
+    256.48
+   ],
+   [
+    328.0,
+    300.0
+   ],
+   [
+    328.0,
+    343.52
+   ]
+  ],
+  "fan_to": [
+   [
+    425.1335,
+    227.5
+   ],
+   [
+    425.1335,
+    300.0
+   ],
+   [
+    425.1335,
+    372.5
+   ]
+  ],
+  "note": [
+   196.0,
+   190.0,
+   380.0,
+   374.0
+  ],
+  "rows": [
+   {
+    "tile": [
+     91.45850000000002,
+     215.1335,
+     151.19150000000002,
+     274.8665
+    ],
+    "tcx": 302.86650000000003,
+    "box": [
+     454.54150000000004,
+     230.0,
+     484.54150000000004,
+     260.0
+    ],
+    "cy": 245.0
+   },
+   {
+    "tile": [
+     91.45850000000002,
+     315.1335,
+     151.19150000000002,
+     374.8665
+    ],
+    "tcx": 302.86650000000003,
+    "box": [
+     454.54150000000004,
+     330.0,
+     484.54150000000004,
+     360.0
+    ],
+    "cy": 345.0
+   }
+  ]
+ }
+}

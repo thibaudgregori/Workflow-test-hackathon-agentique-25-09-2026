@@ -1,0 +1,694 @@
+{
+ "video": "eudisclosure",
+ "lane": "icon choreography",
+ "fps": 25,
+ "duration": 27.64,
+ "seam": 862.5,
+ "formats": {
+  "split": {
+   "staged": {
+    "voice": {
+     "source": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/cuts/eudisclosure/audio.m4a",
+     "sample_rate": 48000,
+     "channels": 2
+    },
+    "bed": "/Users/migle/Documents/Workspace/assets/audio/music/shorts-factory/bed_split_v2.mp3",
+    "sfx_sources": {
+     "pop": "/Users/migle/Documents/Workspace/assets/audio/sfx/shorts-factory/pop.mp3",
+     "click": "/Users/migle/Documents/Workspace/assets/audio/sfx/shorts-factory/click.mp3",
+     "low_thump": "/Users/migle/Documents/Workspace/assets/audio/sfx/shorts-factory/low_thump.mp3"
+    },
+    "face": {
+     "file": "face_bottom_hd.mp4",
+     "w": 1080,
+     "h": 1058
+    },
+    "marks": {}
+   },
+   "seat": 862.5,
+   "scale": 1.0,
+   "core": {
+    "left": 0.0,
+    "top": 192.0
+   },
+   "band": {
+    "content_top": 288.0,
+    "content_bottom": 692.0,
+    "pill_top_rendered": 805.205,
+    "clear_above_pill": 113.21,
+    "clear_below_law30": 96.0
+   },
+   "rail": {
+    "readable_type_right_x": 909.7,
+    "per_key_right_x": {
+     "key-disclose": 662.2,
+     "imp-bub": 304.1,
+     "imp-page": 838.1,
+     "imp-pd-gen": 383.6,
+     "imp-pd-mod": 909.7,
+     "imp-pd-real": 375.7,
+     "imp-shot": 909.7
+    },
+    "ink_left_x": 138.0,
+    "ink_right_x": 942.0,
+    "law30_rail_x": 918.0
+   },
+   "cues": {
+    "stars": {
+     "word": 4,
+     "text": "Europe,",
+     "t": 0.64,
+     "word_start": 0.64
+    },
+    "keyterm": {
+     "word": 9,
+     "text": "disclose",
+     "t": 1.48,
+     "word_start": 1.48
+    },
+    "bubble": {
+     "word": 17,
+     "text": "chatbot",
+     "t": 3.96,
+     "word_start": 3.96
+    },
+    "slide_b": {
+     "word": 19,
+     "text": "AI",
+     "t": 4.98,
+     "word_start": 4.98
+    },
+    "stamp_b": {
+     "word": 20,
+     "text": "generated",
+     "t": 5.2,
+     "word_start": 5.2
+    },
+    "hit_bubble": {
+     "word": 21,
+     "text": "content.",
+     "t": 5.66,
+     "word_start": 5.66
+    },
+    "hit_page": {
+     "word": 22,
+     "text": "And",
+     "t": 6.26,
+     "word_start": 6.26
+    },
+    "gen": {
+     "word": 27,
+     "text": "AI",
+     "t": 7.16,
+     "word_start": 7.16
+    },
+    "slide_c": {
+     "word": 34,
+     "text": "because",
+     "t": 9.74,
+     "word_start": 9.74
+    },
+    "stamp_c": {
+     "word": 38,
+     "text": "say",
+     "t": 10.36,
+     "word_start": 10.36
+    },
+    "mod": {
+     "word": 41,
+     "text": "image",
+     "t": 10.94,
+     "word_start": 10.94
+    },
+    "hit_gen": {
+     "word": 43,
+     "text": "AI",
+     "t": 11.46,
+     "word_start": 11.46
+    },
+    "hit_mod": {
+     "word": 46,
+     "text": "AI",
+     "t": 12.8,
+     "word_start": 12.8
+    },
+    "c_out": {
+     "word": 48,
+     "text": "So",
+     "t": 13.98,
+     "word_start": 13.98
+    },
+    "real": {
+     "word": 53,
+     "text": "real",
+     "t": 14.94,
+     "word_start": 14.94
+    },
+    "slide_d": {
+     "word": 57,
+     "text": "real",
+     "t": 16.18,
+     "word_start": 16.18
+    },
+    "color": {
+     "word": 70,
+     "text": "color",
+     "t": 20.3,
+     "word_start": 20.3
+    },
+    "light": {
+     "word": 72,
+     "text": "lighting,",
+     "t": 20.9,
+     "word_start": 20.9
+    },
+    "stamp_d": {
+     "word": 73,
+     "text": "you",
+     "t": 21.62,
+     "word_start": 21.62
+    },
+    "hit_photo": {
+     "word": 77,
+     "text": "disclose",
+     "t": 22.64,
+     "word_start": 22.64
+    },
+    "hit_shot": {
+     "word": 78,
+     "text": "that.",
+     "t": 23.1,
+     "word_start": 23.1
+    },
+    "outro": {
+     "word": 79,
+     "text": "Now",
+     "t": 23.32,
+     "word_start": 23.32
+    },
+    "pole": {
+     "word": 2,
+     "text": "live",
+     "t": 0.44,
+     "window": [
+      0.32,
+      1.44
+     ]
+    },
+    "field": {
+     "word": 3,
+     "text": "in",
+     "t": 0.56,
+     "window": [
+      0.5,
+      1.6
+     ]
+    },
+    "flag_out": {
+     "word": 15,
+     "text": "it's",
+     "t": 3.62,
+     "window": [
+      3.56,
+      4.8
+     ]
+    },
+    "page": {
+     "word": 19,
+     "text": "AI",
+     "t": 5.08,
+     "window": [
+      4.98,
+      6.12
+     ]
+    },
+    "b_out": {
+     "word": 25,
+     "text": "case",
+     "t": 6.8,
+     "window": [
+      6.6,
+      7.82
+     ]
+    },
+    "shot": {
+     "word": 57,
+     "text": "real",
+     "t": 16.28,
+     "window": [
+      16.18,
+      17.36
+     ]
+    },
+    "_law43_45": {
+     "board_mode": "chapters",
+     "chapters": 4,
+     "erase_at": [
+      3.96,
+      7.16,
+      13.98,
+      23.32
+     ],
+     "handover_idea": "DISCLOSE (the key word) is fully drawn across every chapter seam"
+    }
+   },
+   "word_sync": {
+    "typed_states": [
+     {
+      "state": "key-disclose",
+      "first_visible_text": "DISCLOSE",
+      "at": 1.48,
+      "words": "disclose",
+      "window": [
+       1.469,
+       2.86
+      ]
+     },
+     {
+      "state": "imp-bub",
+      "first_visible_text": "AI",
+      "at": 5.66,
+      "words": "ai generated content.",
+      "window": [
+       4.969,
+       7.0
+      ]
+     },
+     {
+      "state": "imp-page",
+      "first_visible_text": "AI",
+      "at": 6.26,
+      "words": "ai generated content.",
+      "window": [
+       4.969,
+       7.0
+      ]
+     },
+     {
+      "state": "imp-pd-gen",
+      "first_visible_text": "AI GENERATED",
+      "at": 11.46,
+      "words": "ai generated",
+      "window": [
+       11.449,
+       13.32
+      ]
+     },
+     {
+      "state": "imp-pd-mod",
+      "first_visible_text": "AI MODIFIED",
+      "at": 12.8,
+      "words": "ai modified.",
+      "window": [
+       12.789,
+       14.74
+      ]
+     },
+     {
+      "state": "imp-pd-real",
+      "first_visible_text": "AI MODIFIED",
+      "at": 22.64,
+      "words": "disclose that.",
+      "window": [
+       22.629,
+       24.2
+      ]
+     },
+     {
+      "state": "imp-shot",
+      "first_visible_text": "AI MODIFIED",
+      "at": 23.1,
+      "words": "disclose that.",
+      "window": [
+       22.629,
+       24.2
+      ]
+     }
+    ],
+    "disagreements": 0,
+    "digits_that_tick": 0,
+    "chapter_d_referent": {
+     "words": "ai to even do slight modifications",
+     "said": [
+      17.7,
+      19.94
+     ]
+    }
+   },
+   "law37": {
+    "scan_cue_count": 0,
+    "plan_declared_cards": 0,
+    "source_cards_in_the_page": 0
+   },
+   "law39_50": {
+    "imp-bub": {
+     "host": "bubble",
+     "text": "AI",
+     "box_w": 62.3,
+     "side_margin_px": 93.8
+    },
+    "imp-page": {
+     "host": "page",
+     "text": "AI",
+     "box_w": 62.3,
+     "side_margin_px": 83.8
+    },
+    "imp-pd-gen": {
+     "host": "pd-gen",
+     "text": "AI GENERATED",
+     "box_w": 221.3,
+     "side_margin_px": 24.4
+    },
+    "imp-pd-mod": {
+     "host": "pd-mod",
+     "text": "AI MODIFIED",
+     "box_w": 205.4,
+     "side_margin_px": 32.3
+    },
+    "imp-pd-real": {
+     "host": "pd-real",
+     "text": "AI MODIFIED",
+     "box_w": 205.4,
+     "side_margin_px": 32.3
+    },
+    "imp-shot": {
+     "host": "shot",
+     "text": "AI MODIFIED",
+     "box_w": 205.4,
+     "side_margin_px": 32.3
+    },
+    "_law50": {
+     "imprint_font_px": "24",
+     "rotation_deg": "-2.5"
+    },
+    "_key_term": {
+     "text": "DISCLOSE",
+     "font_px": 48.0,
+     "design_units": 25.6,
+     "first_type": true
+    }
+   },
+   "law42": {
+    "board_mode": "chapters",
+    "anchors": [
+     "key-disclose",
+     "o-sheet",
+     "o-glyph",
+     "o-rule",
+     "o-slot"
+    ],
+    "covers": [
+     "o-sheet"
+    ],
+    "longest_mark_share": 0.321,
+    "mark_shares": {
+     "flag": 0.126,
+     "bubble": 0.114,
+     "page": 0.073,
+     "imp-bub": 0.052,
+     "imp-page": 0.03,
+     "stamp#1": 0.069,
+     "pd-gen": 0.258,
+     "pd-mod": 0.121,
+     "stamp#2": 0.142,
+     "imp-pd-gen": 0.102,
+     "imp-pd-mod": 0.054,
+     "pd-real": 0.321,
+     "shot": 0.272,
+     "rays": 0.105,
+     "stamp#3": 0.079,
+     "imp-pd-real": 0.042,
+     "imp-shot": 0.025
+    }
+   },
+   "law38_40": {
+    "connectors": 0,
+    "emphasis_strokes": 0,
+    "rings_ellipses_circles": 0
+   },
+   "law22": {
+    "events": 19,
+    "tightest_gap_s": 0.46,
+    "deliberately_silent": {
+     "field 0.56 / stars 0.64": "inside the flag's pop; one arrival",
+     "flag out 3.62": "an exit; the bubble pops 0.34 s later",
+     "slide 4.98 / stamp drop 5.20": "0.10 / 0.12 s around the page pop; one sound scores the move",
+     "chapter exits 6.80 / 13.98": "exits stay silent",
+     "slides 9.74 / 16.18": "a slide is a move, not an arrival; 16.18 is also 0.10 s before the screenshot pop",
+     "sheet 23.32": "0.22 s after the last press; the glyph's pop at 23.82 scores the outro"
+    }
+   },
+   "draw_on": {
+    "dash_selectors": {
+     "#bub-edge": 1,
+     "#flag-field": 1,
+     "#flag-pole": 1,
+     "#pd-gen .pdraw": 4,
+     "#pd-mod .pdraw": 4,
+     "#pd-real .pdraw": 4,
+     "#pd-real-rays .ray": 8,
+     "#pg-edge": 1,
+     "#pg-fold": 1,
+     "#sh-frame": 1,
+     "#shot .shl": 2
+    },
+    "verdict": "every dash equals its path's declared length (100)"
+   },
+   "transcript": {
+    "law47_tail_s": 0.22,
+    "law47_cap_s": 0.24,
+    "law47_verdict": "PASS - 0.220s past the last word against a 0.240s cap",
+    "law46": "the scripted opening occurs ONCE inside the keeper take, at word 0 / 0.10 s",
+    "take_corroboration": {
+     "mode": "model keep_words (the agent read the transcript and chose the words; no rule detection)",
+     "keep_words": [
+      [
+       113,
+       212
+      ]
+     ],
+     "take_word_index": 113,
+     "take_start_s": 92.68,
+     "words": 100,
+     "of_raw_words": 213,
+     "dropped_words": 113,
+     "corroboration": "model-authored keep ranges"
+    },
+    "words": 100,
+    "function_word_merges": 0,
+    "beats_before_merge": 27,
+    "orphan_repartitions": [],
+    "solo_word_merges": [],
+    "board_keys_forbidden_at_split": [
+     "ai",
+     "ai generated",
+     "ai generated!",
+     "ai generated,",
+     "ai generated.",
+     "ai generated?",
+     "ai modified",
+     "ai modified!",
+     "ai modified,",
+     "ai modified.",
+     "ai modified?",
+     "ai!",
+     "ai,",
+     "ai.",
+     "ai?",
+     "disclose",
+     "disclose!",
+     "disclose,",
+     "disclose.",
+     "disclose?"
+    ]
+   },
+   "phone_objects": [
+    {
+     "name": "European Union flag",
+     "t": 1.6,
+     "bbox": [
+      0.3667,
+      0.1859,
+      0.6333,
+      0.363
+     ],
+     "canvas": [
+      396.0,
+      357.0,
+      684.0,
+      697.0
+     ]
+    },
+    {
+     "name": "AI rubber stamp",
+     "t": 11.05,
+     "bbox": [
+      0.3981,
+      0.1969,
+      0.6019,
+      0.2917
+     ],
+     "canvas": [
+      430.0,
+      378.0,
+      650.0,
+      560.0
+     ]
+    },
+    {
+     "name": "two stamped Polaroids",
+     "t": 13.6,
+     "bbox": [
+      0.1278,
+      0.1938,
+      0.8722,
+      0.3604
+     ],
+     "canvas": [
+      138.0,
+      372.0,
+      942.0,
+      692.0
+     ]
+    },
+    {
+     "name": "stamped Polaroid photo",
+     "t": 23.28,
+     "bbox": [
+      0.1278,
+      0.1938,
+      0.3778,
+      0.3604
+     ],
+     "canvas": [
+      138.0,
+      372.0,
+      408.0,
+      692.0
+     ]
+    }
+   ],
+   "render": {
+    "w": 1080,
+    "h": 1920,
+    "zoom": 1
+   },
+   "handle": "@migueltorrezai",
+   "captions": {
+    "n": 27,
+    "widest_px": 755.4,
+    "beats": [
+     [
+      "If you live in Europe,",
+      0.1
+     ],
+     [
+      "now you have to disclose",
+      0.98
+     ],
+     [
+      "whenever you're using AI,",
+      1.94
+     ],
+     [
+      "whether it's a chatbot",
+      3.26
+     ],
+     [
+      "or AI generated content.",
+      4.64
+     ],
+     [
+      "And in the case of AI",
+      6.26
+     ],
+     [
+      "generated images, it's",
+      7.38
+     ],
+     [
+      "even more complex",
+      8.66
+     ],
+     [
+      "because you have to",
+      9.74
+     ],
+     [
+      "say whether an image",
+      10.36
+     ],
+     [
+      "is AI generated",
+      11.24
+     ],
+     [
+      "or AI modified.",
+      12.52
+     ],
+     [
+      "So if you took a",
+      13.98
+     ],
+     [
+      "real image or a real",
+      14.94
+     ],
+     [
+      "screenshot, and",
+      16.46
+     ],
+     [
+      "then you use AI",
+      17.04
+     ],
+     [
+      "to even do slight",
+      18.2
+     ],
+     [
+      "modifications to",
+      19.16
+     ],
+     [
+      "color or lighting,",
+      20.3
+     ],
+     [
+      "you also have",
+      21.62
+     ],
+     [
+      "to disclose that.",
+      22.52
+     ],
+     [
+      "Now follow for more",
+      23.32
+     ],
+     [
+      "AI news, videos, and",
+      24.04
+     ],
+     [
+      "tutorials each and",
+      25.2
+     ],
+     [
+      "every single day,",
+      25.88
+     ],
+     [
+      "and catch you",
+      26.66
+     ],
+     [
+      "in the next one.",
+      26.98
+     ]
+    ],
+    "min_aspect": 3.75
+   }
+  }
+ }
+}

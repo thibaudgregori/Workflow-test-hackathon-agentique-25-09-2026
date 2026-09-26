@@ -1,0 +1,385 @@
+{
+ "id": "ccremote",
+ "run": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27",
+ "recording": "2026-09-21 14-56-37",
+ "gpu": null,
+ "session": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/matting/ccremote",
+ "cut_dir": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/cuts/ccremote",
+ "stages": {
+  "cut": {
+   "status": "ok",
+   "master": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/cuts/ccremote/master.mp4",
+   "audio": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/cuts/ccremote/audio.m4a",
+   "face_plates": [
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/cuts/ccremote/face_full_hd.mp4",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/cuts/ccremote/face_bottom_hd.mp4"
+   ],
+   "edl": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/cuts/ccremote/edl.json",
+   "transcript_tight": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/cuts/ccremote/transcript_tight.json",
+   "cut_master_duration_s": 34.92,
+   "take": {
+    "word_index": 418,
+    "start_s": 196.6,
+    "words": 135,
+    "of_raw_words": 553,
+    "openings": 0
+   },
+   "corroboration": "model-authored keep ranges",
+   "analysis_wav_written": false,
+   "tight_audio_duration_s": 34.916,
+   "wall_s": 63.9
+  },
+  "plate": {
+   "status": "ok",
+   "plate": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/matting/ccremote/plate_wide_25.mp4",
+   "crop": "2600x1800+450+270",
+   "plate_size": [
+    1300,
+    900
+   ],
+   "scale_k": 0.5,
+   "head_px_on_canvas": 449.9,
+   "overwide_applied": true,
+   "extension_master_px": {
+    "left_master_px": 296,
+    "left_plate_px": 148,
+    "left_canvas_px": 162.8,
+    "right_master_px": 144,
+    "right_plate_px": 72,
+    "right_canvas_px": 79.2,
+    "left_headroom_remaining_master_px": 450,
+    "right_headroom_remaining_master_px": 790,
+    "clamped_by_master_edge": {
+     "left": false,
+     "right": false
+    },
+    "lattice_padding_steps": 6
+   },
+   "plate_box": {
+    "w": 1430.0,
+    "h": 990.0,
+    "left": -217.0,
+    "top": 930.0,
+    "right": 1213.0,
+    "centred": false,
+    "note": "the origin is NOT (1080 - box_w)/2.  An over-wide plate is deliberately asymmetric; the generator's plate_origin() reads `left` from here, and ship.py's edge gate takes it as --edge-box."
+   },
+   "face_dx_pct": 0.053,
+   "visible_window_drift_master_px": 0.37,
+   "sweep": {
+    "file": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/gen/_birefnet_master_ccremote.json",
+    "frames_measured": 147,
+    "stride": 6,
+    "model": "birefnet-general",
+    "wall_seconds": 433.8,
+    "lane": {
+     "where": "modal",
+     "app": "shorts-factory-birefnet",
+     "gpu": "A10G",
+     "container": "9337073b-20d0-4a2b-9931-a89cc1d04bee",
+     "onnx": "birefnet-general.onnx",
+     "providers": [
+      "CUDAExecutionProvider",
+      "CPUExecutionProvider"
+     ],
+     "input_bytes": 26783284,
+     "model_load_seconds": 4.8,
+     "inference_seconds": 84.2,
+     "seconds_per_frame": 0.573,
+     "t_import_epoch": 1790181220.874475,
+     "t_fn_enter_epoch": 1790181223.801589,
+     "t_fn_exit_epoch": 1790181317.2495408,
+     "proxy": true,
+     "proxy_seconds": 3.5,
+     "client_wall_seconds": 433.8,
+     "uploaded_bytes": 26783284,
+     "cold_start_seconds": 333.24,
+     "billed_container_seconds": 98.4,
+     "measured_cost_usd": 0.0439,
+     "cost_breakdown_usd": {
+      "gpu": 0.0301,
+      "cpu": 0.0103,
+      "mem": 0.0035
+     }
+    }
+   },
+   "plate_json": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/matting/ccremote/plate.json",
+   "wall_s": 98.1
+  },
+  "prompt0": {
+   "status": "ok",
+   "retries": [],
+   "prompt_guard": {
+    "repaired": false,
+    "why": "the live prompt is the original"
+   },
+   "prompt0_status": "ok",
+   "prompt_png": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/matting/ccremote/prompts/kf_00000.png",
+   "overlay_png": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/matting/ccremote/prompts/kf_overlay_00000.png",
+   "wings_source": "MEASURED on this plate's frame 0",
+   "wing_right": null,
+   "wing_left": null,
+   "wing_cut_applied": false,
+   "wing_review": true,
+   "wing_review_note": "the instrument proposed no cut.  It abstains rather than guesses (see the module docstring: zero false positives, zero recall on the run-9 corpus).  Look at kf_overlay_00000.png; if a headrest wing is inside the green prompt, measure its inner column and pass an explicit `wings` block on the intake row.  If you miss one, the protrusion gate inside ship.py is the net.",
+   "removed_px": 0,
+   "prompt_area_px": 476531,
+   "chair_prompt": {
+    "status": "ok",
+    "json": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/matting/ccremote/chair_prompt.json",
+    "overlay": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/matting/ccremote/prompts/chair_overlay_00000.png",
+    "band": {
+     "crown": 60,
+     "head_width": 324.0,
+     "band_top": 357,
+     "shoulder_arrival": 537
+    },
+    "found": [
+     "left",
+     "right"
+    ],
+    "overridden_sides": null,
+    "left": {
+     "found": true,
+     "box": [
+      435,
+      256,
+      584,
+      500
+     ],
+     "points": [
+      [
+       514,
+       288,
+       1
+      ],
+      [
+       515,
+       348,
+       1
+      ],
+      [
+       527,
+       408,
+       1
+      ],
+      [
+       531,
+       468,
+       1
+      ],
+      [
+       699,
+       200,
+       0
+      ],
+      [
+       558,
+       378,
+       0
+      ],
+      [
+       626,
+       606,
+       0
+      ],
+      [
+       673,
+       657,
+       0
+      ]
+     ],
+     "rows": [
+      260,
+      496
+     ],
+     "rows_with_run": 237,
+     "cols": [
+      443,
+      576
+     ],
+     "run_width": {
+      "min": 4,
+      "max": 114,
+      "median": 63
+     },
+     "luma": {
+      "mean": 22.6,
+      "p95": 36,
+      "max": 90
+     },
+     "area_px": 13312
+    },
+    "right": {
+     "found": true,
+     "box": [
+      765,
+      233,
+      930,
+      443
+     ],
+     "points": [
+      [
+       868,
+       261,
+       1
+      ],
+      [
+       891,
+       312,
+       1
+      ],
+      [
+       887,
+       364,
+       1
+      ],
+      [
+       873,
+       415,
+       1
+      ],
+      [
+       698,
+       177,
+       0
+      ],
+      [
+       859,
+       338,
+       0
+      ],
+      [
+       723,
+       613,
+       0
+      ],
+      [
+       673,
+       657,
+       0
+      ]
+     ],
+     "rows": [
+      237,
+      439
+     ],
+     "rows_with_run": 203,
+     "cols": [
+      773,
+      922
+     ],
+     "run_width": {
+      "min": 14,
+      "max": 150,
+      "median": 59
+     },
+     "luma": {
+      "mean": 14.7,
+      "p95": 46,
+      "max": 130
+     },
+     "area_px": 12974
+    }
+   },
+   "wall_s": 20.7
+  },
+  "cues": {
+   "status": "ok",
+   "cue_count": 0,
+   "cues_json": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/gen/_cues_ccremote.json",
+   "answered": [],
+   "needs_source": [],
+   "cards": [],
+   "wall_s": 0.0
+  },
+  "track": {
+   "status": "ok",
+   "backend": "matanyone2",
+   "model": "MatAnyone 2",
+   "alpha": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/matting/ccremote/alpha_v1.mkv",
+   "track_seconds": 85.83631755100001,
+   "cost_usd": 0.024353480015569723,
+   "review_status": "needs_final_visual_review",
+   "wall_s": 235.47396679200028
+  },
+  "selection": {
+   "status": "ok",
+   "note": "selection inputs ready for the outline review",
+   "selection": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/matting/ccremote/selection.json",
+   "plate": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/matting/ccremote/plate_wide_25.mp4",
+   "source": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/cuts/ccremote/master.mp4",
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/matting/ccremote/plate.json",
+   "initial_mask": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/matting/ccremote/prompts/kf_00000.png"
+  },
+  "display_plate": {
+   "status": "reused",
+   "file": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/matting/ccremote/plate_display_1430x990.mp4",
+   "cached": true,
+   "hash_proof": {
+    "source_sha256": "5cc37f662c503c6dc8972a529f27d656e51e7e7b887a9dbc68eff9f2c6a4461d",
+    "crop_sha256": "d8640fa4996f86a97da69b5ad4ee33bcb61816d7c66feb92437166dddbc850c0",
+    "matches_selection": true
+   },
+   "width": 1430,
+   "height": 990,
+   "frames": 873,
+   "plate_frames": 873,
+   "bytes": 56591793
+  },
+  "ship": {
+   "status": "ok",
+   "backend": "matanyone2",
+   "frames": 873,
+   "width": 1430,
+   "height": 990,
+   "fps": 25.0,
+   "alpha_mode": "soft",
+   "rim_px": 7,
+   "temporal": 1,
+   "hashes": {
+    "cut": "98fe66ac639e4c2f4a137964f531423b38233c34fa38e52a4522c67e2c6c2032",
+    "rim": "a239f03eebfb315502a1168a515b0dd4c4671e90cb8b00c0c2674d3481ef6c2c",
+    "alpha": "0f24621bd48d116192b4708ec4db1edac9584feb6ea010fab74273fb49ff1dec"
+   },
+   "seconds": 100.566873228,
+   "estimated_compute_usd": 0.045729768594236164,
+   "fractional_alpha_pixels": 19279000,
+   "minimum_person_fraction": 0.40452285088648726,
+   "review_status": "needs_final_visual_review",
+   "ship_source_sha256": "0154788627eb98961c3eb2bc600e14d29cbc4f0de84b5c925b98e03e19bbd250",
+   "client_wall_seconds": 116.02493470799891,
+   "outputs": {
+    "cut": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/matting/ccremote/matte_ccremote_v5_cut.webm",
+    "rim": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/matting/ccremote/matte_ccremote_v5_rim.webm",
+    "alpha": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/matting/ccremote/matte_ccremote_v5_alpha.webm"
+   },
+   "headroom": {
+    "identity": {
+     "alpha_sha256": "ed8a9a53a616a534cea01ade7b97369c80a9d43d74ee15eef3a93d47fbf4eee1",
+     "display_sha256": "4fa5c2ac8911f714861b2e7fd948ef53dd58859759a9b73e8531e4043960af91",
+     "guard_sha256": "90e6a7f8cf1a142b9a8ab4cf0054f9803188279b68642b84430db31afe79999a",
+     "expected_frames": 873,
+     "floor_px": 24.0
+    },
+    "pass": true,
+    "frames_checked": 873,
+    "min_top_clearance_px": 47.300000000000004,
+    "floor_px": 24.0,
+    "worst_frame": 625,
+    "worst_seconds": 25.0,
+    "unsafe_frames": 0,
+    "first_unsafe_frames": [],
+    "scope": "Every matte frame, top edge of prepared person layer; no caption or semantic face claim"
+   },
+   "ship_seconds": 100.566873228,
+   "wall_s": 116.02493470799891,
+   "cost_usd": 0.045729768594236164
+  }
+ },
+ "no_chair_object": false,
+ "started": "2026-09-23T19:55:11",
+ "backend": "matanyone2",
+ "finished": "2026-09-23T19:57:24",
+ "wall_s": 534.2
+}

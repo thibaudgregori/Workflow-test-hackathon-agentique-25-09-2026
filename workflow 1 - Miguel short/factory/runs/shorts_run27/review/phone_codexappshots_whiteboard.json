@@ -1,0 +1,131 @@
+{
+ "label": "codexappshots_whiteboard",
+ "video": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/output/codexappshots_whiteboard.mp4",
+ "phone_scale": "405x720",
+ "sheet": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/phone_codexappshots_whiteboard.png",
+ "rule": "a FRESH judge (never read the plan) names each crop in <=3 words. Wrong name, hedge, or 'cannot tell' = the object is redesigned, not annotated.",
+ "answer_key": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/phone_codexappshots_whiteboard.key.json",
+ "answer_key_rule": "DO NOT OPEN the answer key until every judge_answer below is filled in. Reading it first voids the Phone Test.",
+ "objects": [
+  {
+   "i": 0,
+   "t": 2.6,
+   "bbox_norm": [
+    0.3472,
+    0.166,
+    0.7639,
+    0.3223
+   ],
+   "phone_box_px": [
+    140,
+    119,
+    309,
+    232
+   ],
+   "phone_size_px": [
+    169,
+    113
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/phone_codexappshots_whiteboard/00.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  },
+  {
+   "i": 1,
+   "t": 9.9,
+   "bbox_norm": [
+    0.4028,
+    0.1875,
+    0.7118,
+    0.2715
+   ],
+   "phone_box_px": [
+    163,
+    135,
+    288,
+    195
+   ],
+   "phone_size_px": [
+    125,
+    60
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/phone_codexappshots_whiteboard/01.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  },
+  {
+   "i": 2,
+   "t": 16.0,
+   "bbox_norm": [
+    0.1458,
+    0.1895,
+    0.8542,
+    0.2832
+   ],
+   "phone_box_px": [
+    59,
+    136,
+    345,
+    203
+   ],
+   "phone_size_px": [
+    286,
+    67
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/phone_codexappshots_whiteboard/02.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  },
+  {
+   "i": 3,
+   "t": 20.4,
+   "bbox_norm": [
+    0.3924,
+    0.168,
+    0.559,
+    0.2832
+   ],
+   "phone_box_px": [
+    158,
+    120,
+    226,
+    203
+   ],
+   "phone_size_px": [
+    68,
+    83
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/phone_codexappshots_whiteboard/03.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  },
+  {
+   "i": 4,
+   "t": 27.4,
+   "bbox_norm": [
+    0.3194,
+    0.1465,
+    0.684,
+    0.3242
+   ],
+   "phone_box_px": [
+    129,
+    105,
+    277,
+    233
+   ],
+   "phone_size_px": [
+    148,
+    128
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/phone_codexappshots_whiteboard/04.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  }
+ ]
+}

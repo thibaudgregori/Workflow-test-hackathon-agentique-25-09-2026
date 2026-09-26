@@ -1,0 +1,21 @@
+{
+  "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/projects/grokfeatures_whiteboard",
+  "vid": "grokfeatures",
+  "fmt": "whiteboard",
+  "quality": "high",
+  "stage": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/staging/reels/grokfeatures_whiteboard.mp4",
+  "qc_args": [
+    "--voice-master",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/cuts/grokfeatures/audio.m4a",
+    "--phone-at",
+    "4.20:0.27778,0.14648,0.72222,0.38672:three-step winners podium",
+    "--phone-at",
+    "12.60:0.30556,0.14062,0.69444,0.38281:calendar full of checkmarks",
+    "--phone-at",
+    "16.40:0.28819,0.25195,0.68750,0.38867:open cardboard box",
+    "--phone-at",
+    "29.60:0.27778,0.14648,0.72222,0.38867:pile of cardboard boxes",
+    "--seams",
+    "8.3,14.7,24.4"
+  ]
+}

@@ -1,0 +1,170 @@
+{
+ "set": "seal",
+ "phone_scale": "405x720",
+ "module": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/gen/falagent_scene.py",
+ "anchor_law": {
+  "off_outline_px": {
+   "conn-friend": [
+    0.0,
+    0.0
+   ],
+   "conn-prompt": [
+    0.0,
+    0.0
+   ],
+   "conn-consist": [
+    0.0,
+    0.0
+   ],
+   "conn-out-a": [
+    0.0,
+    0.0
+   ],
+   "conn-out-b": [
+    0.0,
+    0.0
+   ]
+  },
+  "verdict": "PASS"
+ },
+ "objects": [
+  {
+   "i": 0,
+   "label": "palette",
+   "intended": "an artist's palette",
+   "core_box": [
+    407.25,
+    145.4,
+    672.75,
+    332.6
+   ],
+   "norm_box": [
+    0.3771,
+    0.1757,
+    0.6229,
+    0.2732
+   ],
+   "phone_size_px": [
+    116,
+    86
+   ],
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_falagent/00.png",
+   "tight_x3": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_falagent/00_tight.png"
+  },
+  {
+   "i": 1,
+   "label": "clapper",
+   "intended": "a movie clapperboard",
+   "core_box": [
+    160.0,
+    144.0,
+    340.0,
+    340.0
+   ],
+   "norm_box": [
+    0.1481,
+    0.175,
+    0.3148,
+    0.2771
+   ],
+   "phone_size_px": [
+    83,
+    90
+   ],
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_falagent/01.png",
+   "tight_x3": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_falagent/01_tight.png"
+  },
+  {
+   "i": 2,
+   "label": "easel",
+   "intended": "a painter's easel",
+   "core_box": [
+    756.0,
+    114.0,
+    904.0,
+    346.0
+   ],
+   "norm_box": [
+    0.7,
+    0.1594,
+    0.837,
+    0.2802
+   ],
+   "phone_size_px": [
+    72,
+    103
+   ],
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_falagent/02.png",
+   "tight_x3": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_falagent/02_tight.png"
+  },
+  {
+   "i": 3,
+   "label": "dartboard",
+   "intended": "a dartboard with dart",
+   "core_box": [
+    410.0,
+    96.0,
+    670.0,
+    356.0
+   ],
+   "norm_box": [
+    0.3796,
+    0.15,
+    0.6204,
+    0.2854
+   ],
+   "phone_size_px": [
+    114,
+    113
+   ],
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_falagent/03.png",
+   "tight_x3": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_falagent/03_tight.png"
+  },
+  {
+   "i": 4,
+   "label": "strip",
+   "intended": "a film strip",
+   "core_box": [
+    240.0,
+    110.0,
+    840.0,
+    310.0
+   ],
+   "norm_box": [
+    0.2222,
+    0.1573,
+    0.7778,
+    0.2615
+   ],
+   "phone_size_px": [
+    241,
+    91
+   ],
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_falagent/04.png",
+   "tight_x3": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_falagent/04_tight.png"
+  },
+  {
+   "i": 5,
+   "label": "window",
+   "intended": "a browser window (UI chrome, not bespoke)",
+   "core_box": [
+    220.0,
+    86.0,
+    860.0,
+    426.0
+   ],
+   "norm_box": [
+    0.2037,
+    0.1448,
+    0.7963,
+    0.3219
+   ],
+   "phone_size_px": [
+    256,
+    143
+   ],
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_falagent/05.png",
+   "tight_x3": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_falagent/05_tight.png"
+  }
+ ]
+}

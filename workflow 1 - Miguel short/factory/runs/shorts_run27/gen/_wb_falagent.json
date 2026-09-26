@@ -1,0 +1,546 @@
+{
+ "video": "falagent",
+ "format": "whiteboard",
+ "variant": "plan view (fix)",
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/projects/falagent_whiteboard",
+ "handle": "@migueltorrez.ai",
+ "handle_key": "tiktok_ig",
+ "duration_s": 33.24,
+ "fps": 25,
+ "render": "1080x1920 @ zoom 1",
+ "board": "576x460 design units",
+ "board_box": [
+  40.0,
+  150.0,
+  536.0,
+  425.0
+ ],
+ "strokes": 43,
+ "rigids": 41,
+ "board_text": [
+  "FAL AGENT",
+  "VIDEOS",
+  "IMAGES",
+  "THE MODEL",
+  "THE PROMPT",
+  "CONSISTENT",
+  "FINE-TUNED",
+  "fal.ai",
+  "ANY GENERATION"
+ ],
+ "top_ink_u": 148.4,
+ "top_band_u": 102.4,
+ "pen_top_u": 109.9,
+ "ink_bottom_px": 669.6,
+ "cap_band_top_px": 799.2,
+ "cap_clearance_px": 129.6,
+ "ink_bottom_ink_px": 663.8,
+ "cap_clearance_ink_px": 135.5,
+ "seam_pill_top_px": 805.2,
+ "cap_clearance_ink_to_pill_px": 141.5,
+ "seam_measures": "cap_clearance_px = line boxes vs the reserved band (THE GATE); cap_clearance_ink_px = glyph ink vs the same band; cap_clearance_ink_to_pill_px = glyph ink vs the pill's painted top edge (the clerk's surface)",
+ "rail_hits": [],
+ "label_law": {
+  "window_s": 1.0,
+  "key_term": "FAL AGENT",
+  "key_term_fs_u": 23.0,
+  "written": {
+   "FAL AGENT": 5.62,
+   "VIDEOS": 9.0,
+   "IMAGES": 9.78,
+   "THE MODEL": 12.14,
+   "THE PROMPT": 13.46,
+   "CONSISTENT": 16.4,
+   "FINE-TUNED": 19.18,
+   "fal.ai": 25.2,
+   "ANY GENERATION": 27.74
+  },
+  "plan": {
+   "agent": "FAL AGENT",
+   "videos": "VIDEOS",
+   "images": "IMAGES",
+   "model": "THE MODEL",
+   "prompt": "THE PROMPT",
+   "consistent": "CONSISTENT",
+   "finetuned": "FINE-TUNED",
+   "generation": "ANY GENERATION"
+  },
+  "comparisons": [
+   [
+    "THE MODEL",
+    "THE PROMPT"
+   ]
+  ],
+  "unplanned_text": [],
+  "verdict": "PASS"
+ },
+ "law4": {
+  "law": "4 (overlap test)",
+  "board_words_that_also_appear_as_a_pill": {
+   "FAL AGENT": [
+    5.62,
+    6.34
+   ]
+  }
+ },
+ "round4": {
+  "law6_lifetimes": {
+   "duration_s": 33.24,
+   "chaptered": true,
+   "max_frac": 0.4,
+   "declared_anchors": [],
+   "lingering": [],
+   "verdict": "PASS"
+  },
+  "law2_no_enclosure": {
+   "rings": 0,
+   "boxes": 1,
+   "highlights": 0,
+   "rasters": [],
+   "wrong_tool_advisory": [],
+   "verdict": "PASS"
+  },
+  "law3_label_side": {
+   "checked": 8,
+   "detail": {
+    "FAL AGENT": {
+     "host": "fal-tile",
+     "dx_u": 0.0,
+     "band_u": 45.8,
+     "place": "below"
+    },
+    "VIDEOS": {
+     "host": "clapper",
+     "dx_u": 0.0,
+     "band_u": 75.4,
+     "place": "below"
+    },
+    "IMAGES": {
+     "host": "easel",
+     "dx_u": 0.0,
+     "band_u": 57.2,
+     "place": "below"
+    },
+    "THE MODEL": {
+     "host": "model-row",
+     "dx_u": 0.0,
+     "band_u": 195.6,
+     "place": "below"
+    },
+    "THE PROMPT": {
+     "host": "dartboard",
+     "dx_u": 0.0,
+     "band_u": 65.0,
+     "place": "below"
+    },
+    "CONSISTENT": {
+     "host": "strip",
+     "dx_u": 0.0,
+     "band_u": 195.0,
+     "place": "below"
+    },
+    "FINE-TUNED": {
+     "host": "fal-tile-2",
+     "dx_u": 0.0,
+     "band_u": 45.8,
+     "place": "below"
+    },
+    "ANY GENERATION": {
+     "host": "window",
+     "dx_u": 0.0,
+     "band_u": 254.8,
+     "place": "below"
+    }
+   },
+   "verdict": "PASS"
+  },
+  "law5_spacing": {
+   "gate_u": 8.5,
+   "gate_px": 15.9,
+   "aim_u": 12.8,
+   "aim_px": 24.0,
+   "measured_on": "element line boxes",
+   "under_aim": [],
+   "objects": 30,
+   "verdict": "PASS"
+  },
+  "law5_spacing_ink": {
+   "gate_u": 8.5,
+   "gate_px": 15.9,
+   "aim_u": 12.8,
+   "aim_px": 24.0,
+   "measured_on": "glyph ink extents",
+   "under_aim": [],
+   "objects": 30,
+   "verdict": "PASS"
+  },
+  "law5_no_crossing": {
+   "strokes": 43,
+   "types": 9,
+   "verdict": "PASS"
+  },
+  "law4_anchors": {
+   "targets": 5,
+   "detail": {
+    "fal-tile": {
+     "n": 1,
+     "spread_u": 0.0,
+     "level": true,
+     "mirrored": false,
+     "on_rect": true
+    },
+    "dartboard-2": {
+     "n": 1,
+     "spread_u": 0.0,
+     "level": true,
+     "mirrored": false,
+     "on_rect": true
+    },
+    "strip-2": {
+     "n": 1,
+     "spread_u": 0.0,
+     "level": true,
+     "mirrored": false,
+     "on_rect": true
+    },
+    "out-pic": {
+     "n": 1,
+     "spread_u": 0.0,
+     "level": true,
+     "mirrored": false,
+     "on_rect": true
+    },
+    "out-clip": {
+     "n": 1,
+     "spread_u": 0.0,
+     "level": true,
+     "mirrored": false,
+     "on_rect": true
+    }
+   },
+   "verdict": "PASS"
+  }
+ },
+ "outro": {
+  "move": "opaque sheet rises over the board",
+  "wipe_start": 29.06,
+  "wipe_end": 29.62,
+  "travel_px": 862.5,
+  "sheet_opaque": true,
+  "sheet_covers_px": 862.5,
+  "card_ink_enters_px": 322.5,
+  "board_covered_px": 584.3,
+  "overlap_px": 261.8,
+  "board_moves": false,
+  "board_fades": false,
+  "outro_start": 29.06,
+  "verdict": "PASS"
+ },
+ "captions": 36,
+ "cap_font_px": 56.2,
+ "cap_max_pill_w_px": 748.4,
+ "cap_w_budget_px": 756.0,
+ "anchors": {
+  "start": 0.1,
+  "ai": 1.22,
+  "best": 2.24,
+  "falai": 2.88,
+  "just": 3.78,
+  "agent": 4.88,
+  "seam0": 6.34,
+  "videos": 8.56,
+  "images": 9.4,
+  "seam1": 11.68,
+  "the": 12.02,
+  "model": 12.12,
+  "seam2": 13.02,
+  "prompt": 13.46,
+  "right": 13.76,
+  "seam3": 15.16,
+  "generations": 15.52,
+  "consistent": 16.4,
+  "across": 17.04,
+  "seam4": 17.86,
+  "finetuned": 19.18,
+  "do": 20.04,
+  "exactly": 20.4,
+  "seam5": 24.1,
+  "website": 25.14,
+  "help": 26.8,
+  "you": 27.06,
+  "generation": 27.74,
+  "outro": 29.06,
+  "news": 31.8
+ },
+ "html_bytes": 248746,
+ "sfx": 27,
+ "pen_loops": 10,
+ "pen_seconds": 3.34,
+ "pen_duty_pct": 10.0,
+ "captions_law3b": {
+  "beats_before_merge": 36,
+  "beats_after_merge": 36,
+  "merges": 0,
+  "merged_away": [],
+  "widest_pill_px": 748.4,
+  "budget_px": 756.0,
+  "beats": [
+   [
+    0.1,
+    0.78,
+    "Creative people"
+   ],
+   [
+    0.78,
+    1.22,
+    "working with"
+   ],
+   [
+    1.22,
+    1.98,
+    "AI now have a"
+   ],
+   [
+    1.98,
+    2.88,
+    "new best friend."
+   ],
+   [
+    2.88,
+    4.56,
+    "fal.ai just released"
+   ],
+   [
+    4.56,
+    5.58,
+    "fal agent."
+   ],
+   [
+    5.58,
+    6.12,
+    "When working"
+   ],
+   [
+    6.12,
+    6.84,
+    "with creative"
+   ],
+   [
+    6.84,
+    7.56,
+    "use cases,"
+   ],
+   [
+    7.56,
+    8.1,
+    "whether it's"
+   ],
+   [
+    8.1,
+    9.18,
+    "generating videos"
+   ],
+   [
+    9.18,
+    10.06,
+    "or images,"
+   ],
+   [
+    10.06,
+    11.1,
+    "the hard thing"
+   ],
+   [
+    11.1,
+    12.12,
+    "is not choosing the"
+   ],
+   [
+    12.12,
+    13.46,
+    "model. It's getting the"
+   ],
+   [
+    13.46,
+    14.62,
+    "prompt right and making"
+   ],
+   [
+    14.62,
+    15.38,
+    "sure that all of"
+   ],
+   [
+    15.38,
+    16.24,
+    "your generations"
+   ],
+   [
+    16.24,
+    17.04,
+    "are consistent"
+   ],
+   [
+    17.04,
+    17.86,
+    "across the board."
+   ],
+   [
+    17.86,
+    19.18,
+    "fal agent has been"
+   ],
+   [
+    19.18,
+    20.04,
+    "fine-tuned to"
+   ],
+   [
+    20.04,
+    21.58,
+    "do exactly that,"
+   ],
+   [
+    21.58,
+    22.58,
+    "meaning that now you"
+   ],
+   [
+    22.58,
+    23.22,
+    "can just"
+   ],
+   [
+    23.22,
+    24.42,
+    "use their agent inside"
+   ],
+   [
+    24.42,
+    25.92,
+    "of their own website"
+   ],
+   [
+    25.92,
+    27.06,
+    "and have it help"
+   ],
+   [
+    27.06,
+    28.28,
+    "you with any generation"
+   ],
+   [
+    28.28,
+    29.06,
+    "that you might need."
+   ],
+   [
+    29.06,
+    29.84,
+    "Now follow for more"
+   ],
+   [
+    29.84,
+    30.32,
+    "AI news,"
+   ],
+   [
+    30.32,
+    31.38,
+    "videos, and tutorials each"
+   ],
+   [
+    31.38,
+    32.22,
+    "and every single day,"
+   ],
+   [
+    32.22,
+    32.6,
+    "and catch you in"
+   ],
+   [
+    32.6,
+    33.14,
+    "the next one."
+   ]
+  ]
+ },
+ "seam_law": {
+  "plan_mode": "chapters",
+  "chapters": 7,
+  "seams": [
+   6.34,
+   11.68,
+   13.02,
+   15.16,
+   17.86,
+   24.1
+  ],
+  "erase_s": 0.3,
+  "qc_seams": "6.34,11.68,13.02,15.16,17.86,24.1",
+  "handover": {
+   "6.34": "the palette is never erased: it glides back to the axis at 0.8 scale (carried across)",
+   "11.68": "four model tiles inked 11.72-12.08, marks popped inside",
+   "13.02": "dartboard rim closed by 13.26",
+   "15.16": "film strip outline closed by 15.38",
+   "17.86": "fal plate outline closed by 18.14, mark in at 18.02",
+   "24.10": "the fal plate is never erased: it walks into the window"
+  },
+  "outro_wipe": 29.06
+ },
+ "phone_at": [
+  "2:0.3681,0.1797,0.6354,0.2949:an artists palette",
+  "9.3:0.1215,0.1934,0.3438,0.2891:a movie clapperboard",
+  "10.4:0.6806,0.166,0.8542,0.291:a painters easel",
+  "14.6:0.4028,0.1758,0.6076,0.2871:a dartboard with dart",
+  "16.9:0.2292,0.1855,0.7708,0.2793:a film strip"
+ ],
+ "pointing_cues": {
+  "n": 0,
+  "note": "cue_count 0; nothing raised"
+ },
+ "connectors": [
+  {
+   "name": "conn-friend",
+   "to": "fal-tile",
+   "end": [
+    368.8,
+    240.0
+   ]
+  },
+  {
+   "name": "conn-prompt",
+   "to": "dartboard-2",
+   "end": [
+    168.0,
+    282.0
+   ]
+  },
+  {
+   "name": "conn-consist",
+   "to": "strip-2",
+   "end": [
+    408.0,
+    282.0
+   ]
+  },
+  {
+   "name": "conn-out-a",
+   "to": "out-pic",
+   "end": [
+    322.0,
+    223.0
+   ]
+  },
+  {
+   "name": "conn-out-b",
+   "to": "out-clip",
+   "end": [
+    322.0,
+    287.0
+   ]
+  }
+ ]
+}

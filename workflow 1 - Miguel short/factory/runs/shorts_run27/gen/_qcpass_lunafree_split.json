@@ -1,0 +1,373 @@
+{
+ "render": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/output/lunafree_split.mp4",
+ "vid": "lunafree",
+ "fmt": "split",
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/projects/lunafree_split",
+ "checks": {
+  "decoded_blank_frames": {
+   "ok": true,
+   "result": {
+    "frames": 528,
+    "fps": 25.0,
+    "zone": [
+     0,
+     862,
+     1080,
+     862
+    ],
+    "ink_floor": 0.0006,
+    "min_ink_frac": 0.0,
+    "empty_frames_total": 3,
+    "leading_trailing_empty": 3,
+    "interior_blank_frames": [],
+    "pass": true
+   },
+   "wall_s": 0.0
+  },
+  "zero_ink_law": {
+   "ok": true,
+   "result": {
+    "render": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/output/lunafree_split.mp4",
+    "frames": 528,
+    "fps": 25.0,
+    "zone_bottom_design_px": 862.5,
+    "zone_px": [
+     1080,
+     862
+    ],
+    "first_word_s": 0.12,
+    "leading_empty_frames": 3,
+    "first_judged_frame": 3,
+    "min_ink_frac_judged": 0.02923971,
+    "min_ink_frac_at_s": 0.12,
+    "blank_frames": [],
+    "verdict": "PASS"
+   },
+   "wall_s": 0.0
+  },
+  "clip_coverage_page": {
+   "ok": true,
+   "result": {
+    "duration_s": 21.12,
+    "fps": 25,
+    "groups": {
+     "stage": {
+      "clips": 0,
+      "checked": false,
+      "note": "fewer than two clips \u2014 nothing can hand over"
+     },
+     "tz": {
+      "clips": 1,
+      "checked": false,
+      "note": "fewer than two clips \u2014 nothing can hand over"
+     },
+     "scap": {
+      "clips": 18,
+      "checked": true,
+      "frames": 528,
+      "span": [
+       0.12,
+       21.1
+      ],
+      "holes": [],
+      "ghosts": [],
+      "pass": true
+     }
+    },
+    "holes": 0,
+    "ghosts": 0,
+    "pass": true
+   },
+   "wall_s": 0.0
+  },
+  "double_exposure": {
+   "ok": true,
+   "result": {
+    "frames": 528,
+    "fps": 25.0,
+    "first_word_s": 0.12,
+    "leading_blank_run_frames": 4,
+    "after_first_word": {
+     "from_frame": 3,
+     "from_t": 0.12,
+     "basis": "first spoken word",
+     "min_ink": 0,
+     "min_ink_t": 0.12,
+     "min_ink40": 0,
+     "min_ink40_t": 0.12,
+     "zero_ink_frames": [
+      0.12,
+      6.0,
+      6.04,
+      17.0,
+      17.04,
+      17.08,
+      17.12,
+      17.16,
+      17.2
+     ],
+     "zero_ink40_frames": [
+      0.12,
+      5.96,
+      6.0,
+      6.04,
+      17.0,
+      17.04,
+      17.08,
+      17.12,
+      17.16,
+      17.2
+     ]
+    },
+    "after_leading_run": {
+     "from_frame": 4,
+     "from_t": 0.16,
+     "basis": "opening fade-up cleared",
+     "min_ink": 0,
+     "min_ink_t": 6.0,
+     "min_ink40": 0,
+     "min_ink40_t": 5.96,
+     "zero_ink_frames": [
+      6.0,
+      6.04,
+      17.0,
+      17.04,
+      17.08,
+      17.12,
+      17.16,
+      17.2
+     ],
+     "zero_ink40_frames": [
+      5.96,
+      6.0,
+      6.04,
+      17.0,
+      17.04,
+      17.08,
+      17.12,
+      17.16,
+      17.2
+     ]
+    },
+    "after_first_readable_ink": {
+     "from_frame": 4,
+     "from_t": 0.16,
+     "basis": "first READABLE ink on screen",
+     "min_ink": 0,
+     "min_ink_t": 6.0,
+     "min_ink40": 0,
+     "min_ink40_t": 5.96,
+     "zero_ink_frames": [
+      6.0,
+      6.04,
+      17.0,
+      17.04,
+      17.08,
+      17.12,
+      17.16,
+      17.2
+     ],
+     "zero_ink40_frames": [
+      5.96,
+      6.0,
+      6.04,
+      17.0,
+      17.04,
+      17.08,
+      17.12,
+      17.16,
+      17.2
+     ]
+    },
+    "double_exposure_floor_px": 600,
+    "double_exposure_frames": [
+     {
+      "t": 4.72,
+      "outgoing_px": 1404,
+      "incoming_px": 956
+     },
+     {
+      "t": 4.76,
+      "outgoing_px": 843,
+      "incoming_px": 967
+     },
+     {
+      "t": 4.8,
+      "outgoing_px": 615,
+      "incoming_px": 1406
+     }
+    ],
+    "double_exposure_count": 3,
+    "note": "candidates, not a verdict \u2014 adjudicate each window (procedure v3); the opening fade-up legitimately fires"
+   },
+   "wall_s": 0.06
+  },
+  "face_centring": {
+   "ok": true,
+   "result": {
+    "label": "lunafree_split",
+    "video": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/output/lunafree_split.mp4",
+    "duration_s": 21.14,
+    "detector": "mediapipe/blazeface",
+    "segment_source": "auto:layout-detector",
+    "segments": null,
+    "every_s": 0.5,
+    "tol_pct": 4.0,
+    "band_level": "warning",
+    "full_face": {
+     "n": 0,
+     "worst_dx_pct": null,
+     "worst_t": null,
+     "mean_abs_dx_pct": null,
+     "offenders": []
+    },
+    "band": {
+     "n": 42,
+     "worst_dx_pct": 4.81,
+     "worst_t": 10.5,
+     "warnings": [
+      {
+       "t": 10.5,
+       "dx_pct": 4.81,
+       "face_h_pct": 15.6,
+       "class": "band",
+       "score": 0.98,
+       "skin": 0.89
+      }
+     ]
+    },
+    "pass": true,
+    "verdict": "PASS"
+   },
+   "wall_s": 0.76
+  },
+  "pill_canon_rendered": {
+   "ok": true,
+   "result": {
+    "samples": 60,
+    "band_rows_px": [
+     772,
+     952
+    ],
+    "frames_without_a_pill": 0,
+    "distinct_heights_px": {
+     "114": 60
+    },
+    "modal_height_px": 114,
+    "modal_height_design_px": 114.0,
+    "spread_px": 0,
+    "spread_max_px": 2.0,
+    "canonical_height_px": 114.59,
+    "canonical_height_design_px": 114.59,
+    "modal_vs_canon_px": 0.59,
+    "tolerance_px": 3.0,
+    "delivery_scale": 1.0,
+    "widest_pill_px": 716,
+    "widest_pill_in_design_px": 716.0,
+    "verdict": "PASS",
+    "pass": true
+   },
+   "wall_s": 0.0
+  },
+  "gate1_geometry_audit": {
+   "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/geometry_audit.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/projects/lunafree_split --step 0.25 --out /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/gen/_gate1_lunafree_split.json",
+   "rc": 0,
+   "stdout": "lunafree_split: 0 errors, 0 warnings (21.1s @ 0.25s step)\n",
+   "stderr": "",
+   "wall_s": 2.54
+  },
+  "gate2_frame_review": {
+   "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/qc/gate2_frames.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/output/lunafree_split.mp4 --full --transcript /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/cuts/lunafree/transcript_tight.json",
+   "rc": 0,
+   "stdout": "/projects/personal/content/shorts-factory/runs/shorts_run27/output/frames_lunafree_split/f_0011_000.jpg\n  t=00:11.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/output/frames_lunafree_split/f_0011_333.jpg\n  t=00:11.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/output/frames_lunafree_split/f_0011_666.jpg\n  t=00:12.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/output/frames_lunafree_split/f_0012_000.jpg\n  t=00:12.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/output/frames_lunafree_split/f_0012_666.jpg\n  t=00:13.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/output/frames_lunafree_split/f_0013_000.jpg\n  t=00:13.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/output/frames_lunafree_split/f_0013_333.jpg\n  t=00:13.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/output/frames_lunafree_split/f_0013_666.jpg\n  t=00:14.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/output/frames_lunafree_split/f_0014_000.jpg\n  t=00:14.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/output/frames_lunafree_split/f_0014_333.jpg\n  t=00:14.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/output/frames_lunafree_split/f_0014_666.jpg\n  t=00:15.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/output/frames_lunafree_split/f_0015_333.jpg\n  t=00:15.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/output/frames_lunafree_split/f_0015_666.jpg\n  t=00:16.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/output/frames_lunafree_split/f_0016_000.jpg\n  t=00:16.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/output/frames_lunafree_split/f_0016_333.jpg\n  t=00:16.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/output/frames_lunafree_split/f_0016_666.jpg\n  t=00:17.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/output/frames_lunafree_split/f_0017_000.jpg\n  t=00:17.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/output/frames_lunafree_split/f_0017_333.jpg\n  t=00:17.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/output/frames_lunafree_split/f_0017_666.jpg\n  t=00:18.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/output/frames_lunafree_split/f_0018_000.jpg\n  t=00:18.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/output/frames_lunafree_split/f_0018_333.jpg\n  t=00:19.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/output/frames_lunafree_split/f_0019_000.jpg\n  t=00:19.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/output/frames_lunafree_split/f_0019_666.jpg\n  t=00:20.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/output/frames_lunafree_split/f_0020_000.jpg\n  t=00:20.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/output/frames_lunafree_split/f_0020_333.jpg\n  t=00:20.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/output/frames_lunafree_split/f_0020_666.jpg\n\nManifest: /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/output/frames_lunafree_split/manifest.md  (delete dir after review)\n",
+   "stderr": "",
+   "wall_s": 1.35
+  },
+  "audio_guards": {
+   "ok": true,
+   "result": {
+    "mix_8_16k_db": -29.89,
+    "master_8_16k_db": -29.73,
+    "delta_db": -0.16,
+    "tolerance_db": 6.0,
+    "speech_margin_db_p85_p15_33ms_s16le": 17.741,
+    "sync": {
+     "lag_ms": 0,
+     "r": 0.9951,
+     "instrument": "10 ms |x| envelope, +/-250 ms search"
+    },
+    "audio_initial_padding_samples": 0,
+    "verdict": "PASS",
+    "pass": true
+   },
+   "wall_s": 0.85
+  },
+  "contact_sheet": {
+   "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/contact_sheet.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/output/lunafree_split.mp4 --id lunafree --fmt split --run /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27",
+   "rc": 0,
+   "stdout": "{\n \"sheet\": \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/sheet_lunafree_split.png\",\n \"id\": \"lunafree\",\n \"fmt\": \"split\",\n \"duration_s\": 21.14,\n \"frame_source\": \"even\",\n \"times\": [\n  0.88,\n  2.64,\n  4.4,\n  6.17,\n  7.93,\n  9.69,\n  11.45,\n  13.21,\n  14.98,\n  16.74,\n  18.5,\n  20.26\n ],\n \"size_px\": [\n  1798,\n  4344\n ]\n}\n",
+   "stderr": "",
+   "wall_s": 2.7
+  },
+  "phone_crops": {
+   "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/phone_crops.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/output/lunafree_split.mp4 --out /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review --label lunafree_split --at 1.8:0.387,0.199,0.613,0.3302:wrapped gift box --at 11.7:0.2407,0.1656,0.7593,0.3292:loud little speaker --at 13.02:0.3889,0.2021,0.6111,0.2958:piggy bank coin --at 15.2:0.4352,0.1833,0.8426,0.2958:tool pegboard wall",
+   "rc": 0,
+   "stdout": "{\n \"sheet\": \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/phone_lunafree_split.png\",\n \"manifest\": \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/phone_lunafree_split.json\",\n \"answer_key\": \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/phone_lunafree_split.key.json\",\n \"n_objects\": 4,\n \"phone_sizes_px\": [\n  [\n   92,\n   94\n  ],\n  [\n   210,\n   118\n  ],\n  [\n   90,\n   67\n  ],\n  [\n   165,\n   81\n  ]\n ]\n}\n",
+   "stderr": "",
+   "wall_s": 0.97
+  }
+ },
+ "skipped": {
+  "cutout_checks_24_25": "cutout only, and needs --project",
+  "gate3_gemini_describe": "no --vid, or skipped",
+  "edge_clip": "cutout only, and needs --alpha",
+  "whiteboard_seam_law": "whiteboard only, and needs --seams (the chapter erase times)",
+  "face_hf_vs_plate": "needs --plate (the display plate)",
+  "head_scale_vs_framing": "needs --alpha and --edge-box (the crown comes from the matte's own alpha, the chin from MediaPipe on the delivered frame)"
+ },
+ "zone_bottom_design_px": 862.5,
+ "decode": {
+  "frames": 528,
+  "fps": 25.0,
+  "size": [
+   1080,
+   1920
+  ],
+  "grid_frames": 42,
+  "caption_band_rows": [
+   772,
+   952
+  ],
+  "caption_seat_design_px": 862.5,
+  "wall_s": 4.46
+ },
+ "verdicts": {
+  "decoded_blank_frames": "PASS",
+  "zero_ink_law": "PASS",
+  "clip_coverage_page": "PASS",
+  "double_exposure": "REPORTED",
+  "face_centring": "PASS",
+  "pill_canon_rendered": "PASS",
+  "gate1_geometry_audit": "PASS",
+  "gate2_frame_review": "PASS",
+  "audio_guards": "PASS",
+  "contact_sheet": "PASS",
+  "phone_crops": "PASS"
+ },
+ "wall_s": {
+  "decoded_blank_frames": 0.0,
+  "zero_ink_law": 0.0,
+  "clip_coverage_page": 0.0,
+  "double_exposure": 0.06,
+  "face_centring": 0.76,
+  "pill_canon_rendered": 0.0,
+  "gate1_geometry_audit": 2.54,
+  "gate2_frame_review": 1.35,
+  "audio_guards": 0.85,
+  "contact_sheet": 2.7,
+  "phone_crops": 0.97,
+  "single_decode": 4.46
+ },
+ "total_wall_s": 5.36,
+ "pass": true
+}

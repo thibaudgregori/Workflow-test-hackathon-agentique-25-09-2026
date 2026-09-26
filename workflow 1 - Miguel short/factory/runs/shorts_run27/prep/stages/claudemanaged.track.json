@@ -1,0 +1,17 @@
+{
+ "id": "claudemanaged",
+ "stage": "track",
+ "status": "ok",
+ "wall_s": 108.54046004099837,
+ "at": "2026-09-23T18:36:58",
+ "keys": {
+  "status": "ok",
+  "backend": "matanyone2",
+  "model": "MatAnyone 2",
+  "alpha": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/matting/claudemanaged/alpha_v1.mkv",
+  "track_seconds": 86.488213519,
+  "cost_usd": 0.024538435939610678,
+  "review_status": "needs_final_visual_review",
+  "wall_s": 108.54046004099837
+ }
+}

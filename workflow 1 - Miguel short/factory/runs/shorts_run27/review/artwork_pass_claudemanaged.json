@@ -1,0 +1,13 @@
+{
+  "verdict": "PASS",
+  "vid": "claudemanaged",
+  "sealed_by": "design-agent-v4",
+  "seal_rounds": 0,
+  "objects": null,
+  "module": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/gen/claudemanaged_scene.py",
+  "handoff": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/plans/claudemanaged_scene_handoff.md",
+  "evidence": {
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/gen/claudemanaged_scene.py": "70158caf66dc2b96547e9764683ffb05d24bdb2d5811706294fddde9abcf676a",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/plans/claudemanaged_scene_handoff.md": "9291d4e249b158913a6f3770921ad5d530d0baae970a6092602eb4137f7bb768"
+  }
+}

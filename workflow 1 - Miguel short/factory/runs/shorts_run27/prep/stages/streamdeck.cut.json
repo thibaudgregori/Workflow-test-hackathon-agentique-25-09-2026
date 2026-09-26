@@ -1,0 +1,19 @@
+{
+ "id": "streamdeck",
+ "stage": "cut",
+ "status": "ok",
+ "wall_s": 58.6,
+ "at": "2026-09-23T18:27:16",
+ "keys": {
+  "status": "ok",
+  "master": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/cuts/streamdeck/master.mp4",
+  "audio": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/cuts/streamdeck/audio.m4a",
+  "edl": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/cuts/streamdeck/edl.json",
+  "transcript_tight": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/cuts/streamdeck/transcript_tight.json",
+  "cut_master_duration_s": 30.48,
+  "corroboration": "model-authored keep ranges",
+  "analysis_wav_written": false,
+  "tight_audio_duration_s": 30.47,
+  "wall_s": 58.6
+ }
+}

@@ -1,0 +1,14 @@
+{
+  "status": "ok",
+  "ship": "ok",
+  "selection_changed": false,
+  "edits": 0,
+  "rounds": 1,
+  "what_you_saw": "Viewed the clean frame, full selection overlay and head overlay: the unchanged contour preserves both ears, cheeks, jaw, chin, cap brim, neck and shoulders while excluding the chair back and headrest. Viewed all four shipped-matte sheets: playback.jpg shows a clean person silhouette at phone size; face_2x.jpg preserves the face and cap across the sampled beginning, middle and ending frames; chair_sides.jpg shows no visible chair slab, grey wedge or neck splash; hands.jpg shows present, solid hands with soft edges during fast gestures. A brief fingertip dropout/ghost at 0.4 seconds is restored in the 0.48-second playback sample, and fast-hand blur is acceptable under Miguel's brief-flash tolerance. These brief motion imperfections pass; no persistent viewer-visible defect was found in the reviewed sheets. No contour correction or SAM2 fallback was needed.",
+  "hold_reason": "",
+  "outputs": [
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/matting/ccremote/matte_ccremote_v5_cut.webm",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/matting/ccremote/matte_ccremote_v5_rim.webm",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/matting/ccremote/matte_ccremote_v5_alpha.webm"
+  ]
+}

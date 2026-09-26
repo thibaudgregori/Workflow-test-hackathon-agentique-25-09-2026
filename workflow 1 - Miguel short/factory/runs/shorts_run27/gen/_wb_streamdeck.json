@@ -1,0 +1,492 @@
+{
+ "video": "streamdeck",
+ "format": "whiteboard",
+ "variant": "plan view (fix)",
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/projects/streamdeck_whiteboard",
+ "handle": "@migueltorrez.ai",
+ "handle_key": "tiktok_ig",
+ "duration_s": 30.48,
+ "fps": 25,
+ "render": "1080x1920 @ zoom 1",
+ "board": "576x460 design units",
+ "board_box": [
+  40.0,
+  150.0,
+  536.0,
+  425.0
+ ],
+ "strokes": 39,
+ "rigids": 43,
+ "board_text": [
+  "STREAM DECK",
+  "EVERY DEVICE",
+  "ONE CLICK"
+ ],
+ "top_ink_u": 157.2,
+ "top_band_u": 102.4,
+ "pen_top_u": 110.7,
+ "ink_bottom_px": 782.1,
+ "cap_band_top_px": 799.2,
+ "cap_clearance_px": 17.1,
+ "ink_bottom_ink_px": 769.5,
+ "cap_clearance_ink_px": 29.7,
+ "seam_pill_top_px": 805.2,
+ "cap_clearance_ink_to_pill_px": 35.7,
+ "seam_measures": "cap_clearance_px = line boxes vs the reserved band (THE GATE); cap_clearance_ink_px = glyph ink vs the same band; cap_clearance_ink_to_pill_px = glyph ink vs the pill's painted top edge (the clerk's surface)",
+ "rail_hits": [],
+ "label_law": {
+  "window_s": 1.0,
+  "key_term": "STREAM DECK",
+  "key_term_fs_u": 24.0,
+  "written": {
+   "STREAM DECK": 1.9,
+   "EVERY DEVICE": 11.0,
+   "ONE CLICK": 25.8
+  },
+  "plan": {
+   "stream": "STREAM DECK",
+   "device": "EVERY DEVICE",
+   "clicking": "ONE CLICK"
+  },
+  "comparisons": [],
+  "unplanned_text": [],
+  "verdict": "PASS"
+ },
+ "law4": {
+  "law": "4 (overlap test)",
+  "board_words_that_also_appear_as_a_pill": {}
+ },
+ "round4": {
+  "law6_lifetimes": {
+   "duration_s": 30.48,
+   "chaptered": true,
+   "max_frac": 0.4,
+   "declared_anchors": [],
+   "lingering": [],
+   "verdict": "PASS"
+  },
+  "law2_no_enclosure": {
+   "rings": 0,
+   "boxes": 0,
+   "highlights": 0,
+   "rasters": [],
+   "wrong_tool_advisory": [],
+   "verdict": "PASS"
+  },
+  "law3_label_side": {
+   "checked": 3,
+   "detail": {
+    "STREAM DECK": {
+     "host": "deck",
+     "dx_u": 0.0,
+     "band_u": 119.6,
+     "place": "below"
+    },
+    "EVERY DEVICE": {
+     "host": "scan",
+     "dx_u": 21.0,
+     "band_u": 287.3,
+     "place": "below"
+    },
+    "ONE CLICK": {
+     "host": "bigkey",
+     "dx_u": 0.0,
+     "band_u": 91.0,
+     "place": "below"
+    }
+   },
+   "verdict": "PASS"
+  },
+  "law5_spacing": {
+   "gate_u": 8.5,
+   "gate_px": 15.9,
+   "aim_u": 12.8,
+   "aim_px": 24.0,
+   "measured_on": "element line boxes",
+   "under_aim": [],
+   "objects": 19,
+   "verdict": "PASS"
+  },
+  "law5_spacing_ink": {
+   "gate_u": 8.5,
+   "gate_px": 15.9,
+   "aim_u": 12.8,
+   "aim_px": 24.0,
+   "measured_on": "glyph ink extents",
+   "under_aim": [],
+   "objects": 19,
+   "verdict": "PASS"
+  },
+  "law5_no_crossing": {
+   "strokes": 39,
+   "types": 4,
+   "verdict": "PASS"
+  },
+  "law4_anchors": {
+   "targets": 2,
+   "detail": {
+    "deck": {
+     "n": 1,
+     "spread_u": 0.0,
+     "level": true,
+     "mirrored": false,
+     "on_rect": true
+    },
+    "deck2": {
+     "n": 3,
+     "spread_u": 0.0,
+     "level": true,
+     "mirrored": false,
+     "on_rect": true
+    }
+   },
+   "verdict": "PASS"
+  }
+ },
+ "outro": {
+  "move": "opaque sheet rises over the board",
+  "wipe_start": 26.52,
+  "wipe_end": 27.08,
+  "travel_px": 862.5,
+  "sheet_opaque": true,
+  "sheet_covers_px": 862.5,
+  "card_ink_enters_px": 322.5,
+  "board_covered_px": 567.8,
+  "overlap_px": 245.2,
+  "board_moves": false,
+  "board_fades": false,
+  "outro_start": 26.52,
+  "verdict": "PASS"
+ },
+ "captions": 33,
+ "cap_font_px": 56.2,
+ "cap_max_pill_w_px": 748.4,
+ "cap_w_budget_px": 756.0,
+ "anchors": {
+  "start": 0.12,
+  "claude": 1.0,
+  "stream": 1.84,
+  "claudecode": 3.3,
+  "code": 3.62,
+  "combination": 4.7,
+  "deck": 5.64,
+  "you": 6.08,
+  "cc2": 7.26,
+  "look": 8.8,
+  "around": 9.04,
+  "every": 9.82,
+  "single": 10.24,
+  "connected": 10.52,
+  "device": 10.94,
+  "lights": 13.38,
+  "fridge": 14.34,
+  "anything": 15.04,
+  "and": 16.34,
+  "map": 16.86,
+  "actions": 17.72,
+  "directly": 19.5,
+  "buttons": 21.16,
+  "because": 21.78,
+  "telling": 23.7,
+  "literally": 25.14,
+  "clicking": 25.68,
+  "outro": 26.52,
+  "news": 27.2
+ },
+ "html_bytes": 155504,
+ "sfx": 24,
+ "pen_loops": 7,
+ "pen_seconds": 2.2,
+ "pen_duty_pct": 7.2,
+ "captions_law3b": {
+  "beats_before_merge": 33,
+  "beats_after_merge": 33,
+  "merges": 0,
+  "merged_away": [],
+  "widest_pill_px": 748.4,
+  "budget_px": 756.0,
+  "beats": [
+   [
+    0.12,
+    0.86,
+    "The best accessory"
+   ],
+   [
+    0.86,
+    1.6,
+    "for Claude"
+   ],
+   [
+    1.6,
+    2.7,
+    "is the Stream Deck."
+   ],
+   [
+    2.7,
+    3.3,
+    "Now, by using"
+   ],
+   [
+    3.3,
+    4.2,
+    "Claude Code"
+   ],
+   [
+    4.2,
+    5.24,
+    "and the combination of"
+   ],
+   [
+    5.24,
+    6.08,
+    "the Stream Deck,"
+   ],
+   [
+    6.08,
+    6.86,
+    "you can literally just"
+   ],
+   [
+    6.86,
+    7.52,
+    "tell your Claude"
+   ],
+   [
+    7.52,
+    8.56,
+    "Code agent"
+   ],
+   [
+    8.56,
+    9.82,
+    "to look around for"
+   ],
+   [
+    9.82,
+    10.52,
+    "every single"
+   ],
+   [
+    10.52,
+    11.58,
+    "connected device"
+   ],
+   [
+    11.58,
+    12.42,
+    "on your network,"
+   ],
+   [
+    12.42,
+    14.1,
+    "whether it's your lights,"
+   ],
+   [
+    14.1,
+    15.04,
+    "your fridge,"
+   ],
+   [
+    15.04,
+    16.34,
+    "anything whatsoever,"
+   ],
+   [
+    16.34,
+    17.48,
+    "and to map all"
+   ],
+   [
+    17.48,
+    18.16,
+    "of the actions that"
+   ],
+   [
+    18.16,
+    19.5,
+    "you need to be doing"
+   ],
+   [
+    19.5,
+    20.78,
+    "directly to your Stream"
+   ],
+   [
+    20.78,
+    21.78,
+    "Deck buttons."
+   ],
+   [
+    21.78,
+    22.6,
+    "Because what's"
+   ],
+   [
+    22.6,
+    23.26,
+    "even simpler"
+   ],
+   [
+    23.26,
+    24.3,
+    "than just telling AI"
+   ],
+   [
+    24.3,
+    25.14,
+    "to do something?"
+   ],
+   [
+    25.14,
+    26.1,
+    "Literally just clicking a"
+   ],
+   [
+    26.1,
+    26.98,
+    "button. Now follow for"
+   ],
+   [
+    26.98,
+    27.64,
+    "more AI news,"
+   ],
+   [
+    27.64,
+    28.68,
+    "videos, and tutorials each"
+   ],
+   [
+    28.68,
+    29.54,
+    "and every single day,"
+   ],
+   [
+    29.54,
+    29.9,
+    "and catch you in"
+   ],
+   [
+    29.9,
+    30.4,
+    "the next one."
+   ]
+  ],
+  "law": "captions.py 3b \u2014 merge_function_only_beats over the WHOLE beat stream, then assert_no_function_only_beat inside build()"
+ },
+ "seam_law": {
+  "plan_mode": "chapters",
+  "chapters": 4,
+  "seams": [
+   5.9,
+   16.34,
+   21.78
+  ],
+  "erase_s": 0.3,
+  "qc_seams": "5.9,16.34,21.78",
+  "handover": [
+   {
+    "seam": 5.9,
+    "incoming": "flashlight, first ink 5.94, closed by 6.30"
+   },
+   {
+    "seam": 16.34,
+    "incoming": "keypad, first ink 16.38, six keys by 16.78"
+   },
+   {
+    "seam": 21.78,
+    "incoming": "prompt window, first ink 21.82, frame by 22.08"
+   }
+  ],
+  "outro_wipe": 26.52
+ },
+ "phone_test_objects": [
+  {
+   "i": 0,
+   "name": "keypad of claude buttons",
+   "t": 2.7,
+   "bbox_board_u": [
+    186.0,
+    158.0,
+    390.0,
+    350.0
+   ],
+   "bbox_norm": [
+    0.3229,
+    0.1543,
+    0.6771,
+    0.3418
+   ],
+   "plan_name": "Claude button keypad",
+   "plan_t": 2.6
+  },
+  {
+   "i": 1,
+   "name": "flashlight finding devices",
+   "t": 12.3,
+   "bbox_board_u": [
+    44.0,
+    154.0,
+    490.0,
+    386.0
+   ],
+   "bbox_norm": [
+    0.0764,
+    0.1504,
+    0.8507,
+    0.377
+   ],
+   "plan_name": "flashlight finding devices",
+   "plan_t": 14.1
+  },
+  {
+   "i": 2,
+   "name": "devices wired to keypad",
+   "t": 20.95,
+   "bbox_board_u": [
+    188.0,
+    156.0,
+    388.0,
+    392.0
+   ],
+   "bbox_norm": [
+    0.3264,
+    0.1523,
+    0.6736,
+    0.3828
+   ],
+   "plan_name": "devices wired to keypad",
+   "plan_t": 20.9
+  },
+  {
+   "i": 3,
+   "name": "pressed light button",
+   "t": 26.35,
+   "bbox_board_u": [
+    324.0,
+    196.0,
+    476.0,
+    356.0
+   ],
+   "bbox_norm": [
+    0.5625,
+    0.1914,
+    0.8264,
+    0.3477
+   ],
+   "plan_name": "pressed light button",
+   "plan_t": 26.3
+  }
+ ],
+ "pointing_cues": {
+  "n": 0,
+  "waived": [],
+  "cards": []
+ },
+ "qc_phone_at": [
+  "2.7:0.3229,0.1543,0.6771,0.3418:keypad of claude buttons",
+  "12.3:0.0764,0.1504,0.8507,0.377:flashlight finding devices",
+  "20.95:0.3264,0.1523,0.6736,0.3828:devices wired to keypad",
+  "26.35:0.5625,0.1914,0.8264,0.3477:pressed light button"
+ ]
+}

@@ -1,0 +1,22 @@
+{
+  "verdict": "PASS",
+  "plan_json": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/plans/lunafree_plan.json",
+  "plan_md": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/plans/lunafree_plan.md",
+  "lane": "icon choreography",
+  "lane_reason": "The script makes three plain claims (a model handed out free inside ChatGPT, a small thing that gets loud when its reasoning knob goes to max, a cheap tool worth keeping on the wall), and each is an everyday object plus two real marks, so drawn objects and the OpenAI / ChatGPT marks argue it better than intake's kinetic type, which would only repeat the captions.",
+  "beats": 5,
+  "bespoke_names": ["wrapped gift box", "loud little speaker", "piggy bank coin", "tool pegboard wall"],
+  "cues": "pointing_cues.py returned 0 cues (gen/_cues_lunafree.json); nothing answered, nothing waived.",
+  "board_mode": "chapters",
+  "open_questions": [
+    "Stage markers: at plan time ONLY cut had landed (status ok, 55.2 s, cut master 21.12 s, corroboration 'model-authored keep ranges', no analysis wav). By the artwork seal the rest had landed: plate ok (106.3 s, overwide_applied true, crop 2848x1780+254+262, face_dx 0.062 %); prompt0 ok (15.1 s) with wing_review TRUE for lunafree (the instrument proposed no cut; the Astra matte step and the cutout author own the wing look); selection ERROR and track REFUSED on a chair-audit hold (the reviewed contour held the headrest wing); ship ok via the SAM2 fallback (backend sam2, no-chair, temporal 1, 528 frames 1584x990, min person fraction 0.366, review_status needs_final_visual_review) - structurally ok is not approval, Miguel's eyes on the cutout are. No Modal cost figure in the markers. cues ok, 0 cues.",
+    "The intake topic also names 'GPT 5.6 Sol on the desktop app', but the kept take never says it (keep_words 7-80 ends on the sign-off). Transcript is truth: Sol is not drawn anywhere.",
+    "The chapter-1 object is drawn as a small combo amp; a cold reader may call it a radio or a speaker. All three are the same idea (a small sound box turned up loud), so the whiteboard may draw whichever reads best in marker as long as it keeps the handle, the big knob with its MAX tick and the waves."
+  ],
+  "open_doubts": [],
+  "scene_handoff": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/plans/lunafree_scene_handoff.md",
+  "scene_module": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/gen/lunafree_scene.py",
+  "sealed": true,
+  "proofs": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_lunafree",
+  "reason": ""
+}

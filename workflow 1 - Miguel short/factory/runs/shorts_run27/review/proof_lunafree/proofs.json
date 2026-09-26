@@ -1,0 +1,275 @@
+{
+ "module": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/gen/lunafree_scene.py",
+ "objects": [
+  {
+   "i": 0,
+   "name": "wrapped gift box",
+   "t": 1.8,
+   "core_box": [
+    418.0,
+    190.0,
+    662.0,
+    442.0
+   ],
+   "phone_box_px": [
+    157,
+    143,
+    248,
+    238
+   ],
+   "phone_size_px": [
+    91,
+    95
+   ],
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_lunafree/00.png"
+  },
+  {
+   "i": 1,
+   "name": "loud little speaker",
+   "t": 11.7,
+   "core_box": [
+    260.0,
+    126.0,
+    820.0,
+    440.0
+   ],
+   "phone_box_px": [
+    98,
+    119,
+    308,
+    237
+   ],
+   "phone_size_px": [
+    210,
+    118
+   ],
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_lunafree/01.png"
+  },
+  {
+   "i": 2,
+   "name": "piggy bank coin",
+   "t": 13.02,
+   "core_box": [
+    420.0,
+    196.0,
+    660.0,
+    376.0
+   ],
+   "phone_box_px": [
+    158,
+    146,
+    248,
+    213
+   ],
+   "phone_size_px": [
+    90,
+    67
+   ],
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_lunafree/02.png"
+  },
+  {
+   "i": 3,
+   "name": "tool pegboard wall",
+   "t": 15.2,
+   "core_box": [
+    470.0,
+    160.0,
+    910.0,
+    376.0
+   ],
+   "phone_box_px": [
+    176,
+    132,
+    341,
+    213
+   ],
+   "phone_size_px": [
+    165,
+    81
+   ],
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_lunafree/03.png"
+  }
+ ],
+ "frames": [
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_lunafree/frame_00.60.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_lunafree/frame_01.80.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_lunafree/frame_03.00.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_lunafree/frame_04.40.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_lunafree/frame_05.40.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_lunafree/frame_07.00.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_lunafree/frame_08.60.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_lunafree/frame_10.30.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_lunafree/frame_11.60.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_lunafree/frame_12.40.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_lunafree/frame_13.02.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_lunafree/frame_13.80.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_lunafree/frame_14.60.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_lunafree/frame_15.20.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_lunafree/frame_16.40.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_lunafree/frame_18.20.png"
+ ],
+ "cast": {
+  "stage": {
+   "openai": {
+    "path": "/Users/migle/Documents/Workspace/assets/logos/ai-models/openai.png",
+    "bytes": 11297,
+    "size": [
+     640,
+     640
+    ],
+    "ink_fill": 0.375,
+    "quantised_colours": 1,
+    "diag_fwd": 0.287,
+    "diag_back": 0.275,
+    "bbox": [
+     0,
+     0,
+     640,
+     635
+    ]
+   },
+   "chatgpt": {
+    "path": "/Users/migle/Documents/Workspace/assets/logos/ai-models/chatgpt-color.png",
+    "bytes": 75110,
+    "size": [
+     1024,
+     1024
+    ],
+    "ink_fill": 0.963,
+    "quantised_colours": 14,
+    "diag_fwd": 0.931,
+    "diag_back": 0.861,
+    "bbox": [
+     0,
+     0,
+     1024,
+     1024
+    ]
+   }
+  },
+  "lanes": {
+   "gemini": {
+    "path": "/Users/migle/Documents/Workspace/assets/logos/ai-models/gemini-color.png",
+    "bytes": 19333,
+    "size": [
+     640,
+     640
+    ],
+    "ink_fill": 0.353,
+    "quantised_colours": 77,
+    "diag_fwd": 0.381,
+    "diag_back": 0.381,
+    "bbox": [
+     26,
+     26,
+     614,
+     614
+    ]
+   },
+   "claude": {
+    "path": "/Users/migle/Documents/Workspace/assets/logos/ai-models/claude-color.png",
+    "bytes": 9337,
+    "size": [
+     640,
+     640
+    ],
+    "ink_fill": 0.399,
+    "quantised_colours": 1,
+    "diag_fwd": 0.463,
+    "diag_back": 0.541,
+    "bbox": [
+     0,
+     0,
+     640,
+     640
+    ]
+   },
+   "deepseek": {
+    "path": "/Users/migle/Documents/Workspace/assets/logos/ai-models/deepseek.png",
+    "bytes": 57182,
+    "size": [
+     1267,
+     934
+    ],
+    "ink_fill": 0.503,
+    "quantised_colours": 1,
+    "diag_fwd": 0.615,
+    "diag_back": 0.418,
+    "bbox": [
+     0,
+     0,
+     1267,
+     934
+    ]
+   },
+   "mistral": {
+    "path": "/Users/migle/Documents/Workspace/assets/logos/ai-models/mistral.png",
+    "bytes": 5047,
+    "size": [
+     1017,
+     720
+    ],
+    "ink_fill": 0.572,
+    "quantised_colours": 9,
+    "diag_fwd": 0.747,
+    "diag_back": 0.745,
+    "bbox": [
+     0,
+     0,
+     1017,
+     720
+    ]
+   },
+   "qwen": {
+    "path": "/Users/migle/Documents/Workspace/assets/logos/ai-models/qwen.png",
+    "bytes": 62065,
+    "size": [
+     1174,
+     1173
+    ],
+    "ink_fill": 0.667,
+    "quantised_colours": 15,
+    "diag_fwd": 0.558,
+    "diag_back": 0.729,
+    "bbox": [
+     0,
+     0,
+     1174,
+     1173
+    ]
+   },
+   "kimi": {
+    "path": "/Users/migle/Documents/Workspace/assets/logos/ai-models/kimi.png",
+    "bytes": 7454,
+    "size": [
+     112,
+     112
+    ],
+    "ink_fill": 0.93,
+    "quantised_colours": 26,
+    "diag_fwd": 0.857,
+    "diag_back": 0.857,
+    "bbox": [
+     0,
+     0,
+     112,
+     112
+    ]
+   }
+  }
+ },
+ "connector": {
+  "from": [
+   523.5,
+   386.0
+  ],
+  "to": [
+   686.0,
+   386.0
+  ],
+  "level_px": 0.0,
+  "length_px": 162.5
+ },
+ "page_errors": [],
+ "font_ok": true
+}

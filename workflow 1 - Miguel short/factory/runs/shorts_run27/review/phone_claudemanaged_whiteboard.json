@@ -1,0 +1,131 @@
+{
+ "label": "claudemanaged_whiteboard",
+ "video": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/output/claudemanaged_whiteboard.mp4",
+ "phone_scale": "405x720",
+ "sheet": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/phone_claudemanaged_whiteboard.png",
+ "rule": "a FRESH judge (never read the plan) names each crop in <=3 words. Wrong name, hedge, or 'cannot tell' = the object is redesigned, not annotated.",
+ "answer_key": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/phone_claudemanaged_whiteboard.key.json",
+ "answer_key_rule": "DO NOT OPEN the answer key until every judge_answer below is filled in. Reading it first voids the Phone Test.",
+ "objects": [
+  {
+   "i": 0,
+   "t": 4.25,
+   "bbox_norm": [
+    0.1389,
+    0.1562,
+    0.8403,
+    0.3379
+   ],
+   "phone_box_px": [
+    56,
+    112,
+    340,
+    243
+   ],
+   "phone_size_px": [
+    284,
+    131
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/phone_claudemanaged_whiteboard/00.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  },
+  {
+   "i": 1,
+   "t": 11.2,
+   "bbox_norm": [
+    0.191,
+    0.1953,
+    0.6979,
+    0.3379
+   ],
+   "phone_box_px": [
+    77,
+    140,
+    282,
+    243
+   ],
+   "phone_size_px": [
+    205,
+    103
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/phone_claudemanaged_whiteboard/01.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  },
+  {
+   "i": 2,
+   "t": 19.3,
+   "bbox_norm": [
+    0.1736,
+    0.1934,
+    0.7535,
+    0.3047
+   ],
+   "phone_box_px": [
+    70,
+    139,
+    305,
+    219
+   ],
+   "phone_size_px": [
+    235,
+    80
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/phone_claudemanaged_whiteboard/02.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  },
+  {
+   "i": 3,
+   "t": 24.9,
+   "bbox_norm": [
+    0.2326,
+    0.1816,
+    0.7535,
+    0.3066
+   ],
+   "phone_box_px": [
+    94,
+    130,
+    305,
+    220
+   ],
+   "phone_size_px": [
+    211,
+    90
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/phone_claudemanaged_whiteboard/03.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  },
+  {
+   "i": 4,
+   "t": 34.5,
+   "bbox_norm": [
+    0.2951,
+    0.167,
+    0.7361,
+    0.333
+   ],
+   "phone_box_px": [
+    119,
+    120,
+    298,
+    239
+   ],
+   "phone_size_px": [
+    179,
+    119
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/phone_claudemanaged_whiteboard/04.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  }
+ ]
+}

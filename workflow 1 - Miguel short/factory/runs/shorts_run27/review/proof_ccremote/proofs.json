@@ -1,0 +1,246 @@
+{
+ "crops": [
+  {
+   "i": 0,
+   "name": "wall light switch",
+   "t": 2.6,
+   "ui": false,
+   "core_box": [
+    450.0,
+    200.0,
+    630.0,
+    480.0
+   ],
+   "phone_box_px": [
+    169,
+    147,
+    236,
+    252
+   ],
+   "phone_size_px": [
+    67,
+    105
+   ],
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_ccremote/00.png"
+  },
+  {
+   "i": 1,
+   "name": "taped light switch",
+   "t": 15.3,
+   "ui": false,
+   "core_box": [
+    450.0,
+    200.0,
+    630.0,
+    480.0
+   ],
+   "phone_box_px": [
+    169,
+    147,
+    236,
+    252
+   ],
+   "phone_size_px": [
+    67,
+    105
+   ],
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_ccremote/01.png"
+  },
+  {
+   "i": 2,
+   "name": "crossed-out sticky note",
+   "t": 22.6,
+   "ui": false,
+   "core_box": [
+    400.0,
+    150.0,
+    680.0,
+    430.0
+   ],
+   "phone_box_px": [
+    150,
+    128,
+    255,
+    233
+   ],
+   "phone_size_px": [
+    105,
+    105
+   ],
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_ccremote/02.png"
+  },
+  {
+   "i": 3,
+   "name": "smartphone with sessions",
+   "t": 20.3,
+   "ui": true,
+   "core_box": [
+    110.0,
+    170.0,
+    290.0,
+    510.0
+   ],
+   "phone_box_px": [
+    41,
+    136,
+    109,
+    263
+   ],
+   "phone_size_px": [
+    68,
+    127
+   ],
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_ccremote/03.png"
+  }
+ ],
+ "frames": [
+  {
+   "name": "hook_draw",
+   "t": 0.8,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_ccremote/frame_hook_draw.png"
+  },
+  {
+   "name": "hook_switch",
+   "t": 2.6,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_ccremote/frame_hook_switch.png"
+  },
+  {
+   "name": "tile_mid",
+   "t": 3.8,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_ccremote/frame_tile_mid.png"
+  },
+  {
+   "name": "phone_in",
+   "t": 5.1,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_ccremote/frame_phone_in.png"
+  },
+  {
+   "name": "keyterm",
+   "t": 6.0,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_ccremote/frame_keyterm.png"
+  },
+  {
+   "name": "sessions",
+   "t": 8.4,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_ccremote/frame_sessions.png"
+  },
+  {
+   "name": "wire_in",
+   "t": 9.3,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_ccremote/frame_wire_in.png"
+  },
+  {
+   "name": "off_default",
+   "t": 11.5,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_ccremote/frame_off_default.png"
+  },
+  {
+   "name": "cc_flip",
+   "t": 12.9,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_ccremote/frame_cc_flip.png"
+  },
+  {
+   "name": "lever_up",
+   "t": 14.0,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_ccremote/frame_lever_up.png"
+  },
+  {
+   "name": "taped_on",
+   "t": 15.3,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_ccremote/frame_taped_on.png"
+  },
+  {
+   "name": "fan",
+   "t": 17.2,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_ccremote/frame_fan.png"
+  },
+  {
+   "name": "rows",
+   "t": 20.3,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_ccremote/frame_rows.png"
+  },
+  {
+   "name": "seam1",
+   "t": 20.8,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_ccremote/frame_seam1.png"
+  },
+  {
+   "name": "note_struck",
+   "t": 22.6,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_ccremote/frame_note_struck.png"
+  },
+  {
+   "name": "seam2",
+   "t": 25.95,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_ccremote/frame_seam2.png"
+  },
+  {
+   "name": "row1_tick",
+   "t": 27.8,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_ccremote/frame_row1_tick.png"
+  },
+  {
+   "name": "row2_tick",
+   "t": 30.0,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_ccremote/frame_row2_tick.png"
+  },
+  {
+   "name": "outro",
+   "t": 32.5,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_ccremote/frame_outro.png"
+  }
+ ],
+ "connectors": {
+  "wire-in": {
+   "start_vs_phone_right": 0.0,
+   "end_vs_plate_left": 0.0,
+   "y_inside_phone_straight_edge": true,
+   "y_inside_plate_straight_edge": true
+  },
+  "wire-tile-top": {
+   "start_vs_plate_right": 0.0,
+   "end_vs_tile_left": 0.0,
+   "start_y_on_straight_edge": true,
+   "end_y_on_straight_edge": true
+  },
+  "wire-tile-mid": {
+   "start_vs_plate_right": 0.0,
+   "end_vs_tile_left": 0.0,
+   "start_y_on_straight_edge": true,
+   "end_y_on_straight_edge": true
+  },
+  "wire-tile-bot": {
+   "start_vs_plate_right": 0.0,
+   "end_vs_tile_left": 0.0,
+   "start_y_on_straight_edge": true,
+   "end_y_on_straight_edge": true
+  },
+  "verdict": "PASS"
+ },
+ "fan_anchor_points": [
+  [
+   630.0,
+   244.8
+  ],
+  [
+   630.0,
+   340.0
+  ],
+  [
+   630.0,
+   435.2
+  ]
+ ],
+ "stage_marks_resolve": {
+  "claude-code": "/Users/migle/Documents/Workspace/assets/logos/coding-tools/claudecode-color.png"
+ },
+ "cutout_lanes_resolve": {
+  "claude": "/Users/migle/Documents/Workspace/assets/logos/ai-models/claude-color.png",
+  "codex": "/Users/migle/Documents/Workspace/assets/logos/coding-tools/codex-color.png",
+  "cursor": "/Users/migle/Documents/Workspace/assets/logos/coding-tools/cursor.png",
+  "copilot": "/Users/migle/Documents/Workspace/assets/logos/coding-tools/copilot-color.png",
+  "opencode": "/Users/migle/Documents/Workspace/assets/logos/coding-tools/opencode-color.png",
+  "antigravity": "/Users/migle/Documents/Workspace/assets/logos/coding-tools/antigravity-color.png",
+  "warp": "/Users/migle/Documents/Workspace/assets/logos/coding-tools/warp.png"
+ }
+}

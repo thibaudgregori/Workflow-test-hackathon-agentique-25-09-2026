@@ -1,0 +1,1082 @@
+{
+ "video": "eudisclosure",
+ "format": "cutout",
+ "platform": "tiktok",
+ "fps": 25,
+ "duration": 27.64,
+ "seal": {
+  "eudisclosure_scene.py": "a8cd5196c653215d51ad9785c1eac2ceccac2bc5c51351496d24b64476ec531a",
+  "eudisclosure_scene_handoff.md": "6a1d97b5dd85083c9324d08f5a08e0550c3a4cca0c560f6a150ced6debe6eafc"
+ },
+ "plate": {
+  "box": {
+   "w": 1584.0,
+   "h": 990.0,
+   "left": -202.0,
+   "top": 930.0
+  },
+  "whole_pixels": true,
+  "equals_encoded": {
+   "cut": {
+    "w": 1584,
+    "h": 990
+   },
+   "rim": {
+    "w": 1584,
+    "h": 990
+   }
+  },
+  "origin": "read from plate.json overwide.plate_box (not computed; the box is deliberately not centred)",
+  "face_centre_canvas": {
+   "frames_sampled": 70,
+   "band_rows": 160,
+   "mass_cx_median": 544.2,
+   "mass_cx_p5_p95": [
+    510.6,
+    573.9
+   ],
+   "offset_from_540": 4.2
+  }
+ },
+ "seat": 876.2,
+ "envelope": {
+  "CAP_Y": 876.2,
+  "ZY0": 192.0,
+  "ZY1": 792.4,
+  "CAP_H_true_rendered": 114.59,
+  "true_clear_to_crown": 26.5
+ },
+ "crown_gate": {
+  "frames": 691,
+  "frames_on_plate_top": 0,
+  "minimum": 30,
+  "worst_frame": 629
+ },
+ "core": {
+  "k": 1.0,
+  "left": 0.0,
+  "top": 192.0,
+  "why": "the handoff's own placement (k 1.00, top 192), identical to the approved split; legal inside this body's stage zone",
+  "stage_zone": [
+   192.0,
+   792.4
+  ],
+  "content_band_canvas": [
+   288.0,
+   692.0
+  ],
+  "clear_to_zone_bottom": 100.4
+ },
+ "band": {
+  "content_top": 288.0,
+  "content_bottom": 692.0,
+  "pill_top_rendered": 818.905,
+  "clear_above_pill": 126.91,
+  "clear_below_law30": 96.0
+ },
+ "rail": {
+  "readable_type_right_x": 909.7,
+  "per_key_right_x": {
+   "key-disclose": 662.2,
+   "imp-bub": 304.1,
+   "imp-page": 838.1,
+   "imp-pd-gen": 383.6,
+   "imp-pd-mod": 909.7,
+   "imp-pd-real": 375.7,
+   "imp-shot": 909.7
+  },
+  "ink_left_x": 138.0,
+  "ink_right_x": 942.0,
+  "law30_rail_x": 918.0
+ },
+ "voice": {
+  "source": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/cuts/eudisclosure/audio.m4a",
+  "sample_rate": 48000,
+  "channels": 2
+ },
+ "matte": {
+  "session": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/matting/eudisclosure",
+  "layers": {
+   "cut": {
+    "w": 1584,
+    "h": 990
+   },
+   "rim": {
+    "w": 1584,
+    "h": 990
+   }
+  },
+  "hashes": {
+   "cut": "99ce09a7f5009d11037407babf4dc92f4f48121a12224029febf391782fb64f5",
+   "rim": "599991e5cc51c0209bc375d6a8449245e559ec325ad3ad345512d82d2954c6c0",
+   "alpha": "42a4384f5cc5c2a5bbffaef17a70fc697fc12f10dbb4fc36bb765dda50139607"
+  },
+  "backend": "matanyone2",
+  "selection_mask_sha256": "198b272864ffc9f7f057764de49cb64ac1208bb58a67b3a6162c617d0c1988ee",
+  "astra_review": {
+   "status": "ok",
+   "selection_changed": true,
+   "edits": 3,
+   "rounds": 2
+  },
+  "headroom": {
+   "identity": {
+    "alpha_sha256": "5d60cf9fbc274535996bc61945575538d6b427275d98dffe6de922ee895c1fad",
+    "display_sha256": "d683f244e547c2b1877a54b2a71a98f7a4e007cf4713610bb4ca467ac04f0917",
+    "guard_sha256": "90e6a7f8cf1a142b9a8ab4cf0054f9803188279b68642b84430db31afe79999a",
+    "expected_frames": 691,
+    "floor_px": 24.0
+   },
+   "pass": true,
+   "frames_checked": 691,
+   "min_top_clearance_px": 31.900000000000002,
+   "floor_px": 24.0,
+   "worst_frame": 628,
+   "worst_seconds": 25.12,
+   "unsafe_frames": 0,
+   "first_unsafe_frames": [],
+   "scope": "Every matte frame, top edge of prepared person layer; no caption or semantic face claim"
+  }
+ },
+ "depth_field": {
+  "seat": {
+   "band": [
+    997.5,
+    1391.5
+   ],
+   "band_h": 394.0,
+   "inter_lane_gap": 26.0,
+   "seat_offset_from_pill": 64.0,
+   "foundation_offset": 63.61,
+   "drift_from_foundation_seat": 0.39,
+   "margin_px": 168.1,
+   "candidates_scanned": 104,
+   "candidates_safe": 102,
+   "instrument": "5th percentile of the PER-FRAME gutter; the union envelope describes a body that never existed",
+   "lanes": [
+    {
+     "lane": "far",
+     "tile": 78.0,
+     "y": 997.5,
+     "frames": 231,
+     "gutter_p05": 331.0,
+     "gutter_median": 363.4,
+     "gutter_min_single_frame": 315.1,
+     "frames_under_tile": 0
+    },
+    {
+     "lane": "mid",
+     "tile": 116.0,
+     "y": 1101.5,
+     "frames": 231,
+     "gutter_p05": 322.8,
+     "gutter_median": 340.3,
+     "gutter_min_single_frame": 310.7,
+     "frames_under_tile": 0
+    },
+    {
+     "lane": "near",
+     "tile": 148.0,
+     "y": 1243.5,
+     "frames": 231,
+     "gutter_p05": 316.1,
+     "gutter_median": 331.5,
+     "gutter_min_single_frame": 307.3,
+     "frames_under_tile": 0
+    }
+   ]
+  },
+  "lanes": {
+   "far": {
+    "x0": -216.0,
+    "w": 1880.0,
+    "y": 997.5,
+    "tile": 78.0,
+    "gap": 30.0,
+    "pitch": 108.0,
+    "tiles": 17,
+    "opacity": 0.34,
+    "dist": 46.0,
+    "travel": 368.0,
+    "steps": 8
+   },
+   "mid": {
+    "x0": -304.0,
+    "w": 2584.0,
+    "y": 1101.5,
+    "tile": 116.0,
+    "gap": 36.0,
+    "pitch": 152.0,
+    "tiles": 17,
+    "opacity": 0.66,
+    "dist": 112.0,
+    "travel": 896.0,
+    "steps": 8
+   },
+   "near": {
+    "x0": -384.0,
+    "w": 3512.0,
+    "y": 1243.5,
+    "tile": 148.0,
+    "gap": 44.0,
+    "pitch": 192.0,
+    "tiles": 18,
+    "opacity": 1.0,
+    "dist": 208.0,
+    "travel": 1664.0,
+    "steps": 8
+   }
+  },
+  "tiles": 52,
+  "step_beats": [
+   3.28,
+   6.24,
+   9.12,
+   12.52,
+   15.36,
+   18.52,
+   21.6,
+   24.72
+  ],
+  "step_n": 8,
+  "cast": [
+   "chatgpt",
+   "claude",
+   "gemini",
+   "mistral",
+   "grok",
+   "perplexity",
+   "flux",
+   "midjourney"
+  ],
+  "files": {
+   "chatgpt": "ai-models/chatgpt-color.png",
+   "claude": "ai-models/claude-color.png",
+   "gemini": "ai-models/gemini-color.png",
+   "mistral": "ai-models/mistral.png",
+   "grok": "ai-models/grok.png",
+   "perplexity": "ai-models/perplexity-color.png",
+   "flux": "ai-models/flux.png",
+   "midjourney": "tool-web-icons-20260914/midjourney.png"
+  },
+  "field_order": [
+   "chatgpt",
+   "claude",
+   "gemini",
+   "mistral",
+   "grok",
+   "perplexity",
+   "flux",
+   "midjourney"
+  ],
+  "lane_mix": {
+   "far": [
+    "chatgpt-color.png",
+    "claude-color.png",
+    "flux.png",
+    "gemini-color.png",
+    "grok.png",
+    "midjourney.png",
+    "mistral.png",
+    "perplexity-color.png"
+   ],
+   "mid": [
+    "chatgpt-color.png",
+    "claude-color.png",
+    "flux.png",
+    "gemini-color.png",
+    "grok.png",
+    "midjourney.png",
+    "mistral.png",
+    "perplexity-color.png"
+   ],
+   "near": [
+    "chatgpt-color.png",
+    "claude-color.png",
+    "flux.png",
+    "gemini-color.png",
+    "grok.png",
+    "midjourney.png",
+    "mistral.png",
+    "perplexity-color.png"
+   ]
+  },
+  "hook_clear_s": 1.8,
+  "intro_dur": 0.66,
+  "pop_behind": null,
+  "pop_behind_why_none": "he names no product; the plan declares no stage mark and no window"
+ },
+ "shared": {
+  "beat_edges": [
+   0.1,
+   3.26,
+   6.26,
+   9.74,
+   13.98,
+   23.32,
+   27.64
+  ],
+  "phone_test_objects": [
+   {
+    "name": "European Union flag",
+    "t": 1.6,
+    "bbox": [
+     0.3667,
+     0.1859,
+     0.6333,
+     0.363
+    ],
+    "canvas": [
+     396.0,
+     357.0,
+     684.0,
+     697.0
+    ]
+   },
+   {
+    "name": "AI rubber stamp",
+    "t": 11.05,
+    "bbox": [
+     0.3981,
+     0.1969,
+     0.6019,
+     0.2917
+    ],
+    "canvas": [
+     430.0,
+     378.0,
+     650.0,
+     560.0
+    ]
+   },
+   {
+    "name": "two stamped Polaroids",
+    "t": 13.6,
+    "bbox": [
+     0.1278,
+     0.1938,
+     0.8722,
+     0.3604
+    ],
+    "canvas": [
+     138.0,
+     372.0,
+     942.0,
+     692.0
+    ]
+   },
+   {
+    "name": "stamped Polaroid photo",
+    "t": 23.28,
+    "bbox": [
+     0.1278,
+     0.1938,
+     0.3778,
+     0.3604
+    ],
+    "canvas": [
+     138.0,
+     372.0,
+     408.0,
+     692.0
+    ]
+   }
+  ]
+ },
+ "captions": {
+  "n": 27,
+  "texts": [
+   "If you live in Europe,",
+   "now you have to disclose",
+   "whenever you're using AI,",
+   "whether it's a chatbot",
+   "or AI generated content.",
+   "And in the case of AI",
+   "generated images, it's",
+   "even more complex",
+   "because you have to",
+   "say whether an image",
+   "is AI generated",
+   "or AI modified.",
+   "So if you took a",
+   "real image or a real",
+   "screenshot, and",
+   "then you use AI",
+   "to even do slight",
+   "modifications to",
+   "color or lighting,",
+   "you also have",
+   "to disclose that.",
+   "Now follow for more",
+   "AI news, videos, and",
+   "tutorials each and",
+   "every single day,",
+   "and catch you",
+   "in the next one."
+  ],
+  "widest_px": 755.4
+ },
+ "caption_beats": [
+  {
+   "text": "If you live in Europe,",
+   "start": 0.1,
+   "end": 0.9,
+   "w": 609.14,
+   "dur": 0.88
+  },
+  {
+   "text": "now you have to disclose",
+   "start": 0.98,
+   "end": 1.86,
+   "w": 734.19,
+   "dur": 0.96
+  },
+  {
+   "text": "whenever you're using AI,",
+   "start": 1.94,
+   "end": 2.86,
+   "w": 755.38,
+   "dur": 1.32
+  },
+  {
+   "text": "whether it's a chatbot",
+   "start": 3.26,
+   "end": 4.42,
+   "w": 654.22,
+   "dur": 1.38
+  },
+  {
+   "text": "or AI generated content.",
+   "start": 4.64,
+   "end": 6.0,
+   "w": 719.36,
+   "dur": 1.62
+  },
+  {
+   "text": "And in the case of AI",
+   "start": 6.26,
+   "end": 7.34,
+   "w": 622.23,
+   "dur": 1.12
+  },
+  {
+   "text": "generated images, it's",
+   "start": 7.38,
+   "end": 8.62,
+   "w": 653.94,
+   "dur": 1.28
+  },
+  {
+   "text": "even more complex",
+   "start": 8.66,
+   "end": 9.46,
+   "w": 583.75,
+   "dur": 1.08
+  },
+  {
+   "text": "because you have to",
+   "start": 9.74,
+   "end": 10.32,
+   "w": 605.2,
+   "dur": 0.62
+  },
+  {
+   "text": "say whether an image",
+   "start": 10.36,
+   "end": 11.18,
+   "w": 653.27,
+   "dur": 0.88
+  },
+  {
+   "text": "is AI generated",
+   "start": 11.24,
+   "end": 12.32,
+   "w": 472.12,
+   "dur": 1.28
+  },
+  {
+   "text": "or AI modified.",
+   "start": 12.52,
+   "end": 13.74,
+   "w": 462.47,
+   "dur": 1.46
+  },
+  {
+   "text": "So if you took a",
+   "start": 13.98,
+   "end": 14.78,
+   "w": 482.81,
+   "dur": 0.96
+  },
+  {
+   "text": "real image or a real",
+   "start": 14.94,
+   "end": 16.36,
+   "w": 586.67,
+   "dur": 1.52
+  },
+  {
+   "text": "screenshot, and",
+   "start": 16.46,
+   "end": 17.02,
+   "w": 486.97,
+   "dur": 0.58
+  },
+  {
+   "text": "then you use AI",
+   "start": 17.04,
+   "end": 17.9,
+   "w": 482.12,
+   "dur": 1.16
+  },
+  {
+   "text": "to even do slight",
+   "start": 18.2,
+   "end": 19.1,
+   "w": 513.66,
+   "dur": 0.96
+  },
+  {
+   "text": "modifications to",
+   "start": 19.16,
+   "end": 20.24,
+   "w": 498.16,
+   "dur": 1.14
+  },
+  {
+   "text": "color or lighting,",
+   "start": 20.3,
+   "end": 21.22,
+   "w": 512.31,
+   "dur": 1.32
+  },
+  {
+   "text": "you also have",
+   "start": 21.62,
+   "end": 22.5,
+   "w": 429.64,
+   "dur": 0.9
+  },
+  {
+   "text": "to disclose that.",
+   "start": 22.52,
+   "end": 23.2,
+   "w": 495.11,
+   "dur": 0.8
+  },
+  {
+   "text": "Now follow for more",
+   "start": 23.32,
+   "end": 23.98,
+   "w": 623.25,
+   "dur": 0.72
+  },
+  {
+   "text": "AI news, videos, and",
+   "start": 24.04,
+   "end": 25.16,
+   "w": 611.56,
+   "dur": 1.16
+  },
+  {
+   "text": "tutorials each and",
+   "start": 25.2,
+   "end": 25.86,
+   "w": 547.44,
+   "dur": 0.68
+  },
+  {
+   "text": "every single day,",
+   "start": 25.88,
+   "end": 26.36,
+   "w": 511.53,
+   "dur": 0.78
+  },
+  {
+   "text": "and catch you",
+   "start": 26.66,
+   "end": 26.96,
+   "w": 434.31,
+   "dur": 0.32
+  },
+  {
+   "text": "in the next one.",
+   "start": 26.98,
+   "end": 27.42,
+   "w": 481.3,
+   "dur": 0.66
+  }
+ ],
+ "transcript": {
+  "law47_tail_s": 0.22,
+  "law47_cap_s": 0.24,
+  "law47_verdict": "PASS - 0.220s past the last word against a 0.240s cap",
+  "law46": "the scripted opening occurs ONCE inside the keeper take, at word 0 / 0.10 s",
+  "take_corroboration": {
+   "mode": "model keep_words (the agent read the transcript and chose the words; no rule detection)",
+   "keep_words": [
+    [
+     113,
+     212
+    ]
+   ],
+   "take_word_index": 113,
+   "take_start_s": 92.68,
+   "words": 100,
+   "of_raw_words": 213,
+   "dropped_words": 113,
+   "corroboration": "model-authored keep ranges"
+  },
+  "words": 100,
+  "function_word_merges": 0,
+  "beats_before_merge": 27,
+  "orphan_repartitions": [],
+  "solo_word_merges": [],
+  "board_keys_forbidden_at_split": [
+   "ai",
+   "ai generated",
+   "ai generated!",
+   "ai generated,",
+   "ai generated.",
+   "ai generated?",
+   "ai modified",
+   "ai modified!",
+   "ai modified,",
+   "ai modified.",
+   "ai modified?",
+   "ai!",
+   "ai,",
+   "ai.",
+   "ai?",
+   "disclose",
+   "disclose!",
+   "disclose,",
+   "disclose.",
+   "disclose?"
+  ]
+ },
+ "checks": {
+  "cues": {
+   "stars": {
+    "word": 4,
+    "text": "Europe,",
+    "t": 0.64,
+    "word_start": 0.64
+   },
+   "keyterm": {
+    "word": 9,
+    "text": "disclose",
+    "t": 1.48,
+    "word_start": 1.48
+   },
+   "bubble": {
+    "word": 17,
+    "text": "chatbot",
+    "t": 3.96,
+    "word_start": 3.96
+   },
+   "slide_b": {
+    "word": 19,
+    "text": "AI",
+    "t": 4.98,
+    "word_start": 4.98
+   },
+   "stamp_b": {
+    "word": 20,
+    "text": "generated",
+    "t": 5.2,
+    "word_start": 5.2
+   },
+   "hit_bubble": {
+    "word": 21,
+    "text": "content.",
+    "t": 5.66,
+    "word_start": 5.66
+   },
+   "hit_page": {
+    "word": 22,
+    "text": "And",
+    "t": 6.26,
+    "word_start": 6.26
+   },
+   "gen": {
+    "word": 27,
+    "text": "AI",
+    "t": 7.16,
+    "word_start": 7.16
+   },
+   "slide_c": {
+    "word": 34,
+    "text": "because",
+    "t": 9.74,
+    "word_start": 9.74
+   },
+   "stamp_c": {
+    "word": 38,
+    "text": "say",
+    "t": 10.36,
+    "word_start": 10.36
+   },
+   "mod": {
+    "word": 41,
+    "text": "image",
+    "t": 10.94,
+    "word_start": 10.94
+   },
+   "hit_gen": {
+    "word": 43,
+    "text": "AI",
+    "t": 11.46,
+    "word_start": 11.46
+   },
+   "hit_mod": {
+    "word": 46,
+    "text": "AI",
+    "t": 12.8,
+    "word_start": 12.8
+   },
+   "c_out": {
+    "word": 48,
+    "text": "So",
+    "t": 13.98,
+    "word_start": 13.98
+   },
+   "real": {
+    "word": 53,
+    "text": "real",
+    "t": 14.94,
+    "word_start": 14.94
+   },
+   "slide_d": {
+    "word": 57,
+    "text": "real",
+    "t": 16.18,
+    "word_start": 16.18
+   },
+   "color": {
+    "word": 70,
+    "text": "color",
+    "t": 20.3,
+    "word_start": 20.3
+   },
+   "light": {
+    "word": 72,
+    "text": "lighting,",
+    "t": 20.9,
+    "word_start": 20.9
+   },
+   "stamp_d": {
+    "word": 73,
+    "text": "you",
+    "t": 21.62,
+    "word_start": 21.62
+   },
+   "hit_photo": {
+    "word": 77,
+    "text": "disclose",
+    "t": 22.64,
+    "word_start": 22.64
+   },
+   "hit_shot": {
+    "word": 78,
+    "text": "that.",
+    "t": 23.1,
+    "word_start": 23.1
+   },
+   "outro": {
+    "word": 79,
+    "text": "Now",
+    "t": 23.32,
+    "word_start": 23.32
+   },
+   "pole": {
+    "word": 2,
+    "text": "live",
+    "t": 0.44,
+    "window": [
+     0.32,
+     1.44
+    ]
+   },
+   "field": {
+    "word": 3,
+    "text": "in",
+    "t": 0.56,
+    "window": [
+     0.5,
+     1.6
+    ]
+   },
+   "flag_out": {
+    "word": 15,
+    "text": "it's",
+    "t": 3.62,
+    "window": [
+     3.56,
+     4.8
+    ]
+   },
+   "page": {
+    "word": 19,
+    "text": "AI",
+    "t": 5.08,
+    "window": [
+     4.98,
+     6.12
+    ]
+   },
+   "b_out": {
+    "word": 25,
+    "text": "case",
+    "t": 6.8,
+    "window": [
+     6.6,
+     7.82
+    ]
+   },
+   "shot": {
+    "word": 57,
+    "text": "real",
+    "t": 16.28,
+    "window": [
+     16.18,
+     17.36
+    ]
+   },
+   "_law43_45": {
+    "board_mode": "chapters",
+    "chapters": 4,
+    "erase_at": [
+     3.96,
+     7.16,
+     13.98,
+     23.32
+    ],
+    "handover_idea": "DISCLOSE (the key word) is fully drawn across every chapter seam"
+   }
+  },
+  "word_sync": {
+   "typed_states": [
+    {
+     "state": "key-disclose",
+     "first_visible_text": "DISCLOSE",
+     "at": 1.48,
+     "words": "disclose",
+     "window": [
+      1.469,
+      2.86
+     ]
+    },
+    {
+     "state": "imp-bub",
+     "first_visible_text": "AI",
+     "at": 5.66,
+     "words": "ai generated content.",
+     "window": [
+      4.969,
+      7.0
+     ]
+    },
+    {
+     "state": "imp-page",
+     "first_visible_text": "AI",
+     "at": 6.26,
+     "words": "ai generated content.",
+     "window": [
+      4.969,
+      7.0
+     ]
+    },
+    {
+     "state": "imp-pd-gen",
+     "first_visible_text": "AI GENERATED",
+     "at": 11.46,
+     "words": "ai generated",
+     "window": [
+      11.449,
+      13.32
+     ]
+    },
+    {
+     "state": "imp-pd-mod",
+     "first_visible_text": "AI MODIFIED",
+     "at": 12.8,
+     "words": "ai modified.",
+     "window": [
+      12.789,
+      14.74
+     ]
+    },
+    {
+     "state": "imp-pd-real",
+     "first_visible_text": "AI MODIFIED",
+     "at": 22.64,
+     "words": "disclose that.",
+     "window": [
+      22.629,
+      24.2
+     ]
+    },
+    {
+     "state": "imp-shot",
+     "first_visible_text": "AI MODIFIED",
+     "at": 23.1,
+     "words": "disclose that.",
+     "window": [
+      22.629,
+      24.2
+     ]
+    }
+   ],
+   "disagreements": 0,
+   "digits_that_tick": 0,
+   "chapter_d_referent": {
+    "words": "ai to even do slight modifications",
+    "said": [
+     17.7,
+     19.94
+    ]
+   }
+  },
+  "law37": {
+   "scan_cue_count": 0,
+   "plan_declared_cards": 0,
+   "source_cards_in_the_page": 0
+  },
+  "law42": {
+   "board_mode": "chapters",
+   "anchors": [
+    "key-disclose",
+    "o-sheet",
+    "o-glyph",
+    "o-rule",
+    "o-slot"
+   ],
+   "covers": [
+    "o-sheet"
+   ],
+   "longest_mark_share": 0.321,
+   "mark_shares": {
+    "flag": 0.126,
+    "bubble": 0.114,
+    "page": 0.073,
+    "imp-bub": 0.052,
+    "imp-page": 0.03,
+    "stamp#1": 0.069,
+    "pd-gen": 0.258,
+    "pd-mod": 0.121,
+    "stamp#2": 0.142,
+    "imp-pd-gen": 0.102,
+    "imp-pd-mod": 0.054,
+    "pd-real": 0.321,
+    "shot": 0.272,
+    "rays": 0.105,
+    "stamp#3": 0.079,
+    "imp-pd-real": 0.042,
+    "imp-shot": 0.025
+   }
+  },
+  "law22": {
+   "events": 19,
+   "tightest_gap_s": 0.46,
+   "deliberately_silent": {
+    "field 0.56 / stars 0.64": "inside the flag's pop; one arrival",
+    "flag out 3.62": "an exit; the bubble pops 0.34 s later",
+    "slide 4.98 / stamp drop 5.20": "0.10 / 0.12 s around the page pop; one sound scores the move",
+    "chapter exits 6.80 / 13.98": "exits stay silent",
+    "slides 9.74 / 16.18": "a slide is a move, not an arrival; 16.18 is also 0.10 s before the screenshot pop",
+    "sheet 23.32": "0.22 s after the last press; the glyph's pop at 23.82 scores the outro"
+   }
+  },
+  "draw_on": {
+   "dash_selectors": {
+    "#bub-edge": 1,
+    "#flag-field": 1,
+    "#flag-pole": 1,
+    "#pd-gen .pdraw": 4,
+    "#pd-mod .pdraw": 4,
+    "#pd-real .pdraw": 4,
+    "#pd-real-rays .ray": 8,
+    "#pg-edge": 1,
+    "#pg-fold": 1,
+    "#sh-frame": 1,
+    "#shot .shl": 2
+   },
+   "verdict": "every dash equals its path's declared length (100)"
+  },
+  "law39_50": {
+   "imp-bub": {
+    "host": "bubble",
+    "text": "AI",
+    "box_w": 62.3,
+    "side_margin_px": 93.8
+   },
+   "imp-page": {
+    "host": "page",
+    "text": "AI",
+    "box_w": 62.3,
+    "side_margin_px": 83.8
+   },
+   "imp-pd-gen": {
+    "host": "pd-gen",
+    "text": "AI GENERATED",
+    "box_w": 221.3,
+    "side_margin_px": 24.4
+   },
+   "imp-pd-mod": {
+    "host": "pd-mod",
+    "text": "AI MODIFIED",
+    "box_w": 205.4,
+    "side_margin_px": 32.3
+   },
+   "imp-pd-real": {
+    "host": "pd-real",
+    "text": "AI MODIFIED",
+    "box_w": 205.4,
+    "side_margin_px": 32.3
+   },
+   "imp-shot": {
+    "host": "shot",
+    "text": "AI MODIFIED",
+    "box_w": 205.4,
+    "side_margin_px": 32.3
+   },
+   "_law50": {
+    "imprint_font_px": "24",
+    "rotation_deg": "-2.5"
+   },
+   "_key_term": {
+    "text": "DISCLOSE",
+    "font_px": 48.0,
+    "design_units": 25.6,
+    "first_type": true
+   }
+  },
+  "law38_40": {
+   "connectors": 0,
+   "emphasis_strokes": 0,
+   "rings_ellipses_circles": 0
+  }
+ },
+ "cast_check": {
+  "chatgpt": "/Users/migle/Documents/Workspace/assets/logos/ai-models/chatgpt-color.png",
+  "claude": "/Users/migle/Documents/Workspace/assets/logos/ai-models/claude-color.png",
+  "gemini": "/Users/migle/Documents/Workspace/assets/logos/ai-models/gemini-color.png",
+  "mistral": "/Users/migle/Documents/Workspace/assets/logos/ai-models/mistral.png",
+  "grok": "/Users/migle/Documents/Workspace/assets/logos/ai-models/grok.png",
+  "perplexity": "/Users/migle/Documents/Workspace/assets/logos/ai-models/perplexity-color.png",
+  "flux": "/Users/migle/Documents/Workspace/assets/logos/ai-models/flux.png",
+  "midjourney": "/Users/migle/Documents/Workspace/assets/logos/tool-web-icons-20260914/midjourney.png"
+ },
+ "edge_fade": {
+  "masked_containers": 3,
+  "fade_px": 46.0,
+  "meters_exempt": []
+ },
+ "handle": "@migueltorrez.ai",
+ "render": {
+  "w": 1080,
+  "h": 1920,
+  "zoom": 1
+ }
+}

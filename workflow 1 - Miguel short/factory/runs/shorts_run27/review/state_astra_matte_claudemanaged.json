@@ -1,0 +1,14 @@
+{
+  "status": "ok",
+  "ship": "ok",
+  "selection_changed": false,
+  "edits": 0,
+  "rounds": 1,
+  "what_you_saw": "Viewed the clean frame, full selection overlay and head overlay: the original contour preserves the cap brim, both ears, cheeks, jaw, chin, neck, hands and shoulders while excluding the black chair back and headrest, so it was approved unchanged. Viewed all four generated sheets: playback shows a clean person silhouette at normal viewing size; face_2x preserves the facial outline and cap from the first through the last sampled frame; chair_sides shows no black or grey chair wedge and no neck splash, including the late high-metric samples; hands shows intact hands and fingers with ordinary soft motion blur during fast gestures, which passes Miguel's criteria. Metrics report only a brief 0.2-second haze event and no automatic holds; no persistent viewer-visible defect is apparent in the sheets. No fallback needed.",
+  "hold_reason": "",
+  "outputs": [
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/matting/claudemanaged/matte_claudemanaged_v5_cut.webm",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/matting/claudemanaged/matte_claudemanaged_v5_rim.webm",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/matting/claudemanaged/matte_claudemanaged_v5_alpha.webm"
+  ]
+}

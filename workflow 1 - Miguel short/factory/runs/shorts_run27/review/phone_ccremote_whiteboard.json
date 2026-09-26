@@ -1,0 +1,83 @@
+{
+ "label": "ccremote_whiteboard",
+ "video": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/output/ccremote_whiteboard.mp4",
+ "phone_scale": "405x720",
+ "sheet": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/phone_ccremote_whiteboard.png",
+ "rule": "a FRESH judge (never read the plan) names each crop in <=3 words. Wrong name, hedge, or 'cannot tell' = the object is redesigned, not annotated.",
+ "answer_key": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/phone_ccremote_whiteboard.key.json",
+ "answer_key_rule": "DO NOT OPEN the answer key until every judge_answer below is filled in. Reading it first voids the Phone Test.",
+ "objects": [
+  {
+   "i": 0,
+   "t": 2.6,
+   "bbox_norm": [
+    0.4132,
+    0.2207,
+    0.5868,
+    0.3652
+   ],
+   "phone_box_px": [
+    167,
+    158,
+    237,
+    262
+   ],
+   "phone_size_px": [
+    70,
+    104
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/phone_ccremote_whiteboard/00.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  },
+  {
+   "i": 1,
+   "t": 15.3,
+   "bbox_norm": [
+    0.4132,
+    0.2207,
+    0.5868,
+    0.3652
+   ],
+   "phone_box_px": [
+    167,
+    158,
+    237,
+    262
+   ],
+   "phone_size_px": [
+    70,
+    104
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/phone_ccremote_whiteboard/01.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  },
+  {
+   "i": 2,
+   "t": 22.6,
+   "bbox_norm": [
+    0.3229,
+    0.1758,
+    0.6771,
+    0.375
+   ],
+   "phone_box_px": [
+    130,
+    126,
+    274,
+    270
+   ],
+   "phone_size_px": [
+    144,
+    144
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/phone_ccremote_whiteboard/02.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  }
+ ]
+}

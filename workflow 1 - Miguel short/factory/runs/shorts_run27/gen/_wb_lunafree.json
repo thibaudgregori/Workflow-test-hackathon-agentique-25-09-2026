@@ -1,0 +1,430 @@
+{
+ "video": "lunafree",
+ "format": "whiteboard",
+ "variant": "plan view (fix)",
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/projects/lunafree_whiteboard",
+ "handle": "@migueltorrez.ai",
+ "handle_key": "tiktok_ig",
+ "duration_s": 21.12,
+ "fps": 25,
+ "render": "1080x1920 @ zoom 1",
+ "board": "576x460 design units",
+ "board_box": [
+  40.0,
+  150.0,
+  536.0,
+  425.0
+ ],
+ "strokes": 41,
+ "rigids": 33,
+ "board_text": [
+  "GPT LUNA",
+  "FREE + GO USERS",
+  "CHATGPT",
+  "REASONING",
+  "MAX",
+  "BUDGET",
+  "ARSENAL"
+ ],
+ "top_ink_u": 154.0,
+ "top_band_u": 102.4,
+ "pen_top_u": 110.7,
+ "ink_bottom_px": 699.6,
+ "cap_band_top_px": 799.2,
+ "cap_clearance_px": 99.6,
+ "ink_bottom_ink_px": 687.0,
+ "cap_clearance_ink_px": 112.2,
+ "seam_pill_top_px": 805.2,
+ "cap_clearance_ink_to_pill_px": 118.2,
+ "seam_measures": "cap_clearance_px = line boxes vs the reserved band (THE GATE); cap_clearance_ink_px = glyph ink vs the same band; cap_clearance_ink_to_pill_px = glyph ink vs the pill's painted top edge (the clerk's surface)",
+ "rail_hits": [],
+ "label_law": {
+  "window_s": 1.0,
+  "key_term": "GPT LUNA",
+  "key_term_fs_u": 25.6,
+  "written": {
+   "GPT LUNA": 0.9,
+   "FREE + GO USERS": 3.16,
+   "GPT LUNA@l": 4.96,
+   "FREE + GO USERS@l": 4.96,
+   "CHATGPT": 5.08,
+   "REASONING": 9.66,
+   "MAX": 11.02,
+   "BUDGET": 12.62,
+   "BUDGET@l": 13.5,
+   "ARSENAL": 16.0
+  },
+  "plan": {
+   "luna": "GPT LUNA",
+   "free2": "FREE + GO USERS",
+   "chatgpt": "CHATGPT",
+   "reasoning": "REASONING",
+   "budget": "BUDGET",
+   "arsenal": "ARSENAL"
+  },
+  "comparisons": [],
+  "unplanned_text": [],
+  "verdict": "PASS"
+ },
+ "law4": {
+  "law": "4 (overlap test)",
+  "board_words_that_also_appear_as_a_pill": {}
+ },
+ "round4": {
+  "law6_lifetimes": {
+   "duration_s": 21.12,
+   "chaptered": true,
+   "max_frac": 0.4,
+   "declared_anchors": [],
+   "lingering": [],
+   "verdict": "PASS"
+  },
+  "law2_no_enclosure": {
+   "rings": 0,
+   "boxes": 1,
+   "highlights": 0,
+   "rasters": [],
+   "wrong_tool_advisory": [],
+   "verdict": "PASS"
+  },
+  "law3_label_side": {
+   "checked": 6,
+   "detail": {
+    "GPT LUNA": {
+     "host": "gift-open",
+     "dx_u": 70.9,
+     "band_u": 166.2,
+     "place": "above"
+    },
+    "FREE + GO USERS": {
+     "host": "gift-open",
+     "dx_u": 70.9,
+     "band_u": 166.2,
+     "place": "below"
+    },
+    "CHATGPT": {
+     "host": "chatgpt-tile",
+     "dx_u": 0.0,
+     "band_u": 38.8,
+     "place": "below"
+    },
+    "REASONING": {
+     "host": "amp",
+     "dx_u": 0.0,
+     "band_u": 119.6,
+     "place": "below"
+    },
+    "BUDGET": {
+     "host": "piggy",
+     "dx_u": 0.0,
+     "band_u": 83.2,
+     "place": "below"
+    },
+    "ARSENAL": {
+     "host": "board",
+     "dx_u": 0.0,
+     "band_u": 152.1,
+     "place": "below"
+    }
+   },
+   "verdict": "PASS"
+  },
+  "law5_spacing": {
+   "gate_u": 8.5,
+   "gate_px": 15.9,
+   "aim_u": 12.8,
+   "aim_px": 24.0,
+   "measured_on": "element line boxes",
+   "under_aim": [],
+   "objects": 27,
+   "verdict": "PASS"
+  },
+  "law5_spacing_ink": {
+   "gate_u": 8.5,
+   "gate_px": 15.9,
+   "aim_u": 12.8,
+   "aim_px": 24.0,
+   "measured_on": "glyph ink extents",
+   "under_aim": [],
+   "objects": 27,
+   "verdict": "PASS"
+  },
+  "law5_no_crossing": {
+   "strokes": 41,
+   "types": 7,
+   "verdict": "PASS"
+  },
+  "law4_anchors": {
+   "targets": 1,
+   "detail": {
+    "chatgpt-tile": {
+     "n": 1,
+     "spread_u": 0.0,
+     "level": true,
+     "mirrored": false,
+     "on_rect": true
+    }
+   },
+   "verdict": "PASS"
+  }
+ },
+ "outro": {
+  "move": "opaque sheet rises over the board",
+  "wipe_start": 16.74,
+  "wipe_end": 17.3,
+  "travel_px": 862.5,
+  "sheet_opaque": true,
+  "sheet_covers_px": 862.5,
+  "card_ink_enters_px": 322.5,
+  "board_covered_px": 573.8,
+  "overlap_px": 251.2,
+  "board_moves": false,
+  "board_fades": false,
+  "outro_start": 16.74,
+  "verdict": "PASS"
+ },
+ "captions": 21,
+ "cap_font_px": 56.2,
+ "cap_max_pill_w_px": 737.7,
+ "cap_w_budget_px": 756.0,
+ "anchors": {
+  "start": 0.12,
+  "luna": 0.52,
+  "free": 2.34,
+  "free2": 3.16,
+  "chatgpt": 4.58,
+  "this": 6.04,
+  "mighty": 8.0,
+  "turn": 9.02,
+  "reasoning": 9.64,
+  "all": 10.16,
+  "way": 10.48,
+  "max": 11.0,
+  "so": 11.7,
+  "budget": 12.56,
+  "this2": 13.14,
+  "one": 13.6,
+  "best": 14.12,
+  "tools": 14.42,
+  "arsenal": 15.98,
+  "outro": 16.74,
+  "news": 17.7
+ },
+ "html_bytes": 125854,
+ "sfx": 17,
+ "pen_loops": 6,
+ "pen_seconds": 2.59,
+ "pen_duty_pct": 12.3,
+ "captions_law3b": {
+  "beats_before_merge": 21,
+  "beats_after_merge": 21,
+  "merges": 0,
+  "merged_away": [],
+  "widest_pill_px": 737.7,
+  "budget_px": 756.0,
+  "beats": [
+   [
+    0.12,
+    1.36,
+    "GPT Luna is now"
+   ],
+   [
+    1.36,
+    3.46,
+    "100% free for free"
+   ],
+   [
+    3.46,
+    4.46,
+    "and Go users of"
+   ],
+   [
+    4.46,
+    6.04,
+    "the ChatGPT application."
+   ],
+   [
+    6.04,
+    7.3,
+    "This small model is"
+   ],
+   [
+    7.3,
+    9.02,
+    "extremely mighty if you"
+   ],
+   [
+    9.02,
+    10.16,
+    "turn up the reasoning"
+   ],
+   [
+    10.16,
+    10.84,
+    "all the way to"
+   ],
+   [
+    10.84,
+    11.7,
+    "the max."
+   ],
+   [
+    11.7,
+    12.44,
+    "So if you're on"
+   ],
+   [
+    12.44,
+    13.14,
+    "a budget,"
+   ],
+   [
+    13.14,
+    13.88,
+    "this is one of"
+   ],
+   [
+    13.88,
+    14.82,
+    "the best tools that"
+   ],
+   [
+    14.82,
+    15.74,
+    "you can have in"
+   ],
+   [
+    15.74,
+    16.74,
+    "your arsenal."
+   ],
+   [
+    16.74,
+    17.5,
+    "Now follow for more"
+   ],
+   [
+    17.5,
+    18.4,
+    "AI news videos and"
+   ],
+   [
+    18.4,
+    19.28,
+    "tutorials each and every"
+   ],
+   [
+    19.28,
+    20.04,
+    "single day,"
+   ],
+   [
+    20.04,
+    20.52,
+    "and catch you in"
+   ],
+   [
+    20.52,
+    21.04,
+    "the next one"
+   ]
+  ],
+  "law": "captions.py 3b \u2014 merge_function_only_beats over the WHOLE beat stream, then assert_no_function_only_beat inside build()"
+ },
+ "seam_law": {
+  "plan_mode": "chapters",
+  "chapters": 3,
+  "seams": [
+   5.84,
+   11.96
+  ],
+  "erase_s": [
+   0.22,
+   0.22
+  ],
+  "erase_completes": [
+   6.06,
+   12.18
+  ],
+  "qc_seams": "5.84,11.96",
+  "handover": [
+   {
+    "seam": 5.84,
+    "completes": 6.06,
+    "incoming": "the amp cabinet, first ink 5.88 (inside the erase), closed at 6.14"
+   },
+   {
+    "seam": 11.96,
+    "completes": 12.18,
+    "incoming": "the piggy body, first ink 11.98 (inside the erase), closed at 12.22"
+   }
+  ],
+  "outro_wipe": 16.74
+ },
+ "phone_at": [
+  {
+   "t": 1.8,
+   "bbox_norm": [
+    0.387,
+    0.199,
+    0.613,
+    0.3302
+   ],
+   "name": "wrapped gift box",
+   "bbox_board_u": [
+    222.9,
+    203.8,
+    353.1,
+    338.1
+   ]
+  },
+  {
+   "t": 11.7,
+   "bbox_norm": [
+    0.2407,
+    0.1656,
+    0.7593,
+    0.3292
+   ],
+   "name": "loud little speaker",
+   "bbox_board_u": [
+    138.6,
+    169.6,
+    437.4,
+    337.1
+   ]
+  },
+  {
+   "t": 13.02,
+   "bbox_norm": [
+    0.3889,
+    0.2021,
+    0.6111,
+    0.2958
+   ],
+   "name": "piggy bank coin",
+   "bbox_board_u": [
+    224.0,
+    207.0,
+    352.0,
+    302.9
+   ]
+  },
+  {
+   "t": 15.2,
+   "bbox_norm": [
+    0.4352,
+    0.1833,
+    0.8426,
+    0.2958
+   ],
+   "name": "tool pegboard wall",
+   "bbox_board_u": [
+    250.7,
+    187.7,
+    485.3,
+    302.9
+   ]
+  }
+ ]
+}

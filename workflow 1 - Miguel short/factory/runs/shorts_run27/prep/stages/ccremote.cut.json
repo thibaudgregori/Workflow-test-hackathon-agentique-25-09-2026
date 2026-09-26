@@ -1,0 +1,19 @@
+{
+ "id": "ccremote",
+ "stage": "cut",
+ "status": "ok",
+ "wall_s": 63.9,
+ "at": "2026-09-23T18:27:22",
+ "keys": {
+  "status": "ok",
+  "master": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/cuts/ccremote/master.mp4",
+  "audio": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/cuts/ccremote/audio.m4a",
+  "edl": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/cuts/ccremote/edl.json",
+  "transcript_tight": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/cuts/ccremote/transcript_tight.json",
+  "cut_master_duration_s": 34.92,
+  "corroboration": "model-authored keep ranges",
+  "analysis_wav_written": false,
+  "tight_audio_duration_s": 34.916,
+  "wall_s": 63.9
+ }
+}

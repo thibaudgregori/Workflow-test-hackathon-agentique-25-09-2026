@@ -1,0 +1,107 @@
+{
+ "label": "lunafree_cutout",
+ "video": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/output/lunafree_cutout.mp4",
+ "phone_scale": "405x720",
+ "sheet": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/phone_lunafree_cutout.png",
+ "rule": "a FRESH judge (never read the plan) names each crop in <=3 words. Wrong name, hedge, or 'cannot tell' = the object is redesigned, not annotated.",
+ "answer_key": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/phone_lunafree_cutout.key.json",
+ "answer_key_rule": "DO NOT OPEN the answer key until every judge_answer below is filled in. Reading it first voids the Phone Test.",
+ "objects": [
+  {
+   "i": 0,
+   "t": 1.8,
+   "bbox_norm": [
+    0.387,
+    0.199,
+    0.613,
+    0.3302
+   ],
+   "phone_box_px": [
+    156,
+    143,
+    248,
+    237
+   ],
+   "phone_size_px": [
+    92,
+    94
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/phone_lunafree_cutout/00.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  },
+  {
+   "i": 1,
+   "t": 11.7,
+   "bbox_norm": [
+    0.2407,
+    0.1656,
+    0.7593,
+    0.3292
+   ],
+   "phone_box_px": [
+    97,
+    119,
+    307,
+    237
+   ],
+   "phone_size_px": [
+    210,
+    118
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/phone_lunafree_cutout/01.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  },
+  {
+   "i": 2,
+   "t": 13.02,
+   "bbox_norm": [
+    0.3889,
+    0.2021,
+    0.6111,
+    0.2958
+   ],
+   "phone_box_px": [
+    157,
+    145,
+    247,
+    212
+   ],
+   "phone_size_px": [
+    90,
+    67
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/phone_lunafree_cutout/02.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  },
+  {
+   "i": 3,
+   "t": 15.2,
+   "bbox_norm": [
+    0.4352,
+    0.1833,
+    0.8426,
+    0.2958
+   ],
+   "phone_box_px": [
+    176,
+    131,
+    341,
+    212
+   ],
+   "phone_size_px": [
+    165,
+    81
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/phone_lunafree_cutout/03.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  }
+ ]
+}

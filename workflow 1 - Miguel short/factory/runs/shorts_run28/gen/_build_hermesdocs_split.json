@@ -1,0 +1,877 @@
+{
+ "video": "hermesdocs",
+ "lane": "icon choreography",
+ "fps": 25,
+ "duration": 28.28,
+ "seam": 862.5,
+ "formats": {
+  "split": {
+   "staged": {
+    "voice": {
+     "source": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/cuts/hermesdocs/audio.m4a",
+     "sample_rate": 48000,
+     "channels": 2
+    },
+    "bed": "/Users/migle/Documents/Workspace/assets/audio/music/shorts-factory/bed_split_v2.mp3",
+    "sfx_sources": {
+     "whoosh": "/Users/migle/Documents/Workspace/assets/audio/sfx/shorts-factory/whoosh.mp3",
+     "pop": "/Users/migle/Documents/Workspace/assets/audio/sfx/shorts-factory/pop.mp3",
+     "click": "/Users/migle/Documents/Workspace/assets/audio/sfx/shorts-factory/click.mp3"
+    },
+    "face": {
+     "file": "face_bottom_hd.mp4",
+     "w": 1080,
+     "h": 1058
+    },
+    "marks": {
+     "nous-girl-line": {
+      "source": "/Users/migle/Documents/Workspace/assets/logos/ai-models/nous-girl-line.png",
+      "url": "assets/logos/nous-girl-line.png"
+     },
+     "firecrawl": {
+      "source": "/Users/migle/Documents/Workspace/assets/logos/tool-web-icons-20260914/firecrawl-product.png",
+      "url": "assets/logos/firecrawl-product.png"
+     }
+    }
+   },
+   "seat": 862.5,
+   "scale": 1.0,
+   "core": {
+    "left": 0.0,
+    "top": 192.0
+   },
+   "band": {
+    "content_top": 252.0,
+    "content_bottom": 736.0,
+    "pill_top_rendered": 805.205,
+    "clear_above_pill": 69.21,
+    "clear_below_law30": 60.0
+   },
+   "rail": {
+    "readable_type_right_x": 785.4,
+    "per_key_right_x": {
+     "key-conf": 721.4,
+     "key-zero": 780.4,
+     "key-src-biz": 371.4,
+     "key-src-cli": 362.4,
+     "key-anydoc": 593.4,
+     "key-os": 638.4,
+     "key-fc": 785.4,
+     "key-local": 646.8
+    },
+    "ink_left_x": 220.23,
+    "ink_right_x": 868.0,
+    "law30_rail_x": 918.0
+   },
+   "cues": {
+    "safe": {
+     "word": 0,
+     "text": "Hermes",
+     "t": 0.1
+    },
+    "hermes": {
+     "word": 1,
+     "text": "Agent",
+     "t": 0.44
+    },
+    "lock": {
+     "word": 7,
+     "text": "privacy.",
+     "t": 2.22
+    },
+    "open": {
+     "word": 8,
+     "text": "Now",
+     "t": 2.88
+    },
+    "inside": {
+     "word": 10,
+     "text": "read",
+     "t": 3.3
+    },
+    "page": {
+     "word": 12,
+     "text": "documents",
+     "t": 3.7
+    },
+    "keyterm": {
+     "word": 13,
+     "text": "locally,",
+     "t": 4.5
+    },
+    "conf": {
+     "word": 23,
+     "text": "confidential",
+     "t": 7.7
+    },
+    "biz": {
+     "word": 28,
+     "text": "business",
+     "t": 9.62
+    },
+    "cli": {
+     "word": 31,
+     "text": "clients",
+     "t": 10.46
+    },
+    "srcout": {
+     "word": 32,
+     "text": "and",
+     "t": 11.3
+    },
+    "hflip": {
+     "word": 35,
+     "text": "Hermes",
+     "t": 11.86
+    },
+    "close": {
+     "word": 38,
+     "text": "now",
+     "t": 13.18
+    },
+    "zero": {
+     "word": 41,
+     "text": "zero",
+     "t": 14.12
+    },
+    "cloud": {
+     "word": 45,
+     "text": "data",
+     "t": 15.28
+    },
+    "line": {
+     "word": 46,
+     "text": "actually",
+     "t": 15.7
+    },
+    "cross": {
+     "word": 47,
+     "text": "leaking",
+     "t": 16.28
+    },
+    "c1out": {
+     "word": 49,
+     "text": "They",
+     "t": 16.88
+    },
+    "anydoc": {
+     "word": 54,
+     "text": "AnyDoc,",
+     "t": 18.0
+    },
+    "open_src": {
+     "word": 58,
+     "text": "open",
+     "t": 19.72
+    },
+    "tag": {
+     "word": 60,
+     "text": "PDF",
+     "t": 20.44
+    },
+    "scan": {
+     "word": 61,
+     "text": "analyzer",
+     "t": 21.0
+    },
+    "slide": {
+     "word": 62,
+     "text": "built",
+     "t": 21.78
+    },
+    "fc": {
+     "word": 65,
+     "text": "team",
+     "t": 22.34
+    },
+    "fc_wire": {
+     "word": 66,
+     "text": "over",
+     "t": 22.7
+    },
+    "fc_key": {
+     "word": 68,
+     "text": "Firecrawl.",
+     "t": 23.18
+    },
+    "outro": {
+     "word": 69,
+     "text": "Now",
+     "t": 23.88
+    },
+    "door": {
+     "word": 0,
+     "text": "Hermes",
+     "t": 0.36,
+     "window": [
+      0.1,
+      1.34
+     ]
+    },
+    "hback": {
+     "word": 35,
+     "text": "Hermes",
+     "t": 12.8,
+     "window": [
+      11.86,
+      13.12
+     ]
+    },
+    "pdf": {
+     "word": 49,
+     "text": "They",
+     "t": 16.92,
+     "window": [
+      16.88,
+      18.02
+     ]
+    },
+    "_law43": {
+     "board_mode": "chapters",
+     "chapters": 2,
+     "erase_at": [
+      16.88,
+      23.88
+     ]
+    }
+   },
+   "word_sync": {
+    "typed_states": [
+     {
+      "state": "key-local",
+      "first_visible_text": "LOCALLY",
+      "at": 4.5,
+      "words": "locally,",
+      "window": [
+       4.5,
+       5.94
+      ]
+     },
+     {
+      "state": "key-conf",
+      "first_visible_text": "CONFIDENTIAL",
+      "at": 7.7,
+      "words": "confidential",
+      "window": [
+       7.7,
+       9.3
+      ]
+     },
+     {
+      "state": "key-src-biz",
+      "first_visible_text": "BUSINESS",
+      "at": 9.879999999999999,
+      "words": "business",
+      "window": [
+       9.62,
+       10.94
+      ]
+     },
+     {
+      "state": "key-src-cli",
+      "first_visible_text": "CLIENTS",
+      "at": 10.72,
+      "words": "clients",
+      "window": [
+       10.46,
+       11.82
+      ]
+     },
+     {
+      "state": "key-zero",
+      "first_visible_text": "ZERO RISK",
+      "at": 14.219999999999999,
+      "words": "zero risk",
+      "window": [
+       14.12,
+       15.92
+      ]
+     },
+     {
+      "state": "key-anydoc",
+      "first_visible_text": "ANYDOC",
+      "at": 18.0,
+      "words": "anydoc,",
+      "window": [
+       18.0,
+       19.38
+      ]
+     },
+     {
+      "state": "key-os",
+      "first_visible_text": "OPEN SOURCE",
+      "at": 19.72,
+      "words": "open source",
+      "window": [
+       19.72,
+       21.32
+      ]
+     },
+     {
+      "state": "key-fc",
+      "first_visible_text": "FIRECRAWL",
+      "at": 23.18,
+      "words": "firecrawl.",
+      "window": [
+       23.18,
+       24.72
+      ]
+     },
+     {
+      "state": "pdf-tag",
+      "first_visible_text": "PDF",
+      "at": 17.12,
+      "words": "They (16.88) - the page's own file-type tag; its border flips on 'PDF' (20.44)",
+      "kind": "object chrome: part of the drawn PDF page"
+     }
+    ],
+    "disagreements": 0,
+    "digits_that_tick": 0
+   },
+   "law37": {
+    "scan_cue_count": 0,
+    "plan_declared_cards": 0,
+    "source_cards_in_the_page": 0
+   },
+   "law39": {
+    "key-conf": {
+     "host": "safe",
+     "side": "below",
+     "text": "CONFIDENTIAL",
+     "at": 7.7,
+     "gutter_core_px": 40.0,
+     "box_canvas": [
+      380.0,
+      692.0,
+      700.0,
+      736.0
+     ]
+    },
+    "key-zero": {
+     "host": "safe",
+     "side": "below",
+     "text": "ZERO RISK",
+     "at": 14.219999999999999,
+     "gutter_core_px": 40.0,
+     "box_canvas": [
+      380.0,
+      692.0,
+      700.0,
+      736.0
+     ]
+    },
+    "key-src-biz": {
+     "host": "src-biz",
+     "side": "below",
+     "text": "BUSINESS",
+     "at": 9.879999999999999,
+     "gutter_core_px": 8.0,
+     "box_canvas": [
+      200.0,
+      464.0,
+      400.0,
+      508.0
+     ]
+    },
+    "key-src-cli": {
+     "host": "src-cli",
+     "side": "below",
+     "text": "CLIENTS",
+     "at": 10.72,
+     "gutter_core_px": 8.0,
+     "box_canvas": [
+      200.0,
+      668.0,
+      400.0,
+      712.0
+     ]
+    },
+    "key-anydoc": {
+     "host": "bigpage",
+     "side": "below",
+     "text": "ANYDOC",
+     "at": 18.0,
+     "gutter_core_px": 18.0,
+     "box_canvas": [
+      380.0,
+      610.0,
+      700.0,
+      654.0
+     ]
+    },
+    "key-os": {
+     "host": "bigpage",
+     "side": "below",
+     "text": "OPEN SOURCE",
+     "at": 19.72,
+     "gutter_core_px": 60.0,
+     "box_canvas": [
+      380.0,
+      652.0,
+      700.0,
+      696.0
+     ]
+    },
+    "key-fc": {
+     "host": "fc",
+     "side": "below",
+     "text": "FIRECRAWL",
+     "at": 23.18,
+     "gutter_core_px": 20.0,
+     "box_canvas": [
+      605.0,
+      533.0,
+      805.0,
+      577.0
+     ]
+    },
+    "_law50": {
+     "plain_label_font_px": 28.0,
+     "row_px": 44.0
+    },
+    "_key_term": {
+     "text": "LOCALLY",
+     "font_px": 48.0,
+     "design_units": 25.6,
+     "first_type": true
+    }
+   },
+   "law42": {
+    "board_mode": "chapters",
+    "anchors": [
+     "o-glyph",
+     "o-rule",
+     "o-sheet",
+     "o-slot"
+    ],
+    "longest_marks": [
+     [
+      "safe",
+      0.604
+     ],
+     [
+      "hermes",
+      0.463
+     ],
+     [
+      "key-local",
+      0.448
+     ]
+    ],
+    "every_non_anchor_finite": true
+   },
+   "law38": {
+    "border_flips": [
+     {
+      "id": "hermes",
+      "target": "hermes-mark",
+      "from": 11.86,
+      "until": 12.8,
+      "check_at": 12.36
+     },
+     {
+      "id": "safe-body",
+      "target": "safe-door",
+      "from": 14.12,
+      "until": 17.18,
+      "check_at": 14.62
+     },
+     {
+      "id": "pdf-tag",
+      "target": "pg-edge",
+      "from": 20.44,
+      "until": 24.36,
+      "check_at": 20.94
+     }
+    ],
+    "rings_ellipses_circles": 0,
+    "highlights": 0,
+    "dom_elements_added": 0
+   },
+   "law40": {
+    "connectors": [
+     {
+      "id": "arw-0",
+      "from": "src-biz",
+      "to": "safe",
+      "ends": [
+       [
+        356.0,
+        208.0
+       ],
+       [
+        454.0,
+        208.0
+       ]
+      ]
+     },
+     {
+      "id": "arw-1",
+      "from": "src-cli",
+      "to": "safe",
+      "ends": [
+       [
+        356.0,
+        412.0
+       ],
+       [
+        454.0,
+        412.0
+       ]
+      ]
+     },
+     {
+      "id": "leak-l",
+      "from": "cloud",
+      "to": "safe",
+      "ends": [
+       [
+        382.0,
+        322.0
+       ],
+       [
+        540.0,
+        322.0
+       ]
+      ]
+     },
+     {
+      "id": "fc-l",
+      "from": "bigpage",
+      "to": "fc",
+      "ends": [
+       [
+        519.0,
+        265.0
+       ],
+       [
+        649.0,
+        265.0
+       ]
+      ]
+     }
+    ],
+    "declared": {
+     "connectors": {
+      "arw-0": {
+       "module_to": "safe",
+       "to": "safe-edge",
+       "side": "left",
+       "fraction": 0.16,
+       "check_at": 10.48
+      },
+      "arw-1": {
+       "module_to": "safe",
+       "to": "safe-edge",
+       "side": "left",
+       "fraction": 0.84,
+       "check_at": 11.32
+      },
+      "leak-l": {
+       "module_to": "safe",
+       "to": "cloud-outer",
+       "side": "right",
+       "fraction": 0.7349,
+       "check_at": 16.22
+      },
+      "fc-l": {
+       "module_to": "fc",
+       "to": "fc",
+       "side": "left",
+       "fraction": 0.5,
+       "check_at": 23.16
+      }
+     },
+     "emphases": [
+      {
+       "id": "hermes",
+       "target": "hermes-mark",
+       "kind": "border",
+       "check_at": 12.36
+      },
+      {
+       "id": "safe-body",
+       "target": "safe-door",
+       "kind": "border",
+       "check_at": 14.62
+      },
+      {
+       "id": "pdf-tag",
+       "target": "pg-edge",
+       "kind": "border",
+       "check_at": 20.94
+      }
+     ],
+     "virtual_rects": {
+      "safe-edge": [
+       380.0,
+       160.0,
+       700.0,
+       460.0
+      ],
+      "cloud-outer": [
+       220.23,
+       227.75,
+       382.0,
+       356.0
+      ]
+     }
+    }
+   },
+   "law2": {
+    "stage_marks": [
+     "firecrawl",
+     "nous-girl-line"
+    ],
+    "resolved": {
+     "nous-girl-line": "/Users/migle/Documents/Workspace/assets/logos/ai-models/nous-girl-line.png",
+     "firecrawl": "/Users/migle/Documents/Workspace/assets/logos/tool-web-icons-20260914/firecrawl-product.png"
+    },
+    "cutout_lanes_not_ours": [
+     "ollama",
+     "openclaw",
+     "notebooklm",
+     "claude",
+     "chatgpt",
+     "mistral",
+     "huggingface"
+    ]
+   },
+   "law22": {
+    "events": 26,
+    "tightest_gap_s": 0.34,
+    "deliberately_silent": {
+     "door parts 0.36": "0.26 s after the safe's pop",
+     "the slide 9.62": "the building pop 0.20 s later scores it",
+     "arrows / pages 10.08-11.16": "each within 0.40 s of a tile pop",
+     "the chapter-2 page 16.92": "0.04 s after the chapter whoosh",
+     "flips": "a colour flip is not an arrival"
+    }
+   },
+   "draw_on": {
+    "dash_selectors": {
+     "#bigpage .pl": 5,
+     "#cloud-edge": 1,
+     "#fc-l": 1,
+     "#leak .leak-x": 2,
+     "#leak-l": 1,
+     "#pg-edge": 1,
+     "#pg-fold": 1,
+     "#safe-body": 1
+    },
+    "verdict": "every dash equals its path's declared length (100)"
+   },
+   "transcript": {
+    "law47_tail_s": 0.22,
+    "law47_cap_s": 0.24,
+    "law47_verdict": "PASS - 0.220s past the last word against a 0.240s cap",
+    "law46": "the scripted opening occurs ONCE inside the keeper take, at word 0 / 0.10 s",
+    "take_corroboration": {
+     "mode": "model keep_words (the agent read the transcript and chose the words; no rule detection)",
+     "keep_words": [
+      [
+       201,
+       290
+      ]
+     ],
+     "take_word_index": 201,
+     "take_start_s": 129.86,
+     "words": 90,
+     "of_raw_words": 291,
+     "corroboration": "model-authored keep ranges"
+    },
+    "words": 90,
+    "function_word_merges": 0,
+    "beats_before_merge": 28,
+    "orphan_repartitions": [],
+    "solo_word_merges": [],
+    "board_keys_forbidden_at_split": [
+     "anydoc",
+     "business",
+     "clients",
+     "confidential",
+     "firecrawl",
+     "locally",
+     "open source",
+     "pdf",
+     "zero risk"
+    ]
+   },
+   "phone_objects": [
+    {
+     "name": "locked steel safe",
+     "t": 1.6,
+     "bbox": [
+      0.3444,
+      0.1833,
+      0.6556,
+      0.351
+     ],
+     "canvas": [
+      372.0,
+      352.0,
+      708.0,
+      674.0
+     ]
+    },
+    {
+     "name": "open safe documents",
+     "t": 8.6,
+     "bbox": [
+      0.3519,
+      0.1771,
+      0.7074,
+      0.351
+     ],
+     "canvas": [
+      380.0,
+      340.0,
+      764.0,
+      674.0
+     ]
+    },
+    {
+     "name": "scanned PDF page",
+     "t": 21.5,
+     "bbox": [
+      0.3889,
+      0.1677,
+      0.6111,
+      0.3083
+     ],
+     "canvas": [
+      420.0,
+      322.0,
+      660.0,
+      592.0
+     ]
+    }
+   ],
+   "render": {
+    "w": 1080,
+    "h": 1920,
+    "zoom": 1
+   },
+   "handle": "@migueltorrezai",
+   "captions": {
+    "n": 28,
+    "widest_px": 700.4,
+    "beats": [
+     [
+      "Hermes Agent just",
+      0.1
+     ],
+     [
+      "dropped another",
+      0.92
+     ],
+     [
+      "banger for privacy.",
+      1.62
+     ],
+     [
+      "Now they read",
+      2.88
+     ],
+     [
+      "your documents",
+      3.52
+     ],
+     [
+      "locally, meaning that",
+      4.5
+     ],
+     [
+      "if you need to operate",
+      5.78
+     ],
+     [
+      "with high confidential",
+      7.12
+     ],
+     [
+      "documents from",
+      8.42
+     ],
+     [
+      "either your business",
+      9.16
+     ],
+     [
+      "or your clients",
+      10.12
+     ],
+     [
+      "and you run",
+      11.3
+     ],
+     [
+      "Hermes Agent locally,",
+      11.86
+     ],
+     [
+      "now you have",
+      13.18
+     ],
+     [
+      "zero risk of your data",
+      14.12
+     ],
+     [
+      "actually leaking out.",
+      15.7
+     ],
+     [
+      "They do this by",
+      16.88
+     ],
+     [
+      "using AnyDoc,",
+      17.56
+     ],
+     [
+      "which is an open source",
+      18.8
+     ],
+     [
+      "PDF analyzer",
+      20.44
+     ],
+     [
+      "built by the team",
+      21.78
+     ],
+     [
+      "over at Firecrawl.",
+      22.7
+     ],
+     [
+      "Now follow for more",
+      23.88
+     ],
+     [
+      "AI news, videos, and",
+      24.68
+     ],
+     [
+      "tutorials each and",
+      25.76
+     ],
+     [
+      "every single day,",
+      26.46
+     ],
+     [
+      "and catch you",
+      27.28
+     ],
+     [
+      "in the next one.",
+      27.62
+     ]
+    ],
+    "min_aspect": 3.34
+   }
+  }
+ }
+}

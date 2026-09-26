@@ -1,0 +1,28 @@
+{
+ "verdict": "PASS",
+ "plan_json": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/plans/falagent_plan.json",
+ "plan_md": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/plans/falagent_plan.md",
+ "lane": "icon choreography",
+ "lane_reason": "Intake's 'icon choreography' holds: the script is a chain of plain nouns (creative people, fal agent, videos, images, the model, the prompt, consistent generations, their website), so each sentence gets one drawn object or one row of real marks that arrives on its word, and the fal plate is the recurring hero that the argument keeps returning to.",
+ "beats": 9,
+ "bespoke_names": [
+  "an artist's palette",
+  "a movie clapperboard",
+  "a painter's easel",
+  "a dartboard with dart",
+  "a film strip"
+ ],
+ "cues": "pointing_cues.py --vid falagent: no pointing cue in this take (gen/_cues_falagent.json cues: []); prep cues marker agrees (cue_count 0). No source card raised, nothing waived.",
+ "board_mode": "chapters",
+ "open_questions": [
+  "Wing review: the prompt0 marker has landed (status ok, wing_review true, the instrument proposed no cut and abstained, overlay at matting/falagent/prompts/kf_overlay_00000.png); the selection marker says 'selection inputs ready for the outline review'. At plan time the track marker read 'skipped'; by the end of the artwork it had landed ok (matanyone2, $0.0169 est.) with the ship marker ok (831 frames, soft alpha, rim 7, minimum person fraction 0.286, $0.0417 est.), both review_status 'needs_final_visual_review'. The visual selection, the matte review and approval belong to the Astra matte step.",
+  "The four model marks are illustrative of 'the model' (the script names no model); they are real model families fal serves, chosen for a mixed image + video row.",
+  "The fal plate is 132 px (the chart's hero plate) rather than a 112 px tile, because it is the subject and returns in three chapters; the four model tiles are the standard 112."
+ ],
+ "open_doubts": [],
+ "scene_handoff": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/plans/falagent_scene_handoff.md",
+ "scene_module": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/gen/falagent_scene.py",
+ "sealed": true,
+ "proofs": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_falagent",
+ "reason": "Markers: cut ok (33.24 s, corroboration 'model-authored keep ranges', no false start: the opening appears once), plate ok (over-wide, crop 3640x1820+52+238, scale_k 0.4945), prompt0 ok (wing_review true, instrument abstained, no cut), selection ok, track ok (matanyone2, est. $0.0169; read 'skipped' at plan time, landed during artwork), ship ok (831 frames, soft alpha, rim 7, min person fraction 0.286, est. $0.0417), both needs_final_visual_review (Astra matte step owns it), cues ok (0). Scene: 5 bespoke objects checked by eye on static and real-timeline phone crops (all nameable), 5 connectors touching both outlines (assert_anchor_law 0.0 px off, verified at 3x on the real timeline), 0 page errors, all stage and lane marks resolve. Added derived asset assets/logos/ai-models/falai-mark.png (+provenance json; the library's only fal mark was a favicon on an opaque pink square) and rebuilt the asset catalogue. production.py seal printed PASS."
+}

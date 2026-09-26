@@ -1,0 +1,14 @@
+{
+  "status": "ok",
+  "ship": "ok",
+  "selection_changed": false,
+  "edits": 0,
+  "rounds": 1,
+  "what_you_saw": "Viewed the full frame-0 overlay, head overlay and clean source: the contour follows the cap brim, both ears, cheeks, jaw, chin, neck and shoulders, includes the visible hands, and excludes the chair back and headrest. Approved unchanged. Viewed all four exported review sheets. Playback looks clean at normal viewing size; face_2x preserves the source-visible anatomy including the first and last sampled frames; chair_sides shows no retained chair slab, grey head wedge or neck splash; hands shows present, opaque hand cores with soft edges during fast gestures. The brief faint wisp near the moving hand around 13.4 seconds and motion-blurred finger edges are acceptable under Miguel's criteria, not a hold. The haze metric's longest run is 0.4 seconds and no structural auto-hold was reported. All three shipped file hashes match ship_v5.json. No fallback was needed.",
+  "hold_reason": "",
+  "outputs": [
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/matting/falagent/matte_falagent_v5_cut.webm",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/matting/falagent/matte_falagent_v5_rim.webm",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/matting/falagent/matte_falagent_v5_alpha.webm"
+  ]
+}

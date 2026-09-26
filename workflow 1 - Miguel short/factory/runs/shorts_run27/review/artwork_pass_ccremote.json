@@ -1,0 +1,13 @@
+{
+  "verdict": "PASS",
+  "vid": "ccremote",
+  "sealed_by": "design-agent-v4",
+  "seal_rounds": 0,
+  "objects": null,
+  "module": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/gen/ccremote_scene.py",
+  "handoff": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/plans/ccremote_scene_handoff.md",
+  "evidence": {
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/gen/ccremote_scene.py": "1bcb6453ff3243221e44e60c5132eb3d8286ded87f80954d8881d6e27d57f7f6",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/plans/ccremote_scene_handoff.md": "6b6f5c439fd95c65b33a176fdf72c684ce4fcecdba0d525c43aab2fe5064318c"
+  }
+}

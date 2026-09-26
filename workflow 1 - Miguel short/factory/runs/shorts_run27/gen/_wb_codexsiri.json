@@ -1,0 +1,554 @@
+{
+ "video": "codexsiri",
+ "format": "whiteboard",
+ "variant": "plan view (fix)",
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/projects/codexsiri_whiteboard",
+ "handle": "@migueltorrez.ai",
+ "handle_key": "tiktok_ig",
+ "duration_s": 36.16,
+ "fps": 25,
+ "render": "1080x1920 @ zoom 1",
+ "board": "576x460 design units",
+ "board_box": [
+  40.0,
+  150.0,
+  536.0,
+  425.0
+ ],
+ "strokes": 33,
+ "rigids": 34,
+ "board_text": [
+  "SIRI SUCKS",
+  "OUT OF THE BOX",
+  "GITHUB REPO",
+  "CODEX",
+  "GET STUFF DONE",
+  "GITHUB REPO (2)",
+  "FREE",
+  "IN THE DESCRIPTION"
+ ],
+ "top_ink_u": 150.0,
+ "top_band_u": 102.4,
+ "pen_top_u": 110.7,
+ "ink_bottom_px": 755.9,
+ "cap_band_top_px": 799.2,
+ "cap_clearance_px": 43.3,
+ "ink_bottom_ink_px": 743.3,
+ "cap_clearance_ink_px": 55.9,
+ "seam_pill_top_px": 805.2,
+ "cap_clearance_ink_to_pill_px": 61.9,
+ "seam_measures": "cap_clearance_px = line boxes vs the reserved band (THE GATE); cap_clearance_ink_px = glyph ink vs the same band; cap_clearance_ink_to_pill_px = glyph ink vs the pill's painted top edge (the clerk's surface)",
+ "rail_hits": [],
+ "label_law": {
+  "window_s": 1.0,
+  "key_term": "SIRI SUCKS",
+  "key_term_fs_u": 23.0,
+  "written": {
+   "SIRI SUCKS": 1.04,
+   "OUT OF THE BOX": 9.2,
+   "GITHUB REPO": 14.28,
+   "CODEX": 16.86,
+   "GET STUFF DONE": 25.04,
+   "GITHUB REPO (2)": 26.4,
+   "FREE": 27.8,
+   "IN THE DESCRIPTION": 29.48
+  },
+  "plan": {
+   "sucks": "SIRI SUCKS",
+   "out": "OUT OF THE BOX",
+   "repo": "GITHUB REPO",
+   "codex": "CODEX",
+   "get": "GET STUFF DONE",
+   "repo2": "GITHUB REPO (2)",
+   "description": "IN THE DESCRIPTION"
+  },
+  "comparisons": [],
+  "unplanned_text": [],
+  "verdict": "PASS"
+ },
+ "law4": {
+  "law": "4 (overlap test)",
+  "board_words_that_also_appear_as_a_pill": {
+   "SIRI SUCKS": [
+    1.04,
+    3.62
+   ],
+   "GITHUB REPO": [
+    14.28,
+    23.3
+   ]
+  }
+ },
+ "round4": {
+  "law6_lifetimes": {
+   "duration_s": 36.16,
+   "chaptered": true,
+   "max_frac": 0.4,
+   "declared_anchors": [],
+   "lingering": [],
+   "verdict": "PASS"
+  },
+  "law2_no_enclosure": {
+   "rings": 0,
+   "boxes": 0,
+   "highlights": 2,
+   "rasters": [
+    "hl:post-claim",
+    "postcard"
+   ],
+   "wrong_tool_advisory": [],
+   "verdict": "PASS"
+  },
+  "law3_label_side": {
+   "checked": 7,
+   "detail": {
+    "SIRI SUCKS": {
+     "host": "phone0",
+     "dx_u": 51.0,
+     "band_u": 58.5,
+     "place": "above"
+    },
+    "OUT OF THE BOX": {
+     "host": "box",
+     "dx_u": 0.0,
+     "band_u": 127.4,
+     "place": "below"
+    },
+    "GITHUB REPO": {
+     "host": "github",
+     "dx_u": 0.0,
+     "band_u": 38.8,
+     "place": "below"
+    },
+    "CODEX": {
+     "host": "codex",
+     "dx_u": 0.0,
+     "band_u": 38.8,
+     "place": "below"
+    },
+    "GET STUFF DONE": {
+     "host": "clipboard",
+     "dx_u": 0.0,
+     "band_u": 52.0,
+     "place": "below"
+    },
+    "GITHUB REPO (2)": {
+     "host": "github2",
+     "dx_u": 0.0,
+     "band_u": 38.8,
+     "place": "below"
+    },
+    "IN THE DESCRIPTION": {
+     "host": "arrow",
+     "dx_u": 0.0,
+     "band_u": 11.7,
+     "place": "above"
+    }
+   },
+   "verdict": "PASS"
+  },
+  "law5_spacing": {
+   "gate_u": 8.5,
+   "gate_px": 15.9,
+   "aim_u": 12.8,
+   "aim_px": 24.0,
+   "measured_on": "element line boxes",
+   "under_aim": [
+    "phone4 | bubble4 = 10.0u (18.8 px)"
+   ],
+   "objects": 25,
+   "verdict": "PASS"
+  },
+  "law5_spacing_ink": {
+   "gate_u": 8.5,
+   "gate_px": 15.9,
+   "aim_u": 12.8,
+   "aim_px": 24.0,
+   "measured_on": "glyph ink extents",
+   "under_aim": [
+    "phone4 | bubble4 = 10.0u (18.8 px)"
+   ],
+   "objects": 25,
+   "verdict": "PASS"
+  },
+  "law5_no_crossing": {
+   "strokes": 33,
+   "types": 8,
+   "verdict": "PASS"
+  },
+  "law4_anchors": {
+   "targets": 4,
+   "detail": {
+    "github": {
+     "n": 1,
+     "spread_u": 0.0,
+     "level": true,
+     "mirrored": false,
+     "on_rect": true
+    },
+    "codex": {
+     "n": 1,
+     "spread_u": 0.0,
+     "level": true,
+     "mirrored": false,
+     "on_rect": true
+    },
+    "phone3": {
+     "n": 1,
+     "spread_u": 0.0,
+     "level": true,
+     "mirrored": false,
+     "on_rect": true
+    },
+    "tag": {
+     "n": 1,
+     "spread_u": 0.0,
+     "level": true,
+     "mirrored": false,
+     "on_rect": true
+    }
+   },
+   "verdict": "PASS"
+  }
+ },
+ "outro": {
+  "move": "opaque sheet rises over the board",
+  "wipe_start": 31.86,
+  "wipe_end": 32.42,
+  "travel_px": 862.5,
+  "sheet_opaque": true,
+  "sheet_covers_px": 862.5,
+  "card_ink_enters_px": 322.5,
+  "board_covered_px": 581.2,
+  "overlap_px": 258.8,
+  "board_moves": false,
+  "board_fades": false,
+  "outro_start": 31.86,
+  "verdict": "PASS"
+ },
+ "captions": 38,
+ "cap_font_px": 56.2,
+ "cap_max_pill_w_px": 748.4,
+ "cap_w_budget_px": 756.0,
+ "anchors": {
+  "start": 0.1,
+  "sucks": 0.42,
+  "this": 4.12,
+  "experience": 7.36,
+  "sobad": 8.62,
+  "out": 9.08,
+  "took": 10.32,
+  "github": 13.24,
+  "repo": 13.6,
+  "connect": 15.0,
+  "codex": 16.58,
+  "openai": 18.94,
+  "this2": 19.92,
+  "drastically": 20.28,
+  "improves": 20.94,
+  "experience2": 21.62,
+  "siri3": 22.76,
+  "now2": 23.34,
+  "communicate": 23.74,
+  "get": 24.86,
+  "stuff": 25.4,
+  "done": 25.68,
+  "this3": 26.1,
+  "repo2": 26.34,
+  "pct": 27.02,
+  "free": 27.82,
+  "description": 29.48,
+  "down": 29.88,
+  "outro": 31.86,
+  "daily": 34.7
+ },
+ "html_bytes": 101699,
+ "sfx": 27,
+ "pen_loops": 12,
+ "pen_seconds": 4.52,
+ "pen_duty_pct": 12.5,
+ "captions_law3b": {
+  "beats_before_merge": 38,
+  "beats_after_merge": 38,
+  "merges": 0,
+  "widest_pill_px": 748.4,
+  "budget_px": 756.0,
+  "beats": [
+   [
+    0.1,
+    1.02,
+    "Siri sucks,"
+   ],
+   [
+    1.02,
+    1.54,
+    "so here's how you"
+   ],
+   [
+    1.54,
+    2.36,
+    "can make it 100"
+   ],
+   [
+    2.36,
+    3.14,
+    "times better"
+   ],
+   [
+    3.14,
+    4.12,
+    "thanks to AI."
+   ],
+   [
+    4.12,
+    5.18,
+    "This guy did exactly"
+   ],
+   [
+    5.18,
+    6.08,
+    "that. He was so"
+   ],
+   [
+    6.08,
+    7.36,
+    "frustrated with the Siri"
+   ],
+   [
+    7.36,
+    8.62,
+    "experience that was just"
+   ],
+   [
+    8.62,
+    9.34,
+    "so bad out of"
+   ],
+   [
+    9.34,
+    10.02,
+    "the box,"
+   ],
+   [
+    10.02,
+    10.84,
+    "that he took matter"
+   ],
+   [
+    10.84,
+    12.14,
+    "into his own hands"
+   ],
+   [
+    12.14,
+    13.24,
+    "and created this free"
+   ],
+   [
+    13.24,
+    14.26,
+    "GitHub repo"
+   ],
+   [
+    14.26,
+    15.32,
+    "that manages to connect"
+   ],
+   [
+    15.32,
+    16.2,
+    "his Siri"
+   ],
+   [
+    16.2,
+    17.14,
+    "to Codex,"
+   ],
+   [
+    17.14,
+    17.64,
+    "the coding"
+   ],
+   [
+    17.64,
+    18.52,
+    "assistant made"
+   ],
+   [
+    18.52,
+    19.6,
+    "by OpenAI."
+   ],
+   [
+    19.6,
+    20.28,
+    "Now, this"
+   ],
+   [
+    20.28,
+    21.46,
+    "drastically improves"
+   ],
+   [
+    21.46,
+    23.34,
+    "his experience with Siri."
+   ],
+   [
+    23.34,
+    24.34,
+    "Now he can communicate"
+   ],
+   [
+    24.34,
+    25.4,
+    "and actually get"
+   ],
+   [
+    25.4,
+    26.1,
+    "stuff done."
+   ],
+   [
+    26.1,
+    27.82,
+    "This repo is 100%"
+   ],
+   [
+    27.82,
+    28.92,
+    "free, and it's also"
+   ],
+   [
+    28.92,
+    29.88,
+    "linked in the description"
+   ],
+   [
+    29.88,
+    30.62,
+    "down below"
+   ],
+   [
+    30.62,
+    31.86,
+    "if you ever need it."
+   ],
+   [
+    31.86,
+    32.6,
+    "Now follow for more"
+   ],
+   [
+    32.6,
+    33.08,
+    "AI news,"
+   ],
+   [
+    33.08,
+    34.24,
+    "videos, and tutorials each"
+   ],
+   [
+    34.24,
+    35.16,
+    "and every single day,"
+   ],
+   [
+    35.16,
+    35.56,
+    "and catch you in"
+   ],
+   [
+    35.56,
+    36.06,
+    "the next one."
+   ]
+  ],
+  "law": "captions.py 3b: merge_function_only_beats over the WHOLE beat stream, then assert_no_function_only_beat inside build()"
+ },
+ "seams": {
+  "erase_at": [
+   3.62,
+   7.3,
+   10.3,
+   23.3,
+   26.1
+  ],
+  "erase_s": 0.3,
+  "qc_seams": "3.62,7.3,10.3,23.3,26.1",
+  "outro_wipe": 31.86
+ },
+ "phone_test_objects": [
+  {
+   "name": "phone with Siri",
+   "t": 1.6,
+   "bbox_board_u": [
+    184.0,
+    192.0,
+    392.0,
+    356.0
+   ],
+   "bbox_norm": [
+    0.3194,
+    0.1875,
+    0.6806,
+    0.3477
+   ]
+  },
+  {
+   "name": "phone in box",
+   "t": 9.9,
+   "bbox_board_u": [
+    184.0,
+    188.0,
+    392.0,
+    376.0
+   ],
+   "bbox_norm": [
+    0.3194,
+    0.1836,
+    0.6806,
+    0.3672
+   ]
+  },
+  {
+   "name": "clipboard with checkmarks",
+   "t": 26.0,
+   "bbox_board_u": [
+    334.0,
+    200.0,
+    426.0,
+    328.0
+   ],
+   "bbox_norm": [
+    0.5799,
+    0.1953,
+    0.7396,
+    0.3203
+   ]
+  },
+  {
+   "name": "free price tag",
+   "t": 28.5,
+   "bbox_board_u": [
+    256.0,
+    190.0,
+    398.0,
+    250.0
+   ],
+   "bbox_norm": [
+    0.4444,
+    0.1855,
+    0.691,
+    0.2441
+   ]
+  }
+ ],
+ "phone_at_args": [
+  "1.6:0.3194,0.1875,0.6806,0.3477:phone with Siri",
+  "9.9:0.3194,0.1836,0.6806,0.3672:phone in box",
+  "26:0.5799,0.1953,0.7396,0.3203:clipboard with checkmarks",
+  "28.5:0.4444,0.1855,0.691,0.2441:free price tag"
+ ]
+}

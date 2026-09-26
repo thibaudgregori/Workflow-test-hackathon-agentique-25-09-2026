@@ -1,0 +1,1335 @@
+{
+ "video": "grokfeatures",
+ "format": "cutout",
+ "platform": "tiktok",
+ "fps": 25,
+ "duration": 34.77,
+ "seal": {
+  "grokfeatures_scene.py": "948da3f06942e3842bc15b83ce98e643cc38caa0edd679acea2c6be597e11f7d",
+  "grokfeatures_scene_handoff.md": "ad08b66d1d9a06d0f7644dd211f6f05a1b4c1ea0efb01771adff2d35ad32e71e"
+ },
+ "plate": {
+  "box": {
+   "w": 1584.0,
+   "h": 990.0,
+   "left": -153.0,
+   "top": 930.0
+  },
+  "whole_pixels": true,
+  "equals_encoded": {
+   "cut": {
+    "w": 1584,
+    "h": 990
+   },
+   "rim": {
+    "w": 1584,
+    "h": 990
+   }
+  },
+  "origin": "read from plate.json overwide.plate_box (not computed; the box is deliberately not centred)",
+  "face_centre_canvas": {
+   "frames_sampled": 87,
+   "band_rows": 160,
+   "mass_cx_median": 507.9,
+   "mass_cx_p5_p95": [
+    466.1,
+    581.8
+   ],
+   "offset_from_540": -32.1
+  }
+ },
+ "seat": 889.2,
+ "envelope": {
+  "CAP_Y": 889.2,
+  "ZY0": 192.0,
+  "ZY1": 805.4,
+  "CAP_H_true_rendered": 114.59,
+  "true_clear_to_crown": 26.5
+ },
+ "crown_gate": {
+  "frames": 869,
+  "frames_on_plate_top": 0,
+  "minimum": 43,
+  "worst_frame": 36
+ },
+ "core": {
+  "k": 1.0,
+  "left": 0.0,
+  "top": 192.0,
+  "why": "the handoff's own placement (k 1.00, top 192), identical to the approved split; legal inside this body's stage zone",
+  "stage_zone": [
+   192.0,
+   805.4
+  ],
+  "content_band_canvas": [
+   280.0,
+   726.0
+  ],
+  "clear_to_zone_bottom": 79.4
+ },
+ "band": {
+  "content_top": 280.0,
+  "content_bottom": 726.0,
+  "pill_top_rendered": 831.905,
+  "clear_above_pill": 105.91,
+  "clear_below_law30": 88.0
+ },
+ "rail": {
+  "labels": {
+   "key-top3": {
+    "ink_right_x": 616.0,
+    "y": [
+     286.0,
+     344.0
+    ],
+    "in_rail_band": false
+   },
+   "key-models": {
+    "ink_right_x": 593.4,
+    "y": [
+     682.0,
+     726.0
+    ],
+    "in_rail_band": true
+   },
+   "key-apps": {
+    "ink_right_x": 656.4,
+    "y": [
+     682.0,
+     726.0
+    ],
+    "in_rail_band": true
+   },
+   "key-24": {
+    "ink_right_x": 638.4,
+    "y": [
+     682.0,
+     726.0
+    ],
+    "in_rail_band": true
+   },
+   "key-gbuild": {
+    "ink_right_x": 847.4,
+    "y": [
+     682.0,
+     726.0
+    ],
+    "in_rail_band": true
+   },
+   "key-dash": {
+    "ink_right_x": 248.8,
+    "y": [
+     428.0,
+     480.0
+    ],
+    "in_rail_band": false
+   },
+   "key-modal": {
+    "ink_right_x": 465.7,
+    "y": [
+     428.0,
+     480.0
+    ],
+    "in_rail_band": false
+   },
+   "key-agent": {
+    "ink_right_x": 705.7,
+    "y": [
+     428.0,
+     480.0
+    ],
+    "in_rail_band": false
+   },
+   "key-deep": {
+    "ink_right_x": 961.1,
+    "y": [
+     428.0,
+     480.0
+    ],
+    "in_rail_band": false
+   }
+  },
+  "ink_left_x": 100.0,
+  "ink_right_x": 980.0,
+  "law30_rail_x": 918.0,
+  "rail_band_y": [
+   576.0,
+   1824.0
+  ]
+ },
+ "voice": {
+  "source": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/cuts/grokfeatures/audio.m4a",
+  "sample_rate": 48000,
+  "channels": 2
+ },
+ "matte": {
+  "session": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/matting/grokfeatures",
+  "layers": {
+   "cut": {
+    "w": 1584,
+    "h": 990
+   },
+   "rim": {
+    "w": 1584,
+    "h": 990
+   }
+  },
+  "hashes": {
+   "cut": "d9d24e40c8117f09b3acb4d96217d912307c4e3f27c79637508fbcce8e00cac6",
+   "rim": "df4d0ef70450e3c81ca64f18acbaa6dbbed39bc9cfa2a632e300e622e695a2b8",
+   "alpha": "94555068a1cfa945a3d3fcfa34a36f1c0c3a9bfcad90e3a879fde42fd3aad660"
+  },
+  "backend": "matanyone2",
+  "selection_mask_sha256": "a88aab41b6bed94843701d04ee7c32b679d557b6db4d38a3436b022ad7b3e52a",
+  "astra_review": {
+   "status": "ok",
+   "selection_changed": false,
+   "edits": 0,
+   "rounds": 1
+  },
+  "headroom": {
+   "identity": {
+    "alpha_sha256": "6be07a2bba00311ecb443ed4e20e58d945d3032a4f29419d2668283c12bb1c85",
+    "display_sha256": "710bd922306b1db0db80f244579d82e52ba0116556aa4bffdfcdcec00fc27464",
+    "guard_sha256": "90e6a7f8cf1a142b9a8ab4cf0054f9803188279b68642b84430db31afe79999a",
+    "expected_frames": 869,
+    "floor_px": 24.0
+   },
+   "pass": true,
+   "frames_checked": 869,
+   "min_top_clearance_px": 44.0,
+   "floor_px": 24.0,
+   "worst_frame": 36,
+   "worst_seconds": 1.44,
+   "unsafe_frames": 0,
+   "first_unsafe_frames": [],
+   "scope": "Every matte frame, top edge of prepared person layer; no caption or semantic face claim"
+  }
+ },
+ "depth_field": {
+  "seat": {
+   "band": [
+    1010.5,
+    1404.5
+   ],
+   "band_h": 394.0,
+   "inter_lane_gap": 26.0,
+   "seat_offset_from_pill": 64.0,
+   "foundation_offset": 63.61,
+   "drift_from_foundation_seat": 0.39,
+   "margin_px": 137.2,
+   "candidates_scanned": 97,
+   "candidates_safe": 88,
+   "instrument": "5th percentile of the PER-FRAME gutter; the union envelope describes a body that never existed",
+   "lanes": [
+    {
+     "lane": "far",
+     "tile": 78.0,
+     "y": 1010.5,
+     "frames": 290,
+     "gutter_p05": 287.0,
+     "gutter_median": 334.3,
+     "gutter_min_single_frame": 274.9,
+     "frames_under_tile": 0
+    },
+    {
+     "lane": "mid",
+     "tile": 116.0,
+     "y": 1114.5,
+     "frames": 290,
+     "gutter_p05": 266.0,
+     "gutter_median": 309.5,
+     "gutter_min_single_frame": 251.8,
+     "frames_under_tile": 0
+    },
+    {
+     "lane": "near",
+     "tile": 148.0,
+     "y": 1256.5,
+     "frames": 290,
+     "gutter_p05": 285.2,
+     "gutter_median": 313.4,
+     "gutter_min_single_frame": -87.0,
+     "frames_under_tile": 4
+    }
+   ]
+  },
+  "lanes": {
+   "far": {
+    "x0": -216.0,
+    "w": 1880.0,
+    "y": 1010.5,
+    "tile": 78.0,
+    "gap": 30.0,
+    "pitch": 108.0,
+    "tiles": 17,
+    "opacity": 0.34,
+    "dist": 46.0,
+    "travel": 368.0,
+    "steps": 8
+   },
+   "mid": {
+    "x0": -304.0,
+    "w": 2584.0,
+    "y": 1114.5,
+    "tile": 116.0,
+    "gap": 36.0,
+    "pitch": 152.0,
+    "tiles": 17,
+    "opacity": 0.66,
+    "dist": 112.0,
+    "travel": 896.0,
+    "steps": 8
+   },
+   "near": {
+    "x0": -384.0,
+    "w": 3512.0,
+    "y": 1256.5,
+    "tile": 148.0,
+    "gap": 44.0,
+    "pitch": 192.0,
+    "tiles": 18,
+    "opacity": 1.0,
+    "dist": 208.0,
+    "travel": 1664.0,
+    "steps": 8
+   }
+  },
+  "tiles": 52,
+  "step_beats": [
+   3.48,
+   7.36,
+   11.64,
+   15.36,
+   19.52,
+   23.68,
+   27.6,
+   31.52
+  ],
+  "step_n": 8,
+  "cast": [
+   "claude",
+   "deepseek",
+   "meta",
+   "perplexity",
+   "mistral",
+   "kimi"
+  ],
+  "files": {
+   "claude": "ai-models/claude-color.png",
+   "deepseek": "ai-models/deepseek.png",
+   "meta": "ai-models/meta.png",
+   "perplexity": "ai-models/perplexity-color.png",
+   "mistral": "ai-models/mistral.png",
+   "kimi": "ai-models/kimi.png"
+  },
+  "lane_mix": {
+   "far": [
+    "claude-color.png",
+    "deepseek.png",
+    "kimi.png",
+    "meta.png",
+    "mistral.png",
+    "perplexity-color.png"
+   ],
+   "mid": [
+    "claude-color.png",
+    "deepseek.png",
+    "kimi.png",
+    "meta.png",
+    "mistral.png",
+    "perplexity-color.png"
+   ],
+   "near": [
+    "claude-color.png",
+    "deepseek.png",
+    "kimi.png",
+    "meta.png",
+    "mistral.png",
+    "perplexity-color.png"
+   ]
+  },
+  "hook_clear_s": 2.6,
+  "intro_dur": 0.66,
+  "pop_behind": null,
+  "pop_behind_why_none": "the only products he names are Grok (Grok Build) and SpaceX AI, both stage marks; the depth field never carries the story's own marks, and the plan declares no pop-behind"
+ },
+ "shared": {
+  "beat_edges": [
+   0.1,
+   5.58,
+   8.44,
+   12.7,
+   14.84,
+   22.84,
+   24.56,
+   29.8,
+   34.77
+  ],
+  "phone_test_objects": [
+   {
+    "name": "three-step winners podium",
+    "t": 4.2,
+    "bbox": [
+     0.2741,
+     0.1469,
+     0.7259,
+     0.3448
+    ],
+    "canvas": [
+     296.0,
+     282.0,
+     784.0,
+     662.0
+    ]
+   },
+   {
+    "name": "calendar full of checkmarks",
+    "t": 12.6,
+    "bbox": [
+     0.3148,
+     0.1437,
+     0.6852,
+     0.3438
+    ],
+    "canvas": [
+     340.0,
+     276.0,
+     740.0,
+     660.0
+    ]
+   },
+   {
+    "name": "open cardboard box",
+    "t": 16.4,
+    "bbox": [
+     0.3241,
+     0.2615,
+     0.6759,
+     0.3802
+    ],
+    "canvas": [
+     350.0,
+     502.0,
+     730.0,
+     730.0
+    ]
+   },
+   {
+    "name": "pile of cardboard boxes",
+    "t": 29.6,
+    "bbox": [
+     0.2778,
+     0.1542,
+     0.7222,
+     0.3698
+    ],
+    "canvas": [
+     300.0,
+     296.0,
+     780.0,
+     710.0
+    ]
+   }
+  ]
+ },
+ "captions": {
+  "n": 29,
+  "texts": [
+   "A lot of people don't",
+   "know this, but Grok is",
+   "slowly becoming one of",
+   "the top three contenders",
+   "in the AI space, both",
+   "in the model side and",
+   "in the application side.",
+   "In the last month, they",
+   "have shipped over",
+   "24 major features to their",
+   "Grok Build application.",
+   "Now, this includes",
+   "things such as",
+   "an agent dashboard,",
+   "multi-modal and",
+   "multi-agent workflows,",
+   "deep research workflows,",
+   "just to name a few.",
+   "Now, the team over at",
+   "SpaceX AI is shipping so",
+   "much, it's literally hard to",
+   "keep track of everything.",
+   "Now, follow for",
+   "more AI news,",
+   "videos, and tutorials",
+   "each and every",
+   "single day,",
+   "and catch you",
+   "on the next one."
+  ],
+  "widest_px": 753.2
+ },
+ "caption_beats": [
+  {
+   "text": "A lot of people don't",
+   "start": 0.1,
+   "end": 0.7,
+   "w": 620.61,
+   "dur": 0.64
+  },
+  {
+   "text": "know this, but Grok is",
+   "start": 0.74,
+   "end": 1.84,
+   "w": 651.62,
+   "dur": 1.12
+  },
+  {
+   "text": "slowly becoming one of",
+   "start": 1.86,
+   "end": 2.74,
+   "w": 698.67,
+   "dur": 0.92
+  },
+  {
+   "text": "the top three contenders",
+   "start": 2.78,
+   "end": 4.0,
+   "w": 728.84,
+   "dur": 1.6
+  },
+  {
+   "text": "in the AI space, both",
+   "start": 4.38,
+   "end": 5.84,
+   "w": 614.77,
+   "dur": 1.52
+  },
+  {
+   "text": "in the model side and",
+   "start": 5.9,
+   "end": 7.1,
+   "w": 640.45,
+   "dur": 1.26
+  },
+  {
+   "text": "in the application side.",
+   "start": 7.16,
+   "end": 8.119,
+   "w": 670.3,
+   "dur": 1.28
+  },
+  {
+   "text": "In the last month, they",
+   "start": 8.44,
+   "end": 9.72,
+   "w": 673.78,
+   "dur": 1.32
+  },
+  {
+   "text": "have shipped over",
+   "start": 9.76,
+   "end": 10.56,
+   "w": 549.23,
+   "dur": 1.14
+  },
+  {
+   "text": "24 major features to their",
+   "start": 10.9,
+   "end": 12.94,
+   "w": 752.17,
+   "dur": 2.16
+  },
+  {
+   "text": "Grok Build application.",
+   "start": 13.06,
+   "end": 14.52,
+   "w": 679.22,
+   "dur": 1.78
+  },
+  {
+   "text": "Now, this includes",
+   "start": 14.84,
+   "end": 15.88,
+   "w": 553.78,
+   "dur": 1.1
+  },
+  {
+   "text": "things such as",
+   "start": 15.94,
+   "end": 16.58,
+   "w": 446.73,
+   "dur": 0.92
+  },
+  {
+   "text": "an agent dashboard,",
+   "start": 16.86,
+   "end": 17.88,
+   "w": 613.47,
+   "dur": 1.46
+  },
+  {
+   "text": "multi-modal and",
+   "start": 18.32,
+   "end": 19.3,
+   "w": 514.0,
+   "dur": 1.18
+  },
+  {
+   "text": "multi-agent workflows,",
+   "start": 19.5,
+   "end": 20.8,
+   "w": 698.0,
+   "dur": 1.68
+  },
+  {
+   "text": "deep research workflows,",
+   "start": 21.18,
+   "end": 22.44,
+   "w": 753.02,
+   "dur": 1.66
+  },
+  {
+   "text": "just to name a few.",
+   "start": 22.84,
+   "end": 24.06,
+   "w": 572.78,
+   "dur": 1.72
+  },
+  {
+   "text": "Now, the team over at",
+   "start": 24.56,
+   "end": 25.44,
+   "w": 657.59,
+   "dur": 0.96
+  },
+  {
+   "text": "SpaceX AI is shipping so",
+   "start": 25.52,
+   "end": 27.16,
+   "w": 717.83,
+   "dur": 1.68
+  },
+  {
+   "text": "much, it's literally hard to",
+   "start": 27.2,
+   "end": 28.78,
+   "w": 753.19,
+   "dur": 1.6
+  },
+  {
+   "text": "keep track of everything.",
+   "start": 28.8,
+   "end": 29.68,
+   "w": 731.89,
+   "dur": 1.0
+  },
+  {
+   "text": "Now, follow for",
+   "start": 29.8,
+   "end": 30.32,
+   "w": 482.97,
+   "dur": 0.56
+  },
+  {
+   "text": "more AI news,",
+   "start": 30.36,
+   "end": 30.96,
+   "w": 448.12,
+   "dur": 0.7
+  },
+  {
+   "text": "videos, and tutorials",
+   "start": 31.06,
+   "end": 32.04,
+   "w": 610.27,
+   "dur": 1.28
+  },
+  {
+   "text": "each and every",
+   "start": 32.34,
+   "end": 32.68,
+   "w": 465.78,
+   "dur": 0.36
+  },
+  {
+   "text": "single day,",
+   "start": 32.7,
+   "end": 33.08,
+   "w": 350.52,
+   "dur": 0.68
+  },
+  {
+   "text": "and catch you",
+   "start": 33.38,
+   "end": 34.08,
+   "w": 434.31,
+   "dur": 0.72
+  },
+  {
+   "text": "on the next one.",
+   "start": 34.1,
+   "end": 34.56,
+   "w": 499.33,
+   "dur": 0.67
+  }
+ ],
+ "transcript": {
+  "law47_tail_s": 0.21,
+  "law47_cap_s": 0.24,
+  "law47_verdict": "PASS - 0.210s past the last word against a 0.240s cap",
+  "law46": "the scripted opening occurs ONCE inside the keeper take, at word 0 / 0.10 s",
+  "take_corroboration": {
+   "mode": "model keep_words (the agent read the transcript and chose the words; no rule detection)",
+   "keep_words": [
+    [
+     224,
+     303
+    ],
+    [
+     306,
+     334
+    ]
+   ],
+   "take_word_index": 224,
+   "take_start_s": 127.1,
+   "words": 109,
+   "of_raw_words": 335,
+   "dropped_words": 226,
+   "corroboration": "model-authored keep ranges"
+  },
+  "words": 109,
+  "function_word_merges": 0,
+  "beats_before_merge": 29,
+  "orphan_repartitions": [],
+  "solo_word_merges": [],
+  "board_keys_forbidden_at_split": [
+   "+ apps",
+   "+ apps!",
+   "+ apps,",
+   "+ apps.",
+   "+ apps?",
+   "24 features",
+   "24 features!",
+   "24 features,",
+   "24 features.",
+   "24 features?",
+   "agent dashboard",
+   "agent dashboard!",
+   "agent dashboard,",
+   "agent dashboard.",
+   "agent dashboard?",
+   "deep research",
+   "deep research!",
+   "deep research,",
+   "deep research.",
+   "deep research?",
+   "grok build",
+   "grok build!",
+   "grok build,",
+   "grok build.",
+   "grok build?",
+   "models",
+   "models!",
+   "models,",
+   "models.",
+   "models?",
+   "multi-agent",
+   "multi-agent!",
+   "multi-agent,",
+   "multi-agent.",
+   "multi-agent?",
+   "multi-modal",
+   "multi-modal!",
+   "multi-modal,",
+   "multi-modal.",
+   "multi-modal?",
+   "top 3",
+   "top 3!",
+   "top 3,",
+   "top 3.",
+   "top 3?"
+  ]
+ },
+ "checks": {
+  "cues": {
+   "podium": {
+    "word": 0,
+    "text": "A",
+    "t": 0.1,
+    "word_start": 0.1
+   },
+   "grok": {
+    "word": 8,
+    "text": "Grok",
+    "t": 1.52,
+    "word_start": 1.52
+   },
+   "models": {
+    "word": 25,
+    "text": "model",
+    "t": 6.16,
+    "word_start": 6.14
+   },
+   "apps": {
+    "word": 30,
+    "text": "application",
+    "t": 7.38,
+    "word_start": 7.36
+   },
+   "cal": {
+    "word": 32,
+    "text": "In",
+    "t": 8.44,
+    "word_start": 8.44
+   },
+   "ticks": {
+    "word": 38,
+    "text": "shipped",
+    "t": 9.96,
+    "word_start": 9.96
+   },
+   "key24": {
+    "word": 40,
+    "text": "24",
+    "t": 10.92,
+    "word_start": 10.9
+   },
+   "slide": {
+    "word": 45,
+    "text": "Grok",
+    "t": 13.06,
+    "word_start": 13.06
+   },
+   "arrow": {
+    "word": 46,
+    "text": "Build",
+    "t": 13.56,
+    "word_start": 13.56
+   },
+   "box": {
+    "word": 48,
+    "text": "Now,",
+    "t": 14.84,
+    "word_start": 14.84
+   },
+   "dash": {
+    "word": 55,
+    "text": "agent",
+    "t": 17.06,
+    "word_start": 17.06
+   },
+   "modal": {
+    "word": 57,
+    "text": "multi-modal",
+    "t": 18.32,
+    "word_start": 18.32
+   },
+   "agent": {
+    "word": 59,
+    "text": "multi-agent",
+    "t": 19.5,
+    "word_start": 19.5
+   },
+   "deep": {
+    "word": 61,
+    "text": "deep",
+    "t": 21.18,
+    "word_start": 21.18
+   },
+   "boxflip": {
+    "word": 66,
+    "text": "name",
+    "t": 23.28,
+    "word_start": 23.28
+   },
+   "close": {
+    "word": 69,
+    "text": "Now,",
+    "t": 24.56,
+    "word_start": 24.56
+   },
+   "spacex": {
+    "word": 74,
+    "text": "SpaceX",
+    "t": 25.52,
+    "word_start": 25.52
+   },
+   "drops": {
+    "word": 77,
+    "text": "shipping",
+    "t": 26.64,
+    "word_start": 26.64
+   },
+   "outro": {
+    "word": 88,
+    "text": "Now,",
+    "t": 29.8,
+    "word_start": 29.8
+   },
+   "chatgpt": {
+    "word": 1,
+    "text": "lot",
+    "t": 0.4,
+    "window": [
+     0.16,
+     1.24
+    ]
+   },
+   "gemini": {
+    "word": 1,
+    "text": "lot",
+    "t": 0.62,
+    "window": [
+     0.16,
+     1.24
+    ]
+   },
+   "hop": {
+    "word": 10,
+    "text": "slowly",
+    "t": 1.9,
+    "window": [
+     1.86,
+     3.12
+    ]
+   },
+   "top3": {
+    "word": 16,
+    "text": "three",
+    "t": 3.26,
+    "window": [
+     3.24,
+     4.44
+    ]
+   },
+   "grokflip": {
+    "word": 16,
+    "text": "three",
+    "t": 3.3,
+    "window": [
+     3.24,
+     4.44
+    ]
+   },
+   "nums": {
+    "word": 16,
+    "text": "three",
+    "t": 3.5,
+    "window": [
+     3.24,
+     4.44
+    ]
+   },
+   "grokback": {
+    "word": 17,
+    "text": "contenders",
+    "t": 4.6,
+    "window": [
+     3.48,
+     5.0
+    ]
+   },
+   "c1out": {
+    "word": 31,
+    "text": "side.",
+    "t": 8.3,
+    "window": [
+     7.96,
+     9.119
+    ]
+   },
+   "gbuild": {
+    "word": 45,
+    "text": "Grok",
+    "t": 13.3,
+    "window": [
+     13.06,
+     14.32
+    ]
+   },
+   "keygb": {
+    "word": 46,
+    "text": "Build",
+    "t": 13.6,
+    "window": [
+     13.56,
+     14.8
+    ]
+   },
+   "c2out": {
+    "word": 47,
+    "text": "application.",
+    "t": 14.7,
+    "window": [
+     13.94,
+     15.52
+    ]
+   },
+   "boxback": {
+    "word": 66,
+    "text": "name",
+    "t": 23.98,
+    "window": [
+     23.28,
+     24.48
+    ]
+   },
+   "c3out": {
+    "word": 68,
+    "text": "few.",
+    "t": 24.4,
+    "window": [
+     23.86,
+     25.06
+    ]
+   },
+   "topile": {
+    "word": 75,
+    "text": "AI",
+    "t": 26.4,
+    "window": [
+     25.98,
+     27.24
+    ]
+   },
+   "_law43_45": {
+    "board_mode": "chapters",
+    "chapters": 4,
+    "erase_at": [
+     8.3,
+     14.7,
+     24.4,
+     29.8
+    ],
+    "handover_idea": {
+     "seam1": "the calendar page draws 8.44, complete by ~8.85",
+     "seam2": "the open box draws 14.84, complete by ~15.15",
+     "seam3": "the box closes and carries the seam into the pile (never leaves)"
+    }
+   }
+  },
+  "word_sync": {
+   "typed_states": [
+    {
+     "state": "key-top3",
+     "first_visible_text": "TOP 3",
+     "at": 3.26,
+     "words": "top three",
+     "window": [
+      3.009,
+      4.44
+     ]
+    },
+    {
+     "state": "key-models",
+     "first_visible_text": "MODELS",
+     "at": 6.16,
+     "words": "model",
+     "window": [
+      6.129,
+      7.36
+     ]
+    },
+    {
+     "state": "key-apps",
+     "first_visible_text": "+ APPS",
+     "at": 7.46,
+     "words": "application",
+     "window": [
+      7.349,
+      8.88
+     ]
+    },
+    {
+     "state": "key-24",
+     "first_visible_text": "24 FEATURES",
+     "at": 10.92,
+     "words": "24 major features",
+     "window": [
+      10.889,
+      13.34
+     ]
+    },
+    {
+     "state": "key-gbuild",
+     "first_visible_text": "GROK BUILD",
+     "at": 13.6,
+     "words": "grok build",
+     "window": [
+      13.049,
+      14.8
+     ]
+    },
+    {
+     "state": "key-dash",
+     "first_visible_text": "AGENT DASHBOARD",
+     "at": 17.36,
+     "words": "agent dashboard,",
+     "window": [
+      17.049,
+      18.88
+     ]
+    },
+    {
+     "state": "key-modal",
+     "first_visible_text": "MULTI-MODAL",
+     "at": 18.62,
+     "words": "multi-modal",
+     "window": [
+      18.309,
+      20.14
+     ]
+    },
+    {
+     "state": "key-agent",
+     "first_visible_text": "MULTI-AGENT",
+     "at": 19.8,
+     "words": "multi-agent",
+     "window": [
+      19.489,
+      21.22
+     ]
+    },
+    {
+     "state": "key-deep",
+     "first_visible_text": "DEEP RESEARCH",
+     "at": 21.48,
+     "words": "deep research",
+     "window": [
+      21.169,
+      22.84
+     ]
+    }
+   ],
+   "disagreements": 0,
+   "digits_that_tick": 0,
+   "ticks": {
+    "count": 24,
+    "last_done_at": 10.977,
+    "word_24": [
+     10.9,
+     11.58
+    ]
+   },
+   "numerals": {
+    "1 2 3 on the steps": 3.5,
+    "after": "three (3.24-3.44)"
+   }
+  },
+  "law37": {
+   "scan_cue_count": 0,
+   "plan_declared_cards": 0,
+   "source_cards_in_the_page": 0
+  },
+  "law42": {
+   "board_mode": "chapters",
+   "anchors": [
+    "o-sheet",
+    "o-glyph",
+    "o-rule",
+    "o-slot"
+   ],
+   "covers": [
+    "o-sheet"
+   ],
+   "carriers": {
+    "box": "open box (14.84-24.56) -> first parcel of the pile (24.56-29.80), leaves under the sheet 30.28"
+   },
+   "longest_non_carrier_share": 0.244,
+   "mark_shares": {
+    "floor": 0.244,
+    "podium": 0.244,
+    "t-chatgpt": 0.236,
+    "t-gemini": 0.23,
+    "t-grok": 0.204,
+    "key-top3": 0.154,
+    "emph-grok": 0.044,
+    "key-models": 0.07,
+    "key-apps": 0.033,
+    "cal": 0.189,
+    "key-24": 0.117,
+    "t-gbuild": 0.049,
+    "arrow-cal": 0.041,
+    "key-gbuild": 0.04,
+    "box": 0.444,
+    "emph-box": 0.027,
+    "ic-dash": 0.22,
+    "ic-modal": 0.183,
+    "ic-agent": 0.15,
+    "ic-deep": 0.101,
+    "key-dash": 0.211,
+    "key-modal": 0.175,
+    "key-agent": 0.141,
+    "key-deep": 0.093,
+    "spacex": 0.137,
+    "parcel-0": 0.105,
+    "parcel-2": 0.105,
+    "parcel-3": 0.105,
+    "parcel-4": 0.105,
+    "parcel-5": 0.105,
+    "parcel-6": 0.105,
+    "parcel-7": 0.105,
+    "parcel-8": 0.105,
+    "parcel-9": 0.105,
+    "parcel-10": 0.105,
+    "parcel-11": 0.105
+   }
+  },
+  "law22": {
+   "events": 25,
+   "tightest_gap_s": 0.3,
+   "deliberately_silent": {
+    "gemini 0.62": "0.22 s after ChatGPT's pop; one arrival sound",
+    "grok flip 3.30": "0.04 s after TOP 3's click",
+    "tick run 9.96-10.98": "one click scores the run, not 24",
+    "slide 13.06": "a slide is a move, not an arrival",
+    "parcel drops": "one pop every fourth parcel (0.26 s steps would flam)",
+    "chapter exits / sheet 29.80": "exits stay silent; the glyph pop at 30.30 scores the outro"
+   }
+  },
+  "draw_on": {
+   "dash_selectors": {
+    "#arrow-cal .al": 1,
+    "#box .bxf": 3,
+    "#box .bxh": 1,
+    "#box .bxl": 1,
+    "#box .bxo": 2,
+    "#box .bxt": 1,
+    "#cal .cc": 30,
+    "#cal .ch": 1,
+    "#cal .ck": 24,
+    "#cal .cp": 1,
+    "#cal .cr": 2,
+    "#floor .fl": 1,
+    "#podium .pb": 3
+   },
+   "verdict": "every dash equals its path's declared length (100)"
+  },
+  "law39_50": {
+   "key-top3": {
+    "for": "podium",
+    "place": "above",
+    "gap_px": 24.0,
+    "font_px": 48.0,
+    "top": 94.0
+   },
+   "key-models": {
+    "for": "podium",
+    "place": "below",
+    "gap_px": 22.0,
+    "font_px": 28.0,
+    "top": 490.0
+   },
+   "key-apps": {
+    "for": "podium",
+    "place": "below",
+    "gap_px": 22.0,
+    "font_px": 28.0,
+    "top": 490.0
+   },
+   "key-24": {
+    "for": "cal",
+    "place": "below",
+    "gap_px": 28.0,
+    "font_px": 28.0,
+    "top": 490.0
+   },
+   "key-gbuild": {
+    "for": "t-gbuild",
+    "place": "below",
+    "gap_px": 32.0,
+    "font_px": 28.0,
+    "top": 490.0
+   },
+   "key-dash": {
+    "for": "ic-dash",
+    "place": "below",
+    "gap_px": 24.0,
+    "font_px": 24.0,
+    "top": 236.0
+   },
+   "key-modal": {
+    "for": "ic-modal",
+    "place": "below",
+    "gap_px": 24.0,
+    "font_px": 24.0,
+    "top": 236.0
+   },
+   "key-agent": {
+    "for": "ic-agent",
+    "place": "below",
+    "gap_px": 24.0,
+    "font_px": 24.0,
+    "top": 236.0
+   },
+   "key-deep": {
+    "for": "ic-deep",
+    "place": "below",
+    "gap_px": 24.0,
+    "font_px": 24.0,
+    "top": 236.0
+   },
+   "_law50": {
+    "single_line_row_top": 490.0,
+    "feature_row_top": 236.0
+   },
+   "_key_term": {
+    "text": "TOP 3",
+    "font_px": 48.0,
+    "design_units": 25.6,
+    "first_type": true
+   }
+  },
+  "law38_40": {
+   "connectors": 1,
+   "arrow": {
+    "tail": [
+     596.0,
+     402.0
+    ],
+    "tip": [
+     702.0,
+     402.0
+    ],
+    "tail_on": "calendar page outer right edge",
+    "tip_on": "t-gbuild outer left edge (anchor_points 1/left)"
+   },
+   "emphasis": {
+    "t-grok": "border flip to rgb(221,114,89) 3.30-4.84",
+    "#box .bxo": "outline flip 23.28-24.22"
+   },
+   "rings_ellipses_circles": 0,
+   "declared": {
+    "arrow-cal": {
+     "data-anchor-side": "left",
+     "data-anchor-fraction": 0.5,
+     "data-check-at": 14.2,
+     "head": "data-connector-head on path.ah"
+    }
+   }
+  }
+ },
+ "cast_check": {
+  "chatgpt": "/Users/migle/Documents/Workspace/assets/logos/ai-models/chatgpt-color.png",
+  "gemini": "/Users/migle/Documents/Workspace/assets/logos/ai-models/gemini-color.png",
+  "grok": "/Users/migle/Documents/Workspace/assets/logos/ai-models/grok.png",
+  "spacex": "/Users/migle/Documents/Workspace/assets/logos/ai-models/spacex-wordmark.svg",
+  "claude": "/Users/migle/Documents/Workspace/assets/logos/ai-models/claude-color.png",
+  "deepseek": "/Users/migle/Documents/Workspace/assets/logos/ai-models/deepseek.png",
+  "meta": "/Users/migle/Documents/Workspace/assets/logos/ai-models/meta.png",
+  "perplexity": "/Users/migle/Documents/Workspace/assets/logos/ai-models/perplexity-color.png",
+  "mistral": "/Users/migle/Documents/Workspace/assets/logos/ai-models/mistral.png",
+  "kimi": "/Users/migle/Documents/Workspace/assets/logos/ai-models/kimi.png"
+ },
+ "edge_fade": {
+  "masked_containers": 3,
+  "fade_px": 46.0,
+  "meters_exempt": []
+ },
+ "handle": "@migueltorrez.ai",
+ "render": {
+  "w": 1080,
+  "h": 1920,
+  "zoom": 1
+ }
+}

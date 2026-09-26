@@ -1,0 +1,19 @@
+{
+ "id": "codexsiri",
+ "stage": "cut",
+ "status": "ok",
+ "wall_s": 78.0,
+ "at": "2026-09-23T18:25:07",
+ "keys": {
+  "status": "ok",
+  "master": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/cuts/codexsiri/master.mp4",
+  "audio": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/cuts/codexsiri/audio.m4a",
+  "edl": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/cuts/codexsiri/edl.json",
+  "transcript_tight": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/cuts/codexsiri/transcript_tight.json",
+  "cut_master_duration_s": 36.16,
+  "corroboration": "model-authored keep ranges",
+  "analysis_wav_written": false,
+  "tight_audio_duration_s": 36.128,
+  "wall_s": 78.0
+ }
+}

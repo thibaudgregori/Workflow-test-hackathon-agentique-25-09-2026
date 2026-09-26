@@ -1,0 +1,107 @@
+{
+ "label": "codexsiri_whiteboard",
+ "video": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/output/codexsiri_whiteboard.mp4",
+ "phone_scale": "405x720",
+ "sheet": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/phone_codexsiri_whiteboard.png",
+ "rule": "a FRESH judge (never read the plan) names each crop in <=3 words. Wrong name, hedge, or 'cannot tell' = the object is redesigned, not annotated.",
+ "answer_key": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/phone_codexsiri_whiteboard.key.json",
+ "answer_key_rule": "DO NOT OPEN the answer key until every judge_answer below is filled in. Reading it first voids the Phone Test.",
+ "objects": [
+  {
+   "i": 0,
+   "t": 1.6,
+   "bbox_norm": [
+    0.3194,
+    0.1875,
+    0.6806,
+    0.3477
+   ],
+   "phone_box_px": [
+    129,
+    135,
+    275,
+    250
+   ],
+   "phone_size_px": [
+    146,
+    115
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/phone_codexsiri_whiteboard/00.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  },
+  {
+   "i": 1,
+   "t": 9.9,
+   "bbox_norm": [
+    0.3194,
+    0.1836,
+    0.6806,
+    0.3672
+   ],
+   "phone_box_px": [
+    129,
+    132,
+    275,
+    264
+   ],
+   "phone_size_px": [
+    146,
+    132
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/phone_codexsiri_whiteboard/01.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  },
+  {
+   "i": 2,
+   "t": 26.0,
+   "bbox_norm": [
+    0.5799,
+    0.1953,
+    0.7396,
+    0.3203
+   ],
+   "phone_box_px": [
+    234,
+    140,
+    299,
+    230
+   ],
+   "phone_size_px": [
+    65,
+    90
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/phone_codexsiri_whiteboard/02.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  },
+  {
+   "i": 3,
+   "t": 28.5,
+   "bbox_norm": [
+    0.4444,
+    0.1855,
+    0.691,
+    0.2441
+   ],
+   "phone_box_px": [
+    179,
+    133,
+    279,
+    175
+   ],
+   "phone_size_px": [
+    100,
+    42
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/phone_codexsiri_whiteboard/03.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  }
+ ]
+}

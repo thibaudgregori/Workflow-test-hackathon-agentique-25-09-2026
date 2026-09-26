@@ -1,0 +1,14 @@
+{
+  "status": "ok",
+  "ship": "ok",
+  "selection_changed": false,
+  "edits": 0,
+  "rounds": 1,
+  "what_you_saw": "Viewed the full frame-0 overlay, head overlay and clean source: the contour preserves both ears, cheeks, jaw, chin, cap brim, neck and shoulders while excluding the black chair and headrest, so approved unchanged. Viewed all four shipped proof sheets. Playback shows an intact opaque person with no noticeable chair or neck splash; face_2x preserves the source-visible facial outline and cap through the sampled first, middle and final frames; chair_sides shows clear background beside both ears, jaw and shoulders, including the 26.2-26.8 s movement; hands shows present palms and fingers, with acceptable soft motion blur during fast gestures. The measured haze peak lasts 0.2 s and appears with hand motion, with no viewer-visible sustained defect in the sheets. No fallback needed. All three shipped layer hashes match ship_v5.json.",
+  "hold_reason": "",
+  "outputs": [
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/matting/codexappshots/matte_codexappshots_v5_cut.webm",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/matting/codexappshots/matte_codexappshots_v5_rim.webm",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/matting/codexappshots/matte_codexappshots_v5_alpha.webm"
+  ]
+}

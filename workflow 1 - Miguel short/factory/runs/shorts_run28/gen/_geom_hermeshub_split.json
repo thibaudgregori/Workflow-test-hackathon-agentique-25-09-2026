@@ -1,0 +1,60 @@
+{
+ "video": "hermeshub",
+ "fps": 25,
+ "duration": 24.08,
+ "shared": {
+  "beat_edges": [
+   0.1,
+   3.9,
+   6.58,
+   11.98,
+   15.86,
+   19.98,
+   24.08
+  ]
+ },
+ "formats": {
+  "split": {
+   "phone_objects": [
+    {
+     "name": "open laptop computer",
+     "t": 3.2,
+     "bbox": [
+      0.1907,
+      0.2115,
+      0.8093,
+      0.3812
+     ],
+     "canvas": [
+      206.0,
+      406.0,
+      874.0,
+      732.0
+     ]
+    },
+    {
+     "name": "cardboard shipping box",
+     "t": 5.8,
+     "bbox": [
+      0.3296,
+      0.2755,
+      0.6704,
+      0.3969
+     ],
+     "canvas": [
+      356.0,
+      529.0,
+      724.0,
+      762.0
+     ]
+    }
+   ],
+   "core": {
+    "left": 0.0,
+    "top": 192.0
+   },
+   "scale": 1.0,
+   "seat": 862.5
+  }
+ }
+}

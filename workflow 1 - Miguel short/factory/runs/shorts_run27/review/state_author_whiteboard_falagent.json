@@ -1,0 +1,9 @@
+{
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/projects/falagent_whiteboard",
+ "prerender_pass": true,
+ "prerender_verdict": "PASS (exit 0): refs_resolve, assets_not_placeholder (5 rasters), page_audit, caption_canon_page (36 pills, modal h 114.53px), gate1 0 errors/0 warnings",
+ "geometry_strict_errors": 0,
+ "job": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/gen/_job_falagent_whiteboard.json",
+ "seams": "6.34,11.68,13.02,15.16,17.86,24.1",
+ "notes": "Build-green, not rendered. Harness build() asserts all PASS (label law, lifetimes, no enclosure, label side, spacing, no crossing, anchors, outro clear). Seven chapters, all objects drawn with b.stroke marker paths, no fills. Word-sync checked by screenshot: every key lands on its word. Deviations logged in plans/falagent_wb_notes.md: FAL AGENT written at 5.62 instead of 4.88 because LAW 4 (identical pill 'fal agent.' on screen 4.56-5.58), still first type and within 1.0 s; no palette glyph on the outro (the harness sheet has no glyph slot); phone-at boxes use the board's own seats. Prep markers all ok: cut ok (65.0 s, corroboration 'model-authored keep ranges', master 33.24 s), plate ok (over-wide, crop 3640x1820+52+238), prompt0 ok (wing_review true, no cut proposed), selection ok, track ok (matanyone2, $0.0169 est.), ship ok (831 frames, soft alpha, rim 7, min person fraction 0.286, $0.0417 est., review_status needs_final_visual_review), cues ok (0 cues). prep/falagent.json present."
+}

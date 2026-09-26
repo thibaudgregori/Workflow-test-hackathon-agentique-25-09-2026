@@ -1,0 +1,28 @@
+{
+ "verdict": "PASS",
+ "plan_json": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/plans/codexappshots_plan.json",
+ "plan_md": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/plans/codexappshots_plan.md",
+ "lane": "icon choreography",
+ "lane_reason": "Intake's kinetic guess is overruled: the script is five pictures in a row (a magic trick that produces ChatGPT and Codex, a walk back and forth to your AI, two command keys, a screenshot flying into Codex, time saved), carried by bespoke ink objects and the real ChatGPT and Codex marks, which is icon choreography, not type.",
+ "beats": 7,
+ "bespoke_names": [
+  "magician's top hat",
+  "trail of footprints",
+  "keyboard command keys",
+  "instant polaroid photo",
+  "piggy bank coins"
+ ],
+ "cues": "0 pointing cues (pointing_cues.py: 'No pointing cue in this take'); nothing raised, nothing waived.",
+ "board_mode": "chapters",
+ "open_questions": [
+  "Wing review: prompt0 not landed at plan time - the cutout author owns it. Track and ship markers had not landed either.",
+  "Caption words for the three lanes: transcript_tight.json reads 'send that as Codex' at 21.34-22.40. Captions follow the spoken words (TRANSCRIPT IS TRUTH); the picture shows the screenshot going to Codex, which is the sentence's meaning.",
+  "The chapter-2 handover: the laptop starts at 7.42 while the hook's exit (7.24-7.54) is still fading, so the zone never blanks; the two overlap for about 0.1 s at low opacity."
+ ],
+ "open_doubts": [],
+ "scene_handoff": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/plans/codexappshots_scene_handoff.md",
+ "scene_module": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/gen/codexappshots_scene.py",
+ "sealed": true,
+ "proofs": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_codexappshots",
+ "reason": "Stage numbers: cut ok 56.6 s (master 34.12 s, model-authored keep ranges [48,170], no false start); plate ok 160.1 s (crop 3222x1790+239+264, k 0.502793, head 450.8 px, over-wide). After the plan was written these also landed: prompt0 ok (wing_review true, so the cutout author owns the wing review), selection ok, track ok (matanyone2, est. $0.0169), ship ok (est. $0.0455, min person fraction 0.32, needs_final_visual_review), cues ok (0). Connector contact measured at 0.0 px gap/overshoot at both ends. Every stage mark and cutout lane resolves. Three redraws after I checked the proofs: the upturned hat read as a bucket (redrawn upright), the footprints read as blobs (enlarged 1.4x), the polaroid read as a picture frame (thick bottom margin and a tilt added). Seal PASS."
+}

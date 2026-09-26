@@ -1,0 +1,26 @@
+{
+ "id": "lunafree",
+ "stage": "ship",
+ "status": "ok",
+ "wall_s": 106.6,
+ "at": "2026-09-23T18:35:54",
+ "keys": {
+  "status": "ok",
+  "backend": "sam2",
+  "alpha_mode": "sam2",
+  "temporal": 1,
+  "rim_px": 7,
+  "frames": 528,
+  "width": 1584,
+  "height": 990,
+  "fps": 25,
+  "fallback": "sam2_nochair_temporal1:fb1_p6c70d07d",
+  "prompt_mask_sha256": "6c70d07df653118d0f321a02cf879cde63764fb4b37ceb546e74349f95dd51de",
+  "fractional_alpha_pixels": 5856533,
+  "minimum_person_fraction": 0.36571013161922256,
+  "review_status": "needs_final_visual_review",
+  "cut_sha256": "414ce6d19f1307176373434f3852e53188b6fcb9badc2bc4612b28e87b700570",
+  "rim_sha256": "2f328559e8efe766580b214d6ab4e2069d5474d5501bdb6ef32e8afbb3c1e3b8",
+  "alpha_sha256": "5129d7d5016e0bb640bc95dfa3dd67f086bf06ef3eac0238c1f315e0b15e340f"
+ }
+}

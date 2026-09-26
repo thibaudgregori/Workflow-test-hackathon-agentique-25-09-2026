@@ -1,0 +1,19 @@
+{
+ "id": "claudemanaged",
+ "stage": "cut",
+ "status": "ok",
+ "wall_s": 78.1,
+ "at": "2026-09-23T18:25:07",
+ "keys": {
+  "status": "ok",
+  "master": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/cuts/claudemanaged/master.mp4",
+  "audio": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/cuts/claudemanaged/audio.m4a",
+  "edl": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/cuts/claudemanaged/edl.json",
+  "transcript_tight": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/cuts/claudemanaged/transcript_tight.json",
+  "cut_master_duration_s": 38.44,
+  "corroboration": "model-authored keep ranges",
+  "analysis_wav_written": false,
+  "tight_audio_duration_s": 38.409,
+  "wall_s": 78.1
+ }
+}

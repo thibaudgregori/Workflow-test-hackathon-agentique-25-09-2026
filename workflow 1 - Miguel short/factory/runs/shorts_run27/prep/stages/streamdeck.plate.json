@@ -1,0 +1,19 @@
+{
+ "id": "streamdeck",
+ "stage": "plate",
+ "status": "ok",
+ "wall_s": 44.5,
+ "at": "2026-09-23T19:57:10",
+ "keys": {
+  "status": "ok",
+  "plate": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/matting/streamdeck/plate_wide_25.mp4",
+  "crop": "2640x1800+494+264",
+  "scale_k": 0.5,
+  "head_px_on_canvas": 450.1,
+  "overwide_applied": true,
+  "face_dx_pct": -0.019,
+  "visible_window_drift_master_px": 0.37,
+  "plate_json": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/matting/streamdeck/plate.json",
+  "wall_s": 44.5
+ }
+}

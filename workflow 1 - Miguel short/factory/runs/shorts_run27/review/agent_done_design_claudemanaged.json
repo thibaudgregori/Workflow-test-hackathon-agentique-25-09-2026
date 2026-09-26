@@ -1,0 +1,24 @@
+{
+  "verdict": "PASS",
+  "plan_json": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/plans/claudemanaged_plan.json",
+  "plan_md": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/plans/claudemanaged_plan.md",
+  "lane": "icon choreography",
+  "lane_reason": "Intake's steps & checklist guess is overruled: the script is four numbered features, but a checklist would be a text column that repeats the captions, so each feature gets its own drawn object in its own chapter (a piggy bank, a brain wired to the session, a bookshelf cabled to the agent, a US/Europe signpost), opened by a pocket knife that folds out four new tools.",
+  "beats": 6,
+  "bespoke_names": ["Claude pocket knife", "Claude piggy bank", "brain wired to agent", "bookshelf cabled to agent", "US Europe signpost"],
+  "cues": "pointing_cues.py: no pointing cue in this take (cues []); nothing raised, nothing waived.",
+  "board_mode": "chapters",
+  "open_questions": [
+    "Wing review: the prompt0 marker has landed and names claudemanaged with wing_review true (the instrument abstained: no cut proposed). The Astra matte step owns the look at matting/claudemanaged/prompts/kf_overlay_00000.png; the track marker says running (matanyone2) and the ship marker has not landed.",
+    "The budget meter carries no number or currency: he names no amount, so the meter only shows 'fills to its cap and stops' (METERS COMPLETE: it does reach full).",
+    "The signpost's boards are blank from 25.14 until 'US' (32.94): typing US/EUROPE before he says them would be peek-ahead (LAW 24). Mid-video an unfilled board is legal (LAW 20 applies to the opening only).",
+    "The outro sheet rises on 'more' (34.80) rather than 'Now' (34.32) so EUROPE, spoken 33.98-34.22, holds for 0.8 s.",
+    "Numbers ('number one' ... 'number four') are not typed: the captions carry them, and a numeral kicker would be top text that duplicates speech (LAW 4)."
+  ],
+  "open_doubts": [],
+  "scene_handoff": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/plans/claudemanaged_scene_handoff.md",
+  "scene_module": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/gen/claudemanaged_scene.py",
+  "sealed": true,
+  "proofs": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_claudemanaged",
+  "reason": "Stage markers at design time: cut ok (78.1 s wall, 38.44 s master, corroboration 'model-authored keep ranges'), plate ok (207.7 s, crop 3620x1810+68+270, overwide), prompt0 ok (wing_review true, instrument abstained), selection ok (chair audit clean), track running (matanyone2, no Modal cost visible yet), ship not landed, cues ok (0). Seal PASS: module sha256 70158caf..., handoff sha256 9291d4e2...; all five proof crops read on sight; both connectors touch both outlines at 2x; stage mark and seven cutout lane marks resolve."
+}

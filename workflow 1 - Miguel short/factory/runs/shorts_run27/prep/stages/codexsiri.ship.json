@@ -1,0 +1,26 @@
+{
+ "id": "codexsiri",
+ "stage": "ship",
+ "status": "ok",
+ "wall_s": 151.9,
+ "at": "2026-09-23T20:03:34",
+ "keys": {
+  "status": "ok",
+  "backend": "sam2",
+  "alpha_mode": "sam2",
+  "temporal": 1,
+  "rim_px": 7,
+  "frames": 904,
+  "width": 1584,
+  "height": 990,
+  "fps": 25,
+  "fallback": "sam2_nochair_temporal1:fb1_p6f75ec7c",
+  "prompt_mask_sha256": "6f75ec7cf6e1faa578b3a80108f49cd03959019e9c6865cc578a0a70fc9e089b",
+  "fractional_alpha_pixels": 10047661,
+  "minimum_person_fraction": 0.36557812978267523,
+  "review_status": "needs_final_visual_review",
+  "cut_sha256": "7f83db03a9ce6070357563665418c487e2903634487a1162177e351723f42c35",
+  "rim_sha256": "53715bee755c5718bef839f9b8126c1eee52f0d49065741adfd720deac2f1ca7",
+  "alpha_sha256": "5c88b91505ffadeaa5f3f9e0992dc1e75e8176a2ef26be1a2326244c7e952865"
+ }
+}

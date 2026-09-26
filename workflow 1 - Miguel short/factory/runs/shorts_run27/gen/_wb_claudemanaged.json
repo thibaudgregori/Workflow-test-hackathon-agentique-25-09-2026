@@ -1,0 +1,588 @@
+{
+ "video": "claudemanaged",
+ "format": "whiteboard",
+ "variant": "plan view (fix)",
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/projects/claudemanaged_whiteboard",
+ "handle": "@migueltorrez.ai",
+ "handle_key": "tiktok_ig",
+ "duration_s": 38.44,
+ "fps": 25,
+ "render": "1080x1920 @ zoom 1",
+ "board": "576x460 design units",
+ "board_box": [
+  40.0,
+  150.0,
+  536.0,
+  425.0
+ ],
+ "strokes": 54,
+ "rigids": 31,
+ "board_text": [
+  "MANAGED AGENTS",
+  "SESSION BUDGET",
+  "SESSION",
+  "ADVISOR",
+  "SKILLS",
+  "INFERENCE",
+  "US",
+  "EUROPE"
+ ],
+ "top_ink_u": 161.8,
+ "top_band_u": 102.4,
+ "pen_top_u": 110.7,
+ "ink_bottom_px": 735.8,
+ "cap_band_top_px": 799.2,
+ "cap_clearance_px": 63.4,
+ "ink_bottom_ink_px": 716.0,
+ "cap_clearance_ink_px": 83.2,
+ "seam_pill_top_px": 805.2,
+ "cap_clearance_ink_to_pill_px": 89.2,
+ "seam_measures": "cap_clearance_px = line boxes vs the reserved band (THE GATE); cap_clearance_ink_px = glyph ink vs the same band; cap_clearance_ink_to_pill_px = glyph ink vs the pill's painted top edge (the clerk's surface)",
+ "rail_hits": [],
+ "label_law": {
+  "window_s": 1.0,
+  "key_term": "MANAGED AGENTS",
+  "key_term_fs_u": 23.5,
+  "written": {
+   "MANAGED AGENTS": 1.62,
+   "SESSION BUDGET": 8.66,
+   "SESSION": 12.88,
+   "ADVISOR": 14.1,
+   "SESSION [right]": 14.36,
+   "SKILLS": 21.82,
+   "SKILLS [left]": 22.84,
+   "INFERENCE": 27.32,
+   "US": 32.94,
+   "EUROPE": 33.98
+  },
+  "plan": {
+   "managed": "MANAGED AGENTS",
+   "session_b": "SESSION BUDGET",
+   "session": "SESSION",
+   "advisor": "ADVISOR",
+   "skills": "SKILLS",
+   "inference": "INFERENCE",
+   "us": "US",
+   "europe": "EUROPE"
+  },
+  "comparisons": [
+   [
+    "US",
+    "EUROPE"
+   ]
+  ],
+  "unplanned_text": [],
+  "verdict": "PASS"
+ },
+ "law4": {
+  "law": "4 (overlap test)",
+  "board_words_that_also_appear_as_a_pill": {
+   "SESSION BUDGET": [
+    8.66,
+    11.92
+   ]
+  }
+ },
+ "round4": {
+  "law6_lifetimes": {
+   "duration_s": 38.44,
+   "chaptered": true,
+   "max_frac": 0.4,
+   "declared_anchors": [],
+   "lingering": [],
+   "verdict": "PASS"
+  },
+  "law2_no_enclosure": {
+   "rings": 0,
+   "boxes": 0,
+   "highlights": 0,
+   "rasters": [],
+   "wrong_tool_advisory": [],
+   "verdict": "PASS"
+  },
+  "law3_label_side": {
+   "checked": 8,
+   "detail": {
+    "MANAGED AGENTS": {
+     "host": "pocket-knife@closed",
+     "dx_u": 0.0,
+     "band_u": 143.0,
+     "place": "below"
+    },
+    "SESSION BUDGET": {
+     "host": "piggy-bank",
+     "dx_u": 0.0,
+     "band_u": 109.2,
+     "place": "below"
+    },
+    "SESSION": {
+     "host": "session-tile@centre",
+     "dx_u": 0.0,
+     "band_u": 38.8,
+     "place": "below"
+    },
+    "ADVISOR": {
+     "host": "advisor-brain",
+     "dx_u": 0.0,
+     "band_u": 84.8,
+     "place": "below"
+    },
+    "SKILLS": {
+     "host": "skill-shelf@centre",
+     "dx_u": 0.0,
+     "band_u": 78.0,
+     "place": "below"
+    },
+    "INFERENCE": {
+     "host": "signpost",
+     "dx_u": -9.0,
+     "band_u": 159.9,
+     "place": "below"
+    },
+    "US": "unwelded",
+    "EUROPE": "unwelded"
+   },
+   "verdict": "PASS"
+  },
+  "law5_spacing": {
+   "gate_u": 8.5,
+   "gate_px": 15.9,
+   "aim_u": 12.8,
+   "aim_px": 24.0,
+   "measured_on": "element line boxes",
+   "under_aim": [],
+   "objects": 25,
+   "verdict": "PASS"
+  },
+  "law5_spacing_ink": {
+   "gate_u": 8.5,
+   "gate_px": 15.9,
+   "aim_u": 12.8,
+   "aim_px": 24.0,
+   "measured_on": "glyph ink extents",
+   "under_aim": [],
+   "objects": 25,
+   "verdict": "PASS"
+  },
+  "law5_no_crossing": {
+   "strokes": 54,
+   "types": 10,
+   "verdict": "PASS"
+  },
+  "law4_anchors": {
+   "targets": 2,
+   "detail": {
+    "session-tile": {
+     "n": 1,
+     "spread_u": 0.0,
+     "level": true,
+     "mirrored": false,
+     "on_rect": true
+    },
+    "agent-tile": {
+     "n": 1,
+     "spread_u": 0.0,
+     "level": true,
+     "mirrored": false,
+     "on_rect": true
+    }
+   },
+   "verdict": "PASS"
+  }
+ },
+ "outro": {
+  "move": "opaque sheet rises over the board",
+  "wipe_start": 34.8,
+  "wipe_end": 35.36,
+  "travel_px": 862.5,
+  "sheet_opaque": true,
+  "sheet_covers_px": 862.5,
+  "card_ink_enters_px": 322.5,
+  "board_covered_px": 559.1,
+  "overlap_px": 236.6,
+  "board_moves": false,
+  "board_fades": false,
+  "outro_start": 34.8,
+  "verdict": "PASS"
+ },
+ "captions": 42,
+ "cap_font_px": 56.2,
+ "cap_max_pill_w_px": 748.4,
+ "cap_w_budget_px": 756.0,
+ "anchors": {
+  "start": 0.08,
+  "managed": 1.62,
+  "four": 3.3,
+  "seam0": 4.44,
+  "session_b": 7.7,
+  "budget": 8.06,
+  "meaning": 8.62,
+  "nomore": 9.08,
+  "over": 9.5,
+  "seam1": 11.92,
+  "session": 12.88,
+  "advisor": 13.96,
+  "intel": 16.36,
+  "help": 18.18,
+  "seam2": 19.78,
+  "load": 21.22,
+  "skills": 21.82,
+  "from": 22.44,
+  "connect": 24.22,
+  "seam3": 25.12,
+  "inference": 27.32,
+  "us": 32.94,
+  "europe": 33.98,
+  "outro": 34.8,
+  "news": 36.96
+ },
+ "html_bytes": 150547,
+ "sfx": 23,
+ "pen_loops": 11,
+ "pen_seconds": 4.1,
+ "pen_duty_pct": 10.7,
+ "captions_law3b": {
+  "beats_before_merge": 42,
+  "beats_after_merge": 42,
+  "merges": 0,
+  "merged_away": [],
+  "widest_pill_px": 748.4,
+  "budget_px": 756.0,
+  "beats": [
+   [
+    0.08,
+    0.8,
+    "Claude just made it"
+   ],
+   [
+    0.8,
+    1.62,
+    "easier to run their"
+   ],
+   [
+    1.62,
+    2.92,
+    "managed AI agents with"
+   ],
+   [
+    2.92,
+    4.44,
+    "these four new features."
+   ],
+   [
+    4.44,
+    5.34,
+    "Number one,"
+   ],
+   [
+    5.34,
+    6.54,
+    "each managed agent can"
+   ],
+   [
+    6.54,
+    7.7,
+    "now have its own"
+   ],
+   [
+    7.7,
+    8.62,
+    "session budget,"
+   ],
+   [
+    8.62,
+    9.5,
+    "meaning no more"
+   ],
+   [
+    9.5,
+    10.2,
+    "overspending"
+   ],
+   [
+    10.2,
+    11.08,
+    "in things that you"
+   ],
+   [
+    11.08,
+    11.92,
+    "don't need."
+   ],
+   [
+    11.92,
+    12.64,
+    "Number two,"
+   ],
+   [
+    12.64,
+    13.56,
+    "each session can get"
+   ],
+   [
+    13.56,
+    14.64,
+    "their own advisor,"
+   ],
+   [
+    14.64,
+    16.22,
+    "meaning a bigger,"
+   ],
+   [
+    16.22,
+    16.9,
+    "more intelligent"
+   ],
+   [
+    16.9,
+    17.5,
+    "model that"
+   ],
+   [
+    17.5,
+    18.44,
+    "is going to help"
+   ],
+   [
+    18.44,
+    19.1,
+    "them while"
+   ],
+   [
+    19.1,
+    19.78,
+    "they're working."
+   ],
+   [
+    19.78,
+    20.54,
+    "Number three,"
+   ],
+   [
+    20.54,
+    21.56,
+    "they can now load"
+   ],
+   [
+    21.56,
+    22.44,
+    "their skills"
+   ],
+   [
+    22.44,
+    24.1,
+    "from any repository that"
+   ],
+   [
+    24.1,
+    25.12,
+    "you connect them to."
+   ],
+   [
+    25.12,
+    25.94,
+    "And number four,"
+   ],
+   [
+    25.94,
+    26.92,
+    "now you can choose"
+   ],
+   [
+    26.92,
+    27.92,
+    "where the inference is"
+   ],
+   [
+    27.92,
+    28.72,
+    "running, meaning"
+   ],
+   [
+    28.72,
+    29.04,
+    "that you"
+   ],
+   [
+    29.04,
+    30.34,
+    "can choose where your"
+   ],
+   [
+    30.34,
+    31.28,
+    "AI agent is going"
+   ],
+   [
+    31.28,
+    32.28,
+    "to be working from,"
+   ],
+   [
+    32.28,
+    33.62,
+    "whether it's the US"
+   ],
+   [
+    33.62,
+    34.32,
+    "or Europe."
+   ],
+   [
+    34.32,
+    35.04,
+    "Now, follow for more"
+   ],
+   [
+    35.04,
+    35.48,
+    "AI news,"
+   ],
+   [
+    35.48,
+    36.54,
+    "videos, and tutorials each"
+   ],
+   [
+    36.54,
+    37.4,
+    "and every single day,"
+   ],
+   [
+    37.4,
+    37.8,
+    "and catch you in"
+   ],
+   [
+    37.8,
+    38.34,
+    "the next one."
+   ]
+  ],
+  "law": "captions.py 3b \u2014 merge_function_only_beats over the WHOLE beat stream, then assert_no_function_only_beat inside build()"
+ },
+ "seam_law": {
+  "plan_mode": "chapters",
+  "chapters": 5,
+  "seams": [
+   4.44,
+   11.92,
+   19.78,
+   25.12
+  ],
+  "erase_s": 0.3,
+  "qc_seams": "4.44,11.92,19.78,25.12",
+  "handover": {
+   "4.44": "piggy body 4.46-4.72, inside the erase",
+   "11.92": "Claude tile 11.94-12.20, mark 12.06",
+   "19.78": "shelf frame 19.80-20.04, board 20.05, books to 20.6",
+   "25.12": "post 25.14, mound 25.29, both boards by 25.61"
+  },
+  "outro_wipe": 34.8
+ },
+ "phone_objects": [
+  {
+   "t": 4.25,
+   "name": "Claude pocket knife",
+   "bbox_board_u": [
+    80.0,
+    160.0,
+    484.0,
+    346.0
+   ],
+   "bbox_norm": [
+    0.1389,
+    0.1562,
+    0.8403,
+    0.3379
+   ],
+   "phone_at": "4.25:0.1389,0.1562,0.8403,0.3379:Claude pocket knife"
+  },
+  {
+   "t": 11.2,
+   "name": "Claude piggy bank",
+   "bbox_board_u": [
+    110.0,
+    200.0,
+    402.0,
+    346.0
+   ],
+   "bbox_norm": [
+    0.191,
+    0.1953,
+    0.6979,
+    0.3379
+   ],
+   "phone_at": "11.2:0.191,0.1953,0.6979,0.3379:Claude piggy bank"
+  },
+  {
+   "t": 19.3,
+   "name": "brain wired to agent",
+   "bbox_board_u": [
+    100.0,
+    198.0,
+    434.0,
+    312.0
+   ],
+   "bbox_norm": [
+    0.1736,
+    0.1934,
+    0.7535,
+    0.3047
+   ],
+   "phone_at": "19.3:0.1736,0.1934,0.7535,0.3047:brain wired to agent"
+  },
+  {
+   "t": 24.9,
+   "name": "bookshelf cabled to agent",
+   "bbox_board_u": [
+    134.0,
+    186.0,
+    434.0,
+    314.0
+   ],
+   "bbox_norm": [
+    0.2326,
+    0.1816,
+    0.7535,
+    0.3066
+   ],
+   "phone_at": "24.9:0.2326,0.1816,0.7535,0.3066:bookshelf cabled to agent"
+  },
+  {
+   "t": 34.5,
+   "name": "US Europe signpost",
+   "bbox_board_u": [
+    170.0,
+    171.0,
+    424.0,
+    341.0
+   ],
+   "bbox_norm": [
+    0.2951,
+    0.167,
+    0.7361,
+    0.333
+   ],
+   "phone_at": "34.5:0.2951,0.167,0.7361,0.333:US Europe signpost"
+  }
+ ],
+ "emphasis": [
+  {
+   "at": 9.5,
+   "target": "budget-meter",
+   "kind": "outline retrace"
+  },
+  {
+   "at": 16.36,
+   "target": "advisor-brain",
+   "kind": "outline retrace"
+  },
+  {
+   "at": 21.22,
+   "target": "book-hero",
+   "kind": "outline retrace"
+  }
+ ]
+}

@@ -1,0 +1,22 @@
+{
+ "id": "falagent",
+ "stage": "prompt0",
+ "status": "ok",
+ "wall_s": 83.2,
+ "at": "2026-09-23T19:56:25",
+ "keys": {
+  "status": "ok",
+  "prompt0_status": "ok",
+  "prompt_png": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/matting/falagent/prompts/kf_00000.png",
+  "overlay_png": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/matting/falagent/prompts/kf_overlay_00000.png",
+  "wings_source": "MEASURED on this plate's frame 0",
+  "wing_right": null,
+  "wing_left": null,
+  "wing_cut_applied": false,
+  "wing_review": true,
+  "wing_review_note": "the instrument proposed no cut.  It abstains rather than guesses (see the module docstring: zero false positives, zero recall on the run-9 corpus).  Look at kf_overlay_00000.png; if a headrest wing is inside the green prompt, measure its inner column and pass an explicit `wings` block on the intake row.  If you miss one, the protrusion gate inside ship.py is the net.",
+  "removed_px": 0,
+  "prompt_area_px": 467429,
+  "wall_s": 83.2
+ }
+}

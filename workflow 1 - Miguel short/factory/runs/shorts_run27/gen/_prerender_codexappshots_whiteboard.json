@@ -1,0 +1,95 @@
+{
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/projects/codexappshots_whiteboard",
+ "fmt": "whiteboard",
+ "step": 0.25,
+ "checks": {
+  "refs_resolve": {
+   "referenced": 12,
+   "missing": [],
+   "pass": true,
+   "error": null,
+   "wall_s": 0.09
+  },
+  "assets_not_placeholder": {
+   "rasters": 2,
+   "placeholder_shaped": [],
+   "undecodable": [],
+   "report": {
+    "assets/logos/chatgpt.png": {
+     "size": [
+      1024,
+      1024
+     ],
+     "judged": "decode only (capture)"
+    },
+    "assets/logos/codex.png": {
+     "size": [
+      640,
+      640
+     ],
+     "ink_fill": 0.97,
+     "quantised_colours": 13,
+     "diag_fwd": 0.894,
+     "diag_back": 0.894,
+     "bbox": [
+      0,
+      0,
+      640,
+      640
+     ]
+    }
+   },
+   "pass": true,
+   "error": null,
+   "wall_s": 0.09
+  },
+  "page_audit": {
+   "ids": 251,
+   "unique_ids": 251,
+   "duplicate_ids": [],
+   "tween_selectors": 171,
+   "dead_tween_targets": [],
+   "pass": true,
+   "error": null,
+   "wall_s": 0.0
+  },
+  "caption_canon_page": {
+   "pills": 36,
+   "modal_height_px": 114.53,
+   "canon_height_px": 114.59,
+   "height_spread_px": 0.0,
+   "tolerance_design_px": 3.0,
+   "heights_off_canon": [],
+   "squarer_than_min_aspect": [],
+   "min_aspect": 1.45,
+   "function_only_beat_law": null,
+   "pass": true,
+   "error": null,
+   "wall_s": 0.0
+  },
+  "gate1_geometry_audit": {
+   "returncode": 0,
+   "errors": 0,
+   "warnings": 0,
+   "warnings_after_waivers": 0,
+   "waived": [],
+   "report": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/projects/codexappshots_whiteboard/geometry_audit/report.json",
+   "stdout": "codexappshots_whiteboard: 0 errors, 0 warnings (34.1s @ 0.25s step)\n",
+   "stderr": "",
+   "bar": "0 errors, 0 warnings",
+   "pass": true,
+   "error": null,
+   "wall_s": 1.42
+  }
+ },
+ "skipped": {
+  "cutout_edge_fade_guard": "cutout only",
+  "cutout_checks_24_25": "cutout only"
+ },
+ "duration_s": 34.12,
+ "page_zoom": 1.000543114973262,
+ "page_load_wall_s": 0.83,
+ "failed": [],
+ "verdict": "PASS",
+ "total_wall_s": 2.43
+}

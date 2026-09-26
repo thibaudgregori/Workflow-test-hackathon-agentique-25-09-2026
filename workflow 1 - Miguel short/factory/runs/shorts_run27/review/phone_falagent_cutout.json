@@ -1,0 +1,131 @@
+{
+ "label": "falagent_cutout",
+ "video": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/output/falagent_cutout.mp4",
+ "phone_scale": "405x720",
+ "sheet": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/phone_falagent_cutout.png",
+ "rule": "a FRESH judge (never read the plan) names each crop in <=3 words. Wrong name, hedge, or 'cannot tell' = the object is redesigned, not annotated.",
+ "answer_key": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/phone_falagent_cutout.key.json",
+ "answer_key_rule": "DO NOT OPEN the answer key until every judge_answer below is filled in. Reading it first voids the Phone Test.",
+ "objects": [
+  {
+   "i": 0,
+   "t": 2.0,
+   "bbox_norm": [
+    0.3771,
+    0.1757,
+    0.6229,
+    0.2732
+   ],
+   "phone_box_px": [
+    152,
+    126,
+    252,
+    196
+   ],
+   "phone_size_px": [
+    100,
+    70
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/phone_falagent_cutout/00.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  },
+  {
+   "i": 1,
+   "t": 9.3,
+   "bbox_norm": [
+    0.1481,
+    0.175,
+    0.3148,
+    0.2771
+   ],
+   "phone_box_px": [
+    59,
+    125,
+    127,
+    199
+   ],
+   "phone_size_px": [
+    68,
+    74
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/phone_falagent_cutout/01.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  },
+  {
+   "i": 2,
+   "t": 10.4,
+   "bbox_norm": [
+    0.7,
+    0.1594,
+    0.837,
+    0.2802
+   ],
+   "phone_box_px": [
+    283,
+    114,
+    338,
+    201
+   ],
+   "phone_size_px": [
+    55,
+    87
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/phone_falagent_cutout/02.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  },
+  {
+   "i": 3,
+   "t": 14.6,
+   "bbox_norm": [
+    0.3796,
+    0.15,
+    0.6204,
+    0.2854
+   ],
+   "phone_box_px": [
+    153,
+    108,
+    251,
+    205
+   ],
+   "phone_size_px": [
+    98,
+    97
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/phone_falagent_cutout/03.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  },
+  {
+   "i": 4,
+   "t": 16.9,
+   "bbox_norm": [
+    0.2222,
+    0.1573,
+    0.7778,
+    0.2615
+   ],
+   "phone_box_px": [
+    89,
+    113,
+    315,
+    188
+   ],
+   "phone_size_px": [
+    226,
+    75
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/phone_falagent_cutout/04.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  }
+ ]
+}

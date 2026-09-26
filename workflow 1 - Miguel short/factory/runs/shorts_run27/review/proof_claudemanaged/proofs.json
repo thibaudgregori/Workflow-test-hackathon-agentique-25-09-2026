@@ -1,0 +1,314 @@
+{
+ "crops": [
+  {
+   "i": 0,
+   "name": "Claude pocket knife",
+   "t": 4.2,
+   "core_box": [
+    263.6,
+    102.1,
+    789.5,
+    354.0
+   ],
+   "phone_box_px": [
+    99,
+    110,
+    296,
+    205
+   ],
+   "phone_size_px": [
+    197,
+    95
+   ],
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_claudemanaged/00.png"
+  },
+  {
+   "i": 1,
+   "name": "Claude piggy bank",
+   "t": 8.0,
+   "core_box": [
+    410.0,
+    152.0,
+    670.0,
+    368.0
+   ],
+   "phone_box_px": [
+    154,
+    129,
+    251,
+    210
+   ],
+   "phone_size_px": [
+    97,
+    81
+   ],
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_claudemanaged/01.png"
+  },
+  {
+   "i": 2,
+   "name": "brain wired to agent",
+   "t": 19.4,
+   "core_box": [
+    248.0,
+    138.0,
+    830.0,
+    374.0
+   ],
+   "phone_box_px": [
+    93,
+    124,
+    311,
+    212
+   ],
+   "phone_size_px": [
+    218,
+    88
+   ],
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_claudemanaged/02.png"
+  },
+  {
+   "i": 3,
+   "name": "bookshelf cabled to agent",
+   "t": 24.9,
+   "core_box": [
+    259.0,
+    114.0,
+    821.0,
+    384.0
+   ],
+   "phone_box_px": [
+    97,
+    115,
+    308,
+    216
+   ],
+   "phone_size_px": [
+    211,
+    101
+   ],
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_claudemanaged/03.png"
+  },
+  {
+   "i": 4,
+   "name": "US Europe signpost",
+   "t": 34.6,
+   "core_box": [
+    336.0,
+    112.0,
+    744.0,
+    454.0
+   ],
+   "phone_box_px": [
+    126,
+    114,
+    279,
+    242
+   ],
+   "phone_size_px": [
+    153,
+    128
+   ],
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_claudemanaged/04.png"
+  }
+ ],
+ "frames": [
+  {
+   "name": "hook_land",
+   "t": 0.6,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_claudemanaged/frame_hook_land.png"
+  },
+  {
+   "name": "keyterm",
+   "t": 2.4,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_claudemanaged/frame_keyterm.png"
+  },
+  {
+   "name": "tools_open",
+   "t": 4.2,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_claudemanaged/frame_tools_open.png"
+  },
+  {
+   "name": "seam_a",
+   "t": 4.74,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_claudemanaged/frame_seam_a.png"
+  },
+  {
+   "name": "piggy",
+   "t": 7.0,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_claudemanaged/frame_piggy.png"
+  },
+  {
+   "name": "budget",
+   "t": 8.4,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_claudemanaged/frame_budget.png"
+  },
+  {
+   "name": "meter_cap",
+   "t": 10.6,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_claudemanaged/frame_meter_cap.png"
+  },
+  {
+   "name": "seam_b",
+   "t": 12.24,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_claudemanaged/frame_seam_b.png"
+  },
+  {
+   "name": "session",
+   "t": 13.4,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_claudemanaged/frame_session.png"
+  },
+  {
+   "name": "advisor",
+   "t": 15.2,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_claudemanaged/frame_advisor.png"
+  },
+  {
+   "name": "smart",
+   "t": 17.2,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_claudemanaged/frame_smart.png"
+  },
+  {
+   "name": "help",
+   "t": 19.4,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_claudemanaged/frame_help.png"
+  },
+  {
+   "name": "seam_c",
+   "t": 20.1,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_claudemanaged/frame_seam_c.png"
+  },
+  {
+   "name": "skills",
+   "t": 22.3,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_claudemanaged/frame_skills.png"
+  },
+  {
+   "name": "agent",
+   "t": 23.4,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_claudemanaged/frame_agent.png"
+  },
+  {
+   "name": "connect",
+   "t": 24.9,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_claudemanaged/frame_connect.png"
+  },
+  {
+   "name": "seam_d",
+   "t": 25.44,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_claudemanaged/frame_seam_d.png"
+  },
+  {
+   "name": "inference",
+   "t": 30.0,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_claudemanaged/frame_inference.png"
+  },
+  {
+   "name": "us",
+   "t": 33.6,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_claudemanaged/frame_us.png"
+  },
+  {
+   "name": "europe",
+   "t": 34.6,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_claudemanaged/frame_europe.png"
+  },
+  {
+   "name": "outro",
+   "t": 37.0,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_claudemanaged/frame_outro.png"
+  }
+ ],
+ "connector_contacts": [
+  {
+   "id": "conn-advice",
+   "end": "a",
+   "core": [
+    530.0,
+    250.0
+   ],
+   "t": 19.08,
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_claudemanaged/conn_conn-advice_a.png"
+  },
+  {
+   "id": "conn-advice",
+   "end": "b",
+   "core": [
+    718.0,
+    250.0
+   ],
+   "t": 19.08,
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_claudemanaged/conn_conn-advice_b.png"
+  },
+  {
+   "id": "conn-skills",
+   "end": "a",
+   "core": [
+    555.0,
+    250.0
+   ],
+   "t": 25.119999999999997,
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_claudemanaged/conn_conn-skills_a.png"
+  },
+  {
+   "id": "conn-skills",
+   "end": "b",
+   "core": [
+    709.0,
+    250.0
+   ],
+   "t": 25.119999999999997,
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/proof_claudemanaged/conn_conn-skills_b.png"
+  }
+ ],
+ "dom_boxes_core": {
+  "#advisor-brain": [
+   230,
+   120,
+   534,
+   382
+  ],
+  "#session-tile": [
+   718,
+   194,
+   830,
+   306
+  ],
+  "#skill-shelf": [
+   259,
+   114,
+   559,
+   384
+  ],
+  "#agent-tile": [
+   709,
+   194,
+   821,
+   306
+  ],
+  "#conn-advice": [
+   512,
+   232,
+   736,
+   268
+  ],
+  "#conn-skills": [
+   537,
+   232,
+   727,
+   268
+  ]
+ },
+ "page_errors": [],
+ "stage_marks_resolve": {
+  "claude": "/Users/migle/Documents/Workspace/assets/logos/ai-models/claude-color.png"
+ },
+ "cutout_lanes_resolve": {
+  "claude-code": "/Users/migle/Documents/Workspace/assets/logos/coding-tools/claudecode-color.png",
+  "claude-cowork": "/Users/migle/Documents/Workspace/assets/logos/ai-models/claude-cowork.png",
+  "github": "/Users/migle/Documents/Workspace/assets/logos/coding-tools/github-mark.png",
+  "mcp": "/Users/migle/Documents/Workspace/assets/logos/ai-models/mcp-mark.svg",
+  "openai": "/Users/migle/Documents/Workspace/assets/logos/ai-models/openai.png",
+  "gemini": "/Users/migle/Documents/Workspace/assets/logos/ai-models/gemini-color.png",
+  "langchain": "/Users/migle/Documents/Workspace/assets/logos/platforms/langchain.png"
+ }
+}

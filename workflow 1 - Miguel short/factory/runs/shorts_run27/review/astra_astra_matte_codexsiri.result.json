@@ -1,0 +1,14 @@
+{
+  "status": "ok",
+  "ship": "ok",
+  "selection_changed": true,
+  "edits": 5,
+  "rounds": 3,
+  "what_you_saw": "Compared the clean frame, full overlay, head overlay and previous face_2x sheet. Preserved two existing exclusion polygons and added three source-traced include polygons restoring the small viewer-left cap-to-temple sliver, missing opposite cap fabric and stair cuts along the viewer-right jaw. The mask gained 1824 pixels and removed none. Reviewed each revised overlay through three outline rounds, then performed one fresh SAM2 fallback track because the existing chair_audit ledger held MatAnyone. On the fresh face_2x sheet, followed both complete head edges at frames 0, 113, 226, 452, 678, 805, 810 and 903: cap brim, cap-to-temple junctions, temples, ears, cheeks and jaw now follow the source smoothly without the previous notches or flat cuts. Playback shows an opaque person with intact neck and shoulders; chair_sides shows no visible chair slab, grey wedge or neck splash. Hands are present and opaque in the gesture samples; soft edges on fast movement are accepted source motion blur. Ship is newer than approval, its prompt hash matches the corrected selection, and all three installed output hashes match the fresh ship marker. The five recorded edits include the two preserved exclusions and three new includes; rounds counts outline review rounds, with one paid re-track. Split, whiteboard, design and scene were not changed.",
+  "hold_reason": "",
+  "outputs": [
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/matting/codexsiri/matte_codexsiri_v5_cut.webm",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/matting/codexsiri/matte_codexsiri_v5_rim.webm",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/matting/codexsiri/matte_codexsiri_v5_alpha.webm"
+  ]
+}

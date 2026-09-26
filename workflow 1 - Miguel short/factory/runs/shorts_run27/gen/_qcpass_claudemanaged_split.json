@@ -1,0 +1,407 @@
+{
+ "render": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/output/claudemanaged_split.mp4",
+ "vid": "claudemanaged",
+ "fmt": "split",
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/projects/claudemanaged_split",
+ "checks": {
+  "decoded_blank_frames": {
+   "ok": true,
+   "result": {
+    "frames": 961,
+    "fps": 25.0,
+    "zone": [
+     0,
+     862,
+     1080,
+     862
+    ],
+    "ink_floor": 0.0006,
+    "min_ink_frac": 0.0,
+    "empty_frames_total": 2,
+    "leading_trailing_empty": 2,
+    "interior_blank_frames": [],
+    "pass": true
+   },
+   "wall_s": 0.0
+  },
+  "zero_ink_law": {
+   "ok": true,
+   "result": {
+    "render": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/output/claudemanaged_split.mp4",
+    "frames": 961,
+    "fps": 25.0,
+    "zone_bottom_design_px": 862.5,
+    "zone_px": [
+     1080,
+     862
+    ],
+    "first_word_s": 0.08,
+    "leading_empty_frames": 2,
+    "first_judged_frame": 2,
+    "min_ink_frac_judged": 0.02652638,
+    "min_ink_frac_at_s": 12.24,
+    "blank_frames": [],
+    "verdict": "PASS"
+   },
+   "wall_s": 0.0
+  },
+  "clip_coverage_page": {
+   "ok": true,
+   "result": {
+    "duration_s": 38.44,
+    "fps": 25,
+    "groups": {
+     "stage": {
+      "clips": 0,
+      "checked": false,
+      "note": "fewer than two clips \u2014 nothing can hand over"
+     },
+     "tz": {
+      "clips": 1,
+      "checked": false,
+      "note": "fewer than two clips \u2014 nothing can hand over"
+     },
+     "scap": {
+      "clips": 38,
+      "checked": true,
+      "frames": 961,
+      "span": [
+       0.08,
+       38.42
+      ],
+      "holes": [],
+      "ghosts": [],
+      "pass": true
+     }
+    },
+    "holes": 0,
+    "ghosts": 0,
+    "pass": true
+   },
+   "wall_s": 0.0
+  },
+  "double_exposure": {
+   "ok": true,
+   "result": {
+    "frames": 961,
+    "fps": 25.0,
+    "first_word_s": 0.08,
+    "leading_blank_run_frames": 4,
+    "after_first_word": {
+     "from_frame": 2,
+     "from_t": 0.08,
+     "basis": "first spoken word",
+     "min_ink": 0,
+     "min_ink_t": 0.08,
+     "min_ink40": 0,
+     "min_ink40_t": 0.08,
+     "zero_ink_frames": [
+      0.08,
+      0.12,
+      35.08,
+      35.12,
+      35.16,
+      35.2,
+      35.24,
+      35.28
+     ],
+     "zero_ink40_frames": [
+      0.08,
+      0.12,
+      35.08,
+      35.12,
+      35.16,
+      35.2,
+      35.24,
+      35.28
+     ]
+    },
+    "after_leading_run": {
+     "from_frame": 4,
+     "from_t": 0.16,
+     "basis": "opening fade-up cleared",
+     "min_ink": 0,
+     "min_ink_t": 35.08,
+     "min_ink40": 0,
+     "min_ink40_t": 35.08,
+     "zero_ink_frames": [
+      35.08,
+      35.12,
+      35.16,
+      35.2,
+      35.24,
+      35.28
+     ],
+     "zero_ink40_frames": [
+      35.08,
+      35.12,
+      35.16,
+      35.2,
+      35.24,
+      35.28
+     ]
+    },
+    "after_first_readable_ink": {
+     "from_frame": 4,
+     "from_t": 0.16,
+     "basis": "first READABLE ink on screen",
+     "min_ink": 0,
+     "min_ink_t": 35.08,
+     "min_ink40": 0,
+     "min_ink40_t": 35.08,
+     "zero_ink_frames": [
+      35.08,
+      35.12,
+      35.16,
+      35.2,
+      35.24,
+      35.28
+     ],
+     "zero_ink40_frames": [
+      35.08,
+      35.12,
+      35.16,
+      35.2,
+      35.24,
+      35.28
+     ]
+    },
+    "double_exposure_floor_px": 600,
+    "double_exposure_frames": [
+     {
+      "t": 8.72,
+      "outgoing_px": 990,
+      "incoming_px": 671
+     },
+     {
+      "t": 8.76,
+      "outgoing_px": 663,
+      "incoming_px": 886
+     },
+     {
+      "t": 22.6,
+      "outgoing_px": 979,
+      "incoming_px": 893
+     },
+     {
+      "t": 22.64,
+      "outgoing_px": 947,
+      "incoming_px": 874
+     },
+     {
+      "t": 22.68,
+      "outgoing_px": 692,
+      "incoming_px": 1149
+     },
+     {
+      "t": 22.72,
+      "outgoing_px": 737,
+      "incoming_px": 1359
+     }
+    ],
+    "double_exposure_count": 6,
+    "note": "candidates, not a verdict \u2014 adjudicate each window (procedure v3); the opening fade-up legitimately fires"
+   },
+   "wall_s": 0.08
+  },
+  "face_centring": {
+   "ok": true,
+   "result": {
+    "label": "claudemanaged_split",
+    "video": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/output/claudemanaged_split.mp4",
+    "duration_s": 38.46,
+    "detector": "mediapipe/blazeface",
+    "segment_source": "auto:layout-detector",
+    "segments": null,
+    "every_s": 0.5,
+    "tol_pct": 4.0,
+    "band_level": "warning",
+    "full_face": {
+     "n": 0,
+     "worst_dx_pct": null,
+     "worst_t": null,
+     "mean_abs_dx_pct": null,
+     "offenders": []
+    },
+    "band": {
+     "n": 77,
+     "worst_dx_pct": 5.83,
+     "worst_t": 32.5,
+     "warnings": [
+      {
+       "t": 31.5,
+       "dx_pct": -4.26,
+       "face_h_pct": 16.2,
+       "class": "band",
+       "score": 0.98,
+       "skin": 0.9
+      },
+      {
+       "t": 32.5,
+       "dx_pct": 5.83,
+       "face_h_pct": 14.9,
+       "class": "band",
+       "score": 0.99,
+       "skin": 0.89
+      },
+      {
+       "t": 35.5,
+       "dx_pct": 4.07,
+       "face_h_pct": 15.0,
+       "class": "band",
+       "score": 0.99,
+       "skin": 0.9
+      },
+      {
+       "t": 37.0,
+       "dx_pct": 4.91,
+       "face_h_pct": 14.7,
+       "class": "band",
+       "score": 0.99,
+       "skin": 0.9
+      },
+      {
+       "t": 37.5,
+       "dx_pct": 4.17,
+       "face_h_pct": 14.5,
+       "class": "band",
+       "score": 0.98,
+       "skin": 0.9
+      }
+     ]
+    },
+    "pass": true,
+    "verdict": "PASS"
+   },
+   "wall_s": 1.02
+  },
+  "pill_canon_rendered": {
+   "ok": true,
+   "result": {
+    "samples": 60,
+    "band_rows_px": [
+     772,
+     952
+    ],
+    "frames_without_a_pill": 0,
+    "distinct_heights_px": {
+     "114": 60
+    },
+    "modal_height_px": 114,
+    "modal_height_design_px": 114.0,
+    "spread_px": 0,
+    "spread_max_px": 2.0,
+    "canonical_height_px": 114.59,
+    "canonical_height_design_px": 114.59,
+    "modal_vs_canon_px": 0.59,
+    "tolerance_px": 3.0,
+    "delivery_scale": 1.0,
+    "widest_pill_px": 752,
+    "widest_pill_in_design_px": 752.0,
+    "verdict": "PASS",
+    "pass": true
+   },
+   "wall_s": 0.0
+  },
+  "gate1_geometry_audit": {
+   "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/geometry_audit.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/projects/claudemanaged_split --step 0.25 --out /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/gen/_gate1_claudemanaged_split.json",
+   "rc": 0,
+   "stdout": "claudemanaged_split: 0 errors, 0 warnings (38.4s @ 0.25s step)\n",
+   "stderr": "",
+   "wall_s": 2.0
+  },
+  "gate2_frame_review": {
+   "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/qc/gate2_frames.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/output/claudemanaged_split.mp4 --full --transcript /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/cuts/claudemanaged/transcript_tight.json",
+   "rc": 0,
+   "stdout": "Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/output/frames_claudemanaged_split/f_0028_666.jpg\n  t=00:29.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/output/frames_claudemanaged_split/f_0029_000.jpg\n  t=00:29.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/output/frames_claudemanaged_split/f_0029_333.jpg\n  t=00:29.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/output/frames_claudemanaged_split/f_0029_666.jpg\n  t=00:30.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/output/frames_claudemanaged_split/f_0030_000.jpg\n  t=00:30.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/output/frames_claudemanaged_split/f_0030_333.jpg\n  t=00:31.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/output/frames_claudemanaged_split/f_0031_000.jpg\n  t=00:31.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/output/frames_claudemanaged_split/f_0031_333.jpg\n  t=00:32.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/output/frames_claudemanaged_split/f_0032_000.jpg\n  t=00:32.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/output/frames_claudemanaged_split/f_0032_333.jpg\n  t=00:32.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/output/frames_claudemanaged_split/f_0032_666.jpg\n  t=00:33.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/output/frames_claudemanaged_split/f_0033_000.jpg\n  t=00:33.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/output/frames_claudemanaged_split/f_0033_333.jpg\n  t=00:33.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/output/frames_claudemanaged_split/f_0033_666.jpg\n  t=00:34.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/output/frames_claudemanaged_split/f_0034_000.jpg\n  t=00:34.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/output/frames_claudemanaged_split/f_0034_333.jpg\n  t=00:34.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/output/frames_claudemanaged_split/f_0034_666.jpg\n  t=00:35.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/output/frames_claudemanaged_split/f_0035_000.jpg\n  t=00:35.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/output/frames_claudemanaged_split/f_0035_333.jpg\n  t=00:36.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/output/frames_claudemanaged_split/f_0036_000.jpg\n  t=00:36.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/output/frames_claudemanaged_split/f_0036_666.jpg\n  t=00:37.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/output/frames_claudemanaged_split/f_0037_000.jpg\n  t=00:37.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/output/frames_claudemanaged_split/f_0037_333.jpg\n  t=00:37.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/output/frames_claudemanaged_split/f_0037_666.jpg\n  t=00:38.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/output/frames_claudemanaged_split/f_0038_000.jpg\n\nManifest: /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/output/frames_claudemanaged_split/manifest.md  (delete dir after review)\n",
+   "stderr": "",
+   "wall_s": 1.69
+  },
+  "audio_guards": {
+   "ok": true,
+   "result": {
+    "mix_8_16k_db": -27.41,
+    "master_8_16k_db": -27.22,
+    "delta_db": -0.19,
+    "tolerance_db": 6.0,
+    "speech_margin_db_p85_p15_33ms_s16le": 19.347,
+    "sync": {
+     "lag_ms": 0,
+     "r": 0.9955,
+     "instrument": "10 ms |x| envelope, +/-250 ms search"
+    },
+    "audio_initial_padding_samples": 0,
+    "verdict": "PASS",
+    "pass": true
+   },
+   "wall_s": 0.73
+  },
+  "contact_sheet": {
+   "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/contact_sheet.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/output/claudemanaged_split.mp4 --id claudemanaged --fmt split --run /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27",
+   "rc": 0,
+   "stdout": "{\n \"sheet\": \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/sheet_claudemanaged_split.png\",\n \"id\": \"claudemanaged\",\n \"fmt\": \"split\",\n \"duration_s\": 38.46,\n \"frame_source\": \"even\",\n \"times\": [\n  1.6,\n  4.81,\n  8.01,\n  11.22,\n  14.42,\n  17.63,\n  20.83,\n  24.04,\n  27.24,\n  30.45,\n  33.65,\n  36.86\n ],\n \"size_px\": [\n  1798,\n  4344\n ]\n}\n",
+   "stderr": "",
+   "wall_s": 2.32
+  },
+  "phone_crops": {
+   "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/phone_crops.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/output/claudemanaged_split.mp4 --out /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review --label claudemanaged_split --at 4.2:0.244,0.1532,0.731,0.2844:Claude pocket knife --at 8.0:0.3796,0.1792,0.6204,0.2917:Claude piggy bank --at 19.4:0.2296,0.1719,0.7685,0.2948:brain wired to agent --at 24.9:0.2398,0.1594,0.7602,0.3:bookshelf cabled to agent --at 34.6:0.3111,0.1583,0.6889,0.3365:US Europe signpost",
+   "rc": 0,
+   "stdout": "{\n \"sheet\": \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/phone_claudemanaged_split.png\",\n \"manifest\": \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/phone_claudemanaged_split.json\",\n \"answer_key\": \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/review/phone_claudemanaged_split.key.json\",\n \"n_objects\": 5,\n \"phone_sizes_px\": [\n  [\n   198,\n   94\n  ],\n  [\n   98,\n   81\n  ],\n  [\n   219,\n   89\n  ],\n  [\n   210,\n   102\n  ],\n  [\n   154,\n   129\n  ]\n ]\n}\n",
+   "stderr": "",
+   "wall_s": 1.16
+  }
+ },
+ "skipped": {
+  "cutout_checks_24_25": "cutout only, and needs --project",
+  "gate3_gemini_describe": "no --vid, or skipped",
+  "edge_clip": "cutout only, and needs --alpha",
+  "whiteboard_seam_law": "whiteboard only, and needs --seams (the chapter erase times)",
+  "face_hf_vs_plate": "needs --plate (the display plate)",
+  "head_scale_vs_framing": "needs --alpha and --edge-box (the crown comes from the matte's own alpha, the chin from MediaPipe on the delivered frame)"
+ },
+ "zone_bottom_design_px": 862.5,
+ "decode": {
+  "frames": 961,
+  "fps": 25.0,
+  "size": [
+   1080,
+   1920
+  ],
+  "grid_frames": 77,
+  "caption_band_rows": [
+   772,
+   952
+  ],
+  "caption_seat_design_px": 862.5,
+  "wall_s": 7.49
+ },
+ "verdicts": {
+  "decoded_blank_frames": "PASS",
+  "zero_ink_law": "PASS",
+  "clip_coverage_page": "PASS",
+  "double_exposure": "REPORTED",
+  "face_centring": "PASS",
+  "pill_canon_rendered": "PASS",
+  "gate1_geometry_audit": "PASS",
+  "gate2_frame_review": "PASS",
+  "audio_guards": "PASS",
+  "contact_sheet": "PASS",
+  "phone_crops": "PASS"
+ },
+ "wall_s": {
+  "decoded_blank_frames": 0.0,
+  "zero_ink_law": 0.0,
+  "clip_coverage_page": 0.0,
+  "double_exposure": 0.08,
+  "face_centring": 1.02,
+  "pill_canon_rendered": 0.0,
+  "gate1_geometry_audit": 2.0,
+  "gate2_frame_review": 1.69,
+  "audio_guards": 0.73,
+  "contact_sheet": 2.32,
+  "phone_crops": 1.16,
+  "single_decode": 7.49
+ },
+ "total_wall_s": 8.66,
+ "pass": true
+}

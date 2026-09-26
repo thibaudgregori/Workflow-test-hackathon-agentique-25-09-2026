@@ -1,0 +1,99 @@
+{
+  "vid": "falagent",
+  "session": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/matting/falagent",
+  "cut": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/matting/falagent/matte_falagent_v5_cut.webm",
+  "size": [
+    1980,
+    990
+  ],
+  "frames": 831,
+  "sample_fps": 5,
+  "sampled": 166,
+  "soft_alpha_px": {
+    "rest_median": 14622,
+    "p95_over_rest": 1.59,
+    "max_over_rest": 2.49,
+    "frames_over_2p5x": 0
+  },
+  "chair_band_px": {
+    "reference": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/matting/falagent/selection.mask.png",
+    "p50": 2019,
+    "p95": 6366,
+    "max": 9587,
+    "max_at_s": 32.2
+  },
+  "background_haze": {
+    "px_floor": 1500,
+    "detach_px": 14,
+    "p50": 0,
+    "p95": 1010,
+    "max": 9169,
+    "frames_over_floor": 7,
+    "longest_run_s": 0.4,
+    "hold_seconds_limit": 1.0,
+    "worst_sample_s": 13.4,
+    "hold": false
+  },
+  "frozen_edge": {
+    "frozen_sd": 1.5,
+    "min_cols": 12,
+    "sd_ratio": 4.0,
+    "runs": [],
+    "hold": false
+  },
+  "extra_components": {
+    "max": 0,
+    "frames": 0
+  },
+  "holes": {
+    "max": 0,
+    "frames": 0
+  },
+  "iou_frame_to_frame": {
+    "p05": 0.8839,
+    "min": 0.7942
+  },
+  "sheets": {
+    "playback": [
+      12,
+      25,
+      50,
+      75,
+      100,
+      125,
+      325,
+      330,
+      335,
+      735
+    ],
+    "face_2x": [
+      0,
+      103,
+      207,
+      335,
+      415,
+      623,
+      735,
+      830
+    ],
+    "chair_sides": [
+      12,
+      25,
+      50,
+      330,
+      335,
+      805
+    ],
+    "hands": [
+      5,
+      205,
+      230,
+      330,
+      335,
+      735
+    ]
+  },
+  "auto_hold": [],
+  "reference_bar": "run 19's five approved mattes: soft p95/rest <= 1.41, max/rest <= 5.9 (hands), extra components <= 1 frame, IoU p05 >= 0.92. These numbers did NOT separate geo's rejected mattes from the approved ones; the sheets did. Look.",
+  "wall_s": 54.1
+}

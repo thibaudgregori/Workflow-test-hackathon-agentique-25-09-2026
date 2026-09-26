@@ -1,0 +1,777 @@
+# falagent — creative plan
+
+Intake's 'icon choreography' holds: the script is a chain of plain nouns (creative people, fal agent, videos, images, the model, the prompt, consistent generations, their website), so each sentence gets one drawn object or one row of real marks that arrives on its word, and the fal plate is the recurring hero that the argument keeps returning to.
+
+```json
+{
+  "id": "falagent",
+  "duration_s": 33.24,
+  "lane": "icon choreography",
+  "lane_reason": "Intake's 'icon choreography' holds: the script is a chain of plain nouns (creative people, fal agent, videos, images, the model, the prompt, consistent generations, their website), so each sentence gets one drawn object or one row of real marks that arrives on its word, and the fal plate is the recurring hero that the argument keeps returning to.",
+  "beats": [
+    {
+      "i": 0,
+      "t_start": 0.1,
+      "t_end": 2.74,
+      "words": "Creative people working with AI now have a new best friend.",
+      "says": "People doing creative work with AI now have a new helper they will love.",
+      "picture": "An artist's paint palette (kidney-shaped board, thumb hole, five round paint dabs, a brush lying across it with a terracotta-loaded tip) pops alone in the centre on 'Creative'. On 'AI' a small terracotta four-point spark pops by the brush tip. On 'best' the palette slides left to make room for its new friend.",
+      "objects": [
+        "palette",
+        "spark"
+      ],
+      "emphasis": [],
+      "whiteboard_version": "The marker draws the palette as the board's first stroke, centred and alone (outline, thumb hole, dabs hatched, the brush), adds the terracotta spark on 'AI', and on 'best' the drawn palette slides left (the one displacement, LAW 19) to leave room for the plate."
+    },
+    {
+      "i": 1,
+      "t_start": 2.88,
+      "t_end": 5.22,
+      "words": "fal.ai just released fal agent.",
+      "says": "fal.ai has launched its own agent, fal agent.",
+      "picture": "On 'fal.ai' the real fal mark on a 132 px card plate pops to the right of the palette, level with it. On 'just' a terracotta line draws from the palette's rightmost edge to the plate's left edge (the two are now linked: the friend). On 'agent' the key term FAL AGENT is written large under the plate.",
+      "objects": [
+        "palette",
+        "fal-tile",
+        "conn-friend",
+        "key-falagent"
+      ],
+      "emphasis": [],
+      "whiteboard_version": "Same: the fal mark pasted in a drawn plate right of the palette, the marker line palette -> plate, FAL AGENT written under the plate as the board's first type."
+    },
+    {
+      "i": 2,
+      "t_start": 5.58,
+      "t_end": 9.72,
+      "words": "When working with creative use cases, whether it's generating videos or images,",
+      "says": "Creative work with AI means generating videos and images.",
+      "picture": "On 'creative' the plate, the line and FAL AGENT clear and the palette glides back to the centre, a little smaller. On 'videos' a movie clapperboard (striped stick hinged open over a slate) pops on the left and claps shut once; VIDEOS is written under it. On 'images' a painter's easel with a small landscape canvas (hills and a terracotta sun) pops on the right; IMAGES is written under it.",
+      "objects": [
+        "palette",
+        "clapper",
+        "key-videos",
+        "easel",
+        "key-images"
+      ],
+      "emphasis": [],
+      "whiteboard_version": "The board erases the plate side and keeps the palette in the middle; the clapperboard is drawn left with VIDEOS under it, the easel right with IMAGES under it, on the same words."
+    },
+    {
+      "i": 3,
+      "t_start": 10.06,
+      "t_end": 12.34,
+      "words": "the hard thing is not choosing the model.",
+      "says": "Picking which AI model to use is not the difficult part.",
+      "picture": "The palette, clapperboard and easel hold through 'the hard thing is not'. On 'choosing' they clear and a row of four real model marks in 112 px tiles pops in their place (FLUX, Gemini, MiniMax, Qwen); on 'the' the second tile's border flips terracotta (the pick, made in an instant); THE MODEL is written under the row on 'model'.",
+      "objects": [
+        "model-row",
+        "key-model"
+      ],
+      "emphasis": [
+        {
+          "target": "model-1 (the Gemini tile)",
+          "kind": "box",
+          "why": "A tile is a DRAWN object (a card holding a mark), so LAW 38 gives it boxing, and in the DOM lane that is the tile's own border flipping terracotta and back. It is never drawn on the mark raster itself."
+        }
+      ],
+      "whiteboard_version": "The board erases and draws four tile outlines in a row with the four marks pasted in, retraces the second tile in terracotta on 'the', and writes THE MODEL under the row."
+    },
+    {
+      "i": 4,
+      "t_start": 12.62,
+      "t_end": 13.94,
+      "words": "It's getting the prompt right",
+      "says": "The hard part is writing the prompt so it hits what you want.",
+      "picture": "On 'getting' the tiles clear and a dartboard (round board, twenty alternating wedges, a terracotta bull) pops in the centre; THE PROMPT is written under it on 'prompt'. On 'right' a dart with terracotta flights flies in along its own axis and lands dead in the bullseye.",
+      "objects": [
+        "dartboard",
+        "dart",
+        "key-prompt"
+      ],
+      "emphasis": [],
+      "whiteboard_version": "The board erases to the dartboard drawn centred, writes THE PROMPT under it, and draws the dart standing in the bullseye on 'right'."
+    },
+    {
+      "i": 5,
+      "t_start": 14.2,
+      "t_end": 17.66,
+      "words": "and making sure that all of your generations are consistent across the board.",
+      "says": "And keeping every generated image or clip consistent with the others.",
+      "picture": "The dartboard holds through 'making sure that'. On 'all' it clears and a horizontal film strip (sprocket holes along both edges, three frames) pops in the centre. On 'generations' the SAME little terracotta sitting cat pops into each frame, one after the other. CONSISTENT is written under the strip on 'consistent'. On 'across the board' the three frames' outlines flip terracotta together.",
+      "objects": [
+        "strip",
+        "cats",
+        "key-consistent"
+      ],
+      "emphasis": [
+        {
+          "target": "strip frames",
+          "kind": "box",
+          "why": "The strip is a DRAWN object, so its emphasis is boxing: its own three frame outlines flip terracotta (no ring, no new geometry). There is no raster text in this video, so there is no marker highlight anywhere."
+        }
+      ],
+      "whiteboard_version": "The board erases to the film strip, draws the same cat in each of the three frames on 'generations', writes CONSISTENT under it, and retraces the three frame outlines in terracotta on 'across the board'."
+    },
+    {
+      "i": 6,
+      "t_start": 17.86,
+      "t_end": 21.22,
+      "words": "fal agent has been fine-tuned to do exactly that,",
+      "says": "fal agent was specially trained to solve exactly those two problems.",
+      "picture": "On 'fal' the strip clears and the fal plate returns at the top centre; FINE-TUNED is written under it on 'fine-tuned'. On 'do' a small dartboard (bottom left) and a small film strip with its cats (bottom right) pop, and on 'exactly' two terracotta lines draw from the plate's left and right edges down to the dartboard's top and the strip's top: the agent handles both hard things.",
+      "objects": [
+        "fal-tile-2",
+        "key-tuned",
+        "dartboard-2",
+        "strip-2",
+        "conn-prompt",
+        "conn-consist"
+      ],
+      "emphasis": [],
+      "whiteboard_version": "The board erases to the plate drawn at the top with FINE-TUNED under it, the dartboard and the film strip drawn small below left and right, and two marker lines from the plate's sides to their tops on 'exactly'."
+    },
+    {
+      "i": 7,
+      "t_start": 21.58,
+      "t_end": 28.92,
+      "words": "meaning that now you can just use their agent inside of their own website and have it help you with any generation that you might need.",
+      "says": "You can use the agent directly on fal's own website, for whatever you need to generate.",
+      "picture": "The fine-tuned diagram holds through 'meaning that now you can just use their agent'. On 'inside' the dartboard, strip, lines and key clear, a flat browser window closes round the centre and the fal plate walks into its left side; on 'website' the address bar reads fal.ai. On 'help' two output cards pop on the window's right, a picture of the cat and a small clapperboard, and on 'you' two terracotta lines draw from the plate to them. ANY GENERATION is written under the window on 'generation'.",
+      "objects": [
+        "window",
+        "fal-tile-2",
+        "url",
+        "out-image",
+        "out-video",
+        "conn-out-a",
+        "conn-out-b",
+        "key-anygen"
+      ],
+      "emphasis": [],
+      "whiteboard_version": "The board erases to a drawn browser window with fal.ai written in its address bar, the fal plate inside on the left, the cat card and the small clapperboard card on the right, two marker lines to them, and ANY GENERATION under the window."
+    },
+    {
+      "i": 8,
+      "t_start": 29.06,
+      "t_end": 33.24,
+      "words": "Now follow for more AI news, videos, and tutorials each and every single day, and catch you in the next one.",
+      "says": "The channel's standing call to action.",
+      "picture": "The opaque cream sheet rises and wipes the board. On it, small and centred, the palette (no brand mark), then the terracotta rule and the handle lockup.",
+      "objects": [
+        "o-sheet",
+        "o-glyph",
+        "o-rule",
+        "o-slot"
+      ],
+      "emphasis": [],
+      "whiteboard_version": "The rising sheet, the small palette, the rule and the lockup, identical."
+    }
+  ],
+  "bespoke_objects": [
+    {
+      "name": "an artist's palette",
+      "t": 2.0,
+      "bbox": [
+        0.3771,
+        0.1757,
+        0.6229,
+        0.2732
+      ],
+      "space": "norm",
+      "why_bespoke": "The hook has to be 'creative people' as an object; a paint palette with a loaded brush says 'people who make things' in one silhouette, no logo can, and it is the object the new best friend links to and the outro glyph.",
+      "how_drawn": "A kidney-shaped card board with a thumb notch and thumb hole, five round paint dabs (terracotta, ink, grey, cream) along the rim, and a brush lying across it with a terracotta-loaded tip, ink outline at stroke 8."
+    },
+    {
+      "name": "a movie clapperboard",
+      "t": 9.3,
+      "bbox": [
+        0.1481,
+        0.175,
+        0.3148,
+        0.2771
+      ],
+      "space": "norm",
+      "why_bespoke": "'Videos' needs the everyday picture of making video; a play-button glyph would be UI, a clapperboard is the thing on a film set and claps on the word.",
+      "how_drawn": "A slate body with two grey chalk lines, a striped base bar and a striped stick hinged at the left, open at 16 degrees; it claps shut once on 'videos'."
+    },
+    {
+      "name": "a painter's easel",
+      "t": 10.4,
+      "bbox": [
+        0.7,
+        0.1594,
+        0.837,
+        0.2802
+      ],
+      "space": "norm",
+      "why_bespoke": "'Images' as a creative act rather than a file: an easel holding a canvas mirrors the clapperboard as the other creative medium and keeps the palette's painting world.",
+      "how_drawn": "Three splayed legs from one apex with a cross bar, a ledge, and a card canvas carrying rolling hills and a terracotta sun."
+    },
+    {
+      "name": "a dartboard with dart",
+      "t": 14.6,
+      "bbox": [
+        0.3796,
+        0.15,
+        0.6204,
+        0.2854
+      ],
+      "space": "norm",
+      "why_bespoke": "'Getting the prompt right' is aim: a dart landing in the bullseye argues 'hit exactly what you meant' in one move, which no mark or text box can.",
+      "how_drawn": "A round card board with twenty alternating mount/card wedges between two rings, a terracotta bull and an ink bullseye, and a dart with terracotta flights standing in the bullseye, tail up-right (round shapes are two-arc paths, no circle tag)."
+    },
+    {
+      "name": "a film strip",
+      "t": 16.9,
+      "bbox": [
+        0.2222,
+        0.1573,
+        0.7778,
+        0.2615
+      ],
+      "space": "norm",
+      "why_bespoke": "'All of your generations are consistent' needs several outputs side by side showing the same thing; a film strip is a row of frames by nature, and the same cat in every frame is consistency the eye checks in a glance.",
+      "how_drawn": "A long mount strip with a row of small sprocket holes along both edges and three card frames, each holding the identical terracotta sitting cat (ears, round head, pear body, curled tail, no face)."
+    }
+  ],
+  "labels": [
+    {
+      "for": "fal-tile",
+      "text": "FAL AGENT",
+      "place": "below",
+      "at": 4.88,
+      "note": "LAW 9 key term: the FIRST type on the board, alone, 48 px JetBrains Mono 800 (25.6 design units), centred on the plate's axis, written on 'agent' (4.88) so both words are spoken (LAW 24). LAW 39: below its object. data-label-for=\"fal-tile\"."
+    },
+    {
+      "for": "clapper",
+      "text": "VIDEOS",
+      "place": "below",
+      "at": 8.56,
+      "note": "Written inside 'videos' (8.56-8.96). Sibling of IMAGES: both below, same baseline (LAW 50)."
+    },
+    {
+      "for": "easel",
+      "text": "IMAGES",
+      "place": "below",
+      "at": 9.4,
+      "note": "Written inside 'images' (9.40-9.72). Same row and placement as VIDEOS."
+    },
+    {
+      "for": "model-row",
+      "text": "THE MODEL",
+      "place": "below",
+      "at": 12.12,
+      "note": "Written on 'model' (12.12), never before it. Centred on the row's axis (x 540)."
+    },
+    {
+      "for": "dartboard",
+      "text": "THE PROMPT",
+      "place": "below",
+      "at": 13.46,
+      "note": "Written on 'prompt' (13.46)."
+    },
+    {
+      "for": "strip",
+      "text": "CONSISTENT",
+      "place": "below",
+      "at": 16.4,
+      "note": "Written on 'consistent' (16.40)."
+    },
+    {
+      "for": "fal-tile-2",
+      "text": "FINE-TUNED",
+      "place": "below",
+      "at": 19.18,
+      "note": "Written on 'fine-tuned' (19.18). Same placement as FAL AGENT under the first plate (LAW 50). The two connectors leave the plate's SIDES, never through the key."
+    },
+    {
+      "for": "window",
+      "text": "ANY GENERATION",
+      "place": "below",
+      "at": 27.74,
+      "note": "Written on 'generation' (27.74). The address-bar text fal.ai is UI chrome typed on 'website' (25.14), not a label."
+    }
+  ],
+  "lifetimes": [
+    {
+      "mark": "palette",
+      "t_from": 0.1,
+      "t_to": 11.68,
+      "anchor": null,
+      "note": "Chapters 0 and 1; carried across the 6.34 seam as the handover object. 34.8 % of the take, finite."
+    },
+    {
+      "mark": "spark",
+      "t_from": 1.22,
+      "t_to": 11.68,
+      "anchor": null,
+      "note": "Inside the palette element; leaves with it."
+    },
+    {
+      "mark": "fal-tile",
+      "t_from": 2.88,
+      "t_to": 6.34,
+      "anchor": null,
+      "note": "LAW 42."
+    },
+    {
+      "mark": "conn-friend",
+      "t_from": 3.78,
+      "t_to": 6.34,
+      "anchor": null,
+      "note": "LAW 42."
+    },
+    {
+      "mark": "key-falagent",
+      "t_from": 4.88,
+      "t_to": 6.34,
+      "anchor": null,
+      "note": "LAW 42."
+    },
+    {
+      "mark": "clapper",
+      "t_from": 8.56,
+      "t_to": 11.68,
+      "anchor": null,
+      "note": "LAW 42."
+    },
+    {
+      "mark": "key-videos",
+      "t_from": 8.62,
+      "t_to": 11.68,
+      "anchor": null,
+      "note": "LAW 42."
+    },
+    {
+      "mark": "easel",
+      "t_from": 9.4,
+      "t_to": 11.68,
+      "anchor": null,
+      "note": "LAW 42."
+    },
+    {
+      "mark": "key-images",
+      "t_from": 9.46,
+      "t_to": 11.68,
+      "anchor": null,
+      "note": "LAW 42."
+    },
+    {
+      "mark": "model-row",
+      "t_from": 11.68,
+      "t_to": 13.02,
+      "anchor": null,
+      "note": "Pops inside the 11.68 erase (LAW 45 handover)."
+    },
+    {
+      "mark": "emph-model",
+      "t_from": 12.02,
+      "t_to": 12.82,
+      "anchor": null,
+      "note": "The emphasis lives only inside the beat that argues it."
+    },
+    {
+      "mark": "key-model",
+      "t_from": 12.12,
+      "t_to": 13.02,
+      "anchor": null,
+      "note": "LAW 42."
+    },
+    {
+      "mark": "dartboard",
+      "t_from": 13.02,
+      "t_to": 15.16,
+      "anchor": null,
+      "note": "Pops inside the 13.02 erase."
+    },
+    {
+      "mark": "dart",
+      "t_from": 13.7,
+      "t_to": 15.16,
+      "anchor": null,
+      "note": "Inside the dartboard element."
+    },
+    {
+      "mark": "key-prompt",
+      "t_from": 13.46,
+      "t_to": 15.16,
+      "anchor": null,
+      "note": "LAW 42."
+    },
+    {
+      "mark": "strip",
+      "t_from": 15.16,
+      "t_to": 17.86,
+      "anchor": null,
+      "note": "Pops inside the 15.16 erase."
+    },
+    {
+      "mark": "cats",
+      "t_from": 15.52,
+      "t_to": 17.86,
+      "anchor": null,
+      "note": "Inside the strip element."
+    },
+    {
+      "mark": "key-consistent",
+      "t_from": 16.4,
+      "t_to": 17.86,
+      "anchor": null,
+      "note": "LAW 42."
+    },
+    {
+      "mark": "emph-strip",
+      "t_from": 17.04,
+      "t_to": 17.84,
+      "anchor": null,
+      "note": "Emphasis window."
+    },
+    {
+      "mark": "fal-tile-2",
+      "t_from": 17.86,
+      "t_to": 29.54,
+      "anchor": null,
+      "note": "Pops inside the 17.86 erase; walks into the window across the 24.10 seam (the handover object). 35.1 % of the take, finite."
+    },
+    {
+      "mark": "key-tuned",
+      "t_from": 19.18,
+      "t_to": 24.1,
+      "anchor": null,
+      "note": "LAW 42."
+    },
+    {
+      "mark": "dartboard-2",
+      "t_from": 20.04,
+      "t_to": 24.1,
+      "anchor": null,
+      "note": "LAW 42."
+    },
+    {
+      "mark": "strip-2",
+      "t_from": 20.12,
+      "t_to": 24.1,
+      "anchor": null,
+      "note": "LAW 42."
+    },
+    {
+      "mark": "conn-prompt",
+      "t_from": 20.4,
+      "t_to": 24.1,
+      "anchor": null,
+      "note": "LAW 42."
+    },
+    {
+      "mark": "conn-consist",
+      "t_from": 20.4,
+      "t_to": 24.1,
+      "anchor": null,
+      "note": "LAW 42."
+    },
+    {
+      "mark": "window",
+      "t_from": 24.1,
+      "t_to": 29.54,
+      "anchor": null,
+      "note": "LAW 42; cleared by the outro sheet."
+    },
+    {
+      "mark": "url",
+      "t_from": 25.14,
+      "t_to": 29.54,
+      "anchor": null,
+      "note": "Inside the window."
+    },
+    {
+      "mark": "out-image",
+      "t_from": 26.8,
+      "t_to": 29.54,
+      "anchor": null,
+      "note": "LAW 42."
+    },
+    {
+      "mark": "out-video",
+      "t_from": 26.9,
+      "t_to": 29.54,
+      "anchor": null,
+      "note": "LAW 42."
+    },
+    {
+      "mark": "conn-out-a",
+      "t_from": 27.06,
+      "t_to": 29.54,
+      "anchor": null,
+      "note": "LAW 42."
+    },
+    {
+      "mark": "conn-out-b",
+      "t_from": 27.06,
+      "t_to": 29.54,
+      "anchor": null,
+      "note": "LAW 42."
+    },
+    {
+      "mark": "key-anygen",
+      "t_from": 27.74,
+      "t_to": 29.54,
+      "anchor": null,
+      "note": "LAW 42."
+    },
+    {
+      "mark": "o-sheet",
+      "t_from": 29.06,
+      "t_to": null,
+      "anchor": "o-sheet",
+      "note": "Outro."
+    },
+    {
+      "mark": "o-glyph",
+      "t_from": 29.54,
+      "t_to": null,
+      "anchor": "o-glyph",
+      "note": "Outro."
+    },
+    {
+      "mark": "o-rule",
+      "t_from": 29.84,
+      "t_to": null,
+      "anchor": "o-rule",
+      "note": "Outro."
+    },
+    {
+      "mark": "o-slot",
+      "t_from": 29.94,
+      "t_to": null,
+      "anchor": "o-slot",
+      "note": "Outro."
+    }
+  ],
+  "connectors": [
+    {
+      "to": "fal-tile",
+      "from": [
+        "palette"
+      ],
+      "note": "LAW 40 + CONNECTORS TOUCH (2026-09-22): starts on the palette's rightmost outline point (outer stroke edge, the ink's vertical middle) and ends on the plate's left edge, level to 0 px. Terracotta, no arrowhead, data-connect-to=\"fal-tile\" + data-overlap-ok."
+    },
+    {
+      "to": "dartboard-2",
+      "from": [
+        "fal-tile-2"
+      ],
+      "note": "From the plate's left-edge midpoint to the ring's outer edge at 12 o'clock. Mirror of conn-consist about x 540."
+    },
+    {
+      "to": "strip-2",
+      "from": [
+        "fal-tile-2"
+      ],
+      "note": "From the plate's right-edge midpoint to the strip's top-edge midpoint. One source fanning to two targets: each target takes one end."
+    },
+    {
+      "to": "out-image",
+      "from": [
+        "fal-tile-2"
+      ],
+      "note": "From anchor_points(plate, 2, 'right')[0] to the card's left-edge midpoint."
+    },
+    {
+      "to": "out-video",
+      "from": [
+        "fal-tile-2"
+      ],
+      "note": "From anchor_points(plate, 2, 'right')[1] to the card's left-edge midpoint; the pair is mirror-symmetric about the plate's middle."
+    }
+  ],
+  "blocks": [
+    [
+      "palette",
+      "fal-tile",
+      "key-falagent"
+    ],
+    [
+      "clapper",
+      "key-videos"
+    ],
+    [
+      "easel",
+      "key-images"
+    ],
+    [
+      "model-row",
+      "model-0",
+      "model-1",
+      "model-2",
+      "model-3",
+      "key-model"
+    ],
+    [
+      "dartboard",
+      "key-prompt"
+    ],
+    [
+      "strip",
+      "key-consistent"
+    ],
+    [
+      "fal-tile-2",
+      "key-tuned",
+      "dartboard-2",
+      "strip-2"
+    ],
+    [
+      "window",
+      "fal-tile-2",
+      "out-image",
+      "out-video",
+      "key-anygen"
+    ],
+    [
+      "o-glyph",
+      "o-rule"
+    ]
+  ],
+  "blocks_note": "LAW 41: anything authored as ONE object that geometry cannot infer - a welded label, a container's contents. The four model tiles and the strip's sprocket holes and frames are >=3 identical-shape series and are inferred; the window is a declared container (data-container) for the plate and the two output cards.",
+  "pointing_cues": [],
+  "pointing_cues_note": "pointing_cues.py --vid falagent: 'no pointing cue in this take' (gen/_cues_falagent.json cues: []), and the prep cues marker agrees (cue_count 0). The script names no platform and no post, so no source card is raised and nothing is waived.",
+  "boards": {
+    "mode": "chapters",
+    "why": "LAW 43: chapters are the default and this script changes subject six times - who and what (palette + fal agent), creative media (videos, images), the model, the prompt, consistency, the fine-tuned agent, its website. Every seam is a handover: the palette crosses seam 1, the model tiles, the dartboard, the strip and the plate pop inside seams 2-5, and the plate walks into the window across seam 6.",
+    "chapters": [
+      {
+        "i": 0,
+        "t_start": 0.1,
+        "t_end": 6.34,
+        "erase_at": 6.34,
+        "holds": [
+          "palette",
+          "spark",
+          "fal-tile",
+          "conn-friend",
+          "key-falagent"
+        ],
+        "why_together": "One idea: creative people get a new friend, fal agent."
+      },
+      {
+        "i": 1,
+        "t_start": 6.34,
+        "t_end": 11.68,
+        "erase_at": 11.68,
+        "holds": [
+          "palette",
+          "clapper",
+          "key-videos",
+          "easel",
+          "key-images"
+        ],
+        "why_together": "One idea: creative work means videos and images."
+      },
+      {
+        "i": 2,
+        "t_start": 11.68,
+        "t_end": 13.02,
+        "erase_at": 13.02,
+        "holds": [
+          "model-row",
+          "key-model"
+        ],
+        "why_together": "One idea: choosing the model."
+      },
+      {
+        "i": 3,
+        "t_start": 13.02,
+        "t_end": 15.16,
+        "erase_at": 15.16,
+        "holds": [
+          "dartboard",
+          "dart",
+          "key-prompt"
+        ],
+        "why_together": "One idea: getting the prompt right."
+      },
+      {
+        "i": 4,
+        "t_start": 15.16,
+        "t_end": 17.86,
+        "erase_at": 17.86,
+        "holds": [
+          "strip",
+          "cats",
+          "key-consistent"
+        ],
+        "why_together": "One idea: consistent generations."
+      },
+      {
+        "i": 5,
+        "t_start": 17.86,
+        "t_end": 24.1,
+        "erase_at": 24.1,
+        "holds": [
+          "fal-tile-2",
+          "key-tuned",
+          "dartboard-2",
+          "strip-2",
+          "conn-prompt",
+          "conn-consist"
+        ],
+        "why_together": "One idea, the Law-13 peak: the one agent tuned for both hard things."
+      },
+      {
+        "i": 6,
+        "t_start": 24.1,
+        "t_end": 29.06,
+        "erase_at": 29.06,
+        "holds": [
+          "window",
+          "fal-tile-2",
+          "url",
+          "out-image",
+          "out-video",
+          "conn-out-a",
+          "conn-out-b",
+          "key-anygen"
+        ],
+        "why_together": "One idea: use it on fal's website for any generation."
+      },
+      {
+        "i": 7,
+        "t_start": 29.06,
+        "t_end": 33.24,
+        "erase_at": null,
+        "holds": [
+          "o-sheet",
+          "o-glyph",
+          "o-rule",
+          "o-slot"
+        ],
+        "why_together": "The outro on the rising sheet."
+      }
+    ],
+    "key_term": "FAL AGENT"
+  },
+  "cast": [
+    "falai",
+    "flux",
+    "gemini",
+    "minimax",
+    "qwen"
+  ],
+  "cast_note": "THE ROSTER IS TOPICAL: fal (the subject, on its plate) and, for 'the model', four real model families fal hosts for image and video generation (FLUX, Gemini image, MiniMax, Qwen image). Files are named in the scene's LOGO_FILES, relative to assets/logos: falai = ai-models/falai-mark.png (the library's fal favicon with its pale-pink ground keyed out, derived 2026-09-23, provenance json beside it), flux = ai-models/flux.png, gemini = ai-models/gemini-color.png, minimax = ai-models/minimax-color.png, qwen = ai-models/qwen.png. MARK IDENTITY: no Claude Code or Cowork mark is used.",
+  "cutout_logo_lanes": [
+    "flux",
+    "midjourney",
+    "higgsfield",
+    "minimax",
+    "gemini",
+    "openai"
+  ],
+  "cutout_logo_lanes_note": "THE LOGO LANES BEHIND HIM ARE TOPICAL: the image and video models and the creative AI platforms a fal user works among (FLUX, Midjourney, Higgsfield, MiniMax, Gemini, OpenAI). Mixed, none repeated, never the stage's own fal mark. Files in the scene's CUTOUT_LOGO_FILES; all resolve (assert_cast_resolves, 2026-09-23).",
+  "open_questions": [
+    "Wing review: the prompt0 marker has landed (status ok, wing_review true, the instrument proposed no cut and abstained, overlay at matting/falagent/prompts/kf_overlay_00000.png); the selection marker says 'selection inputs ready for the outline review'. At plan time the track marker read 'skipped'; by the end of the artwork it had landed ok (matanyone2, $0.0169 est.) with the ship marker ok (831 frames, soft alpha, rim 7, minimum person fraction 0.286, $0.0417 est.), both review_status 'needs_final_visual_review'. The visual selection, the matte review and approval belong to the Astra matte step.",
+    "The four model marks are illustrative of 'the model' (the script names no model); they are real model families fal serves, chosen for a mixed image + video row.",
+    "The fal plate is 132 px (the chart's hero plate) rather than a 112 px tile, because it is the subject and returns in three chapters; the four model tiles are the standard 112."
+  ],
+  "open_doubts": [],
+  "open_doubts_note": "AN OPEN DOUBT STOPS AND ASKS (Miguel, 2026-09-04). open_questions are things an author can build around. open_doubts are doubts that CHANGE WHAT THE VIEWER SEES. None here: no pointing cue, no source card, and every picture follows a spoken claim."
+}
+```
