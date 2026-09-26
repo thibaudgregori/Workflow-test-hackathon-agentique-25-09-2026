@@ -1,0 +1,1919 @@
+{
+  "_description": "Logo registry for thumbnail generation. Maps friendly names to file paths, placement hints, and provenance metadata.",
+  "_metadata_version": 2,
+  "_last_verified": "2026-08-13",
+  "logos": {
+    "airtable": {
+      "path": "assets/logos/platforms/airtable-color.png",
+      "aliases": [
+        "airtable-mark",
+        "airtable-icon",
+        "airtable-color"
+      ],
+      "has_outline": false,
+      "preferred_size": 1.0,
+      "preferred_side": "left",
+      "allow_rotation": false,
+      "max_rotation_degrees": 0,
+      "safe_margin": 1.0,
+      "allow_edge_bleed": false,
+      "source_url": "https://commons.wikimedia.org/wiki/File:Airtable_Logo.svg",
+      "license_notes": "Official Airtable lockup from Wikimedia Commons (Artist: Airtable, credit https://airtable.com/, Public domain), fetched 2026-08-17. The upstream file is the full mark+wordmark lockup and is kept verbatim alongside as airtable-lockup.svg; airtable-color.svg carries ONLY the four unmodified brand-coloured mark paths (#FCB400 / #18BFFF / #F82B60 / rgba(0,0,0,0.25) fold) re-boxed to a viewBox MEASURED from a 4x raster's alpha bbox (0 0 177 148), and airtable-color.png is its 1024x856 raster. Nothing recoloured or re-pathed: this is the COLOUR mark per STANDARD.md law 12. Airtable trademark remains with Airtable.",
+      "last_verified": "2026-08-17",
+      "description": "Airtable official mark: yellow / blue / pink isometric block trio, measured aspect 1.196:1, ink fraction 0.584"
+    },
+    "anthropic-wordmark": {
+      "path": "assets/logos/ai-models/anthropic-wordmark.png",
+      "aliases": [
+        "anthropic-text",
+        "anthropic-logo",
+        "anthropic wordmark"
+      ],
+      "has_outline": false,
+      "preferred_size": 3.0,
+      "preferred_side": "left",
+      "allow_rotation": false,
+      "max_rotation_degrees": 0,
+      "safe_margin": 1.05,
+      "allow_edge_bleed": false,
+      "source_url": "https://commons.wikimedia.org/wiki/File:Anthropic_logo.svg",
+      "license_notes": "Anthropic wordmark from Wikimedia Commons; SVG source saved alongside as anthropic-wordmark.svg.",
+      "last_verified": "2026-07-24",
+      "description": "Anthropic wordmark logotype (dark text)"
+    },
+    "antigravity": {
+      "path": "assets/logos/coding-tools/antigravity-color.png",
+      "aliases": [
+        "google-antigravity",
+        "antigravity-ide"
+      ],
+      "has_outline": false,
+      "preferred_size": 1.0,
+      "preferred_side": "left",
+      "allow_rotation": false,
+      "max_rotation_degrees": 0,
+      "safe_margin": 1.0,
+      "allow_edge_bleed": false,
+      "source_url": "https://antigravity.google/press",
+      "license_notes": "Official full-color Google Antigravity icon from the product press-assets page; used for editorial identification.",
+      "last_verified": "2026-08-11",
+      "description": "Google Antigravity full-color logomark"
+    },
+    "antigravity-mono": {
+      "path": "assets/logos/coding-tools/antigravity-mono.png",
+      "aliases": [
+        "antigravity-black",
+        "google-antigravity-mono"
+      ],
+      "has_outline": false,
+      "preferred_size": 1.0,
+      "preferred_side": "left",
+      "allow_rotation": false,
+      "max_rotation_degrees": 0,
+      "safe_margin": 1.0,
+      "allow_edge_bleed": false,
+      "source_url": "https://antigravity.google/press",
+      "license_notes": "Monochrome silhouette derived from the official full-colour Antigravity logomark already registered as 'antigravity' (antigravity.google/press). Derivation is alpha-preserving only: every opaque pixel is set to #141416, geometry untouched, nothing redrawn. Used for editorial identification on monochrome plates. Google trademark remains with Google.",
+      "last_verified": "2026-08-12",
+      "description": "Google Antigravity logomark, monochrome silhouette (540x540)"
+    },
+    "apify": {
+      "path": "assets/logos/platforms/apify-color.png",
+      "aliases": [
+        "apify-logomark"
+      ],
+      "has_outline": false,
+      "preferred_size": 1.0,
+      "preferred_side": "left",
+      "allow_rotation": true,
+      "max_rotation_degrees": 8,
+      "safe_margin": 1.0,
+      "allow_edge_bleed": true,
+      "source_url": "https://apify.com/img/apify-logo/logomark-32x32.svg",
+      "license_notes": "Official Apify logomark from apify.com brand assets; Apify trademark, used for editorial/identification.",
+      "last_verified": "2026-05-29",
+      "description": "Apify logomark (green/blue chevrons, orange triangle)"
+    },
+    "appstore": {
+      "path": "assets/logos/platforms/appstore-color.png",
+      "aliases": [
+        "app-store",
+        "apple-app-store",
+        "ios-app-store"
+      ],
+      "has_outline": false,
+      "preferred_size": 1.0,
+      "preferred_side": "left",
+      "allow_rotation": false,
+      "max_rotation_degrees": 0,
+      "safe_margin": 1.0,
+      "allow_edge_bleed": false,
+      "source_url": "https://cdn.simpleicons.org/appstore",
+      "license_notes": "Apple App Store glyph from Simple Icons (brand colour #0D96F6), rasterised to 1024px PNG; SVG source saved alongside as appstore.svg. Used for editorial identification.",
+      "last_verified": "2026-08-12",
+      "description": "Apple App Store logomark (brand blue glyph)"
+    },
+    "buzz": {
+      "path": "assets/logos/platforms/buzz.png",
+      "aliases": [
+        "block-buzz",
+        "buzz-workspace"
+      ],
+      "has_outline": false,
+      "preferred_size": 1.0,
+      "preferred_side": "left",
+      "allow_rotation": false,
+      "max_rotation_degrees": 0,
+      "safe_margin": 1.0,
+      "allow_edge_bleed": false,
+      "source_url": "https://github.com/block/buzz/blob/main/desktop/src-tauri/icons/icon.png",
+      "license_notes": "Official Buzz app icon from the Apache-2.0 block/buzz repository; used for editorial identification.",
+      "last_verified": "2026-08-11",
+      "description": "Buzz yellow bee logomark"
+    },
+    "buzz-mark": {
+      "path": "assets/logos/platforms/buzz-mark.svg",
+      "aliases": [
+        "buzz-svg",
+        "block-buzz-mark"
+      ],
+      "has_outline": false,
+      "preferred_size": 1.0,
+      "preferred_side": "left",
+      "allow_rotation": false,
+      "max_rotation_degrees": 0,
+      "safe_margin": 1.0,
+      "allow_edge_bleed": false,
+      "source_url": "https://raw.githubusercontent.com/block/buzz/main/admin-web/public/favicon.svg",
+      "license_notes": "Official Buzz bee logomark from the Apache-2.0 block/buzz repository (admin-web favicon). Vector, single-colour: #231e1e in light mode, #d7d72e under prefers-color-scheme:dark. Consumers that need a deterministic render must strip the dark-mode media block. Buzz trademark remains with Block.",
+      "last_verified": "2026-08-12",
+      "description": "Buzz bee logomark, vector, monochrome (dark in light mode)"
+    },
+    "chatgpt": {
+      "path": "assets/logos/ai-models/chatgpt-color.png",
+      "aliases": [
+        "chat-gpt",
+        "chatgpt-app",
+        "gpt-voice",
+        "chatgpt-icon"
+      ],
+      "has_outline": false,
+      "preferred_size": 1.0,
+      "preferred_side": "right",
+      "allow_rotation": false,
+      "max_rotation_degrees": 0,
+      "safe_margin": 1.0,
+      "allow_edge_bleed": false,
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg",
+      "license_notes": "Official ChatGPT app icon (Wikimedia Commons, public domain: simple geometry), fetched 2026-08-13 and rasterised from the unmodified SVG to 1024px; SVG source saved alongside as chatgpt-color.svg. OpenAI trademark remains with OpenAI.",
+      "last_verified": "2026-08-13",
+      "description": "ChatGPT app icon: white OpenAI blossom on the ChatGPT brand green #74AA9C rounded square. This is the COLOURED ChatGPT mark (STANDARD.md law 12, COLOR MARKS). The separate 'openai' entry is the black corporate blossom, which is OpenAI's own official colour and is NOT a monochrome reduction — use it for the company, this one for the product. The tile IS the mark, so it is placed bare (never inside a white plate: a coloured square inside our plate is plate-on-plate)."
+    },
+    "claude": {
+      "path": "assets/logos/ai-models/claude-color.png",
+      "aliases": [
+        "anthropic",
+        "claude-asterisk",
+        "claude-star"
+      ],
+      "has_outline": false,
+      "preferred_size": 1.0,
+      "preferred_side": "right",
+      "allow_rotation": true,
+      "max_rotation_degrees": 10,
+      "safe_margin": 1.0,
+      "allow_edge_bleed": true,
+      "source_url": null,
+      "license_notes": "Local Anthropic/Claude logo asset; original source URL not documented in file metadata.",
+      "last_verified": "2026-05-10",
+      "description": "Claude/Anthropic orange asterisk shape"
+    },
+    "claude-black": {
+      "path": "assets/logos/ai-models/claude-black.png",
+      "aliases": [
+        "anthropic-black"
+      ],
+      "has_outline": false,
+      "preferred_size": 1.0,
+      "preferred_side": "right",
+      "allow_rotation": true,
+      "max_rotation_degrees": 8,
+      "safe_margin": 1.0,
+      "allow_edge_bleed": true,
+      "source_url": null,
+      "license_notes": "Local Anthropic/Claude logo asset; original source URL not documented in file metadata.",
+      "last_verified": "2026-05-10",
+      "description": "Claude/Anthropic asterisk (black version)"
+    },
+    "claude-code": {
+      "path": "assets/logos/coding-tools/claude-code.png",
+      "aliases": [
+        "clawd",
+        "claude code",
+        "claudecode"
+      ],
+      "has_outline": true,
+      "preferred_size": 1.0,
+      "preferred_side": "left",
+      "allow_rotation": true,
+      "max_rotation_degrees": 12,
+      "safe_margin": 1.15,
+      "allow_edge_bleed": false,
+      "source_url": null,
+      "license_notes": "Local Clawd/Claude Code brand asset; original source URL not documented in file metadata.",
+      "last_verified": "2026-05-11",
+      "description": "Clawd mascot (normal eyes)"
+    },
+    "claude-code-squint": {
+      "path": "assets/logos/coding-tools/claude-code-squint.png",
+      "aliases": [
+        "clawd-squint",
+        "squint",
+        "clawd squint"
+      ],
+      "has_outline": true,
+      "preferred_size": 1.0,
+      "preferred_side": "left",
+      "allow_rotation": true,
+      "max_rotation_degrees": 12,
+      "safe_margin": 1.15,
+      "allow_edge_bleed": true,
+      "source_url": null,
+      "license_notes": "Local Clawd/Claude Code brand asset; original source URL not documented in file metadata.",
+      "last_verified": "2026-05-10",
+      "description": "Clawd mascot (squinting >< eyes)"
+    },
+    "claude-mark": {
+      "path": "assets/logos/ai-models/claude-mark.svg",
+      "aliases": [
+        "claude-code-mark",
+        "anthropic-mark",
+        "claude-sunburst"
+      ],
+      "has_outline": false,
+      "preferred_size": 1.0,
+      "preferred_side": "left",
+      "allow_rotation": false,
+      "max_rotation_degrees": 0,
+      "safe_margin": 1.0,
+      "allow_edge_bleed": false,
+      "source_url": "https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/claude.svg",
+      "license_notes": "Simple Icons (CC0-1.0) single-path monochrome Claude sunburst; used for editorial identification of Claude / Claude Code. Anthropic trademark remains with Anthropic.",
+      "last_verified": "2026-08-12",
+      "description": "Claude sunburst, vector, monochrome black"
+    },
+    "claudecode-color": {
+      "path": "assets/logos/coding-tools/claudecode-color.png",
+      "aliases": [
+        "claude-code-logo",
+        "cc-logo"
+      ],
+      "has_outline": false,
+      "preferred_size": 0.95,
+      "preferred_side": "left",
+      "allow_rotation": true,
+      "max_rotation_degrees": 8,
+      "safe_margin": 1.05,
+      "allow_edge_bleed": false,
+      "source_url": null,
+      "license_notes": "Local Claude Code logo asset; original source URL not documented in file metadata.",
+      "last_verified": "2026-05-10",
+      "description": "Claude Code official logo (color)"
+    },
+    "claudecode-text": {
+      "path": "assets/logos/coding-tools/claudecode-text.png",
+      "aliases": [
+        "claude-code-text",
+        "cc-text"
+      ],
+      "has_outline": false,
+      "preferred_size": 0.82,
+      "preferred_side": "left",
+      "allow_rotation": false,
+      "max_rotation_degrees": 0,
+      "safe_margin": 1.05,
+      "allow_edge_bleed": false,
+      "source_url": null,
+      "license_notes": "Local Claude Code text logo asset; original source URL not documented in file metadata.",
+      "last_verified": "2026-05-10",
+      "description": "Claude Code text logo"
+    },
+    "codex": {
+      "path": "assets/logos/coding-tools/codex-color.png",
+      "aliases": [
+        "openai-codex"
+      ],
+      "has_outline": false,
+      "preferred_size": 0.95,
+      "preferred_side": "left",
+      "allow_rotation": true,
+      "max_rotation_degrees": 8,
+      "safe_margin": 1.0,
+      "allow_edge_bleed": false,
+      "source_url": null,
+      "license_notes": "Local OpenAI Codex logo asset; original source URL not documented in file metadata.",
+      "last_verified": "2026-05-10",
+      "description": "OpenAI Codex logo"
+    },
+    "codex-mono": {
+      "path": "assets/logos/coding-tools/codex-mono.png",
+      "aliases": [
+        "openai-codex-mono",
+        "codex-black"
+      ],
+      "has_outline": false,
+      "preferred_size": 0.95,
+      "preferred_side": "left",
+      "allow_rotation": false,
+      "max_rotation_degrees": 0,
+      "safe_margin": 1.0,
+      "allow_edge_bleed": false,
+      "source_url": null,
+      "license_notes": "Monochrome reduction of the official full-colour Codex logomark already registered as 'codex'. Derivation is a two-tone map only: the coloured shape becomes #141416 and the white knockout (the >_ prompt and the tile ground) becomes transparent; geometry untouched, nothing redrawn. OpenAI trademark remains with OpenAI.",
+      "last_verified": "2026-08-12",
+      "description": "OpenAI Codex logomark, monochrome silhouette with the >_ knockout (640x640)"
+    },
+    "copilot": {
+      "path": "assets/logos/coding-tools/copilot-color.png",
+      "aliases": [
+        "github-copilot",
+        "ms-copilot"
+      ],
+      "has_outline": false,
+      "preferred_size": 1.0,
+      "preferred_side": "right",
+      "allow_rotation": true,
+      "max_rotation_degrees": 8,
+      "safe_margin": 1.0,
+      "allow_edge_bleed": true,
+      "source_url": null,
+      "license_notes": "Local GitHub/Microsoft Copilot logo asset; original source URL not documented in file metadata.",
+      "last_verified": "2026-05-10",
+      "description": "GitHub/Microsoft Copilot logo"
+    },
+    "cursor": {
+      "path": "assets/logos/coding-tools/cursor.png",
+      "aliases": [
+        "cursor-ai"
+      ],
+      "has_outline": false,
+      "preferred_size": 0.95,
+      "preferred_side": "left",
+      "allow_rotation": true,
+      "max_rotation_degrees": 8,
+      "safe_margin": 1.0,
+      "allow_edge_bleed": true,
+      "source_url": null,
+      "license_notes": "Local Cursor logo asset; original source URL not documented in file metadata.",
+      "last_verified": "2026-05-10",
+      "description": "Cursor AI black hexagon cube"
+    },
+    "deepseek": {
+      "path": "assets/logos/ai-models/deepseek.png",
+      "aliases": [
+        "deep seek",
+        "deepseek-ai",
+        "deepseek v4",
+        "deepseek v4 flash"
+      ],
+      "has_outline": false,
+      "preferred_size": 1.0,
+      "preferred_side": "right",
+      "allow_rotation": true,
+      "max_rotation_degrees": 10,
+      "safe_margin": 1.1,
+      "allow_edge_bleed": false,
+      "source_url": "https://commons.wikimedia.org/wiki/File:DeepSeek-icon.svg",
+      "license_notes": "DeepSeek whale icon from Wikimedia Commons (File:DeepSeek-icon.svg), MIT license, fetched 2026-08-05. Vector source kept as deepseek.svg; PNG rendered at 1267px. DeepSeek trademark remains with DeepSeek.",
+      "last_verified": "2026-08-05",
+      "description": "DeepSeek blue whale mark (vector-rendered)"
+    },
+    "deepseek-mark": {
+      "path": "assets/logos/ai-models/deepseek-mark.svg",
+      "aliases": [
+        "deepseek-icon",
+        "deepseek-glyph",
+        "deepseek v4 flash mark"
+      ],
+      "has_outline": false,
+      "preferred_size": 1.0,
+      "preferred_side": "right",
+      "allow_rotation": false,
+      "max_rotation_degrees": 0,
+      "safe_margin": 1.0,
+      "allow_edge_bleed": false,
+      "source_url": "https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/deepseek.svg",
+      "license_notes": "Simple Icons (CC0-1.0 icon set), fetched 2026-08-12; DeepSeek trademark remains with DeepSeek. Monochrome, unmodified. The pre-existing 'deepseek' entry is the BLUE whale (#4D6BFE), which cannot sit on the shorts-factory white plate beside a black Grok mark.",
+      "last_verified": "2026-08-12",
+      "description": "DeepSeek whale mark, black, 24x24 viewBox (the blue vector lives at ai-models/deepseek.svg)"
+    },
+    "elevenlabs": {
+      "path": "assets/logos/platforms/elevenlabs.svg",
+      "aliases": [
+        "scribe",
+        "11labs"
+      ],
+      "has_outline": false,
+      "preferred_size": 1.0,
+      "preferred_side": "left",
+      "allow_rotation": false,
+      "max_rotation_degrees": 0,
+      "safe_margin": 1.0,
+      "allow_edge_bleed": false,
+      "source_url": "https://commons.wikimedia.org/wiki/File:ElevenLabs_Logo_01.svg",
+      "license_notes": "ElevenLabs wordmark from Wikimedia Commons; trademark, editorial use.",
+      "last_verified": "2026-08-09",
+      "description": "ElevenLabs IIElevenLabs wordmark"
+    },
+    "elevenlabs-mark": {
+      "path": "assets/logos/platforms/elevenlabs-mark.svg",
+      "aliases": [
+        "elevenlabs-icon",
+        "elevenlabs-glyph",
+        "eleven-agents"
+      ],
+      "has_outline": false,
+      "preferred_size": 1.0,
+      "preferred_side": "left",
+      "allow_rotation": false,
+      "max_rotation_degrees": 0,
+      "safe_margin": 1.0,
+      "allow_edge_bleed": false,
+      "source_url": "https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/elevenlabs.svg",
+      "license_notes": "Simple Icons (CC0-1.0 icon set), fetched 2026-08-12; ElevenLabs trademark remains with ElevenLabs. Monochrome, unmodified.",
+      "last_verified": "2026-08-12",
+      "description": "ElevenLabs square 'II' symbol mark, black, 24x24 viewBox (the wordmark lives at platforms/elevenlabs.svg)"
+    },
+    "exa": {
+      "path": "assets/logos/platforms/exa-color.png",
+      "aliases": [
+        "exa-ai"
+      ],
+      "has_outline": false,
+      "preferred_size": 1.0,
+      "preferred_side": "right",
+      "allow_rotation": true,
+      "max_rotation_degrees": 8,
+      "safe_margin": 1.0,
+      "allow_edge_bleed": true,
+      "source_url": null,
+      "license_notes": "Local Exa logo asset; original source URL not documented in file metadata.",
+      "last_verified": "2026-05-10",
+      "description": "Exa AI search logo"
+    },
+    "excalidraw": {
+      "path": "assets/logos/design-tools/excalidraw-color.png",
+      "aliases": [
+        "excalidraw-mark",
+        "excalidraw-logo"
+      ],
+      "has_outline": false,
+      "preferred_size": 1.0,
+      "preferred_side": "left",
+      "allow_rotation": false,
+      "max_rotation_degrees": 0,
+      "safe_margin": 1.0,
+      "allow_edge_bleed": false,
+      "source_url": "https://raw.githubusercontent.com/excalidraw/excalidraw/master/public/favicon.svg",
+      "license_notes": "Official Excalidraw mark from the excalidraw/excalidraw repo (public/favicon.svg), fetched 2026-08-13. The upstream SVG paints the mark on a white rounded-square background rect; that PACKAGING was removed before rasterising (builders, 2026-08-13: near-white pixels reaching the image border are packaging, not the mark) so the mark can sit on a white plate without plate-on-plate. Rendered at 1024px with cairosvg from the unmodified paths and trimmed to its ink bbox (768x766). Unmodified SVG source saved alongside as excalidraw-color.svg. Excalidraw trademark remains with Excalidraw.",
+      "last_verified": "2026-08-13",
+      "description": "Excalidraw pencil/scribble mark in its own brand indigo #6965DB (STANDARD.md law 12, COLOR MARKS). Transparent background, ink-trimmed."
+    },
+    "ffmpeg": {
+      "path": "assets/logos/platforms/ffmpeg.svg",
+      "aliases": [],
+      "has_outline": false,
+      "preferred_size": 1.0,
+      "preferred_side": "left",
+      "allow_rotation": false,
+      "max_rotation_degrees": 0,
+      "safe_margin": 1.0,
+      "allow_edge_bleed": false,
+      "source_url": "https://commons.wikimedia.org/wiki/File:FFmpeg_Logo_new.svg",
+      "license_notes": "FFmpeg logo from Wikimedia Commons (project logo).",
+      "last_verified": "2026-08-09",
+      "description": "FFmpeg green zigzag wordmark"
+    },
+    "figma": {
+      "path": "assets/logos/design-tools/figma-color.png",
+      "aliases": [],
+      "has_outline": false,
+      "preferred_size": 0.95,
+      "preferred_side": "left",
+      "allow_rotation": true,
+      "max_rotation_degrees": 8,
+      "safe_margin": 1.0,
+      "allow_edge_bleed": true,
+      "source_url": null,
+      "license_notes": "Local Figma logo asset; original source URL not documented in file metadata.",
+      "last_verified": "2026-05-10",
+      "description": "Figma design tool logo"
+    },
+    "gemini": {
+      "path": "assets/logos/ai-models/gemini-color.png",
+      "aliases": [
+        "google-gemini",
+        "gemini-star"
+      ],
+      "has_outline": false,
+      "preferred_size": 1.0,
+      "preferred_side": "right",
+      "allow_rotation": true,
+      "max_rotation_degrees": 12,
+      "safe_margin": 1.0,
+      "allow_edge_bleed": true,
+      "source_url": null,
+      "license_notes": "Local Google Gemini logo asset; original source URL not documented in file metadata.",
+      "last_verified": "2026-05-10",
+      "description": "Google Gemini four-pointed rainbow star"
+    },
+    "github": {
+      "path": "assets/logos/coding-tools/github-mark.png",
+      "aliases": [
+        "github-mark",
+        "octocat",
+        "github-logo"
+      ],
+      "has_outline": false,
+      "preferred_size": 1.0,
+      "preferred_side": "right",
+      "allow_rotation": true,
+      "max_rotation_degrees": 8,
+      "safe_margin": 1.0,
+      "allow_edge_bleed": false,
+      "source_url": "https://raw.githubusercontent.com/primer/octicons/main/icons/mark-github-24.svg",
+      "license_notes": "GitHub mark from the official Primer Octicons repository, used editorially to identify GitHub; GitHub trademark guidelines apply.",
+      "last_verified": "2026-07-10",
+      "description": "GitHub mark"
+    },
+    "gmail": {
+      "path": "assets/logos/platforms/gmail-color.png",
+      "aliases": [
+        "google-mail",
+        "gmail-icon",
+        "gmail-envelope"
+      ],
+      "has_outline": false,
+      "preferred_size": 1.0,
+      "preferred_side": "left",
+      "allow_rotation": false,
+      "max_rotation_degrees": 0,
+      "safe_margin": 1.0,
+      "allow_edge_bleed": false,
+      "source_url": "https://commons.wikimedia.org/wiki/File:Gmail_icon_(2020).svg",
+      "license_notes": "Gmail 2020 icon from Wikimedia Commons (Artist: Google, credited to Google's own gstatic products_lockup_icon.svg), Public domain / Copyrighted=False; Google trademark, editorial use. Fetched 2026-08-18 by shorts_run8/fetch_logo_gmail_mcpupgrade.py; viewBox re-emitted tight to the MEASURED ink box (upstream box already flush, ratio 1.0000) and rasterised 1024x768. Tight vector kept alongside as gmail-color.svg, upstream verbatim as gmail-upstream.svg.",
+      "last_verified": "2026-08-18",
+      "description": "Gmail multicolour envelope icon (aspect 1.3333, ink fraction 0.654)"
+    },
+    "google-drive": {
+      "path": "assets/logos/platforms/google-drive.svg",
+      "aliases": [
+        "drive",
+        "gdrive"
+      ],
+      "has_outline": false,
+      "preferred_size": 1.0,
+      "preferred_side": "left",
+      "allow_rotation": false,
+      "max_rotation_degrees": 0,
+      "safe_margin": 1.0,
+      "allow_edge_bleed": false,
+      "source_url": "https://commons.wikimedia.org/wiki/File:Google_Drive_icon_(2020).svg",
+      "license_notes": "Google Drive 2020 icon from Wikimedia Commons; Google trademark, editorial use.",
+      "last_verified": "2026-08-09",
+      "description": "Google Drive tricolor triangle icon"
+    },
+    "google-g": {
+      "path": "assets/logos/platforms/google-g.svg",
+      "aliases": [
+        "google g"
+      ],
+      "has_outline": false,
+      "preferred_size": 1.0,
+      "preferred_side": "right",
+      "allow_rotation": true,
+      "max_rotation_degrees": 12,
+      "safe_margin": 1.15,
+      "allow_edge_bleed": false,
+      "source_url": "https://commons.wikimedia.org/wiki/File:Google_%22G%22_logo.svg",
+      "license_notes": "Official brand logo via Wikimedia Commons; trademark of its owner.",
+      "last_verified": "2026-07-26",
+      "description": "Google 'G' multicolor logo (SVG)"
+    },
+    "google-maps": {
+      "path": "assets/logos/platforms/google-maps-color.png",
+      "aliases": [
+        "googlemaps",
+        "gmaps",
+        "google maps",
+        "maps"
+      ],
+      "has_outline": false,
+      "preferred_size": 1.0,
+      "preferred_side": "right",
+      "allow_rotation": true,
+      "max_rotation_degrees": 8,
+      "safe_margin": 1.0,
+      "allow_edge_bleed": true,
+      "source_url": "https://commons.wikimedia.org/wiki/File:Google_Maps_icon_(2020).svg",
+      "license_notes": "Google Maps 2020 pin icon from Wikimedia Commons; Google trademark, used for editorial/identification.",
+      "last_verified": "2026-05-29",
+      "description": "Google Maps multicolor location pin (2020)"
+    },
+    "grok": {
+      "path": "assets/logos/ai-models/grok.png",
+      "aliases": [
+        "xai",
+        "x.ai",
+        "spacexai",
+        "grok-ai"
+      ],
+      "has_outline": false,
+      "preferred_size": 1.0,
+      "preferred_side": "left",
+      "allow_rotation": true,
+      "max_rotation_degrees": 8,
+      "safe_margin": 1.0,
+      "allow_edge_bleed": true,
+      "source_url": "https://www.freelogovectors.net/grok-logo-xai-v1/",
+      "license_notes": "Grok icon vector from FreeLogoVectors page, fetched 2026-07-09; page states MIT license; xAI/Grok trademark remains with xAI.",
+      "last_verified": "2026-07-09",
+      "description": "Grok/xAI black circular slash icon"
+    },
+    "grok-bot": {
+      "path": "assets/images/products/grok-bot/grok-bot-mascot-squad.png",
+      "aliases": [
+        "grokbot",
+        "grok bot app",
+        "xai grok bot"
+      ],
+      "has_outline": false,
+      "preferred_size": 1.35,
+      "preferred_side": "right",
+      "allow_rotation": false,
+      "max_rotation_degrees": 0,
+      "safe_margin": 1.0,
+      "allow_edge_bleed": false,
+      "source_url": "https://x.ai/bot",
+      "license_notes": "Transparent squad assembled from four official Grok Bot agent characters shown in Anysphere's launch artwork and App Store product imagery; source screenshot preserved under assets/images/products/grok-bot. Used editorially for product identification.",
+      "last_verified": "2026-08-12",
+      "description": "Four colorful official Grok Bot agent mascots arranged as a squad"
+    },
+    "hermes-agent": {
+      "path": "assets/logos/automation/hermes-agent.png",
+      "aliases": [
+        "hermes",
+        "nous hermes agent"
+      ],
+      "has_outline": false,
+      "preferred_size": 1.0,
+      "preferred_side": "left",
+      "allow_rotation": true,
+      "max_rotation_degrees": 12,
+      "safe_margin": 1.15,
+      "allow_edge_bleed": false,
+      "source_url": "https://raw.githubusercontent.com/NousResearch/hermes-agent/main/assets/banner.png",
+      "license_notes": "H glyph cropped from the official NousResearch/hermes-agent banner; source banner kept as hermes-banner.png.",
+      "last_verified": "2026-07-21",
+      "description": "Hermes agent pixel-art H mark (yellow/orange)"
+    },
+    "heygen": {
+      "path": "assets/logos/platforms/heygen-color.png",
+      "aliases": [
+        "heygen logo",
+        "hey gen",
+        "heygen lockup",
+        "heygen-color"
+      ],
+      "preferred_size": 3.0,
+      "has_outline": false,
+      "preferred_side": "right",
+      "allow_rotation": false,
+      "max_rotation_degrees": 0,
+      "safe_margin": 1.05,
+      "allow_edge_bleed": false,
+      "source_url": "https://commons.wikimedia.org/wiki/File:HeyGen_logo.svg",
+      "last_verified": "2026-08-13",
+      "license_notes": "Official HeyGen logo, public domain on Wikimedia Commons (vectorised from heygen.com by User:Deltaspace42). SVG source saved alongside as heygen.svg; the PNG is that SVG rasterised at 2000x1186 in Chromium with all six brand gradients intact. Never redrawn, never recoloured.",
+      "description": "HeyGen full-colour logo lockup (black HeyGen logotype + four-petal gradient mark)"
+    },
+    "heygen-mark": {
+      "path": "assets/logos/platforms/heygen-mark.png",
+      "aliases": [
+        "heygen icon",
+        "heygen glyph",
+        "heygen pinwheel"
+      ],
+      "preferred_size": 1.6,
+      "has_outline": false,
+      "preferred_side": "right",
+      "allow_rotation": false,
+      "max_rotation_degrees": 0,
+      "safe_margin": 1.05,
+      "allow_edge_bleed": false,
+      "source_url": "https://commons.wikimedia.org/wiki/File:HeyGen_logo.svg",
+      "last_verified": "2026-08-13",
+      "license_notes": "Same public-domain Wikimedia SVG as `heygen`, cropped to the colour mark's own ink box (user units x 106.65-165.65, y 0-57.85) and rasterised at 1600x1569. Verified to be HeyGen's own app icon against https://www.heygen.com/favicon.ico. A viewBox crop, never a redraw.",
+      "description": "HeyGen colour mark alone: four-petal gradient pinwheel (the app icon)"
+    },
+    "kimi": {
+      "path": "assets/logos/ai-models/kimi.png",
+      "aliases": [
+        "kimi-ai",
+        "kimi-k3",
+        "moonshot",
+        "moonshot-ai"
+      ],
+      "has_outline": false,
+      "preferred_size": 1.0,
+      "preferred_side": "left",
+      "allow_rotation": true,
+      "max_rotation_degrees": 8,
+      "safe_margin": 1.0,
+      "allow_edge_bleed": false,
+      "source_url": "https://statics.moonshot.cn/kimi-web-seo/assets/kimi-logo-CegIMkbU.png",
+      "license_notes": "Official Kimi website logo asset; retained for brand identification in editorial thumbnails.",
+      "last_verified": "2026-07-16",
+      "description": "Kimi black rounded-square K logo with blue dot"
+    },
+    "kimi-mark": {
+      "path": "assets/logos/ai-models/kimi-mark.svg",
+      "aliases": [
+        "kimi-svg",
+        "kimi-k3",
+        "moonshot-mark"
+      ],
+      "has_outline": false,
+      "preferred_size": 1.0,
+      "preferred_side": "left",
+      "allow_rotation": false,
+      "max_rotation_degrees": 0,
+      "safe_margin": 1.0,
+      "allow_edge_bleed": false,
+      "source_url": "https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/kimi.svg",
+      "license_notes": "Simple Icons (CC0-1.0) single-path monochrome Kimi mark. The pre-existing 'kimi' entry is a 112x112 raster, too small for 4K plates. Kimi trademark remains with Moonshot AI.",
+      "last_verified": "2026-08-12",
+      "description": "Kimi K mark, vector, monochrome black"
+    },
+    "langchain": {
+      "path": "assets/logos/platforms/langchain.png",
+      "aliases": [
+        "langchain-mark",
+        "langchain-logomark",
+        "langchain.com",
+        "langchain-ai"
+      ],
+      "has_outline": false,
+      "preferred_size": 1.0,
+      "preferred_side": "left",
+      "allow_rotation": false,
+      "max_rotation_degrees": 0,
+      "safe_margin": 1.1,
+      "allow_edge_bleed": false,
+      "source_url": "https://mintcdn.com/langchain-5e9cc07a/nQm-sjd_MByLhgeW/images/brand/langchain-docs-dark-blue.png",
+      "license_notes": "Official LangChain brand wordmark served by docs.langchain.com (Mintlify CDN); cropped 2026-08-11 to the logomark alone (columns 0-448 of the 3889x507 source), transparent background retained. LangChain trademark, used for editorial/identification.",
+      "last_verified": "2026-08-11",
+      "description": "LangChain logomark (four-petal wing/leaf mark, near-black #030710)"
+    },
+    "langchain-wordmark": {
+      "path": "assets/logos/platforms/langchain-wordmark.png",
+      "aliases": [
+        "langchain-text",
+        "langchain-logo",
+        "langchain wordmark"
+      ],
+      "has_outline": false,
+      "preferred_size": 3.0,
+      "preferred_side": "left",
+      "allow_rotation": false,
+      "max_rotation_degrees": 0,
+      "safe_margin": 1.1,
+      "allow_edge_bleed": false,
+      "source_url": "https://mintcdn.com/langchain-5e9cc07a/nQm-sjd_MByLhgeW/images/brand/langchain-docs-dark-blue.png",
+      "license_notes": "Official LangChain brand wordmark served by docs.langchain.com (Mintlify CDN). The source reads 'LangChain Docs'; the ' Docs' suffix was cropped off 2026-08-11 at the 138px inter-word gap (columns 2756-2894) so the asset is the plain LangChain wordmark. Transparent background retained. LangChain trademark, used for editorial/identification.",
+      "last_verified": "2026-08-11",
+      "description": "LangChain wordmark: four-petal mark + 'LangChain' in near-black #030710 (brand blue is #7FC8FF)"
+    },
+    "lovable": {
+      "path": "assets/logos/design-tools/lovable-color.png",
+      "aliases": [
+        "lovable-ai"
+      ],
+      "has_outline": false,
+      "preferred_size": 1.0,
+      "preferred_side": "right",
+      "allow_rotation": true,
+      "max_rotation_degrees": 8,
+      "safe_margin": 1.0,
+      "allow_edge_bleed": true,
+      "source_url": null,
+      "license_notes": "Local Lovable logo asset; original source URL not documented in file metadata.",
+      "last_verified": "2026-05-10",
+      "description": "Lovable AI app builder logo"
+    },
+    "make": {
+      "path": "assets/logos/automation/make-color.png",
+      "aliases": [
+        "make.com",
+        "integromat"
+      ],
+      "has_outline": false,
+      "preferred_size": 1.0,
+      "preferred_side": "right",
+      "allow_rotation": true,
+      "max_rotation_degrees": 10,
+      "safe_margin": 1.0,
+      "allow_edge_bleed": true,
+      "source_url": null,
+      "license_notes": "Local Make.com logo asset; original source URL not documented in file metadata.",
+      "last_verified": "2026-05-10",
+      "description": "Make.com purple slashes logo"
+    },
+    "mcp": {
+      "path": "assets/logos/ai-models/mcp-mark.svg",
+      "aliases": [
+        "model-context-protocol",
+        "mcp-mark",
+        "modelcontextprotocol"
+      ],
+      "has_outline": false,
+      "preferred_size": 1.0,
+      "preferred_side": "left",
+      "allow_rotation": false,
+      "max_rotation_degrees": 0,
+      "safe_margin": 1.0,
+      "allow_edge_bleed": false,
+      "source_url": "https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/modelcontextprotocol.svg",
+      "license_notes": "Simple Icons (CC0-1.0) single-path Model Context Protocol mark, fetched 2026-08-15. Black IS the mark's own brand colour (modelcontextprotocol.io renders it black-on-light / white-on-dark), so this is a COLOR MARK per STANDARD.md law 12, not a monochrome reduction — the openai.png precedent. Measured at a 512px Chromium raster: extent 0.902x1.000, ink area 30.5% (open line mark). MCP trademark remains with its owners.",
+      "last_verified": "2026-08-15",
+      "description": "Model Context Protocol official mark: interlocked double-line glyph, vector, black"
+    },
+    "microsoft": {
+      "path": "assets/logos/platforms/microsoft.svg",
+      "aliases": [
+        "microsoft"
+      ],
+      "has_outline": false,
+      "preferred_size": 1.0,
+      "preferred_side": "right",
+      "allow_rotation": true,
+      "max_rotation_degrees": 12,
+      "safe_margin": 1.15,
+      "allow_edge_bleed": false,
+      "source_url": "https://commons.wikimedia.org/wiki/File:Microsoft_logo.svg",
+      "license_notes": "Official brand logo via Wikimedia Commons; trademark of its owner.",
+      "last_verified": "2026-07-26",
+      "description": "Microsoft four-square logo (SVG)"
+    },
+    "modal": {
+      "path": "assets/logos/automation/modal-color.png",
+      "aliases": [
+        "modal labs",
+        "modal.com"
+      ],
+      "has_outline": false,
+      "preferred_size": 1.0,
+      "preferred_side": "right",
+      "allow_rotation": true,
+      "max_rotation_degrees": 12,
+      "safe_margin": 1.15,
+      "allow_edge_bleed": false,
+      "source_url": "https://avatars.githubusercontent.com/u/88658467",
+      "license_notes": "Official Modal Labs GitHub organization avatar; background removed 2026-07-21 (transparent).",
+      "last_verified": "2026-07-21",
+      "description": "Modal serverless platform mark (green M)"
+    },
+    "n8n": {
+      "path": "assets/logos/automation/n8n-icon.png",
+      "aliases": [
+        "n8n-icon"
+      ],
+      "has_outline": false,
+      "preferred_size": 0.95,
+      "preferred_side": "left",
+      "allow_rotation": true,
+      "max_rotation_degrees": 8,
+      "safe_margin": 1.0,
+      "allow_edge_bleed": true,
+      "source_url": null,
+      "license_notes": "Local n8n logo asset; original source URL not documented in file metadata.",
+      "last_verified": "2026-05-10",
+      "description": "n8n workflow automation (pink nodes)"
+    },
+    "n8n-typo": {
+      "path": "assets/logos/automation/n8n-typo.png",
+      "aliases": [
+        "n8n-text"
+      ],
+      "has_outline": false,
+      "preferred_size": 0.82,
+      "preferred_side": "left",
+      "allow_rotation": false,
+      "max_rotation_degrees": 0,
+      "safe_margin": 1.0,
+      "allow_edge_bleed": false,
+      "source_url": null,
+      "license_notes": "Local n8n text logo asset; original source URL not documented in file metadata.",
+      "last_verified": "2026-05-10",
+      "description": "n8n text/typography logo"
+    },
+    "notion": {
+      "path": "assets/logos/platforms/notion-color.png",
+      "aliases": [
+        "notion-ai"
+      ],
+      "has_outline": false,
+      "preferred_size": 0.92,
+      "preferred_side": "right",
+      "allow_rotation": true,
+      "max_rotation_degrees": 6,
+      "safe_margin": 1.0,
+      "allow_edge_bleed": true,
+      "source_url": "https://simpleicons.org/icons/notion.svg",
+      "license_notes": "Notion logo from Simple Icons, fetched 2026-05-10; trademark remains with Notion.",
+      "last_verified": "2026-05-10",
+      "description": "Notion black cube logo"
+    },
+    "nous-girl": {
+      "path": "assets/logos/ai-models/nous-girl.png",
+      "aliases": [
+        "hermes-girl",
+        "nous girl",
+        "hermes women",
+        "nous mascot",
+        "nous-research-girl"
+      ],
+      "has_outline": false,
+      "preferred_size": 1.5,
+      "preferred_side": "right",
+      "allow_rotation": true,
+      "max_rotation_degrees": 6,
+      "safe_margin": 1.05,
+      "allow_edge_bleed": false,
+      "source_url": "https://nousresearch.com/wp-content/uploads/2024/03/Noushirt-2.webp",
+      "license_notes": "Nous Research mascot girl artwork (shirt print) from nousresearch.com; used editorially in video thumbnails about Nous/Hermes.",
+      "last_verified": "2026-08-04",
+      "description": "Nous Research black-and-white anime mascot girl with N collar"
+    },
+    "nous-girl-line": {
+      "path": "assets/logos/ai-models/nous-girl-line.png",
+      "aliases": [
+        "nous girl line",
+        "hermes girl line",
+        "nous-girl-transparent",
+        "nous girl cutout"
+      ],
+      "has_outline": false,
+      "preferred_size": 1.5,
+      "preferred_side": "left",
+      "allow_rotation": true,
+      "max_rotation_degrees": 12,
+      "safe_margin": 1.15,
+      "allow_edge_bleed": false,
+      "source_url": "https://nousresearch.com/wp-content/uploads/2024/03/Noushirt-2.webp",
+      "license_notes": "Transparent line-art cutout derived from nous-girl.png (framed white-box original): outer frame cropped, white matted to alpha, art kept black. Derived 2026-08-05. Nous Research artwork rights remain with Nous Research.",
+      "last_verified": "2026-08-05",
+      "description": "Nous Research girl mascot, transparent black line art (no white box)"
+    },
+    "nous-research": {
+      "path": "assets/logos/ai-models/nous-research.png",
+      "aliases": [
+        "nous",
+        "hermes lab"
+      ],
+      "has_outline": false,
+      "preferred_size": 1.0,
+      "preferred_side": "right",
+      "allow_rotation": true,
+      "max_rotation_degrees": 12,
+      "safe_margin": 1.15,
+      "allow_edge_bleed": false,
+      "source_url": "https://nousresearch.com",
+      "license_notes": "Official Nous Research mark from their site.",
+      "last_verified": "2026-08-09",
+      "description": "Nous Research girl logo"
+    },
+    "nvidia": {
+      "path": "assets/logos/platforms/nvidia-color.png",
+      "aliases": [
+        "nvidia-logo",
+        "nvidia dgx",
+        "dgx",
+        "dgx pod",
+        "dgx spark"
+      ],
+      "has_outline": false,
+      "preferred_size": 1.0,
+      "preferred_side": "right",
+      "allow_rotation": false,
+      "max_rotation_degrees": 0,
+      "safe_margin": 1.0,
+      "allow_edge_bleed": false,
+      "source_url": "https://commons.wikimedia.org/wiki/File:NVIDIA_logo.svg",
+      "license_notes": "Official NVIDIA horizontal lockup (green 'eye' mark #76B900 + black wordmark + ®) from Wikimedia Commons File:NVIDIA_logo.svg, uploaded by Nvidia under the Apache License 2.0, fetched 2026-08-16. Vector source kept alongside as nvidia.svg (viewBox 164x30); PNG rasterised at 2000x366 via headless Chromium on a transparent ground (the firefox precedent), unmodified. This IS the colour lockup per STANDARD.md law 12 — the wordmark's black is the brand's own on a light ground. NVIDIA trademark remains with NVIDIA.",
+      "last_verified": "2026-08-16",
+      "description": "NVIDIA official logo lockup: green eye mark + black NVIDIA wordmark, 5.47:1"
+    },
+    "obs-studio": {
+      "path": "assets/logos/platforms/obs-studio.svg",
+      "aliases": [
+        "obs"
+      ],
+      "has_outline": false,
+      "preferred_size": 1.0,
+      "preferred_side": "left",
+      "allow_rotation": false,
+      "max_rotation_degrees": 0,
+      "safe_margin": 1.0,
+      "allow_edge_bleed": false,
+      "source_url": "https://commons.wikimedia.org/wiki/File:OBS_Studio_Logo.svg",
+      "license_notes": "OBS Studio logo from Wikimedia Commons (GPLv2 project logo).",
+      "last_verified": "2026-08-09",
+      "description": "OBS Studio circular camera-shutter logo"
+    },
+    "openai": {
+      "path": "assets/logos/ai-models/openai.png",
+      "aliases": [
+        "chatgpt",
+        "gpt"
+      ],
+      "has_outline": false,
+      "preferred_size": 0.95,
+      "preferred_side": "right",
+      "allow_rotation": true,
+      "max_rotation_degrees": 8,
+      "safe_margin": 1.0,
+      "allow_edge_bleed": true,
+      "source_url": null,
+      "license_notes": "Local OpenAI logo asset; original source URL not documented in file metadata.",
+      "last_verified": "2026-05-10",
+      "description": "OpenAI black flower/knot logo"
+    },
+    "openclaw": {
+      "path": "assets/logos/coding-tools/openclaw-color.png",
+      "aliases": [],
+      "has_outline": false,
+      "preferred_size": 0.95,
+      "preferred_side": "any",
+      "allow_rotation": true,
+      "max_rotation_degrees": 10,
+      "safe_margin": 1.0,
+      "allow_edge_bleed": true,
+      "source_url": null,
+      "license_notes": "Local OpenClaw logo asset; original source URL not documented in file metadata.",
+      "last_verified": "2026-05-10",
+      "description": "OpenClaw logo"
+    },
+    "openrouter": {
+      "path": "assets/logos/platforms/openrouter-glyph.png",
+      "aliases": [
+        "open router",
+        "openrouter.ai",
+        "open-router"
+      ],
+      "has_outline": false,
+      "preferred_size": 1.0,
+      "preferred_side": "right",
+      "allow_rotation": true,
+      "max_rotation_degrees": 10,
+      "safe_margin": 1.1,
+      "allow_edge_bleed": false,
+      "source_url": "https://openrouter.ai/favicon/glyph.png",
+      "license_notes": "Official OpenRouter glyph from openrouter.ai brand assets (512x512), fetched 2026-08-05; wordmark SVG kept as openrouter.svg. OpenRouter trademark remains with OpenRouter.",
+      "last_verified": "2026-08-05",
+      "description": "OpenRouter glyph mark"
+    },
+    "openrouter-mark": {
+      "path": "assets/logos/platforms/openrouter-mark.svg",
+      "aliases": [
+        "openrouter-svg",
+        "openrouter-mono"
+      ],
+      "has_outline": false,
+      "preferred_size": 1.0,
+      "preferred_side": "right",
+      "allow_rotation": false,
+      "max_rotation_degrees": 0,
+      "safe_margin": 1.0,
+      "allow_edge_bleed": false,
+      "source_url": "https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/openrouter.svg",
+      "license_notes": "Simple Icons (CC0-1.0) single-path monochrome OpenRouter mark. The pre-existing 'openrouter' entry is the INVERTED glyph (white shape on a black tile), which cannot sit on a white plate. OpenRouter trademark remains with OpenRouter.",
+      "last_verified": "2026-08-12",
+      "description": "OpenRouter routing arrows, vector, monochrome black"
+    },
+    "perplexity": {
+      "path": "assets/logos/ai-models/perplexity-color.png",
+      "aliases": [
+        "pplx"
+      ],
+      "has_outline": false,
+      "preferred_size": 1.0,
+      "preferred_side": "right",
+      "allow_rotation": true,
+      "max_rotation_degrees": 8,
+      "safe_margin": 1.0,
+      "allow_edge_bleed": true,
+      "source_url": null,
+      "license_notes": "Local Perplexity logo asset; original source URL not documented in file metadata.",
+      "last_verified": "2026-05-10",
+      "description": "Perplexity AI teal geometric logo"
+    },
+    "revolut": {
+      "path": "assets/logos/platforms/revolut.svg",
+      "aliases": [
+        "revolut-logo",
+        "revolut-wordmark"
+      ],
+      "has_outline": false,
+      "preferred_size": 1.0,
+      "preferred_side": "left",
+      "allow_rotation": false,
+      "max_rotation_degrees": 0,
+      "safe_margin": 1.0,
+      "allow_edge_bleed": false,
+      "source_url": "https://commons.wikimedia.org/wiki/File:Revolut_logo.svg",
+      "license_notes": "Official Revolut lockup (R symbol + REVOLUT wordmark) from Wikimedia Commons File:Revolut_logo.svg — author 'Revolut Ltd', credit revolut.com, Public domain, fetched 2026-08-17. Unmodified vector (viewBox 145x32). Black IS the brand's own colour on a light ground, so this is a COLOR MARK per STANDARD.md law 12, not a monochrome reduction (the mcp-mark / openai.png precedent). Revolut trademark remains with Revolut Ltd. Measured on an 800px Chromium raster: extent 1.0x0.978, ink 45.6% of its own bbox, ink aspect 4.545:1.",
+      "last_verified": "2026-08-17",
+      "description": "Revolut official logo lockup: R symbol + REVOLUT wordmark, black"
+    },
+    "revolut-mark": {
+      "path": "assets/logos/platforms/revolut-mark.svg",
+      "aliases": [
+        "revolut-r",
+        "revolut-symbol",
+        "revolut-icon"
+      ],
+      "has_outline": false,
+      "preferred_size": 1.0,
+      "preferred_side": "left",
+      "allow_rotation": false,
+      "max_rotation_degrees": 0,
+      "safe_margin": 1.0,
+      "allow_edge_bleed": false,
+      "source_url": "https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/revolut.svg",
+      "license_notes": "Simple Icons v16 (CC0-1.0) single-path Revolut 'R' symbol, fetched 2026-08-17. Black IS the mark's own brand colour on a light ground (revolut.com renders it black-on-light / white-on-dark), so this is a COLOR MARK per STANDARD.md law 12 — the mcp-mark precedent. Revolut trademark remains with Revolut Ltd. Measured on an 800px Chromium raster: extent 0.797x1.0, ink 57.1% of its own bbox, ink aspect 0.797:1.",
+      "last_verified": "2026-08-17",
+      "description": "Revolut official 'R' symbol, vector, black"
+    },
+    "siri": {
+      "path": "assets/logos/ai-models/siri-color.png",
+      "aliases": [
+        "apple-siri",
+        "siri-orb",
+        "siri icon"
+      ],
+      "has_outline": false,
+      "preferred_size": 1.0,
+      "preferred_side": "right",
+      "allow_rotation": false,
+      "max_rotation_degrees": 0,
+      "safe_margin": 1.0,
+      "allow_edge_bleed": false,
+      "source_url": "https://commons.wikimedia.org/wiki/File:Logo_Apple_Siri_iOS_2024.svg",
+      "license_notes": "Official Apple Siri app icon (iOS 2024), Apple Inc. trademark; Wikimedia Commons marks the file Public domain / not copyrightable (Restrictions: trademarked). 90.622x89.696 SVG rasterised to 1024x1014 on a transparent ground via headless Chromium, gradients preserved. Added 2026-08-17 for the run-8 geministt short.",
+      "last_verified": "2026-08-17",
+      "description": "Apple Siri 2024 app icon — rounded-square tile with an orange/pink/blue/violet gradient and the white Siri loop glyph"
+    },
+    "slack": {
+      "path": "assets/logos/platforms/slack-color.png",
+      "aliases": [
+        "slack-icon",
+        "slack-mark"
+      ],
+      "has_outline": false,
+      "preferred_size": 0.95,
+      "preferred_side": "right",
+      "allow_rotation": true,
+      "max_rotation_degrees": 6,
+      "safe_margin": 1.0,
+      "allow_edge_bleed": true,
+      "source_url": "https://commons.wikimedia.org/wiki/File:Slack_icon_2019.svg",
+      "license_notes": "Slack 2019 mark from Wikimedia Commons, converted SVG->PNG 2026-06-24"
+    },
+    "telegram": {
+      "path": "assets/logos/platforms/telegram.svg",
+      "aliases": [
+        "telegram-icon",
+        "tg"
+      ],
+      "has_outline": false,
+      "preferred_size": 1.0,
+      "preferred_side": "right",
+      "allow_rotation": false,
+      "max_rotation_degrees": 0,
+      "safe_margin": 1.0,
+      "allow_edge_bleed": false,
+      "source_url": "https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/telegram.svg",
+      "license_notes": "Simple Icons (CC0-1.0 icon set), fetched 2026-08-12; Telegram trademark remains with Telegram. Monochrome, unmodified.",
+      "last_verified": "2026-08-12",
+      "description": "Telegram paper-plane-in-circle mark, black, 24x24 viewBox"
+    },
+    "thinking-machines": {
+      "path": "assets/logos/ai-models/thinking-machines-wordmark.png",
+      "aliases": [
+        "thinkingmachines",
+        "thinking machines",
+        "thinking-machines-lab",
+        "thinky machines",
+        "thinkymachines"
+      ],
+      "has_outline": false,
+      "preferred_size": 2.6,
+      "preferred_side": "left",
+      "allow_rotation": false,
+      "max_rotation_degrees": 0,
+      "safe_margin": 1.05,
+      "allow_edge_bleed": false,
+      "source_url": "https://x.com/thinkymachines (official profile lockup) + https://thinkingmachines.ai/css/common.css",
+      "license_notes": "Thinking Machines Lab's wordmark is typeset LIVE on its own site — common.css declares `#header .navbar-logo a { font-family:'Chakra Petch'; font-weight:500; letter-spacing:1.7px }` — and Chakra Petch is an OFL Google font, so the mark is reproducible exactly rather than upscaled from a raster (the company publishes no logo file; its 400x400 X avatar carries only 328px of ink). This PNG is the two-line stacked lockup rasterised via headless Chromium from Chakra Petch SemiBold (600) at 0.04056em tracking and a 1.7111 cap-pitch, then cropped to ink. Weight and tracking were FITTED to the company's own published square lockup (the X profile artwork, saved verbatim alongside as thinking-machines-avatar.jpg) and verified against it: ink aspect 2.6865 vs 2.6885 (0.07%), per-line IoU 0.916/0.910 at matched resolution, greyscale coverage ratio 1.026/1.027 with correlation 0.978/0.984, THINKING/MACHINES width ratio 0.9256 vs 0.9207, cap-pitch 1.7111 exact. Weight 500 (the nav cut) measured 14% too light against the lockup and is NOT what the published artwork uses. Black is this brand's own colour, not a monochrome reduction (STANDARD.md law 12, the mcp-mark / openai / NVIDIA-wordmark precedent). Thinking Machines trademark remains with Thinking Machines Lab.",
+      "last_verified": "2026-08-17",
+      "description": "Thinking Machines Lab wordmark: two-line stacked THINKING / MACHINES in the brand's clipped-corner face, black, measured aspect 2.6865:1, ink fraction 0.2857, 2622x976 transparent PNG"
+    },
+    "unipile": {
+      "path": "assets/logos/automation/unipile-color.png",
+      "aliases": [
+        "unipile.com"
+      ],
+      "has_outline": false,
+      "preferred_size": 1.0,
+      "preferred_side": "right",
+      "allow_rotation": true,
+      "max_rotation_degrees": 12,
+      "safe_margin": 1.15,
+      "allow_edge_bleed": false,
+      "source_url": "https://avatars.githubusercontent.com/u/141820625",
+      "license_notes": "Official Unipile GitHub organization avatar; wordmark SVG also stored as unipile.svg.",
+      "last_verified": "2026-07-21",
+      "description": "Unipile messaging API mark (chevrons)"
+    },
+    "whatsapp": {
+      "path": "assets/logos/platforms/whatsapp.svg",
+      "aliases": [
+        "whatsapp-icon",
+        "wa"
+      ],
+      "has_outline": false,
+      "preferred_size": 1.0,
+      "preferred_side": "right",
+      "allow_rotation": false,
+      "max_rotation_degrees": 0,
+      "safe_margin": 1.0,
+      "allow_edge_bleed": false,
+      "source_url": "https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/whatsapp.svg",
+      "license_notes": "Simple Icons (CC0-1.0 icon set), fetched 2026-08-12; WhatsApp/Meta trademark remains with Meta. Monochrome, unmodified.",
+      "last_verified": "2026-08-12",
+      "description": "WhatsApp phone-in-speech-bubble mark, black, 24x24 viewBox"
+    },
+    "x-logo": {
+      "path": "assets/logos/platforms/x-logo.svg",
+      "aliases": [
+        "x",
+        "twitter",
+        "x-twitter"
+      ],
+      "has_outline": false,
+      "preferred_size": 1.0,
+      "preferred_side": "left",
+      "allow_rotation": false,
+      "max_rotation_degrees": 0,
+      "safe_margin": 1.0,
+      "allow_edge_bleed": false,
+      "source_url": "https://commons.wikimedia.org/wiki/File:X_logo_2023.svg",
+      "license_notes": "X (Twitter) 2023 logomark from Wikimedia Commons; trademark, editorial use.",
+      "last_verified": "2026-08-09",
+      "description": "X (formerly Twitter) black logomark"
+    },
+    "y-combinator": {
+      "path": "assets/logos/platforms/y-combinator.png",
+      "aliases": [
+        "yc",
+        "y combinator",
+        "yc-logo",
+        "ycombinator"
+      ],
+      "has_outline": false,
+      "preferred_size": 1.0,
+      "preferred_side": "right",
+      "allow_rotation": false,
+      "max_rotation_degrees": 0,
+      "safe_margin": 1.0,
+      "allow_edge_bleed": false,
+      "source_url": "https://avatars.githubusercontent.com/u/153323858?v=4",
+      "license_notes": "Official Y Combinator GitHub organization avatar; Y Combinator trademark, used for editorial identification.",
+      "last_verified": "2026-07-31",
+      "description": "Y Combinator orange square with white Y"
+    },
+    "youtube": {
+      "path": "assets/logos/platforms/youtube-color.png",
+      "aliases": [
+        "yt",
+        "youtube-studio"
+      ],
+      "has_outline": false,
+      "preferred_size": 1.0,
+      "preferred_side": "left",
+      "allow_rotation": true,
+      "max_rotation_degrees": 8,
+      "safe_margin": 1.0,
+      "allow_edge_bleed": true,
+      "source_url": "https://simpleicons.org/icons/youtube.svg",
+      "license_notes": "YouTube logo from Simple Icons, fetched 2026-05-10; trademark remains with YouTube/Google.",
+      "last_verified": "2026-05-10",
+      "description": "YouTube red play-button logo"
+    },
+    "z-ai": {
+      "path": "assets/logos/ai-models/z-ai.svg",
+      "aliases": [
+        "glm",
+        "glm-5.2",
+        "zhipu-ai"
+      ],
+      "has_outline": false,
+      "preferred_size": 1.0,
+      "preferred_side": "left",
+      "allow_rotation": false,
+      "max_rotation_degrees": 0,
+      "safe_margin": 1.0,
+      "allow_edge_bleed": false,
+      "source_url": "https://z-cdn.chatglm.cn/z-ai/static/logo.svg",
+      "license_notes": "Official Z.ai logo served by the z.ai company site; used for editorial identification of the GLM model family.",
+      "last_verified": "2026-08-11",
+      "description": "Z.ai logomark for the GLM model family"
+    },
+    "zapier": {
+      "path": "assets/logos/automation/zapier-color.png",
+      "aliases": [
+        "zapier-tile",
+        "zapier-logomark"
+      ],
+      "has_outline": false,
+      "preferred_size": 1.0,
+      "preferred_side": "right",
+      "allow_rotation": false,
+      "max_rotation_degrees": 0,
+      "safe_margin": 1.0,
+      "allow_edge_bleed": false,
+      "source_url": "https://cdn.zapier.com/zapier/images/logos/zapier-logomark.png",
+      "license_notes": "REPLACED 2026-08-17 (ASSET HEALTH): the previous file (640x640, md5 a5403797e1ee1867da80ddbaf7ee3eec) was NOT the Zapier mark at all but a single flat #FF5000 rectangle - alpha bbox (146,426)-(494,507), 6.88% ink, 2 distinct colours - and rendered on screen as an orange dash. It is now Zapier's OWN CDN logomark (cdn.zapier.com/zapier/images/logos/zapier-logomark.png, 1200x1200 RGBA of the official app tile) downsampled to 1024 with LANCZOS; nothing redrawn or recoloured. Cross-checked against Wikimedia Commons File:Zapier_logo.svg (Artist 'Zapier', credit https://zapier.com/brand/logo/assets, Public domain) and Simple Icons' zapier entry (brand hex FF4F00, sourced from Zapier's external brand guidelines). Zapier trademark remains with Zapier.",
+      "last_verified": "2026-08-17",
+      "description": "Zapier official app tile: brand-orange rounded square with the white 'zapier' wordmark knocked out, 1024px, ink 98.8%. The tile IS the mark, so it is placed BARE - never inside a white plate (the chatgpt-color plate-on-plate ruling)."
+    },
+    "opencode": {
+      "path": "assets/logos/coding-tools/opencode-color.png",
+      "aliases": [
+        "open-code",
+        "opencode-ai",
+        "opencode wordmark"
+      ],
+      "has_outline": false,
+      "preferred_size": 0.95,
+      "preferred_side": "any",
+      "allow_rotation": false,
+      "notes": "official pixel-block wordmark, LIGHT-theme variant (dark greys #211E1E/#656363/#CFCECD) for light grounds, rasterised 1872x336 from the inline SVG on opencode.ai at 8x. 5.57:1 — size it by explicit WIDTH against its plate, never by a square inner (the deepseekbox NVIDIA wide-lockup rule)."
+    },
+    "spacex": {
+      "path": "assets/logos/ai-models/spacex-wordmark.svg",
+      "aliases": [
+        "space-x",
+        "spacex-ai"
+      ],
+      "has_outline": false,
+      "preferred_size": 1.0,
+      "preferred_side": "left",
+      "allow_rotation": false,
+      "max_rotation_degrees": 0,
+      "safe_margin": 1.0,
+      "allow_edge_bleed": false,
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/SpaceX_logo_black.svg",
+      "license_notes": "SpaceX corporate wordmark, black, Wikimedia Commons, fetched 2026-09-21. Company mark used where no product mark exists (LAW 35 fallback for 'SpaceX AI'). SpaceX trademark remains with SpaceX.",
+      "last_verified": "2026-09-21",
+      "description": "SpaceX black wordmark, 8:1 aspect - seat it on a WIDE plate, never in a square tile"
+    },
+    "warp": {
+      "path": "assets/logos/coding-tools/warp.png",
+      "aliases": [
+        "warp-terminal",
+        "warp.dev",
+        "warp-agent"
+      ],
+      "has_outline": false,
+      "preferred_size": 0.95,
+      "preferred_side": "left",
+      "allow_rotation": false,
+      "max_rotation_degrees": 0,
+      "safe_margin": 1.0,
+      "allow_edge_bleed": false,
+      "source_url": "https://www.warp.dev/ (favicon-196x196.png silhouette) ; vector from https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/warp.svg",
+      "license_notes": "Warp mark (two slanted rounded panels), official silhouette matching warp.dev favicon; SVG from Simple Icons (CC0 data; Warp trademark remains with Warp), rasterized at 1000px via Chromium in black, source saved alongside as warp.svg. Added 2026-09-22 for shorts run warpgrok.",
+      "last_verified": "2026-09-22",
+      "description": "Warp terminal black mark (two slanted rounded panels)"
+    },
+    "nextslide": {
+      "has_outline": false,
+      "preferred_size": 1.0,
+      "preferred_side": "any",
+      "allow_rotation": false,
+      "max_rotation_degrees": 0,
+      "safe_margin": 1.0,
+      "allow_edge_bleed": false,
+      "last_verified": "2026-09-22",
+      "path": "assets/logos/design-tools/nextslide-mark.png",
+      "aliases": [
+        "nextslide-x",
+        "nextslide-mark",
+        "next-slide"
+      ],
+      "source_url": "https://nextslide.ai/brand/nextslide-x.png",
+      "license_notes": "Official NextSlide orange X mark served by nextslide.ai/brand, fetched 2026-09-22. Trademark remains with NextSlide / OpenAI.",
+      "description": "NextSlide orange X mark (244x375, ink aspect 0.65); the product mark on its own"
+    },
+    "nextslide-wordmark": {
+      "has_outline": false,
+      "preferred_size": 1.0,
+      "preferred_side": "any",
+      "allow_rotation": false,
+      "max_rotation_degrees": 0,
+      "safe_margin": 1.0,
+      "allow_edge_bleed": false,
+      "last_verified": "2026-09-22",
+      "path": "assets/logos/design-tools/nextslide-wordmark.png",
+      "aliases": [
+        "nextslide-text",
+        "nextslide-logo"
+      ],
+      "source_url": "https://nextslide.ai/og-image-logos-v3.png",
+      "license_notes": "NextSlide lockup cropped from the official OpenAI x NextSlide og image on nextslide.ai, white keyed to alpha, upscaled 3x (876x288). Fetched 2026-09-22.",
+      "description": "NEXTSLIDE wordmark with the orange X, ~3:1 - seat it on a WIDE plate, never a square tile"
+    },
+    "wispr-flow": {
+      "path": "assets/logos/platforms/wispr-flow.svg",
+      "aliases": [
+        "wispr",
+        "wisprflow",
+        "wispr flow",
+        "flow-dictation"
+      ],
+      "has_outline": false,
+      "preferred_size": 1.0,
+      "preferred_side": "any",
+      "allow_rotation": false,
+      "max_rotation_degrees": 0,
+      "safe_margin": 1.0,
+      "allow_edge_bleed": false,
+      "source_url": "https://cdn.prod.website-files.com/682f84b3838c89f8ff7667db/6a969571376525e3e58ab7c5_Flow_Logo-black.svg",
+      "license_notes": "Official Wispr Flow logo SVG served on wisprflow.ai, fetched 2026-09-24. Kept only the five unmodified bar paths (#1A1A1A); the \"Flow\" wordmark paths were dropped and the viewBox set to the bars (0 0 125.928 124.252). No recolouring or redrawing. Trademark remains with Wispr AI.",
+      "last_verified": "2026-09-24",
+      "description": "Wispr Flow mark: five rounded vertical bars in near-black, on transparent"
+    },
+    "higgsfield": {
+      "path": "assets/logos/ai-models/higgsfield.svg",
+      "aliases": [
+        "higgsfield-ai",
+        "higgsfield.ai",
+        "higgs"
+      ],
+      "has_outline": false,
+      "preferred_size": 1.0,
+      "preferred_side": "any",
+      "allow_rotation": false,
+      "max_rotation_degrees": 0,
+      "safe_margin": 1.0,
+      "allow_edge_bleed": false,
+      "source_url": "https://higgsfield.ai/",
+      "license_notes": "Official glyph from the higgsfield.ai site header (inline SVG .hf-logo__glyph), fetched 2026-09-24. Path unmodified; currentColor resolved to the #1a1a1a the site CSS uses for it on a white tile; viewBox measured to the ink. The app icon (same squiggle on a lime tile) is https://higgsfield.ai/apple-icon.png. Trademark remains with Higgsfield Inc..",
+      "last_verified": "2026-09-24",
+      "description": "Higgsfield squiggle mark in near-black, on transparent"
+    },
+    "fireflies": {
+      "path": "assets/logos/tool-web-icons-20260914/firefliesai.png",
+      "aliases": [
+        "fireflies.ai",
+        "fireflies-ai",
+        "firefliesai"
+      ],
+      "has_outline": false,
+      "preferred_size": 1.0,
+      "preferred_side": "any",
+      "allow_rotation": false,
+      "max_rotation_degrees": 0,
+      "safe_margin": 1.0,
+      "allow_edge_bleed": false,
+      "source_url": "https://fireflies.ai/icon.png?8ca41d3ade63e552",
+      "license_notes": "Existing library file (official 512x512 site icon from fireflies.ai, fetched 2026-09-14 per tool-web-icons-20260914/provenance.json), registered 2026-09-24. Full lockup SVG: https://fireflies.ai/images/logo-full-color.svg. Trademark remains with Fireflies.ai.",
+      "last_verified": "2026-09-24",
+      "description": "Fireflies.ai mark: magenta/purple segmented F, 512x512 transparent PNG"
+    },
+    "instantly": {
+      "path": "assets/logos/automation/instantly.svg",
+      "aliases": [
+        "instantly.ai",
+        "instantly-ai",
+        "instantly-mark"
+      ],
+      "has_outline": false,
+      "preferred_size": 1.0,
+      "preferred_side": "any",
+      "allow_rotation": false,
+      "max_rotation_degrees": 0,
+      "safe_margin": 1.0,
+      "allow_edge_bleed": false,
+      "source_url": "https://cdn.prod.website-files.com/63860c8c65e7bef4a1eeebeb/68bfbb700e2932c8884be3ee_Instantly%20Logo%202%20(1).svg",
+      "license_notes": "Official Instantly lockup SVG served on instantly.ai, fetched 2026-09-24. Kept only the first unmodified path (the #0281FF disc with the lightning bolt cut out); wordmark dropped, viewBox 0 0 27.145 28. A 256px raster of the same mark exists at tool-web-icons-20260914/instantly.png. Trademark remains with Instantly.",
+      "last_verified": "2026-09-24",
+      "description": "Instantly mark: blue disc with white lightning bolt, on transparent"
+    },
+    "remotion": {
+      "path": "assets/logos/coding-tools/remotion.svg",
+      "aliases": [
+        "remotion.dev",
+        "remotion-video"
+      ],
+      "has_outline": false,
+      "preferred_size": 1.0,
+      "preferred_side": "any",
+      "allow_rotation": false,
+      "max_rotation_degrees": 0,
+      "safe_margin": 1.0,
+      "allow_edge_bleed": false,
+      "source_url": "https://remotion.media/remotion-brand-assets.zip",
+      "license_notes": "Official Remotion brand assets zip (linked from remotion.dev), file svg/compact-blue.svg copied verbatim, fetched 2026-09-24. Trademark remains with Remotion.",
+      "last_verified": "2026-09-24",
+      "description": "Remotion mark: blue rounded play triangle with soft blue halo rings"
+    },
+    "hyperframes": {
+      "path": "assets/logos/open-source-toolkit/hyperframes-mark.svg",
+      "aliases": [
+        "hyper-frames",
+        "heygen-hyperframes",
+        "hyperframes-symbol"
+      ],
+      "has_outline": false,
+      "preferred_size": 1.0,
+      "preferred_side": "any",
+      "allow_rotation": false,
+      "max_rotation_degrees": 0,
+      "safe_margin": 1.0,
+      "allow_edge_bleed": false,
+      "source_url": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/docs/logo/symbol-light.svg",
+      "license_notes": "Official HyperFrames symbol from the heygen-com/hyperframes repo (docs/logo/symbol-light.svg), fetched 2026-09-24. Only change: the full-canvas white background <rect> was removed and the viewBox re-boxed to the measured ink. Paths and cyan-to-green gradients (#06E3FA to #4FDB5E) unmodified. The same two-shape symbol appears in the official wordmark lockup open-source-toolkit/hyperframes-wordmark.svg. Trademark remains with HeyGen.",
+      "last_verified": "2026-09-24",
+      "description": "HyperFrames mark: two mirrored rounded triangles in a cyan-to-green gradient, wide ~1.75:1"
+    },
+    "gohighlevel": {
+      "path": "assets/logos/automation/gohighlevel-mark.png",
+      "aliases": [
+        "highlevel",
+        "high-level",
+        "ghl",
+        "go-high-level"
+      ],
+      "has_outline": false,
+      "preferred_size": 1.0,
+      "preferred_side": "any",
+      "allow_rotation": false,
+      "max_rotation_degrees": 0,
+      "safe_margin": 1.0,
+      "allow_edge_bleed": false,
+      "source_url": "https://assets.cdn.filesafe.space/zELBHkVp0JPbbLvKIlF5/media/690a5f4a57ea175183408da2.png",
+      "license_notes": "Official Space Blue HighLevel lockup (3472x781 transparent PNG) from the HighLevel BrandKit page https://marketing.gohighlevel.com/brandkit (linked from help.gohighlevel.com Brand Kit article), fetched 2026-09-24. Cropped to the three-arrow mark (left ink cluster, 755x615); pixels untouched. Trademark remains with HighLevel LLC.",
+      "last_verified": "2026-09-24",
+      "description": "HighLevel mark: three upward arrows in yellow, blue and green, on transparent"
+    },
+    "ollama": {
+      "path": "assets/logos/ai-models/ollama.svg",
+      "aliases": [
+        "ollama-llama",
+        "ollama.com"
+      ],
+      "has_outline": false,
+      "preferred_size": 1.0,
+      "preferred_side": "any",
+      "allow_rotation": false,
+      "max_rotation_degrees": 0,
+      "safe_margin": 1.0,
+      "allow_edge_bleed": false,
+      "source_url": "https://ollama.com/public/ollama.png",
+      "license_notes": "Existing library file (ollama.svg with its 800x1176 raster ollama.png), registered 2026-09-24. Original download source was not recorded; visually matches the official llama at https://ollama.com/public/ollama.png and Simple Icons ollama. Trademark remains with Ollama.",
+      "last_verified": "2026-09-24",
+      "description": "Ollama llama head line mark in black, on transparent (tall, ~0.68:1)"
+    },
+    "playwright": {
+      "path": "assets/logos/coding-tools/playwright.svg",
+      "aliases": [
+        "playwright.dev",
+        "microsoft-playwright"
+      ],
+      "has_outline": false,
+      "preferred_size": 1.0,
+      "preferred_side": "any",
+      "allow_rotation": false,
+      "max_rotation_degrees": 0,
+      "safe_margin": 1.0,
+      "allow_edge_bleed": false,
+      "source_url": "https://playwright.dev/img/playwright-logo.svg",
+      "license_notes": "Official Playwright logo SVG from playwright.dev, copied verbatim, fetched 2026-09-24. Trademark remains with Microsoft.",
+      "last_verified": "2026-09-24",
+      "description": "Playwright mark: red and green theatre masks"
+    },
+    "yt-dlp": {
+      "path": "assets/logos/coding-tools/yt-dlp.png",
+      "aliases": [
+        "ytdlp",
+        "yt_dlp",
+        "youtube-dl"
+      ],
+      "has_outline": false,
+      "preferred_size": 1.0,
+      "preferred_side": "any",
+      "allow_rotation": false,
+      "max_rotation_degrees": 0,
+      "safe_margin": 1.0,
+      "allow_edge_bleed": false,
+      "source_url": "https://github.com/yt-dlp.png?size=512",
+      "license_notes": "Official yt-dlp GitHub organisation avatar (460x460, rounded dark tile with \">_dlp\"), fetched 2026-09-24. yt-dlp has no separate symbol; its only other logo is the wide banner (Wikimedia Commons File:Yt-dlp_logo.svg, public domain, same as .github/banner.svg in the repo). The avatar is text-based, so it reads as \">_dlp\" rather than a pictorial mark.",
+      "last_verified": "2026-09-24",
+      "description": "yt-dlp square avatar: dark rounded tile with white \">_\" and red \"dlp\""
+    },
+    "fal": {
+      "path": "assets/logos/ai-models/fal.svg",
+      "aliases": [
+        "fal.ai",
+        "falai",
+        "fal-ai"
+      ],
+      "has_outline": false,
+      "preferred_size": 1.0,
+      "preferred_side": "any",
+      "allow_rotation": false,
+      "max_rotation_degrees": 0,
+      "safe_margin": 1.0,
+      "allow_edge_bleed": false,
+      "source_url": "https://fal.ai/",
+      "license_notes": "Mark path taken unmodified from the official fal logo SVG in the fal.ai site header (the \"fal logo\" nav SVG; the wordmark paths dropped), fetched 2026-09-24. currentColor filled with #EC0648, the magenta of the official https://fal.ai/apple-touch-icon.png; viewBox measured to the ink. The older derived raster is ai-models/falai-mark.png. Trademark remains with Features & Labels, Inc. (fal.ai).",
+      "last_verified": "2026-09-24",
+      "description": "fal mark: magenta square with notched corners and a round hole, on transparent"
+    },
+    "getdesign": {
+      "path": "assets/logos/design-tools/getdesign.svg",
+      "aliases": [
+        "getdesign.md",
+        "get-design",
+        "getdesign-md"
+      ],
+      "has_outline": false,
+      "preferred_size": 1.0,
+      "preferred_side": "any",
+      "allow_rotation": false,
+      "max_rotation_degrees": 0,
+      "safe_margin": 1.0,
+      "allow_edge_bleed": false,
+      "source_url": "https://getdesign.md/favicon.svg?v=2",
+      "license_notes": "Official getdesign.md favicon SVG, copied verbatim, fetched 2026-09-24. The icon itself is an opaque full-bleed black square with a pink (#FFB1EE) D; the background is part of the mark, so it is NOT transparent. getdesign.md (by VoltAgent) publishes no other mark.",
+      "last_verified": "2026-09-24",
+      "description": "getdesign.md icon: pink D on a black square (opaque, square corners)"
+    },
+    "phantombuster": {
+      "path": "assets/logos/automation/phantombuster.svg",
+      "aliases": [
+        "phantom-buster",
+        "phantombuster.com"
+      ],
+      "has_outline": false,
+      "preferred_size": 1.0,
+      "preferred_side": "any",
+      "allow_rotation": false,
+      "max_rotation_degrees": 0,
+      "safe_margin": 1.0,
+      "allow_edge_bleed": false,
+      "source_url": "https://phantombuster.com/assets35979754344/icons/favicon.svg",
+      "license_notes": "Official PhantomBuster favicon SVG, copied verbatim, fetched 2026-09-24. Trademark remains with PhantomBuster.",
+      "last_verified": "2026-09-24",
+      "description": "PhantomBuster mark: white ghost with dark (#3A3837) outline and eyes, on transparent"
+    },
+    "typst": {
+      "path": "assets/logos/coding-tools/typst.svg",
+      "aliases": [
+        "typst.app",
+        "typst-t"
+      ],
+      "has_outline": false,
+      "preferred_size": 1.0,
+      "preferred_side": "any",
+      "allow_rotation": false,
+      "max_rotation_degrees": 0,
+      "safe_margin": 1.0,
+      "allow_edge_bleed": false,
+      "source_url": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/typst.svg",
+      "license_notes": "Simple Icons typst (CC0 data, simple-icons 16.32.0), coloured with the Simple Icons brand hex #239DAD (the same colour typst.app declares for its mask-icon), fetched 2026-09-24. Trademark remains with Typst GmbH.",
+      "last_verified": "2026-09-24",
+      "description": "Typst mark: teal lowercase t, on transparent"
+    },
+    "anymailfinder": {
+      "path": "assets/logos/platforms/anymailfinder.png",
+      "aliases": [
+        "anymail-finder",
+        "anymail",
+        "anymailfinder.com"
+      ],
+      "has_outline": false,
+      "preferred_size": 1.0,
+      "preferred_side": "any",
+      "allow_rotation": false,
+      "max_rotation_degrees": 0,
+      "safe_margin": 1.0,
+      "allow_edge_bleed": false,
+      "source_url": "https://anymailfinder.com/android-chrome-512x512.png",
+      "license_notes": "Official 512x512 Anymail Finder app icon from anymailfinder.com (declared in its site.webmanifest), copied verbatim, fetched 2026-09-24. A 180px version is tool-web-icons-20260914/anymailfinder.png. Trademark remains with Anymail Finder.",
+      "last_verified": "2026-09-24",
+      "description": "Anymail Finder mark: navy disc with a white open envelope, transparent corners"
+    },
+    "motionsites": {
+      "path": "assets/logos/design-tools/motionsites-mark.png",
+      "aliases": [
+        "motionsites.ai",
+        "motion-sites",
+        "motionsites-ai"
+      ],
+      "has_outline": false,
+      "preferred_size": 1.0,
+      "preferred_side": "any",
+      "allow_rotation": false,
+      "max_rotation_degrees": 0,
+      "safe_margin": 1.0,
+      "allow_edge_bleed": false,
+      "source_url": "https://motionsites.ai/assets/motionsites-logo-D88wrm0L.png",
+      "license_notes": "Official MotionSites lockup (1920x293 transparent PNG) from motionsites.ai, fetched 2026-09-24. Cropped to the gradient M mark (356x249); pixels untouched. The app-style icon (same M on a dark rounded tile, 192px) is https://motionsites.ai/favicon.png?v=2. Trademark remains with MotionSites.",
+      "last_verified": "2026-09-24",
+      "description": "MotionSites mark: pastel orange-pink-violet gradient ribbon M, on transparent (wide ~1.43:1)"
+    },
+    "notebooklm": {
+      "path": "assets/logos/ai-models/notebooklm.svg",
+      "aliases": [
+        "notebook-lm",
+        "google-notebooklm",
+        "notebooklm-google"
+      ],
+      "has_outline": false,
+      "preferred_size": 1.0,
+      "preferred_side": "any",
+      "allow_rotation": false,
+      "max_rotation_degrees": 0,
+      "safe_margin": 1.0,
+      "allow_edge_bleed": false,
+      "source_url": "https://notebooklm.google/_/static/branding/v6/light_mode/favicon/favicon.svg",
+      "license_notes": "Official NotebookLM v6 light-mode favicon SVG from notebooklm.google, copied verbatim, fetched 2026-09-24. Trademark remains with Google LLC.",
+      "last_verified": "2026-09-24",
+      "description": "NotebookLM mark: nested blue-to-violet gradient arches, on transparent"
+    },
+    "stripe": {
+      "path": "assets/logos/platforms/stripe-mark.svg",
+      "aliases": [
+        "stripe-mark",
+        "stripe-icon",
+        "stripe.com"
+      ],
+      "has_outline": false,
+      "preferred_size": 1.0,
+      "preferred_side": "any",
+      "allow_rotation": false,
+      "max_rotation_degrees": 0,
+      "safe_margin": 1.0,
+      "allow_edge_bleed": false,
+      "source_url": "https://images.stripeassets.com/fzn2n1nzq965/1hgcBNd12BfT9VLgbId7By/01d91920114b124fb4cf6d448f9f06eb/favicon.svg",
+      "license_notes": "Official stripe.com favicon SVG (current Stripe icon: #533AFD rounded square with a white slanted parallelogram), copied verbatim, fetched 2026-09-24. The existing platforms/stripe-color.svg is the wordmark, not this mark. Trademark remains with Stripe, Inc..",
+      "last_verified": "2026-09-24",
+      "description": "Stripe icon: violet rounded square with a white slanted panel"
+    },
+    "vercel": {
+      "path": "assets/logos/platforms/vercel.svg",
+      "aliases": [
+        "vercel-triangle",
+        "vercel.com"
+      ],
+      "has_outline": false,
+      "preferred_size": 1.0,
+      "preferred_side": "any",
+      "allow_rotation": false,
+      "max_rotation_degrees": 0,
+      "safe_margin": 1.0,
+      "allow_edge_bleed": false,
+      "source_url": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/vercel.svg",
+      "license_notes": "Simple Icons vercel (CC0 data, simple-icons 16.32.0), coloured with the Simple Icons brand hex #000000, fetched 2026-09-24. Matches the official triangle at https://assets.vercel.com/image/upload/q_auto/front/favicon/vercel/apple-touch-icon-256x256.png. Trademark remains with Vercel Inc..",
+      "last_verified": "2026-09-24",
+      "description": "Vercel mark: solid black triangle, on transparent"
+    },
+    "supabase": {
+      "path": "assets/logos/platforms/supabase.svg",
+      "aliases": [
+        "supabase-icon",
+        "supabase.com"
+      ],
+      "has_outline": false,
+      "preferred_size": 1.0,
+      "preferred_side": "any",
+      "allow_rotation": false,
+      "max_rotation_degrees": 0,
+      "safe_margin": 1.0,
+      "allow_edge_bleed": false,
+      "source_url": "https://supabase.com/brand-assets.zip",
+      "license_notes": "Official Supabase brand assets zip, file brand-assets/supabase-logo-icon.svg copied verbatim, fetched 2026-09-24. Trademark remains with Supabase Inc..",
+      "last_verified": "2026-09-24",
+      "description": "Supabase mark: green gradient lightning bolt, on transparent"
+    },
+    "theirstack": {
+      "path": "assets/logos/platforms/theirstack.png",
+      "aliases": [
+        "their-stack",
+        "theirstack.com"
+      ],
+      "has_outline": false,
+      "preferred_size": 1.0,
+      "preferred_side": "any",
+      "allow_rotation": false,
+      "max_rotation_degrees": 0,
+      "safe_margin": 1.0,
+      "allow_edge_bleed": false,
+      "source_url": "https://github.com/theirstack.png?size=512",
+      "license_notes": "Official TheirStack GitHub organisation avatar (460x460, transparent rounded corners), fetched 2026-09-24; same mark as https://theirstack.com/static/generated/apple-touch-icon.png (180px). TheirStack publishes no SVG or larger icon. Trademark remains with TheirStack.",
+      "last_verified": "2026-09-24",
+      "description": "TheirStack mark: two overlapping white circles on a black rounded square"
+    },
+    "google-sheets": {
+      "path": "assets/logos/platforms/google-sheets.svg",
+      "aliases": [
+        "sheets",
+        "gsheets",
+        "google-spreadsheets"
+      ],
+      "has_outline": false,
+      "preferred_size": 1.0,
+      "preferred_side": "any",
+      "allow_rotation": false,
+      "max_rotation_degrees": 0,
+      "safe_margin": 1.0,
+      "allow_edge_bleed": false,
+      "source_url": "https://commons.wikimedia.org/wiki/File:Google_Sheets_2020_Logo.svg",
+      "license_notes": "Existing library file, registered 2026-09-24; byte-identical to Wikimedia Commons File:Google_Sheets_2020_Logo.svg (public domain). A 1024x1408 raster is platforms/google-sheets.png. Trademark remains with Google LLC.",
+      "last_verified": "2026-09-24",
+      "description": "Google Sheets icon: green page with folded corner and white grid (tall ~0.73:1)"
+    },
+    "posthog": {
+      "path": "assets/logos/platforms/posthog-logomark.svg",
+      "aliases": [
+        "posthog-logomark",
+        "posthog-hedgehog",
+        "posthog.com"
+      ],
+      "has_outline": false,
+      "preferred_size": 1.0,
+      "preferred_side": "any",
+      "allow_rotation": false,
+      "max_rotation_degrees": 0,
+      "safe_margin": 1.0,
+      "allow_edge_bleed": false,
+      "source_url": "https://posthog.com/brand/posthog-logomark.svg",
+      "license_notes": "Official PostHog logomark from posthog.com/brand, copied verbatim, fetched 2026-09-24. The older tool-api-additions-20260917/posthog.svg is a black-tile favicon, not the colour logomark. Trademark remains with PostHog Inc..",
+      "last_verified": "2026-09-24",
+      "description": "PostHog logomark: blue, orange and yellow slanted bars with a black hedgehog, wide ~1.85:1"
+    },
+    "canva": {
+      "path": "assets/logos/design-tools/canva.png",
+      "aliases": [
+        "canva.com",
+        "canva-icon",
+        "canva-c"
+      ],
+      "has_outline": false,
+      "preferred_size": 1.0,
+      "preferred_side": "any",
+      "allow_rotation": false,
+      "max_rotation_degrees": 0,
+      "safe_margin": 1.0,
+      "allow_edge_bleed": false,
+      "source_url": "https://static.canva.com/domain-assets/canva/static/images/android-192x192-2.png",
+      "license_notes": "Official Canva app icon from static.canva.com (193x192, transparent corners), copied verbatim, fetched 2026-09-24. Largest official \"C\" icon reachable: the 512px variant returns 403 and canva.com/newsroom is bot-blocked. The Canva GitHub org avatar (github.com/canva.png, 460px) shows the gradient disc with the full \"Canva\" script instead of the C. Trademark remains with Canva Pty Ltd.",
+      "last_verified": "2026-09-24",
+      "description": "Canva icon: teal-to-violet gradient disc with a white script C"
+    }
+  },
+  "signature": null,
+  "firefox": {
+    "path": "assets/logos/ai-models/firefox-color.png",
+    "aliases": [
+      "mozilla-firefox",
+      "firefox-browser",
+      "mozilla firefox"
+    ],
+    "has_outline": false,
+    "preferred_size": 1.0,
+    "preferred_side": "left",
+    "allow_rotation": false,
+    "max_rotation_degrees": 0,
+    "safe_margin": 1.0,
+    "allow_edge_bleed": false,
+    "source_url": "https://commons.wikimedia.org/wiki/File:Firefox_logo,_2019.svg",
+    "license_notes": "Official Firefox browser logo (2019), Mozilla trademark; SVG from Wikimedia Commons rasterized at 2000px via Chromium (gradients preserved), source saved alongside as firefox.svg.",
+    "last_verified": "2026-08-15",
+    "description": "Firefox browser logo (2019 flame fox, full color gradients)"
+  }
+}

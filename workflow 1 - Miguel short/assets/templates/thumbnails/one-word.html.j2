@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: 1280px; height: 720px; overflow: hidden; }
+  .canvas {
+    position: relative;
+    width: 1280px;
+    height: 720px;
+    background: #F5EEE3;
+    font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif;
+  }
+  .photo {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  /* Soft warm vignette so type always reads */
+  .scrim {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      {% if word_align == 'right' %}{{ scrim_direction | default('to left') }}{% else %}{{ scrim_direction | default('to right') }}{% endif %},
+      rgba(30, 24, 18, {{ scrim_opacity | default(0.38) }}) 0%,
+      rgba(30, 24, 18, 0) 55%
+    );
+  }
+  .word {
+    position: absolute;
+    {% if word_center_x is defined and word_center_x is not none %}
+    left: {{ (word_center_x * 100) | round(2) }}%;
+    top: {{ (word_center_y * 100) | round(2) }}%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    white-space: nowrap;
+    {% else %}
+    {% if word_align == 'right' %}right: 64px; text-align: right;{% else %}left: 64px;{% endif %}
+    {% if word_position == 'bottom' %}bottom: 56px;{% elif word_position == 'top' %}top: 48px;{% else %}top: 50%; transform: translateY(-50%);{% endif %}
+    {% endif %}
+    font-size: {{ word_size | default(170) }}px;
+    font-weight: 700;
+    letter-spacing: -0.03em;
+    line-height: 0.95;
+    color: {{ word_color | default('#FFFFFF') }};
+    text-shadow: 0 4px 28px rgba(20, 15, 10, 0.45);
+    max-width: 760px;
+  }
+  .underline {
+    position: absolute;
+    {% if word_center_x is defined and word_center_x is not none %}
+    left: {{ (word_center_x * 100) | round(2) }}%;
+    transform: translateX(-50%);
+    top: calc({{ (word_center_y * 100) | round(2) }}% + {{ (word_size | default(170)) * 0.60 }}px);
+    {% else %}
+    {% if word_align == 'right' %}right: 68px;{% else %}left: 68px;{% endif %}
+    {% if word_position == 'bottom' %}bottom: 34px;{% elif word_position == 'top' %}top: {{ 48 + (word_size | default(170)) * 1.06 }}px;{% else %}top: calc(50% + {{ (word_size | default(170)) * 0.62 }}px);{% endif %}
+    {% endif %}
+    width: {{ underline_width | default(360) }}px;
+  }
+  .mascot {
+    position: absolute;
+    right: 36px;
+    bottom: 30px;
+    width: 84px;
+    image-rendering: pixelated;
+    opacity: 0.94;
+  }
+</style>
+</head>
+<body>
+<div class="canvas">
+  {% if photo %}<img class="photo" src="{{ photo }}">{% endif %}
+  <div class="scrim"></div>
+  <div class="word">{{ word }}</div>
+  {% if underline %}
+  <svg class="underline" height="22" viewBox="0 0 360 22" preserveAspectRatio="none">
+    <path d="M4 14 C 80 6, 180 20, 356 9" stroke="#E8833A" stroke-width="9" fill="none" stroke-linecap="round"/>
+  </svg>
+  {% endif %}
+  {% if mascot %}<img class="mascot" src="{{ mascot }}">{% endif %}
+</div>
+</body>
+</html>

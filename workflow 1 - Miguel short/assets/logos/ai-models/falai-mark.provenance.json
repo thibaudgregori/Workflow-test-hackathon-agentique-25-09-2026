@@ -1,0 +1,15 @@
+{
+  "derived_from": "assets/logos/tool-web-icons-20260914/falai.png",
+  "derived_at": "2026-09-23T18:29:27.777653+02:00",
+  "derived_by": "shorts-factory run 27 design agent (falagent)",
+  "why": "The library's only fal.ai mark is the 180x180 web favicon: the magenta mark on an opaque pale-pink square. Pasted into a GRAPHIC CHART tile it reads as a pink sticker inside the cream tile (a second square with pointed corners, LAW 32).",
+  "transform": "Alpha = (196 - G) / 190 clipped to 0..1 (the pale-pink ground has G 196, the mark G 6); every pixel re-coloured to the mark's own #EC0648; alpha upscaled 4x with Lanczos and cropped to the ink. Geometry untouched: no redraw.",
+  "precedent": "seedance-ink, claude-cowork (derived variants of a library mark, geometry untouched).",
+  "license_notes": "fal.ai brand artwork. Derivation for on-brand placement only; trademark remains with Features & Labels, Inc. (fal.ai).",
+  "sha256": "cbb6d5caf41f4a6991bf1a039486764ae5b95fa9a51397dac658085e0c41387d",
+  "bytes": 39425,
+  "size": [
+    596,
+    596
+  ]
+}

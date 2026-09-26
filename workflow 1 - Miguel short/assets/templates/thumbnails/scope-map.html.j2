@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: 1280px; height: 720px; overflow: hidden; }
+  .canvas {
+    position: relative;
+    width: 1280px;
+    height: 720px;
+    background:
+      radial-gradient(ellipse 1000px 640px at 50% 30%, #FBF6ED 0%, rgba(251, 246, 237, 0) 65%),
+      #F2E9DA;
+    font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 54px;
+  }
+  .headline {
+    font-size: {{ headline_size | default(124) }}px;
+    font-weight: 700;
+    letter-spacing: -0.03em;
+    color: #221E19;
+    line-height: 1;
+  }
+  .tiles {
+    display: flex;
+    gap: 26px;
+    align-items: stretch;
+  }
+  .tile {
+    width: {{ tile_width | default(200) }}px;
+    background: #FFFDF9;
+    border: 3px solid #2A241D;
+    border-radius: 18px;
+    padding: 22px 16px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+    box-shadow: 0 14px 30px rgba(50, 38, 24, 0.16);
+  }
+  .tile .num {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background: #E8833A;
+    color: #FFF9F1;
+    font-weight: 700;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .tile img { width: 84px; height: 84px; object-fit: contain; }
+  .tile .glyph {
+    width: 84px;
+    height: 84px;
+    border-radius: 16px;
+    background: #F0E4CE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 46px;
+    font-weight: 700;
+    color: #C9662A;
+    font-family: "SF Mono", Menlo, monospace;
+  }
+  .tile .name {
+    font-size: 27px;
+    font-weight: 600;
+    color: #221E19;
+    text-align: center;
+    line-height: 1.1;
+  }
+  .face {
+    position: absolute;
+    right: 30px;
+    bottom: 0;
+    width: {{ face_width | default(260) }}px;
+  }
+  .face img { width: 100%; display: block; }
+  .mascot {
+    position: absolute;
+    left: 48px;
+    bottom: 30px;
+    width: 76px;
+    image-rendering: pixelated;
+    opacity: 0.94;
+  }
+</style>
+</head>
+<body>
+<div class="canvas">
+  <div class="headline">{{ headline }}</div>
+  <div class="tiles">
+    {% for t in tiles %}
+    <div class="tile">
+      <div class="num">{{ loop.index }}</div>
+      {% if t.image %}<img src="{{ t.image }}">{% else %}<div class="glyph">{{ t.glyph }}</div>{% endif %}
+      <div class="name">{{ t.name }}</div>
+    </div>
+    {% endfor %}
+  </div>
+  {% if face %}<div class="face"><img src="{{ face }}"></div>{% endif %}
+  {% if mascot %}<img class="mascot" src="{{ mascot }}">{% endif %}
+</div>
+</body>
+</html>

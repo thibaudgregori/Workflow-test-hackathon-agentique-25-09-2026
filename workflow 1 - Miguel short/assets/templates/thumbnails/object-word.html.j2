@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: 1280px; height: 720px; overflow: hidden; }
+  .canvas {
+    position: relative;
+    width: 1280px;
+    height: 720px;
+    background:
+      radial-gradient(ellipse 900px 600px at 78% 40%, #FBF6ED 0%, rgba(251, 246, 237, 0) 60%),
+      #F2E9DA;
+    font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif;
+  }
+  .words {
+    position: absolute;
+    left: 64px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: {{ word_size | default(118) }}px;
+    font-weight: 700;
+    letter-spacing: -0.03em;
+    line-height: 1.04;
+    color: #221E19;
+    max-width: 620px;
+  }
+  .boxed {
+    display: inline-block;
+    background: #E8833A;
+    color: #FFF9F1;
+    border-radius: 14px;
+    padding: 0 20px 6px;
+    line-height: 1.0;
+  }
+  .object {
+    position: absolute;
+    right: 70px;
+    top: 50%;
+    transform: translateY(-50%) rotate({{ object_tilt | default(-2) }}deg);
+    width: {{ object_width | default(430) }}px;
+    filter: drop-shadow(0 22px 44px rgba(50, 38, 24, 0.28));
+  }
+  .object img { width: 100%; display: block; border-radius: 18px; }
+  .arrow {
+    position: absolute;
+    left: 640px;
+    top: {{ arrow_top | default(190) }}px;
+    width: 190px;
+  }
+  .face {
+    position: absolute;
+    right: 40px;
+    bottom: 0;
+    width: {{ face_width | default(480) }}px;
+  }
+  .face img { width: 100%; display: block; }
+  .mascot {
+    position: absolute;
+    left: 64px;
+    bottom: 30px;
+    width: 76px;
+    image-rendering: pixelated;
+    opacity: 0.94;
+  }
+</style>
+</head>
+<body>
+<div class="canvas">
+  <div class="words">{{ words_html }}</div>
+  <div class="object">
+    <img src="{{ object_image }}">
+  </div>
+  {% if arrow %}
+  <svg class="arrow" viewBox="0 0 190 110">
+    <path d="M12 20 C 60 68, 110 86, 158 78" stroke="#E8833A" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <path d="M158 78 L 128 62 M158 78 L 136 98" stroke="#E8833A" stroke-width="10" fill="none" stroke-linecap="round"/>
+  </svg>
+  {% endif %}
+  {% if face %}<div class="face"><img src="{{ face }}"></div>{% endif %}
+  {% if mascot %}<img class="mascot" src="{{ mascot }}">{% endif %}
+</div>
+</body>
+</html>

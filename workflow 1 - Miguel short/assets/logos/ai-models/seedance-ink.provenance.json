@@ -1,0 +1,21 @@
+{
+  "derived_from": "assets/logos/ai-models/seedance-2-wordmark.png",
+  "derived_at": "2026-09-06T12:28:42.887339+02:00",
+  "derived_by": "shorts-factory run 16 artwork author (minimaxh3)",
+  "why": "The shipped wordmark is an opaque 317x65 crop of ByteDance's launch thumbnail: white type over a photographic pink/blue gradient. Pasting it on the shorts factory's cream board puts a photograph inside the GRAPHIC CHART (cream ground, near-black ink, one terracotta accent, no gradients, no photographs).",
+  "transform": "Alpha = whiteness of the source pixel (min-channel ramp 212..248 gated by saturation < 0.15); connected components under 60 px dropped as photographic ghosting; surviving alpha re-inked to #141416. Letterforms and geometry untouched: no redraw, no reflow, no resize, no re-typesetting. The '2.0' pill inverts with the rest, so the numerals read cream out of an ink pill exactly as they read black out of a white pill in the source.",
+  "precedent": "claude-cowork (a mark recoloured along its own luminance ramp with geometry and alpha untouched, registered as a derived variant).",
+  "license_notes": "ByteDance/Seedance brand artwork. Derivation for on-brand placement only; trademark remains with ByteDance.",
+  "sha256": "b3e8fd87b9cc907adba94d04297ff6df7681c66dba15e21eb9dac5d13d2405a2",
+  "bytes": 2727,
+  "size": [
+    317,
+    65
+  ],
+  "ink_bbox_xyxy": [
+    10,
+    8,
+    306,
+    52
+  ]
+}

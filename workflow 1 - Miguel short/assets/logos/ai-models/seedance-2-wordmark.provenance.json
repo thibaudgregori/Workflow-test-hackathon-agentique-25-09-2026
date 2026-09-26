@@ -1,0 +1,51 @@
+{
+  "verified_at": "2026-09-06T02:05:13.556599+02:00",
+  "official_product_page": "https://seed.bytedance.com/en/seedance2_0",
+  "official_launch_page": "https://seed.bytedance.com/en/blog/official-launch-of-seedance-2-0",
+  "source_url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4uec3mljbh2lr.jpg",
+  "provenance": "Official launch page server router data Content record names this URL as Thumbnail for seedance-2-0-official-launch. Original JPEG bytes retained. Product hero uses H1 Seedance 2.0; no distinct product icon or standalone logo SVG/PNG found in checked official product, launch, and linked BytePlus pages. This is a genuine raster wordmark from official campaign artwork, not a claim that no separate logo exists anywhere.",
+  "candidate": "seedance-2.0-official-wordmark-crop.png",
+  "crop_box_xyxy_exclusive": [
+    118,
+    120,
+    435,
+    185
+  ],
+  "original_size": [
+    553,
+    311
+  ],
+  "candidate_size": [
+    317,
+    65
+  ],
+  "transform": "Exact pixel crop from decoded official JPEG, PNG saved without resize/retype/redraw/color change or background removal.",
+  "license_notes": "ByteDance/Seedance brand artwork; official origin establishes provenance, not a blanket reuse license.",
+  "canonical_changes": false,
+  "files": {
+    "seedance-2.0-official-thumbnail.jpg": {
+      "sha256": "901cb04f0fecee5b49094d5a0b033d8e70a79ada6b3fa7e99f56ee7b07e8a091",
+      "bytes": 100075
+    },
+    "seedance-2.0-official-thumbnail.png": {
+      "sha256": "591bf57eb36e549a97ce18c4759e34bd7f850ffbc71f57521a6d57d7950c8774",
+      "bytes": 223004
+    },
+    "seedance-2.0-official-wordmark-crop.png": {
+      "sha256": "1d6c5da3a889d7ad9a2df1d3717a2bbdba3b8f1ee51a57051ce141ddd3fb2bdf",
+      "bytes": 32187
+    },
+    "official-page.html": {
+      "sha256": "79f233505c2c46ba7aaca4244072fdd876516365ad0811d902a8ce1d5e217a29",
+      "bytes": 233194
+    },
+    "official-launch.html": {
+      "sha256": "2382d1f33b9e576ef147daab701543c73b337bba2f9b705b85b650583cb83f7e",
+      "bytes": 247566
+    },
+    "byteplus-page.html": {
+      "sha256": "2d9d54529784d341a505af792356cc3b9db0766821833cd7eb31f8dca6c61ade",
+      "bytes": 539724
+    }
+  }
+}

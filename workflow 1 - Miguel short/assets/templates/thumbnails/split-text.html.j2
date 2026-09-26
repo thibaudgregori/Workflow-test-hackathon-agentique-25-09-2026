@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: 1280px; height: 720px; overflow: hidden; }
+  .canvas {
+    position: relative;
+    width: 1280px;
+    height: 720px;
+    overflow: hidden;
+    background: {{ ground | default('#F2E9DA') }};
+    font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif;
+  }
+  .photo, .cutout {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform:
+      translate({{ media_shift_x | default(0) }}px, {{ media_shift_y | default(0) }}px)
+      scale({{ media_scale | default(1) }});
+    transform-origin: center;
+  }
+  .photo { z-index: 0; }
+  .split-word {
+    position: absolute;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+    width: max-content;
+    max-width: 46%;
+    color: {{ text_color | default('#14213D') }};
+    font-size: {{ text_size | default(160) }}px;
+    font-weight: 900;
+    line-height: .82;
+    letter-spacing: {{ letter_spacing | default('-0.055em') }};
+    text-transform: uppercase;
+    white-space: nowrap;
+    paint-order: stroke fill;
+    -webkit-text-stroke: {{ stroke_width | default(0) }}px {{ stroke_color | default('transparent') }};
+    text-shadow: 0 5px 18px rgba(34, 30, 25, {{ shadow_opacity | default(0.12) }});
+  }
+  .cutout { z-index: 2; }
+  .logo {
+    position: absolute;
+    z-index: 3;
+    left: {{ (logo_x | default(0.88)) * 100 }}%;
+    top: {{ (logo_y | default(0.80)) * 100 }}%;
+    width: {{ logo_size | default(220) }}px;
+    transform: translate(-50%, -50%);
+  }
+  .logo img { display: block; width: 100%; }
+</style>
+</head>
+<body>
+<div class="canvas">
+  {% if photo %}<img class="photo" src="{{ photo }}">{% endif %}
+  {% for word in words %}
+  <div
+    class="split-word"
+    data-word="{{ word.text }}"
+    style="
+      left: {{ word.x * 100 }}%;
+      top: {{ word.y * 100 }}%;
+      font-size: {{ word.size | default(text_size | default(160)) }}px;
+      color: {{ word.color | default(text_color | default('#14213D')) }};
+      -webkit-text-stroke: {{ word.stroke_width | default(stroke_width | default(0)) }}px {{ word.stroke_color | default(stroke_color | default('transparent')) }};
+    "
+  >{{ word.text }}</div>
+  {% endfor %}
+  {% if cutout %}<img class="cutout" src="{{ cutout }}">{% endif %}
+  {% if logo %}<div class="logo"><img src="{{ logo }}"></div>{% endif %}
+</div>
+</body>
+</html>

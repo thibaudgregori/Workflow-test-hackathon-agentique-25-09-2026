@@ -1,0 +1,29 @@
+# Heavy media lives in the GitHub Release (see docs/MEDIA.md)
+*.mp4
+*.MP4
+*.mov
+*.mkv
+*.webm
+*.wav
+*.m4a
+*.mp3
+*.safetensors
+*.npy
+*.npz
+.media-download/
+
+# Local environments and caches
+.venv*/
+node_modules/
+__pycache__/
+.pytest_cache/
+.DS_Store
+
+# Never commit credentials
+.env
+.env.*
+secrets/
+
+# small shared audio (music beds, SFX) stays in git
+!assets/audio/**/*.mp3
+!assets/audio/**/*.wav

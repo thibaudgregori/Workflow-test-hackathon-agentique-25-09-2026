@@ -1,0 +1,39 @@
+{
+  "logos": [
+    {
+      "key": "claude-code",
+      "path": "assets/logos/coding-tools/claudecode-color.png"
+    },
+    {
+      "key": "gemini",
+      "path": "assets/logos/ai-models/gemini-color.png"
+    },
+    {
+      "key": "chatgpt",
+      "path": "assets/logos/ai-models/chatgpt-color.png"
+    },
+    {
+      "key": "codex",
+      "path": "assets/logos/coding-tools/codex-color.png"
+    },
+    {
+      "key": "perplexity",
+      "path": "assets/logos/ai-models/perplexity-color.png"
+    },
+    {
+      "key": "cursor",
+      "path": "assets/logos/coding-tools/cursor.png"
+    },
+    {
+      "key": "grok",
+      "path": "assets/logos/ai-models/grok.png"
+    },
+    {
+      "key": "minimax",
+      "path": "assets/logos/ai-models/minimax-color.png"
+    }
+  ],
+  "fonts": {
+    "mono": "/Users/migle/Documents/Workspace/assets/fonts/jetbrains-mono/JetBrainsMono-Bold.ttf"
+  }
+}

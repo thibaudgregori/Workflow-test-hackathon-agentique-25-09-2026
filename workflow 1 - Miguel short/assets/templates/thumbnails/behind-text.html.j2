@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: 1280px; height: 720px; overflow: hidden; }
+  .canvas {
+    position: relative;
+    width: 1280px;
+    height: 720px;
+    background: {{ ground | default('#F2E9DA') }};
+    font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif;
+    overflow: hidden;
+  }
+  /* Layer 1 — the full photo (subject included) */
+  .photo, .cutout {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  /* Layer 2 — oversized type, drawn OVER the photo but UNDER the subject */
+  .behind {
+    position: absolute;
+    left: {{ (text_center_x | default(0.5)) * 100 }}%;
+    top: {{ (text_center_y | default(0.28)) * 100 }}%;
+    transform: translate(-50%, -50%);
+    width: {{ text_width_pct | default(96) }}%;
+    text-align: {{ text_align | default('center') }};
+    font-size: {{ text_size | default(210) }}px;
+    font-weight: 800;
+    letter-spacing: {{ letter_spacing | default('-0.02em') }};
+    line-height: {{ line_height | default(0.92) }};
+    color: {{ text_color | default('#FFFFFF') }};
+    text-transform: {{ text_transform | default('uppercase') }};
+    white-space: pre-line;
+  }
+  /* Layer 3 — the subject cutout, identical framing to the photo, on top */
+  .cutout { z-index: 2; }
+  .logo {
+    position: absolute;
+    z-index: 3;
+    {% if logo_side == 'left' %}left: {{ logo_x | default(64) }}px;{% else %}right: {{ logo_x | default(64) }}px;{% endif %}
+    top: {{ (logo_y | default(0.60)) * 100 }}%;
+    transform: translateY(-50%);
+    width: {{ logo_size | default(150) }}px;
+  }
+  .logo img { width: 100%; display: block; }
+  .kicker {
+    position: absolute;
+    z-index: 3;
+    {% if kicker_side == 'right' %}right: 64px; text-align: right;{% else %}left: 64px;{% endif %}
+    bottom: {{ kicker_bottom | default(64) }}px;
+    font-size: {{ kicker_size | default(64) }}px;
+    font-weight: 700;
+    color: {{ kicker_color | default('#221E19') }};
+    line-height: 1.05;
+  }
+</style>
+</head>
+<body>
+<div class="canvas">
+  {% if photo %}<img class="photo" src="{{ photo }}">{% endif %}
+  <div class="behind">{% if text_html %}{{ text_html }}{% else %}{{ text }}{% endif %}</div>
+  {% if cutout %}<img class="cutout" src="{{ cutout }}">{% endif %}
+  {% if logo %}<div class="logo"><img src="{{ logo }}"></div>{% endif %}
+  {% if kicker %}<div class="kicker">{{ kicker }}</div>{% endif %}
+</div>
+</body>
+</html>

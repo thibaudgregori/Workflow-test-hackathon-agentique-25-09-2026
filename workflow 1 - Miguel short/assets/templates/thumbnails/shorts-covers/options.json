@@ -1,0 +1,12 @@
+[
+  {"id":"tt01","platform":"tiktok","name":"Daily spark","pose":"neutral-smile","lines":["DAILY","AI."],"size":164,"icon":"spark","subject_w":1330,"subject_x":-125,"rule":false},
+  {"id":"tt02","platform":"tiktok","name":"The toolkit","pose":"point-lens-right-hand","lines":["AI","TOOLKIT."],"size":142,"icon":"toolbox","subject_w":1330,"subject_x":-125,"rule":false},
+  {"id":"tt03","platform":"tiktok","name":"Let's build","pose":"finger-up-left-hand","lines":["LET'S","BUILD."],"size":146,"icon":"plug","subject_w":1260,"subject_x":-90,"rule":false},
+  {"id":"tt04","platform":"tiktok","name":"AI explained","pose":"look-up-a","lines":["AI,","EXPLAINED."],"size":137,"icon":"book","subject_w":1170,"subject_x":-120,"rule":false},
+  {"id":"tt05","platform":"tiktok","name":"What's next","pose":"arms-crossed","lines":["WHAT'S","NEXT?"],"size":144,"icon":"arrow","subject_w":1150,"subject_x":-35,"rule":false},
+  {"id":"ig01","platform":"instagram","name":"The AI edit","pose":"point-lens-left-hand","lines":["THE","AI EDIT."],"size":140,"icon":"edit","subject_w":1060,"subject_x":10,"subject_bottom":207,"rule":true,"rule_y":658},
+  {"id":"ig02","platform":"instagram","name":"Under the hood","pose":"look-up-b","lines":["UNDER","THE HOOD."],"size":112,"icon":"chip","subject_w":1010,"subject_x":160,"subject_bottom":207,"rule":false},
+  {"id":"ig03","platform":"instagram","name":"One good idea","pose":"finger-up-right-hand","lines":["ONE GOOD","IDEA."],"size":128,"icon":"bulb","subject_w":1080,"subject_x":0,"subject_bottom":207,"rule":false},
+  {"id":"ig04","platform":"instagram","name":"Make it click","pose":"point-lens-right-hand","lines":["MAKE IT","CLICK."],"size":136,"icon":"cursor","subject_w":1060,"subject_x":-30,"subject_bottom":207,"rule":true,"rule_y":663},
+  {"id":"ig05","platform":"instagram","name":"Behind the build","pose":"arms-crossed","lines":["BEHIND","THE BUILD."],"size":121,"icon":"window","subject_w":1000,"subject_x":40,"subject_bottom":207,"rule":false}
+]

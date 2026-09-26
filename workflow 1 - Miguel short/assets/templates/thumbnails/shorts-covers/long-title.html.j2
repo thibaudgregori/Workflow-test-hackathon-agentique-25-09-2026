@@ -1,0 +1,31 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><style>
+@font-face{font-family:Mono;src:url('{{ font_uri }}');font-weight:700}
+@font-face{font-family:Mono;src:url('{{ heavy_font_uri }}');font-weight:800}
+{% for weight,uri in extra_font_uris|dictsort %}
+@font-face{font-family:Mono;src:url('{{ uri }}');font-weight:{{ weight }}}
+{% endfor %}
+{% if display_font_uri is defined %}
+@font-face{font-family:Headline;src:url('{{ display_font_uri }}');font-weight:{{ title_weight }}}
+{% endif %}
+*{box-sizing:border-box}
+.abs{position:absolute}
+html,body{margin:0;width:1080px;height:1920px;background:#F6F1EA;color:#141416;overflow:hidden}
+.canvas{position:relative;width:1080px;height:1920px;overflow:hidden}
+.subject{position:absolute;left:{{ safe_subject_x }}px;top:{{ photo_y }}px;width:{{ safe_subject_w }}px;height:{{ safe_subject_h }}px;z-index:3}
+.title{position:absolute;left:64px;top:{{ title_y }}px;width:952px;margin:0;z-index:4;font-family:{{ 'Headline' if display_font_uri is defined else 'Mono' }};font-size:{{ size }}px;font-weight:{{ title_weight }};font-synthesis:none;line-height:{{ title_leading|default(1.07) }};letter-spacing:{{ tracking|default(-2) }}px;text-align:{{ title_align }}}
+.title .line{display:block;white-space:nowrap}
+.title .accent{color:#C4573A}
+.boxed .title .accent{display:table;max-width:100%;background:#C4573A;color:#FFFDF9;padding:3px 14px 8px;line-height:{{ title_leading|default(1.07) }};border-radius:5px;margin-top:8px;margin-left:{{ 'auto' if title_align == 'center' else '0' }};margin-right:{{ 'auto' if title_align == 'center' else '0' }}}
+{% if treatment|default('') == 'outline' %}
+.boxed .title .accent{background:transparent;color:#141416;border:5px solid #C4573A;padding:0 10px 5px}
+{% elif treatment|default('') == 'ink-box' %}
+.boxed .title .accent{background:#141416;color:#FFFDF9}
+{% elif treatment|default('') == 'underline' %}
+.title .accent{text-decoration:underline;text-decoration-color:#C4573A;text-decoration-thickness:8px;text-underline-offset:10px;color:#141416}
+{% endif %}
+</style></head><body><main class="canvas {% if boxed %}boxed{% endif %}">
+{{ depth_html|safe }}
+<img class="subject" src="{{ photo_uri }}" alt="Miguel original photo">
+<h1 class="title">{% for line in lines %}<span class="line {% if loop.last %}accent{% endif %}" {% if line_sizes is defined %}style="font-size:{{ line_sizes[loop.index0] }}px"{% endif %}>{{ line }}</span>{% endfor %}</h1>
+</main></body></html>

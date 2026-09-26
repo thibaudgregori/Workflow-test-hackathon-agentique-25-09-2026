@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: 1280px; height: 720px; overflow: hidden; }
+  .canvas {
+    position: relative;
+    width: 1280px;
+    height: 720px;
+    background:
+      radial-gradient(ellipse 1000px 640px at 50% 35%, #FBF6ED 0%, rgba(251, 246, 237, 0) 65%),
+      #F2E9DA;
+    font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 46px;
+  }
+  .headline {
+    font-size: {{ headline_size | default(104) }}px;
+    font-weight: 700;
+    letter-spacing: -0.03em;
+    color: #221E19;
+    line-height: 1;
+  }
+  .row {
+    display: flex;
+    align-items: center;
+    gap: 44px;
+  }
+  .contender {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .tile {
+    width: {{ tile_size | default(280) }}px;
+    height: {{ tile_size | default(280) }}px;
+    border-radius: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 22px 46px rgba(50, 38, 24, 0.24);
+    overflow: hidden;
+  }
+  .tile img { width: 68%; height: 68%; object-fit: contain; }
+  .tile.text-tile { font-weight: 800; }
+  .contender .name {
+    font-size: 34px;
+    font-weight: 600;
+    color: #4A4238;
+  }
+  .vs {
+    font-size: 58px;
+    font-weight: 700;
+    color: #E8833A;
+    padding-bottom: 54px;
+  }
+  .face {
+    position: absolute;
+    right: 30px;
+    bottom: 0;
+    width: {{ face_width | default(250) }}px;
+  }
+  .face img { width: 100%; display: block; }
+  .mascot {
+    position: absolute;
+    left: 48px;
+    bottom: 30px;
+    width: 76px;
+    image-rendering: pixelated;
+    opacity: 0.94;
+  }
+</style>
+</head>
+<body>
+<div class="canvas">
+  {% if headline %}<div class="headline">{{ headline }}</div>{% endif %}
+  <div class="row">
+    <div class="contender">
+      <div class="tile text-tile" style="background: {{ left_bg | default('#E8833A') }}; color: {{ left_fg | default('#FFF9F1') }}; font-size: {{ left_glyph_size | default(150) }}px;">
+        <img src="{{ left_image }}">
+      </div>
+      <div class="name">{{ left_name }}</div>
+    </div>
+    <div class="vs">vs</div>
+    <div class="contender">
+      <div class="tile text-tile" style="background: {{ right_bg | default('#26211B') }}; color: {{ right_fg | default('#7CE8A4') }}; font-size: {{ right_glyph_size | default(110) }}px; font-family: 'SF Mono', Menlo, monospace;">
+        <img src="{{ right_image }}">
+      </div>
+      <div class="name">{{ right_name }}</div>
+    </div>
+  </div>
+  {% if face %}<div class="face"><img src="{{ face }}"></div>{% endif %}
+  {% if mascot %}<img class="mascot" src="{{ mascot }}">{% endif %}
+</div>
+</body>
+</html>

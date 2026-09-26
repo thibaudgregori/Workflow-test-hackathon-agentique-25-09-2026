@@ -1,0 +1,1 @@
+Local font faces extracted from this Mac’s installed Avenir collections for private thumbnail rendering. Do not bundle or publish these font files with shared deliverables; exported cover images do not require them.

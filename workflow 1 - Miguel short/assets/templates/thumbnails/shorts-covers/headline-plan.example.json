@@ -1,0 +1,22 @@
+{
+  "short_id": "3b431704-6eeb-81c8-9ed6-cc808706864b",
+  "source_package": "/Users/migle/Movies/Shorts Factory/Ready to Publish/Gemini can now use Google Maps and Google Search tools",
+  "transcript_path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run15/cuts/geminitools/transcript_tight.json",
+  "transcript_sha256": "8885f0833de87a351252452f43e47056fce68e70874184a6722e6ad8006e581c",
+  "transcript_character_count": 326,
+  "full_transcript_read": true,
+  "keyword": "Gemini",
+  "keyword_reason": "Gemini is the named subject; the API qualifier is essential because this short addresses developers using its API, not the consumer app.",
+  "headline_reason": "Search and Maps can be used together through the Gemini API. The cover states that exact change without inventing access for app users.",
+  "supporting_quotes": [
+    "If you're using Gemini via the API, this video's for you.",
+    "Google Search and Google Maps tools directly from the API, and both at the same time"
+  ],
+  "lines": [
+    "SEARCH + MAPS",
+    "TOGETHER IN",
+    "GEMINI API"
+  ],
+  "authored_by": "current assistant after reading the full transcript",
+  "model_api_calls": 0
+}

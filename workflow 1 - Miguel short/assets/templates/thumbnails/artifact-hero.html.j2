@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: 1280px; height: 720px; overflow: hidden; }
+  .canvas {
+    position: relative;
+    width: 1280px;
+    height: 720px;
+    background: #F2E9DA;
+    font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif;
+  }
+  .photo {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .card {
+    position: absolute;
+    {% if card_side == 'left' %}left: 56px;{% else %}right: 56px;{% endif %}
+    top: 50%;
+    transform: translateY(-50%) rotate({{ card_tilt | default(1.5) }}deg);
+    width: {{ card_width | default(560) }}px;
+    background: #FFFDF9;
+    border-radius: 20px;
+    padding: 18px;
+    box-shadow: 0 26px 60px rgba(40, 30, 18, 0.34);
+  }
+  .card img {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+  }
+  .card .strip {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+    padding: 16px 6px 4px;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    color: #221E19;
+  }
+  .card .strip .to { color: #E8833A; }
+  .label {
+    position: absolute;
+    {% if card_side == 'left' %}right: 64px; text-align: right;{% else %}left: 64px;{% endif %}
+    bottom: 56px;
+    font-size: {{ label_size | default(96) }}px;
+    font-weight: 700;
+    letter-spacing: -0.03em;
+    line-height: 1.0;
+    color: {{ label_color | default('#FFFFFF') }};
+    text-shadow: 0 4px 26px rgba(20, 15, 10, 0.45);
+    max-width: 560px;
+  }
+  .mascot {
+    position: absolute;
+    {% if card_side == 'left' %}right: 36px;{% else %}left: 36px;{% endif %}
+    top: 30px;
+    width: 80px;
+    image-rendering: pixelated;
+    opacity: 0.94;
+  }
+</style>
+</head>
+<body>
+<div class="canvas">
+  {% if photo %}<img class="photo" src="{{ photo }}">{% endif %}
+  <div class="card">
+    <img src="{{ artifact_image }}">
+    {% if strip_before %}
+    <div class="strip"><span>{{ strip_before }}</span><span class="to">→</span><span>{{ strip_after }}</span></div>
+    {% endif %}
+  </div>
+  {% if label %}<div class="label">{{ label }}</div>{% endif %}
+  {% if mascot %}<img class="mascot" src="{{ mascot }}">{% endif %}
+</div>
+</body>
+</html>

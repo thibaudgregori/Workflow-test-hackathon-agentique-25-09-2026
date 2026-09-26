@@ -1,0 +1,602 @@
+[
+  {
+    "id": "top01",
+    "platform": "tiktok",
+    "name": "Claude limits",
+    "layout_name": "FILLED / LEFT",
+    "lines": [
+      "HITTING",
+      "CLAUDE CODE",
+      "LIMITS?"
+    ],
+    "pose": "plush-orange-a",
+    "size": 195,
+    "title_weight": 800,
+    "title_max_size": 240,
+    "title_align": "left",
+    "boxed": false,
+    "title_y": 310,
+    "photo_y": 865,
+    "photo_height": 740,
+    "depth_y": 1070,
+    "cast_index": 0,
+    "source_transcript": "projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/cuts/grokbuild/transcript_tight.json",
+    "title_leading": 0.99,
+    "line_sizes": [
+      195,
+      126,
+      195
+    ],
+    "follow_title_gap": 36
+  },
+  {
+    "id": "top02",
+    "platform": "tiktok",
+    "name": "Hermes desktop",
+    "layout_name": "FILLED / LEFT",
+    "lines": [
+      "BUILD YOUR",
+      "OWN HERMES",
+      "DESKTOP APP"
+    ],
+    "pose": "plush-lobster",
+    "size": 160,
+    "title_weight": 800,
+    "title_max_size": 240,
+    "title_align": "left",
+    "boxed": false,
+    "title_y": 310,
+    "photo_y": 865,
+    "photo_height": 740,
+    "depth_y": 1070,
+    "cast_index": 1,
+    "source_transcript": "projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/cuts/hermesdesktop/transcript_tight.json",
+    "title_leading": 0.99,
+    "line_sizes": [
+      160,
+      160,
+      146
+    ],
+    "follow_title_gap": 36
+  },
+  {
+    "id": "top03",
+    "platform": "tiktok",
+    "name": "Gemini tools",
+    "layout_name": "FILLED / LEFT",
+    "lines": [
+      "GEMINI USES",
+      "SEARCH AND",
+      "MAPS TOGETHER"
+    ],
+    "pose": "finger-up-left-hand",
+    "size": 160,
+    "title_weight": 800,
+    "title_max_size": 240,
+    "title_align": "left",
+    "boxed": false,
+    "title_y": 310,
+    "photo_y": 865,
+    "photo_height": 740,
+    "depth_y": 1070,
+    "cast_index": 2,
+    "source_transcript": "projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/cuts/geminitools/transcript_tight.json",
+    "title_leading": 0.99,
+    "line_sizes": [
+      146,
+      160,
+      124
+    ],
+    "follow_title_gap": 36
+  },
+  {
+    "id": "top04",
+    "platform": "tiktok",
+    "name": "Mistral moderation",
+    "layout_name": "FILLED / LEFT",
+    "lines": [
+      "MEET YOUR",
+      "ON-DEVICE",
+      "AI MODERATOR"
+    ],
+    "pose": "neutral-smile",
+    "size": 177,
+    "title_weight": 800,
+    "title_max_size": 240,
+    "title_align": "left",
+    "boxed": false,
+    "title_y": 310,
+    "photo_y": 865,
+    "photo_height": 740,
+    "depth_y": 1070,
+    "cast_index": 3,
+    "source_transcript": "projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/cuts/shieldstral/transcript_tight.json",
+    "title_leading": 0.99,
+    "line_sizes": [
+      177,
+      177,
+      134
+    ],
+    "follow_title_gap": 36
+  },
+  {
+    "id": "top05",
+    "platform": "tiktok",
+    "name": "The harness race",
+    "layout_name": "FILLED / LEFT",
+    "lines": [
+      "THE NEXT",
+      "AI RACE IS",
+      "THE HARNESS"
+    ],
+    "pose": "arms-crossed",
+    "size": 199,
+    "title_weight": 800,
+    "title_max_size": 240,
+    "title_align": "left",
+    "boxed": false,
+    "title_y": 310,
+    "photo_y": 865,
+    "photo_height": 740,
+    "depth_y": 1070,
+    "cast_index": 4,
+    "source_transcript": "projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/cuts/harnessrace/transcript_tight.json",
+    "title_leading": 0.99,
+    "line_sizes": [
+      199,
+      160,
+      146
+    ],
+    "follow_title_gap": 36
+  },
+  {
+    "id": "top06",
+    "platform": "tiktok",
+    "name": "Claude limits",
+    "layout_name": "FILLED / BOX",
+    "lines": [
+      "HITTING",
+      "CLAUDE CODE",
+      "LIMITS?"
+    ],
+    "pose": "plush-orange-b",
+    "size": 191,
+    "title_weight": 800,
+    "title_max_size": 240,
+    "title_align": "center",
+    "boxed": true,
+    "title_y": 310,
+    "photo_y": 865,
+    "photo_height": 740,
+    "depth_y": 1070,
+    "cast_index": 0,
+    "source_transcript": "projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/cuts/grokbuild/transcript_tight.json",
+    "title_leading": 0.99,
+    "line_sizes": [
+      191,
+      123,
+      184
+    ],
+    "follow_title_gap": 36
+  },
+  {
+    "id": "top07",
+    "platform": "tiktok",
+    "name": "Hermes desktop",
+    "layout_name": "FILLED / BOX",
+    "lines": [
+      "BUILD YOUR",
+      "OWN HERMES",
+      "DESKTOP APP"
+    ],
+    "pose": "point-lens-right-hand",
+    "size": 160,
+    "title_weight": 800,
+    "title_max_size": 240,
+    "title_align": "center",
+    "boxed": true,
+    "title_y": 310,
+    "photo_y": 865,
+    "photo_height": 740,
+    "depth_y": 1070,
+    "cast_index": 1,
+    "source_transcript": "projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/cuts/hermesdesktop/transcript_tight.json",
+    "title_leading": 0.99,
+    "line_sizes": [
+      160,
+      160,
+      140
+    ],
+    "follow_title_gap": 36
+  },
+  {
+    "id": "top08",
+    "platform": "tiktok",
+    "name": "Gemini tools",
+    "layout_name": "FILLED / BOX",
+    "lines": [
+      "GEMINI USES",
+      "SEARCH AND",
+      "MAPS TOGETHER"
+    ],
+    "pose": "look-up-a",
+    "size": 160,
+    "title_weight": 800,
+    "title_max_size": 240,
+    "title_align": "center",
+    "boxed": true,
+    "title_y": 310,
+    "photo_y": 865,
+    "photo_height": 740,
+    "depth_y": 1070,
+    "cast_index": 2,
+    "source_transcript": "projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/cuts/geminitools/transcript_tight.json",
+    "title_leading": 0.99,
+    "line_sizes": [
+      146,
+      160,
+      119
+    ],
+    "follow_title_gap": 36
+  },
+  {
+    "id": "top09",
+    "platform": "tiktok",
+    "name": "Mistral moderation",
+    "layout_name": "FILLED / BOX",
+    "lines": [
+      "MEET YOUR",
+      "ON-DEVICE",
+      "AI MODERATOR"
+    ],
+    "pose": "finger-up-right-hand",
+    "size": 177,
+    "title_weight": 800,
+    "title_max_size": 240,
+    "title_align": "center",
+    "boxed": true,
+    "title_y": 310,
+    "photo_y": 865,
+    "photo_height": 740,
+    "depth_y": 1070,
+    "cast_index": 3,
+    "source_transcript": "projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/cuts/shieldstral/transcript_tight.json",
+    "title_leading": 0.99,
+    "line_sizes": [
+      177,
+      177,
+      129
+    ],
+    "follow_title_gap": 36
+  },
+  {
+    "id": "top10",
+    "platform": "tiktok",
+    "name": "The harness race",
+    "layout_name": "FILLED / BOX",
+    "lines": [
+      "THE NEXT",
+      "AI RACE IS",
+      "THE HARNESS"
+    ],
+    "pose": "look-up-b",
+    "size": 199,
+    "title_weight": 800,
+    "title_max_size": 240,
+    "title_align": "center",
+    "boxed": true,
+    "title_y": 310,
+    "photo_y": 865,
+    "photo_height": 740,
+    "depth_y": 1070,
+    "cast_index": 4,
+    "source_transcript": "projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/cuts/harnessrace/transcript_tight.json",
+    "title_leading": 0.99,
+    "line_sizes": [
+      199,
+      160,
+      140
+    ],
+    "follow_title_gap": 36
+  },
+  {
+    "id": "top11",
+    "platform": "tiktok",
+    "name": "Claude limits",
+    "layout_name": "FILLED / CENTER",
+    "lines": [
+      "HITTING",
+      "CLAUDE CODE",
+      "LIMITS?"
+    ],
+    "pose": "plush-orange-a",
+    "size": 194,
+    "title_weight": 700,
+    "title_max_size": 240,
+    "title_align": "center",
+    "boxed": false,
+    "title_y": 310,
+    "photo_y": 865,
+    "photo_height": 740,
+    "depth_y": 1070,
+    "cast_index": 0,
+    "source_transcript": "projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/cuts/grokbuild/transcript_tight.json",
+    "title_leading": 0.99,
+    "line_sizes": [
+      194,
+      129,
+      194
+    ],
+    "follow_title_gap": 36
+  },
+  {
+    "id": "top12",
+    "platform": "tiktok",
+    "name": "Hermes desktop",
+    "layout_name": "FILLED / CENTER",
+    "lines": [
+      "BUILD YOUR",
+      "OWN HERMES",
+      "DESKTOP APP"
+    ],
+    "pose": "plush-lobster",
+    "size": 160,
+    "title_weight": 700,
+    "title_max_size": 240,
+    "title_align": "center",
+    "boxed": false,
+    "title_y": 310,
+    "photo_y": 865,
+    "photo_height": 740,
+    "depth_y": 1070,
+    "cast_index": 1,
+    "source_transcript": "projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/cuts/hermesdesktop/transcript_tight.json",
+    "title_leading": 0.99,
+    "line_sizes": [
+      160,
+      160,
+      146
+    ],
+    "follow_title_gap": 36
+  },
+  {
+    "id": "top13",
+    "platform": "tiktok",
+    "name": "Gemini tools",
+    "layout_name": "FILLED / CENTER",
+    "lines": [
+      "GEMINI USES",
+      "SEARCH AND",
+      "MAPS TOGETHER"
+    ],
+    "pose": "point-lens-left-hand",
+    "size": 160,
+    "title_weight": 700,
+    "title_max_size": 240,
+    "title_align": "center",
+    "boxed": false,
+    "title_y": 310,
+    "photo_y": 865,
+    "photo_height": 740,
+    "depth_y": 1070,
+    "cast_index": 2,
+    "source_transcript": "projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/cuts/geminitools/transcript_tight.json",
+    "title_leading": 0.99,
+    "line_sizes": [
+      146,
+      160,
+      124
+    ],
+    "follow_title_gap": 36
+  },
+  {
+    "id": "top14",
+    "platform": "tiktok",
+    "name": "Mistral moderation",
+    "layout_name": "FILLED / CENTER",
+    "lines": [
+      "MEET YOUR",
+      "ON-DEVICE",
+      "AI MODERATOR"
+    ],
+    "pose": "arms-crossed",
+    "size": 177,
+    "title_weight": 700,
+    "title_max_size": 240,
+    "title_align": "center",
+    "boxed": false,
+    "title_y": 310,
+    "photo_y": 865,
+    "photo_height": 740,
+    "depth_y": 1070,
+    "cast_index": 3,
+    "source_transcript": "projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/cuts/shieldstral/transcript_tight.json",
+    "title_leading": 0.99,
+    "line_sizes": [
+      177,
+      177,
+      134
+    ],
+    "follow_title_gap": 36
+  },
+  {
+    "id": "top15",
+    "platform": "tiktok",
+    "name": "The harness race",
+    "layout_name": "FILLED / CENTER",
+    "lines": [
+      "THE NEXT",
+      "AI RACE IS",
+      "THE HARNESS"
+    ],
+    "pose": "neutral-smile",
+    "size": 199,
+    "title_weight": 700,
+    "title_max_size": 240,
+    "title_align": "center",
+    "boxed": false,
+    "title_y": 310,
+    "photo_y": 865,
+    "photo_height": 740,
+    "depth_y": 1070,
+    "cast_index": 4,
+    "source_transcript": "projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/cuts/harnessrace/transcript_tight.json",
+    "title_leading": 0.99,
+    "line_sizes": [
+      199,
+      160,
+      146
+    ],
+    "follow_title_gap": 36
+  },
+  {
+    "id": "top16",
+    "platform": "tiktok",
+    "name": "Claude limits",
+    "layout_name": "FILLED / LEFT BOX",
+    "lines": [
+      "HITTING",
+      "CLAUDE CODE",
+      "LIMITS?"
+    ],
+    "pose": "plush-orange-b",
+    "size": 191,
+    "title_weight": 800,
+    "title_max_size": 240,
+    "title_align": "left",
+    "boxed": true,
+    "title_y": 310,
+    "photo_y": 865,
+    "photo_height": 740,
+    "depth_y": 1070,
+    "cast_index": 0,
+    "source_transcript": "projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/cuts/grokbuild/transcript_tight.json",
+    "title_leading": 0.99,
+    "line_sizes": [
+      191,
+      123,
+      184
+    ],
+    "follow_title_gap": 36
+  },
+  {
+    "id": "top17",
+    "platform": "tiktok",
+    "name": "Hermes desktop",
+    "layout_name": "FILLED / LEFT BOX",
+    "lines": [
+      "BUILD YOUR",
+      "OWN HERMES",
+      "DESKTOP APP"
+    ],
+    "pose": "finger-up-left-hand",
+    "size": 160,
+    "title_weight": 800,
+    "title_max_size": 240,
+    "title_align": "left",
+    "boxed": true,
+    "title_y": 310,
+    "photo_y": 865,
+    "photo_height": 740,
+    "depth_y": 1070,
+    "cast_index": 1,
+    "source_transcript": "projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/cuts/hermesdesktop/transcript_tight.json",
+    "title_leading": 0.99,
+    "line_sizes": [
+      160,
+      160,
+      140
+    ],
+    "follow_title_gap": 36
+  },
+  {
+    "id": "top18",
+    "platform": "tiktok",
+    "name": "Gemini tools",
+    "layout_name": "FILLED / LEFT BOX",
+    "lines": [
+      "GEMINI USES",
+      "SEARCH AND",
+      "MAPS TOGETHER"
+    ],
+    "pose": "look-up-b",
+    "size": 160,
+    "title_weight": 800,
+    "title_max_size": 240,
+    "title_align": "left",
+    "boxed": true,
+    "title_y": 310,
+    "photo_y": 865,
+    "photo_height": 740,
+    "depth_y": 1070,
+    "cast_index": 2,
+    "source_transcript": "projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/cuts/geminitools/transcript_tight.json",
+    "title_leading": 0.99,
+    "line_sizes": [
+      146,
+      160,
+      119
+    ],
+    "follow_title_gap": 36
+  },
+  {
+    "id": "top19",
+    "platform": "tiktok",
+    "name": "Mistral moderation",
+    "layout_name": "FILLED / LEFT BOX",
+    "lines": [
+      "MEET YOUR",
+      "ON-DEVICE",
+      "AI MODERATOR"
+    ],
+    "pose": "point-lens-right-hand",
+    "size": 177,
+    "title_weight": 800,
+    "title_max_size": 240,
+    "title_align": "left",
+    "boxed": true,
+    "title_y": 310,
+    "photo_y": 865,
+    "photo_height": 740,
+    "depth_y": 1070,
+    "cast_index": 3,
+    "source_transcript": "projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/cuts/shieldstral/transcript_tight.json",
+    "title_leading": 0.99,
+    "line_sizes": [
+      177,
+      177,
+      129
+    ],
+    "follow_title_gap": 36
+  },
+  {
+    "id": "top20",
+    "platform": "tiktok",
+    "name": "The harness race",
+    "layout_name": "FILLED / LEFT BOX",
+    "lines": [
+      "THE NEXT",
+      "AI RACE IS",
+      "THE HARNESS"
+    ],
+    "pose": "look-up-a",
+    "size": 199,
+    "title_weight": 800,
+    "title_max_size": 240,
+    "title_align": "left",
+    "boxed": true,
+    "title_y": 310,
+    "photo_y": 865,
+    "photo_height": 740,
+    "depth_y": 1070,
+    "cast_index": 4,
+    "source_transcript": "projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/cuts/harnessrace/transcript_tight.json",
+    "title_leading": 0.99,
+    "line_sizes": [
+      199,
+      160,
+      140
+    ],
+    "follow_title_gap": 36
+  }
+]
