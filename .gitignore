@@ -1,0 +1,7 @@
+# Secrets : aucun fichier .env* dans le repo, sauf les exemples
+.env*
+!.env.example
+# Récaps générés : ils contiennent le contenu des mails
+out/
+__pycache__/
+.venv/
