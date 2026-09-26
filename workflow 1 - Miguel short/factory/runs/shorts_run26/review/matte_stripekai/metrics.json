@@ -1,0 +1,99 @@
+{
+  "vid": "stripekai",
+  "session": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/matting/stripekai",
+  "cut": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/matting/stripekai/matte_stripekai_v5_cut.webm",
+  "size": [
+    1386,
+    990
+  ],
+  "frames": 895,
+  "sample_fps": 5,
+  "sampled": 179,
+  "soft_alpha_px": {
+    "rest_median": 15200,
+    "p95_over_rest": 1.08,
+    "max_over_rest": 1.38,
+    "frames_over_2p5x": 0
+  },
+  "chair_band_px": {
+    "reference": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/matting/stripekai/selection.mask.png",
+    "p50": 2282,
+    "p95": 7434,
+    "max": 10870,
+    "max_at_s": 34.8
+  },
+  "background_haze": {
+    "px_floor": 1500,
+    "detach_px": 14,
+    "p50": 0,
+    "p95": 6,
+    "max": 78,
+    "frames_over_floor": 0,
+    "longest_run_s": 0.0,
+    "hold_seconds_limit": 1.0,
+    "worst_sample_s": 32.4,
+    "hold": false
+  },
+  "frozen_edge": {
+    "frozen_sd": 1.5,
+    "min_cols": 12,
+    "sd_ratio": 4.0,
+    "runs": [],
+    "hold": false
+  },
+  "extra_components": {
+    "max": 0,
+    "frames": 0
+  },
+  "holes": {
+    "max": 0,
+    "frames": 0
+  },
+  "iou_frame_to_frame": {
+    "p05": 0.9419,
+    "min": 0.8528
+  },
+  "sheets": {
+    "playback": [
+      12,
+      25,
+      50,
+      75,
+      100,
+      125,
+      270,
+      835,
+      865,
+      870
+    ],
+    "face_2x": [
+      0,
+      111,
+      223,
+      270,
+      447,
+      671,
+      870,
+      894
+    ],
+    "chair_sides": [
+      12,
+      25,
+      50,
+      215,
+      870,
+      875
+    ],
+    "hands": [
+      5,
+      270,
+      275,
+      800,
+      865,
+      870
+    ]
+  },
+  "auto_hold": [],
+  "reference_bar": "run 19's five approved mattes: soft p95/rest <= 1.41, max/rest <= 5.9 (hands), extra components <= 1 frame, IoU p05 >= 0.92. These numbers did NOT separate geo's rejected mattes from the approved ones; the sheets did. Look.",
+  "wall_s": 32.8
+}

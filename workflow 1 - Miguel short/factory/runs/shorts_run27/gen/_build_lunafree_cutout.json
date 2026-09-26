@@ -1,0 +1,1067 @@
+{
+ "video": "lunafree",
+ "format": "cutout",
+ "platform": "tiktok",
+ "fps": 25,
+ "duration": 21.12,
+ "seal": {
+  "lunafree_scene.py": "1ca0f2b47227a15696a9288330b5a0e498677c78546a3ae9f993e6e5dee65138",
+  "lunafree_scene_handoff.md": "fa851bb960528f1489768bfc0eb82989e3b67a1a519e28ba7ee1a7b351348948"
+ },
+ "plate": {
+  "box": {
+   "w": 1584.0,
+   "h": 990.0,
+   "left": -351.0,
+   "top": 930.0
+  },
+  "whole_pixels": true,
+  "equals_encoded": {
+   "cut": {
+    "w": 1584,
+    "h": 990
+   },
+   "rim": {
+    "w": 1584,
+    "h": 990
+   }
+  },
+  "origin": "read from plate.json overwide.plate_box (not computed; the box is deliberately not centred)",
+  "face_centre_canvas": {
+   "frames_sampled": 53,
+   "band_rows": 160,
+   "mass_cx_median": 536.6,
+   "mass_cx_p5_p95": [
+    497.9,
+    590.6
+   ],
+   "offset_from_540": -3.4
+  }
+ },
+ "seat": 879.2,
+ "envelope": {
+  "CAP_Y": 879.2,
+  "ZY0": 192.0,
+  "ZY1": 795.4,
+  "CAP_H_true_rendered": 114.59,
+  "true_clear_to_crown": 26.5
+ },
+ "crown_gate": {
+  "frames": 528,
+  "frames_on_plate_top": 0,
+  "minimum": 33,
+  "worst_frame": 415
+ },
+ "core": {
+  "k": 1.0,
+  "left": 0.0,
+  "top": 192.0,
+  "why": "the handoff's own placement (k 1.00, top 192), identical to the split; legal inside this body's stage zone",
+  "stage_zone": [
+   192.0,
+   795.4
+  ],
+  "content_band_canvas": [
+   256.0,
+   698.0
+  ],
+  "clear_to_zone_bottom": 97.4
+ },
+ "band": {
+  "content_top": 256.0,
+  "content_bottom": 698.0,
+  "pill_top_rendered": 821.905,
+  "clear_above_pill": 123.91,
+  "clear_below_law30": 64.0
+ },
+ "rail": {
+  "readable_type_right_x": 804.4,
+  "ink_left_x": 170.0,
+  "ink_right_x": 910.0,
+  "law30_rail_x": 918.0
+ },
+ "voice": {
+  "source": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/cuts/lunafree/audio.m4a",
+  "sample_rate": 48000,
+  "channels": 2
+ },
+ "matte": {
+  "session": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/matting/lunafree",
+  "layers": {
+   "cut": {
+    "w": 1584,
+    "h": 990
+   },
+   "rim": {
+    "w": 1584,
+    "h": 990
+   }
+  },
+  "hashes": {
+   "cut": "414ce6d19f1307176373434f3852e53188b6fcb9badc2bc4612b28e87b700570",
+   "rim": "2f328559e8efe766580b214d6ab4e2069d5474d5501bdb6ef32e8afbb3c1e3b8",
+   "alpha": "5129d7d5016e0bb640bc95dfa3dd67f086bf06ef3eac0238c1f315e0b15e340f"
+  },
+  "backend": "sam2",
+  "fallback": {
+   "tag": "fb1_p6c70d07d",
+   "lane": "sam2 fallback: reviewed frame-0 contour as the only prompt, --no-chair-object, h100, tag fb1_p6c70d07d, ship temporal 1 / rim 7 / mirror pad, no exclusion guard",
+   "gates": {
+    "protrusion": {
+     "left": "clean",
+     "right": "clean"
+    },
+    "presenter_loss": "clean",
+    "edge_clip": "CLEAN"
+   },
+   "headroom_min_px": 34.1
+  },
+  "headroom": {
+   "identity": {
+    "alpha_sha256": "f52b3cd456266742aed168956ab80c13f74e0c174cda6eca37986669366ecce7",
+    "display_sha256": "dc286591e8ae2aef94f0af25e503d4d3399203a25a9709120cb17624ab1654ab",
+    "guard_sha256": "90e6a7f8cf1a142b9a8ab4cf0054f9803188279b68642b84430db31afe79999a",
+    "expected_frames": 528,
+    "floor_px": 24.0
+   },
+   "pass": true,
+   "frames_checked": 528,
+   "min_top_clearance_px": 34.1,
+   "floor_px": 24.0,
+   "worst_frame": 415,
+   "worst_seconds": 16.6,
+   "unsafe_frames": 0,
+   "first_unsafe_frames": [],
+   "scope": "Every matte frame, top edge of prepared person layer; no caption or semantic face claim"
+  },
+  "astra": {
+   "status": "ok",
+   "edits": 0,
+   "rounds": 2,
+   "selection_changed": true
+  }
+ },
+ "depth_field": {
+  "seat": {
+   "band": [
+    1000.5,
+    1394.5
+   ],
+   "band_h": 394.0,
+   "inter_lane_gap": 26.0,
+   "seat_offset_from_pill": 64.0,
+   "foundation_offset": 63.61,
+   "drift_from_foundation_seat": 0.39,
+   "margin_px": 144.2,
+   "candidates_scanned": 102,
+   "candidates_safe": 60,
+   "instrument": "5th percentile of the PER-FRAME gutter; the union envelope describes a body that never existed",
+   "lanes": [
+    {
+     "lane": "far",
+     "tile": 78.0,
+     "y": 1000.5,
+     "frames": 176,
+     "gutter_p05": 303.2,
+     "gutter_median": 351.9,
+     "gutter_min_single_frame": 281.5,
+     "frames_under_tile": 0
+    },
+    {
+     "lane": "mid",
+     "tile": 116.0,
+     "y": 1104.5,
+     "frames": 176,
+     "gutter_p05": 283.2,
+     "gutter_median": 315.6,
+     "gutter_min_single_frame": 233.1,
+     "frames_under_tile": 0
+    },
+    {
+     "lane": "near",
+     "tile": 148.0,
+     "y": 1246.5,
+     "frames": 176,
+     "gutter_p05": 292.2,
+     "gutter_median": 324.4,
+     "gutter_min_single_frame": -101.3,
+     "frames_under_tile": 3
+    }
+   ]
+  },
+  "lanes": {
+   "far": {
+    "x0": -216.0,
+    "w": 1788.0,
+    "y": 1000.5,
+    "tile": 78.0,
+    "gap": 30.0,
+    "pitch": 108.0,
+    "tiles": 16,
+    "opacity": 0.34,
+    "dist": 46.0,
+    "travel": 276.0,
+    "steps": 6
+   },
+   "mid": {
+    "x0": -304.0,
+    "w": 2360.0,
+    "y": 1104.5,
+    "tile": 116.0,
+    "gap": 36.0,
+    "pitch": 152.0,
+    "tiles": 15,
+    "opacity": 0.66,
+    "dist": 112.0,
+    "travel": 672.0,
+    "steps": 6
+   },
+   "near": {
+    "x0": -384.0,
+    "w": 3096.0,
+    "y": 1246.5,
+    "tile": 148.0,
+    "gap": 44.0,
+    "pitch": 192.0,
+    "tiles": 16,
+    "opacity": 1.0,
+    "dist": 208.0,
+    "travel": 1248.0,
+    "steps": 6
+   }
+  },
+  "tiles": 47,
+  "step_beats": [
+   3.16,
+   6.04,
+   9.36,
+   12.32,
+   15.12,
+   18.4
+  ],
+  "step_n": 6,
+  "cast": [
+   "gemini",
+   "claude",
+   "deepseek",
+   "mistral",
+   "qwen",
+   "kimi"
+  ],
+  "files": {
+   "gemini": "ai-models/gemini-color.png",
+   "claude": "ai-models/claude-color.png",
+   "deepseek": "ai-models/deepseek.png",
+   "mistral": "ai-models/mistral.png",
+   "qwen": "ai-models/qwen.png",
+   "kimi": "ai-models/kimi.png"
+  },
+  "hook_clear_s": 2.4,
+  "intro_dur": 0.66,
+  "pop_behind": null,
+  "pop_behind_why_none": "the only products he names are GPT Luna (OpenAI) and ChatGPT, the stage marks; the depth field never carries the story's own marks and the plan declares no window"
+ },
+ "shared": {
+  "beat_edges": [
+   0.12,
+   6.04,
+   11.7,
+   16.74,
+   21.12
+  ],
+  "phone_test_objects": [
+   {
+    "name": "wrapped gift box",
+    "t": 1.8,
+    "bbox": [
+     0.387,
+     0.199,
+     0.613,
+     0.3302
+    ],
+    "canvas": [
+     418.0,
+     382.0,
+     662.0,
+     634.0
+    ]
+   },
+   {
+    "name": "loud little speaker",
+    "t": 11.7,
+    "bbox": [
+     0.2407,
+     0.1656,
+     0.7593,
+     0.3292
+    ],
+    "canvas": [
+     260.0,
+     318.0,
+     820.0,
+     632.0
+    ]
+   },
+   {
+    "name": "piggy bank coin",
+    "t": 13.02,
+    "bbox": [
+     0.3889,
+     0.2021,
+     0.6111,
+     0.2958
+    ],
+    "canvas": [
+     420.0,
+     388.0,
+     660.0,
+     568.0
+    ]
+   },
+   {
+    "name": "tool pegboard wall",
+    "t": 15.2,
+    "bbox": [
+     0.4352,
+     0.1833,
+     0.8426,
+     0.2958
+    ],
+    "canvas": [
+     470.0,
+     352.0,
+     910.0,
+     568.0
+    ]
+   }
+  ]
+ },
+ "captions": {
+  "n": 18,
+  "texts": [
+   "GPT Luna is now",
+   "100% free for free",
+   "and Go users of the",
+   "ChatGPT application.",
+   "This small model is",
+   "extremely mighty if you",
+   "turn up the reasoning",
+   "all the way to the max.",
+   "So if you're on a budget,",
+   "this is one of the best",
+   "tools that you can",
+   "have in your arsenal.",
+   "Now follow for more",
+   "AI news videos and",
+   "tutorials each and",
+   "every single day,",
+   "and catch you",
+   "in the next one"
+  ],
+  "widest_px": 718.3
+ },
+ "caption_beats": [
+  {
+   "text": "GPT Luna is now",
+   "start": 0.12,
+   "end": 1.22,
+   "w": 514.73,
+   "dur": 1.24
+  },
+  {
+   "text": "100% free for free",
+   "start": 1.36,
+   "end": 3.34,
+   "w": 558.11,
+   "dur": 2.1
+  },
+  {
+   "text": "and Go users of the",
+   "start": 3.46,
+   "end": 4.56,
+   "w": 588.47,
+   "dur": 1.12
+  },
+  {
+   "text": "ChatGPT application.",
+   "start": 4.58,
+   "end": 5.8,
+   "w": 634.2,
+   "dur": 1.46
+  },
+  {
+   "text": "This small model is",
+   "start": 6.04,
+   "end": 7.24,
+   "w": 585.27,
+   "dur": 1.26
+  },
+  {
+   "text": "extremely mighty if you",
+   "start": 7.3,
+   "end": 8.86,
+   "w": 699.97,
+   "dur": 1.72
+  },
+  {
+   "text": "turn up the reasoning",
+   "start": 9.02,
+   "end": 10.1,
+   "w": 644.44,
+   "dur": 1.14
+  },
+  {
+   "text": "all the way to the max.",
+   "start": 10.16,
+   "end": 11.28,
+   "w": 682.98,
+   "dur": 1.54
+  },
+  {
+   "text": "So if you're on a budget,",
+   "start": 11.7,
+   "end": 12.86,
+   "w": 718.34,
+   "dur": 1.44
+  },
+  {
+   "text": "this is one of the best",
+   "start": 13.14,
+   "end": 14.34,
+   "w": 643.14,
+   "dur": 1.28
+  },
+  {
+   "text": "tools that you can",
+   "start": 14.42,
+   "end": 15.06,
+   "w": 547.38,
+   "dur": 0.68
+  },
+  {
+   "text": "have in your arsenal.",
+   "start": 15.1,
+   "end": 16.36,
+   "w": 617.8,
+   "dur": 1.64
+  },
+  {
+   "text": "Now follow for more",
+   "start": 16.74,
+   "end": 17.44,
+   "w": 623.25,
+   "dur": 0.76
+  },
+  {
+   "text": "AI news videos and",
+   "start": 17.5,
+   "end": 18.36,
+   "w": 582.91,
+   "dur": 0.9
+  },
+  {
+   "text": "tutorials each and",
+   "start": 18.4,
+   "end": 19.08,
+   "w": 547.44,
+   "dur": 0.72
+  },
+  {
+   "text": "every single day,",
+   "start": 19.12,
+   "end": 19.64,
+   "w": 511.53,
+   "dur": 0.92
+  },
+  {
+   "text": "and catch you",
+   "start": 20.04,
+   "end": 20.42,
+   "w": 434.31,
+   "dur": 0.42
+  },
+  {
+   "text": "in the next one",
+   "start": 20.46,
+   "end": 20.92,
+   "w": 466.67,
+   "dur": 0.66
+  }
+ ],
+ "transcript": {
+  "law47_tail_s": 0.2,
+  "law47_cap_s": 0.24,
+  "law47_verdict": "PASS - 0.200s past the last word against a 0.240s cap",
+  "law46": "the scripted opening occurs ONCE inside the keeper take, at word 0 / 0.12 s",
+  "take_corroboration": {
+   "mode": "model keep_words (the agent read the transcript and chose the words; no rule detection)",
+   "keep_words": [
+    [
+     7,
+     80
+    ]
+   ],
+   "take_word_index": 7,
+   "take_start_s": 12.58,
+   "words": 74,
+   "of_raw_words": 81,
+   "dropped_words": 7,
+   "corroboration": "model-authored keep ranges"
+  },
+  "words": 74,
+  "function_word_merges": 0,
+  "beats_before_merge": 18,
+  "orphan_repartitions": [],
+  "solo_word_merges": [],
+  "board_keys_forbidden_at_split": [
+   "arsenal",
+   "arsenal!",
+   "arsenal,",
+   "arsenal.",
+   "arsenal?",
+   "budget",
+   "budget!",
+   "budget,",
+   "budget.",
+   "budget?",
+   "chatgpt",
+   "chatgpt!",
+   "chatgpt,",
+   "chatgpt.",
+   "chatgpt?",
+   "free + go users",
+   "free + go users!",
+   "free + go users,",
+   "free + go users.",
+   "free + go users?",
+   "gpt luna",
+   "gpt luna!",
+   "gpt luna,",
+   "gpt luna.",
+   "gpt luna?",
+   "max",
+   "max!",
+   "max,",
+   "max.",
+   "max?",
+   "reasoning",
+   "reasoning!",
+   "reasoning,",
+   "reasoning.",
+   "reasoning?"
+  ]
+ },
+ "checks": {
+  "cues": {
+   "gift": {
+    "word": 0,
+    "text": "GPT",
+    "t": 0.12,
+    "word_start": 0.12
+   },
+   "keyterm": {
+    "word": 2,
+    "text": "is",
+    "t": 0.9,
+    "word_start": 0.9
+   },
+   "open": {
+    "word": 5,
+    "text": "free",
+    "t": 2.34,
+    "word_start": 2.34
+   },
+   "kfree": {
+    "word": 7,
+    "text": "free",
+    "t": 3.16,
+    "word_start": 3.16
+   },
+   "kgo": {
+    "word": 9,
+    "text": "Go",
+    "t": 3.6,
+    "word_start": 3.6
+   },
+   "kusers": {
+    "word": 10,
+    "text": "users",
+    "t": 3.88,
+    "word_start": 3.88
+   },
+   "shift": {
+    "word": 13,
+    "text": "ChatGPT",
+    "t": 4.58,
+    "word_start": 4.58
+   },
+   "amp": {
+    "word": 15,
+    "text": "This",
+    "t": 6.04,
+    "word_start": 6.04
+   },
+   "mighty": {
+    "word": 20,
+    "text": "mighty",
+    "t": 8.0,
+    "word_start": 8.0
+   },
+   "turn1": {
+    "word": 23,
+    "text": "turn",
+    "t": 9.04,
+    "word_start": 9.02
+   },
+   "kreason": {
+    "word": 26,
+    "text": "reasoning",
+    "t": 9.66,
+    "word_start": 9.64
+   },
+   "turn2": {
+    "word": 26,
+    "text": "reasoning",
+    "t": 9.66,
+    "word_start": 9.64
+   },
+   "turn3": {
+    "word": 27,
+    "text": "all",
+    "t": 10.18,
+    "word_start": 10.16
+   },
+   "turn4": {
+    "word": 29,
+    "text": "way",
+    "t": 10.5,
+    "word_start": 10.48
+   },
+   "max": {
+    "word": 32,
+    "text": "max.",
+    "t": 11.0,
+    "word_start": 11.0
+   },
+   "piggy": {
+    "word": 34,
+    "text": "if",
+    "t": 12.06,
+    "word_start": 12.06
+   },
+   "coin": {
+    "word": 38,
+    "text": "budget,",
+    "t": 12.56,
+    "word_start": 12.56
+   },
+   "slide": {
+    "word": 39,
+    "text": "this",
+    "t": 13.14,
+    "word_start": 13.14
+   },
+   "tile": {
+    "word": 41,
+    "text": "one",
+    "t": 13.6,
+    "word_start": 13.6
+   },
+   "best": {
+    "word": 44,
+    "text": "best",
+    "t": 14.12,
+    "word_start": 14.12
+   },
+   "tools": {
+    "word": 45,
+    "text": "tools",
+    "t": 14.42,
+    "word_start": 14.42
+   },
+   "karsenal": {
+    "word": 52,
+    "text": "arsenal.",
+    "t": 16.0,
+    "word_start": 15.98
+   },
+   "outro": {
+    "word": 53,
+    "text": "Now",
+    "t": 16.74,
+    "word_start": 16.74
+   },
+   "rise": {
+    "word": 5,
+    "text": "free",
+    "t": 2.4,
+    "window": [
+     2.34,
+     3.5
+    ]
+   },
+   "chatgpt": {
+    "word": 13,
+    "text": "ChatGPT",
+    "t": 4.66,
+    "window": [
+     4.58,
+     6.14
+    ]
+   },
+   "conn": {
+    "word": 13,
+    "text": "ChatGPT",
+    "t": 4.8,
+    "window": [
+     4.58,
+     6.14
+    ]
+   },
+   "kchat": {
+    "word": 13,
+    "text": "ChatGPT",
+    "t": 4.96,
+    "window": [
+     4.58,
+     6.14
+    ]
+   },
+   "kbudget": {
+    "word": 38,
+    "text": "budget,",
+    "t": 12.62,
+    "window": [
+     12.56,
+     13.86
+    ]
+   },
+   "board": {
+    "word": 39,
+    "text": "this",
+    "t": 13.18,
+    "window": [
+     13.14,
+     14.24
+    ]
+   },
+   "_law43": {
+    "board_mode": "chapters",
+    "chapters": 3,
+    "erase_at": [
+     5.84,
+     11.96,
+     16.74
+    ]
+   }
+  },
+  "word_sync": {
+   "typed_states": [
+    {
+     "state": "key-term",
+     "first_visible_text": "GPT LUNA",
+     "at": 0.9,
+     "words": "gpt luna",
+     "window": [
+      0.52,
+      1.84
+     ]
+    },
+    {
+     "state": "ku-a FREE",
+     "first_visible_text": "FREE",
+     "at": 3.16,
+     "words": "free",
+     "window": [
+      3.16,
+      4.34
+     ]
+    },
+    {
+     "state": "ku-b + GO",
+     "first_visible_text": "+ GO",
+     "at": 3.6,
+     "words": "and go",
+     "window": [
+      3.6,
+      4.74
+     ]
+    },
+    {
+     "state": "ku-c USERS",
+     "first_visible_text": "USERS",
+     "at": 3.88,
+     "words": "users",
+     "window": [
+      3.88,
+      5.28
+     ]
+    },
+    {
+     "state": "key-chatgpt",
+     "first_visible_text": "CHATGPT",
+     "at": 4.96,
+     "words": "chatgpt",
+     "window": [
+      4.58,
+      6.14
+     ]
+    },
+    {
+     "state": "key-reason",
+     "first_visible_text": "REASONING",
+     "at": 9.66,
+     "words": "reasoning",
+     "window": [
+      9.64,
+      11.1
+     ]
+    },
+    {
+     "state": "amp-max",
+     "first_visible_text": "MAX",
+     "at": 11.1,
+     "words": "max.",
+     "window": [
+      11.0,
+      12.28
+     ]
+    },
+    {
+     "state": "key-budget",
+     "first_visible_text": "BUDGET",
+     "at": 12.62,
+     "words": "budget,",
+     "window": [
+      12.56,
+      13.86
+     ]
+    },
+    {
+     "state": "key-arsenal",
+     "first_visible_text": "ARSENAL",
+     "at": 16.0,
+     "words": "arsenal.",
+     "window": [
+      15.98,
+      17.36
+     ]
+    }
+   ],
+   "disagreements": 0,
+   "digits_that_tick": 0,
+   "note": "'100%' is spoken and never typed on the board"
+  },
+  "law37": {
+   "scan_cue_count": 0,
+   "plan_declared_cards": 0,
+   "source_cards_in_the_page": 0
+  },
+  "law39": {
+   "key-term": {
+    "host": "gift",
+    "side": "above",
+    "text": "GPT LUNA",
+    "at": 0.9,
+    "gutter_core_px": 54.0,
+    "box_canvas": [
+     408.0,
+     256.0,
+     672.0,
+     314.0
+    ]
+   },
+   "key-users": {
+    "host": "gift",
+    "side": "below",
+    "text": "FREE + GO USERS",
+    "at": 3.16,
+    "gutter_core_px": 20.0,
+    "box_canvas": [
+     398.0,
+     654.0,
+     682.0,
+     698.0
+    ]
+   },
+   "key-chatgpt": {
+    "host": "chatgpt-tile",
+    "side": "below",
+    "text": "CHATGPT",
+    "at": 4.96,
+    "gutter_core_px": 20.0,
+    "box_canvas": [
+     672.0,
+     654.0,
+     812.0,
+     698.0
+    ]
+   },
+   "key-reason": {
+    "host": "amp",
+    "side": "below",
+    "text": "REASONING",
+    "at": 9.66,
+    "gutter_core_px": 22.0,
+    "box_canvas": [
+     452.0,
+     654.0,
+     628.0,
+     698.0
+    ]
+   },
+   "key-budget": {
+    "host": "piggy",
+    "side": "below",
+    "text": "BUDGET",
+    "at": 12.62,
+    "gutter_core_px": 22.0,
+    "box_canvas": [
+     480.0,
+     590.0,
+     600.0,
+     634.0
+    ]
+   },
+   "key-arsenal": {
+    "host": "board",
+    "side": "below",
+    "text": "ARSENAL",
+    "at": 16.0,
+    "gutter_core_px": 22.0,
+    "box_canvas": [
+     620.0,
+     590.0,
+     760.0,
+     634.0
+    ]
+   },
+   "_law50": {
+    "plain_label_font_px": 28.0,
+    "row_h": 44.0,
+    "baselines_core": {
+     "chapter0": 462.0,
+     "chapter2": 398.0
+    }
+   },
+   "_key_term": {
+    "text": "GPT LUNA",
+    "font_px": 48.0,
+    "design_units": 25.6,
+    "first_type": true
+   }
+  },
+  "law42": {
+   "board_mode": "chapters",
+   "anchors": [
+    "o-glyph",
+    "o-rule",
+    "o-sheet",
+    "o-slot"
+   ],
+   "covers": [
+    "o-sheet"
+   ],
+   "mark_shares": {
+    "luna-tile": 0.173,
+    "chatgpt-tile": 0.066,
+    "luna-hung": 0.171
+   }
+  },
+  "law38": {
+   "border_flips": [
+    {
+     "target": "#luna-hung",
+     "from": 14.12,
+     "until": 16.3
+    }
+   ],
+   "rings_ellipses_circles": 0,
+   "highlights": 0,
+   "dom_elements_added": 0
+  },
+  "law2": {
+   "stage_marks": [
+    "chatgpt",
+    "openai"
+   ],
+   "resolved": {
+    "openai": "/Users/migle/Documents/Workspace/assets/logos/ai-models/openai.png",
+    "chatgpt": "/Users/migle/Documents/Workspace/assets/logos/ai-models/chatgpt-color.png"
+   },
+   "cutout_lanes_not_ours": [
+    "gemini",
+    "claude",
+    "deepseek",
+    "mistral",
+    "qwen",
+    "kimi"
+   ]
+  },
+  "law22": {
+   "events": 20,
+   "tightest_gap_s": 0.32,
+   "deliberately_silent": {
+    "rise 2.40": "0.06 s after the lid pop; one pop scores both",
+    "+ GO 3.60": "between FREE and USERS, 0.28 s from USERS",
+    "shift 4.58 / arrow 4.80 / CHATGPT 4.96": "inside the ChatGPT pop's 0.30 s; one arrival scores the move",
+    "chapter erases 5.84 / 11.96": "0.20 / 0.10 s before the next chapter's pop",
+    "slide 13.14": "0.04 s before the board pop",
+    "tools 14.42": "0.30 s after the flip click; the tools fade",
+    "outro lockup 17.22": "rides the sheet's whoosh"
+   }
+  },
+  "draw_on": {
+   "dash_selectors": {
+    "#conn-app .cn": 1,
+    "#wave-l .w0": 1,
+    "#wave-l .w1": 1,
+    "#wave-l .w2": 1,
+    "#wave-r .w0": 1,
+    "#wave-r .w1": 1,
+    "#wave-r .w2": 1
+   },
+   "verdict": "every dash equals its path's declared length (100)"
+  },
+  "law40": {
+   "id": "conn-app",
+   "to": "chatgpt-tile",
+   "side": "left",
+   "fraction": 0.5,
+   "check_at": 5.4,
+   "contact": {
+    "from": [
+     523.5,
+     386.0
+    ],
+    "to": [
+     686.0,
+     386.0
+    ],
+    "level_px": 0.0,
+    "length_px": 162.5
+   }
+  }
+ },
+ "cast_check": {
+  "openai": "/Users/migle/Documents/Workspace/assets/logos/ai-models/openai.png",
+  "chatgpt": "/Users/migle/Documents/Workspace/assets/logos/ai-models/chatgpt-color.png",
+  "gemini": "/Users/migle/Documents/Workspace/assets/logos/ai-models/gemini-color.png",
+  "claude": "/Users/migle/Documents/Workspace/assets/logos/ai-models/claude-color.png",
+  "deepseek": "/Users/migle/Documents/Workspace/assets/logos/ai-models/deepseek.png",
+  "mistral": "/Users/migle/Documents/Workspace/assets/logos/ai-models/mistral.png",
+  "qwen": "/Users/migle/Documents/Workspace/assets/logos/ai-models/qwen.png",
+  "kimi": "/Users/migle/Documents/Workspace/assets/logos/ai-models/kimi.png"
+ },
+ "edge_fade": {
+  "masked_containers": 3,
+  "fade_px": 46.0,
+  "meters_exempt": []
+ },
+ "handle": "@migueltorrez.ai",
+ "render": {
+  "w": 1080,
+  "h": 1920,
+  "zoom": 1
+ }
+}

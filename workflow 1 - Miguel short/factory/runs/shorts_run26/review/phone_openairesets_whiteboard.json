@@ -1,0 +1,83 @@
+{
+ "label": "openairesets_whiteboard",
+ "video": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/openairesets_whiteboard.mp4",
+ "phone_scale": "405x720",
+ "sheet": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/phone_openairesets_whiteboard.png",
+ "rule": "a FRESH judge (never read the plan) names each crop in <=3 words. Wrong name, hedge, or 'cannot tell' = the object is redesigned, not annotated.",
+ "answer_key": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/phone_openairesets_whiteboard.key.json",
+ "answer_key_rule": "DO NOT OPEN the answer key until every judge_answer below is filled in. Reading it first voids the Phone Test.",
+ "objects": [
+  {
+   "i": 0,
+   "t": 2.9,
+   "bbox_norm": [
+    0.4358,
+    0.1426,
+    0.7961,
+    0.3524
+   ],
+   "phone_box_px": [
+    176,
+    102,
+    322,
+    253
+   ],
+   "phone_size_px": [
+    146,
+    151
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/phone_openairesets_whiteboard/00.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  },
+  {
+   "i": 1,
+   "t": 12.7,
+   "bbox_norm": [
+    0.1856,
+    0.1484,
+    0.8144,
+    0.2564
+   ],
+   "phone_box_px": [
+    75,
+    106,
+    329,
+    184
+   ],
+   "phone_size_px": [
+    254,
+    78
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/phone_openairesets_whiteboard/01.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  },
+  {
+   "i": 2,
+   "t": 15.4,
+   "bbox_norm": [
+    0.2812,
+    0.293,
+    0.7188,
+    0.3652
+   ],
+   "phone_box_px": [
+    113,
+    210,
+    291,
+    262
+   ],
+   "phone_size_px": [
+    178,
+    52
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/phone_openairesets_whiteboard/02.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  }
+ ]
+}

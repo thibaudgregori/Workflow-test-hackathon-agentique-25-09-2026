@@ -1,0 +1,79 @@
+{
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/projects/stripekai_split",
+ "fmt": "split",
+ "step": 0.25,
+ "checks": {
+  "refs_resolve": {
+   "referenced": 7,
+   "missing": [],
+   "pass": true,
+   "error": null,
+   "wall_s": 0.09
+  },
+  "assets_not_placeholder": {
+   "rasters": 1,
+   "placeholder_shaped": [],
+   "undecodable": [],
+   "report": {
+    "assets/logos/stripe-color.png": {
+     "size": [
+      1024,
+      426
+     ],
+     "judged": "decode only (capture)"
+    }
+   },
+   "pass": true,
+   "error": null,
+   "wall_s": 0.04
+  },
+  "page_audit": {
+   "ids": 98,
+   "unique_ids": 98,
+   "duplicate_ids": [],
+   "tween_selectors": 42,
+   "dead_tween_targets": [],
+   "pass": true,
+   "error": null,
+   "wall_s": 0.0
+  },
+  "caption_canon_page": {
+   "pills": 34,
+   "modal_height_px": 114.58,
+   "canon_height_px": 114.59,
+   "height_spread_px": 0.0,
+   "tolerance_design_px": 3.0,
+   "heights_off_canon": [],
+   "squarer_than_min_aspect": [],
+   "min_aspect": 1.45,
+   "function_only_beat_law": null,
+   "pass": true,
+   "error": null,
+   "wall_s": 0.0
+  },
+  "gate1_geometry_audit": {
+   "returncode": 0,
+   "errors": 0,
+   "warnings": 0,
+   "warnings_after_waivers": 0,
+   "waived": [],
+   "report": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/projects/stripekai_split/geometry_audit/report.json",
+   "stdout": "stripekai_split: 0 errors, 0 warnings (35.8s @ 0.25s step)\n",
+   "stderr": "",
+   "bar": "0 errors, 0 warnings",
+   "pass": true,
+   "error": null,
+   "wall_s": 1.35
+  }
+ },
+ "skipped": {
+  "cutout_edge_fade_guard": "cutout only",
+  "cutout_checks_24_25": "cutout only"
+ },
+ "duration_s": 35.82,
+ "page_zoom": 1.000132602545969,
+ "page_load_wall_s": 0.82,
+ "failed": [],
+ "verdict": "PASS",
+ "total_wall_s": 2.31
+}

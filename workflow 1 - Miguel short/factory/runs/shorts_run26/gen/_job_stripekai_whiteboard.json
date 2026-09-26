@@ -1,0 +1,15 @@
+{
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/projects/stripekai_whiteboard",
+ "vid": "stripekai",
+ "fmt": "whiteboard",
+ "quality": "high",
+ "stage": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/staging/reels/stripekai_whiteboard.mp4",
+ "qc_args": [
+  "--voice-master", "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/cuts/stripekai/audio.m4a",
+  "--phone-at", "3.0:0.3322,0.1535,0.6678,0.3142:open toolbox",
+  "--phone-at", "16.4:0.1687,0.1887,0.8313,0.3321:group of people",
+  "--phone-at", "23.8:0.2387,0.1723,0.7613,0.3225:office buildings",
+  "--phone-at", "30.2:0.2849,0.1764,0.7122,0.3497:overflowing toolbox",
+  "--seams", "10.1,13.72,20.56,24.4"
+ ]
+}

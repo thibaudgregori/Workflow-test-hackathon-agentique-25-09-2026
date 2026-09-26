@@ -1,0 +1,845 @@
+{
+ "video": "claudemanaged",
+ "lane": "icon choreography",
+ "fps": 25,
+ "duration": 38.44,
+ "seam": 862.5,
+ "formats": {
+  "split": {
+   "cues": {
+    "keyterm": {
+     "word": 8,
+     "text": "managed",
+     "t": 1.62
+    },
+    "four": {
+     "word": 13,
+     "text": "four",
+     "t": 3.3
+    },
+    "eraseA": {
+     "word": 16,
+     "text": "Number",
+     "t": 4.44
+    },
+    "budget": {
+     "word": 26,
+     "text": "session",
+     "t": 7.7
+    },
+    "coin": {
+     "word": 27,
+     "text": "budget,",
+     "t": 8.06
+    },
+    "slide1": {
+     "word": 28,
+     "text": "meaning",
+     "t": 8.62
+    },
+    "fill": {
+     "word": 29,
+     "text": "no",
+     "t": 9.08
+    },
+    "cap": {
+     "word": 31,
+     "text": "overspending",
+     "t": 9.5
+    },
+    "eraseB": {
+     "word": 38,
+     "text": "Number",
+     "t": 11.92
+    },
+    "session": {
+     "word": 41,
+     "text": "session",
+     "t": 12.88
+    },
+    "advisor": {
+     "word": 46,
+     "text": "advisor,",
+     "t": 13.96
+    },
+    "smart": {
+     "word": 51,
+     "text": "intelligent",
+     "t": 16.36
+    },
+    "help": {
+     "word": 57,
+     "text": "help",
+     "t": 18.18
+    },
+    "eraseC": {
+     "word": 62,
+     "text": "Number",
+     "t": 19.78
+    },
+    "load": {
+     "word": 67,
+     "text": "load",
+     "t": 21.22
+    },
+    "skills": {
+     "word": 69,
+     "text": "skills",
+     "t": 21.82
+    },
+    "slide3": {
+     "word": 70,
+     "text": "from",
+     "t": 22.44
+    },
+    "connect": {
+     "word": 75,
+     "text": "connect",
+     "t": 24.22
+    },
+    "eraseD": {
+     "word": 78,
+     "text": "And",
+     "t": 25.12
+    },
+    "inference": {
+     "word": 87,
+     "text": "inference",
+     "t": 27.32
+    },
+    "us": {
+     "word": 108,
+     "text": "US",
+     "t": 32.94
+    },
+    "europe": {
+     "word": 110,
+     "text": "Europe.",
+     "t": 33.98
+    },
+    "outro": {
+     "word": 114,
+     "text": "more",
+     "t": 34.8
+    },
+    "knife": {
+     "word": 0,
+     "text": "Claude",
+     "t": 0.1,
+     "window": [
+      0.08,
+      1.28
+     ]
+    },
+    "piggy": {
+     "word": 16,
+     "text": "Number",
+     "t": 4.46,
+     "window": [
+      4.44,
+      5.62
+     ]
+    },
+    "meter": {
+     "word": 28,
+     "text": "meaning",
+     "t": 8.66,
+     "window": [
+      8.62,
+      9.84
+     ]
+    },
+    "tile2": {
+     "word": 38,
+     "text": "Number",
+     "t": 11.94,
+     "window": [
+      11.92,
+      13.1
+     ]
+    },
+    "advlabel": {
+     "word": 46,
+     "text": "advisor,",
+     "t": 14.1,
+     "window": [
+      13.96,
+      15.38
+     ]
+    },
+    "shelf": {
+     "word": 62,
+     "text": "Number",
+     "t": 19.8,
+     "window": [
+      19.78,
+      20.98
+     ]
+    },
+    "agent3": {
+     "word": 70,
+     "text": "from",
+     "t": 22.5,
+     "window": [
+      22.44,
+      23.78
+     ]
+    },
+    "sign": {
+     "word": 78,
+     "text": "And",
+     "t": 25.14,
+     "window": [
+      25.12,
+      26.18
+     ]
+    },
+    "_law43": {
+     "board_mode": "chapters",
+     "chapters": 5,
+     "seams": [
+      4.44,
+      11.92,
+      19.78,
+      25.12
+     ]
+    }
+   },
+   "word_sync": {
+    "typed_states": [
+     {
+      "state": "key-term-managed",
+      "first_visible_text": "MANAGED AGENTS",
+      "at": 2.26,
+      "word": "agents",
+      "word_window": [
+       2.26,
+       3.54
+      ]
+     },
+     {
+      "state": "label-session-budget",
+      "first_visible_text": "SESSION BUDGET",
+      "at": 8.06,
+      "word": "budget,",
+      "word_window": [
+       8.06,
+       9.34
+      ]
+     },
+     {
+      "state": "label-session",
+      "first_visible_text": "SESSION",
+      "at": 12.88,
+      "word": "session",
+      "word_window": [
+       12.88,
+       14.16
+      ]
+     },
+     {
+      "state": "label-advisor",
+      "first_visible_text": "ADVISOR",
+      "at": 14.1,
+      "word": "advisor,",
+      "word_window": [
+       13.96,
+       15.38
+      ]
+     },
+     {
+      "state": "label-skills",
+      "first_visible_text": "SKILLS",
+      "at": 21.82,
+      "word": "skills",
+      "word_window": [
+       21.82,
+       23.12
+      ]
+     },
+     {
+      "state": "label-inference",
+      "first_visible_text": "INFERENCE",
+      "at": 27.32,
+      "word": "inference",
+      "word_window": [
+       27.32,
+       28.7
+      ]
+     },
+     {
+      "state": "sp-us",
+      "first_visible_text": "US",
+      "at": 32.94,
+      "word": "US",
+      "word_window": [
+       32.94,
+       34.28
+      ]
+     },
+     {
+      "state": "sp-eu",
+      "first_visible_text": "EUROPE",
+      "at": 33.98,
+      "word": "Europe.",
+      "word_window": [
+       33.98,
+       35.22
+      ]
+     }
+    ],
+    "disagreements": 0,
+    "digits_that_tick": 0,
+    "numbers_typed": 0
+   },
+   "law37": {
+    "scan_cue_count": 0,
+    "plan_declared_cards": 0,
+    "source_cards_in_the_page": 0
+   },
+   "law39": {
+    "key-term-managed": {
+     "host": "pocket-knife",
+     "side": "below",
+     "text": "MANAGED AGENTS",
+     "at": 2.26,
+     "axis_offset_px": 13.46,
+     "box_canvas": [
+      310.0,
+      566.0,
+      770.0,
+      622.0
+     ]
+    },
+    "label-session-budget": {
+     "host": "piggy-bank",
+     "side": "below",
+     "text": "SESSION BUDGET",
+     "at": 8.06,
+     "axis_offset_px": 0.0,
+     "box_canvas": [
+      390.0,
+      576.0,
+      690.0,
+      620.0
+     ]
+    },
+    "label-session": {
+     "host": "session-tile",
+     "side": "below",
+     "text": "SESSION",
+     "at": 12.88,
+     "axis_offset_px": 0.0,
+     "box_canvas": [
+      440.0,
+      522.0,
+      640.0,
+      566.0
+     ]
+    },
+    "label-advisor": {
+     "host": "advisor-brain",
+     "side": "below",
+     "text": "ADVISOR",
+     "at": 14.1,
+     "axis_offset_px": 1.0,
+     "box_canvas": [
+      280.0,
+      592.0,
+      500.0,
+      636.0
+     ]
+    },
+    "label-skills": {
+     "host": "skill-shelf",
+     "side": "below",
+     "text": "SKILLS",
+     "at": 21.82,
+     "axis_offset_px": 0.0,
+     "box_canvas": [
+      430.0,
+      600.0,
+      650.0,
+      644.0
+     ]
+    },
+    "label-inference": {
+     "host": "signpost",
+     "side": "below",
+     "text": "INFERENCE",
+     "at": 27.32,
+     "axis_offset_px": 0.0,
+     "box_canvas": [
+      410.0,
+      688.0,
+      670.0,
+      732.0
+     ]
+    },
+    "_law50": {
+     "below": [
+      "key-term-managed",
+      "label-session-budget",
+      "label-session",
+      "label-advisor",
+      "label-skills",
+      "label-inference"
+     ],
+     "font_px": 28.0,
+     "key_term_font_px": 44.0
+    },
+    "_key_term": {
+     "text": "MANAGED AGENTS",
+     "font_px": 44.0,
+     "design_units": 23.47,
+     "first_type": true
+    }
+   },
+   "law42": {
+    "board_mode": "chapters",
+    "anchors": [],
+    "outro_ground": [
+     "o-glyph",
+     "o-rule",
+     "o-sheet",
+     "o-slot"
+    ],
+    "longest": {
+     "mark": "signpost",
+     "window": [
+      25.14,
+      35.28
+     ],
+     "share": 0.264
+    }
+   },
+   "law41": {
+    "tightest_core_px": 144.0,
+    "tightest_pair": [
+     "label-session",
+     "advisor-brain",
+     14.6
+    ],
+    "refusal_line": 16.0,
+    "connector_joined": [
+     [
+      "advisor-brain",
+      "session-tile"
+     ],
+     [
+      "agent-tile",
+      "skill-shelf"
+     ]
+    ],
+    "blocks": [
+     [
+      "key-term-managed",
+      "pocket-knife"
+     ],
+     [
+      "coin",
+      "label-session-budget",
+      "piggy-bank"
+     ],
+     [
+      "label-session",
+      "session-group",
+      "session-tile"
+     ],
+     [
+      "advisor-brain",
+      "label-advisor"
+     ],
+     [
+      "label-skills",
+      "skill-shelf"
+     ],
+     [
+      "label-inference",
+      "signpost",
+      "sp-eu",
+      "sp-us"
+     ]
+    ]
+   },
+   "law38": {
+    "border_flips": [
+     {
+      "on": "budget-meter",
+      "kind": "border",
+      "target": "meter-fill",
+      "check_at": 10.4,
+      "held": [
+       9.5,
+       11.92
+      ]
+     },
+     {
+      "on": "brain-outline",
+      "kind": "border",
+      "target": "advisor-brain",
+      "check_at": 17.4,
+      "held": [
+       16.36,
+       19.78
+      ]
+     },
+     {
+      "on": "book-hero",
+      "kind": "border",
+      "target": "skill-shelf",
+      "check_at": 21.9,
+      "held": [
+       21.22,
+       25.12
+      ]
+     }
+    ],
+    "rings_ellipses_circles": 0,
+    "highlights": 0,
+    "dom_ink_added": 0
+   },
+   "law2": {
+    "stage_marks": [
+     "claude"
+    ],
+    "resolved": {
+     "claude": "/Users/migle/Documents/Workspace/assets/logos/ai-models/claude-color.png"
+    },
+    "media_sides_core_px": {
+     "_knife_img": 46.0,
+     "_piggy_img": 58.0,
+     "_tile2_img": 56.0,
+     "_tile3_img": 56.0
+    },
+    "cutout_lanes_not_ours": [
+     "claude-code",
+     "claude-cowork",
+     "github",
+     "mcp",
+     "openai",
+     "gemini",
+     "langchain"
+    ]
+   },
+   "law40": {
+    "conn-advice": {
+     "to": "session-tile",
+     "side": "left",
+     "fraction": 0.5,
+     "check_at": 18.9,
+     "from_core": [
+      530.0,
+      250.0
+     ],
+     "to_core": [
+      718.0,
+      250.0
+     ]
+    },
+    "conn-skills": {
+     "to": "agent-tile",
+     "side": "left",
+     "fraction": 0.5,
+     "check_at": 24.8,
+     "from_core": [
+      555.0,
+      250.0
+     ],
+     "to_core": [
+      709.0,
+      250.0
+     ]
+    }
+   },
+   "law22": {
+    "events": 19,
+    "tightest_gap_s": 0.56,
+    "deliberately_silent": {
+     "tools 3.44-3.72": "one pop scores the fold-out, not four",
+     "meter fill 9.08": "a fill is not an arrival",
+     "flips 9.50/16.36/21.22": "a colour flip is not an arrival",
+     "ADVISOR 14.10": "0.14 s after the brain's whoosh",
+     "agent tile 22.50": "0.06 s after the shelf's whoosh"
+    }
+   },
+   "tween_repairs": {
+    "key-term-managed": {
+     "from": 1.62,
+     "to": 2.26,
+     "law": "LAW 24: AGENTS waits for 'agents'"
+    },
+    "label-session-budget": {
+     "from": 7.7,
+     "to": 8.06,
+     "law": "LAW 24: BUDGET waits for 'budget'"
+    }
+   },
+   "draw_on": {
+    "dash_selectors": {
+     "#advisor-brain .br": 2,
+     "#advisor-brain .brf": 1,
+     "#conn-advice .cline": 2,
+     "#conn-skills .cline": 2,
+     "#kt-blade .ktp, #kt-blade .ktl": 7,
+     "#piggy-bank .pg": 11,
+     "#pocket-knife .kh": 3,
+     "#signpost .sp": 5,
+     "#skill-shelf .bk, #skill-shelf .bkl": 23,
+     "#skill-shelf .sh": 2
+    },
+    "verdict": "every dash equals its path's declared length (100)"
+   },
+   "declared": {
+    "connectors_stamped": 2,
+    "emphases_stamped": [
+     "budget-meter",
+     "brain-outline",
+     "book-hero"
+    ]
+   },
+   "staged": {
+    "voice": {
+     "source": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/cuts/claudemanaged/audio.m4a",
+     "sample_rate": 48000,
+     "channels": 2
+    },
+    "bed": "/Users/migle/Documents/Workspace/assets/audio/music/shorts-factory/bed_split_v2.mp3",
+    "sfx_sources": {
+     "whoosh": "/Users/migle/Documents/Workspace/assets/audio/sfx/shorts-factory/whoosh.mp3",
+     "pop": "/Users/migle/Documents/Workspace/assets/audio/sfx/shorts-factory/pop.mp3",
+     "click": "/Users/migle/Documents/Workspace/assets/audio/sfx/shorts-factory/click.mp3"
+    },
+    "face": {
+     "file": "face_bottom_hd.mp4",
+     "w": 1080,
+     "h": 1058
+    },
+    "marks": {
+     "claude": {
+      "source": "/Users/migle/Documents/Workspace/assets/logos/ai-models/claude-color.png",
+      "url": "assets/logos/claude-color.png"
+     }
+    }
+   },
+   "seat": 862.5,
+   "scale": 1.0,
+   "core": {
+    "left": 0.0,
+    "top": 192.0
+   },
+   "band": {
+    "content_top": 296.0,
+    "content_bottom": 740.0,
+    "pill_top_rendered": 805.205,
+    "clear_above_pill": 65.21,
+    "clear_below_law30": 104.0
+   },
+   "rail": {
+    "readable_type_right_x": 737.8,
+    "ink_left_x": 190.0,
+    "ink_right_x": 874.0,
+    "law30_rail_x": 918.0
+   },
+   "transcript": {
+    "law47_tail_s": 0.22,
+    "law47_cap_s": 0.24,
+    "law47_verdict": "PASS \u2014 0.220s past the last word against a 0.240s cap",
+    "law46": "the scripted opening occurs ONCE inside the keeper take, at word 0 / 0.08 s",
+    "take_corroboration": {
+     "mode": "model keep_words (the agent read the transcript and chose the words; no rule detection)",
+     "keep_words": [
+      [
+       46,
+       177
+      ]
+     ],
+     "take_start_s": 51.58,
+     "dropped_words": 46,
+     "raw_words": 178,
+     "corroboration": "model-authored keep ranges"
+    },
+    "words": 132,
+    "function_word_merges": 0,
+    "beats_before_merge": 38,
+    "orphan_repartitions": [],
+    "solo_word_merges": [],
+    "board_keys_forbidden_at_split": [
+     "advisor",
+     "advisor!",
+     "advisor,",
+     "advisor.",
+     "advisor?",
+     "europe",
+     "europe!",
+     "europe,",
+     "europe.",
+     "europe?",
+     "inference",
+     "inference!",
+     "inference,",
+     "inference.",
+     "inference?",
+     "managed agents",
+     "managed agents!",
+     "managed agents,",
+     "managed agents.",
+     "managed agents?",
+     "session",
+     "session budget",
+     "session budget!",
+     "session budget,",
+     "session budget.",
+     "session budget?",
+     "session!",
+     "session,",
+     "session.",
+     "session?",
+     "skills",
+     "skills!",
+     "skills,",
+     "skills.",
+     "skills?",
+     "us",
+     "us!",
+     "us,",
+     "us.",
+     "us?"
+    ]
+   },
+   "phone_objects": [
+    {
+     "name": "Claude pocket knife",
+     "t": 4.2,
+     "bbox": [
+      0.244,
+      0.1532,
+      0.731,
+      0.2844
+     ],
+     "canvas": [
+      263.6,
+      294.1,
+      789.5,
+      546.0
+     ]
+    },
+    {
+     "name": "Claude piggy bank",
+     "t": 8.0,
+     "bbox": [
+      0.3796,
+      0.1792,
+      0.6204,
+      0.2917
+     ],
+     "canvas": [
+      410.0,
+      344.0,
+      670.0,
+      560.0
+     ]
+    },
+    {
+     "name": "brain wired to agent",
+     "t": 19.4,
+     "bbox": [
+      0.2296,
+      0.1719,
+      0.7685,
+      0.2948
+     ],
+     "canvas": [
+      248.0,
+      330.0,
+      830.0,
+      566.0
+     ]
+    },
+    {
+     "name": "bookshelf cabled to agent",
+     "t": 24.9,
+     "bbox": [
+      0.2398,
+      0.1594,
+      0.7602,
+      0.3
+     ],
+     "canvas": [
+      259.0,
+      306.0,
+      821.0,
+      576.0
+     ]
+    },
+    {
+     "name": "US Europe signpost",
+     "t": 34.6,
+     "bbox": [
+      0.3111,
+      0.1583,
+      0.6889,
+      0.3365
+     ],
+     "canvas": [
+      336.0,
+      304.0,
+      744.0,
+      646.0
+     ]
+    }
+   ],
+   "render": {
+    "w": 1080,
+    "h": 1920,
+    "zoom": 1
+   },
+   "handle": "@migueltorrezai",
+   "captions": {
+    "n": 38,
+    "widest_px": 753.7,
+    "texts": [
+     "Claude just made it",
+     "easier to run their",
+     "managed AI agents with",
+     "these four new features.",
+     "Number one,",
+     "each managed agent can",
+     "now have its own session",
+     "budget, meaning no more",
+     "overspending in things",
+     "that you don't need.",
+     "Number two,",
+     "each session can get their",
+     "own advisor, meaning",
+     "a bigger,",
+     "more intelligent",
+     "model that is",
+     "going to help them",
+     "while they're working.",
+     "Number three,",
+     "they can now",
+     "load their skills",
+     "from any repository that",
+     "you connect them to.",
+     "And number four, now",
+     "you can choose where",
+     "the inference is running,",
+     "meaning that you can",
+     "choose where your",
+     "AI agent is going to",
+     "be working from,",
+     "whether it's the US",
+     "or Europe.",
+     "Now, follow for more",
+     "AI news, videos, and",
+     "tutorials each and",
+     "every single day,",
+     "and catch you",
+     "in the next one."
+    ],
+    "min_aspect": 2.62
+   }
+  }
+ }
+}

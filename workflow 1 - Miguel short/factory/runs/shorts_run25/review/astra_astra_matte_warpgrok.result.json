@@ -1,0 +1,14 @@
+{
+  "status": "ok",
+  "ship": "ok",
+  "selection_changed": false,
+  "edits": 0,
+  "rounds": 1,
+  "what_you_saw": "Inspected the clean first frame, full selection overlay and head overlay: the original contour preserves the cap brim, both ears, cheeks, jaw, chin, neck, shoulders and visible hand while excluding the chair back and headrest, so it was approved without edits. Inspected all four finished MatAnyone 2 sheets. Playback samples show a clean person silhouette through head movements and gestures; face_2x source/composite pairs, including first and last frames, preserve the ears, cheeks, jaw, chin and cap; chair_sides shows no retained black chair slab, grey wedge or neck splash; hands shows solid palms, fingers and forearms with soft motion-blurred edges. No material anatomy loss or detached fragments are visible in the reviewed samples. All 658 frames shipped, the chair audit is clean and metrics contain no automatic hold. SAM2 fallback was not needed.",
+  "hold_reason": "",
+  "outputs": [
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/matting/warpgrok/matte_warpgrok_v5_cut.webm",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/matting/warpgrok/matte_warpgrok_v5_rim.webm",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/matting/warpgrok/matte_warpgrok_v5_alpha.webm"
+  ]
+}

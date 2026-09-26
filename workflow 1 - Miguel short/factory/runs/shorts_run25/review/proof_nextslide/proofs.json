@@ -1,0 +1,63 @@
+{
+ "module": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/gen/nextslide_scene.py",
+ "objects": [
+  {
+   "i": 0,
+   "name": "slide on easel",
+   "t": 3.0,
+   "core_box": [
+    376.0,
+    110.0,
+    704.0,
+    508.0
+   ],
+   "phone_box_px": [
+    141,
+    113,
+    264,
+    262
+   ],
+   "phone_size_px": [
+    123,
+    149
+   ],
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/review/proof_nextslide/00.png"
+  },
+  {
+   "i": 1,
+   "name": "chart on easel",
+   "t": 28.5,
+   "core_box": [
+    376.0,
+    110.0,
+    704.0,
+    508.0
+   ],
+   "phone_box_px": [
+    141,
+    113,
+    264,
+    262
+   ],
+   "phone_size_px": [
+    123,
+    149
+   ],
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/review/proof_nextslide/01.png"
+  }
+ ],
+ "frames": [
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/review/proof_nextslide/frame_01.00.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/review/proof_nextslide/frame_03.00.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/review/proof_nextslide/frame_06.90.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/review/proof_nextslide/frame_08.60.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/review/proof_nextslide/frame_11.50.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/review/proof_nextslide/frame_16.00.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/review/proof_nextslide/frame_21.30.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/review/proof_nextslide/frame_24.00.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/review/proof_nextslide/frame_28.50.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/review/proof_nextslide/frame_31.50.png"
+ ],
+ "page_errors": [],
+ "font_ok": true
+}

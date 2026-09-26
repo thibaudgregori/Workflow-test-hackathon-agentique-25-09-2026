@@ -1,0 +1,292 @@
+{
+ "id": "grokdesktop",
+ "run": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26",
+ "recording": "2026-09-21 14-28-40",
+ "gpu": null,
+ "session": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/matting/grokdesktop",
+ "cut_dir": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/cuts/grokdesktop",
+ "stages": {
+  "cut": {
+   "status": "ok",
+   "master": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/cuts/grokdesktop/master.mp4",
+   "audio": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/cuts/grokdesktop/audio.m4a",
+   "face_plates": [
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/cuts/grokdesktop/face_full_hd.mp4",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/cuts/grokdesktop/face_bottom_hd.mp4"
+   ],
+   "edl": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/cuts/grokdesktop/edl.json",
+   "transcript_tight": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/cuts/grokdesktop/transcript_tight.json",
+   "cut_master_duration_s": 34.76,
+   "take": {
+    "word_index": 175,
+    "start_s": 95.34,
+    "words": 123,
+    "of_raw_words": 298,
+    "openings": 0
+   },
+   "corroboration": "model-authored keep ranges",
+   "analysis_wav_written": false,
+   "tight_audio_duration_s": 34.74,
+   "wall_s": 89.1
+  },
+  "plate": {
+   "status": "ok",
+   "plate": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/matting/grokdesktop/plate_wide_25.mp4",
+   "crop": "2534x1810+597+232",
+   "plate_size": [
+    1260,
+    900
+   ],
+   "scale_k": 0.497238,
+   "head_px_on_canvas": 451.1,
+   "overwide_applied": true,
+   "extension_master_px": {
+    "left_master_px": 181,
+    "left_plate_px": 90,
+    "left_canvas_px": 99.0,
+    "right_master_px": 181,
+    "right_plate_px": 90,
+    "right_canvas_px": 99.0,
+    "left_headroom_remaining_master_px": 597,
+    "right_headroom_remaining_master_px": 709,
+    "clamped_by_master_edge": {
+     "left": false,
+     "right": false
+    },
+    "lattice_padding_steps": 0
+   },
+   "plate_box": {
+    "w": 1386.0,
+    "h": 990.0,
+    "left": -153.0,
+    "top": 930.0,
+    "right": 1233.0,
+    "centred": false,
+    "note": "the origin is NOT (1080 - box_w)/2.  An over-wide plate is deliberately asymmetric; the generator's plate_origin() reads `left` from here, and ship.py's edge gate takes it as --edge-box."
+   },
+   "face_dx_pct": 0.035,
+   "visible_window_drift_master_px": 0.0,
+   "sweep": {
+    "file": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/gen/_birefnet_master_grokdesktop.json",
+    "frames_measured": 146,
+    "stride": 6,
+    "model": "birefnet-general",
+    "wall_seconds": 97.9,
+    "lane": {
+     "where": "modal",
+     "app": "shorts-factory-birefnet",
+     "gpu": "A10G",
+     "container": "851a0eae-8644-48db-967b-88bdc9a2d476",
+     "onnx": "birefnet-general.onnx",
+     "providers": [
+      "CUDAExecutionProvider",
+      "CPUExecutionProvider"
+     ],
+     "input_bytes": 25073306,
+     "model_load_seconds": 4.7,
+     "inference_seconds": 78.3,
+     "seconds_per_frame": 0.536,
+     "t_import_epoch": 1790114895.2226744,
+     "t_fn_enter_epoch": 1790114896.509273,
+     "t_fn_exit_epoch": 1790114983.4934304,
+     "proxy": true,
+     "proxy_seconds": 2.0,
+     "client_wall_seconds": 97.9,
+     "uploaded_bytes": 25073306,
+     "cold_start_seconds": 6.56,
+     "billed_container_seconds": 90.3,
+     "measured_cost_usd": 0.0403,
+     "cost_breakdown_usd": {
+      "gpu": 0.0276,
+      "cpu": 0.0095,
+      "mem": 0.0032
+     }
+    }
+   },
+   "plate_json": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/matting/grokdesktop/plate.json",
+   "wall_s": 82.2
+  },
+  "prompt0": {
+   "status": "ok",
+   "retries": [],
+   "prompt_guard": {
+    "repaired": false,
+    "why": "the live prompt is the original"
+   },
+   "prompt0_status": "ok",
+   "prompt_png": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/matting/grokdesktop/prompts/kf_00000.png",
+   "overlay_png": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/matting/grokdesktop/prompts/kf_overlay_00000.png",
+   "wings_source": "MEASURED on this plate's frame 0",
+   "wing_right": null,
+   "wing_left": null,
+   "wing_cut_applied": false,
+   "wing_review": true,
+   "wing_review_note": "the instrument proposed no cut.  It abstains rather than guesses (see the module docstring: zero false positives, zero recall on the run-9 corpus).  Look at kf_overlay_00000.png; if a headrest wing is inside the green prompt, measure its inner column and pass an explicit `wings` block on the intake row.  If you miss one, the protrusion gate inside ship.py is the net.",
+   "removed_px": 0,
+   "prompt_area_px": 462953,
+   "chair_prompt": {
+    "status": "ok",
+    "json": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/matting/grokdesktop/chair_prompt.json",
+    "overlay": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/matting/grokdesktop/prompts/chair_overlay_00000.png",
+    "band": {
+     "crown": 66,
+     "head_width": 323.0,
+     "band_top": 364,
+     "shoulder_arrival": 544
+    },
+    "found": [
+     "right"
+    ],
+    "overridden_sides": null,
+    "left": {
+     "found": false,
+     "why": "16 sandwiched dark region(s) beside the head, none of them 80+ rows tall and under 150 px wide (tallest 241)"
+    },
+    "right": {
+     "found": true,
+     "box": [
+      669,
+      274,
+      831,
+      466
+     ],
+     "points": [
+      [
+       800,
+       300,
+       1
+      ],
+      [
+       800,
+       347,
+       1
+      ],
+      [
+       788,
+       393,
+       1
+      ],
+      [
+       753,
+       440,
+       1
+      ],
+      [
+       618,
+       218,
+       0
+      ],
+      [
+       720,
+       370,
+       0
+      ],
+      [
+       627,
+       640,
+       0
+      ],
+      [
+       590,
+       664,
+       0
+      ]
+     ],
+     "rows": [
+      278,
+      462
+     ],
+     "rows_with_run": 185,
+     "cols": [
+      677,
+      823
+     ],
+     "run_width": {
+      "min": 4,
+      "max": 147,
+      "median": 42
+     },
+     "luma": {
+      "mean": 18.4,
+      "p95": 59,
+      "max": 84
+     },
+     "area_px": 10828
+    }
+   },
+   "wall_s": 80.4
+  },
+  "cues": {
+   "status": "ok",
+   "cue_count": 0,
+   "cues_json": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/gen/_cues_grokdesktop.json",
+   "answered": [],
+   "needs_source": [],
+   "cards": [],
+   "wall_s": 0.0
+  },
+  "track": {
+   "status": "REFUSED",
+   "error": "Chair audit refuse: right: 1830 px leak, but it reads mean luma 53.1 (ceiling 40).  That is a body, not a wedge -- his beard, jaw and stubble read 35-60 and the chair reads 15-25.  Re-review the contour by eye; this audit will not carve it."
+  },
+  "selection": {
+   "status": "error",
+   "selection": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/matting/grokdesktop/selection.json",
+   "chair_audit": {
+    "band": {
+     "crown": 66,
+     "head_width": 323.0,
+     "band_top": 364,
+     "shoulder_arrival": 544
+    },
+    "sides": {
+     "left": {
+      "found": false,
+      "why": "16 sandwiched dark region(s) beside the head, none of them 80+ rows tall and under 150 px wide (tallest 241)"
+     },
+     "right": {
+      "found": true,
+      "rows": [
+       278,
+       462
+      ],
+      "cols": [
+       677,
+       823
+      ],
+      "box": [
+       669,
+       274,
+       831,
+       466
+      ],
+      "wing_px": 10828,
+      "leak_px": 1830,
+      "wing_luma_mean": 18.4,
+      "leak_luma_mean": 53.1,
+      "leak_luma_p95": 73,
+      "action": "refuse",
+      "note": "1830 px leak, but it reads mean luma 53.1 (ceiling 40).  That is a body, not a wedge -- his beard, jaw and stubble read 35-60 and the chair reads 15-25.  Re-review the contour by eye; this audit will not carve it."
+     }
+    },
+    "leak_px": 1830,
+    "mask_px": 462953,
+    "thresholds": {
+     "leak_floor_px": 1500,
+     "carve_luma_max": 40,
+     "carve_frac_max": 0.06,
+     "dilate_px": 2
+    },
+    "verdict": "refuse",
+    "why": "right: 1830 px leak, but it reads mean luma 53.1 (ceiling 40).  That is a body, not a wedge -- his beard, jaw and stubble read 35-60 and the chair reads 15-25.  Re-review the contour by eye; this audit will not carve it.",
+    "selection": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/matting/grokdesktop/selection.json"
+   },
+   "error": "Chair audit refuse: right: 1830 px leak, but it reads mean luma 53.1 (ceiling 40).  That is a body, not a wedge -- his beard, jaw and stubble read 35-60 and the chair reads 15-25.  Re-review the contour by eye; this audit will not carve it."
+  }
+ },
+ "no_chair_object": false,
+ "started": "2026-09-23T14:09:23",
+ "backend": "matanyone2",
+ "finished": "2026-09-23T14:09:23",
+ "wall_s": 251.7
+}

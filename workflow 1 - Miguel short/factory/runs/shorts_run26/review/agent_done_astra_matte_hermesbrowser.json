@@ -1,0 +1,14 @@
+{
+  "status": "ok",
+  "ship": "ok",
+  "selection_changed": false,
+  "edits": 0,
+  "rounds": 1,
+  "what_you_saw": "Viewed the clean first frame, full selection overlay and head overlay: the flagged viewer-right region is cheek, jaw and beard, and the shoulder contour follows the shirt; the chair back is outside the selection. Re-approved unchanged. Deleted the chair audit ledger after inspection as requested, but the prescribed MatAnyone prep command regenerated the same anatomy-based refusal, so used the prescribed SAM2 fallback. It reused the cached track bound to this exact reviewed mask, finished temporal-1 and installed all 662 frames without another paid track. Viewed playback.jpg, face_2x.jpg, chair_sides.jpg and hands.jpg: at phone size the person is solid, both ears, cheeks, jaw, cap brim, chin, neck and shoulders remain present, and sampled gestures retain their hands. Source-versus-composite face tiles including first and last frame show intact anatomy. Chair-side tiles show no chair slab, grey wedge or neck splash; the late band peak is moving hand/body, not furniture. Fast-hand softness in the hands sheet is normal motion blur and passes. No viewer-noticeable defect appears in the reviewed sheets. Fresh ship marker is ok, all three output hashes match, and headroom passes with a 41.8 px minimum. Split and whiteboard were not rebuilt or rendered.",
+  "hold_reason": "",
+  "outputs": [
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/matting/hermesbrowser/matte_hermesbrowser_v5_cut.webm",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/matting/hermesbrowser/matte_hermesbrowser_v5_rim.webm",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/matting/hermesbrowser/matte_hermesbrowser_v5_alpha.webm"
+  ]
+}

@@ -1,0 +1,83 @@
+{
+ "label": "grokdesktop_cutout",
+ "video": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/grokdesktop_cutout.mp4",
+ "phone_scale": "405x720",
+ "sheet": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/phone_grokdesktop_cutout.png",
+ "rule": "a FRESH judge (never read the plan) names each crop in <=3 words. Wrong name, hedge, or 'cannot tell' = the object is redesigned, not annotated.",
+ "answer_key": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/phone_grokdesktop_cutout.key.json",
+ "answer_key_rule": "DO NOT OPEN the answer key until every judge_answer below is filled in. Reading it first voids the Phone Test.",
+ "objects": [
+  {
+   "i": 0,
+   "t": 2.8,
+   "bbox_norm": [
+    0.3981,
+    0.141,
+    0.6019,
+    0.3337
+   ],
+   "phone_box_px": [
+    161,
+    101,
+    243,
+    240
+   ],
+   "phone_size_px": [
+    82,
+    139
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/phone_grokdesktop_cutout/00.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  },
+  {
+   "i": 1,
+   "t": 10.3,
+   "bbox_norm": [
+    0.0333,
+    0.1868,
+    0.9667,
+    0.3441
+   ],
+   "phone_box_px": [
+    13,
+    134,
+    391,
+    247
+   ],
+   "phone_size_px": [
+    378,
+    113
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/phone_grokdesktop_cutout/01.png",
+   "sheet_scale": 0.794,
+   "judge_answer": null,
+   "verdict": null
+  },
+  {
+   "i": 2,
+   "t": 24.2,
+   "bbox_norm": [
+    0.4074,
+    0.141,
+    0.5926,
+    0.3243
+   ],
+   "phone_box_px": [
+    164,
+    101,
+    240,
+    233
+   ],
+   "phone_size_px": [
+    76,
+    132
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/phone_grokdesktop_cutout/02.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  }
+ ]
+}

@@ -1,0 +1,19 @@
+{
+  "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/projects/streamdeck_split",
+  "vid": "streamdeck",
+  "fmt": "split",
+  "quality": "high",
+  "stage": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/staging/youtube/streamdeck_split.mp4",
+  "qc_args": [
+    "--voice-master",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/cuts/streamdeck/audio.m4a",
+    "--phone-at",
+    "2.6:0.3241,0.15,0.6759,0.3354:Claude button keypad",
+    "--phone-at",
+    "14.1:0.037,0.15,0.987,0.3677:flashlight finding devices",
+    "--phone-at",
+    "20.9:0.3241,0.1521,0.6759,0.3719:devices wired to keypad",
+    "--phone-at",
+    "26.3:0.6083,0.199,0.9417,0.3563:pressed light button"
+  ]
+}

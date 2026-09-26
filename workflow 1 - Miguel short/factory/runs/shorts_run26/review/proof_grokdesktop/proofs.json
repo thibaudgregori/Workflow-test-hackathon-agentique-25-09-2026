@@ -1,0 +1,182 @@
+{
+ "crops": [
+  {
+   "i": 0,
+   "name": "medal on ribbon",
+   "t": 2.8,
+   "ui": false,
+   "core_box": [
+    430.0,
+    96.0,
+    650.0,
+    466.0
+   ],
+   "phone_box_px": [
+    161,
+    108,
+    244,
+    247
+   ],
+   "phone_size_px": [
+    83,
+    139
+   ],
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/proof_grokdesktop/00.png"
+  },
+  {
+   "i": 1,
+   "name": "bridge between cliffs",
+   "t": 10.3,
+   "ui": false,
+   "core_box": [
+    36.0,
+    184.0,
+    1044.0,
+    486.0
+   ],
+   "phone_box_px": [
+    14,
+    141,
+    392,
+    254
+   ],
+   "phone_size_px": [
+    378,
+    113
+   ],
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/proof_grokdesktop/01.png"
+  },
+  {
+   "i": 2,
+   "name": "sand hourglass timer",
+   "t": 24.2,
+   "ui": false,
+   "core_box": [
+    440.0,
+    96.0,
+    640.0,
+    448.0
+   ],
+   "phone_box_px": [
+    165,
+    108,
+    240,
+    240
+   ],
+   "phone_size_px": [
+    75,
+    132
+   ],
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/proof_grokdesktop/02.png"
+  },
+  {
+   "i": 3,
+   "name": "desktop monitor with app",
+   "t": 18.9,
+   "ui": true,
+   "core_box": [
+    300.0,
+    100.0,
+    780.0,
+    452.0
+   ],
+   "phone_box_px": [
+    112,
+    110,
+    292,
+    242
+   ],
+   "phone_size_px": [
+    180,
+    132
+   ],
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/proof_grokdesktop/03.png"
+  }
+ ],
+ "frames": [
+  {
+   "name": "medal_in",
+   "t": 0.7,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/proof_grokdesktop/frame_medal_in.png"
+  },
+  {
+   "name": "medal_top3",
+   "t": 2.8,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/proof_grokdesktop/frame_medal_top3.png"
+  },
+  {
+   "name": "c1_to_c2",
+   "t": 4.4,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/proof_grokdesktop/frame_c1_to_c2.png"
+  },
+  {
+   "name": "grok_cliff",
+   "t": 5.4,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/proof_grokdesktop/frame_grok_cliff.png"
+  },
+  {
+   "name": "half_bridge",
+   "t": 6.9,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/proof_grokdesktop/frame_half_bridge.png"
+  },
+  {
+   "name": "bridge_closed",
+   "t": 8.9,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/proof_grokdesktop/frame_bridge_closed.png"
+  },
+  {
+   "name": "bridge_rivals",
+   "t": 12.6,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/proof_grokdesktop/frame_bridge_rivals.png"
+  },
+  {
+   "name": "monitor_empty",
+   "t": 14.2,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/proof_grokdesktop/frame_monitor_empty.png"
+  },
+  {
+   "name": "grok_screen",
+   "t": 16.0,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/proof_grokdesktop/frame_grok_screen.png"
+  },
+  {
+   "name": "ui_filled",
+   "t": 18.9,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/proof_grokdesktop/frame_ui_filled.png"
+  },
+  {
+   "name": "hourglass_full",
+   "t": 21.6,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/proof_grokdesktop/frame_hourglass_full.png"
+  },
+  {
+   "name": "hourglass_pour1",
+   "t": 24.2,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/proof_grokdesktop/frame_hourglass_pour1.png"
+  },
+  {
+   "name": "hourglass_weeks",
+   "t": 30.3,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/proof_grokdesktop/frame_hourglass_weeks.png"
+  },
+  {
+   "name": "outro",
+   "t": 32.5,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/proof_grokdesktop/frame_outro.png"
+  }
+ ],
+ "stage_marks_resolve": {
+  "grok": "/Users/migle/Documents/Workspace/assets/logos/ai-models/grok.png",
+  "chatgpt": "/Users/migle/Documents/Workspace/assets/logos/ai-models/chatgpt-color.png",
+  "claude-cowork": "/Users/migle/Documents/Workspace/assets/logos/ai-models/claude-cowork.png"
+ },
+ "cutout_lanes_resolve": {
+  "gemini": "/Users/migle/Documents/Workspace/assets/logos/ai-models/gemini-color.png",
+  "deepseek": "/Users/migle/Documents/Workspace/assets/logos/ai-models/deepseek.png",
+  "mistral": "/Users/migle/Documents/Workspace/assets/logos/ai-models/mistral.png",
+  "meta": "/Users/migle/Documents/Workspace/assets/logos/ai-models/meta.png",
+  "perplexity": "/Users/migle/Documents/Workspace/assets/logos/ai-models/perplexity-color.png",
+  "kimi": "/Users/migle/Documents/Workspace/assets/logos/ai-models/kimi.png",
+  "qwen": "/Users/migle/Documents/Workspace/assets/logos/ai-models/qwen.png"
+ }
+}

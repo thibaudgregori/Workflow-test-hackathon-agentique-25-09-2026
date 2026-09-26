@@ -1,0 +1,889 @@
+{
+ "video": "stripekai",
+ "lane": "diagram build",
+ "fps": 25,
+ "duration": 35.82,
+ "seam": 862.5,
+ "formats": {
+  "split": {
+   "cues": {
+    "toolbox": {
+     "word": 0,
+     "text": "Stripe",
+     "t": 0.1
+    },
+    "tools": {
+     "word": 2,
+     "text": "revealed",
+     "t": 0.56
+    },
+    "keyterm": {
+     "word": 16,
+     "text": "Kai.",
+     "t": 4.14
+    },
+    "n_skills": {
+     "word": 24,
+     "text": "1,000",
+     "t": 7.1
+    },
+    "u_skills": {
+     "word": 25,
+     "text": "skills",
+     "t": 7.6
+    },
+    "n_tools": {
+     "word": 27,
+     "text": "500",
+     "t": 8.72
+    },
+    "u_tools": {
+     "word": 29,
+     "text": "tools.",
+     "t": 9.58
+    },
+    "seam1": {
+     "word": 30,
+     "text": "Literally,",
+     "t": 10.1
+    },
+    "person": {
+     "word": 31,
+     "text": "one",
+     "t": 10.76
+    },
+    "built": {
+     "word": 34,
+     "text": "built",
+     "t": 12.22
+    },
+    "k_week": {
+     "word": 38,
+     "text": "week",
+     "t": 13.2
+    },
+    "seam2": {
+     "word": 39,
+     "text": "and",
+     "t": 13.72
+    },
+    "k_83": {
+     "word": 46,
+     "text": "83%",
+     "t": 15.34
+    },
+    "k_work": {
+     "word": 49,
+     "text": "workforce",
+     "t": 16.7
+    },
+    "seam3": {
+     "word": 60,
+     "text": "how",
+     "t": 20.56
+    },
+    "sparks": {
+     "word": 68,
+     "text": "AI",
+     "t": 22.54
+    },
+    "k_orgs": {
+     "word": 72,
+     "text": "organizations.",
+     "t": 23.4
+    },
+    "seam4": {
+     "word": 73,
+     "text": "They",
+     "t": 24.4
+    },
+    "overflow": {
+     "word": 88,
+     "text": "loading",
+     "t": 27.72
+    },
+    "emph": {
+     "word": 90,
+     "text": "150",
+     "t": 28.48
+    },
+    "k_150": {
+     "word": 91,
+     "text": "skills,",
+     "t": 29.18
+    },
+    "emphout": {
+     "word": 93,
+     "text": "everyone",
+     "t": 30.0
+    },
+    "outro": {
+     "word": 100,
+     "text": "Now,",
+     "t": 31.82
+    },
+    "plate": {
+     "word": 0,
+     "text": "Stripe",
+     "t": 0.24,
+     "window": [
+      0.1,
+      1.34
+     ]
+    },
+    "strip": {
+     "word": 34,
+     "text": "built",
+     "t": 12.3,
+     "window": [
+      12.22,
+      13.42
+     ]
+    },
+    "fill": {
+     "word": 35,
+     "text": "this",
+     "t": 12.46,
+     "window": [
+      12.46,
+      13.6
+     ]
+    },
+    "crowd": {
+     "word": 39,
+     "text": "and",
+     "t": 13.8,
+     "window": [
+      13.72,
+      14.78
+     ]
+    },
+    "fill83": {
+     "word": 46,
+     "text": "83%",
+     "t": 15.4,
+     "window": [
+      15.34,
+      17.28
+     ]
+    }
+   },
+   "word_sync": {
+    "typed_states": [
+     {
+      "state": "key-kai",
+      "first_visible_text": "KAI",
+      "at": 4.14,
+      "word": "Kai.",
+      "spoken": "kai",
+      "word_window": [
+       4.14,
+       5.4
+      ]
+     },
+     {
+      "state": "cnt-skills-num",
+      "first_visible_text": "1,000",
+      "at": 7.1,
+      "word": "1,000",
+      "spoken": "1,000",
+      "word_window": [
+       7.1,
+       8.52
+      ]
+     },
+     {
+      "state": "cnt-skills-unit",
+      "first_visible_text": "SKILLS",
+      "at": 7.6,
+      "word": "skills",
+      "spoken": "skills",
+      "word_window": [
+       7.6,
+       8.9
+      ]
+     },
+     {
+      "state": "cnt-tools-num",
+      "first_visible_text": "500",
+      "at": 8.72,
+      "word": "500",
+      "spoken": "500",
+      "word_window": [
+       8.72,
+       10.08
+      ]
+     },
+     {
+      "state": "cnt-tools-unit",
+      "first_visible_text": "INTERNAL TOOLS",
+      "at": 9.58,
+      "word": "tools.",
+      "spoken": "internal tools",
+      "word_window": [
+       9.14,
+       10.8
+      ]
+     },
+     {
+      "state": "key-week",
+      "first_visible_text": "1 WEEK",
+      "at": 13.2,
+      "word": "week",
+      "spoken": "a week",
+      "word_window": [
+       13.04,
+       14.42
+      ]
+     },
+     {
+      "state": "key-83",
+      "first_visible_text": "83%",
+      "at": 15.34,
+      "word": "83%",
+      "spoken": "83%",
+      "word_window": [
+       15.34,
+       17.28
+      ]
+     },
+     {
+      "state": "key-workforce",
+      "first_visible_text": "OF THE WORKFORCE",
+      "at": 16.7,
+      "word": "workforce",
+      "spoken": "of the workforce",
+      "word_window": [
+       16.36,
+       18.18
+      ]
+     },
+     {
+      "state": "key-orgs",
+      "first_visible_text": "ORGANIZATIONS",
+      "at": 23.4,
+      "word": "organizations.",
+      "spoken": "organizations",
+      "word_window": [
+       23.4,
+       25.08
+      ]
+     },
+     {
+      "state": "key-150",
+      "first_visible_text": "150+ SKILLS",
+      "at": 29.18,
+      "word": "skills,",
+      "spoken": "over 150 skills",
+      "word_window": [
+       28.08,
+       30.46
+      ]
+     }
+    ],
+    "disagreements": 0,
+    "digits_that_tick": 0,
+    "note": "Numbers are printed whole (no tick-up), so no intermediate value is ever on screen; 1 WEEK prints 'a week'."
+   },
+   "law37": {
+    "scan_cue_count": 0,
+    "plan_declared_cards": 0,
+    "prep_marker_cue_count": 0,
+    "source_cards_in_the_page": 0
+   },
+   "law39": {
+    "key-kai": {
+     "host": "toolbox",
+     "side": "below",
+     "text": "KAI",
+     "at": 4.14,
+     "checked_at": [
+      4.44,
+      5.0,
+      8.0,
+      9.95
+     ],
+     "box_canvas": [
+      420.0,
+      626.0,
+      660.0,
+      692.0
+     ]
+    },
+    "key-week": {
+     "host": "week-strip",
+     "side": "below",
+     "text": "1 WEEK",
+     "at": 13.2,
+     "checked_at": [
+      13.5,
+      13.5
+     ],
+     "box_canvas": [
+      440.0,
+      644.0,
+      640.0,
+      688.0
+     ]
+    },
+    "key-83": {
+     "host": "crowd",
+     "side": "above",
+     "text": "83%",
+     "at": 15.34,
+     "checked_at": [
+      15.64,
+      16.0,
+      17.5,
+      20.0
+     ],
+     "box_canvas": [
+      420.0,
+      268.0,
+      660.0,
+      340.0
+     ]
+    },
+    "key-workforce": {
+     "host": "crowd",
+     "side": "below",
+     "text": "OF THE WORKFORCE",
+     "at": 16.7,
+     "checked_at": [
+      17.0,
+      17.5,
+      20.0
+     ],
+     "box_canvas": [
+      380.0,
+      654.0,
+      700.0,
+      698.0
+     ]
+    },
+    "key-orgs": {
+     "host": "buildings",
+     "side": "below",
+     "text": "ORGANIZATIONS",
+     "at": 23.4,
+     "checked_at": [
+      23.7,
+      23.8
+     ],
+     "box_canvas": [
+      400.0,
+      636.0,
+      680.0,
+      680.0
+     ]
+    },
+    "key-150": {
+     "host": "toolbox-2",
+     "side": "below",
+     "text": "150+ SKILLS",
+     "at": 29.18,
+     "checked_at": [
+      29.48,
+      29.5,
+      31.0
+     ],
+     "box_canvas": [
+      390.0,
+      686.0,
+      690.0,
+      730.0
+     ]
+    },
+    "_key_term": {
+     "text": "KAI",
+     "font_px": 56.0,
+     "design_units": 29.87,
+     "first_type": true
+    }
+   },
+   "law42": {
+    "board_mode": "chapters",
+    "chapters": 6,
+    "anchors": [
+     "o-sheet",
+     "o-glyph",
+     "o-rule",
+     "o-slot"
+    ],
+    "longest_finite_share": 0.38
+   },
+   "law41": {
+    "tightest_core_px": 40.0,
+    "tightest_pair": [
+     "toolbox",
+     "cnt-skills-num",
+     8.0
+    ],
+    "refusal_line": 16.0,
+    "blocks": [
+     [
+      "toolbox",
+      "key-kai"
+     ],
+     [
+      "cnt-skills-num",
+      "cnt-skills-unit"
+     ],
+     [
+      "cnt-tools-num",
+      "cnt-tools-unit"
+     ],
+     [
+      "week-strip",
+      "key-week"
+     ],
+     [
+      "person",
+      "crowd",
+      "key-83",
+      "key-workforce"
+     ],
+     [
+      "buildings",
+      "key-orgs"
+     ],
+     [
+      "toolbox-2",
+      "key-150"
+     ],
+     [
+      "o-glyph",
+      "o-rule"
+     ]
+    ]
+   },
+   "law38": {
+    "flips": [
+     {
+      "on": "#toolbox-2 .tbbody",
+      "kind": "border",
+      "target": "toolbox-2-body",
+      "check_at": 29.5,
+      "held": [
+       28.82,
+       30.0
+      ]
+     }
+    ],
+    "rings_ellipses_circles": 0,
+    "highlights": 0,
+    "dom_elements_added": 1,
+    "note": "the one added element is the inkless virtual body rect"
+   },
+   "law2": {
+    "stage_marks": [
+     "stripe"
+    ],
+    "resolved": {
+     "stripe": "/Users/migle/Documents/Workspace/assets/logos/platforms/stripe-color.png"
+    },
+    "mark_side_authoring_px": 96.0,
+    "cutout_lanes_not_ours": [
+     "claude",
+     "claude-code",
+     "chatgpt",
+     "cursor",
+     "slack",
+     "notion"
+    ]
+   },
+   "law22": {
+    "events": 22,
+    "tightest_gap_s": 0.46,
+    "deliberately_silent": {
+     "plate 0.24": "0.14 s after the toolbox pop",
+     "strip 12.30 / fill 12.46": "0.08 s after the line click",
+     "crowd 13.80": "0.08 s after the seam whoosh",
+     "fill83 15.40": "0.06 s after the 83% pop",
+     "emphout 30.00": "a return to ink is not an arrival",
+     "fades/exits": "a fade-out is not an arrival"
+    }
+   },
+   "law40": {
+    "conn-built": {
+     "target": "toolbox",
+     "side": "left",
+     "fraction": 0.5,
+     "check_at": 13.4,
+     "tip_core": [
+      526.0,
+      210.0
+     ],
+     "anchor_core": [
+      526.0,
+      210.0
+     ],
+     "miss_px": 0.0,
+     "level_px": 0.0
+    }
+   },
+   "declared": {
+    "connectors_stamped": 1,
+    "emphases_stamped": 1,
+    "virtual_rects": [
+     "toolbox-2-body"
+    ]
+   },
+   "band": {
+    "content_top": 268.0,
+    "content_bottom": 730.0,
+    "pill_top_rendered": 805.205,
+    "clear_above_pill": 75.21,
+    "clear_below_law30": 76.0
+   },
+   "rail": {
+    "rail_band_y": [
+     576.0,
+     1824.0
+    ],
+    "keys": {
+     "key-kai": {
+      "y": [
+       626.0,
+       692.0
+      ],
+      "in_rail_band": true
+     },
+     "cnt-skills-num": {
+      "y": [
+       386.0,
+       458.0
+      ],
+      "in_rail_band": false
+     },
+     "cnt-skills-unit": {
+      "y": [
+       464.0,
+       504.0
+      ],
+      "in_rail_band": false
+     },
+     "cnt-tools-num": {
+      "y": [
+       386.0,
+       458.0
+      ],
+      "in_rail_band": false
+     },
+     "cnt-tools-unit": {
+      "y": [
+       464.0,
+       504.0
+      ],
+      "in_rail_band": false
+     },
+     "key-week": {
+      "y": [
+       644.0,
+       688.0
+      ],
+      "in_rail_band": true
+     },
+     "key-83": {
+      "y": [
+       268.0,
+       340.0
+      ],
+      "in_rail_band": false
+     },
+     "key-workforce": {
+      "y": [
+       654.0,
+       698.0
+      ],
+      "in_rail_band": true
+     },
+     "key-orgs": {
+      "y": [
+       636.0,
+       680.0
+      ],
+      "in_rail_band": true
+     },
+     "key-150": {
+      "y": [
+       686.0,
+       730.0
+      ],
+      "in_rail_band": true
+     }
+    },
+    "keys_in_rail_band": [
+     "key-kai",
+     "key-week",
+     "key-workforce",
+     "key-orgs",
+     "key-150"
+    ],
+    "law30_rail_x": 918.0
+   },
+   "staged": {
+    "voice": {
+     "source": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/cuts/stripekai/audio.m4a",
+     "sample_rate": 48000,
+     "channels": 2
+    },
+    "bed": "/Users/migle/Documents/Workspace/assets/audio/music/shorts-factory/bed_split_v2.mp3",
+    "sfx_sources": {
+     "whoosh": "/Users/migle/Documents/Workspace/assets/audio/sfx/shorts-factory/whoosh.mp3",
+     "pop": "/Users/migle/Documents/Workspace/assets/audio/sfx/shorts-factory/pop.mp3",
+     "click": "/Users/migle/Documents/Workspace/assets/audio/sfx/shorts-factory/click.mp3"
+    },
+    "face": {
+     "file": "face_bottom_hd.mp4",
+     "w": 1080,
+     "h": 1058
+    },
+    "marks": {
+     "stripe": {
+      "source": "/Users/migle/Documents/Workspace/assets/logos/platforms/stripe-color.png",
+      "url": "assets/logos/stripe-color.png"
+     }
+    }
+   },
+   "seat": 862.5,
+   "scale": 1.0,
+   "core": {
+    "left": 0.0,
+    "top": 192.0
+   },
+   "phone_objects": [
+    {
+     "name": "an open toolbox",
+     "t": 3.0,
+     "bbox": [
+      0.3333,
+      0.1573,
+      0.6667,
+      0.3135
+     ],
+     "canvas": [
+      360.0,
+      302.0,
+      720.0,
+      602.0
+     ]
+    },
+    {
+     "name": "a group of people",
+     "t": 16.4,
+     "bbox": [
+      0.1713,
+      0.1896,
+      0.8287,
+      0.3281
+     ],
+     "canvas": [
+      185.0,
+      364.0,
+      895.0,
+      630.0
+     ]
+    },
+    {
+     "name": "three office buildings",
+     "t": 23.8,
+     "bbox": [
+      0.2454,
+      0.1458,
+      0.7546,
+      0.3187
+     ],
+     "canvas": [
+      265.0,
+      280.0,
+      815.0,
+      612.0
+     ]
+    },
+    {
+     "name": "an overflowing toolbox",
+     "t": 30.2,
+     "bbox": [
+      0.2833,
+      0.1672,
+      0.7167,
+      0.3453
+     ],
+     "canvas": [
+      306.0,
+      321.0,
+      774.0,
+      663.0
+     ]
+    }
+   ],
+   "transcript": {
+    "law47_tail_s": 0.2,
+    "law47_cap_s": 0.24,
+    "law47_verdict": "PASS - 0.200s past the last word against a 0.240s cap",
+    "law46": "the scripted opening occurs ONCE inside the keeper take",
+    "take_corroboration": {
+     "mode": "model keep_words (the agent read the transcript and chose the words; no rule detection)",
+     "keep_words": [
+      [
+       159,
+       285
+      ]
+     ],
+     "raw_word_index": 159,
+     "raw_start_s": 91.6,
+     "words": 127,
+     "of_raw_words": 286,
+     "dropped_words": 159,
+     "corroboration": "model-authored keep ranges"
+    },
+    "words": 121,
+    "function_word_merges": 0,
+    "beats_before_merge": 35,
+    "orphan_repartitions": [],
+    "solo_word_merges": [
+     {
+      "solo": "Literally,",
+      "direction": "forward",
+      "merged_to": "Literally, one single guy"
+     }
+    ],
+    "board_keys_forbidden_at_split": [
+     "1 week",
+     "1 week!",
+     "1 week,",
+     "1 week.",
+     "1 week?",
+     "1,000",
+     "1,000!",
+     "1,000,",
+     "1,000.",
+     "1,000?",
+     "150+ skills",
+     "150+ skills!",
+     "150+ skills,",
+     "150+ skills.",
+     "150+ skills?",
+     "500",
+     "500!",
+     "500,",
+     "500.",
+     "500?",
+     "83%",
+     "83%!",
+     "83%,",
+     "83%.",
+     "83%?",
+     "internal tools",
+     "internal tools!",
+     "internal tools,",
+     "internal tools.",
+     "internal tools?",
+     "kai",
+     "kai!",
+     "kai,",
+     "kai.",
+     "kai?",
+     "of the workforce",
+     "of the workforce!",
+     "of the workforce,",
+     "of the workforce.",
+     "of the workforce?",
+     "organizations",
+     "organizations!",
+     "organizations,",
+     "organizations.",
+     "organizations?",
+     "skills",
+     "skills!",
+     "skills,",
+     "skills.",
+     "skills?"
+    ]
+   },
+   "captions": {
+    "n": 34,
+    "widest_px": 707.1,
+    "texts": [
+     "Stripe just revealed",
+     "their secrets on how",
+     "they're using AI inside",
+     "of their company.",
+     "It's called Kai.",
+     "It's a centralized",
+     "platform that has over",
+     "1,000 skills and",
+     "500 internal tools.",
+     "Literally, one single guy",
+     "built this in a week",
+     "and is now being",
+     "used by over 83% of",
+     "the workforce",
+     "inside of Stripe.",
+     "Now, it's always",
+     "extremely interesting",
+     "to see how other",
+     "people are learning",
+     "how to use AI inside",
+     "of their organizations.",
+     "They even tell us",
+     "that they still have",
+     "a bit of problems",
+     "when they start loading",
+     "over 150 skills, but",
+     "everyone is learning",
+     "as we go along.",
+     "Now, follow for more",
+     "AI news, videos, and",
+     "tutorials each and",
+     "every single day,",
+     "and catch you",
+     "in the next one."
+    ],
+    "starts": [
+     0.1,
+     0.92,
+     1.74,
+     2.82,
+     3.68,
+     4.78,
+     5.56,
+     7.1,
+     8.72,
+     10.1,
+     12.22,
+     13.72,
+     14.52,
+     16.54,
+     17.36,
+     18.36,
+     19.02,
+     20.04,
+     21.06,
+     22.04,
+     23.12,
+     24.4,
+     25.16,
+     26.06,
+     27.12,
+     28.08,
+     30.0,
+     30.9,
+     31.82,
+     32.54,
+     33.46,
+     34.08,
+     34.86,
+     35.18
+    ]
+   },
+   "render": {
+    "w": 1080,
+    "h": 1920,
+    "zoom": 1
+   },
+   "handle": "@migueltorrezai"
+  }
+ }
+}

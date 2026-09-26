@@ -1,0 +1,766 @@
+{
+ "video": "streamdeck",
+ "lane": "icon choreography",
+ "fps": 25,
+ "duration": 30.48,
+ "seam": 862.5,
+ "formats": {
+  "split": {
+   "cues": {
+    "deck": {
+     "word": 0,
+     "text": "The",
+     "t": 0.12
+    },
+    "marks": {
+     "word": 2,
+     "text": "accessory",
+     "t": 0.44
+    },
+    "shift": {
+     "word": 12,
+     "text": "Claude",
+     "t": 3.3
+    },
+    "cctile": {
+     "word": 13,
+     "text": "Code",
+     "t": 3.62
+    },
+    "cable": {
+     "word": 16,
+     "text": "combination",
+     "t": 4.7
+    },
+    "torch": {
+     "word": 21,
+     "text": "you",
+     "t": 6.08
+    },
+    "ccmark": {
+     "word": 27,
+     "text": "Claude",
+     "t": 7.26
+    },
+    "slide": {
+     "word": 31,
+     "text": "look",
+     "t": 8.8
+    },
+    "bulb": {
+     "word": 34,
+     "text": "every",
+     "t": 9.82
+    },
+    "fridge": {
+     "word": 35,
+     "text": "single",
+     "t": 10.24
+    },
+    "tv": {
+     "word": 36,
+     "text": "connected",
+     "t": 10.52
+    },
+    "every": {
+     "word": 37,
+     "text": "device",
+     "t": 10.94
+    },
+    "lights": {
+     "word": 44,
+     "text": "lights,",
+     "t": 13.38
+    },
+    "fridgeflip": {
+     "word": 46,
+     "text": "fridge,",
+     "t": 14.34
+    },
+    "tvflip": {
+     "word": 47,
+     "text": "anything",
+     "t": 15.04
+    },
+    "c2out": {
+     "word": 49,
+     "text": "and",
+     "t": 16.34
+    },
+    "minis": {
+     "word": 51,
+     "text": "map",
+     "t": 16.86
+    },
+    "arrows": {
+     "word": 55,
+     "text": "actions",
+     "t": 17.72
+    },
+    "keys": {
+     "word": 62,
+     "text": "directly",
+     "t": 19.5
+    },
+    "deckflip": {
+     "word": 67,
+     "text": "buttons.",
+     "t": 21.16
+    },
+    "c3out": {
+     "word": 68,
+     "text": "Because",
+     "t": 21.78
+    },
+    "typing": {
+     "word": 74,
+     "text": "telling",
+     "t": 23.7
+    },
+    "bigkey": {
+     "word": 79,
+     "text": "Literally",
+     "t": 25.14
+    },
+    "press": {
+     "word": 81,
+     "text": "clicking",
+     "t": 25.68
+    },
+    "outro": {
+     "word": 84,
+     "text": "Now",
+     "t": 26.52
+    },
+    "key": {
+     "word": 7,
+     "text": "Stream",
+     "t": 1.9,
+     "window": [
+      1.84,
+      3.02
+     ]
+    },
+    "c1out": {
+     "word": 20,
+     "text": "Deck,",
+     "t": 5.9,
+     "window": [
+      5.64,
+      6.8
+     ]
+    },
+    "beam": {
+     "word": 32,
+     "text": "around",
+     "t": 9.1,
+     "window": [
+      9.04,
+      10.34
+     ]
+    },
+    "deck2": {
+     "word": 49,
+     "text": "and",
+     "t": 16.4,
+     "window": [
+      16.34,
+      17.5
+     ]
+    },
+    "prompt": {
+     "word": 68,
+     "text": "Because",
+     "t": 21.84,
+     "window": [
+      21.78,
+      23.24
+     ]
+    },
+    "oneclick": {
+     "word": 81,
+     "text": "clicking",
+     "t": 25.8,
+     "window": [
+      25.68,
+      26.94
+     ]
+    },
+    "_law43": {
+     "board_mode": "chapters",
+     "chapters": 4,
+     "erase_at": [
+      5.9,
+      16.34,
+      21.78,
+      26.52
+     ]
+    }
+   },
+   "word_sync": {
+    "typed_states": [
+     {
+      "state": "key-deck",
+      "first_visible_text": "STREAM DECK",
+      "at": 1.9,
+      "words": "stream deck.",
+      "window": [
+       1.84,
+       3.3
+      ]
+     },
+     {
+      "state": "key-every",
+      "first_visible_text": "EVERY DEVICE",
+      "at": 10.94,
+      "words": "every single connected device",
+      "window": [
+       9.82,
+       12.5
+      ]
+     },
+     {
+      "state": "key-oneclick",
+      "first_visible_text": "ONE CLICK",
+      "at": 25.8,
+      "words": "clicking a button.",
+      "window": [
+       25.68,
+       27.36
+      ]
+     }
+    ],
+    "disagreements": 0,
+    "digits_that_tick": 0
+   },
+   "law37": {
+    "scan_cue_count": 0,
+    "plan_declared_cards": 0,
+    "source_cards_in_the_page": 0
+   },
+   "law39": {
+    "key-deck": {
+     "host": "deck1",
+     "side": "below",
+     "text": "STREAM DECK",
+     "at": 1.9,
+     "gutter_core_px": 33.0,
+     "axis_off_px": 0.0,
+     "box_canvas": [
+      461.0,
+      581.0,
+      881.0,
+      639.0
+     ]
+    },
+    "key-every": {
+     "host": "scan",
+     "side": "below",
+     "text": "EVERY DEVICE",
+     "at": 10.94,
+     "gutter_core_px": 18.0,
+     "axis_off_px": -4.0,
+     "box_canvas": [
+      360.0,
+      662.0,
+      720.0,
+      706.0
+     ]
+    },
+    "key-oneclick": {
+     "host": "bigkey",
+     "side": "below",
+     "text": "ONE CLICK",
+     "at": 25.8,
+     "gutter_core_px": 28.0,
+     "axis_off_px": 0.0,
+     "box_canvas": [
+      657.0,
+      640.0,
+      1017.0,
+      684.0
+     ]
+    },
+    "_law50": {
+     "plain_label_font_px": 28.0,
+     "row_h": 44.0
+    },
+    "_key_term": {
+     "text": "STREAM DECK",
+     "font_px": 48.0,
+     "design_units": 25.6,
+     "first_type": true
+    }
+   },
+   "law42": {
+    "board_mode": "chapters",
+    "anchors": [
+     "o-glyph",
+     "o-rule",
+     "o-sheet",
+     "o-slot"
+    ],
+    "mark_shares": {
+     "claude keys, chapter 1": 0.189,
+     "claude-code tile": 0.085,
+     "claude-code on the flashlight": 0.308,
+     "claude keys, chapter 3": 0.186,
+     "claude in the prompt header": 0.169
+    }
+   },
+   "law38": {
+    "border_flips": [
+     {
+      "id": "emph-fridge",
+      "kind": "border",
+      "target": "fridge",
+      "check_at": 14.8,
+      "held": [
+       14.68,
+       14.9
+      ]
+     },
+     {
+      "id": "emph-tv",
+      "kind": "border",
+      "target": "tv",
+      "check_at": 15.5,
+      "held": [
+       15.38,
+       15.6
+      ]
+     },
+     {
+      "id": "emph-deck2",
+      "kind": "border",
+      "target": "deck2",
+      "check_at": 21.6,
+      "held": [
+       21.5,
+       21.78
+      ]
+     },
+     {
+      "id": "bigcap",
+      "kind": "border",
+      "target": "bigkey-face",
+      "check_at": 26.4,
+      "held": [
+       25.98,
+       26.52
+      ]
+     }
+    ],
+    "rings_ellipses_circles": 0,
+    "highlights": 0,
+    "dom_elements_added": 1,
+    "note": "the one added element is the inkless virtual rect #bigkey-face (the keycap's face)"
+   },
+   "law2": {
+    "stage_marks": [
+     "claude",
+     "claude-code"
+    ],
+    "resolved": {
+     "claude": "/Users/migle/Documents/Workspace/assets/logos/ai-models/claude-color.png",
+     "claude-code": "/Users/migle/Documents/Workspace/assets/logos/coding-tools/claudecode-color.png"
+    },
+    "cutout_lanes_not_ours": [
+     "codex",
+     "cursor",
+     "openclaw",
+     "hermes-agent",
+     "chatgpt",
+     "gemini",
+     "mcp",
+     "obs-studio"
+    ]
+   },
+   "law22": {
+    "events": 23,
+    "tightest_gap_s": 0.3,
+    "deliberately_silent": {
+     "torch 6.08": "0.18 s after the chapter whoosh",
+     "tv 10.52": "0.28 s after the fridge pop; one pop per arrival would flam",
+     "prompt 21.84": "0.06 s after the chapter whoosh",
+     "ONE CLICK 25.80": "0.12 s after the press click",
+     "flips": "a colour flip is not an arrival"
+    }
+   },
+   "draw_on": {
+    "dash_selectors": {
+     "#arrows .ar": 3,
+     "#beam .be": 2,
+     "#bigbulb .bbr": 5,
+     "#bulb .bufl": 1,
+     "#bulb .bug": 1,
+     "#bulb .bur": 5,
+     "#bulb .bus": 3,
+     "#cable .cb": 1,
+     "#deck1 .d1b": 1,
+     "#deck1 .d1c": 6,
+     "#deck1 .d1k": 6,
+     "#fridge .frd": 3,
+     "#fridge .fro": 1,
+     "#torch .tb": 1,
+     "#torch .tg": 1,
+     "#torch .th": 1,
+     "#torch .ts": 1,
+     "#tv .tvvd": 5,
+     "#tv .tvvo": 1
+    },
+    "verdict": "every dash equals its path's declared length (100)"
+   },
+   "law40": {
+    "cable": {
+     "target": "deck1-body",
+     "side": "left",
+     "fraction": 0.5,
+     "check_at": 5.5,
+     "end_core": [
+      497.0,
+      233.0
+     ],
+     "miss_px": 0.0
+    },
+    "arrows": {
+     "target": "deck2-edge",
+     "side": "top",
+     "fraction": 0.215084,
+     "fractions_all": [
+      0.215084,
+      0.5,
+      0.784916
+     ],
+     "check_at": 20.9,
+     "tips_core": [
+      [
+       438.0,
+       257.0
+      ],
+      [
+       540.0,
+       257.0
+      ],
+      [
+       642.0,
+       257.0
+      ]
+     ],
+     "level_px": 0.0
+    }
+   },
+   "declared": {
+    "connectors_stamped": 2,
+    "emphases_stamped": 4,
+    "virtual_rects": [
+     "deck1-body",
+     "deck2-edge",
+     "bigkey-face"
+    ],
+    "arrowheads_classed_ahead": 3,
+    "rail_shift_px": {
+     "bigkey": -8.0,
+     "key-oneclick": -8.0
+    }
+   },
+   "staged": {
+    "voice": {
+     "source": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/cuts/streamdeck/audio.m4a",
+     "sample_rate": 48000,
+     "channels": 2
+    },
+    "bed": "/Users/migle/Documents/Workspace/assets/audio/music/shorts-factory/bed_split_v2.mp3",
+    "sfx_sources": {
+     "whoosh": "/Users/migle/Documents/Workspace/assets/audio/sfx/shorts-factory/whoosh.mp3",
+     "pop": "/Users/migle/Documents/Workspace/assets/audio/sfx/shorts-factory/pop.mp3",
+     "click": "/Users/migle/Documents/Workspace/assets/audio/sfx/shorts-factory/click.mp3"
+    },
+    "face": {
+     "file": "face_bottom_hd.mp4",
+     "w": 1080,
+     "h": 1058
+    },
+    "marks": {
+     "claude": {
+      "source": "/Users/migle/Documents/Workspace/assets/logos/ai-models/claude-color.png",
+      "url": "assets/logos/claude-color.png"
+     },
+     "claude-code": {
+      "source": "/Users/migle/Documents/Workspace/assets/logos/coding-tools/claudecode-color.png",
+      "url": "assets/logos/claudecode-color.png"
+     }
+    }
+   },
+   "seat": 862.5,
+   "scale": 1.0,
+   "core": {
+    "left": 0.0,
+    "top": 192.0
+   },
+   "band": {
+    "content_top": 288.0,
+    "content_bottom": 706.0,
+    "pill_top_rendered": 805.205,
+    "clear_above_pill": 99.21,
+    "clear_below_law30": 96.0
+   },
+   "rail": {
+    "readable_type_right_x": {
+     "key-deck": 839.4,
+     "key-every": 647.4,
+     "key-oneclick": 917.4
+    },
+    "ink_left_x": 40.0,
+    "ink_right_x": 1080.0,
+    "law30_rail_x": 918.0
+   },
+   "transcript": {
+    "law47_tail_s": 0.2,
+    "law47_cap_s": 0.24,
+    "law47_verdict": "PASS - 0.200s past the last word against a 0.240s cap",
+    "law46": "the scripted opening occurs ONCE inside the keeper take, at word 0 / 0.12 s",
+    "take_corroboration": {
+     "mode": "model keep_words (the agent read the transcript and chose the words; no rule detection)",
+     "keep_words": [
+      [
+       66,
+       170
+      ]
+     ],
+     "take_word_index": 66,
+     "take_start_s": 50.38,
+     "words": 105,
+     "of_raw_words": 171,
+     "corroboration": "model-authored keep ranges"
+    },
+    "words": 105,
+    "function_word_merges": 0,
+    "beats_before_merge": 31,
+    "orphan_repartitions": [],
+    "solo_word_merges": [],
+    "board_keys_forbidden_at_split": [
+     "every device",
+     "every device!",
+     "every device,",
+     "every device.",
+     "every device?",
+     "one click",
+     "one click!",
+     "one click,",
+     "one click.",
+     "one click?",
+     "stream deck",
+     "stream deck!",
+     "stream deck,",
+     "stream deck.",
+     "stream deck?"
+    ],
+    "proper_nouns": "as spoken: 'Claude Code', 'Stream Deck' (handoff 7)"
+   },
+   "phone_objects": [
+    {
+     "name": "Claude button keypad",
+     "t": 2.6,
+     "bbox": [
+      0.3241,
+      0.15,
+      0.6759,
+      0.3354
+     ],
+     "canvas": [
+      350.0,
+      288.0,
+      730.0,
+      644.0
+     ]
+    },
+    {
+     "name": "flashlight finding devices",
+     "t": 14.1,
+     "bbox": [
+      0.037,
+      0.15,
+      0.987,
+      0.3677
+     ],
+     "canvas": [
+      40.0,
+      288.0,
+      1066.0,
+      706.0
+     ]
+    },
+    {
+     "name": "devices wired to keypad",
+     "t": 20.9,
+     "bbox": [
+      0.3241,
+      0.1521,
+      0.6759,
+      0.3719
+     ],
+     "canvas": [
+      350.0,
+      292.0,
+      730.0,
+      714.0
+     ]
+    },
+    {
+     "name": "pressed light button",
+     "t": 26.3,
+     "bbox": [
+      0.6083,
+      0.199,
+      0.9417,
+      0.3563
+     ],
+     "canvas": [
+      657.0,
+      382.0,
+      1017.0,
+      684.0
+     ]
+    }
+   ],
+   "render": {
+    "w": 1080,
+    "h": 1920,
+    "zoom": 1
+   },
+   "handle": "@migueltorrezai",
+   "captions": {
+    "n": 31,
+    "widest_px": 708.1,
+    "beats": [
+     [
+      "The best accessory",
+      0.12
+     ],
+     [
+      "for Claude",
+      0.86
+     ],
+     [
+      "is the Stream Deck.",
+      1.6
+     ],
+     [
+      "Now, by using",
+      2.7
+     ],
+     [
+      "Claude Code",
+      3.3
+     ],
+     [
+      "and the combination of",
+      4.2
+     ],
+     [
+      "the Stream Deck, you",
+      5.24
+     ],
+     [
+      "can literally just tell",
+      6.16
+     ],
+     [
+      "your Claude Code agent",
+      7.06
+     ],
+     [
+      "to look around for",
+      8.56
+     ],
+     [
+      "every single connected",
+      9.82
+     ],
+     [
+      "device on your network,",
+      10.94
+     ],
+     [
+      "whether it's your lights,",
+      12.42
+     ],
+     [
+      "your fridge,",
+      14.1
+     ],
+     [
+      "anything whatsoever,",
+      15.04
+     ],
+     [
+      "and to map all of",
+      16.34
+     ],
+     [
+      "the actions that you",
+      17.6
+     ],
+     [
+      "need to be doing",
+      18.32
+     ],
+     [
+      "directly to your",
+      19.5
+     ],
+     [
+      "Stream Deck buttons.",
+      20.42
+     ],
+     [
+      "Because what's even",
+      21.78
+     ],
+     [
+      "simpler than just telling",
+      22.88
+     ],
+     [
+      "AI to do something?",
+      24.04
+     ],
+     [
+      "Literally just",
+      25.14
+     ],
+     [
+      "clicking a button.",
+      25.68
+     ],
+     [
+      "Now follow for more",
+      26.52
+     ],
+     [
+      "AI news, videos, and",
+      27.2
+     ],
+     [
+      "tutorials each and",
+      28.08
+     ],
+     [
+      "every single day,",
+      28.76
+     ],
+     [
+      "and catch you",
+      29.54
+     ],
+     [
+      "in the next one.",
+      29.82
+     ]
+    ],
+    "min_aspect": 3.03
+   }
+  }
+ }
+}

@@ -1,0 +1,484 @@
+{
+ "video": "hermesbrowser",
+ "format": "whiteboard",
+ "variant": "plan view (fix)",
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/projects/hermesbrowser_whiteboard",
+ "handle": "@migueltorrez.ai",
+ "handle_key": "tiktok_ig",
+ "duration_s": 26.48,
+ "fps": 25,
+ "render": "1080x1920 @ zoom 1",
+ "board": "576x460 design units",
+ "board_box": [
+  40.0,
+  150.0,
+  536.0,
+  425.0
+ ],
+ "strokes": 51,
+ "rigids": 26,
+ "board_text": [
+  "HERMES AGENT",
+  "BROWSER",
+  "MAIN BROWSER",
+  "SEE",
+  "OPERATE",
+  "ANALYZE",
+  "HERMES AGENT"
+ ],
+ "top_ink_u": 144.0,
+ "top_band_u": 102.4,
+ "pen_top_u": 107.1,
+ "ink_bottom_px": 784.4,
+ "cap_band_top_px": 799.2,
+ "cap_clearance_px": 14.8,
+ "ink_bottom_ink_px": 770.1,
+ "cap_clearance_ink_px": 29.1,
+ "seam_pill_top_px": 805.2,
+ "cap_clearance_ink_to_pill_px": 35.1,
+ "seam_measures": "cap_clearance_px = line boxes vs the reserved band (THE GATE); cap_clearance_ink_px = glyph ink vs the same band; cap_clearance_ink_to_pill_px = glyph ink vs the pill's painted top edge (the clerk's surface)",
+ "rail_hits": [],
+ "label_law": {
+  "window_s": 1.0,
+  "key_term": "HERMES AGENT",
+  "key_term_fs_u": 25.6,
+  "written": {
+   "HERMES AGENT": 0.46,
+   "BROWSER": 1.36,
+   "SEE": 7.56,
+   "OPERATE": 8.96,
+   "ANALYZE": 9.6,
+   "MAIN BROWSER": 13.5,
+   "MAIN BROWSER [left]": 15.86,
+   "HERMES AGENT [tile]": 18.5
+  },
+  "plan": {
+   "agent": "HERMES AGENT",
+   "browser": "BROWSER",
+   "see": "SEE",
+   "operate": "OPERATE",
+   "analyze": "ANALYZE",
+   "main": "MAIN BROWSER",
+   "hermes2": "HERMES AGENT [tile]"
+  },
+  "comparisons": [],
+  "unplanned_text": [],
+  "verdict": "PASS"
+ },
+ "law4": {
+  "law": "4 (overlap test)",
+  "board_words_that_also_appear_as_a_pill": {}
+ },
+ "round4": {
+  "law6_lifetimes": {
+   "duration_s": 26.48,
+   "chaptered": true,
+   "max_frac": 0.4,
+   "declared_anchors": [
+    "browser",
+    "browser-c"
+   ],
+   "lingering": [],
+   "verdict": "PASS"
+  },
+  "law2_no_enclosure": {
+   "rings": 0,
+   "boxes": 0,
+   "highlights": 0,
+   "rasters": [],
+   "wrong_tool_advisory": [],
+   "verdict": "PASS"
+  },
+  "law3_label_side": {
+   "checked": 7,
+   "detail": {
+    "HERMES AGENT": {
+     "host": "app-frame",
+     "dx_u": 0.0,
+     "band_u": 249.6,
+     "place": "above"
+    },
+    "BROWSER": "unwelded",
+    "SEE": {
+     "host": "binoculars",
+     "dx_u": 0.0,
+     "band_u": 71.5,
+     "place": "below"
+    },
+    "OPERATE": {
+     "host": "steering-wheel",
+     "dx_u": 0.0,
+     "band_u": 71.5,
+     "place": "below"
+    },
+    "ANALYZE": {
+     "host": "microscope",
+     "dx_u": 0.0,
+     "band_u": 71.5,
+     "place": "below"
+    },
+    "MAIN BROWSER": {
+     "host": "browser",
+     "dx_u": 0.0,
+     "band_u": 161.2,
+     "place": "below"
+    },
+    "HERMES AGENT [tile]": {
+     "host": "hermes-tile-c",
+     "dx_u": 0.0,
+     "band_u": 38.8,
+     "place": "below"
+    }
+   },
+   "verdict": "PASS"
+  },
+  "law5_spacing": {
+   "gate_u": 8.5,
+   "gate_px": 15.9,
+   "aim_u": 12.8,
+   "aim_px": 24.0,
+   "measured_on": "element line boxes",
+   "under_aim": [],
+   "objects": 22,
+   "verdict": "PASS"
+  },
+  "law5_spacing_ink": {
+   "gate_u": 8.5,
+   "gate_px": 15.9,
+   "aim_u": 12.8,
+   "aim_px": 24.0,
+   "measured_on": "glyph ink extents",
+   "under_aim": [],
+   "objects": 22,
+   "verdict": "PASS"
+  },
+  "law5_no_crossing": {
+   "strokes": 51,
+   "types": 8,
+   "verdict": "PASS"
+  },
+  "law4_anchors": {
+   "targets": 2,
+   "detail": {
+    "browser": {
+     "n": 3,
+     "spread_u": 0.0,
+     "level": true,
+     "mirrored": false,
+     "on_rect": true
+    },
+    "browser-c": {
+     "n": 1,
+     "spread_u": 0.0,
+     "level": true,
+     "mirrored": false,
+     "on_rect": true
+    }
+   },
+   "verdict": "PASS"
+  }
+ },
+ "outro": {
+  "move": "opaque sheet rises over the board",
+  "wipe_start": 22.3,
+  "wipe_end": 22.86,
+  "travel_px": 862.5,
+  "sheet_opaque": true,
+  "sheet_covers_px": 862.5,
+  "card_ink_enters_px": 322.5,
+  "board_covered_px": 592.5,
+  "overlap_px": 270.0,
+  "board_moves": false,
+  "board_fades": false,
+  "outro_start": 22.3,
+  "verdict": "PASS"
+ },
+ "captions": 28,
+ "cap_font_px": 56.2,
+ "cap_max_pill_w_px": 748.4,
+ "cap_w_budget_px": 756.0,
+ "anchors": {
+  "hermes": 0.1,
+  "agent": 0.46,
+  "browser": 1.08,
+  "desktop": 2.34,
+  "seam0": 3.58,
+  "see": 7.3,
+  "operate": 8.7,
+  "analyze": 9.34,
+  "anything": 9.92,
+  "seam1": 11.74,
+  "main": 13.46,
+  "any": 15.4,
+  "hermes2": 18.24,
+  "do": 20.04,
+  "help": 21.38,
+  "outro": 22.3,
+  "news": 23.28
+ },
+ "html_bytes": 109077,
+ "sfx": 15,
+ "pen_loops": 8,
+ "pen_seconds": 3.3,
+ "pen_duty_pct": 12.5,
+ "captions_law3b": {
+  "beats_before_merge": 28,
+  "beats_after_merge": 28,
+  "merges": 0,
+  "widest_pill_px": 748.4,
+  "budget_px": 756.0,
+  "beats": [
+   [
+    0.1,
+    1.0,
+    "Hermes Agent now has"
+   ],
+   [
+    1.0,
+    2.06,
+    "a browser inside of"
+   ],
+   [
+    2.06,
+    3.58,
+    "its desktop application."
+   ],
+   [
+    3.58,
+    4.8,
+    "Now, this browser is"
+   ],
+   [
+    4.8,
+    6.18,
+    "different because your AI"
+   ],
+   [
+    6.18,
+    7.3,
+    "agent can not only"
+   ],
+   [
+    7.3,
+    8.7,
+    "see, but also"
+   ],
+   [
+    8.7,
+    9.34,
+    "operate and"
+   ],
+   [
+    9.34,
+    10.3,
+    "analyze anything"
+   ],
+   [
+    10.3,
+    10.96,
+    "that's happening"
+   ],
+   [
+    10.96,
+    11.74,
+    "inside of it."
+   ],
+   [
+    11.74,
+    12.4,
+    "So you can use"
+   ],
+   [
+    12.4,
+    13.2,
+    "that browser as"
+   ],
+   [
+    13.2,
+    14.46,
+    "your main browser,"
+   ],
+   [
+    14.46,
+    15.4,
+    "and whenever you have"
+   ],
+   [
+    15.4,
+    16.34,
+    "any question,"
+   ],
+   [
+    16.34,
+    17.12,
+    "you can simply just"
+   ],
+   [
+    17.12,
+    17.72,
+    "go ahead,"
+   ],
+   [
+    17.72,
+    18.6,
+    "chat with your Hermes"
+   ],
+   [
+    18.6,
+    19.56,
+    "agent, and have it"
+   ],
+   [
+    19.56,
+    20.98,
+    "either do the task"
+   ],
+   [
+    20.98,
+    21.9,
+    "or help you with"
+   ],
+   [
+    21.9,
+    22.82,
+    "it. Now follow for"
+   ],
+   [
+    22.82,
+    23.52,
+    "more AI news,"
+   ],
+   [
+    23.52,
+    24.64,
+    "videos, and tutorials each"
+   ],
+   [
+    24.64,
+    25.52,
+    "and every single day,"
+   ],
+   [
+    25.52,
+    25.92,
+    "and catch you in"
+   ],
+   [
+    25.92,
+    26.4,
+    "the next one."
+   ]
+  ],
+  "law": "captions.py 3b \u2014 merge_function_only_beats over the WHOLE beat stream, then assert_no_function_only_beat inside build()"
+ },
+ "law4_second_key": {
+  "key": "HERMES AGENT",
+  "window": [
+   18.5,
+   22.3
+  ],
+  "clashes": 0,
+  "verdict": "PASS"
+ },
+ "seam_law": {
+  "plan_mode": "chapters",
+  "chapters": 3,
+  "seams": [
+   3.58,
+   11.74
+  ],
+  "erase_s": 0.3,
+  "qc_seams": "3.58,11.74",
+  "handover": [
+   {
+    "seam": 3.58,
+    "incoming": "the complete browser carries across and glides to the top centre"
+   },
+   {
+    "seam": 11.74,
+    "incoming": "the complete browser holds at the top centre"
+   }
+  ],
+  "outro_wipe": 22.3
+ },
+ "pointing_cues": {
+  "n": 0,
+  "cards": [],
+  "waived": []
+ },
+ "phone_test_objects": [
+  {
+   "i": 0,
+   "name": "pair of binoculars",
+   "t": 8.4,
+   "bbox_board_u": [
+    84.0,
+    290.0,
+    206.0,
+    390.0
+   ],
+   "bbox_norm": [
+    0.1458,
+    0.2832,
+    0.3576,
+    0.3809
+   ]
+  },
+  {
+   "i": 1,
+   "name": "car steering wheel",
+   "t": 9.3,
+   "bbox_board_u": [
+    227.0,
+    290.0,
+    349.0,
+    390.0
+   ],
+   "bbox_norm": [
+    0.3941,
+    0.2832,
+    0.6059,
+    0.3809
+   ]
+  },
+  {
+   "i": 2,
+   "name": "science lab microscope",
+   "t": 10.4,
+   "bbox_board_u": [
+    370.0,
+    290.0,
+    492.0,
+    390.0
+   ],
+   "bbox_norm": [
+    0.6424,
+    0.2832,
+    0.8542,
+    0.3809
+   ]
+  }
+ ],
+ "emphasis": [
+  {
+   "at": 9.92,
+   "until": 11.4,
+   "target": "browser",
+   "kind": "the browser's own outline retraced in terracotta"
+  },
+  {
+   "at": 21.38,
+   "until": 22.3,
+   "target": "hermes-tile-c",
+   "kind": "the Hermes tile's own border retraced in terracotta"
+  }
+ ],
+ "phone_at_args": [
+  "--phone-at",
+  "8.4:0.1458,0.2832,0.3576,0.3809:pair of binoculars",
+  "--phone-at",
+  "9.3:0.3941,0.2832,0.6059,0.3809:car steering wheel",
+  "--phone-at",
+  "10.4:0.6424,0.2832,0.8542,0.3809:science lab microscope"
+ ]
+}

@@ -1,0 +1,27 @@
+{
+ "run": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26",
+ "out_dir": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output",
+ "jobs": [
+  {
+   "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/projects/deepseekprices_cutout",
+   "vid": "deepseekprices",
+   "fmt": "cutout",
+   "quality": "high",
+   "stage": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/staging/tiktok/deepseekprices_cutout.mp4",
+   "qc_args": [
+    "--voice-master",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/cuts/deepseekprices/audio.m4a",
+    "--phone-at",
+    "2.6:0.4074,0.1397,0.5926,0.3355:DeepSeek price tag",
+    "--phone-at",
+    "29.3:0.3981,0.1439,0.6019,0.3261:computer wearing badge",
+    "--alpha",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/matting/deepseekprices/matte_deepseekprices_v5_alpha.webm",
+    "--edge-box",
+    "1386x990+-153+930",
+    "--plate",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/matting/deepseekprices/plate_display_1386x990.mp4"
+   ]
+  }
+ ]
+}

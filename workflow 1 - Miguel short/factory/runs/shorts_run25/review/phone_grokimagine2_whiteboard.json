@@ -1,0 +1,107 @@
+{
+ "label": "grokimagine2_whiteboard",
+ "video": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/grokimagine2_whiteboard.mp4",
+ "phone_scale": "405x720",
+ "sheet": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/review/phone_grokimagine2_whiteboard.png",
+ "rule": "a FRESH judge (never read the plan) names each crop in <=3 words. Wrong name, hedge, or 'cannot tell' = the object is redesigned, not annotated.",
+ "answer_key": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/review/phone_grokimagine2_whiteboard.key.json",
+ "answer_key_rule": "DO NOT OPEN the answer key until every judge_answer below is filled in. Reading it first voids the Phone Test.",
+ "objects": [
+  {
+   "i": 0,
+   "t": 2.6,
+   "bbox_norm": [
+    0.3681,
+    0.2031,
+    0.6319,
+    0.3086
+   ],
+   "phone_box_px": [
+    149,
+    146,
+    255,
+    222
+   ],
+   "phone_size_px": [
+    106,
+    76
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/review/phone_grokimagine2_whiteboard/00.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  },
+  {
+   "i": 1,
+   "t": 16.9,
+   "bbox_norm": [
+    0.2431,
+    0.2148,
+    0.7569,
+    0.3594
+   ],
+   "phone_box_px": [
+    98,
+    154,
+    306,
+    258
+   ],
+   "phone_size_px": [
+    208,
+    104
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/review/phone_grokimagine2_whiteboard/01.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  },
+  {
+   "i": 2,
+   "t": 20.8,
+   "bbox_norm": [
+    0.1285,
+    0.207,
+    0.4757,
+    0.3418
+   ],
+   "phone_box_px": [
+    52,
+    149,
+    192,
+    246
+   ],
+   "phone_size_px": [
+    140,
+    97
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/review/phone_grokimagine2_whiteboard/02.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  },
+  {
+   "i": 3,
+   "t": 22.2,
+   "bbox_norm": [
+    0.5486,
+    0.2109,
+    0.8299,
+    0.3379
+   ],
+   "phone_box_px": [
+    222,
+    151,
+    336,
+    243
+   ],
+   "phone_size_px": [
+    114,
+    92
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/review/phone_grokimagine2_whiteboard/03.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  }
+ ]
+}

@@ -1,0 +1,749 @@
+{
+ "video": "ccremote",
+ "lane": "icon choreography",
+ "fps": 25,
+ "duration": 34.92,
+ "seam": 862.5,
+ "formats": {
+  "split": {
+   "staged": {
+    "voice": {
+     "source": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/cuts/ccremote/audio.m4a",
+     "sample_rate": 48000,
+     "channels": 2
+    },
+    "bed": "/Users/migle/Documents/Workspace/assets/audio/music/shorts-factory/bed_split_v2.mp3",
+    "sfx_sources": {
+     "whoosh": "/Users/migle/Documents/Workspace/assets/audio/sfx/shorts-factory/whoosh.mp3",
+     "pop": "/Users/migle/Documents/Workspace/assets/audio/sfx/shorts-factory/pop.mp3",
+     "click": "/Users/migle/Documents/Workspace/assets/audio/sfx/shorts-factory/click.mp3"
+    },
+    "face": {
+     "file": "face_bottom_hd.mp4",
+     "w": 1080,
+     "h": 1058
+    },
+    "marks": {
+     "claude-code": {
+      "source": "/Users/migle/Documents/Workspace/assets/logos/coding-tools/claudecode-color.png",
+      "url": "assets/logos/claudecode-color.png"
+     }
+    }
+   },
+   "seat": 862.5,
+   "scale": 1.0,
+   "core": {
+    "left": 0.0,
+    "top": 192.0
+   },
+   "band": {
+    "content_top": 288.0,
+    "content_bottom": 738.0,
+    "pill_top_rendered": 805.205,
+    "clear_above_pill": 67.21,
+    "clear_below_law30": 96.0
+   },
+   "rail": {
+    "readable_type_right_x": 774.8,
+    "per_key_right_x": {
+     "key-remote": 754.6,
+     "key-off": 665.4,
+     "key-on": 656.4,
+     "step1-txt": 774.8,
+     "step2-txt": 774.8
+    },
+    "ink_left_x": 110.0,
+    "ink_right_x": 936.0,
+    "law30_rail_x": 918.0
+   },
+   "cues": {
+    "plate": {
+     "word": 2,
+     "text": "one",
+     "t": 0.4
+    },
+    "tile_mid": {
+     "word": 14,
+     "text": "Claude",
+     "t": 3.2
+    },
+    "phone": {
+     "word": 19,
+     "text": "phone.",
+     "t": 4.68
+    },
+    "keyterm": {
+     "word": 21,
+     "text": "remote",
+     "t": 5.14
+    },
+    "tile_top": {
+     "word": 30,
+     "text": "Claude",
+     "t": 7.44
+    },
+    "tile_bot": {
+     "word": 32,
+     "text": "sessions",
+     "t": 7.92
+    },
+    "wire_in": {
+     "word": 33,
+     "text": "from",
+     "t": 8.56
+    },
+    "sw_flip": {
+     "word": 39,
+     "text": "not",
+     "t": 10.1
+    },
+    "off_key": {
+     "word": 43,
+     "text": "default.",
+     "t": 11.24
+    },
+    "cc_flip": {
+     "word": 46,
+     "text": "Claude",
+     "t": 12.4
+    },
+    "lever_up": {
+     "word": 50,
+     "text": "change",
+     "t": 13.38
+    },
+    "tape": {
+     "word": 55,
+     "text": "on",
+     "t": 14.36
+    },
+    "on_key": {
+     "word": 57,
+     "text": "default,",
+     "t": 14.68
+    },
+    "fan": {
+     "word": 61,
+     "text": "new",
+     "t": 16.2
+    },
+    "rows": {
+     "word": 75,
+     "text": "phone.",
+     "t": 19.9
+    },
+    "c1out": {
+     "word": 76,
+     "text": "You",
+     "t": 20.46
+    },
+    "strike1": {
+     "word": 78,
+     "text": "never,",
+     "t": 20.8
+    },
+    "strike2": {
+     "word": 79,
+     "text": "ever,",
+     "t": 21.14
+    },
+    "strike3": {
+     "word": 80,
+     "text": "ever",
+     "t": 21.48
+    },
+    "c2out": {
+     "word": 95,
+     "text": "Claude",
+     "t": 25.6
+    },
+    "row1_txt": {
+     "word": 97,
+     "text": "ask",
+     "t": 26.52
+    },
+    "tick1": {
+     "word": 102,
+     "text": "on,",
+     "t": 27.26
+    },
+    "row2": {
+     "word": 106,
+     "text": "keep",
+     "t": 28.3
+    },
+    "tick2": {
+     "word": 110,
+     "text": "phone",
+     "t": 29.22
+    },
+    "outro": {
+     "word": 114,
+     "text": "Now,",
+     "t": 30.64
+    },
+    "lever": {
+     "word": 3,
+     "text": "setting",
+     "t": 0.66,
+     "window": [
+      0.6,
+      1.82
+     ]
+    },
+    "note": {
+     "word": 76,
+     "text": "You",
+     "t": 20.5,
+     "window": [
+      20.46,
+      21.54
+     ]
+    },
+    "note_txt": {
+     "word": 77,
+     "text": "will",
+     "t": 20.56,
+     "window": [
+      20.56,
+      21.72
+     ]
+    },
+    "row1": {
+     "word": 95,
+     "text": "Claude",
+     "t": 25.64,
+     "window": [
+      25.6,
+      26.8
+     ]
+    },
+    "_law43": {
+     "board_mode": "chapters",
+     "chapters": 3,
+     "erase_at": [
+      20.46,
+      25.6,
+      30.64
+     ]
+    }
+   },
+   "word_sync": {
+    "typed_states": [
+     {
+      "state": "key-remote",
+      "first_visible_text": "REMOTE CONTROL",
+      "at": 5.14,
+      "words": "remote control",
+      "window": [
+       5.14,
+       6.8
+      ]
+     },
+     {
+      "state": "key-off",
+      "first_visible_text": "OFF BY DEFAULT",
+      "at": 11.24,
+      "words": "not turned on by default.",
+      "window": [
+       10.1,
+       12.62
+      ]
+     },
+     {
+      "state": "key-on",
+      "first_visible_text": "ON BY DEFAULT",
+      "at": 14.68,
+      "words": "on by default,",
+      "window": [
+       14.36,
+       16.0
+      ]
+     },
+     {
+      "state": "step1-txt",
+      "first_visible_text": "ASK IT TO TURN IT ON",
+      "at": 26.52,
+      "words": "ask it to turn it on,",
+      "window": [
+       26.52,
+       28.38
+      ]
+     },
+     {
+      "state": "step2-txt",
+      "first_visible_text": "WORK FROM YOUR PHONE",
+      "at": 28.400000000000002,
+      "words": "keep working from your phone",
+      "window": [
+       28.3,
+       30.48
+      ]
+     },
+     {
+      "state": "note",
+      "first_visible_text": "TURN IT ON",
+      "at": 20.56,
+      "words": "you will never, ever, ever (struck) ... forgot to turn it on. (23.58)",
+      "kind": "picture of the reminder, no value to disagree"
+     }
+    ],
+    "disagreements": 0,
+    "digits_that_tick": 0
+   },
+   "law37": {
+    "scan_cue_count": 0,
+    "plan_declared_cards": 0,
+    "source_cards_in_the_page": 0
+   },
+   "law39": {
+    "key-off": {
+     "host": "sw",
+     "side": "below",
+     "text": "OFF BY DEFAULT",
+     "at": 11.24,
+     "gutter_core_px": 22.0,
+     "box_canvas": [
+      390.0,
+      694.0,
+      690.0,
+      738.0
+     ]
+    },
+    "key-on": {
+     "host": "sw",
+     "side": "below",
+     "text": "ON BY DEFAULT",
+     "at": 14.68,
+     "gutter_core_px": 22.0,
+     "box_canvas": [
+      390.0,
+      694.0,
+      690.0,
+      738.0
+     ]
+    },
+    "_law50": {
+     "plain_label_font_px": 28.0,
+     "same_seat": true
+    },
+    "_key_term": {
+     "text": "REMOTE CONTROL",
+     "font_px": 48.0,
+     "design_units": 25.6,
+     "first_type": true
+    }
+   },
+   "law42": {
+    "board_mode": "chapters",
+    "anchors": [
+     "o-glyph",
+     "o-rule",
+     "o-sheet",
+     "o-slot"
+    ],
+    "mark_shares": {
+     "tile-top": 0.381,
+     "tile-mid": 0.503,
+     "tile-bot": 0.368,
+     "step1": 0.157
+    },
+    "every_non_anchor_finite": true
+   },
+   "law38": {
+    "border_flips": [
+     {
+      "target": "#sw-plate",
+      "from": 10.1,
+      "until": 11.62
+     },
+     {
+      "target": "#tile-mid",
+      "from": 12.4,
+      "until": 13.3
+     },
+     {
+      "target": "#step1-box",
+      "from": 27.26,
+      "until": 31.12
+     },
+     {
+      "target": "#step2-box",
+      "from": 29.22,
+      "until": 31.12
+     }
+    ],
+    "rings_ellipses_circles": 0,
+    "highlights": 0,
+    "dom_elements_added": 0
+   },
+   "law40": {
+    "connectors": [
+     {
+      "id": "wire-in",
+      "to": "sw",
+      "ends": [
+       [
+        290.0,
+        340.0
+       ],
+       [
+        450.0,
+        340.0
+       ]
+      ]
+     },
+     {
+      "id": "wire-tile-top",
+      "to": "tile-top",
+      "ends": [
+       [
+        630.0,
+        244.8
+       ],
+       [
+        824.0,
+        204.0
+       ]
+      ]
+     },
+     {
+      "id": "wire-tile-mid",
+      "to": "tile-mid",
+      "ends": [
+       [
+        630.0,
+        340.0
+       ],
+       [
+        824.0,
+        340.0
+       ]
+      ]
+     },
+     {
+      "id": "wire-tile-bot",
+      "to": "tile-bot",
+      "ends": [
+       [
+        630.0,
+        435.20000000000005
+       ],
+       [
+        824.0,
+        476.0
+       ]
+      ]
+     }
+    ],
+    "declared": {
+     "wire-in": {
+      "to": "sw-plate",
+      "side": "left",
+      "fraction": 0.5,
+      "check_at": 18.0
+     },
+     "wire-tile-top": {
+      "to": "tile-top",
+      "side": "left",
+      "fraction": 0.5,
+      "check_at": 18.0
+     },
+     "wire-tile-mid": {
+      "to": "tile-mid",
+      "side": "left",
+      "fraction": 0.5,
+      "check_at": 18.0
+     },
+     "wire-tile-bot": {
+      "to": "tile-bot",
+      "side": "left",
+      "fraction": 0.5,
+      "check_at": 18.0
+     }
+    }
+   },
+   "law2": {
+    "stage_marks": [
+     "claude-code"
+    ],
+    "resolved": {
+     "claude-code": "/Users/migle/Documents/Workspace/assets/logos/coding-tools/claudecode-color.png"
+    },
+    "cutout_lanes_not_ours": [
+     "claude",
+     "codex",
+     "cursor",
+     "copilot",
+     "opencode",
+     "antigravity",
+     "warp"
+    ]
+   },
+   "law22": {
+    "events": 22,
+    "tightest_gap_s": 0.34,
+    "deliberately_silent": {
+     "lever 0.66": "0.26 s after the plate pop; one pop scores both",
+     "ON BY DEFAULT 14.68": "0.32 s after the tape pop",
+     "note 20.50": "0.04 s after the chapter whoosh",
+     "row 1 tile 25.64": "0.04 s after the chapter whoosh",
+     "flips": "a colour flip is not an arrival"
+    }
+   },
+   "draw_on": {
+    "dash_selectors": {
+     "#note-edge": 1,
+     "#note-fold": 1,
+     "#step1-box .tk": 1,
+     "#step2-box .tk": 1,
+     "#sw .sws": 4,
+     "#sw-plate": 1,
+     "#wire-in": 1,
+     "#wires .fan": 3
+    },
+    "verdict": "every dash equals its path's declared length (100)"
+   },
+   "transcript": {
+    "law47_tail_s": 0.2,
+    "law47_cap_s": 0.24,
+    "law47_verdict": "PASS \u2014 0.200s past the last word against a 0.240s cap",
+    "law46": "the scripted opening occurs ONCE inside the keeper take, at word 0 / 0.10 s",
+    "take_corroboration": {
+     "mode": "model keep_words (the agent read the transcript and chose the words; no rule detection)",
+     "keep_words": [
+      [
+       418,
+       552
+      ]
+     ],
+     "take_word_index": 418,
+     "take_start_s": 196.6,
+     "words": 135,
+     "of_raw_words": 553,
+     "corroboration": "model-authored keep ranges"
+    },
+    "words": 135,
+    "function_word_merges": 0,
+    "beats_before_merge": 36,
+    "orphan_repartitions": [],
+    "solo_word_merges": [],
+    "board_keys_forbidden_at_split": [
+     "ask it to turn it on",
+     "off by default",
+     "on by default",
+     "remote control",
+     "turn it on",
+     "work from your phone"
+    ]
+   },
+   "phone_objects": [
+    {
+     "name": "wall light switch",
+     "t": 2.6,
+     "bbox": [
+      0.4167,
+      0.2042,
+      0.5833,
+      0.35
+     ],
+     "canvas": [
+      450.0,
+      392.0,
+      630.0,
+      672.0
+     ]
+    },
+    {
+     "name": "taped light switch",
+     "t": 15.3,
+     "bbox": [
+      0.4167,
+      0.2042,
+      0.5833,
+      0.35
+     ],
+     "canvas": [
+      450.0,
+      392.0,
+      630.0,
+      672.0
+     ]
+    },
+    {
+     "name": "crossed-out sticky note",
+     "t": 22.6,
+     "bbox": [
+      0.3704,
+      0.1781,
+      0.6296,
+      0.324
+     ],
+     "canvas": [
+      400.0,
+      342.0,
+      680.0,
+      622.0
+     ]
+    }
+   ],
+   "render": {
+    "w": 1080,
+    "h": 1920,
+    "zoom": 1
+   },
+   "handle": "@migueltorrezai",
+   "captions": {
+    "n": 36,
+    "widest_px": 744.0,
+    "beats": [
+     [
+      "This is one setting that",
+      0.1
+     ],
+     [
+      "completely changed the",
+      1.0
+     ],
+     [
+      "way through which I",
+      1.92
+     ],
+     [
+      "work with Claude Code",
+      2.84
+     ],
+     [
+      "directly from my phone.",
+      3.82
+     ],
+     [
+      "Now, remote control",
+      4.98
+     ],
+     [
+      "allows you to",
+      5.92
+     ],
+     [
+      "control all of your",
+      6.34
+     ],
+     [
+      "Claude Code sessions",
+      7.44
+     ],
+     [
+      "from your phone,",
+      8.56
+     ],
+     [
+      "but it is not",
+      9.38
+     ],
+     [
+      "turned on by default.",
+      10.56
+     ],
+     [
+      "By using Claude Code,",
+      12.0
+     ],
+     [
+      "you can change it and",
+      12.96
+     ],
+     [
+      "set it on by default,",
+      14.06
+     ],
+     [
+      "meaning that",
+      15.32
+     ],
+     [
+      "any new session",
+      15.98
+     ],
+     [
+      "that you set up with",
+      16.74
+     ],
+     [
+      "your Claude Code",
+      17.72
+     ],
+     [
+      "will be on your phone.",
+      18.7
+     ],
+     [
+      "You will never, ever, ever",
+      20.46
+     ],
+     [
+      "be frustrated because",
+      21.72
+     ],
+     [
+      "you forgot to turn it on.",
+      22.72
+     ],
+     [
+      "Now, go ahead",
+      24.18
+     ],
+     [
+      "onto your Claude Code,",
+      25.12
+     ],
+     [
+      "ask it",
+      26.52
+     ],
+     [
+      "to turn it on,",
+      26.82
+     ],
+     [
+      "and then just keep",
+      27.7
+     ],
+     [
+      "working from your phone",
+      28.56
+     ],
+     [
+      "wherever you are.",
+      29.78
+     ],
+     [
+      "Now, follow for more",
+      30.64
+     ],
+     [
+      "AI news, videos, and",
+      31.4
+     ],
+     [
+      "tutorials each and",
+      32.52
+     ],
+     [
+      "every single day,",
+      33.16
+     ],
+     [
+      "and catch you",
+      33.98
+     ],
+     [
+      "on the next one.",
+      34.26
+     ]
+    ],
+    "min_aspect": 1.84
+   }
+  }
+ }
+}

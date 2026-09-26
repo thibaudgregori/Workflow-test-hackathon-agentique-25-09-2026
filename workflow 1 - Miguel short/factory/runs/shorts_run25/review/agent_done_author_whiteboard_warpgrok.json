@@ -1,0 +1,9 @@
+{
+  "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/projects/warpgrok_whiteboard",
+  "job": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/gen/_job_warpgrok_whiteboard.json",
+  "prerender_pass": true,
+  "prerender_verdict": "PASS in 2.6s: refs_resolve, assets_not_placeholder (5 rasters), page_audit, caption_canon_page (27 pills, 114.59 px, spread 0.0), gate1_geometry_audit 0/0",
+  "geometry_strict_errors": 0,
+  "seams": "",
+  "notes": "Generator gen/warpgrok_whiteboard.py builds through the shared harness (formats/whiteboard/lib/whiteboard_build.py). Harness asserts all passed: label law, LAW 38/39/40/41/42, outro clear, caption 3b. Single board (plan.boards.mode single), so there is no chapter erase and no --seams in the job; the outro is the harness' opaque rising sheet at 22.30. Word-sync checked on page screenshots: WARP written 5.92 (spoken 5.62), PROVIDERS 8.16 (7.74), GROK 19.62 (19.42); the board has no numbers. Beat screenshots are in review/wb_warpgrok/. Plan departures are logged in plans/warpgrok_wb_notes.md: the row SLIDES on 'released' (the plan's own open question allows it, and it keeps LAW 51 parity) instead of an erase and redraw; the outro has no key glyph (the harness sheet has no slot for one); the Grok head flips at 19.90 instead of 19.70; the loose-key angles follow the sealed scene. Prep markers: cut ok, 74.0 s, master 26.32 s, take found at word 359 of 457 (13 openings, 1 sign-off), analysis wav not written. Plate ok, 109.9 s, crop 2440x1830+642+280, over-wide. Prompt0 ok, wing_review true. Track skipped (matanyone2, Astra owns it). Cues ok, 0 cues. No ship marker yet; the whiteboard does not need it. Modal cost booked for warpgrok so far: BiRefNet sweep $0.0315; Scribe estimate $0.0029."
+}

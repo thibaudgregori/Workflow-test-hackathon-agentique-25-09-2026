@@ -1,0 +1,29 @@
+{
+ "run": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26",
+ "out_dir": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output",
+ "jobs": [
+  {
+   "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/projects/openairesets_cutout",
+   "vid": "openairesets",
+   "fmt": "cutout",
+   "quality": "high",
+   "stage": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/staging/tiktok/openairesets_cutout.mp4",
+   "qc_args": [
+    "--voice-master",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/cuts/openairesets/audio.m4a",
+    "--phone-at",
+    "2.9:0.4537,0.1781,0.7528,0.3135:hourglass price tag",
+    "--phone-at",
+    "12.7:0.2148,0.1573,0.7848,0.2412:four hourglasses row",
+    "--phone-at",
+    "15.4:0.3056,0.2948,0.6944,0.3604:rising brick wall",
+    "--alpha",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/matting/openairesets/matte_openairesets_v5_alpha.webm",
+    "--edge-box",
+    "1452x990+-120+930",
+    "--plate",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/matting/openairesets/plate_display_1452x990.mp4"
+   ]
+  }
+ ]
+}

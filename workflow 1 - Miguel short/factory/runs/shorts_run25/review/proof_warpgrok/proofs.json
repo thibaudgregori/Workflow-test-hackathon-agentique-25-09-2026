@@ -1,0 +1,115 @@
+{
+ "crops": [
+  {
+   "i": 0,
+   "name": "three loose keys",
+   "t": 2.6,
+   "core_box": [
+    300.0,
+    250.0,
+    790.0,
+    530.0
+   ],
+   "phone_box_px": [
+    112,
+    166,
+    296,
+    271
+   ],
+   "phone_size_px": [
+    184,
+    105
+   ],
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/review/proof_warpgrok/00.png"
+  },
+  {
+   "i": 1,
+   "name": "wall key rack",
+   "t": 9.2,
+   "core_box": [
+    140.0,
+    88.0,
+    940.0,
+    503.0
+   ],
+   "phone_box_px": [
+    52,
+    105,
+    352,
+    261
+   ],
+   "phone_size_px": [
+    300,
+    156
+   ],
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/review/proof_warpgrok/01.png"
+  }
+ ],
+ "frames": [
+  {
+   "name": "hook_k1_alone",
+   "t": 0.9,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/review/proof_warpgrok/frame_hook_k1_alone.png"
+  },
+  {
+   "name": "hook_loose",
+   "t": 2.6,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/review/proof_warpgrok/frame_hook_loose.png"
+  },
+  {
+   "name": "rack_writing",
+   "t": 6.3,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/review/proof_warpgrok/frame_rack_writing.png"
+  },
+  {
+   "name": "rack_hung",
+   "t": 9.2,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/review/proof_warpgrok/frame_rack_hung.png"
+  },
+  {
+   "name": "plank_flip",
+   "t": 10.2,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/review/proof_warpgrok/frame_plank_flip.png"
+  },
+  {
+   "name": "heads_flip",
+   "t": 13.0,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/review/proof_warpgrok/frame_heads_flip.png"
+  },
+  {
+   "name": "shift_hook4",
+   "t": 17.8,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/review/proof_warpgrok/frame_shift_hook4.png"
+  },
+  {
+   "name": "grok_hung",
+   "t": 20.6,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/review/proof_warpgrok/frame_grok_hung.png"
+  },
+  {
+   "name": "final_flip",
+   "t": 21.9,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/review/proof_warpgrok/frame_final_flip.png"
+  },
+  {
+   "name": "outro",
+   "t": 24.5,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/review/proof_warpgrok/frame_outro.png"
+  }
+ ],
+ "stage_marks_resolve": {
+  "warp": "/Users/migle/Documents/Workspace/assets/logos/coding-tools/warp.png",
+  "claude": "/Users/migle/Documents/Workspace/assets/logos/ai-models/claude-color.png",
+  "openai": "/Users/migle/Documents/Workspace/assets/logos/ai-models/openai.png",
+  "gemini": "/Users/migle/Documents/Workspace/assets/logos/ai-models/gemini-color.png",
+  "grok": "/Users/migle/Documents/Workspace/assets/logos/ai-models/grok.png"
+ },
+ "cutout_lanes_resolve": {
+  "codex": "/Users/migle/Documents/Workspace/assets/logos/coding-tools/codex-color.png",
+  "cursor": "/Users/migle/Documents/Workspace/assets/logos/coding-tools/cursor.png",
+  "opencode": "/Users/migle/Documents/Workspace/assets/logos/coding-tools/opencode-color.png",
+  "copilot": "/Users/migle/Documents/Workspace/assets/logos/coding-tools/copilot-color.png",
+  "kimi": "/Users/migle/Documents/Workspace/assets/logos/ai-models/kimi.png",
+  "deepseek": "/Users/migle/Documents/Workspace/assets/logos/ai-models/deepseek.png"
+ }
+}

@@ -1,0 +1,15 @@
+{
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/projects/streamdeck_whiteboard",
+ "vid": "streamdeck",
+ "fmt": "whiteboard",
+ "quality": "high",
+ "stage": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/staging/reels/streamdeck_whiteboard.mp4",
+ "qc_args": [
+  "--voice-master", "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/cuts/streamdeck/audio.m4a",
+  "--phone-at", "2.7:0.3229,0.1543,0.6771,0.3418:keypad of claude buttons",
+  "--phone-at", "12.3:0.0764,0.1504,0.8507,0.377:flashlight finding devices",
+  "--phone-at", "20.95:0.3264,0.1523,0.6736,0.3828:devices wired to keypad",
+  "--phone-at", "26.35:0.5625,0.1914,0.8264,0.3477:pressed light button",
+  "--seams", "5.9,16.34,21.78"
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "verdict": "PASS",
+ "plan_json": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/plans/warpgrok_plan.json",
+ "plan_md": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/plans/warpgrok_plan.md",
+ "lane": "icon choreography",
+ "lane_reason": "Intake's icon-choreography guess stands: the script is one accumulating picture (loose provider keys get hung on one Warp key rack, then a new Grok key joins it), carried by real provider marks seated in bespoke key drawings, with no numbers to count and no steps to tick.",
+ "beats": 5,
+ "bespoke_names": [
+  "three loose keys",
+  "wall key rack"
+ ],
+ "cues": "pointing_cues.py: 0 cues ('no pointing cue in this take'); nothing raised, nothing waived",
+ "board_mode": "single",
+ "open_questions": [
+  "Wing review: the prompt0 marker has landed and names warpgrok with wing_review true (the instrument abstained: no cut proposed, removed_px 0). The Astra matte step owns the look at matting/warpgrok/prompts/kf_overlay_00000.png; the track marker says skipped (matanyone2) and the ship marker has not landed.",
+  "The three provider keys (Claude, OpenAI, Gemini) illustrate 'all of the different providers' and are not named aloud. They are factual (Warp's agent runs Anthropic, OpenAI and Google models) and LAW 11 lets the diagram place them; no label names them individually, the group label is the spoken word PROVIDERS.",
+  "The Warp mark was not in the asset library. It was added as assets/logos/coding-tools/warp.png (+ warp.svg), registry key `warp`, from the official warp.dev favicon silhouette via Simple Icons, rendered black. Warp's brand mark is monochrome, so black is its own colour, not a reduction (LAW 12).",
+  "In the DOM lanes the keys slide left at 16.84 to make room for the fourth hook (LAW 19's sanctioned displacement). The whiteboard may do the same as an erase-and-redraw of the three hung keys one step left (an erase to free a column is legal), so both boards start centred and end centred."
+ ],
+ "open_doubts": [],
+ "scene_handoff": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/plans/warpgrok_scene_handoff.md",
+ "scene_module": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/gen/warpgrok_scene.py",
+ "sealed": true,
+ "proofs": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/review/proof_warpgrok",
+ "reason": "Markers: cut ok (74.0 s, master 26.32 s, tight audio 26.29 s); plate ok (109.9 s, over-wide, crop 2440x1830+642+280, k 0.491803); prompt0 ok with wing_review true (instrument abstained, removed_px 0, Astra owns it); track skipped (matanyone2, Astra lane); ship marker not landed; cues ok, 0. No Modal cost booked by this agent. Warp mark was missing from the library and was added (assets/logos/coding-tools/warp.png + warp.svg, registry key warp, catalog rebuilt). Run production-policy.json had been overwritten to the v2 default (require_phone_approval true); restored to intake.py's v4 value (version 3, false) so production.py seal could run."
+}

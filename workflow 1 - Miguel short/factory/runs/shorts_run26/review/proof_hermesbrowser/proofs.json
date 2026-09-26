@@ -1,0 +1,169 @@
+{
+ "crops": [
+  {
+   "i": 0,
+   "name": "pair of binoculars",
+   "t": 8.4,
+   "core_box": [
+    135.0,
+    362.0,
+    325.0,
+    514.0
+   ],
+   "phone_box_px": [
+    51,
+    208,
+    122,
+    265
+   ],
+   "phone_size_px": [
+    71,
+    57
+   ],
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/proof_hermesbrowser/00.png"
+  },
+  {
+   "i": 1,
+   "name": "car steering wheel",
+   "t": 9.3,
+   "core_box": [
+    445.0,
+    362.0,
+    635.0,
+    514.0
+   ],
+   "phone_box_px": [
+    167,
+    208,
+    238,
+    265
+   ],
+   "phone_size_px": [
+    71,
+    57
+   ],
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/proof_hermesbrowser/01.png"
+  },
+  {
+   "i": 2,
+   "name": "science lab microscope",
+   "t": 10.4,
+   "core_box": [
+    755.0,
+    362.0,
+    945.0,
+    514.0
+   ],
+   "phone_box_px": [
+    283,
+    208,
+    354,
+    265
+   ],
+   "phone_size_px": [
+    71,
+    57
+   ],
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/proof_hermesbrowser/02.png"
+  }
+ ],
+ "frames": [
+  {
+   "name": "hook_tile_alone",
+   "t": 0.6,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/proof_hermesbrowser/frame_hook_tile_alone.png"
+  },
+  {
+   "name": "browser_arrives",
+   "t": 1.9,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/proof_hermesbrowser/frame_browser_arrives.png"
+  },
+  {
+   "name": "app_frame",
+   "t": 3.2,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/proof_hermesbrowser/frame_app_frame.png"
+  },
+  {
+   "name": "chapterB_browser",
+   "t": 5.0,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/proof_hermesbrowser/frame_chapterB_browser.png"
+  },
+  {
+   "name": "see",
+   "t": 8.4,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/proof_hermesbrowser/frame_see.png"
+  },
+  {
+   "name": "all_three",
+   "t": 10.4,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/proof_hermesbrowser/frame_all_three.png"
+  },
+  {
+   "name": "flip_back",
+   "t": 11.6,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/proof_hermesbrowser/frame_flip_back.png"
+  },
+  {
+   "name": "main_browser",
+   "t": 14.5,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/proof_hermesbrowser/frame_main_browser.png"
+  },
+  {
+   "name": "question",
+   "t": 17.0,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/proof_hermesbrowser/frame_question.png"
+  },
+  {
+   "name": "hermes_chat",
+   "t": 19.5,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/proof_hermesbrowser/frame_hermes_chat.png"
+  },
+  {
+   "name": "task_done",
+   "t": 21.0,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/proof_hermesbrowser/frame_task_done.png"
+  },
+  {
+   "name": "help_flip",
+   "t": 22.1,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/proof_hermesbrowser/frame_help_flip.png"
+  },
+  {
+   "name": "outro",
+   "t": 24.5,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/proof_hermesbrowser/frame_outro.png"
+  }
+ ],
+ "zooms": [],
+ "stage_marks_resolve": {
+  "nous-girl-line": "/Users/migle/Documents/Workspace/assets/logos/ai-models/nous-girl-line.png"
+ },
+ "cutout_lanes_resolve": {
+  "chatgpt": "/Users/migle/Documents/Workspace/assets/logos/ai-models/chatgpt-color.png",
+  "perplexity": "/Users/migle/Documents/Workspace/assets/logos/ai-models/perplexity-color.png",
+  "claude": "/Users/migle/Documents/Workspace/assets/logos/ai-models/claude-color.png",
+  "gemini": "/Users/migle/Documents/Workspace/assets/logos/ai-models/gemini-color.png",
+  "openclaw": "/Users/migle/Documents/Workspace/assets/logos/coding-tools/openclaw-color.png",
+  "copilot": "/Users/migle/Documents/Workspace/assets/logos/coding-tools/copilot-color.png"
+ },
+ "law40_anchor_equality": {
+  "verb_ends": [
+   [
+    397.2,
+    310.0
+   ],
+   [
+    540.0,
+    310.0
+   ],
+   [
+    682.8,
+    310.0
+   ]
+  ],
+  "do_end": [
+   550.0,
+   205.0
+  ]
+ }
+}

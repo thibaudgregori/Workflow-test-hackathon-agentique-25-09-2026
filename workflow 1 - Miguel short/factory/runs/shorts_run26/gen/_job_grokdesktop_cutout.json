@@ -1,0 +1,16 @@
+{
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/projects/grokdesktop_cutout",
+ "vid": "grokdesktop",
+ "fmt": "cutout",
+ "quality": "high",
+ "stage": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/staging/tiktok/grokdesktop_cutout.mp4",
+ "qc_args": [
+  "--voice-master", "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/cuts/grokdesktop/audio.m4a",
+  "--phone-at", "2.8:0.3981,0.141,0.6019,0.3337:medal on ribbon",
+  "--phone-at", "10.3:0.0333,0.1868,0.9667,0.3441:bridge between cliffs",
+  "--phone-at", "24.2:0.4074,0.141,0.5926,0.3243:sand hourglass timer",
+  "--alpha", "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/matting/grokdesktop/matte_grokdesktop_v5_alpha.webm",
+  "--edge-box", "1386x990+-153+930",
+  "--plate", "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/matting/grokdesktop/plate_display_1386x990.mp4"
+ ]
+}

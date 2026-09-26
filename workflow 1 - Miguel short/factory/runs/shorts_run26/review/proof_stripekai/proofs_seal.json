@@ -1,0 +1,122 @@
+{
+ "set": "seal",
+ "phone_scale": "405x720",
+ "module": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/gen/stripekai_scene.py",
+ "objects": [
+  {
+   "i": 0,
+   "label": "toolbox",
+   "intended": "an open toolbox",
+   "core_box": [
+    360.0,
+    110.0,
+    720.0,
+    410.0
+   ],
+   "norm_box": [
+    0.3333,
+    0.1573,
+    0.6667,
+    0.3135
+   ],
+   "phone_size_px": [
+    151,
+    128
+   ],
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/proof_stripekai/00.png",
+   "tight": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/proof_stripekai/00_tight.png"
+  },
+  {
+   "i": 1,
+   "label": "crowd",
+   "intended": "a group of people",
+   "core_box": [
+    185.0,
+    172.0,
+    895.0,
+    438.0
+   ],
+   "norm_box": [
+    0.1713,
+    0.1896,
+    0.8287,
+    0.3281
+   ],
+   "phone_size_px": [
+    282,
+    116
+   ],
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/proof_stripekai/01.png",
+   "tight": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/proof_stripekai/01_tight.png"
+  },
+  {
+   "i": 2,
+   "label": "buildings",
+   "intended": "three office buildings",
+   "core_box": [
+    265.0,
+    88.0,
+    815.0,
+    420.0
+   ],
+   "norm_box": [
+    0.2454,
+    0.1458,
+    0.7546,
+    0.3187
+   ],
+   "phone_size_px": [
+    222,
+    140
+   ],
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/proof_stripekai/02.png",
+   "tight": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/proof_stripekai/02_tight.png"
+  },
+  {
+   "i": 3,
+   "label": "toolbox-2",
+   "intended": "an overflowing toolbox",
+   "core_box": [
+    306.0,
+    129.0,
+    774.0,
+    471.0
+   ],
+   "norm_box": [
+    0.2833,
+    0.1672,
+    0.7167,
+    0.3453
+   ],
+   "phone_size_px": [
+    192,
+    144
+   ],
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/proof_stripekai/03.png",
+   "tight": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/proof_stripekai/03_tight.png"
+  },
+  {
+   "i": 4,
+   "label": "person",
+   "intended": "a person (the builder)",
+   "core_box": [
+    266.0,
+    90.0,
+    446.0,
+    330.0
+   ],
+   "norm_box": [
+    0.2463,
+    0.1469,
+    0.413,
+    0.2719
+   ],
+   "phone_size_px": [
+    84,
+    106
+   ],
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/proof_stripekai/04.png",
+   "tight": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/proof_stripekai/04_tight.png"
+  }
+ ]
+}

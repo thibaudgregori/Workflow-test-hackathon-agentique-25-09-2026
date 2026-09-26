@@ -1,0 +1,460 @@
+{
+ "id": "openairesets",
+ "run": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26",
+ "recording": "2026-09-21 14-33-56",
+ "gpu": null,
+ "session": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/matting/openairesets",
+ "cut_dir": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/cuts/openairesets",
+ "stages": {
+  "cut": {
+   "status": "ok",
+   "master": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/cuts/openairesets/master.mp4",
+   "audio": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/cuts/openairesets/audio.m4a",
+   "face_plates": [
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/cuts/openairesets/face_full_hd.mp4",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/cuts/openairesets/face_bottom_hd.mp4"
+   ],
+   "edl": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/cuts/openairesets/edl.json",
+   "transcript_tight": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/cuts/openairesets/transcript_tight.json",
+   "cut_master_duration_s": 20.64,
+   "take": {
+    "word_index": 33,
+    "start_s": 23.9,
+    "words": 68,
+    "of_raw_words": 101,
+    "openings": 0
+   },
+   "corroboration": "model-authored keep ranges",
+   "analysis_wav_written": false,
+   "tight_audio_duration_s": 20.64,
+   "wall_s": 63.7
+  },
+  "plate": {
+   "status": "ok",
+   "plate": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/matting/openairesets/plate_wide_25.mp4",
+   "crop": "2596x1770+714+222",
+   "plate_size": [
+    1320,
+    900
+   ],
+   "scale_k": 0.508475,
+   "head_px_on_canvas": 451.5,
+   "overwide_applied": true,
+   "extension_master_px": {
+    "left_master_px": 118,
+    "left_plate_px": 60,
+    "left_canvas_px": 66.0,
+    "right_master_px": 354,
+    "right_plate_px": 180,
+    "right_canvas_px": 198.0,
+    "left_headroom_remaining_master_px": 714,
+    "right_headroom_remaining_master_px": 530,
+    "clamped_by_master_edge": {
+     "left": false,
+     "right": false
+    },
+    "lattice_padding_steps": 1
+   },
+   "plate_box": {
+    "w": 1452.0,
+    "h": 990.0,
+    "left": -120.0,
+    "top": 930.0,
+    "right": 1332.0,
+    "centred": false,
+    "note": "the origin is NOT (1080 - box_w)/2.  An over-wide plate is deliberately asymmetric; the generator's plate_origin() reads `left` from here, and ship.py's edge gate takes it as --edge-box."
+   },
+   "face_dx_pct": 0.021,
+   "visible_window_drift_master_px": 0.0,
+   "sweep": {
+    "file": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/gen/_birefnet_master_openairesets.json",
+    "frames_measured": 87,
+    "stride": 6,
+    "model": "birefnet-general",
+    "wall_seconds": 64.9,
+    "lane": {
+     "where": "modal",
+     "app": "shorts-factory-birefnet",
+     "gpu": "A10G",
+     "container": "554b3ee2-8d01-4017-9825-c2de1c8e9888",
+     "onnx": "birefnet-general.onnx",
+     "providers": [
+      "CUDAExecutionProvider",
+      "CPUExecutionProvider"
+     ],
+     "input_bytes": 15516006,
+     "model_load_seconds": 4.4,
+     "inference_seconds": 46.8,
+     "seconds_per_frame": 0.538,
+     "t_import_epoch": 1790114865.4985073,
+     "t_fn_enter_epoch": 1790114867.2689934,
+     "t_fn_exit_epoch": 1790114921.0097246,
+     "proxy": true,
+     "proxy_seconds": 1.7,
+     "client_wall_seconds": 64.9,
+     "uploaded_bytes": 15516006,
+     "cold_start_seconds": 6.4,
+     "billed_container_seconds": 57.5,
+     "measured_cost_usd": 0.0257,
+     "cost_breakdown_usd": {
+      "gpu": 0.0176,
+      "cpu": 0.006,
+      "mem": 0.002
+     }
+    }
+   },
+   "plate_json": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/matting/openairesets/plate.json",
+   "wall_s": 43.2
+  },
+  "prompt0": {
+   "status": "ok",
+   "retries": [],
+   "prompt_guard": {
+    "repaired": false,
+    "why": "the live prompt is the original"
+   },
+   "prompt0_status": "ok",
+   "prompt_png": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/matting/openairesets/prompts/kf_00000.png",
+   "overlay_png": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/matting/openairesets/prompts/kf_overlay_00000.png",
+   "wings_source": "MEASURED on this plate's frame 0",
+   "wing_right": null,
+   "wing_left": null,
+   "wing_cut_applied": false,
+   "wing_review": true,
+   "wing_review_note": "the instrument proposed no cut.  It abstains rather than guesses (see the module docstring: zero false positives, zero recall on the run-9 corpus).  Look at kf_overlay_00000.png; if a headrest wing is inside the green prompt, measure its inner column and pass an explicit `wings` block on the intake row.  If you miss one, the protrusion gate inside ship.py is the net.",
+   "removed_px": 0,
+   "prompt_area_px": 501286,
+   "chair_prompt": {
+    "status": "ok",
+    "json": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/matting/openairesets/chair_prompt.json",
+    "overlay": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/matting/openairesets/prompts/chair_overlay_00000.png",
+    "band": {
+     "crown": 76,
+     "head_width": 336.0,
+     "band_top": 276,
+     "shoulder_arrival": 456
+    },
+    "found": [
+     "left",
+     "right"
+    ],
+    "overridden_sides": null,
+    "left": {
+     "found": true,
+     "box": [
+      341,
+      273,
+      445,
+      419
+     ],
+     "points": [
+      [
+       382,
+       294,
+       1
+      ],
+      [
+       380,
+       329,
+       1
+      ],
+      [
+       381,
+       363,
+       1
+      ],
+      [
+       387,
+       398,
+       1
+      ],
+      [
+       582,
+       217,
+       0
+      ],
+      [
+       405,
+       346,
+       0
+      ],
+      [
+       487,
+       623,
+       0
+      ],
+      [
+       611,
+       576,
+       0
+      ]
+     ],
+     "rows": [
+      277,
+      415
+     ],
+     "rows_with_run": 139,
+     "cols": [
+      349,
+      437
+     ],
+     "run_width": {
+      "min": 4,
+      "max": 89,
+      "median": 45
+     },
+     "luma": {
+      "mean": 27.5,
+      "p95": 36,
+      "max": 59
+     },
+     "area_px": 6601
+    },
+    "right": {
+     "found": true,
+     "box": [
+      715,
+      290,
+      790,
+      419
+     ],
+     "points": [
+      [
+       764,
+       309,
+       1
+      ],
+      [
+       764,
+       339,
+       1
+      ],
+      [
+       763,
+       370,
+       1
+      ],
+      [
+       759,
+       400,
+       1
+      ],
+      [
+       581,
+       234,
+       0
+      ],
+      [
+       747,
+       355,
+       0
+      ],
+      [
+       673,
+       484,
+       0
+      ],
+      [
+       611,
+       576,
+       0
+      ]
+     ],
+     "rows": [
+      294,
+      415
+     ],
+     "rows_with_run": 122,
+     "cols": [
+      723,
+      782
+     ],
+     "run_width": {
+      "min": 4,
+      "max": 60,
+      "median": 31
+     },
+     "luma": {
+      "mean": 16.0,
+      "p95": 32,
+      "max": 59
+     },
+     "area_px": 3766
+    }
+   },
+   "wall_s": 93.6
+  },
+  "cues": {
+   "status": "ok",
+   "cue_count": 0,
+   "cues_json": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/gen/_cues_openairesets.json",
+   "answered": [],
+   "needs_source": [],
+   "cards": [],
+   "wall_s": 0.0
+  },
+  "track": {
+   "status": "ok",
+   "backend": "matanyone2",
+   "model": "MatAnyone 2",
+   "alpha": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/matting/openairesets/alpha_v1.mkv",
+   "track_seconds": 53.890934031,
+   "cost_usd": 0.01528993580327532,
+   "review_status": "needs_final_visual_review",
+   "wall_s": 5.931068500038236
+  },
+  "selection": {
+   "status": "ok",
+   "selection": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/matting/openairesets/selection.json",
+   "plate": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/matting/openairesets/plate_wide_25.mp4",
+   "source": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/cuts/openairesets/master.mp4",
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/matting/openairesets/plate.json",
+   "initial_mask": null,
+   "chair_audit": {
+    "band": {
+     "crown": 76,
+     "head_width": 336.0,
+     "band_top": 306,
+     "shoulder_arrival": 486
+    },
+    "sides": {
+     "left": {
+      "found": true,
+      "rows": [
+       277,
+       445
+      ],
+      "cols": [
+       346,
+       447
+      ],
+      "box": [
+       338,
+       273,
+       455,
+       449
+      ],
+      "wing_px": 9469,
+      "leak_px": 3,
+      "wing_luma_mean": 25.6,
+      "leak_luma_mean": 48.3,
+      "leak_luma_p95": 58,
+      "action": "none",
+      "note": "3 px of this wing are inside the contour, under the 1500 px floor: the reviewer held it out"
+     },
+     "right": {
+      "found": true,
+      "rows": [
+       294,
+       445
+      ],
+      "cols": [
+       714,
+       783
+      ],
+      "box": [
+       706,
+       290,
+       791,
+       449
+      ],
+      "wing_px": 5722,
+      "leak_px": 161,
+      "wing_luma_mean": 14.1,
+      "leak_luma_mean": 34.9,
+      "leak_luma_p95": 58,
+      "action": "none",
+      "note": "161 px of this wing are inside the contour, under the 1500 px floor: the reviewer held it out"
+     }
+    },
+    "leak_px": 164,
+    "mask_px": 488245,
+    "thresholds": {
+     "leak_floor_px": 1500,
+     "carve_luma_max": 40,
+     "carve_frac_max": 0.06,
+     "dilate_px": 2
+    },
+    "verdict": "clean",
+    "why": "no headrest wing survives inside the reviewed contour",
+    "selection": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/matting/openairesets/selection.json"
+   },
+   "chair_audit_verdict": "clean",
+   "chair_audit_leak_px": 164,
+   "chair_audit_carve_px": null,
+   "chair_audit_healed": false,
+   "chair_audit_mask_sha256": null,
+   "wall_s": 0.2600262920000205
+  },
+  "display_plate": {
+   "status": "reused",
+   "file": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/matting/openairesets/plate_display_1452x990.mp4",
+   "cached": true,
+   "hash_proof": {
+    "source_sha256": "eceaa79aa32e0eee574eea14cc4036a695732abc42c09a5e28ec69a381b0ec78",
+    "crop_sha256": "a52f61cbdb8beaae5b005caac5c6dc5cdfff60301a1eb53bc91480a0dd887b02",
+    "matches_selection": true
+   },
+   "width": 1452,
+   "height": 990,
+   "frames": 516,
+   "plate_frames": 516,
+   "bytes": 32156258
+  },
+  "ship": {
+   "status": "ok",
+   "backend": "matanyone2",
+   "frames": 516,
+   "width": 1452,
+   "height": 990,
+   "fps": 25.0,
+   "alpha_mode": "soft",
+   "rim_px": 7,
+   "temporal": 1,
+   "hashes": {
+    "cut": "647f0023c4e7ce379e1cfabbd2674f57675553a687db9b41a4cace5097302c39",
+    "rim": "8e3273751d9f21ee21bb17ee409db5ed7a9b7889216e49aaa42141f48f92b870",
+    "alpha": "d39e8df6913bf9c5093611f7ddf53dcfbef700d0052f8e009d813ee02cdf7314"
+   },
+   "seconds": 57.308993974,
+   "estimated_compute_usd": 0.02605954573985728,
+   "fractional_alpha_pixels": 10531573,
+   "minimum_person_fraction": 0.3795628460917717,
+   "review_status": "needs_final_visual_review",
+   "ship_source_sha256": "0154788627eb98961c3eb2bc600e14d29cbc4f0de84b5c925b98e03e19bbd250",
+   "client_wall_seconds": 3.3542159160001574,
+   "client_wall_basis": "Recovery download only; interrupted original client duration unknown",
+   "outputs": {
+    "cut": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/matting/openairesets/matte_openairesets_v5_cut.webm",
+    "rim": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/matting/openairesets/matte_openairesets_v5_rim.webm",
+    "alpha": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/matting/openairesets/matte_openairesets_v5_alpha.webm"
+   },
+   "headroom": {
+    "identity": {
+     "alpha_sha256": "2e3de1435898ce796eaf9f063678ce3b9534c48c88d8d2b5f1c22298ec03d097",
+     "display_sha256": "2754ceca8e9c852fbc0d6c77e92defb350c3f89f45962d2602c6e9eebc491cd8",
+     "guard_sha256": "90e6a7f8cf1a142b9a8ab4cf0054f9803188279b68642b84430db31afe79999a",
+     "expected_frames": 516,
+     "floor_px": 24.0
+    },
+    "pass": true,
+    "frames_checked": 516,
+    "min_top_clearance_px": 59.400000000000006,
+    "floor_px": 24.0,
+    "worst_frame": 293,
+    "worst_seconds": 11.72,
+    "unsafe_frames": 0,
+    "first_unsafe_frames": [],
+    "scope": "Every matte frame, top edge of prepared person layer; no caption or semantic face claim"
+   },
+   "ship_seconds": 57.308993974,
+   "wall_s": 3.3542159160001574,
+   "cost_usd": 0.02605954573985728
+  }
+ },
+ "no_chair_object": false,
+ "started": "2026-09-23T16:12:45",
+ "backend": "matanyone2",
+ "finished": "2026-09-23T16:12:46",
+ "wall_s": 210.0
+}

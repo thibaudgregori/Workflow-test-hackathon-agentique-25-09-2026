@@ -1,0 +1,1006 @@
+{
+ "video": "grokdesktop",
+ "format": "cutout",
+ "platform": "tiktok",
+ "fps": 25,
+ "duration": 34.76,
+ "seal": {
+  "grokdesktop_scene.py": "5799790d2fcdb8a95d0426620c8b368c2d850af4d29ecdb9cf91f86d65dae464",
+  "grokdesktop_scene_handoff.md": "afd323703c89d1670b44086b6e22c9187437894cc4a59faa6de2983aaf26fb95"
+ },
+ "plate": {
+  "box": {
+   "w": 1386.0,
+   "h": 990.0,
+   "left": -153.0,
+   "top": 930.0
+  },
+  "whole_pixels": true,
+  "equals_encoded": {
+   "cut": {
+    "w": 1386,
+    "h": 990
+   },
+   "rim": {
+    "w": 1386,
+    "h": 990
+   }
+  },
+  "origin": "read from plate.json overwide.plate_box (not computed; the extension is symmetric, 99 canvas px each side)",
+  "face_centre_canvas": {
+   "frames_sampled": 87,
+   "band_rows": 160,
+   "mass_cx_median": 526.0,
+   "mass_cx_p5_p95": [
+    472.0,
+    587.2
+   ],
+   "offset_from_540": -14.0
+  }
+ },
+ "seat": 889.2,
+ "envelope": {
+  "CAP_Y": 889.2,
+  "ZY0": 192.0,
+  "ZY1": 805.4,
+  "CAP_H_true_rendered": 114.59,
+  "true_clear_to_crown": 26.5
+ },
+ "crown_gate": {
+  "frames": 869,
+  "frames_on_plate_top": 0,
+  "minimum": 43,
+  "worst_frame": 99
+ },
+ "core": {
+  "k": 1.0,
+  "k_uncapped": 1.3101,
+  "k_cap": 1.0,
+  "k_cap_why": "handoff/split scale; bridge chapter spans core x 36..1044",
+  "left": 0.0,
+  "top": 174.7,
+  "stage_zone": [
+   192.0,
+   805.4
+  ],
+  "content_band_canvas": [
+   270.7,
+   726.7
+  ]
+ },
+ "band": {
+  "content_top": 270.7,
+  "content_bottom": 726.7,
+  "pill_top_rendered": 831.905,
+  "clear_above_pill": 105.21,
+  "clear_below_law30": 78.7
+ },
+ "rail": {
+  "readable_type_right_x": 674.4,
+  "ink_left_x": 36.0,
+  "ink_right_x": 1044.0,
+  "law30_rail_x": 918.0
+ },
+ "voice": {
+  "source": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/cuts/grokdesktop/audio.m4a",
+  "sample_rate": 48000,
+  "channels": 2
+ },
+ "matte": {
+  "session": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/matting/grokdesktop",
+  "layers": {
+   "cut": {
+    "w": 1386,
+    "h": 990
+   },
+   "rim": {
+    "w": 1386,
+    "h": 990
+   }
+  },
+  "hashes": {
+   "cut": "380e5adf51c0599402099f4de4eeb7df7a1be6693f0718552b2352dd7e6e0051",
+   "rim": "c46eaef9980607eaaed626ab6bbf197b9e63400c327055d996b59817f0703231",
+   "alpha": "a8658d12a03b55eb2477879ad74c95755d96e7177e565183b3bebcaba25c79cc"
+  },
+  "backend": "sam2",
+  "fallback": "fb1",
+  "headroom": {
+   "identity": {
+    "alpha_sha256": "7dd6e0f43da928314cf38344efad6e17aedcefca505b34c08eff155096b6da80",
+    "display_sha256": "088e9a8a06450015e60515a99bcb4f023705c4d2870780ed2ecf5a8990cc5611",
+    "guard_sha256": "90e6a7f8cf1a142b9a8ab4cf0054f9803188279b68642b84430db31afe79999a",
+    "expected_frames": 869,
+    "floor_px": 24.0
+   },
+   "pass": true,
+   "frames_checked": 869,
+   "min_top_clearance_px": 44.0,
+   "floor_px": 24.0,
+   "worst_frame": 99,
+   "worst_seconds": 3.96,
+   "unsafe_frames": 0,
+   "first_unsafe_frames": [],
+   "scope": "Every matte frame, top edge of prepared person layer; no caption or semantic face claim"
+  }
+ },
+ "depth_field": {
+  "seat": {
+   "band": [
+    1010.5,
+    1404.5
+   ],
+   "band_h": 394.0,
+   "inter_lane_gap": 26.0,
+   "seat_offset_from_pill": 64.0,
+   "foundation_offset": 63.61,
+   "drift_from_foundation_seat": 0.39,
+   "margin_px": 145.6,
+   "candidates_scanned": 97,
+   "candidates_safe": 79,
+   "instrument": "5th percentile of the PER-FRAME gutter; the union envelope describes a body that never existed",
+   "lanes": [
+    {
+     "lane": "far",
+     "tile": 78.0,
+     "y": 1010.5,
+     "frames": 290,
+     "gutter_p05": 296.3,
+     "gutter_median": 346.4,
+     "gutter_min_single_frame": 267.2,
+     "frames_under_tile": 0
+    },
+    {
+     "lane": "mid",
+     "tile": 116.0,
+     "y": 1114.5,
+     "frames": 290,
+     "gutter_p05": 272.1,
+     "gutter_median": 321.1,
+     "gutter_min_single_frame": 248.5,
+     "frames_under_tile": 0
+    },
+    {
+     "lane": "near",
+     "tile": 148.0,
+     "y": 1256.5,
+     "frames": 290,
+     "gutter_p05": 293.6,
+     "gutter_median": 327.7,
+     "gutter_min_single_frame": 76.9,
+     "frames_under_tile": 5
+    }
+   ]
+  },
+  "lanes": {
+   "far": {
+    "x0": -216.0,
+    "w": 1926.0,
+    "y": 1010.5,
+    "tile": 78.0,
+    "gap": 30.0,
+    "pitch": 108.0,
+    "tiles": 17,
+    "opacity": 0.34,
+    "dist": 46.0,
+    "travel": 414.0,
+    "steps": 9
+   },
+   "mid": {
+    "x0": -304.0,
+    "w": 2696.0,
+    "y": 1114.5,
+    "tile": 116.0,
+    "gap": 36.0,
+    "pitch": 152.0,
+    "tiles": 17,
+    "opacity": 0.66,
+    "dist": 112.0,
+    "travel": 1008.0,
+    "steps": 9
+   },
+   "near": {
+    "x0": -384.0,
+    "w": 3720.0,
+    "y": 1256.5,
+    "tile": 148.0,
+    "gap": 44.0,
+    "pitch": 192.0,
+    "tiles": 19,
+    "opacity": 1.0,
+    "dist": 208.0,
+    "travel": 1872.0,
+    "steps": 9
+   }
+  },
+  "tiles": 53,
+  "step_beats": [
+   3.4,
+   6.96,
+   10.48,
+   14.08,
+   17.52,
+   21.16,
+   24.64,
+   28.36,
+   31.6
+  ],
+  "step_n": 9,
+  "cast": [
+   "gemini",
+   "deepseek",
+   "mistral",
+   "meta",
+   "perplexity",
+   "kimi",
+   "qwen"
+  ],
+  "files": {
+   "gemini": "ai-models/gemini-color.png",
+   "deepseek": "ai-models/deepseek.png",
+   "mistral": "ai-models/mistral.png",
+   "meta": "ai-models/meta.png",
+   "perplexity": "ai-models/perplexity-color.png",
+   "kimi": "ai-models/kimi.png",
+   "qwen": "ai-models/qwen.png"
+  },
+  "hook_clear_s": 2.6,
+  "intro_dur": 0.66,
+  "pop_behind": null,
+  "pop_behind_why_none": "every tool he names (Grok, ChatGPT, Claude Cowork) is a stage mark; the depth field never carries the story's own marks and the plan declares no window"
+ },
+ "shared": {
+  "beat_edges": [
+   0.1,
+   4.16,
+   12.9,
+   19.94,
+   30.44,
+   34.76
+  ],
+  "phone_test_objects": [
+   {
+    "name": "medal on ribbon",
+    "t": 2.8,
+    "bbox": [
+     0.3981,
+     0.141,
+     0.6019,
+     0.3337
+    ],
+    "canvas": [
+     430.0,
+     270.7,
+     650.0,
+     640.7
+    ]
+   },
+   {
+    "name": "bridge between cliffs",
+    "t": 10.3,
+    "bbox": [
+     0.0333,
+     0.1868,
+     0.9667,
+     0.3441
+    ],
+    "canvas": [
+     36.0,
+     358.7,
+     1044.0,
+     660.7
+    ]
+   },
+   {
+    "name": "sand hourglass timer",
+    "t": 24.2,
+    "bbox": [
+     0.4074,
+     0.141,
+     0.5926,
+     0.3243
+    ],
+    "canvas": [
+     440.0,
+     270.7,
+     640.0,
+     622.7
+    ]
+   }
+  ]
+ },
+ "captions": {
+  "n": 32,
+  "texts": [
+   "Grok is going to become",
+   "one of the top three AI",
+   "providers in the world.",
+   "Right now, they are",
+   "working on a new",
+   "desktop application",
+   "that is going to close",
+   "the gap between them",
+   "and applications such as",
+   "ChatGPT Work",
+   "and Claude Cowork.",
+   "People will be",
+   "able to use the",
+   "powerful Grok model",
+   "inside of an application",
+   "with a nice user interface.",
+   "Now, we don't know",
+   "when this is set to",
+   "release, but given",
+   "the amount of work",
+   "that's being put into",
+   "the Grok models",
+   "and their ecosystem,",
+   "I believe that it's",
+   "going to be in a couple",
+   "of weeks or months.",
+   "Now follow for more",
+   "AI news, videos, and",
+   "tutorials each and",
+   "every single day,",
+   "and catch you",
+   "in the next one."
+  ],
+  "widest_px": 753.4
+ },
+ "caption_beats": [
+  {
+   "text": "Grok is going to become",
+   "start": 0.1,
+   "end": 0.96,
+   "w": 713.45,
+   "dur": 0.92
+  },
+  {
+   "text": "one of the top three AI",
+   "start": 1.02,
+   "end": 2.44,
+   "w": 675.69,
+   "dur": 1.5
+  },
+  {
+   "text": "providers in the world.",
+   "start": 2.52,
+   "end": 3.78,
+   "w": 672.38,
+   "dur": 1.64
+  },
+  {
+   "text": "Right now, they are",
+   "start": 4.16,
+   "end": 4.76,
+   "w": 587.84,
+   "dur": 0.64
+  },
+  {
+   "text": "working on a new",
+   "start": 4.8,
+   "end": 5.64,
+   "w": 543.05,
+   "dur": 0.96
+  },
+  {
+   "text": "desktop application",
+   "start": 5.76,
+   "end": 6.64,
+   "w": 593.12,
+   "dur": 1.18
+  },
+  {
+   "text": "that is going to close",
+   "start": 6.94,
+   "end": 7.94,
+   "w": 627.19,
+   "dur": 1.04
+  },
+  {
+   "text": "the gap between them",
+   "start": 7.98,
+   "end": 9.06,
+   "w": 671.47,
+   "dur": 1.2
+  },
+  {
+   "text": "and applications such as",
+   "start": 9.18,
+   "end": 10.14,
+   "w": 718.23,
+   "dur": 1.28
+  },
+  {
+   "text": "ChatGPT Work",
+   "start": 10.46,
+   "end": 11.28,
+   "w": 469.66,
+   "dur": 1.16
+  },
+  {
+   "text": "and Claude Cowork.",
+   "start": 11.62,
+   "end": 12.52,
+   "w": 604.38,
+   "dur": 1.28
+  },
+  {
+   "text": "People will be",
+   "start": 12.9,
+   "end": 13.56,
+   "w": 448.3,
+   "dur": 0.74
+  },
+  {
+   "text": "able to use the",
+   "start": 13.64,
+   "end": 14.36,
+   "w": 464.55,
+   "dur": 0.74
+  },
+  {
+   "text": "powerful Grok model",
+   "start": 14.38,
+   "end": 15.38,
+   "w": 638.09,
+   "dur": 1.36
+  },
+  {
+   "text": "inside of an application",
+   "start": 15.74,
+   "end": 16.9,
+   "w": 686.88,
+   "dur": 1.48
+  },
+  {
+   "text": "with a nice user interface.",
+   "start": 17.22,
+   "end": 19.22,
+   "w": 753.36,
+   "dur": 2.72
+  },
+  {
+   "text": "Now, we don't know",
+   "start": 19.94,
+   "end": 20.88,
+   "w": 611.84,
+   "dur": 0.98
+  },
+  {
+   "text": "when this is set to",
+   "start": 20.92,
+   "end": 21.7,
+   "w": 555.42,
+   "dur": 0.82
+  },
+  {
+   "text": "release, but given",
+   "start": 21.74,
+   "end": 22.74,
+   "w": 539.56,
+   "dur": 1.02
+  },
+  {
+   "text": "the amount of work",
+   "start": 22.76,
+   "end": 23.52,
+   "w": 595.77,
+   "dur": 0.8
+  },
+  {
+   "text": "that's being put into",
+   "start": 23.56,
+   "end": 24.46,
+   "w": 610.05,
+   "dur": 0.94
+  },
+  {
+   "text": "the Grok models",
+   "start": 24.5,
+   "end": 25.28,
+   "w": 509.89,
+   "dur": 0.98
+  },
+  {
+   "text": "and their ecosystem,",
+   "start": 25.48,
+   "end": 26.62,
+   "w": 616.0,
+   "dur": 1.64
+  },
+  {
+   "text": "I believe that it's",
+   "start": 27.12,
+   "end": 27.7,
+   "w": 511.58,
+   "dur": 0.62
+  },
+  {
+   "text": "going to be in a couple",
+   "start": 27.74,
+   "end": 28.86,
+   "w": 673.33,
+   "dur": 1.18
+  },
+  {
+   "text": "of weeks or months.",
+   "start": 28.92,
+   "end": 30.12,
+   "w": 608.69,
+   "dur": 1.52
+  },
+  {
+   "text": "Now follow for more",
+   "start": 30.44,
+   "end": 31.08,
+   "w": 623.25,
+   "dur": 0.7
+  },
+  {
+   "text": "AI news, videos, and",
+   "start": 31.14,
+   "end": 32.06,
+   "w": 611.56,
+   "dur": 0.979
+  },
+  {
+   "text": "tutorials each and",
+   "start": 32.119,
+   "end": 32.82,
+   "w": 547.44,
+   "dur": 0.721
+  },
+  {
+   "text": "every single day,",
+   "start": 32.84,
+   "end": 33.36,
+   "w": 511.53,
+   "dur": 0.88
+  },
+  {
+   "text": "and catch you",
+   "start": 33.72,
+   "end": 34.04,
+   "w": 434.31,
+   "dur": 0.34
+  },
+  {
+   "text": "in the next one.",
+   "start": 34.06,
+   "end": 34.54,
+   "w": 481.3,
+   "dur": 0.7
+  }
+ ],
+ "transcript": {
+  "law47_tail_s": 0.22,
+  "law47_cap_s": 0.24,
+  "law47_verdict": "PASS \u2014 0.220s past the last word against a 0.240s cap",
+  "law46": "the scripted opening occurs ONCE inside the keeper take, at word 0 / 0.10 s",
+  "take_corroboration": {
+   "mode": "model keep_words (the agent read the transcript and chose the words; no rule detection)",
+   "keep_words": [
+    [
+     175,
+     297
+    ]
+   ],
+   "take_word_index": 175,
+   "take_start_s": 95.34,
+   "words": 123,
+   "of_raw_words": 298,
+   "corroboration": "model-authored keep ranges"
+  },
+  "words": 124,
+  "function_word_merges": 0,
+  "beats_before_merge": 32,
+  "orphan_repartitions": [],
+  "solo_word_merges": [],
+  "board_keys_forbidden_at_split": [
+   "desktop app",
+   "desktop app!",
+   "desktop app,",
+   "desktop app.",
+   "desktop app?",
+   "top 3",
+   "top 3!",
+   "top 3,",
+   "top 3.",
+   "top 3?",
+   "user interface",
+   "user interface!",
+   "user interface,",
+   "user interface.",
+   "user interface?",
+   "weeks or months",
+   "weeks or months!",
+   "weeks or months,",
+   "weeks or months.",
+   "weeks or months?"
+  ],
+  "cowork_fold": "words 42..43 'Code Work.' -> 'Cowork.' 12.20-12.52"
+ },
+ "checks": {
+  "cues": {
+   "ribbon": {
+    "word": 0,
+    "text": "Grok",
+    "t": 0.1
+   },
+   "c1out": {
+    "word": 15,
+    "text": "Right",
+    "t": 4.16
+   },
+   "grokL": {
+    "word": 19,
+    "text": "working",
+    "t": 4.8
+   },
+   "bridgeL": {
+    "word": 23,
+    "text": "desktop",
+    "t": 5.76
+   },
+   "cliffR": {
+    "word": 29,
+    "text": "close",
+    "t": 7.72
+   },
+   "bridgeR": {
+    "word": 31,
+    "text": "gap",
+    "t": 8.1
+   },
+   "deckflip": {
+    "word": 32,
+    "text": "between",
+    "t": 8.42
+   },
+   "chatgpt": {
+    "word": 38,
+    "text": "ChatGPT",
+    "t": 10.46
+   },
+   "cowork": {
+    "word": 41,
+    "text": "Claude",
+    "t": 11.96
+   },
+   "c2out": {
+    "word": 44,
+    "text": "People",
+    "t": 12.9
+   },
+   "grokM": {
+    "word": 52,
+    "text": "Grok",
+    "t": 14.88
+   },
+   "ui": {
+    "word": 60,
+    "text": "nice",
+    "t": 17.76
+   },
+   "c3out": {
+    "word": 63,
+    "text": "Now,",
+    "t": 19.94
+   },
+   "hourglass": {
+    "word": 64,
+    "text": "we",
+    "t": 20.4
+   },
+   "pour1": {
+    "word": 74,
+    "text": "given",
+    "t": 22.52
+   },
+   "pour2": {
+    "word": 90,
+    "text": "believe",
+    "t": 27.2
+   },
+   "outro": {
+    "word": 103,
+    "text": "Now",
+    "t": 30.44
+   },
+   "medal": {
+    "word": 0,
+    "text": "Grok",
+    "t": 0.3,
+    "window": [
+     0.1,
+     1.3
+    ]
+   },
+   "top3": {
+    "word": 9,
+    "text": "three",
+    "t": 2.1,
+    "window": [
+     1.84,
+     3.04
+    ]
+   },
+   "cliffL": {
+    "word": 16,
+    "text": "now,",
+    "t": 4.32,
+    "window": [
+     4.32,
+     5.46
+    ]
+   },
+   "appkey": {
+    "word": 24,
+    "text": "application",
+    "t": 6.2,
+    "window": [
+     6.12,
+     7.64
+    ]
+   },
+   "monitor": {
+    "word": 44,
+    "text": "People",
+    "t": 13.0,
+    "window": [
+     12.9,
+     14.14
+    ]
+   },
+   "uikey": {
+    "word": 62,
+    "text": "interface.",
+    "t": 18.7,
+    "window": [
+     18.68,
+     20.22
+    ]
+   },
+   "weeks": {
+    "word": 102,
+    "text": "months.",
+    "t": 29.84,
+    "window": [
+     29.8,
+     31.12
+    ]
+   },
+   "_law43": {
+    "board_mode": "chapters",
+    "chapters": 4,
+    "erase_at": [
+     4.16,
+     12.9,
+     19.94,
+     30.44
+    ]
+   }
+  },
+  "word_sync": {
+   "typed_states": [
+    {
+     "state": "key-top3",
+     "first_visible_text": "TOP 3",
+     "at": 2.1,
+     "words": "top three",
+     "window": [
+      1.84,
+      3.04
+     ]
+    },
+    {
+     "state": "key-app",
+     "first_visible_text": "DESKTOP APP",
+     "at": 6.2,
+     "words": "desktop application",
+     "window": [
+      6.12,
+      7.64
+     ]
+    },
+    {
+     "state": "key-ui",
+     "first_visible_text": "USER INTERFACE",
+     "at": 18.7,
+     "words": "user interface.",
+     "window": [
+      18.68,
+      20.22
+     ]
+    },
+    {
+     "state": "key-weeks",
+     "first_visible_text": "WEEKS OR MONTHS",
+     "at": 29.84,
+     "words": "weeks or months.",
+     "window": [
+      29.8,
+      31.12
+     ]
+    }
+   ],
+   "disagreements": 0,
+   "digits_that_tick": 0
+  },
+  "law37": {
+   "scan_cue_count": 0,
+   "plan_declared_cards": 0,
+   "source_cards_in_the_page": 0
+  },
+  "law39": {
+   "key-top3": {
+    "host": "medal",
+    "side": "below",
+    "text": "TOP 3",
+    "at": 2.1,
+    "gutter_core_px": 28.0,
+    "box_canvas": [
+     440.0,
+     668.7,
+     640.0,
+     726.7
+    ]
+   },
+   "key-app": {
+    "host": "bridge",
+    "side": "below",
+    "text": "DESKTOP APP",
+    "at": 6.2,
+    "gutter_core_px": 28.0,
+    "box_canvas": [
+     420.0,
+     594.7,
+     660.0,
+     638.7
+    ]
+   },
+   "key-ui": {
+    "host": "monitor",
+    "side": "below",
+    "text": "USER INTERFACE",
+    "at": 18.7,
+    "gutter_core_px": 34.0,
+    "box_canvas": [
+     390.0,
+     660.7,
+     690.0,
+     704.7
+    ]
+   },
+   "key-weeks": {
+    "host": "hourglass",
+    "side": "below",
+    "text": "WEEKS OR MONTHS",
+    "at": 29.84,
+    "gutter_core_px": 34.0,
+    "box_canvas": [
+     390.0,
+     656.7,
+     690.0,
+     700.7
+    ]
+   },
+   "_law50": {
+    "plain_label_font_px": 28.0,
+    "row_h": 44.0
+   },
+   "_key_term": {
+    "text": "TOP 3",
+    "font_px": 48.0,
+    "design_units": 25.6,
+    "first_type": true
+   }
+  },
+  "law42": {
+   "board_mode": "chapters",
+   "anchors": [
+    "o-glyph",
+    "o-rule",
+    "o-sheet",
+    "o-slot"
+   ],
+   "mark_shares": {
+    "medal": 0.12,
+    "tile-grok": 0.242,
+    "tile-chatgpt": 0.079,
+    "tile-cowork": 0.036,
+    "grok-screen": 0.154
+   }
+  },
+  "law38": {
+   "border_flips": [
+    {
+     "target": "#bridge .deck",
+     "from": 8.42,
+     "until": 9.8
+    },
+    {
+     "target": "#monitor bezel",
+     "from": 17.76,
+     "until": 19.4
+    }
+   ],
+   "rings_ellipses_circles": 0,
+   "highlights": 0,
+   "dom_elements_added": 0
+  },
+  "law2": {
+   "stage_marks": [
+    "chatgpt",
+    "claude-cowork",
+    "grok"
+   ],
+   "resolved": {
+    "grok": "/Users/migle/Documents/Workspace/assets/logos/ai-models/grok.png",
+    "chatgpt": "/Users/migle/Documents/Workspace/assets/logos/ai-models/chatgpt-color.png",
+    "claude-cowork": "/Users/migle/Documents/Workspace/assets/logos/ai-models/claude-cowork.png"
+   },
+   "cutout_lanes_not_ours": [
+    "gemini",
+    "deepseek",
+    "mistral",
+    "meta",
+    "perplexity",
+    "kimi",
+    "qwen"
+   ]
+  },
+  "law22": {
+   "events": 16,
+   "tightest_gap_s": 0.6,
+   "deliberately_silent": {
+    "ribbon 0.10": "0.20 s before the medal pop; one pop scores both",
+    "cliffs, labels DESKTOP APP / USER INTERFACE": "drawn ink under a scored neighbour, not an arrival of its own",
+    "flips": "a colour flip is not an arrival",
+    "monitor 13.00": "0.10 s after the chapter whoosh"
+   }
+  },
+  "draw_on": {
+   "dash_selectors": {
+    "#bridge .bl.ba": 1,
+    "#bridge .bl.bh": 2,
+    "#bridge .bl.deck": 1,
+    "#bridge .br.ba": 1,
+    "#bridge .br.bh": 3,
+    "#bridge .br.deck": 1,
+    "#cliff-left .cl": 1,
+    "#cliff-left .cls": 3,
+    "#cliff-right .cr": 1,
+    "#cliff-right .crs": 3,
+    "#hourglass .hg": 2,
+    "#medal-ribbon .rb": 2,
+    "#medal-ribbon .rbs": 2
+   },
+   "verdict": "every dash equals its path's declared length (100)"
+  }
+ },
+ "cast_check": {
+  "grok": "/Users/migle/Documents/Workspace/assets/logos/ai-models/grok.png",
+  "chatgpt": "/Users/migle/Documents/Workspace/assets/logos/ai-models/chatgpt-color.png",
+  "claude-cowork": "/Users/migle/Documents/Workspace/assets/logos/ai-models/claude-cowork.png",
+  "gemini": "/Users/migle/Documents/Workspace/assets/logos/ai-models/gemini-color.png",
+  "deepseek": "/Users/migle/Documents/Workspace/assets/logos/ai-models/deepseek.png",
+  "mistral": "/Users/migle/Documents/Workspace/assets/logos/ai-models/mistral.png",
+  "meta": "/Users/migle/Documents/Workspace/assets/logos/ai-models/meta.png",
+  "perplexity": "/Users/migle/Documents/Workspace/assets/logos/ai-models/perplexity-color.png",
+  "kimi": "/Users/migle/Documents/Workspace/assets/logos/ai-models/kimi.png",
+  "qwen": "/Users/migle/Documents/Workspace/assets/logos/ai-models/qwen.png"
+ },
+ "edge_fade": {
+  "masked_containers": 3,
+  "fade_px": 46.0,
+  "meters_exempt": []
+ },
+ "handle": "@migueltorrez.ai",
+ "render": {
+  "w": 1080,
+  "h": 1920,
+  "zoom": 1
+ }
+}

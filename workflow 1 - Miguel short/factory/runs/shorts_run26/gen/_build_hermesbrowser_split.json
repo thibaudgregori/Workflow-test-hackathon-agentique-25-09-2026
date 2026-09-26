@@ -1,0 +1,755 @@
+{
+ "video": "hermesbrowser",
+ "lane": "icon choreography",
+ "fps": 25,
+ "duration": 26.48,
+ "seam": 862.5,
+ "formats": {
+  "split": {
+   "cues": {
+    "tile": {
+     "word": 0,
+     "text": "Hermes",
+     "t": 0.1
+    },
+    "keyterm": {
+     "word": 1,
+     "text": "Agent",
+     "t": 0.46
+    },
+    "browser": {
+     "word": 5,
+     "text": "browser",
+     "t": 1.08
+    },
+    "frame": {
+     "word": 9,
+     "text": "desktop",
+     "t": 2.34
+    },
+    "seamA": {
+     "word": 11,
+     "text": "Now,",
+     "t": 3.58
+    },
+    "see": {
+     "word": 23,
+     "text": "see,",
+     "t": 7.3
+    },
+    "operate": {
+     "word": 26,
+     "text": "operate",
+     "t": 8.7
+    },
+    "analyze": {
+     "word": 28,
+     "text": "analyze",
+     "t": 9.34
+    },
+    "flip": {
+     "word": 29,
+     "text": "anything",
+     "t": 9.92
+    },
+    "seamB": {
+     "word": 35,
+     "text": "So",
+     "t": 11.74
+    },
+    "question": {
+     "word": 49,
+     "text": "any",
+     "t": 15.4
+    },
+    "hermes": {
+     "word": 60,
+     "text": "Hermes",
+     "t": 18.24
+    },
+    "do": {
+     "word": 66,
+     "text": "do",
+     "t": 20.04
+    },
+    "help": {
+     "word": 70,
+     "text": "help",
+     "t": 21.38
+    },
+    "outro": {
+     "word": 74,
+     "text": "Now",
+     "t": 22.3
+    },
+    "lbl_browser": {
+     "word": 5,
+     "text": "browser",
+     "t": 1.3,
+     "window": [
+      1.08,
+      2.42
+     ]
+    },
+    "lbl_see": {
+     "word": 23,
+     "text": "see,",
+     "t": 7.4,
+     "window": [
+      7.3,
+      8.44
+     ]
+    },
+    "lbl_operate": {
+     "word": 26,
+     "text": "operate",
+     "t": 8.8,
+     "window": [
+      8.7,
+      10.04
+     ]
+    },
+    "lbl_analyze": {
+     "word": 28,
+     "text": "analyze",
+     "t": 9.44,
+     "window": [
+      9.34,
+      10.84
+     ]
+    },
+    "lbl_main": {
+     "word": 43,
+     "text": "main",
+     "t": 13.5,
+     "window": [
+      13.46,
+      14.66
+     ]
+    },
+    "lbl_hermes": {
+     "word": 60,
+     "text": "Hermes",
+     "t": 18.4,
+     "window": [
+      18.24,
+      19.5
+     ]
+    },
+    "flipback": {
+     "word": 34,
+     "text": "it.",
+     "t": 11.4,
+     "window": [
+      11.34,
+      12.42
+     ]
+    },
+    "_law43": {
+     "board_mode": "chapters",
+     "chapters": 3,
+     "seams": [
+      3.58,
+      11.74
+     ],
+     "outro": 22.3
+    }
+   },
+   "word_sync": {
+    "typed_states": [
+     {
+      "state": "key-hermes-agent",
+      "first_visible_text": "HERMES AGENT",
+      "at": 0.46,
+      "spoken": "hermes agent",
+      "word_window": [
+       0.1,
+       1.66
+      ]
+     },
+     {
+      "state": "lbl-browser",
+      "first_visible_text": "BROWSER",
+      "at": 1.3,
+      "spoken": "browser",
+      "word_window": [
+       1.08,
+       2.42
+      ]
+     },
+     {
+      "state": "lbl-binoculars",
+      "first_visible_text": "SEE",
+      "at": 7.4,
+      "spoken": "see",
+      "word_window": [
+       7.3,
+       8.44
+      ]
+     },
+     {
+      "state": "lbl-wheel",
+      "first_visible_text": "OPERATE",
+      "at": 8.8,
+      "spoken": "operate",
+      "word_window": [
+       8.7,
+       10.04
+      ]
+     },
+     {
+      "state": "lbl-microscope",
+      "first_visible_text": "ANALYZE",
+      "at": 9.44,
+      "spoken": "analyze",
+      "word_window": [
+       9.34,
+       10.84
+      ]
+     },
+     {
+      "state": "lbl-main",
+      "first_visible_text": "MAIN BROWSER",
+      "at": 13.5,
+      "spoken": "main browser",
+      "word_window": [
+       13.46,
+       15.12
+      ]
+     },
+     {
+      "state": "lbl-hermes",
+      "first_visible_text": "HERMES AGENT",
+      "at": 18.4,
+      "spoken": "hermes agent",
+      "word_window": [
+       18.24,
+       19.82
+      ]
+     }
+    ],
+    "disagreements": 0,
+    "digits_that_tick": 0
+   },
+   "law37": {
+    "scan_cue_count": 0,
+    "plan_declared_cards": 0,
+    "prep_marker_cue_count": 0,
+    "source_cards_in_the_page": 0
+   },
+   "law39": {
+    "key-hermes-agent": {
+     "host": "app-frame",
+     "side": "above",
+     "text": "HERMES AGENT",
+     "at": 0.46,
+     "checked_at": [
+      3.1,
+      3.5
+     ],
+     "box_canvas": [
+      354.0,
+      288.0,
+      726.0,
+      346.0
+     ]
+    },
+    "lbl-browser": {
+     "host": "hb-browser",
+     "side": "below",
+     "text": "BROWSER",
+     "at": 1.3,
+     "checked_at": [
+      1.6,
+      3.1,
+      3.5
+     ],
+     "box_canvas": [
+      541.0,
+      642.0,
+      711.0,
+      686.0
+     ]
+    },
+    "lbl-binoculars": {
+     "host": "obj-binoculars",
+     "side": "below",
+     "text": "SEE",
+     "at": 7.4,
+     "checked_at": [
+      7.7,
+      8.4,
+      9.3,
+      10.4,
+      11.2
+     ],
+     "box_canvas": [
+      135.0,
+      722.0,
+      325.0,
+      766.0
+     ]
+    },
+    "lbl-wheel": {
+     "host": "obj-wheel",
+     "side": "below",
+     "text": "OPERATE",
+     "at": 8.8,
+     "checked_at": [
+      9.1,
+      9.3,
+      10.4,
+      11.2
+     ],
+     "box_canvas": [
+      445.0,
+      722.0,
+      635.0,
+      766.0
+     ]
+    },
+    "lbl-microscope": {
+     "host": "obj-microscope",
+     "side": "below",
+     "text": "ANALYZE",
+     "at": 9.44,
+     "checked_at": [
+      9.74,
+      10.4,
+      11.2
+     ],
+     "box_canvas": [
+      755.0,
+      722.0,
+      945.0,
+      766.0
+     ]
+    },
+    "lbl-main": {
+     "host": "hb-browser",
+     "side": "below",
+     "text": "MAIN BROWSER",
+     "at": 13.5,
+     "checked_at": [
+      13.8,
+      14.5,
+      17.0,
+      19.0,
+      20.9,
+      21.9
+     ],
+     "box_canvas": [
+      424.0,
+      526.0,
+      656.0,
+      570.0
+     ]
+    },
+    "lbl-hermes": {
+     "host": "hb-tile-c",
+     "side": "below",
+     "text": "HERMES AGENT",
+     "at": 18.4,
+     "checked_at": [
+      18.7,
+      19.0,
+      20.9,
+      21.9
+     ],
+     "box_canvas": [
+      674.0,
+      526.0,
+      906.0,
+      570.0
+     ]
+    },
+    "_key_term_before_frame": {
+     "above": "hb-tile (centred)",
+     "axis_x": 540
+    },
+    "_law50": {
+     "verb_row_y": 530.0,
+     "c_row_y": 334.0,
+     "font_px": 28.0
+    },
+    "_key_term": {
+     "text": "HERMES AGENT",
+     "font_px": 48.0,
+     "design_units": 25.6,
+     "first_type": true
+    }
+   },
+   "law42": {
+    "board_mode": "chapters",
+    "chapters": 3,
+    "anchors": [
+     "hb-browser"
+    ],
+    "longest_finite_share_non_anchor": 0.35
+   },
+   "law41": {
+    "tightest_core_px": 52.0,
+    "tightest_pair": [
+     "hb-browser",
+     "obj-wheel",
+     9.3
+    ],
+    "refusal_line": 16.0,
+    "blocks": [
+     [
+      "app-frame",
+      "hb-tile",
+      "hb-browser",
+      "lbl-browser",
+      "key-hermes-agent"
+     ],
+     [
+      "obj-binoculars",
+      "lbl-binoculars"
+     ],
+     [
+      "obj-wheel",
+      "lbl-wheel"
+     ],
+     [
+      "obj-microscope",
+      "lbl-microscope"
+     ],
+     [
+      "hb-browser",
+      "lbl-main"
+     ],
+     [
+      "q-bubble",
+      "hb-tile-c",
+      "lbl-hermes"
+     ]
+    ]
+   },
+   "law38": {
+    "border_flips": [
+     {
+      "on": "hb-browser",
+      "kind": "border",
+      "declared": false,
+      "target": null,
+      "check_at": 10.8,
+      "held": [
+       10.3,
+       11.4
+      ]
+     },
+     {
+      "on": "hb-tile-c",
+      "kind": "border",
+      "declared": true,
+      "target": "hb-mark-c",
+      "check_at": 21.9,
+      "held": [
+       21.759999999999998,
+       22.3
+      ]
+     }
+    ],
+    "rings_ellipses_circles": 0,
+    "highlights": 0,
+    "dom_ink_added": 0
+   },
+   "law2": {
+    "stage_marks": [
+     "nous-girl-line"
+    ],
+    "resolved": {
+     "nous-girl-line": "/Users/migle/Documents/Workspace/assets/logos/ai-models/nous-girl-line.png"
+    },
+    "mark_side_core_px": 74.0,
+    "cutout_lanes_not_ours": [
+     "chatgpt",
+     "perplexity",
+     "claude",
+     "gemini",
+     "openclaw",
+     "copilot"
+    ]
+   },
+   "law22": {
+    "events": 15,
+    "tightest_gap_s": 0.34,
+    "deliberately_silent": {
+     "lbl_browser 1.30": "0.14 s after the browser pop",
+     "verb labels": "0.10 s after their object's pop",
+     "bubble 15.56": "0.16 s inside the slide's whoosh",
+     "lbl_hermes 18.40": "0.16 s after the tile pop",
+     "flips": "a colour flip is not an arrival"
+    }
+   },
+   "law40": {
+    "link-binoculars": {
+     "target": "hb-browser",
+     "side": "bottom",
+     "fraction": 0.16,
+     "check_at": 10.6,
+     "tip_core": [
+      397.2,
+      310.0
+     ],
+     "anchor_core": [
+      397.2,
+      310.0
+     ],
+     "miss_px": 0.0,
+     "from_planned_end_px": 0.0
+    },
+    "link-wheel": {
+     "target": "hb-browser",
+     "side": "bottom",
+     "fraction": 0.5,
+     "check_at": 10.6,
+     "tip_core": [
+      540.0,
+      310.0
+     ],
+     "anchor_core": [
+      540.0,
+      310.0
+     ],
+     "miss_px": 0.0,
+     "from_planned_end_px": 0.0
+    },
+    "link-microscope": {
+     "target": "hb-browser",
+     "side": "bottom",
+     "fraction": 0.84,
+     "check_at": 10.6,
+     "tip_core": [
+      682.8,
+      310.0
+     ],
+     "anchor_core": [
+      682.8,
+      310.0
+     ],
+     "miss_px": 0.0,
+     "from_planned_end_px": 0.0
+    },
+    "link-do": {
+     "target": "hb-browser",
+     "side": "right",
+     "fraction": 0.5,
+     "check_at": 21.0,
+     "tip_core": [
+      552.0,
+      205.0
+     ],
+     "anchor_core": [
+      550.0,
+      205.0
+     ],
+     "miss_px": 2.0,
+     "from_planned_end_px": 0.0
+    }
+   },
+   "declared": {
+    "connectors_stamped": 4,
+    "emphases_stamped": [
+     "hb-tile-c"
+    ],
+    "emphases_undeclared": [
+     "hb-browser"
+    ]
+   },
+   "band": {
+    "content_top": 262.0,
+    "content_bottom": 766.0,
+    "pill_top_rendered": 805.205,
+    "clear_above_pill": 39.21,
+    "clear_below_law30": 70.0
+   },
+   "rail": {
+    "readable_type_right_x": 912.4,
+    "ink_left_x": 130.0,
+    "ink_right_x": 945.0,
+    "law30_rail_x": 918.0
+   },
+   "staged": {
+    "voice": {
+     "source": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/cuts/hermesbrowser/audio.m4a",
+     "sample_rate": 48000,
+     "channels": 2
+    },
+    "bed": "/Users/migle/Documents/Workspace/assets/audio/music/shorts-factory/bed_split_v2.mp3",
+    "sfx_sources": {
+     "whoosh": "/Users/migle/Documents/Workspace/assets/audio/sfx/shorts-factory/whoosh.mp3",
+     "pop": "/Users/migle/Documents/Workspace/assets/audio/sfx/shorts-factory/pop.mp3",
+     "click": "/Users/migle/Documents/Workspace/assets/audio/sfx/shorts-factory/click.mp3"
+    },
+    "face": {
+     "file": "face_bottom_hd.mp4",
+     "w": 1080,
+     "h": 1058
+    },
+    "marks": {
+     "nous-girl-line": {
+      "source": "/Users/migle/Documents/Workspace/assets/logos/ai-models/nous-girl-line.png",
+      "url": "assets/logos/nous-girl-line.png"
+     }
+    }
+   },
+   "seat": 862.5,
+   "scale": 1.0,
+   "core": {
+    "left": 0.0,
+    "top": 192.0
+   },
+   "transcript": {
+    "law47_tail_s": 0.2,
+    "law47_cap_s": 0.24,
+    "law47_verdict": "PASS \u2014 0.200s past the last word against a 0.240s cap",
+    "law46": "the scripted opening occurs ONCE inside the keeper take, at word 0 / 0.10 s",
+    "take_corroboration": {
+     "mode": "model keep_words (the agent read the transcript and chose the words; no rule detection)",
+     "keep_words": [
+      [
+       158,
+       252
+      ]
+     ],
+     "raw_word_index": 158,
+     "raw_start_s": 80.88,
+     "words": 95,
+     "of_raw_words": 253,
+     "dropped_words": 158,
+     "corroboration": "model-authored keep ranges"
+    },
+    "words": 95,
+    "function_word_merges": 0,
+    "beats_before_merge": 27,
+    "orphan_repartitions": [],
+    "solo_word_merges": [],
+    "board_keys_forbidden_at_split": [
+     "analyze",
+     "analyze!",
+     "analyze,",
+     "analyze.",
+     "analyze?",
+     "browser",
+     "browser!",
+     "browser,",
+     "browser.",
+     "browser?",
+     "hermes agent",
+     "hermes agent!",
+     "hermes agent,",
+     "hermes agent.",
+     "hermes agent?",
+     "main browser",
+     "main browser!",
+     "main browser,",
+     "main browser.",
+     "main browser?",
+     "operate",
+     "operate!",
+     "operate,",
+     "operate.",
+     "operate?",
+     "see",
+     "see!",
+     "see,",
+     "see.",
+     "see?"
+    ]
+   },
+   "phone_objects": [
+    {
+     "name": "pair of binoculars",
+     "t": 8.4,
+     "bbox": [
+      0.125,
+      0.2885,
+      0.3009,
+      0.3677
+     ],
+     "canvas": [
+      135.0,
+      554.0,
+      325.0,
+      706.0
+     ]
+    },
+    {
+     "name": "car steering wheel",
+     "t": 9.3,
+     "bbox": [
+      0.412,
+      0.2885,
+      0.588,
+      0.3677
+     ],
+     "canvas": [
+      445.0,
+      554.0,
+      635.0,
+      706.0
+     ]
+    },
+    {
+     "name": "science lab microscope",
+     "t": 10.4,
+     "bbox": [
+      0.6991,
+      0.2885,
+      0.875,
+      0.3677
+     ],
+     "canvas": [
+      755.0,
+      554.0,
+      945.0,
+      706.0
+     ]
+    }
+   ],
+   "scene_sha256": "26fa6fdf010d2b614d76fb690f579f5029656da0365ce1c65f659a990fde70b4",
+   "render": {
+    "w": 1080,
+    "h": 1920,
+    "zoom": 1
+   },
+   "handle": "@migueltorrezai",
+   "captions": {
+    "n": 27,
+    "widest_px": 737.8,
+    "texts": [
+     "Hermes Agent now has",
+     "a browser inside of its",
+     "desktop application.",
+     "Now, this browser is",
+     "different because your AI",
+     "agent can not only see,",
+     "but also",
+     "operate and analyze",
+     "anything that's",
+     "happening inside of it.",
+     "So you can use",
+     "that browser as",
+     "your main browser,",
+     "and whenever you",
+     "have any question,",
+     "you can simply just",
+     "go ahead, chat with",
+     "your Hermes agent,",
+     "and have it either",
+     "do the task",
+     "or help you with it.",
+     "Now follow for more",
+     "AI news, videos, and",
+     "tutorials each and",
+     "every single day,",
+     "and catch you",
+     "in the next one."
+    ],
+    "min_aspect": 2.48
+   }
+  }
+ }
+}

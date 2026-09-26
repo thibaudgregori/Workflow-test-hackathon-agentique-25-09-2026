@@ -1,0 +1,83 @@
+{
+ "label": "openairesets_cutout",
+ "video": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/openairesets_cutout.mp4",
+ "phone_scale": "405x720",
+ "sheet": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/phone_openairesets_cutout.png",
+ "rule": "a FRESH judge (never read the plan) names each crop in <=3 words. Wrong name, hedge, or 'cannot tell' = the object is redesigned, not annotated.",
+ "answer_key": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/phone_openairesets_cutout.key.json",
+ "answer_key_rule": "DO NOT OPEN the answer key until every judge_answer below is filled in. Reading it first voids the Phone Test.",
+ "objects": [
+  {
+   "i": 0,
+   "t": 2.9,
+   "bbox_norm": [
+    0.4537,
+    0.1781,
+    0.7528,
+    0.3135
+   ],
+   "phone_box_px": [
+    183,
+    128,
+    304,
+    225
+   ],
+   "phone_size_px": [
+    121,
+    97
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/phone_openairesets_cutout/00.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  },
+  {
+   "i": 1,
+   "t": 12.7,
+   "bbox_norm": [
+    0.2148,
+    0.1573,
+    0.7848,
+    0.2412
+   ],
+   "phone_box_px": [
+    86,
+    113,
+    317,
+    173
+   ],
+   "phone_size_px": [
+    231,
+    60
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/phone_openairesets_cutout/01.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  },
+  {
+   "i": 2,
+   "t": 15.4,
+   "bbox_norm": [
+    0.3056,
+    0.2948,
+    0.6944,
+    0.3604
+   ],
+   "phone_box_px": [
+    123,
+    212,
+    281,
+    259
+   ],
+   "phone_size_px": [
+    158,
+    47
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/phone_openairesets_cutout/02.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  }
+ ]
+}

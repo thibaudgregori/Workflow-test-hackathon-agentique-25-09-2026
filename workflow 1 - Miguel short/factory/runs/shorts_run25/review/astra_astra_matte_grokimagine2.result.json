@@ -1,0 +1,14 @@
+{
+  "status": "hold",
+  "ship": "ok",
+  "selection_changed": true,
+  "edits": 4,
+  "rounds": 1,
+  "what_you_saw": "Viewed the clean frame, full selection overlay and enlarged head overlay. Initially approved the outline unchanged; the prep chair audit then detected retained viewer-left chair pixels, added four exclusion polygons and refused MatAnyone tracking. Viewed the corrected overlays and ran the prescribed SAM2 fb1 fallback once. Inspected all four resulting sheets: playback shows an opaque person without the large chair back or a grey head-side wedge; face_2x preserves ears, cheeks, jaw, chin and cap brim; hands shows both hands and gesture fingers present with source motion blur; chair_sides shows the large chair removed but small black protrusions beside the viewer-left neck/collar at frames 580 and 585. A detached black speck is also visible beside that collar at frame 350 in face_2x and hands. Ship and headroom checks passed for all 808 frames, but the remaining neck splash prevents visual approval.",
+  "hold_reason": "Residual black neck/collar splash after the SAM2 fallback: detached speck at frame 350 (14.00 s) and protruding black lobes at frames 580 and 585 (23.20 and 23.40 s). This does not meet the requested no-splash outline. Held for Miguel; no further contour carving or hand-edited alpha.",
+  "outputs": [
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/matting/grokimagine2/matte_grokimagine2_v5_cut.webm",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/matting/grokimagine2/matte_grokimagine2_v5_rim.webm",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/matting/grokimagine2/matte_grokimagine2_v5_alpha.webm"
+  ]
+}

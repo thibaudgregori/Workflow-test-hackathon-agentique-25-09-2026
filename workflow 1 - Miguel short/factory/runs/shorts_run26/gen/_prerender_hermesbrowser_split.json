@@ -1,0 +1,79 @@
+{
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/projects/hermesbrowser_split",
+ "fmt": "split",
+ "step": 0.25,
+ "checks": {
+  "refs_resolve": {
+   "referenced": 7,
+   "missing": [],
+   "pass": true,
+   "error": null,
+   "wall_s": 0.09
+  },
+  "assets_not_placeholder": {
+   "rasters": 1,
+   "placeholder_shaped": [],
+   "undecodable": [],
+   "report": {
+    "assets/logos/nous-girl-line.png": {
+     "size": [
+      2609,
+      2647
+     ],
+     "judged": "decode only (capture)"
+    }
+   },
+   "pass": true,
+   "error": null,
+   "wall_s": 0.08
+  },
+  "page_audit": {
+   "ids": 76,
+   "unique_ids": 76,
+   "duplicate_ids": [],
+   "tween_selectors": 38,
+   "dead_tween_targets": [],
+   "pass": true,
+   "error": null,
+   "wall_s": 0.0
+  },
+  "caption_canon_page": {
+   "pills": 27,
+   "modal_height_px": 114.63,
+   "canon_height_px": 114.59,
+   "height_spread_px": 0.0,
+   "tolerance_design_px": 3.0,
+   "heights_off_canon": [],
+   "squarer_than_min_aspect": [],
+   "min_aspect": 1.45,
+   "function_only_beat_law": null,
+   "pass": true,
+   "error": null,
+   "wall_s": 0.0
+  },
+  "gate1_geometry_audit": {
+   "returncode": 0,
+   "errors": 0,
+   "warnings": 0,
+   "warnings_after_waivers": 0,
+   "waived": [],
+   "report": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/projects/hermesbrowser_split/geometry_audit/report.json",
+   "stdout": "hermesbrowser_split: 0 errors, 0 warnings (26.5s @ 0.25s step)\n",
+   "stderr": "",
+   "bar": "0 errors, 0 warnings",
+   "pass": true,
+   "error": null,
+   "wall_s": 1.34
+  }
+ },
+ "skipped": {
+  "cutout_edge_fade_guard": "cutout only",
+  "cutout_checks_24_25": "cutout only"
+ },
+ "duration_s": 26.48,
+ "page_zoom": 0.9997035907859079,
+ "page_load_wall_s": 0.81,
+ "failed": [],
+ "verdict": "PASS",
+ "total_wall_s": 2.32
+}

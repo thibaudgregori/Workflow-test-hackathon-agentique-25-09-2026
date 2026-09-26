@@ -1,0 +1,658 @@
+{
+ "video": "deepseekprices",
+ "lane": "counter+meter",
+ "fps": 25,
+ "duration": 33.58,
+ "seam": 862.5,
+ "formats": {
+  "split": {
+   "staged": {
+    "voice": {
+     "source": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/cuts/deepseekprices/audio.m4a",
+     "sample_rate": 48000,
+     "channels": 2
+    },
+    "bed": "/Users/migle/Documents/Workspace/assets/audio/music/shorts-factory/bed_split_v2.mp3",
+    "sfx_sources": {
+     "whoosh": "/Users/migle/Documents/Workspace/assets/audio/sfx/shorts-factory/whoosh.mp3",
+     "pop": "/Users/migle/Documents/Workspace/assets/audio/sfx/shorts-factory/pop.mp3",
+     "click": "/Users/migle/Documents/Workspace/assets/audio/sfx/shorts-factory/click.mp3"
+    },
+    "face": {
+     "file": "face_bottom_hd.mp4",
+     "w": 1080,
+     "h": 1058
+    },
+    "marks": {
+     "deepseek": {
+      "source": "/Users/migle/Documents/Workspace/assets/logos/ai-models/deepseek.png",
+      "url": "assets/logos/deepseek.png"
+     },
+     "claude": {
+      "source": "/Users/migle/Documents/Workspace/assets/logos/ai-models/claude-color.png",
+      "url": "assets/logos/claude-color.png"
+     },
+     "openai": {
+      "source": "/Users/migle/Documents/Workspace/assets/logos/ai-models/openai.png",
+      "url": "assets/logos/openai.png"
+     },
+     "gemini": {
+      "source": "/Users/migle/Documents/Workspace/assets/logos/ai-models/gemini-color.png",
+      "url": "assets/logos/gemini-color.png"
+     }
+    }
+   },
+   "seat": 862.5,
+   "scale": 1.0,
+   "core": {
+    "left": 0.0,
+    "top": 192.0
+   },
+   "band": {
+    "content_top": 278.0,
+    "content_bottom": 760.0,
+    "pill_top_rendered": 805.205,
+    "clear_above_pill": 45.21,
+    "clear_below_law30": 86.0
+   },
+   "rail": {
+    "readable_type_right_x": {
+     "key-term-v4flash": 452.2,
+     "counter-ds": 830.9,
+     "label-price-per-token": 674.4,
+     "label-ai-employee": 638.4
+    },
+    "ink_left_x": 188.0,
+    "ink_right_x": 892.0,
+    "law12_rail_x": 918.0
+   },
+   "cues": {
+    "swing": {
+     "word": 3,
+     "text": "victim",
+     "t": 0.72
+    },
+    "slide": {
+     "word": 12,
+     "text": "increasing",
+     "t": 3.2
+    },
+    "needle": {
+     "word": 13,
+     "text": "demand",
+     "t": 3.74
+    },
+    "keyterm": {
+     "word": 21,
+     "text": "V4",
+     "t": 6.16
+    },
+    "arrow": {
+     "word": 27,
+     "text": "increase",
+     "t": 9.06
+    },
+    "tagflip": {
+     "word": 29,
+     "text": "prices",
+     "t": 9.7
+    },
+    "eraseA": {
+     "word": 35,
+     "text": "Now,",
+     "t": 12.18
+    },
+    "two": {
+     "word": 43,
+     "text": "two",
+     "t": 14.7
+    },
+    "four": {
+     "word": 45,
+     "text": "four",
+     "t": 15.36
+    },
+    "best": {
+     "word": 50,
+     "text": "one",
+     "t": 16.92
+    },
+    "c1": {
+     "word": 51,
+     "text": "of",
+     "t": 17.06
+    },
+    "c3": {
+     "word": 53,
+     "text": "best",
+     "t": 17.52
+    },
+    "ppt": {
+     "word": 62,
+     "text": "price",
+     "t": 19.76
+    },
+    "task": {
+     "word": 66,
+     "text": "price",
+     "t": 21.28
+    },
+    "eraseB": {
+     "word": 77,
+     "text": "buy",
+     "t": 24.3
+    },
+    "locally": {
+     "word": 89,
+     "text": "locally",
+     "t": 27.3
+    },
+    "badge": {
+     "word": 94,
+     "text": "AI",
+     "t": 28.68
+    },
+    "outro": {
+     "word": 97,
+     "text": "follow",
+     "t": 29.54
+    },
+    "tag": {
+     "word": 0,
+     "text": "DeepSeek",
+     "t": 0.18,
+     "window": [
+      0.1,
+      1.48
+     ]
+    },
+    "gauge": {
+     "word": 12,
+     "text": "increasing",
+     "t": 3.24,
+     "window": [
+      3.2,
+      4.7
+     ]
+    },
+    "col": {
+     "word": 35,
+     "text": "Now,",
+     "t": 12.22,
+     "window": [
+      12.18,
+      13.3
+     ]
+    },
+    "c2": {
+     "word": 52,
+     "text": "the",
+     "t": 17.3,
+     "window": [
+      17.2,
+      18.26
+     ]
+    },
+    "tower": {
+     "word": 77,
+     "text": "buy",
+     "t": 24.32,
+     "window": [
+      24.3,
+      25.46
+     ]
+    },
+    "employee": {
+     "word": 94,
+     "text": "AI",
+     "t": 28.72,
+     "window": [
+      28.68,
+      29.84
+     ]
+    },
+    "_law43": {
+     "board_mode": "chapters",
+     "chapters": 3,
+     "seams": [
+      12.18,
+      24.3
+     ]
+    }
+   },
+   "word_sync": {
+    "typed_states": [
+     {
+      "state": "key-term-v4flash",
+      "first_visible_text": "V4 FLASH",
+      "at": 6.16,
+      "word": "V4",
+      "word_window": [
+       6.16,
+       7.44
+      ]
+     },
+     {
+      "state": "counter-2x",
+      "first_visible_text": "2X",
+      "at": 14.76,
+      "word": "two",
+      "word_window": [
+       14.7,
+       15.84
+      ]
+     },
+     {
+      "state": "counter-4x",
+      "first_visible_text": "4X",
+      "at": 15.44,
+      "word": "four",
+      "word_window": [
+       15.36,
+       16.54
+      ]
+     },
+     {
+      "state": "label-price-per-token",
+      "first_visible_text": "PRICE PER TOKEN",
+      "at": 19.76,
+      "word": "price",
+      "word_window": [
+       19.76,
+       20.98
+      ]
+     },
+     {
+      "state": "label-ai-employee",
+      "first_visible_text": "AI EMPLOYEE",
+      "at": 28.72,
+      "word": "AI",
+      "word_window": [
+       28.68,
+       29.84
+      ]
+     }
+    ],
+    "disagreements": 0,
+    "digits_that_tick": "2X -> 4X, swapped on 'four' (15.44), the only changing value"
+   },
+   "law37": {
+    "scan_cue_count": 0,
+    "plan_declared_cards": 0,
+    "prep_marker_cue_count": 0,
+    "source_cards_in_the_page": 0
+   },
+   "law39": {
+    "key-term-v4flash": {
+     "host": "price-tag",
+     "side": "below",
+     "text": "V4 FLASH",
+     "at": 6.16,
+     "box_canvas_settled": [
+      195.0,
+      688.0,
+      465.0,
+      746.0
+     ]
+    },
+    "counter-ds": {
+     "host": "bar-deepseek",
+     "side": "above",
+     "text": "2X / 4X",
+     "at": 14.76,
+     "box_canvas_settled": [
+      734.0,
+      400.0,
+      874.0,
+      452.0
+     ]
+    },
+    "label-price-per-token": {
+     "host": "price-chart",
+     "side": "below",
+     "text": "PRICE PER TOKEN",
+     "at": 19.76,
+     "box_canvas_settled": [
+      390.0,
+      716.0,
+      690.0,
+      760.0
+     ]
+    },
+    "label-ai-employee": {
+     "host": "computer-badge",
+     "side": "below",
+     "text": "AI EMPLOYEE",
+     "at": 28.72,
+     "box_canvas_settled": [
+      410.0,
+      672.0,
+      670.0,
+      716.0
+     ]
+    },
+    "_law50": {
+     "side": "below",
+     "font_px": 28.0,
+     "key_term_font_px": 48.0
+    },
+    "_key_term": {
+     "text": "V4 FLASH",
+     "font_px": 48.0,
+     "design_units": 25.6,
+     "first_type": true
+    }
+   },
+   "law42": {
+    "board_mode": "chapters",
+    "outro_marks": [
+     "o-glyph",
+     "o-rule",
+     "o-sheet",
+     "o-slot"
+    ],
+    "longest_share": [
+     "price-chart",
+     0.366
+    ],
+    "plan_marks": [
+     "claude-column / openai-column / gemini-column",
+     "computer-badge",
+     "counter-4x",
+     "deepseek-column",
+     "demand-gauge",
+     "emphasis boxes",
+     "key-term-v4flash",
+     "label-ai-employee",
+     "label-price-per-token",
+     "price-arrow",
+     "price-tag"
+    ]
+   },
+   "law41": {
+    "tightest_core_px": 120.0,
+    "tightest_pair": [
+     "price-tag",
+     "demand-gauge",
+     5.0
+    ],
+    "refusal_line": 16.0,
+    "blocks": [
+     [
+      "key-term-v4flash",
+      "price-tag"
+     ],
+     [
+      "bar-claude",
+      "bar-deepseek",
+      "bar-gemini",
+      "bar-openai",
+      "col-claude",
+      "col-deepseek",
+      "col-gemini",
+      "col-openai",
+      "counter-ds",
+      "label-price-per-token",
+      "price-chart",
+      "tile-claude",
+      "tile-deepseek",
+      "tile-gemini",
+      "tile-openai"
+     ],
+     [
+      "computer-badge",
+      "label-ai-employee",
+      "lanyard"
+     ],
+     [
+      "key-term-v4flash",
+      "price-tag"
+     ],
+     [
+      "computer-badge",
+      "label-ai-employee"
+     ]
+    ]
+   },
+   "law38": {
+    "border_flips": [
+     {
+      "on": "tag-outline",
+      "target": "price-tag",
+      "check_at": 10.4,
+      "held": [
+       10.08,
+       12.18
+      ]
+     },
+     {
+      "on": "bar-deepseek",
+      "target": "col-deepseek",
+      "check_at": 22.0,
+      "held": [
+       21.66,
+       24.3
+      ]
+     }
+    ],
+    "rings_ellipses_circles": 0,
+    "highlights": 0,
+    "dom_elements_added": 0
+   },
+   "declared": {
+    "emphases_stamped": 2,
+    "connectors_stamped": 0
+   },
+   "law2": {
+    "stage_marks": [
+     "claude",
+     "deepseek",
+     "gemini",
+     "openai"
+    ],
+    "resolved": {
+     "deepseek": "/Users/migle/Documents/Workspace/assets/logos/ai-models/deepseek.png",
+     "claude": "/Users/migle/Documents/Workspace/assets/logos/ai-models/claude-color.png",
+     "openai": "/Users/migle/Documents/Workspace/assets/logos/ai-models/openai.png",
+     "gemini": "/Users/migle/Documents/Workspace/assets/logos/ai-models/gemini-color.png"
+    },
+    "media_sides_core_px": {
+     "_tag_ds_img": [
+      "deepseek",
+      88.0
+     ],
+     "_col_ds_img": [
+      "deepseek",
+      56.0
+     ],
+     "_col_claude_img": [
+      "claude",
+      56.0
+     ],
+     "_col_openai_img": [
+      "openai",
+      56.0
+     ],
+     "_col_gemini_img": [
+      "gemini",
+      56.0
+     ],
+     "_badge_ds_img": [
+      "deepseek",
+      44.0
+     ]
+    },
+    "cutout_lanes_not_ours": [
+     "qwen",
+     "kimi",
+     "mistral",
+     "minimax",
+     "ollama",
+     "nvidia"
+    ]
+   },
+   "law22": {
+    "events": 14,
+    "tightest_gap_s": 0.54,
+    "deliberately_silent": {
+     "swing 0.72": "0.54 s after the tag pop; a sway is not an arrival",
+     "gauge 3.24": "0.04 s after the slide whoosh; one gesture",
+     "flips 9.70 / 21.28": "a colour flip is not an arrival",
+     "c1-c3 17.06-17.52": "the 16.92 whoosh scores the three rises",
+     "AI EMPLOYEE 28.72": "0.04 s after the badge pop"
+    }
+   },
+   "draw_on": {
+    "dash_selectors": {
+     "#price-chart .bl": 1,
+     "#price-tag .tga": 1,
+     "#computer-badge .pc": 10,
+     "#demand-gauge .gg": 4,
+     "#demand-gauge .gz": 1,
+     "#price-tag .tg": 6
+    },
+    "verdict": "every dash equals its path's declared length (100)"
+   },
+   "transcript": {
+    "law47_tail_s": 0.2,
+    "law47_cap_s": 0.24,
+    "law47_verdict": "PASS \u2014 0.200s past the last word against a 0.240s cap",
+    "law46": "the scripted opening occurs ONCE inside the keeper take, at word 0 / 0.10 s",
+    "take_corroboration": {
+     "mode": "model keep_words (the agent read the transcript and chose the words; no rule detection)",
+     "keep_words": [
+      [
+       91,
+       180
+      ],
+      [
+       183,
+       209
+      ]
+     ],
+     "raw_word_index": 91,
+     "raw_start_s": 52.3,
+     "words": 117,
+     "of_raw_words": 210,
+     "dropped_words": 93,
+     "corroboration": "model-authored keep ranges"
+    },
+    "words": 117,
+    "function_word_merges": 0,
+    "beats_before_merge": 31,
+    "orphan_repartitions": [],
+    "solo_word_merges": [
+     {
+      "solo": "one.",
+      "direction": "backward",
+      "merged_to": "catch you in the next one."
+     }
+    ],
+    "board_keys_forbidden_at_split": [
+     "2x",
+     "2x!",
+     "2x,",
+     "2x.",
+     "2x?",
+     "4x",
+     "4x!",
+     "4x,",
+     "4x.",
+     "4x?",
+     "ai employee",
+     "ai employee!",
+     "ai employee,",
+     "ai employee.",
+     "ai employee?",
+     "price per token",
+     "price per token!",
+     "price per token,",
+     "price per token.",
+     "price per token?",
+     "v4 flash",
+     "v4 flash!",
+     "v4 flash,",
+     "v4 flash.",
+     "v4 flash?"
+    ]
+   },
+   "phone_objects": [
+    {
+     "name": "DeepSeek price tag",
+     "t": 2.6,
+     "bbox": [
+      0.4074,
+      0.15,
+      0.5926,
+      0.3458
+     ],
+     "canvas": [
+      440.0,
+      288.0,
+      640.0,
+      664.0
+     ]
+    },
+    {
+     "name": "computer wearing badge",
+     "t": 29.3,
+     "bbox": [
+      0.3981,
+      0.1542,
+      0.6019,
+      0.3365
+     ],
+     "canvas": [
+      430.0,
+      296.0,
+      650.0,
+      646.0
+     ]
+    }
+   ],
+   "render": {
+    "w": 1080,
+    "h": 1920,
+    "zoom": 1
+   },
+   "handle": "@migueltorrezai",
+   "captions": {
+    "n": 30,
+    "widest_px": 751.3,
+    "texts": [
+     "DeepSeek is a victim",
+     "of their own success.",
+     "Now, due to the",
+     "increasing demand of one",
+     "of their newest models,",
+     "DeepSeek V4 Flash,",
+     "they have to significantly",
+     "increase their prices",
+     "in the few coming weeks.",
+     "Now, even if they",
+     "increase their prices",
+     "by two to four X,",
+     "this is still one of",
+     "the best models",
+     "that you can use",
+     "in terms of price",
+     "per token and",
+     "price per task.",
+     "On top of this,",
+     "you can also just",
+     "buy your own machines",
+     "now if you're a",
+     "business and run this",
+     "locally to have your",
+     "own AI employee.",
+     "Now follow for more",
+     "AI news, videos, and",
+     "tutorials each and",
+     "every single day, and",
+     "catch you in the next one."
+    ],
+    "min_aspect": 3.81
+   }
+  }
+ }
+}

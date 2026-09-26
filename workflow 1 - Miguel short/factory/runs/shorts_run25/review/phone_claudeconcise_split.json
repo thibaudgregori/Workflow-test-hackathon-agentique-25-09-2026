@@ -1,0 +1,107 @@
+{
+ "label": "claudeconcise_split",
+ "video": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/claudeconcise_split.mp4",
+ "phone_scale": "405x720",
+ "sheet": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/review/phone_claudeconcise_split.png",
+ "rule": "a FRESH judge (never read the plan) names each crop in <=3 words. Wrong name, hedge, or 'cannot tell' = the object is redesigned, not annotated.",
+ "answer_key": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/review/phone_claudeconcise_split.key.json",
+ "answer_key_rule": "DO NOT OPEN the answer key until every judge_answer below is filled in. Reading it first voids the Phone Test.",
+ "objects": [
+  {
+   "i": 0,
+   "t": 2.6,
+   "bbox_norm": [
+    0.3056,
+    0.1052,
+    0.6944,
+    0.2219
+   ],
+   "phone_box_px": [
+    123,
+    75,
+    281,
+    159
+   ],
+   "phone_size_px": [
+    158,
+    84
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/review/phone_claudeconcise_split/00.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  },
+  {
+   "i": 1,
+   "t": 12.95,
+   "bbox_norm": [
+    0.7315,
+    0.15,
+    0.9167,
+    0.399
+   ],
+   "phone_box_px": [
+    296,
+    108,
+    371,
+    287
+   ],
+   "phone_size_px": [
+    75,
+    179
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/review/phone_claudeconcise_split/01.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  },
+  {
+   "i": 2,
+   "t": 29.5,
+   "bbox_norm": [
+    0.1889,
+    0.1781,
+    0.5222,
+    0.3031
+   ],
+   "phone_box_px": [
+    76,
+    128,
+    211,
+    218
+   ],
+   "phone_size_px": [
+    135,
+    90
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/review/phone_claudeconcise_split/02.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  },
+  {
+   "i": 3,
+   "t": 34.4,
+   "bbox_norm": [
+    0.6296,
+    0.15,
+    0.9167,
+    0.2792
+   ],
+   "phone_box_px": [
+    254,
+    108,
+    371,
+    201
+   ],
+   "phone_size_px": [
+    117,
+    93
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/review/phone_claudeconcise_split/03.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  }
+ ]
+}

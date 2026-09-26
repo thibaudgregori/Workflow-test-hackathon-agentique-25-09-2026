@@ -1,0 +1,405 @@
+{
+ "id": "stripekai",
+ "run": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26",
+ "recording": "2026-09-21 15-20-02",
+ "gpu": null,
+ "session": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/matting/stripekai",
+ "cut_dir": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/cuts/stripekai",
+ "stages": {
+  "cut": {
+   "status": "ok",
+   "master": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/cuts/stripekai/master.mp4",
+   "audio": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/cuts/stripekai/audio.m4a",
+   "face_plates": [
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/cuts/stripekai/face_full_hd.mp4",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/cuts/stripekai/face_bottom_hd.mp4"
+   ],
+   "edl": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/cuts/stripekai/edl.json",
+   "transcript_tight": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/cuts/stripekai/transcript_tight.json",
+   "cut_master_duration_s": 35.82,
+   "take": {
+    "word_index": 159,
+    "start_s": 91.6,
+    "words": 127,
+    "of_raw_words": 286,
+    "openings": 0
+   },
+   "corroboration": "model-authored keep ranges",
+   "analysis_wav_written": false,
+   "tight_audio_duration_s": 35.82,
+   "wall_s": 89.9
+  },
+  "plate": {
+   "status": "ok",
+   "plate": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/matting/stripekai/plate_wide_25.mp4",
+   "crop": "2492x1780+577+256",
+   "plate_size": [
+    1260,
+    900
+   ],
+   "scale_k": 0.505618,
+   "head_px_on_canvas": 449.7,
+   "overwide_applied": true,
+   "extension_master_px": {
+    "left_master_px": 267,
+    "left_plate_px": 135,
+    "left_canvas_px": 148.5,
+    "right_master_px": 89,
+    "right_plate_px": 45,
+    "right_canvas_px": 49.5,
+    "left_headroom_remaining_master_px": 577,
+    "right_headroom_remaining_master_px": 771,
+    "clamped_by_master_edge": {
+     "left": false,
+     "right": false
+    },
+    "lattice_padding_steps": 1
+   },
+   "plate_box": {
+    "w": 1386.0,
+    "h": 990.0,
+    "left": -202.0,
+    "top": 930.0,
+    "right": 1184.0,
+    "centred": false,
+    "note": "the origin is NOT (1080 - box_w)/2.  An over-wide plate is deliberately asymmetric; the generator's plate_origin() reads `left` from here, and ship.py's edge gate takes it as --edge-box."
+   },
+   "face_dx_pct": 0.041,
+   "visible_window_drift_master_px": 0.9,
+   "sweep": {
+    "file": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/gen/_birefnet_master_stripekai.json",
+    "frames_measured": 150,
+    "stride": 6,
+    "model": "birefnet-general",
+    "wall_seconds": 101.6,
+    "lane": {
+     "where": "modal",
+     "app": "shorts-factory-birefnet",
+     "gpu": "A10G",
+     "container": "3fc5ff17-50c1-4329-b85b-fce81877ef04",
+     "onnx": "birefnet-general.onnx",
+     "providers": [
+      "CUDAExecutionProvider",
+      "CPUExecutionProvider"
+     ],
+     "input_bytes": 26541848,
+     "model_load_seconds": 4.7,
+     "inference_seconds": 81.0,
+     "seconds_per_frame": 0.54,
+     "t_import_epoch": 1790114898.6240518,
+     "t_fn_enter_epoch": 1790114900.4884477,
+     "t_fn_exit_epoch": 1790114990.5499213,
+     "proxy": true,
+     "proxy_seconds": 2.0,
+     "client_wall_seconds": 101.6,
+     "uploaded_bytes": 26541848,
+     "cold_start_seconds": 6.69,
+     "billed_container_seconds": 93.9,
+     "measured_cost_usd": 0.0419,
+     "cost_breakdown_usd": {
+      "gpu": 0.0287,
+      "cpu": 0.0098,
+      "mem": 0.0033
+     }
+    }
+   },
+   "plate_json": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/matting/stripekai/plate.json",
+   "wall_s": 98.2
+  },
+  "prompt0": {
+   "status": "ok",
+   "retries": [],
+   "prompt_guard": {
+    "repaired": false,
+    "why": "the live prompt is the original"
+   },
+   "prompt0_status": "ok",
+   "prompt_png": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/matting/stripekai/prompts/kf_00000.png",
+   "overlay_png": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/matting/stripekai/prompts/kf_overlay_00000.png",
+   "wings_source": "MEASURED on this plate's frame 0",
+   "wing_right": null,
+   "wing_left": null,
+   "wing_cut_applied": false,
+   "wing_review": true,
+   "wing_review_note": "the instrument proposed no cut.  It abstains rather than guesses (see the module docstring: zero false positives, zero recall on the run-9 corpus).  Look at kf_overlay_00000.png; if a headrest wing is inside the green prompt, measure its inner column and pass an explicit `wings` block on the intake row.  If you miss one, the protrusion gate inside ship.py is the net.",
+   "removed_px": 0,
+   "prompt_area_px": 473358,
+   "chair_prompt": {
+    "status": "ok",
+    "json": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/matting/stripekai/chair_prompt.json",
+    "overlay": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/matting/stripekai/prompts/chair_overlay_00000.png",
+    "band": {
+     "crown": 61,
+     "head_width": 324.0,
+     "band_top": 361,
+     "shoulder_arrival": 541
+    },
+    "found": [
+     "left",
+     "right"
+    ],
+    "overridden_sides": null,
+    "left": {
+     "found": true,
+     "box": [
+      437,
+      264,
+      549,
+      504
+     ],
+     "points": [
+      [
+       479,
+       296,
+       1
+      ],
+      [
+       480,
+       355,
+       1
+      ],
+      [
+       492,
+       413,
+       1
+      ],
+      [
+       493,
+       472,
+       1
+      ],
+      [
+       669,
+       208,
+       0
+      ],
+      [
+       527,
+       384,
+       0
+      ],
+      [
+       591,
+       608,
+       0
+      ],
+      [
+       628,
+       661,
+       0
+      ]
+     ],
+     "rows": [
+      268,
+      500
+     ],
+     "rows_with_run": 233,
+     "cols": [
+      445,
+      541
+     ],
+     "run_width": {
+      "min": 4,
+      "max": 96,
+      "median": 72
+     },
+     "luma": {
+      "mean": 22.5,
+      "p95": 35,
+      "max": 94
+     },
+     "area_px": 14613
+    },
+    "right": {
+     "found": true,
+     "box": [
+      737,
+      237,
+      892,
+      436
+     ],
+     "points": [
+      [
+       821,
+       264,
+       1
+      ],
+      [
+       855,
+       312,
+       1
+      ],
+      [
+       853,
+       361,
+       1
+      ],
+      [
+       841,
+       409,
+       1
+      ],
+      [
+       669,
+       181,
+       0
+      ],
+      [
+       827,
+       337,
+       0
+      ],
+      [
+       695,
+       621,
+       0
+      ],
+      [
+       628,
+       661,
+       0
+      ]
+     ],
+     "rows": [
+      241,
+      432
+     ],
+     "rows_with_run": 192,
+     "cols": [
+      745,
+      884
+     ],
+     "run_width": {
+      "min": 12,
+      "max": 140,
+      "median": 50
+     },
+     "luma": {
+      "mean": 14.2,
+      "p95": 35,
+      "max": 132
+     },
+     "area_px": 10107
+    }
+   },
+   "wall_s": 64.5
+  },
+  "cues": {
+   "status": "ok",
+   "cue_count": 0,
+   "cues_json": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/gen/_cues_stripekai.json",
+   "answered": [],
+   "needs_source": [],
+   "cards": [],
+   "wall_s": 0.0
+  },
+  "track": {
+   "status": "error",
+   "backend": "matanyone2",
+   "error": "'client_wall_seconds'"
+  },
+  "selection": {
+   "status": "ok",
+   "selection": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/matting/stripekai/selection.json",
+   "chair_audit": {
+    "band": {
+     "crown": 61,
+     "head_width": 324.5,
+     "band_top": 361,
+     "shoulder_arrival": 541
+    },
+    "sides": {
+     "left": {
+      "found": true,
+      "rows": [
+       268,
+       500
+      ],
+      "cols": [
+       445,
+       541
+      ],
+      "box": [
+       437,
+       264,
+       549,
+       504
+      ],
+      "wing_px": 14613,
+      "leak_px": 737,
+      "wing_luma_mean": 22.5,
+      "leak_luma_mean": 31.8,
+      "leak_luma_p95": 75,
+      "action": "none",
+      "note": "737 px of this wing are inside the contour, under the 1500 px floor: the reviewer held it out"
+     },
+     "right": {
+      "found": true,
+      "rows": [
+       241,
+       432
+      ],
+      "cols": [
+       745,
+       884
+      ],
+      "box": [
+       737,
+       237,
+       892,
+       436
+      ],
+      "wing_px": 10107,
+      "leak_px": 855,
+      "wing_luma_mean": 14.2,
+      "leak_luma_mean": 31.8,
+      "leak_luma_p95": 108,
+      "action": "none",
+      "note": "855 px of this wing are inside the contour, under the 1500 px floor: the reviewer held it out"
+     }
+    },
+    "leak_px": 1592,
+    "mask_px": 473358,
+    "thresholds": {
+     "leak_floor_px": 1500,
+     "carve_luma_max": 40,
+     "carve_frac_max": 0.06,
+     "dilate_px": 2
+    },
+    "verdict": "clean",
+    "why": "no headrest wing survives inside the reviewed contour",
+    "selection": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/matting/stripekai/selection.json"
+   },
+   "chair_audit_verdict": "clean",
+   "chair_audit_leak_px": 1592,
+   "chair_audit_carve_px": null,
+   "chair_audit_healed": false,
+   "chair_audit_mask_sha256": null,
+   "wall_s": 0.28738779200011777
+  },
+  "display_plate": {
+   "status": "reused",
+   "file": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/matting/stripekai/plate_display_1386x990.mp4",
+   "cached": true,
+   "hash_proof": {
+    "source_sha256": "758a632da470c1acd5d5ca4066c29230e591a2020c433adaa44cfd6da13a7eed",
+    "crop_sha256": "15d3fe8b5a2d3a9693397934926c8f9576f83b4652e307dc36610c3c7dddb6bf",
+    "matches_selection": true
+   },
+   "width": 1386,
+   "height": 990,
+   "frames": 895,
+   "plate_frames": 895,
+   "bytes": 55718141
+  },
+  "ship": {
+   "status": "error",
+   "error": "Matting/export incomplete: 'client_wall_seconds'"
+  }
+ },
+ "no_chair_object": false,
+ "started": "2026-09-23T15:14:17",
+ "backend": "matanyone2",
+ "finished": "2026-09-23T15:16:20",
+ "wall_s": 252.9
+}

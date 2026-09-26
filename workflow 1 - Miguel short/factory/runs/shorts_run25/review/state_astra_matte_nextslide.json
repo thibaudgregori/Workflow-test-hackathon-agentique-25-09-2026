@@ -1,0 +1,14 @@
+{
+  "status": "ok",
+  "ship": "ok",
+  "selection_changed": true,
+  "edits": 1,
+  "rounds": 1,
+  "what_you_saw": "Viewed the clean frame and both initial overlays, removed a small chair lobe immediately outside the image-left ear with one exclusion polygon, and viewed the corrected overlay. The corrected outline preserves ear skin, cheek, jaw, chin, cap brim, neck and shoulders while excluding the headrest and chair back. After one MatAnyone 2 track and finish, inspected all four sheets: playback shows an intact person silhouette across the sampled early and gesture frames; face_2x preserves both ears, cheeks, jaw, chin and cap against the source, including first and last frames; chair_sides shows no black or grey chair wedge and no neck splash; hands shows solid palms, fingers and forearms with soft motion-blurred edges. No visible anatomy loss or detached fragments in the reviewed sheets. No fallback was needed. All three output hashes match ship_v5.json and the fresh ship marker postdates selection approval.",
+  "hold_reason": "",
+  "outputs": [
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/matting/nextslide/matte_nextslide_v5_cut.webm",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/matting/nextslide/matte_nextslide_v5_rim.webm",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/matting/nextslide/matte_nextslide_v5_alpha.webm"
+  ]
+}

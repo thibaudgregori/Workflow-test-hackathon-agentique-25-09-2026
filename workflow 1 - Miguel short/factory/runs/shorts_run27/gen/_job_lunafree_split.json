@@ -1,0 +1,19 @@
+{
+  "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/projects/lunafree_split",
+  "vid": "lunafree",
+  "fmt": "split",
+  "quality": "high",
+  "stage": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/staging/youtube/lunafree_split.mp4",
+  "qc_args": [
+    "--voice-master",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/cuts/lunafree/audio.m4a",
+    "--phone-at",
+    "1.8:0.387,0.199,0.613,0.3302:wrapped gift box",
+    "--phone-at",
+    "11.7:0.2407,0.1656,0.7593,0.3292:loud little speaker",
+    "--phone-at",
+    "13.02:0.3889,0.2021,0.6111,0.2958:piggy bank coin",
+    "--phone-at",
+    "15.2:0.4352,0.1833,0.8426,0.2958:tool pegboard wall"
+  ]
+}

@@ -1,0 +1,83 @@
+{
+ "label": "grokdesktop_whiteboard",
+ "video": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/grokdesktop_whiteboard.mp4",
+ "phone_scale": "405x720",
+ "sheet": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/phone_grokdesktop_whiteboard.png",
+ "rule": "a FRESH judge (never read the plan) names each crop in <=3 words. Wrong name, hedge, or 'cannot tell' = the object is redesigned, not annotated.",
+ "answer_key": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/phone_grokdesktop_whiteboard.key.json",
+ "answer_key_rule": "DO NOT OPEN the answer key until every judge_answer below is filled in. Reading it first voids the Phone Test.",
+ "objects": [
+  {
+   "i": 0,
+   "t": 2.8,
+   "bbox_norm": [
+    0.3815,
+    0.1406,
+    0.6185,
+    0.35
+   ],
+   "phone_box_px": [
+    154,
+    101,
+    250,
+    251
+   ],
+   "phone_size_px": [
+    96,
+    150
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/phone_grokdesktop_whiteboard/00.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  },
+  {
+   "i": 1,
+   "t": 10.3,
+   "bbox_norm": [
+    0.0519,
+    0.1375,
+    0.9482,
+    0.299
+   ],
+   "phone_box_px": [
+    20,
+    99,
+    384,
+    215
+   ],
+   "phone_size_px": [
+    364,
+    116
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/phone_grokdesktop_whiteboard/01.png",
+   "sheet_scale": 0.824,
+   "judge_answer": null,
+   "verdict": null
+  },
+  {
+   "i": 2,
+   "t": 24.2,
+   "bbox_norm": [
+    0.3944,
+    0.1427,
+    0.6056,
+    0.3406
+   ],
+   "phone_box_px": [
+    159,
+    102,
+    245,
+    245
+   ],
+   "phone_size_px": [
+    86,
+    143
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/phone_grokdesktop_whiteboard/02.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  }
+ ]
+}

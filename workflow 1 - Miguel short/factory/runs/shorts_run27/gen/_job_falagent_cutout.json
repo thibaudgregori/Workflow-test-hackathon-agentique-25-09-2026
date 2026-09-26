@@ -1,0 +1,27 @@
+{
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/projects/falagent_cutout",
+ "vid": "falagent",
+ "fmt": "cutout",
+ "quality": "high",
+ "stage": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/staging/tiktok/falagent_cutout.mp4",
+ "qc_args": [
+  "--voice-master",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/cuts/falagent/audio.m4a",
+  "--phone-at",
+  "2.0:0.3771,0.1757,0.6229,0.2732:an artist's palette",
+  "--phone-at",
+  "9.3:0.1481,0.175,0.3148,0.2771:a movie clapperboard",
+  "--phone-at",
+  "10.4:0.7,0.1594,0.837,0.2802:a painter's easel",
+  "--phone-at",
+  "14.6:0.3796,0.15,0.6204,0.2854:a dartboard with dart",
+  "--phone-at",
+  "16.9:0.2222,0.1573,0.7778,0.2615:a film strip",
+  "--alpha",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/matting/falagent/matte_falagent_v5_alpha.webm",
+  "--edge-box",
+  "1980x990+-450+930",
+  "--plate",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/matting/falagent/plate_display_1980x990.mp4"
+ ]
+}

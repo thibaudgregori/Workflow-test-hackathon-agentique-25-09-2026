@@ -1,0 +1,101 @@
+{
+  "vid": "grokimagine2",
+  "session": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/matting/grokimagine2",
+  "cut": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/matting/grokimagine2/matte_grokimagine2_v5_cut.webm",
+  "size": [
+    1584,
+    990
+  ],
+  "frames": 808,
+  "sample_fps": 5,
+  "sampled": 162,
+  "soft_alpha_px": {
+    "rest_median": 7326,
+    "p95_over_rest": 1.06,
+    "max_over_rest": 1.28,
+    "frames_over_2p5x": 0
+  },
+  "chair_band_px": {
+    "reference": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/matting/grokimagine2/selection.mask.png",
+    "p50": 1502,
+    "p95": 7601,
+    "max": 11435,
+    "max_at_s": 23.2
+  },
+  "background_haze": {
+    "px_floor": 1500,
+    "detach_px": 14,
+    "p50": 0,
+    "p95": 0,
+    "max": 0,
+    "frames_over_floor": 0,
+    "longest_run_s": 0.0,
+    "hold_seconds_limit": 1.0,
+    "worst_sample_s": 0.0,
+    "hold": false
+  },
+  "frozen_edge": {
+    "frozen_sd": 1.5,
+    "min_cols": 12,
+    "sd_ratio": 4.0,
+    "runs": [],
+    "hold": false
+  },
+  "extra_components": {
+    "max": 0,
+    "frames": 0
+  },
+  "holes": {
+    "max": 0,
+    "frames": 0
+  },
+  "iou_frame_to_frame": {
+    "p05": 0.9298,
+    "min": 0.8899
+  },
+  "sheets": {
+    "playback": [
+      12,
+      25,
+      50,
+      75,
+      100,
+      125,
+      290,
+      350,
+      355,
+      445,
+      470,
+      780
+    ],
+    "face_2x": [
+      0,
+      101,
+      202,
+      350,
+      355,
+      404,
+      606,
+      807
+    ],
+    "chair_sides": [
+      12,
+      25,
+      50,
+      580,
+      585,
+      780
+    ],
+    "hands": [
+      0,
+      290,
+      350,
+      355,
+      500,
+      780
+    ]
+  },
+  "auto_hold": [],
+  "reference_bar": "run 19's five approved mattes: soft p95/rest <= 1.41, max/rest <= 5.9 (hands), extra components <= 1 frame, IoU p05 >= 0.92. These numbers did NOT separate geo's rejected mattes from the approved ones; the sheets did. Look.",
+  "wall_s": 34.1
+}

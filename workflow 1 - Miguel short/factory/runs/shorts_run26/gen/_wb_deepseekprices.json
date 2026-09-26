@@ -1,0 +1,448 @@
+{
+ "video": "deepseekprices",
+ "format": "whiteboard",
+ "variant": "plan view (fix)",
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/projects/deepseekprices_whiteboard",
+ "handle": "@migueltorrez.ai",
+ "handle_key": "tiktok_ig",
+ "duration_s": 33.58,
+ "fps": 25,
+ "render": "1080x1920 @ zoom 1",
+ "board": "576x460 design units",
+ "board_box": [
+  40.0,
+  150.0,
+  536.0,
+  425.0
+ ],
+ "strokes": 46,
+ "rigids": 27,
+ "board_text": [
+  "V4 FLASH",
+  "2X",
+  "4X",
+  "PRICE PER TOKEN",
+  "AI EMPLOYEE"
+ ],
+ "top_ink_u": 144.9,
+ "top_band_u": 102.4,
+ "pen_top_u": 106.4,
+ "ink_bottom_px": 772.3,
+ "cap_band_top_px": 799.2,
+ "cap_clearance_px": 26.9,
+ "ink_bottom_ink_px": 757.1,
+ "cap_clearance_ink_px": 42.1,
+ "seam_pill_top_px": 805.2,
+ "cap_clearance_ink_to_pill_px": 48.1,
+ "seam_measures": "cap_clearance_px = line boxes vs the reserved band (THE GATE); cap_clearance_ink_px = glyph ink vs the same band; cap_clearance_ink_to_pill_px = glyph ink vs the pill's painted top edge (the clerk's surface)",
+ "rail_hits": [],
+ "label_law": {
+  "window_s": 1.0,
+  "key_term": "V4 FLASH",
+  "key_term_fs_u": 25.6,
+  "written": {
+   "V4 FLASH": 6.16,
+   "2X": 14.7,
+   "4X": 15.36,
+   "4X [right]": 17.42,
+   "PRICE PER TOKEN": 19.76,
+   "AI EMPLOYEE": 29.0
+  },
+  "plan": {
+   "v4": "V4 FLASH",
+   "two": "2X",
+   "four": "4X",
+   "price": "PRICE PER TOKEN",
+   "ai": "AI EMPLOYEE"
+  },
+  "comparisons": [],
+  "unplanned_text": [],
+  "verdict": "PASS"
+ },
+ "law4": {
+  "law": "4 (overlap test)",
+  "board_words_that_also_appear_as_a_pill": {}
+ },
+ "round4": {
+  "law6_lifetimes": {
+   "duration_s": 33.58,
+   "chaptered": true,
+   "max_frac": 0.4,
+   "declared_anchors": [],
+   "lingering": [],
+   "verdict": "PASS"
+  },
+  "law2_no_enclosure": {
+   "rings": 0,
+   "boxes": 0,
+   "highlights": 0,
+   "rasters": [],
+   "wrong_tool_advisory": [],
+   "verdict": "PASS"
+  },
+  "law3_label_side": {
+   "checked": 5,
+   "detail": {
+    "V4 FLASH": {
+     "host": "price-tag [left]",
+     "dx_u": 0.0,
+     "band_u": 51.1,
+     "place": "below"
+    },
+    "2X": {
+     "host": "deepseek-bar",
+     "dx_u": 0.0,
+     "band_u": 35.1,
+     "place": "above"
+    },
+    "4X": {
+     "host": "deepseek-bar",
+     "dx_u": 0.0,
+     "band_u": 35.1,
+     "place": "above"
+    },
+    "PRICE PER TOKEN": {
+     "host": "price-chart",
+     "dx_u": 0.0,
+     "band_u": 238.5,
+     "place": "below"
+    },
+    "AI EMPLOYEE": {
+     "host": "computer-badge",
+     "dx_u": 0.0,
+     "band_u": 71.9,
+     "place": "below"
+    }
+   },
+   "verdict": "PASS"
+  },
+  "law5_spacing": {
+   "gate_u": 8.5,
+   "gate_px": 15.9,
+   "aim_u": 12.8,
+   "aim_px": 24.0,
+   "measured_on": "element line boxes",
+   "under_aim": [],
+   "objects": 20,
+   "verdict": "PASS"
+  },
+  "law5_spacing_ink": {
+   "gate_u": 8.5,
+   "gate_px": 15.9,
+   "aim_u": 12.8,
+   "aim_px": 24.0,
+   "measured_on": "glyph ink extents",
+   "under_aim": [],
+   "objects": 20,
+   "verdict": "PASS"
+  },
+  "law5_no_crossing": {
+   "strokes": 46,
+   "types": 6,
+   "verdict": "PASS"
+  },
+  "law4_anchors": {
+   "targets": 0,
+   "verdict": "SKIP \u2014 no connectors declared"
+  }
+ },
+ "outro": {
+  "move": "opaque sheet rises over the board",
+  "wipe_start": 29.54,
+  "wipe_end": 30.1,
+  "travel_px": 862.5,
+  "sheet_opaque": true,
+  "sheet_covers_px": 862.5,
+  "card_ink_enters_px": 322.5,
+  "board_covered_px": 590.9,
+  "overlap_px": 268.4,
+  "board_moves": false,
+  "board_fades": false,
+  "glyph": "plain price tag, no mark",
+  "glyph_top_px": 226.0,
+  "outro_start": 29.54,
+  "verdict": "PASS"
+ },
+ "captions": 31,
+ "cap_font_px": 56.2,
+ "cap_max_pill_w_px": 751.3,
+ "cap_w_budget_px": 756.0,
+ "anchors": {
+  "start": 0.1,
+  "victim": 0.72,
+  "increasing": 3.2,
+  "demand": 3.74,
+  "v4": 6.16,
+  "increase": 9.06,
+  "prices": 9.7,
+  "seam0": 12.18,
+  "two": 14.7,
+  "four": 15.36,
+  "one": 16.92,
+  "of": 17.06,
+  "best": 17.52,
+  "price": 19.76,
+  "task": 21.28,
+  "seam1": 24.3,
+  "locally": 27.3,
+  "ai": 28.68,
+  "outro": 29.54,
+  "news": 30.36
+ },
+ "html_bytes": 146171,
+ "sfx": 17,
+ "pen_loops": 5,
+ "pen_seconds": 1.7,
+ "pen_duty_pct": 5.1,
+ "captions_law3b": {
+  "beats_before_merge": 31,
+  "beats_after_merge": 31,
+  "merges": 0,
+  "widest_pill_px": 751.3,
+  "budget_px": 756.0,
+  "beats": [
+   [
+    0.1,
+    1.2,
+    "DeepSeek is a victim"
+   ],
+   [
+    1.2,
+    2.44,
+    "of their own success."
+   ],
+   [
+    2.44,
+    3.2,
+    "Now, due to the"
+   ],
+   [
+    3.2,
+    4.52,
+    "increasing demand of one"
+   ],
+   [
+    4.52,
+    5.76,
+    "of their newest models,"
+   ],
+   [
+    5.76,
+    7.1,
+    "DeepSeek V4 Flash,"
+   ],
+   [
+    7.1,
+    9.06,
+    "they have to significantly"
+   ],
+   [
+    9.06,
+    10.46,
+    "increase their prices"
+   ],
+   [
+    10.46,
+    12.18,
+    "in the few coming weeks."
+   ],
+   [
+    12.18,
+    13.28,
+    "Now, even if they"
+   ],
+   [
+    13.28,
+    14.7,
+    "increase their prices by"
+   ],
+   [
+    14.7,
+    16.4,
+    "two to four X,"
+   ],
+   [
+    16.4,
+    17.06,
+    "this is still one"
+   ],
+   [
+    17.06,
+    18.06,
+    "of the best models"
+   ],
+   [
+    18.06,
+    18.98,
+    "that you can use"
+   ],
+   [
+    18.98,
+    20.02,
+    "in terms of price"
+   ],
+   [
+    20.02,
+    21.62,
+    "per token and price"
+   ],
+   [
+    21.62,
+    22.38,
+    "per task."
+   ],
+   [
+    22.38,
+    23.2,
+    "On top of this,"
+   ],
+   [
+    23.2,
+    24.3,
+    "you can also just"
+   ],
+   [
+    24.3,
+    25.4,
+    "buy your own machines"
+   ],
+   [
+    25.4,
+    26.08,
+    "now if you're a"
+   ],
+   [
+    26.08,
+    27.3,
+    "business and run this"
+   ],
+   [
+    27.3,
+    28.38,
+    "locally to have your"
+   ],
+   [
+    28.38,
+    29.4,
+    "own AI employee."
+   ],
+   [
+    29.4,
+    30.16,
+    "Now follow for more"
+   ],
+   [
+    30.16,
+    30.66,
+    "AI news,"
+   ],
+   [
+    30.66,
+    31.74,
+    "videos, and tutorials each"
+   ],
+   [
+    31.74,
+    32.58,
+    "and every single day,"
+   ],
+   [
+    32.58,
+    32.98,
+    "and catch you in"
+   ],
+   [
+    32.98,
+    33.5,
+    "the next one."
+   ]
+  ],
+  "law": "captions.py 3b \u2014 merge_function_only_beats over the WHOLE beat stream, then assert_no_function_only_beat inside build()"
+ },
+ "seam_law": {
+  "plan_mode": "chapters",
+  "chapters": 3,
+  "seams": [
+   12.18,
+   24.3
+  ],
+  "erase_s": 0.3,
+  "qc_seams": "12.18,24.3",
+  "handover": [
+   {
+    "seam": 12.18,
+    "incoming": "DeepSeek tile + whale + 1X bar, 12.22-12.48"
+   },
+   {
+    "seam": 24.3,
+    "incoming": "the tower case, 24.32-24.58"
+   }
+  ],
+  "outro_wipe": 29.54
+ },
+ "pointing_cues": {
+  "n": 0,
+  "cards": [],
+  "waived": []
+ },
+ "phone_test_objects": [
+  {
+   "i": 0,
+   "name": "price tag",
+   "t": 2.6,
+   "bbox_board_u": [
+    240.67,
+    150.0,
+    335.33,
+    362.0
+   ],
+   "bbox_norm": [
+    0.4178,
+    0.1465,
+    0.5822,
+    0.3535
+   ],
+   "plan_name": "DeepSeek price tag",
+   "plan_t": 2.6
+  },
+  {
+   "i": 1,
+   "name": "computer with badge",
+   "t": 29.3,
+   "bbox_board_u": [
+    224.67,
+    146.27,
+    351.33,
+    351.33
+   ],
+   "bbox_norm": [
+    0.39,
+    0.1428,
+    0.61,
+    0.3431
+   ],
+   "plan_name": "computer wearing badge",
+   "plan_t": 29.3
+  }
+ ],
+ "emphasis": [
+  {
+   "at": 9.7,
+   "until": 12.18,
+   "target": "price-tag",
+   "kind": "the tag's own outline retraced in terracotta"
+  },
+  {
+   "at": 21.28,
+   "until": 24.3,
+   "target": "deepseek-bar",
+   "kind": "the DeepSeek bar's own outline retraced in terracotta"
+  }
+ ],
+ "phone_at_args": [
+  "--phone-at",
+  "2.6:0.4178,0.1465,0.5822,0.3535:price tag",
+  "--phone-at",
+  "29.3:0.39,0.1428,0.61,0.3431:computer with badge"
+ ]
+}

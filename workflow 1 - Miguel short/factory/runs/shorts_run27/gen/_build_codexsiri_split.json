@@ -1,0 +1,1021 @@
+{
+ "video": "codexsiri",
+ "lane": "diagram build",
+ "fps": 25,
+ "duration": 36.16,
+ "seam": 862.5,
+ "formats": {
+  "split": {
+   "staged": {
+    "voice": {
+     "source": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/cuts/codexsiri/audio.m4a",
+     "sample_rate": 48000,
+     "channels": 2
+    },
+    "bed": "/Users/migle/Documents/Workspace/assets/audio/music/shorts-factory/bed_split_v2.mp3",
+    "sfx_sources": {
+     "whoosh": "/Users/migle/Documents/Workspace/assets/audio/sfx/shorts-factory/whoosh.mp3",
+     "pop": "/Users/migle/Documents/Workspace/assets/audio/sfx/shorts-factory/pop.mp3",
+     "click": "/Users/migle/Documents/Workspace/assets/audio/sfx/shorts-factory/click.mp3"
+    },
+    "face": {
+     "file": "face_bottom_hd.mp4",
+     "w": 1080,
+     "h": 1058
+    },
+    "marks": {
+     "siri": {
+      "source": "/Users/migle/Documents/Workspace/assets/logos/ai-models/siri-color.png",
+      "url": "assets/logos/siri-color.png"
+     },
+     "codex": {
+      "source": "/Users/migle/Documents/Workspace/assets/logos/coding-tools/codex-color.png",
+      "url": "assets/logos/codex-color.png"
+     },
+     "github": {
+      "source": "/Users/migle/Documents/Workspace/assets/logos/coding-tools/github-mark.png",
+      "url": "assets/logos/github-mark.png"
+     },
+     "openai": {
+      "source": "/Users/migle/Documents/Workspace/assets/logos/ai-models/openai.png",
+      "url": "assets/logos/openai.png"
+     },
+     "x-logo": {
+      "source": "/Users/migle/Documents/Workspace/assets/logos/platforms/x-logo.svg",
+      "url": "assets/logos/x-logo.svg"
+     }
+    },
+    "post": {
+     "_avatar_src": {
+      "source": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/assets/source_codexsiri/avatar_sharifshameem.jpg",
+      "url": "assets/source/avatar_sharifshameem.jpg"
+     },
+     "_post_src": {
+      "source": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/assets/source_codexsiri/video_poster.jpg",
+      "url": "assets/source/video_poster.jpg"
+     }
+    }
+   },
+   "seat": 862.5,
+   "scale": 1.0,
+   "core": {
+    "left": 0.0,
+    "top": 192.0
+   },
+   "band": {
+    "content_top": 268.0,
+    "content_bottom": 730.0,
+    "pill_top_rendered": 805.205,
+    "clear_above_pill": 75.21,
+    "clear_below_law30": 76.0
+   },
+   "rail": {
+    "readable_type_right_x": 878.4,
+    "ink_left_x": 190.0,
+    "ink_right_x": 916.0,
+    "law30_rail_x": 918.0
+   },
+   "cues": {
+    "phone": {
+     "word": 0,
+     "text": "Siri",
+     "t": 0.1
+    },
+    "slide0": {
+     "word": 1,
+     "text": "sucks,",
+     "t": 0.42
+    },
+    "hl1": {
+     "word": 15,
+     "text": "This",
+     "t": 4.12
+    },
+    "box": {
+     "word": 31,
+     "text": "so",
+     "t": 8.62
+    },
+    "move3": {
+     "word": 39,
+     "text": "took",
+     "t": 10.32
+    },
+    "gh": {
+     "word": 49,
+     "text": "GitHub",
+     "t": 13.24
+    },
+    "keygh": {
+     "word": 50,
+     "text": "repo",
+     "t": 13.6
+    },
+    "lineA": {
+     "word": 54,
+     "text": "connect",
+     "t": 15.0
+    },
+    "codex": {
+     "word": 58,
+     "text": "Codex,",
+     "t": 16.58
+    },
+    "openai": {
+     "word": 64,
+     "text": "OpenAI.",
+     "t": 18.94
+    },
+    "chargeB": {
+     "word": 66,
+     "text": "this",
+     "t": 19.92
+    },
+    "chargeA": {
+     "word": 67,
+     "text": "drastically",
+     "t": 20.28
+    },
+    "swap": {
+     "word": 68,
+     "text": "improves",
+     "t": 20.94
+    },
+    "emph": {
+     "word": 70,
+     "text": "experience",
+     "t": 21.62
+    },
+    "emphout": {
+     "word": 72,
+     "text": "Siri.",
+     "t": 22.76
+    },
+    "move4": {
+     "word": 73,
+     "text": "Now",
+     "t": 23.34
+    },
+    "bubblet": {
+     "word": 76,
+     "text": "communicate",
+     "t": 23.74
+    },
+    "clip": {
+     "word": 78,
+     "text": "actually",
+     "t": 24.58
+    },
+    "tick1": {
+     "word": 79,
+     "text": "get",
+     "t": 24.86
+    },
+    "tick2": {
+     "word": 80,
+     "text": "stuff",
+     "t": 25.4
+    },
+    "tick3": {
+     "word": 81,
+     "text": "done.",
+     "t": 25.68
+    },
+    "seam4": {
+     "word": 82,
+     "text": "This",
+     "t": 26.1
+    },
+    "slide5": {
+     "word": 85,
+     "text": "100%",
+     "t": 27.02
+    },
+    "keydesc": {
+     "word": 93,
+     "text": "description",
+     "t": 29.48
+    },
+    "arrow": {
+     "word": 94,
+     "text": "down",
+     "t": 29.88
+    },
+    "outro": {
+     "word": 101,
+     "text": "Now",
+     "t": 31.86
+    },
+    "bubbleq": {
+     "word": 1,
+     "text": "sucks,",
+     "t": 0.62,
+     "window": [
+      0.42,
+      1.7
+     ]
+    },
+    "keyterm": {
+     "word": 1,
+     "text": "sucks,",
+     "t": 0.95,
+     "window": [
+      0.42,
+      1.7
+     ]
+    },
+    "hookout": {
+     "word": 14,
+     "text": "AI.",
+     "t": 3.62,
+     "window": [
+      3.54,
+      4.74
+     ]
+    },
+    "card": {
+     "word": 14,
+     "text": "AI.",
+     "t": 3.7,
+     "window": [
+      3.54,
+      4.74
+     ]
+    },
+    "hl2": {
+     "word": 15,
+     "text": "This",
+     "t": 4.22,
+     "window": [
+      4.12,
+      5.26
+     ]
+    },
+    "cardout": {
+     "word": 26,
+     "text": "Siri",
+     "t": 7.3,
+     "window": [
+      6.98,
+      8.3
+     ]
+    },
+    "phone2": {
+     "word": 27,
+     "text": "experience",
+     "t": 7.4,
+     "window": [
+      7.36,
+      8.82
+     ]
+    },
+    "keybox": {
+     "word": 33,
+     "text": "out",
+     "t": 9.2,
+     "window": [
+      9.08,
+      10.16
+     ]
+    },
+    "seam2": {
+     "word": 38,
+     "text": "he",
+     "t": 10.3,
+     "window": [
+      10.14,
+      11.28
+     ]
+    },
+    "lineB": {
+     "word": 57,
+     "text": "to",
+     "t": 16.5,
+     "window": [
+      16.2,
+      17.32
+     ]
+    },
+    "keycodex": {
+     "word": 58,
+     "text": "Codex,",
+     "t": 16.8,
+     "window": [
+      16.58,
+      17.96
+     ]
+    },
+    "seam3": {
+     "word": 72,
+     "text": "Siri.",
+     "t": 23.3,
+     "window": [
+      22.76,
+      24.02
+     ]
+    },
+    "keydone": {
+     "word": 79,
+     "text": "get",
+     "t": 24.9,
+     "window": [
+      24.86,
+      26.02
+     ]
+    },
+    "keygh2": {
+     "word": 83,
+     "text": "repo",
+     "t": 26.4,
+     "window": [
+      26.34,
+      27.62
+     ]
+    },
+    "tag": {
+     "word": 85,
+     "text": "100%",
+     "t": 27.2,
+     "window": [
+      27.02,
+      28.78
+     ]
+    },
+    "_law43": {
+     "board_mode": "chapters",
+     "chapters": 7,
+     "erase_at": [
+      3.62,
+      7.3,
+      10.3,
+      23.3,
+      26.1,
+      31.86,
+      null
+     ]
+    }
+   },
+   "word_sync": {
+    "typed_states": [
+     {
+      "state": "key-siri",
+      "first_visible_text": "SIRI SUCKS",
+      "at": 0.95,
+      "words": "siri sucks,",
+      "window": [
+       0.1,
+       1.7
+      ]
+     },
+     {
+      "state": "key-box",
+      "first_visible_text": "OUT OF THE BOX",
+      "at": 9.2,
+      "words": "out of the box,",
+      "window": [
+       9.08,
+       10.66
+      ]
+     },
+     {
+      "state": "key-gh",
+      "first_visible_text": "GITHUB REPO",
+      "at": 13.6,
+      "words": "github repo",
+      "window": [
+       13.24,
+       14.84
+      ]
+     },
+     {
+      "state": "key-codex",
+      "first_visible_text": "CODEX",
+      "at": 16.8,
+      "words": "codex,",
+      "window": [
+       16.58,
+       17.96
+      ]
+     },
+     {
+      "state": "key-done",
+      "first_visible_text": "GET STUFF DONE",
+      "at": 24.9,
+      "words": "get stuff done.",
+      "window": [
+       24.86,
+       26.86
+      ]
+     },
+     {
+      "state": "key-gh-2",
+      "first_visible_text": "GITHUB REPO",
+      "at": 26.4,
+      "words": "this repo",
+      "window": [
+       26.1,
+       27.62
+      ]
+     },
+     {
+      "state": "tag-free",
+      "first_visible_text": "FREE",
+      "at": 27.2,
+      "words": "100% free,",
+      "window": [
+       27.02,
+       28.96
+      ]
+     },
+     {
+      "state": "key-desc",
+      "first_visible_text": "IN THE DESCRIPTION",
+      "at": 29.48,
+      "words": "in the description",
+      "window": [
+       29.28,
+       30.84
+      ]
+     }
+    ],
+    "disagreements": 0,
+    "digits_that_tick": 0,
+    "note": "FREE lands on the tag at 27.20, inside the spoken '100%' (27.02-27.78) of '100% free'; logged in the split notes"
+   },
+   "law37": {
+    "scan_cue_count": 1,
+    "plan_declared_cards": 1,
+    "prep_marker": "prep/stages/codexsiri.cues.json -> cue_count 1",
+    "cue": {
+     "i": 15,
+     "j": 16,
+     "t": 4.12,
+     "kind": "person",
+     "phrase": "this guy",
+     "word": "This",
+     "window": [
+      3.12,
+      5.12
+     ],
+     "card_hold_s": [
+      2.0,
+      4.0
+     ]
+    },
+    "answered_by": "post-card",
+    "raised_at": 3.7,
+    "held_s": 3.6,
+    "platform": "X - the post lives on X, the card wears the X mark",
+    "highlight": "one marker fill per claim line (#hl-post-1, #hl-post-2) wiped at 4.12 and 4.22",
+    "metrics_chrome": 0,
+    "instrument": "pointing_cues.scan re-run on transcript_tight.json"
+   },
+   "law39": {
+    "key-siri": {
+     "host": "phone",
+     "side": "above",
+     "text": "SIRI SUCKS",
+     "at": 0.95,
+     "gutter_core_px": 24.0,
+     "box_canvas": [
+      380.0,
+      268.0,
+      700.0,
+      326.0
+     ]
+    },
+    "key-box": {
+     "host": "box",
+     "side": "below",
+     "text": "OUT OF THE BOX",
+     "at": 9.2,
+     "gutter_core_px": 24.0,
+     "box_canvas": [
+      408.0,
+      686.0,
+      672.0,
+      730.0
+     ]
+    },
+    "key-gh": {
+     "host": "gh-tile",
+     "side": "below",
+     "text": "GITHUB REPO",
+     "at": 13.6,
+     "gutter_core_px": 24.0,
+     "box_canvas": [
+      432.0,
+      534.0,
+      648.0,
+      578.0
+     ]
+    },
+    "key-codex": {
+     "host": "codex-tile",
+     "side": "below",
+     "text": "CODEX",
+     "at": 16.8,
+     "gutter_core_px": 24.0,
+     "box_canvas": [
+      774.0,
+      534.0,
+      894.0,
+      578.0
+     ]
+    },
+    "key-done": {
+     "host": "clipboard",
+     "side": "below",
+     "text": "GET STUFF DONE",
+     "at": 24.9,
+     "gutter_core_px": 24.0,
+     "box_canvas": [
+      613.0,
+      628.0,
+      877.0,
+      672.0
+     ]
+    },
+    "key-gh-2": {
+     "host": "gh-tile-2",
+     "side": "below",
+     "text": "GITHUB REPO",
+     "at": 26.4,
+     "gutter_core_px": 24.0,
+     "box_canvas": [
+      432.0,
+      518.0,
+      648.0,
+      562.0
+     ]
+    },
+    "key-desc": {
+     "host": "arrow-down",
+     "side": "above",
+     "text": "IN THE DESCRIPTION",
+     "at": 29.48,
+     "gutter_core_px": 4.0,
+     "box_canvas": [
+      370.0,
+      586.0,
+      710.0,
+      630.0
+     ]
+    },
+    "_law50": {
+     "plain_label_font_px": 28.0,
+     "row_h": 44.0,
+     "diagram_row_y": 342.0
+    },
+    "_key_term": {
+     "text": "SIRI SUCKS",
+     "font_px": 48.0,
+     "design_units": 25.6,
+     "first_type": true
+    }
+   },
+   "law42": {
+    "board_mode": "chapters",
+    "anchors": [
+     "o-glyph",
+     "o-rule",
+     "o-sheet",
+     "o-slot"
+    ],
+    "mark_shares": {
+     "gh-tile": 0.284,
+     "codex-tile": 0.192,
+     "openai-badge": 0.127,
+     "phone-scr-codex": 0.146,
+     "gh-tile-2": 0.173
+    },
+    "phone": {
+     "windows": [
+      [
+       0.1,
+       3.82
+      ],
+      [
+       7.4,
+       26.32
+      ]
+     ],
+     "share": 0.626,
+     "note": "the drawn spine, two finite windows (LAW 42 declaration), leaves at 3.82 and 26.32"
+    }
+   },
+   "law38": {
+    "border_flips": [
+     {
+      "on": "#phone .phbody",
+      "from": 21.62,
+      "until": 22.76,
+      "declared_on": "phone",
+      "target": "phone-scr-codex"
+     }
+    ],
+    "highlights": [
+     {
+      "id": "hl-post-1",
+      "target": "post-text-1",
+      "check_at": 4.8
+     },
+     {
+      "id": "hl-post-2",
+      "target": "post-text-2",
+      "check_at": 5.0
+     }
+    ],
+    "rings_ellipses_circles": 0,
+    "dom_ink_added": 0
+   },
+   "law40": {
+    "line-a": {
+     "from": [
+      360.0,
+      262.0
+     ],
+     "to": [
+      484.0,
+      262.0
+     ],
+     "gap_px": 0.0
+    },
+    "line-b": {
+     "from": [
+      596.0,
+      262.0
+     ],
+     "to": [
+      778.0,
+      262.0
+     ],
+     "gap_px": 0.0
+    },
+    "string": {
+     "from": [
+      456.0,
+      246.0
+     ],
+     "to": [
+      543.0,
+      246.0
+     ],
+     "gap_px": 0.0
+    },
+    "verdict": "PASS"
+   },
+   "declared": {
+    "connectors_stamped": [
+     "charge-a",
+     "charge-b",
+     "line-a",
+     "line-b",
+     "tag-string"
+    ],
+    "emphases_stamped": [
+     "hl-post-1",
+     "hl-post-2",
+     "phone"
+    ],
+    "labels_declared": {
+     "tag-free": "tag",
+     "post-name": "post-card"
+    },
+    "ids_stamped": [
+     "tag-hole"
+    ]
+   },
+   "law2": {
+    "stage_marks": [
+     "codex",
+     "github",
+     "openai",
+     "siri",
+     "x-logo"
+    ],
+    "resolved": {
+     "siri": "/Users/migle/Documents/Workspace/assets/logos/ai-models/siri-color.png",
+     "codex": "/Users/migle/Documents/Workspace/assets/logos/coding-tools/codex-color.png",
+     "github": "/Users/migle/Documents/Workspace/assets/logos/coding-tools/github-mark.png",
+     "openai": "/Users/migle/Documents/Workspace/assets/logos/ai-models/openai.png",
+     "x-logo": "/Users/migle/Documents/Workspace/assets/logos/platforms/x-logo.svg"
+    },
+    "cutout_lanes_not_ours": [
+     "chatgpt",
+     "gemini",
+     "claude",
+     "perplexity",
+     "grok",
+     "meta"
+    ]
+   },
+   "law22": {
+    "events": 26,
+    "tightest_gap_s": 0.33,
+    "deliberately_silent": {
+     "slide0 0.42 / hookout 3.62 / cardout 7.30": "moves and fades under a scored neighbour",
+     "line-b 16.50": "0.08 s before the Codex pop that scores both",
+     "clipboard 24.58 / tick 'stuff' 25.40": "0.28 s from a scored tick; two ticks score the three-tick run",
+     "key GITHUB REPO 26.40 / slide 27.02 / string 27.40": "within 0.30 s of the repo pop or the tag pop",
+     "emphasis flips": "a colour flip is not an arrival"
+    }
+   },
+   "draw_on": {
+    "dash_selectors": {
+     "#arrow-down .arw": 2,
+     "#bubble-t .bline": 3,
+     "#charge-a .chg": 1,
+     "#charge-b .chg": 1,
+     "#clipboard .tick1": 1,
+     "#clipboard .tick2": 1,
+     "#clipboard .tick3": 1,
+     "#line-a .sline": 1,
+     "#line-b .sline": 1,
+     "#tag-string .sline": 1
+    },
+    "verdict": "every dash equals its path's declared length (100)"
+   },
+   "transcript": {
+    "law47_tail_s": 0.22,
+    "law47_cap_s": 0.24,
+    "law47_verdict": "PASS - 0.220s past the last word against a 0.240s cap",
+    "law46": "the scripted opening occurs ONCE inside the keeper take, at word 0 / 0.10 s",
+    "take_corroboration": {
+     "mode": "model keep_words (the agent read the transcript and chose the words; no rule detection)",
+     "keep_words": [
+      [
+       289,
+       410
+      ]
+     ],
+     "take_word_index": 289,
+     "take_start_s": 144.9,
+     "words": 122,
+     "of_raw_words": 411,
+     "corroboration": "model-authored keep ranges"
+    },
+    "words": 122,
+    "law4_joined_phrases": [
+     "Siri sucks,"
+    ],
+    "function_word_merges": 0,
+    "beats_before_merge": 34,
+    "orphan_repartitions": [],
+    "solo_word_merges": [],
+    "board_keys_forbidden_at_split": [
+     "codex",
+     "codex!",
+     "codex,",
+     "codex.",
+     "codex?",
+     "free",
+     "free!",
+     "free,",
+     "free.",
+     "free?",
+     "get stuff done",
+     "get stuff done!",
+     "get stuff done,",
+     "get stuff done.",
+     "get stuff done?",
+     "github repo",
+     "github repo!",
+     "github repo,",
+     "github repo.",
+     "github repo?",
+     "in the description",
+     "in the description!",
+     "in the description,",
+     "in the description.",
+     "in the description?",
+     "out of the box",
+     "out of the box!",
+     "out of the box,",
+     "out of the box.",
+     "out of the box?",
+     "siri sucks",
+     "siri sucks!",
+     "siri sucks,",
+     "siri sucks.",
+     "siri sucks?"
+    ]
+   },
+   "phone_objects": [
+    {
+     "name": "phone with Siri",
+     "t": 1.6,
+     "bbox": [
+      0.338,
+      0.1823,
+      0.662,
+      0.3385
+     ],
+     "canvas": [
+      365.0,
+      350.0,
+      715.0,
+      650.0
+     ]
+    },
+    {
+     "name": "phone in box",
+     "t": 9.9,
+     "bbox": [
+      0.3519,
+      0.1583,
+      0.6481,
+      0.3448
+     ],
+     "canvas": [
+      380.0,
+      304.0,
+      700.0,
+      662.0
+     ]
+    },
+    {
+     "name": "clipboard with checkmarks",
+     "t": 26.02,
+     "bbox": [
+      0.6157,
+      0.2052,
+      0.7639,
+      0.3146
+     ],
+     "canvas": [
+      665.0,
+      394.0,
+      825.0,
+      604.0
+     ]
+    },
+    {
+     "name": "free price tag",
+     "t": 28.5,
+     "bbox": [
+      0.4222,
+      0.1969,
+      0.6815,
+      0.2594
+     ],
+     "canvas": [
+      456.0,
+      378.0,
+      736.0,
+      498.0
+     ]
+    }
+   ],
+   "render": {
+    "w": 1080,
+    "h": 1920,
+    "zoom": 1
+   },
+   "handle": "@migueltorrezai",
+   "captions": {
+    "n": 34,
+    "widest_px": 745.9,
+    "beats": [
+     [
+      "Siri sucks, so here's",
+      0.1
+     ],
+     [
+      "how you can make",
+      1.36
+     ],
+     [
+      "it 100 times better",
+      1.8
+     ],
+     [
+      "thanks to AI.",
+      3.14
+     ],
+     [
+      "This guy did exactly that.",
+      4.12
+     ],
+     [
+      "He was so frustrated",
+      5.54
+     ],
+     [
+      "with the Siri experience",
+      6.62
+     ],
+     [
+      "that was just so",
+      7.86
+     ],
+     [
+      "bad out of the box,",
+      8.86
+     ],
+     [
+      "that he took matter",
+      10.02
+     ],
+     [
+      "into his own hands",
+      10.84
+     ],
+     [
+      "and created this",
+      12.14
+     ],
+     [
+      "free GitHub repo",
+      12.94
+     ],
+     [
+      "that manages to",
+      14.26
+     ],
+     [
+      "connect his Siri",
+      15.0
+     ],
+     [
+      "to Codex, the",
+      16.2
+     ],
+     [
+      "coding assistant",
+      17.32
+     ],
+     [
+      "made by OpenAI.",
+      18.24
+     ],
+     [
+      "Now, this drastically",
+      19.6
+     ],
+     [
+      "improves his",
+      20.94
+     ],
+     [
+      "experience with Siri.",
+      21.62
+     ],
+     [
+      "Now he can communicate",
+      23.34
+     ],
+     [
+      "and actually get",
+      24.34
+     ],
+     [
+      "stuff done.",
+      25.4
+     ],
+     [
+      "This repo is 100% free,",
+      26.1
+     ],
+     [
+      "and it's also linked in the",
+      28.26
+     ],
+     [
+      "description down below",
+      29.48
+     ],
+     [
+      "if you ever need it.",
+      30.62
+     ],
+     [
+      "Now follow for more",
+      31.86
+     ],
+     [
+      "AI news, videos, and",
+      32.6
+     ],
+     [
+      "tutorials each and",
+      33.62
+     ],
+     [
+      "every single day,",
+      34.32
+     ],
+     [
+      "and catch you",
+      35.16
+     ],
+     [
+      "in the next one.",
+      35.5
+     ]
+    ],
+    "min_aspect": 3.09
+   }
+  }
+ }
+}

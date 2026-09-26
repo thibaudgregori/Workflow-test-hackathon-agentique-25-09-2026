@@ -1,0 +1,14 @@
+{
+  "status": "ok",
+  "ship": "ok",
+  "selection_changed": false,
+  "edits": 0,
+  "rounds": 1,
+  "what_you_saw": "Viewed the clean frame, full selection overlay and head overlay. The audit box x662-827 y279-490 overlaps the viewer-right cheek, beard and jaw; the selected region is body, not chair. Re-approved the unchanged contour as codex-astra and cleared the prior chair ledger as instructed. The prescribed MatAnyone command regenerated the same false-positive REFUSED audit, so used the prescribed SAM2 fallback fb1 with the same reviewed mask and no chair object. Viewed all four fresh sheets: playback shows a clean, opaque presenter at normal viewing size; face_2x preserves both ears, cheeks, jaw, cap brim and chin through the first and last samples; chair_sides shows no chair wing, grey wedge or neck splash; hands shows intact hands with acceptable fast-motion blur. The ragged outer hand edge at frame 610 is outside the delivered crop, confirmed by source/composite comparisons at frames 600, 605, 609, 610, 611, 615, 620 and 625 using the actual x153:1233 visible window. No viewer-visible hold defect was found. SAM2 shipped all 839 frames, minimum headroom is 45.1 px, and all three installed WebM hashes match ship_v5.json. Split and whiteboard were not rebuilt or rendered.",
+  "hold_reason": "",
+  "outputs": [
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/matting/deepseekprices/matte_deepseekprices_v5_cut.webm",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/matting/deepseekprices/matte_deepseekprices_v5_rim.webm",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/matting/deepseekprices/matte_deepseekprices_v5_alpha.webm"
+  ]
+}

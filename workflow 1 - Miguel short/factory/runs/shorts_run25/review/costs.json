@@ -1,0 +1,120 @@
+{
+ "run": "shorts_run25",
+ "run_dir": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25",
+ "ledger": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/costs.jsonl",
+ "rows": 34,
+ "total_usd": 0.747772,
+ "by_service": {
+  "modal": 0.66795,
+  "gemini": 0.0,
+  "elevenlabs": 0.079822,
+  "other": 0.0
+ },
+ "by_stage": {
+  "scribe": 0.079822,
+  "sweep": 0.1629,
+  "track": 0.068954,
+  "ship": 0.243296,
+  "render": 0.1928
+ },
+ "by_video": {
+  "claudeconcise": {
+   "modal": 0.227032,
+   "gemini": 0.0,
+   "elevenlabs": 0.009977,
+   "other": 0.0,
+   "total": 0.237009,
+   "rows": 9,
+   "stages": {
+    "scribe": 0.009977,
+    "track": 0.025154,
+    "ship": 0.094078,
+    "sweep": 0.0542,
+    "render": 0.0536
+   }
+  },
+  "grokimagine2": {
+   "modal": 0.0938,
+   "gemini": 0.0,
+   "elevenlabs": 0.003589,
+   "other": 0.0,
+   "total": 0.097389,
+   "rows": 5,
+   "stages": {
+    "render": 0.0554,
+    "sweep": 0.0384,
+    "scribe": 0.003589
+   }
+  },
+  "nextslide": {
+   "modal": 0.184154,
+   "gemini": 0.0,
+   "elevenlabs": 0.003688,
+   "other": 0.0,
+   "total": 0.187842,
+   "rows": 8,
+   "stages": {
+    "track": 0.022904,
+    "ship": 0.07675,
+    "sweep": 0.0388,
+    "scribe": 0.003688,
+    "render": 0.0457
+   }
+  },
+  "transcripts": {
+   "modal": 0.0,
+   "gemini": 0.0,
+   "elevenlabs": 0.059647,
+   "other": 0.0,
+   "total": 0.059647,
+   "rows": 4,
+   "stages": {
+    "scribe": 0.059647
+   }
+  },
+  "warpgrok": {
+   "modal": 0.162964,
+   "gemini": 0.0,
+   "elevenlabs": 0.002921,
+   "other": 0.0,
+   "total": 0.165885,
+   "rows": 8,
+   "stages": {
+    "track": 0.020896,
+    "ship": 0.072468,
+    "sweep": 0.0315,
+    "scribe": 0.002921,
+    "render": 0.0381
+   }
+  }
+ },
+ "by_format": {
+  "cutout": 0.0929,
+  "split": 0.0476,
+  "whiteboard": 0.0523
+ },
+ "staged_shorts": 12,
+ "staged_files": [
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/staging/reels/claudeconcise_whiteboard.mp4",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/staging/reels/grokimagine2_whiteboard.mp4",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/staging/reels/nextslide_whiteboard.mp4",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/staging/reels/warpgrok_whiteboard.mp4",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/staging/tiktok/claudeconcise_cutout.mp4",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/staging/tiktok/grokimagine2_cutout.mp4",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/staging/tiktok/nextslide_cutout.mp4",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/staging/tiktok/warpgrok_cutout.mp4",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/staging/youtube/claudeconcise_split.mp4",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/staging/youtube/grokimagine2_split.mp4",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/staging/youtube/nextslide_split.mp4",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/staging/youtube/warpgrok_split.mp4"
+ ],
+ "usd_per_delivered_short": 0.062314,
+ "stages_never_recorded": [
+  "draft",
+  "watch",
+  "gate3",
+  "verify",
+  "clerk_watch"
+ ],
+ "scribe_rate_note": "estimate at $0.40/audio-hour (ElevenLabs Scribe list rate, tools/elevenlabs.md; the API returns no cost, so this is not measured)"
+}

@@ -1,0 +1,107 @@
+{
+ "label": "stripekai_split",
+ "video": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/stripekai_split.mp4",
+ "phone_scale": "405x720",
+ "sheet": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/phone_stripekai_split.png",
+ "rule": "a FRESH judge (never read the plan) names each crop in <=3 words. Wrong name, hedge, or 'cannot tell' = the object is redesigned, not annotated.",
+ "answer_key": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/phone_stripekai_split.key.json",
+ "answer_key_rule": "DO NOT OPEN the answer key until every judge_answer below is filled in. Reading it first voids the Phone Test.",
+ "objects": [
+  {
+   "i": 0,
+   "t": 3.0,
+   "bbox_norm": [
+    0.3333,
+    0.1573,
+    0.6667,
+    0.3135
+   ],
+   "phone_box_px": [
+    134,
+    113,
+    270,
+    225
+   ],
+   "phone_size_px": [
+    136,
+    112
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/phone_stripekai_split/00.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  },
+  {
+   "i": 1,
+   "t": 16.4,
+   "bbox_norm": [
+    0.1713,
+    0.1896,
+    0.8287,
+    0.3281
+   ],
+   "phone_box_px": [
+    69,
+    136,
+    335,
+    236
+   ],
+   "phone_size_px": [
+    266,
+    100
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/phone_stripekai_split/01.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  },
+  {
+   "i": 2,
+   "t": 23.8,
+   "bbox_norm": [
+    0.2454,
+    0.1479,
+    0.7546,
+    0.3188
+   ],
+   "phone_box_px": [
+    99,
+    106,
+    305,
+    229
+   ],
+   "phone_size_px": [
+    206,
+    123
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/phone_stripekai_split/02.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  },
+  {
+   "i": 3,
+   "t": 30.2,
+   "bbox_norm": [
+    0.2917,
+    0.1599,
+    0.7083,
+    0.3427
+   ],
+   "phone_box_px": [
+    118,
+    115,
+    286,
+    246
+   ],
+   "phone_size_px": [
+    168,
+    131
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/phone_stripekai_split/03.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  }
+ ]
+}

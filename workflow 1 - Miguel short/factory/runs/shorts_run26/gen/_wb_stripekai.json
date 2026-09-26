@@ -1,0 +1,576 @@
+{
+ "video": "stripekai",
+ "format": "whiteboard",
+ "variant": "plan view (fix)",
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/projects/stripekai_whiteboard",
+ "handle": "@migueltorrez.ai",
+ "handle_key": "tiktok_ig",
+ "duration_s": 35.82,
+ "fps": 25,
+ "render": "1080x1920 @ zoom 1",
+ "board": "576x460 design units",
+ "board_box": [
+  40.0,
+  150.0,
+  536.0,
+  425.0
+ ],
+ "strokes": 92,
+ "rigids": 25,
+ "board_text": [
+  "KAI",
+  "1,000",
+  "SKILLS",
+  "500",
+  "INTERNAL TOOLS",
+  "1 WEEK",
+  "83%",
+  "OF THE WORKFORCE",
+  "ORGANIZATIONS",
+  "150+ SKILLS"
+ ],
+ "top_ink_u": 146.0,
+ "top_band_u": 102.4,
+ "pen_top_u": 110.6,
+ "ink_bottom_px": 735.4,
+ "cap_band_top_px": 799.2,
+ "cap_clearance_px": 63.8,
+ "ink_bottom_ink_px": 721.1,
+ "cap_clearance_ink_px": 78.1,
+ "seam_pill_top_px": 805.2,
+ "cap_clearance_ink_to_pill_px": 84.1,
+ "seam_measures": "cap_clearance_px = line boxes vs the reserved band (THE GATE); cap_clearance_ink_px = glyph ink vs the same band; cap_clearance_ink_to_pill_px = glyph ink vs the pill's painted top edge (the clerk's surface)",
+ "rail_hits": [],
+ "label_law": {
+  "window_s": 1.0,
+  "key_term": "KAI",
+  "key_term_fs_u": 30.0,
+  "written": {
+   "KAI": 4.14,
+   "1,000": 7.1,
+   "SKILLS": 7.6,
+   "500": 8.72,
+   "INTERNAL TOOLS": 9.58,
+   "1 WEEK": 13.2,
+   "83%": 15.34,
+   "OF THE WORKFORCE": 16.7,
+   "ORGANIZATIONS": 23.4,
+   "150+ SKILLS": 29.18
+  },
+  "plan": {
+   "kai": "KAI",
+   "week": "1 WEEK",
+   "k83": "83%",
+   "workforce": "OF THE WORKFORCE",
+   "orgs": "ORGANIZATIONS",
+   "skills2": "150+ SKILLS"
+  },
+  "comparisons": [],
+  "unplanned_text": [],
+  "verdict": "PASS"
+ },
+ "law4": {
+  "law": "4 (overlap test)",
+  "board_words_that_also_appear_as_a_pill": {}
+ },
+ "round4": {
+  "law6_lifetimes": {
+   "duration_s": 35.82,
+   "chaptered": true,
+   "max_frac": 0.4,
+   "declared_anchors": [],
+   "lingering": [],
+   "verdict": "PASS"
+  },
+  "law2_no_enclosure": {
+   "rings": 0,
+   "boxes": 0,
+   "highlights": 0,
+   "rasters": [],
+   "wrong_tool_advisory": [],
+   "verdict": "PASS"
+  },
+  "law3_label_side": {
+   "checked": 6,
+   "detail": {
+    "KAI": {
+     "host": "toolbox",
+     "dx_u": 0.0,
+     "band_u": 117.9,
+     "place": "below"
+    },
+    "1 WEEK": {
+     "host": "week-strip",
+     "dx_u": 0.0,
+     "band_u": 176.1,
+     "place": "below"
+    },
+    "83%": {
+     "host": "crowd",
+     "dx_u": 0.0,
+     "band_u": 242.9,
+     "place": "above"
+    },
+    "OF THE WORKFORCE": {
+     "host": "crowd",
+     "dx_u": 0.0,
+     "band_u": 242.9,
+     "place": "below"
+    },
+    "ORGANIZATIONS": {
+     "host": "buildings",
+     "dx_u": 0.0,
+     "band_u": 187.9,
+     "place": "below"
+    },
+    "150+ SKILLS": {
+     "host": "overflow",
+     "dx_u": 0.9,
+     "band_u": 152.2,
+     "place": "below"
+    }
+   },
+   "verdict": "PASS"
+  },
+  "law5_spacing": {
+   "gate_u": 8.5,
+   "gate_px": 15.9,
+   "aim_u": 12.8,
+   "aim_px": 24.0,
+   "measured_on": "element line boxes",
+   "under_aim": [],
+   "objects": 23,
+   "verdict": "PASS"
+  },
+  "law5_spacing_ink": {
+   "gate_u": 8.5,
+   "gate_px": 15.9,
+   "aim_u": 12.8,
+   "aim_px": 24.0,
+   "measured_on": "glyph ink extents",
+   "under_aim": [],
+   "objects": 23,
+   "verdict": "PASS"
+  },
+  "law5_no_crossing": {
+   "strokes": 92,
+   "types": 10,
+   "verdict": "PASS"
+  },
+  "law4_anchors": {
+   "targets": 1,
+   "detail": {
+    "toolbox-seat1": {
+     "n": 1,
+     "spread_u": 0.0,
+     "level": true,
+     "mirrored": false,
+     "on_rect": true
+    }
+   },
+   "verdict": "PASS"
+  }
+ },
+ "outro": {
+  "move": "opaque sheet rises over the board",
+  "wipe_start": 31.82,
+  "wipe_end": 32.38,
+  "travel_px": 862.5,
+  "sheet_opaque": true,
+  "sheet_covers_px": 862.5,
+  "card_ink_enters_px": 322.5,
+  "board_covered_px": 588.8,
+  "overlap_px": 266.2,
+  "board_moves": false,
+  "board_fades": false,
+  "outro_start": 31.82,
+  "verdict": "PASS"
+ },
+ "captions": 35,
+ "cap_font_px": 56.2,
+ "cap_max_pill_w_px": 754.0,
+ "cap_w_budget_px": 756.0,
+ "anchors": {
+  "start": 0.1,
+  "revealed": 0.56,
+  "kai": 4.14,
+  "k1000": 7.1,
+  "skills": 7.6,
+  "k500": 8.72,
+  "tools": 9.58,
+  "seam0": 10.1,
+  "one": 10.76,
+  "built": 12.22,
+  "week": 13.2,
+  "seam1": 13.72,
+  "k83": 15.34,
+  "workforce": 16.7,
+  "seam2": 20.56,
+  "ai": 22.54,
+  "orgs": 23.4,
+  "seam3": 24.4,
+  "loading": 27.72,
+  "k150": 28.48,
+  "skills2": 29.18,
+  "everyone": 30.0,
+  "outro": 31.82,
+  "news": 32.74
+ },
+ "html_bytes": 258764,
+ "sfx": 21,
+ "pen_loops": 8,
+ "pen_seconds": 2.72,
+ "pen_duty_pct": 7.6,
+ "captions_law3b": {
+  "beats_before_merge": 36,
+  "beats_after_merge": 35,
+  "merges": 1,
+  "widest_pill_px": 754.0,
+  "budget_px": 756.0,
+  "beats": [
+   [
+    0.1,
+    1.12,
+    "Stripe just revealed their"
+   ],
+   [
+    1.12,
+    1.94,
+    "secrets on how they're"
+   ],
+   [
+    1.94,
+    2.9,
+    "using AI inside of"
+   ],
+   [
+    2.9,
+    3.68,
+    "their company."
+   ],
+   [
+    3.68,
+    4.78,
+    "It's called Kai."
+   ],
+   [
+    4.78,
+    6.0,
+    "It's a centralized platform"
+   ],
+   [
+    6.0,
+    7.1,
+    "that has over"
+   ],
+   [
+    7.1,
+    8.72,
+    "1,000 skills and"
+   ],
+   [
+    8.72,
+    9.58,
+    "500 internal"
+   ],
+   [
+    9.58,
+    10.76,
+    "tools. Literally,"
+   ],
+   [
+    10.76,
+    12.22,
+    "one single guy"
+   ],
+   [
+    12.22,
+    13.2,
+    "built this in a"
+   ],
+   [
+    13.2,
+    14.26,
+    "week and is now"
+   ],
+   [
+    14.26,
+    15.34,
+    "being used by over"
+   ],
+   [
+    15.34,
+    17.36,
+    "83% of the workforce"
+   ],
+   [
+    17.36,
+    18.36,
+    "inside of Stripe."
+   ],
+   [
+    18.36,
+    19.02,
+    "Now, it's always"
+   ],
+   [
+    19.02,
+    19.58,
+    "extremely"
+   ],
+   [
+    19.58,
+    20.82,
+    "interesting to see how"
+   ],
+   [
+    20.82,
+    22.04,
+    "other people are learning"
+   ],
+   [
+    22.04,
+    23.12,
+    "how to use AI inside"
+   ],
+   [
+    23.12,
+    24.4,
+    "of their organizations."
+   ],
+   [
+    24.4,
+    25.16,
+    "They even tell us"
+   ],
+   [
+    25.16,
+    26.06,
+    "that they still have"
+   ],
+   [
+    26.06,
+    27.12,
+    "a bit of problems"
+   ],
+   [
+    27.12,
+    28.08,
+    "when they start loading"
+   ],
+   [
+    28.08,
+    29.72,
+    "over 150 skills,"
+   ],
+   [
+    29.72,
+    30.9,
+    "but everyone is learning"
+   ],
+   [
+    30.9,
+    31.82,
+    "as we go along."
+   ],
+   [
+    31.82,
+    32.54,
+    "Now, follow for more"
+   ],
+   [
+    32.54,
+    32.98,
+    "AI news,"
+   ],
+   [
+    32.98,
+    34.0,
+    "videos, and tutorials each"
+   ],
+   [
+    34.0,
+    34.86,
+    "and every single day,"
+   ],
+   [
+    34.86,
+    35.24,
+    "and catch you in"
+   ],
+   [
+    35.24,
+    35.74,
+    "the next one."
+   ]
+  ],
+  "law": "captions.py 3b \u2014 merge_function_only_beats over the WHOLE beat stream, then assert_no_function_only_beat inside build()"
+ },
+ "seam_law": {
+  "plan_mode": "chapters",
+  "chapters": 5,
+  "seams": [
+   10.1,
+   13.72,
+   20.56,
+   24.4
+  ],
+  "erase_s": 0.3,
+  "qc_seams": "10.1,13.72,20.56,24.4",
+  "handover": [
+   {
+    "seam": 10.1,
+    "incoming": "the toolbox carries across and slides right"
+   },
+   {
+    "seam": 13.72,
+    "incoming": "the person carries across into seat 0"
+   },
+   {
+    "seam": 20.56,
+    "incoming": "the buildings draw inside the erase"
+   },
+   {
+    "seam": 24.4,
+    "incoming": "the toolbox draws inside the erase"
+   }
+  ],
+  "outro_wipe": 31.82
+ },
+ "pointing_cues": {
+  "n": 0,
+  "cards": [],
+  "waived": []
+ },
+ "phone_test_objects": [
+  {
+   "i": 0,
+   "name": "open toolbox",
+   "t": 3.0,
+   "bbox_board_u": [
+    191.33,
+    157.2,
+    384.67,
+    321.73
+   ],
+   "bbox_norm": [
+    0.3322,
+    0.1535,
+    0.6678,
+    0.3142
+   ],
+   "plan_name": "an open toolbox",
+   "plan_bbox": [
+    0.3333,
+    0.1573,
+    0.6667,
+    0.3135
+   ],
+   "plan_t": 3.0
+  },
+  {
+   "i": 1,
+   "name": "group of people",
+   "t": 16.4,
+   "bbox_board_u": [
+    97.15,
+    193.25,
+    478.85,
+    340.08
+   ],
+   "bbox_norm": [
+    0.1687,
+    0.1887,
+    0.8313,
+    0.3321
+   ],
+   "plan_name": "a group of people",
+   "plan_bbox": [
+    0.1713,
+    0.1896,
+    0.8287,
+    0.3281
+   ],
+   "plan_t": 16.4
+  },
+  {
+   "i": 2,
+   "name": "office buildings",
+   "t": 23.8,
+   "bbox_board_u": [
+    137.47,
+    176.4,
+    438.53,
+    330.27
+   ],
+   "bbox_norm": [
+    0.2387,
+    0.1723,
+    0.7613,
+    0.3225
+   ],
+   "plan_name": "three office buildings",
+   "plan_bbox": [
+    0.2454,
+    0.1479,
+    0.7546,
+    0.3188
+   ],
+   "plan_t": 23.8
+  },
+  {
+   "i": 3,
+   "name": "overflowing toolbox",
+   "t": 30.2,
+   "bbox_board_u": [
+    164.09,
+    180.66,
+    410.21,
+    358.06
+   ],
+   "bbox_norm": [
+    0.2849,
+    0.1764,
+    0.7122,
+    0.3497
+   ],
+   "plan_name": "an overflowing toolbox",
+   "plan_bbox": [
+    0.2917,
+    0.1599,
+    0.7083,
+    0.3427
+   ],
+   "plan_t": 30.2
+  }
+ ],
+ "emphasis": [
+  {
+   "at": 28.48,
+   "until": 30.0,
+   "target": "toolbox-2",
+   "kind": "the toolbox body's own outline retraced in terracotta"
+  }
+ ],
+ "connector": {
+  "start": [
+   232.9066666666667,
+   246.4
+  ],
+  "end": [
+   284.8,
+   246.4
+  ],
+  "frac": 0.7727272727272728
+ },
+ "phone_at_args": [
+  "--phone-at",
+  "3.0:0.3322,0.1535,0.6678,0.3142:open toolbox",
+  "--phone-at",
+  "16.4:0.1687,0.1887,0.8313,0.3321:group of people",
+  "--phone-at",
+  "23.8:0.2387,0.1723,0.7613,0.3225:office buildings",
+  "--phone-at",
+  "30.2:0.2849,0.1764,0.7122,0.3497:overflowing toolbox"
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "run": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26",
+ "out_dir": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output",
+ "jobs": [
+  {
+   "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/projects/stripekai_cutout",
+   "vid": "stripekai",
+   "fmt": "cutout",
+   "quality": "high",
+   "stage": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/staging/tiktok/stripekai_cutout.mp4",
+   "qc_args": [
+    "--voice-master",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/cuts/stripekai/audio.m4a",
+    "--phone-at",
+    "3.0:0.3333,0.1573,0.6667,0.3135:an open toolbox",
+    "--phone-at",
+    "16.4:0.1713,0.1896,0.8287,0.3281:a group of people",
+    "--phone-at",
+    "23.8:0.2454,0.1458,0.7546,0.3187:three office buildings",
+    "--phone-at",
+    "30.2:0.2833,0.1672,0.7167,0.3453:an overflowing toolbox",
+    "--alpha",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/matting/stripekai/matte_stripekai_v5_alpha.webm",
+    "--edge-box",
+    "1386x990+-202+930",
+    "--plate",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/matting/stripekai/plate_display_1386x990.mp4"
+   ]
+  }
+ ]
+}

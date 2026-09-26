@@ -1,0 +1,26 @@
+{
+ "id": "hermesbrowser",
+ "stage": "ship",
+ "status": "ok",
+ "wall_s": 30.9,
+ "at": "2026-09-23T15:59:24",
+ "keys": {
+  "status": "ok",
+  "backend": "sam2",
+  "alpha_mode": "sam2",
+  "temporal": 1,
+  "rim_px": 7,
+  "frames": 662,
+  "width": 1584,
+  "height": 990,
+  "fps": 25,
+  "fallback": "sam2_nochair_temporal1:fb1",
+  "prompt_mask_sha256": "6717aea17be50c39a8502f33c3df3b3b9e0a2c2e78f92b80f34bae803f3ea64b",
+  "fractional_alpha_pixels": 7212594,
+  "minimum_person_fraction": 0.36690452504846444,
+  "review_status": "needs_final_visual_review",
+  "cut_sha256": "d63d4c0f856f2342b50984a98bf1f6bc1bda8c99c09159b56520fd60fbbbc385",
+  "rim_sha256": "1cfb58c7868bfe90da49320072e0c4f6dbf8d00f652e5c67f3b3f6e853df7d1c",
+  "alpha_sha256": "537819f0025c8ccacf81083395fe29e23b2730b21903720e2f1e852869cd8d8d"
+ }
+}

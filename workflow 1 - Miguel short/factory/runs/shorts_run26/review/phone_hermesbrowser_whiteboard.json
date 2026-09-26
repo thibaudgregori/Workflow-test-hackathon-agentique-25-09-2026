@@ -1,0 +1,83 @@
+{
+ "label": "hermesbrowser_whiteboard",
+ "video": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/hermesbrowser_whiteboard.mp4",
+ "phone_scale": "405x720",
+ "sheet": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/phone_hermesbrowser_whiteboard.png",
+ "rule": "a FRESH judge (never read the plan) names each crop in <=3 words. Wrong name, hedge, or 'cannot tell' = the object is redesigned, not annotated.",
+ "answer_key": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/phone_hermesbrowser_whiteboard.key.json",
+ "answer_key_rule": "DO NOT OPEN the answer key until every judge_answer below is filled in. Reading it first voids the Phone Test.",
+ "objects": [
+  {
+   "i": 0,
+   "t": 8.4,
+   "bbox_norm": [
+    0.1458,
+    0.2832,
+    0.3576,
+    0.3809
+   ],
+   "phone_box_px": [
+    59,
+    203,
+    144,
+    274
+   ],
+   "phone_size_px": [
+    85,
+    71
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/phone_hermesbrowser_whiteboard/00.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  },
+  {
+   "i": 1,
+   "t": 9.3,
+   "bbox_norm": [
+    0.3941,
+    0.2832,
+    0.6059,
+    0.3809
+   ],
+   "phone_box_px": [
+    159,
+    203,
+    245,
+    274
+   ],
+   "phone_size_px": [
+    86,
+    71
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/phone_hermesbrowser_whiteboard/01.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  },
+  {
+   "i": 2,
+   "t": 10.4,
+   "bbox_norm": [
+    0.6424,
+    0.2832,
+    0.8542,
+    0.3809
+   ],
+   "phone_box_px": [
+    260,
+    203,
+    345,
+    274
+   ],
+   "phone_size_px": [
+    85,
+    71
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/phone_hermesbrowser_whiteboard/02.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  }
+ ]
+}

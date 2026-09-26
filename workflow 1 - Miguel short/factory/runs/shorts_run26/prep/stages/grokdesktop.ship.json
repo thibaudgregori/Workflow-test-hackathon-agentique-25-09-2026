@@ -1,0 +1,26 @@
+{
+ "id": "grokdesktop",
+ "stage": "ship",
+ "status": "ok",
+ "wall_s": 153.8,
+ "at": "2026-09-23T14:12:11",
+ "keys": {
+  "status": "ok",
+  "backend": "sam2",
+  "alpha_mode": "sam2",
+  "temporal": 1,
+  "rim_px": 7,
+  "frames": 869,
+  "width": 1386,
+  "height": 990,
+  "fps": 25,
+  "fallback": "sam2_nochair_temporal1:fb1",
+  "prompt_mask_sha256": "5725320faa6014287df3c7a3e2251d91bf2f46094187e4bd88648e2ceeeb9282",
+  "fractional_alpha_pixels": 9448183,
+  "minimum_person_fraction": 0.4048479018175988,
+  "review_status": "needs_final_visual_review",
+  "cut_sha256": "380e5adf51c0599402099f4de4eeb7df7a1be6693f0718552b2352dd7e6e0051",
+  "rim_sha256": "c46eaef9980607eaaed626ab6bbf197b9e63400c327055d996b59817f0703231",
+  "alpha_sha256": "a8658d12a03b55eb2477879ad74c95755d96e7177e565183b3bebcaba25c79cc"
+ }
+}

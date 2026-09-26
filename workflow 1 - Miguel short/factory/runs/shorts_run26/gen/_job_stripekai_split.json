@@ -1,0 +1,19 @@
+{
+  "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/projects/stripekai_split",
+  "vid": "stripekai",
+  "fmt": "split",
+  "quality": "high",
+  "stage": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/staging/youtube/stripekai_split.mp4",
+  "qc_args": [
+    "--voice-master",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/cuts/stripekai/audio.m4a",
+    "--phone-at",
+    "3.0:0.3333,0.1573,0.6667,0.3135:an open toolbox",
+    "--phone-at",
+    "16.4:0.1713,0.1896,0.8287,0.3281:a group of people",
+    "--phone-at",
+    "23.8:0.2454,0.1479,0.7546,0.3188:three office buildings",
+    "--phone-at",
+    "30.2:0.2917,0.1599,0.7083,0.3427:an overflowing toolbox"
+  ]
+}

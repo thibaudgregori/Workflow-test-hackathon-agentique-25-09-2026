@@ -1,0 +1,27 @@
+{
+ "verdict": "PASS",
+ "plan_json": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/plans/claudeconcise_plan.json",
+ "plan_md": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/plans/claudeconcise_plan.md",
+ "lane": "diagram build",
+ "lane_reason": "The script is one input-output chain told twice (a simple ask goes into Claude Code and a three-page scroll comes out; then a dial set to CONCISE goes in and the scroll is cut short), so a left-to-right diagram with the Claude Code mascot in the middle IS the argument, and intake's 'diagram build' fits it.",
+ "beats": 7,
+ "bespoke_names": [
+  "jargon speech bubble",
+  "long paper scroll",
+  "style selector dial",
+  "scissors cut scroll"
+ ],
+ "cues": "pointing_cues.py --vid claudeconcise: no pointing cue in this take (0 cues); nothing answered, nothing waived",
+ "board_mode": "chapters",
+ "open_questions": [
+  "Stage markers at plan time: cut ok (41.774 s master, wall 37.8 s), plate ok (over-wide, crop 2360x1800+636+264, head 451.4 px), prompt0 ok with wing_review true (the instrument proposed no cut; the cutout author / Astra matte step owns the look at kf_overlay_00000.png), selection ok (chair audit clean, leak 2272 px), track ok (MatAnyone 2, $0.025), ship ok (1044 frames, minimum person fraction 0.441, fractional alpha pixels 21,592,682, $0.047, review_status needs_final_visual_review), cues ok (0 cues).",
+  "The mascot appears in three windows (chapter 0 centre, chapter 1 right, chapter 2 centre) as three elements; each is a fresh pop, never a slide across chapters.",
+  "The dial carries only ONE printed position word (CONCISE); the left tick is unlabelled because the script never names the old mode."
+ ],
+ "open_doubts": [],
+ "scene_handoff": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/plans/claudeconcise_scene_handoff.md",
+ "scene_module": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/gen/claudeconcise_scene.py",
+ "sealed": true,
+ "proofs": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/review/proof_claudeconcise",
+ "reason": ""
+}

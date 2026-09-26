@@ -1,0 +1,145 @@
+{
+ "crops": [
+  {
+   "i": 0,
+   "name": "DeepSeek price tag",
+   "t": 2.6,
+   "core_box": [
+    440.0,
+    96.0,
+    640.0,
+    472.0
+   ],
+   "phone_box_px": [
+    165,
+    108,
+    240,
+    249
+   ],
+   "phone_size_px": [
+    75,
+    141
+   ],
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/proof_deepseekprices/00.png"
+  },
+  {
+   "i": 1,
+   "name": "computer wearing badge",
+   "t": 29.3,
+   "core_box": [
+    430.0,
+    104.0,
+    650.0,
+    454.0
+   ],
+   "phone_box_px": [
+    161,
+    111,
+    244,
+    242
+   ],
+   "phone_size_px": [
+    83,
+    131
+   ],
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/proof_deepseekprices/01.png"
+  }
+ ],
+ "frames": [
+  {
+   "name": "hook_alone",
+   "t": 0.6,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/proof_deepseekprices/frame_hook_alone.png"
+  },
+  {
+   "name": "hook_held",
+   "t": 2.6,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/proof_deepseekprices/frame_hook_held.png"
+  },
+  {
+   "name": "gauge_high",
+   "t": 5.0,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/proof_deepseekprices/frame_gauge_high.png"
+  },
+  {
+   "name": "keyterm",
+   "t": 7.2,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/proof_deepseekprices/frame_keyterm.png"
+  },
+  {
+   "name": "price_up",
+   "t": 11.0,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/proof_deepseekprices/frame_price_up.png"
+  },
+  {
+   "name": "seam_a",
+   "t": 12.52,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/proof_deepseekprices/frame_seam_a.png"
+  },
+  {
+   "name": "bar_2x",
+   "t": 15.1,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/proof_deepseekprices/frame_bar_2x.png"
+  },
+  {
+   "name": "bar_4x",
+   "t": 16.4,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/proof_deepseekprices/frame_bar_4x.png"
+  },
+  {
+   "name": "chart_full",
+   "t": 18.6,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/proof_deepseekprices/frame_chart_full.png"
+  },
+  {
+   "name": "ppt",
+   "t": 20.8,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/proof_deepseekprices/frame_ppt.png"
+  },
+  {
+   "name": "task_flip",
+   "t": 23.0,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/proof_deepseekprices/frame_task_flip.png"
+  },
+  {
+   "name": "seam_b",
+   "t": 24.64,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/proof_deepseekprices/frame_seam_b.png"
+  },
+  {
+   "name": "tower",
+   "t": 26.0,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/proof_deepseekprices/frame_tower.png"
+  },
+  {
+   "name": "locally",
+   "t": 28.0,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/proof_deepseekprices/frame_locally.png"
+  },
+  {
+   "name": "badge",
+   "t": 29.3,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/proof_deepseekprices/frame_badge.png"
+  },
+  {
+   "name": "outro",
+   "t": 31.5,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/proof_deepseekprices/frame_outro.png"
+  }
+ ],
+ "page_errors": [],
+ "stage_marks_resolve": {
+  "deepseek": "/Users/migle/Documents/Workspace/assets/logos/ai-models/deepseek.png",
+  "claude": "/Users/migle/Documents/Workspace/assets/logos/ai-models/claude-color.png",
+  "openai": "/Users/migle/Documents/Workspace/assets/logos/ai-models/openai.png",
+  "gemini": "/Users/migle/Documents/Workspace/assets/logos/ai-models/gemini-color.png"
+ },
+ "cutout_lanes_resolve": {
+  "qwen": "/Users/migle/Documents/Workspace/assets/logos/ai-models/qwen.png",
+  "kimi": "/Users/migle/Documents/Workspace/assets/logos/ai-models/kimi.png",
+  "mistral": "/Users/migle/Documents/Workspace/assets/logos/ai-models/mistral.png",
+  "minimax": "/Users/migle/Documents/Workspace/assets/logos/ai-models/minimax-color.png",
+  "ollama": "/Users/migle/Documents/Workspace/assets/logos/ai-models/ollama.png",
+  "nvidia": "/Users/migle/Documents/Workspace/assets/logos/platforms/nvidia-color.png"
+ }
+}

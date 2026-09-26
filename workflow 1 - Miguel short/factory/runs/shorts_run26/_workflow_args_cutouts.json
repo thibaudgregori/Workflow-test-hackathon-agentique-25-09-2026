@@ -1,0 +1,72 @@
+{
+  "run": "shorts_run26",
+  "day": "2026-09-23",
+  "videos": [
+    {
+      "id": "deepseekprices",
+      "recording": "2026-09-21 14-31-25",
+      "lane": "counter+meter",
+      "transcript": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/intake/transcripts/2026-09-21 14-31-25.json",
+      "topic": "DeepSeek is a victim of its own popularity: rising demand for its newest model means it is raising prices.",
+      "notion_id": "3b431704-6eeb-8140-b9af-e14ec565e0b4",
+      "keep": [
+        "split",
+        "whiteboard"
+      ],
+      "redo": "Miguel approved the split and the whiteboard. Build the cutout only. Your approved outline is in matting/deepseekprices/selection.json. My manual track after the Codex limit was REFUSED by the chair audit (prep/stages/deepseekprices.track.json: a dark area by the right shoulder with luma ~50, which the audit reads as body, not chair): look at the overlay, decide whether it is his shoulder or chair, fix the outline if needed, re-approve, and track. If you conclude it is body, delete matting/deepseekprices/chair_audit.json only after you have looked, then track."
+    },
+    {
+      "id": "openairesets",
+      "recording": "2026-09-21 14-33-56",
+      "lane": "kinetic",
+      "transcript": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/intake/transcripts/2026-09-21 14-33-56.json",
+      "topic": "OpenAI started selling usage resets to its users so heavy users can keep building when they hit their limits.",
+      "notion_id": "3b531704-6eeb-8152-8a87-d0d3836b62b3",
+      "keep": [
+        "split",
+        "whiteboard"
+      ],
+      "redo": "Miguel approved the split and the whiteboard. Build the cutout only. Your approved outline is in matting/openairesets/selection.json. Your earlier session sent the matte to Modal and was cut off by the Codex usage limit before collecting it: the client now refuses with 'Prior dispatch exists without completion; inspect its call ID before retrying' (prep/stages/openairesets.track.json). Inspect that call ID in matting/openairesets/, collect the finished result if Modal has it, otherwise clear the stale dispatch record and track again."
+    },
+    {
+      "id": "stripekai",
+      "recording": "2026-09-21 15-20-02",
+      "lane": "diagram build",
+      "transcript": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/intake/transcripts/2026-09-21 15-20-02.json",
+      "topic": "Stripe revealed Kai, how it keeps 1,000 AI skills usable inside the company.",
+      "notion_id": "3b731704-6eeb-8154-b462-ccd9ae85a88c",
+      "keep": [
+        "split",
+        "whiteboard"
+      ],
+      "redo": "Miguel approved the split and the whiteboard. Build the cutout only. Your approved outline is in matting/stripekai/selection.json. Your earlier session sent the matte to Modal and was cut off by the Codex usage limit before collecting it: the client now refuses with 'Prior dispatch exists without completion; inspect its call ID before retrying' (prep/stages/stripekai.track.json). Inspect that call ID in matting/stripekai/, collect the finished result if Modal has it, otherwise clear the stale dispatch record and track again."
+    },
+    {
+      "id": "hermesbrowser",
+      "recording": "2026-09-21 14-23-44",
+      "lane": "icon choreography",
+      "transcript": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/intake/transcripts/2026-09-21 14-23-44.json",
+      "topic": "Hermes desktop now has an integrated browser, so your Hermes agent can see, operate and analyze inside it.",
+      "notion_id": "3b431704-6eeb-81fd-af32-f8ddd581bcc2",
+      "keep": [
+        "split",
+        "whiteboard"
+      ],
+      "redo": "Miguel approved the split and the whiteboard. Build the cutout only. Your approved outline is in matting/hermesbrowser/selection.json. My manual track after the Codex limit was REFUSED by the chair audit (prep/stages/hermesbrowser.track.json: a dark area by the right shoulder with luma ~50, which the audit reads as body, not chair): look at the overlay, decide whether it is his shoulder or chair, fix the outline if needed, re-approve, and track. If you conclude it is body, delete matting/hermesbrowser/chair_audit.json only after you have looked, then track."
+    },
+    {
+      "id": "grokdesktop",
+      "recording": "2026-09-21 14-28-40",
+      "lane": "kinetic",
+      "transcript": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/intake/transcripts/2026-09-21 14-28-40.json",
+      "topic": "xAI is working on a Grok desktop app that may release soon, bridging the gap with the other top AI desktop apps.",
+      "notion_id": "3b431704-6eeb-81a7-8a66-f7761701be33",
+      "keep": [
+        "split",
+        "whiteboard"
+      ],
+      "redo": "Miguel approved the split and the whiteboard. Build the cutout only. Your approved outline is in matting/grokdesktop/selection.json. My manual track after the Codex limit was REFUSED by the chair audit (prep/stages/grokdesktop.track.json: a dark area by the right shoulder with luma ~50, which the audit reads as body, not chair): look at the overlay, decide whether it is his shoulder or chair, fix the outline if needed, re-approve, and track. If you conclude it is body, delete matting/grokdesktop/chair_audit.json only after you have looked, then track."
+    }
+  ],
+  "partial": "run 26 cutouts after the Codex usage limit, 2026-09-23"
+}

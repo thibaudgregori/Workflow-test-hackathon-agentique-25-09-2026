@@ -1,0 +1,24 @@
+{
+ "verdict": "PASS",
+ "plan_json": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/plans/nextslide_plan.json",
+ "plan_md": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/plans/nextslide_plan.md",
+ "lane": "icon choreography",
+ "lane_reason": "The script is one acquisition chain between real brands (NextSlide into OpenAI into ChatGPT) wrapped around one everyday object, a presentation easel whose slide goes from a mess to a clean chart, so the registry marks are the actors and the easel is the argument; intake's 'kinetic' would put type where the story needs a picture.",
+ "beats": 6,
+ "bespoke_names": [
+  "slide on easel",
+  "chart on easel"
+ ],
+ "cues": "pointing_cues.py --vid nextslide: no pointing cue in this take (gen/_cues_nextslide.json, cues []); nothing answered, nothing waived.",
+ "board_mode": "chapters",
+ "open_questions": [
+  "NextSlide was not in the logo library; its official orange X mark (design-tools/nextslide-mark.png) and wordmark (design-tools/nextslide-wordmark.png, cropped from the official OpenAI x NextSlide og image) were fetched from nextslide.ai on 2026-09-22 and registered. The scene uses the WORDMARK on a 236 x 112 wide card because the X alone is unknown to viewers.",
+  "The payoff clean slide stays on the easel only ~4 s (25.20 -> 29.14 sheet); an author may hold the sheet up to 29.30 but not past 'follow'."
+ ],
+ "open_doubts": [],
+ "scene_handoff": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/plans/nextslide_scene_handoff.md",
+ "scene_module": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/gen/nextslide_scene.py",
+ "sealed": true,
+ "proofs": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/review/proof_nextslide",
+ "reason": "Cut ok (78.4 s wall, master 33.2 s, tight transcript clean: no false start). At plan time only the cut marker existed; since landed: plate ok (141.7 s, overwide applied), prompt0 ok (18.6 s, wing_review true - the cutout author owns it), track status 'skipped' (backend matanyone2, no cost recorded), cues ok; ship marker not landed. NextSlide logo was missing from the library: fetched from nextslide.ai and registered as nextslide (orange X) and nextslide-wordmark under assets/logos/design-tools/, catalog rebuilt. production-policy.json was briefly rewritten to a v2 phone-approval policy at 22:30 by another process and had been restored to v4 by seal time; seal printed PASS."
+}

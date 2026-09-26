@@ -1,0 +1,17 @@
+{
+  "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/projects/hermesbrowser_split",
+  "vid": "hermesbrowser",
+  "fmt": "split",
+  "quality": "high",
+  "stage": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/staging/youtube/hermesbrowser_split.mp4",
+  "qc_args": [
+    "--voice-master",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/cuts/hermesbrowser/audio.m4a",
+    "--phone-at",
+    "8.4:0.125,0.2885,0.3009,0.3677:pair of binoculars",
+    "--phone-at",
+    "9.3:0.412,0.2885,0.588,0.3677:car steering wheel",
+    "--phone-at",
+    "10.4:0.6991,0.2885,0.875,0.3677:science lab microscope"
+  ]
+}

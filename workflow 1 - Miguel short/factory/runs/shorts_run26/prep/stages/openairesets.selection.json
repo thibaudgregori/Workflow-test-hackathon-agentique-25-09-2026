@@ -1,0 +1,21 @@
+{
+ "id": "openairesets",
+ "stage": "selection",
+ "status": "ok",
+ "wall_s": 0.2600262920000205,
+ "at": "2026-09-23T16:12:46",
+ "keys": {
+  "status": "ok",
+  "selection": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/matting/openairesets/selection.json",
+  "plate": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/matting/openairesets/plate_wide_25.mp4",
+  "source": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/cuts/openairesets/master.mp4",
+  "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/matting/openairesets/plate.json",
+  "initial_mask": null,
+  "chair_audit_verdict": "clean",
+  "chair_audit_leak_px": 164,
+  "chair_audit_carve_px": null,
+  "chair_audit_healed": false,
+  "chair_audit_mask_sha256": null,
+  "wall_s": 0.2600262920000205
+ }
+}

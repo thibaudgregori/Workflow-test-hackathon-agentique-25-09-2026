@@ -1,0 +1,27 @@
+{
+ "verdict": "PASS",
+ "plan_json": "{\"plan_json\": \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/plans/grokimagine2_plan.json\", \"plan_md\": \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/plans/grokimagine2_plan.md\"}",
+ "plan_md": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/plans/grokimagine2_plan.md",
+ "lane": "icon choreography",
+ "lane_reason": "Intake guessed 'steps & checklist' but nothing in this take is a sequence of steps: it is a launch told as objects - a creative tool, the four things it makes fanning out of it, a podium ranking, and a magic wand editing one corner of a picture - which is exactly the flagship icon-choreography grammar.",
+ "beats": 6,
+ "bespoke_names": [
+  "a painter's palette",
+  "a winners' podium",
+  "a framed picture",
+  "a magic wand"
+ ],
+ "cues": "pointing_cues.py: no pointing cue in this take (cues: [], prep cues marker cue_count 0); nothing raised, nothing waived. Prep markers at design time: cut ok (72.1 s, master 32.32 s, tight audio 32.30 s, opening spoken once, no false start); plate ok (over-wide, crop 2912x1820+626+270, scale_k 0.4945, face_dx 1.5%); prompt0 ok (wing_review true, instrument abstained, removed_px 0); track 'skipped' (matanyone2, belongs to the Astra matte step, no cost recorded); ship marker not landed; selection marker appeared later.",
+ "board_mode": "chapters",
+ "open_questions": [
+  "Wing review: the prompt0 marker has landed (status ok, wing_review true, the instrument proposed no cut and abstained, removed_px 0, overlay at matting/grokimagine2/prompts/kf_overlay_00000.png). The track marker says 'skipped' (backend matanyone2) and no ship marker exists at plan time, so the visual selection and the matte belong to the Astra matte step.",
+  "The podium's top step is deliberately empty: the script says Grok Imagine is number two but does not name number one, and LAW 11 forbids placing a mark there on a guess.",
+  "Beat 1's closing words ('anything that you might need', 11.82-12.70) add no ink by design; the finished fan of four outputs holds for 1.6 s, which LAW 1 and the 2026-08-19 finding allow."
+ ],
+ "open_doubts": [],
+ "scene_handoff": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/plans/grokimagine2_scene_handoff.md",
+ "scene_module": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/gen/grokimagine2_scene.py",
+ "sealed": true,
+ "proofs": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/review/proof_grokimagine2",
+ "reason": ""
+}

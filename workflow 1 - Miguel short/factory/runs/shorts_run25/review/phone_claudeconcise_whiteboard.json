@@ -1,0 +1,107 @@
+{
+ "label": "claudeconcise_whiteboard",
+ "video": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/output/claudeconcise_whiteboard.mp4",
+ "phone_scale": "405x720",
+ "sheet": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/review/phone_claudeconcise_whiteboard.png",
+ "rule": "a FRESH judge (never read the plan) names each crop in <=3 words. Wrong name, hedge, or 'cannot tell' = the object is redesigned, not annotated.",
+ "answer_key": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/review/phone_claudeconcise_whiteboard.key.json",
+ "answer_key_rule": "DO NOT OPEN the answer key until every judge_answer below is filled in. Reading it first voids the Phone Test.",
+ "objects": [
+  {
+   "i": 0,
+   "t": 2.6,
+   "bbox_norm": [
+    0.3368,
+    0.1445,
+    0.6632,
+    0.3065
+   ],
+   "phone_box_px": [
+    136,
+    104,
+    268,
+    220
+   ],
+   "phone_size_px": [
+    132,
+    116
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/review/phone_claudeconcise_whiteboard/00.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  },
+  {
+   "i": 1,
+   "t": 12.95,
+   "bbox_norm": [
+    0.6597,
+    0.2148,
+    0.8264,
+    0.4102
+   ],
+   "phone_box_px": [
+    267,
+    154,
+    334,
+    295
+   ],
+   "phone_size_px": [
+    67,
+    141
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/review/phone_claudeconcise_whiteboard/01.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  },
+  {
+   "i": 2,
+   "t": 29.5,
+   "bbox_norm": [
+    0.191,
+    0.2197,
+    0.4726,
+    0.3125
+   ],
+   "phone_box_px": [
+    77,
+    158,
+    191,
+    225
+   ],
+   "phone_size_px": [
+    114,
+    67
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/review/phone_claudeconcise_whiteboard/02.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  },
+  {
+   "i": 3,
+   "t": 34.4,
+   "bbox_norm": [
+    0.5764,
+    0.2148,
+    0.8264,
+    0.3262
+   ],
+   "phone_box_px": [
+    233,
+    154,
+    334,
+    234
+   ],
+   "phone_size_px": [
+    101,
+    80
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/review/phone_claudeconcise_whiteboard/03.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  }
+ ]
+}

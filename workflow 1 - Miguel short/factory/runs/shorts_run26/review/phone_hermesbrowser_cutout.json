@@ -1,0 +1,83 @@
+{
+ "label": "hermesbrowser_cutout",
+ "video": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/hermesbrowser_cutout.mp4",
+ "phone_scale": "405x720",
+ "sheet": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/phone_hermesbrowser_cutout.png",
+ "rule": "a FRESH judge (never read the plan) names each crop in <=3 words. Wrong name, hedge, or 'cannot tell' = the object is redesigned, not annotated.",
+ "answer_key": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/phone_hermesbrowser_cutout.key.json",
+ "answer_key_rule": "DO NOT OPEN the answer key until every judge_answer below is filled in. Reading it first voids the Phone Test.",
+ "objects": [
+  {
+   "i": 0,
+   "t": 8.4,
+   "bbox_norm": [
+    0.125,
+    0.2885,
+    0.3009,
+    0.3677
+   ],
+   "phone_box_px": [
+    50,
+    207,
+    121,
+    264
+   ],
+   "phone_size_px": [
+    71,
+    57
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/phone_hermesbrowser_cutout/00.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  },
+  {
+   "i": 1,
+   "t": 9.3,
+   "bbox_norm": [
+    0.412,
+    0.2885,
+    0.588,
+    0.3677
+   ],
+   "phone_box_px": [
+    166,
+    207,
+    238,
+    264
+   ],
+   "phone_size_px": [
+    72,
+    57
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/phone_hermesbrowser_cutout/01.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  },
+  {
+   "i": 2,
+   "t": 10.4,
+   "bbox_norm": [
+    0.6991,
+    0.2885,
+    0.875,
+    0.3677
+   ],
+   "phone_box_px": [
+    283,
+    207,
+    354,
+    264
+   ],
+   "phone_size_px": [
+    71,
+    57
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/phone_hermesbrowser_cutout/02.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  }
+ ]
+}

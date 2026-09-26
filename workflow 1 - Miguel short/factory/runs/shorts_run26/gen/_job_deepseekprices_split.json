@@ -1,0 +1,15 @@
+{
+  "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/projects/deepseekprices_split",
+  "vid": "deepseekprices",
+  "fmt": "split",
+  "quality": "high",
+  "stage": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/staging/youtube/deepseekprices_split.mp4",
+  "qc_args": [
+    "--voice-master",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/cuts/deepseekprices/audio.m4a",
+    "--phone-at",
+    "2.6:0.4074,0.15,0.5926,0.3458:DeepSeek price tag",
+    "--phone-at",
+    "29.3:0.3981,0.1542,0.6019,0.3365:computer wearing badge"
+  ]
+}

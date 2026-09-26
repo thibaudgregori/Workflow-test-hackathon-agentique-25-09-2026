@@ -1,0 +1,987 @@
+{
+ "video": "falagent",
+ "lane": "icon choreography",
+ "fps": 25,
+ "duration": 33.24,
+ "seam": 862.5,
+ "formats": {
+  "split": {
+   "staged": {
+    "voice": {
+     "source": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/cuts/falagent/audio.m4a",
+     "sample_rate": 48000,
+     "channels": 2
+    },
+    "bed": "/Users/migle/Documents/Workspace/assets/audio/music/shorts-factory/bed_split_v2.mp3",
+    "sfx_sources": {
+     "whoosh": "/Users/migle/Documents/Workspace/assets/audio/sfx/shorts-factory/whoosh.mp3",
+     "pop": "/Users/migle/Documents/Workspace/assets/audio/sfx/shorts-factory/pop.mp3",
+     "click": "/Users/migle/Documents/Workspace/assets/audio/sfx/shorts-factory/click.mp3"
+    },
+    "face": {
+     "file": "face_bottom_hd.mp4",
+     "w": 1080,
+     "h": 1058
+    },
+    "marks": {
+     "falai": {
+      "source": "/Users/migle/Documents/Workspace/assets/logos/ai-models/falai-mark.png",
+      "url": "assets/logos/falai-mark.png"
+     },
+     "flux": {
+      "source": "/Users/migle/Documents/Workspace/assets/logos/ai-models/flux.png",
+      "url": "assets/logos/flux.png"
+     },
+     "gemini": {
+      "source": "/Users/migle/Documents/Workspace/assets/logos/ai-models/gemini-color.png",
+      "url": "assets/logos/gemini-color.png"
+     },
+     "minimax": {
+      "source": "/Users/migle/Documents/Workspace/assets/logos/ai-models/minimax-color.png",
+      "url": "assets/logos/minimax-color.png"
+     },
+     "qwen": {
+      "source": "/Users/migle/Documents/Workspace/assets/logos/ai-models/qwen.png",
+      "url": "assets/logos/qwen.png"
+     }
+    }
+   },
+   "seat": 862.5,
+   "scale": 1.0,
+   "core": {
+    "left": 0.0,
+    "top": 192.0
+   },
+   "band": {
+    "content_top": 278.0,
+    "content_bottom": 686.0,
+    "pill_top_rendered": 805.205,
+    "clear_above_pill": 119.21,
+    "clear_below_law30": 86.0
+   },
+   "rail": {
+    "readable_type_right_x": 887.6,
+    "per_key_right_x": {
+     "key-falagent": 887.6,
+     "key-videos": 303.4,
+     "key-images": 883.4,
+     "key-model": 620.4,
+     "key-prompt": 629.4,
+     "key-consistent": 629.4,
+     "key-tuned": 629.4,
+     "key-anygen": 665.4
+    },
+    "ink_left_x": 160.0,
+    "ink_right_x": 904.0,
+    "law30_rail_x": 918.0
+   },
+   "cues": {
+    "palette": {
+     "word": 0,
+     "text": "Creative",
+     "t": 0.1
+    },
+    "spark": {
+     "word": 4,
+     "text": "AI",
+     "t": 1.22
+    },
+    "slide": {
+     "word": 9,
+     "text": "best",
+     "t": 2.24
+    },
+    "fal": {
+     "word": 11,
+     "text": "fal.ai",
+     "t": 2.88
+    },
+    "friend": {
+     "word": 12,
+     "text": "just",
+     "t": 3.78
+    },
+    "keyterm": {
+     "word": 15,
+     "text": "agent.",
+     "t": 4.88
+    },
+    "seam1": {
+     "word": 19,
+     "text": "creative",
+     "t": 6.34
+    },
+    "clap": {
+     "word": 25,
+     "text": "videos",
+     "t": 8.56
+    },
+    "easel": {
+     "word": 27,
+     "text": "images,",
+     "t": 9.4
+    },
+    "seam2": {
+     "word": 33,
+     "text": "choosing",
+     "t": 11.68
+    },
+    "pick": {
+     "word": 34,
+     "text": "the",
+     "t": 12.02
+    },
+    "k_model": {
+     "word": 35,
+     "text": "model.",
+     "t": 12.12
+    },
+    "pickout": {
+     "word": 36,
+     "text": "It's",
+     "t": 12.62
+    },
+    "seam3": {
+     "word": 37,
+     "text": "getting",
+     "t": 13.02
+    },
+    "k_prompt": {
+     "word": 39,
+     "text": "prompt",
+     "t": 13.46
+    },
+    "seam4": {
+     "word": 45,
+     "text": "all",
+     "t": 15.16
+    },
+    "cats": {
+     "word": 48,
+     "text": "generations",
+     "t": 15.52
+    },
+    "k_consist": {
+     "word": 50,
+     "text": "consistent",
+     "t": 16.4
+    },
+    "emph": {
+     "word": 51,
+     "text": "across",
+     "t": 17.04
+    },
+    "seam5": {
+     "word": 54,
+     "text": "fal",
+     "t": 17.86
+    },
+    "k_tuned": {
+     "word": 58,
+     "text": "fine-tuned",
+     "t": 19.18
+    },
+    "both": {
+     "word": 60,
+     "text": "do",
+     "t": 20.04
+    },
+    "links": {
+     "word": 61,
+     "text": "exactly",
+     "t": 20.4
+    },
+    "seam6": {
+     "word": 72,
+     "text": "inside",
+     "t": 24.1
+    },
+    "url": {
+     "word": 76,
+     "text": "website",
+     "t": 25.14
+    },
+    "help": {
+     "word": 80,
+     "text": "help",
+     "t": 26.8
+    },
+    "gen_links": {
+     "word": 81,
+     "text": "you",
+     "t": 27.06
+    },
+    "k_anygen": {
+     "word": 84,
+     "text": "generation",
+     "t": 27.74
+    },
+    "outro": {
+     "word": 89,
+     "text": "Now",
+     "t": 29.06
+    },
+    "k_videos": {
+     "word": 25,
+     "text": "videos",
+     "t": 8.62,
+     "window": [
+      8.56,
+      9.96
+     ]
+    },
+    "snap": {
+     "word": 25,
+     "text": "videos",
+     "t": 8.8,
+     "window": [
+      8.56,
+      9.96
+     ]
+    },
+    "k_images": {
+     "word": 27,
+     "text": "images,",
+     "t": 9.46,
+     "window": [
+      9.4,
+      10.72
+     ]
+    },
+    "dart": {
+     "word": 40,
+     "text": "right",
+     "starts": 13.7,
+     "lands": 13.88,
+     "word_span": [
+      13.76,
+      13.94
+     ]
+    },
+    "_law43": {
+     "board_mode": "chapters",
+     "chapters": 8,
+     "erase_at": [
+      6.34,
+      11.68,
+      13.02,
+      15.16,
+      17.86,
+      24.1,
+      29.06
+     ]
+    }
+   },
+   "word_sync": {
+    "typed_states": [
+     {
+      "state": "key-falagent",
+      "first_visible_text": "FAL AGENT",
+      "at": 4.88,
+      "words": "fal agent.",
+      "window": [
+       4.56,
+       6.22
+      ]
+     },
+     {
+      "state": "key-videos",
+      "first_visible_text": "VIDEOS",
+      "at": 8.62,
+      "words": "videos",
+      "window": [
+       8.56,
+       9.96
+      ]
+     },
+     {
+      "state": "key-images",
+      "first_visible_text": "IMAGES",
+      "at": 9.46,
+      "words": "images,",
+      "window": [
+       9.4,
+       10.72
+      ]
+     },
+     {
+      "state": "key-model",
+      "first_visible_text": "THE MODEL",
+      "at": 12.12,
+      "words": "the model.",
+      "window": [
+       12.02,
+       13.34
+      ]
+     },
+     {
+      "state": "key-prompt",
+      "first_visible_text": "THE PROMPT",
+      "at": 13.46,
+      "words": "the prompt",
+      "window": [
+       13.28,
+       14.72
+      ]
+     },
+     {
+      "state": "key-consistent",
+      "first_visible_text": "CONSISTENT",
+      "at": 16.4,
+      "words": "consistent",
+      "window": [
+       16.4,
+       17.98
+      ]
+     },
+     {
+      "state": "key-tuned",
+      "first_visible_text": "FINE-TUNED",
+      "at": 19.18,
+      "words": "fine-tuned",
+      "window": [
+       19.18,
+       20.86
+      ]
+     },
+     {
+      "state": "key-anygen",
+      "first_visible_text": "ANY GENERATION",
+      "at": 27.74,
+      "words": "any generation",
+      "window": [
+       27.52,
+       29.24
+      ]
+     },
+     {
+      "state": "url",
+      "first_visible_text": "fal.ai",
+      "at": 25.14,
+      "words": "their own website (25.14)",
+      "kind": "UI chrome: the address bar of fal's own website"
+     }
+    ],
+    "disagreements": 0,
+    "digits_that_tick": 0
+   },
+   "law37": {
+    "scan_cue_count": 0,
+    "plan_declared_cards": 0,
+    "source_cards_in_the_page": 0
+   },
+   "law39": {
+    "key-falagent": {
+     "host": "fal-tile",
+     "side": "below",
+     "text": "FAL AGENT",
+     "at": 4.88,
+     "gutter_core_px": 24.0,
+     "box_canvas": [
+      600.0,
+      521.0,
+      900.0,
+      579.0
+     ]
+    },
+    "key-videos": {
+     "host": "clapper",
+     "side": "below",
+     "text": "VIDEOS",
+     "at": 8.62,
+     "gutter_core_px": 30.0,
+     "box_canvas": [
+      140.0,
+      562.0,
+      360.0,
+      606.0
+     ]
+    },
+    "key-images": {
+     "host": "easel",
+     "side": "below",
+     "text": "IMAGES",
+     "at": 9.46,
+     "gutter_core_px": 24.0,
+     "box_canvas": [
+      720.0,
+      562.0,
+      940.0,
+      606.0
+     ]
+    },
+    "key-model": {
+     "host": "model-row",
+     "side": "below",
+     "text": "THE MODEL",
+     "at": 12.12,
+     "gutter_core_px": 24.0,
+     "box_canvas": [
+      410.0,
+      498.0,
+      670.0,
+      542.0
+     ]
+    },
+    "key-prompt": {
+     "host": "dartboard",
+     "side": "below",
+     "text": "THE PROMPT",
+     "at": 13.46,
+     "gutter_core_px": 24.0,
+     "box_canvas": [
+      400.0,
+      572.0,
+      680.0,
+      616.0
+     ]
+    },
+    "key-consistent": {
+     "host": "strip",
+     "side": "below",
+     "text": "CONSISTENT",
+     "at": 16.4,
+     "gutter_core_px": 24.0,
+     "box_canvas": [
+      400.0,
+      526.0,
+      680.0,
+      570.0
+     ]
+    },
+    "key-tuned": {
+     "host": "fal-tile-2",
+     "side": "below",
+     "text": "FINE-TUNED",
+     "at": 19.18,
+     "gutter_core_px": 24.0,
+     "box_canvas": [
+      410.0,
+      448.0,
+      670.0,
+      492.0
+     ]
+    },
+    "key-anygen": {
+     "host": "window",
+     "side": "below",
+     "text": "ANY GENERATION",
+     "at": 27.74,
+     "gutter_core_px": 24.0,
+     "box_canvas": [
+      380.0,
+      642.0,
+      700.0,
+      686.0
+     ]
+    },
+    "_law50": {
+     "plain_label_font_px": 28.0,
+     "videos_images_same_row": true
+    },
+    "_key_term": {
+     "text": "FAL AGENT",
+     "font_px": 48.0,
+     "design_units": 25.6,
+     "first_type": true
+    }
+   },
+   "law42": {
+    "board_mode": "chapters",
+    "anchors": [
+     "o-glyph",
+     "o-rule",
+     "o-sheet",
+     "o-slot"
+    ],
+    "longest_marks": [
+     [
+      "fal-tile-2",
+      0.351
+     ],
+     [
+      "palette",
+      0.348
+     ],
+     [
+      "spark",
+      0.315
+     ]
+    ],
+    "every_non_anchor_finite": true
+   },
+   "law38": {
+    "border_flips": [
+     {
+      "target": "#model-1",
+      "from": 12.02,
+      "until": 12.62,
+      "check_at": 12.44
+     },
+     {
+      "target": "#strip .stfr",
+      "from": 17.04,
+      "until": 17.66,
+      "check_at": 17.46
+     }
+    ],
+    "rings_ellipses_circles": 0,
+    "highlights": 0,
+    "dom_elements_added": 0
+   },
+   "law40": {
+    "connectors": [
+     {
+      "id": "conn-friend",
+      "to": "fal-tile",
+      "ends": [
+       [
+        529.5,
+        239.0
+       ],
+       [
+        684.0,
+        239.0
+       ]
+      ]
+     },
+     {
+      "id": "conn-prompt",
+      "to": "dartboard-2",
+      "ends": [
+       [
+        474.0,
+        166.0
+       ],
+       [
+        300.0,
+        330.0
+       ]
+      ]
+     },
+     {
+      "id": "conn-consist",
+      "to": "strip-2",
+      "ends": [
+       [
+        606.0,
+        166.0
+       ],
+       [
+        780.0,
+        330.0
+       ]
+      ]
+     },
+     {
+      "id": "conn-out-a",
+      "to": "out-image",
+      "ends": [
+       [
+        434.0,
+        249.0
+       ],
+       [
+        618.0,
+        212.0
+       ]
+      ]
+     },
+     {
+      "id": "conn-out-b",
+      "to": "out-video",
+      "ends": [
+       [
+        434.0,
+        315.0
+       ],
+       [
+        618.0,
+        352.0
+       ]
+      ]
+     }
+    ],
+    "declared": {
+     "connectors": {
+      "conn-friend": {
+       "to": "fal-tile",
+       "side": "left",
+       "fraction": 0.5,
+       "check_at": 5.6
+      },
+      "conn-prompt": {
+       "to": "dartboard-2",
+       "side": "top",
+       "fraction": 0.5,
+       "check_at": 23.0
+      },
+      "conn-consist": {
+       "to": "strip-2",
+       "side": "top",
+       "fraction": 0.5,
+       "check_at": 23.0
+      },
+      "conn-out-a": {
+       "to": "out-image",
+       "side": "left",
+       "fraction": 0.5,
+       "check_at": 28.6
+      },
+      "conn-out-b": {
+       "to": "out-video",
+       "side": "left",
+       "fraction": 0.5,
+       "check_at": 28.6
+      }
+     },
+     "emphases": [
+      {
+       "id": "model-1",
+       "target": "model-1-mark",
+       "kind": "border",
+       "check_at": 12.44
+      },
+      {
+       "id": "strip-frame-0",
+       "target": "strip-body",
+       "kind": "border",
+       "check_at": 17.46
+      },
+      {
+       "id": "strip-frame-1",
+       "target": "strip-body",
+       "kind": "border",
+       "check_at": 17.46
+      },
+      {
+       "id": "strip-frame-2",
+       "target": "strip-body",
+       "kind": "border",
+       "check_at": 17.46
+      }
+     ]
+    }
+   },
+   "law2": {
+    "stage_marks": [
+     "falai",
+     "flux",
+     "gemini",
+     "minimax",
+     "qwen"
+    ],
+    "resolved": {
+     "falai": "/Users/migle/Documents/Workspace/assets/logos/ai-models/falai-mark.png",
+     "flux": "/Users/migle/Documents/Workspace/assets/logos/ai-models/flux.png",
+     "gemini": "/Users/migle/Documents/Workspace/assets/logos/ai-models/gemini-color.png",
+     "minimax": "/Users/migle/Documents/Workspace/assets/logos/ai-models/minimax-color.png",
+     "qwen": "/Users/migle/Documents/Workspace/assets/logos/ai-models/qwen.png"
+    },
+    "cutout_lanes_not_ours": [
+     "flux",
+     "midjourney",
+     "higgsfield",
+     "minimax",
+     "gemini",
+     "openai"
+    ]
+   },
+   "law22": {
+    "events": 27,
+    "tightest_gap_s": 0.34,
+    "deliberately_silent": {
+     "VIDEOS 8.62 / IMAGES 9.46": "0.06 s after their object's pop",
+     "the pick 12.02": "a colour flip is not an arrival; THE MODEL clicks 0.10 s later",
+     "cats 2 and 3": "one pop scores the three-cat cascade",
+     "strip-2 20.12": "0.08 s after the dartboard-2 pop",
+     "output lines 27.06": "0.26 s after the outputs' pop",
+     "flips": "a colour flip is not an arrival"
+    }
+   },
+   "draw_on": {
+    "dash_selectors": {
+     "#conn-consist .cline": 1,
+     "#conn-friend .cline": 1,
+     "#conn-out-a .cline": 1,
+     "#conn-out-b .cline": 1,
+     "#conn-prompt .cline": 1
+    },
+    "verdict": "every dash equals its path's declared length (100)"
+   },
+   "transcript": {
+    "law47_tail_s": 0.22,
+    "law47_cap_s": 0.24,
+    "law47_verdict": "PASS \u2014 0.220s past the last word against a 0.240s cap",
+    "law46": "the scripted opening occurs ONCE inside the keeper take, at word 0 / 0.10 s",
+    "take_corroboration": {
+     "mode": "model keep_words (the agent read the transcript and chose the words; no rule detection)",
+     "keep_words": [
+      [
+       56,
+       92
+      ],
+      [
+       96,
+       168
+      ]
+     ],
+     "take_word_index": 56,
+     "take_start_s": 42.96,
+     "words": 110,
+     "of_raw_words": 169,
+     "corroboration": "model-authored keep ranges"
+    },
+    "words": 110,
+    "function_word_merges": 0,
+    "beats_before_merge": 34,
+    "orphan_repartitions": [],
+    "solo_word_merges": [
+     {
+      "solo": "one.",
+      "direction": "backward",
+      "merged_to": "catch you in the next one."
+     }
+    ],
+    "board_keys_forbidden_at_split": [
+     "any generation",
+     "consistent",
+     "fal agent",
+     "falai",
+     "fine tuned",
+     "images",
+     "the model",
+     "the prompt",
+     "videos"
+    ]
+   },
+   "phone_objects": [
+    {
+     "name": "an artist's palette",
+     "t": 2.0,
+     "bbox": [
+      0.3771,
+      0.1757,
+      0.6229,
+      0.2732
+     ],
+     "canvas": [
+      407.25,
+      337.4,
+      672.75,
+      524.6
+     ]
+    },
+    {
+     "name": "a movie clapperboard",
+     "t": 9.3,
+     "bbox": [
+      0.1481,
+      0.175,
+      0.3148,
+      0.2771
+     ],
+     "canvas": [
+      160.0,
+      336.0,
+      340.0,
+      532.0
+     ]
+    },
+    {
+     "name": "a painter's easel",
+     "t": 10.4,
+     "bbox": [
+      0.7,
+      0.1594,
+      0.837,
+      0.2802
+     ],
+     "canvas": [
+      756.0,
+      306.0,
+      904.0,
+      538.0
+     ]
+    },
+    {
+     "name": "a dartboard with dart",
+     "t": 14.6,
+     "bbox": [
+      0.3796,
+      0.15,
+      0.6204,
+      0.2854
+     ],
+     "canvas": [
+      410.0,
+      288.0,
+      670.0,
+      548.0
+     ]
+    },
+    {
+     "name": "a film strip",
+     "t": 16.9,
+     "bbox": [
+      0.2222,
+      0.1573,
+      0.7778,
+      0.2615
+     ],
+     "canvas": [
+      240.0,
+      302.0,
+      840.0,
+      502.0
+     ]
+    }
+   ],
+   "render": {
+    "w": 1080,
+    "h": 1920,
+    "zoom": 1
+   },
+   "handle": "@migueltorrezai",
+   "captions": {
+    "n": 33,
+    "widest_px": 749.0,
+    "beats": [
+     [
+      "Creative people",
+      0.1
+     ],
+     [
+      "working with AI now",
+      0.78
+     ],
+     [
+      "have a new best friend.",
+      1.62
+     ],
+     [
+      "fal.ai just",
+      2.88
+     ],
+     [
+      "released fal agent.",
+      3.96
+     ],
+     [
+      "When working with",
+      5.58
+     ],
+     [
+      "creative use cases,",
+      6.34
+     ],
+     [
+      "whether it's generating",
+      7.56
+     ],
+     [
+      "videos or images,",
+      8.56
+     ],
+     [
+      "the hard thing",
+      10.06
+     ],
+     [
+      "is not",
+      11.1
+     ],
+     [
+      "choosing the model.",
+      11.68
+     ],
+     [
+      "It's getting the",
+      12.62
+     ],
+     [
+      "prompt right and",
+      13.46
+     ],
+     [
+      "making sure that all",
+      14.32
+     ],
+     [
+      "of your generations",
+      15.28
+     ],
+     [
+      "are consistent",
+      16.24
+     ],
+     [
+      "across the board.",
+      17.04
+     ],
+     [
+      "fal agent has",
+      17.86
+     ],
+     [
+      "been fine-tuned",
+      18.84
+     ],
+     [
+      "to do exactly that,",
+      19.9
+     ],
+     [
+      "meaning that",
+      21.58
+     ],
+     [
+      "now you can just",
+      22.14
+     ],
+     [
+      "use their agent inside",
+      23.22
+     ],
+     [
+      "of their own website",
+      24.42
+     ],
+     [
+      "and have it help you",
+      25.92
+     ],
+     [
+      "with any generation",
+      27.2
+     ],
+     [
+      "that you might need.",
+      28.28
+     ],
+     [
+      "Now follow for more",
+      29.06
+     ],
+     [
+      "AI news, videos, and",
+      29.84
+     ],
+     [
+      "tutorials each and",
+      30.8
+     ],
+     [
+      "every single day, and",
+      31.46
+     ],
+     [
+      "catch you in the next one.",
+      32.34
+     ]
+    ],
+    "min_aspect": 1.88
+   }
+  }
+ }
+}

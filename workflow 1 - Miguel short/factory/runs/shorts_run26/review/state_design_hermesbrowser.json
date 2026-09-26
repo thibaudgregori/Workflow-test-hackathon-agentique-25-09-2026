@@ -1,0 +1,26 @@
+{
+ "verdict": "PASS",
+ "plan_json": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/plans/hermesbrowser_plan.json",
+ "plan_md": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/plans/hermesbrowser_plan.md",
+ "lane": "icon choreography",
+ "lane_reason": "Intake's icon-choreography guess stands: the script names one product (the Hermes agent, its real Nous mark) and one new surface (a browser inside its app), then argues what the agent can do there with three spoken verbs that each become one everyday object wired into that browser; there are no numbers to count and no steps to tick.",
+ "beats": 5,
+ "bespoke_names": [
+  "pair of binoculars",
+  "car steering wheel",
+  "science lab microscope"
+ ],
+ "cues": "pointing_cues.py: 0 cues ('no pointing cue in this take'); cues marker cue_count 0; nothing raised, nothing waived",
+ "board_mode": "chapters",
+ "open_questions": [
+  "Wing review: the prompt0 marker has landed and names hermesbrowser with wing_review true (the instrument abstained: no cut proposed, removed_px 0). The selection stage then ERRORED and track is REFUSED by the chair audit (right side, 2528 px leak at mean luma 50.4, which the audit itself says reads as beard/jaw, not chair). The Astra matte step owns the re-review of matting/hermesbrowser/prompts/kf_overlay_00000.png and the corrected selection; split and whiteboard do not wait for it.",
+  "The browser window, the app frame and the question bubble are UI chrome, declared as such (A SCREEN IS NOT AN OBJECT): the bespoke objects are the three verb objects. The hook carries the real Hermes mark plus the browser arriving inside its app, which is the news itself.",
+  "The Hermes tile appears twice (chapter A as the app's own tile, chapter C as the agent you chat with). They are two elements with two ids; the first leaves at the 3.58 seam."
+ ],
+ "open_doubts": [],
+ "scene_handoff": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/plans/hermesbrowser_scene_handoff.md",
+ "scene_module": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/gen/hermesbrowser_scene.py",
+ "sealed": true,
+ "proofs": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/proof_hermesbrowser",
+ "reason": "Markers: cut ok (72.9 s wall, master 26.48 s, tight audio 26.48 s, corroboration 'model-authored keep ranges'); plate ok (112.9 s, over-wide, crop 2992x1870+213+236, scale_k 0.481283); prompt0 ok, wing_review true (abstained, removed_px 0); selection ERROR and track REFUSED by the chair audit (right, 2528 px at luma 50.4 > 40, reads as beard/jaw), owned by the Astra matte step; ship marker not landed; cues ok, 0. No Modal cost booked by this agent. No false start (LAW 46). MATTES_FINAL.md absent. Microscope redrawn once after the first proof crop (tube floated free of the arm); all three objects enlarged to 190x152 core px. All marks resolve (nous-girl-line; lanes chatgpt, perplexity, claude, gemini, openclaw, copilot). LAW 40 anchors equal whiteboard_build.anchor_points."
+}

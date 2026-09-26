@@ -1,0 +1,306 @@
+{
+ "video": "openairesets",
+ "format": "whiteboard",
+ "variant": "plan view (fix)",
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/projects/openairesets_whiteboard",
+ "handle": "@migueltorrez.ai",
+ "handle_key": "tiktok_ig",
+ "duration_s": 20.64,
+ "fps": 25,
+ "render": "1080x1920 @ zoom 1",
+ "board": "576x460 design units",
+ "board_box": [
+  40.0,
+  150.0,
+  536.0,
+  425.0
+ ],
+ "strokes": 52,
+ "rigids": 16,
+ "board_text": [
+  "RESETS",
+  "$",
+  "$200",
+  "/ MONTH",
+  "4 ACCOUNTS",
+  "KEEP BUILDING"
+ ],
+ "top_ink_u": 150.0,
+ "top_band_u": 102.4,
+ "pen_top_u": 110.7,
+ "ink_bottom_px": 756.3,
+ "cap_band_top_px": 799.2,
+ "cap_clearance_px": 42.9,
+ "ink_bottom_ink_px": 741.9,
+ "cap_clearance_ink_px": 57.3,
+ "seam_pill_top_px": 805.2,
+ "cap_clearance_ink_to_pill_px": 63.3,
+ "seam_measures": "cap_clearance_px = line boxes vs the reserved band (THE GATE); cap_clearance_ink_px = glyph ink vs the same band; cap_clearance_ink_to_pill_px = glyph ink vs the pill's painted top edge (the clerk's surface)",
+ "rail_hits": [],
+ "label_law": {
+  "window_s": 1.0,
+  "key_term": "RESETS",
+  "key_term_fs_u": 24.0,
+  "written": {
+   "RESETS": 2.18,
+   "$": 2.76,
+   "$200": 4.5,
+   "/ MONTH": 5.36,
+   "4 ACCOUNTS": 11.62,
+   "KEEP BUILDING": 14.56
+  },
+  "plan": {
+   "resets": "RESETS",
+   "200": "$200",
+   "per": "/ MONTH",
+   "accounts": "4 ACCOUNTS",
+   "building": "KEEP BUILDING"
+  },
+  "comparisons": [],
+  "unplanned_text": [],
+  "verdict": "PASS"
+ },
+ "law4": {
+  "law": "4 (overlap test)",
+  "board_words_that_also_appear_as_a_pill": {}
+ },
+ "round4": {
+  "law6_lifetimes": {
+   "duration_s": 20.64,
+   "chaptered": true,
+   "max_frac": 0.4,
+   "declared_anchors": [
+    "hourglass"
+   ],
+   "lingering": [],
+   "verdict": "PASS"
+  },
+  "law2_no_enclosure": {
+   "rings": 0,
+   "boxes": 1,
+   "highlights": 0,
+   "rasters": [],
+   "wrong_tool_advisory": [],
+   "verdict": "PASS"
+  },
+  "law3_label_side": {
+   "checked": 5,
+   "detail": {
+    "RESETS": {
+     "host": "hourglass@right",
+     "dx_u": 0.0,
+     "band_u": 71.5,
+     "place": "above"
+    },
+    "$200": {
+     "host": "hourglass",
+     "dx_u": -40.8,
+     "band_u": 71.5,
+     "place": "below"
+    },
+    "/ MONTH": {
+     "host": "hourglass",
+     "dx_u": 25.5,
+     "band_u": 71.5,
+     "place": "below"
+    },
+    "4 ACCOUNTS": {
+     "host": "hg-row",
+     "dx_u": 0.0,
+     "band_u": 227.6,
+     "place": "below"
+    },
+    "KEEP BUILDING": {
+     "host": "wall",
+     "dx_u": 0.0,
+     "band_u": 156.0,
+     "place": "below"
+    }
+   },
+   "verdict": "PASS"
+  },
+  "law5_spacing": {
+   "gate_u": 8.5,
+   "gate_px": 15.9,
+   "aim_u": 12.8,
+   "aim_px": 24.0,
+   "measured_on": "element line boxes",
+   "under_aim": [],
+   "objects": 14,
+   "verdict": "PASS"
+  },
+  "law5_spacing_ink": {
+   "gate_u": 8.5,
+   "gate_px": 15.9,
+   "aim_u": 12.8,
+   "aim_px": 24.0,
+   "measured_on": "glyph ink extents",
+   "under_aim": [],
+   "objects": 14,
+   "verdict": "PASS"
+  },
+  "law5_no_crossing": {
+   "strokes": 52,
+   "types": 6,
+   "verdict": "PASS"
+  },
+  "law4_anchors": {
+   "targets": 1,
+   "detail": {
+    "hourglass@right": {
+     "n": 1,
+     "spread_u": 0.0,
+     "level": true,
+     "mirrored": false,
+     "on_rect": true
+    }
+   },
+   "verdict": "PASS"
+  }
+ },
+ "outro": {
+  "move": "opaque sheet rises over the board",
+  "wipe_start": 16.08,
+  "wipe_end": 16.64,
+  "travel_px": 862.5,
+  "sheet_opaque": true,
+  "sheet_covers_px": 862.5,
+  "card_ink_enters_px": 322.5,
+  "board_covered_px": 581.2,
+  "overlap_px": 258.8,
+  "board_moves": false,
+  "board_fades": false,
+  "outro_start": 16.08,
+  "verdict": "PASS"
+ },
+ "captions": 20,
+ "cap_font_px": 56.2,
+ "cap_max_pill_w_px": 752.4,
+ "cap_w_budget_px": 756.0,
+ "anchors": {
+  "start": 0.1,
+  "selling": 1.06,
+  "resets": 1.66,
+  "for": 2.18,
+  "their": 2.36,
+  "because": 3.3,
+  "now": 3.68,
+  "200": 4.5,
+  "per": 5.36,
+  "subscription": 5.72,
+  "no": 6.84,
+  "longer": 7.04,
+  "which": 9.1,
+  "to": 10.26,
+  "four": 10.6,
+  "different": 10.9,
+  "accounts": 11.22,
+  "all": 11.96,
+  "keep": 13.82,
+  "building": 14.24,
+  "things": 14.76,
+  "outro": 16.08,
+  "news": 17.1
+ },
+ "html_bytes": 170092,
+ "sfx": 16,
+ "pen_loops": 5,
+ "pen_seconds": 1.64,
+ "pen_duty_pct": 7.9,
+ "seam_law": {
+  "plan_mode": "chapters",
+  "chapters": 2,
+  "seams": [
+   9.1
+  ],
+  "erase_s": 0.28,
+  "qc_seams": "9.1",
+  "handover": [
+   {
+    "seam": 9.1,
+    "incoming": "the hourglass carries across and shrinks into the row's left seat at 10.26"
+   }
+  ],
+  "outro_wipe": 16.08
+ },
+ "pointing_cues": {
+  "n": 0,
+  "cards": [],
+  "waived": []
+ },
+ "phone_test_objects": [
+  {
+   "i": 0,
+   "name": "hourglass price tag",
+   "t": 2.9,
+   "bbox_board_u": [
+    251.0,
+    146.0,
+    458.56,
+    360.89
+   ],
+   "bbox_norm": [
+    0.4358,
+    0.1426,
+    0.7961,
+    0.3524
+   ],
+   "plan_name": "hourglass price tag",
+   "plan_t": 2.9
+  },
+  {
+   "i": 1,
+   "name": "four hourglasses row",
+   "t": 12.7,
+   "bbox_board_u": [
+    106.9,
+    152.0,
+    469.1,
+    262.51
+   ],
+   "bbox_norm": [
+    0.1856,
+    0.1484,
+    0.8144,
+    0.2564
+   ],
+   "plan_name": "four hourglasses row",
+   "plan_t": 12.7
+  },
+  {
+   "i": 2,
+   "name": "rising brick wall",
+   "t": 15.4,
+   "bbox_board_u": [
+    162.0,
+    300.0,
+    414.0,
+    374.0
+   ],
+   "bbox_norm": [
+    0.2812,
+    0.293,
+    0.7188,
+    0.3652
+   ],
+   "plan_name": "rising brick wall",
+   "plan_t": 15.4
+  }
+ ],
+ "emphasis": [
+  {
+   "at": 7.04,
+   "until": 9.1,
+   "target": "hourglass",
+   "kind": "box_emphasis"
+  }
+ ],
+ "phone_at_args": [
+  "--phone-at",
+  "2.9:0.4358,0.1426,0.7961,0.3524:hourglass price tag",
+  "--phone-at",
+  "12.7:0.1856,0.1484,0.8144,0.2564:four hourglasses row",
+  "--phone-at",
+  "15.4:0.2812,0.293,0.7188,0.3652:rising brick wall"
+ ]
+}

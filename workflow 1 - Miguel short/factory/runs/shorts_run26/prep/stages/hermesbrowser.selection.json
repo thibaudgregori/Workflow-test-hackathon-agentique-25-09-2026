@@ -1,0 +1,16 @@
+{
+ "id": "hermesbrowser",
+ "stage": "selection",
+ "status": "error",
+ "wall_s": null,
+ "at": "2026-09-23T15:58:36",
+ "keys": {
+  "status": "error",
+  "selection": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/matting/hermesbrowser/selection.json",
+  "plate": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/matting/hermesbrowser/plate_wide_25.mp4",
+  "source": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/cuts/hermesbrowser/master.mp4",
+  "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/matting/hermesbrowser/plate.json",
+  "initial_mask": null,
+  "error": "Chair audit refuse: right: 2528 px leak, but it reads mean luma 50.4 (ceiling 40).  That is a body, not a wedge -- his beard, jaw and stubble read 35-60 and the chair reads 15-25.  Re-review the contour by eye; this audit will not carve it."
+ }
+}

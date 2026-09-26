@@ -1,0 +1,424 @@
+# hermesbrowser — creative plan
+
+Intake's icon-choreography guess stands: the script names one product (the Hermes agent, its real Nous mark) and one new surface (a browser inside its app), then argues what the agent can do there with three spoken verbs that each become one everyday object wired into that browser; there are no numbers to count and no steps to tick.
+
+```json
+{
+  "id": "hermesbrowser",
+  "duration_s": 26.48,
+  "lane": "icon choreography",
+  "lane_reason": "Intake's icon-choreography guess stands: the script names one product (the Hermes agent, its real Nous mark) and one new surface (a browser inside its app), then argues what the agent can do there with three spoken verbs that each become one everyday object wired into that browser; there are no numbers to count and no steps to tick.",
+  "stage_markers_at_plan_time": {
+    "cut": "ok, 72.9 s wall, cut master 26.48 s, tight audio 26.48 s, corroboration 'model-authored keep ranges', analysis_wav_written false",
+    "plate": "ok, 112.9 s wall, crop 2992x1870+213+236, scale_k 0.481283, head 450.9 px on canvas, overwide_applied true, face_dx_pct 0.039, visible_window_drift 0.0",
+    "prompt0": "ok, 13.2 s wall, wing_review TRUE for hermesbrowser (the instrument proposed no cut and abstained, removed_px 0); the Astra matte step owns the look at matting/hermesbrowser/prompts/kf_overlay_00000.png",
+    "selection": "ERROR at 00:12:28: chair audit refuse, right side 2528 px leak reading mean luma 50.4 (ceiling 40), which the audit itself says reads as body (beard/jaw), not a chair wedge; it asks for an eye re-review of the contour",
+    "track": "REFUSED (same chair-audit message); no Modal cost booked on the marker",
+    "ship": "marker not landed at plan time",
+    "cues": "ok, cue_count 0"
+  },
+  "false_start_check": "The tight transcript opens 'Hermes Agent now has a browser inside of its desktop application' once, at 0.10 s; the opening does not repeat (the raw take's 'Hermes Desktop now has a new br-' restart was dropped by the cut's keep_words 158-252), so the cut is right (LAW 46).",
+  "beats": [
+    {
+      "i": 0,
+      "t_start": 0.1,
+      "t_end": 3.22,
+      "words": "Hermes Agent now has a browser inside of its desktop application.",
+      "says": "The Hermes agent's desktop app now has a browser built in.",
+      "picture": "The Hermes tile (the Nous girl mark in a 112 px card tile) pops ALONE on the axis on 'Hermes'; HERMES AGENT is written large above it on 'Agent'. On 'browser' the tile slides left and a browser window (UI: rounded window, top bar with three dots and an address pill, two text lines and an image block in the page) draws to its right, BROWSER written under it. On 'desktop application' one app-window frame (title bar with three dots) draws around BOTH: the browser now lives inside the Hermes app.",
+      "objects": [
+        "hermes-tile",
+        "key-term",
+        "browser",
+        "label-browser",
+        "app-frame"
+      ],
+      "emphasis": [],
+      "whiteboard_version": "Same picture as marker ink: HERMES AGENT written first, alone, large; the Hermes tile drawn centred with its mark stamped in; on 'browser' the tile is redrawn one step left (erase to free the column) and the browser window drawn beside it with BROWSER under it; on 'desktop application' the app frame is drawn around both."
+    },
+    {
+      "i": 1,
+      "t_start": 3.58,
+      "t_end": 11.42,
+      "words": "Now, this browser is different because your AI agent can not only see, but also operate and analyze anything that's happening inside of it.",
+      "says": "The agent can see, operate and analyze whatever happens in that browser.",
+      "picture": "On 'Now,' the app frame, the tile, HERMES AGENT and BROWSER leave and the browser window glides up to the top centre, alone. Then three everyday objects arrive in a row under it, each on its own verb, each wired into the browser's bottom edge by a terracotta line: on 'see' a pair of binoculars (left) with SEE under it; on 'operate' a car steering wheel (centre) with OPERATE under it; on 'analyze' a microscope (right) with ANALYZE under it. On 'anything that's happening inside of it' the browser's own outline flips terracotta.",
+      "objects": [
+        "browser",
+        "binoculars",
+        "steering-wheel",
+        "microscope",
+        "label-see",
+        "label-operate",
+        "label-analyze",
+        "link-see",
+        "link-operate",
+        "link-analyze"
+      ],
+      "emphasis": [
+        {
+          "target": "browser",
+          "kind": "box",
+          "why": "The browser window is a DRAWN object (no raster text), so LAW 38 rule 2: its own outline tweens from ink to terracotta on 'anything' (9.92) and back at 11.40. Never a ring and never a highlight."
+        }
+      ],
+      "whiteboard_version": "The browser is redrawn at the top centre (carried across the seam, LAW 45); the marker draws the binoculars, the steering wheel and the microscope in a row under it on their verbs, each with its word written under it and a terracotta line up into the browser's bottom edge; on 'anything' the browser outline is retraced in terracotta."
+    },
+    {
+      "i": 2,
+      "t_start": 11.74,
+      "t_end": 16.06,
+      "words": "So you can use that browser as your main browser, and whenever you have any question,",
+      "says": "You can make it your everyday browser, and when a question comes up...",
+      "picture": "On 'So' the three objects, their lines and their words leave; the browser holds alone at the top centre. On 'main' MAIN BROWSER is written under it. On 'any question' the browser and its label slide left together and a speech bubble holding a big question mark pops at the upper right.",
+      "objects": [
+        "browser",
+        "label-main-browser",
+        "question-bubble"
+      ],
+      "emphasis": [],
+      "whiteboard_version": "The board erases the three objects (the browser stays, LAW 45); MAIN BROWSER is written under it; on 'any question' the browser and MAIN BROWSER are redrawn one step left and a speech bubble with a question mark is drawn at the upper right."
+    },
+    {
+      "i": 3,
+      "t_start": 16.34,
+      "t_end": 22.0,
+      "words": "you can simply just go ahead, chat with your Hermes agent, and have it either do the task or help you with it.",
+      "says": "Ask the Hermes agent in chat, and it either does the task for you or helps you do it.",
+      "picture": "On 'Hermes' the Hermes tile pops under the question bubble (the bubble's tail points at it), HERMES AGENT written under it on the same baseline as MAIN BROWSER. On 'do the task' a terracotta arrow runs from the Hermes tile into the browser's right edge and a big terracotta tick draws inside the browser's page. On 'help you' the Hermes tile's own border flips terracotta and holds to the outro.",
+      "objects": [
+        "browser",
+        "label-main-browser",
+        "question-bubble",
+        "hermes-tile-c",
+        "label-hermes",
+        "link-do",
+        "task-tick"
+      ],
+      "emphasis": [
+        {
+          "target": "hermes-tile-c",
+          "kind": "box",
+          "why": "The tile is a DRAWN card holding a raster mark: LAW 38 rule 2 border flip on the tile's OWN border (21.38, 'help'), never a box drawn over the mark itself."
+        }
+      ],
+      "whiteboard_version": "The marker draws the Hermes tile under the bubble with HERMES AGENT under it on the MAIN BROWSER baseline, then the terracotta arrow from Hermes into the browser and the tick inside the browser page on 'do the task'; on 'help you' the Hermes tile outline is retraced in terracotta."
+    },
+    {
+      "i": 4,
+      "t_start": 22.3,
+      "t_end": 26.48,
+      "words": "Now follow for more AI news, videos, and tutorials each and every single day, and catch you in the next one.",
+      "says": "The channel's standing call to action.",
+      "picture": "The opaque cream sheet rises and wipes the board. On it, small and centred, the binoculars glyph, then the terracotta rule and the handle lockup.",
+      "objects": [
+        "o-sheet",
+        "o-glyph",
+        "o-rule",
+        "o-slot"
+      ],
+      "emphasis": [],
+      "whiteboard_version": "Identical: the rising sheet, the small binoculars, the rule, the lockup."
+    }
+  ],
+  "bespoke_objects": [
+    {
+      "name": "pair of binoculars",
+      "t": 8.4,
+      "bbox": [
+        0.125,
+        0.2885,
+        0.3009,
+        0.3677
+      ],
+      "space": "norm",
+      "why_bespoke": "SEE as an everyday object: binoculars are the thing you look THROUGH, so the agent watching the browser is one picture; an eye would be a drawn face part (LAW 17) and a view icon is UI.",
+      "how_drawn": "Two fat rounded barrels side by side (card fill, ink outline), each topped by a narrower eyepiece, joined by a short bridge with a hinge pin, and a lens band near the bottom of each barrel."
+    },
+    {
+      "name": "car steering wheel",
+      "t": 9.3,
+      "bbox": [
+        0.412,
+        0.2885,
+        0.588,
+        0.3677
+      ],
+      "space": "norm",
+      "why_bespoke": "OPERATE as an everyday object: whoever holds the wheel drives, so the agent taking the controls of the browser is one picture; a mouse cursor would be a UI glyph.",
+      "how_drawn": "A thick round rim drawn as two-arc paths (no circle tag), a round hub, and three spokes to the rim at 9, 3 and 6 o'clock, the lower spoke wider, like a car wheel."
+    },
+    {
+      "name": "science lab microscope",
+      "t": 10.4,
+      "bbox": [
+        0.6991,
+        0.2885,
+        0.875,
+        0.3677
+      ],
+      "space": "norm",
+      "why_bespoke": "ANALYZE as an everyday object: a microscope is what you use to study something closely; a magnifier is refused at plan time because it reads as the search glyph.",
+      "how_drawn": "A flat base, a curved arm rising from its back, a slanted tube with an eyepiece at the top left and an objective pointing down, a stage plate under the objective, and one focus knob on the arm."
+    }
+  ],
+  "labels": [
+    {
+      "for": "app-frame",
+      "text": "HERMES AGENT",
+      "place": "above",
+      "at": 0.46,
+      "note": "LAW 9 key term: the FIRST type on the board, alone, 48 px (25.6 design units), centred on x = 540 above the tile, then above the app frame that draws round it at 2.34. Spoken 0.10-0.66. data-label-for=\"app-frame\" (the frame is its host once it exists; before that it sits above the centred tile on the same axis)."
+    },
+    {
+      "for": "browser",
+      "text": "BROWSER",
+      "place": "below",
+      "at": 1.3,
+      "note": "LAW 39: centred on the browser's axis, entirely below it, inside the app frame. Spoken 1.08-1.42. Leaves with chapter A at 3.58."
+    },
+    {
+      "for": "binoculars",
+      "text": "SEE",
+      "place": "below",
+      "at": 7.4,
+      "note": "LAW 39 + LAW 50: under its object; the three verb labels share one size (28 px), one 190 px seat and one baseline. Spoken 7.30-7.44."
+    },
+    {
+      "for": "steering-wheel",
+      "text": "OPERATE",
+      "place": "below",
+      "at": 8.8,
+      "note": "Sibling of SEE: same row, same size, same seat. Spoken 8.70-9.04."
+    },
+    {
+      "for": "microscope",
+      "text": "ANALYZE",
+      "place": "below",
+      "at": 9.44,
+      "note": "Sibling of SEE: same row, same size, same seat. Spoken 9.34-9.84."
+    },
+    {
+      "for": "browser",
+      "text": "MAIN BROWSER",
+      "place": "below",
+      "at": 13.5,
+      "note": "LAW 39: under the browser, centred on its axis; travels with it on the 15.40 slide (LAW 28, one block). Spoken 13.46-14.12."
+    },
+    {
+      "for": "hermes-tile-c",
+      "text": "HERMES AGENT",
+      "place": "below",
+      "at": 18.4,
+      "note": "LAW 50: sibling of MAIN BROWSER, same size, same seat width, SAME baseline. Spoken 18.24-18.82."
+    }
+  ],
+  "lifetimes": [
+    {
+      "mark": "browser",
+      "t_from": 1.08,
+      "t_to": 22.3,
+      "anchor": "browser",
+      "note": "LAW 42 anchor: the spine of the argument, carried across both seams (LAW 45: a complete object on the board through each handover). Leaves with the outro sheet."
+    },
+    {
+      "mark": "hermes-tile",
+      "t_from": 0.1,
+      "t_to": 3.58,
+      "anchor": null,
+      "note": "Chapter A only."
+    },
+    {
+      "mark": "key-term",
+      "t_from": 0.46,
+      "t_to": 3.58,
+      "anchor": null,
+      "note": "Chapter A only."
+    },
+    {
+      "mark": "label-browser",
+      "t_from": 1.3,
+      "t_to": 3.58,
+      "anchor": null,
+      "note": "Chapter A only."
+    },
+    {
+      "mark": "app-frame",
+      "t_from": 2.34,
+      "t_to": 3.58,
+      "anchor": null,
+      "note": "Chapter A only."
+    },
+    {
+      "mark": "binoculars, steering-wheel, microscope, their labels and links",
+      "t_from": 7.3,
+      "t_to": 11.74,
+      "anchor": null,
+      "note": "Chapter B only, 17 % of the take."
+    },
+    {
+      "mark": "label-main-browser",
+      "t_from": 13.5,
+      "t_to": 22.3,
+      "anchor": "browser",
+      "note": "Welded to the browser."
+    },
+    {
+      "mark": "question-bubble",
+      "t_from": 15.4,
+      "t_to": 22.3,
+      "anchor": null,
+      "note": "26 % of the take; leaves with the outro sheet."
+    },
+    {
+      "mark": "hermes-tile-c, label-hermes",
+      "t_from": 18.24,
+      "t_to": 22.3,
+      "anchor": null,
+      "note": "15 % of the take."
+    },
+    {
+      "mark": "link-do, task-tick",
+      "t_from": 20.04,
+      "t_to": 22.3,
+      "anchor": null,
+      "note": "Leaves with the outro sheet."
+    },
+    {
+      "mark": "emphasis flips",
+      "t_from": 9.92,
+      "t_to": 22.3,
+      "anchor": null,
+      "note": "Browser outline 9.92-11.40; Hermes tile border 21.38-22.30."
+    }
+  ],
+  "connectors": [
+    {
+      "to": "browser",
+      "from": [
+        "binoculars",
+        "steering-wheel",
+        "microscope"
+      ],
+      "note": "LAW 40: three lines into ONE target. Their ends are whiteboard_build.anchor_points(browser_box, 3, 'bottom') (inset 0.16): level to 0 px and mirror-symmetric about x = 540. Each starts at its object's top-centre. data-connect-to=\"browser\" on each; connectors=[...] on the board."
+    },
+    {
+      "to": "browser",
+      "from": [
+        "hermes-tile-c"
+      ],
+      "note": "One arrow from the Hermes tile's left edge (mid-height) into the browser's right edge at the same height, anchor_points(browser_box, 1, 'right'); data-connect-to=\"browser\"."
+    }
+  ],
+  "blocks": [
+    [
+      "app-frame",
+      "hermes-tile",
+      "browser",
+      "label-browser"
+    ],
+    [
+      "binoculars",
+      "label-see"
+    ],
+    [
+      "steering-wheel",
+      "label-operate"
+    ],
+    [
+      "microscope",
+      "label-analyze"
+    ],
+    [
+      "browser",
+      "label-main-browser",
+      "task-tick"
+    ],
+    [
+      "hermes-tile-c",
+      "label-hermes"
+    ],
+    [
+      "question-bubble",
+      "hermes-tile-c"
+    ]
+  ],
+  "blocks_note": "LAW 41: the app frame is a container (its contents are one block); each verb object is welded to its word; the tick lives inside the browser page; the bubble's tail points at the Hermes tile it is addressed to. The Nous mark sits inside its tile (a container's contents, inferred).",
+  "pointing_cues": [],
+  "pointing_cues_note": "LAW 37: pipeline/pointing_cues.py --vid hermesbrowser printed 'no pointing cue in this take' and wrote gen/_cues_hermesbrowser.json with cues []; the cues stage marker agrees (cue_count 0). He cites no post, so no source card is raised and nothing is waived.",
+  "boards": {
+    "mode": "chapters",
+    "why": "LAW 43 default: the script has three idea groups (the browser arrives inside Hermes; what the agent can do in it; how you use it day to day). The browser is the one anchor carried across both seams, so every handover lands on a complete object (LAW 45).",
+    "chapters": [
+      {
+        "i": 0,
+        "t_start": 0.1,
+        "t_end": 3.58,
+        "erase_at": 3.58,
+        "holds": [
+          "hermes-tile",
+          "key-term",
+          "browser",
+          "label-browser",
+          "app-frame"
+        ],
+        "why_together": "The news: a browser now sits inside the Hermes desktop app."
+      },
+      {
+        "i": 1,
+        "t_start": 3.58,
+        "t_end": 11.74,
+        "erase_at": 11.74,
+        "holds": [
+          "browser",
+          "binoculars",
+          "steering-wheel",
+          "microscope",
+          "label-see",
+          "label-operate",
+          "label-analyze",
+          "links"
+        ],
+        "why_together": "What makes this browser different: the agent's three powers over it."
+      },
+      {
+        "i": 2,
+        "t_start": 11.74,
+        "t_end": 22.3,
+        "erase_at": 22.3,
+        "holds": [
+          "browser",
+          "label-main-browser",
+          "question-bubble",
+          "hermes-tile-c",
+          "label-hermes",
+          "link-do",
+          "task-tick"
+        ],
+        "why_together": "How you use it: it is your main browser, you ask Hermes, it does the task or helps."
+      }
+    ],
+    "key_term": "HERMES AGENT"
+  },
+  "cast": [
+    "nous-girl-line"
+  ],
+  "cast_note": "THERE IS NO CAST WALL. The one mark on the stage is Hermes, drawn as the Nous girl (Miguel's standing rule: never the Hermes H glyph, nobody recognises it). Registry key `nous-girl-line` (ai-models/nous-girl-line.png, the transparent line-art cutout the cutout chassis already uses for Nous) in a 112 px CARD tile; `nous-girl` (the white-boxed file) is not used because its opaque white plate is plate-on-plate on a card tile (LEARNINGS). MARK IDENTITY: no Claude Code mascot or sticker appears.",
+  "cutout_logo_lanes": [
+    "chatgpt",
+    "perplexity",
+    "claude",
+    "gemini",
+    "openclaw",
+    "copilot"
+  ],
+  "cutout_logo_lanes_note": "Topical to THIS short: the other AI assistants that now live in or drive a browser (ChatGPT's Atlas browser, Perplexity's Comet, Claude in Chrome, Gemini in Chrome, OpenClaw's browser control, Copilot in Edge), mixed, none repeated, and excluding the story's own subject mark (nous-girl-line, on the stage). All six are registry keys with files.",
+  "open_questions": [
+    "Wing review: the prompt0 marker has landed and names hermesbrowser with wing_review true (the instrument abstained: no cut proposed, removed_px 0). The selection stage then ERRORED and track is REFUSED by the chair audit (right side, 2528 px leak at mean luma 50.4, which the audit itself says reads as beard/jaw, not chair). The Astra matte step owns the re-review of matting/hermesbrowser/prompts/kf_overlay_00000.png and the corrected selection; split and whiteboard do not wait for it.",
+    "The browser window, the app frame and the question bubble are UI chrome, declared as such (A SCREEN IS NOT AN OBJECT): the bespoke objects are the three verb objects. The hook carries the real Hermes mark plus the browser arriving inside its app, which is the news itself.",
+    "The Hermes tile appears twice (chapter A as the app's own tile, chapter C as the agent you chat with). They are two elements with two ids; the first leaves at the 3.58 seam."
+  ],
+  "open_doubts": [],
+  "open_doubts_note": "Nothing here changes what the viewer sees without Miguel's answer: there is no pointing cue and no source post, so no card or platform doubt can arise; the Hermes mark choice is his standing rule; the objects, labels and lanes are decisions I can make and have recorded."
+}
+```

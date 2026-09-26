@@ -1,0 +1,1185 @@
+{
+ "video": "ccremote",
+ "format": "cutout",
+ "platform": "tiktok",
+ "fps": 25,
+ "duration": 34.92,
+ "seal": {
+  "ccremote_scene.py": "1bcb6453ff3243221e44e60c5132eb3d8286ded87f80954d8881d6e27d57f7f6",
+  "ccremote_scene_handoff.md": "6b6f5c439fd95c65b33a176fdf72c684ce4fcecdba0d525c43aab2fe5064318c"
+ },
+ "plate": {
+  "box": {
+   "w": 1430.0,
+   "h": 990.0,
+   "left": -217.0,
+   "top": 930.0
+  },
+  "whole_pixels": true,
+  "equals_encoded": {
+   "cut": {
+    "w": 1430,
+    "h": 990
+   },
+   "rim": {
+    "w": 1430,
+    "h": 990
+   }
+  },
+  "origin": "read from plate.json overwide.plate_box (not computed; the box is deliberately not centred)",
+  "face_centre_canvas": {
+   "frames_sampled": 88,
+   "band_rows": 160,
+   "mass_cx_median": 536.9,
+   "mass_cx_p5_p95": [
+    490.3,
+    592.7
+   ],
+   "offset_from_540": -3.1
+  }
+ },
+ "seat": 892.2,
+ "envelope": {
+  "CAP_Y": 892.2,
+  "ZY0": 192.0,
+  "ZY1": 808.4,
+  "CAP_H_true_rendered": 114.59,
+  "true_clear_to_crown": 26.5
+ },
+ "crown_gate": {
+  "frames": 873,
+  "frames_on_plate_top": 0,
+  "minimum": 46,
+  "worst_frame": 625
+ },
+ "core": {
+  "k": 1.0,
+  "left": 0.0,
+  "top": 192.0,
+  "why": "the handoff's own placement (k 1.00, top 192), identical to the approved split; legal inside this body's stage zone",
+  "stage_zone": [
+   192.0,
+   808.4
+  ],
+  "content_band_canvas": [
+   288.0,
+   738.0
+  ],
+  "clear_to_zone_bottom": 70.4
+ },
+ "band": {
+  "content_top": 288.0,
+  "content_bottom": 738.0,
+  "pill_top_rendered": 834.905,
+  "clear_above_pill": 96.91,
+  "clear_below_law30": 96.0
+ },
+ "rail": {
+  "readable_type_right_x": 774.8,
+  "per_key_right_x": {
+   "key-remote": 754.6,
+   "key-off": 665.4,
+   "key-on": 656.4,
+   "step1-txt": 774.8,
+   "step2-txt": 774.8
+  },
+  "ink_left_x": 110.0,
+  "ink_right_x": 936.0,
+  "law30_rail_x": 918.0
+ },
+ "voice": {
+  "source": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/cuts/ccremote/audio.m4a",
+  "sample_rate": 48000,
+  "channels": 2
+ },
+ "matte": {
+  "session": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/matting/ccremote",
+  "layers": {
+   "cut": {
+    "w": 1430,
+    "h": 990
+   },
+   "rim": {
+    "w": 1430,
+    "h": 990
+   }
+  },
+  "hashes": {
+   "cut": "98fe66ac639e4c2f4a137964f531423b38233c34fa38e52a4522c67e2c6c2032",
+   "rim": "a239f03eebfb315502a1168a515b0dd4c4671e90cb8b00c0c2674d3481ef6c2c",
+   "alpha": "0f24621bd48d116192b4708ec4db1edac9584feb6ea010fab74273fb49ff1dec"
+  },
+  "backend": "matanyone2",
+  "selection_mask_sha256": "9c6b6f53ed5071e70e8daa3e96135fcc82d791592a2632e5cd5f06786b265bac",
+  "astra_review": {
+   "status": "ok",
+   "selection_changed": false,
+   "edits": 0
+  },
+  "headroom": {
+   "identity": {
+    "alpha_sha256": "ed8a9a53a616a534cea01ade7b97369c80a9d43d74ee15eef3a93d47fbf4eee1",
+    "display_sha256": "4fa5c2ac8911f714861b2e7fd948ef53dd58859759a9b73e8531e4043960af91",
+    "guard_sha256": "90e6a7f8cf1a142b9a8ab4cf0054f9803188279b68642b84430db31afe79999a",
+    "expected_frames": 873,
+    "floor_px": 24.0
+   },
+   "pass": true,
+   "frames_checked": 873,
+   "min_top_clearance_px": 47.300000000000004,
+   "floor_px": 24.0,
+   "worst_frame": 625,
+   "worst_seconds": 25.0,
+   "unsafe_frames": 0,
+   "first_unsafe_frames": [],
+   "scope": "Every matte frame, top edge of prepared person layer; no caption or semantic face claim"
+  }
+ },
+ "depth_field": {
+  "seat": {
+   "band": [
+    1013.5,
+    1407.5
+   ],
+   "band_h": 394.0,
+   "inter_lane_gap": 26.0,
+   "seat_offset_from_pill": 64.0,
+   "foundation_offset": 63.61,
+   "drift_from_foundation_seat": 0.39,
+   "margin_px": 156.0,
+   "candidates_scanned": 96,
+   "candidates_safe": 78,
+   "instrument": "5th percentile of the PER-FRAME gutter; the union envelope describes a body that never existed",
+   "lanes": [
+    {
+     "lane": "far",
+     "tile": 78.0,
+     "y": 1013.5,
+     "frames": 291,
+     "gutter_p05": 301.3,
+     "gutter_median": 344.0,
+     "gutter_min_single_frame": 271.8,
+     "frames_under_tile": 0
+    },
+    {
+     "lane": "mid",
+     "tile": 116.0,
+     "y": 1117.5,
+     "frames": 291,
+     "gutter_p05": 283.1,
+     "gutter_median": 325.3,
+     "gutter_min_single_frame": 257.1,
+     "frames_under_tile": 0
+    },
+    {
+     "lane": "near",
+     "tile": 148.0,
+     "y": 1259.5,
+     "frames": 291,
+     "gutter_p05": 304.0,
+     "gutter_median": 331.9,
+     "gutter_min_single_frame": -33.3,
+     "frames_under_tile": 4
+    }
+   ]
+  },
+  "lanes": {
+   "far": {
+    "x0": -216.0,
+    "w": 1926.0,
+    "y": 1013.5,
+    "tile": 78.0,
+    "gap": 30.0,
+    "pitch": 108.0,
+    "tiles": 17,
+    "opacity": 0.34,
+    "dist": 46.0,
+    "travel": 414.0,
+    "steps": 9
+   },
+   "mid": {
+    "x0": -304.0,
+    "w": 2696.0,
+    "y": 1117.5,
+    "tile": 116.0,
+    "gap": 36.0,
+    "pitch": 152.0,
+    "tiles": 17,
+    "opacity": 0.66,
+    "dist": 112.0,
+    "travel": 1008.0,
+    "steps": 9
+   },
+   "near": {
+    "x0": -384.0,
+    "w": 3720.0,
+    "y": 1259.5,
+    "tile": 148.0,
+    "gap": 44.0,
+    "pitch": 192.0,
+    "tiles": 19,
+    "opacity": 1.0,
+    "dist": 208.0,
+    "travel": 1872.0,
+    "steps": 9
+   }
+  },
+  "tiles": 53,
+  "step_beats": [
+   3.44,
+   6.96,
+   10.56,
+   14.08,
+   17.72,
+   21.12,
+   24.56,
+   28.32,
+   32.08
+  ],
+  "step_n": 9,
+  "cast": [
+   "claude",
+   "codex",
+   "cursor",
+   "copilot",
+   "opencode",
+   "antigravity",
+   "warp"
+  ],
+  "files": {
+   "claude": "ai-models/claude-color.png",
+   "codex": "coding-tools/codex-color.png",
+   "cursor": "coding-tools/cursor.png",
+   "copilot": "coding-tools/copilot-color.png",
+   "opencode": "coding-tools/opencode-color.png",
+   "antigravity": "coding-tools/antigravity-color.png",
+   "warp": "coding-tools/warp.png"
+  },
+  "field_order": [
+   "claude",
+   "codex",
+   "cursor",
+   "copilot",
+   "claude",
+   "opencode",
+   "antigravity",
+   "warp"
+  ],
+  "lane_mix": {
+   "far": [
+    "antigravity-color.png",
+    "claude-color.png",
+    "codex-color.png",
+    "copilot-color.png",
+    "cursor.png",
+    "opencode-color.png",
+    "warp.png"
+   ],
+   "mid": [
+    "antigravity-color.png",
+    "claude-color.png",
+    "codex-color.png",
+    "copilot-color.png",
+    "cursor.png",
+    "opencode-color.png",
+    "warp.png"
+   ],
+   "near": [
+    "antigravity-color.png",
+    "claude-color.png",
+    "codex-color.png",
+    "copilot-color.png",
+    "cursor.png",
+    "opencode-color.png",
+    "warp.png"
+   ]
+  },
+  "hook_clear_s": 1.5,
+  "intro_dur": 0.66,
+  "pop_behind": null,
+  "pop_behind_why_none": "the only product he names is Claude Code, the stage mark; the depth field never carries the story's own mark and the plan declares no window"
+ },
+ "shared": {
+  "beat_edges": [
+   0.1,
+   4.98,
+   12.0,
+   20.46,
+   24.18,
+   30.64,
+   34.92
+  ],
+  "phone_test_objects": [
+   {
+    "name": "wall light switch",
+    "t": 2.6,
+    "bbox": [
+     0.4167,
+     0.2042,
+     0.5833,
+     0.35
+    ],
+    "canvas": [
+     450.0,
+     392.0,
+     630.0,
+     672.0
+    ]
+   },
+   {
+    "name": "taped light switch",
+    "t": 15.3,
+    "bbox": [
+     0.4167,
+     0.2042,
+     0.5833,
+     0.35
+    ],
+    "canvas": [
+     450.0,
+     392.0,
+     630.0,
+     672.0
+    ]
+   },
+   {
+    "name": "crossed-out sticky note",
+    "t": 22.6,
+    "bbox": [
+     0.3704,
+     0.1781,
+     0.6296,
+     0.324
+    ],
+    "canvas": [
+     400.0,
+     342.0,
+     680.0,
+     622.0
+    ]
+   }
+  ]
+ },
+ "captions": {
+  "n": 36,
+  "texts": [
+   "This is one setting that",
+   "completely changed the",
+   "way through which I",
+   "work with Claude Code",
+   "directly from my phone.",
+   "Now, remote control",
+   "allows you to",
+   "control all of your",
+   "Claude Code sessions",
+   "from your phone,",
+   "but it is not",
+   "turned on by default.",
+   "By using Claude Code,",
+   "you can change it and",
+   "set it on by default,",
+   "meaning that",
+   "any new session",
+   "that you set up with",
+   "your Claude Code",
+   "will be on your phone.",
+   "You will never, ever, ever",
+   "be frustrated because",
+   "you forgot to turn it on.",
+   "Now, go ahead",
+   "onto your Claude Code,",
+   "ask it",
+   "to turn it on,",
+   "and then just keep",
+   "working from your phone",
+   "wherever you are.",
+   "Now, follow for more",
+   "AI news, videos, and",
+   "tutorials each and",
+   "every single day,",
+   "and catch you",
+   "on the next one."
+  ],
+  "widest_px": 744.0
+ },
+ "caption_beats": [
+  {
+   "text": "This is one setting that",
+   "start": 0.1,
+   "end": 0.98,
+   "w": 681.7,
+   "dur": 0.9
+  },
+  {
+   "text": "completely changed the",
+   "start": 1.0,
+   "end": 1.88,
+   "w": 705.47,
+   "dur": 0.92
+  },
+  {
+   "text": "way through which I",
+   "start": 1.92,
+   "end": 2.78,
+   "w": 611.22,
+   "dur": 0.92
+  },
+  {
+   "text": "work with Claude Code",
+   "start": 2.84,
+   "end": 3.66,
+   "w": 691.88,
+   "dur": 0.98
+  },
+  {
+   "text": "directly from my phone.",
+   "start": 3.82,
+   "end": 4.86,
+   "w": 702.5,
+   "dur": 1.16
+  },
+  {
+   "text": "Now, remote control",
+   "start": 4.98,
+   "end": 5.8,
+   "w": 613.64,
+   "dur": 0.94
+  },
+  {
+   "text": "allows you to",
+   "start": 5.92,
+   "end": 6.32,
+   "w": 426.38,
+   "dur": 0.42
+  },
+  {
+   "text": "control all of your",
+   "start": 6.34,
+   "end": 7.4,
+   "w": 546.38,
+   "dur": 1.1
+  },
+  {
+   "text": "Claude Code sessions",
+   "start": 7.44,
+   "end": 8.24,
+   "w": 643.48,
+   "dur": 1.12
+  },
+  {
+   "text": "from your phone,",
+   "start": 8.56,
+   "end": 9.08,
+   "w": 524.56,
+   "dur": 0.82
+  },
+  {
+   "text": "but it is not",
+   "start": 9.38,
+   "end": 10.5,
+   "w": 374.23,
+   "dur": 1.18
+  },
+  {
+   "text": "turned on by default.",
+   "start": 10.56,
+   "end": 11.62,
+   "w": 629.27,
+   "dur": 1.44
+  },
+  {
+   "text": "By using Claude Code,",
+   "start": 12.0,
+   "end": 12.86,
+   "w": 663.61,
+   "dur": 0.96
+  },
+  {
+   "text": "you can change it and",
+   "start": 12.96,
+   "end": 13.96,
+   "w": 644.61,
+   "dur": 1.1
+  },
+  {
+   "text": "set it on by default,",
+   "start": 14.06,
+   "end": 15.0,
+   "w": 586.16,
+   "dur": 1.26
+  },
+  {
+   "text": "meaning that",
+   "start": 15.32,
+   "end": 15.66,
+   "w": 422.89,
+   "dur": 0.66
+  },
+  {
+   "text": "any new session",
+   "start": 15.98,
+   "end": 16.7,
+   "w": 500.95,
+   "dur": 0.76
+  },
+  {
+   "text": "that you set up with",
+   "start": 16.74,
+   "end": 17.68,
+   "w": 605.77,
+   "dur": 0.98
+  },
+  {
+   "text": "your Claude Code",
+   "start": 17.72,
+   "end": 18.32,
+   "w": 539.12,
+   "dur": 0.98
+  },
+  {
+   "text": "will be on your phone.",
+   "start": 18.7,
+   "end": 20.18,
+   "w": 661.3,
+   "dur": 1.76
+  },
+  {
+   "text": "You will never, ever, ever",
+   "start": 20.46,
+   "end": 21.7,
+   "w": 729.19,
+   "dur": 1.26
+  },
+  {
+   "text": "be frustrated because",
+   "start": 21.72,
+   "end": 22.68,
+   "w": 648.55,
+   "dur": 1.0
+  },
+  {
+   "text": "you forgot to turn it on.",
+   "start": 22.72,
+   "end": 24.02,
+   "w": 695.08,
+   "dur": 1.46
+  },
+  {
+   "text": "Now, go ahead",
+   "start": 24.18,
+   "end": 24.8,
+   "w": 462.91,
+   "dur": 0.94
+  },
+  {
+   "text": "onto your Claude Code,",
+   "start": 25.12,
+   "end": 26.06,
+   "w": 691.48,
+   "dur": 1.4
+  },
+  {
+   "text": "ask it",
+   "start": 26.52,
+   "end": 26.78,
+   "w": 211.36,
+   "dur": 0.3
+  },
+  {
+   "text": "to turn it on,",
+   "start": 26.82,
+   "end": 27.38,
+   "w": 401.55,
+   "dur": 0.88
+  },
+  {
+   "text": "and then just keep",
+   "start": 27.7,
+   "end": 28.52,
+   "w": 560.42,
+   "dur": 0.86
+  },
+  {
+   "text": "working from your phone",
+   "start": 28.56,
+   "end": 29.48,
+   "w": 744.03,
+   "dur": 1.22
+  },
+  {
+   "text": "wherever you are.",
+   "start": 29.78,
+   "end": 30.38,
+   "w": 542.94,
+   "dur": 0.86
+  },
+  {
+   "text": "Now, follow for more",
+   "start": 30.64,
+   "end": 31.34,
+   "w": 635.22,
+   "dur": 0.76
+  },
+  {
+   "text": "AI news, videos, and",
+   "start": 31.4,
+   "end": 32.479,
+   "w": 611.56,
+   "dur": 1.12
+  },
+  {
+   "text": "tutorials each and",
+   "start": 32.52,
+   "end": 33.12,
+   "w": 547.44,
+   "dur": 0.64
+  },
+  {
+   "text": "every single day,",
+   "start": 33.16,
+   "end": 33.62,
+   "w": 511.53,
+   "dur": 0.82
+  },
+  {
+   "text": "and catch you",
+   "start": 33.98,
+   "end": 34.24,
+   "w": 434.31,
+   "dur": 0.28
+  },
+  {
+   "text": "on the next one.",
+   "start": 34.26,
+   "end": 34.72,
+   "w": 499.33,
+   "dur": 0.66
+  }
+ ],
+ "transcript": {
+  "law47_tail_s": 0.2,
+  "law47_cap_s": 0.24,
+  "law47_verdict": "PASS \u2014 0.200s past the last word against a 0.240s cap",
+  "law46": "the scripted opening occurs ONCE inside the keeper take, at word 0 / 0.10 s",
+  "take_corroboration": {
+   "mode": "model keep_words (the agent read the transcript and chose the words; no rule detection)",
+   "keep_words": [
+    [
+     418,
+     552
+    ]
+   ],
+   "take_word_index": 418,
+   "take_start_s": 196.6,
+   "words": 135,
+   "of_raw_words": 553,
+   "corroboration": "model-authored keep ranges"
+  },
+  "words": 135,
+  "function_word_merges": 0,
+  "beats_before_merge": 36,
+  "orphan_repartitions": [],
+  "solo_word_merges": [],
+  "board_keys_forbidden_at_split": [
+   "ask it to turn it on",
+   "off by default",
+   "on by default",
+   "remote control",
+   "turn it on",
+   "work from your phone"
+  ]
+ },
+ "checks": {
+  "cues": {
+   "plate": {
+    "word": 2,
+    "text": "one",
+    "t": 0.4
+   },
+   "tile_mid": {
+    "word": 14,
+    "text": "Claude",
+    "t": 3.2
+   },
+   "phone": {
+    "word": 19,
+    "text": "phone.",
+    "t": 4.68
+   },
+   "keyterm": {
+    "word": 21,
+    "text": "remote",
+    "t": 5.14
+   },
+   "tile_top": {
+    "word": 30,
+    "text": "Claude",
+    "t": 7.44
+   },
+   "tile_bot": {
+    "word": 32,
+    "text": "sessions",
+    "t": 7.92
+   },
+   "wire_in": {
+    "word": 33,
+    "text": "from",
+    "t": 8.56
+   },
+   "sw_flip": {
+    "word": 39,
+    "text": "not",
+    "t": 10.1
+   },
+   "off_key": {
+    "word": 43,
+    "text": "default.",
+    "t": 11.24
+   },
+   "cc_flip": {
+    "word": 46,
+    "text": "Claude",
+    "t": 12.4
+   },
+   "lever_up": {
+    "word": 50,
+    "text": "change",
+    "t": 13.38
+   },
+   "tape": {
+    "word": 55,
+    "text": "on",
+    "t": 14.36
+   },
+   "on_key": {
+    "word": 57,
+    "text": "default,",
+    "t": 14.68
+   },
+   "fan": {
+    "word": 61,
+    "text": "new",
+    "t": 16.2
+   },
+   "rows": {
+    "word": 75,
+    "text": "phone.",
+    "t": 19.9
+   },
+   "c1out": {
+    "word": 76,
+    "text": "You",
+    "t": 20.46
+   },
+   "strike1": {
+    "word": 78,
+    "text": "never,",
+    "t": 20.8
+   },
+   "strike2": {
+    "word": 79,
+    "text": "ever,",
+    "t": 21.14
+   },
+   "strike3": {
+    "word": 80,
+    "text": "ever",
+    "t": 21.48
+   },
+   "c2out": {
+    "word": 95,
+    "text": "Claude",
+    "t": 25.6
+   },
+   "row1_txt": {
+    "word": 97,
+    "text": "ask",
+    "t": 26.52
+   },
+   "tick1": {
+    "word": 102,
+    "text": "on,",
+    "t": 27.26
+   },
+   "row2": {
+    "word": 106,
+    "text": "keep",
+    "t": 28.3
+   },
+   "tick2": {
+    "word": 110,
+    "text": "phone",
+    "t": 29.22
+   },
+   "outro": {
+    "word": 114,
+    "text": "Now,",
+    "t": 30.64
+   },
+   "lever": {
+    "word": 3,
+    "text": "setting",
+    "t": 0.66,
+    "window": [
+     0.6,
+     1.82
+    ]
+   },
+   "note": {
+    "word": 76,
+    "text": "You",
+    "t": 20.5,
+    "window": [
+     20.46,
+     21.54
+    ]
+   },
+   "note_txt": {
+    "word": 77,
+    "text": "will",
+    "t": 20.56,
+    "window": [
+     20.56,
+     21.72
+    ]
+   },
+   "row1": {
+    "word": 95,
+    "text": "Claude",
+    "t": 25.64,
+    "window": [
+     25.6,
+     26.8
+    ]
+   },
+   "_law43": {
+    "board_mode": "chapters",
+    "chapters": 3,
+    "erase_at": [
+     20.46,
+     25.6,
+     30.64
+    ]
+   }
+  },
+  "word_sync": {
+   "typed_states": [
+    {
+     "state": "key-remote",
+     "first_visible_text": "REMOTE CONTROL",
+     "at": 5.14,
+     "words": "remote control",
+     "window": [
+      5.14,
+      6.8
+     ]
+    },
+    {
+     "state": "key-off",
+     "first_visible_text": "OFF BY DEFAULT",
+     "at": 11.24,
+     "words": "not turned on by default.",
+     "window": [
+      10.1,
+      12.62
+     ]
+    },
+    {
+     "state": "key-on",
+     "first_visible_text": "ON BY DEFAULT",
+     "at": 14.68,
+     "words": "on by default,",
+     "window": [
+      14.36,
+      16.0
+     ]
+    },
+    {
+     "state": "step1-txt",
+     "first_visible_text": "ASK IT TO TURN IT ON",
+     "at": 26.52,
+     "words": "ask it to turn it on,",
+     "window": [
+      26.52,
+      28.38
+     ]
+    },
+    {
+     "state": "step2-txt",
+     "first_visible_text": "WORK FROM YOUR PHONE",
+     "at": 28.400000000000002,
+     "words": "keep working from your phone",
+     "window": [
+      28.3,
+      30.48
+     ]
+    },
+    {
+     "state": "note",
+     "first_visible_text": "TURN IT ON",
+     "at": 20.56,
+     "words": "you will never, ever, ever (struck) ... forgot to turn it on. (23.58)",
+     "kind": "picture of the reminder, no value to disagree"
+    }
+   ],
+   "disagreements": 0,
+   "digits_that_tick": 0
+  },
+  "law37": {
+   "scan_cue_count": 0,
+   "plan_declared_cards": 0,
+   "source_cards_in_the_page": 0
+  },
+  "law39": {
+   "key-off": {
+    "host": "sw",
+    "side": "below",
+    "text": "OFF BY DEFAULT",
+    "at": 11.24,
+    "gutter_core_px": 22.0,
+    "box_canvas": [
+     390.0,
+     694.0,
+     690.0,
+     738.0
+    ]
+   },
+   "key-on": {
+    "host": "sw",
+    "side": "below",
+    "text": "ON BY DEFAULT",
+    "at": 14.68,
+    "gutter_core_px": 22.0,
+    "box_canvas": [
+     390.0,
+     694.0,
+     690.0,
+     738.0
+    ]
+   },
+   "_law50": {
+    "plain_label_font_px": 28.0,
+    "same_seat": true
+   },
+   "_key_term": {
+    "text": "REMOTE CONTROL",
+    "font_px": 48.0,
+    "design_units": 25.6,
+    "first_type": true
+   }
+  },
+  "law42": {
+   "board_mode": "chapters",
+   "anchors": [
+    "o-glyph",
+    "o-rule",
+    "o-sheet",
+    "o-slot"
+   ],
+   "mark_shares": {
+    "tile-top": 0.381,
+    "tile-mid": 0.503,
+    "tile-bot": 0.368,
+    "step1": 0.157
+   },
+   "every_non_anchor_finite": true
+  },
+  "law38": {
+   "border_flips": [
+    {
+     "target": "#sw-plate",
+     "from": 10.1,
+     "until": 11.62
+    },
+    {
+     "target": "#tile-mid",
+     "from": 12.4,
+     "until": 13.3
+    },
+    {
+     "target": "#step1-box",
+     "from": 27.26,
+     "until": 31.12
+    },
+    {
+     "target": "#step2-box",
+     "from": 29.22,
+     "until": 31.12
+    }
+   ],
+   "rings_ellipses_circles": 0,
+   "highlights": 0,
+   "dom_elements_added": 0
+  },
+  "law2": {
+   "stage_marks": [
+    "claude-code"
+   ],
+   "resolved": {
+    "claude-code": "/Users/migle/Documents/Workspace/assets/logos/coding-tools/claudecode-color.png"
+   },
+   "cutout_lanes_not_ours": [
+    "claude",
+    "codex",
+    "cursor",
+    "copilot",
+    "opencode",
+    "antigravity",
+    "warp"
+   ]
+  },
+  "law22": {
+   "events": 22,
+   "tightest_gap_s": 0.34,
+   "deliberately_silent": {
+    "lever 0.66": "0.26 s after the plate pop; one pop scores both",
+    "ON BY DEFAULT 14.68": "0.32 s after the tape pop",
+    "note 20.50": "0.04 s after the chapter whoosh",
+    "row 1 tile 25.64": "0.04 s after the chapter whoosh",
+    "flips": "a colour flip is not an arrival"
+   }
+  },
+  "draw_on": {
+   "dash_selectors": {
+    "#note-edge": 1,
+    "#note-fold": 1,
+    "#step1-box .tk": 1,
+    "#step2-box .tk": 1,
+    "#sw .sws": 4,
+    "#sw-plate": 1,
+    "#wire-in": 1,
+    "#wires .fan": 3
+   },
+   "verdict": "every dash equals its path's declared length (100)"
+  },
+  "law40": {
+   "connectors": [
+    {
+     "id": "wire-in",
+     "to": "sw",
+     "ends": [
+      [
+       290.0,
+       340.0
+      ],
+      [
+       450.0,
+       340.0
+      ]
+     ]
+    },
+    {
+     "id": "wire-tile-top",
+     "to": "tile-top",
+     "ends": [
+      [
+       630.0,
+       244.8
+      ],
+      [
+       824.0,
+       204.0
+      ]
+     ]
+    },
+    {
+     "id": "wire-tile-mid",
+     "to": "tile-mid",
+     "ends": [
+      [
+       630.0,
+       340.0
+      ],
+      [
+       824.0,
+       340.0
+      ]
+     ]
+    },
+    {
+     "id": "wire-tile-bot",
+     "to": "tile-bot",
+     "ends": [
+      [
+       630.0,
+       435.20000000000005
+      ],
+      [
+       824.0,
+       476.0
+      ]
+     ]
+    }
+   ],
+   "declared": {
+    "wire-in": {
+     "to": "sw-plate",
+     "side": "left",
+     "fraction": 0.5,
+     "check_at": 18.0
+    },
+    "wire-tile-top": {
+     "to": "tile-top",
+     "side": "left",
+     "fraction": 0.5,
+     "check_at": 18.0
+    },
+    "wire-tile-mid": {
+     "to": "tile-mid",
+     "side": "left",
+     "fraction": 0.5,
+     "check_at": 18.0
+    },
+    "wire-tile-bot": {
+     "to": "tile-bot",
+     "side": "left",
+     "fraction": 0.5,
+     "check_at": 18.0
+    }
+   }
+  },
+  "emphasis_declared": {
+   "sw-plate": {
+    "kind": "border",
+    "target": "sw-plate",
+    "check_at": 11.2
+   },
+   "tile-mid": {
+    "kind": "border",
+    "target": "tile-mid",
+    "check_at": 13.0
+   },
+   "step1-box": {
+    "kind": "border",
+    "target": "step1-box",
+    "check_at": 28.0
+   },
+   "step2-box": {
+    "kind": "border",
+    "target": "step2-box",
+    "check_at": 30.0
+   }
+  }
+ },
+ "cast_check": {
+  "claude-code": "/Users/migle/Documents/Workspace/assets/logos/coding-tools/claudecode-color.png",
+  "claude": "/Users/migle/Documents/Workspace/assets/logos/ai-models/claude-color.png",
+  "codex": "/Users/migle/Documents/Workspace/assets/logos/coding-tools/codex-color.png",
+  "cursor": "/Users/migle/Documents/Workspace/assets/logos/coding-tools/cursor.png",
+  "copilot": "/Users/migle/Documents/Workspace/assets/logos/coding-tools/copilot-color.png",
+  "opencode": "/Users/migle/Documents/Workspace/assets/logos/coding-tools/opencode-color.png",
+  "antigravity": "/Users/migle/Documents/Workspace/assets/logos/coding-tools/antigravity-color.png",
+  "warp": "/Users/migle/Documents/Workspace/assets/logos/coding-tools/warp.png"
+ },
+ "edge_fade": {
+  "masked_containers": 3,
+  "fade_px": 46.0,
+  "meters_exempt": []
+ },
+ "handle": "@migueltorrez.ai",
+ "render": {
+  "w": 1080,
+  "h": 1920,
+  "zoom": 1
+ }
+}

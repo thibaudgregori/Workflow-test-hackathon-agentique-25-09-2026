@@ -1,0 +1,473 @@
+{
+ "video": "grokdesktop",
+ "format": "whiteboard",
+ "variant": "plan view (fix)",
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/projects/grokdesktop_whiteboard",
+ "handle": "@migueltorrez.ai",
+ "handle_key": "tiktok_ig",
+ "duration_s": 34.76,
+ "fps": 25,
+ "render": "1080x1920 @ zoom 1",
+ "board": "576x460 design units",
+ "board_box": [
+  40.0,
+  150.0,
+  536.0,
+  425.0
+ ],
+ "strokes": 29,
+ "rigids": 22,
+ "board_text": [
+  "TOP 3",
+  "DESKTOP APP",
+  "USER INTERFACE",
+  "WEEKS OR MONTHS"
+ ],
+ "top_ink_u": 142.7,
+ "top_band_u": 102.4,
+ "pen_top_u": 104.1,
+ "ink_bottom_px": 760.4,
+ "cap_band_top_px": 799.2,
+ "cap_clearance_px": 38.8,
+ "ink_bottom_ink_px": 738.8,
+ "cap_clearance_ink_px": 60.4,
+ "seam_pill_top_px": 805.2,
+ "cap_clearance_ink_to_pill_px": 66.4,
+ "seam_measures": "cap_clearance_px = line boxes vs the reserved band (THE GATE); cap_clearance_ink_px = glyph ink vs the same band; cap_clearance_ink_to_pill_px = glyph ink vs the pill's painted top edge (the clerk's surface)",
+ "rail_hits": [],
+ "label_law": {
+  "window_s": 1.0,
+  "key_term": "TOP 3",
+  "key_term_fs_u": 25.6,
+  "written": {
+   "TOP 3": 2.1,
+   "DESKTOP APP": 6.2,
+   "USER INTERFACE": 18.7,
+   "WEEKS OR MONTHS": 29.84
+  },
+  "plan": {
+   "three": "TOP 3",
+   "application": "DESKTOP APP",
+   "interface": "USER INTERFACE",
+   "months": "WEEKS OR MONTHS"
+  },
+  "comparisons": [],
+  "unplanned_text": [],
+  "verdict": "PASS"
+ },
+ "law4": {
+  "law": "4 (overlap test)",
+  "board_words_that_also_appear_as_a_pill": {}
+ },
+ "round4": {
+  "law6_lifetimes": {
+   "duration_s": 34.76,
+   "chaptered": true,
+   "max_frac": 0.4,
+   "declared_anchors": [],
+   "lingering": [],
+   "verdict": "PASS"
+  },
+  "law2_no_enclosure": {
+   "rings": 0,
+   "boxes": 2,
+   "highlights": 0,
+   "rasters": [],
+   "wrong_tool_advisory": [],
+   "verdict": "PASS"
+  },
+  "law3_label_side": {
+   "checked": 4,
+   "detail": {
+    "TOP 3": {
+     "host": "medal",
+     "dx_u": 0.0,
+     "band_u": 81.8,
+     "place": "below"
+    },
+    "DESKTOP APP": {
+     "host": "bridge",
+     "dx_u": 0.0,
+     "band_u": 127.6,
+     "place": "below"
+    },
+    "USER INTERFACE": {
+     "host": "monitor-stand",
+     "dx_u": 0.0,
+     "band_u": 63.8,
+     "place": "below"
+    },
+    "WEEKS OR MONTHS": {
+     "host": "hourglass",
+     "dx_u": 0.0,
+     "band_u": 72.1,
+     "place": "below"
+    }
+   },
+   "verdict": "PASS"
+  },
+  "law5_spacing": {
+   "gate_u": 8.5,
+   "gate_px": 15.9,
+   "aim_u": 12.8,
+   "aim_px": 24.0,
+   "measured_on": "element line boxes",
+   "under_aim": [],
+   "objects": 14,
+   "verdict": "PASS"
+  },
+  "law5_spacing_ink": {
+   "gate_u": 8.5,
+   "gate_px": 15.9,
+   "aim_u": 12.8,
+   "aim_px": 24.0,
+   "measured_on": "glyph ink extents",
+   "under_aim": [],
+   "objects": 14,
+   "verdict": "PASS"
+  },
+  "law5_no_crossing": {
+   "strokes": 29,
+   "types": 4,
+   "verdict": "PASS"
+  },
+  "law4_anchors": {
+   "targets": 0,
+   "verdict": "SKIP \u2014 no connectors declared"
+  }
+ },
+ "outro": {
+  "move": "opaque sheet rises over the board",
+  "wipe_start": 30.44,
+  "wipe_end": 31.0,
+  "travel_px": 862.5,
+  "sheet_opaque": true,
+  "sheet_covers_px": 862.5,
+  "card_ink_enters_px": 322.5,
+  "board_covered_px": 595.0,
+  "overlap_px": 272.5,
+  "board_moves": false,
+  "board_fades": false,
+  "outro_start": 30.44,
+  "verdict": "PASS"
+ },
+ "captions": 37,
+ "cap_font_px": 56.2,
+ "cap_max_pill_w_px": 753.4,
+ "cap_w_budget_px": 756.0,
+ "anchors": {
+  "start": 0.1,
+  "three": 1.84,
+  "right": 4.16,
+  "working": 4.8,
+  "desktop": 5.76,
+  "application": 6.12,
+  "close": 7.72,
+  "gap": 8.1,
+  "between": 8.42,
+  "chatgpt": 10.46,
+  "claude": 11.96,
+  "people": 12.9,
+  "grok2": 14.88,
+  "nice": 17.76,
+  "interface": 18.68,
+  "now1": 19.94,
+  "we": 20.4,
+  "given": 22.52,
+  "believe": 27.2,
+  "months": 29.8,
+  "outro": 30.44,
+  "news": 31.34
+ },
+ "html_bytes": 150440,
+ "sfx": 21,
+ "pen_loops": 9,
+ "pen_seconds": 3.0,
+ "pen_duty_pct": 8.6,
+ "captions_law3b": {
+  "beats_before_merge": 37,
+  "beats_after_merge": 37,
+  "merges": 0,
+  "widest_pill_px": 753.4,
+  "budget_px": 756.0,
+  "respelled": "Claude Code Work. -> Claude Cowork.",
+  "beats": [
+   [
+    0.1,
+    0.72,
+    "Grok is going to"
+   ],
+   [
+    0.72,
+    1.44,
+    "become one of the"
+   ],
+   [
+    1.44,
+    3.26,
+    "top three AI providers"
+   ],
+   [
+    3.26,
+    4.16,
+    "in the world."
+   ],
+   [
+    4.16,
+    4.52,
+    "Right now,"
+   ],
+   [
+    4.52,
+    5.34,
+    "they are working on"
+   ],
+   [
+    5.34,
+    6.12,
+    "a new desktop"
+   ],
+   [
+    6.12,
+    6.94,
+    "application"
+   ],
+   [
+    6.94,
+    7.72,
+    "that is going to"
+   ],
+   [
+    7.72,
+    8.88,
+    "close the gap between"
+   ],
+   [
+    8.88,
+    9.3,
+    "them and"
+   ],
+   [
+    9.3,
+    10.46,
+    "applications such as"
+   ],
+   [
+    10.46,
+    11.62,
+    "ChatGPT Work"
+   ],
+   [
+    11.62,
+    12.9,
+    "and Claude Cowork."
+   ],
+   [
+    12.9,
+    13.9,
+    "People will be able"
+   ],
+   [
+    13.9,
+    14.88,
+    "to use the powerful"
+   ],
+   [
+    14.88,
+    15.74,
+    "Grok model"
+   ],
+   [
+    15.74,
+    17.22,
+    "inside of an application"
+   ],
+   [
+    17.22,
+    19.94,
+    "with a nice user interface."
+   ],
+   [
+    19.94,
+    20.92,
+    "Now, we don't know"
+   ],
+   [
+    20.92,
+    21.62,
+    "when this is set"
+   ],
+   [
+    21.62,
+    22.32,
+    "to release,"
+   ],
+   [
+    22.32,
+    23.16,
+    "but given the amount"
+   ],
+   [
+    23.16,
+    24.04,
+    "of work that's being"
+   ],
+   [
+    24.04,
+    24.98,
+    "put into the Grok"
+   ],
+   [
+    24.98,
+    25.82,
+    "models and"
+   ],
+   [
+    25.82,
+    27.12,
+    "their ecosystem,"
+   ],
+   [
+    27.12,
+    27.74,
+    "I believe that it's"
+   ],
+   [
+    27.74,
+    28.48,
+    "going to be in"
+   ],
+   [
+    28.48,
+    29.6,
+    "a couple of weeks"
+   ],
+   [
+    29.6,
+    30.44,
+    "or months."
+   ],
+   [
+    30.44,
+    31.14,
+    "Now follow for more"
+   ],
+   [
+    31.14,
+    31.62,
+    "AI news,"
+   ],
+   [
+    31.62,
+    32.74,
+    "videos, and tutorials each"
+   ],
+   [
+    32.74,
+    33.72,
+    "and every single day,"
+   ],
+   [
+    33.72,
+    34.14,
+    "and catch you in"
+   ],
+   [
+    34.14,
+    34.66,
+    "the next one."
+   ]
+  ]
+ },
+ "seam_law": {
+  "plan_mode": "chapters",
+  "chapters": 4,
+  "seams": [
+   4.16,
+   12.9,
+   19.94
+  ],
+  "erase_s": 0.24,
+  "qc_seams": "4.16,12.9,19.94",
+  "handover": [
+   {
+    "seam": 4.16,
+    "incoming": "left cliff draws 4.24-4.60 inside the erase"
+   },
+   {
+    "seam": 12.9,
+    "incoming": "monitor bezel draws 12.96-13.30 inside the erase"
+   },
+   {
+    "seam": 19.94,
+    "incoming": "hourglass draws 20.00-20.42 inside the erase"
+   }
+  ],
+  "outro_wipe": 30.44
+ },
+ "pointing_cues": {
+  "n": 0,
+  "note": "gen/_cues_grokdesktop.json: 0 cues"
+ },
+ "phone_test_objects": [
+  {
+   "i": 0,
+   "name": "medal on ribbon",
+   "t": 2.8,
+   "px": [
+    422.0,
+    280.0,
+    658.0,
+    662.0
+   ],
+   "norm": [
+    0.38148,
+    0.14062,
+    0.61852,
+    0.35
+   ]
+  },
+  {
+   "i": 1,
+   "name": "bridge between cliffs",
+   "t": 10.3,
+   "px": [
+    66.0,
+    274.0,
+    1014.0,
+    564.0
+   ],
+   "norm": [
+    0.05185,
+    0.1375,
+    0.94815,
+    0.29896
+   ]
+  },
+  {
+   "i": 2,
+   "name": "sand hourglass timer",
+   "t": 24.2,
+   "px": [
+    436.0,
+    284.0,
+    644.0,
+    644.0
+   ],
+   "norm": [
+    0.39444,
+    0.14271,
+    0.60556,
+    0.34063
+   ]
+  }
+ ],
+ "phone_at_args": [
+  "--phone-at",
+  "2.8:0.38148,0.14062,0.61852,0.35:medal on ribbon",
+  "--phone-at",
+  "10.3:0.05185,0.1375,0.94815,0.29896:bridge between cliffs",
+  "--phone-at",
+  "24.2:0.39444,0.14271,0.60556,0.34063:sand hourglass timer"
+ ]
+}

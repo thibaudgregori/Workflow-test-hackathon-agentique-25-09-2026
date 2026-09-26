@@ -1,0 +1,214 @@
+{
+ "set": "seal",
+ "phone_scale": "405x720",
+ "module": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/gen/grokimagine2_scene.py",
+ "objects": [
+  {
+   "i": 0,
+   "label": "palette",
+   "intended": "a painter's palette",
+   "core_box": [
+    400.0,
+    228.0,
+    680.0,
+    438.0
+   ],
+   "norm_box": [
+    0.3704,
+    0.2188,
+    0.6296,
+    0.3281
+   ],
+   "phone_size_px": [
+    117,
+    91
+   ],
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/review/proof_grokimagine2/00.png",
+   "tight": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/review/proof_grokimagine2/00_tight.png"
+  },
+  {
+   "i": 1,
+   "label": "podium",
+   "intended": "a winners' podium",
+   "core_box": [
+    250.0,
+    250.0,
+    830.0,
+    470.0
+   ],
+   "norm_box": [
+    0.2315,
+    0.2302,
+    0.7685,
+    0.3448
+   ],
+   "phone_size_px": [
+    230,
+    95
+   ],
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/review/proof_grokimagine2/01.png",
+   "tight": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/review/proof_grokimagine2/01_tight.png"
+  },
+  {
+   "i": 2,
+   "label": "picture",
+   "intended": "a framed picture",
+   "core_box": [
+    375.0,
+    212.0,
+    705.0,
+    462.0
+   ],
+   "norm_box": [
+    0.3472,
+    0.2104,
+    0.6528,
+    0.3406
+   ],
+   "phone_size_px": [
+    136,
+    106
+   ],
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/review/proof_grokimagine2/02.png",
+   "tight": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/review/proof_grokimagine2/02_tight.png"
+  },
+  {
+   "i": 3,
+   "label": "wand",
+   "intended": "a magic wand",
+   "core_box": [
+    610.0,
+    222.0,
+    870.0,
+    452.0
+   ],
+   "norm_box": [
+    0.5648,
+    0.2156,
+    0.8056,
+    0.3354
+   ],
+   "phone_size_px": [
+    110,
+    98
+   ],
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/review/proof_grokimagine2/03.png",
+   "tight": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/review/proof_grokimagine2/03_tight.png"
+  },
+  {
+   "i": 4,
+   "label": "phone",
+   "intended": "icon: phone",
+   "core_box": [
+    110.0,
+    300.0,
+    280.0,
+    450.0
+   ],
+   "norm_box": [
+    0.1019,
+    0.2562,
+    0.2593,
+    0.3344
+   ],
+   "phone_size_px": [
+    76,
+    68
+   ],
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/review/proof_grokimagine2/04.png",
+   "tight": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/review/proof_grokimagine2/04_tight.png"
+  },
+  {
+   "i": 5,
+   "label": "poster",
+   "intended": "icon: poster",
+   "core_box": [
+    340.0,
+    300.0,
+    510.0,
+    450.0
+   ],
+   "norm_box": [
+    0.3148,
+    0.2562,
+    0.4722,
+    0.3344
+   ],
+   "phone_size_px": [
+    76,
+    68
+   ],
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/review/proof_grokimagine2/05.png",
+   "tight": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/review/proof_grokimagine2/05_tight.png"
+  },
+  {
+   "i": 6,
+   "label": "polaroid",
+   "intended": "icon: polaroid",
+   "core_box": [
+    570.0,
+    300.0,
+    740.0,
+    450.0
+   ],
+   "norm_box": [
+    0.5278,
+    0.2562,
+    0.6852,
+    0.3344
+   ],
+   "phone_size_px": [
+    76,
+    68
+   ],
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/review/proof_grokimagine2/06.png",
+   "tight": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/review/proof_grokimagine2/06_tight.png"
+  },
+  {
+   "i": 7,
+   "label": "clapper",
+   "intended": "icon: clapper",
+   "core_box": [
+    800.0,
+    300.0,
+    970.0,
+    450.0
+   ],
+   "norm_box": [
+    0.7407,
+    0.2562,
+    0.8981,
+    0.3344
+   ],
+   "phone_size_px": [
+    75,
+    68
+   ],
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/review/proof_grokimagine2/07.png",
+   "tight": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/review/proof_grokimagine2/07_tight.png"
+  },
+  {
+   "i": 8,
+   "label": "picture_moon",
+   "intended": "the picture after 'replace'",
+   "core_box": [
+    210.0,
+    212.0,
+    540.0,
+    462.0
+   ],
+   "norm_box": [
+    0.1944,
+    0.2104,
+    0.5,
+    0.3406
+   ],
+   "phone_size_px": [
+    136,
+    106
+   ],
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/review/proof_grokimagine2/08.png",
+   "tight": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/review/proof_grokimagine2/08_tight.png"
+  }
+ ]
+}

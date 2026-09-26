@@ -1,0 +1,14 @@
+{
+  "status": "ok",
+  "ship": "ok",
+  "selection_changed": false,
+  "edits": 0,
+  "rounds": 1,
+  "what_you_saw": "Inspected the clean frame, full overlay and head overlay and approved the existing outline unchanged: cap brim, both ears, cheeks, jaw, chin, neck, shoulders and visible hands are selected while the chair is excluded. Reviewed playback.jpg, face_2x.jpg, chair_sides.jpg and hands.jpg: at normal viewing size the presenter remains intact and opaque, with no visible chair slab, grey head wedge or neck splash. The source/composite face pairs retain both ears, beard and cap through the sampled turns, including first and last frames. Hands remain present; the fast pointing gesture at 34.8 seconds has soft motion blur, acceptable under Miguel's criterion. No noticeable persistent defect was found in the reviewed sheets. All 895 frames passed headroom, metrics report no automatic holds, and all three installed WebM hashes match ship_v5.json. Reused the already-recovered Modal call fc-01M35JV4SA5K04R8JNG8AFDT8B without another paid dispatch. Its missing original client duration is explicitly unknown; prep successfully wrote ship status ok before its separate batch-summary calculation failed on that unknown duration. Split and whiteboard were untouched.",
+  "hold_reason": "",
+  "outputs": [
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/matting/stripekai/matte_stripekai_v5_cut.webm",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/matting/stripekai/matte_stripekai_v5_rim.webm",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/matting/stripekai/matte_stripekai_v5_alpha.webm"
+  ]
+}

@@ -1,0 +1,1007 @@
+{
+ "render": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/deepseekprices_whiteboard.mp4",
+ "vid": "deepseekprices",
+ "fmt": "whiteboard",
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/projects/deepseekprices_whiteboard",
+ "checks": {
+  "decoded_blank_frames": {
+   "ok": true,
+   "result": {
+    "frames": 840,
+    "fps": 25.0,
+    "zone": [
+     0,
+     799,
+     1080,
+     799
+    ],
+    "ink_floor": 0.0006,
+    "min_ink_frac": 0.0,
+    "empty_frames_total": 2,
+    "leading_trailing_empty": 2,
+    "interior_blank_frames": [],
+    "pass": true
+   },
+   "wall_s": 0.0
+  },
+  "zero_ink_law": {
+   "ok": true,
+   "result": {
+    "render": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/deepseekprices_whiteboard.mp4",
+    "frames": 840,
+    "fps": 25.0,
+    "zone_bottom_design_px": 799.205,
+    "zone_px": [
+     1080,
+     799
+    ],
+    "first_word_s": 0.1,
+    "leading_empty_frames": 2,
+    "first_judged_frame": 3,
+    "min_ink_frac_judged": 0.00205813,
+    "min_ink_frac_at_s": 0.12,
+    "blank_frames": [],
+    "verdict": "PASS"
+   },
+   "wall_s": 0.0
+  },
+  "clip_coverage_page": {
+   "ok": true,
+   "result": {
+    "duration_s": 33.58,
+    "fps": 25,
+    "groups": {
+     "stage": {
+      "clips": 0,
+      "checked": false,
+      "note": "fewer than two clips \u2014 nothing can hand over"
+     },
+     "tz": {
+      "clips": 1,
+      "checked": false,
+      "note": "fewer than two clips \u2014 nothing can hand over"
+     },
+     "scap": {
+      "clips": 31,
+      "checked": true,
+      "frames": 839,
+      "span": [
+       0.08,
+       33.5
+      ],
+      "holes": [],
+      "ghosts": [],
+      "pass": true
+     }
+    },
+    "holes": 0,
+    "ghosts": 0,
+    "pass": true
+   },
+   "wall_s": 0.0
+  },
+  "double_exposure": {
+   "ok": true,
+   "result": {
+    "frames": 840,
+    "fps": 25.0,
+    "first_word_s": 0.1,
+    "leading_blank_run_frames": 2,
+    "after_first_word": {
+     "from_frame": 3,
+     "from_t": 0.12,
+     "basis": "first spoken word",
+     "min_ink": 285,
+     "min_ink_t": 0.12,
+     "min_ink40": 255,
+     "min_ink40_t": 0.12,
+     "zero_ink_frames": [],
+     "zero_ink40_frames": []
+    },
+    "after_leading_run": {
+     "from_frame": 3,
+     "from_t": 0.12,
+     "basis": "opening fade-up cleared",
+     "min_ink": 285,
+     "min_ink_t": 0.12,
+     "min_ink40": 255,
+     "min_ink40_t": 0.12,
+     "zero_ink_frames": [],
+     "zero_ink40_frames": []
+    },
+    "after_first_readable_ink": {
+     "from_frame": 2,
+     "from_t": 0.08,
+     "basis": "first READABLE ink on screen",
+     "min_ink": 280,
+     "min_ink_t": 0.08,
+     "min_ink40": 248,
+     "min_ink40_t": 0.08,
+     "zero_ink_frames": [],
+     "zero_ink40_frames": []
+    },
+    "double_exposure_floor_px": 600,
+    "double_exposure_frames": [
+     {
+      "t": 0.76,
+      "outgoing_px": 665,
+      "incoming_px": 607
+     }
+    ],
+    "double_exposure_count": 1,
+    "note": "candidates, not a verdict \u2014 adjudicate each window (procedure v3); the opening fade-up legitimately fires"
+   },
+   "wall_s": 0.06
+  },
+  "face_centring": {
+   "ok": true,
+   "result": {
+    "label": "deepseekprices_whiteboard",
+    "video": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/deepseekprices_whiteboard.mp4",
+    "duration_s": 33.6,
+    "detector": "mediapipe/blazeface",
+    "segment_source": "auto:layout-detector",
+    "segments": null,
+    "every_s": 0.5,
+    "tol_pct": 4.0,
+    "band_level": "warning",
+    "full_face": {
+     "n": 0,
+     "worst_dx_pct": null,
+     "worst_t": null,
+     "mean_abs_dx_pct": null,
+     "offenders": []
+    },
+    "band": {
+     "n": 67,
+     "worst_dx_pct": -5.46,
+     "worst_t": 23.5,
+     "warnings": [
+      {
+       "t": 0.5,
+       "dx_pct": -4.17,
+       "face_h_pct": 14.5,
+       "class": "band",
+       "score": 0.97,
+       "skin": 0.94
+      },
+      {
+       "t": 8.5,
+       "dx_pct": -4.07,
+       "face_h_pct": 14.6,
+       "class": "band",
+       "score": 0.98,
+       "skin": 0.93
+      },
+      {
+       "t": 11.5,
+       "dx_pct": -5.28,
+       "face_h_pct": 15.3,
+       "class": "band",
+       "score": 0.98,
+       "skin": 0.92
+      },
+      {
+       "t": 15.5,
+       "dx_pct": -5.0,
+       "face_h_pct": 16.2,
+       "class": "band",
+       "score": 0.98,
+       "skin": 0.9
+      },
+      {
+       "t": 20.0,
+       "dx_pct": 4.35,
+       "face_h_pct": 14.9,
+       "class": "band",
+       "score": 0.98,
+       "skin": 0.92
+      },
+      {
+       "t": 23.0,
+       "dx_pct": -4.44,
+       "face_h_pct": 15.0,
+       "class": "band",
+       "score": 0.98,
+       "skin": 0.93
+      },
+      {
+       "t": 23.5,
+       "dx_pct": -5.46,
+       "face_h_pct": 15.3,
+       "class": "band",
+       "score": 0.98,
+       "skin": 0.92
+      }
+     ]
+    },
+    "pass": true,
+    "verdict": "PASS"
+   },
+   "wall_s": 0.85
+  },
+  "pill_canon_rendered": {
+   "ok": true,
+   "result": {
+    "samples": 60,
+    "band_rows_px": [
+     772,
+     952
+    ],
+    "frames_without_a_pill": 0,
+    "distinct_heights_px": {
+     "113": 2,
+     "114": 58
+    },
+    "modal_height_px": 114,
+    "modal_height_design_px": 114.0,
+    "spread_px": 1,
+    "spread_max_px": 2.0,
+    "canonical_height_px": 114.59,
+    "canonical_height_design_px": 114.59,
+    "modal_vs_canon_px": 0.59,
+    "tolerance_px": 3.0,
+    "delivery_scale": 1.0,
+    "widest_pill_px": 752,
+    "widest_pill_in_design_px": 752.0,
+    "verdict": "PASS",
+    "pass": true
+   },
+   "wall_s": 0.0
+  },
+  "gate1_geometry_audit": {
+   "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/geometry_audit.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/projects/deepseekprices_whiteboard --step 0.25 --out /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/gen/_gate1_deepseekprices_whiteboard.json",
+   "rc": 0,
+   "stdout": "deepseekprices_whiteboard: 0 errors, 0 warnings (33.6s @ 0.25s step)\n",
+   "stderr": "",
+   "wall_s": 2.19
+  },
+  "gate2_frame_review": {
+   "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/qc/gate2_frames.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/deepseekprices_whiteboard.mp4 --full --transcript /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/cuts/deepseekprices/transcript_tight.json",
+   "rc": 0,
+   "stdout": "gle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/frames_deepseekprices_whiteboard/f_0025_000.jpg\n  t=00:25.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/frames_deepseekprices_whiteboard/f_0025_333.jpg\n  t=00:25.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/frames_deepseekprices_whiteboard/f_0025_666.jpg\n  t=00:26.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/frames_deepseekprices_whiteboard/f_0026_000.jpg\n  t=00:26.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/frames_deepseekprices_whiteboard/f_0026_333.jpg\n  t=00:26.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/frames_deepseekprices_whiteboard/f_0026_666.jpg\n  t=00:27.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/frames_deepseekprices_whiteboard/f_0027_000.jpg\n  t=00:27.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/frames_deepseekprices_whiteboard/f_0027_333.jpg\n  t=00:27.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/frames_deepseekprices_whiteboard/f_0027_666.jpg\n  t=00:28.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/frames_deepseekprices_whiteboard/f_0028_000.jpg\n  t=00:28.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/frames_deepseekprices_whiteboard/f_0028_333.jpg\n  t=00:28.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/frames_deepseekprices_whiteboard/f_0028_666.jpg\n  t=00:29.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/frames_deepseekprices_whiteboard/f_0029_000.jpg\n  t=00:29.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/frames_deepseekprices_whiteboard/f_0029_333.jpg\n  t=00:29.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/frames_deepseekprices_whiteboard/f_0029_666.jpg\n  t=00:30.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/frames_deepseekprices_whiteboard/f_0030_000.jpg\n  t=00:30.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/frames_deepseekprices_whiteboard/f_0030_333.jpg\n  t=00:30.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/frames_deepseekprices_whiteboard/f_0030_666.jpg\n  t=00:31.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/frames_deepseekprices_whiteboard/f_0031_000.jpg\n  t=00:31.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/frames_deepseekprices_whiteboard/f_0031_666.jpg\n  t=00:32.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/frames_deepseekprices_whiteboard/f_0032_333.jpg\n  t=00:32.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/frames_deepseekprices_whiteboard/f_0032_666.jpg\n  t=00:33.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/frames_deepseekprices_whiteboard/f_0033_000.jpg\n  t=00:33.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/frames_deepseekprices_whiteboard/f_0033_333.jpg\n\nManifest: /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/frames_deepseekprices_whiteboard/manifest.md  (delete dir after review)\n",
+   "stderr": "",
+   "wall_s": 1.52
+  },
+  "audio_guards": {
+   "ok": true,
+   "result": {
+    "mix_8_16k_db": -28.35,
+    "master_8_16k_db": -28.07,
+    "delta_db": -0.28,
+    "tolerance_db": 6.0,
+    "speech_margin_db_p85_p15_33ms_s16le": 20.447,
+    "sync": {
+     "lag_ms": 0,
+     "r": 0.995,
+     "instrument": "10 ms |x| envelope, +/-250 ms search"
+    },
+    "audio_initial_padding_samples": 0,
+    "verdict": "PASS",
+    "pass": true
+   },
+   "wall_s": 0.92
+  },
+  "contact_sheet": {
+   "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/contact_sheet.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/deepseekprices_whiteboard.mp4 --id deepseekprices --fmt whiteboard --run /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26",
+   "rc": 0,
+   "stdout": "{\n \"sheet\": \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/sheet_deepseekprices_whiteboard.png\",\n \"id\": \"deepseekprices\",\n \"fmt\": \"whiteboard\",\n \"duration_s\": 33.6,\n \"frame_source\": \"even\",\n \"times\": [\n  1.4,\n  4.2,\n  7.0,\n  9.8,\n  12.6,\n  15.4,\n  18.2,\n  21.0,\n  23.8,\n  26.6,\n  29.4,\n  32.2\n ],\n \"size_px\": [\n  1798,\n  4344\n ]\n}\n",
+   "stderr": "",
+   "wall_s": 2.36
+  },
+  "phone_crops": {
+   "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/phone_crops.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/deepseekprices_whiteboard.mp4 --out /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review --label deepseekprices_whiteboard --at 2.6:0.4074,0.1542,0.5926,0.35:DeepSeek price tag --at 29.3:0.3889,0.1573,0.6111,0.3552:computer wearing badge",
+   "rc": 0,
+   "stdout": "{\n \"sheet\": \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/phone_deepseekprices_whiteboard.png\",\n \"manifest\": \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/phone_deepseekprices_whiteboard.json\",\n \"answer_key\": \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/phone_deepseekprices_whiteboard.key.json\",\n \"n_objects\": 2,\n \"phone_sizes_px\": [\n  [\n   76,\n   140\n  ],\n  [\n   90,\n   142\n  ]\n ]\n}\n",
+   "stderr": "",
+   "wall_s": 0.74
+  },
+  "whiteboard_seam_law": {
+   "ok": true,
+   "result": {
+    "video": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/deepseekprices_whiteboard.mp4",
+    "erase_dur": 0.3,
+    "land_within": 0.3,
+    "scan_s": 1.6,
+    "thresholds": {
+     "ink_thr": 170,
+     "dilate_px": 9,
+     "min_minor_px": 46,
+     "min_major_px": 118,
+     "min_ink_px": 2600,
+     "min_sigma_px": 18.0,
+     "word": [
+      26,
+      80,
+      80,
+      900,
+      3
+     ],
+     "pen_match_min": 0.62,
+     "pen_bleed": 6,
+     "persist_frames": 3
+    },
+    "seams": [
+     {
+      "erase_at": 12.18,
+      "erase_completes": 12.48,
+      "law_probe_at": 12.8,
+      "dead_s": 0.0,
+      "dead_capped": false,
+      "at_law_probe": {
+       "t": 12.8,
+       "ink_pct_of_zone": 0.976,
+       "qualifying": 1,
+       "landed_on": {
+        "box": [
+         184,
+         529,
+         720,
+         180
+        ],
+        "ink": 6805,
+        "sigma_minor": 46.3,
+        "parts": 2,
+        "kind": "object",
+        "qualifies": true
+       },
+       "verdict": "PASS"
+      },
+      "blobs_at_law_probe": [
+       {
+        "box": [
+         184,
+         529,
+         720,
+         180
+        ],
+        "ink": 6805,
+        "sigma_minor": 46.3,
+        "parts": 2,
+        "kind": "object",
+        "qualifies": true
+       },
+       {
+        "box": [
+         498,
+         609,
+         84,
+         66
+        ],
+        "ink": 1572,
+        "sigma_minor": 12.6,
+        "parts": 1,
+        "kind": "-",
+        "qualifies": false
+       }
+      ],
+      "verdict": "PASS",
+      "window": [
+       {
+        "t": 12.48,
+        "ink_pct_of_zone": 0.58,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 12.52,
+        "ink_pct_of_zone": 0.572,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 12.56,
+        "ink_pct_of_zone": 0.641,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 12.6,
+        "ink_pct_of_zone": 0.719,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 12.64,
+        "ink_pct_of_zone": 0.763,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 12.68,
+        "ink_pct_of_zone": 0.863,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 12.72,
+        "ink_pct_of_zone": 0.939,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 12.76,
+        "ink_pct_of_zone": 0.976,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 12.8,
+        "ink_pct_of_zone": 0.976,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 12.84,
+        "ink_pct_of_zone": 0.977,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 12.88,
+        "ink_pct_of_zone": 0.972,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 12.92,
+        "ink_pct_of_zone": 0.972,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 12.96,
+        "ink_pct_of_zone": 0.972,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 13.0,
+        "ink_pct_of_zone": 0.972,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 13.04,
+        "ink_pct_of_zone": 0.972,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 13.08,
+        "ink_pct_of_zone": 0.972,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 13.12,
+        "ink_pct_of_zone": 0.972,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 13.16,
+        "ink_pct_of_zone": 0.972,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 13.2,
+        "ink_pct_of_zone": 0.972,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 13.24,
+        "ink_pct_of_zone": 0.972,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 13.28,
+        "ink_pct_of_zone": 0.972,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 13.32,
+        "ink_pct_of_zone": 0.972,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 13.36,
+        "ink_pct_of_zone": 0.972,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 13.4,
+        "ink_pct_of_zone": 0.972,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 13.44,
+        "ink_pct_of_zone": 0.972,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 13.48,
+        "ink_pct_of_zone": 0.972,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 13.52,
+        "ink_pct_of_zone": 0.972,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 13.56,
+        "ink_pct_of_zone": 0.972,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 13.6,
+        "ink_pct_of_zone": 0.972,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 13.64,
+        "ink_pct_of_zone": 0.972,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 13.68,
+        "ink_pct_of_zone": 0.972,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 13.72,
+        "ink_pct_of_zone": 0.972,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 13.76,
+        "ink_pct_of_zone": 0.972,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 13.8,
+        "ink_pct_of_zone": 0.972,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 13.84,
+        "ink_pct_of_zone": 0.972,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 13.88,
+        "ink_pct_of_zone": 0.972,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 13.92,
+        "ink_pct_of_zone": 0.972,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 13.96,
+        "ink_pct_of_zone": 0.972,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 14.0,
+        "ink_pct_of_zone": 0.972,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 14.04,
+        "ink_pct_of_zone": 0.972,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 14.08,
+        "ink_pct_of_zone": 0.972,
+        "qualifying": 1,
+        "verdict": "PASS"
+       }
+      ]
+     },
+     {
+      "erase_at": 24.3,
+      "erase_completes": 24.6,
+      "law_probe_at": 24.92,
+      "dead_s": 0.0,
+      "dead_capped": false,
+      "at_law_probe": {
+       "t": 24.92,
+       "ink_pct_of_zone": 1.563,
+       "qualifying": 3,
+       "landed_on": {
+        "box": [
+         427,
+         291,
+         226,
+         346
+        ],
+        "ink": 8141,
+        "sigma_minor": 85.8,
+        "parts": 4,
+        "kind": "object",
+        "qualifies": true
+       },
+       "verdict": "PASS"
+      },
+      "blobs_at_law_probe": [
+       {
+        "box": [
+         427,
+         291,
+         226,
+         346
+        ],
+        "ink": 8141,
+        "sigma_minor": 85.8,
+        "parts": 4,
+        "kind": "object",
+        "qualifies": true
+       },
+       {
+        "box": [
+         461,
+         323,
+         164,
+         120
+        ],
+        "ink": 4202,
+        "sigma_minor": 23.3,
+        "parts": 3,
+        "kind": "object",
+        "qualifies": true
+       },
+       {
+        "box": [
+         489,
+         532,
+         102,
+         66
+        ],
+        "ink": 1090,
+        "sigma_minor": 13.9,
+        "parts": 3,
+        "kind": "word",
+        "qualifies": true
+       }
+      ],
+      "verdict": "PASS",
+      "window": [
+       {
+        "t": 24.6,
+        "ink_pct_of_zone": 0.968,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 24.64,
+        "ink_pct_of_zone": 1.071,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 24.68,
+        "ink_pct_of_zone": 1.173,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 24.72,
+        "ink_pct_of_zone": 1.241,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 24.76,
+        "ink_pct_of_zone": 1.275,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 24.8,
+        "ink_pct_of_zone": 1.325,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 24.84,
+        "ink_pct_of_zone": 1.459,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 24.88,
+        "ink_pct_of_zone": 1.513,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 24.92,
+        "ink_pct_of_zone": 1.563,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 24.96,
+        "ink_pct_of_zone": 1.56,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 25.0,
+        "ink_pct_of_zone": 1.537,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 25.04,
+        "ink_pct_of_zone": 1.544,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 25.08,
+        "ink_pct_of_zone": 1.566,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 25.12,
+        "ink_pct_of_zone": 1.576,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 25.16,
+        "ink_pct_of_zone": 1.596,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 25.2,
+        "ink_pct_of_zone": 1.596,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 25.24,
+        "ink_pct_of_zone": 1.595,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 25.28,
+        "ink_pct_of_zone": 1.657,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 25.32,
+        "ink_pct_of_zone": 1.657,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 25.36,
+        "ink_pct_of_zone": 1.657,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 25.4,
+        "ink_pct_of_zone": 1.657,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 25.44,
+        "ink_pct_of_zone": 1.657,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 25.48,
+        "ink_pct_of_zone": 1.657,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 25.52,
+        "ink_pct_of_zone": 1.657,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 25.56,
+        "ink_pct_of_zone": 1.657,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 25.6,
+        "ink_pct_of_zone": 1.657,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 25.64,
+        "ink_pct_of_zone": 1.657,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 25.68,
+        "ink_pct_of_zone": 1.657,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 25.72,
+        "ink_pct_of_zone": 1.657,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 25.76,
+        "ink_pct_of_zone": 1.657,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 25.8,
+        "ink_pct_of_zone": 1.657,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 25.84,
+        "ink_pct_of_zone": 1.657,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 25.88,
+        "ink_pct_of_zone": 1.657,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 25.92,
+        "ink_pct_of_zone": 1.657,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 25.96,
+        "ink_pct_of_zone": 1.657,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 26.0,
+        "ink_pct_of_zone": 1.657,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 26.04,
+        "ink_pct_of_zone": 1.657,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 26.08,
+        "ink_pct_of_zone": 1.657,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 26.12,
+        "ink_pct_of_zone": 1.657,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 26.16,
+        "ink_pct_of_zone": 1.657,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 26.2,
+        "ink_pct_of_zone": 1.657,
+        "qualifying": 3,
+        "verdict": "PASS"
+       }
+      ]
+     }
+    ],
+    "extra_probes": [],
+    "dead_total_s": 0.0,
+    "failed": [],
+    "verdict": "PASS"
+   },
+   "wall_s": 3.75
+  }
+ },
+ "skipped": {
+  "cutout_checks_24_25": "cutout only, and needs --project",
+  "gate3_gemini_describe": "no --vid, or skipped",
+  "edge_clip": "cutout only, and needs --alpha",
+  "face_hf_vs_plate": "needs --plate (the display plate)",
+  "head_scale_vs_framing": "needs --alpha and --edge-box (the crown comes from the matte's own alpha, the chin from MediaPipe on the delivered frame)"
+ },
+ "zone_bottom_design_px": 799.21,
+ "decode": {
+  "frames": 840,
+  "fps": 25.0,
+  "size": [
+   1080,
+   1920
+  ],
+  "grid_frames": 67,
+  "caption_band_rows": [
+   772,
+   952
+  ],
+  "caption_seat_design_px": 862.5,
+  "wall_s": 5.97
+ },
+ "verdicts": {
+  "decoded_blank_frames": "PASS",
+  "zero_ink_law": "PASS",
+  "clip_coverage_page": "PASS",
+  "double_exposure": "REPORTED",
+  "face_centring": "PASS",
+  "pill_canon_rendered": "PASS",
+  "gate1_geometry_audit": "PASS",
+  "gate2_frame_review": "PASS",
+  "audio_guards": "PASS",
+  "contact_sheet": "PASS",
+  "phone_crops": "PASS",
+  "whiteboard_seam_law": "PASS"
+ },
+ "wall_s": {
+  "decoded_blank_frames": 0.0,
+  "zero_ink_law": 0.0,
+  "clip_coverage_page": 0.0,
+  "double_exposure": 0.06,
+  "face_centring": 0.85,
+  "pill_canon_rendered": 0.0,
+  "gate1_geometry_audit": 2.19,
+  "gate2_frame_review": 1.52,
+  "audio_guards": 0.92,
+  "contact_sheet": 2.36,
+  "phone_crops": 0.74,
+  "whiteboard_seam_law": 3.75,
+  "single_decode": 5.97
+ },
+ "total_wall_s": 6.94,
+ "pass": true
+}

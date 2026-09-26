@@ -1,0 +1,59 @@
+{
+ "video": "deepseekprices",
+ "fps": 25,
+ "duration": 33.58,
+ "shared": {
+  "beat_edges": [
+   0.1,
+   2.44,
+   12.18,
+   22.38,
+   29.4,
+   33.58
+  ]
+ },
+ "formats": {
+  "split": {
+   "phone_objects": [
+    {
+     "name": "DeepSeek price tag",
+     "t": 2.6,
+     "bbox": [
+      0.4074,
+      0.15,
+      0.5926,
+      0.3458
+     ],
+     "canvas": [
+      440.0,
+      288.0,
+      640.0,
+      664.0
+     ]
+    },
+    {
+     "name": "computer wearing badge",
+     "t": 29.3,
+     "bbox": [
+      0.3981,
+      0.1542,
+      0.6019,
+      0.3365
+     ],
+     "canvas": [
+      430.0,
+      296.0,
+      650.0,
+      646.0
+     ]
+    }
+   ],
+   "core": {
+    "left": 0.0,
+    "top": 192.0
+   },
+   "scale": 1.0,
+   "seat": 862.5
+  }
+ }
+}

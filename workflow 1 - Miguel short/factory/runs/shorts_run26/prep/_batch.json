@@ -1,0 +1,74 @@
+{
+ "run": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26",
+ "intake": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/prep/_intake_openairesets.json",
+ "videos": 1,
+ "sessions_root": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/matting",
+ "workers": 5,
+ "tag": "v1",
+ "emit": "v5",
+ "backend": "matanyone2",
+ "gpu": "l4",
+ "cost_basis": "runtime estimates, not provider invoice",
+ "ship_where": "modal",
+ "batch_wall_s": 0.7,
+ "modal_cost_usd": 0.0671,
+ "modal_cost_breakdown_usd": {
+  "sweep": 0.0257,
+  "track": 0.0153,
+  "ship": 0.0261,
+  "repair": 0.0
+ },
+ "repairs": {},
+ "repair_rounds_max": 2,
+ "repair_detail": {},
+ "summary_lines": [
+  "openairesets         PREPARED; final visual review required"
+ ],
+ "ship_seconds": {
+  "openairesets": 57.308993974
+ },
+ "per_stage_wall_s": {
+  "openairesets": {
+   "cut": 63.7,
+   "plate": 43.2,
+   "display_plate": null,
+   "prompt0": 93.6,
+   "track": 5.931068500038236,
+   "ship": 3.3542159160001574,
+   "cues": 0.0,
+   "repair": null
+  }
+ },
+ "status": {
+  "openairesets": {
+   "cut": "ok",
+   "plate": "ok",
+   "display_plate": "reused",
+   "prompt0": "ok",
+   "track": "ok",
+   "ship": "ok",
+   "cues": "ok",
+   "repair": "-"
+  }
+ },
+ "stage_totals_s": {
+  "cut": 63.7,
+  "plate": 43.2,
+  "display_plate": 0.0,
+  "prompt0": 93.6,
+  "track": 5.9,
+  "ship": 3.4,
+  "cues": 0.0,
+  "repair": 0.0
+ },
+ "serial_equivalent_s": 210.0,
+ "needs_source": {
+  "openairesets": []
+ },
+ "wing_review": [
+  "openairesets"
+ ],
+ "packages": {
+  "openairesets": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/prep/openairesets.json"
+ }
+}

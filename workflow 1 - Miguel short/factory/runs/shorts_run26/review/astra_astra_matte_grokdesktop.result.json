@@ -1,0 +1,14 @@
+{
+  "status": "ok",
+  "ship": "ok",
+  "selection_changed": false,
+  "edits": 0,
+  "rounds": 1,
+  "what_you_saw": "Viewed the clean frame, full selection overlay and head overlay: the audit's right-side region overlaps his actual ear, cheek and beard/jaw; the black chair back and headrest are outside the contour. Approved the unchanged mask as codex-astra and deleted chair_audit.json after that visual inspection. The prescribed MatAnyone prep recalculated the same body false positive and refused tracking, so the reviewed contour went through the SAM2 fb1 fallback with no chair object and temporal 1. Viewed all four fresh sheets: playback shows an intact opaque person at phone size; face_2x preserves both ears, cheeks, jaw, chin and cap brim through the sampled first/last frames and head movements; chair_sides shows no retained chair slab, grey wedge or neck splash, including the 25-second chair-band peak; hands shows present hands and fingers, with acceptable soft motion blur on fast gestures. No viewer-visible defect warrants a hold. All 869 frames shipped, headroom passed at 44 px minimum, and the three installed output hashes match the fresh ship marker and reviewed prompt identity.",
+  "hold_reason": "",
+  "outputs": [
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/matting/grokdesktop/matte_grokdesktop_v5_cut.webm",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/matting/grokdesktop/matte_grokdesktop_v5_rim.webm",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/matting/grokdesktop/matte_grokdesktop_v5_alpha.webm"
+  ]
+}

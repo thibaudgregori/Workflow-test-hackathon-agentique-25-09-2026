@@ -1,0 +1,17 @@
+{
+  "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/projects/openairesets_split",
+  "vid": "openairesets",
+  "fmt": "split",
+  "quality": "high",
+  "stage": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/staging/youtube/openairesets_split.mp4",
+  "qc_args": [
+    "--voice-master",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/cuts/openairesets/audio.m4a",
+    "--phone-at",
+    "2.9:0.4537,0.1781,0.75,0.3135:hourglass price tag",
+    "--phone-at",
+    "12.7:0.2148,0.1573,0.7852,0.2412:four hourglasses row",
+    "--phone-at",
+    "15.4:0.3056,0.2948,0.6944,0.3604:rising brick wall"
+  ]
+}

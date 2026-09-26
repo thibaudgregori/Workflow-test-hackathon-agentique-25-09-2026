@@ -1,0 +1,562 @@
+# stripekai — creative plan
+
+Intake's 'diagram build' holds: the script describes one internal platform as a thing that holds skills and tools, who built it, who uses it, and where it strains, so one object (Kai as a toolbox) is built, measured, handed to its users and finally overloaded, with counters only where the script speaks real numbers.
+
+```json
+{
+  "id": "stripekai",
+  "duration_s": 35.82,
+  "lane": "diagram build",
+  "lane_reason": "Intake's 'diagram build' holds: the script describes one internal platform as a thing that holds skills and tools, who built it, who uses it, and where it strains, so one object (Kai as a toolbox) is built, measured, handed to its users and finally overloaded, with counters only where the script speaks real numbers.",
+  "beats": [
+    {
+      "i": 0,
+      "t_start": 0.1,
+      "t_end": 4.4,
+      "words": "Stripe just revealed their secrets on how they're using AI inside of their company. It's called Kai.",
+      "says": "Stripe has shown how it uses AI internally, through a platform called Kai.",
+      "picture": "An open tote toolbox (a long handle bar over an open box) pops in alone in the middle of the cream board on 'Stripe', with the real Stripe wordmark on a nameplate on its front. On 'revealed' three tools rise up out of it: a wrench, a screwdriver with a terracotta handle and a hammer. On 'Kai' the key term KAI is written large under the toolbox.",
+      "objects": [
+        "toolbox",
+        "stripe-plate",
+        "key-kai"
+      ],
+      "emphasis": [],
+      "whiteboard_version": "The marker draws the toolbox as the board's first stroke, centred and alone; the Stripe wordmark is pasted on its front nameplate; the three tools are drawn rising out of it on 'revealed'; KAI is written under it on 'Kai'."
+    },
+    {
+      "i": 1,
+      "t_start": 4.78,
+      "t_end": 9.8,
+      "words": "It's a centralized platform that has over 1,000 skills and 500 internal tools.",
+      "says": "Kai is one central platform holding more than 1,000 skills and 500 internal tools.",
+      "picture": "The toolbox and KAI hold in the centre (the one central box is the 'centralized platform'). On '1,000' a big mono counter 1,000 appears to the left of the toolbox with SKILLS under it on 'skills'; on '500' the mirror counter 500 appears on the right with INTERNAL TOOLS under it on 'tools'.",
+      "objects": [
+        "toolbox",
+        "stripe-plate",
+        "key-kai",
+        "counter-skills",
+        "counter-tools"
+      ],
+      "emphasis": [],
+      "whiteboard_version": "Same: the two counters are written in marker left and right of the toolbox on the same words; nothing moves."
+    },
+    {
+      "i": 2,
+      "t_start": 10.1,
+      "t_end": 13.42,
+      "words": "Literally, one single guy built this in a week",
+      "says": "A single engineer built Kai in one week.",
+      "picture": "On 'Literally' the counters and KAI clear and the toolbox slides right and shrinks a little; on 'one' a single person figure (head and shoulders outline, no face) pops on the left. On 'built' a terracotta line joins the person to the toolbox, and a strip of seven day cells appears under both and fills cell by cell in terracotta across 'built this in a week'; 1 WEEK is written under the strip on 'week'.",
+      "objects": [
+        "person",
+        "toolbox",
+        "stripe-plate",
+        "conn-built",
+        "week-strip",
+        "key-week"
+      ],
+      "emphasis": [],
+      "whiteboard_version": "The board keeps the toolbox (redrawn smaller on the right is not needed: the board draws the person to its left from the start of this chapter), draws the person figure, the marker line from person to toolbox, then the seven cells hatched one by one, and writes 1 WEEK under them."
+    },
+    {
+      "i": 3,
+      "t_start": 13.72,
+      "t_end": 18.04,
+      "words": "and is now being used by over 83% of the workforce inside of Stripe.",
+      "says": "Over 83% of Stripe's employees now use it.",
+      "picture": "The toolbox and the week strip clear while the person shrinks and walks into the first seat of a group of twelve identical person figures in two rows of six. On '83%' the big number 83% is written above the group and ten of the twelve figures fill terracotta one after another (10 of 12 = 83.3%); two stay empty. OF THE WORKFORCE is written under the group on 'workforce'.",
+      "objects": [
+        "crowd",
+        "person",
+        "key-83",
+        "key-workforce"
+      ],
+      "emphasis": [],
+      "whiteboard_version": "The board erases to the twelve figures drawn in two rows (the first one is the person, redrawn in place), writes 83% above, hatches ten figures terracotta and writes OF THE WORKFORCE beneath."
+    },
+    {
+      "i": 4,
+      "t_start": 18.36,
+      "t_end": 24.08,
+      "words": "Now, it's always extremely interesting to see how other people are learning how to use AI inside of their organizations.",
+      "says": "It is instructive to watch how other organizations are learning to use AI.",
+      "picture": "The finished group holds through 'Now, it's always extremely interesting to see'. On 'how' the board clears to three office buildings of different heights standing side by side, each with a grid of windows. On 'AI' a small terracotta four-point spark pops on each roof, one after another. ORGANIZATIONS is written under the three buildings on 'organizations'.",
+      "objects": [
+        "buildings",
+        "spark-a",
+        "spark-b",
+        "spark-c",
+        "key-orgs"
+      ],
+      "emphasis": [],
+      "whiteboard_version": "The marker draws the three buildings with their windows, adds a terracotta spark on each roof on 'AI' and writes ORGANIZATIONS underneath."
+    },
+    {
+      "i": 5,
+      "t_start": 24.4,
+      "t_end": 31.52,
+      "words": "They even tell us that they still have a bit of problems when they start loading over 150 skills, but everyone is learning as we go along.",
+      "says": "Stripe admits it still runs into problems once more than 150 skills are loaded at once, and everyone is still learning.",
+      "picture": "On 'They' the buildings clear and the same Stripe toolbox returns in the centre with its three tools. On 'loading' a heap of extra tools (wrenches, screwdrivers, hammers at every angle) drops into it and piles far above the handle, with two tools spilling out over the sides. On '150' the toolbox's own outline turns terracotta and short terracotta strain marks burst from its top corners; 150+ SKILLS is written under it on 'skills'. On 'but everyone is learning' the outline returns to ink and the overloaded box holds.",
+      "objects": [
+        "toolbox-2",
+        "stripe-plate-2",
+        "overflow",
+        "strain",
+        "key-150"
+      ],
+      "emphasis": [
+        {
+          "target": "toolbox-2 body outline",
+          "kind": "box",
+          "why": "The toolbox is a DRAWN object, so LAW 38 gives it boxing, and in the DOM lane that is the object's own body outline flipping to terracotta and back (no ring, no new geometry). There is no raster text in this video, so no highlight exists."
+        }
+      ],
+      "whiteboard_version": "The board redraws the toolbox centred, piles the extra tools above it in marker on 'loading', retraces the box outline in terracotta with three strain ticks on each top corner on '150', writes 150+ SKILLS under it."
+    },
+    {
+      "i": 6,
+      "t_start": 31.82,
+      "t_end": 35.82,
+      "words": "Now, follow for more AI news, videos, and tutorials each and every single day, and catch you in the next one.",
+      "says": "The channel's standing call to action.",
+      "picture": "The opaque cream sheet rises and wipes the board. On it, small and centred, the toolbox with its three tools (no brand mark), then the terracotta rule and the handle lockup.",
+      "objects": [
+        "o-sheet",
+        "o-glyph",
+        "o-rule",
+        "o-slot"
+      ],
+      "emphasis": [],
+      "whiteboard_version": "The rising sheet, the small toolbox, the rule and the lockup, identical."
+    }
+  ],
+  "bespoke_objects": [
+    {
+      "name": "an open toolbox",
+      "t": 3.0,
+      "bbox": [
+        0.3333,
+        0.1573,
+        0.6667,
+        0.3135
+      ],
+      "space": "norm",
+      "why_bespoke": "The hook has to be Kai as an object: one central thing that holds a company's skills and tools. A toolbox says 'this is where the tools live' in one silhouette, carries the Stripe nameplate on its front, and is the same object that overflows in the payoff; a Stripe logo alone would only say whose it is.",
+      "how_drawn": "A wide rounded open box with a rim line and a small latch, a long handle bar on two end posts over it, and three tool heads standing out of it (an open-end wrench, a screwdriver with a terracotta handle, a claw hammer), ink outlines at stroke 7-9 on card fill."
+    },
+    {
+      "name": "a group of people",
+      "t": 16.4,
+      "bbox": [
+        0.1713,
+        0.1896,
+        0.8287,
+        0.3281
+      ],
+      "space": "norm",
+      "why_bespoke": "83% of a workforce is a share of people, and twelve identical figures with ten filled is a share the eye counts without reading a number; a meter bar would be chassis furniture and would not say 'people'.",
+      "how_drawn": "Twelve identical head-and-shoulders outlines (no faces) in two rows of six, card fill; ten of them fill terracotta on '83%'."
+    },
+    {
+      "name": "three office buildings",
+      "t": 23.8,
+      "bbox": [
+        0.2454,
+        0.1479,
+        0.7546,
+        0.3188
+      ],
+      "space": "norm",
+      "why_bespoke": "'Other organizations' needs a picture of companies that is not a wall of logos the script never names; three office towers are the everyday picture of 'organizations', and a spark on each roof says each is taking up AI.",
+      "how_drawn": "Three outlined towers of different heights on one baseline, each with a regular grid of small square windows and the middle one with a door, a terracotta four-point spark over each roof."
+    },
+    {
+      "name": "an overflowing toolbox",
+      "t": 30.2,
+      "bbox": [
+        0.2917,
+        0.1599,
+        0.7083,
+        0.3427
+      ],
+      "space": "norm",
+      "why_bespoke": "The problem is overload: too many skills loaded at once. The same toolbox from the hook, stuffed until tools pile over the handle and spill over the sides, argues 'too much in one box' without a chart, and pays off the hook object.",
+      "how_drawn": "The hook's toolbox and Stripe nameplate, plus a heap of eight extra tools at mixed angles piled above the handle and two lying outside its sides, with three short terracotta strain ticks at each top corner."
+    }
+  ],
+  "labels": [
+    {
+      "for": "toolbox",
+      "text": "KAI",
+      "place": "below",
+      "at": 4.14,
+      "note": "LAW 9 key term: the FIRST type on the board, alone, 56 px JetBrains Mono 800 (about 30 design units), centred on the toolbox axis, written on 'Kai' (4.14). LAW 39: below its object. Declare data-label-for=\"toolbox\"."
+    },
+    {
+      "for": "week-strip",
+      "text": "1 WEEK",
+      "place": "below",
+      "at": 13.2,
+      "note": "Written on 'week' (13.20-13.42). Centred on the strip's axis. data-label-for=\"week-strip\"."
+    },
+    {
+      "for": "crowd",
+      "text": "83%",
+      "place": "above",
+      "at": 15.34,
+      "note": "The counter of this chapter, above the group, written on '83%' (15.34). Word-sync: it shows 83%, the value spoken."
+    },
+    {
+      "for": "crowd",
+      "text": "OF THE WORKFORCE",
+      "place": "below",
+      "at": 16.7,
+      "note": "The group's name, below it, on 'workforce' (16.70). LAW 24: 'of the workforce' is fully spoken by 17.18; written at the word start inside the 1.0 s window."
+    },
+    {
+      "for": "buildings",
+      "text": "ORGANIZATIONS",
+      "place": "below",
+      "at": 23.4,
+      "note": "Centred under the three buildings on 'organizations' (23.40)."
+    },
+    {
+      "for": "toolbox-2",
+      "text": "150+ SKILLS",
+      "place": "below",
+      "at": 29.18,
+      "note": "Written on 'skills' (29.18), never before it (LAW 24: 'skills' is not spoken until 29.18). Same placement (below, centred) as KAI under the first toolbox (LAW 50)."
+    }
+  ],
+  "lifetimes": [
+    {
+      "mark": "toolbox",
+      "t_from": 0.1,
+      "t_to": 13.72,
+      "anchor": null,
+      "note": "Chapters 0 and 1; carried across the 10.10 seam as the handover object. 38% of the take, finite."
+    },
+    {
+      "mark": "stripe-plate",
+      "t_from": 0.24,
+      "t_to": 13.72,
+      "anchor": null,
+      "note": "Welded inside the toolbox element; moves and leaves with it."
+    },
+    {
+      "mark": "key-kai",
+      "t_from": 4.14,
+      "t_to": 10.1,
+      "anchor": null,
+      "note": "LAW 42."
+    },
+    {
+      "mark": "counter-skills",
+      "t_from": 7.1,
+      "t_to": 10.1,
+      "anchor": null,
+      "note": "LAW 42."
+    },
+    {
+      "mark": "counter-tools",
+      "t_from": 8.72,
+      "t_to": 10.1,
+      "anchor": null,
+      "note": "LAW 42."
+    },
+    {
+      "mark": "person",
+      "t_from": 10.76,
+      "t_to": 20.56,
+      "anchor": null,
+      "note": "Carried across the 13.72 seam into the group's first seat."
+    },
+    {
+      "mark": "conn-built",
+      "t_from": 12.22,
+      "t_to": 13.72,
+      "anchor": null,
+      "note": "LAW 42."
+    },
+    {
+      "mark": "week-strip",
+      "t_from": 12.3,
+      "t_to": 13.72,
+      "anchor": null,
+      "note": "LAW 42."
+    },
+    {
+      "mark": "key-week",
+      "t_from": 13.2,
+      "t_to": 13.72,
+      "anchor": null,
+      "note": "Short by design: the sentence moves on at 13.72."
+    },
+    {
+      "mark": "crowd",
+      "t_from": 13.8,
+      "t_to": 20.56,
+      "anchor": null,
+      "note": "LAW 42."
+    },
+    {
+      "mark": "key-83",
+      "t_from": 15.34,
+      "t_to": 20.56,
+      "anchor": null,
+      "note": "LAW 42."
+    },
+    {
+      "mark": "key-workforce",
+      "t_from": 16.7,
+      "t_to": 20.56,
+      "anchor": null,
+      "note": "LAW 42."
+    },
+    {
+      "mark": "buildings",
+      "t_from": 20.56,
+      "t_to": 24.4,
+      "anchor": null,
+      "note": "LAW 42."
+    },
+    {
+      "mark": "sparks",
+      "t_from": 22.54,
+      "t_to": 24.4,
+      "anchor": null,
+      "note": "Inside the buildings element."
+    },
+    {
+      "mark": "key-orgs",
+      "t_from": 23.4,
+      "t_to": 24.4,
+      "anchor": null,
+      "note": "LAW 42."
+    },
+    {
+      "mark": "toolbox-2",
+      "t_from": 24.4,
+      "t_to": 31.82,
+      "anchor": null,
+      "note": "Pops inside the 24.40 erase (LAW 45 handover)."
+    },
+    {
+      "mark": "overflow",
+      "t_from": 27.72,
+      "t_to": 31.82,
+      "anchor": null,
+      "note": "Inside toolbox-2."
+    },
+    {
+      "mark": "strain",
+      "t_from": 28.48,
+      "t_to": 31.82,
+      "anchor": null,
+      "note": "Inside toolbox-2."
+    },
+    {
+      "mark": "emph-toolbox-2",
+      "t_from": 28.48,
+      "t_to": 30.0,
+      "anchor": null,
+      "note": "The emphasis lives only inside the beat that argues it."
+    },
+    {
+      "mark": "key-150",
+      "t_from": 29.18,
+      "t_to": 31.82,
+      "anchor": null,
+      "note": "LAW 42."
+    },
+    {
+      "mark": "o-sheet",
+      "t_from": 31.82,
+      "t_to": null,
+      "anchor": "o-sheet",
+      "note": "Outro."
+    },
+    {
+      "mark": "o-glyph",
+      "t_from": 32.3,
+      "t_to": null,
+      "anchor": "o-glyph",
+      "note": "Outro."
+    },
+    {
+      "mark": "o-rule",
+      "t_from": 32.6,
+      "t_to": null,
+      "anchor": "o-rule",
+      "note": "Outro."
+    },
+    {
+      "mark": "o-slot",
+      "t_from": 32.7,
+      "t_to": null,
+      "anchor": "o-slot",
+      "note": "Outro."
+    }
+  ],
+  "connectors": [
+    {
+      "to": "toolbox",
+      "from": [
+        "person"
+      ],
+      "note": "LAW 40: ONE connector into the toolbox, built with anchor_points(person_box, 1, 'right') and anchor_points(toolbox_box, 1, 'left') at the same height (level), terracotta, no arrowhead, data-connect-to=\"toolbox\" + data-overlap-ok. No other connector in the video."
+    }
+  ],
+  "blocks": [
+    [
+      "toolbox",
+      "stripe-plate",
+      "key-kai"
+    ],
+    [
+      "counter-skills-num",
+      "counter-skills-unit"
+    ],
+    [
+      "counter-tools-num",
+      "counter-tools-unit"
+    ],
+    [
+      "week-strip",
+      "key-week"
+    ],
+    [
+      "crowd",
+      "person",
+      "key-83",
+      "key-workforce"
+    ],
+    [
+      "buildings",
+      "key-orgs"
+    ],
+    [
+      "toolbox-2",
+      "stripe-plate-2",
+      "key-150"
+    ],
+    [
+      "o-glyph",
+      "o-rule"
+    ]
+  ],
+  "blocks_note": "LAW 41: anything authored as ONE object that geometry cannot infer - a welded label, a container's contents. The twelve figures are a >=3 identical-shape series and the seven day cells likewise; both are inferred, and both are also authored inside one element each.",
+  "pointing_cues": [],
+  "pointing_cues_note": "pointing_cues.py --vid stripekai: 'No pointing cue in this take' (gen/_cues_stripekai.json cues: []), and the prep cues marker agrees (cue_count 0). The script names no platform and no post, so no source card is raised and nothing is waived.",
+  "boards": {
+    "mode": "chapters",
+    "why": "LAW 43: chapters are the default and this script changes subject five times - what Kai is and holds, who built it, who uses it, other organizations, where it breaks. Every seam is a handover: the toolbox itself crosses the 10.10 seam, the person crosses the 13.72 seam into the group, the buildings pop inside the 20.56 erase and the returning toolbox pops inside the 24.40 erase.",
+    "chapters": [
+      {
+        "i": 0,
+        "t_start": 0.1,
+        "t_end": 10.1,
+        "erase_at": 10.1,
+        "holds": [
+          "toolbox",
+          "stripe-plate",
+          "key-kai",
+          "counter-skills",
+          "counter-tools"
+        ],
+        "why_together": "One idea: what Kai is and what it holds."
+      },
+      {
+        "i": 1,
+        "t_start": 10.1,
+        "t_end": 13.72,
+        "erase_at": 13.72,
+        "holds": [
+          "toolbox",
+          "stripe-plate",
+          "person",
+          "conn-built",
+          "week-strip",
+          "key-week"
+        ],
+        "why_together": "One idea: one person built it in a week."
+      },
+      {
+        "i": 2,
+        "t_start": 13.72,
+        "t_end": 20.56,
+        "erase_at": 20.56,
+        "holds": [
+          "person",
+          "crowd",
+          "key-83",
+          "key-workforce"
+        ],
+        "why_together": "One idea: most of the company uses it."
+      },
+      {
+        "i": 3,
+        "t_start": 20.56,
+        "t_end": 24.4,
+        "erase_at": 24.4,
+        "holds": [
+          "buildings",
+          "sparks",
+          "key-orgs"
+        ],
+        "why_together": "One idea: other organizations are learning AI too."
+      },
+      {
+        "i": 4,
+        "t_start": 24.4,
+        "t_end": 31.82,
+        "erase_at": 31.82,
+        "holds": [
+          "toolbox-2",
+          "stripe-plate-2",
+          "overflow",
+          "strain",
+          "key-150"
+        ],
+        "why_together": "One idea, the Law-13 peak: the same toolbox overloaded past 150 skills."
+      },
+      {
+        "i": 5,
+        "t_start": 31.82,
+        "t_end": 35.82,
+        "erase_at": null,
+        "holds": [
+          "o-sheet",
+          "o-glyph",
+          "o-rule",
+          "o-slot"
+        ],
+        "why_together": "The outro on the rising sheet."
+      }
+    ],
+    "key_term": "KAI"
+  },
+  "cast": [
+    "stripe"
+  ],
+  "cast_note": "THE ROSTER IS TOPICAL: the only company the script names is Stripe, whose wordmark rides on the toolbox nameplate (file assets/logos/platforms/stripe-color.png, key 'stripe'; the registry has no stripe entry, so the file is named in the scene's LOGO_FILES). Kai has no public mark and is written as the key term. MARK IDENTITY: no Claude Code or Cowork mark is used on stage.",
+  "cutout_logo_lanes": [
+    "claude",
+    "claude-code",
+    "chatgpt",
+    "cursor",
+    "slack",
+    "notion"
+  ],
+  "cutout_logo_lanes_note": "THE LOGO LANES BEHIND HIM ARE TOPICAL: the AI assistants and skill runners a company's internal platform plugs into (Claude, Claude Code - the plain mascot, registry key 'claude-code' via coding-tools/claudecode-color.png -, ChatGPT, Cursor) and the internal tools such a platform reaches (Slack, Notion). Mixed, none repeated, never the stage's own Stripe mark.",
+  "open_questions": [
+    "Wing review: the prompt0 marker has landed (status ok, wing_review true, the instrument proposed no cut and abstained, overlay at matting/stripekai/prompts/kf_overlay_00000.png); the track marker says 'running' (matanyone2) and no ship marker exists at plan time, so the visual selection and the matte belong to the Astra matte step.",
+    "The Stripe mark in the library is the wide wordmark (aspect 2.40), not a square app icon, so it sits on a 204 x 100 nameplate on the toolbox front instead of a 112 px square tile; a square tile would shrink the word to an unreadable sliver at phone size.",
+    "'Now, it's always extremely interesting to see' (18.36-20.56) adds no ink by design: the finished group of people holds 2.2 s before the buildings arrive on 'how'."
+  ],
+  "open_doubts": [],
+  "open_doubts_note": "AN OPEN DOUBT STOPS AND ASKS (Miguel, 2026-09-04). open_questions are things an author can build around. open_doubts are doubts that CHANGE WHAT THE VIEWER SEES. None here: no pointing cue, no source card, and every picture follows a spoken claim."
+}
+```

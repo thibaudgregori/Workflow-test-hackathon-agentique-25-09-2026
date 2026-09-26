@@ -1,0 +1,15 @@
+{
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/projects/falagent_split",
+ "vid": "falagent",
+ "fmt": "split",
+ "quality": "high",
+ "stage": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/staging/youtube/falagent_split.mp4",
+ "qc_args": [
+  "--voice-master", "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run27/cuts/falagent/audio.m4a",
+  "--phone-at", "2.0:0.3771,0.1757,0.6229,0.2732:artist's palette",
+  "--phone-at", "9.3:0.1481,0.175,0.3148,0.2771:movie clapperboard",
+  "--phone-at", "10.4:0.7,0.1594,0.837,0.2802:painter's easel",
+  "--phone-at", "14.6:0.3796,0.15,0.6204,0.2854:dartboard with dart",
+  "--phone-at", "16.9:0.2222,0.1573,0.7778,0.2615:film strip"
+ ]
+}

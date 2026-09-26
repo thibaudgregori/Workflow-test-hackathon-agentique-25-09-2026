@@ -1,0 +1,23 @@
+{
+ "verdict": "PASS",
+ "plan_json": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/plans/deepseekprices_plan.json",
+ "plan_md": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/plans/deepseekprices_plan.md",
+ "lane": "counter+meter",
+ "lane_reason": "Intake's counter+meter guess stands: the script carries one real number (two to four X) and one comparison (still among the cheapest per token and per task), so a DeepSeek price bar that counts up 2X then 4X and still stays under the frontier models' bars is the argument, opened by a bespoke price tag and closed by a computer wearing an employee badge.",
+ "beats": 5,
+ "bespoke_names": ["DeepSeek price tag", "computer wearing badge"],
+ "cues": "pointing_cues.py: 0 cues ('no pointing cue in this take'); nothing raised, nothing waived",
+ "board_mode": "chapters",
+ "open_questions": [
+  "Wing review: the prompt0 marker has landed and names deepseekprices with wing_review true (the instrument abstained: no cut proposed, removed_px 0). The Astra matte step owns the look at matting/deepseekprices/prompts/kf_overlay_00000.png; the track marker says skipped (matanyone2) and the ship marker has not landed.",
+  "The chart's bars carry NO values: only the DeepSeek counter (2X, 4X, the words he says) is typed. Bar heights show order only: DeepSeek's 4X bar stays clearly under Claude, OpenAI and Gemini, which is his claim ('still one of the best models in terms of price per token'); the three competitors are not named aloud and illustrate 'the best models' (LAW 11 lets the diagram place them).",
+  "The dollar sign on the tag is DRAWN as part of the tag (an SVG stroke), not typed, so V4 FLASH is still the first type on the board (LAW 9).",
+  "The outro sheet rises on 'follow' (29.54) rather than 'Now' (29.40) so AI EMPLOYEE, spoken 28.68-29.24, holds for about a second."
+ ],
+ "open_doubts": [],
+ "scene_handoff": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/plans/deepseekprices_scene_handoff.md",
+ "scene_module": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/gen/deepseekprices_scene.py",
+ "sealed": true,
+ "proofs": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/proof_deepseekprices",
+ "reason": "Markers: cut ok (81.8 s wall, master 33.58 s, corroboration 'model-authored keep ranges'); plate ok (133.1 s, over-wide, crop 2492x1780+620+242, k 0.505618, face_dx 0.057); prompt0 ok with wing_review true (instrument abstained, removed_px 0, Astra owns it); selection ok (inputs ready); track skipped (matanyone2, Astra lane); ship marker not landed; cues ok, 0. No Modal cost booked by this agent. No false start (opening appears once). Both proof crops read on sight (a hanging DeepSeek price tag with a $; a PC tower wearing a lanyard ID badge with the whale). All 4 stage marks and 6 cutout lane marks resolve; page errors none. Sealed by production.py seal (PASS)."
+}

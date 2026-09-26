@@ -1,0 +1,1630 @@
+{
+ "render": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/stripekai_whiteboard.mp4",
+ "vid": "stripekai",
+ "fmt": "whiteboard",
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/projects/stripekai_whiteboard",
+ "checks": {
+  "decoded_blank_frames": {
+   "ok": true,
+   "result": {
+    "frames": 896,
+    "fps": 25.0,
+    "zone": [
+     0,
+     799,
+     1080,
+     799
+    ],
+    "ink_floor": 0.0006,
+    "min_ink_frac": 0.0,
+    "empty_frames_total": 1,
+    "leading_trailing_empty": 1,
+    "interior_blank_frames": [],
+    "pass": true
+   },
+   "wall_s": 0.0
+  },
+  "zero_ink_law": {
+   "ok": true,
+   "result": {
+    "render": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/stripekai_whiteboard.mp4",
+    "frames": 896,
+    "fps": 25.0,
+    "zone_bottom_design_px": 799.205,
+    "zone_px": [
+     1080,
+     799
+    ],
+    "first_word_s": 0.1,
+    "leading_empty_frames": 1,
+    "first_judged_frame": 3,
+    "min_ink_frac_judged": 0.00310226,
+    "min_ink_frac_at_s": 0.12,
+    "blank_frames": [],
+    "verdict": "PASS"
+   },
+   "wall_s": 0.0
+  },
+  "clip_coverage_page": {
+   "ok": true,
+   "result": {
+    "duration_s": 35.82,
+    "fps": 25,
+    "groups": {
+     "stage": {
+      "clips": 0,
+      "checked": false,
+      "note": "fewer than two clips \u2014 nothing can hand over"
+     },
+     "tz": {
+      "clips": 1,
+      "checked": false,
+      "note": "fewer than two clips \u2014 nothing can hand over"
+     },
+     "scap": {
+      "clips": 35,
+      "checked": true,
+      "frames": 895,
+      "span": [
+       0.08,
+       35.74
+      ],
+      "holes": [],
+      "ghosts": [],
+      "pass": true
+     }
+    },
+    "holes": 0,
+    "ghosts": 0,
+    "pass": true
+   },
+   "wall_s": 0.0
+  },
+  "double_exposure": {
+   "ok": true,
+   "result": {
+    "frames": 896,
+    "fps": 25.0,
+    "first_word_s": 0.1,
+    "leading_blank_run_frames": 1,
+    "after_first_word": {
+     "from_frame": 3,
+     "from_t": 0.12,
+     "basis": "first spoken word",
+     "min_ink": 1389,
+     "min_ink_t": 14.08,
+     "min_ink40": 424,
+     "min_ink40_t": 0.12,
+     "zero_ink_frames": [],
+     "zero_ink40_frames": []
+    },
+    "after_leading_run": {
+     "from_frame": 3,
+     "from_t": 0.12,
+     "basis": "opening fade-up cleared",
+     "min_ink": 1389,
+     "min_ink_t": 14.08,
+     "min_ink40": 424,
+     "min_ink40_t": 0.12,
+     "zero_ink_frames": [],
+     "zero_ink40_frames": []
+    },
+    "after_first_readable_ink": {
+     "from_frame": 1,
+     "from_t": 0.04,
+     "basis": "first READABLE ink on screen",
+     "min_ink": 286,
+     "min_ink_t": 0.04,
+     "min_ink40": 251,
+     "min_ink40_t": 0.04,
+     "zero_ink_frames": [],
+     "zero_ink40_frames": []
+    },
+    "double_exposure_floor_px": 600,
+    "double_exposure_frames": [
+     {
+      "t": 10.36,
+      "outgoing_px": 845,
+      "incoming_px": 618
+     },
+     {
+      "t": 13.4,
+      "outgoing_px": 1994,
+      "incoming_px": 623
+     },
+     {
+      "t": 20.64,
+      "outgoing_px": 4322,
+      "incoming_px": 718
+     }
+    ],
+    "double_exposure_count": 3,
+    "note": "candidates, not a verdict \u2014 adjudicate each window (procedure v3); the opening fade-up legitimately fires"
+   },
+   "wall_s": 0.14
+  },
+  "face_centring": {
+   "ok": true,
+   "result": {
+    "label": "stripekai_whiteboard",
+    "video": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/stripekai_whiteboard.mp4",
+    "duration_s": 35.84,
+    "detector": "mediapipe/blazeface",
+    "segment_source": "auto:layout-detector",
+    "segments": null,
+    "every_s": 0.5,
+    "tol_pct": 4.0,
+    "band_level": "warning",
+    "full_face": {
+     "n": 0,
+     "worst_dx_pct": null,
+     "worst_t": null,
+     "mean_abs_dx_pct": null,
+     "offenders": []
+    },
+    "band": {
+     "n": 72,
+     "worst_dx_pct": 5.46,
+     "worst_t": 8.5,
+     "warnings": [
+      {
+       "t": 2.5,
+       "dx_pct": 4.26,
+       "face_h_pct": 15.4,
+       "class": "band",
+       "score": 0.99,
+       "skin": 0.89
+      },
+      {
+       "t": 8.5,
+       "dx_pct": 5.46,
+       "face_h_pct": 15.1,
+       "class": "band",
+       "score": 0.99,
+       "skin": 0.91
+      },
+      {
+       "t": 10.5,
+       "dx_pct": 4.07,
+       "face_h_pct": 15.4,
+       "class": "band",
+       "score": 0.99,
+       "skin": 0.9
+      },
+      {
+       "t": 27.5,
+       "dx_pct": 5.09,
+       "face_h_pct": 15.7,
+       "class": "band",
+       "score": 0.99,
+       "skin": 0.89
+      },
+      {
+       "t": 35.0,
+       "dx_pct": 5.37,
+       "face_h_pct": 14.8,
+       "class": "band",
+       "score": 0.99,
+       "skin": 0.9
+      },
+      {
+       "t": 35.5,
+       "dx_pct": 4.26,
+       "face_h_pct": 14.2,
+       "class": "band",
+       "score": 0.98,
+       "skin": 0.92
+      }
+     ]
+    },
+    "pass": true,
+    "verdict": "PASS"
+   },
+   "wall_s": 1.11
+  },
+  "pill_canon_rendered": {
+   "ok": true,
+   "result": {
+    "samples": 60,
+    "band_rows_px": [
+     772,
+     952
+    ],
+    "frames_without_a_pill": 0,
+    "distinct_heights_px": {
+     "114": 60
+    },
+    "modal_height_px": 114,
+    "modal_height_design_px": 114.0,
+    "spread_px": 0,
+    "spread_max_px": 2.0,
+    "canonical_height_px": 114.59,
+    "canonical_height_design_px": 114.59,
+    "modal_vs_canon_px": 0.59,
+    "tolerance_px": 3.0,
+    "delivery_scale": 1.0,
+    "widest_pill_px": 752,
+    "widest_pill_in_design_px": 752.0,
+    "verdict": "PASS",
+    "pass": true
+   },
+   "wall_s": 0.0
+  },
+  "gate1_geometry_audit": {
+   "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/geometry_audit.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/projects/stripekai_whiteboard --step 0.25 --out /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/gen/_gate1_stripekai_whiteboard.json",
+   "rc": 0,
+   "stdout": "stripekai_whiteboard: 0 errors, 0 warnings (35.8s @ 0.25s step)\n",
+   "stderr": "",
+   "wall_s": 2.09
+  },
+  "gate2_frame_review": {
+   "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/qc/gate2_frames.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/stripekai_whiteboard.mp4 --full --transcript /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/cuts/stripekai/transcript_tight.json",
+   "rc": 0,
+   "stdout": "ts/personal/content/shorts-factory/runs/shorts_run26/output/frames_stripekai_whiteboard/f_0026_333.jpg\n  t=00:26.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/frames_stripekai_whiteboard/f_0026_666.jpg\n  t=00:27.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/frames_stripekai_whiteboard/f_0027_000.jpg\n  t=00:27.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/frames_stripekai_whiteboard/f_0027_333.jpg\n  t=00:27.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/frames_stripekai_whiteboard/f_0027_666.jpg\n  t=00:28.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/frames_stripekai_whiteboard/f_0028_000.jpg\n  t=00:28.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/frames_stripekai_whiteboard/f_0028_333.jpg\n  t=00:28.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/frames_stripekai_whiteboard/f_0028_666.jpg\n  t=00:29.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/frames_stripekai_whiteboard/f_0029_000.jpg\n  t=00:29.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/frames_stripekai_whiteboard/f_0029_666.jpg\n  t=00:30.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/frames_stripekai_whiteboard/f_0030_000.jpg\n  t=00:30.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/frames_stripekai_whiteboard/f_0030_333.jpg\n  t=00:30.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/frames_stripekai_whiteboard/f_0030_666.jpg\n  t=00:31.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/frames_stripekai_whiteboard/f_0031_000.jpg\n  t=00:31.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/frames_stripekai_whiteboard/f_0031_666.jpg\n  t=00:32.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/frames_stripekai_whiteboard/f_0032_000.jpg\n  t=00:32.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/frames_stripekai_whiteboard/f_0032_333.jpg\n  t=00:32.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/frames_stripekai_whiteboard/f_0032_666.jpg\n  t=00:33.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/frames_stripekai_whiteboard/f_0033_000.jpg\n  t=00:33.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/frames_stripekai_whiteboard/f_0033_333.jpg\n  t=00:34.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/frames_stripekai_whiteboard/f_0034_000.jpg\n  t=00:34.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/frames_stripekai_whiteboard/f_0034_666.jpg\n  t=00:35.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/frames_stripekai_whiteboard/f_0035_000.jpg\n  t=00:35.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/frames_stripekai_whiteboard/f_0035_333.jpg\n  t=00:35.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/frames_stripekai_whiteboard/f_0035_666.jpg\n\nManifest: /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/frames_stripekai_whiteboard/manifest.md  (delete dir after review)\n",
+   "stderr": "",
+   "wall_s": 1.56
+  },
+  "audio_guards": {
+   "ok": true,
+   "result": {
+    "mix_8_16k_db": -29.62,
+    "master_8_16k_db": -29.35,
+    "delta_db": -0.27,
+    "tolerance_db": 6.0,
+    "speech_margin_db_p85_p15_33ms_s16le": 19.248,
+    "sync": {
+     "lag_ms": 0,
+     "r": 0.9959,
+     "instrument": "10 ms |x| envelope, +/-250 ms search"
+    },
+    "audio_initial_padding_samples": 0,
+    "verdict": "PASS",
+    "pass": true
+   },
+   "wall_s": 0.91
+  },
+  "contact_sheet": {
+   "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/contact_sheet.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/stripekai_whiteboard.mp4 --id stripekai --fmt whiteboard --run /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26",
+   "rc": 0,
+   "stdout": "{\n \"sheet\": \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/sheet_stripekai_whiteboard.png\",\n \"id\": \"stripekai\",\n \"fmt\": \"whiteboard\",\n \"duration_s\": 35.84,\n \"frame_source\": \"even\",\n \"times\": [\n  1.49,\n  4.48,\n  7.47,\n  10.45,\n  13.44,\n  16.43,\n  19.41,\n  22.4,\n  25.39,\n  28.37,\n  31.36,\n  34.35\n ],\n \"size_px\": [\n  1798,\n  4344\n ]\n}\n",
+   "stderr": "",
+   "wall_s": 2.53
+  },
+  "phone_crops": {
+   "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/phone_crops.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/stripekai_whiteboard.mp4 --out /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review --label stripekai_whiteboard --at 3.0:0.3322,0.1535,0.6678,0.3142:open toolbox --at 16.4:0.1687,0.1887,0.8313,0.3321:group of people --at 23.8:0.2387,0.1723,0.7613,0.3225:office buildings --at 30.2:0.2858,0.177,0.7116,0.3498:overflowing toolbox",
+   "rc": 0,
+   "stdout": "{\n \"sheet\": \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/phone_stripekai_whiteboard.png\",\n \"manifest\": \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/phone_stripekai_whiteboard.json\",\n \"answer_key\": \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/phone_stripekai_whiteboard.key.json\",\n \"n_objects\": 4,\n \"phone_sizes_px\": [\n  [\n   136,\n   116\n  ],\n  [\n   268,\n   104\n  ],\n  [\n   212,\n   108\n  ],\n  [\n   173,\n   124\n  ]\n ]\n}\n",
+   "stderr": "",
+   "wall_s": 1.02
+  },
+  "whiteboard_seam_law": {
+   "ok": true,
+   "result": {
+    "video": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/stripekai_whiteboard.mp4",
+    "erase_dur": 0.3,
+    "land_within": 0.3,
+    "scan_s": 1.6,
+    "thresholds": {
+     "ink_thr": 170,
+     "dilate_px": 9,
+     "min_minor_px": 46,
+     "min_major_px": 118,
+     "min_ink_px": 2600,
+     "min_sigma_px": 18.0,
+     "word": [
+      26,
+      80,
+      80,
+      900,
+      3
+     ],
+     "pen_match_min": 0.62,
+     "pen_bleed": 6,
+     "persist_frames": 3
+    },
+    "seams": [
+     {
+      "erase_at": 10.1,
+      "erase_completes": 10.4,
+      "law_probe_at": 10.72,
+      "dead_s": 0.0,
+      "dead_capped": false,
+      "at_law_probe": {
+       "t": 10.72,
+       "ink_pct_of_zone": 1.935,
+       "qualifying": 1,
+       "landed_on": {
+        "box": [
+         522,
+         274,
+         296,
+         252
+        ],
+        "ink": 16589,
+        "sigma_minor": 69.9,
+        "parts": 9,
+        "kind": "object",
+        "qualifies": true
+       },
+       "verdict": "PASS"
+      },
+      "blobs_at_law_probe": [
+       {
+        "box": [
+         522,
+         274,
+         296,
+         252
+        ],
+        "ink": 16589,
+        "sigma_minor": 69.9,
+        "parts": 9,
+        "kind": "object",
+        "qualifies": true
+       }
+      ],
+      "verdict": "PASS",
+      "window": [
+       {
+        "t": 10.4,
+        "ink_pct_of_zone": 2.01,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 10.44,
+        "ink_pct_of_zone": 1.876,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 10.48,
+        "ink_pct_of_zone": 1.833,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 10.52,
+        "ink_pct_of_zone": 1.806,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 10.56,
+        "ink_pct_of_zone": 1.763,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 10.6,
+        "ink_pct_of_zone": 1.724,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 10.64,
+        "ink_pct_of_zone": 1.726,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 10.68,
+        "ink_pct_of_zone": 1.935,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 10.72,
+        "ink_pct_of_zone": 1.935,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 10.76,
+        "ink_pct_of_zone": 1.724,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 10.8,
+        "ink_pct_of_zone": 1.996,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 10.84,
+        "ink_pct_of_zone": 2.069,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 10.88,
+        "ink_pct_of_zone": 2.205,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 10.92,
+        "ink_pct_of_zone": 2.273,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 10.96,
+        "ink_pct_of_zone": 2.437,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 11.0,
+        "ink_pct_of_zone": 2.546,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 11.04,
+        "ink_pct_of_zone": 2.706,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 11.08,
+        "ink_pct_of_zone": 2.726,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 11.12,
+        "ink_pct_of_zone": 2.726,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 11.16,
+        "ink_pct_of_zone": 2.726,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 11.2,
+        "ink_pct_of_zone": 2.553,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 11.24,
+        "ink_pct_of_zone": 2.553,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 11.28,
+        "ink_pct_of_zone": 2.553,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 11.32,
+        "ink_pct_of_zone": 2.553,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 11.36,
+        "ink_pct_of_zone": 2.553,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 11.4,
+        "ink_pct_of_zone": 2.553,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 11.44,
+        "ink_pct_of_zone": 2.553,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 11.48,
+        "ink_pct_of_zone": 2.553,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 11.52,
+        "ink_pct_of_zone": 2.553,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 11.56,
+        "ink_pct_of_zone": 2.553,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 11.6,
+        "ink_pct_of_zone": 2.553,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 11.64,
+        "ink_pct_of_zone": 2.553,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 11.68,
+        "ink_pct_of_zone": 2.553,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 11.72,
+        "ink_pct_of_zone": 2.553,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 11.76,
+        "ink_pct_of_zone": 2.553,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 11.8,
+        "ink_pct_of_zone": 2.553,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 11.84,
+        "ink_pct_of_zone": 2.553,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 11.88,
+        "ink_pct_of_zone": 2.553,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 11.92,
+        "ink_pct_of_zone": 2.553,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 11.96,
+        "ink_pct_of_zone": 2.553,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 12.0,
+        "ink_pct_of_zone": 2.553,
+        "qualifying": 2,
+        "verdict": "PASS"
+       }
+      ]
+     },
+     {
+      "erase_at": 13.72,
+      "erase_completes": 14.02,
+      "law_probe_at": 14.34,
+      "dead_s": 1.44,
+      "dead_capped": false,
+      "at_law_probe": {
+       "t": 14.34,
+       "ink_pct_of_zone": 1.091,
+       "qualifying": 0,
+       "landed_on": null,
+       "verdict": "FAIL"
+      },
+      "blobs_at_law_probe": [
+       {
+        "box": [
+         306,
+         362,
+         97,
+         131
+        ],
+        "ink": 1826,
+        "sigma_minor": 23.9,
+        "parts": 2,
+        "kind": "-",
+        "qualifies": false
+       },
+       {
+        "box": [
+         430,
+         362,
+         97,
+         131
+        ],
+        "ink": 1825,
+        "sigma_minor": 23.9,
+        "parts": 2,
+        "kind": "-",
+        "qualifies": false
+       },
+       {
+        "box": [
+         678,
+         362,
+         97,
+         131
+        ],
+        "ink": 1824,
+        "sigma_minor": 23.9,
+        "parts": 2,
+        "kind": "-",
+        "qualifies": false
+       },
+       {
+        "box": [
+         182,
+         362,
+         96,
+         130
+        ],
+        "ink": 1823,
+        "sigma_minor": 23.8,
+        "parts": 2,
+        "kind": "-",
+        "qualifies": false
+       },
+       {
+        "box": [
+         554,
+         362,
+         97,
+         131
+        ],
+        "ink": 1617,
+        "sigma_minor": 22.2,
+        "parts": 2,
+        "kind": "-",
+        "qualifies": false
+       },
+       {
+        "box": [
+         821,
+         362,
+         61,
+         64
+        ],
+        "ink": 447,
+        "sigma_minor": 10.3,
+        "parts": 1,
+        "kind": "-",
+        "qualifies": false
+       }
+      ],
+      "verdict": "FAIL",
+      "window": [
+       {
+        "t": 14.02,
+        "ink_pct_of_zone": 0.303,
+        "qualifying": 0,
+        "verdict": "FAIL"
+       },
+       {
+        "t": 14.06,
+        "ink_pct_of_zone": 0.303,
+        "qualifying": 0,
+        "verdict": "FAIL"
+       },
+       {
+        "t": 14.1,
+        "ink_pct_of_zone": 0.254,
+        "qualifying": 0,
+        "verdict": "FAIL"
+       },
+       {
+        "t": 14.14,
+        "ink_pct_of_zone": 0.277,
+        "qualifying": 0,
+        "verdict": "FAIL"
+       },
+       {
+        "t": 14.18,
+        "ink_pct_of_zone": 0.434,
+        "qualifying": 0,
+        "verdict": "FAIL"
+       },
+       {
+        "t": 14.22,
+        "ink_pct_of_zone": 0.584,
+        "qualifying": 0,
+        "verdict": "FAIL"
+       },
+       {
+        "t": 14.26,
+        "ink_pct_of_zone": 0.788,
+        "qualifying": 0,
+        "verdict": "FAIL"
+       },
+       {
+        "t": 14.3,
+        "ink_pct_of_zone": 0.902,
+        "qualifying": 0,
+        "verdict": "FAIL"
+       },
+       {
+        "t": 14.34,
+        "ink_pct_of_zone": 1.091,
+        "qualifying": 0,
+        "verdict": "FAIL"
+       },
+       {
+        "t": 14.38,
+        "ink_pct_of_zone": 1.301,
+        "qualifying": 0,
+        "verdict": "FAIL"
+       },
+       {
+        "t": 14.42,
+        "ink_pct_of_zone": 1.433,
+        "qualifying": 0,
+        "verdict": "FAIL"
+       },
+       {
+        "t": 14.46,
+        "ink_pct_of_zone": 1.556,
+        "qualifying": 0,
+        "verdict": "FAIL"
+       },
+       {
+        "t": 14.5,
+        "ink_pct_of_zone": 1.801,
+        "qualifying": 0,
+        "verdict": "FAIL"
+       },
+       {
+        "t": 14.54,
+        "ink_pct_of_zone": 1.945,
+        "qualifying": 0,
+        "verdict": "FAIL"
+       },
+       {
+        "t": 14.58,
+        "ink_pct_of_zone": 2.104,
+        "qualifying": 0,
+        "verdict": "FAIL"
+       },
+       {
+        "t": 14.62,
+        "ink_pct_of_zone": 2.282,
+        "qualifying": 0,
+        "verdict": "FAIL"
+       },
+       {
+        "t": 14.66,
+        "ink_pct_of_zone": 2.467,
+        "qualifying": 0,
+        "verdict": "FAIL"
+       },
+       {
+        "t": 14.7,
+        "ink_pct_of_zone": 2.51,
+        "qualifying": 0,
+        "verdict": "FAIL"
+       },
+       {
+        "t": 14.74,
+        "ink_pct_of_zone": 2.527,
+        "qualifying": 0,
+        "verdict": "FAIL"
+       },
+       {
+        "t": 14.78,
+        "ink_pct_of_zone": 2.478,
+        "qualifying": 0,
+        "verdict": "FAIL"
+       },
+       {
+        "t": 14.82,
+        "ink_pct_of_zone": 2.478,
+        "qualifying": 0,
+        "verdict": "FAIL"
+       },
+       {
+        "t": 14.86,
+        "ink_pct_of_zone": 2.478,
+        "qualifying": 0,
+        "verdict": "FAIL"
+       },
+       {
+        "t": 14.9,
+        "ink_pct_of_zone": 2.55,
+        "qualifying": 0,
+        "verdict": "FAIL"
+       },
+       {
+        "t": 14.94,
+        "ink_pct_of_zone": 2.549,
+        "qualifying": 0,
+        "verdict": "FAIL"
+       },
+       {
+        "t": 14.98,
+        "ink_pct_of_zone": 2.549,
+        "qualifying": 0,
+        "verdict": "FAIL"
+       },
+       {
+        "t": 15.02,
+        "ink_pct_of_zone": 2.549,
+        "qualifying": 0,
+        "verdict": "FAIL"
+       },
+       {
+        "t": 15.06,
+        "ink_pct_of_zone": 2.549,
+        "qualifying": 0,
+        "verdict": "FAIL"
+       },
+       {
+        "t": 15.1,
+        "ink_pct_of_zone": 2.549,
+        "qualifying": 0,
+        "verdict": "FAIL"
+       },
+       {
+        "t": 15.14,
+        "ink_pct_of_zone": 2.549,
+        "qualifying": 0,
+        "verdict": "FAIL"
+       },
+       {
+        "t": 15.18,
+        "ink_pct_of_zone": 2.549,
+        "qualifying": 0,
+        "verdict": "FAIL"
+       },
+       {
+        "t": 15.22,
+        "ink_pct_of_zone": 2.549,
+        "qualifying": 0,
+        "verdict": "FAIL"
+       },
+       {
+        "t": 15.26,
+        "ink_pct_of_zone": 2.554,
+        "qualifying": 0,
+        "verdict": "FAIL"
+       },
+       {
+        "t": 15.3,
+        "ink_pct_of_zone": 2.554,
+        "qualifying": 0,
+        "verdict": "FAIL"
+       },
+       {
+        "t": 15.34,
+        "ink_pct_of_zone": 2.554,
+        "qualifying": 0,
+        "verdict": "FAIL"
+       },
+       {
+        "t": 15.38,
+        "ink_pct_of_zone": 2.554,
+        "qualifying": 0,
+        "verdict": "FAIL"
+       },
+       {
+        "t": 15.42,
+        "ink_pct_of_zone": 2.561,
+        "qualifying": 0,
+        "verdict": "FAIL"
+       },
+       {
+        "t": 15.46,
+        "ink_pct_of_zone": 3.128,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 15.5,
+        "ink_pct_of_zone": 3.16,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 15.54,
+        "ink_pct_of_zone": 3.711,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 15.58,
+        "ink_pct_of_zone": 3.758,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 15.62,
+        "ink_pct_of_zone": 4.292,
+        "qualifying": 4,
+        "verdict": "PASS"
+       }
+      ]
+     },
+     {
+      "erase_at": 20.56,
+      "erase_completes": 20.86,
+      "law_probe_at": 21.18,
+      "dead_s": 0.0,
+      "dead_capped": false,
+      "at_law_probe": {
+       "t": 21.18,
+       "ink_pct_of_zone": 3.546,
+       "qualifying": 3,
+       "landed_on": {
+        "box": [
+         442,
+         329,
+         196,
+         292
+        ],
+        "ink": 12173,
+        "sigma_minor": 60.9,
+        "parts": 13,
+        "kind": "object",
+        "qualifies": true
+       },
+       "verdict": "PASS"
+      },
+      "blobs_at_law_probe": [
+       {
+        "box": [
+         442,
+         329,
+         196,
+         292
+        ],
+        "ink": 12173,
+        "sigma_minor": 60.9,
+        "parts": 13,
+        "kind": "object",
+        "qualifies": true
+       },
+       {
+        "box": [
+         656,
+         369,
+         168,
+         252
+        ],
+        "ink": 9398,
+        "sigma_minor": 52.9,
+        "parts": 10,
+        "kind": "object",
+        "qualifies": true
+       },
+       {
+        "box": [
+         256,
+         399,
+         168,
+         222
+        ],
+        "ink": 8917,
+        "sigma_minor": 51.7,
+        "parts": 10,
+        "kind": "object",
+        "qualifies": true
+       }
+      ],
+      "verdict": "PASS",
+      "window": [
+       {
+        "t": 20.86,
+        "ink_pct_of_zone": 2.774,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 20.9,
+        "ink_pct_of_zone": 2.774,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 20.94,
+        "ink_pct_of_zone": 2.924,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 20.98,
+        "ink_pct_of_zone": 3.113,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 21.02,
+        "ink_pct_of_zone": 3.268,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 21.06,
+        "ink_pct_of_zone": 3.432,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 21.1,
+        "ink_pct_of_zone": 3.546,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 21.14,
+        "ink_pct_of_zone": 3.546,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 21.18,
+        "ink_pct_of_zone": 3.546,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 21.22,
+        "ink_pct_of_zone": 3.546,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 21.26,
+        "ink_pct_of_zone": 3.546,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 21.3,
+        "ink_pct_of_zone": 3.546,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 21.34,
+        "ink_pct_of_zone": 3.546,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 21.38,
+        "ink_pct_of_zone": 3.546,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 21.42,
+        "ink_pct_of_zone": 3.546,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 21.46,
+        "ink_pct_of_zone": 3.546,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 21.5,
+        "ink_pct_of_zone": 3.546,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 21.54,
+        "ink_pct_of_zone": 3.546,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 21.58,
+        "ink_pct_of_zone": 3.546,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 21.62,
+        "ink_pct_of_zone": 3.546,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 21.66,
+        "ink_pct_of_zone": 3.546,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 21.7,
+        "ink_pct_of_zone": 3.546,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 21.74,
+        "ink_pct_of_zone": 3.546,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 21.78,
+        "ink_pct_of_zone": 3.546,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 21.82,
+        "ink_pct_of_zone": 3.546,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 21.86,
+        "ink_pct_of_zone": 3.546,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 21.9,
+        "ink_pct_of_zone": 3.546,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 21.94,
+        "ink_pct_of_zone": 3.546,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 21.98,
+        "ink_pct_of_zone": 3.546,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 22.02,
+        "ink_pct_of_zone": 3.546,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 22.06,
+        "ink_pct_of_zone": 3.546,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 22.1,
+        "ink_pct_of_zone": 3.546,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 22.14,
+        "ink_pct_of_zone": 3.546,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 22.18,
+        "ink_pct_of_zone": 3.546,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 22.22,
+        "ink_pct_of_zone": 3.546,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 22.26,
+        "ink_pct_of_zone": 3.546,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 22.3,
+        "ink_pct_of_zone": 3.546,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 22.34,
+        "ink_pct_of_zone": 3.546,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 22.38,
+        "ink_pct_of_zone": 3.546,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 22.42,
+        "ink_pct_of_zone": 3.546,
+        "qualifying": 3,
+        "verdict": "PASS"
+       },
+       {
+        "t": 22.46,
+        "ink_pct_of_zone": 3.551,
+        "qualifying": 3,
+        "verdict": "PASS"
+       }
+      ]
+     },
+     {
+      "erase_at": 24.4,
+      "erase_completes": 24.7,
+      "law_probe_at": 25.02,
+      "dead_s": 0.0,
+      "dead_capped": false,
+      "at_law_probe": {
+       "t": 25.02,
+       "ink_pct_of_zone": 2.617,
+       "qualifying": 1,
+       "landed_on": {
+        "box": [
+         374,
+         385,
+         332,
+         282
+        ],
+        "ink": 22502,
+        "sigma_minor": 79.3,
+        "parts": 13,
+        "kind": "object",
+        "qualifies": true
+       },
+       "verdict": "PASS"
+      },
+      "blobs_at_law_probe": [
+       {
+        "box": [
+         374,
+         385,
+         332,
+         282
+        ],
+        "ink": 22502,
+        "sigma_minor": 79.3,
+        "parts": 13,
+        "kind": "object",
+        "qualifies": true
+       }
+      ],
+      "verdict": "PASS",
+      "window": [
+       {
+        "t": 24.7,
+        "ink_pct_of_zone": 1.924,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 24.74,
+        "ink_pct_of_zone": 1.924,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 24.78,
+        "ink_pct_of_zone": 2.122,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 24.82,
+        "ink_pct_of_zone": 2.147,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 24.86,
+        "ink_pct_of_zone": 2.46,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 24.9,
+        "ink_pct_of_zone": 2.433,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 24.94,
+        "ink_pct_of_zone": 2.462,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 24.98,
+        "ink_pct_of_zone": 2.622,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 25.02,
+        "ink_pct_of_zone": 2.617,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 25.06,
+        "ink_pct_of_zone": 2.617,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 25.1,
+        "ink_pct_of_zone": 2.617,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 25.14,
+        "ink_pct_of_zone": 2.459,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 25.18,
+        "ink_pct_of_zone": 2.453,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 25.22,
+        "ink_pct_of_zone": 2.453,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 25.26,
+        "ink_pct_of_zone": 2.453,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 25.3,
+        "ink_pct_of_zone": 2.453,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 25.34,
+        "ink_pct_of_zone": 2.453,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 25.38,
+        "ink_pct_of_zone": 2.453,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 25.42,
+        "ink_pct_of_zone": 2.453,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 25.46,
+        "ink_pct_of_zone": 2.453,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 25.5,
+        "ink_pct_of_zone": 2.453,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 25.54,
+        "ink_pct_of_zone": 2.453,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 25.58,
+        "ink_pct_of_zone": 2.453,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 25.62,
+        "ink_pct_of_zone": 2.453,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 25.66,
+        "ink_pct_of_zone": 2.453,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 25.7,
+        "ink_pct_of_zone": 2.453,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 25.74,
+        "ink_pct_of_zone": 2.453,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 25.78,
+        "ink_pct_of_zone": 2.453,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 25.82,
+        "ink_pct_of_zone": 2.453,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 25.86,
+        "ink_pct_of_zone": 2.453,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 25.9,
+        "ink_pct_of_zone": 2.453,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 25.94,
+        "ink_pct_of_zone": 2.453,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 25.98,
+        "ink_pct_of_zone": 2.453,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 26.02,
+        "ink_pct_of_zone": 2.453,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 26.06,
+        "ink_pct_of_zone": 2.453,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 26.1,
+        "ink_pct_of_zone": 2.453,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 26.14,
+        "ink_pct_of_zone": 2.453,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 26.18,
+        "ink_pct_of_zone": 2.453,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 26.22,
+        "ink_pct_of_zone": 2.453,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 26.26,
+        "ink_pct_of_zone": 2.453,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 26.3,
+        "ink_pct_of_zone": 2.453,
+        "qualifying": 1,
+        "verdict": "PASS"
+       }
+      ]
+     }
+    ],
+    "extra_probes": [],
+    "dead_total_s": 1.44,
+    "failed": [
+     13.72
+    ],
+    "verdict": "FAIL"
+   },
+   "wall_s": 6.19
+  }
+ },
+ "skipped": {
+  "cutout_checks_24_25": "cutout only, and needs --project",
+  "gate3_gemini_describe": "no --vid, or skipped",
+  "edge_clip": "cutout only, and needs --alpha",
+  "face_hf_vs_plate": "needs --plate (the display plate)",
+  "head_scale_vs_framing": "needs --alpha and --edge-box (the crown comes from the matte's own alpha, the chin from MediaPipe on the delivered frame)"
+ },
+ "zone_bottom_design_px": 799.21,
+ "decode": {
+  "frames": 896,
+  "fps": 25.0,
+  "size": [
+   1080,
+   1920
+  ],
+  "grid_frames": 72,
+  "caption_band_rows": [
+   772,
+   952
+  ],
+  "caption_seat_design_px": 862.5,
+  "wall_s": 7.64
+ },
+ "verdicts": {
+  "decoded_blank_frames": "PASS",
+  "zero_ink_law": "PASS",
+  "clip_coverage_page": "PASS",
+  "double_exposure": "REPORTED",
+  "face_centring": "PASS",
+  "pill_canon_rendered": "PASS",
+  "gate1_geometry_audit": "PASS",
+  "gate2_frame_review": "PASS",
+  "audio_guards": "PASS",
+  "contact_sheet": "PASS",
+  "phone_crops": "PASS",
+  "whiteboard_seam_law": "FAIL"
+ },
+ "wall_s": {
+  "decoded_blank_frames": 0.0,
+  "zero_ink_law": 0.0,
+  "clip_coverage_page": 0.0,
+  "double_exposure": 0.14,
+  "face_centring": 1.11,
+  "pill_canon_rendered": 0.0,
+  "gate1_geometry_audit": 2.09,
+  "gate2_frame_review": 1.56,
+  "audio_guards": 0.91,
+  "contact_sheet": 2.53,
+  "phone_crops": 1.02,
+  "whiteboard_seam_law": 6.19,
+  "single_decode": 7.64
+ },
+ "total_wall_s": 8.97,
+ "pass": false
+}

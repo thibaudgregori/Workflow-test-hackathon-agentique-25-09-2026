@@ -1,0 +1,155 @@
+{
+  "id": "grokdesktop",
+  "duration_s": 34.76,
+  "lane": "icon choreography",
+  "lane_reason": "Intake's kinetic guess is overruled: the script is four pictures in a row (a medal for 'top three', a bridge for 'close the gap', a desktop app with Grok inside, an hourglass for 'we don't know when'), carried by bespoke ink objects and the real Grok, ChatGPT and Cowork marks, which is icon choreography, not type.",
+  "stage_markers_at_plan_time": {
+    "cut": "ok, 89.1 s wall, cut master 34.76 s, tight audio 34.74 s, corroboration 'model-authored keep ranges' (keep_words [[175, 297]]), analysis_wav_written false",
+    "plate": "ok, 147.7 s wall, crop 2534x1810+597+232, scale_k 0.497238, head 451.1 px on canvas, overwide_applied true, face_dx_pct 0.035",
+    "prompt0": "ok, 32.1 s wall, wing_review TRUE for grokdesktop (the instrument proposed no cut and abstained, removed_px 0); the Astra matte step owns the look at matting/grokdesktop/prompts/kf_overlay_00000.png",
+    "selection": "error: chair audit refused (right: 1830 px leak at mean luma 53.1, reads as body not chair); re-review by eye belongs to the Astra matte step",
+    "track": "REFUSED (same chair-audit error); no Modal cost booked in the marker",
+    "ship": "marker not landed at plan time",
+    "cues": "ok, cue_count 0"
+  },
+  "false_start_check": "The tight transcript opens 'Grok is going to become one of the top three AI providers in the world' once, at 0.10 s; the opening does not repeat, so the cut is right (LAW 46).",
+  "beats": [
+    {
+      "i": 0,
+      "t_start": 0.1,
+      "t_end": 3.78,
+      "words": "Grok is going to become one of the top three AI providers in the world.",
+      "says": "Grok is about to join the top three AI providers.",
+      "picture": "A medal on a ribbon, alone and centred: the V of the ribbon draws on 'Grok', the round medal hangs from it with the Grok mark on its face. On 'three' TOP 3 is written under it, the first type in the video. Nothing else is on the board.",
+      "objects": ["medal", "grok-mark-on-medal", "key-term-top3"],
+      "emphasis": [],
+      "whiteboard_version": "Same picture: the marker draws the ribbon V, then the round medal hanging from it, the Grok mark stamped on the face; TOP 3 written under it, alone."
+    },
+    {
+      "i": 1,
+      "t_start": 4.16,
+      "t_end": 12.52,
+      "words": "Right now, they are working on a new desktop application that is going to close the gap between them and applications such as ChatGPT Work and Claude Code Work.",
+      "says": "xAI is building a desktop app that will close the gap to ChatGPT Work and Claude Cowork.",
+      "picture": "The medal leaves. A cliff draws on the left with the Grok tile standing on it. On 'desktop application' half a bridge builds out from the Grok cliff over the empty gap, and DESKTOP APP is written under it. On 'close' the right cliff draws; on 'gap' the other half of the bridge swings across and meets it, and the bridge deck flips terracotta. On 'ChatGPT' the ChatGPT tile lands on the right cliff, on 'Claude' the Claude Cowork tile lands beside it.",
+      "objects": ["cliff-left", "grok-tile", "bridge", "label-desktop-app", "cliff-right", "chatgpt-tile", "cowork-tile"],
+      "emphasis": [
+        {"target": "bridge deck", "kind": "box", "why": "The bridge is a DRAWN object, so LAW 38 rule 2: the deck's own outline stroke flips ink -> terracotta at 8.42 ('between') and back at 9.80. No ring, no highlight; there is no raster text in this video."}
+      ],
+      "whiteboard_version": "The board clears the medal and draws the same two cliffs, the Grok mark on the left one, the left half of the bridge and DESKTOP APP under it, the right cliff, the right half closing the gap (retraced in terracotta), then the ChatGPT and Cowork marks on the right cliff."
+    },
+    {
+      "i": 2,
+      "t_start": 12.9,
+      "t_end": 19.22,
+      "words": "People will be able to use the powerful Grok model inside of an application with a nice user interface.",
+      "says": "You will run Grok inside a proper desktop app with a good interface.",
+      "picture": "The bridge leaves. A desktop monitor on a stand draws in the centre, its screen empty. On 'Grok' the Grok mark lands inside the screen. On 'nice' the app's interface fills in around it (a sidebar with three rows, two message lines, an input bar) and the monitor's bezel flips terracotta; USER INTERFACE is written under the stand.",
+      "objects": ["monitor", "grok-in-screen", "app-ui", "label-user-interface"],
+      "emphasis": [
+        {"target": "monitor bezel", "kind": "box", "why": "The monitor is a DRAWN object (UI chrome in ink, not a capture), so its own bezel border flips terracotta 17.76-19.40 (LAW 38 rule 2)."}
+      ],
+      "whiteboard_version": "The board clears and the marker draws the monitor and stand, stamps the Grok mark in the screen, then sketches the sidebar rows, message lines and input bar on 'nice', USER INTERFACE under the stand."
+    },
+    {
+      "i": 3,
+      "t_start": 19.94,
+      "t_end": 30.12,
+      "words": "Now, we don't know when this is set to release, but given the amount of work that's being put into the Grok models and their ecosystem, I believe that it's going to be in a couple of weeks or months.",
+      "says": "No release date yet, but Miguel expects it within weeks or months.",
+      "picture": "The monitor leaves. An hourglass draws in the centre on 'we don't know when', its top bulb full of sand. On 'given the amount of work' sand pours through the neck and the top drops by half; on 'I believe' it pours again until the top is nearly empty and the bottom is full. WEEKS OR MONTHS is written under it on 'months'.",
+      "objects": ["hourglass", "sand-top", "sand-bottom", "sand-stream", "label-weeks-months"],
+      "emphasis": [],
+      "whiteboard_version": "The board clears; the marker draws the hourglass (two plates, two posts, the glass), shades the full top bulb, then redraws the sand levels lower in two steps on 'given' and 'believe' (erase the top shading down, add to the bottom pile), WEEKS OR MONTHS under it."
+    },
+    {
+      "i": 4,
+      "t_start": 30.44,
+      "t_end": 34.76,
+      "words": "Now follow for more AI news, videos, and tutorials each and every single day, and catch you in the next one.",
+      "says": "The channel's standing call to action.",
+      "picture": "The opaque cream sheet rises and wipes the board. On it, small and centred, a plain medal on its ribbon (no mark), then the terracotta rule and the handle lockup.",
+      "objects": ["o-sheet", "o-glyph", "o-rule", "o-slot"],
+      "emphasis": [],
+      "whiteboard_version": "The rising-sheet outro: small medal, rule, lockup."
+    }
+  ],
+  "bespoke_objects": [
+    {
+      "name": "medal on ribbon",
+      "t": 2.8,
+      "bbox": [0.3981, 0.15, 0.6019, 0.3438],
+      "space": "norm",
+      "why_bespoke": "The hook object (LAW 20): a medal IS 'top three' as an everyday thing, and with the Grok mark on its face it says Grok is about to win a place, without putting any unnamed rival on screen before it is spoken (LAW 24) or ranking ChatGPT against Claude (LAW 11).",
+      "how_drawn": "Two ink-outlined ribbon straps crossing into a V with a stripe line each, a small rounded bail, and a round card-filled medal with a heavy ink rim hanging from it, the Grok mark at 0.52 of its face."
+    },
+    {
+      "name": "bridge between cliffs",
+      "t": 10.3,
+      "bbox": [0.0333, 0.1958, 0.9667, 0.3531],
+      "space": "norm",
+      "why_bespoke": "The Law 13 payoff: 'close the gap' made literal. Grok stands on one cliff, the rival apps on the other, and the desktop app is the bridge that spans the gap; a pair of tiles and an arrow could not show a gap being closed.",
+      "how_drawn": "Two mirror-image rock cliffs (card fill, ink outline, jagged inner faces, two strata strokes each) and between them an arch bridge: a flat deck plank, one arch underneath and five vertical hangers, built in two halves."
+    },
+    {
+      "name": "sand hourglass timer",
+      "t": 24.2,
+      "bbox": [0.4074, 0.15, 0.5926, 0.3333],
+      "space": "norm",
+      "why_bespoke": "'We don't know when, but weeks or months' is waiting with the time running down; the sand dropping on the two evidence phrases shows the wait shortening, which a date or a counter would not.",
+      "how_drawn": "Two rounded plates top and bottom joined by two thin posts, an ink-line glass of two bulbs meeting at a narrow neck, grey sand in the top bulb that shrinks toward the neck and a pile in the bottom bulb that grows, a thin stream only while it pours."
+    }
+  ],
+  "labels": [
+    {"for": "medal", "text": "TOP 3", "place": "below", "at": 2.1, "note": "LAW 9 key term: the first type in the video, alone, 48 px (25.6 design units), centred under the medal. 'three' is spoken 1.84-2.04, so it lands inside the word's 1.0 s window and does not peek ahead. data-label-for=\"medal\"."},
+    {"for": "bridge", "text": "DESKTOP APP", "place": "below", "at": 6.2, "note": "LAW 39: centred under the bridge's full span (x 318-762, centre 540) in the gap below the arch. 'application' is spoken 6.12-6.64. data-label-for=\"bridge\"."},
+    {"for": "monitor", "text": "USER INTERFACE", "place": "below", "at": 18.7, "note": "LAW 39: centred under the monitor's stand. 'interface' starts 18.68. data-label-for=\"monitor\"."},
+    {"for": "hourglass", "text": "WEEKS OR MONTHS", "place": "below", "at": 29.84, "note": "LAW 39: centred under the hourglass's bottom plate. 'months' starts 29.80, so the whole phrase is spoken when it lands. data-label-for=\"hourglass\"."}
+  ],
+  "labels_note": "LAW 50: every label in this video is the same kind (a name under its object) and every one sits BELOW, at one size (28 px, the key term 48 px), one row height, centred on x = 540.",
+  "lifetimes": [
+    {"mark": "medal + TOP 3", "t_from": 0.1, "t_to": 4.46, "anchor": null, "note": "Chapter 1; exits on 'Right now' (4.16-4.46)."},
+    {"mark": "cliff-left, grok-tile, bridge, label-desktop-app, cliff-right", "t_from": 4.32, "t_to": 13.2, "anchor": null, "note": "Chapter 2; exits on 'People' (12.90-13.20)."},
+    {"mark": "chatgpt-tile", "t_from": 10.46, "t_to": 13.2, "anchor": null, "note": "Chapter 2."},
+    {"mark": "cowork-tile", "t_from": 11.96, "t_to": 13.2, "anchor": null, "note": "Chapter 2."},
+    {"mark": "monitor, grok-in-screen, app-ui, label-user-interface", "t_from": 13.0, "t_to": 20.24, "anchor": null, "note": "Chapter 3; exits on 'Now,' (19.94-20.24)."},
+    {"mark": "hourglass, sand, label-weeks-months", "t_from": 20.4, "t_to": 30.9, "anchor": null, "note": "Chapter 4; wiped by the outro sheet (30.44-30.90)."},
+    {"mark": "emphasis boxes", "t_from": 8.42, "t_to": 19.64, "anchor": null, "note": "Bridge deck 8.42-10.04; monitor bezel 17.76-19.64. Each lives only inside the beat that argues it."}
+  ],
+  "connectors": [],
+  "connectors_note": "LAW 40: no arrows anywhere. The bridge IS the connection between the two cliffs and physically lands on both cliff tops; nothing is drawn into a target from two sides.",
+  "blocks": [
+    ["medal-ribbon", "medal-bail", "medal-disc", "grok-mark-on-medal", "key-term-top3"],
+    ["cliff-left", "grok-tile"],
+    ["cliff-right", "chatgpt-tile", "cowork-tile"],
+    ["bridge", "cliff-left", "cliff-right", "label-desktop-app"],
+    ["monitor", "monitor-stand", "grok-in-screen", "app-ui", "label-user-interface"],
+    ["hourglass", "sand-top", "sand-bottom", "sand-stream", "label-weeks-months"]
+  ],
+  "blocks_note": "LAW 41: the medal's straps overlap each other and the bail by design; each tile STANDS on its cliff (its bottom edge on the cliff's top line); the bridge deck lands ON both cliff tops; the Grok mark and the app UI are the monitor screen's contents; the sand and stream are inside the hourglass glass.",
+  "pointing_cues": [],
+  "pointing_cues_note": "LAW 37: pipeline/pointing_cues.py --vid grokdesktop printed 'No pointing cue in this take' and wrote gen/_cues_grokdesktop.json with cues []. He cites no post and points at nothing, so no card is raised and nothing is waived.",
+  "boards": {
+    "mode": "chapters",
+    "why": "LAW 43 default. The script makes four separate claims with four different pictures (a rank, a gap, a product, a wait); none of the objects carries into the next idea, so one accumulating board would crowd four metaphors into one frame.",
+    "chapters": [
+      {"i": 0, "t_start": 0.1, "t_end": 4.16, "erase_at": 4.16, "holds": ["medal", "key-term-top3"], "why_together": "The hook: Grok about to win a place in the top three."},
+      {"i": 1, "t_start": 4.16, "t_end": 12.9, "erase_at": 12.9, "holds": ["cliff-left", "grok-tile", "bridge", "label-desktop-app", "cliff-right", "chatgpt-tile", "cowork-tile"], "why_together": "One sentence, one picture: the desktop app as the bridge over the gap to ChatGPT Work and Claude Cowork."},
+      {"i": 2, "t_start": 12.9, "t_end": 19.94, "erase_at": 19.94, "holds": ["monitor", "grok-in-screen", "app-ui", "label-user-interface"], "why_together": "What the app is: Grok inside an application with a nice interface."},
+      {"i": 3, "t_start": 19.94, "t_end": 30.44, "erase_at": 30.44, "holds": ["hourglass", "sand", "label-weeks-months"], "why_together": "When: unknown, but weeks or months."}
+    ],
+    "key_term": "TOP 3"
+  },
+  "cast": ["grok", "chatgpt", "claude-cowork"],
+  "cast_note": "THERE IS NO CAST WALL. `grok` (ai-models/grok.png) is the subject, on the medal face, on the left cliff and inside the monitor. `chatgpt` (ai-models/chatgpt-color.png, the ChatGPT app mark: 'ChatGPT Work' is a ChatGPT product, so the product mark, never the OpenAI company blossom, LAW 35) and `claude-cowork` (ai-models/claude-cowork.png, the ORANGE Cowork mark, MARK IDENTITY; never the Claude or Claude Code mark) stand on the right cliff. No Claude Code mascot appears: the product he names is Cowork.",
+  "cutout_logo_lanes": ["gemini", "deepseek", "mistral", "meta", "perplexity", "kimi", "qwen"],
+  "cutout_logo_lanes_note": "Topical: the other big AI model providers Grok is racing into the top three against (Gemini, DeepSeek, Mistral, Meta, Perplexity, Kimi, Qwen), mixed, none repeated, excluding the stage marks grok, chatgpt and claude-cowork (GRAPHIC CHART clause 7). Files resolved by path: ai-models/gemini-color.png, deepseek.png, mistral.png, meta.png, perplexity-color.png, kimi.png, qwen.png.",
+  "open_questions": [
+    "Wing review: the prompt0 marker names grokdesktop with wing_review true (instrument abstained, removed_px 0). The selection stage errored and track is REFUSED by the chair audit (right side 1830 px leak at mean luma 53.1, which reads as beard/jaw, not chair). The Astra matte step owns the re-review by eye and the track; the ship marker had not landed at plan time.",
+    "Caption spelling for the split, cutout and whiteboard authors: transcript_tight.json reads 'Claude Code Work' at 11.96-12.52, but the raw Scribe transcript of the SAME take reads 'Claude Cowork' and the intake keyterms list 'Claude Cowork'. The spoken product is Cowork, so the pill should read 'Claude Cowork' (PROPER-NOUN SPELLING rule), and the stage shows the orange Cowork mark.",
+    "The bridge completes on 'close the gap' because that is the sentence's claim (future tense, 'is going to close'); the not-yet-released part of the story is carried by the hourglass in chapter 4, not by an unfinished bridge.",
+    "The monitor in chapter 3 is declared UI chrome drawn in ink, not a bespoke object (A SCREEN IS NOT AN OBJECT); it is a real-world monitor-on-a-stand silhouette with an interface inside."
+  ],
+  "open_doubts": [],
+  "open_doubts_note": "Nothing here changes what the viewer sees without Miguel's answer: there is no source post and no pointing cue, the marks are named products with registry files, and the Cowork spelling is settled by the raw transcript of the same take and the intake keyterms."
+}

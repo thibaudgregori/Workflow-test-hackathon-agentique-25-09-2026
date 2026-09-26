@@ -1,0 +1,356 @@
+{
+ "render": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/openairesets_split.mp4",
+ "vid": "openairesets",
+ "fmt": "split",
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/projects/openairesets_split",
+ "checks": {
+  "decoded_blank_frames": {
+   "ok": true,
+   "result": {
+    "frames": 516,
+    "fps": 25.0,
+    "zone": [
+     0,
+     862,
+     1080,
+     862
+    ],
+    "ink_floor": 0.0006,
+    "min_ink_frac": 0.0,
+    "empty_frames_total": 2,
+    "leading_trailing_empty": 2,
+    "interior_blank_frames": [],
+    "pass": true
+   },
+   "wall_s": 0.0
+  },
+  "zero_ink_law": {
+   "ok": true,
+   "result": {
+    "render": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/openairesets_split.mp4",
+    "frames": 516,
+    "fps": 25.0,
+    "zone_bottom_design_px": 862.5,
+    "zone_px": [
+     1080,
+     862
+    ],
+    "first_word_s": 0.1,
+    "leading_empty_frames": 2,
+    "first_judged_frame": 3,
+    "min_ink_frac_judged": 0.03544621,
+    "min_ink_frac_at_s": 16.4,
+    "blank_frames": [],
+    "verdict": "PASS"
+   },
+   "wall_s": 0.0
+  },
+  "clip_coverage_page": {
+   "ok": true,
+   "result": {
+    "duration_s": 20.64,
+    "fps": 25,
+    "groups": {
+     "stage": {
+      "clips": 0,
+      "checked": false,
+      "note": "fewer than two clips \u2014 nothing can hand over"
+     },
+     "tz": {
+      "clips": 1,
+      "checked": false,
+      "note": "fewer than two clips \u2014 nothing can hand over"
+     },
+     "scap": {
+      "clips": 19,
+      "checked": true,
+      "frames": 516,
+      "span": [
+       0.08,
+       20.62
+      ],
+      "holes": [],
+      "ghosts": [],
+      "pass": true
+     }
+    },
+    "holes": 0,
+    "ghosts": 0,
+    "pass": true
+   },
+   "wall_s": 0.0
+  },
+  "double_exposure": {
+   "ok": true,
+   "result": {
+    "frames": 516,
+    "fps": 25.0,
+    "first_word_s": 0.1,
+    "leading_blank_run_frames": 3,
+    "after_first_word": {
+     "from_frame": 3,
+     "from_t": 0.12,
+     "basis": "first spoken word",
+     "min_ink": 0,
+     "min_ink_t": 16.36,
+     "min_ink40": 0,
+     "min_ink40_t": 16.36,
+     "zero_ink_frames": [
+      16.36,
+      16.4,
+      16.44,
+      16.48,
+      16.52,
+      16.56
+     ],
+     "zero_ink40_frames": [
+      16.36,
+      16.4,
+      16.44,
+      16.48,
+      16.52,
+      16.56
+     ]
+    },
+    "after_leading_run": {
+     "from_frame": 3,
+     "from_t": 0.12,
+     "basis": "opening fade-up cleared",
+     "min_ink": 0,
+     "min_ink_t": 16.36,
+     "min_ink40": 0,
+     "min_ink40_t": 16.36,
+     "zero_ink_frames": [
+      16.36,
+      16.4,
+      16.44,
+      16.48,
+      16.52,
+      16.56
+     ],
+     "zero_ink40_frames": [
+      16.36,
+      16.4,
+      16.44,
+      16.48,
+      16.52,
+      16.56
+     ]
+    },
+    "after_first_readable_ink": {
+     "from_frame": 3,
+     "from_t": 0.12,
+     "basis": "first READABLE ink on screen",
+     "min_ink": 0,
+     "min_ink_t": 16.36,
+     "min_ink40": 0,
+     "min_ink40_t": 16.36,
+     "zero_ink_frames": [
+      16.36,
+      16.4,
+      16.44,
+      16.48,
+      16.52,
+      16.56
+     ],
+     "zero_ink40_frames": [
+      16.36,
+      16.4,
+      16.44,
+      16.48,
+      16.52,
+      16.56
+     ]
+    },
+    "double_exposure_floor_px": 600,
+    "double_exposure_frames": [
+     {
+      "t": 1.52,
+      "outgoing_px": 938,
+      "incoming_px": 771
+     },
+     {
+      "t": 1.64,
+      "outgoing_px": 702,
+      "incoming_px": 732
+     },
+     {
+      "t": 1.68,
+      "outgoing_px": 642,
+      "incoming_px": 1027
+     }
+    ],
+    "double_exposure_count": 3,
+    "note": "candidates, not a verdict \u2014 adjudicate each window (procedure v3); the opening fade-up legitimately fires"
+   },
+   "wall_s": 0.04
+  },
+  "face_centring": {
+   "ok": true,
+   "result": {
+    "label": "openairesets_split",
+    "video": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/openairesets_split.mp4",
+    "duration_s": 20.66,
+    "detector": "mediapipe/blazeface",
+    "segment_source": "auto:layout-detector",
+    "segments": null,
+    "every_s": 0.5,
+    "tol_pct": 4.0,
+    "band_level": "warning",
+    "full_face": {
+     "n": 0,
+     "worst_dx_pct": null,
+     "worst_t": null,
+     "mean_abs_dx_pct": null,
+     "offenders": []
+    },
+    "band": {
+     "n": 41,
+     "worst_dx_pct": 4.44,
+     "worst_t": 13.5,
+     "warnings": [
+      {
+       "t": 13.5,
+       "dx_pct": 4.44,
+       "face_h_pct": 16.0,
+       "class": "band",
+       "score": 0.98,
+       "skin": 0.88
+      }
+     ]
+    },
+    "pass": true,
+    "verdict": "PASS"
+   },
+   "wall_s": 0.66
+  },
+  "pill_canon_rendered": {
+   "ok": true,
+   "result": {
+    "samples": 60,
+    "band_rows_px": [
+     772,
+     952
+    ],
+    "frames_without_a_pill": 0,
+    "distinct_heights_px": {
+     "114": 60
+    },
+    "modal_height_px": 114,
+    "modal_height_design_px": 114.0,
+    "spread_px": 0,
+    "spread_max_px": 2.0,
+    "canonical_height_px": 114.59,
+    "canonical_height_design_px": 114.59,
+    "modal_vs_canon_px": 0.59,
+    "tolerance_px": 3.0,
+    "delivery_scale": 1.0,
+    "widest_pill_px": 748,
+    "widest_pill_in_design_px": 748.0,
+    "verdict": "PASS",
+    "pass": true
+   },
+   "wall_s": 0.0
+  },
+  "gate1_geometry_audit": {
+   "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/geometry_audit.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/projects/openairesets_split --step 0.25 --out /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/gen/_gate1_openairesets_split.json",
+   "rc": 0,
+   "stdout": "openairesets_split: 0 errors, 0 warnings (20.6s @ 0.25s step)\n",
+   "stderr": "",
+   "wall_s": 1.51
+  },
+  "gate2_frame_review": {
+   "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/qc/gate2_frames.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/openairesets_split.mp4 --full --transcript /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/cuts/openairesets/transcript_tight.json",
+   "rc": 0,
+   "stdout": "  t=00:11.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/frames_openairesets_split/f_0011_666.jpg\n  t=00:12.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/frames_openairesets_split/f_0012_000.jpg\n  t=00:12.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/frames_openairesets_split/f_0012_333.jpg\n  t=00:12.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/frames_openairesets_split/f_0012_666.jpg\n  t=00:13.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/frames_openairesets_split/f_0013_333.jpg\n  t=00:13.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/frames_openairesets_split/f_0013_666.jpg\n  t=00:14.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/frames_openairesets_split/f_0014_000.jpg\n  t=00:14.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/frames_openairesets_split/f_0014_333.jpg\n  t=00:14.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/frames_openairesets_split/f_0014_666.jpg\n  t=00:15.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/frames_openairesets_split/f_0015_000.jpg\n  t=00:15.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/frames_openairesets_split/f_0015_333.jpg\n  t=00:15.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/frames_openairesets_split/f_0015_666.jpg\n  t=00:16.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/frames_openairesets_split/f_0016_000.jpg\n  t=00:16.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/frames_openairesets_split/f_0016_333.jpg\n  t=00:16.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/frames_openairesets_split/f_0016_666.jpg\n  t=00:17.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/frames_openairesets_split/f_0017_000.jpg\n  t=00:17.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/frames_openairesets_split/f_0017_333.jpg\n  t=00:17.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/frames_openairesets_split/f_0017_666.jpg\n  t=00:18.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/frames_openairesets_split/f_0018_000.jpg\n  t=00:18.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/frames_openairesets_split/f_0018_333.jpg\n  t=00:18.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/frames_openairesets_split/f_0018_666.jpg\n  t=00:19.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/frames_openairesets_split/f_0019_333.jpg\n  t=00:19.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/frames_openairesets_split/f_0019_666.jpg\n  t=00:20.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/frames_openairesets_split/f_0020_000.jpg\n  t=00:20.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/frames_openairesets_split/f_0020_333.jpg\n\nManifest: /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/frames_openairesets_split/manifest.md  (delete dir after review)\n",
+   "stderr": "",
+   "wall_s": 0.93
+  },
+  "audio_guards": {
+   "ok": true,
+   "result": {
+    "mix_8_16k_db": -29.61,
+    "master_8_16k_db": -29.49,
+    "delta_db": -0.12,
+    "tolerance_db": 6.0,
+    "speech_margin_db_p85_p15_33ms_s16le": 20.325,
+    "sync": {
+     "lag_ms": 0,
+     "r": 0.9954,
+     "instrument": "10 ms |x| envelope, +/-250 ms search"
+    },
+    "audio_initial_padding_samples": 0,
+    "verdict": "PASS",
+    "pass": true
+   },
+   "wall_s": 0.67
+  },
+  "contact_sheet": {
+   "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/contact_sheet.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/openairesets_split.mp4 --id openairesets --fmt split --run /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26",
+   "rc": 0,
+   "stdout": "{\n \"sheet\": \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/sheet_openairesets_split.png\",\n \"id\": \"openairesets\",\n \"fmt\": \"split\",\n \"duration_s\": 20.66,\n \"frame_source\": \"even\",\n \"times\": [\n  0.86,\n  2.58,\n  4.3,\n  6.03,\n  7.75,\n  9.47,\n  11.19,\n  12.91,\n  14.64,\n  16.36,\n  18.08,\n  19.8\n ],\n \"size_px\": [\n  1798,\n  4344\n ]\n}\n",
+   "stderr": "",
+   "wall_s": 2.21
+  },
+  "phone_crops": {
+   "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/phone_crops.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/output/openairesets_split.mp4 --out /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review --label openairesets_split --at 2.9:0.4537,0.1781,0.75,0.3135:hourglass price tag --at 12.7:0.2148,0.1573,0.7852,0.2412:four hourglasses row --at 15.4:0.3056,0.2948,0.6944,0.3604:rising brick wall",
+   "rc": 0,
+   "stdout": "{\n \"sheet\": \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/phone_openairesets_split.png\",\n \"manifest\": \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/phone_openairesets_split.json\",\n \"answer_key\": \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/phone_openairesets_split.key.json\",\n \"n_objects\": 3,\n \"phone_sizes_px\": [\n  [\n   120,\n   97\n  ],\n  [\n   232,\n   60\n  ],\n  [\n   158,\n   47\n  ]\n ]\n}\n",
+   "stderr": "",
+   "wall_s": 0.69
+  }
+ },
+ "skipped": {
+  "cutout_checks_24_25": "cutout only, and needs --project",
+  "gate3_gemini_describe": "no --vid, or skipped",
+  "edge_clip": "cutout only, and needs --alpha",
+  "whiteboard_seam_law": "whiteboard only, and needs --seams (the chapter erase times)",
+  "face_hf_vs_plate": "needs --plate (the display plate)",
+  "head_scale_vs_framing": "needs --alpha and --edge-box (the crown comes from the matte's own alpha, the chin from MediaPipe on the delivered frame)"
+ },
+ "zone_bottom_design_px": 862.5,
+ "decode": {
+  "frames": 516,
+  "fps": 25.0,
+  "size": [
+   1080,
+   1920
+  ],
+  "grid_frames": 41,
+  "caption_band_rows": [
+   772,
+   952
+  ],
+  "caption_seat_design_px": 862.5,
+  "wall_s": 3.55
+ },
+ "verdicts": {
+  "decoded_blank_frames": "PASS",
+  "zero_ink_law": "PASS",
+  "clip_coverage_page": "PASS",
+  "double_exposure": "REPORTED",
+  "face_centring": "PASS",
+  "pill_canon_rendered": "PASS",
+  "gate1_geometry_audit": "PASS",
+  "gate2_frame_review": "PASS",
+  "audio_guards": "PASS",
+  "contact_sheet": "PASS",
+  "phone_crops": "PASS"
+ },
+ "wall_s": {
+  "decoded_blank_frames": 0.0,
+  "zero_ink_law": 0.0,
+  "clip_coverage_page": 0.0,
+  "double_exposure": 0.04,
+  "face_centring": 0.66,
+  "pill_canon_rendered": 0.0,
+  "gate1_geometry_audit": 1.51,
+  "gate2_frame_review": 0.93,
+  "audio_guards": 0.67,
+  "contact_sheet": 2.21,
+  "phone_crops": 0.69,
+  "single_decode": 3.55
+ },
+ "total_wall_s": 4.31,
+ "pass": true
+}

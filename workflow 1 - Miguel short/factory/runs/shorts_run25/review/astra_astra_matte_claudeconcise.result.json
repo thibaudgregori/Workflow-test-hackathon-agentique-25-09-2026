@@ -1,0 +1,14 @@
+{
+  "status": "ok",
+  "ship": "ok",
+  "selection_changed": false,
+  "edits": 0,
+  "rounds": 1,
+  "what_you_saw": "Viewed the clean frame, full selection overlay and enlarged head overlay; the initial contour follows the cap and brim, both ears, cheeks, jaw, chin, neck and shirt shoulders with the visible hands inside, while excluding the chair back and headrest. Approved without polygon edits. After one MatAnyone 2 pass, viewed playback.jpg, face_2x.jpg, chair_sides.jpg and hands.jpg: sampled opening, gestures and ending preserve opaque facial anatomy, cap, neck, shoulders and hands, with natural motion blur on fast fingers. Source-versus-composite face tiles show no carved ear, cheek or jaw. Chair-side tiles, including 8.4 and 8.6 seconds, show no visible chair slab, grey wedge or neck splash. No detached fragments or visible instability across the sampled tiles. Ship reports 1044 frames; all three output SHA256 hashes match ship_v5.json. No SAM2 fallback needed. This is the matte inspection result; Miguel remains the final staged-video reviewer.",
+  "hold_reason": "",
+  "outputs": [
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/matting/claudeconcise/matte_claudeconcise_v5_cut.webm",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/matting/claudeconcise/matte_claudeconcise_v5_rim.webm",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run25/matting/claudeconcise/matte_claudeconcise_v5_alpha.webm"
+  ]
+}

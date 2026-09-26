@@ -1,0 +1,72 @@
+{
+  "run": "shorts_run26",
+  "day": "2026-09-23",
+  "videos": [
+    {
+      "id": "deepseekprices",
+      "recording": "2026-09-21 14-31-25",
+      "lane": "counter+meter",
+      "transcript": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/intake/transcripts/2026-09-21 14-31-25.json",
+      "topic": "DeepSeek is a victim of its own popularity: rising demand for its newest model means it is raising prices.",
+      "notion_id": "3b431704-6eeb-8140-b9af-e14ec565e0b4",
+      "keep": [
+        "split",
+        "cutout"
+      ],
+      "redo": "Miguel approved the split. REDO THE WHITEBOARD ONLY, for style: run 26's boards look like the split's clean vector icons pasted on cream, not a hand-drawn whiteboard. Keep the same argument, chapters, labels, timings and seams as the current gen/deepseekprices_whiteboard.py (it passed every check), but redraw every object with b.stroke(), the marker pen, no pasted scene SVG, no b.shape() for drawn objects, no solid fills. The design and scene are final: the design agent keeps them and returns. The cutout is NOT part of this rerun (its matte waits for Astra); nothing touches matting/deepseekprices/."
+    },
+    {
+      "id": "openairesets",
+      "recording": "2026-09-21 14-33-56",
+      "lane": "kinetic",
+      "transcript": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/intake/transcripts/2026-09-21 14-33-56.json",
+      "topic": "OpenAI started selling usage resets to its users so heavy users can keep building when they hit their limits.",
+      "notion_id": "3b531704-6eeb-8152-8a87-d0d3836b62b3",
+      "keep": [
+        "split",
+        "cutout"
+      ],
+      "redo": "Miguel approved the split. REDO THE WHITEBOARD ONLY, for style: run 26's boards look like the split's clean vector icons pasted on cream, not a hand-drawn whiteboard. Keep the same argument, chapters, labels, timings and seams as the current gen/openairesets_whiteboard.py (it passed every check), but redraw every object with b.stroke(), the marker pen, no pasted scene SVG, no b.shape() for drawn objects, no solid fills. The design and scene are final: the design agent keeps them and returns. The cutout is NOT part of this rerun (its matte waits for Astra); nothing touches matting/openairesets/."
+    },
+    {
+      "id": "stripekai",
+      "recording": "2026-09-21 15-20-02",
+      "lane": "diagram build",
+      "transcript": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/intake/transcripts/2026-09-21 15-20-02.json",
+      "topic": "Stripe revealed Kai, how it keeps 1,000 AI skills usable inside the company.",
+      "notion_id": "3b731704-6eeb-8154-b462-ccd9ae85a88c",
+      "keep": [
+        "split",
+        "cutout"
+      ],
+      "redo": "Miguel approved the split. REDO THE WHITEBOARD ONLY, for style: run 26's boards look like the split's clean vector icons pasted on cream, not a hand-drawn whiteboard. Keep the same argument, chapters, labels, timings and seams as the current gen/stripekai_whiteboard.py (it passed every check), but redraw every object with b.stroke(), the marker pen, no pasted scene SVG, no b.shape() for drawn objects, no solid fills. The design and scene are final: the design agent keeps them and returns. The cutout is NOT part of this rerun (its matte waits for Astra); nothing touches matting/stripekai/."
+    },
+    {
+      "id": "hermesbrowser",
+      "recording": "2026-09-21 14-23-44",
+      "lane": "icon choreography",
+      "transcript": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/intake/transcripts/2026-09-21 14-23-44.json",
+      "topic": "Hermes desktop now has an integrated browser, so your Hermes agent can see, operate and analyze inside it.",
+      "notion_id": "3b431704-6eeb-81fd-af32-f8ddd581bcc2",
+      "keep": [
+        "split",
+        "cutout"
+      ],
+      "redo": "Miguel approved the split. REDO THE WHITEBOARD ONLY, for style: run 26's boards look like the split's clean vector icons pasted on cream, not a hand-drawn whiteboard. Keep the same argument, chapters, labels, timings and seams as the current gen/hermesbrowser_whiteboard.py (it passed every check), but redraw every object with b.stroke(), the marker pen, no pasted scene SVG, no b.shape() for drawn objects, no solid fills. The design and scene are final: the design agent keeps them and returns. The cutout is NOT part of this rerun (its matte waits for Astra); nothing touches matting/hermesbrowser/."
+    },
+    {
+      "id": "grokdesktop",
+      "recording": "2026-09-21 14-28-40",
+      "lane": "kinetic",
+      "transcript": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/intake/transcripts/2026-09-21 14-28-40.json",
+      "topic": "xAI is working on a Grok desktop app that may release soon, bridging the gap with the other top AI desktop apps.",
+      "notion_id": "3b431704-6eeb-81a7-8a66-f7761701be33",
+      "keep": [
+        "split",
+        "cutout"
+      ],
+      "redo": "Miguel approved the split. REDO THE WHITEBOARD ONLY, for style: run 26's boards look like the split's clean vector icons pasted on cream, not a hand-drawn whiteboard. Keep the same argument, chapters, labels, timings and seams as the current gen/grokdesktop_whiteboard.py (it passed every check), but redraw every object with b.stroke(), the marker pen, no pasted scene SVG, no b.shape() for drawn objects, no solid fills. The design and scene are final: the design agent keeps them and returns. The cutout is NOT part of this rerun (its matte waits for Astra); nothing touches matting/grokdesktop/."
+    }
+  ],
+  "partial": "run 26 whiteboard style redo (marker pen), 2026-09-23"
+}

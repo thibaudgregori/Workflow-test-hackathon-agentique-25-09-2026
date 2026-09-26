@@ -1,0 +1,200 @@
+{
+ "module": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/gen/openairesets_scene.py",
+ "objects": [
+  {
+   "i": 0,
+   "name": "hourglass price tag",
+   "t": 2.9,
+   "core_box": [
+    490.0,
+    150.0,
+    813.0,
+    410.0
+   ],
+   "phone_box_px": [
+    184,
+    128,
+    305,
+    226
+   ],
+   "phone_size_px": [
+    121,
+    98
+   ],
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/proof_openairesets/00.png"
+  },
+  {
+   "i": 1,
+   "name": "four hourglasses row",
+   "t": 12.7,
+   "core_box": [
+    232.0,
+    110.0,
+    847.6,
+    271.2
+   ],
+   "phone_box_px": [
+    87,
+    113,
+    318,
+    174
+   ],
+   "phone_size_px": [
+    231,
+    61
+   ],
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/proof_openairesets/01.png"
+  },
+  {
+   "i": 2,
+   "name": "rising brick wall",
+   "t": 15.4,
+   "core_box": [
+    330.0,
+    374.0,
+    750.0,
+    500.0
+   ],
+   "phone_box_px": [
+    124,
+    212,
+    281,
+    260
+   ],
+   "phone_size_px": [
+    157,
+    48
+   ],
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/proof_openairesets/02.png"
+  }
+ ],
+ "frames": [
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/proof_openairesets/frame_00.35.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/proof_openairesets/frame_01.30.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/proof_openairesets/frame_01.90.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/proof_openairesets/frame_02.90.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/proof_openairesets/frame_05.00.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/proof_openairesets/frame_08.00.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/proof_openairesets/frame_10.45.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/proof_openairesets/frame_11.50.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/proof_openairesets/frame_12.70.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/proof_openairesets/frame_15.40.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/proof_openairesets/frame_17.50.png"
+ ],
+ "cast": {
+  "stage": {
+   "openai": {
+    "path": "/Users/migle/Documents/Workspace/assets/logos/ai-models/openai.png",
+    "bytes": 11297,
+    "size": [
+     640,
+     640
+    ],
+    "ink_fill": 0.375,
+    "quantised_colours": 1,
+    "diag_fwd": 0.287,
+    "diag_back": 0.275,
+    "bbox": [
+     0,
+     0,
+     640,
+     635
+    ]
+   }
+  },
+  "lanes": {
+   "chatgpt": {
+    "path": "/Users/migle/Documents/Workspace/assets/logos/ai-models/chatgpt-color.png",
+    "bytes": 75110,
+    "size": [
+     1024,
+     1024
+    ],
+    "ink_fill": 0.963,
+    "quantised_colours": 14,
+    "diag_fwd": 0.931,
+    "diag_back": 0.861,
+    "bbox": [
+     0,
+     0,
+     1024,
+     1024
+    ]
+   },
+   "codex": {
+    "path": "/Users/migle/Documents/Workspace/assets/logos/coding-tools/codex-color.png",
+    "bytes": 7578,
+    "size": [
+     640,
+     640
+    ],
+    "ink_fill": 0.97,
+    "quantised_colours": 13,
+    "diag_fwd": 0.894,
+    "diag_back": 0.894,
+    "bbox": [
+     0,
+     0,
+     640,
+     640
+    ]
+   },
+   "claude": {
+    "path": "/Users/migle/Documents/Workspace/assets/logos/ai-models/claude-color.png",
+    "bytes": 9337,
+    "size": [
+     640,
+     640
+    ],
+    "ink_fill": 0.399,
+    "quantised_colours": 1,
+    "diag_fwd": 0.463,
+    "diag_back": 0.541,
+    "bbox": [
+     0,
+     0,
+     640,
+     640
+    ]
+   },
+   "claude-code": {
+    "path": "/Users/migle/Documents/Workspace/assets/logos/coding-tools/claudecode-color.png",
+    "bytes": 1467,
+    "size": [
+     640,
+     640
+    ],
+    "ink_fill": 0.679,
+    "quantised_colours": 1,
+    "diag_fwd": 0.631,
+    "diag_back": 0.631,
+    "bbox": [
+     0,
+     133,
+     640,
+     534
+    ]
+   },
+   "cursor": {
+    "path": "/Users/migle/Documents/Workspace/assets/logos/coding-tools/cursor.png",
+    "bytes": 4422,
+    "size": [
+     640,
+     640
+    ],
+    "ink_fill": 0.541,
+    "quantised_colours": 1,
+    "diag_fwd": 0.255,
+    "diag_back": 0.439,
+    "bbox": [
+     39,
+     0,
+     601,
+     640
+    ]
+   }
+  }
+ },
+ "page_errors": [],
+ "font_ok": true
+}

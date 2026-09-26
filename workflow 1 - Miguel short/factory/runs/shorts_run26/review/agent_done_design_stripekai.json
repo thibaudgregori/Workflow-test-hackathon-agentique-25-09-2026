@@ -1,0 +1,27 @@
+{
+ "verdict": "PASS",
+ "plan_json": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/plans/stripekai_plan.json",
+ "plan_md": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/plans/stripekai_plan.md",
+ "lane": "diagram build",
+ "lane_reason": "Intake's 'diagram build' holds: the script describes one internal platform as a thing that holds skills and tools, who built it, who uses it, and where it strains, so one object (Kai as a toolbox) is built, measured, handed to its users and finally overloaded, with counters only where the script speaks real numbers.",
+ "beats": 7,
+ "bespoke_names": [
+  "an open toolbox",
+  "a group of people",
+  "three office buildings",
+  "an overflowing toolbox"
+ ],
+ "cues": "0 cues: pointing_cues.py 'No pointing cue in this take' (gen/_cues_stripekai.json cues []), prep cues marker cue_count 0; nothing waived. Stage markers at plan time: cut ok (35.82 s, corroboration 'model-authored keep ranges', wall 89.9 s), plate ok (over-wide, crop 2492x1780+577+256, scale_k 0.5056), prompt0 ok (wing_review true, instrument abstained, no cut), track running (matanyone2, no cost figure yet), ship not landed, MATTES_FINAL.md absent.",
+ "board_mode": "chapters",
+ "open_questions": [
+  "Wing review: the prompt0 marker has landed (status ok, wing_review true, the instrument proposed no cut and abstained, overlay at matting/stripekai/prompts/kf_overlay_00000.png); the track marker says 'running' (matanyone2) and no ship marker exists at plan time, so the visual selection and the matte belong to the Astra matte step.",
+  "The Stripe mark in the library is the wide wordmark (aspect 2.40), not a square app icon, so it sits on a 204 x 100 nameplate on the toolbox front instead of a 112 px square tile; a square tile would shrink the word to an unreadable sliver at phone size.",
+  "'Now, it's always extremely interesting to see' (18.36-20.56) adds no ink by design: the finished group of people holds 2.2 s before the buildings arrive on 'how'."
+ ],
+ "open_doubts": [],
+ "scene_handoff": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/plans/stripekai_scene_handoff.md",
+ "scene_module": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/gen/stripekai_scene.py",
+ "sealed": true,
+ "proofs": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run26/review/proof_stripekai",
+ "reason": ""
+}
