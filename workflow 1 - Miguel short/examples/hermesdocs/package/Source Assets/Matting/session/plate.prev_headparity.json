@@ -1,0 +1,65 @@
+{
+ "file": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/matting/hermesdocs/plate_wide_25.mp4",
+ "master": [
+  3840,
+  2160,
+  707
+ ],
+ "crop": "2632x1880+578+240",
+ "scale_k": 0.478723,
+ "head_px_on_canvas": 449.9,
+ "head_frac_of_1920": 0.2343,
+ "face_px_on_canvas": 330.0,
+ "cap_top_on_plate": 58.9,
+ "chin_on_plate": 503.3,
+ "face_cx_on_plate": 629.9,
+ "shoulder_rule_crop_w": 1454,
+ "dropped": 0,
+ "kept_dupes": [
+  2,
+  23,
+  78,
+  129,
+  166,
+  280,
+  331,
+  357,
+  410,
+  595,
+  596,
+  601,
+  649,
+  667
+ ],
+ "expect_frames": 707,
+ "ffmpeg_vf": "setpts=N/(25*TB),crop=2632:1880:578:240,scale=1260:900:flags=lanczos",
+ "plate_size": [
+  1260,
+  900
+ ],
+ "paint_scale": 1.1,
+ "head_parity": {
+  "crop": "2256x1880+766+240",
+  "scale_k": 0.478723,
+  "plate_size": [
+   1080,
+   900
+  ]
+ },
+ "probe": {
+  "width": 1260,
+  "height": 900,
+  "r_frame_rate": "25/1",
+  "duration": "28.280000",
+  "nb_read_frames": "707"
+ },
+ "headroom": {
+  "cap_top_on_canvas_px": 64.8,
+  "target_on_canvas_px": 64.0,
+  "hard_floor_on_canvas_px": 24.0,
+  "bottom_planted": false,
+  "slid_up_master_px": 40,
+  "note": "the crop is bottom-planted unless that would cut the crown; sliding it up spends the bottom of his chest, which the format runs off the canvas anyway, and touches neither `k` (head height on canvas) nor `x0` (face centring)"
+ },
+ "note": "the HEAD-PARITY record, kept so the over-wide solve is idempotent: re-reading an over-wide plate.json would shift the face a second time"
+}

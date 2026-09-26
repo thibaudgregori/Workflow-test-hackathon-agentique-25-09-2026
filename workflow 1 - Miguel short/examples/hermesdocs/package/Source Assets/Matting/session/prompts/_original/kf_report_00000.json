@@ -1,0 +1,58 @@
+{
+ "frame": 0,
+ "plate": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/matting/hermesdocs/plate_wide_25.mp4",
+ "dark_threshold": 60,
+ "wing_right": null,
+ "wing_right_rows": "400,620",
+ "wing_left": null,
+ "wing_left_rows": "400,520",
+ "removed_right_px": 0,
+ "removed_left_px": 0,
+ "removed": {
+  "px": 0,
+  "median_luma": -1,
+  "max_luma": -1
+ },
+ "birefnet": {
+  "area": 535141,
+  "bands": {
+   "cap": {
+    "left": 414,
+    "right": 792
+   },
+   "head": {
+    "left": 202,
+    "right": 1036
+   },
+   "jaw": {
+    "left": 186,
+    "right": 1068
+   },
+   "neck": {
+    "left": 132,
+    "right": 1080
+   }
+  }
+ },
+ "prompt": {
+  "area": 535141,
+  "bands": {
+   "cap": {
+    "left": 414,
+    "right": 792
+   },
+   "head": {
+    "left": 202,
+    "right": 1036
+   },
+   "jaw": {
+    "left": 186,
+    "right": 1068
+   },
+   "neck": {
+    "left": 132,
+    "right": 1080
+   }
+  }
+ }
+}

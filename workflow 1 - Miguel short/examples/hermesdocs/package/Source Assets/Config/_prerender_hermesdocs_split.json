@@ -1,0 +1,95 @@
+{
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/projects/hermesdocs_split",
+ "fmt": "split",
+ "step": 0.25,
+ "checks": {
+  "refs_resolve": {
+   "referenced": 8,
+   "missing": [],
+   "pass": true,
+   "error": null,
+   "wall_s": 0.09
+  },
+  "assets_not_placeholder": {
+   "rasters": 2,
+   "placeholder_shaped": [],
+   "undecodable": [],
+   "report": {
+    "assets/logos/nous-girl-line.png": {
+     "size": [
+      2609,
+      2647
+     ],
+     "judged": "decode only (capture)"
+    },
+    "assets/logos/firecrawl-product.png": {
+     "size": [
+      640,
+      640
+     ],
+     "ink_fill": 0.499,
+     "quantised_colours": 1,
+     "diag_fwd": 0.613,
+     "diag_back": 0.622,
+     "bbox": [
+      106,
+      0,
+      560,
+      640
+     ]
+    }
+   },
+   "pass": true,
+   "error": null,
+   "wall_s": 0.11
+  },
+  "page_audit": {
+   "ids": 111,
+   "unique_ids": 111,
+   "duplicate_ids": [],
+   "tween_selectors": 49,
+   "dead_tween_targets": [],
+   "pass": true,
+   "error": null,
+   "wall_s": 0.0
+  },
+  "caption_canon_page": {
+   "pills": 28,
+   "modal_height_px": 114.53,
+   "canon_height_px": 114.59,
+   "height_spread_px": 0.0,
+   "tolerance_design_px": 3.0,
+   "heights_off_canon": [],
+   "squarer_than_min_aspect": [],
+   "min_aspect": 1.45,
+   "function_only_beat_law": null,
+   "pass": true,
+   "error": null,
+   "wall_s": 0.0
+  },
+  "gate1_geometry_audit": {
+   "returncode": 0,
+   "errors": 0,
+   "warnings": 0,
+   "warnings_after_waivers": 0,
+   "waived": [],
+   "report": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/projects/hermesdocs_split/geometry_audit/report.json",
+   "stdout": "hermesdocs_split: 0 errors, 0 warnings (28.3s @ 0.25s step)\n",
+   "stderr": "",
+   "bar": "0 errors, 0 warnings",
+   "pass": true,
+   "error": null,
+   "wall_s": 1.31
+  }
+ },
+ "skipped": {
+  "cutout_edge_fade_guard": "cutout only",
+  "cutout_checks_24_25": "cutout only"
+ },
+ "duration_s": 28.28,
+ "page_zoom": 1.0005133928571428,
+ "page_load_wall_s": 0.84,
+ "failed": [],
+ "verdict": "PASS",
+ "total_wall_s": 2.34
+}

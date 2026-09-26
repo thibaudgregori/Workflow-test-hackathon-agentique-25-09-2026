@@ -1,0 +1,532 @@
+{
+  "vid": "hermesdocs",
+  "source": "/Users/migle/Movies/2026-09-21 14-25-45.mp4",
+  "source_take_start": 129.76,
+  "source_take_end": 158.92,
+  "source_take_duration": 29.16,
+  "cut_master_duration": 28.28,
+  "cut_fps": 25,
+  "cut_audio": "48000,2",
+  "face_measurement": {
+    "probes": [
+      1.41,
+      3.39,
+      5.66,
+      7.92,
+      10.18,
+      12.73,
+      15.27,
+      17.82,
+      20.36,
+      23.19,
+      26.02
+    ],
+    "n_probes": 11,
+    "face_cx_px": 1840.4,
+    "face_cx_min_max": [
+      1822.7,
+      1913.5
+    ],
+    "head_h_median_px": 923.0,
+    "cap_top_min_px": 370,
+    "windows": {
+      "face_bottom_hd.mp4": {
+        "vf": "crop=2208:2160:736:0,scale=1080:1058:flags=lanczos",
+        "x0": 736,
+        "width": 2208,
+        "out_size": [
+          1080,
+          1058
+        ],
+        "window_centre_px": 1840.0,
+        "offset_from_face_px": 0.4,
+        "keyframes_in_first_30s": 29,
+        "max_gap_frames": 25
+      },
+      "face_full_hd.mp4": {
+        "vf": "crop=1216:2160:1232:0,scale=1080:1920:flags=lanczos",
+        "x0": 1232,
+        "width": 1216,
+        "out_size": [
+          1080,
+          1920
+        ],
+        "window_centre_px": 1840.0,
+        "offset_from_face_px": 0.4,
+        "keyframes_in_first_30s": 29,
+        "max_gap_frames": 25
+      }
+    },
+    "note": "windows are MEASURED on THIS cut master, never inherited"
+  },
+  "face_probe_rows": [
+    {
+      "t": 1.41,
+      "face_cx_px": 1913.5,
+      "eye_y_px": 764.7,
+      "chin_y_px": 1253.3,
+      "head_top_px": 379,
+      "face_h_px": 654.8,
+      "head_h_px": 874.3,
+      "cap_measured": true,
+      "shoulder": {
+        "y0.55": {
+          "y": 1733,
+          "span": 1638,
+          "x0": 852,
+          "x1": 2489
+        },
+        "y0.70": {
+          "y": 1865,
+          "span": 1665,
+          "x0": 784,
+          "x1": 2448
+        },
+        "y0.85": {
+          "y": 1996,
+          "span": 1810,
+          "x0": 741,
+          "x1": 2550
+        },
+        "y1.00": {
+          "y": 2127,
+          "span": 1333,
+          "x0": 1168,
+          "x1": 2500
+        }
+      }
+    },
+    {
+      "t": 3.39,
+      "face_cx_px": 1830.2,
+      "eye_y_px": 771.1,
+      "chin_y_px": 1284.9,
+      "head_top_px": 372,
+      "face_h_px": 687.0,
+      "head_h_px": 912.9,
+      "cap_measured": true,
+      "shoulder": {
+        "y0.55": {
+          "y": 1786,
+          "span": 1596,
+          "x0": 810,
+          "x1": 2405
+        },
+        "y0.70": {
+          "y": 1923,
+          "span": 1688,
+          "x0": 760,
+          "x1": 2447
+        },
+        "y0.85": {
+          "y": 2059,
+          "span": 1804,
+          "x0": 702,
+          "x1": 2505
+        },
+        "y1.00": {
+          "y": 2159,
+          "span": 1198,
+          "x0": 660,
+          "x1": 1857
+        }
+      }
+    },
+    {
+      "t": 5.66,
+      "face_cx_px": 1833.5,
+      "eye_y_px": 808.7,
+      "chin_y_px": 1327.3,
+      "head_top_px": 375,
+      "face_h_px": 700.4,
+      "head_h_px": 952.3,
+      "cap_measured": true,
+      "shoulder": {
+        "y0.55": {
+          "y": 1850,
+          "span": 1666,
+          "x0": 779,
+          "x1": 2444
+        },
+        "y0.70": {
+          "y": 1993,
+          "span": 1810,
+          "x0": 721,
+          "x1": 2530
+        },
+        "y0.85": {
+          "y": 2136,
+          "span": 1017,
+          "x0": 653,
+          "x1": 1669
+        },
+        "y1.00": {
+          "y": 2159,
+          "span": 978,
+          "x0": 639,
+          "x1": 1616
+        }
+      }
+    },
+    {
+      "t": 7.92,
+      "face_cx_px": 1842.3,
+      "eye_y_px": 755.4,
+      "chin_y_px": 1243.7,
+      "head_top_px": 371,
+      "face_h_px": 669.1,
+      "head_h_px": 872.7,
+      "cap_measured": true,
+      "shoulder": {
+        "y0.55": {
+          "y": 1722,
+          "span": 991,
+          "x0": 837,
+          "x1": 1827
+        },
+        "y0.70": {
+          "y": 1853,
+          "span": 1632,
+          "x0": 767,
+          "x1": 2398
+        },
+        "y0.85": {
+          "y": 1984,
+          "span": 1733,
+          "x0": 718,
+          "x1": 2450
+        },
+        "y1.00": {
+          "y": 2115,
+          "span": 1303,
+          "x0": 643,
+          "x1": 1945
+        }
+      }
+    },
+    {
+      "t": 10.18,
+      "face_cx_px": 1828.6,
+      "eye_y_px": 779.0,
+      "chin_y_px": 1305.8,
+      "head_top_px": 371,
+      "face_h_px": 700.5,
+      "head_h_px": 934.8,
+      "cap_measured": true,
+      "shoulder": {
+        "y0.55": {
+          "y": 1819,
+          "span": 1219,
+          "x0": 1172,
+          "x1": 2390
+        },
+        "y0.70": {
+          "y": 1959,
+          "span": 1406,
+          "x0": 1041,
+          "x1": 2446
+        },
+        "y0.85": {
+          "y": 2099,
+          "span": 1437,
+          "x0": 1079,
+          "x1": 2515
+        },
+        "y1.00": {
+          "y": 2159,
+          "span": 1491,
+          "x0": 1018,
+          "x1": 2508
+        }
+      }
+    },
+    {
+      "t": 12.73,
+      "face_cx_px": 1862.3,
+      "eye_y_px": 813.3,
+      "chin_y_px": 1343.2,
+      "head_top_px": 372,
+      "face_h_px": 715.6,
+      "head_h_px": 971.2,
+      "cap_measured": true,
+      "shoulder": {
+        "y0.55": {
+          "y": 1877,
+          "span": 1699,
+          "x0": 759,
+          "x1": 2457
+        },
+        "y0.70": {
+          "y": 2022,
+          "span": 1859,
+          "x0": 693,
+          "x1": 2551
+        },
+        "y0.85": {
+          "y": 2159,
+          "span": 2412,
+          "x0": 621,
+          "x1": 3032
+        },
+        "y1.00": {
+          "y": 2159,
+          "span": 2412,
+          "x0": 621,
+          "x1": 3032
+        }
+      }
+    },
+    {
+      "t": 15.27,
+      "face_cx_px": 1840.4,
+      "eye_y_px": 786.9,
+      "chin_y_px": 1289.6,
+      "head_top_px": 373,
+      "face_h_px": 688.3,
+      "head_h_px": 916.6,
+      "cap_measured": true,
+      "shoulder": {
+        "y0.55": {
+          "y": 1793,
+          "span": 1503,
+          "x0": 801,
+          "x1": 2303
+        },
+        "y0.70": {
+          "y": 1930,
+          "span": 753,
+          "x0": 1580,
+          "x1": 2332
+        },
+        "y0.85": {
+          "y": 2068,
+          "span": 812,
+          "x0": 1515,
+          "x1": 2326
+        },
+        "y1.00": {
+          "y": 2159,
+          "span": 756,
+          "x0": 1615,
+          "x1": 2370
+        }
+      }
+    },
+    {
+      "t": 17.82,
+      "face_cx_px": 1878.7,
+      "eye_y_px": 779.8,
+      "chin_y_px": 1302.4,
+      "head_top_px": null,
+      "face_h_px": 711.5,
+      "head_h_px": 1010.3,
+      "cap_measured": false,
+      "shoulder": {
+        "y0.55": {
+          "y": 1857,
+          "span": 1686,
+          "x0": 773,
+          "x1": 2458
+        },
+        "y0.70": {
+          "y": 2009,
+          "span": 1762,
+          "x0": 710,
+          "x1": 2471
+        },
+        "y0.85": {
+          "y": 2159,
+          "span": 2398,
+          "x0": 634,
+          "x1": 3031
+        },
+        "y1.00": {
+          "y": 2159,
+          "span": 2398,
+          "x0": 634,
+          "x1": 3031
+        }
+      }
+    },
+    {
+      "t": 20.36,
+      "face_cx_px": 1822.7,
+      "eye_y_px": 755.9,
+      "chin_y_px": 1231.5,
+      "head_top_px": 370,
+      "face_h_px": 649.2,
+      "head_h_px": 861.5,
+      "cap_measured": true,
+      "shoulder": {
+        "y0.55": {
+          "y": 1704,
+          "span": 940,
+          "x0": 2712,
+          "x1": 3651
+        },
+        "y0.70": {
+          "y": 1834,
+          "span": 649,
+          "x0": 3059,
+          "x1": 3707
+        },
+        "y0.85": {
+          "y": 1963,
+          "span": 587,
+          "x0": 1441,
+          "x1": 2027
+        },
+        "y1.00": {
+          "y": 2092,
+          "span": 849,
+          "x0": 1264,
+          "x1": 2112
+        }
+      }
+    },
+    {
+      "t": 23.19,
+      "face_cx_px": 1891.1,
+      "eye_y_px": 761.2,
+      "chin_y_px": 1255.1,
+      "head_top_px": null,
+      "face_h_px": 673.7,
+      "head_h_px": 956.6,
+      "cap_measured": false,
+      "shoulder": {
+        "y0.55": {
+          "y": 1781,
+          "span": 1152,
+          "x0": 1259,
+          "x1": 2410
+        },
+        "y0.70": {
+          "y": 1924,
+          "span": 1356,
+          "x0": 1090,
+          "x1": 2445
+        },
+        "y0.85": {
+          "y": 2068,
+          "span": 1550,
+          "x0": 1014,
+          "x1": 2563
+        },
+        "y1.00": {
+          "y": 2159,
+          "span": 1609,
+          "x0": 936,
+          "x1": 2544
+        }
+      }
+    },
+    {
+      "t": 26.02,
+      "face_cx_px": 1834.7,
+      "eye_y_px": 797.1,
+      "chin_y_px": 1302.0,
+      "head_top_px": 379,
+      "face_h_px": 684.8,
+      "head_h_px": 923.0,
+      "cap_measured": true,
+      "shoulder": {
+        "y0.55": {
+          "y": 1808,
+          "span": 1593,
+          "x0": 795,
+          "x1": 2387
+        },
+        "y0.70": {
+          "y": 1947,
+          "span": 1700,
+          "x0": 742,
+          "x1": 2441
+        },
+        "y0.85": {
+          "y": 2085,
+          "span": 1829,
+          "x0": 682,
+          "x1": 2510
+        },
+        "y1.00": {
+          "y": 2159,
+          "span": 2375,
+          "x0": 655,
+          "x1": 3029
+        }
+      }
+    }
+  ],
+  "take_detection": {
+    "mode": "model keep_words (the agent read the transcript and chose the words; no rule detection)",
+    "keep_words": [
+      [
+        201,
+        290
+      ]
+    ],
+    "kept_text": "Hermes Agent just dropped another banger for privacy. Now they read your documents locally, meaning that if you need to operate with high confidential documents from either your business or your clients and you run Hermes Agent locally, now you have zero risk of your data actually leaking out. They do this by using AnyDoc, which is an open source PDF analyzer built by the team over at Firecrawl. Now follow for more AI news, videos, and tutorials each and every single day, and catch you in the next one.",
+    "dropped_words": 201,
+    "take_word_index": 201,
+    "take_start_s": 129.86,
+    "take_words": 90,
+    "raw_words": 291,
+    "openings_found": [],
+    "corroboration": "model-authored keep ranges"
+  },
+  "silence_noise": "-35dB",
+  "silence_min": 0.4,
+  "silence_keep": 0.16,
+  "micro_cuts_source": [],
+  "detected_silences": [
+    {
+      "start": 2.678,
+      "end": 3.085
+    },
+    {
+      "start": 16.942,
+      "end": 17.345
+    },
+    {
+      "start": 24.169,
+      "end": 24.759
+    }
+  ],
+  "keep_segments": [
+    {
+      "tight_start": 0,
+      "source_start": 129.76,
+      "source_end": 132.518
+    },
+    {
+      "tight_start": 2.758,
+      "source_start": 132.765,
+      "source_end": 146.782
+    },
+    {
+      "tight_start": 16.775,
+      "source_start": 147.025,
+      "source_end": 154.009
+    },
+    {
+      "tight_start": 23.759,
+      "source_start": 154.439,
+      "source_end": 158.92
+    }
+  ],
+  "edl_keep_segments_duration_s": 28.24,
+  "audio_sync_offset_ms": 0,
+  "audio_written": [
+    "audio.m4a (48 kHz stereo)"
+  ],
+  "analysis_wav_written": false,
+  "mix_source": "audio.m4a (48 kHz stereo) \u2014 there is no 16 kHz file here",
+  "raw_duration": 159.8,
+  "tight_transcript": {
+    "file": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/cuts/hermesdocs/transcript_tight.json",
+    "words": 90,
+    "keyterms_sent": 110,
+    "first_word_s": 0.1,
+    "audio_duration_secs": 28.265
+  }
+}

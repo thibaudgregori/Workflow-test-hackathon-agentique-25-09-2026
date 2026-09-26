@@ -1,0 +1,27 @@
+{
+  "status": "ok",
+  "frames": 707,
+  "width": 1386,
+  "height": 990,
+  "fps": 25.0,
+  "alpha_mode": "soft",
+  "rim_px": 7,
+  "temporal": 1,
+  "hashes": {
+    "cut": "6ccc1f2b4cd69b92055cf8819055b576ec8c427d7694e818b1fa1e20e31f45c8",
+    "rim": "ac30ca679c9a3d14fcc210be475865ad4630c1eab3bb22765397e4098dcff0b3",
+    "alpha": "ce89325092780540e5950c4f233c4ff92da79f2a009226faaeab4ae96335917c"
+  },
+  "seconds": 57.996888244,
+  "estimated_compute_usd": 0.02637234502231168,
+  "fractional_alpha_pixels": 15813056,
+  "minimum_person_fraction": 0.41634964362237087,
+  "review_status": "needs_final_visual_review",
+  "ship_source_sha256": "0154788627eb98961c3eb2bc600e14d29cbc4f0de84b5c925b98e03e19bbd250",
+  "client_wall_seconds": 71.12754629200208,
+  "outputs": {
+    "cut": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/matting/hermesdocs/matte_hermesdocs_v5_cut.webm",
+    "rim": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/matting/hermesdocs/matte_hermesdocs_v5_rim.webm",
+    "alpha": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/matting/hermesdocs/matte_hermesdocs_v5_alpha.webm"
+  }
+}

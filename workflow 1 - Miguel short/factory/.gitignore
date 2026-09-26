@@ -1,0 +1,27 @@
+# Heavy media and regenerable render artifacts stay out of the repo (19GB+).
+# Code, briefs, STANDARD/LEARNINGS, qc verdicts, paperwork, and small audio
+# assets (music beds, SFX) remain tracked.
+*.mp4
+*.mov
+*.wav
+*.m4a
+runs/shorts_run*/projects/
+runs/shorts_run*/compare/
+runs/shorts_run*/cuts/
+runs/shorts_run*/matting*/
+runs/shorts_run*/output/
+runs/shorts_run*/staging/
+runs/shorts_run*/stage/
+output/
+audio/
+analysis/*.wav
+**/geometry_audit/*.png
+**/.fr/
+.tmp_frames*/
+
+# the BiRefNet interpreter (rebuild: python3.12 -m venv pipeline/prep/.venv-birefnet && pip install -r pipeline/prep/birefnet-requirements.txt)
+pipeline/prep/.venv-birefnet/
+.tmp_*/
+.pytest_cache/
+*.log
+pipeline/sam2/work/

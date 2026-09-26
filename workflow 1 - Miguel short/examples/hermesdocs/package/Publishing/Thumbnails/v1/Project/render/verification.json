@@ -1,0 +1,104 @@
+{
+  "renders": [
+    {
+      "id": "cover",
+      "platform": "tiktok",
+      "name": "Approved default: original option 17",
+      "layout_name": "FILLED / LEFT",
+      "lines": [
+        "HERMES NOW",
+        "READS DOCS",
+        "LOCALLY"
+      ],
+      "pose": "plush-orange-a",
+      "size": 199,
+      "title_weight": 900,
+      "title_max_size": 240,
+      "title_align": "center",
+      "boxed": true,
+      "title_y": 320,
+      "photo_y": 865,
+      "photo_height": 860,
+      "depth_y": 1070,
+      "cast_index": 0,
+      "source_transcript": "projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/cuts/grokbuild/transcript_tight.json",
+      "title_leading": 0.99,
+      "line_sizes": [
+        131,
+        143,
+        199
+      ],
+      "body_bottom_y": 1682,
+      "font_family": "Avenir Next",
+      "font_path": "/Users/migle/Documents/Workspace/assets/fonts/shorts-cover-local/AvenirNext-Heavy.ttf",
+      "font_weight_name": "Heavy",
+      "tracking": -2,
+      "treatment": "box",
+      "subject_max_w": 984,
+      "source_photo_sha256": "a5ccc7428f997933c3f901e0d09a47ccf73a8b92f52bc1201bff474a65956f07",
+      "master": "/Users/migle/Movies/Shorts Factory/Ready to Publish/Hermes Agent reads your documents locally/Publishing/Thumbnails/v1/Project/render/tiktok/cover.png",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "title_box": {
+        "x": 64,
+        "y": 360,
+        "width": 952,
+        "height": 487.25
+      },
+      "title_style": {
+        "size": 199,
+        "weight": 900,
+        "family": "Headline"
+      },
+      "line_styles": [
+        {
+          "text": "HERMES NOW",
+          "size": 131,
+          "weight": 900,
+          "scroll": 952,
+          "client": 952
+        },
+        {
+          "text": "READS DOCS",
+          "size": 143,
+          "weight": 900,
+          "scroll": 952,
+          "client": 952
+        },
+        {
+          "text": "LOCALLY",
+          "size": 199,
+          "weight": 900,
+          "scroll": 929,
+          "client": 929
+        }
+      ],
+      "font_loaded": true,
+      "images_loaded": true,
+      "protected_boxes": {
+        ".title": {
+          "x": 64,
+          "y": 360,
+          "width": 952,
+          "height": 487.25
+        },
+        ".subject": {
+          "x": 48,
+          "y": 993.9375,
+          "width": 984,
+          "height": 688.046875
+        }
+      },
+      "outer_bands_plain_cream": true,
+      "blank_band_bottom_start": 1684,
+      "render_sha256": "eea8b893c62cd509b711b6d831d1b5dccdb7fd05df0ef6ea68f50f14b56cb5b6",
+      "depth_tiles": 35
+    }
+  ],
+  "local_seconds": 0.78,
+  "paid_model_calls": 0,
+  "paid_cloud_calls": 0,
+  "visual_review": "pending"
+}

@@ -1,0 +1,640 @@
+{
+  "variant": "fix round 6 \u2014 fix5 with the CANONICAL caption pill; the seat, the stage zone and every other pixel are frozen",
+  "round6": {
+    "source_of_truth": "references/builds/mcpupgrade_icon/projects/mcpupgrade_icon/index.html .scappill (published factory, measured in the render browser: 38 pills, one height, 114.59px)",
+    "font_px": [
+      54.0,
+      56.2
+    ],
+    "pad_y": [
+      19.0,
+      18.8
+    ],
+    "pad_x": [
+      34.0,
+      33.8
+    ],
+    "radius": [
+      22.0,
+      22.5
+    ],
+    "box_shadow": [
+      "0 6px 22px rgba(ink,.22)",
+      "none \u2014 canon has none"
+    ],
+    "pill_height_rendered": [
+      112.0,
+      114.59
+    ],
+    "line_box_em": 1.3699,
+    "seat_frozen": {
+      "cap_y": 949.5,
+      "zy1": 868.9,
+      "cap_h_constant": 108.2
+    },
+    "pill_width": {
+      "strings_measured": 352,
+      "pill_height_px": 114.59,
+      "distinct_heights": 1,
+      "canonical_published_height": 114.59,
+      "estimator": "retired \u2014 Chromium lays the real .scappill box out"
+    }
+  },
+  "round2": {
+    "law8_edge_fade": {
+      "masked_containers": 7,
+      "fade_px": 46.0
+    },
+    "law9_label_blocks": {
+      "blocks": {
+        "b2-lockg": "b2-lock + b2-name",
+        "b6-nousg": "b6-nous + b6-nl",
+        "b6-hermg": "b6-herm + b6-hl",
+        "b8-mcpg": "b8-mcp + b8-ml"
+      },
+      "moved": [
+        "b0-r0",
+        "b0-r1",
+        "b0-r2",
+        "b3-w1",
+        "b3-w2",
+        "b4-s0",
+        "b4-s1",
+        "b4-s2",
+        "b4-s3",
+        "b4-s4",
+        "b4-t0",
+        "b4-t1",
+        "b4-t2",
+        "b4-t3",
+        "b4-t4",
+        "b5-c0",
+        "b5-c1",
+        "b5-c2",
+        "b5-c3",
+        "b5-c4",
+        "b5-c5",
+        "b6-hermg",
+        "b6-nousg",
+        "b7-r0",
+        "b7-r1",
+        "b7-r2",
+        "b8-mcpg",
+        "b8-s0",
+        "b8-s1",
+        "b8-s2",
+        "ln-far",
+        "ln-mid",
+        "ln-near",
+        "o-t0",
+        "o-t1",
+        "o-t2",
+        "o-t3"
+      ]
+    },
+    "law10_tiles": {
+      "tiles": 156,
+      "logo_images": 178,
+      "distinct_marks": 26,
+      "roster": 24,
+      "marks_used": [
+        "airtable",
+        "apify",
+        "chatgpt",
+        "claude",
+        "elevenlabs",
+        "exa",
+        "excalidraw",
+        "figma",
+        "gdrive",
+        "gemini",
+        "github",
+        "gmail",
+        "gmaps",
+        "make",
+        "mcp",
+        "n8n",
+        "notion",
+        "nous",
+        "openrouter",
+        "perplexity",
+        "slack",
+        "telegram",
+        "whatsapp",
+        "x",
+        "youtube",
+        "zapier"
+      ]
+    },
+    "law11_fills": {
+      "meters": 4,
+      "min_width_px": {
+        "b1-met": 42.1,
+        "b2-met": 42.1,
+        "b5-ves": 110.0,
+        "b8-ves": 110.0
+      }
+    }
+  },
+  "fps": 25,
+  "duration": 54.16,
+  "transcript_duration": 54.1866875,
+  "plate": {
+    "src": "_shared/face_wide_25.mp4",
+    "matte": "matte_sam2_rim_v4.webm  ->  matte_sam2_rim_v4.webm  [alpha 57.7% transparent @24s]  [v4 BAKED \u2014 rim in the RGB, face re-encoded; see ship.py \u00a7V5]",
+    "scale": 1.1,
+    "left": -54.0,
+    "top": 930.0,
+    "w": 1188.0,
+    "h": 990.0,
+    "box": {
+      "box": [
+        1188.0,
+        990.0
+      ],
+      "origin": [
+        -54.0,
+        930.0
+      ],
+      "layers": {
+        "matte.webm": [
+          1080,
+          900
+        ]
+      },
+      "mode": "baked",
+      "one_to_one": false,
+      "integral": true,
+      "ok": true,
+      "note": "v4 BAKED path: the layer is intentionally upscaled from plate resolution \u2014 that upscale is defect 1 itself, and this path exists only for the byte-for-byte promotion diff.  Integrality is still enforced."
+    },
+    "matte_mode": "baked",
+    "hf_reference": null,
+    "hf_reference_plate": null
+  },
+  "voice": {
+    "source": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/formats/_shared/hermesinfinite/source_cut_master.mp4",
+    "source_name": "source_cut_master.mp4",
+    "codec": "aac",
+    "rate": 48000,
+    "channels": 2,
+    "bit_rate": 192413,
+    "staged": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/formats/cutout/stage/v/voice.m4a",
+    "staged_rate": 48000,
+    "source_band_8_16k_db": -30.06,
+    "staged_band_8_16k_db": -30.11
+  },
+  "head": {
+    "cap_top": 1088.1,
+    "chin": 1638.1,
+    "height_px": 550.0,
+    "head_frac": 0.2865,
+    "v1_head_frac_measured": 0.276
+  },
+  "envelope": "envelope.json",
+  "stage_zone": [
+    192.0,
+    868.9
+  ],
+  "lane_band": [
+    1120.0,
+    1560.0
+  ],
+  "bounds": [
+    0.0,
+    3.14,
+    6.28,
+    10.5,
+    13.2,
+    20.0,
+    29.7,
+    33.38,
+    40.58,
+    50.74,
+    54.16
+  ],
+  "anchors": {
+    "b1": 3.14,
+    "b2": 6.28,
+    "b3": 10.5,
+    "b4": 13.2,
+    "b5": 20.0,
+    "b6": 29.7,
+    "b7": 33.38,
+    "b8": 40.58,
+    "b9": 50.74,
+    "infinite": 1.5,
+    "allatonce": 5.14,
+    "dont": 7.0,
+    "yousee": 7.68,
+    "hermes": 8.18,
+    "crack": 9.56,
+    "procedural": 11.88,
+    "disclosure": 12.48,
+    "see": 16.38,
+    "thetools": 16.88,
+    "needs": 17.58,
+    "when": 18.44,
+    "needsthem": 19.22,
+    "consume": 20.26,
+    "finite": 21.5,
+    "picky": 25.94,
+    "lab": 31.92,
+    "behind": 32.32,
+    "allof": 35.64,
+    "tools2": 35.9,
+    "everneed": 36.54,
+    "noworry": 39.56,
+    "giveup": 42.74,
+    "mcpservers": 44.06,
+    "andall": 45.02,
+    "youwillneed": 46.18,
+    "bloating": 47.48,
+    "unbelievable": 49.12,
+    "every": 52.68
+  },
+  "guard": {
+    "atoms": 54,
+    "behind": 3,
+    "behind_ids": [
+      "ln-far",
+      "ln-mid",
+      "ln-near"
+    ],
+    "front_atoms": 51,
+    "lowest_front_atom": {
+      "id": "b1-met",
+      "bottom": 868.9
+    },
+    "front_top": 192.0,
+    "front_bottom": 868.9
+  },
+  "lanes": {
+    "lanes": [
+      {
+        "lane": "far",
+        "tile": 78.0,
+        "y": 1120.0,
+        "gutter_left": 293.6,
+        "gutter_right": 279.3,
+        "strip": [
+          -216.0,
+          1848.0
+        ],
+        "travel": 552.0,
+        "steps": 12
+      },
+      {
+        "lane": "mid",
+        "tile": 116.0,
+        "y": 1224.0,
+        "gutter_left": 273.8,
+        "gutter_right": 279.3,
+        "strip": [
+          -304.0,
+          2728.0
+        ],
+        "travel": 1344.0,
+        "steps": 12
+      },
+      {
+        "lane": "near",
+        "tile": 148.0,
+        "y": 1366.0,
+        "gutter_left": 148.4,
+        "gutter_right": 306.8,
+        "strip": [
+          -384.0,
+          3960.0
+        ],
+        "travel": 2496.0,
+        "steps": 12
+      }
+    ]
+  },
+  "caption": {
+    "cap_y": 949.5,
+    "top": 892.21,
+    "bottom": 1006.79,
+    "height": 114.59,
+    "seat_height_frozen": 108.2,
+    "seat_top": 895.4,
+    "seat_bottom": 1003.6,
+    "fix5_true_height": 112.0,
+    "canonical_pill_height_measured": 114.59,
+    "line_box_em": 1.3699,
+    "bottom_frac": 0.5244,
+    "centre_frac": 0.4945,
+    "law12_limit_px": 1382.4,
+    "preferred_centre_band": [
+      768.0,
+      1248.0
+    ],
+    "clear_of_stage_zone": 23.31,
+    "clear_of_silhouette_union": 23.31,
+    "clear_of_first_lane": 113.21,
+    "clear_of_measured_cap_top": 81.31,
+    "fix5_clear_of_stage_zone_true": 24.6,
+    "round2_bottom": 1838.1,
+    "round2_bottom_frac": 0.9573
+  },
+  "law12": {
+    "ui_top": 192.0,
+    "ui_bottom": 1382.4,
+    "rail_x": 918.0,
+    "rail_y": [
+      576.0,
+      1824.0
+    ],
+    "readable_atoms_in_rail": 0,
+    "texture_atoms_in_rail": [
+      {
+        "id": "ln-far",
+        "right": 1848.0,
+        "painted_right": 1080,
+        "into_rail_px": 162.0,
+        "kind": "depth lane"
+      },
+      {
+        "id": "ln-mid",
+        "right": 2728.0,
+        "painted_right": 1080,
+        "into_rail_px": 162.0,
+        "kind": "depth lane"
+      },
+      {
+        "id": "ln-near",
+        "right": 3960.0,
+        "painted_right": 1080,
+        "into_rail_px": 162.0,
+        "kind": "depth lane"
+      },
+      {
+        "id": "b0",
+        "right": 957.1,
+        "painted_right": 957.1,
+        "into_rail_px": 39.1,
+        "kind": "shelf field"
+      },
+      {
+        "id": "b1",
+        "right": 957.1,
+        "painted_right": 957.1,
+        "into_rail_px": 39.1,
+        "kind": "shelf field"
+      },
+      {
+        "id": "b2",
+        "right": 957.1,
+        "painted_right": 957.1,
+        "into_rail_px": 39.1,
+        "kind": "shelf field"
+      },
+      {
+        "id": "b7",
+        "right": 957.1,
+        "painted_right": 957.1,
+        "into_rail_px": 39.1,
+        "kind": "shelf field"
+      }
+    ],
+    "worst_texture_intrusion_px": 162.0,
+    "texture_note": "shelf fields end at x=996 (78px, i.e. 59% of one 132px tile column) and the depth lanes are full-bleed by design; Law 10 licenses those fields to REPEAT marks, so occluding one cell is lossless"
+  },
+  "caption_width": {
+    "pills": 58,
+    "widest_px": 725.25,
+    "widest_text": "news and tutorials every",
+    "widths_are": "measured in Chromium, not estimated",
+    "narrowest_px": 227.94,
+    "font_px": 56.2,
+    "pill_height_px": 114.59,
+    "pill_x": [
+      177.4,
+      902.6
+    ],
+    "rail_x": 918.0,
+    "font_min": 56.2,
+    "font_max": 56.2,
+    "round2_widest_px": 958.1,
+    "round2_pill_right_x": 1019.1
+  },
+  "caption_splits": [
+    {
+      "was": "have literally infinite tools.",
+      "into": [
+        "have literally",
+        "infinite tools."
+      ]
+    },
+    {
+      "was": "Hermes Agent managed to",
+      "into": [
+        "Hermes Agent",
+        "managed to"
+      ]
+    },
+    {
+      "was": "They introduced something that's",
+      "into": [
+        "They introduced",
+        "something that's"
+      ]
+    },
+    {
+      "was": "called procedural disclosure.",
+      "into": [
+        "called",
+        "procedural disclosure."
+      ]
+    },
+    {
+      "was": "need without bloating your",
+      "into": [
+        "need without",
+        "bloating your"
+      ]
+    },
+    {
+      "was": "context, which is just unbelievable.",
+      "into": [
+        "context, which is",
+        "just unbelievable."
+      ]
+    }
+  ],
+  "rebalance_fit": {
+    "shelf": {
+      "s": 0.9147,
+      "dy": 18.7,
+      "authored_height": 740.0,
+      "fitted_height": 676.9,
+      "zone_height": 676.9
+    },
+    "term": {
+      "s": 1.0,
+      "dy": -32.1,
+      "authored_height": 465.1,
+      "fitted_height": 465.1,
+      "zone_height": 676.9
+    },
+    "ondemand": {
+      "s": 1.0,
+      "dy": 87.9,
+      "authored_height": 465.1,
+      "fitted_height": 465.1,
+      "zone_height": 676.9
+    },
+    "context": {
+      "s": 1.0,
+      "dy": 121.5,
+      "authored_height": 358.0,
+      "fitted_height": 358.0,
+      "zone_height": 676.9
+    },
+    "lab": {
+      "s": 1.0,
+      "dy": 112.9,
+      "authored_height": 235.1,
+      "fitted_height": 235.1,
+      "zone_height": 676.9
+    },
+    "payoff": {
+      "s": 1.0,
+      "dy": 88.5,
+      "authored_height": 384.0,
+      "fitted_height": 384.0,
+      "zone_height": 676.9
+    },
+    "outro": {
+      "s": 1.0,
+      "dy": 21.8,
+      "authored_height": 417.3,
+      "fitted_height": 417.3,
+      "zone_height": 676.9
+    }
+  },
+  "round5": {
+    "plate_scale_before": 1.0,
+    "plate_scale_after": 1.1,
+    "plate_before": {
+      "left": 0.0,
+      "top": 1020.0,
+      "w": 1080.0,
+      "h": 900.0
+    },
+    "plate_after": {
+      "left": -54.0,
+      "top": 930.0,
+      "w": 1188.0,
+      "h": 990.0
+    },
+    "anchor": "bottom centre (x=AX, y=1920)",
+    "union_y0_plate": 91.0,
+    "union_top_before": 1111.0,
+    "union_top_after": 1030.1,
+    "cap_top_before": 1163.8,
+    "cap_top_after": 1088.1,
+    "chin_before": 1663.8,
+    "chin_after": 1638.1,
+    "head_h_before": 500.0,
+    "head_h_after": 550.0,
+    "stage_zone_before": [
+      192.0,
+      940.0
+    ],
+    "stage_zone_after": [
+      192.0,
+      868.9
+    ],
+    "cap_y_before": 1024.0,
+    "cap_y_after": 949.5
+  },
+  "captions": 58,
+  "sfx": [
+    {
+      "name": "soft_whoosh",
+      "t": 0.04,
+      "class": "structure",
+      "volume": "0.120"
+    },
+    {
+      "name": "low_thump",
+      "t": 5.12,
+      "class": "structure",
+      "volume": "0.120"
+    },
+    {
+      "name": "reverse_air",
+      "t": 7.0,
+      "class": "structure",
+      "volume": "0.120"
+    },
+    {
+      "name": "page_turn",
+      "t": 10.48,
+      "class": "detail",
+      "volume": "0.077"
+    },
+    {
+      "name": "pop",
+      "t": 19.2,
+      "class": "detail",
+      "volume": "0.077"
+    },
+    {
+      "name": "low_thump",
+      "t": 21.52,
+      "class": "structure",
+      "volume": "0.120"
+    },
+    {
+      "name": "soft_whoosh",
+      "t": 36.56,
+      "class": "structure",
+      "volume": "0.120"
+    }
+  ],
+  "meters": {
+    "b1-met": {
+      "x": 194.2,
+      "y": 819.5,
+      "w": 691.5,
+      "h": 49.4,
+      "inner_w": 684.2,
+      "inner_h": 42.1,
+      "radius": 21.04,
+      "fit_scale": 0.9147
+    },
+    "b2-met": {
+      "x": 194.2,
+      "y": 819.5,
+      "w": 691.5,
+      "h": 49.4,
+      "inner_w": 684.2,
+      "inner_h": 42.1,
+      "radius": 21.04,
+      "fit_scale": 0.9147
+    },
+    "b5-ves": {
+      "x": 162.0,
+      "y": 591.5,
+      "w": 756.0,
+      "h": 118.0,
+      "inner_w": 748.0,
+      "inner_h": 110.0,
+      "radius": 55.0,
+      "fit_scale": 1.0
+    },
+    "b8-ves": {
+      "x": 162.0,
+      "y": 604.5,
+      "w": 756.0,
+      "h": 118.0,
+      "inner_w": 748.0,
+      "inner_h": 110.0,
+      "radius": 55.0,
+      "fit_scale": 1.0
+    }
+  }
+}

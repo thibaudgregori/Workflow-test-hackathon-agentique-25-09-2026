@@ -1,0 +1,19 @@
+{
+ "id": "hermesdocs",
+ "stage": "cut",
+ "status": "ok",
+ "wall_s": 68.6,
+ "at": "2026-09-23T20:32:13",
+ "keys": {
+  "status": "ok",
+  "master": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/cuts/hermesdocs/master.mp4",
+  "audio": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/cuts/hermesdocs/audio.m4a",
+  "edl": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/cuts/hermesdocs/edl.json",
+  "transcript_tight": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/cuts/hermesdocs/transcript_tight.json",
+  "cut_master_duration_s": 28.28,
+  "corroboration": "model-authored keep ranges",
+  "analysis_wav_written": false,
+  "tight_audio_duration_s": 28.265,
+  "wall_s": 68.6
+ }
+}

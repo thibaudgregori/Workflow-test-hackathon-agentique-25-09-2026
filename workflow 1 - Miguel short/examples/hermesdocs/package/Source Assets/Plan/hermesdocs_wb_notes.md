@@ -1,0 +1,9 @@
+# hermesdocs: whiteboard author notes
+
+The plan was built as written, with two changes forced by a law and one timing adjustment.
+
+1. **LAW 40, the two source arrows (a law overrides the plan).** The plan puts the business and clients arrow ends at `anchor_points(SAFE_BOX_shifted, 2, 'left')`. That gives two ends on the safe's left side at different heights. `whiteboard_build.assert_anchor_law` accepts connectors into one target only when they are level (within 2.1 u) or mirror-symmetric and level, so it refuses this pair. On the board the two flows merge into one terracotta stem. The business arrow is drawn on 'business' and its head lands at the centre height of the safe's left edge (257.5, 264). The clients line joins the stem at the junction (242, 264) on 'clients'. Both declared ends sit on that one anchor. The picture still says the same thing: both sources flow into the safe.
+2. **Door shut with no fills.** A whiteboard cannot hide contents behind an unfilled door. On 'now' (13.18) the open slab, the Hermes tile and the pages are erased, and the door front (dial and handle) is drawn again. The plan's lifetimes put this at 13.34-13.54; on the board it is 13.18-13.38.
+3. **Hook Phone Test time.** The plan's locked-safe object uses t 1.6. On the board the handle finishes at about 1.62 and the pen leaves by 1.88, so the whiteboard's check time is 2.00, before the terracotta turn arrow at 2.22. This follows the 2026-09-15 whiteboard rule: the drawing is complete and the pen has left.
+
+Emphasis: each of the plan's three box targets (the Hermes tile, the safe body and the PDF tag) gets its own outline re-inked in terracotta. That is how the plan's `whiteboard_version` describes it, and it is the board's version of a border flip. No `box_emphasis` rectangle is drawn. The Hermes tile goes back to ink at +0.94 s, which matches the plan's 11.86-12.80 window.

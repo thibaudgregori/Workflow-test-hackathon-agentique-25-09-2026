@@ -1,0 +1,38 @@
+[
+  {
+    "id": "cover",
+    "platform": "tiktok",
+    "name": "Approved default: original option 17",
+    "layout_name": "FILLED / LEFT",
+    "lines": [
+      "HERMES NOW",
+      "READS DOCS",
+      "LOCALLY"
+    ],
+    "pose": "plush-orange-a",
+    "size": 199,
+    "title_weight": 900,
+    "title_max_size": 240,
+    "title_align": "center",
+    "boxed": true,
+    "title_y": 320,
+    "photo_y": 865,
+    "photo_height": 860,
+    "depth_y": 1070,
+    "cast_index": 0,
+    "source_transcript": "projects/personal/content/shorts-factory/shorts_tiktok_remake_20260905/cuts/grokbuild/transcript_tight.json",
+    "title_leading": 0.99,
+    "line_sizes": [
+      131,
+      143,
+      199
+    ],
+    "body_bottom_y": 1682,
+    "font_family": "Avenir Next",
+    "font_path": "/Users/migle/Documents/Workspace/assets/fonts/shorts-cover-local/AvenirNext-Heavy.ttf",
+    "font_weight_name": "Heavy",
+    "tracking": -2,
+    "treatment": "box",
+    "subject_max_w": 984
+  }
+]

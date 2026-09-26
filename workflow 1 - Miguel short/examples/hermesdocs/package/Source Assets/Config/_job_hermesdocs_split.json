@@ -1,0 +1,13 @@
+{
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/projects/hermesdocs_split",
+ "vid": "hermesdocs",
+ "fmt": "split",
+ "quality": "high",
+ "stage": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/staging/youtube/hermesdocs_split.mp4",
+ "qc_args": [
+  "--voice-master", "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/cuts/hermesdocs/audio.m4a",
+  "--phone-at", "1.6:0.3444,0.1833,0.6556,0.351:locked steel safe",
+  "--phone-at", "8.6:0.3519,0.1771,0.7074,0.351:open safe documents",
+  "--phone-at", "21.5:0.3889,0.1677,0.6111,0.3083:scanned PDF page"
+ ]
+}

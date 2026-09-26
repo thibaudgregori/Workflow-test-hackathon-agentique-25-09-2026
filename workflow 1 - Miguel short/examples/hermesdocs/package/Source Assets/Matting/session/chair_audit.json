@@ -1,0 +1,72 @@
+[
+ {
+  "band": {
+   "crown": 54,
+   "head_width": 321.0,
+   "band_top": 263,
+   "shoulder_arrival": 443
+  },
+  "sides": {
+   "left": {
+    "found": true,
+    "rows": [
+     254,
+     402
+    ],
+    "cols": [
+     408,
+     490
+    ],
+    "box": [
+     400,
+     250,
+     498,
+     406
+    ],
+    "wing_px": 6928,
+    "leak_px": 83,
+    "wing_luma_mean": 26.0,
+    "leak_luma_mean": 32.2,
+    "leak_luma_p95": 55,
+    "action": "none",
+    "note": "83 px of this wing are inside the contour, under the 1500 px floor: the reviewer held it out"
+   },
+   "right": {
+    "found": true,
+    "rows": [
+     267,
+     402
+    ],
+    "cols": [
+     750,
+     821
+    ],
+    "box": [
+     742,
+     263,
+     829,
+     406
+    ],
+    "wing_px": 5464,
+    "leak_px": 27,
+    "wing_luma_mean": 14.3,
+    "leak_luma_mean": 53.4,
+    "leak_luma_p95": 59,
+    "action": "none",
+    "note": "27 px of this wing are inside the contour, under the 1500 px floor: the reviewer held it out"
+   }
+  },
+  "leak_px": 110,
+  "mask_px": 511700,
+  "thresholds": {
+   "leak_floor_px": 1500,
+   "carve_luma_max": 40,
+   "chair_black_max": 30,
+   "carve_frac_max": 0.06,
+   "dilate_px": 2
+  },
+  "verdict": "clean",
+  "why": "no headrest wing survives inside the reviewed contour",
+  "selection": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/matting/hermesdocs/selection.json"
+ }
+]

@@ -1,0 +1,509 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=1080, height=1920"/>
+<title>Abik Faceless R2 F05</title>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Archivo+Black&family=Montserrat:ital,wght@1,900&family=Nunito:wght@800&family=Instrument+Serif:ital@0;1&family=Playfair+Display:ital,wght@1,800&family=Lora:wght@500;600&family=JetBrains+Mono:wght@400;500;700&display=block" rel="stylesheet">
+<style>
+
+* { margin:0; padding:0; box-sizing:border-box; }
+body { margin:0; }
+#root { position:relative; width:1080px; height:1920px; overflow:hidden;
+  font-family:Poppins,sans-serif; }
+.clip { position:absolute; }
+.abs { position:absolute; }
+.center { left:0; width:1080px; text-align:center; }
+.scene { inset:0; }
+.inner { position:absolute; inset:0; transform-origin:50% 45%; }
+.bgfill { inset:0; }
+.uicard { background:#FFFFFF; border-radius:26.2px; overflow:hidden;
+  box-shadow:0 26.2px 63.8px rgba(0,0,0,0.13); }
+.uiimg { display:block; }
+.chromebar { display:flex; align-items:center; gap:15.0px; height:82.5px;
+  padding:0 30.0px; border-bottom:1px solid #EEECE6; }
+.dot { width:16.9px; height:16.9px; border-radius:50%; display:inline-block;
+  flex:none; }
+.dot.r { background:#FF5F57; } .dot.y { background:#FEBC2E; } .dot.g { background:#28C840; }
+.mini { width:30.0px; height:30.0px; margin-left:11.2px; }
+.ctitle { font-weight:600; font-size:31.9px; color:#111; white-space:nowrap; }
+.labelbar { height:82.5px; display:flex; align-items:center;
+  padding:0 33.8px; font-family:'JetBrains Mono',monospace; font-size:33.8px;
+  color:#8B8A85; border-bottom:1px solid #F0EEE8; white-space:nowrap; }
+.free3d { font-family:Poppins,sans-serif; font-weight:800; text-transform:uppercase;
+  color:#F5A623; letter-spacing:-0.03em; line-height:1;
+  text-shadow:7.5px 7.5px 0 #C97300; }
+.serifnum { font-family:'Instrument Serif',serif; font-style:italic; line-height:1;
+  color:#DD7259; }
+.monolbl { font-family:'JetBrains Mono',monospace; letter-spacing:7.5px;
+  text-transform:uppercase; }
+
+.hkline { font-weight:600; font-size:63.8px; color:#111111; }
+.hkline b { font-weight:800; }
+.hkline.onDark { color:#F6F1EA; }
+.fltitle { font-weight:700; color:#111111; line-height:1.18; }
+.fltitle.onDark { color:#F6F1EA; }
+.flsub { font-weight:500; color:#8C8C86; margin-top:7.5px; line-height:1.3; }
+.flsub.onDark { color:#A9A6A0; }
+.flbadge { background:#BEED4B; color:#111; font-weight:800;
+  font-size:63.8px; padding:11.2px 37.5px; border-radius:22.5px;
+  box-shadow:0 7.5px 18.8px rgba(0,0,0,0.25); }
+.flkicker { font-weight:600; color:#C66748; }
+.flkicker2 { font-family:'JetBrains Mono',monospace; font-size:37.5px;
+  letter-spacing:9.4px; text-transform:uppercase; color:#C66748; }
+.flbig { font-weight:800; font-size:97.5px; color:#111111; line-height:1.05; }
+.modelcard { background:#FBFAF6; border-radius:26.2px; overflow:hidden;
+  box-shadow:0 26.2px 63.8px rgba(0,0,0,0.13); }
+.mrow { display:flex; justify-content:space-between; align-items:center;
+  padding:26.2px 41.2px; }
+.mrow.sel { background:#ECEADD; }
+.mname { font-weight:700; font-size:48.8px; color:#111; }
+.mrow.off .mname { color:#BBB9B2; }
+.mchk { width:45.0px; height:45.0px; border-radius:50%; background:#3FA452;
+  color:#fff; font-size:28.1px; font-weight:700; display:flex; align-items:center;
+  justify-content:center; }
+.mfree { background:#4CD44C; color:#fff; font-weight:700; font-size:31.9px;
+  border-radius:16.9px; padding:7.5px 22.5px; }
+.ctafree { font-family:Montserrat,sans-serif; font-style:italic; font-weight:900;
+  background:linear-gradient(135deg,#D45CC0 0%,#B6339D 55%,#9C2386 100%);
+  -webkit-background-clip:text; background-clip:text; color:transparent; }
+.flchip span { display:inline-block; background:#BEED4B; color:#111;
+  border-radius:37.5px; padding:15.0px 41.2px; font-weight:700;
+  font-size:41.2px; }
+/* F03 phone */
+.phone { background:#101012; border-radius:101.2px;
+  box-shadow:0 41.2px 90.0px rgba(0,0,0,0.24); }
+.phscreen { position:absolute; background:#FBFAF6; border-radius:78.8px; overflow:hidden; }
+.phnotch { position:absolute; left:50%; top:22.5px; width:180.0px; height:26.2px;
+  border-radius:16.9px; background:rgba(17,17,17,0.12); margin-left:-90.0px; }
+/* F05 ghost number */
+.ghostnum { font-family:'Instrument Serif',serif; font-style:italic; line-height:0.9;
+  color:rgba(17,17,17,0.075); }
+/* F06 rail */
+.raillist { left:0; width:135.0px; display:flex; flex-direction:column;
+  align-items:center; gap:48.8px; }
+.raildot { width:75.0px; height:75.0px; border-radius:50%;
+  background:rgba(255,255,255,0.10); display:flex; align-items:center;
+  justify-content:center; font-family:'JetBrains Mono',monospace; font-size:28.1px;
+  color:#6E6C68; }
+.raildot.on { background:#C66748; color:#fff; }
+/* F08 spotlight */
+.ghostwrap { opacity:0; }
+.scrim { background:#F0F3EE; opacity:0.60; }
+.flchip2 { display:inline-block; background:#fff; border-radius:41.2px;
+  padding:16.9px 41.2px; font-family:'JetBrains Mono',monospace;
+  font-size:33.8px; color:#6E6C68; box-shadow:0 15.0px 37.5px rgba(0,0,0,0.10); }
+/* F09 checklist */
+.cklist { display:flex; flex-direction:column; gap:11.2px; }
+.ckrow { display:flex; align-items:center; gap:26.2px; padding:16.9px 33.8px;
+  border-radius:22.5px; background:rgba(17,17,17,0.03); }
+.ckrow.on { background:#FFFFFF; box-shadow:0 11.2px 30.0px rgba(0,0,0,0.07); }
+.ckbox { width:52.5px; height:52.5px; border-radius:16.9px; background:#DDDCD6;
+  color:#fff; font-weight:700; font-size:31.9px; display:flex; align-items:center;
+  justify-content:center; flex:none; }
+.ckrow.on .ckbox { background:#C66748; }
+.cktx { font-weight:600; font-size:43.1px; color:#B4B2AB; }
+.ckrow.on .cktx { color:#111; }
+/* F10 editorial */
+.edword { font-family:'Instrument Serif',serif; font-style:italic; color:#111111;
+  line-height:1; }
+.edrule { height:7.5px; background:#C66748; }
+/* captions */
+.cap { top:1490.6px; left:0; width:1080px; text-align:center; }
+.cappill { display:inline-block; background:#141716; color:#fff; font-weight:600;
+  font-size:56.2px; padding:26.2px 48.8px; border-radius:26.2px;
+  border:1px solid rgba(255,255,255,0.10); }
+
+</style>
+</head>
+<body>
+<div id="root" data-composition-id="main" data-start="0" data-width="1080" data-height="1920"
+     data-duration="50.91" data-fps="30">
+
+  <div id="chrome" class="clip" data-start="0" data-duration="50.91" data-track-index="0" style="inset:0"><div class="abs bgfill" style="background:#F0F3EE"></div></div>
+
+  <section id="sc-hook" class="clip scene" data-start="0.0" data-duration="5.50" data-track-index="2">
+    <div class="inner" id="in-hook">
+      <div class="abs center" id="hk-logo" style="top:637.5px">
+        <img src="assets/logos/claude.png" alt="" style="width:142.5px;height:142.5px"/></div>
+      <div class="abs center hkline" id="hk-l1" style="top:832.5px">Claude just gave away</div>
+      <div class="abs center hkline" id="hk-l2" style="top:915.0px">almost <b>everything</b></div>
+      <div class="abs center free3d" id="hk-free" style="top:1027.5px;font-size:217.5px">FREE</div>
+      <div class="abs center flsub" id="hk-sub" style="top:1267.5px;font-size:41.2px">without paying a single dollar</div></div>
+  </section>
+  <section id="sc-fp" class="clip scene" data-start="39.56" data-duration="8.64" data-track-index="8">
+    <div class="inner" id="in-fp">
+      <div class="abs center hkline" id="fp-l1" style="top:247.5px">All on the</div>
+      <div class="abs center free3d" id="fp-free" style="top:348.8px;font-size:180.0px">FREE</div>
+      <div class="abs center hkline" id="fp-l2" style="top:562.5px">plan</div>
+      <div class="abs uicard" id="fp-card" style="left:305.6px;top:742.5px;width:468.8px">
+        <img class="uiimg" src="assets/ui/models_sheet.png" alt="" style="width:468.8px;height:575.2px"/>
+      </div></div>
+  </section>
+  <section id="sc-cta" class="clip scene" data-start="48.02" data-duration="2.89" data-track-index="9">
+    <div class="inner" id="in-cta">
+      <div class="abs center hkline" id="cta-l1" style="top:750.0px;font-size:67.5px">Comment</div>
+      <div class="abs center ctafree" id="cta-free" style="top:877.5px;font-size:161.2px">&ldquo;FREE&rdquo;</div>
+      <div class="abs center flsub" id="cta-sub" style="top:1128.8px;font-size:41.2px">and I&rsquo;ll send you the link</div></div>
+  </section>
+
+  <section id="sc-memory" class="clip scene" data-start="5.28" data-duration="6.52" data-track-index="3">
+    <div class="inner" id="in-memory"><div class="abs center ghostnum" id="memory-gn" style="top:300.0px;font-size:675.0px">01</div>
+      <div class="abs uicard" id="memory-card" style="left:71.2px;top:608.3px;width:937.5px;"><div class="chromebar"><span class="dot r"></span><span class="dot y"></span><span class="dot g"></span><img class="mini" src="assets/logos/claude.png" alt=""/><span class="ctitle">Claude · Settings</span></div><img class="uiimg" src="assets/ui/memory_stack.png" alt="" style="width:937.5px;height:193.3px"/></div>
+      <div class="abs" id="memory-tt" style="left:0;width:1080px;text-align:center;top:1200.0px"><div class="fltitle" style="font-size:82.5px">Memory</div><div class="flsub" style="font-size:45.0px">Remembers you</div></div></div>
+  </section>
+  <section id="sc-websearch" class="clip scene" data-start="11.62" data-duration="7.03" data-track-index="4">
+    <div class="inner" id="in-websearch"><div class="abs center ghostnum" id="websearch-gn" style="top:300.0px;font-size:675.0px">02</div>
+      <div class="abs uicard" id="websearch-card" style="left:71.2px;top:529.8px;width:937.5px;"><div class="chromebar"><span class="dot r"></span><span class="dot y"></span><span class="dot g"></span><img class="mini" src="assets/logos/claude.png" alt=""/><span class="ctitle">Claude · Web search</span></div><img class="uiimg" src="assets/ui/websearch_permission.png" alt="" style="width:937.5px;height:350.4px"/></div>
+      <div class="abs" id="websearch-tt" style="left:0;width:1080px;text-align:center;top:1200.0px"><div class="fltitle" style="font-size:82.5px">Web Search</div><div class="flsub" style="font-size:45.0px">Real-time + sources</div></div></div>
+  </section>
+  <section id="sc-projects" class="clip scene" data-start="18.46" data-duration="7.34" data-track-index="5">
+    <div class="inner" id="in-projects"><div class="abs center ghostnum" id="projects-gn" style="top:300.0px;font-size:675.0px">03</div>
+      <div class="abs uicard" id="projects-card" style="left:161.2px;top:403.8px;width:757.5px;"><div class="chromebar"><span class="dot r"></span><span class="dot y"></span><span class="dot g"></span><img class="mini" src="assets/logos/claude.png" alt=""/><span class="ctitle">Claude · Projects</span></div><img class="uiimg" src="assets/ui/projects_modal.png" alt="" style="width:757.5px;height:602.4px"/></div>
+      <div class="abs" id="projects-tt" style="left:0;width:1080px;text-align:center;top:1200.0px"><div class="fltitle" style="font-size:82.5px">Projects</div><div class="flsub" style="font-size:45.0px">Separate workspaces</div></div></div>
+  </section>
+  <section id="sc-thinking" class="clip scene" data-start="25.62" data-duration="6.73" data-track-index="6">
+    <div class="inner" id="in-thinking"><div class="abs center ghostnum" id="thinking-gn" style="top:300.0px;font-size:675.0px">04</div>
+      <div class="abs uicard" id="thinking-card" style="left:93.8px;top:479.9px;width:892.5px;"><div class="chromebar"><span class="dot r"></span><span class="dot y"></span><span class="dot g"></span><img class="mini" src="assets/logos/claude.png" alt=""/><span class="ctitle">Claude · Thinking</span></div><img class="uiimg" src="assets/ui/thinking_card.png" alt="" style="width:892.5px;height:450.2px"/></div>
+      <div class="abs" id="thinking-tt" style="left:0;width:1080px;text-align:center;top:1200.0px"><div class="fltitle" style="font-size:82.5px">Extended Thinking</div><div class="flsub" style="font-size:45.0px">Reasons step by step</div></div></div>
+  </section>
+  <section id="sc-connectors" class="clip scene" data-start="32.14" data-duration="7.66" data-track-index="7">
+    <div class="inner" id="in-connectors"><div class="abs center ghostnum" id="connectors-gn" style="top:300.0px;font-size:675.0px">05</div>
+      <div class="abs uicard" id="connectors-card" style="left:93.8px;top:497.8px;width:892.5px;"><div class="chromebar"><span class="dot r"></span><span class="dot y"></span><span class="dot g"></span><img class="mini" src="assets/logos/claude.png" alt=""/><span class="ctitle">Claude · Connectors</span></div><img class="uiimg" src="assets/ui/connectors_directory.png" alt="" style="width:892.5px;height:414.4px"/></div>
+      <div class="abs" id="connectors-tt" style="left:0;width:1080px;text-align:center;top:1200.0px"><div class="fltitle" style="font-size:82.5px">Connectors</div><div class="flsub" style="font-size:45.0px">Plugs into your tools</div></div></div>
+  </section>
+
+  <div id="cap0" class="clip cap" data-start="5.66" data-duration="0.58" data-track-index="15"><span class="cappill">one</span></div>
+  <div id="cap1" class="clip cap" data-start="6.24" data-duration="0.48" data-track-index="15"><span class="cappill">memory</span></div>
+  <div id="cap2" class="clip cap" data-start="6.72" data-duration="0.28" data-track-index="15"><span class="cappill">Claude</span></div>
+  <div id="cap3" class="clip cap" data-start="7.0" data-duration="0.54" data-track-index="15"><span class="cappill">remembers</span></div>
+  <div id="cap4" class="clip cap" data-start="7.54" data-duration="0.18" data-track-index="15"><span class="cappill">who</span></div>
+  <div id="cap5" class="clip cap" data-start="7.72" data-duration="0.24" data-track-index="15"><span class="cappill">you</span></div>
+  <div id="cap6" class="clip cap" data-start="7.96" data-duration="0.48" data-track-index="15"><span class="cappill">are</span></div>
+  <div id="cap7" class="clip cap" data-start="8.44" data-duration="0.22" data-track-index="15"><span class="cappill">your</span></div>
+  <div id="cap8" class="clip cap" data-start="8.66" data-duration="0.64" data-track-index="15"><span class="cappill">preference</span></div>
+  <div id="cap9" class="clip cap" data-start="9.3" data-duration="0.14" data-track-index="15"><span class="cappill">and</span></div>
+  <div id="cap10" class="clip cap" data-start="9.44" data-duration="0.14" data-track-index="15"><span class="cappill">your</span></div>
+  <div id="cap11" class="clip cap" data-start="9.58" data-duration="0.48" data-track-index="15"><span class="cappill">project</span></div>
+  <div id="cap12" class="clip cap" data-start="10.06" data-duration="0.20" data-track-index="15"><span class="cappill">all</span></div>
+  <div id="cap13" class="clip cap" data-start="10.26" data-duration="0.34" data-track-index="15"><span class="cappill">across</span></div>
+  <div id="cap14" class="clip cap" data-start="10.6" data-duration="0.14" data-track-index="15"><span class="cappill">your</span></div>
+  <div id="cap15" class="clip cap" data-start="10.74" data-duration="0.88" data-track-index="15"><span class="cappill">conversation</span></div>
+  <div id="cap16" class="clip cap" data-start="11.62" data-duration="0.44" data-track-index="15"><span class="cappill">next</span></div>
+  <div id="cap17" class="clip cap" data-start="12.06" data-duration="0.18" data-track-index="15"><span class="cappill">we</span></div>
+  <div id="cap18" class="clip cap" data-start="12.24" data-duration="0.16" data-track-index="15"><span class="cappill">have</span></div>
+  <div id="cap19" class="clip cap" data-start="12.4" data-duration="0.10" data-track-index="15"><span class="cappill">a</span></div>
+  <div id="cap20" class="clip cap" data-start="12.5" data-duration="0.22" data-track-index="15"><span class="cappill">web</span></div>
+  <div id="cap21" class="clip cap" data-start="12.72" data-duration="0.60" data-track-index="15"><span class="cappill">search</span></div>
+  <div id="cap22" class="clip cap" data-start="13.32" data-duration="0.30" data-track-index="15"><span class="cappill">Claude</span></div>
+  <div id="cap23" class="clip cap" data-start="13.62" data-duration="0.22" data-track-index="15"><span class="cappill">can</span></div>
+  <div id="cap24" class="clip cap" data-start="13.84" data-duration="0.24" data-track-index="15"><span class="cappill">now</span></div>
+  <div id="cap25" class="clip cap" data-start="14.08" data-duration="0.20" data-track-index="15"><span class="cappill">look</span></div>
+  <div id="cap26" class="clip cap" data-start="14.28" data-duration="0.14" data-track-index="15"><span class="cappill">up</span></div>
+  <div id="cap27" class="clip cap" data-start="14.42" data-duration="0.22" data-track-index="15"><span class="cappill">the</span></div>
+  <div id="cap28" class="clip cap" data-start="14.64" data-duration="0.36" data-track-index="15"><span class="cappill">things</span></div>
+  <div id="cap29" class="clip cap" data-start="15.0" data-duration="0.20" data-track-index="15"><span class="cappill">in</span></div>
+  <div id="cap30" class="clip cap" data-start="15.2" data-duration="0.28" data-track-index="15"><span class="cappill">real</span></div>
+  <div id="cap31" class="clip cap" data-start="15.48" data-duration="0.58" data-track-index="15"><span class="cappill">times</span></div>
+  <div id="cap32" class="clip cap" data-start="16.06" data-duration="0.18" data-track-index="15"><span class="cappill">and</span></div>
+  <div id="cap33" class="clip cap" data-start="16.24" data-duration="0.18" data-track-index="15"><span class="cappill">give</span></div>
+  <div id="cap34" class="clip cap" data-start="16.42" data-duration="0.14" data-track-index="15"><span class="cappill">you</span></div>
+  <div id="cap35" class="clip cap" data-start="16.56" data-duration="0.20" data-track-index="15"><span class="cappill">an</span></div>
+  <div id="cap36" class="clip cap" data-start="16.76" data-duration="0.38" data-track-index="15"><span class="cappill">answer</span></div>
+  <div id="cap37" class="clip cap" data-start="17.14" data-duration="0.16" data-track-index="15"><span class="cappill">with</span></div>
+  <div id="cap38" class="clip cap" data-start="17.3" data-duration="0.18" data-track-index="15"><span class="cappill">an</span></div>
+  <div id="cap39" class="clip cap" data-start="17.48" data-duration="0.44" data-track-index="15"><span class="cappill">actual</span></div>
+  <div id="cap40" class="clip cap" data-start="17.92" data-duration="0.54" data-track-index="15"><span class="cappill">source</span></div>
+  <div id="cap41" class="clip cap" data-start="18.46" data-duration="0.34" data-track-index="15"><span class="cappill">next</span></div>
+  <div id="cap42" class="clip cap" data-start="18.8" data-duration="0.32" data-track-index="15"><span class="cappill">up</span></div>
+  <div id="cap43" class="clip cap" data-start="19.12" data-duration="0.20" data-track-index="15"><span class="cappill">we</span></div>
+  <div id="cap44" class="clip cap" data-start="19.32" data-duration="0.30" data-track-index="15"><span class="cappill">have</span></div>
+  <div id="cap45" class="clip cap" data-start="19.62" data-duration="0.66" data-track-index="15"><span class="cappill">projects</span></div>
+  <div id="cap46" class="clip cap" data-start="20.28" data-duration="0.08" data-track-index="15"><span class="cappill">you</span></div>
+  <div id="cap47" class="clip cap" data-start="20.36" data-duration="0.20" data-track-index="15"><span class="cappill">can</span></div>
+  <div id="cap48" class="clip cap" data-start="20.56" data-duration="0.46" data-track-index="15"><span class="cappill">organize</span></div>
+  <div id="cap49" class="clip cap" data-start="21.02" data-duration="0.20" data-track-index="15"><span class="cappill">your</span></div>
+  <div id="cap50" class="clip cap" data-start="21.22" data-duration="0.34" data-track-index="15"><span class="cappill">work</span></div>
+  <div id="cap51" class="clip cap" data-start="21.56" data-duration="0.32" data-track-index="15"><span class="cappill">into</span></div>
+  <div id="cap52" class="clip cap" data-start="21.88" data-duration="0.42" data-track-index="15"><span class="cappill">separate</span></div>
+  <div id="cap53" class="clip cap" data-start="22.3" data-duration="0.68" data-track-index="15"><span class="cappill">workspace</span></div>
+  <div id="cap54" class="clip cap" data-start="22.98" data-duration="0.28" data-track-index="15"><span class="cappill">each</span></div>
+  <div id="cap55" class="clip cap" data-start="23.26" data-duration="0.18" data-track-index="15"><span class="cappill">with</span></div>
+  <div id="cap56" class="clip cap" data-start="23.44" data-duration="0.32" data-track-index="15"><span class="cappill">its</span></div>
+  <div id="cap57" class="clip cap" data-start="23.76" data-duration="0.30" data-track-index="15"><span class="cappill">own</span></div>
+  <div id="cap58" class="clip cap" data-start="24.06" data-duration="0.42" data-track-index="15"><span class="cappill">files</span></div>
+  <div id="cap59" class="clip cap" data-start="24.48" data-duration="0.18" data-track-index="15"><span class="cappill">and</span></div>
+  <div id="cap60" class="clip cap" data-start="24.66" data-duration="0.96" data-track-index="15"><span class="cappill">instructions</span></div>
+  <div id="cap61" class="clip cap" data-start="25.62" data-duration="0.40" data-track-index="15"><span class="cappill">then</span></div>
+  <div id="cap62" class="clip cap" data-start="26.02" data-duration="0.16" data-track-index="15"><span class="cappill">we</span></div>
+  <div id="cap63" class="clip cap" data-start="26.18" data-duration="0.28" data-track-index="15"><span class="cappill">have</span></div>
+  <div id="cap64" class="clip cap" data-start="26.46" data-duration="0.52" data-track-index="15"><span class="cappill">extended</span></div>
+  <div id="cap65" class="clip cap" data-start="26.98" data-duration="0.50" data-track-index="15"><span class="cappill">thinking</span></div>
+  <div id="cap66" class="clip cap" data-start="27.48" data-duration="0.32" data-track-index="15"><span class="cappill">Claude</span></div>
+  <div id="cap67" class="clip cap" data-start="27.8" data-duration="0.24" data-track-index="15"><span class="cappill">can</span></div>
+  <div id="cap68" class="clip cap" data-start="28.04" data-duration="0.22" data-track-index="15"><span class="cappill">now</span></div>
+  <div id="cap69" class="clip cap" data-start="28.26" data-duration="0.32" data-track-index="15"><span class="cappill">reason</span></div>
+  <div id="cap70" class="clip cap" data-start="28.58" data-duration="0.20" data-track-index="15"><span class="cappill">through</span></div>
+  <div id="cap71" class="clip cap" data-start="28.78" data-duration="0.46" data-track-index="15"><span class="cappill">complex</span></div>
+  <div id="cap72" class="clip cap" data-start="29.24" data-duration="0.56" data-track-index="15"><span class="cappill">problem</span></div>
+  <div id="cap73" class="clip cap" data-start="29.8" data-duration="0.22" data-track-index="15"><span class="cappill">step</span></div>
+  <div id="cap74" class="clip cap" data-start="30.02" data-duration="0.22" data-track-index="15"><span class="cappill">by</span></div>
+  <div id="cap75" class="clip cap" data-start="30.24" data-duration="0.40" data-track-index="15"><span class="cappill">step</span></div>
+  <div id="cap76" class="clip cap" data-start="30.64" data-duration="0.34" data-track-index="15"><span class="cappill">before</span></div>
+  <div id="cap77" class="clip cap" data-start="30.98" data-duration="0.32" data-track-index="15"><span class="cappill">giving</span></div>
+  <div id="cap78" class="clip cap" data-start="31.3" data-duration="0.18" data-track-index="15"><span class="cappill">you</span></div>
+  <div id="cap79" class="clip cap" data-start="31.48" data-duration="0.16" data-track-index="15"><span class="cappill">an</span></div>
+  <div id="cap80" class="clip cap" data-start="31.64" data-duration="0.50" data-track-index="15"><span class="cappill">answer</span></div>
+  <div id="cap81" class="clip cap" data-start="32.14" data-duration="0.16" data-track-index="15"><span class="cappill">and</span></div>
+  <div id="cap82" class="clip cap" data-start="32.3" data-duration="0.48" data-track-index="15"><span class="cappill">lastly</span></div>
+  <div id="cap83" class="clip cap" data-start="32.78" data-duration="0.16" data-track-index="15"><span class="cappill">we</span></div>
+  <div id="cap84" class="clip cap" data-start="32.94" data-duration="0.24" data-track-index="15"><span class="cappill">have</span></div>
+  <div id="cap85" class="clip cap" data-start="33.18" data-duration="0.64" data-track-index="15"><span class="cappill">connectors</span></div>
+  <div id="cap86" class="clip cap" data-start="33.82" data-duration="0.40" data-track-index="15"><span class="cappill">Claude</span></div>
+  <div id="cap87" class="clip cap" data-start="34.22" data-duration="0.38" data-track-index="15"><span class="cappill">plugs</span></div>
+  <div id="cap88" class="clip cap" data-start="34.6" data-duration="0.36" data-track-index="15"><span class="cappill">into</span></div>
+  <div id="cap89" class="clip cap" data-start="34.96" data-duration="0.30" data-track-index="15"><span class="cappill">Google</span></div>
+  <div id="cap90" class="clip cap" data-start="35.26" data-duration="0.72" data-track-index="15"><span class="cappill">Workspace</span></div>
+  <div id="cap91" class="clip cap" data-start="35.98" data-duration="0.70" data-track-index="15"><span class="cappill">Microsoft</span></div>
+  <div id="cap92" class="clip cap" data-start="36.68" data-duration="0.86" data-track-index="15"><span class="cappill">365</span></div>
+  <div id="cap93" class="clip cap" data-start="37.54" data-duration="0.74" data-track-index="15"><span class="cappill">Slack</span></div>
+  <div id="cap94" class="clip cap" data-start="38.28" data-duration="0.54" data-track-index="15"><span class="cappill">Notion</span></div>
+  <div id="cap95" class="clip cap" data-start="38.82" data-duration="0.28" data-track-index="15"><span class="cappill">and</span></div>
+  <div id="cap96" class="clip cap" data-start="39.1" data-duration="0.46" data-track-index="15"><span class="cappill">more</span></div>
+  <div id="cap97" class="clip cap" data-start="39.56" data-duration="0.28" data-track-index="15"><span class="cappill">all</span></div>
+  <div id="cap98" class="clip cap" data-start="39.84" data-duration="0.16" data-track-index="15"><span class="cappill">on</span></div>
+  <div id="cap99" class="clip cap" data-start="40.0" data-duration="0.14" data-track-index="15"><span class="cappill">the</span></div>
+  <div id="cap100" class="clip cap" data-start="40.14" data-duration="0.22" data-track-index="15"><span class="cappill">free</span></div>
+  <div id="cap101" class="clip cap" data-start="40.36" data-duration="0.42" data-track-index="15"><span class="cappill">plan</span></div>
+  <div id="cap102" class="clip cap" data-start="40.78" data-duration="0.10" data-track-index="15"><span class="cappill">you</span></div>
+  <div id="cap103" class="clip cap" data-start="40.88" data-duration="0.30" data-track-index="15"><span class="cappill">get</span></div>
+  <div id="cap104" class="clip cap" data-start="41.18" data-duration="0.16" data-track-index="15"><span class="cappill">all</span></div>
+  <div id="cap105" class="clip cap" data-start="41.34" data-duration="0.18" data-track-index="15"><span class="cappill">of</span></div>
+  <div id="cap106" class="clip cap" data-start="41.52" data-duration="0.22" data-track-index="15"><span class="cappill">this</span></div>
+  <div id="cap107" class="clip cap" data-start="41.74" data-duration="0.22" data-track-index="15"><span class="cappill">on</span></div>
+  <div id="cap108" class="clip cap" data-start="41.96" data-duration="0.28" data-track-index="15"><span class="cappill">Claude</span></div>
+  <div id="cap109" class="clip cap" data-start="42.24" data-duration="0.16" data-track-index="15"><span class="cappill">on</span></div>
+  <div id="cap110" class="clip cap" data-start="42.4" data-duration="0.32" data-track-index="15"><span class="cappill">it</span></div>
+  <div id="cap111" class="clip cap" data-start="42.72" data-duration="0.36" data-track-index="15"><span class="cappill">and</span></div>
+  <div id="cap112" class="clip cap" data-start="43.08" data-duration="0.84" data-track-index="15"><span class="cappill">4.3</span></div>
+  <div id="cap113" class="clip cap" data-start="43.92" data-duration="0.28" data-track-index="15"><span class="cappill">and</span></div>
+  <div id="cap114" class="clip cap" data-start="44.2" data-duration="0.32" data-track-index="15"><span class="cappill">Claude</span></div>
+  <div id="cap115" class="clip cap" data-start="44.52" data-duration="0.60" data-track-index="15"><span class="cappill">Opus</span></div>
+  <div id="cap116" class="clip cap" data-start="45.12" data-duration="0.18" data-track-index="15"><span class="cappill">which</span></div>
+  <div id="cap117" class="clip cap" data-start="45.3" data-duration="0.16" data-track-index="15"><span class="cappill">is</span></div>
+  <div id="cap118" class="clip cap" data-start="45.46" data-duration="0.12" data-track-index="15"><span class="cappill">one</span></div>
+  <div id="cap119" class="clip cap" data-start="45.58" data-duration="0.16" data-track-index="15"><span class="cappill">of</span></div>
+  <div id="cap120" class="clip cap" data-start="45.74" data-duration="0.16" data-track-index="15"><span class="cappill">the</span></div>
+  <div id="cap121" class="clip cap" data-start="45.9" data-duration="0.36" data-track-index="15"><span class="cappill">best</span></div>
+  <div id="cap122" class="clip cap" data-start="46.26" data-duration="0.22" data-track-index="15"><span class="cappill">AI</span></div>
+  <div id="cap123" class="clip cap" data-start="46.48" data-duration="0.42" data-track-index="15"><span class="cappill">model</span></div>
+  <div id="cap124" class="clip cap" data-start="46.9" data-duration="0.48" data-track-index="15"><span class="cappill">available</span></div>
+  <div id="cap125" class="clip cap" data-start="47.38" data-duration="0.24" data-track-index="15"><span class="cappill">right</span></div>
+  <div id="cap126" class="clip cap" data-start="47.62" data-duration="0.40" data-track-index="15"><span class="cappill">now</span></div>
+
+  <audio id="voA" src="assets/audio_tight.m4a" data-start="0" data-duration="50.91" data-track-index="20" data-volume="1"></audio>
+  <audio id="bgm" src="assets/music/bed_faceless.mp3" data-start="0" data-duration="50.91" data-track-index="21" data-volume="0.16"></audio>
+  <audio id="sfx0" src="assets/sfx/whoosh.mp3" data-start="0.03" data-duration="1.2" data-track-index="22" data-volume="0.32"></audio>
+  <audio id="sfx1" src="assets/sfx/boom.mp3" data-start="1.56" data-duration="1.2" data-track-index="23" data-volume="0.4"></audio>
+  <audio id="sfx2" src="assets/sfx/whoosh.mp3" data-start="5.29" data-duration="1.2" data-track-index="24" data-volume="0.22"></audio>
+  <audio id="sfx3" src="assets/sfx/whoosh.mp3" data-start="11.63" data-duration="1.2" data-track-index="25" data-volume="0.22"></audio>
+  <audio id="sfx4" src="assets/sfx/whoosh.mp3" data-start="18.47" data-duration="1.2" data-track-index="26" data-volume="0.22"></audio>
+  <audio id="sfx5" src="assets/sfx/whoosh.mp3" data-start="25.63" data-duration="1.2" data-track-index="27" data-volume="0.22"></audio>
+  <audio id="sfx6" src="assets/sfx/whoosh.mp3" data-start="32.15" data-duration="1.2" data-track-index="28" data-volume="0.22"></audio>
+  <audio id="sfx7" src="assets/sfx/pop.mp3" data-start="5.39" data-duration="1.2" data-track-index="29" data-volume="0.32"></audio>
+  <audio id="sfx8" src="assets/sfx/pop.mp3" data-start="11.73" data-duration="1.2" data-track-index="30" data-volume="0.32"></audio>
+  <audio id="sfx9" src="assets/sfx/pop.mp3" data-start="18.57" data-duration="1.2" data-track-index="31" data-volume="0.32"></audio>
+  <audio id="sfx10" src="assets/sfx/pop.mp3" data-start="25.73" data-duration="1.2" data-track-index="32" data-volume="0.32"></audio>
+  <audio id="sfx11" src="assets/sfx/pop.mp3" data-start="32.25" data-duration="1.2" data-track-index="33" data-volume="0.32"></audio>
+  <audio id="sfx12" src="assets/sfx/ding.mp3" data-start="26.68" data-duration="1.2" data-track-index="34" data-volume="0.25"></audio>
+  <audio id="sfx13" src="assets/sfx/boom.mp3" data-start="39.92" data-duration="1.2" data-track-index="35" data-volume="0.38"></audio>
+  <audio id="sfx14" src="assets/sfx/pop.mp3" data-start="40.57" data-duration="1.2" data-track-index="36" data-volume="0.32"></audio>
+  <audio id="sfx15" src="assets/sfx/whoosh.mp3" data-start="48.03" data-duration="1.2" data-track-index="37" data-volume="0.24"></audio>
+  <audio id="sfx16" src="assets/sfx/boom.mp3" data-start="48.31" data-duration="1.2" data-track-index="38" data-volume="0.4"></audio>
+</div>
+
+<script>
+window.__timelines = window.__timelines || {};
+const tl = gsap.timeline({ paused: true });
+const POP = "back.out(2.4)";
+const SOFT = "power3.out";
+tl.fromTo("#memory-gn",{scale:0.86,opacity:0},{scale:1,opacity:1,duration:0.5,ease:POP},5.32);
+tl.fromTo("#memory-card",{scale:0},{scale:1,duration:0.35,ease:POP},5.42);
+tl.fromTo("#memory-tt .fltitle",{y:48.8,opacity:0},{y:0,opacity:1,duration:0.38,ease:SOFT},5.61);
+tl.fromTo("#memory-tt .flsub",{y:48.8,opacity:0},{y:0,opacity:1,duration:0.38,ease:SOFT},5.72);
+tl.to("#in-memory",{scale:0.92,opacity:0,duration:0.25,ease:"power2.in"},11.50);
+tl.set("#in-memory",{opacity:0},11.78);
+tl.fromTo("#websearch-gn",{scale:0.86,opacity:0},{scale:1,opacity:1,duration:0.5,ease:POP},11.66);
+tl.fromTo("#websearch-card",{scale:0},{scale:1,duration:0.35,ease:POP},11.76);
+tl.fromTo("#websearch-tt .fltitle",{y:48.8,opacity:0},{y:0,opacity:1,duration:0.38,ease:SOFT},11.95);
+tl.fromTo("#websearch-tt .flsub",{y:48.8,opacity:0},{y:0,opacity:1,duration:0.38,ease:SOFT},12.06);
+tl.to("#in-websearch",{scale:0.92,opacity:0,duration:0.25,ease:"power2.in"},18.35);
+tl.set("#in-websearch",{opacity:0},18.63);
+tl.fromTo("#projects-gn",{scale:0.86,opacity:0},{scale:1,opacity:1,duration:0.5,ease:POP},18.50);
+tl.fromTo("#projects-card",{scale:0},{scale:1,duration:0.35,ease:POP},18.60);
+tl.fromTo("#projects-tt .fltitle",{y:48.8,opacity:0},{y:0,opacity:1,duration:0.38,ease:SOFT},18.79);
+tl.fromTo("#projects-tt .flsub",{y:48.8,opacity:0},{y:0,opacity:1,duration:0.38,ease:SOFT},18.90);
+tl.to("#in-projects",{scale:0.92,opacity:0,duration:0.25,ease:"power2.in"},25.50);
+tl.set("#in-projects",{opacity:0},25.78);
+tl.fromTo("#thinking-gn",{scale:0.86,opacity:0},{scale:1,opacity:1,duration:0.5,ease:POP},25.66);
+tl.fromTo("#thinking-card",{scale:0},{scale:1,duration:0.35,ease:POP},25.76);
+tl.fromTo("#thinking-tt .fltitle",{y:48.8,opacity:0},{y:0,opacity:1,duration:0.38,ease:SOFT},25.95);
+tl.fromTo("#thinking-tt .flsub",{y:48.8,opacity:0},{y:0,opacity:1,duration:0.38,ease:SOFT},26.06);
+tl.to("#in-thinking",{scale:0.92,opacity:0,duration:0.25,ease:"power2.in"},32.05);
+tl.set("#in-thinking",{opacity:0},32.33);
+tl.fromTo("#connectors-gn",{scale:0.86,opacity:0},{scale:1,opacity:1,duration:0.5,ease:POP},32.18);
+tl.fromTo("#connectors-card",{scale:0},{scale:1,duration:0.35,ease:POP},32.28);
+tl.fromTo("#connectors-tt .fltitle",{y:48.8,opacity:0},{y:0,opacity:1,duration:0.38,ease:SOFT},32.47);
+tl.fromTo("#connectors-tt .flsub",{y:48.8,opacity:0},{y:0,opacity:1,duration:0.38,ease:SOFT},32.58);
+tl.to("#in-connectors",{scale:0.92,opacity:0,duration:0.25,ease:"power2.in"},39.50);
+tl.set("#in-connectors",{opacity:0},39.78);
+tl.fromTo("#hk-logo",{scale:0},{scale:1,duration:0.32,ease:POP},0.05);
+tl.fromTo("#hk-logo img",{rotation:0},{rotation:234,duration:5.2,ease:"none"},0);
+tl.fromTo("#hk-l1",{y:-37.5,opacity:0},{y:0,opacity:1,duration:0.25,ease:SOFT},0.55);
+tl.fromTo("#hk-l2",{y:-37.5,opacity:0},{y:0,opacity:1,duration:0.25,ease:SOFT},0.75);
+tl.fromTo("#hk-free",{scale:0},{scale:1,duration:0.4,ease:"back.out(1.9)"},1.55);
+tl.fromTo("#hk-sub",{opacity:0},{opacity:1,duration:0.35,ease:SOFT},2.20);
+tl.to("#in-hook",{scale:0.92,opacity:0,duration:0.25,ease:"power2.in"},5.20);
+tl.set("#in-hook",{opacity:0},5.48);
+tl.fromTo("#fp-l1",{opacity:0},{opacity:1,duration:0.3,ease:SOFT},39.61);
+tl.fromTo("#fp-free",{scale:0},{scale:1,duration:0.4,ease:"back.out(1.9)"},39.91);
+tl.fromTo("#fp-l2",{opacity:0},{opacity:1,duration:0.3,ease:SOFT},40.18);
+tl.fromTo("#fp-card",{y:150.0,scale:0.66,opacity:0},{y:0,scale:1,opacity:1,duration:0.42,ease:POP},40.56);
+tl.to("#in-fp",{scale:0.92,opacity:0,duration:0.25,ease:"power2.in"},47.90);
+tl.set("#in-fp",{opacity:0},48.18);
+tl.fromTo("#cta-l1",{y:-33.8,opacity:0},{y:0,opacity:1,duration:0.25,ease:SOFT},48.07);
+tl.fromTo("#cta-free",{scale:0},{scale:1,duration:0.42,ease:"back.out(1.9)"},48.32);
+tl.fromTo("#cta-sub",{opacity:0},{opacity:1,duration:0.35,ease:SOFT},48.77);
+tl.to("#bgm",{volume:0,duration:1.5},49.31);
+tl.fromTo("#cap0 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},5.66);
+tl.fromTo("#cap1 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},6.24);
+tl.fromTo("#cap2 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},6.72);
+tl.fromTo("#cap3 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},7.00);
+tl.fromTo("#cap4 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},7.54);
+tl.fromTo("#cap5 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},7.72);
+tl.fromTo("#cap6 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},7.96);
+tl.fromTo("#cap7 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},8.44);
+tl.fromTo("#cap8 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},8.66);
+tl.fromTo("#cap9 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},9.30);
+tl.fromTo("#cap10 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},9.44);
+tl.fromTo("#cap11 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},9.58);
+tl.fromTo("#cap12 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},10.06);
+tl.fromTo("#cap13 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},10.26);
+tl.fromTo("#cap14 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},10.60);
+tl.fromTo("#cap15 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},10.74);
+tl.fromTo("#cap16 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},11.62);
+tl.fromTo("#cap17 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},12.06);
+tl.fromTo("#cap18 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},12.24);
+tl.fromTo("#cap19 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},12.40);
+tl.fromTo("#cap20 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},12.50);
+tl.fromTo("#cap21 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},12.72);
+tl.fromTo("#cap22 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},13.32);
+tl.fromTo("#cap23 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},13.62);
+tl.fromTo("#cap24 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},13.84);
+tl.fromTo("#cap25 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},14.08);
+tl.fromTo("#cap26 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},14.28);
+tl.fromTo("#cap27 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},14.42);
+tl.fromTo("#cap28 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},14.64);
+tl.fromTo("#cap29 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},15.00);
+tl.fromTo("#cap30 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},15.20);
+tl.fromTo("#cap31 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},15.48);
+tl.fromTo("#cap32 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},16.06);
+tl.fromTo("#cap33 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},16.24);
+tl.fromTo("#cap34 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},16.42);
+tl.fromTo("#cap35 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},16.56);
+tl.fromTo("#cap36 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},16.76);
+tl.fromTo("#cap37 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},17.14);
+tl.fromTo("#cap38 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},17.30);
+tl.fromTo("#cap39 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},17.48);
+tl.fromTo("#cap40 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},17.92);
+tl.fromTo("#cap41 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},18.46);
+tl.fromTo("#cap42 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},18.80);
+tl.fromTo("#cap43 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},19.12);
+tl.fromTo("#cap44 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},19.32);
+tl.fromTo("#cap45 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},19.62);
+tl.fromTo("#cap46 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},20.28);
+tl.fromTo("#cap47 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},20.36);
+tl.fromTo("#cap48 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},20.56);
+tl.fromTo("#cap49 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},21.02);
+tl.fromTo("#cap50 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},21.22);
+tl.fromTo("#cap51 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},21.56);
+tl.fromTo("#cap52 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},21.88);
+tl.fromTo("#cap53 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},22.30);
+tl.fromTo("#cap54 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},22.98);
+tl.fromTo("#cap55 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},23.26);
+tl.fromTo("#cap56 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},23.44);
+tl.fromTo("#cap57 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},23.76);
+tl.fromTo("#cap58 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},24.06);
+tl.fromTo("#cap59 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},24.48);
+tl.fromTo("#cap60 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},24.66);
+tl.fromTo("#cap61 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},25.62);
+tl.fromTo("#cap62 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},26.02);
+tl.fromTo("#cap63 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},26.18);
+tl.fromTo("#cap64 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},26.46);
+tl.fromTo("#cap65 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},26.98);
+tl.fromTo("#cap66 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},27.48);
+tl.fromTo("#cap67 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},27.80);
+tl.fromTo("#cap68 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},28.04);
+tl.fromTo("#cap69 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},28.26);
+tl.fromTo("#cap70 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},28.58);
+tl.fromTo("#cap71 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},28.78);
+tl.fromTo("#cap72 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},29.24);
+tl.fromTo("#cap73 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},29.80);
+tl.fromTo("#cap74 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},30.02);
+tl.fromTo("#cap75 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},30.24);
+tl.fromTo("#cap76 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},30.64);
+tl.fromTo("#cap77 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},30.98);
+tl.fromTo("#cap78 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},31.30);
+tl.fromTo("#cap79 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},31.48);
+tl.fromTo("#cap80 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},31.64);
+tl.fromTo("#cap81 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},32.14);
+tl.fromTo("#cap82 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},32.30);
+tl.fromTo("#cap83 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},32.78);
+tl.fromTo("#cap84 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},32.94);
+tl.fromTo("#cap85 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},33.18);
+tl.fromTo("#cap86 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},33.82);
+tl.fromTo("#cap87 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},34.22);
+tl.fromTo("#cap88 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},34.60);
+tl.fromTo("#cap89 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},34.96);
+tl.fromTo("#cap90 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},35.26);
+tl.fromTo("#cap91 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},35.98);
+tl.fromTo("#cap92 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},36.68);
+tl.fromTo("#cap93 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},37.54);
+tl.fromTo("#cap94 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},38.28);
+tl.fromTo("#cap95 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},38.82);
+tl.fromTo("#cap96 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},39.10);
+tl.fromTo("#cap97 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},39.56);
+tl.fromTo("#cap98 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},39.84);
+tl.fromTo("#cap99 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},40.00);
+tl.fromTo("#cap100 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},40.14);
+tl.fromTo("#cap101 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},40.36);
+tl.fromTo("#cap102 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},40.78);
+tl.fromTo("#cap103 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},40.88);
+tl.fromTo("#cap104 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},41.18);
+tl.fromTo("#cap105 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},41.34);
+tl.fromTo("#cap106 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},41.52);
+tl.fromTo("#cap107 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},41.74);
+tl.fromTo("#cap108 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},41.96);
+tl.fromTo("#cap109 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},42.24);
+tl.fromTo("#cap110 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},42.40);
+tl.fromTo("#cap111 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},42.72);
+tl.fromTo("#cap112 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},43.08);
+tl.fromTo("#cap113 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},43.92);
+tl.fromTo("#cap114 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},44.20);
+tl.fromTo("#cap115 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},44.52);
+tl.fromTo("#cap116 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},45.12);
+tl.fromTo("#cap117 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},45.30);
+tl.fromTo("#cap118 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},45.46);
+tl.fromTo("#cap119 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},45.58);
+tl.fromTo("#cap120 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},45.74);
+tl.fromTo("#cap121 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},45.90);
+tl.fromTo("#cap122 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},46.26);
+tl.fromTo("#cap123 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},46.48);
+tl.fromTo("#cap124 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},46.90);
+tl.fromTo("#cap125 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},47.38);
+tl.fromTo("#cap126 .cappill",{scale:0.9},{scale:1,duration:0.16,ease:"back.out(3)"},47.62);
+window.__timelines["main"] = tl;
+</script>
+</body>
+</html>

@@ -1,0 +1,396 @@
+{
+  "version": 1,
+  "status": "reviewed",
+  "identity": {
+    "plate_sha256": "9936edd026a63184a79dd4f96006db158ed41d7b03fd9593d50671e400739bf3",
+    "source_sha256": "d2f123718e5f8b304c27936b4611927e8b12cd2fd6ac1dfee402731e3b742a14",
+    "crop_sha256": "11980cdbcd747d3e5254d641e94ce619f88d96f286e823499ffd653d91ce7e86",
+    "first_frame_sha256": "e6da86d2fbe04d5c31bdb253605ab34a8fd91a479514468c8eb575148cc9b96e",
+    "width": 1260,
+    "height": 900,
+    "fps": 25.0,
+    "frames": 707
+  },
+  "mask": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/matting/hermesdocs/selection.mask.png",
+  "mask_sha256": "4acb6c86eead6bd2bccf54535fd505f4de301ab06d1f32ea14de1d85e562fab6",
+  "base_mask_sha256": "e6702bf713192686e1315907cd5a4de485accdeb4347baf0193aeda7ffe3f92b",
+  "edits": [
+    {
+      "operation": "exclude",
+      "points": [
+        [
+          390,
+          240
+        ],
+        [
+          447,
+          240
+        ],
+        [
+          447,
+          263
+        ],
+        [
+          450,
+          288
+        ],
+        [
+          456,
+          319
+        ],
+        [
+          464,
+          344
+        ],
+        [
+          476,
+          360
+        ],
+        [
+          481,
+          379
+        ],
+        [
+          491,
+          407
+        ],
+        [
+          502,
+          431
+        ],
+        [
+          505,
+          450
+        ],
+        [
+          489,
+          450
+        ],
+        [
+          477,
+          457
+        ],
+        [
+          471,
+          469
+        ],
+        [
+          467,
+          477
+        ],
+        [
+          443,
+          487
+        ],
+        [
+          420,
+          498
+        ],
+        [
+          399,
+          509
+        ],
+        [
+          380,
+          515
+        ]
+      ]
+    },
+    {
+      "operation": "exclude",
+      "points": [
+        [
+          792,
+          250
+        ],
+        [
+          850,
+          250
+        ],
+        [
+          898,
+          558
+        ],
+        [
+          877,
+          559
+        ],
+        [
+          857,
+          549
+        ],
+        [
+          836,
+          539
+        ],
+        [
+          815,
+          530
+        ],
+        [
+          794,
+          519
+        ],
+        [
+          775,
+          508
+        ],
+        [
+          758,
+          499
+        ],
+        [
+          754,
+          486
+        ],
+        [
+          744,
+          476
+        ],
+        [
+          733,
+          469
+        ],
+        [
+          733,
+          442
+        ],
+        [
+          741,
+          421
+        ],
+        [
+          749,
+          399
+        ],
+        [
+          754,
+          381
+        ],
+        [
+          758,
+          368
+        ],
+        [
+          774,
+          364
+        ],
+        [
+          782,
+          345
+        ],
+        [
+          788,
+          312
+        ],
+        [
+          792,
+          280
+        ]
+      ]
+    }
+  ],
+  "reviewer": "codex-astra",
+  "notes": "Viewed clean frame and both overlays. Removed chair beside both sides of head and neck down to shirt shoulder line; preserved cap, temples, ears, cheek, jaw, collar and both hands.",
+  "crop": {
+    "file": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/matting/hermesdocs/plate_wide_25.mp4",
+    "master": [
+      3840,
+      2160,
+      707
+    ],
+    "crop": "2632x1880+578+240",
+    "scale_k": 0.478723,
+    "head_px_on_canvas": 449.9,
+    "head_frac_of_1920": 0.2343,
+    "face_px_on_canvas": 330.0,
+    "cap_top_on_plate": 58.9,
+    "chin_on_plate": 503.3,
+    "face_cx_on_plate": 629.9,
+    "shoulder_rule_crop_w": 1454,
+    "dropped": 0,
+    "kept_dupes": [
+      2,
+      23,
+      78,
+      129,
+      166,
+      280,
+      331,
+      357,
+      410,
+      595,
+      596,
+      601,
+      649,
+      667
+    ],
+    "expect_frames": 707,
+    "ffmpeg_vf": "setpts=N/(25*TB),crop=2632:1880:578:240,scale=1260:900:flags=lanczos",
+    "plate_size": [
+      1260,
+      900
+    ],
+    "paint_scale": 1.1,
+    "head_parity": {
+      "crop": "2256x1880+766+240",
+      "scale_k": 0.478723,
+      "plate_size": [
+        1080,
+        900
+      ]
+    },
+    "probe": {
+      "width": 1260,
+      "height": 900,
+      "r_frame_rate": "25/1",
+      "duration": "28.280000",
+      "nb_read_frames": "707"
+    },
+    "headroom": {
+      "cap_top_on_canvas_px": 64.8,
+      "target_on_canvas_px": 64.0,
+      "hard_floor_on_canvas_px": 24.0,
+      "bottom_planted": false,
+      "slid_up_master_px": 40,
+      "note": "the crop is bottom-planted unless that would cut the crown; sliding it up spends the bottom of his chest, which the format runs off the canvas anyway, and touches neither `k` (head height on canvas) nor `x0` (face centring)"
+    },
+    "overwide": {
+      "applied": true,
+      "k": {
+        "exact": "45/94",
+        "float": 0.4787234043
+      },
+      "lattice": {
+        "extension_step_master_px": 94,
+        "plate_width_multiple_of": 180,
+        "derivation": "box_w = plate_w * 1.10 whole (plate_w % 10), EVEN (plate_w % 20), and plate_w moves in steps of p=45; lcm(20, 45) = 180"
+      },
+      "measured_need_master_px": {
+        "left": 124.6,
+        "right": 146.6
+      },
+      "need_floor_master_px": {},
+      "margin_floor": {
+        "canvas_px": 24.0,
+        "master_px": 45.6,
+        "source": "edge_clip_check's own limb-margin floor"
+      },
+      "extension": {
+        "left_master_px": 188,
+        "left_plate_px": 90,
+        "left_canvas_px": 99.0,
+        "right_master_px": 188,
+        "right_plate_px": 90,
+        "right_canvas_px": 99.0,
+        "left_headroom_remaining_master_px": 578,
+        "right_headroom_remaining_master_px": 630,
+        "clamped_by_master_edge": {
+          "left": false,
+          "right": false
+        },
+        "lattice_padding_steps": 0
+      },
+      "window_headparity": "2256x1880+766+240",
+      "window_overwide": "2632x1880+578+240",
+      "crop": [
+        2632,
+        1880,
+        578,
+        240
+      ],
+      "plate_size": [
+        1260,
+        900
+      ],
+      "plate_aspect": "1260:900 = 1.400:1",
+      "plate_box": {
+        "w": 1386.0,
+        "h": 990.0,
+        "left": -153.0,
+        "top": 930.0,
+        "right": 1233.0,
+        "centred": false,
+        "note": "the origin is NOT (1080 - box_w)/2.  An over-wide plate is deliberately asymmetric; the generator's plate_origin() reads `left` from here, and ship.py's edge gate takes it as --edge-box."
+      },
+      "nothing_on_canvas_moves": {
+        "visible_master_window_headparity": [
+          868.55,
+          2919.45
+        ],
+        "visible_master_window_overwide": [
+          868.55,
+          2919.45
+        ],
+        "visible_window_drift_master_px": 0.0,
+        "visible_window_drift_canvas_px": 0.0,
+        "head_on_delivery_canvas_px": 494.9,
+        "head_law_framing_md": 496.0,
+        "face_centre_canvas_x": 539.89,
+        "face_dx_pct": -0.01,
+        "frozen_post_params_still_valid": "BLEED 8, MORPH_K 2, SIGMA_HI 4.0, FEATHER 0.55, RIM_PX 7 are all in PLATE px and k is unchanged, so a plate px is the same physical size it has always been"
+      },
+      "cost": "the plate carries 1.17x the columns, so the track and the staged layers cost proportionally more, and the chassis reads a non-centred box.  Nothing the viewer receives changes except that his hands now have an outline where the frame cuts them.",
+      "proof": "this only MAKES the plate.  The window is proved afterwards on the newly tracked SAM2 alpha, every frame, by pipeline/edge_clip_check.py inside ship.py.",
+      "silhouette_measurement": {
+        "crop_window": "2256x?+766+240",
+        "frames_measured": 119,
+        "sweep_rows_inside_crop": 640,
+        "left": {
+          "shoulder_baseline_master_row": 1905,
+          "rows_above_baseline": 555,
+          "contact_coverage_at_baseline": 0.916,
+          "extreme_master_x_above_baseline": 687,
+          "head_parity_border_master_x": 766,
+          "clearance_master_px": 79
+        },
+        "right": {
+          "shoulder_baseline_master_row": 2160,
+          "rows_above_baseline": 640,
+          "contact_coverage_at_baseline": 0.0,
+          "extreme_master_x_above_baseline": 3123,
+          "head_parity_border_master_x": 3022,
+          "clearance_master_px": 101
+        }
+      },
+      "sweep": {
+        "file": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/gen/_birefnet_master_hermesdocs.json",
+        "frames_measured": 119,
+        "stride": 6,
+        "model": "birefnet-general",
+        "wall_seconds": 86.7,
+        "lane": {
+          "where": "modal",
+          "app": "shorts-factory-birefnet",
+          "gpu": "A10G",
+          "container": "96a1d95a-6827-453b-a2ab-a05d618bab1d",
+          "onnx": "birefnet-general.onnx",
+          "providers": [
+            "CUDAExecutionProvider",
+            "CPUExecutionProvider"
+          ],
+          "input_bytes": 21204713,
+          "model_load_seconds": 5.3,
+          "inference_seconds": 65.3,
+          "seconds_per_frame": 0.549,
+          "t_import_epoch": 1790188366.0729249,
+          "t_fn_enter_epoch": 1790188367.9861598,
+          "t_fn_exit_epoch": 1790188442.280066,
+          "proxy": true,
+          "proxy_seconds": 1.9,
+          "client_wall_seconds": 86.7,
+          "uploaded_bytes": 21204713,
+          "cold_start_seconds": 6.71,
+          "billed_container_seconds": 78.2,
+          "measured_cost_usd": 0.0349,
+          "cost_breakdown_usd": {
+            "gpu": 0.0239,
+            "cpu": 0.0082,
+            "mem": 0.0028
+          }
+        }
+      }
+    }
+  },
+  "reuse_scope": "this exact source, plate and crop only"
+}

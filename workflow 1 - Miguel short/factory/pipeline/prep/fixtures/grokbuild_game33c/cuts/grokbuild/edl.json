@@ -1,0 +1,666 @@
+{
+  "vid": "grokbuild",
+  "source": "/Users/migle/Movies/2026-09-03 16-16-33.mp4",
+  "source_take_start": 8.96,
+  "source_take_end": 37.339,
+  "source_take_duration": 28.379,
+  "cut_master_duration": 27.867,
+  "cut_fps": 25,
+  "cut_audio": "48000,2",
+  "face_measurement": {
+    "probes": [
+      1.39,
+      3.34,
+      5.57,
+      7.8,
+      10.03,
+      12.54,
+      15.05,
+      17.56,
+      20.06,
+      22.85,
+      25.64
+    ],
+    "n_probes": 11,
+    "face_cx_px": 1894.5,
+    "face_cx_min_max": [
+      1835.9,
+      1944.8
+    ],
+    "head_h_median_px": 868.3,
+    "cap_top_min_px": 366,
+    "windows": {
+      "face_bottom_hd.mp4": {
+        "vf": "crop=2208:2160:790:0,scale=1080:1058:flags=lanczos",
+        "x0": 790,
+        "width": 2208,
+        "out_size": [
+          1080,
+          1058
+        ],
+        "window_centre_px": 1894.0,
+        "offset_from_face_px": 0.5,
+        "keyframes_in_first_30s": 28,
+        "max_gap_frames": 25
+      },
+      "face_full_hd.mp4": {
+        "vf": "crop=1216:2160:1286:0,scale=1080:1920:flags=lanczos",
+        "x0": 1286,
+        "width": 1216,
+        "out_size": [
+          1080,
+          1920
+        ],
+        "window_centre_px": 1894.0,
+        "offset_from_face_px": 0.5,
+        "keyframes_in_first_30s": 28,
+        "max_gap_frames": 25
+      }
+    },
+    "note": "windows are MEASURED on THIS cut master, never inherited"
+  },
+  "face_probe_rows": [
+    {
+      "t": 1.39,
+      "face_cx_px": 1938.0,
+      "eye_y_px": 753.7,
+      "chin_y_px": 1215.5,
+      "head_top_px": 366,
+      "face_h_px": 636.9,
+      "head_h_px": 849.5,
+      "cap_measured": true,
+      "shoulder": {
+        "y0.55": {
+          "y": 1682,
+          "span": 2059,
+          "x0": 882,
+          "x1": 2940
+        },
+        "y0.70": {
+          "y": 1809,
+          "span": 1420,
+          "x0": 832,
+          "x1": 2251
+        },
+        "y0.85": {
+          "y": 1937,
+          "span": 713,
+          "x0": 1271,
+          "x1": 1983
+        },
+        "y1.00": {
+          "y": 2064,
+          "span": 722,
+          "x0": 705,
+          "x1": 1426
+        }
+      }
+    },
+    {
+      "t": 3.34,
+      "face_cx_px": 1944.8,
+      "eye_y_px": 813.8,
+      "chin_y_px": 1298.8,
+      "head_top_px": 406,
+      "face_h_px": 657.6,
+      "head_h_px": 892.8,
+      "cap_measured": true,
+      "shoulder": {
+        "y0.55": {
+          "y": 1789,
+          "span": 1094,
+          "x0": 1181,
+          "x1": 2274
+        },
+        "y0.70": {
+          "y": 1922,
+          "span": 650,
+          "x0": 2341,
+          "x1": 2990
+        },
+        "y0.85": {
+          "y": 2056,
+          "span": 636,
+          "x0": 2468,
+          "x1": 3103
+        },
+        "y1.00": {
+          "y": 2159,
+          "span": 1194,
+          "x0": 924,
+          "x1": 2117
+        }
+      }
+    },
+    {
+      "t": 5.57,
+      "face_cx_px": 1893.3,
+      "eye_y_px": 795.2,
+      "chin_y_px": 1276.7,
+      "head_top_px": 400,
+      "face_h_px": 649.7,
+      "head_h_px": 876.7,
+      "cap_measured": true,
+      "shoulder": {
+        "y0.55": {
+          "y": 1758,
+          "span": 2083,
+          "x0": 857,
+          "x1": 2939
+        },
+        "y0.70": {
+          "y": 1889,
+          "span": 606,
+          "x0": 2378,
+          "x1": 2983
+        },
+        "y0.85": {
+          "y": 2021,
+          "span": 934,
+          "x0": 2192,
+          "x1": 3125
+        },
+        "y1.00": {
+          "y": 2152,
+          "span": 1438,
+          "x0": 686,
+          "x1": 2123
+        }
+      }
+    },
+    {
+      "t": 7.8,
+      "face_cx_px": 1906.1,
+      "eye_y_px": 798.8,
+      "chin_y_px": 1298.4,
+      "head_top_px": 399,
+      "face_h_px": 672.5,
+      "head_h_px": 899.4,
+      "cap_measured": true,
+      "shoulder": {
+        "y0.55": {
+          "y": 1792,
+          "span": 1401,
+          "x0": 837,
+          "x1": 2237
+        },
+        "y0.70": {
+          "y": 1927,
+          "span": 649,
+          "x0": 2343,
+          "x1": 2991
+        },
+        "y0.85": {
+          "y": 2062,
+          "span": 632,
+          "x0": 2471,
+          "x1": 3102
+        },
+        "y1.00": {
+          "y": 2159,
+          "span": 1196,
+          "x0": 681,
+          "x1": 1876
+        }
+      }
+    },
+    {
+      "t": 10.03,
+      "face_cx_px": 1875.3,
+      "eye_y_px": 781.7,
+      "chin_y_px": 1264.6,
+      "head_top_px": 400,
+      "face_h_px": 639.1,
+      "head_h_px": 864.6,
+      "cap_measured": true,
+      "shoulder": {
+        "y0.55": {
+          "y": 1739,
+          "span": 1449,
+          "x0": 859,
+          "x1": 2307
+        },
+        "y0.70": {
+          "y": 1869,
+          "span": 1144,
+          "x0": 802,
+          "x1": 1945
+        },
+        "y0.85": {
+          "y": 1998,
+          "span": 1294,
+          "x0": 742,
+          "x1": 2035
+        },
+        "y1.00": {
+          "y": 2128,
+          "span": 1053,
+          "x0": 694,
+          "x1": 1746
+        }
+      }
+    },
+    {
+      "t": 12.54,
+      "face_cx_px": 1879.7,
+      "eye_y_px": 799.2,
+      "chin_y_px": 1293.3,
+      "head_top_px": 402,
+      "face_h_px": 662.3,
+      "head_h_px": 891.3,
+      "cap_measured": true,
+      "shoulder": {
+        "y0.55": {
+          "y": 1783,
+          "span": 1397,
+          "x0": 845,
+          "x1": 2241
+        },
+        "y0.70": {
+          "y": 1916,
+          "span": 642,
+          "x0": 2346,
+          "x1": 2987
+        },
+        "y0.85": {
+          "y": 2050,
+          "span": 630,
+          "x0": 2473,
+          "x1": 3102
+        },
+        "y1.00": {
+          "y": 2159,
+          "span": 937,
+          "x0": 686,
+          "x1": 1622
+        }
+      }
+    },
+    {
+      "t": 15.05,
+      "face_cx_px": 1894.5,
+      "eye_y_px": 784.7,
+      "chin_y_px": 1269.3,
+      "head_top_px": 401,
+      "face_h_px": 643.4,
+      "head_h_px": 868.3,
+      "cap_measured": true,
+      "shoulder": {
+        "y0.55": {
+          "y": 1746,
+          "span": 892,
+          "x0": 1432,
+          "x1": 2323
+        },
+        "y0.70": {
+          "y": 1876,
+          "span": 616,
+          "x0": 1437,
+          "x1": 2052
+        },
+        "y0.85": {
+          "y": 2007,
+          "span": 827,
+          "x0": 1268,
+          "x1": 2094
+        },
+        "y1.00": {
+          "y": 2137,
+          "span": 1328,
+          "x0": 2336,
+          "x1": 3663
+        }
+      }
+    },
+    {
+      "t": 17.56,
+      "face_cx_px": 1930.8,
+      "eye_y_px": 779.4,
+      "chin_y_px": 1266.4,
+      "head_top_px": 399,
+      "face_h_px": 649.4,
+      "head_h_px": 867.4,
+      "cap_measured": true,
+      "shoulder": {
+        "y0.55": {
+          "y": 1743,
+          "span": 2037,
+          "x0": 897,
+          "x1": 2933
+        },
+        "y0.70": {
+          "y": 1873,
+          "span": 885,
+          "x0": 845,
+          "x1": 1729
+        },
+        "y0.85": {
+          "y": 2003,
+          "span": 989,
+          "x0": 2087,
+          "x1": 3075
+        },
+        "y1.00": {
+          "y": 2133,
+          "span": 684,
+          "x0": 759,
+          "x1": 1442
+        }
+      }
+    },
+    {
+      "t": 20.06,
+      "face_cx_px": 1835.9,
+      "eye_y_px": 765.9,
+      "chin_y_px": 1242.6,
+      "head_top_px": 386,
+      "face_h_px": 649.4,
+      "head_h_px": 856.6,
+      "cap_measured": true,
+      "shoulder": {
+        "y0.55": {
+          "y": 1713,
+          "span": 1528,
+          "x0": 1118,
+          "x1": 2645
+        },
+        "y0.70": {
+          "y": 1841,
+          "span": 943,
+          "x0": 1264,
+          "x1": 2206
+        },
+        "y0.85": {
+          "y": 1970,
+          "span": 602,
+          "x0": 1404,
+          "x1": 2005
+        },
+        "y1.00": {
+          "y": 2098,
+          "span": 674,
+          "x0": 1468,
+          "x1": 2141
+        }
+      }
+    },
+    {
+      "t": 22.85,
+      "face_cx_px": 1925.9,
+      "eye_y_px": 786.4,
+      "chin_y_px": 1266.8,
+      "head_top_px": 397,
+      "face_h_px": 648.5,
+      "head_h_px": 869.8,
+      "cap_measured": true,
+      "shoulder": {
+        "y0.55": {
+          "y": 1744,
+          "span": 582,
+          "x0": 2353,
+          "x1": 2934
+        },
+        "y0.70": {
+          "y": 1874,
+          "span": 713,
+          "x0": 2273,
+          "x1": 2985
+        },
+        "y0.85": {
+          "y": 2005,
+          "span": 898,
+          "x0": 2182,
+          "x1": 3079
+        },
+        "y1.00": {
+          "y": 2135,
+          "span": 953,
+          "x0": 2183,
+          "x1": 3135
+        }
+      }
+    },
+    {
+      "t": 25.64,
+      "face_cx_px": 1843.0,
+      "eye_y_px": 764.5,
+      "chin_y_px": 1247.0,
+      "head_top_px": 389,
+      "face_h_px": 661.5,
+      "head_h_px": 858.0,
+      "cap_measured": true,
+      "shoulder": {
+        "y0.55": {
+          "y": 1717,
+          "span": 2049,
+          "x0": 877,
+          "x1": 2925
+        },
+        "y0.70": {
+          "y": 1846,
+          "span": 1209,
+          "x0": 829,
+          "x1": 2037
+        },
+        "y0.85": {
+          "y": 1975,
+          "span": 865,
+          "x0": 2180,
+          "x1": 3044
+        },
+        "y1.00": {
+          "y": 2103,
+          "span": 1060,
+          "x0": 730,
+          "x1": 1789
+        }
+      }
+    }
+  ],
+  "take_detection": {
+    "method": "last scripted opening that reaches the spoken sign-off; the content rule decides, the marker rule and the gap sweep witness",
+    "opening_families": [
+      [
+        "if",
+        "you're",
+        "tired",
+        "of",
+        "hitting",
+        "your",
+        "claude",
+        "code",
+        "session",
+        "limits"
+      ]
+    ],
+    "sign_off_key": [
+      "catch",
+      "you",
+      "in",
+      "the",
+      "next"
+    ],
+    "openings_found": [
+      0
+    ],
+    "openings_without_truncation_arm": 1,
+    "truncation_arm_added": 0,
+    "sign_offs_found": 1,
+    "take_word_index": 0,
+    "take_words": 99,
+    "raw_words": 99,
+    "take_start_s": 9.039,
+    "take_text": "If you're tired of hitting your Claude Code session limits, this is one tip that can save you a lot of time. By using Groq Build from SpaceX AI, you can literally just resume the session that you were working on with one simple command, which is Control U. Now, you get access to Groq Build if you have the SuperGroq plan at $30. But if you have X Premium Plus, you also get free access to that account. Now, follow for more AI news and tutorials each and every single day, and catch you in the next one.",
+    "cross_check_marker_rule": {
+      "verdict": "abstains",
+      "answer": null,
+      "markers_total": 0,
+      "markers_before_take": 0,
+      "restarts_before_take": 1,
+      "under_count": 1,
+      "test": "^no[.,!?]$ OR a trailing hyphen/ellipsis",
+      "morphology": {
+        "punctuated_spoken_no": 0,
+        "truncations": 0,
+        "total": 0
+      },
+      "note": "EQUALITY is the strongest form; BOUND is legal and expected when abandonments carry no partial word; ABSTAINS is legal on a raw with no markers at all."
+    },
+    "cross_check_transcript_gap_rule": {
+      "verdict": "DISAGREES",
+      "correct_thresholds": [],
+      "sweep": {
+        ">=0.8": {
+          "n_gaps": 0,
+          "answers": null,
+          "is_correct": false,
+          "words_early": null
+        },
+        ">=0.9": {
+          "n_gaps": 0,
+          "answers": null,
+          "is_correct": false,
+          "words_early": null
+        },
+        ">=1.0": {
+          "n_gaps": 0,
+          "answers": null,
+          "is_correct": false,
+          "words_early": null
+        },
+        ">=1.5": {
+          "n_gaps": 0,
+          "answers": null,
+          "is_correct": false,
+          "words_early": null
+        },
+        ">=2.0": {
+          "n_gaps": 0,
+          "answers": null,
+          "is_correct": false,
+          "words_early": null
+        },
+        ">=2.5": {
+          "n_gaps": 0,
+          "answers": null,
+          "is_correct": false,
+          "words_early": null
+        },
+        ">=3.0": {
+          "n_gaps": 0,
+          "answers": null,
+          "is_correct": false,
+          "words_early": null
+        },
+        ">=4.0": {
+          "n_gaps": 0,
+          "answers": null,
+          "is_correct": false,
+          "words_early": null
+        },
+        ">=6.0": {
+          "n_gaps": 0,
+          "answers": null,
+          "is_correct": false,
+          "words_early": null
+        },
+        ">=8.0": {
+          "n_gaps": 0,
+          "answers": null,
+          "is_correct": false,
+          "words_early": null
+        }
+      },
+      "boundary_gap_s": null,
+      "note": "a rule correct on a BAND of thresholds is evidence; a single correct point is not, which is why all 10 are recorded with the answer each gives"
+    },
+    "corroboration": {
+      "marker": "abstains",
+      "gap": "DISAGREES",
+      "witnessed": false,
+      "allow_uncorroborated": true
+    },
+    "closure_is_asserted": "no discard marker and no further scripted opening survives inside w0..w98, and the take reaches the sign-off at w93",
+    "stutters_inside_take": 0,
+    "largest_in_take_gap_s": 0.5,
+    "expected_pins_asserted": [
+      "markers",
+      "raw_words",
+      "sign_offs",
+      "take_index",
+      "take_start"
+    ],
+    "head_measurement": {
+      "onset_rule": "silence-run end",
+      "primary_rule": "END of the last >= 0.3s run of sub-threshold 10ms windows (silence DURATION, not amplitude)",
+      "cross_check_rule": "SUSTAIN: first 10ms window holding >= threshold for 0.15s; speech may lead it by at most 0.35s",
+      "measured_onset_s": 9.06,
+      "sustain_onset_s": 9.06,
+      "sustain_lead_in_s": 0.0,
+      "silence_run_s": [
+        8.69,
+        9.06
+      ],
+      "silence_run_duration_s": 0.37,
+      "scribe_start_s": 9.039,
+      "scribe_vs_onset_s": -0.021,
+      "prev_utterance_audible_end_s": 0.0,
+      "silence_before_take_s": 9.06,
+      "envelope_threshold": 0.02597,
+      "envelope_peak": 0.43289,
+      "envelope_floor": 0.0,
+      "head_s": 8.96,
+      "head_lead_s": 0.1,
+      "head_inside_silence_run": true,
+      "head_pad_vs_onset_s": 0.1,
+      "head_pad_vs_scribe_s": 0.079
+    },
+    "cross_check_envelope_gap_rule": "the end of the last >= 0.3s silence run in a 10ms-window RMS envelope is 9.06s, which is 0.021s from the winner's Scribe start (9.039s). The run itself is 0.37s long."
+  },
+  "silence_noise": "-35dB",
+  "silence_min": 0.4,
+  "silence_keep": 0.16,
+  "micro_cuts_source": [],
+  "detected_silences": [
+    {
+      "start": 14.036,
+      "end": 14.449
+    },
+    {
+      "start": 23.922,
+      "end": 24.352
+    }
+  ],
+  "keep_segments": [
+    {
+      "tight_start": 0,
+      "source_start": 8.96,
+      "source_end": 23.076
+    },
+    {
+      "tight_start": 14.116,
+      "source_start": 23.329,
+      "source_end": 32.962
+    },
+    {
+      "tight_start": 23.748,
+      "source_start": 33.232,
+      "source_end": 37.339
+    }
+  ],
+  "edl_keep_segments_duration_s": 27.856,
+  "audio_sync_offset_ms": 0,
+  "audio_written": [
+    "audio.m4a (48 kHz stereo)"
+  ],
+  "analysis_wav_written": false,
+  "mix_source": "audio.m4a (48 kHz stereo) \u2014 there is no 16 kHz file here",
+  "raw_duration": 38.04,
+  "tight_transcript": {
+    "file": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run14/cuts/grokbuild/transcript_tight.json",
+    "words": 99,
+    "keyterms_sent": 113,
+    "first_word_s": 0.099,
+    "audio_duration_secs": 27.867
+  }
+}

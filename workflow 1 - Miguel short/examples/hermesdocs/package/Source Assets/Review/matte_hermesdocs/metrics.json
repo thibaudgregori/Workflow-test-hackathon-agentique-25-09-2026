@@ -1,0 +1,99 @@
+{
+  "vid": "hermesdocs",
+  "session": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/matting/hermesdocs",
+  "cut": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/matting/hermesdocs/matte_hermesdocs_v5_cut.webm",
+  "size": [
+    1386,
+    990
+  ],
+  "frames": 707,
+  "sample_fps": 5,
+  "sampled": 141,
+  "soft_alpha_px": {
+    "rest_median": 14536,
+    "p95_over_rest": 1.11,
+    "max_over_rest": 1.24,
+    "frames_over_2p5x": 0
+  },
+  "chair_band_px": {
+    "reference": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/matting/hermesdocs/selection.mask.png",
+    "p50": 626,
+    "p95": 5216,
+    "max": 9487,
+    "max_at_s": 1.6
+  },
+  "background_haze": {
+    "px_floor": 1500,
+    "detach_px": 14,
+    "p50": 0,
+    "p95": 1,
+    "max": 282,
+    "frames_over_floor": 0,
+    "longest_run_s": 0.0,
+    "hold_seconds_limit": 1.0,
+    "worst_sample_s": 27.2,
+    "hold": false
+  },
+  "frozen_edge": {
+    "frozen_sd": 1.5,
+    "min_cols": 12,
+    "sd_ratio": 4.0,
+    "runs": [],
+    "hold": false
+  },
+  "extra_components": {
+    "max": 0,
+    "frames": 0
+  },
+  "holes": {
+    "max": 1,
+    "frames": 1
+  },
+  "iou_frame_to_frame": {
+    "p05": 0.9335,
+    "min": 0.8923
+  },
+  "sheets": {
+    "playback": [
+      0,
+      12,
+      25,
+      40,
+      45,
+      50,
+      75,
+      100,
+      125,
+      405,
+      680
+    ],
+    "face_2x": [
+      0,
+      88,
+      176,
+      353,
+      530,
+      680,
+      706
+    ],
+    "chair_sides": [
+      12,
+      25,
+      40,
+      50,
+      110,
+      680
+    ],
+    "hands": [
+      0,
+      40,
+      350,
+      400,
+      405,
+      680
+    ]
+  },
+  "auto_hold": [],
+  "reference_bar": "run 19's five approved mattes: soft p95/rest <= 1.41, max/rest <= 5.9 (hands), extra components <= 1 frame, IoU p05 >= 0.92. These numbers did NOT separate geo's rejected mattes from the approved ones; the sheets did. Look.",
+  "wall_s": 20.7
+}

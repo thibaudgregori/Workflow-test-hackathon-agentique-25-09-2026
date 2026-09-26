@@ -1,0 +1,4 @@
+# frozen matte layers are local-only fixtures (70 MB); their tests SKIP when absent
+*.webm
+*.mkv
+*.mp4

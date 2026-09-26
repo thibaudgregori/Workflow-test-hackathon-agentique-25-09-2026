@@ -1,0 +1,83 @@
+{
+ "label": "hermesdocs_cutout",
+ "video": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/output/hermesdocs_cutout.mp4",
+ "phone_scale": "405x720",
+ "sheet": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/phone_hermesdocs_cutout.png",
+ "rule": "a FRESH judge (never read the plan) names each crop in <=3 words. Wrong name, hedge, or 'cannot tell' = the object is redesigned, not annotated.",
+ "answer_key": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/phone_hermesdocs_cutout.key.json",
+ "answer_key_rule": "DO NOT OPEN the answer key until every judge_answer below is filled in. Reading it first voids the Phone Test.",
+ "objects": [
+  {
+   "i": 0,
+   "t": 1.6,
+   "bbox_norm": [
+    0.3444,
+    0.1833,
+    0.6556,
+    0.351
+   ],
+   "phone_box_px": [
+    139,
+    131,
+    265,
+    252
+   ],
+   "phone_size_px": [
+    126,
+    121
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/phone_hermesdocs_cutout/00.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  },
+  {
+   "i": 1,
+   "t": 8.6,
+   "bbox_norm": [
+    0.3519,
+    0.1771,
+    0.7074,
+    0.351
+   ],
+   "phone_box_px": [
+    142,
+    127,
+    286,
+    252
+   ],
+   "phone_size_px": [
+    144,
+    125
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/phone_hermesdocs_cutout/01.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  },
+  {
+   "i": 2,
+   "t": 21.5,
+   "bbox_norm": [
+    0.3889,
+    0.1677,
+    0.6111,
+    0.3083
+   ],
+   "phone_box_px": [
+    157,
+    120,
+    247,
+    221
+   ],
+   "phone_size_px": [
+    90,
+    101
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/phone_hermesdocs_cutout/02.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  }
+ ]
+}

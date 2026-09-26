@@ -1,0 +1,7 @@
+# Chassis working directories are regenerable: `chassis_gen.py` rebuilds them
+# from the lab's frozen plates in seconds.  The chassis CODE is tracked; the
+# staged media (face plates, mattes, voice) and the emitted projects are not.
+*/stage/
+*/build/
+__pycache__/
+*.pyc

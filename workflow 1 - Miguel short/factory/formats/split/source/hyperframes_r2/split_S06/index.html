@@ -1,0 +1,324 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=1080, height=1920"/>
+<title>Abik Split R2 S06</title>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Archivo+Black&family=Montserrat:ital,wght@1,900&family=Nunito:wght@800&family=Instrument+Serif:ital@0;1&family=Playfair+Display:ital,wght@1,800&family=Lora:wght@500;600&family=JetBrains+Mono:wght@400;500;700&display=block" rel="stylesheet">
+<style>
+
+* { margin:0; padding:0; box-sizing:border-box; }
+body { margin:0; }
+#root { position:relative; width:1080px; height:1920px; overflow:hidden;
+  font-family:Poppins,sans-serif; }
+.clip { position:absolute; }
+.abs { position:absolute; }
+.center { left:0; width:1080px; text-align:center; }
+.scene { inset:0; }
+.inner { position:absolute; inset:0; transform-origin:50% 45%; }
+.bgfill { inset:0; }
+.uicard { background:#FFFFFF; border-radius:26.2px; overflow:hidden;
+  box-shadow:0 26.2px 63.8px rgba(0,0,0,0.13); }
+.uiimg { display:block; }
+.chromebar { display:flex; align-items:center; gap:15.0px; height:82.5px;
+  padding:0 30.0px; border-bottom:1px solid #EEECE6; }
+.dot { width:16.9px; height:16.9px; border-radius:50%; display:inline-block;
+  flex:none; }
+.dot.r { background:#FF5F57; } .dot.y { background:#FEBC2E; } .dot.g { background:#28C840; }
+.mini { width:30.0px; height:30.0px; margin-left:11.2px; }
+.ctitle { font-weight:600; font-size:31.9px; color:#111; white-space:nowrap; }
+.labelbar { height:82.5px; display:flex; align-items:center;
+  padding:0 33.8px; font-family:'JetBrains Mono',monospace; font-size:33.8px;
+  color:#8B8A85; border-bottom:1px solid #F0EEE8; white-space:nowrap; }
+.free3d { font-family:Poppins,sans-serif; font-weight:800; text-transform:uppercase;
+  color:#F5A623; letter-spacing:-0.03em; line-height:1;
+  text-shadow:7.5px 7.5px 0 #C97300; }
+.serifnum { font-family:'Instrument Serif',serif; font-style:italic; line-height:1;
+  color:#DD7259; }
+.monolbl { font-family:'JetBrains Mono',monospace; letter-spacing:7.5px;
+  text-transform:uppercase; }
+
+#root { background:#000; }
+.tz { left:0; width:1080px; overflow:hidden; }
+.tz.dark { background:#101012; }
+.tz.cream { background:#F6F1EA; }
+.shead { display:flex; align-items:baseline; gap:33.8px; }
+.stitle { font-weight:700; color:#1E1E1E; white-space:nowrap; }
+.stitle.onDark { color:#FFFFFF; }
+.pillrow { left:0; width:1080px; display:flex; justify-content:center; gap:26.2px; }
+.spill { background:#fff; border-radius:41.2px; padding:18.8px 37.5px;
+  font-family:'JetBrains Mono',monospace; font-size:35.6px; color:#1E1E1E;
+  box-shadow:0 15.0px 37.5px rgba(0,0,0,0.16); }
+/* intro */
+.introlbl { color:#8A8A8A; }
+.tz.cream .introlbl { color:#77746E; }
+.introcard { background:#F5F0E5; border-radius:45.0px; display:flex; align-items:center;
+  justify-content:center; gap:22.5px; }
+.introcard img { width:78.8px; height:78.8px; }
+.introcard span { font-family:Lora,serif; font-weight:500; font-size:97.5px; color:#171512; }
+.introev { font-family:'Playfair Display',serif; font-style:italic; font-weight:800;
+  font-size:86.2px; color:#fff; letter-spacing:0.02em; }
+.introev.lt { color:#1E1E1E; }
+.introev .dollar { color:#DD7259; font-size:101.2px; }
+/* models */
+.mdmark { display:flex; align-items:center; justify-content:center; gap:18.8px; }
+.mdmark img { width:67.5px; height:67.5px; }
+.mdmark span { font-family:Lora,serif; font-weight:500; font-size:86.2px; color:#171512; }
+.mdmark.onDark span { color:#F4EFE7; }
+.mdpill { background:#fff; border-radius:52.5px; padding:26.2px 48.8px;
+  font-weight:700; font-size:48.8px; color:#1E1E1E;
+  box-shadow:0 18.8px 48.8px rgba(0,0,0,0.12); }
+.mdpill em { font-style:normal; color:#DD7259; }
+.mdpill.orange { color:#DD7259; }
+.mdnote { font-family:'JetBrains Mono',monospace; font-size:35.6px; color:#87847E; }
+.mdnote.onDark { color:#8A8A8A; }
+/* S03 */
+.s3scrim { left:0; top:465.0px; width:1080px; height:397.5px;
+  background:linear-gradient(180deg, rgba(16,16,18,0) 0%, rgba(16,16,18,0.86) 58%,
+  rgba(16,16,18,0.95) 100%); }
+.s3lbl { color:#B9B5AE; }
+.s3num { color:#DD7259; }
+.s3t { font-weight:700; color:#fff; }
+/* S04 */
+.s4t { font-weight:700; color:#F4EFE7; line-height:1.14; }
+.tz.cream .s4t { color:#1E1E1E; }
+/* S05 */
+.sphone { background:#101012; border-radius:71.2px;
+  box-shadow:0 33.8px 75.0px rgba(0,0,0,0.28); }
+.sphscreen { position:absolute; background:#FBFAF6; border-radius:52.5px; overflow:hidden; }
+.sphbar { display:flex; align-items:center; justify-content:center;
+  font-family:'JetBrains Mono',monospace; font-size:26.2px; color:#96938D;
+  border-bottom:1px solid #EDEAE2; }
+.sphhome { position:absolute; left:50%; bottom:15.0px; width:180.0px;
+  height:9.4px; border-radius:5.6px; background:rgba(17,17,17,0.16);
+  margin-left:-90.0px; }
+.s5t { font-weight:700; color:#1E1E1E; line-height:1.15; }
+.s5s { font-weight:500; color:#7C7972; line-height:1.3; }
+/* S06 */
+.steprow { display:flex; gap:22.5px; }
+.stepseg { flex:1; height:63.8px; border-radius:18.8px; background:rgba(17,17,17,0.08);
+  display:flex; align-items:center; justify-content:center;
+  font-family:'JetBrains Mono',monospace; font-size:28.1px; color:#8B8880; }
+.tz.dark .stepseg { background:rgba(255,255,255,0.10); }
+.stepseg.on { background:#C66748; color:#fff; }
+.s6t { font-weight:700; color:#1E1E1E; }
+.tz.dark .s6t { color:#F4EFE7; }
+/* S07 */
+.termbar { display:flex; align-items:center; gap:15.0px; padding:0 52.5px;
+  height:75.0px; }
+.termttl { font-family:'JetBrains Mono',monospace; font-size:33.8px; color:#9B978F;
+  margin-left:26.2px; }
+.termwin { background:#17171B; border:1px solid #2A2A31; border-radius:26.2px;
+  padding:30.0px 37.5px 472.5px; }
+.termhead { font-family:'JetBrains Mono',monospace; font-size:39.4px; color:#E8E6E1; }
+.tprompt { color:#DD7259; }
+.tcursor { display:inline-block; width:20.6px; height:37.5px; background:#DD7259;
+  margin-left:15.0px; vertical-align:-3.8px; }
+.termimg { border-radius:15.0px; overflow:hidden; }
+.s7num { color:#7E7A73; }
+/* S08 */
+.s8lbl { color:#8B8880; }
+.s8list { display:flex; flex-direction:column; gap:9.4px; }
+.s8row { display:flex; align-items:center; gap:18.8px; padding:15.0px 22.5px;
+  border-radius:18.8px; background:rgba(17,17,17,0.035); }
+.s8row.on { background:#fff; box-shadow:0 9.4px 26.2px rgba(0,0,0,0.07); }
+.s8box { width:41.2px; height:41.2px; border-radius:13.1px; background:#DDDCD6;
+  color:#fff; font-weight:700; font-size:24.4px; display:flex; align-items:center;
+  justify-content:center; flex:none; }
+.s8row.on .s8box { background:#C66748; }
+.s8tx { font-weight:600; font-size:35.6px; color:#B4B2AB; white-space:nowrap; }
+.s8row.on .s8tx { color:#111; }
+/* S09 */
+.s9ov { overflow:hidden; }
+.s9scrim { left:0; bottom:0; width:1080px; height:281.2px;
+  background:linear-gradient(180deg, rgba(16,16,18,0) 0%, rgba(16,16,18,0.72) 55%,
+  rgba(16,16,18,0.90) 100%); }
+.s9lbl { color:#E6E2DA; }
+/* S10 */
+.s10num { font-family:Poppins,sans-serif; font-weight:800; color:transparent;
+  -webkit-text-stroke:5.6px #DD7259; line-height:1; }
+.s10w { font-weight:800; color:#1E1E1E; line-height:1.02; letter-spacing:-0.02em; }
+.tz.dark .s10w { color:#F4EFE7; }
+/* glitch */
+#glitch { inset:0; }
+.gfree { top:847.5px; left:0; width:1080px; text-align:center;
+  font-family:'Archivo Black',sans-serif; font-size:221.2px; letter-spacing:-0.01em;
+  line-height:1; }
+.gr { color:rgba(255,40,40,0.8); margin-left:-13.1px; }
+.gc { color:rgba(40,230,255,0.8); margin-left:13.1px; }
+.gw { color:#fff; }
+.gflash { inset:0; background:#fff; }
+/* captions */
+.scap { left:0; width:1080px; text-align:center; }
+.scappill { display:inline-block; transform:translateY(-50%); background:#C4573A;
+  color:#fff; font-family:Nunito,sans-serif; font-weight:800; font-size:56.2px;
+  padding:18.8px 33.8px; border-radius:22.5px; white-space:nowrap; }
+
+</style>
+</head>
+<body>
+<div id="root" data-composition-id="main" data-start="0" data-width="1080" data-height="1920"
+     data-duration="50.91" data-fps="30">
+
+  <video id="face0" src="assets/face_bottom.mp4" data-start="0.0" data-duration="2.85" data-media-start="0.0" data-track-index="1" muted playsinline style="position:absolute;top:862.5px;left:0;width:1080px;height:1057.5px;object-fit:cover;"></video>
+  <video id="face1" src="assets/face_full.mp4" data-start="2.85" data-duration="2.40" data-media-start="2.85" data-track-index="1" muted playsinline style="position:absolute;top:0;left:0;width:1080px;height:1920px;object-fit:cover;"></video>
+  <video id="face2" src="assets/face_bottom.mp4" data-start="5.25" data-duration="6.60" data-media-start="5.25" data-track-index="1" muted playsinline style="position:absolute;top:862.5px;left:0;width:1080px;height:1057.5px;object-fit:cover;"></video>
+  <video id="face3" src="assets/face_full.mp4" data-start="11.85" data-duration="1.45" data-media-start="11.85" data-track-index="1" muted playsinline style="position:absolute;top:0;left:0;width:1080px;height:1920px;object-fit:cover;"></video>
+  <video id="face4" src="assets/face_bottom.mp4" data-start="13.3" data-duration="5.10" data-media-start="13.3" data-track-index="1" muted playsinline style="position:absolute;top:862.5px;left:0;width:1080px;height:1057.5px;object-fit:cover;"></video>
+  <video id="face5" src="assets/face_full.mp4" data-start="18.4" data-duration="1.75" data-media-start="18.4" data-track-index="1" muted playsinline style="position:absolute;top:0;left:0;width:1080px;height:1920px;object-fit:cover;"></video>
+  <video id="face6" src="assets/face_bottom.mp4" data-start="20.15" data-duration="4.95" data-media-start="20.15" data-track-index="1" muted playsinline style="position:absolute;top:862.5px;left:0;width:1080px;height:1057.5px;object-fit:cover;"></video>
+  <video id="face7" src="assets/face_full.mp4" data-start="25.1" data-duration="2.25" data-media-start="25.1" data-track-index="1" muted playsinline style="position:absolute;top:0;left:0;width:1080px;height:1920px;object-fit:cover;"></video>
+  <video id="face8" src="assets/face_bottom.mp4" data-start="27.35" data-duration="4.75" data-media-start="27.35" data-track-index="1" muted playsinline style="position:absolute;top:862.5px;left:0;width:1080px;height:1057.5px;object-fit:cover;"></video>
+  <video id="face9" src="assets/face_bottom.mp4" data-start="32.1" data-duration="8.40" data-media-start="32.1" data-track-index="1" muted playsinline style="position:absolute;top:862.5px;left:0;width:1080px;height:1057.5px;object-fit:cover;"></video>
+  <video id="face10" src="assets/face_bottom.mp4" data-start="40.5" data-duration="6.95" data-media-start="40.5" data-track-index="1" muted playsinline style="position:absolute;top:862.5px;left:0;width:1080px;height:1057.5px;object-fit:cover;"></video>
+  <video id="face11" src="assets/face_punch.mp4" data-start="47.45" data-duration="3.46" data-media-start="47.45" data-track-index="1" muted playsinline style="position:absolute;top:0;left:0;width:1080px;height:1920px;object-fit:cover;"></video>
+
+  <section id="tz-intro" class="clip tz dark" style="top:0.0px;height:862.5px" data-start="0.0" data-duration="2.85" data-track-index="2">
+    <div class="abs center monolbl introlbl" id="sx-lbl" style="top:82.5px;font-size:30.0px">Claude · Free plan</div><div class="abs introcard" id="sx-card" style="left:93.8px;top:195.0px;width:892.5px;height:367.5px"><img src="assets/logos/claude.png" alt=""/><span>Claude</span></div><div class="abs center introev" id="sx-ev" style="top:641.2px">EVERYTHING <span class="dollar">$0</span></div>
+  </section>
+  <section id="tz-models" class="clip tz cream" style="top:0.0px;height:862.5px" data-start="40.5" data-duration="6.95" data-track-index="8">
+    <div class="abs center mdmark" id="md-mark" style="top:232.5px"><img src="assets/logos/claude.png" alt=""/><span>Claude</span></div><div class="abs pillrow" id="md-pills" style="top:476.2px"><span class="mdpill" id="md-p0">Sonnet <em>4.6</em></span><span class="mdpill orange" id="md-p1">Opus</span></div><div class="abs center mdnote" id="md-note" style="top:667.5px">every model. zero dollars.</div>
+  </section>
+  <section id="tz-memory" class="clip tz cream" style="top:0.0px;height:862.5px" data-start="5.25" data-duration="6.60" data-track-index="3">
+    <div class="abs steprow" id="memory-steps" style="left:90.0px;top:75.0px;width:900.0px"><div class="stepseg on"><span>01</span></div><div class="stepseg"><span>02</span></div><div class="stepseg"><span>03</span></div><div class="stepseg"><span>04</span></div><div class="stepseg"><span>05</span></div></div>
+    <div class="abs center s6t" id="memory-t" style="top:176.2px;font-size:63.8px">Memory</div>
+    <div class="abs uicard" id="memory-card" style="left:71.2px;top:422.7px;width:937.5px;"><img class="uiimg" src="assets/ui/memory_stack.png" alt="" style="width:937.5px;height:193.3px"/></div>
+  </section>
+  <section id="tz-websearch" class="clip tz cream" style="top:0.0px;height:862.5px" data-start="13.3" data-duration="5.10" data-track-index="4">
+    <div class="abs steprow" id="websearch-steps" style="left:90.0px;top:75.0px;width:900.0px"><div class="stepseg on"><span>01</span></div><div class="stepseg on"><span>02</span></div><div class="stepseg"><span>03</span></div><div class="stepseg"><span>04</span></div><div class="stepseg"><span>05</span></div></div>
+    <div class="abs center s6t" id="websearch-t" style="top:176.2px;font-size:63.8px">Web Search</div>
+    <div class="abs uicard" id="websearch-card" style="left:60.0px;top:340.0px;width:960.0px;"><img class="uiimg" src="assets/ui/websearch_permission.png" alt="" style="width:960.0px;height:358.7px"/></div>
+  </section>
+  <section id="tz-projects" class="clip tz dark" style="top:0.0px;height:862.5px" data-start="20.15" data-duration="4.95" data-track-index="5">
+    <div class="abs steprow" id="projects-steps" style="left:90.0px;top:75.0px;width:900.0px"><div class="stepseg on"><span>01</span></div><div class="stepseg on"><span>02</span></div><div class="stepseg on"><span>03</span></div><div class="stepseg"><span>04</span></div><div class="stepseg"><span>05</span></div></div>
+    <div class="abs center s6t" id="projects-t" style="top:176.2px;font-size:63.8px">Projects</div>
+    <div class="abs uicard" id="projects-card" style="left:266.2px;top:301.7px;width:547.5px;"><img class="uiimg" src="assets/ui/projects_modal.png" alt="" style="width:547.5px;height:435.4px"/></div>
+  </section>
+  <section id="tz-thinking" class="clip tz dark" style="top:0.0px;height:862.5px" data-start="27.35" data-duration="4.75" data-track-index="6">
+    <div class="abs steprow" id="thinking-steps" style="left:90.0px;top:75.0px;width:900.0px"><div class="stepseg on"><span>01</span></div><div class="stepseg on"><span>02</span></div><div class="stepseg on"><span>03</span></div><div class="stepseg on"><span>04</span></div><div class="stepseg"><span>05</span></div></div>
+    <div class="abs center s6t" id="thinking-t" style="top:176.2px;font-size:63.8px">Extended Thinking</div>
+    <div class="abs uicard" id="thinking-card" style="left:90.0px;top:292.4px;width:900.0px;"><img class="uiimg" src="assets/ui/thinking_card.png" alt="" style="width:900.0px;height:453.9px"/></div>
+  </section>
+  <section id="tz-connectors" class="clip tz cream" style="top:0.0px;height:862.5px" data-start="32.1" data-duration="8.40" data-track-index="7">
+    <div class="abs steprow" id="connectors-steps" style="left:90.0px;top:75.0px;width:900.0px"><div class="stepseg on"><span>01</span></div><div class="stepseg on"><span>02</span></div><div class="stepseg on"><span>03</span></div><div class="stepseg on"><span>04</span></div><div class="stepseg on"><span>05</span></div></div>
+    <div class="abs center s6t" id="connectors-t" style="top:176.2px;font-size:63.8px">Connectors</div>
+    <div class="abs uicard" id="connectors-card" style="left:90.0px;top:310.4px;width:900.0px;"><img class="uiimg" src="assets/ui/connectors_directory.png" alt="" style="width:900.0px;height:417.9px"/></div>
+  </section>
+
+
+
+  <div id="glitch" class="clip" data-start="48.4" data-duration="0.95" data-track-index="12">
+    <div class="abs gfree gr">FREE</div>
+    <div class="abs gfree gc">FREE</div>
+    <div class="abs gfree gw">FREE</div>
+    <div class="abs gflash" id="gflash"></div>
+  </div>
+
+  <div id="scap0" class="clip scap" style="top:862.5px" data-start="0.08" data-duration="1.00" data-track-index="15"><span class="scappill">Claude just gave away</span></div>
+  <div id="scap1" class="clip scap" style="top:862.5px" data-start="1.08" data-duration="1.44" data-track-index="15"><span class="scappill">almost everything for free,</span></div>
+  <div id="scap2" class="clip scap" style="top:1378.1px" data-start="2.52" data-duration="0.76" data-track-index="15"><span class="scappill">and here is what</span></div>
+  <div id="scap3" class="clip scap" style="top:1378.1px" data-start="3.28" data-duration="1.06" data-track-index="15"><span class="scappill">you get without paying</span></div>
+  <div id="scap4" class="clip scap" style="top:1378.1px" data-start="4.34" data-duration="0.94" data-track-index="15"><span class="scappill">a single dollar.</span></div>
+  <div id="scap5" class="clip scap" style="top:862.5px" data-start="5.28" data-duration="0.96" data-track-index="15"><span class="scappill">Number one,</span></div>
+  <div id="scap6" class="clip scap" style="top:862.5px" data-start="6.24" data-duration="0.48" data-track-index="15"><span class="scappill">memory.</span></div>
+  <div id="scap7" class="clip scap" style="top:862.5px" data-start="6.72" data-duration="1.24" data-track-index="15"><span class="scappill">Claude remembers who you</span></div>
+  <div id="scap8" class="clip scap" style="top:862.5px" data-start="7.96" data-duration="0.48" data-track-index="15"><span class="scappill">are,</span></div>
+  <div id="scap9" class="clip scap" style="top:862.5px" data-start="8.44" data-duration="0.86" data-track-index="15"><span class="scappill">your preference,</span></div>
+  <div id="scap10" class="clip scap" style="top:862.5px" data-start="9.3" data-duration="0.96" data-track-index="15"><span class="scappill">and your project all</span></div>
+  <div id="scap11" class="clip scap" style="top:862.5px" data-start="10.26" data-duration="1.36" data-track-index="15"><span class="scappill">across your conversation.</span></div>
+  <div id="scap12" class="clip scap" style="top:862.5px" data-start="11.62" data-duration="0.44" data-track-index="15"><span class="scappill">Next,</span></div>
+  <div id="scap13" class="clip scap" style="top:1378.1px" data-start="12.06" data-duration="0.66" data-track-index="15"><span class="scappill">we have a web</span></div>
+  <div id="scap14" class="clip scap" style="top:1378.1px" data-start="12.72" data-duration="0.60" data-track-index="15"><span class="scappill">search.</span></div>
+  <div id="scap15" class="clip scap" style="top:862.5px" data-start="13.32" data-duration="0.96" data-track-index="15"><span class="scappill">Claude can now look</span></div>
+  <div id="scap16" class="clip scap" style="top:862.5px" data-start="14.28" data-duration="0.92" data-track-index="15"><span class="scappill">up the things in</span></div>
+  <div id="scap17" class="clip scap" style="top:862.5px" data-start="15.2" data-duration="1.22" data-track-index="15"><span class="scappill">real times and give</span></div>
+  <div id="scap18" class="clip scap" style="top:862.5px" data-start="16.42" data-duration="0.88" data-track-index="15"><span class="scappill">you an answer with</span></div>
+  <div id="scap19" class="clip scap" style="top:862.5px" data-start="17.3" data-duration="1.16" data-track-index="15"><span class="scappill">an actual source.</span></div>
+  <div id="scap20" class="clip scap" style="top:1378.1px" data-start="18.46" data-duration="0.66" data-track-index="15"><span class="scappill">Next up,</span></div>
+  <div id="scap21" class="clip scap" style="top:1378.1px" data-start="19.12" data-duration="1.16" data-track-index="15"><span class="scappill">we have projects.</span></div>
+  <div id="scap22" class="clip scap" style="top:862.5px" data-start="20.28" data-duration="0.94" data-track-index="15"><span class="scappill">You can organize your</span></div>
+  <div id="scap23" class="clip scap" style="top:862.5px" data-start="21.22" data-duration="1.76" data-track-index="15"><span class="scappill">work into separate workspace,</span></div>
+  <div id="scap24" class="clip scap" style="top:862.5px" data-start="22.98" data-duration="1.08" data-track-index="15"><span class="scappill">each with its own</span></div>
+  <div id="scap25" class="clip scap" style="top:862.5px" data-start="24.06" data-duration="1.56" data-track-index="15"><span class="scappill">files and instructions.</span></div>
+  <div id="scap26" class="clip scap" style="top:1378.1px" data-start="25.62" data-duration="1.36" data-track-index="15"><span class="scappill">Then we have extended</span></div>
+  <div id="scap27" class="clip scap" style="top:1378.1px" data-start="26.98" data-duration="0.50" data-track-index="15"><span class="scappill">thinking.</span></div>
+  <div id="scap28" class="clip scap" style="top:862.5px" data-start="27.48" data-duration="1.10" data-track-index="15"><span class="scappill">Claude can now reason</span></div>
+  <div id="scap29" class="clip scap" style="top:862.5px" data-start="28.58" data-duration="1.44" data-track-index="15"><span class="scappill">through complex problem step</span></div>
+  <div id="scap30" class="clip scap" style="top:862.5px" data-start="30.02" data-duration="1.28" data-track-index="15"><span class="scappill">by step before giving</span></div>
+  <div id="scap31" class="clip scap" style="top:862.5px" data-start="31.3" data-duration="0.84" data-track-index="15"><span class="scappill">you an answer.</span></div>
+  <div id="scap32" class="clip scap" style="top:862.5px" data-start="32.14" data-duration="0.64" data-track-index="15"><span class="scappill">And lastly,</span></div>
+  <div id="scap33" class="clip scap" style="top:862.5px" data-start="32.78" data-duration="1.04" data-track-index="15"><span class="scappill">we have connectors.</span></div>
+  <div id="scap34" class="clip scap" style="top:862.5px" data-start="33.82" data-duration="1.44" data-track-index="15"><span class="scappill">Claude plugs into Google</span></div>
+  <div id="scap35" class="clip scap" style="top:862.5px" data-start="35.26" data-duration="0.72" data-track-index="15"><span class="scappill">Workspace,</span></div>
+  <div id="scap36" class="clip scap" style="top:862.5px" data-start="35.98" data-duration="1.56" data-track-index="15"><span class="scappill">Microsoft 365,</span></div>
+  <div id="scap37" class="clip scap" style="top:862.5px" data-start="37.54" data-duration="0.74" data-track-index="15"><span class="scappill">Slack,</span></div>
+  <div id="scap38" class="clip scap" style="top:862.5px" data-start="38.28" data-duration="0.54" data-track-index="15"><span class="scappill">Notion,</span></div>
+  <div id="scap39" class="clip scap" style="top:862.5px" data-start="38.82" data-duration="0.74" data-track-index="15"><span class="scappill">and more,</span></div>
+  <div id="scap40" class="clip scap" style="top:862.5px" data-start="39.56" data-duration="0.80" data-track-index="15"><span class="scappill">all on the free</span></div>
+  <div id="scap41" class="clip scap" style="top:862.5px" data-start="40.36" data-duration="0.42" data-track-index="15"><span class="scappill">plan.</span></div>
+  <div id="scap42" class="clip scap" style="top:862.5px" data-start="40.78" data-duration="0.74" data-track-index="15"><span class="scappill">You get all of</span></div>
+  <div id="scap43" class="clip scap" style="top:862.5px" data-start="41.52" data-duration="0.88" data-track-index="15"><span class="scappill">this on Claude on</span></div>
+  <div id="scap44" class="clip scap" style="top:862.5px" data-start="42.4" data-duration="0.32" data-track-index="15"><span class="scappill">it,</span></div>
+  <div id="scap45" class="clip scap" style="top:862.5px" data-start="42.72" data-duration="1.80" data-track-index="15"><span class="scappill">and 4.3 and Claude</span></div>
+  <div id="scap46" class="clip scap" style="top:862.5px" data-start="44.52" data-duration="0.60" data-track-index="15"><span class="scappill">Opus,</span></div>
+  <div id="scap47" class="clip scap" style="top:862.5px" data-start="45.12" data-duration="0.62" data-track-index="15"><span class="scappill">which is one of</span></div>
+  <div id="scap48" class="clip scap" style="top:862.5px" data-start="45.74" data-duration="1.16" data-track-index="15"><span class="scappill">the best AI model</span></div>
+  <div id="scap49" class="clip scap" style="top:1205.6px" data-start="46.9" data-duration="1.12" data-track-index="15"><span class="scappill">available right now.</span></div>
+  <div id="scap50" class="clip scap" style="top:1205.6px" data-start="48.02" data-duration="1.04" data-track-index="15"><span class="scappill">Comment "free," and I</span></div>
+  <div id="scap51" class="clip scap" style="top:1205.6px" data-start="49.06" data-duration="0.68" data-track-index="15"><span class="scappill">will send you the</span></div>
+  <div id="scap52" class="clip scap" style="top:1205.6px" data-start="49.74" data-duration="1.16" data-track-index="15"><span class="scappill">link to get started.</span></div>
+
+  <audio id="voA" src="assets/audio_tight.m4a" data-start="0" data-duration="50.91" data-track-index="20" data-volume="1"></audio>
+  <audio id="bgm" src="assets/music/bed_split.mp3" data-start="0" data-duration="50.91" data-track-index="21" data-volume="0.16"></audio>
+  <audio id="sfx0" src="assets/sfx/whoosh.mp3" data-start="0.06" data-duration="1.2" data-track-index="22" data-volume="0.32"></audio>
+  <audio id="sfx1" src="assets/sfx/boom.mp3" data-start="1.91" data-duration="1.2" data-track-index="23" data-volume="0.36"></audio>
+  <audio id="sfx2" src="assets/sfx/pop.mp3" data-start="5.86" data-duration="1.2" data-track-index="24" data-volume="0.32"></audio>
+  <audio id="sfx3" src="assets/sfx/pop.mp3" data-start="6.61" data-duration="1.2" data-track-index="25" data-volume="0.24"></audio>
+  <audio id="sfx4" src="assets/sfx/pop.mp3" data-start="6.76" data-duration="1.2" data-track-index="26" data-volume="0.24"></audio>
+  <audio id="sfx5" src="assets/sfx/pop.mp3" data-start="6.91" data-duration="1.2" data-track-index="27" data-volume="0.24"></audio>
+  <audio id="sfx6" src="assets/sfx/pop.mp3" data-start="13.91" data-duration="1.2" data-track-index="28" data-volume="0.32"></audio>
+  <audio id="sfx7" src="assets/sfx/pop.mp3" data-start="20.76" data-duration="1.2" data-track-index="29" data-volume="0.32"></audio>
+  <audio id="sfx8" src="assets/sfx/pop.mp3" data-start="27.96" data-duration="1.2" data-track-index="30" data-volume="0.32"></audio>
+  <audio id="sfx9" src="assets/sfx/ding.mp3" data-start="30.41" data-duration="1.2" data-track-index="31" data-volume="0.25"></audio>
+  <audio id="sfx10" src="assets/sfx/pop.mp3" data-start="32.71" data-duration="1.2" data-track-index="32" data-volume="0.32"></audio>
+  <audio id="sfx11" src="assets/sfx/click.mp3" data-start="35.21" data-duration="1.2" data-track-index="33" data-volume="0.24"></audio>
+  <audio id="sfx12" src="assets/sfx/pop.mp3" data-start="41.41" data-duration="1.2" data-track-index="34" data-volume="0.32"></audio>
+  <audio id="sfx13" src="assets/sfx/pop.mp3" data-start="44.21" data-duration="1.2" data-track-index="35" data-volume="0.32"></audio>
+  <audio id="sfx14" src="assets/sfx/boom.mp3" data-start="48.41" data-duration="1.2" data-track-index="36" data-volume="0.42"></audio>
+</div>
+
+<script>
+window.__timelines = window.__timelines || {};
+const tl = gsap.timeline({ paused: true });
+const POP = "back.out(2.4)";
+const SOFT = "power3.out";
+tl.fromTo("#sx-lbl",{opacity:0},{opacity:1,duration:0.4,ease:SOFT},0.15);
+tl.fromTo("#sx-card",{scale:0},{scale:1,duration:0.5,ease:"back.out(1.7)"},0.1);
+tl.fromTo("#sx-ev",{scale:0},{scale:1,duration:0.4,ease:"back.out(1.9)"},1.9);
+tl.fromTo("#md-mark",{opacity:0},{opacity:1,duration:0.4,ease:SOFT},40.60);
+tl.fromTo("#md-p0",{scale:0},{scale:1,duration:0.35,ease:POP},41.40);
+tl.fromTo("#md-p1",{scale:0},{scale:1,duration:0.35,ease:POP},44.20);
+tl.fromTo("#md-note",{opacity:0},{opacity:1,duration:0.4,ease:SOFT},45.40);
+tl.fromTo("#memory-steps",{opacity:0},{opacity:1,duration:0.3,ease:SOFT},5.31);
+tl.fromTo("#memory-t",{y:45.0,opacity:0},{y:0,opacity:1,duration:0.38,ease:SOFT},5.45);
+tl.fromTo("#memory-card",{y:75.0,opacity:0},{y:0,opacity:1,duration:0.45,ease:SOFT},5.75);
+tl.fromTo("#websearch-steps",{opacity:0},{opacity:1,duration:0.3,ease:SOFT},13.36);
+tl.fromTo("#websearch-t",{y:45.0,opacity:0},{y:0,opacity:1,duration:0.38,ease:SOFT},13.50);
+tl.fromTo("#websearch-card",{y:75.0,opacity:0},{y:0,opacity:1,duration:0.45,ease:SOFT},13.80);
+tl.fromTo("#projects-steps",{opacity:0},{opacity:1,duration:0.3,ease:SOFT},20.21);
+tl.fromTo("#projects-t",{y:45.0,opacity:0},{y:0,opacity:1,duration:0.38,ease:SOFT},20.35);
+tl.fromTo("#projects-card",{y:75.0,opacity:0},{y:0,opacity:1,duration:0.45,ease:SOFT},20.65);
+tl.fromTo("#thinking-steps",{opacity:0},{opacity:1,duration:0.3,ease:SOFT},27.41);
+tl.fromTo("#thinking-t",{y:45.0,opacity:0},{y:0,opacity:1,duration:0.38,ease:SOFT},27.55);
+tl.fromTo("#thinking-card",{y:75.0,opacity:0},{y:0,opacity:1,duration:0.45,ease:SOFT},27.85);
+tl.fromTo("#connectors-steps",{opacity:0},{opacity:1,duration:0.3,ease:SOFT},32.16);
+tl.fromTo("#connectors-t",{y:45.0,opacity:0},{y:0,opacity:1,duration:0.38,ease:SOFT},32.30);
+tl.fromTo("#connectors-card",{y:75.0,opacity:0},{y:0,opacity:1,duration:0.45,ease:SOFT},32.60);
+tl.fromTo("#gflash",{opacity:0.55},{opacity:0,duration:0.35,ease:"power2.out"},48.4);
+tl.fromTo("#glitch .gw",{opacity:1},{opacity:0.9,duration:0.06,repeat:14,yoyo:true,ease:"none"},48.4);
+tl.to("#bgm",{volume:0,duration:1.5},49.31);
+window.__timelines["main"] = tl;
+</script>
+</body>
+</html>

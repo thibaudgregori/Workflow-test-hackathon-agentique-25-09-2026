@@ -1,0 +1,101 @@
+{
+  "transcription_provider": "elevenlabs",
+  "transcription_model": "scribe_v2",
+  "transcription_source": "elevenlabs_scribe",
+  "raw_transcript_file": "elevenlabs_scribe_raw.json",
+  "word_timeline_file": "transcript_words.json",
+  "text": "Hermes Agent can now have literally infinite tools. You think an AI agent loads every tool all at once? Well, spoiler, they don't. You see, Hermes Agent managed to crack the code. They introduced something that's called procedural disclosure. What does that mean? It's very simple. It means that the agent will actually see the tools that it needs when it actually needs them. Tools consume context, and context is finite. That means that the best way to handle your context is by being very picky with the things that you actually give access to your AI agent. And the people over at Nous Research, the lab behind Hermes, have managed to make it so we can literally get all of the tools that we will ever need, and we no longer have to actually worry about that. If you have a Hermes agent, you can now literally just give up all of the MCP servers and all of the tools that you will need without bloating your context, which is just unbelievable. Follow for more AI news and tutorials every single day. See you",
+  "language": "eng",
+  "language_code": "eng",
+  "language_probability": 0.982887864112854,
+  "duration": 54.1866875,
+  "segments": [
+    {
+      "id": 0,
+      "start": 0.22,
+      "end": 2.8,
+      "text": "Hermes Agent can now have literally infinite tools."
+    },
+    {
+      "id": 1,
+      "start": 3.14,
+      "end": 5.74,
+      "text": "You think an AI agent loads every tool all at once?"
+    },
+    {
+      "id": 2,
+      "start": 5.84,
+      "end": 7.46,
+      "text": "Well, spoiler, they don't."
+    },
+    {
+      "id": 3,
+      "start": 7.68,
+      "end": 10.26,
+      "text": "You see, Hermes Agent managed to crack the code."
+    },
+    {
+      "id": 4,
+      "start": 10.5,
+      "end": 13.0,
+      "text": "They introduced something that's called procedural disclosure."
+    },
+    {
+      "id": 5,
+      "start": 13.2,
+      "end": 13.86,
+      "text": "What does that mean?"
+    },
+    {
+      "id": 6,
+      "start": 14.14,
+      "end": 14.84,
+      "text": "It's very simple."
+    },
+    {
+      "id": 7,
+      "start": 15.14,
+      "end": 19.7,
+      "text": "It means that the agent will actually see the tools that it needs when it actually needs them."
+    },
+    {
+      "id": 8,
+      "start": 20.0,
+      "end": 22.76,
+      "text": "Tools consume context, and context is finite."
+    },
+    {
+      "id": 9,
+      "start": 22.8,
+      "end": 29.24,
+      "text": "That means that the best way to handle your context is by being very picky with the things that you actually give access to your AI agent."
+    },
+    {
+      "id": 10,
+      "start": 29.7,
+      "end": 40.5,
+      "text": "And the people over at Nous Research, the lab behind Hermes, have managed to make it so we can literally get all of the tools that we will ever need, and we no longer have to actually worry about that."
+    },
+    {
+      "id": 11,
+      "start": 40.58,
+      "end": 50.1,
+      "text": "If you have a Hermes agent, you can now literally just give up all of the MCP servers and all of the tools that you will need without bloating your context, which is just unbelievable."
+    },
+    {
+      "id": 12,
+      "start": 50.74,
+      "end": 53.46,
+      "text": "Follow for more AI news and tutorials every single day."
+    },
+    {
+      "id": 13,
+      "start": 53.52,
+      "end": 53.76,
+      "text": "See you"
+    }
+  ],
+  "mentioned_companies": [],
+  "mentioned_tools": [],
+  "model": "scribe_v2"
+}

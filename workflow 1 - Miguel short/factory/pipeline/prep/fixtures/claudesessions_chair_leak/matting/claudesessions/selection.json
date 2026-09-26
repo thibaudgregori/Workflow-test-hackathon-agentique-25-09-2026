@@ -1,0 +1,206 @@
+{
+  "version": 1,
+  "status": "reviewed",
+  "identity": {
+    "plate_sha256": "83be8d23f4da8716502ecd8a22ab713119f5de18faaf40b0cbd3a2b0192f0223",
+    "source_sha256": "a04346e727b5d52f1b75af31c1265fce21307f584b301803b4911baf90f5a4f6",
+    "crop_sha256": "6751782f8b36c313d37fe2216aae241b13a6837e276255f3abb6c315827154b0",
+    "first_frame_sha256": "c3d09bcfb01b4cb725bbe2c301eed8e6e59d892c33147277ac558cc749f3502e",
+    "width": 1440,
+    "height": 900,
+    "fps": 25.0,
+    "frames": 531
+  },
+  "mask": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/matting/claudesessions/selection.mask.png",
+  "mask_sha256": "abaa6210e829f8d42588dc18bf392a3b3201aec06a8cb604300d6e58f0a1209e",
+  "base_mask_sha256": "848ae4e4377bf152b3c80e4ca7d30fd9914d7c5887e832cee0005112c66620d1",
+  "edits": [],
+  "reviewer": "visual-agent (Claude, by hand after the selection agent stalled 18 min)",
+  "notes": "frame-0 overlay inspected at full size: cap with badge, face, both ears, neck, shoulders and shirt inside the contour; the black chair back left of the head and behind the right shoulder is outside; no hands in frame; no edits needed",
+  "crop": {
+    "file": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/matting/claudesessions/plate_wide_25.mp4",
+    "master": [
+      3840,
+      2160,
+      531
+    ],
+    "crop": "2848x1780+630+244",
+    "scale_k": 0.505618,
+    "head_px_on_canvas": 451.5,
+    "head_frac_of_1920": 0.2351,
+    "face_px_on_canvas": 340.2,
+    "cap_top_on_plate": 58.7,
+    "chin_on_plate": 513.7,
+    "face_cx_on_plate": 630.2,
+    "shoulder_rule_crop_w": 1740,
+    "dropped": 0,
+    "kept_dupes": [],
+    "expect_frames": 531,
+    "ffmpeg_vf": "setpts=N/(25*TB),crop=2848:1780:630:244,scale=1440:900:flags=lanczos",
+    "plate_size": [
+      1440,
+      900
+    ],
+    "paint_scale": 1.1,
+    "head_parity": {
+      "crop": "2136x1780+808+244",
+      "scale_k": 0.505618,
+      "plate_size": [
+        1080,
+        900
+      ]
+    },
+    "probe": {
+      "width": 1440,
+      "height": 900,
+      "r_frame_rate": "25/1",
+      "duration": "21.240000",
+      "nb_read_frames": "531"
+    },
+    "headroom": {
+      "cap_top_on_canvas_px": 64.6,
+      "target_on_canvas_px": 64.0,
+      "hard_floor_on_canvas_px": 24.0,
+      "bottom_planted": false,
+      "slid_up_master_px": 136,
+      "note": "the crop is bottom-planted unless that would cut the crown; sliding it up spends the bottom of his chest, which the format runs off the canvas anyway, and touches neither `k` (head height on canvas) nor `x0` (face centring)"
+    },
+    "overwide": {
+      "applied": true,
+      "k": {
+        "exact": "45/89",
+        "float": 0.5056179775
+      },
+      "lattice": {
+        "extension_step_master_px": 89,
+        "plate_width_multiple_of": 180,
+        "derivation": "box_w = plate_w * 1.10 whole (plate_w % 10), EVEN (plate_w % 20), and plate_w moves in steps of p=45; lcm(20, 45) = 180"
+      },
+      "measured_need_master_px": {
+        "left": 146.2,
+        "right": 213.2
+      },
+      "need_floor_master_px": {},
+      "margin_floor": {
+        "canvas_px": 24.0,
+        "master_px": 43.2,
+        "source": "edge_clip_check's own limb-margin floor"
+      },
+      "extension": {
+        "left_master_px": 178,
+        "left_plate_px": 90,
+        "left_canvas_px": 99.0,
+        "right_master_px": 534,
+        "right_plate_px": 270,
+        "right_canvas_px": 297.0,
+        "left_headroom_remaining_master_px": 630,
+        "right_headroom_remaining_master_px": 362,
+        "clamped_by_master_edge": {
+          "left": false,
+          "right": false
+        },
+        "lattice_padding_steps": 3
+      },
+      "window_headparity": "2136x1780+808+244",
+      "window_overwide": "2848x1780+630+244",
+      "crop": [
+        2848,
+        1780,
+        630,
+        244
+      ],
+      "plate_size": [
+        1440,
+        900
+      ],
+      "plate_aspect": "1440:900 = 1.600:1",
+      "plate_box": {
+        "w": 1584.0,
+        "h": 990.0,
+        "left": -153.0,
+        "top": 930.0,
+        "right": 1431.0,
+        "centred": false,
+        "note": "the origin is NOT (1080 - box_w)/2.  An over-wide plate is deliberately asymmetric; the generator's plate_origin() reads `left` from here, and ship.py's edge gate takes it as --edge-box."
+      },
+      "nothing_on_canvas_moves": {
+        "visible_master_window_headparity": [
+          905.09,
+          2846.91
+        ],
+        "visible_master_window_overwide": [
+          905.09,
+          2846.91
+        ],
+        "visible_window_drift_master_px": 0.0,
+        "visible_window_drift_canvas_px": 0.0,
+        "head_on_delivery_canvas_px": 496.6,
+        "head_law_framing_md": 496.0,
+        "face_centre_canvas_x": 540.22,
+        "face_dx_pct": 0.021,
+        "frozen_post_params_still_valid": "BLEED 8, MORPH_K 2, SIGMA_HI 4.0, FEATHER 0.55, RIM_PX 7 are all in PLATE px and k is unchanged, so a plate px is the same physical size it has always been"
+      },
+      "cost": "the plate carries 1.33x the columns, so the track and the staged layers cost proportionally more, and the chassis reads a non-centred box.  Nothing the viewer receives changes except that his hands now have an outline where the frame cuts them.",
+      "proof": "this only MAKES the plate.  The window is proved afterwards on the newly tracked SAM2 alpha, every frame, by pipeline/edge_clip_check.py inside ship.py.",
+      "silhouette_measurement": {
+        "crop_window": "2136x?+808+244",
+        "frames_measured": 90,
+        "sweep_rows_inside_crop": 638,
+        "left": {
+          "shoulder_baseline_master_row": 1770,
+          "rows_above_baseline": 508,
+          "contact_coverage_at_baseline": 0.9,
+          "extreme_master_x_above_baseline": 705,
+          "head_parity_border_master_x": 808,
+          "clearance_master_px": 103
+        },
+        "right": {
+          "shoulder_baseline_master_row": 1989,
+          "rows_above_baseline": 581,
+          "contact_coverage_at_baseline": 0.9111,
+          "extreme_master_x_above_baseline": 3114,
+          "head_parity_border_master_x": 2944,
+          "clearance_master_px": 170
+        }
+      },
+      "sweep": {
+        "file": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/gen/_birefnet_master_claudesessions.json",
+        "frames_measured": 90,
+        "stride": 6,
+        "model": "birefnet-general",
+        "wall_seconds": 67.3,
+        "lane": {
+          "where": "modal",
+          "app": "shorts-factory-birefnet",
+          "gpu": "A10G",
+          "container": "bdc7a9a5-03f3-4b51-bc16-c358742d8b0f",
+          "onnx": "birefnet-general.onnx",
+          "providers": [
+            "CUDAExecutionProvider",
+            "CPUExecutionProvider"
+          ],
+          "input_bytes": 16245224,
+          "model_load_seconds": 4.5,
+          "inference_seconds": 48.4,
+          "seconds_per_frame": 0.538,
+          "t_import_epoch": 1790006053.0694735,
+          "t_fn_enter_epoch": 1790006054.7949994,
+          "t_fn_exit_epoch": 1790006110.316063,
+          "proxy": true,
+          "proxy_seconds": 1.8,
+          "client_wall_seconds": 67.3,
+          "uploaded_bytes": 16245224,
+          "cold_start_seconds": 6.79,
+          "billed_container_seconds": 59.2,
+          "measured_cost_usd": 0.0264,
+          "cost_breakdown_usd": {
+            "gpu": 0.0181,
+            "cpu": 0.0062,
+            "mem": 0.0021
+          }
+        }
+      }
+    }
+  },
+  "reuse_scope": "this exact source, plate and crop only"
+}

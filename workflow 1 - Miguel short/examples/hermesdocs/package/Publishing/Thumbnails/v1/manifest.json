@@ -1,0 +1,130 @@
+{
+  "standard": "original-option-17",
+  "platforms": [
+    "instagram",
+    "tiktok"
+  ],
+  "headline": [
+    "HERMES NOW",
+    "READS DOCS",
+    "LOCALLY"
+  ],
+  "keyword": "locally",
+  "highlighted_text": "LOCALLY",
+  "editorial_plan": {
+    "short_id": "3b431704-6eeb-81d6-bd9f-f78648da71de",
+    "source_package": "/Users/migle/Movies/Shorts Factory/Ready to Publish/Hermes Agent reads your documents locally",
+    "transcript_path": "/Users/migle/Movies/Shorts Factory/Ready to Publish/Hermes Agent reads your documents locally/Publishing/transcript_tight.json",
+    "transcript_sha256": "4c71b19e7bbba2eac9c72c89bfd499beaac63129fb71fbe3a57449d91e19028d",
+    "transcript_character_count": 507,
+    "full_transcript_read": true,
+    "keyword": "locally",
+    "keyword_reason": "The whole update is about where the reading happens: Hermes Agent reads your documents on your own machine, so confidential files never leak out. 'locally' is spoken twice in the transcript ('Now they read your documents locally', 'you run Hermes Agent locally') and is 7 characters.",
+    "headline_reason": "The cover names the tool (Hermes), the new ability (reading documents) and puts the privacy payoff, LOCALLY, on the terracotta line as the biggest word.",
+    "supporting_quotes": [
+      "Now they read your documents locally,",
+      "you run Hermes Agent locally, now you have zero risk of your data actually leaking out.",
+      "They do this by using AnyDoc, which is an open source PDF analyzer built by the team over at Firecrawl."
+    ],
+    "lines": [
+      "HERMES NOW",
+      "READS DOCS",
+      "LOCALLY"
+    ],
+    "headline_sentence": "Hermes now reads docs locally.",
+    "video_claim": "Hermes Agent can now read your documents locally, using Firecrawl's open source PDF analyzer AnyDoc, so confidential business or client documents have zero risk of leaking out when you run it locally.",
+    "headline_matches_claim": true
+  },
+  "photo": {
+    "bank_version": "7.1",
+    "source": "/Users/migle/Documents/Workspace/assets/images/miguel-photo-bank/originals/plush-orange-a.png",
+    "bank_pose": "plush-orange-a",
+    "input": "/Users/migle/Documents/Workspace/assets/images/miguel-photo-bank/plush-orange-a-rim.png",
+    "pose_fit": {
+      "block_height_px": 487,
+      "predicted_gap_px": 155,
+      "gap_band": [
+        70,
+        155
+      ],
+      "poses_that_fit": [
+        "neutral-smile",
+        "plush-orange-a",
+        "plush-orange-b",
+        "plush-cheek"
+      ],
+      "all_gaps": {
+        "neutral-smile": 103,
+        "finger-up-left-hand": 183,
+        "finger-up-right-hand": 181,
+        "plush-orange-a": 155,
+        "plush-orange-b": 113,
+        "arms-crossed": 64,
+        "plush-cheek": 110,
+        "plush-shoulder": 52
+      }
+    },
+    "source_context": {
+      "path": "/Users/migle/Movies/Shorts Factory/Ready to Publish/Hermes Agent reads your documents locally/Publishing/transcript_tight.json",
+      "sha256": "4c71b19e7bbba2eac9c72c89bfd499beaac63129fb71fbe3a57449d91e19028d"
+    }
+  },
+  "photo_sha256": "a5ccc7428f997933c3f901e0d09a47ccf73a8b92f52bc1201bff474a65956f07",
+  "files": {
+    "instagram-cover.jpg": {
+      "path": "/Users/migle/Movies/Shorts Factory/Ready to Publish/Hermes Agent reads your documents locally/Publishing/Thumbnails/v1/Exports/instagram-cover.jpg",
+      "sha256": "86398951cba380d0fca389ffadbb2ae5f338bce8d2693c7d98e29daeef98d50b",
+      "dimensions": [
+        1080,
+        1920
+      ]
+    },
+    "instagram-cover.png": {
+      "path": "/Users/migle/Movies/Shorts Factory/Ready to Publish/Hermes Agent reads your documents locally/Publishing/Thumbnails/v1/Exports/instagram-cover.png",
+      "sha256": "eea8b893c62cd509b711b6d831d1b5dccdb7fd05df0ef6ea68f50f14b56cb5b6",
+      "dimensions": [
+        1080,
+        1920
+      ]
+    },
+    "tiktok-cover.jpg": {
+      "path": "/Users/migle/Movies/Shorts Factory/Ready to Publish/Hermes Agent reads your documents locally/Publishing/Thumbnails/v1/Exports/tiktok-cover.jpg",
+      "sha256": "86398951cba380d0fca389ffadbb2ae5f338bce8d2693c7d98e29daeef98d50b",
+      "dimensions": [
+        1080,
+        1920
+      ]
+    },
+    "tiktok-cover.png": {
+      "path": "/Users/migle/Movies/Shorts Factory/Ready to Publish/Hermes Agent reads your documents locally/Publishing/Thumbnails/v1/Exports/tiktok-cover.png",
+      "sha256": "eea8b893c62cd509b711b6d831d1b5dccdb7fd05df0ef6ea68f50f14b56cb5b6",
+      "dimensions": [
+        1080,
+        1920
+      ]
+    }
+  },
+  "font": {
+    "family": "Avenir Next",
+    "weight": 900,
+    "line_sizes": [
+      131,
+      143,
+      199
+    ],
+    "line_height": 0.99,
+    "letter_spacing_px": -2
+  },
+  "grid_crop": [
+    0,
+    240,
+    1080,
+    1680
+  ],
+  "body_bottom_y": 1682,
+  "automated_checks": "passed",
+  "visual_review": "pending",
+  "published": false,
+  "paid_model_calls": 0,
+  "paid_cloud_calls": 0
+}

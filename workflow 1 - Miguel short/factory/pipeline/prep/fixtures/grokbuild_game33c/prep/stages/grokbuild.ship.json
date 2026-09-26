@@ -1,0 +1,14 @@
+{
+ "id": "grokbuild",
+ "stage": "ship",
+ "status": "needs_miguel",
+ "wall_s": null,
+ "at": "2026-09-21T09:04:30",
+ "keys": {
+  "status": "needs_miguel",
+  "gate": "protrusion",
+  "outcome": "verified anatomy",
+  "gate_refusal": "grokbuild v1 LAW 48 replay",
+  "reason": "a protrusion refusal is not eligible for an outline override; anatomy is preserved for Miguel"
+ }
+}

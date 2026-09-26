@@ -1,0 +1,605 @@
+{
+ "id": "grokbuild",
+ "run": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run14",
+ "recording": "2026-09-03 16-16-33",
+ "gpu": "h100",
+ "session": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/sam2/sessions/grokbuild",
+ "cut_dir": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run14/cuts/grokbuild",
+ "stages": {
+  "cut": {
+   "status": "ok",
+   "master": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run14/cuts/grokbuild/master.mp4",
+   "audio": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run14/cuts/grokbuild/audio.m4a",
+   "face_plates": [
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run14/cuts/grokbuild/face_full_hd.mp4",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run14/cuts/grokbuild/face_bottom_hd.mp4"
+   ],
+   "edl": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run14/cuts/grokbuild/edl.json",
+   "transcript_tight": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run14/cuts/grokbuild/transcript_tight.json",
+   "cut_master_duration_s": 27.867,
+   "take": {
+    "word_index": 0,
+    "start_s": 9.039,
+    "words": 99,
+    "of_raw_words": 99,
+    "openings": 1
+   },
+   "corroboration": {
+    "marker": "abstains",
+    "gap": "DISAGREES",
+    "witnessed": false,
+    "allow_uncorroborated": true
+   },
+   "analysis_wav_written": false,
+   "tight_audio_duration_s": 27.867,
+   "wall_s": 35.9
+  },
+  "plate": {
+   "status": "ok",
+   "plate": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/sam2/sessions/grokbuild/plate_wide_25.mp4",
+   "crop": "2450x1750+751+356",
+   "plate_size": [
+    1260,
+    900
+   ],
+   "scale_k": 0.514286,
+   "head_px_on_canvas": 449.6,
+   "overwide_applied": true,
+   "extension_master_px": {
+    "left_master_px": 105,
+    "left_plate_px": 54,
+    "left_canvas_px": 59.4,
+    "right_master_px": 245,
+    "right_plate_px": 126,
+    "right_canvas_px": 138.6,
+    "left_headroom_remaining_master_px": 751,
+    "right_headroom_remaining_master_px": 639,
+    "clamped_by_master_edge": {
+     "left": false,
+     "right": false
+    },
+    "lattice_padding_steps": 4
+   },
+   "plate_box": {
+    "w": 1386.0,
+    "h": 990.0,
+    "left": -113.0,
+    "top": 930.0,
+    "right": 1273.0,
+    "centred": false,
+    "note": "the origin is NOT (1080 - box_w)/2.  An over-wide plate is deliberately asymmetric; the generator's plate_origin() reads `left` from here, and ship.py's edge gate takes it as --edge-box."
+   },
+   "face_dx_pct": 0.1,
+   "visible_window_drift_master_px": 0.71,
+   "sweep": {
+    "file": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run14/gen/_birefnet_master_grokbuild.json",
+    "frames_measured": 117,
+    "stride": 6,
+    "model": "birefnet-general",
+    "wall_seconds": 81.0,
+    "lane": {
+     "where": "modal",
+     "app": "shorts-factory-birefnet",
+     "gpu": "A10G",
+     "container": "19ed4926-1b09-4d23-a197-592dc85b9855",
+     "onnx": "birefnet-general.onnx",
+     "providers": [
+      "CUDAExecutionProvider",
+      "CPUExecutionProvider"
+     ],
+     "input_bytes": 19351716,
+     "model_load_seconds": 3.9,
+     "inference_seconds": 61.7,
+     "seconds_per_frame": 0.527,
+     "t_import_epoch": 1788540688.075422,
+     "t_fn_enter_epoch": 1788540690.528172,
+     "t_fn_exit_epoch": 1788540759.1180043,
+     "proxy": true,
+     "proxy_seconds": 1.7,
+     "client_wall_seconds": 81.0,
+     "uploaded_bytes": 19351716,
+     "cold_start_seconds": 7.01,
+     "billed_container_seconds": 73.0,
+     "measured_cost_usd": 0.0326,
+     "cost_breakdown_usd": {
+      "gpu": 0.0224,
+      "cpu": 0.0077,
+      "mem": 0.0026
+     }
+    }
+   },
+   "plate_json": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/sam2/sessions/grokbuild/plate.json",
+   "wall_s": 108.0
+  },
+  "prompt0": {
+   "status": "ok",
+   "retries": [],
+   "prompt_guard": {
+    "repaired": false,
+    "why": "no frame-0 prompt yet"
+   },
+   "prompt0_status": "ok",
+   "prompt_png": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/sam2/sessions/grokbuild/prompts/kf_00000.png",
+   "overlay_png": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/sam2/sessions/grokbuild/prompts/kf_overlay_00000.png",
+   "wings_source": "MEASURED on this plate's frame 0",
+   "wing_right": null,
+   "wing_left": null,
+   "wing_cut_applied": false,
+   "wing_review": true,
+   "wing_review_note": "the instrument proposed no cut.  It abstains rather than guesses (see the module docstring: zero false positives, zero recall on the run-9 corpus).  Look at kf_overlay_00000.png; if a headrest wing is inside the green prompt, measure its inner column and pass an explicit `wings` block on the intake row.  If you miss one, the protrusion gate inside ship.py is the net.",
+   "removed_px": 0,
+   "prompt_area_px": 563026,
+   "chair_prompt": {
+    "status": "ok",
+    "json": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/sam2/sessions/grokbuild/chair_prompt.json",
+    "overlay": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/sam2/sessions/grokbuild/prompts/chair_overlay_00000.png",
+    "band": {
+     "crown": 0,
+     "head_width": 322.0,
+     "band_top": 299,
+     "shoulder_arrival": 479
+    },
+    "found": [
+     "left"
+    ],
+    "overridden_sides": null,
+    "left": {
+     "found": true,
+     "box": [
+      359,
+      175,
+      475,
+      442
+     ],
+     "points": [
+      [
+       412,
+       210,
+       1
+      ],
+      [
+       396,
+       276,
+       1
+      ],
+      [
+       407,
+       341,
+       1
+      ],
+      [
+       416,
+       407,
+       1
+      ],
+      [
+       574,
+       119,
+       0
+      ],
+      [
+       422,
+       309,
+       0
+      ],
+      [
+       517,
+       528,
+       0
+      ],
+      [
+       555,
+       599,
+       0
+      ]
+     ],
+     "rows": [
+      179,
+      438
+     ],
+     "rows_with_run": 260,
+     "cols": [
+      367,
+      467
+     ],
+     "run_width": {
+      "min": 9,
+      "max": 101,
+      "median": 46
+     },
+     "luma": {
+      "mean": 20.5,
+      "p95": 36,
+      "max": 149
+     },
+     "area_px": 14038
+    },
+    "right": {
+     "found": false,
+     "why": "35 sandwiched dark region(s) beside the head, none of them 80+ rows tall and under 150 px wide (tallest 260)"
+    }
+   },
+   "wall_s": 14.9
+  },
+  "cues": {
+   "status": "ok",
+   "cue_count": 1,
+   "cues_json": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run14/gen/_cues_grokbuild.json",
+   "answered": [
+    {
+     "cue_i": 0,
+     "at": 23.0,
+     "phrase": "that account",
+     "kind": "person",
+     "window": [
+      22.0,
+      24.0
+     ],
+     "card_hold_s": [
+      2.0,
+      4.0
+     ],
+     "status": "NEEDS_SOURCE",
+     "note": "no source URL was supplied for this cue.  The prep stage never chooses which post answers a cue and never chooses the claim span \u2014 supply `url` (+ optional `body` prefix and `claim`) on the intake row's cues block, or waive the cue in writing."
+    }
+   ],
+   "needs_source": [
+    0
+   ],
+   "cards": [],
+   "wall_s": 0.0
+  },
+  "display_plate": {
+   "status": "ok",
+   "wall_s": 69.6,
+   "file": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/sam2/sessions/grokbuild/plate_display_1386x990.mp4",
+   "log": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run14/prep/logs/display_grokbuild.log",
+   "bytes": 40240133
+  },
+  "track": {
+   "status": "ok",
+   "run_record": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/sam2/sessions/grokbuild/run_v3.json",
+   "alpha": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/sam2/sessions/grokbuild/alpha_v3.mkv",
+   "frames_tracked": 696,
+   "gpu": "NVIDIA H100 80GB HBM3",
+   "track_seconds": 141.93,
+   "billed_container_seconds": 153.9,
+   "cost_usd": 0.1824,
+   "cost_breakdown_usd": {
+    "gpu": 0.1689,
+    "cpu": 0.0081,
+    "mem": 0.0055
+   },
+   "seams": [
+    {
+     "seam_at": 350,
+     "overlap": 8,
+     "iou_min": 0.99861,
+     "iou_mean": 0.99902
+    }
+   ],
+   "seam_warning": [],
+   "ship_seconds": 8.13,
+   "ship_cost_usd": 0.0056,
+   "total_cost_usd": 0.188,
+   "leak_check": {
+    "verdict": "clean",
+    "healed": false,
+    "needs_human": false
+   },
+   "tag": "v3",
+   "lane": "h100",
+   "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python -u /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/sam2/track.py --session /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/sam2/sessions/grokbuild --plate /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/sam2/sessions/grokbuild/plate_wide_25.mp4 --prompts /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/sam2/sessions/grokbuild/prompts_v3 --tag v3 --gpu h100 --exclude-json /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/sam2/sessions/grokbuild/chair_prompt.json --ship --emit v5 --pad mirror --display 1386x990 --display-plate /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/sam2/sessions/grokbuild/plate_display_1386x990.mp4 --plate-json /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/sam2/sessions/grokbuild/plate.json --edge-box 1386x990+-113+930",
+   "ship_where": "modal",
+   "log": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run14/prep/logs/track_grokbuild.log",
+   "wall_s": 175.0,
+   "repair_round": 2
+  },
+  "repair": {
+   "rounds": [
+    {
+     "round": 1,
+     "gate": "outline",
+     "fix": "wingfix",
+     "tag": "v2",
+     "previous_tag": "v1",
+     "track_seconds": 143.26,
+     "ship_status": "REFUSED",
+     "cost_usd": 0.1952,
+     "refused_verdict": "OUTLINE (LAW 48): this alpha's silhouette is not a human edge \u2014 right: the straight run's p95 is 61 rows (ceiling 60) (rows 289-489, cut column 494).  A headrest wedge survives to the body side of the cut column and is welded to the shoulder, so the outline reads as furniture.  Fix it with wingfix.py on that side, using the rows and cut column above, and re-track.  Or pass --allow-outline with a written reason.  See STANDARD.md 'LAW 48' and pipeline/sam2/outline.py.",
+     "outline": {
+      "verdict": "outline",
+      "refusals": [
+       {
+        "side": "right",
+        "why": [
+         "the straight run's p95 is 61 rows (ceiling 60)"
+        ],
+        "rows": [
+         289,
+         489
+        ],
+        "wing_column": 494,
+        "reach_column": 504,
+        "straight_rows_p95": 61.0,
+        "straight_frac_at_line": 0.2929,
+        "dark_frac_p95": 0.5938,
+        "dark_px_p95": 5373
+       }
+      ],
+      "sides": {
+       "left": {
+        "straight_rows_p95": 41.1,
+        "straight_rows_max": 53,
+        "straight_frac_at_line": 0.0643,
+        "dark_px_p95": 2594,
+        "dark_frac_p95": 0.2866,
+        "dark_frac_max": 0.3146,
+        "band_rows_median": [
+         309,
+         489
+        ],
+        "dark_reach_column": 477,
+        "verdict": "clean"
+       },
+       "right": {
+        "straight_rows_p95": 61.0,
+        "straight_rows_max": 73,
+        "straight_frac_at_line": 0.2929,
+        "dark_px_p95": 5373,
+        "dark_frac_p95": 0.5938,
+        "dark_frac_max": 0.6591,
+        "band_rows_median": [
+         309,
+         489
+        ],
+        "dark_reach_column": 504,
+        "verdict": "outline"
+       }
+      }
+     },
+     "wing_window": {
+      "right": {
+       "inner_col": 494,
+       "rows": [
+        289,
+        489
+       ],
+       "reach_col": 504
+      }
+     },
+     "fix_tail": [
+      "CUT n=72 min=12461 max=17140 median=14484  |  max luma of any removed pixel 60 (guard 60)  |  silhouette lost 2.30-3.22 %",
+      "",
+      "72 prompt masks -> /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/sam2/sessions/grokbuild/prompts_v2",
+      "next: track.py --prompts /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/sam2/sessions/grokbuild/prompts_v2 --tag v3"
+     ],
+     "prompts": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/sam2/sessions/grokbuild/prompts_v2",
+     "track_cmd": "/Users/migle/Documents/Workspace/.venv/bin/python -u /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/sam2/track.py --session /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/sam2/sessions/grokbuild --plate /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/sam2/sessions/grokbuild/plate_wide_25.mp4 --prompts /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/sam2/sessions/grokbuild/prompts_v2 --tag v2 --gpu h100 --exclude-json /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/sam2/sessions/grokbuild/chair_prompt.json --ship --emit v5 --pad mirror --display 1386x990 --display-plate /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/sam2/sessions/grokbuild/plate_display_1386x990.mp4 --plate-json /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/sam2/sessions/grokbuild/plate.json --edge-box 1386x990+-113+930",
+     "lane": "h100",
+     "ship_where": "modal",
+     "track_wall_s": 176.1,
+     "ship_verdict": "OUTLINE (LAW 48): this alpha's silhouette is not a human edge \u2014 right: a straight run of >= 40 rows on 55.7% of frames (ceiling 40%), the straight run's p95 is 79 rows (ceiling 60) (rows 290-490, cut column 496).  A headrest wedge survives to the body side of the cut column and is welded to the shoulder, so the outline reads as furniture.  Fix it with wingfix.py on that side, using the rows and cut column above, and re-track.  Or pass --allow-outline with a written reason.  See STANDARD.md 'LAW 48' and pipeline/sam2/outline.py.",
+     "edge_clip": null,
+     "cost_breakdown_usd": {
+      "track": 0.1908,
+      "ship": 0.0044
+     },
+     "wall_s": 179.0
+    },
+    {
+     "round": 2,
+     "gate": "outline",
+     "fix": "wingfix",
+     "tag": "v3",
+     "previous_tag": "v2",
+     "track_seconds": 141.93,
+     "ship_status": "REFUSED",
+     "cost_usd": 0.188,
+     "refused_verdict": "OUTLINE (LAW 48): this alpha's silhouette is not a human edge \u2014 right: a straight run of >= 40 rows on 55.7% of frames (ceiling 40%), the straight run's p95 is 79 rows (ceiling 60) (rows 290-490, cut column 496).  A headrest wedge survives to the body side of the cut column and is welded to the shoulder, so the outline reads as furniture.  Fix it with wingfix.py on that side, using the rows and cut column above, and re-track.  Or pass --allow-outline with a written reason.  See STANDARD.md 'LAW 48' and pipeline/sam2/outline.py.",
+     "outline": {
+      "verdict": "outline",
+      "refusals": [
+       {
+        "side": "right",
+        "why": [
+         "a straight run of >= 40 rows on 55.7% of frames (ceiling 40%)",
+         "the straight run's p95 is 79 rows (ceiling 60)"
+        ],
+        "rows": [
+         290,
+         490
+        ],
+        "wing_column": 496,
+        "reach_column": 506,
+        "straight_rows_p95": 79.0,
+        "straight_frac_at_line": 0.5571,
+        "dark_frac_p95": 0.4225,
+        "dark_px_p95": 3823
+       }
+      ],
+      "sides": {
+       "left": {
+        "straight_rows_p95": 46.0,
+        "straight_rows_max": 54,
+        "straight_frac_at_line": 0.1143,
+        "dark_px_p95": 2602,
+        "dark_frac_p95": 0.2876,
+        "dark_frac_max": 0.3152,
+        "band_rows_median": [
+         310,
+         490
+        ],
+        "dark_reach_column": 477,
+        "verdict": "clean"
+       },
+       "right": {
+        "straight_rows_p95": 79.0,
+        "straight_rows_max": 94,
+        "straight_frac_at_line": 0.5571,
+        "dark_px_p95": 3823,
+        "dark_frac_p95": 0.4225,
+        "dark_frac_max": 0.5117,
+        "band_rows_median": [
+         310,
+         490
+        ],
+        "dark_reach_column": 506,
+        "verdict": "outline"
+       }
+      }
+     },
+     "wing_window": {
+      "right": {
+       "inner_col": 496,
+       "rows": [
+        290,
+        490
+       ],
+       "reach_col": 506
+      }
+     },
+     "fix_tail": [
+      "CUT n=72 min=724 max=6596 median=1097  |  max luma of any removed pixel 60 (guard 60)  |  silhouette lost 0.10-1.25 %",
+      "",
+      "72 prompt masks -> /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/sam2/sessions/grokbuild/prompts_v3",
+      "next: track.py --prompts /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/sam2/sessions/grokbuild/prompts_v3 --tag v3"
+     ],
+     "prompts": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/sam2/sessions/grokbuild/prompts_v3",
+     "track_cmd": "/Users/migle/Documents/Workspace/.venv/bin/python -u /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/sam2/track.py --session /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/sam2/sessions/grokbuild --plate /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/sam2/sessions/grokbuild/plate_wide_25.mp4 --prompts /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/sam2/sessions/grokbuild/prompts_v3 --tag v3 --gpu h100 --exclude-json /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/sam2/sessions/grokbuild/chair_prompt.json --ship --emit v5 --pad mirror --display 1386x990 --display-plate /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/sam2/sessions/grokbuild/plate_display_1386x990.mp4 --plate-json /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/sam2/sessions/grokbuild/plate.json --edge-box 1386x990+-113+930",
+     "lane": "h100",
+     "ship_where": "modal",
+     "track_wall_s": 175.0,
+     "ship_verdict": "OUTLINE (LAW 48): this alpha's silhouette is not a human edge \u2014 right: a straight run of >= 40 rows on 52.1% of frames (ceiling 40%), the straight run's p95 is 78 rows (ceiling 60) (rows 290-490, cut column 496).  A headrest wedge survives to the body side of the cut column and is welded to the shoulder, so the outline reads as furniture.  Fix it with wingfix.py on that side, using the rows and cut column above, and re-track.  Or pass --allow-outline with a written reason.  See STANDARD.md 'LAW 48' and pipeline/sam2/outline.py.",
+     "edge_clip": null,
+     "cost_breakdown_usd": {
+      "track": 0.1824,
+      "ship": 0.0056
+     },
+     "wall_s": 177.7
+    },
+    {
+     "round": 3,
+     "gate": "outline",
+     "fix": "NONE \u2014 chair route rejected, wingfix refused as harmful",
+     "chair_from_gate": {
+      "gate": "outline",
+      "already_excluded": [
+       "left"
+      ],
+      "sides": {
+       "right": {
+        "found": false,
+        "gate": "outline",
+        "verdict": "not a wing",
+        "window_cols": [
+         494,
+         768
+        ],
+        "window_rows": [
+         289,
+         489
+        ],
+        "silhouette_edge": 768,
+        "width": 275,
+        "why": "the refusal window is 275 px wide (ceiling 150) \u2014 that is a body, not a wedge.  The gate's straight run is most likely his own jaw-to-shoulder line; the remedy is a reasoned --allow-outline, NOT another cut."
+       }
+      },
+      "derived": []
+     },
+     "resolution": "shipped alpha_v1 with --allow-outline and a measured reason",
+     "ship_status": "ok",
+     "cost_usd": 0.0
+    }
+   ],
+   "final_tag": "v3",
+   "total_extra_cost_usd": 0.3832,
+   "total_extra_wall_s": 356.7,
+   "round0": {
+    "tag": "v1",
+    "track": {
+     "status": "ok",
+     "tag": "v1",
+     "lane": "h100",
+     "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python -u /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/sam2/track.py --session /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/sam2/sessions/grokbuild --plate /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/sam2/sessions/grokbuild/plate_wide_25.mp4 --prompts /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/sam2/sessions/grokbuild/prompts --tag v1 --gpu h100 --exclude-json /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/sam2/sessions/grokbuild/chair_prompt.json --ship --emit v5 --pad mirror --display 1386x990 --display-plate /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/sam2/sessions/grokbuild/plate_display_1386x990.mp4 --plate-json /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/sam2/sessions/grokbuild/plate.json --edge-box 1386x990+-113+930",
+     "ship_where": "modal",
+     "log": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/shorts_run14/prep/logs/track_grokbuild.log",
+     "wall_s": 250.2,
+     "run_record": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/sam2/sessions/grokbuild/run_v1.json",
+     "alpha": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/sam2/sessions/grokbuild/alpha_v1.mkv",
+     "frames_tracked": 696,
+     "gpu": "NVIDIA H100 80GB HBM3",
+     "track_seconds": 183.13,
+     "billed_container_seconds": 211.6,
+     "cost_usd": 0.2507,
+     "cost_breakdown_usd": {
+      "gpu": 0.2321,
+      "cpu": 0.0111,
+      "mem": 0.0075
+     },
+     "seams": [
+      {
+       "seam_at": 350,
+       "overlap": 8,
+       "iou_min": 0.99917,
+       "iou_mean": 0.99925
+      }
+     ],
+     "seam_warning": [],
+     "ship_seconds": 6.97,
+     "ship_cost_usd": 0.0043,
+     "total_cost_usd": 0.255,
+     "leak_check": {
+      "verdict": "clean",
+      "healed": true,
+      "needs_human": false
+     }
+    },
+    "ship": {
+     "status": "REFUSED",
+     "where": "modal-cpu",
+     "ship_seconds": 6.97,
+     "client_wall_s": 4.41,
+     "cost_usd": 0.0043,
+     "billed_container_seconds": 9.1,
+     "cpu_cores": 32.0,
+     "workers": 12,
+     "ffmpeg": "/opt/ffmpeg/bin/ffmpeg",
+     "display": "1386x990",
+     "protrusion_verdict": null,
+     "gate_log": "PROTRUSION: clean\nOUTLINE: outline  left straight p95 41 rows / max 53 / at-line 6.4%  dark p95 2594 px (29%, max 31%)  right straight p95 61 rows / max 73 / at-line 29.3%  dark p95 5373 px (59%, max 66%)  REFUSED\n",
+     "gate": "outline",
+     "gate_refusal": "OUTLINE (LAW 48): this alpha's silhouette is not a human edge \u2014 right: the straight run's p95 is 61 rows (ceiling 60) (rows 289-489, cut column 494).  A headrest wedge survives to the body side of the cut column and is welded to the shoulder, so the outline reads as furniture.  Fix it with wingfix.py on that side, using the rows and cut column above, and re-track.  Or pass --allow-outline with a written reason.  See STANDARD.md 'LAW 48' and pipeline/sam2/outline.py.",
+     "wall_s": 0.0,
+     "error": "RuntimeError: the container's outline gate refused the matte \u2014 read gate_refusal; the fix is bolsterfix/wingfix + a re-track, never --allow-protrusion",
+     "traceback": "Traceback (most recent call last):\n  File \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/prep/prep_batch.py\", line 854, in collect_remote_ship\n    raise RuntimeError(\nRuntimeError: the container's outline gate refused the matte \u2014 read gate_refusal; the fix is bolsterfix/wingfix + a re-track, never --allow-protrusion\n"
+    }
+   },
+   "repaired": false,
+   "rounds_run": 2,
+   "wall_s": 356.7,
+   "status": "exhausted"
+  },
+  "ship": {
+   "status": "ok",
+   "where": "laptop",
+   "display": "1386x990",
+   "edge_box": "1386x990+-113+930",
+   "protrusion_verdict": "clean",
+   "outline_verdict": "REFUSED then OVERRIDDEN (LAW 48 false positive, measured)",
+   "allow_outline": true,
+   "gate_log": "PROTRUSION: clean\nOUTLINE: outline  left straight p95 41 rows / max 53 / at-line 6.4%  dark p95 2591 px (29%, max 31%)  right straight p95 61 rows / max 73 / at-line 29.3%  dark p95 5363 px (59%, max 66%)  REFUSED\nOUTLINE OVERRIDDEN: LAW 48 FALSE POSITIVE, verified on the plate and on three alphas (2026-09-04). The right refusal window is 275 px wide (cut column 494, silhouette edge 768) \u2014 a body, not a wedge; chairprompt.from_refusal rejects it as not-a-wing. On frame 0 the dark inside the mask on that side is his OWN beard, lips, jaw and neck, with the chair correctly EXCLUDED just outside the edge; cut column 494 sits in his chin. He is leaning, so his jaw-to-shoulder line is near-vertical for 61-79 rows and instrument 1 fires on his anatomy. Only straight_p95 fails (61 vs 60); at-line 29.3% is under the 40% ceiling and dark 59.4% is under 78%. The two wingfix rounds that ran punched 7,719 and 8,174 px/frame of holes in his dark neck (8,119 px/f of removed DARK against 36 px/f of bright skin) while moving the right edge only 0-10 px, so v2 and v3 are damaged and v1 is the correct outline. Shipping v1 uncarved. The 60-row ceiling was calibrated on nine alphas of him sitting upright; whether it should widen for a pronounced lean is a calibration decision for Miguel.\n  wrote 200  6s\n  wrote 400  12s\n  wrote 600  19s\nDONE 696 frames -> matte_grokbuild_v5_cut.webm, matte_grokbuild_v5_rim.webm, matte_grokbuild_v5_alpha.webm\nEDGE CLIP: CLEAN  plate-border limb margin L 33.0 / R None px",
+   "ship_json": "pipeline/sam2/sessions/grokbuild/matte_grokbuild_v5_ship.json",
+   "frames": 696,
+   "alpha_src": "pipeline/sam2/sessions/grokbuild/alpha_v1.mkv",
+   "display_plate": "pipeline/sam2/sessions/grokbuild/plate_display_1386x990.mp4",
+   "chair_from_gate_verdict": "not a wing (275 px window) \u2014 the refusal is his own jaw-to-shoulder line, so NO cut was made",
+   "repair_rounds_discarded": "v2 and v3 (wingfix) punched 7,719 / 8,174 px per frame of holes in his dark neck; v1 uncarved is what shipped",
+   "wall_s": 0.1
+  }
+ },
+ "no_chair_object": false,
+ "started": "2026-09-04T18:50:24",
+ "finished": "2026-09-04T19:05:04",
+ "wall_s": 760.1
+}

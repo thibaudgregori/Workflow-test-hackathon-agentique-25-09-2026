@@ -1,0 +1,29 @@
+{
+ "source": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/format_lab/_shared/sfx/pen_loop.mp3",
+ "output": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/format_lab/whiteboard/sfx3/pen_soft3.mp3",
+ "before": {
+  "p85": -19.1,
+  "peak": -15.99,
+  "body_spread_db": 25.59,
+  "hf6k": 0.203,
+  "centroid_hz": 2747,
+  "dur_s": 1.995
+ },
+ "after": {
+  "p85": -19.0,
+  "peak": -18.03,
+  "body_spread_db": 3.92,
+  "hf6k": 0.074,
+  "centroid_hz": 1433,
+  "dur_s": 1.882
+ },
+ "delivered_at_V_LOOP": {
+  "volume": 0.038,
+  "body_p85": -47.4,
+  "peak": -46.43
+ },
+ "law": {
+  "unity_target_db": -19.0,
+  "loop_class_target_db": -47.3
+ }
+}

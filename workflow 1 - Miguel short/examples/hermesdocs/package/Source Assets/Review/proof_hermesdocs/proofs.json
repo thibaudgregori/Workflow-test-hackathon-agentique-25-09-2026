@@ -1,0 +1,347 @@
+{
+ "crops": [
+  {
+   "i": 0,
+   "name": "locked steel safe",
+   "t": 1.6,
+   "core_box": [
+    372.0,
+    160.0,
+    708.0,
+    482.0
+   ],
+   "phone_box_px": [
+    140,
+    132,
+    266,
+    253
+   ],
+   "phone_size_px": [
+    126,
+    121
+   ],
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_hermesdocs/00.png"
+  },
+  {
+   "i": 1,
+   "name": "open safe documents",
+   "t": 8.6,
+   "core_box": [
+    380.0,
+    148.0,
+    764.0,
+    482.0
+   ],
+   "phone_box_px": [
+    142,
+    128,
+    286,
+    253
+   ],
+   "phone_size_px": [
+    144,
+    125
+   ],
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_hermesdocs/01.png"
+  },
+  {
+   "i": 2,
+   "name": "scanned PDF page",
+   "t": 21.5,
+   "core_box": [
+    420.0,
+    130.0,
+    660.0,
+    400.0
+   ],
+   "phone_box_px": [
+    158,
+    121,
+    248,
+    222
+   ],
+   "phone_size_px": [
+    90,
+    101
+   ],
+   "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_hermesdocs/02.png"
+  }
+ ],
+ "frames": [
+  {
+   "name": "hook_draw",
+   "t": 0.3,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_hermesdocs/frame_hook_draw.png"
+  },
+  {
+   "name": "hook_safe",
+   "t": 1.6,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_hermesdocs/frame_hook_safe.png"
+  },
+  {
+   "name": "locked",
+   "t": 2.8,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_hermesdocs/frame_locked.png"
+  },
+  {
+   "name": "open",
+   "t": 3.2,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_hermesdocs/frame_open.png"
+  },
+  {
+   "name": "inside",
+   "t": 3.9,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_hermesdocs/frame_inside.png"
+  },
+  {
+   "name": "keyterm",
+   "t": 5.0,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_hermesdocs/frame_keyterm.png"
+  },
+  {
+   "name": "confidential",
+   "t": 8.6,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_hermesdocs/frame_confidential.png"
+  },
+  {
+   "name": "business",
+   "t": 10.2,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_hermesdocs/frame_business.png"
+  },
+  {
+   "name": "clients",
+   "t": 11.0,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_hermesdocs/frame_clients.png"
+  },
+  {
+   "name": "hflip",
+   "t": 12.3,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_hermesdocs/frame_hflip.png"
+  },
+  {
+   "name": "closed",
+   "t": 13.8,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_hermesdocs/frame_closed.png"
+  },
+  {
+   "name": "zero",
+   "t": 14.8,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_hermesdocs/frame_zero.png"
+  },
+  {
+   "name": "cloud",
+   "t": 15.9,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_hermesdocs/frame_cloud.png"
+  },
+  {
+   "name": "cross",
+   "t": 16.6,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_hermesdocs/frame_cross.png"
+  },
+  {
+   "name": "seam",
+   "t": 17.18,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_hermesdocs/frame_seam.png"
+  },
+  {
+   "name": "anydoc",
+   "t": 18.6,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_hermesdocs/frame_anydoc.png"
+  },
+  {
+   "name": "opensrc",
+   "t": 20.2,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_hermesdocs/frame_opensrc.png"
+  },
+  {
+   "name": "scan",
+   "t": 21.4,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_hermesdocs/frame_scan.png"
+  },
+  {
+   "name": "slide",
+   "t": 22.4,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_hermesdocs/frame_slide.png"
+  },
+  {
+   "name": "fc",
+   "t": 23.6,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_hermesdocs/frame_fc.png"
+  },
+  {
+   "name": "outro",
+   "t": 25.5,
+   "full": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run28/review/proof_hermesdocs/frame_outro.png"
+  }
+ ],
+ "connectors": {
+  "arw-0": {
+   "start_vs_tile_right": 0.0,
+   "tip_vs_safe_left": 0.0,
+   "start_y_on_tile_straight": true,
+   "tip_y_on_safe_straight": true
+  },
+  "arw-1": {
+   "start_vs_tile_right": 0.0,
+   "tip_vs_safe_left": 0.0,
+   "start_y_on_tile_straight": true,
+   "tip_y_on_safe_straight": true
+  },
+  "leak-l": {
+   "cloud_end_vs_cloud_right": 0.0,
+   "safe_end_vs_safe_left": 0.0,
+   "y_on_safe_straight": true
+  },
+  "fc-l": {
+   "start_vs_page_right": 0.0,
+   "end_vs_tile_left": 0.0,
+   "y_on_tile_straight": true
+  },
+  "verdict": "PASS"
+ },
+ "measured": [
+  {
+   "safe": [
+    454,
+    160,
+    774,
+    460
+   ],
+   "cloud": [
+    220.226318359375,
+    227.74798583984375,
+    382,
+    356
+   ],
+   "page": [
+    440,
+    130,
+    640,
+    400
+   ],
+   "fc": [
+    649,
+    209,
+    761,
+    321
+   ],
+   "srcs": [
+    [
+     244,
+     152,
+     356,
+     264
+    ],
+    [
+     244,
+     356,
+     356,
+     468
+    ]
+   ]
+  },
+  {
+   "safe": [
+    540,
+    160,
+    860,
+    460
+   ],
+   "cloud": [
+    220.226318359375,
+    227.74798583984375,
+    382,
+    356
+   ],
+   "page": [
+    440,
+    130,
+    640,
+    400
+   ],
+   "fc": [
+    649,
+    209,
+    761,
+    321
+   ],
+   "srcs": [
+    [
+     244,
+     138,
+     356,
+     250
+    ],
+    [
+     244,
+     342,
+     356,
+     454
+    ]
+   ]
+  },
+  {
+   "safe": [
+    540,
+    146,
+    860,
+    446
+   ],
+   "cloud": [
+    220.226318359375,
+    213.74798583984375,
+    382,
+    342
+   ],
+   "page": [
+    319,
+    130,
+    519,
+    400
+   ],
+   "fc": [
+    649,
+    209,
+    761,
+    321
+   ],
+   "srcs": [
+    [
+     244,
+     138,
+     356,
+     250
+    ],
+    [
+     244,
+     342,
+     356,
+     454
+    ]
+   ]
+  }
+ ],
+ "arrow_anchor_points": [
+  [
+   454.0,
+   208.0
+  ],
+  [
+   454.0,
+   412.0
+  ]
+ ],
+ "stage_marks_resolve": {
+  "nous-girl-line": "/Users/migle/Documents/Workspace/assets/logos/ai-models/nous-girl-line.png",
+  "firecrawl": "/Users/migle/Documents/Workspace/assets/logos/tool-web-icons-20260914/firecrawl-product.png"
+ },
+ "cutout_lanes_resolve": {
+  "ollama": "/Users/migle/Documents/Workspace/assets/logos/ai-models/ollama.png",
+  "openclaw": "/Users/migle/Documents/Workspace/assets/logos/coding-tools/openclaw-color.png",
+  "notebooklm": "/Users/migle/Documents/Workspace/assets/logos/tool-web-icons-20260914/notebooklm-product.png",
+  "claude": "/Users/migle/Documents/Workspace/assets/logos/ai-models/claude-color.png",
+  "chatgpt": "/Users/migle/Documents/Workspace/assets/logos/ai-models/chatgpt-color.png",
+  "mistral": "/Users/migle/Documents/Workspace/assets/logos/ai-models/mistral.png",
+  "huggingface": "/Users/migle/Documents/Workspace/assets/logos/ai-models/huggingface.png"
+ }
+}

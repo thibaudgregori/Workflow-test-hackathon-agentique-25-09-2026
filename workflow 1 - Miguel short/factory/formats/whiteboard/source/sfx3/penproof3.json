@@ -1,0 +1,61 @@
+{
+ "instances": {
+  "round2": 10,
+  "round3": 7
+ },
+ "duty_pct": {
+  "round2": 10.9,
+  "round3": 8.8
+ },
+ "within_instance_swing_db": {
+  "round2": {
+   "worst": 18.71,
+   "mean": 17.85
+  },
+  "round3": {
+   "worst": 3.92,
+   "mean": 3.82
+  }
+ },
+ "per_instance_level_dbfs": {
+  "round2": {
+   "min": -51.22,
+   "max": -50.32,
+   "spread": 0.9
+  },
+  "round3": {
+   "min": -48.34,
+   "max": -48.19,
+   "spread": 0.15
+  }
+ },
+ "layer_body_dbfs": {
+  "round2": -47.66,
+  "round3": -47.38,
+  "loop_class_target": -47.3
+ },
+ "layer_peak_dbfs": {
+  "round2": -46.36,
+  "round3": -46.43
+ },
+ "speech_margin_db": {
+  "voice+bed only": 21.09,
+  "+round2 pen": 21.09,
+  "+round3 pen": 21.09,
+  "approved run-7 band": [
+   15.85,
+   23.7
+  ]
+ },
+ "first_10s": {
+  "speech_margin voice+bed": 22.62,
+  "speech_margin +round2 pen": 22.45,
+  "speech_margin +round3 pen": 22.61,
+  "lift over voice+bed round2": 0.04,
+  "lift over voice+bed round3": 0.03
+ },
+ "lift_over_voice_bed_whole_db": {
+  "round2": 0.0,
+  "round3": 0.04
+ }
+}

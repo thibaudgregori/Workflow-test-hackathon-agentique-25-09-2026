@@ -1,0 +1,297 @@
+{
+  "video": "takeover",
+  "fps": 25,
+  "duration": 54.04,
+  "takeovers": 6,
+  "scenes": [
+    "flash",
+    "toolwall",
+    "term",
+    "finite",
+    "portal",
+    "outro"
+  ],
+  "beats": [
+    1.64,
+    2.4,
+    6.8,
+    9.72,
+    19.0,
+    3.28
+  ],
+  "takeover_seconds": 42.84,
+  "takeover_share": 0.793,
+  "balance": {
+    "face_seconds": 11.2,
+    "face_share": 0.207,
+    "illustration_seconds": 42.84,
+    "illustration_share": 0.793,
+    "fix3_face_share": 0.449,
+    "face_runs_kept": 4,
+    "fix3_face_runs": 6,
+    "hook": [
+      0.0,
+      1.52
+    ],
+    "return": [
+      48.72,
+      50.76
+    ]
+  },
+  "face_runs": [
+    1.52,
+    1.44,
+    6.2,
+    2.04
+  ],
+  "longest_face_run": 6.2,
+  "face": {
+    "levels": {
+      "z00": {
+        "pct": 0,
+        "crop": "crop=1216:2160:1270:0",
+        "head_frac": 0.5632,
+        "face_frac": 0.4304
+      }
+    },
+    "crop_cuts": 0,
+    "punches": 0,
+    "seconds_by_level": {
+      "z00": 11.2
+    },
+    "rest_share": 1.0
+  },
+  "law12": {
+    "cap_y": 1318.0,
+    "pill_top": 1258.0,
+    "pill_bottom": 1378.0,
+    "pill_bottom_pct": 0.7177,
+    "pill_centre_pct": 0.6865,
+    "seats": [
+      "1318.0"
+    ],
+    "widest_pill_px": 713.9,
+    "widest_pill_text": "Hermes Agent managed",
+    "content_band": [
+      192.0,
+      1214.0
+    ],
+    "safe_column": [
+      162.0,
+      918.0
+    ],
+    "boxes_checked": 233
+  },
+  "round6_caption_spec": {
+    "font_px": 56.2,
+    "font_design_units": "px(30) at the factory's S=1.875",
+    "padding_px": [
+      18.8,
+      33.8
+    ],
+    "radius_px": 22.5,
+    "background": "#C4573A",
+    "colour": "#fff",
+    "family": "Nunito,sans-serif",
+    "weight": 800,
+    "pill_height_px": 114.59,
+    "seat_top_px": 1318.0,
+    "seat_is_pill_centre": true,
+    "pill_top_px": 1260.7,
+    "pill_bottom_px": 1375.3,
+    "pill_bottom_pct": 0.7163,
+    "font_sizes_in_page": [
+      "56.2"
+    ],
+    "phrases": 58,
+    "phrases_split_by_the_splitter": 0,
+    "split_log": [],
+    "widest_pill_measured_px": 714.6,
+    "widest_pill_estimate_px": 713.9,
+    "widest_pill_text": "Hermes Agent managed",
+    "seat_budget_px": 756.0,
+    "measured_headroom_px": 41.4
+  },
+  "seats": {
+    "region": [
+      0.0,
+      1258.0
+    ],
+    "region_mid": 629.0,
+    "fix4_seat_for_every_scene": 704.0,
+    "band_mid_minus_region_mid": 75.0,
+    "baseline_measurement": "_centroid_baseline.json",
+    "units": {
+      "flash": {
+        "seat": 634.5,
+        "moved_up_px": 69.5,
+        "fix4_optical_centre": 698.5,
+        "fix4_mass_centroid": 711.8,
+        "fix4_margin_above": 568.0,
+        "fix4_margin_below": 429.0,
+        "predicted_ink_top": 402.5
+      },
+      "toolwall": {
+        "seat": 625.5,
+        "moved_up_px": 78.5,
+        "fix4_optical_centre": 707.5,
+        "fix4_mass_centroid": 702.4,
+        "fix4_margin_above": 300.0,
+        "fix4_margin_below": 143.0,
+        "predicted_ink_top": 221.5
+      },
+      "term_card": {
+        "seat": 620.5,
+        "moved_up_px": 83.5,
+        "fix4_optical_centre": 712.5,
+        "fix4_mass_centroid": 695.2,
+        "fix4_margin_above": 588.0,
+        "fix4_margin_below": 421.0,
+        "predicted_ink_top": 504.5
+      },
+      "ondemand_field": {
+        "seat": 643.5,
+        "moved_up_px": 60.5,
+        "fix4_optical_centre": 689.5,
+        "fix4_mass_centroid": 705.0,
+        "fix4_margin_above": 289.0,
+        "fix4_margin_below": 168.0,
+        "predicted_ink_top": 228.5
+      },
+      "finite": {
+        "seat": 625.5,
+        "moved_up_px": 78.5,
+        "fix4_optical_centre": 707.5,
+        "fix4_mass_centroid": 791.8,
+        "fix4_margin_above": 402.0,
+        "fix4_margin_below": 245.0,
+        "predicted_ink_top": 323.5
+      },
+      "portal": {
+        "seat": 694.0,
+        "moved_up_px": 10.0,
+        "fix4_optical_centre": 639.0,
+        "fix4_mass_centroid": 674.0,
+        "fix4_margin_above": 231.0,
+        "fix4_margin_below": 211.0,
+        "predicted_ink_top": 199.0
+      },
+      "outro_card": {
+        "seat": 646.5,
+        "moved_up_px": 57.5,
+        "fix4_optical_centre": 686.5,
+        "fix4_mass_centroid": 812.1,
+        "fix4_margin_above": 389.0,
+        "fix4_margin_below": 274.0,
+        "predicted_ink_top": 331.5
+      }
+    }
+  },
+  "pacing": {
+    "cut_times": [
+      1.52,
+      3.16,
+      4.6,
+      7.0,
+      13.2,
+      15.16,
+      20.0,
+      29.72,
+      48.72,
+      50.76
+    ],
+    "cuts": 10,
+    "fix3_cuts": 13,
+    "min_gap": 1.44
+  },
+  "ghost_rule": {
+    "draw_ons": 5,
+    "drawn": 5,
+    "never_drawn_and_invisible": 0
+  },
+  "captions": 58,
+  "sfx": {
+    "count": 18,
+    "by_name": {
+      "soft_whoosh": 7,
+      "reverse_air": 3,
+      "low_thump": 3,
+      "tick": 4,
+      "pop": 1
+    },
+    "schedule": [
+      [
+        1.52,
+        "soft_whoosh"
+      ],
+      [
+        3.16,
+        "reverse_air"
+      ],
+      [
+        4.6,
+        "soft_whoosh"
+      ],
+      [
+        7.0,
+        "reverse_air"
+      ],
+      [
+        13.2,
+        "low_thump"
+      ],
+      [
+        13.2,
+        "soft_whoosh"
+      ],
+      [
+        15.16,
+        "soft_whoosh"
+      ],
+      [
+        15.32,
+        "tick"
+      ],
+      [
+        16.52,
+        "tick"
+      ],
+      [
+        17.68,
+        "tick"
+      ],
+      [
+        18.84,
+        "tick"
+      ],
+      [
+        20.0,
+        "low_thump"
+      ],
+      [
+        20.0,
+        "soft_whoosh"
+      ],
+      [
+        29.72,
+        "low_thump"
+      ],
+      [
+        29.72,
+        "soft_whoosh"
+      ],
+      [
+        38.28,
+        "pop"
+      ],
+      [
+        48.72,
+        "reverse_air"
+      ],
+      [
+        50.76,
+        "soft_whoosh"
+      ]
+    ]
+  }
+}

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Factory Soundboard</title>
+<style>
+  :root {
+    --cream: #F4EFE5; --paper: #FBF8F1; --ink: #191612; --ink-soft: #4A443B;
+    --muted: #8B8376; --line: #DDD5C6; --orange: #C25A38; --orange-soft: #F3E0D6;
+    --charcoal: #201D19; --card: #FFFFFF;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --cream: #171512; --paper: #1E1B17; --ink: #F0EADC; --ink-soft: #C9C1B0;
+      --muted: #857D6E; --line: #35302A; --orange: #D97250; --orange-soft: #3A2A22;
+      --charcoal: #14120F; --card: #242019;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--cream); color: var(--ink);
+    font-family: "Helvetica Neue", -apple-system, "Segoe UI", Arial, sans-serif;
+    line-height: 1.5; -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 44px 24px 80px; }
+  .eyebrow {
+    font-family: ui-monospace, Menlo, monospace; font-size: 11px;
+    letter-spacing: 0.16em; text-transform: uppercase; color: var(--muted);
+  }
+  h1 {
+    margin: 6px 0 8px; font-size: clamp(32px, 7vw, 46px); font-weight: 900;
+    letter-spacing: -0.02em; text-transform: uppercase; line-height: 0.95;
+  }
+  h1 span { color: var(--orange); }
+  p.sub { margin: 0 0 36px; color: var(--ink-soft); font-size: 15px; max-width: 56ch; }
+
+  h2 { font-size: 18px; font-weight: 900; text-transform: uppercase; margin: 34px 0 4px; }
+  .note { color: var(--muted); font-size: 13px; margin: 0 0 16px; }
+
+  .bed {
+    background: var(--card); border: 1.5px solid var(--line); border-radius: 16px;
+    padding: 18px 20px 16px; margin-bottom: 14px;
+  }
+  .bed .head { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+  .bed h3 { margin: 0; font-size: 16px; font-weight: 900; text-transform: uppercase; }
+  .bed .tag {
+    font-family: ui-monospace, Menlo, monospace; font-size: 10.5px;
+    letter-spacing: 0.12em; text-transform: uppercase; color: var(--orange);
+    background: var(--orange-soft); border-radius: 999px; padding: 3px 10px;
+  }
+  .bed p { margin: 6px 0 12px; font-size: 13.5px; color: var(--ink-soft); }
+  audio { width: 100%; display: block; }
+
+  .sfx-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 12px; }
+  .sfx {
+    background: var(--charcoal); color: #F4EFE5; border: none; border-radius: 16px;
+    padding: 22px 12px 18px; cursor: pointer; text-align: center;
+    font-family: inherit; transition: transform 0.06s ease, background 0.15s ease;
+  }
+  .sfx:hover { background: var(--orange); }
+  .sfx:active { transform: scale(0.94); }
+  .sfx .glyph { font-size: 26px; display: block; margin-bottom: 8px; }
+  .sfx .name { font-weight: 900; text-transform: uppercase; font-size: 14px; letter-spacing: 0.04em; }
+  .sfx .desc { font-family: ui-monospace, Menlo, monospace; font-size: 10px; color: #9C9482; display: block; margin-top: 4px; }
+  .sfx:hover .desc { color: #FFE3D6; }
+
+  footer {
+    margin-top: 44px; padding-top: 16px; border-top: 1.5px solid var(--line);
+    font-family: ui-monospace, Menlo, monospace; font-size: 11px;
+    letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted);
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="eyebrow">Fable 5 shorts factory · generated 26 Jul 2026 · ElevenLabs</div>
+  <h1>Factory <span>Soundboard</span></h1>
+  <p class="sub">Every sound the shorts carry, in one place. Two music beds under the voice,
+  five effects punctuating the builds and ticks. All generated once, owned outright.</p>
+
+  <h2>Music beds</h2>
+  <p class="note">~52 seconds each, no vocals, tuned to sit under speech.</p>
+
+  <div class="bed">
+    <div class="head"><h3>bed_split</h3><span class="tag">in the current shorts</span></div>
+    <p>Laid-back jazzy lo-fi · 87 BPM · muted Rhodes chords, dusty snare, vinyl texture.</p>
+    <audio controls preload="metadata" src="music/bed_split.mp3"></audio>
+  </div>
+
+  <div class="bed">
+    <div class="head"><h3>bed_split_v2</h3><span class="tag">new candidate · strictly no vocals</span></div>
+    <p>Same jazzy lo-fi brief, regenerated 10 Aug with a hard anti-vocal prompt. Audition against bed_split above.</p>
+    <audio controls preload="metadata" src="music/bed_split_v2.mp3"></audio>
+  </div>
+
+  <div class="bed">
+    <div class="head"><h3>bed_faceless</h3><span class="tag">unused since July</span></div>
+    <p>Upbeat playful lo-fi hip hop · 118 BPM · bouncy plucks, light swung percussion, warm bass.</p>
+    <audio controls preload="metadata" src="music/bed_faceless.mp3"></audio>
+  </div>
+
+  <h2>Sound effects</h2>
+  <p class="note">Tap to fire. Tap again to retrigger, they stack like in the real edits.</p>
+
+  <div class="sfx-grid">
+    <button class="sfx" data-src="sfx/pop.mp3"><span class="glyph">&#9675;</span><span class="name">Pop</span><span class="desc">soft rubbery UI pop</span></button>
+    <button class="sfx" data-src="sfx/whoosh.mp3"><span class="glyph">&#8599;</span><span class="name">Whoosh</span><span class="desc">smooth air transition</span></button>
+    <button class="sfx" data-src="sfx/boom.mp3"><span class="glyph">&#9679;</span><span class="name">Boom</span><span class="desc">deep sub-bass impact</span></button>
+    <button class="sfx" data-src="sfx/click.mp3"><span class="glyph">&#9632;</span><span class="name">Click</span><span class="desc">crisp toggle switch</span></button>
+    <button class="sfx" data-src="sfx/ding.mp3"><span class="glyph">&#9672;</span><span class="name">Ding</span><span class="desc">gentle success chime</span></button>
+  </div>
+
+  <footer>assets/music + assets/sfx · regenerate via pipeline/gen_audio_assets.py</footer>
+
+</div>
+<script>
+  document.querySelectorAll(".sfx").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const a = new Audio(btn.dataset.src);
+      a.play();
+    });
+  });
+  // one bed at a time: starting one pauses the other
+  const beds = document.querySelectorAll("audio");
+  beds.forEach(a => a.addEventListener("play", () => {
+    beds.forEach(b => { if (b !== a) b.pause(); });
+  }));
+</script>
+</body>
+</html>
