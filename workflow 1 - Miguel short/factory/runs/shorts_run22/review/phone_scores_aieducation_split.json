@@ -1,0 +1,86 @@
+{
+ "vid": "aieducation",
+ "fmt": "split",
+ "round": "confirm (ONE round, the author seat)",
+ "rule": "the four objects were sealed at the ARTWORK seat over three independent concurrent rounds (review/artwork_pass_aieducation.json); these page crops are byte-identical ink in a new frame, so ONE confirmation round rules and no unchanged crop is ever re-dispatched",
+ "objects": [
+  {
+   "i": 0,
+   "verdict": "PASS",
+   "intended": "an open book with a heart lifting off the page",
+   "namer_answer": "open book",
+   "confidence": "sure",
+   "match": "synonym",
+   "reason": "the reader named the drawn container of the whole idea; SCORE THE IDEA, NOT THE NOUN - 'open book' is the same thing the seal read three times out of three, all sure",
+   "kind": "metaphor",
+   "reads": [
+    {
+     "round": "confirm",
+     "name": "open book",
+     "confidence": "sure",
+     "match": "synonym"
+    }
+   ]
+  },
+  {
+   "i": 1,
+   "verdict": "PASS",
+   "intended": "a heart",
+   "namer_answer": "heart",
+   "confidence": "sure",
+   "match": "intended",
+   "reason": "exact, and sure - the seal's redrawn heart reads at phone size",
+   "kind": "metaphor",
+   "reads": [
+    {
+     "round": "confirm",
+     "name": "heart",
+     "confidence": "sure",
+     "match": "intended"
+    }
+   ]
+  },
+  {
+   "i": 2,
+   "verdict": "PASS",
+   "intended": "a head in profile thinking",
+   "namer_answer": "human head in profile",
+   "confidence": "unsure",
+   "match": "intended",
+   "reason": "the reader named the intended object, not a different thing; the hedge is the same hedge the three seal rounds returned ('head profile with heart' x3, all hedged) and the artwork seat routed it as a HEDGED PASS with the clerk adjudicating on the delivered render, where it carries GUESSWORK and lands on the spoken 'imagine'.  The drawing is sealed and shared with the cutout lane, so a redraw here is a scene-lock, not a lane fix",
+   "kind": "metaphor",
+   "reads": [
+    {
+     "round": "confirm",
+     "name": "human head in profile",
+     "confidence": "unsure",
+     "match": "intended"
+    }
+   ]
+  },
+  {
+   "i": 3,
+   "verdict": "PASS",
+   "intended": "an easel",
+   "namer_answer": "easel with canvas",
+   "confidence": "sure",
+   "match": "intended",
+   "reason": "exact plus its canvas, and sure",
+   "kind": "metaphor",
+   "reads": [
+    {
+     "round": "confirm",
+     "name": "easel with canvas",
+     "confidence": "sure",
+     "match": "intended"
+    }
+   ]
+  }
+ ],
+ "failures": 0,
+ "redesigns": 0,
+ "page_defects_found_and_fixed_before_this_read": [
+  "the module's draw() raises strokeOpacity only, so #arc .ar, #head .bb and #head .wb (authored at element opacity 0) were invisible for the whole video - the first crop of object 2 showed a bare profile with neither the dashed heart nor the crown ticks",
+  "draw() uses a FIXED strokeDasharray of 100, so every drawn path rested as a broken dash pattern - the rotation arc and the three connectors.  Both repaired on the emitted tween list at the module's own instants; no byte of the shared scene was touched"
+ ]
+}

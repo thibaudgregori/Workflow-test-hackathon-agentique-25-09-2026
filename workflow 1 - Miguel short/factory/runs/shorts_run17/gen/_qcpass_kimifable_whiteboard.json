@@ -1,0 +1,1235 @@
+{
+ "render": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/kimifable_whiteboard.mp4",
+ "vid": "kimifable",
+ "fmt": "whiteboard",
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/projects/kimifable_whiteboard",
+ "checks": {
+  "decoded_blank_frames": {
+   "ok": true,
+   "result": {
+    "frames": 953,
+    "fps": 25.0,
+    "zone": [
+     0,
+     799,
+     1080,
+     799
+    ],
+    "ink_floor": 0.0006,
+    "min_ink_frac": 0.0,
+    "empty_frames_total": 5,
+    "leading_trailing_empty": 5,
+    "interior_blank_frames": [],
+    "pass": true
+   },
+   "wall_s": 0.0
+  },
+  "zero_ink_law": {
+   "ok": true,
+   "result": {
+    "render": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/kimifable_whiteboard.mp4",
+    "frames": 953,
+    "fps": 25.0,
+    "zone_bottom_design_px": 799.205,
+    "zone_px": [
+     1080,
+     799
+    ],
+    "first_word_s": 0.079,
+    "leading_empty_frames": 5,
+    "first_judged_frame": 5,
+    "min_ink_frac_judged": 0.00203843,
+    "min_ink_frac_at_s": 0.2,
+    "blank_frames": [],
+    "verdict": "PASS"
+   },
+   "wall_s": 0.0
+  },
+  "clip_coverage_page": {
+   "ok": true,
+   "result": {
+    "duration_s": 38.12,
+    "fps": 25,
+    "groups": {
+     "stage": {
+      "clips": 0,
+      "checked": false,
+      "note": "fewer than two clips \u2014 nothing can hand over"
+     },
+     "tz": {
+      "clips": 1,
+      "checked": false,
+      "note": "fewer than two clips \u2014 nothing can hand over"
+     },
+     "scap": {
+      "clips": 40,
+      "checked": true,
+      "frames": 953,
+      "span": [
+       0.08,
+       38.06
+      ],
+      "holes": [],
+      "ghosts": [],
+      "pass": true
+     }
+    },
+    "holes": 0,
+    "ghosts": 0,
+    "pass": true
+   },
+   "wall_s": 0.0
+  },
+  "double_exposure": {
+   "ok": true,
+   "result": {
+    "frames": 953,
+    "fps": 25.0,
+    "first_word_s": 0.079,
+    "leading_blank_run_frames": 5,
+    "after_first_word": {
+     "from_frame": 2,
+     "from_t": 0.08,
+     "basis": "first spoken word",
+     "min_ink": 0,
+     "min_ink_t": 0.08,
+     "min_ink40": 0,
+     "min_ink40_t": 0.08,
+     "zero_ink_frames": [
+      0.08,
+      0.12,
+      0.16
+     ],
+     "zero_ink40_frames": [
+      0.08,
+      0.12,
+      0.16
+     ]
+    },
+    "after_leading_run": {
+     "from_frame": 5,
+     "from_t": 0.2,
+     "basis": "opening fade-up cleared",
+     "min_ink": 278,
+     "min_ink_t": 0.2,
+     "min_ink40": 250,
+     "min_ink40_t": 0.2,
+     "zero_ink_frames": [],
+     "zero_ink40_frames": []
+    },
+    "after_first_readable_ink": {
+     "from_frame": 5,
+     "from_t": 0.2,
+     "basis": "first READABLE ink on screen",
+     "min_ink": 278,
+     "min_ink_t": 0.2,
+     "min_ink40": 250,
+     "min_ink40_t": 0.2,
+     "zero_ink_frames": [],
+     "zero_ink40_frames": []
+    },
+    "double_exposure_floor_px": 600,
+    "double_exposure_frames": [],
+    "double_exposure_count": 0,
+    "note": "candidates, not a verdict \u2014 adjudicate each window (procedure v3); the opening fade-up legitimately fires"
+   },
+   "wall_s": 0.08
+  },
+  "face_centring": {
+   "ok": true,
+   "result": {
+    "label": "kimifable_whiteboard",
+    "video": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/kimifable_whiteboard.mp4",
+    "duration_s": 38.14,
+    "detector": "mediapipe/blazeface",
+    "segment_source": "auto:layout-detector",
+    "segments": null,
+    "every_s": 0.5,
+    "tol_pct": 4.0,
+    "band_level": "warning",
+    "full_face": {
+     "n": 0,
+     "worst_dx_pct": null,
+     "worst_t": null,
+     "mean_abs_dx_pct": null,
+     "offenders": []
+    },
+    "band": {
+     "n": 76,
+     "worst_dx_pct": 4.63,
+     "worst_t": 37.0,
+     "warnings": [
+      {
+       "t": 37.0,
+       "dx_pct": 4.63,
+       "face_h_pct": 14.8,
+       "class": "band",
+       "score": 0.99,
+       "skin": 0.89
+      }
+     ]
+    },
+    "pass": true,
+    "verdict": "PASS"
+   },
+   "wall_s": 1.38
+  },
+  "pill_canon_rendered": {
+   "ok": true,
+   "result": {
+    "samples": 60,
+    "band_rows_px": [
+     772,
+     952
+    ],
+    "frames_without_a_pill": 0,
+    "distinct_heights_px": {
+     "114": 60
+    },
+    "modal_height_px": 114,
+    "modal_height_design_px": 114.0,
+    "spread_px": 0,
+    "spread_max_px": 2.0,
+    "canonical_height_px": 114.59,
+    "canonical_height_design_px": 114.59,
+    "modal_vs_canon_px": 0.59,
+    "tolerance_px": 3.0,
+    "delivery_scale": 1.0,
+    "widest_pill_px": 752,
+    "widest_pill_in_design_px": 752.0,
+    "verdict": "PASS",
+    "pass": true
+   },
+   "wall_s": 0.0
+  },
+  "gate1_geometry_audit": {
+   "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/geometry_audit.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/projects/kimifable_whiteboard --step 0.25 --out /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/gen/_gate1_kimifable_whiteboard.json",
+   "rc": 0,
+   "stdout": "kimifable_whiteboard: 0 errors, 0 warnings (38.1s @ 0.25s step)\n",
+   "stderr": "",
+   "wall_s": 5.95
+  },
+  "gate2_frame_review": {
+   "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/frame_review.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/kimifable_whiteboard.mp4 --full --transcript /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/cuts/kimifable/transcript_tight.json",
+   "rc": 0,
+   "stdout": "shorts-factory/shorts_run17/output/frames_kimifable_whiteboard/f_0026_333.jpg\n  t=00:26.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/frames_kimifable_whiteboard/f_0026_666.jpg\n  t=00:27.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/frames_kimifable_whiteboard/f_0027_333.jpg\n  t=00:27.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/frames_kimifable_whiteboard/f_0027_666.jpg\n  t=00:28.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/frames_kimifable_whiteboard/f_0028_000.jpg\n  t=00:28.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/frames_kimifable_whiteboard/f_0028_333.jpg\n  t=00:28.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/frames_kimifable_whiteboard/f_0028_666.jpg\n  t=00:29.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/frames_kimifable_whiteboard/f_0029_000.jpg\n  t=00:29.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/frames_kimifable_whiteboard/f_0029_666.jpg\n  t=00:30.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/frames_kimifable_whiteboard/f_0030_000.jpg\n  t=00:30.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/frames_kimifable_whiteboard/f_0030_333.jpg\n  t=00:30.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/frames_kimifable_whiteboard/f_0030_666.jpg\n  t=00:31.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/frames_kimifable_whiteboard/f_0031_000.jpg\n  t=00:31.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/frames_kimifable_whiteboard/f_0031_333.jpg\n  t=00:31.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/frames_kimifable_whiteboard/f_0031_666.jpg\n  t=00:32.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/frames_kimifable_whiteboard/f_0032_666.jpg\n  t=00:33.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/frames_kimifable_whiteboard/f_0033_000.jpg\n  t=00:33.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/frames_kimifable_whiteboard/f_0033_333.jpg\n  t=00:34.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/frames_kimifable_whiteboard/f_0034_000.jpg\n  t=00:35.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/frames_kimifable_whiteboard/f_0035_000.jpg\n  t=00:35.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/frames_kimifable_whiteboard/f_0035_333.jpg\n  t=00:35.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/frames_kimifable_whiteboard/f_0035_666.jpg\n  t=00:36.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/frames_kimifable_whiteboard/f_0036_000.jpg\n  t=00:36.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/frames_kimifable_whiteboard/f_0036_333.jpg\n  t=00:37.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/frames_kimifable_whiteboard/f_0037_000.jpg\n  t=00:37.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/frames_kimifable_whiteboard/f_0037_666.jpg\n\nManifest: /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/frames_kimifable_whiteboard/manifest.md  (delete dir after review)\n",
+   "stderr": "",
+   "wall_s": 2.31
+  },
+  "gate3_gemini_describe": {
+   "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run3/qc_v3.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/kimifable_whiteboard.mp4 kimifable --label qcpass_kimifable_whiteboard",
+   "rc": 1,
+   "stdout": "",
+   "stderr": "upload retry 1: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Your project has exceeded its monthly spending cap. Please go to AI Studio at https://ai.studio/spend to manage your project spend cap. Learn more at https://ai.google.dev/gemini-api/docs/billing#project-spend-caps. ', 'status': 'RESOURCE_EXHAUSTED'}}\nupload retry 2: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Your project has exceeded its monthly spending cap. Please go to AI Studio at https://ai.studio/spend to manage your project spend cap. Learn more at https://ai.google.dev/gemini-api/docs/billing#project-spend-caps. ', 'status': 'RESOURCE_EXHAUSTED'}}\nupload retry 3: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Your project has exceeded its monthly spending cap. Please go to AI Studio at https://ai.studio/spend to manage your project spend cap. Learn more at https://ai.google.dev/gemini-api/docs/billing#project-spend-caps. ', 'status': 'RESOURCE_EXHAUSTED'}}\nTraceback (most recent call last):\n  File \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run3/qc_v3.py\", line 277, in <module>\n    cand = upload_retry(cand_path)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run3/qc_v3.py\", line 202, in upload_retry\n    raise RuntimeError(f\"upload failed: {path}\")\nRuntimeError: upload failed: /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/kimifable_whiteboard.mp4\n",
+   "wall_s": 21.07
+  },
+  "audio_guards": {
+   "ok": true,
+   "result": {
+    "mix_8_16k_db": -28.76,
+    "master_8_16k_db": -28.52,
+    "delta_db": -0.24,
+    "tolerance_db": 6.0,
+    "speech_margin_db_p85_p15_33ms_s16le": 19.858,
+    "sync": {
+     "lag_ms": 0,
+     "r": 0.9957,
+     "instrument": "10 ms |x| envelope, +/-250 ms search"
+    },
+    "audio_initial_padding_samples": 0,
+    "verdict": "PASS",
+    "pass": true
+   },
+   "wall_s": 1.58
+  },
+  "contact_sheet": {
+   "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/contact_sheet.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/kimifable_whiteboard.mp4 --id kimifable --fmt whiteboard --run /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17 --geom /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/gen/_geom_kimifable.json",
+   "rc": 0,
+   "stdout": "{\n \"sheet\": \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/sheet_kimifable_whiteboard.png\",\n \"id\": \"kimifable\",\n \"fmt\": \"whiteboard\",\n \"duration_s\": 38.14,\n \"frame_source\": \"shared.beat_edges\",\n \"times\": [\n  0.43,\n  1.59,\n  3.85,\n  4.77,\n  11.39,\n  15.07,\n  20.99,\n  23.83,\n  26.83,\n  29.45,\n  32.99,\n  37.99\n ],\n \"size_px\": [\n  1798,\n  4344\n ]\n}\n",
+   "stderr": "",
+   "wall_s": 6.6
+  },
+  "phone_crops": {
+   "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/phone_crops.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/kimifable_whiteboard.mp4 --out /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review --label kimifable_whiteboard --at 2.75:0.2098,0.2949,0.4564,0.3526:a price tag --at 10.6:0.3507,0.1474,0.6493,0.3359:a benchmark scorecard --at 14.8:0.1968,0.2253,0.4699,0.3211:a website layout --at 24.9:0.1841,0.1562,0.4236,0.2500:a folder of designs",
+   "rc": 0,
+   "stdout": "{\n \"sheet\": \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/phone_kimifable_whiteboard.png\",\n \"manifest\": \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/phone_kimifable_whiteboard.json\",\n \"answer_key\": \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/phone_kimifable_whiteboard.key.json\",\n \"n_objects\": 4,\n \"phone_sizes_px\": [\n  [\n   100,\n   41\n  ],\n  [\n   120,\n   135\n  ],\n  [\n   111,\n   69\n  ],\n  [\n   97,\n   68\n  ]\n ]\n}\n",
+   "stderr": "",
+   "wall_s": 1.68
+  },
+  "whiteboard_seam_law": {
+   "ok": true,
+   "result": {
+    "video": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/kimifable_whiteboard.mp4",
+    "erase_dur": 0.3,
+    "land_within": 0.3,
+    "scan_s": 1.6,
+    "thresholds": {
+     "ink_thr": 170,
+     "dilate_px": 9,
+     "min_minor_px": 46,
+     "min_major_px": 118,
+     "min_ink_px": 2600,
+     "min_sigma_px": 18.0,
+     "word": [
+      26,
+      80,
+      80,
+      900,
+      3
+     ],
+     "pen_match_min": 0.62,
+     "pen_bleed": 6,
+     "persist_frames": 3
+    },
+    "seams": [
+     {
+      "erase_at": 4.55,
+      "erase_completes": 4.85,
+      "law_probe_at": 5.17,
+      "dead_s": 0.0,
+      "dead_capped": false,
+      "at_law_probe": {
+       "t": 5.17,
+       "ink_pct_of_zone": 2.395,
+       "qualifying": 1,
+       "landed_on": {
+        "box": [
+         372,
+         276,
+         336,
+         375
+        ],
+        "ink": 20565,
+        "sigma_minor": 111.6,
+        "parts": 3,
+        "kind": "object",
+        "qualifies": true
+       },
+       "verdict": "PASS"
+      },
+      "blobs_at_law_probe": [
+       {
+        "box": [
+         372,
+         276,
+         336,
+         375
+        ],
+        "ink": 20565,
+        "sigma_minor": 111.6,
+        "parts": 3,
+        "kind": "object",
+        "qualifies": true
+       }
+      ],
+      "verdict": "PASS",
+      "window": [
+       {
+        "t": 4.85,
+        "ink_pct_of_zone": 1.289,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 4.89,
+        "ink_pct_of_zone": 1.289,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 4.93,
+        "ink_pct_of_zone": 1.557,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 4.97,
+        "ink_pct_of_zone": 1.751,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 5.01,
+        "ink_pct_of_zone": 2.008,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 5.05,
+        "ink_pct_of_zone": 2.147,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 5.09,
+        "ink_pct_of_zone": 2.239,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 5.13,
+        "ink_pct_of_zone": 2.308,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 5.17,
+        "ink_pct_of_zone": 2.395,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 5.21,
+        "ink_pct_of_zone": 2.482,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 5.25,
+        "ink_pct_of_zone": 3.035,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 5.29,
+        "ink_pct_of_zone": 2.957,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 5.33,
+        "ink_pct_of_zone": 2.974,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 5.37,
+        "ink_pct_of_zone": 2.958,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 5.41,
+        "ink_pct_of_zone": 2.958,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 5.45,
+        "ink_pct_of_zone": 2.973,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 5.49,
+        "ink_pct_of_zone": 3.003,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 5.53,
+        "ink_pct_of_zone": 3.033,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 5.57,
+        "ink_pct_of_zone": 3.073,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 5.61,
+        "ink_pct_of_zone": 3.112,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 5.65,
+        "ink_pct_of_zone": 3.133,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 5.69,
+        "ink_pct_of_zone": 3.11,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 5.73,
+        "ink_pct_of_zone": 3.11,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 5.77,
+        "ink_pct_of_zone": 3.11,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 5.81,
+        "ink_pct_of_zone": 3.1,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 5.85,
+        "ink_pct_of_zone": 3.098,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 5.89,
+        "ink_pct_of_zone": 3.098,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 5.93,
+        "ink_pct_of_zone": 3.098,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 5.97,
+        "ink_pct_of_zone": 3.098,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 6.01,
+        "ink_pct_of_zone": 3.098,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 6.05,
+        "ink_pct_of_zone": 3.098,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 6.09,
+        "ink_pct_of_zone": 3.098,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 6.13,
+        "ink_pct_of_zone": 3.098,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 6.17,
+        "ink_pct_of_zone": 3.098,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 6.21,
+        "ink_pct_of_zone": 3.098,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 6.25,
+        "ink_pct_of_zone": 3.098,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 6.29,
+        "ink_pct_of_zone": 3.098,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 6.33,
+        "ink_pct_of_zone": 3.098,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 6.37,
+        "ink_pct_of_zone": 3.098,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 6.41,
+        "ink_pct_of_zone": 3.098,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 6.45,
+        "ink_pct_of_zone": 3.098,
+        "qualifying": 2,
+        "verdict": "PASS"
+       }
+      ]
+     },
+     {
+      "erase_at": 11.5,
+      "erase_completes": 11.8,
+      "law_probe_at": 12.12,
+      "dead_s": 0.0,
+      "dead_capped": false,
+      "at_law_probe": {
+       "t": 12.12,
+       "ink_pct_of_zone": 0.5,
+       "qualifying": 1,
+       "landed_on": {
+        "box": [
+         470,
+         285,
+         140,
+         140
+        ],
+        "ink": 3523,
+        "sigma_minor": 44.2,
+        "parts": 1,
+        "kind": "object",
+        "qualifies": true
+       },
+       "verdict": "PASS"
+      },
+      "blobs_at_law_probe": [
+       {
+        "box": [
+         470,
+         285,
+         140,
+         140
+        ],
+        "ink": 3523,
+        "sigma_minor": 44.2,
+        "parts": 1,
+        "kind": "object",
+        "qualifies": true
+       },
+       {
+        "box": [
+         525,
+         325,
+         52,
+         68
+        ],
+        "ink": 698,
+        "sigma_minor": 5.5,
+        "parts": 1,
+        "kind": "-",
+        "qualifies": false
+       }
+      ],
+      "verdict": "PASS",
+      "window": [
+       {
+        "t": 11.8,
+        "ink_pct_of_zone": 0.716,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 11.84,
+        "ink_pct_of_zone": 0.745,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 11.88,
+        "ink_pct_of_zone": 0.731,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 11.92,
+        "ink_pct_of_zone": 0.719,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 11.96,
+        "ink_pct_of_zone": 0.5,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 12.0,
+        "ink_pct_of_zone": 0.5,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 12.04,
+        "ink_pct_of_zone": 0.5,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 12.08,
+        "ink_pct_of_zone": 0.5,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 12.12,
+        "ink_pct_of_zone": 0.5,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 12.16,
+        "ink_pct_of_zone": 0.5,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 12.2,
+        "ink_pct_of_zone": 0.5,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 12.24,
+        "ink_pct_of_zone": 0.5,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 12.28,
+        "ink_pct_of_zone": 0.5,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 12.32,
+        "ink_pct_of_zone": 0.5,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 12.36,
+        "ink_pct_of_zone": 0.5,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 12.4,
+        "ink_pct_of_zone": 0.5,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 12.44,
+        "ink_pct_of_zone": 0.5,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 12.48,
+        "ink_pct_of_zone": 0.5,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 12.52,
+        "ink_pct_of_zone": 0.5,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 12.56,
+        "ink_pct_of_zone": 0.5,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 12.6,
+        "ink_pct_of_zone": 0.5,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 12.64,
+        "ink_pct_of_zone": 0.5,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 12.68,
+        "ink_pct_of_zone": 0.5,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 12.72,
+        "ink_pct_of_zone": 0.5,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 12.76,
+        "ink_pct_of_zone": 0.5,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 12.8,
+        "ink_pct_of_zone": 0.5,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 12.84,
+        "ink_pct_of_zone": 0.5,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 12.88,
+        "ink_pct_of_zone": 0.5,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 12.92,
+        "ink_pct_of_zone": 0.5,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 12.96,
+        "ink_pct_of_zone": 0.5,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 13.0,
+        "ink_pct_of_zone": 0.5,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 13.04,
+        "ink_pct_of_zone": 0.5,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 13.08,
+        "ink_pct_of_zone": 0.5,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 13.12,
+        "ink_pct_of_zone": 0.5,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 13.16,
+        "ink_pct_of_zone": 0.5,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 13.2,
+        "ink_pct_of_zone": 0.5,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 13.24,
+        "ink_pct_of_zone": 0.5,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 13.28,
+        "ink_pct_of_zone": 0.5,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 13.32,
+        "ink_pct_of_zone": 0.5,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 13.36,
+        "ink_pct_of_zone": 0.5,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 13.4,
+        "ink_pct_of_zone": 0.5,
+        "qualifying": 1,
+        "verdict": "PASS"
+       }
+      ]
+     },
+     {
+      "erase_at": 21.6,
+      "erase_completes": 21.9,
+      "law_probe_at": 22.22,
+      "dead_s": 0.0,
+      "dead_capped": false,
+      "at_law_probe": {
+       "t": 22.22,
+       "ink_pct_of_zone": 1.004,
+       "qualifying": 1,
+       "landed_on": {
+        "box": [
+         402,
+         292,
+         276,
+         196
+        ],
+        "ink": 8635,
+        "sigma_minor": 63.5,
+        "parts": 2,
+        "kind": "object",
+        "qualifies": true
+       },
+       "verdict": "PASS"
+      },
+      "blobs_at_law_probe": [
+       {
+        "box": [
+         402,
+         292,
+         276,
+         196
+        ],
+        "ink": 8635,
+        "sigma_minor": 63.5,
+        "parts": 2,
+        "kind": "object",
+        "qualifies": true
+       }
+      ],
+      "verdict": "PASS",
+      "window": [
+       {
+        "t": 21.9,
+        "ink_pct_of_zone": 0.542,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 21.94,
+        "ink_pct_of_zone": 0.542,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 21.98,
+        "ink_pct_of_zone": 0.678,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 22.02,
+        "ink_pct_of_zone": 0.789,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 22.06,
+        "ink_pct_of_zone": 0.838,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 22.1,
+        "ink_pct_of_zone": 0.892,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 22.14,
+        "ink_pct_of_zone": 0.939,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 22.18,
+        "ink_pct_of_zone": 0.962,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 22.22,
+        "ink_pct_of_zone": 1.004,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 22.26,
+        "ink_pct_of_zone": 1.03,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 22.3,
+        "ink_pct_of_zone": 1.039,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 22.34,
+        "ink_pct_of_zone": 1.039,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 22.38,
+        "ink_pct_of_zone": 1.039,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 22.42,
+        "ink_pct_of_zone": 1.039,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 22.46,
+        "ink_pct_of_zone": 1.039,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 22.5,
+        "ink_pct_of_zone": 1.039,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 22.54,
+        "ink_pct_of_zone": 1.039,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 22.58,
+        "ink_pct_of_zone": 1.039,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 22.62,
+        "ink_pct_of_zone": 1.039,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 22.66,
+        "ink_pct_of_zone": 1.039,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 22.7,
+        "ink_pct_of_zone": 1.039,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 22.74,
+        "ink_pct_of_zone": 1.039,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 22.78,
+        "ink_pct_of_zone": 1.039,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 22.82,
+        "ink_pct_of_zone": 1.039,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 22.86,
+        "ink_pct_of_zone": 1.039,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 22.9,
+        "ink_pct_of_zone": 1.039,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 22.94,
+        "ink_pct_of_zone": 1.039,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 22.98,
+        "ink_pct_of_zone": 1.039,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 23.02,
+        "ink_pct_of_zone": 1.039,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 23.06,
+        "ink_pct_of_zone": 1.039,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 23.1,
+        "ink_pct_of_zone": 1.039,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 23.14,
+        "ink_pct_of_zone": 1.039,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 23.18,
+        "ink_pct_of_zone": 1.039,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 23.22,
+        "ink_pct_of_zone": 1.039,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 23.26,
+        "ink_pct_of_zone": 1.039,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 23.3,
+        "ink_pct_of_zone": 1.043,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 23.34,
+        "ink_pct_of_zone": 1.0,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 23.38,
+        "ink_pct_of_zone": 1.0,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 23.42,
+        "ink_pct_of_zone": 0.999,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 23.46,
+        "ink_pct_of_zone": 1.008,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 23.5,
+        "ink_pct_of_zone": 1.039,
+        "qualifying": 1,
+        "verdict": "PASS"
+       }
+      ]
+     }
+    ],
+    "extra_probes": [],
+    "dead_total_s": 0.0,
+    "failed": [],
+    "verdict": "PASS"
+   },
+   "wall_s": 9.32
+  }
+ },
+ "skipped": {
+  "cutout_checks_24_25": "cutout only, and needs --project",
+  "edge_clip": "cutout only, and needs --alpha",
+  "face_hf_vs_plate": "needs --plate (the display plate)",
+  "head_scale_vs_framing": "needs --alpha and --edge-box (the crown comes from the matte's own alpha, the chin from MediaPipe on the delivered frame)"
+ },
+ "zone_bottom_design_px": 799.21,
+ "decode": {
+  "frames": 953,
+  "fps": 25.0,
+  "size": [
+   1080,
+   1920
+  ],
+  "grid_frames": 76,
+  "caption_band_rows": [
+   772,
+   952
+  ],
+  "caption_seat_design_px": 862.5,
+  "wall_s": 11.57
+ },
+ "verdicts": {
+  "decoded_blank_frames": "PASS",
+  "zero_ink_law": "PASS",
+  "clip_coverage_page": "PASS",
+  "double_exposure": "REPORTED",
+  "face_centring": "PASS",
+  "pill_canon_rendered": "PASS",
+  "gate1_geometry_audit": "PASS",
+  "gate2_frame_review": "PASS",
+  "gate3_gemini_describe": "REPORTED",
+  "audio_guards": "PASS",
+  "contact_sheet": "PASS",
+  "phone_crops": "PASS",
+  "whiteboard_seam_law": "PASS"
+ },
+ "advisory": {
+  "gate3_gemini_describe": "FAIL from gemini describe-mode, downgraded to REPORTED: the clerk adjudicates its describe_errors against the frames"
+ },
+ "wall_s": {
+  "decoded_blank_frames": 0.0,
+  "zero_ink_law": 0.0,
+  "clip_coverage_page": 0.0,
+  "double_exposure": 0.08,
+  "face_centring": 1.38,
+  "pill_canon_rendered": 0.0,
+  "gate1_geometry_audit": 5.95,
+  "gate2_frame_review": 2.31,
+  "gate3_gemini_describe": 21.07,
+  "audio_guards": 1.58,
+  "contact_sheet": 6.6,
+  "phone_crops": 1.68,
+  "whiteboard_seam_law": 9.32,
+  "single_decode": 11.57
+ },
+ "total_wall_s": 21.1,
+ "pass": true
+}

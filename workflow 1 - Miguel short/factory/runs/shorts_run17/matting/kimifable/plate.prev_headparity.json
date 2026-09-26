@@ -1,0 +1,50 @@
+{
+ "file": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/kimifable/plate_wide_25.mp4",
+ "master": [
+  3840,
+  2160,
+  953
+ ],
+ "crop": "2440x1830+610+236",
+ "scale_k": 0.491803,
+ "head_px_on_canvas": 452.1,
+ "head_frac_of_1920": 0.2355,
+ "face_px_on_canvas": 330.7,
+ "cap_top_on_plate": 58.5,
+ "chin_on_plate": 522.7,
+ "face_cx_on_plate": 600.0,
+ "shoulder_rule_crop_w": 2173,
+ "dropped": 0,
+ "kept_dupes": [],
+ "expect_frames": 953,
+ "ffmpeg_vf": "setpts=N/(25*TB),crop=2440:1830:610:236,scale=1200:900:flags=lanczos",
+ "plate_size": [
+  1200,
+  900
+ ],
+ "paint_scale": 1.1,
+ "head_parity": {
+  "crop": "2196x1830+732+236",
+  "scale_k": 0.491803,
+  "plate_size": [
+   1080,
+   900
+  ]
+ },
+ "probe": {
+  "width": 1200,
+  "height": 900,
+  "r_frame_rate": "25/1",
+  "duration": "38.120000",
+  "nb_read_frames": "953"
+ },
+ "headroom": {
+  "cap_top_on_canvas_px": 64.4,
+  "target_on_canvas_px": 64.0,
+  "hard_floor_on_canvas_px": 24.0,
+  "bottom_planted": false,
+  "slid_up_master_px": 94,
+  "note": "the crop is bottom-planted unless that would cut the crown; sliding it up spends the bottom of his chest, which the format runs off the canvas anyway, and touches neither `k` (head height on canvas) nor `x0` (face centring)"
+ },
+ "note": "the HEAD-PARITY record, kept so the over-wide solve is idempotent: re-reading an over-wide plate.json would shift the face a second time"
+}

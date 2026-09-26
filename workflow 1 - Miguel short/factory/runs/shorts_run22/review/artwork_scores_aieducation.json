@@ -1,0 +1,60 @@
+{
+ "vid": "aieducation",
+ "module": "shorts_run22/gen/aieducation_scene.py",
+ "scored_by": "the artwork author, on three independent cold rounds of the crops that ARE the artwork",
+ "note": "SCORE THE IDEA, NOT THE NOUN. The question asked of each reader is 'name the single everyday object'; a reader who names the container of the intended idea, or an obvious sibling noun of it, has got the picture. Object 1's first drawing carried an aortic arch over the right lobe and one reader in three called the whole thing a strawberry; it was REDRAWN without the arch and only the new crop went to a fresh three rounds - three of three then said 'heart'. The superseded reads are kept on disk (phone_reader_aieducation_artwork_r1..r3.json, object i=1) and are not scored.",
+ "objects": [
+  {
+   "i": 0,
+   "name": "open book heart",
+   "intended": "an open book with a heart lifting off the page",
+   "kind": "metaphor",
+   "verdict": "PASS",
+   "reason": "Three of three independent readers said 'open book', sure. The hook IS an open book; the heart leaving its page is the event drawn on top of it, and naming the container is explicitly a pass (run-16 plantsite ruling). No reader named a different thing.",
+   "reads": [
+    {"round": 1, "name": "open book", "confidence": "sure", "match": "intended"},
+    {"round": 2, "name": "open book", "confidence": "sure", "match": "intended"},
+    {"round": 3, "name": "open book", "confidence": "sure", "match": "intended"}
+   ]
+  },
+  {
+   "i": 1,
+   "name": "3D anatomy heart",
+   "intended": "a heart",
+   "kind": "metaphor",
+   "verdict": "PASS",
+   "reason": "After the redraw, three of three independent readers said 'heart', one of them sure. Zero different names.",
+   "reads": [
+    {"round": 1, "name": "heart", "confidence": "unsure", "match": "intended"},
+    {"round": 2, "name": "heart", "confidence": "sure", "match": "intended"},
+    {"round": 3, "name": "heart", "confidence": "unsure", "match": "intended"}
+   ]
+  },
+  {
+   "i": 2,
+   "name": "thinking head profile",
+   "intended": "a head in profile with an imagined heart inside it",
+   "kind": "metaphor",
+   "verdict": "PASS",
+   "reason": "Three of three independent readers said 'head profile with heart' - the intended object, named exactly, in five words. All three hedged the confidence flag, which under the 2026-09-08 ruling is recorded and routed, not a refusal: what they hedged is whether the prompt's 'single everyday object' premise fits a head-plus-its-thought, not whether they could see it. HEDGED: the clerk adjudicates this one on the delivered render, where it carries its GUESSWORK key and lands on the word 'imagine'.",
+   "reads": [
+    {"round": 1, "name": "head profile with heart", "confidence": "unsure", "match": "intended"},
+    {"round": 2, "name": "head profile with heart", "confidence": "unsure", "match": "intended"},
+    {"round": 3, "name": "head profile with heart", "confidence": "unsure", "match": "intended"}
+   ]
+  },
+  {
+   "i": 3,
+   "name": "classroom easel board",
+   "intended": "an easel",
+   "kind": "metaphor",
+   "verdict": "PASS",
+   "reason": "Three of three independent readers said 'easel' or 'easel with canvas', all sure. Two earlier drawings of this object were rejected by the author before any reader saw them (a wide board on short stubs read as a television, then as a folding table); the shipped drawing puts the legs first.",
+   "reads": [
+    {"round": 1, "name": "easel with canvas", "confidence": "sure", "match": "intended"},
+    {"round": 2, "name": "easel", "confidence": "sure", "match": "intended"},
+    {"round": 3, "name": "easel with canvas", "confidence": "sure", "match": "intended"}
+   ]
+  }
+ ]
+}

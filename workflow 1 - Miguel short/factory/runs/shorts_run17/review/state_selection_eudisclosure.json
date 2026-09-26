@@ -1,0 +1,28 @@
+{
+ "id": "eudisclosure",
+ "stage": "selection",
+ "decision": "APPROVED",
+ "selection": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/eudisclosure/selection.json",
+ "mask": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/eudisclosure/selection.mask.png",
+ "mask_sha256": "50cd86870652c66caf234cbf0ffb0c90503e1b1bf30e914e1c7315b20c9f8260",
+ "base_mask_sha256": "710f5415250a785a7cef438364b2b33b6b26a353de60f349a1976e99d949d89e",
+ "reviewer": "visual-agent",
+ "edits": 2,
+ "edit_labels": [
+  "gaming-chair headrest wing image-right of the head, from under the cap edge down to the shoulder seam",
+  "gaming-chair headrest wing image-left of the head, between the neck and the shelf, above the shoulder seam"
+ ],
+ "identity": {
+  "plate_sha256": "4a0ec705613b7a29498a9197e52745ae3bb023e000849a78bb18991b59e49ad5",
+  "source_sha256": "9805a43251833e20b148cd3db26ae00b57ad84ffdd2c0ca8daf31382f572617d",
+  "crop_sha256": "7dc6b5b5a7b92a310c291acdbe4abc95fd8c14deb2213483ed7b4b8dc2533ed2",
+  "first_frame_sha256": "337dbbe5e6368b1e44e5c734e85a49b7cb678f29b111d0990196ceff0a4def8d",
+  "width": 1440, "height": 900, "fps": 25.0, "frames": 692
+ },
+ "coverage": 0.361,
+ "components": 1,
+ "validated": true,
+ "evidence_dir": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/_selection_views",
+ "notes": "Both gaming-chair headrest wings were retained by the BiRefNet seed and are now excluded by two explicit polygons traced on this frame only. Cap, both ears, jaw, beard, neck, both shoulders and both raised hands preserved; mask remains one connected component. Accepted residuals: ~6x10px chair corner at x900-905 y518-528, and a rounded dark lobe at x487-505 y245-285 that reads as the cap brim above the left ear.",
+ "reuse_scope": "this exact source, plate and crop only"
+}

@@ -1,0 +1,33 @@
+{
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/projects/pcoverheat_whiteboard",
+ "label": "pcoverheat_whiteboard",
+ "mode": "phone-test",
+ "composition_px": [
+  1080,
+  1920
+ ],
+ "duration_s": 37.16,
+ "sheet": "shorts_run17/review/phone_pcoverheat_whiteboard.png",
+ "manifest": "shorts_run17/review/phone_pcoverheat_whiteboard.json",
+ "answer_key": "shorts_run17/review/phone_pcoverheat_whiteboard.key.json",
+ "n_objects": 4,
+ "phone_sizes_px": [
+  [
+   106,
+   103
+  ],
+  [
+   106,
+   64
+  ],
+  [
+   178,
+   62
+  ],
+  [
+   210,
+   102
+  ]
+ ],
+ "wall_s": 1.9
+}

@@ -1,0 +1,36 @@
+{
+  "tag": "kimifable-diag",
+  "cold_dir": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/kimifable-diag-bf14d6ac",
+  "reader": "one independent `claude -p` process per crop, launched from /tmp, handed ONLY the absolute path of a blind copy under a random token - no plan, no topic, no manifest, no sealed key, and no path naming the video",
+  "prompt": "Look at the image at <absolute path of one blind crop> . Name the single everyday object drawn in it. At most FIVE words. Reply with ONE line of JSON and nothing else: {\"name\":\"<=5 words\",\"confidence\":\"sure|unsure|cannot tell\"}",
+  "dispatched_at": "2026-09-08T01:36:55",
+  "cli": "2.1.263 (Claude Code)",
+  "source_crops": {
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/proofs/_diag/02.png": "036783c4bc9923bff87fafb2512be7b76ce95cc70bc8d74f643ed14da928ba3a",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/proofs/_diag/03.png": "a97058b928781210d2f590f3ebbafb99a54bd162f374a74d288ee75331f1d47d",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/proofs/_diag/01.png": "1059ec70dcc1cef804037cdd14d14433c646c06b0f2ec4c87ec106f39e0e110d"
+  },
+  "names": [
+    {
+      "i": 0,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/kimifable-diag-bf14d6ac/00.png",
+      "name": "browser window",
+      "confidence": "sure",
+      "crop_sha256": "036783c4bc9923bff87fafb2512be7b76ce95cc70bc8d74f643ed14da928ba3a"
+    },
+    {
+      "i": 1,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/kimifable-diag-bf14d6ac/01.png",
+      "name": "stacked browser windows",
+      "confidence": "unsure",
+      "crop_sha256": "a97058b928781210d2f590f3ebbafb99a54bd162f374a74d288ee75331f1d47d"
+    },
+    {
+      "i": 2,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/kimifable-diag-bf14d6ac/02.png",
+      "name": "horizontal bar chart",
+      "confidence": "unsure",
+      "crop_sha256": "1059ec70dcc1cef804037cdd14d14433c646c06b0f2ec4c87ec106f39e0e110d"
+    }
+  ]
+}

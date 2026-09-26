@@ -1,0 +1,305 @@
+{
+ "video": "cursorworkspace",
+ "format": "cutout",
+ "fps": 25,
+ "duration": 21.532,
+ "plate": {
+  "box": {
+   "w": 1386.0,
+   "h": 990.0,
+   "left": -153.0,
+   "top": 930.0
+  },
+  "whole_pixels": true,
+  "equals_encoded": {
+   "cut": {
+    "w": 1386,
+    "h": 990
+   },
+   "rim": {
+    "w": 1386,
+    "h": 990
+   }
+  },
+  "derived_from": "the ENCODED size of the staged layers, never PLATE_SCALE, and the origin READ from plate.json"
+ },
+ "seat": 895.2,
+ "shared": {
+  "beat_edges": [
+   0.119,
+   3.759,
+   6.5,
+   11.279,
+   17.319,
+   21.532
+  ],
+  "phone_test_objects": [
+   {
+    "name": "an arch bridge",
+    "t": 2.3,
+    "space": "norm",
+    "bbox": [
+     0.19259,
+     0.30208,
+     0.80741,
+     0.39505
+    ],
+    "phone_px": [
+     249,
+     67
+    ]
+   },
+   {
+    "name": "a settings panel",
+    "t": 14.2,
+    "space": "norm",
+    "bbox": [
+     0.24074,
+     0.2125,
+     0.75926,
+     0.35208
+    ],
+    "phone_px": [
+     210,
+     100
+    ]
+   }
+  ]
+ },
+ "matte": {
+  "cut": {
+   "w": 1386,
+   "h": 990
+  },
+  "rim": {
+   "w": 1386,
+   "h": 990
+  },
+  "plate": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/cursorworkspace/plate_display_1386x990.mp4",
+  "session": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/cursorworkspace",
+  "consumed_as_is": "MATTES_FINAL.md is absent, so no decree binds \u2014 but nothing here asks for a re-track either.  The shipped layers are consumed as they are and their `needs_final_visual_review` is answered BY EYE, by this author and by the clerk, at the delivered crop and normal playback speed (PRODUCTION.md, 2026-09-06)",
+  "hashes": {
+   "cut": "3a5568d8df7cfdf27df2f70985b7e1381914c7bdfca1a21af762c3f6236904dc",
+   "rim": "e78cc20fa72c6fa2bc97f477e423f9c4adc0fc4b5d4351a28ac4dbace19f9405",
+   "alpha": "05274766acda15600c3096743d25bfc970c498e714cbf8478a2ea18f44ebb1b1"
+  },
+  "frames": 538,
+  "alpha_mode": "soft",
+  "rim_px": 7,
+  "fractional_alpha_pixels": 12283508,
+  "minimum_person_fraction": 0.394773856895069,
+  "review_status": "needs_final_visual_review",
+  "backend": "matanyone2",
+  "headroom_guard": {
+   "pass": true,
+   "frames_checked": 538,
+   "min_top_clearance_px": 50.6,
+   "floor_px": 24.0,
+   "unsafe_frames": 0,
+   "worst_frame": 128
+  },
+  "selection": "reviewed",
+  "cost_usd": {
+   "track": 0.0165812557340256,
+   "ship": 0.0271023721842272,
+   "total": 0.04368
+  }
+ },
+ "depth_field": {
+  "seat": {
+   "band": [
+    1016.5,
+    1410.5
+   ],
+   "band_h": 394.0,
+   "inter_lane_gap": 26.0,
+   "seat_offset_from_pill": 64.0,
+   "foundation_offset": 63.61,
+   "drift_from_foundation_seat": 0.39,
+   "margin_px": 155.4,
+   "candidates_scanned": 94,
+   "candidates_safe": 85,
+   "instrument": "5th percentile of the PER-FRAME gutter; the union envelope describes a body that never existed",
+   "lanes": [
+    {
+     "lane": "far",
+     "tile": 78.0,
+     "y": 1016.5,
+     "frames": 180,
+     "gutter_p05": 325.4,
+     "gutter_median": 357.9,
+     "gutter_min_single_frame": 303.5,
+     "frames_under_tile": 0
+    },
+    {
+     "lane": "mid",
+     "tile": 116.0,
+     "y": 1120.5,
+     "frames": 180,
+     "gutter_p05": 301.2,
+     "gutter_median": 327.7,
+     "gutter_min_single_frame": 274.9,
+     "frames_under_tile": 0
+    },
+    {
+     "lane": "near",
+     "tile": 148.0,
+     "y": 1262.5,
+     "frames": 180,
+     "gutter_p05": 303.4,
+     "gutter_median": 326.0,
+     "gutter_min_single_frame": 107.7,
+     "frames_under_tile": 1
+    }
+   ]
+  },
+  "lanes": {
+   "far": {
+    "x0": -216.0,
+    "w": 1788.0,
+    "y": 1016.5,
+    "tile": 78.0,
+    "gap": 30.0,
+    "pitch": 108.0,
+    "tiles": 16,
+    "opacity": 0.34,
+    "dist": 46.0,
+    "travel": 276.0,
+    "steps": 6
+   },
+   "mid": {
+    "x0": -304.0,
+    "w": 2360.0,
+    "y": 1120.5,
+    "tile": 116.0,
+    "gap": 36.0,
+    "pitch": 152.0,
+    "tiles": 15,
+    "opacity": 0.66,
+    "dist": 112.0,
+    "travel": 672.0,
+    "steps": 6
+   },
+   "near": {
+    "x0": -384.0,
+    "w": 3096.0,
+    "y": 1262.5,
+    "tile": 148.0,
+    "gap": 44.0,
+    "pitch": 192.0,
+    "tiles": 16,
+    "opacity": 1.0,
+    "dist": 208.0,
+    "travel": 1248.0,
+    "steps": 6
+   }
+  },
+  "tiles": 47,
+  "step_beats": [
+   2.96,
+   6.24,
+   9.48,
+   12.56,
+   15.56,
+   18.8
+  ],
+  "step_n": 6,
+  "step_pulse_s": 3.12,
+  "foundation_pulse_s": 3.17,
+  "pop_behind": [],
+  "pop_behind_why_none": "cutout law 16 keys the crossing to a beat where he NAMES the tool.  Every tool this take names \u2014 Cursor, Google Workspace, Gmail, Google Calendar, Google Drive, Google Sheets \u2014 is a STAGE subject mark, and ROUND-2/3 law 6 keeps the story's own subject mark out of the depth field (the run-9 defect); the plan says in as many words that all six are deliberately ABSENT from the lanes.  Not one of the six depth marks is ever spoken, so a card carrying one would pop a live app window for a tool the viewer has not heard of, on a beat about somebody else.  The plan declares no pop-behind window (`per_lane_notes.cutout_tiktok`: 'the plan spends no beat on one') and the plan is the contract.  The handoff's alternative \u2014 spending the format's best detail on the chapter-1 tile arrivals at 7.70 / 8.86 / 10.76 \u2014 would put a SUBJECT mark on a card crossing a depth lane, which is the same violation from the other end.  Logged in plans/cursorworkspace_cutout_notes.md.",
+  "cast": [
+   "claude-code",
+   "codex",
+   "copilot",
+   "notion",
+   "slack",
+   "airtable"
+  ],
+  "cast_source": "plan.cutout_logo_lanes, verbatim",
+  "substitutions": {},
+  "banned_asserted": [
+   "anthropic",
+   "anthropic-wordmark",
+   "calendar",
+   "chatgpt",
+   "claude-black",
+   "claude-code-sticker",
+   "claude-cowork",
+   "claude-cowork-pale",
+   "cursor",
+   "drive",
+   "exa",
+   "gcal",
+   "gdrive",
+   "gmail",
+   "google",
+   "google-calendar",
+   "google-drive",
+   "google-g",
+   "google-sheets",
+   "google-workspace",
+   "instagram",
+   "nous-girl",
+   "openai",
+   "sheets",
+   "spotify",
+   "telegram",
+   "tiktok",
+   "whatsapp",
+   "youtube"
+  ],
+  "opacities": [
+   0.34,
+   0.66,
+   1.0
+  ],
+  "hook_clear_s": 1.16,
+  "foundation": "formats/cutout/lib/cutout_depthfield.py (grokpublish, approved 2026-09-01) \u2014 unmodified"
+ },
+ "core": {
+  "left": 0.0,
+  "top": 192.0,
+  "w": 1080.0,
+  "h": 600.0,
+  "placement": {
+   "k": 1.0,
+   "k_uncapped": 1.2879,
+   "left": 0.0,
+   "top": 192.0,
+   "seat": "the scene's own origin: the band already lands legally in this session's MEASURED stage zone at k=1, so the cutout's canvas rects ARE the scene's and the cold Phone Test crops the objects it means to",
+   "stage_zone": [
+    192.0,
+    811.4
+   ],
+   "content_band_core": [
+    98.0,
+    566.5
+   ],
+   "content_band_canvas": [
+    290.0,
+    758.5
+   ],
+   "core_margin": 8.0,
+   "handoff_predicted_scale": "~0.95 (the handoff's gate-scaling table) \u2014 that was the chassis's habit, not a measurement; this session's stage zone is 619.4 px and does not need it"
+  }
+ },
+ "envelope": {
+  "CAP_H_seat_constant": 108.2,
+  "CAP_H_true_rendered": 114.59,
+  "CAP_MIN_CLEAR": 26.5,
+  "true_clear_to_crown": 26.5,
+  "CAP_Y": 895.2,
+  "CAP_Y_pct": 0.4662,
+  "pill_bottom": 952.5,
+  "pill_bottom_pct": 0.4961,
+  "ZY0": 192.0,
+  "ZY1": 811.4,
+  "stage_height": 619.4,
+  "vs_definitive": {
+   "CAP_Y": 949.5,
+   "ZY1": 868.9,
+   "why_different": "a different plate: this session's crown sits well below the plate's top row (bottom_planted false, crop slid up 140 master px), and the plate is OVER-WIDE (1386x990 at -153)"
+  }
+ }
+}

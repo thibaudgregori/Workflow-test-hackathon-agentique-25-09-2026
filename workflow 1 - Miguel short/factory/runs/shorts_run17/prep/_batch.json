@@ -1,0 +1,151 @@
+{
+ "run": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17",
+ "intake": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/prep/_intake.json",
+ "videos": 4,
+ "sessions_root": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting",
+ "workers": 5,
+ "tag": "v1",
+ "emit": "v5",
+ "backend": "matanyone2",
+ "gpu": "l4",
+ "cost_basis": "runtime estimates, not provider invoice",
+ "ship_where": "modal",
+ "batch_wall_s": 1103.8,
+ "modal_cost_usd": 0.371,
+ "modal_cost_breakdown_usd": {
+  "sweep": 0.1445,
+  "track": 0.0811,
+  "ship": 0.1454,
+  "repair": 0.0
+ },
+ "repairs": {},
+ "repair_rounds_max": 2,
+ "repair_detail": {},
+ "summary_lines": [
+  "kimifable            PREPARED; final visual review required",
+  "cursorworkspace      PREPARED; final visual review required",
+  "eudisclosure         PREPARED; final visual review required",
+  "pcoverheat           PREPARED; final visual review required"
+ ],
+ "ship_seconds": {
+  "kimifable": 87.605111189,
+  "cursorworkspace": 59.60233151,
+  "eudisclosure": 75.93573197299999,
+  "pcoverheat": 96.717949532
+ },
+ "per_stage_wall_s": {
+  "kimifable": {
+   "cut": 76.5,
+   "plate": 160.4,
+   "display_plate": 135.5,
+   "prompt0": 47.0,
+   "track": 89.35207241598982,
+   "ship": 101.96270833304152,
+   "cues": 0.0,
+   "repair": null
+  },
+  "cursorworkspace": {
+   "cut": 59.2,
+   "plate": 97.3,
+   "display_plate": 223.8,
+   "prompt0": 19.9,
+   "track": 66.82733400003053,
+   "ship": 70.5872459160164,
+   "cues": 0.0,
+   "repair": null
+  },
+  "eudisclosure": {
+   "cut": 62.4,
+   "plate": 119.3,
+   "display_plate": 757.7,
+   "prompt0": 19.7,
+   "track": 73.80980520800222,
+   "ship": 89.89443774998654,
+   "cues": 0.0,
+   "repair": null
+  },
+  "pcoverheat": {
+   "cut": 76.6,
+   "plate": 160.5,
+   "display_plate": 479.7,
+   "prompt0": 46.9,
+   "track": 90.80860049999319,
+   "ship": 110.95612812496256,
+   "cues": 0.0,
+   "repair": null
+  }
+ },
+ "status": {
+  "kimifable": {
+   "cut": "ok",
+   "plate": "ok",
+   "display_plate": "ok",
+   "prompt0": "ok",
+   "track": "ok",
+   "ship": "ok",
+   "cues": "ok",
+   "repair": "-"
+  },
+  "cursorworkspace": {
+   "cut": "ok",
+   "plate": "ok",
+   "display_plate": "ok",
+   "prompt0": "ok",
+   "track": "ok",
+   "ship": "ok",
+   "cues": "ok",
+   "repair": "-"
+  },
+  "eudisclosure": {
+   "cut": "ok",
+   "plate": "ok",
+   "display_plate": "ok",
+   "prompt0": "ok",
+   "track": "ok",
+   "ship": "ok",
+   "cues": "ok",
+   "repair": "-"
+  },
+  "pcoverheat": {
+   "cut": "ok",
+   "plate": "ok",
+   "display_plate": "ok",
+   "prompt0": "ok",
+   "track": "ok",
+   "ship": "ok",
+   "cues": "ok",
+   "repair": "-"
+  }
+ },
+ "stage_totals_s": {
+  "cut": 274.7,
+  "plate": 537.5,
+  "display_plate": 1596.7,
+  "prompt0": 133.5,
+  "track": 320.8,
+  "ship": 373.4,
+  "cues": 0.0,
+  "repair": 0.0
+ },
+ "serial_equivalent_s": 4274.9,
+ "needs_source": {
+  "kimifable": [],
+  "cursorworkspace": [],
+  "eudisclosure": [],
+  "pcoverheat": [
+   0
+  ]
+ },
+ "wing_review": [
+  "kimifable",
+  "cursorworkspace",
+  "eudisclosure",
+  "pcoverheat"
+ ],
+ "packages": {
+  "kimifable": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/prep/kimifable.json",
+  "cursorworkspace": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/prep/cursorworkspace.json",
+  "eudisclosure": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/prep/eudisclosure.json",
+  "pcoverheat": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/prep/pcoverheat.json"
+ }
+}

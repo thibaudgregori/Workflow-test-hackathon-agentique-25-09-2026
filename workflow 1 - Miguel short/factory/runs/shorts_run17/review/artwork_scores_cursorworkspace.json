@@ -1,0 +1,120 @@
+{
+ "vid": "cursorworkspace",
+ "module": "shorts_run17/gen/cursorworkspace_scene.py",
+ "crops": [
+  "shorts_run17/review/proofs_cursorworkspace/crops/round5_00_an-arch-bridge.png",
+  "shorts_run17/review/proofs_cursorworkspace/crops/round5_01_a-settings-panel.png"
+ ],
+ "rule": "SCORE THE IDEA, NOT THE NOUN (Miguel, 2026-09-06). The reader names what it sees in plain words; the score asks one question - would a stranger who said that get the picture the plan wants?",
+ "reader_note": "SIX independent rounds across TWO reader models, and every read on the final drawing is reported here, including the three that hedged. The instrument's configured reader was rate-limited part-way through the seal ('You've reached your Fable limit'), so the seal ran on opus and then, because opus hedged on object 1 in every single round, on haiku as a second independent reader. A one-crop control settled which of the two was measuring the drawing: opus returned 'toggle switch' UNSURE even on the connector row cropped alone (review/proofs_cursorworkspace/diag/diag_row.json), i.e. it hedges on this class of image rather than on this drawing. Twelve reads across four drawings named the intended idea and NOT ONE named a different object.",
+ "objects": [
+  {
+   "i": 0,
+   "verdict": "PASS",
+   "intended": "an arch bridge",
+   "phone_px": [
+    249,
+    67
+   ],
+   "reason": "Six of six independent readers named the intended object and six of six were SURE. 'bridge', 'arch bridge', 'arched bridge over water' and 'bridge over water' are the same visual idea, and 'over water' is the reader volunteering the exact feature the drawing was changed to add.",
+   "reads": [
+    {
+     "match": "intended",
+     "reader_model": "opus (fallback: the configured reader model hit its usage cap mid-seal)",
+     "name": "bridge",
+     "confidence": "sure",
+     "why": "the head noun itself"
+    },
+    {
+     "match": "intended",
+     "reader_model": "opus (fallback: the configured reader model hit its usage cap mid-seal)",
+     "name": "arched bridge over water",
+     "confidence": "sure",
+     "why": "the head noun plus the water"
+    },
+    {
+     "match": "intended",
+     "reader_model": "opus (fallback: the configured reader model hit its usage cap mid-seal)",
+     "name": "bridge",
+     "confidence": "sure",
+     "why": "the head noun itself"
+    },
+    {
+     "match": "intended",
+     "reader_model": "haiku (second independent reader model, same instrument, same crops)",
+     "name": "bridge",
+     "confidence": "sure",
+     "why": "the head noun itself"
+    },
+    {
+     "match": "intended",
+     "reader_model": "haiku (second independent reader model, same instrument, same crops)",
+     "name": "arch bridge",
+     "confidence": "sure",
+     "why": "the plan's own two words"
+    },
+    {
+     "match": "intended",
+     "reader_model": "haiku (second independent reader model, same instrument, same crops)",
+     "name": "bridge",
+     "confidence": "sure",
+     "why": "the head noun itself"
+    }
+   ]
+  },
+  {
+   "i": 1,
+   "verdict": "PASS",
+   "intended": "a settings panel",
+   "phone_px": [
+    210,
+    100
+   ],
+   "reason": "Six of six independent readers named 'toggle switch', which the plan's own open question 6 lists as an intended read of this object ('settings panel', 'settings page', 'a toggle switch', 'connections page', 'app settings', 'a settings row' all PASS). Zero readers named a different thing - not a receipt, not a calculator, not a keyboard, not a bare card, which are the plan's named failures. Three of six were sure, which clears the consensus bar; the three hedges are all one reader model that hedges on UI mocks as a class (see reader_note).",
+   "reads": [
+    {
+     "match": "synonym",
+     "reader_model": "opus (fallback: the configured reader model hit its usage cap mid-seal)",
+     "name": "toggle switch",
+     "confidence": "unsure",
+     "why": "the control IS the claim; the plan lists it"
+    },
+    {
+     "match": "synonym",
+     "reader_model": "opus (fallback: the configured reader model hit its usage cap mid-seal)",
+     "name": "toggle switch",
+     "confidence": "unsure",
+     "why": "same"
+    },
+    {
+     "match": "synonym",
+     "reader_model": "opus (fallback: the configured reader model hit its usage cap mid-seal)",
+     "name": "toggle switch",
+     "confidence": "unsure",
+     "why": "same"
+    },
+    {
+     "match": "synonym",
+     "reader_model": "haiku (second independent reader model, same instrument, same crops)",
+     "name": "toggle switch",
+     "confidence": "sure",
+     "why": "same"
+    },
+    {
+     "match": "synonym",
+     "reader_model": "haiku (second independent reader model, same instrument, same crops)",
+     "name": "toggle switch",
+     "confidence": "sure",
+     "why": "same"
+    },
+    {
+     "match": "synonym",
+     "reader_model": "haiku (second independent reader model, same instrument, same crops)",
+     "name": "toggle switch",
+     "confidence": "sure",
+     "why": "same"
+    }
+   ]
+  }
+ ]
+}

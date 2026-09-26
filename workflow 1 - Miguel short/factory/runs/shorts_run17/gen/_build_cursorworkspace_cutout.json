@@ -1,0 +1,2305 @@
+{
+ "video": "cursorworkspace",
+ "lane": "icon choreography",
+ "fps": 25,
+ "duration": 21.532,
+ "format": "cutout",
+ "platform": "tiktok",
+ "sfx": {
+  "whoosh": {
+   "mean_volume": "-17.5 dB"
+  },
+  "pop": {
+   "mean_volume": "-36.4 dB"
+  },
+  "click": {
+   "mean_volume": "-23.1 dB"
+  },
+  "_gains": {
+   "structure": 0.14,
+   "detail": 0.09,
+   "published_corpus_flat": 0.18,
+   "note": "a gain constant means nothing without its source loudness (SFX LAW v2); these are the run-9/12/13/14/15/16 shipped values for THESE files"
+  }
+ },
+ "sfx_events": 25,
+ "scene": "gen/cursorworkspace_scene.py (the ARTWORK author's SEALED shared lane scene, imported; this lane authors none of it)",
+ "handoff": "plans/cursorworkspace_scene_handoff.md",
+ "seal": "review/artwork_pass_cursorworkspace.json",
+ "lifetimes": {
+  "bridge": [
+   1.46,
+   6.5
+  ],
+  "cursor-tile": [
+   1.46,
+   6.5
+  ],
+  "key-cursor": [
+   1.84,
+   6.5
+  ],
+  "ws-tile": [
+   3.02,
+   6.5
+  ],
+  "key-ws": [
+   3.74,
+   6.5
+  ],
+  "read-arrow": [
+   4.89,
+   6.5
+  ],
+  "write-arrow": [
+   5.62,
+   6.5
+  ],
+  "key-readwrite": [
+   6.0,
+   6.5
+  ],
+  "gmail-tile": [
+   6.98,
+   11.46
+  ],
+  "key-gmail": [
+   7.42,
+   11.46
+  ],
+  "calendar-tile": [
+   8.0,
+   11.46
+  ],
+  "key-calendar": [
+   8.34,
+   11.46
+  ],
+  "drive-tile": [
+   9.16,
+   11.46
+  ],
+  "key-drive": [
+   9.5,
+   11.46
+  ],
+  "sheets-tile": [
+   11.06,
+   11.46
+  ],
+  "key-sheets": [
+   11.32,
+   11.46
+  ],
+  "panel-card": [
+   11.9,
+   17.319
+  ],
+  "panel-bar": [
+   11.94,
+   17.319
+  ],
+  "panel-cursor-tile": [
+   11.9,
+   17.319
+  ],
+  "panel-stripe": [
+   12.0,
+   17.319
+  ],
+  "panel-rule": [
+   12.04,
+   17.319
+  ],
+  "conn-row": [
+   12.9,
+   17.319
+  ],
+  "row-ws-tile": [
+   12.9,
+   17.319
+  ],
+  "row-text": [
+   12.96,
+   17.319
+  ],
+  "toggle-track": [
+   12.96,
+   17.319
+  ],
+  "toggle-knob": [
+   12.98,
+   17.319
+  ],
+  "key-page": [
+   15.58,
+   17.319
+  ],
+  "o-sheet": [
+   17.78,
+   null
+  ],
+  "o-glyph": [
+   18.14,
+   null
+  ],
+  "o-rule": [
+   18.38,
+   null
+  ],
+  "o-slot": [
+   18.54,
+   null
+  ]
+ },
+ "blocks": [
+  [
+   "bridge",
+   "cursor-tile",
+   "key-cursor"
+  ],
+  [
+   "bridge",
+   "ws-tile",
+   "key-ws"
+  ],
+  [
+   "bridge",
+   "read-arrow",
+   "write-arrow",
+   "key-readwrite"
+  ],
+  [
+   "cursor-tile",
+   "read-arrow"
+  ],
+  [
+   "ws-tile",
+   "read-arrow"
+  ],
+  [
+   "ws-tile",
+   "write-arrow"
+  ],
+  [
+   "cursor-tile",
+   "write-arrow"
+  ],
+  [
+   "gmail-tile",
+   "key-gmail"
+  ],
+  [
+   "calendar-tile",
+   "key-calendar"
+  ],
+  [
+   "drive-tile",
+   "key-drive"
+  ],
+  [
+   "sheets-tile",
+   "key-sheets"
+  ],
+  [
+   "panel-card",
+   "panel-bar",
+   "panel-cursor-tile",
+   "panel-stripe",
+   "panel-rule",
+   "conn-row",
+   "key-page"
+  ],
+  [
+   "conn-row",
+   "row-ws-tile",
+   "row-text",
+   "toggle-track",
+   "toggle-knob"
+  ],
+  [
+   "panel-card",
+   "panel-bar",
+   "panel-cursor-tile",
+   "panel-stripe",
+   "panel-rule",
+   "conn-row",
+   "row-ws-tile",
+   "row-text",
+   "toggle-track",
+   "toggle-knob",
+   "key-page"
+  ]
+ ],
+ "chapters": [
+  {
+   "i": 0,
+   "t_start": 0.119,
+   "t_end": 6.5,
+   "erase_at": 6.5
+  },
+  {
+   "i": 1,
+   "t_start": 6.68,
+   "t_end": 11.46,
+   "erase_at": 11.46
+  },
+  {
+   "i": 2,
+   "t_start": 11.62,
+   "t_end": 17.319,
+   "erase_at": 17.319
+  }
+ ],
+ "board_mode": "chapters",
+ "key_term": "CURSOR",
+ "marks": {
+  "cursor": "logos/coding-tools/cursor.png",
+  "google-workspace": "logos/platforms/google-workspace.png",
+  "gmail": "logos/platforms/gmail-color.png",
+  "google-calendar": "logos/platforms/google-calendar.png",
+  "google-drive": "logos/platforms/google-drive.svg",
+  "google-sheets": "logos/platforms/google-sheets.png",
+  "claude-code": "logos/coding-tools/claudecode-color.png",
+  "codex": "logos/coding-tools/codex-color.png",
+  "copilot": "logos/coding-tools/copilot-color.png",
+  "notion": "logos/platforms/notion-color.png",
+  "slack": "logos/platforms/slack-color.png",
+  "airtable": "logos/platforms/airtable-color.png"
+ },
+ "banned_asserted": [
+  "anthropic",
+  "anthropic-wordmark",
+  "calendar",
+  "chatgpt",
+  "claude-black",
+  "claude-code-sticker",
+  "claude-cowork",
+  "claude-cowork-pale",
+  "cursor",
+  "drive",
+  "exa",
+  "gcal",
+  "gdrive",
+  "gmail",
+  "google",
+  "google-calendar",
+  "google-drive",
+  "google-g",
+  "google-sheets",
+  "google-workspace",
+  "instagram",
+  "nous-girl",
+  "openai",
+  "sheets",
+  "spotify",
+  "telegram",
+  "tiktok",
+  "whatsapp",
+  "youtube"
+ ],
+ "wing_review": "LOOKED AT matting/cursorworkspace/prompts/kf_overlay_00000.png at full size before seating the stage.  prompt0 reports wing_review true, wing_cut_applied false, removed_px 0, wing_right and wing_left both null \u2014 the instrument abstained rather than guessed.  See the build's `matte_visual_review` block for what the author saw.",
+ "formats": {
+  "cutout": {
+   "staged": {
+    "voice": {
+     "source": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/cuts/cursorworkspace/audio.m4a",
+     "sample_rate": 48000,
+     "channels": 2
+    },
+    "matte": {
+     "cut": {
+      "w": 1386,
+      "h": 990
+     },
+     "rim": {
+      "w": 1386,
+      "h": 990
+     },
+     "plate": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/cursorworkspace/plate_display_1386x990.mp4",
+     "session": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/cursorworkspace",
+     "consumed_as_is": "MATTES_FINAL.md is absent, so no decree binds \u2014 but nothing here asks for a re-track either.  The shipped layers are consumed as they are and their `needs_final_visual_review` is answered BY EYE, by this author and by the clerk, at the delivered crop and normal playback speed (PRODUCTION.md, 2026-09-06)",
+     "hashes": {
+      "cut": "3a5568d8df7cfdf27df2f70985b7e1381914c7bdfca1a21af762c3f6236904dc",
+      "rim": "e78cc20fa72c6fa2bc97f477e423f9c4adc0fc4b5d4351a28ac4dbace19f9405",
+      "alpha": "05274766acda15600c3096743d25bfc970c498e714cbf8478a2ea18f44ebb1b1"
+     },
+     "frames": 538,
+     "alpha_mode": "soft",
+     "rim_px": 7,
+     "fractional_alpha_pixels": 12283508,
+     "minimum_person_fraction": 0.394773856895069,
+     "review_status": "needs_final_visual_review",
+     "backend": "matanyone2",
+     "headroom_guard": {
+      "pass": true,
+      "frames_checked": 538,
+      "min_top_clearance_px": 50.6,
+      "floor_px": 24.0,
+      "unsafe_frames": 0,
+      "worst_frame": 128
+     },
+     "selection": "reviewed",
+     "cost_usd": {
+      "track": 0.0165812557340256,
+      "ship": 0.0271023721842272,
+      "total": 0.04368
+     }
+    },
+    "marks": {
+     "cursor": {
+      "source": "/Users/migle/Documents/Workspace/assets/logos/coding-tools/cursor.png",
+      "url": "assets/logos/cursor.png",
+      "bytes": 4422,
+      "where": "stage"
+     },
+     "google-workspace": {
+      "source": "/Users/migle/Documents/Workspace/assets/logos/platforms/google-workspace.png",
+      "url": "assets/logos/google-workspace.png",
+      "bytes": 17517,
+      "where": "stage"
+     },
+     "gmail": {
+      "source": "/Users/migle/Documents/Workspace/assets/logos/platforms/gmail-color.png",
+      "url": "assets/logos/gmail-color.png",
+      "bytes": 15398,
+      "where": "stage"
+     },
+     "google-calendar": {
+      "source": "/Users/migle/Documents/Workspace/assets/logos/platforms/google-calendar.png",
+      "url": "assets/logos/google-calendar.png",
+      "bytes": 22983,
+      "where": "stage"
+     },
+     "google-drive": {
+      "source": "/Users/migle/Documents/Workspace/assets/logos/platforms/google-drive.svg",
+      "url": "assets/logos/google-drive.svg",
+      "bytes": 755,
+      "where": "stage"
+     },
+     "google-sheets": {
+      "source": "/Users/migle/Documents/Workspace/assets/logos/platforms/google-sheets.png",
+      "url": "assets/logos/google-sheets.png",
+      "bytes": 13716,
+      "where": "stage"
+     },
+     "claude-code": {
+      "source": "/Users/migle/Documents/Workspace/assets/logos/coding-tools/claudecode-color.png",
+      "url": "assets/logos/claudecode-color.png",
+      "bytes": 1467,
+      "where": "depth lane"
+     },
+     "codex": {
+      "source": "/Users/migle/Documents/Workspace/assets/logos/coding-tools/codex-color.png",
+      "url": "assets/logos/codex-color.png",
+      "bytes": 7578,
+      "where": "depth lane"
+     },
+     "copilot": {
+      "source": "/Users/migle/Documents/Workspace/assets/logos/coding-tools/copilot-color.png",
+      "url": "assets/logos/copilot-color.png",
+      "bytes": 29398,
+      "where": "depth lane"
+     },
+     "notion": {
+      "source": "/Users/migle/Documents/Workspace/assets/logos/platforms/notion-color.png",
+      "url": "assets/logos/notion-color.png",
+      "bytes": 27108,
+      "where": "depth lane"
+     },
+     "slack": {
+      "source": "/Users/migle/Documents/Workspace/assets/logos/platforms/slack-color.png",
+      "url": "assets/logos/slack-color.png",
+      "bytes": 41734,
+      "where": "depth lane"
+     },
+     "airtable": {
+      "source": "/Users/migle/Documents/Workspace/assets/logos/platforms/airtable-color.png",
+      "url": "assets/logos/airtable-color.png",
+      "bytes": 33372,
+      "where": "depth lane"
+     }
+    }
+   },
+   "seat": 895.2,
+   "scale": 1.0,
+   "edge_fade": {
+    "masked_containers": 3,
+    "fade_px": 46.0,
+    "meters_exempt": []
+   },
+   "plate": {
+    "box": {
+     "w": 1386.0,
+     "h": 990.0,
+     "left": -153.0,
+     "top": 930.0
+    },
+    "whole_pixels": true,
+    "equals_encoded": {
+     "cut": {
+      "w": 1386,
+      "h": 990
+     },
+     "rim": {
+      "w": 1386,
+      "h": 990
+     }
+    },
+    "derived_from": "the ENCODED size of the staged layers, never PLATE_SCALE, and the origin READ from plate.json"
+   },
+   "core": {
+    "left": 0.0,
+    "top": 192.0,
+    "w": 1080.0,
+    "h": 600.0,
+    "placement": {
+     "k": 1.0,
+     "k_uncapped": 1.2879,
+     "left": 0.0,
+     "top": 192.0,
+     "seat": "the scene's own origin: the band already lands legally in this session's MEASURED stage zone at k=1, so the cutout's canvas rects ARE the scene's and the cold Phone Test crops the objects it means to",
+     "stage_zone": [
+      192.0,
+      811.4
+     ],
+     "content_band_core": [
+      98.0,
+      566.5
+     ],
+     "content_band_canvas": [
+      290.0,
+      758.5
+     ],
+     "core_margin": 8.0,
+     "handoff_predicted_scale": "~0.95 (the handoff's gate-scaling table) \u2014 that was the chassis's habit, not a measurement; this session's stage zone is 619.4 px and does not need it"
+    }
+   },
+   "band": {
+    "content_top": 290.0,
+    "content_bottom": 758.5,
+    "law30_top_10pct": 192.0,
+    "pill_top": 837.91,
+    "pill_height_used": 114.59,
+    "pill_centre_used": 895.2,
+    "clear_above_pill": 79.41,
+    "note": "content_top is READ AND WRITE's box top (canvas 290, the highest ink in the video) and content_bottom is the lowest water wave's trough (canvas 758.5, the lowest).  Both are REAL painted ink and the scene's assert_geometry() re-measures them off RECTS on every build.  THE SEAT IS THIS SESSION'S OWN: CAP_Y 895.2 is derived from the measured envelope of the shipped alpha, and the clearance is taken under the pill that RENDERS (114.59), never the frozen 108.2 seat constant."
+   },
+   "rail": {
+    "ink_left_x": 206.0,
+    "ink_right_x": 874.0,
+    "optical_axis_x": 540.0,
+    "readable_type_left_x": 206.0,
+    "readable_type_right_x": 874.0,
+    "law30_rail_x": 918.0,
+    "margins": [
+     206.0,
+     206.0
+    ],
+    "note": "the union of every declared box runs x 208..872 about an axis of 540; the scene's assert_geometry() proves each settled instant's own LIVE ink extents are mirror-symmetric about 540 to 0.00 px on all fourteen probes"
+   },
+   "core_gutter": {
+    "tightest_in_video": {
+     "pair": [
+      "key-cursor",
+      "read-arrow"
+     ],
+     "core_px": 27.92,
+     "at_k095": 26.52,
+     "t": 5.1
+    },
+    "k": 1.0,
+    "canvas_px": 27.92,
+    "law41_refusal": 16.0,
+    "law41_aim": 24.0,
+    "blocks": [
+     [
+      "bridge",
+      "cursor-tile",
+      "key-cursor"
+     ],
+     [
+      "bridge",
+      "ws-tile",
+      "key-ws"
+     ],
+     [
+      "bridge",
+      "read-arrow",
+      "write-arrow",
+      "key-readwrite"
+     ],
+     [
+      "cursor-tile",
+      "read-arrow"
+     ],
+     [
+      "ws-tile",
+      "read-arrow"
+     ],
+     [
+      "ws-tile",
+      "write-arrow"
+     ],
+     [
+      "cursor-tile",
+      "write-arrow"
+     ],
+     [
+      "gmail-tile",
+      "key-gmail"
+     ],
+     [
+      "calendar-tile",
+      "key-calendar"
+     ],
+     [
+      "drive-tile",
+      "key-drive"
+     ],
+     [
+      "sheets-tile",
+      "key-sheets"
+     ],
+     [
+      "panel-card",
+      "panel-bar",
+      "panel-cursor-tile",
+      "panel-stripe",
+      "panel-rule",
+      "conn-row",
+      "key-page"
+     ],
+     [
+      "conn-row",
+      "row-ws-tile",
+      "row-text",
+      "toggle-track",
+      "toggle-knob"
+     ],
+     [
+      "panel-card",
+      "panel-bar",
+      "panel-cursor-tile",
+      "panel-stripe",
+      "panel-rule",
+      "conn-row",
+      "row-ws-tile",
+      "row-text",
+      "toggle-track",
+      "toggle-knob",
+      "key-page"
+     ]
+    ],
+    "note": "an arrow's ink box is the CHEVRON's extent (+-16 px), never the shaft's; data-overlap-ok removes connectors from Gate 1's cramp check, so SC.assert_geometry() is the only instrument that sees LAW 41 on this page"
+   },
+   "occlusion": {
+    "core_lowest_ink_canvas_y": 758.5,
+    "measured_crown_canvas_y": 979.0,
+    "clear_px": 220.5,
+    "behind_declarations": 0,
+    "note": "the crown is the union top of EVERY frame of the shipped alpha, not a sample"
+   },
+   "law40": {
+    "harness": "whiteboard_build.anchor_points, re-derived and asserted",
+    "read-arrow": {
+     "from": [
+      724.0,
+      293.92
+     ],
+     "end": [
+      356.0,
+      293.92
+     ],
+     "target": "cursor-tile",
+     "draws": 4.55
+    },
+    "write-arrow": {
+     "from": [
+      356.0,
+      370.08
+     ],
+     "end": [
+      724.0,
+      370.08
+     ],
+     "target": "ws-tile",
+     "draws": 5.28
+    },
+    "level_error_px": 0.0,
+    "mirror_error_px": 0.0,
+    "arrow_band_y": [
+     277.92,
+     386.08
+    ],
+    "lowest_type_bottom": 250.0,
+    "arrow_half_is_the_chevron": 16.0,
+    "note": "one arrow into each of two DIFFERENT targets, so LAW 40's letter does not bind; the ends are built with the law's own helper anyway.  An arrow's ink box is the CHEVRON's extent (+-16 px), never the shaft's (+-4)"
+   },
+   "law42": {
+    "board_mode": "chapters",
+    "chapters": [
+     {
+      "i": 0,
+      "t_start": 0.119,
+      "t_end": 6.5,
+      "erase_at": 6.5
+     },
+     {
+      "i": 1,
+      "t_start": 6.68,
+      "t_end": 11.46,
+      "erase_at": 11.46
+     },
+     {
+      "i": 2,
+      "t_start": 11.62,
+      "t_end": 17.319,
+      "erase_at": 17.319
+     }
+    ],
+    "anchors": [],
+    "shares": {
+     "bridge": 0.234,
+     "cursor-tile": 0.234,
+     "key-cursor": 0.216,
+     "ws-tile": 0.162,
+     "key-ws": 0.128,
+     "read-arrow": 0.075,
+     "write-arrow": 0.041,
+     "key-readwrite": 0.023,
+     "gmail-tile": 0.208,
+     "key-gmail": 0.188,
+     "calendar-tile": 0.161,
+     "key-calendar": 0.145,
+     "drive-tile": 0.107,
+     "key-drive": 0.091,
+     "sheets-tile": 0.019,
+     "key-sheets": 0.007,
+     "panel-card": 0.252,
+     "panel-bar": 0.25,
+     "panel-cursor-tile": 0.252,
+     "panel-stripe": 0.247,
+     "panel-rule": 0.245,
+     "conn-row": 0.205,
+     "row-ws-tile": 0.205,
+     "row-text": 0.202,
+     "toggle-track": 0.202,
+     "toggle-knob": 0.202,
+     "key-page": 0.081,
+     "o-sheet": 0.174,
+     "o-glyph": 0.158,
+     "o-rule": 0.146,
+     "o-slot": 0.139
+    },
+    "longest_lived_mark": {
+     "mark": "panel-cursor-tile",
+     "share": 0.252
+    },
+    "board_mode_reason": "THREE separate idea groups \u2014 a bridge between two products, the four apps that ride it, and the page where you switch it on.  Chapter 2's Cursor mark is not chapter 0's tile: one is a bank of the bridge, one is a product page's header.  What makes the chapters cohere is the same two subjects returning, and the outro glyph being the hook object drawn small."
+   },
+   "law38": {
+    "kind": "box",
+    "dom_primitive": "PANEL BORDER FLIP \u2014 borderColor rgba(17,17,17,0.16) -> rgb(221,114,89), on the target's OWN border",
+    "groups": [
+     {
+      "at": 16.28,
+      "targets": [
+       "conn-row"
+      ],
+      "duration": 0.38,
+      "released_at": null,
+      "why": "the row IS the claim, so the emphasis holds to the outro sheet instead of dying inside its own beat"
+     }
+    ],
+    "rings_ellipses_circles": 0,
+    "highlights": 0,
+    "why_undeclared": "the emphasis IS the target, so a data-emphasis declaration would be measured for 4 px clearance from itself and for a colour that differs from its own ink \u2014 two violations of a rule the border flip does not break.  The row carries a BACKGROUND so Gate 1 can never read the flip as an emphasis outline.  Asserted here instead."
+   },
+   "law41": {
+    "tightest_in_video": {
+     "pair": [
+      "key-cursor",
+      "read-arrow"
+     ],
+     "core_px": 27.92,
+     "at_k095": 26.52,
+     "t": 5.1
+    },
+    "blocks": [
+     [
+      "bridge",
+      "cursor-tile",
+      "key-cursor"
+     ],
+     [
+      "bridge",
+      "ws-tile",
+      "key-ws"
+     ],
+     [
+      "bridge",
+      "read-arrow",
+      "write-arrow",
+      "key-readwrite"
+     ],
+     [
+      "cursor-tile",
+      "read-arrow"
+     ],
+     [
+      "ws-tile",
+      "read-arrow"
+     ],
+     [
+      "ws-tile",
+      "write-arrow"
+     ],
+     [
+      "cursor-tile",
+      "write-arrow"
+     ],
+     [
+      "gmail-tile",
+      "key-gmail"
+     ],
+     [
+      "calendar-tile",
+      "key-calendar"
+     ],
+     [
+      "drive-tile",
+      "key-drive"
+     ],
+     [
+      "sheets-tile",
+      "key-sheets"
+     ],
+     [
+      "panel-card",
+      "panel-bar",
+      "panel-cursor-tile",
+      "panel-stripe",
+      "panel-rule",
+      "conn-row",
+      "key-page"
+     ],
+     [
+      "conn-row",
+      "row-ws-tile",
+      "row-text",
+      "toggle-track",
+      "toggle-knob"
+     ],
+     [
+      "panel-card",
+      "panel-bar",
+      "panel-cursor-tile",
+      "panel-stripe",
+      "panel-rule",
+      "conn-row",
+      "row-ws-tile",
+      "row-text",
+      "toggle-track",
+      "toggle-knob",
+      "key-page"
+     ]
+    ],
+    "note": "the plan predicted 24 px (key-page to panel-card, and row-ws-tile to row-text) as the tightest pair; the built scene measures 27.92 core px (key-cursor to the read arrow's CHEVRON) because an arrow's ink box is the head's extent, not the shaft's \u2014 scene note 5"
+   },
+   "law39": {
+    "key-cursor": {
+     "host": "cursor-tile",
+     "side": "above",
+     "text": "CURSOR",
+     "stages": [
+      {
+       "stage": "settled",
+       "key_box": [
+        208.0,
+        192.0,
+        392.0,
+        250.0
+       ],
+       "host_box": [
+        244.0,
+        276.0,
+        356.0,
+        388.0
+       ],
+       "centre_error_px": 0.0,
+       "band_px": 16.8,
+       "gap_px": 26.0
+      }
+     ],
+     "at": 1.52,
+     "host_at": 1.16,
+     "delay_after_host_s": 0.36
+    },
+    "key-ws": {
+     "host": "ws-tile",
+     "side": "above",
+     "text": "GOOGLE WORKSPACE",
+     "stages": [
+      {
+       "stage": "settled",
+       "key_box": [
+        700.0,
+        182.0,
+        860.0,
+        250.0
+       ],
+       "host_box": [
+        724.0,
+        276.0,
+        836.0,
+        388.0
+       ],
+       "centre_error_px": 0.0,
+       "band_px": 16.8,
+       "gap_px": 26.0
+      }
+     ],
+     "at": 3.46,
+     "host_at": 2.72,
+     "delay_after_host_s": 0.74
+    },
+    "key-readwrite": {
+     "host": "bridge",
+     "side": "above",
+     "text": "READ AND WRITE",
+     "stages": [
+      {
+       "stage": "settled",
+       "key_box": [
+        383.0,
+        98.0,
+        697.0,
+        152.0
+       ],
+       "host_box": [
+        208.0,
+        388.0,
+        872.0,
+        566.5
+       ],
+       "centre_error_px": 0.0,
+       "band_px": 99.6,
+       "gap_px": 236.0
+      }
+     ],
+     "at": 5.72,
+     "host_at": 0.46,
+     "delay_after_host_s": 5.26
+    },
+    "key-gmail": {
+     "host": "gmail-tile",
+     "side": "below",
+     "text": "GMAIL",
+     "stages": [
+      {
+       "stage": "stage1",
+       "key_box": [
+        470.0,
+        388.0,
+        610.0,
+        430.0
+       ],
+       "host_box": [
+        484.0,
+        248.0,
+        596.0,
+        360.0
+       ],
+       "centre_error_px": 0.0,
+       "band_px": 16.8,
+       "gap_px": 28.0
+      },
+      {
+       "stage": "stage2",
+       "key_box": [
+        382.0,
+        388.0,
+        522.0,
+        430.0
+       ],
+       "host_box": [
+        396.0,
+        248.0,
+        508.0,
+        360.0
+       ],
+       "centre_error_px": 0.0,
+       "band_px": 16.8,
+       "gap_px": 28.0
+      },
+      {
+       "stage": "stage3",
+       "key_box": [
+        294.0,
+        388.0,
+        434.0,
+        430.0
+       ],
+       "host_box": [
+        308.0,
+        248.0,
+        420.0,
+        360.0
+       ],
+       "centre_error_px": 0.0,
+       "band_px": 16.8,
+       "gap_px": 28.0
+      },
+      {
+       "stage": "stage4",
+       "key_box": [
+        206.0,
+        388.0,
+        346.0,
+        430.0
+       ],
+       "host_box": [
+        220.0,
+        248.0,
+        332.0,
+        360.0
+       ],
+       "centre_error_px": 0.0,
+       "band_px": 16.8,
+       "gap_px": 28.0
+      }
+     ],
+     "at": 7.14,
+     "host_at": 6.68,
+     "delay_after_host_s": 0.46
+    },
+    "key-calendar": {
+     "host": "calendar-tile",
+     "side": "below",
+     "text": "CALENDAR",
+     "stages": [
+      {
+       "stage": "stage2",
+       "key_box": [
+        558.0,
+        388.0,
+        698.0,
+        430.0
+       ],
+       "host_box": [
+        572.0,
+        248.0,
+        684.0,
+        360.0
+       ],
+       "centre_error_px": 0.0,
+       "band_px": 16.8,
+       "gap_px": 28.0
+      },
+      {
+       "stage": "stage3",
+       "key_box": [
+        470.0,
+        388.0,
+        610.0,
+        430.0
+       ],
+       "host_box": [
+        484.0,
+        248.0,
+        596.0,
+        360.0
+       ],
+       "centre_error_px": 0.0,
+       "band_px": 16.8,
+       "gap_px": 28.0
+      },
+      {
+       "stage": "stage4",
+       "key_box": [
+        382.0,
+        388.0,
+        522.0,
+        430.0
+       ],
+       "host_box": [
+        396.0,
+        248.0,
+        508.0,
+        360.0
+       ],
+       "centre_error_px": 0.0,
+       "band_px": 16.8,
+       "gap_px": 28.0
+      }
+     ],
+     "at": 8.06,
+     "host_at": 7.7,
+     "delay_after_host_s": 0.36
+    },
+    "key-drive": {
+     "host": "drive-tile",
+     "side": "below",
+     "text": "DRIVE",
+     "stages": [
+      {
+       "stage": "stage3",
+       "key_box": [
+        646.0,
+        388.0,
+        786.0,
+        430.0
+       ],
+       "host_box": [
+        660.0,
+        248.0,
+        772.0,
+        360.0
+       ],
+       "centre_error_px": 0.0,
+       "band_px": 16.8,
+       "gap_px": 28.0
+      },
+      {
+       "stage": "stage4",
+       "key_box": [
+        558.0,
+        388.0,
+        698.0,
+        430.0
+       ],
+       "host_box": [
+        572.0,
+        248.0,
+        684.0,
+        360.0
+       ],
+       "centre_error_px": 0.0,
+       "band_px": 16.8,
+       "gap_px": 28.0
+      }
+     ],
+     "at": 9.22,
+     "host_at": 8.86,
+     "delay_after_host_s": 0.36
+    },
+    "key-sheets": {
+     "host": "sheets-tile",
+     "side": "below",
+     "text": "SHEETS",
+     "stages": [
+      {
+       "stage": "stage4",
+       "key_box": [
+        734.0,
+        388.0,
+        874.0,
+        430.0
+       ],
+       "host_box": [
+        748.0,
+        248.0,
+        860.0,
+        360.0
+       ],
+       "centre_error_px": 0.0,
+       "band_px": 16.8,
+       "gap_px": 28.0
+      }
+     ],
+     "at": 11.04,
+     "host_at": 10.76,
+     "delay_after_host_s": 0.28
+    },
+    "key-page": {
+     "host": "panel-card",
+     "side": "above",
+     "text": "CUSTOMIZED PAGE",
+     "stages": [
+      {
+       "stage": "settled",
+       "key_box": [
+        390.0,
+        138.0,
+        690.0,
+        192.0
+       ],
+       "host_box": [
+        260.0,
+        216.0,
+        820.0,
+        484.0
+       ],
+       "centre_error_px": 0.0,
+       "band_px": 84.0,
+       "gap_px": 24.0
+      }
+     ],
+     "at": 15.3,
+     "host_at": 11.62,
+     "delay_after_host_s": 3.68
+    },
+    "_key_term": {
+     "text": "CURSOR",
+     "at": 1.52,
+     "font_px": 44.0,
+     "design_units": 23.47,
+     "label_class_font_px": 26.0,
+     "first_type_at": 1.52,
+     "alone_until": 3.46,
+     "type_order": [
+      [
+       "key-cursor",
+       1.52
+      ],
+      [
+       "key-ws",
+       3.46
+      ],
+      [
+       "key-readwrite",
+       5.72
+      ],
+      [
+       "key-gmail",
+       7.14
+      ],
+      [
+       "key-calendar",
+       8.06
+      ],
+      [
+       "key-drive",
+       9.22
+      ],
+      [
+       "key-sheets",
+       11.04
+      ],
+      [
+       "key-page",
+       15.3
+      ]
+     ]
+    },
+    "_hook": {
+     "object": "an arch bridge over water \u2014 the everyday object for 'these two places are now joined and traffic runs both ways', and the only object here that can be CHARGED on the words read and write without adding a shape; complete from its first settled frame, so LAW 20's empty-vessel corollary is satisfied by construction",
+     "first_ink_at": 0.46,
+     "opens_centred_on_x": 540.0,
+     "opens_dy_px": -139.0,
+     "alone_until": 1.16
+    }
+   },
+   "law37": {
+    "scan_cue_count": 0,
+    "plan_declared_cards": 0,
+    "prep_marker": "prep/stages/cursorworkspace.cues.json -> cue_count 0",
+    "instrument": "pointing_cues.scan re-run on transcript_tight.json",
+    "why": "no demonstrative-plus-person anywhere in the take; Miguel describes a feature of a product he names, so GLOBAL LAW 3 admits no post and there is nothing to waive"
+   },
+   "law2": {
+    "stage_marks": 6,
+    "depth_marks": 6,
+    "assert_cast_resolves": {
+     "cursor": {
+      "path": "/Users/migle/Documents/Workspace/assets/logos/coding-tools/cursor.png",
+      "bytes": 4422,
+      "size": [
+       640,
+       640
+      ],
+      "ink_fill": 0.541,
+      "quantised_colours": 1,
+      "diag_fwd": 0.255,
+      "diag_back": 0.439,
+      "bbox": [
+       39,
+       0,
+       601,
+       640
+      ]
+     },
+     "google-workspace": {
+      "path": "/Users/migle/Documents/Workspace/assets/logos/platforms/google-workspace.png",
+      "bytes": 17517,
+      "size": [
+       256,
+       256
+      ],
+      "ink_fill": 0.515,
+      "quantised_colours": 40,
+      "diag_fwd": 0.398,
+      "diag_back": 0.242,
+      "bbox": [
+       0,
+       0,
+       251,
+       256
+      ]
+     },
+     "gmail": {
+      "path": "/Users/migle/Documents/Workspace/assets/logos/platforms/gmail-color.png",
+      "bytes": 15398,
+      "size": [
+       1024,
+       768
+      ],
+      "ink_fill": 0.653,
+      "quantised_colours": 15,
+      "diag_fwd": 0.805,
+      "diag_back": 0.804,
+      "bbox": [
+       0,
+       0,
+       1024,
+       768
+      ]
+     },
+     "google-calendar": {
+      "path": "/Users/migle/Documents/Workspace/assets/logos/platforms/google-calendar.png",
+      "bytes": 22983,
+      "size": [
+       1024,
+       1024
+      ],
+      "ink_fill": 0.968,
+      "quantised_colours": 43,
+      "diag_fwd": 0.86,
+      "diag_back": 0.955,
+      "bbox": [
+       0,
+       0,
+       1024,
+       1024
+      ]
+     },
+     "google-drive": {
+      "path": "/Users/migle/Documents/Workspace/assets/logos/platforms/google-drive.svg",
+      "bytes": 755,
+      "size": [
+       256,
+       229
+      ],
+      "ink_fill": 0.672,
+      "quantised_colours": 41,
+      "diag_fwd": 0.457,
+      "diag_back": 0.461,
+      "bbox": [
+       0,
+       0,
+       256,
+       229
+      ]
+     },
+     "google-sheets": {
+      "path": "/Users/migle/Documents/Workspace/assets/logos/platforms/google-sheets.png",
+      "bytes": 13716,
+      "size": [
+       1024,
+       1408
+      ],
+      "ink_fill": 0.953,
+      "quantised_colours": 4,
+      "diag_fwd": 0.955,
+      "diag_back": 0.834,
+      "bbox": [
+       0,
+       0,
+       1024,
+       1408
+      ]
+     },
+     "claude-code": {
+      "path": "/Users/migle/Documents/Workspace/assets/logos/coding-tools/claudecode-color.png",
+      "bytes": 1467,
+      "size": [
+       640,
+       640
+      ],
+      "ink_fill": 0.679,
+      "quantised_colours": 1,
+      "diag_fwd": 0.631,
+      "diag_back": 0.631,
+      "bbox": [
+       0,
+       133,
+       640,
+       534
+      ]
+     },
+     "codex": {
+      "path": "/Users/migle/Documents/Workspace/assets/logos/coding-tools/codex-color.png",
+      "bytes": 7578,
+      "size": [
+       640,
+       640
+      ],
+      "ink_fill": 0.97,
+      "quantised_colours": 13,
+      "diag_fwd": 0.894,
+      "diag_back": 0.894,
+      "bbox": [
+       0,
+       0,
+       640,
+       640
+      ]
+     },
+     "copilot": {
+      "path": "/Users/migle/Documents/Workspace/assets/logos/coding-tools/copilot-color.png",
+      "bytes": 29398,
+      "size": [
+       640,
+       640
+      ],
+      "ink_fill": 0.698,
+      "quantised_colours": 68,
+      "diag_fwd": 0.641,
+      "diag_back": 0.331,
+      "bbox": [
+       0,
+       26,
+       640,
+       614
+      ]
+     },
+     "notion": {
+      "path": "/Users/migle/Documents/Workspace/assets/logos/platforms/notion-color.png",
+      "bytes": 27108,
+      "size": [
+       1024,
+       1024
+      ],
+      "ink_fill": 0.502,
+      "quantised_colours": 1,
+      "diag_fwd": 0.636,
+      "diag_back": 0.388,
+      "bbox": [
+       20,
+       0,
+       1004,
+       1024
+      ]
+     },
+     "slack": {
+      "path": "/Users/migle/Documents/Workspace/assets/logos/platforms/slack-color.png",
+      "bytes": 41734,
+      "size": [
+       1024,
+       1024
+      ],
+      "ink_fill": 0.508,
+      "quantised_colours": 5,
+      "diag_fwd": 0.363,
+      "diag_back": 0.363,
+      "bbox": [
+       5,
+       4,
+       1020,
+       1018
+      ]
+     },
+     "airtable": {
+      "path": "/Users/migle/Documents/Workspace/assets/logos/platforms/airtable-color.png",
+      "bytes": 33372,
+      "size": [
+       1024,
+       856
+      ],
+      "ink_fill": 0.582,
+      "quantised_colours": 11,
+      "diag_fwd": 0.595,
+      "diag_back": 0.26,
+      "bbox": [
+       0,
+       0,
+       1024,
+       856
+      ]
+     }
+    },
+    "ink_aspects": {
+     "cursor": 0.878,
+     "google-workspace": 0.98,
+     "gmail": 1.333,
+     "google-calendar": 1.0,
+     "google-drive": 1.119,
+     "google-sheets": 0.727
+    },
+    "sizes_core_px": {
+     "tile": 56.0,
+     "panel_header": 34.0,
+     "connector_row": 42.0
+    },
+    "depth_roster": [
+     "claude-code",
+     "codex",
+     "copilot",
+     "notion",
+     "slack",
+     "airtable"
+    ],
+    "depth_roster_source": "plan.cutout_logo_lanes, verbatim",
+    "banned_asserted": [
+     "anthropic",
+     "anthropic-wordmark",
+     "calendar",
+     "chatgpt",
+     "claude-black",
+     "claude-code-sticker",
+     "claude-cowork",
+     "claude-cowork-pale",
+     "cursor",
+     "drive",
+     "exa",
+     "gcal",
+     "gdrive",
+     "gmail",
+     "google",
+     "google-calendar",
+     "google-drive",
+     "google-g",
+     "google-sheets",
+     "google-workspace",
+     "instagram",
+     "nous-girl",
+     "openai",
+     "sheets",
+     "spotify",
+     "telegram",
+     "tiktok",
+     "whatsapp",
+     "youtube"
+    ],
+    "why": "LAW 2 binds a NAMED tool to its logo and this script names six; every one is sized BY ITS INK, never by its box, so a 1.333-aspect envelope and a 0.727-aspect sheet read as equals in one row.  The six lane marks are the peer agents and the workspaces they connect to \u2014 never a subject mark, never a generic house set"
+   },
+   "cues": {
+    "emph": {
+     "word_spoken": 47,
+     "text": "Google",
+     "edge": "start",
+     "t": 16.28,
+     "word_edge": 16.279
+    },
+    "outro": {
+     "word_spoken": 49,
+     "text": "Now",
+     "edge": "start",
+     "t": 17.319,
+     "word_edge": 17.319
+    },
+    "bridge": {
+     "word_spoken": 2,
+     "text": "using",
+     "edge": "inside",
+     "t": 0.46,
+     "window": [
+      0.399,
+      1.62
+     ]
+    },
+    "slide": {
+     "word_spoken": 3,
+     "text": "Cursor,",
+     "edge": "inside",
+     "t": 1.1,
+     "window": [
+      0.68,
+      1.979
+     ]
+    },
+    "tileL": {
+     "word_spoken": 3,
+     "text": "Cursor,",
+     "edge": "inside",
+     "t": 1.16,
+     "window": [
+      0.68,
+      1.979
+     ]
+    },
+    "keyterm": {
+     "word_spoken": 3,
+     "text": "Cursor,",
+     "edge": "inside",
+     "t": 1.52,
+     "window": [
+      0.68,
+      1.979
+     ]
+    },
+    "tileR": {
+     "word_spoken": 11,
+     "text": "Google",
+     "edge": "inside",
+     "t": 2.72,
+     "window": [
+      2.639,
+      3.879
+     ]
+    },
+    "keyR": {
+     "word_spoken": 12,
+     "text": "Workspace.",
+     "edge": "inside",
+     "t": 3.46,
+     "window": [
+      2.96,
+      4.419
+     ]
+    },
+    "read": {
+     "word_spoken": 16,
+     "text": "read",
+     "edge": "inside",
+     "t": 4.55,
+     "window": [
+      4.5,
+      5.88
+     ]
+    },
+    "write": {
+     "word_spoken": 18,
+     "text": "write",
+     "edge": "inside",
+     "t": 5.28,
+     "window": [
+      5.239,
+      6.44
+     ]
+    },
+    "keySpan": {
+     "word_spoken": 18,
+     "text": "write",
+     "edge": "inside",
+     "t": 5.72,
+     "window": [
+      5.239,
+      6.44
+     ]
+    },
+    "keyGmail": {
+     "word_spoken": 21,
+     "text": "Gmail,",
+     "edge": "inside",
+     "t": 7.14,
+     "window": [
+      6.879,
+      8.239
+     ]
+    },
+    "step2": {
+     "word_spoken": 22,
+     "text": "Google",
+     "edge": "inside",
+     "t": 7.66,
+     "window": [
+      7.359,
+      8.559
+     ]
+    },
+    "calendar": {
+     "word_spoken": 23,
+     "text": "Calendar,",
+     "edge": "inside",
+     "t": 7.7,
+     "window": [
+      7.679,
+      9.059
+     ]
+    },
+    "keyCal": {
+     "word_spoken": 23,
+     "text": "Calendar,",
+     "edge": "inside",
+     "t": 8.06,
+     "window": [
+      7.679,
+      9.059
+     ]
+    },
+    "step3": {
+     "word_spoken": 25,
+     "text": "Drive,",
+     "edge": "inside",
+     "t": 8.82,
+     "window": [
+      8.819,
+      10.079
+     ]
+    },
+    "drive": {
+     "word_spoken": 25,
+     "text": "Drive,",
+     "edge": "inside",
+     "t": 8.86,
+     "window": [
+      8.819,
+      10.079
+     ]
+    },
+    "keyDrive": {
+     "word_spoken": 25,
+     "text": "Drive,",
+     "edge": "inside",
+     "t": 9.22,
+     "window": [
+      8.819,
+      10.079
+     ]
+    },
+    "step4": {
+     "word_spoken": 30,
+     "text": "Sheets.",
+     "edge": "inside",
+     "t": 10.72,
+     "window": [
+      10.719,
+      12.019
+     ]
+    },
+    "sheets": {
+     "word_spoken": 30,
+     "text": "Sheets.",
+     "edge": "inside",
+     "t": 10.76,
+     "window": [
+      10.719,
+      12.019
+     ]
+    },
+    "keySheets": {
+     "word_spoken": 30,
+     "text": "Sheets.",
+     "edge": "inside",
+     "t": 11.04,
+     "window": [
+      10.719,
+      12.019
+     ]
+    },
+    "row": {
+     "word_spoken": 36,
+     "text": "by",
+     "edge": "inside",
+     "t": 12.6,
+     "window": [
+      12.579,
+      13.719
+     ]
+    },
+    "toggle": {
+     "word_spoken": 37,
+     "text": "connecting",
+     "edge": "inside",
+     "t": 12.9,
+     "window": [
+      12.779,
+      14.139
+     ]
+    },
+    "keyPage": {
+     "word_spoken": 43,
+     "text": "page",
+     "edge": "inside",
+     "t": 15.3,
+     "window": [
+      15.139,
+      16.479
+     ]
+    },
+    "_free": {
+     "erase0": {
+      "t": 6.5,
+      "hole": [
+       6.439,
+       6.879
+      ],
+      "after": "to",
+      "before": "Gmail,"
+     },
+     "gmail": {
+      "t": 6.68,
+      "hole": [
+       6.439,
+       6.879
+      ],
+      "after": "to",
+      "before": "Gmail,"
+     },
+     "erase1": {
+      "t": 11.46,
+      "hole": [
+       11.439,
+       11.639
+      ],
+      "after": "Now,",
+      "before": "you",
+      "last_chapter1_key_completes": 11.32
+     },
+     "card": {
+      "t": 11.62,
+      "hole": [
+       11.439,
+       11.639
+      ],
+      "after": "Now,",
+      "before": "you"
+     },
+     "law45": [
+      {
+       "seam": 6.72,
+       "object": "gmail-tile",
+       "complete_at": 6.98,
+       "lag_s": 0.26
+      },
+      {
+       "seam": 11.680000000000001,
+       "object": "panel-card",
+       "complete_at": 11.9,
+       "lag_s": 0.22
+      }
+     ],
+     "outro": {
+      "t": 17.319,
+      "last_board_event_completes": 16.66,
+      "clear_s": 0.66,
+      "sheet": {
+       "up": 17.319,
+       "d": 0.46,
+       "chip_in": 17.8,
+       "kind": "OPAQUE RISING SHEET, never a fade and never a scrim"
+      }
+     }
+    },
+    "_outro_clear": {
+     "t": 17.319,
+     "last_board_event_completes": 16.66,
+     "clear_s": 0.66,
+     "sheet": {
+      "up": 17.319,
+      "d": 0.46,
+      "chip_in": 17.8,
+      "kind": "OPAQUE RISING SHEET, never a fade and never a scrim"
+     }
+    }
+   },
+   "production_v2_declarations": {
+    "read-arrow": {
+     "target": "cursor-tile",
+     "anchor_side": "right",
+     "anchor_fraction": 0.16,
+     "end": [
+      356.0,
+      293.92
+     ],
+     "completes_at": 4.99,
+     "target_settles_at": 1.46,
+     "check_at": 5.3
+    },
+    "write-arrow": {
+     "target": "ws-tile",
+     "anchor_side": "left",
+     "anchor_fraction": 0.84,
+     "end": [
+      724.0,
+      370.08
+     ],
+     "completes_at": 5.72,
+     "target_settles_at": 3.02,
+     "check_at": 6.3
+    },
+    "row-text": {
+     "kind": "content label",
+     "host": "conn-row",
+     "contained_by_host": true,
+     "axis_offset_px": -44.0,
+     "axis_band_px": 322.4,
+     "why": "the row's own name, declared so Gate 1 stops welding it to the decorative icon beside it"
+    },
+    "_note": "visual_laws.CHECK_JS requires anchor side/fraction/check-at on every element carrying data-connect-to; the shared scene emits data-connect-to and data-overlap-ok only.  Stamped on the EMITTED string so the module the cutout author is reading is not mutated.  No geometry moves.",
+    "_no_emphasis_declared": "the one emphasis in this video is the connector row's OWN border flip; see assert_emphasis_law"
+   },
+   "scene_report": {
+    "law41": {
+     "pair": [
+      "key-cursor",
+      "read-arrow"
+     ],
+     "core_px": 27.92,
+     "at_k095": 26.52,
+     "t": 5.1
+    },
+    "law15": {
+     "t": 2.3,
+     "centre": 540.0,
+     "err": 0.0
+    },
+    "band": [
+     98.0,
+     566.5
+    ],
+    "arrows": {
+     "read": [
+      356.0,
+      293.92
+     ],
+     "write": [
+      724.0,
+      370.08
+     ]
+    },
+    "law45": [
+     {
+      "seam": 6.72,
+      "object": "gmail-tile",
+      "complete_at": 6.98,
+      "lag_s": 0.26
+     },
+     {
+      "seam": 11.680000000000001,
+      "object": "panel-card",
+      "complete_at": 11.9,
+      "lag_s": 0.22
+     }
+    ],
+    "probes": 14,
+    "rigids": 31
+   },
+   "transcript": {
+    "partials_dropped": [],
+    "law47_tail_s": 0.252,
+    "law47_cap_s": 0.24,
+    "law47_overshoot_s": 0.012,
+    "law47_verdict": "REPORTED \u2014 the cut overshoots the cap by 0.012s of container rounding; the scene's own last ink completes at 16.66 against an outro anchor of 17.319",
+    "law46": "the opening key \"If you're using Cursor,\" occurs once, at word 0 / 0.119 s; no restart and no discard marker anywhere in the take",
+    "take_corroboration": {
+     "marker": "equality",
+     "gap": "DISAGREES",
+     "witnessed": true,
+     "allow_uncorroborated": false,
+     "raw_word_index": 184,
+     "raw_start_s": 84.779,
+     "words": 70,
+     "of_raw_words": 254,
+     "openings": 11
+    },
+    "words": 70,
+    "function_word_merges": 2,
+    "beats_before_merge": 27,
+    "board_keys_forbidden_at_split": [
+     "calendar",
+     "calendar!",
+     "calendar,",
+     "calendar.",
+     "calendar?",
+     "cursor",
+     "cursor!",
+     "cursor,",
+     "cursor.",
+     "cursor?",
+     "customized page",
+     "customized page!",
+     "customized page,",
+     "customized page.",
+     "customized page?",
+     "drive",
+     "drive!",
+     "drive,",
+     "drive.",
+     "drive?",
+     "gmail",
+     "gmail!",
+     "gmail,",
+     "gmail.",
+     "gmail?",
+     "google workspace",
+     "google workspace!",
+     "google workspace,",
+     "google workspace.",
+     "google workspace?",
+     "read and write",
+     "read and write!",
+     "read and write,",
+     "read and write.",
+     "read and write?",
+     "sheets",
+     "sheets!",
+     "sheets,",
+     "sheets.",
+     "sheets?",
+     "workspace",
+     "workspace!",
+     "workspace,",
+     "workspace.",
+     "workspace?"
+    ],
+    "orphan_repartitions": [
+     {
+      "orphan": "to",
+      "window": [
+       "customized page directly",
+       "to",
+       "your Google Workspace."
+      ],
+      "repartitioned_to": [
+       "customized",
+       "page directly to",
+       "your Google Workspace."
+      ]
+     }
+    ],
+    "board_key_echo_repairs": [],
+    "caption_echoes_not_overlapping": []
+   },
+   "stage_zone": [
+    192.0,
+    811.4
+   ],
+   "envelope": {
+    "CAP_H_seat_constant": 108.2,
+    "CAP_H_true_rendered": 114.59,
+    "CAP_MIN_CLEAR": 26.5,
+    "true_clear_to_crown": 26.5,
+    "CAP_Y": 895.2,
+    "CAP_Y_pct": 0.4662,
+    "pill_bottom": 952.5,
+    "pill_bottom_pct": 0.4961,
+    "ZY0": 192.0,
+    "ZY1": 811.4,
+    "stage_height": 619.4,
+    "vs_definitive": {
+     "CAP_Y": 949.5,
+     "ZY1": 868.9,
+     "why_different": "a different plate: this session's crown sits well below the plate's top row (bottom_planted false, crop slid up 140 master px), and the plate is OVER-WIDE (1386x990 at -153)"
+    }
+   },
+   "crown_gate": {
+    "frames_on_plate_top": 0,
+    "frames": 538,
+    "frac": 0.0,
+    "floor": 0.25,
+    "verdict": "the crown is a head"
+   },
+   "depth_field": {
+    "seat": {
+     "band": [
+      1016.5,
+      1410.5
+     ],
+     "band_h": 394.0,
+     "inter_lane_gap": 26.0,
+     "seat_offset_from_pill": 64.0,
+     "foundation_offset": 63.61,
+     "drift_from_foundation_seat": 0.39,
+     "margin_px": 155.4,
+     "candidates_scanned": 94,
+     "candidates_safe": 85,
+     "instrument": "5th percentile of the PER-FRAME gutter; the union envelope describes a body that never existed",
+     "lanes": [
+      {
+       "lane": "far",
+       "tile": 78.0,
+       "y": 1016.5,
+       "frames": 180,
+       "gutter_p05": 325.4,
+       "gutter_median": 357.9,
+       "gutter_min_single_frame": 303.5,
+       "frames_under_tile": 0
+      },
+      {
+       "lane": "mid",
+       "tile": 116.0,
+       "y": 1120.5,
+       "frames": 180,
+       "gutter_p05": 301.2,
+       "gutter_median": 327.7,
+       "gutter_min_single_frame": 274.9,
+       "frames_under_tile": 0
+      },
+      {
+       "lane": "near",
+       "tile": 148.0,
+       "y": 1262.5,
+       "frames": 180,
+       "gutter_p05": 303.4,
+       "gutter_median": 326.0,
+       "gutter_min_single_frame": 107.7,
+       "frames_under_tile": 1
+      }
+     ]
+    },
+    "lanes": {
+     "far": {
+      "x0": -216.0,
+      "w": 1788.0,
+      "y": 1016.5,
+      "tile": 78.0,
+      "gap": 30.0,
+      "pitch": 108.0,
+      "tiles": 16,
+      "opacity": 0.34,
+      "dist": 46.0,
+      "travel": 276.0,
+      "steps": 6
+     },
+     "mid": {
+      "x0": -304.0,
+      "w": 2360.0,
+      "y": 1120.5,
+      "tile": 116.0,
+      "gap": 36.0,
+      "pitch": 152.0,
+      "tiles": 15,
+      "opacity": 0.66,
+      "dist": 112.0,
+      "travel": 672.0,
+      "steps": 6
+     },
+     "near": {
+      "x0": -384.0,
+      "w": 3096.0,
+      "y": 1262.5,
+      "tile": 148.0,
+      "gap": 44.0,
+      "pitch": 192.0,
+      "tiles": 16,
+      "opacity": 1.0,
+      "dist": 208.0,
+      "travel": 1248.0,
+      "steps": 6
+     }
+    },
+    "tiles": 47,
+    "step_beats": [
+     2.96,
+     6.24,
+     9.48,
+     12.56,
+     15.56,
+     18.8
+    ],
+    "step_n": 6,
+    "step_pulse_s": 3.12,
+    "foundation_pulse_s": 3.17,
+    "pop_behind": [],
+    "pop_behind_why_none": "cutout law 16 keys the crossing to a beat where he NAMES the tool.  Every tool this take names \u2014 Cursor, Google Workspace, Gmail, Google Calendar, Google Drive, Google Sheets \u2014 is a STAGE subject mark, and ROUND-2/3 law 6 keeps the story's own subject mark out of the depth field (the run-9 defect); the plan says in as many words that all six are deliberately ABSENT from the lanes.  Not one of the six depth marks is ever spoken, so a card carrying one would pop a live app window for a tool the viewer has not heard of, on a beat about somebody else.  The plan declares no pop-behind window (`per_lane_notes.cutout_tiktok`: 'the plan spends no beat on one') and the plan is the contract.  The handoff's alternative \u2014 spending the format's best detail on the chapter-1 tile arrivals at 7.70 / 8.86 / 10.76 \u2014 would put a SUBJECT mark on a card crossing a depth lane, which is the same violation from the other end.  Logged in plans/cursorworkspace_cutout_notes.md.",
+    "cast": [
+     "claude-code",
+     "codex",
+     "copilot",
+     "notion",
+     "slack",
+     "airtable"
+    ],
+    "cast_source": "plan.cutout_logo_lanes, verbatim",
+    "substitutions": {},
+    "banned_asserted": [
+     "anthropic",
+     "anthropic-wordmark",
+     "calendar",
+     "chatgpt",
+     "claude-black",
+     "claude-code-sticker",
+     "claude-cowork",
+     "claude-cowork-pale",
+     "cursor",
+     "drive",
+     "exa",
+     "gcal",
+     "gdrive",
+     "gmail",
+     "google",
+     "google-calendar",
+     "google-drive",
+     "google-g",
+     "google-sheets",
+     "google-workspace",
+     "instagram",
+     "nous-girl",
+     "openai",
+     "sheets",
+     "spotify",
+     "telegram",
+     "tiktok",
+     "whatsapp",
+     "youtube"
+    ],
+    "opacities": [
+     0.34,
+     0.66,
+     1.0
+    ],
+    "hook_clear_s": 1.16,
+    "foundation": "formats/cutout/lib/cutout_depthfield.py (grokpublish, approved 2026-09-01) \u2014 unmodified"
+   },
+   "phone_test_objects": [
+    {
+     "name": "an arch bridge",
+     "t": 2.3,
+     "space": "norm",
+     "bbox": [
+      0.19259,
+      0.30208,
+      0.80741,
+      0.39505
+     ],
+     "phone_px": [
+      249,
+      67
+     ]
+    },
+    {
+     "name": "a settings panel",
+     "t": 14.2,
+     "space": "norm",
+     "bbox": [
+      0.24074,
+      0.2125,
+      0.75926,
+      0.35208
+     ],
+     "phone_px": [
+      210,
+      100
+     ]
+    }
+   ],
+   "phone_test_vs_plan": {
+    "objects": [
+     {
+      "plan_name": "an arch bridge",
+      "built_name": "an arch bridge",
+      "plan_t": 2.3,
+      "built_t": 2.3,
+      "plan_bbox": [
+       0.19259,
+       0.30208,
+       0.80741,
+       0.39505
+      ],
+      "built_bbox": [
+       0.19259,
+       0.30208,
+       0.80741,
+       0.39505
+      ],
+      "plan_phone_px": [
+       249,
+       67
+      ],
+      "built_phone_px": [
+       249,
+       67
+      ],
+      "max_delta_px": 0.0,
+      "metaphor_changed": false
+     },
+     {
+      "plan_name": "a settings panel",
+      "built_name": "a settings panel",
+      "plan_t": 14.2,
+      "built_t": 14.2,
+      "plan_bbox": [
+       0.24074,
+       0.2125,
+       0.75926,
+       0.35208
+      ],
+      "built_bbox": [
+       0.24074,
+       0.2125,
+       0.75926,
+       0.35208
+      ],
+      "plan_phone_px": [
+       210,
+       100
+      ],
+      "built_phone_px": [
+       210,
+       100
+      ],
+      "max_delta_px": 0.0,
+      "metaphor_changed": false
+     }
+    ],
+    "source_used_for_the_phone_test": "--plan",
+    "max_delta_px": 0.0,
+    "why": "the 2026-09-08 plan reconstruction folded the BUILT geometry in (scene notes 1-6 are history, not live deviations), so the plan's bboxes and its `t` values are now the sealed module's own HELD instants and boxes: both objects agree to 0.00 px and 0.00 s.  The crop is therefore taken from the PLAN, which is what the run asks for, and --geom would cut exactly the same pixels.  On this seat k = 1.0 and left = 0, so the cutout's canvas rects ARE the scene's and the cold namer sees the object it is meant to"
+   },
+   "render": {
+    "w": 1080,
+    "h": 1920,
+    "zoom": 1
+   },
+   "handle_key": "tiktok_ig",
+   "handle": "@migueltorrez.ai",
+   "captions": {
+    "n": 25,
+    "widest_px": 720.9,
+    "font_px": 56.2,
+    "pill_height_px": 114.59,
+    "sizes": 1,
+    "seat_max_w": 756.0,
+    "function_word_merges": 2,
+    "texts": [
+     "If you're using Cursor,",
+     "you can now",
+     "connect directly to",
+     "your Google Workspace.",
+     "This gives you read",
+     "and write access",
+     "to Gmail,",
+     "Google Calendar,",
+     "Google Drive,",
+     "as well",
+     "as Google Sheets.",
+     "Now,",
+     "you can do this",
+     "by connecting",
+     "your cursor from the",
+     "customized",
+     "page directly to",
+     "your Google Workspace.",
+     "Now follow for",
+     "more AI news,",
+     "videos,",
+     "and tutorials each",
+     "and every single day,",
+     "and catch you",
+     "in the next one"
+    ],
+    "source": "BUILT HERE from pipeline/captions.py, the canon every chassis reads \u2014 same transcript, same module and the same laws the split lane ran: split_balanced with the board-key forbid list (LAW 4), merge_function_only_beats over the WHOLE beat stream, the orphan repartition and assert_no_function_only_beat."
+   },
+   "caption_texts": [
+    "If you're using Cursor,",
+    "you can now",
+    "connect directly to",
+    "your Google Workspace.",
+    "This gives you read",
+    "and write access",
+    "to Gmail,",
+    "Google Calendar,",
+    "Google Drive,",
+    "as well",
+    "as Google Sheets.",
+    "Now,",
+    "you can do this",
+    "by connecting",
+    "your cursor from the",
+    "customized",
+    "page directly to",
+    "your Google Workspace.",
+    "Now follow for",
+    "more AI news,",
+    "videos,",
+    "and tutorials each",
+    "and every single day,",
+    "and catch you",
+    "in the next one"
+   ]
+  }
+ }
+}

@@ -1,0 +1,44 @@
+{
+  "tag": "confirm",
+  "cold_dir": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/review/cold/confirm-78bbf18b",
+  "reader": "one independent `claude -p` process per crop, launched from /tmp, handed ONLY the absolute path of a blind copy under a random token - no plan, no topic, no manifest, no sealed key, and no path naming the video",
+  "prompt": "Look at the image at <absolute path of one blind crop> . Name the single everyday object drawn in it. At most FIVE words. Reply with ONE line of JSON and nothing else: {\"name\":\"<=5 words\",\"confidence\":\"sure|unsure|cannot tell\"}",
+  "dispatched_at": "2026-09-15T15:08:41",
+  "cli": "2.1.272 (Claude Code)",
+  "source_crops": {
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/review/cold/04562c3c/00.png": "9186702787915627961023f7c5c7555da66a0d576555f246058a1dfc7e1dbe4d",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/review/cold/04562c3c/01.png": "dffc4c0d51b1c241f26538c67e5e6c42839556749f29f88de267e210bc2907b4",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/review/cold/04562c3c/02.png": "c08edd34b8900553fa82f04179091d27f374e53294686814cbe6e15ff9d301bd",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/review/cold/04562c3c/03.png": "e4281fde60f291cb31f51b8ddb7ffc3cf787108080bd8c0d8e8b7585bbbcbeee"
+  },
+  "names": [
+    {
+      "i": 0,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/review/cold/confirm-78bbf18b/00.png",
+      "name": "open book",
+      "confidence": "sure",
+      "crop_sha256": "9186702787915627961023f7c5c7555da66a0d576555f246058a1dfc7e1dbe4d"
+    },
+    {
+      "i": 1,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/review/cold/confirm-78bbf18b/01.png",
+      "name": "heart",
+      "confidence": "sure",
+      "crop_sha256": "dffc4c0d51b1c241f26538c67e5e6c42839556749f29f88de267e210bc2907b4"
+    },
+    {
+      "i": 2,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/review/cold/confirm-78bbf18b/02.png",
+      "name": "human head in profile",
+      "confidence": "unsure",
+      "crop_sha256": "c08edd34b8900553fa82f04179091d27f374e53294686814cbe6e15ff9d301bd"
+    },
+    {
+      "i": 3,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/review/cold/confirm-78bbf18b/03.png",
+      "name": "easel with canvas",
+      "confidence": "sure",
+      "crop_sha256": "e4281fde60f291cb31f51b8ddb7ffc3cf787108080bd8c0d8e8b7585bbbcbeee"
+    }
+  ]
+}

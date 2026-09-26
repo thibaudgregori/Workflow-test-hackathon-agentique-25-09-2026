@@ -1,0 +1,24 @@
+{
+ "label": "kimifable_split",
+ "video": "kimifable",
+ "format": "split",
+ "rule": "SCORE THE IDEA, NOT THE NOUN (Miguel, 2026-09-06; STANDARD.md -> THE PHONE TEST). A reader who names the drawn content, its container, or a sibling noun of the same thing PASSES; only a DIFFERENT thing, a hedge or 'cannot tell' FAILS.",
+ "rounds": ["review/phone_reader_kimifable_split.json"],
+ "objects": [
+  {"i": 0, "verdict": "PASS", "intended": "a price tag",
+   "reads": [{"name": "price tag", "confidence": "sure", "match": "intended"}],
+   "reason": "The reader named the intended object verbatim, sure. This is the drawing the artwork author sealed after the hung tag read as a birdhouse three times; laid flat it has read 'price tag' on every dispatch since."},
+  {"i": 1, "verdict": "PASS", "intended": "a benchmark scorecard",
+   "reads": [{"name": "clipboard", "confidence": "sure", "match": "synonym"}],
+   "reason": "SYNONYM. The object IS a clipboard: a board, a clip standing above its top edge, and a scored card held in it. The reader named the everyday object the picture is, which is exactly what the instrument asks for, and the claim the picture makes (one terracotta row of three) rides on the card inside it. The artwork seal scored the identical read the same way, 3/3 sure."},
+  {"i": 2, "verdict": "PASS", "intended": "a website layout",
+   "reads": [{"name": "Browser window", "confidence": "sure", "match": "synonym"}],
+   "reason": "SYNONYM, and it is the named case in the rule: 'browser window' for an app window PASSES. The drawing is a browser frame with an address bar, a hero and two columns; the reader named its container, which is the same visual idea. Never fail an object for omitting its container word or for a sibling noun of the same thing."},
+  {"i": 3, "verdict": "PASS", "intended": "a folder of designs",
+   "reads": [{"name": "file folder", "confidence": "sure", "match": "intended"}],
+   "reason": "The reader named the intended object, sure. The folder replaced a stack of three windows that every reader named correctly and only three of nine could commit to; as one object it seals."}
+ ],
+ "summary": {"objects": 4, "reads_per_object": 1, "sure": 4, "different": 0,
+             "verdict": "PASS", "rounds_dispatched": 1,
+             "note": "One independent round per object at the LANE gate (the three-round SEAL_ROUNDS rule binds the SHARED SCENE, and it was already satisfied: review/artwork_pass_kimifable.json records 3 independent rounds on these same four drawings, all sure)."}
+}

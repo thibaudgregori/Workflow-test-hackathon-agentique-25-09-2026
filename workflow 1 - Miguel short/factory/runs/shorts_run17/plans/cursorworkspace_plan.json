@@ -1,0 +1,823 @@
+{
+ "id": "cursorworkspace",
+ "duration_s": 21.532,
+ "reconstruction_note": "THIS FILE IS A RECONSTRUCTION, AND THE REASON IS A MISTAKE THIS AGENT MADE (2026-09-08 08:24). A plan agent completed this recording at 00:49 (review/agent_done_plan_cursorworkspace.json + state_plan_cursorworkspace.json), the artwork author sealed a shared scene against six independent cold-read rounds (review/artwork_pass_cursorworkspace.json), and the split lane built and phone-passed on it (review/phone_pass_cursorworkspace_split.json). The workflow then re-dispatched a plan agent because `stage_cache.py check --label plan_cursorworkspace` returned found=false - the cache's fingerprint covers every prep stage marker, and prep/stages/cursorworkspace.ship.override.json was written at 01:38, two minutes AFTER the cache was saved at 01:36. That is a SPURIOUS cache miss: the ship override restates a marker that was already ok and changes nothing the plan reads. The re-dispatched agent (this one) designed a fresh, incompatible plan and overwrote plans/cursorworkspace_plan.json, whose prior content (sha256 037304de7c3129137e815efedbcdbe830d6224861239d13e6eda13288ac76dcf) exists in no backup - stage_cache stores hashes, not blobs. The fresh design was discarded and this file was rebuilt to be the contract the surviving downstream artefacts already honour, from: gen/cursorworkspace_scene.py (the SEALED module, which carries CUE, RECTS, LIFETIMES, BESPOKE, DECLARED_BLOCKS, BOARD_CHAPTERS and BEAT_EDGES verbatim), plans/cursorworkspace_scene_handoff.md, plans/cursorworkspace_scene_notes.md (the eleven declared departures), plans/cursorworkspace_split_notes.md, and the prior plan agent's own structured return. WHAT CHANGED AGAINST THE ORIGINAL: the geometry below is the BUILT geometry, so the six departures scene_notes marks SEEN (three arches on four piers, three waves, the 11.46 chapter-1 erase, the shared 140 px app-key seat, the three chapter-0 keys raised 12-14 px, and the filled title bar with a 152 x 60 switch) are now folded in and the plan and the module agree instead of disagreeing - scene_notes 1, 2, 3, 4, 5 and 6 are therefore history, not live deviations. The original's own prose per beat is gone and the prose here is rewritten from the module's cue table and glyph docstrings; every NUMBER is the module's. NOTHING DOWNSTREAM NEEDS TO CHANGE: no lane may redraw the sealed module, and this file does not ask any of them to. The split/whiteboard/cutout stage caches for this video are invalid either way, because plans/<vid>_plan.json is inside their fingerprint and the file's bytes changed the moment it was overwritten.",
+ "lane": "icon choreography",
+ "lane_reason": "Every noun this script names is a shipping product with a real colour registry mark - Cursor, Google Workspace, Gmail, Google Calendar, Google Drive, Google Sheets - so the whole argument is carried by marks and by the one drawn thing that joins them, which is exactly the flagship lane's job; a diagram build would have to invent a mechanism the transcript never describes, and a counter/meter lane has no number to count because Miguel gives none.",
+ "shared_layout_note": "ONE geometry serves all three platforms. Canvas 1080x1920; every rect below is a CANVAS rect and the shared core is the same rect with y-192 (the module's CANVAS_OFFSET). ALL ink lives inside canvas y 290..758.5 and x 208..872. The band is derived, not chosen: (a) below the top-10% line y=192 (LAW 30) - y=290 is READ AND WRITE's box top, the highest ink in the video; (b) inside the WHITEBOARD's legal surface, board units x 40..536 / y 150..425 = canvas x 75..1005 / y 281.25..796.875 at S=1.875; (c) above the whiteboard's reserved clearance band, canvas rows 799.2..862.5, which the lowest ink (758.5, the trough of the lowest water wave) clears by 40.7 px; (d) above the split's RENDERING pill top, 960 - 114.59/2 = 902.705 - derived from the pill height that RENDERS (114.59), never from the frozen 108.2 seat constant - leaving 144.2 px of clearance, and 201.5 px above the seam at 960. Readable ink stops at x=872, clear of the right rail x>918 (LAW 30). The composition is mirror-symmetric about x=540 at every settled instant: the module's assert_geometry() measures the axis error on all FOURTEEN settled probes and reports 0.00 px on every one. GATE-SCALING (run 12): the cutout scales the shared core by ~0.95, and assert_geometry() measures all 66 concurrent non-block pairs across those probes - the tightest is key-cursor <-> read-arrow at 27.92 core px, which arrives as 26.52 canvas px on the cutout, above the 24 px AIM and not merely above the 16 px refusal. AN ARROW'S INK BOX IS THE CHEVRON'S EXTENT (+/-16 px), NEVER THE SHAFT'S (+/-4): declaring the shaft alone hides 8 px of real ink per side from every gutter, and data-overlap-ok removes connectors from Gate 1's cramp check, so assert_geometry() is the only instrument that sees LAW 40 and LAW 41 on this page. CUTOUT SEATING for THIS recording: plate_box top = 930.0 and the measured cap top on the plate is 65.1 px, so his cap top lands at canvas y = 995.1 (51.8% of frame height) against a lowest ink of 758.5 - 236 px of clearance, and nothing is ever declared `behind`. Seat the core by its CONTENT BAND, never by its 600 px box: top = centre - (CONTENT_Y0 + CONTENT_Y1)/2 * k.",
+ "canvas_rects": {
+  "bridge": [
+   208,
+   580,
+   872,
+   758.5
+  ],
+  "bridge_predisplace": [
+   208,
+   441,
+   872,
+   619.5
+  ],
+  "cursor-tile": [
+   244,
+   468,
+   356,
+   580
+  ],
+  "key-cursor": [
+   208,
+   384,
+   392,
+   442
+  ],
+  "ws-tile": [
+   724,
+   468,
+   836,
+   580
+  ],
+  "key-ws": [
+   700,
+   374,
+   860,
+   442
+  ],
+  "read-arrow": [
+   356,
+   469.92,
+   724,
+   501.92
+  ],
+  "write-arrow": [
+   356,
+   546.08,
+   724,
+   578.08
+  ],
+  "key-readwrite": [
+   383,
+   290,
+   697,
+   344
+  ],
+  "gmail-tile@4": [
+   220,
+   440,
+   332,
+   552
+  ],
+  "calendar-tile@4": [
+   396,
+   440,
+   508,
+   552
+  ],
+  "drive-tile@4": [
+   572,
+   440,
+   684,
+   552
+  ],
+  "sheets-tile@4": [
+   748,
+   440,
+   860,
+   552
+  ],
+  "key-gmail@4": [
+   206,
+   580,
+   346,
+   622
+  ],
+  "key-calendar@4": [
+   382,
+   580,
+   522,
+   622
+  ],
+  "key-drive@4": [
+   558,
+   580,
+   698,
+   622
+  ],
+  "key-sheets@4": [
+   734,
+   580,
+   874,
+   622
+  ],
+  "row_centres_by_stage": {
+   "1": [
+    540
+   ],
+   "2": [
+    452,
+    628
+   ],
+   "3": [
+    364,
+    540,
+    716
+   ],
+   "4": [
+    276,
+    452,
+    628,
+    804
+   ]
+  },
+  "panel-card": [
+   260,
+   408,
+   820,
+   676
+  ],
+  "panel-bar": [
+   263,
+   411,
+   817,
+   489
+  ],
+  "panel-cursor-tile": [
+   292,
+   426,
+   340,
+   474
+  ],
+  "panel-stripe": [
+   360,
+   441,
+   492,
+   459
+  ],
+  "panel-rule": [
+   263,
+   488,
+   817,
+   490
+  ],
+  "conn-row": [
+   292,
+   526,
+   788,
+   642
+  ],
+  "row-ws-tile": [
+   312,
+   542,
+   396,
+   626
+  ],
+  "row-text": [
+   424,
+   568,
+   568,
+   600
+  ],
+  "toggle-track": [
+   616,
+   554,
+   768,
+   614
+  ],
+  "toggle-knob_off": [
+   622,
+   560,
+   670,
+   608
+  ],
+  "toggle-knob_on": [
+   714,
+   560,
+   762,
+   608
+  ],
+  "key-page": [
+   390,
+   330,
+   690,
+   384
+  ],
+  "outro-glyph": [
+   390,
+   288,
+   690,
+   367
+  ]
+ },
+ "beats": [
+  {
+   "i": 0,
+   "t_start": 0.119,
+   "t_end": 3.759,
+   "words": "If you're using Cursor, you can now connect directly to your Google Workspace.",
+   "says": "Cursor now has one direct link into your Google Workspace.",
+   "picture": "AN ARCH BRIDGE draws itself, alone, centred on x=540 and centred in the band (0.460-1.10) - a thick horizontal deck, four piers dropping to the water, three equal near-semicircular arches between the pier feet, a waterline running a little past the structure on both sides and three wavy strokes under the arches. On 'Cursor,' (0.680) it DISPLACES DOWN 139 px to its seated home (1.100) and a 112 px tile carrying the real colour Cursor mark lands on the LEFT end of the deck, standing on it (1.160-1.46). At 1.520 CURSOR is written LARGE, alone, above that tile - the key term, and the first type on the board. On 'Google' (2.639) the mirror tile lands on the RIGHT end of the deck carrying the Google Workspace mark (2.720-3.02), and at 3.460 GOOGLE / WORKSPACE is written above it on two lines (3.46-3.74). The frame now reads as one lockup: your editor, a bridge, your Workspace.",
+   "objects": [
+    "bridge",
+    "cursor-tile",
+    "cursor-mark",
+    "key-cursor",
+    "ws-tile",
+    "ws-mark",
+    "key-ws"
+   ],
+   "emphasis": [],
+   "notes": "LAW 20 + the format-lab amendment: the hook is the video's IDEA as an OBJECT - a span you can cross - and it is a complete object from its first frame, so the vessel corollary (never park an empty gauge, trough, plate or outline in the opening) is satisfied by construction. LAW 19: it OPENS CENTRED on the axis and then MOVES ONCE to make room as the first bank arrives; that is the only displacement in the video. LAW 24 no peek-ahead: nothing about Gmail, Calendar, Drive, Sheets or the settings page exists on screen here. BUILD ORDER: the tiles STAND ON the deck (gutter 0 by construction, a declared block and an assembled drawing, never a collision). LAW 9 / whiteboard label-law clause 3: CURSOR is the key term, written FIRST among ALL type, ALONE, at 44 canvas px = 23.5 design units (>= KEY_TERM_MIN_FS 22) and the largest type in the video; 'Cursor,' is spoken 0.680-0.979 and the key lands at 1.520, inside its own word's LABEL_WINDOW. THE KEY TERM IS 'CURSOR' AND NOT 'GOOGLE WORKSPACE' for a mechanical reason, not a taste: assert_label_law requires the key term to be the FIRST type on the board, and any later candidate would force CURSOR's own key to precede it and refuse the build. ZERO-INK LAW: 0.000-0.460 is the composition's leading empty run and is the one exempt window."
+  },
+  {
+   "i": 1,
+   "t_start": 3.759,
+   "t_end": 6.5,
+   "words": "This gives you read and write access",
+   "says": "Traffic runs BOTH ways across that link - Cursor can pull data out and push data back.",
+   "picture": "Nothing is drawn through 'This gives you' - the picture is complete and nothing new has been named. On 'read' (4.500) an arrow draws RIGHT-TO-LEFT across the bridge, out of the Workspace tile's left edge and landing its open chevron on the Cursor tile's right edge (4.550-4.89). On 'write' (5.239) its mirror draws LEFT-TO-RIGHT on the lower anchor pair, landing on the Workspace tile (5.280-5.62). At 5.720 READ AND WRITE is written above the bridge, centred on x=540 (5.72-6.00). At 6.500 the whole chapter fades out over 0.22 s.",
+   "objects": [
+    "bridge",
+    "cursor-tile",
+    "ws-tile",
+    "read-arrow",
+    "write-arrow",
+    "key-readwrite",
+    "key-cursor",
+    "key-ws"
+   ],
+   "emphasis": [],
+   "notes": "This is the news of the short. LAW 11 factual placement: READ runs Workspace -> Cursor and WRITE runs Cursor -> Workspace; the directions are claims and are never swapped. LAW 40: each arrow lands on the VIRTUAL BOUNDING RECTANGLE of the tile it reaches, built with anchor_points(box, 2, side, inset=0.16) on the tiles' own facing edges - the pair is level to 0.00 px and mirror-symmetric about the tiles' own centre axis, and assert_geometry() re-derives and refuses a mismatch. THE HEADS ARE OPEN CHEVRONS, never solid triangles (run-16 finding: a solid head is a download glyph and it hijacks the crop). LAW 1: each arrow draws once and then HOLDS. LAW 45: the erase at 6.500 hands over rather than blanking - the Gmail tile starts INSIDE it at 6.680 and is a complete, nameable object at 6.98, 0.26 s after the erase completes."
+  },
+  {
+   "i": 2,
+   "t_start": 6.5,
+   "t_end": 11.279,
+   "words": "to Gmail, Google Calendar, Google Drive, as well as Google Sheets.",
+   "says": "The Workspace it reaches is your actual mail, calendar, Drive and Sheets.",
+   "picture": "The board clears and one tile is left standing: on 'Gmail,' (6.879) a 112 px tile carrying the real colour Gmail mark enters alone, centred on x=540 (6.680-6.98), and GMAIL is written under it (7.140). The row then GROWS, and every existing tile steps outward to keep the row centred as each new one lands: on 'Calendar,' (7.679) the row steps to two seats (7.660) and the Google Calendar tile arrives (7.700) with CALENDAR under it (8.060); on 'Drive,' (8.819) it steps to three (8.820), Google Drive arrives (8.860), DRIVE lands (9.220); on 'Sheets.' (10.719) it steps to four (10.720), Google Sheets arrives (10.760) and SHEETS lands (11.040, complete 11.32). Four real marks on one level row, four names in one shared seat. The chapter fades at 11.460.",
+   "objects": [
+    "gmail-tile",
+    "key-gmail",
+    "calendar-tile",
+    "key-calendar",
+    "drive-tile",
+    "key-drive",
+    "sheets-tile",
+    "key-sheets"
+   ],
+   "emphasis": [],
+   "notes": "LAW 2 + LAW 35 product-over-company: gmail, google-calendar, google-drive and google-sheets are the PRODUCT marks, never a Google-G fallback and never a drawn envelope, calendar page, folder or grid (LAW 33 bans generic glyphs). LAW 32 tile corner consistency: every tile in this video is the same 112 px rounded square, radius 18, 3 px rgba(17,17,17,.16) border on #FFFDF9 - the four here and the two in chapter 0 are one family. LAW 36: each mark sits inside its tile sized BY ITS INK and not by its box, so Gmail's 1.333-aspect envelope and Sheets' 0.727-aspect grid read as equals at 405x720 (MARK IDENTITY corollary). LAW 7 / run-15 lesson 7: THE FOUR KEYS SHARE ONE 140 px SEAT, sized by the widest requirement (CALENDAR, 133.2 px of ink) - four siblings at four different widths move the composition's optical axis off 540. LAW 29 / LAW 33: no anonymous plate is ever on the row; a seat that has not been spoken yet does not exist. THE ERASE IS AT 11.460 AND NOT ON 'Now,' (11.279): SHEETS finishes being written at 11.32, and a chapter that erases while a key is still arriving wipes a name mid-stroke - the erase moved into the gap between 'Now,' (ends 11.439) and 'you' (11.639), which is still the script's own hinge."
+  },
+  {
+   "i": 3,
+   "t_start": 11.279,
+   "t_end": 17.319,
+   "words": "Now, you can do this by connecting your cursor from the customized page directly to your Google Workspace.",
+   "says": "And here is the page where you actually flip the switch.",
+   "picture": "The board clears again and A SETTINGS PANEL enters (11.620, complete 11.90): a tall cream card with a filled title bar clipped to its own top radius, the Cursor mark sitting plain on that bar, a chrome title stripe beside it and a full-width hairline under it (11.94-12.04). On 'this / by' (12.219 / 12.579) ONE connector row draws inside it (12.600-12.90) carrying the Google Workspace mark, the word WORKSPACE, and a large toggle switch parked OFF (12.900-12.98). On 'connecting' (12.779) THE SWITCH FLIPS: the knob travels the track left-to-right over 0.30 s with a SWING ease and the track fills terracotta as one continuous pill (12.900). On 'page' (15.139) CUSTOMIZED PAGE is written above the card (15.300, complete 15.58). On 'Google' (16.279) the connector row's OWN border flips terracotta over 0.38 s and holds.",
+   "objects": [
+    "panel-card",
+    "panel-bar",
+    "panel-cursor-tile",
+    "panel-stripe",
+    "panel-rule",
+    "conn-row",
+    "row-ws-tile",
+    "row-text",
+    "toggle-track",
+    "toggle-knob",
+    "key-page"
+   ],
+   "emphasis": [
+    {
+     "target": "conn-row",
+     "kind": "box",
+     "why": "LAW 38 rule 2: the target is a DRAWN object - the connector row this factory draws itself - so BOXING is the right tool and boxing is fine. DOM lane = the PANEL BORDER FLIP, the row's OWN border tweened from rgba(17,17,17,0.16) to rgb(221,114,89) over 0.38 s with SOFT easing (the deepresearch_diagram_gen precedent), which adds no geometry and therefore no new gutter. The row carries a background, so Gate 1 never reads it as an emphasis outline and never reads the registry mark inside it as boxed image text - LAW 38 rule 2(b) is satisfied by construction, not by exemption. BOARD lane = whiteboard_build.box_emphasis(b, <the row's box>, 16.28, target='conn-row', pad=BOX_PAD_U), popped from scale 0.55 over 0.34 s, kind 'boxemph', and THE PEN TAPS ITS TOP-LEFT CORNER, never its centre (run-13 finding: the centre of a box is the finished ink it is framing). It is one block with the row's contents and with the card that holds them. NEVER a ring, an ellipse or a circle, on any target (rule 3, no legal use)."
+    }
+   ],
+   "notes": "LAW 1: the flip is the single motion in this chapter and it happens ONCE - it is not a loop and it never repeats. LAW 23: the toggle track is the only filled element in the video and it fills COMPLETELY, as one continuous pill inside a fully rounded container - no square end, no detached tick. LAW 39: CUSTOMIZED PAGE sits ABOVE the card, centred on the card's own axis x=540 to 0.00 px. TRANSCRIPT IS TRUTH: he says 'the customized page', so that is what is written - no card gets to tidy his words into the product's own menu name. LAW 45: the card starts INSIDE the 11.460 erase and is complete at 11.90, 0.22 s after the seam completes, well inside the 0.30 s ceiling. LAW 20's vessel corollary: the panel is never an empty frame - its title bar, its mark and its rule land within 0.14 s of the card itself, and the row it exists to show arrives 0.70 s later."
+  },
+  {
+   "i": 4,
+   "t_start": 17.319,
+   "t_end": 21.532,
+   "words": "Now follow for more AI news, videos, and tutorials each and every single day, and catch you in the next one",
+   "says": "The sign-off.",
+   "picture": "On 'Now' (17.319) an OPAQUE sheet rises over the visual zone and takes the settings panel with it (17.319-17.78) - a wipe, which is a whiteboard's own erase, never a fade and never a translucent scrim. The handle chip fades up on the sheet at 17.800 and holds to the end, centred, with THE BRIDGE drawn small and one step heavier directly above it on the same centre axis, a terracotta rule between them and the `daily AI` micro-line under the handle. Nothing else is on screen.",
+   "objects": [
+    "outro-sheet",
+    "outro-glyph",
+    "outro-rule",
+    "handle-chip"
+   ],
+   "emphasis": [],
+   "notes": "ROUND-2/3 LAW 3 + whiteboard label-law clause 4: the board EXITS as an OPAQUE RISING SHEET and the handle card starts only once the wipe has finished - the sheet is itself ink, so the zone's ink never reaches zero across the handover. assert_outro_clear(): no ink is authored at or after the 17.319 anchor; the last authored ink in the video ends at 16.66, 0.66 s of margin. OUTRO ALIGNMENT (2026-08-10): the exit screen is ONE centred layout on x=540 - glyph, rule, handle, daily AI - with no pointers, no diagram remnants and NO third-party marks (the ATTRIBUTION law, which matters here because six brand marks were on screen a second earlier). LAW 10 as amended 2026-09-01 + captions.py section 4: the THEME is per-video (the bridge glyph, this video's own object) and the HANDLE is per-platform - the YouTube split renders @migueltorrezai, the TikTok cutout and the Reels whiteboard render @migueltorrez.ai, and re-rendering the variant changes nothing outside the chip's own rows. This beat is 4.21 s of a 21.53 s take (19.6%), because the spoken sign-off is that long; it holds one composition and adds no second event."
+  }
+ ],
+ "bespoke_objects": [
+  {
+   "name": "an arch bridge",
+   "t": 2.3,
+   "bbox": [
+    0.19259,
+    0.30208,
+    0.80741,
+    0.39505
+   ],
+   "space": "norm",
+   "why_bespoke": "No stock mark says 'there is now one direct span between these two things, and traffic crosses it in both directions'. The Cursor mark says which editor and the Google marks say which apps; a bridge says the thing the whole video turns on, and it is the only object here that can hold BOTH banks at once and then carry two arrows in opposite directions across it - so the hook object and the object the read/write claim is argued on are the same object. It is also the outro's themed glyph, which is what makes the exit screen this video's and not a chassis default.",
+   "how_drawn": "A thick horizontal DECK (stroke 13) with FOUR piers dropping from it to the water at x 246 / 442 / 638 / 834, THREE equal 196 px spans each carrying a near-semicircular arch (rx 98, ry 100, apex 30 px under the deck's ink), a WATERLINE running the full width and a little past the structure on both sides, and THREE wavy strokes below it, one under each arch, in MUTE. Drawn 0.460-1.10 centred in the band, displaced DOWN 139 px at 1.100 to its seated home. THE ARCHES AND THE WAVES ARE NOT DECORATION: at the phone test's 249 x 67 device px, one shallow arch between two legs is a bench and a straight dash under a structure is an underline - a REPEATED arch is what makes 'bridge' the head noun and a WAVE is what makes it water. Bbox is the SPLIT placement (k=1, top=192); the core box is (208, 388, 872, 566.5) and the cutout maps it from its own k and top.",
+   "cold_read": "SEALED 6/6 sure across six independent rounds and two reader models: bridge / arched bridge over water / bridge / bridge / arch bridge / bridge. Zero readers named a different object."
+  },
+  {
+   "name": "a settings panel",
+   "t": 14.2,
+   "bbox": [
+    0.24074,
+    0.2125,
+    0.75926,
+    0.35208
+   ],
+   "space": "norm",
+   "why_bespoke": "The last claim is about a PLACE - a page inside Cursor with a control on it - and a place with a switch on it is the one thing no registry mark can show. A tile carrying the Cursor logo says which product; a card with a title bar, one connector row and one big switch says 'this is a settings page and this is the thing you flip', which is the literal content of 'connecting your cursor from the customized page'. It is also the only element in the video whose single motion - the knob travelling once - IS the claim.",
+   "how_drawn": "A 560 x 268 cream card (radius 22, 3 px ink-alpha border) with a FILLED MOUNT title bar clipped to its top radius, the Cursor mark sitting PLAIN on that bar at ink 34 (no tile of its own), a chrome title stripe beside it and a full-width hairline under it; then ONE connector row inside it (radius 16, 2 px border) carrying an 84 px Google Workspace tile, the word WORKSPACE at 24 px, and a 152 x 60 TOGGLE with a 48 px knob that travels 92 px left-to-right over 0.30 s while the track fills terracotta. THE SWITCH IS THE SUBJECT and it is drawn that way: 57 x 23 device px on a 405x720 phone, the single biggest feature in the crop.",
+   "cold_read": "SEALED with twelve reads across four drawings naming 'toggle switch' and NOTHING ELSE - zero readers naming a different object - at 3/6 sure. The three hedges are all one reader model, which also hedged on a control crop of the connector row alone (review/proofs_cursorworkspace/diag/diag_row.json), so the hedge is about UI mocks as a class rather than about this drawing; a second independent model returned sure 3/3. All six rounds, hedges included, are in review/artwork_pass_cursorworkspace.json."
+  }
+ ],
+ "labels": [
+  {
+   "for": "cursor-tile",
+   "text": "CURSOR",
+   "place": "above",
+   "at": 1.52,
+   "note": "THE KEY TERM (LAW 9 / whiteboard label-law clause 3): written FIRST among all type, ALONE, at 44 canvas px = 23.5 design units (>= KEY_TERM_MIN_FS 22), the largest type in the video, in a 184 px seat [208,384,392,442] whose centre 300 is the tile's own centre 300. 'Cursor,' is spoken 0.680-0.979 and the key lands at 1.520, inside its own word's LABEL_WINDOW of the whole entrance. LAW 39: ABOVE. The seat is 184 and not 190 px so its left edge stops at x=208, exactly the bridge's own left ink extent - otherwise the one-bank instant at 2.30 s puts the optical axis at 538.5 instead of 540. Declare data-label-for=\"cursor-tile\"."
+  },
+  {
+   "for": "ws-tile",
+   "text": "GOOGLE\nWORKSPACE",
+   "place": "above",
+   "at": 3.46,
+   "note": "LAW 39: ABOVE, two lines at 26 px in a 160 px seat [700,374,860,442] whose centre 780 is the tile's own centre 780. 'Workspace.' is spoken from 2.960 and the key lands 0.50 s later, inside LABEL_WINDOW. TWO LINES because one line of GOOGLE WORKSPACE at a legible size would cross the right rail; the same construction that let kimiwork put the `claude` mark under the written key ANTHROPIC. Registry key `google-workspace` - the gradient G that workspace.google.com itself declares as its icon, which is the PRODUCT's own mark under LAW 35 and deliberately NOT `google-g` (the flat four-colour Search G)."
+  },
+  {
+   "for": "bridge",
+   "text": "READ AND WRITE",
+   "place": "above",
+   "at": 5.72,
+   "note": "LAW 39: ABOVE, 34 px in a 314 px seat [383,290,697,344] whose centre 540 is the bridge's own centre AND the two arrows' own centre. 'write' is spoken 5.239-5.439 and the key lands 0.48 s later, inside LABEL_WINDOW. It is the highest ink in the video (canvas y 290) and it is 98 px below the top-10% line. caption_identity_guard is an OVERLAP test: it refuses a board word only while an IDENTICAL pill is alive, and the pill carrying 'read and write access' has left by 5.720."
+  },
+  {
+   "for": "gmail-tile",
+   "text": "GMAIL",
+   "place": "below",
+   "at": 7.14,
+   "note": "LAW 39: BELOW, in the shared 140 px sibling seat, centred on its own tile's axis to 0.00 px at every stage of the growing row. 'Gmail,' ends 7.239 and the key lands 0.26 s after its word start, inside LABEL_WINDOW. One block with its tile and its mark."
+  },
+  {
+   "for": "calendar-tile",
+   "text": "CALENDAR",
+   "place": "below",
+   "at": 8.06,
+   "note": "LAW 39: BELOW, same 140 px seat - and CALENDAR is the widest requirement at 133.2 px of ink, which is what sizes the seat for all four. 0.38 s after 'Calendar,' starts."
+  },
+  {
+   "for": "drive-tile",
+   "text": "DRIVE",
+   "place": "below",
+   "at": 9.22,
+   "note": "LAW 39: BELOW, same seat, 0.40 s after 'Drive,' starts."
+  },
+  {
+   "for": "sheets-tile",
+   "text": "SHEETS",
+   "place": "below",
+   "at": 11.04,
+   "note": "LAW 39: BELOW, same seat, 0.32 s after 'Sheets.' starts; complete at 11.32 and holding 0.14 s before the chapter erase at 11.460 - which is why that erase is at 11.46 and not on 'Now,' at 11.279."
+  },
+  {
+   "for": "panel-card",
+   "text": "CUSTOMIZED PAGE",
+   "place": "above",
+   "at": 15.3,
+   "note": "LAW 39: ABOVE, 30 px in a 300 px seat [390,330,690,384] whose centre 540 is the card's own centre. 'page' is spoken 15.139-15.479 and the key lands 0.16 s after its start, inside LABEL_WINDOW. TRANSCRIPT IS TRUTH: his words, not the product's own menu name for that surface."
+  }
+ ],
+ "lifetimes": [
+  {
+   "mark": "bridge",
+   "t_from": 1.46,
+   "t_to": 6.5,
+   "anchor": null,
+   "note": "LAW 42: this board is CHAPTERED (LAW 43's default), so EVERY mark carries a finite t_to and the DOM emits NO data-anchor at all - all 31 rigids are declared. t_from is the entrance's COMPLETION, the instant the object is settled and nameable, because that is what a gate should measure."
+  },
+  {
+   "mark": "cursor-tile",
+   "t_from": 1.46,
+   "t_to": 6.5,
+   "anchor": null,
+   "note": "Chapter 0. Stands on the deck; one block with the bridge and its key."
+  },
+  {
+   "mark": "key-cursor",
+   "t_from": 1.84,
+   "t_to": 6.5,
+   "anchor": null,
+   "note": "The key term. One block with its tile."
+  },
+  {
+   "mark": "ws-tile",
+   "t_from": 3.02,
+   "t_to": 6.5,
+   "anchor": null,
+   "note": "The mirror bank. Chapter 0."
+  },
+  {
+   "mark": "key-ws",
+   "t_from": 3.74,
+   "t_to": 6.5,
+   "anchor": null,
+   "note": "One block with its tile."
+  },
+  {
+   "mark": "read-arrow",
+   "t_from": 4.89,
+   "t_to": 6.5,
+   "anchor": null,
+   "note": "Declared in the block of the tile it leaves AND the tile it lands on, so a gutter of exactly 0 at either end is a connector landing and never a cramp."
+  },
+  {
+   "mark": "write-arrow",
+   "t_from": 5.62,
+   "t_to": 6.5,
+   "anchor": null,
+   "note": "The mirror, on the same rules."
+  },
+  {
+   "mark": "key-readwrite",
+   "t_from": 6.0,
+   "t_to": 6.5,
+   "anchor": null,
+   "note": "Last ink of chapter 0; it holds 0.50 s before the erase."
+  },
+  {
+   "mark": "gmail-tile",
+   "t_from": 6.98,
+   "t_to": 11.46,
+   "anchor": null,
+   "note": "Chapter 1. It ENTERS at 6.680, inside the 6.500 erase (LAW 45's SEAM_LAP), and is a complete nameable object 0.26 s after that erase completes."
+  },
+  {
+   "mark": "key-gmail",
+   "t_from": 7.42,
+   "t_to": 11.46,
+   "anchor": null,
+   "note": "One block with its tile."
+  },
+  {
+   "mark": "calendar-tile",
+   "t_from": 8.0,
+   "t_to": 11.46,
+   "anchor": null,
+   "note": "Chapter 1."
+  },
+  {
+   "mark": "key-calendar",
+   "t_from": 8.34,
+   "t_to": 11.46,
+   "anchor": null,
+   "note": "One block with its tile."
+  },
+  {
+   "mark": "drive-tile",
+   "t_from": 9.16,
+   "t_to": 11.46,
+   "anchor": null,
+   "note": "Chapter 1."
+  },
+  {
+   "mark": "key-drive",
+   "t_from": 9.5,
+   "t_to": 11.46,
+   "anchor": null,
+   "note": "One block with its tile."
+  },
+  {
+   "mark": "sheets-tile",
+   "t_from": 11.06,
+   "t_to": 11.46,
+   "anchor": null,
+   "note": "Chapter 1."
+  },
+  {
+   "mark": "key-sheets",
+   "t_from": 11.32,
+   "t_to": 11.46,
+   "anchor": null,
+   "note": "The last name written in the chapter; it must be COMPLETE before the erase, which is why the erase is 11.46."
+  },
+  {
+   "mark": "panel-card",
+   "t_from": 11.9,
+   "t_to": 17.319,
+   "anchor": null,
+   "note": "Chapter 2. Enters at 11.620 inside the 11.460 erase; complete 0.22 s after that erase completes (LAW 45)."
+  },
+  {
+   "mark": "panel-bar",
+   "t_from": 11.94,
+   "t_to": 17.319,
+   "anchor": null,
+   "note": "Inside the card's block."
+  },
+  {
+   "mark": "panel-cursor-tile",
+   "t_from": 11.9,
+   "t_to": 17.319,
+   "anchor": null,
+   "note": "The Cursor mark PLAIN on the bar, not in a tile of its own - run-16's finding: a rounded card inside a rounded frame is the shape cold readers hedge on. A `mark:` rigid is a DECORATION under LAW 39 and never hosts a label."
+  },
+  {
+   "mark": "panel-stripe",
+   "t_from": 12.0,
+   "t_to": 17.319,
+   "anchor": null,
+   "note": "CHROME, not type - the title bar a window wears."
+  },
+  {
+   "mark": "panel-rule",
+   "t_from": 12.04,
+   "t_to": 17.319,
+   "anchor": null,
+   "note": "Inside the card's block."
+  },
+  {
+   "mark": "conn-row",
+   "t_from": 12.9,
+   "t_to": 17.319,
+   "anchor": null,
+   "note": "The emphasis target. One block with everything it holds and with the card that holds it."
+  },
+  {
+   "mark": "row-ws-tile",
+   "t_from": 12.9,
+   "t_to": 17.319,
+   "anchor": null,
+   "note": "84 px tile at radius 14 - the same tile grammar at a smaller radius."
+  },
+  {
+   "mark": "row-text",
+   "t_from": 12.96,
+   "t_to": 17.319,
+   "anchor": null,
+   "note": "WORKSPACE at 24 px in a 144 px seat; its content was spoken at 2.960, so nothing peeks ahead."
+  },
+  {
+   "mark": "toggle-track",
+   "t_from": 12.96,
+   "t_to": 17.319,
+   "anchor": null,
+   "note": "LAW 23: it fills COMPLETELY as one continuous pill inside a fully rounded container - no square end, no detached tick, no sliver."
+  },
+  {
+   "mark": "toggle-knob",
+   "t_from": 12.98,
+   "t_to": 17.319,
+   "anchor": null,
+   "note": "Travels 92 px once at 12.900 over 0.30 s with a SWING ease, then holds forever (LAW 1)."
+  },
+  {
+   "mark": "key-page",
+   "t_from": 15.58,
+   "t_to": 17.319,
+   "anchor": null,
+   "note": "Last ink authored in the video; it holds 1.74 s before the outro anchor, which is what assert_outro_clear() needs."
+  },
+  {
+   "mark": "emph-conn-row",
+   "t_from": 16.28,
+   "t_to": 17.319,
+   "anchor": null,
+   "note": "LAW 42: an emphasis lives only inside the beat that argues it. It is the border flip on the row's own border and it adds no geometry, so it creates no new gutter."
+  }
+ ],
+ "connectors": [
+  {
+   "to": "cursor-tile",
+   "from": [
+    "ws-tile"
+   ],
+   "note": "THE READ ARROW. LAW 40's letter governs two or more arrows into ONE target and this video sends one arrow into each of TWO different targets, so the letter does not bind - the ends are built with the law's own helper anyway, because hand-placed ends are the defect the law exists to stop. anchor_points(CURSOR_BOX, 2, 'right', 0.16) and anchor_points(WS_BOX, 2, 'left', 0.16) return the SAME pair of y values on their own facing edges, so the two arrows are LEVEL to 0.00 px with each other and mirror-symmetric about the tiles' own centre axis; assert_geometry() re-derives both and refuses a mismatch. The read arrow leaves the Workspace tile's left edge on the upper anchor and lands its open chevron on the Cursor tile's right edge, terminating AT the virtual rectangle and never on top of it (LAW 7). Its ink box is the CHEVRON's extent (+/-16 px), never the shaft's. Declare data-connect-to=\"cursor-tile\" and data-overlap-ok (a connector is supposed to touch what it joins). It crosses no printed type at any point: nothing is written in the band it occupies."
+  },
+  {
+   "to": "ws-tile",
+   "from": [
+    "cursor-tile"
+   ],
+   "note": "THE WRITE ARROW, the exact mirror on the lower anchor pair: it leaves the Cursor tile's right edge and lands on the Workspace tile's left edge, drawn on 'write' (5.239). Same helper, same inset, same 0.00 px level, same open chevron, same ink-box rule. Declare data-connect-to=\"ws-tile\" and data-overlap-ok. NOTE FOR ANY LANE RE-DERIVING THESE: with n = 2 the helper's fractions are 0.16 and 0.84, which on a 112 px tile give core y 293.92 and 370.08 (canvas 485.92 and 562.08) - re-derive rather than copying a number out of prose."
+  }
+ ],
+ "blocks": [
+  [
+   "bridge",
+   "cursor-tile",
+   "key-cursor"
+  ],
+  [
+   "bridge",
+   "ws-tile",
+   "key-ws"
+  ],
+  [
+   "bridge",
+   "read-arrow",
+   "write-arrow",
+   "key-readwrite"
+  ],
+  [
+   "cursor-tile",
+   "read-arrow"
+  ],
+  [
+   "ws-tile",
+   "read-arrow"
+  ],
+  [
+   "ws-tile",
+   "write-arrow"
+  ],
+  [
+   "cursor-tile",
+   "write-arrow"
+  ],
+  [
+   "gmail-tile",
+   "key-gmail"
+  ],
+  [
+   "calendar-tile",
+   "key-calendar"
+  ],
+  [
+   "drive-tile",
+   "key-drive"
+  ],
+  [
+   "sheets-tile",
+   "key-sheets"
+  ],
+  [
+   "panel-card",
+   "panel-bar",
+   "panel-cursor-tile",
+   "panel-stripe",
+   "panel-rule",
+   "conn-row",
+   "key-page"
+  ],
+  [
+   "conn-row",
+   "row-ws-tile",
+   "row-text",
+   "toggle-track",
+   "toggle-knob"
+  ],
+  [
+   "panel-card",
+   "panel-bar",
+   "panel-cursor-tile",
+   "panel-stripe",
+   "panel-rule",
+   "conn-row",
+   "row-ws-tile",
+   "row-text",
+   "toggle-track",
+   "toggle-knob",
+   "key-page"
+  ]
+ ],
+ "blocks_note": "LAW 41: anything authored as ONE object that geometry cannot infer. CHAPTER 0 IS ONE ASSEMBLED DRAWING - the two tiles STAND ON the deck, so their gutter to the bridge is 0 by construction, and each arrow LANDS ON a tile's edge, so its gutter is 0 by law; each arrow is therefore declared in the block of the tile it LEAVES and the block of the tile it REACHES, because data-block holds one value and in the DOM the arrows carry data-overlap-ok instead. Chapter 1's welded key/tile pairs and chapter 2's container contents would be inferred anyway and are declared for the DOM lane. TIGHTEST NON-BLOCK GUTTER IN THE BUILT SCENE, measured across all 66 concurrent non-block pairs at fourteen settled instants: 27.92 core px (key-cursor <-> read-arrow, and key-ws <-> read-arrow), which arrives as 26.52 canvas px on the cutout's ~0.95 core scale. Next: 30.15 (key-ws <-> key-readwrite) and 36.00 (key-calendar <-> key-drive). Every one is above the 24 px AIM on both lanes, not merely above the 16 px refusal.",
+ "pointing_cues": [],
+ "pointing_cues_note": "LAW 37: `pipeline/pointing_cues.py --vid cursorworkspace` was run BY THE PLAN AGENT at plan time and re-run by this reconstruction, and both times returned 'no pointing cue in this take' - ZERO cues, written to shorts_run17/gen/_cues_cursorworkspace.json as {'vid':'cursorworkspace','cues':[],'cue_window_s':1.0,'card_hold_s':[2.0,4.0]}. The prep cues marker agrees (prep/stages/cursorworkspace.cues.json: status ok, cue_count 0). That matches the transcript: across all 66 spoken words there is no 'this guy', no 'someone on X', no 'a post', no platform named as a SOURCE and no URL - Miguel is stating a product capability in the second person, not citing anybody. So there is nothing to answer and nothing to waive, assert_cues_covered([], []) passes trivially, and NO source-post card may be invented for any beat: GLOBAL LAW 3 allows a post on screen only when the post IS the news. The run-13 platform ruling does not engage: Gmail, Google Calendar, Google Drive and Google Sheets are the TOOLS being connected, not the place the news came from, and they appear as registry marks in tiles, never as post cards. There is no raster text anywhere in this video, so LAW 38's marker HIGHLIGHT never engages either - the one emphasis in the plan is a BOX on a drawn object, which is the only correct tool here.",
+ "boards": {
+  "mode": "chapters",
+  "why": "LAW 43: CHAPTERS ARE THE DEFAULT, and this take is what the default is for. The script makes THREE arguments, not one that accumulates: (1) Cursor now has one direct link into your Google Workspace, and traffic crosses it both ways; (2) the Workspace it reaches is these four named apps; (3) here is the page with the switch you flip. Holding all three in one frame would need a bridge with two banks, a four-tile row and a settings card on screen together - which is the 210 u strip that produced impossibletask_whiteboard, too small to read and too full to keep drawing. Each chapter is planned to FIT its own ideas at legible scale on the whole legal surface, and LAW 41's spacing is applied PER BOARD. Both seams HAND OVER rather than blanking (LAW 45): each erase's 0.22 s fade-out overlaps the incoming object's entrance - the Gmail tile enters at 6.680 inside the 6.500 erase and is complete at 6.98, 0.26 s after the seam completes; the settings card enters at 11.620 inside the 11.460 erase and is complete at 11.90, 0.22 s after - so the visual zone's ink never reaches zero and both handovers land on a complete, nameable object inside LAW 45's 0.30 s ceiling. Because the board is chaptered, LAW 42 wants a finite t_to on every mark: all 31 are declared and the DOM emits no data-anchor at all.",
+  "chapters": [
+   {
+    "i": 0,
+    "t_start": 0.119,
+    "t_end": 6.5,
+    "erase_at": 6.5,
+    "holds": [
+     "bridge",
+     "cursor-tile",
+     "key-cursor",
+     "ws-tile",
+     "key-ws",
+     "read-arrow",
+     "write-arrow",
+     "key-readwrite"
+    ],
+    "why_together": "ONE mechanism: a span, its two banks, and the two-way traffic across it. The bridge drawn in the first second is the thing the arrows cross at 5 s, and READ AND WRITE is the name of the shape all of it makes. Nothing in this chapter is about WHICH apps or about WHERE you switch it on."
+   },
+   {
+    "i": 1,
+    "t_start": 6.68,
+    "t_end": 11.46,
+    "erase_at": 11.46,
+    "holds": [
+     "gmail-tile",
+     "key-gmail",
+     "calendar-tile",
+     "key-calendar",
+     "drive-tile",
+     "key-drive",
+     "sheets-tile",
+     "key-sheets"
+    ],
+    "why_together": "ONE list, named four times, and it needs the whole legal surface to sit as four 112 px tiles with four names on one level row. The row GROWS and re-centres as each tile lands, so the chapter is centred on x=540 at every settled instant instead of only at the end."
+   },
+   {
+    "i": 2,
+    "t_start": 11.62,
+    "t_end": 17.319,
+    "erase_at": 17.319,
+    "holds": [
+     "panel-card",
+     "panel-bar",
+     "panel-cursor-tile",
+     "panel-stripe",
+     "panel-rule",
+     "conn-row",
+     "row-ws-tile",
+     "row-text",
+     "toggle-track",
+     "toggle-knob",
+     "key-page",
+     "emph-conn-row"
+    ],
+    "why_together": "ONE place: the page, its row and its switch. erase_at is the OUTRO WIPE (an opaque rising sheet), not a chapter seam - assert_zone_never_blank() must hold across it and assert_outro_clear() must find no ink authored at or after 17.319."
+   }
+  ],
+  "key_term": "CURSOR"
+ },
+ "marks": {
+  "cursor": "assets/logos/coding-tools/cursor.png - the story's subject editor, on the STAGE, colour (LAW 12), at ink 56 in #cursor-tile and ink 34 plain on the settings panel's title bar.",
+  "google-workspace": "assets/logos/platforms/google-workspace.png - REGISTERED BY THE ARTWORK STAGE (it did not exist at plan time; the plan's open question 1 named it as a procedure, not a decision). It is the icon workspace.google.com declares in its own <link rel=\"icon\">: the GRADIENT Google G, 256x256, served by Google for that property. Google publishes no single-glyph Workspace mark - the SVG wordmark is 3995x512 and the product-icon strip is a collage - so this is the PRODUCT's own icon under LAW 35 and deliberately a different file from `google-g` (the flat four-colour Search G, which the plan correctly bans as a fallback). Ink 56 in #ws-tile, ink 42 in the connector row.",
+  "gmail": "assets/logos/platforms/gmail-color.png - colour, the PRODUCT mark, never a drawn envelope (LAW 33).",
+  "google-calendar": "assets/logos/platforms/google-calendar.png - REGISTERED BY THE ARTWORK STAGE. Colour, the PRODUCT mark.",
+  "google-drive": "assets/logos/platforms/google-drive.svg - colour, the PRODUCT mark, never a drawn folder.",
+  "google-sheets": "assets/logos/platforms/google-sheets.png - REGISTERED BY THE ARTWORK STAGE. Colour, the PRODUCT mark, never a drawn grid.",
+  "_generation_note": "THE FOUR APP MARKS ARE ONE GENERATION, ON PURPOSE. Google shipped a refreshed Workspace icon family in 2026, but the registry's existing `gmail` and `google-drive` are the 2020 family and are consumed by other videos, so the two new keys were registered in the 2020 family too - four marks in one level row have to read as siblings, and a row that is half old-style and half new-style is a defect a still frame can see. Refreshing all four is a registry-owner's task, not a per-video choice; the finding is written into both new registry entries.",
+  "_ink_note": "Marks are sized BY THEIR INK, never by their box (MARK IDENTITY corollary): Gmail's envelope is aspect 1.333, Calendar 1.000, Drive 1.093, Sheets 0.727 and the gradient G 0.980, and mark_img's ink-area sizing is what makes the four-tile row read as equals at 405x720."
+ },
+ "cast": [
+  "claude-code",
+  "codex",
+  "copilot",
+  "notion",
+  "slack",
+  "airtable"
+ ],
+ "cast_note": "TOPICAL, and it is the comparison this script implies: Cursor's peer coding agents and the workspaces people connect them to. `claude-code`, `codex` and `copilot` are the sibling agents whose users are asking the same question; `notion`, `slack` and `airtable` are the other workspaces a connector reaches. Every one is a REAL registered colour mark that resolves on disk (re-verified 2026-09-08 against assets/logos/registry.json) - assert_cast_resolves() must pass before a frame renders - and none is a consumer-app wall, a placeholder or a generic glyph (LAWS 29 and 33). MARK IDENTITY: `claude-code` is the plain no-outline mascot (assets/logos/coding-tools/claudecode-color.png), NEVER `claude-code-sticker`. The story's OWN subject marks are deliberately absent: `cursor`, `google-workspace`, `gmail`, `google-calendar`, `google-drive` and `google-sheets` all live on the STAGE, and a subject mark in the depth field is the run-9 defect ROUND-2/3 law 6 names.",
+ "cutout_logo_lanes": [
+  "claude-code",
+  "codex",
+  "copilot",
+  "notion",
+  "slack",
+  "airtable"
+ ],
+ "cutout_logo_lanes_note": "The same topical roster, per Miguel's run-13 review ('it would be cool if the logos behind me in cutout are relevant to the video'): the marks travelling the parallax lanes are the peer agents and the workspaces they connect to, so the wall argues 'this is the category Cursor just joined' instead of being scenery with a logo in it. A generic house set is a rejection. Repeat marks across the lanes rather than leaving a grey blank (LAW 29). The six subject marks stay on the stage, never in the lanes.",
+ "per_lane_notes": {
+  "shared_scene": "gen/cursorworkspace_scene.py, SEALED by review/artwork_pass_cursorworkspace.json against six independent cold-read rounds of both bespoke objects. Entry point SC.build(media, lockup) -> (html, tweens); call SC.assert_geometry() before writing a byte. Seating instructions: plans/cursorworkspace_scene_handoff.md. NO LANE MAY REDRAW IT. If a reader refuses one of its objects on your round, that is a repair round and it HAS an owner: take `production.py scene-lock --run shorts_run17 --vid cursorworkspace --holder <lane>`, redraw, re-read cold over three rounds and re-run artwork-pass.",
+  "split_youtube": "The shared core drops into the top zone at k = 1.00, left = 0.0, top = 192.0, so every canvas rect above is literal. Lowest ink 758.5 leaves 144.2 px under the rendering pill's top (902.705) and 201.5 px above the seam (960). Emphasis is the panel border flip on the connector row's own border. Handle @migueltorrezai. Authored and encoded 1080x1920, zoom 1 - no portrait-4k, no data-width 2160 (HD DELIVERY, 2026-09-03). Every canvas_rects entry is built and asserted to within 2 px (2026-09-05 rule, from harnessrace's chip die). STATE: this lane has already built and phone-passed on the sealed module (review/phone_pass_cursorworkspace_split.json).",
+  "cutout_tiktok": "The SAME module, seated in the stage zone: k = (ZY1 - ZY0) / (SC.CONTENT_Y1 - SC.CONTENT_Y0) off YOUR session's envelope (the content band is 468.5 core px tall, NOT the 600 px box), top = centre - (CONTENT_Y0 + CONTENT_Y1)/2 * k, left = (1080 - 1080k)/2. THIS RECORDING'S PLATE IS OVER-WIDE (prep marker: crop 2534x1810+543+210, scale_k 0.497238, head_px_on_canvas 450.2, overwide_applied true, face_dx_pct -0.02, visible_window_drift_master_px 0.0), so plate_origin() MUST read `left` = -153.0 from matting/cursorworkspace/plate.json -> overwide.plate_box (w 1386.0, h 990.0, top 930.0, right 1233.0, centred false) and NEVER compute (1080 - box_w)/2. His measured cap top lands at canvas y = 930.0 + 65.1 = 995.1 (51.8% of frame height), so with the split's own seating the lowest ink would clear him by 236 px - re-derive it from YOUR envelope, because your top is not the split's, and nothing here is ever declared `behind`. Depth band = the topical roster above; you still own cutout_depthfield.assert_cast_resolves(). Captions over the torso only. Handle @migueltorrez.ai. THE POP-BEHIND: the plan spends no beat on one; the three arrivals that could carry it are the chapter-1 tiles at 7.70 / 8.86 / 10.76, and if you spend the format's best detail there, suppress the scene's own popin on that element. WING REVIEW: the prompt0 marker HAS landed (wing_review true, wings_source 'MEASURED on this plate's frame 0', wing_right null, wing_left null, wing_cut_applied false, removed_px 0) - the instrument proposed no cut and abstains rather than guessing, so the eyeball check on matting/cursorworkspace/prompts/kf_overlay_00000.png is the cutout author's.",
+  "whiteboard_reels": "The whiteboard does NOT import the module: it redraws the SAME ARGUMENT as marker ink from this plan - three chapters, the same three pictures, the same eight keys, the same two bespoke objects. Divide every canvas rect by S=1.875 to land in the board's legal surface (board units x 40..536 / y 150..425): canvas 208..872 -> board 110.9..465.1 in x, canvas 290..758.5 -> board 154.7..404.5 in y, both inside it. Named tools carry their registry marks INKED IN via the build's own mark() helper alongside their handwritten keys (whiteboard law 2), in colour, because all six are products with registry entries. DRAW THREE ARCHES AND DRAW WAVES: the same two drawings cost the artwork stage four rounds, and the findings are (a) a repeated arch is what makes 'bridge' the head noun instead of 'bar on legs', (b) a straight dash under a structure is an underline and a wave is water, (c) the settings object IS the switch, so draw the switch big and let it be the subject, and (d) a rounded card inside a rounded frame is the shape readers hedge on - put the mark plain on a filled title bar. The pen tip is AT the ink for every stroke including the first, and the pen tap on the popped emphasis box lands on its TOP-LEFT corner, never inside it. Chaptered: board_anchors= NOTHING, every mark gets its finite t_to, and seam_check.py runs on both seams (6.500 and 11.460). key_term='CURSOR'; label_plan= the eight keys above. Outro: opaque rising sheet 17.319-17.78, handle card @migueltorrez.ai from 17.800. No textured background, no pen squeak at shipped volume (loop class 0.038).",
+  "captions": "The caption partition is each lane's own. Use CAP.split_balanced(..., forbidden=<the board's printed keys>) - the board prints CURSOR, GOOGLE WORKSPACE, READ AND WRITE, GMAIL, CALENDAR, DRIVE, SHEETS, WORKSPACE and CUSTOMIZED PAGE - and run merge_function_only_beats() over the whole beat stream before assert_no_function_only_beat(). ONE size, 56.2 px, never shrunk: a phrase too wide for its seat is SPLIT at a word boundary.",
+  "graphic_chart": "STANDARD 'GRAPHIC CHART', reproduced and proven side by side rather than reinvented: review/proofs_cursorworkspace/chart_comparison_run15_vs_cursorworkspace.png puts this scene's 6.30 s frame next to shorts_run15/output/geminitools_split.mp4 at 12.90 s. Same cream ground #F6F1EA with #FFFDF9 cards and #EFE7DC mounts; same near-black #141416 and the same single terracotta #C4573A / rgb(221,114,89); same JetBrains Mono 800 UPPERCASE key term above its subject with smaller labels on their tiles; same 112 px tiles at radius 18 with a 3 px rgba(17,17,17,0.16) border carrying real registry marks sized by ink; same thin ink-line SVG drawings at stroke 5-16 with round caps, no fills, no gradients, no shadows, no 3-D; same terracotta connectors terminating on a virtual rectangle; same chassis mono outro lockup on this video's own themed object. Every constant in the module's palette, type, tile and outro blocks was COPIED out of geminitools_scene.py rather than chosen. What is new is the metaphor and the objects: an arch bridge over water, and a connectors page with one row and one switch."
+ },
+ "prep_state_at_plan_time": {
+  "_note": "The ORIGINAL plan ran at 00:49, before most of prep landed. Both readings are recorded: what the original agent could see, and what is on disk now at reconstruction time (08:24).",
+  "at_original_plan_time": "cut ok (59.2 s wall, master 21.532 s, tight audio 21.532 s, analysis_wav_written false by design). plate, prompt0, track, ship and cues markers DID NOT EXIST - no plate crop, no Modal cost, no protrusion / LAW 48 / edge-clip verdict, no matte outputs to quote. MATTES_FINAL.md did not exist. Take-detection corroboration from edl.json: 11 scripted openings, 1 sign-off, content rule answers word 184, MARKER rule verdict 'equality' (10 markers, all before the keeper), transcript-gap rule DISAGREES on all 10 swept thresholds; inner_markers []; micro_cuts_source []; take_words 70 of raw_words 254; source take 84.61-106.459.",
+  "cut": "ok - 59.2 s wall. LAW 46 checked BY HAND on the tight transcript: the intake transcript is a long stack of abandoned attempts, and transcript_tight.json opens ONCE, cleanly, at 0.119 s with the full opening key and never repeats it - the cut correctly took the LAST take. NOT a false-start escape. LAW 47: last word ends 21.280, master 21.532, tail 0.252 s, i.e. 0.05 s over the 0.20 s cap - container rounding, reported and not planned around. The scene's last authored ink ends at 16.66 against a 17.319 outro anchor, so assert_outro_clear() has 0.66 s of margin.",
+  "plate": "ok - 97.3 s wall. crop 2534x1810+543+210, scale_k 0.497238, head_px_on_canvas 450.2, overwide_applied TRUE, face_dx_pct -0.02, visible_window_drift_master_px 0.0. HEADROOM: cap_top_on_canvas_px 65.1 against a 64.0 target and a 24.0 hard floor, bottom_planted FALSE (the crop slid up 140 master px so the cap is not sliced), so the crown is never the plate's top row.",
+  "prompt0": "ok - 19.9 s wall. wing_review TRUE, wings_source 'MEASURED on this plate's frame 0', wing_right null, wing_left null, wing_cut_applied false, removed_px 0, prompt_area_px 458031. The instrument proposed no cut and abstains rather than guessing; the eyeball check belongs to the CUTOUT author.",
+  "selection": "ok - 96.2 s wall, reviewed 00:33:20, matting/cursorworkspace/selection.json.",
+  "track": "ok - 66.8 s wall. backend matanyone2, model MatAnyone 2, alpha matting/cursorworkspace/alpha_v1.mkv, track_seconds 58.44, MODAL COST $0.0166, review_status needs_final_visual_review.",
+  "ship": "ok - 70.6 s wall. 538 frames, 1386x990, 25.0 fps, alpha_mode soft, rim_px 7, fractional_alpha_pixels 12,283,508, minimum_person_fraction 0.3948, outputs_verified ok, ship_source_sha256 cf367be5..., MODAL COST $0.0271, review_status needs_final_visual_review. A ship.override marker also exists (01:38) and states its own scope: it overrides the GATE's read of the ship MARKER only, approves no visual quality and replaces no reviewed selection. TOTAL MODAL SPEND ON THIS RECORDING: $0.0437 (track $0.0166 + ship $0.0271), plus the BiRefNet crop sweep's measured $0.026 recorded inside plate.json.",
+  "cues": "ok - cue_count 0, and pipeline/pointing_cues.py was re-run by hand at reconstruction time with the same answer.",
+  "mattes_final": "shorts_run17/MATTES_FINAL.md still DOES NOT EXIST at 08:24, so the run-wide consume-never-redo seal has not been stamped. Nothing in this plan re-tracks or re-selects anything either way."
+ },
+ "open_questions": [
+  "1. THREE MARKS DID NOT EXIST AT PLAN TIME AND THE ARTWORK STAGE REGISTERED THEM: `google-workspace`, `google-calendar` and `google-sheets` are now in assets/logos/registry.json with full provenance, their files are in assets/logos/platforms/, and execution/rebuild_asset_catalog.py has been refreshed (2,309 assets indexed). `cursor`, `gmail` and `google-drive` were already present. LAW 35 forbade falling back to google-g.svg and LAW 33 forbade a drawn substitute, so this was a procedure, not a decision. RESOLVED.",
+  "2. WHY THE KEY TERM IS 'CURSOR' AND NOT 'GOOGLE WORKSPACE'. assert_label_law requires the key term to be the FIRST type on the board, and the first nameable thing spoken is 'Cursor,' at 0.680, whose key must land inside its 1.0 s LABEL_WINDOW. Any later candidate would force CURSOR's key to precede the key term and refuse the build.",
+  "3. THE CONNECTOR ROW WRITES 'WORKSPACE', NOT 'GOOGLE WORKSPACE'. assert_label_law keys its written map by TEXT, so two rigids carrying the same string collapse and the later time wins - chapter 0's key at 3.460 would be measured against chapter 2's row text at 12.600 and fail by 9.6 s. Both strings are faithful to the transcript and the row still carries the real mark.",
+  "4. CAPTION-IDENTITY RISK on 'READ AND WRITE' and 'GOOGLE WORKSPACE'. The guard is an OVERLAP test on identical pill text and neither is expected to collide; if it fires, the lane writes the disagreement to plans/cursorworkspace_{scene,wb}_notes.md and builds the plan as written.",
+  "5. PHONE TEST on 'an arch bridge': bridge / arch bridge / arched bridge over water / stone bridge / viaduct / overpass all PASS under score-the-idea; a bench, a fence or a table FAILS and the fix is a REDESIGN - deepen the arch, thicken the deck, lengthen the waterline, in that order. SEALED 6/6 sure; the remedy was applied BEFORE the first read (three arches on four piers) and the waves were added after round 1 read 'arched bridge, unsure'.",
+  "6. PHONE TEST on 'a settings panel': settings panel / settings page / toggle switch / connections page all PASS; a receipt, a calculator, a keyboard or a card FAILS and the fix is a bigger toggle relative to the card. SEALED at 3/6 sure with ZERO readers naming a different object across twelve reads of four drawings; the toggle grew 96x40 -> 132x52 -> 152x60 and the card gained a filled title bar. The plan's other remedy - a second, unfilled hairline row - was deliberately NOT taken: an anonymous plate in a row is LAW 29's own named defect. If a lane wants a settings LIST, that is a repair round with the scene lock, not a quiet edit.",
+  "7. NO NUMBER APPEARS ANYWHERE, deliberately - Miguel quotes no figure, so no counter, meter, bar or chart exists and LAW 23 / LAW 34 have nothing to bind on. The toggle track is the one filled element and it fills completely as one continuous pill.",
+  "8. THE OUTRO IS 4.21 s OF A 21.53 s TAKE (19.6%) because the spoken sign-off is that long; one centred composition, no second event.",
+  "9. THE READER MODEL IS PART OF THE EVIDENCE. The configured cold reader hit its usage cap mid-seal; the fallback (opus) hedged on the settings panel in every round INCLUDING on a control crop of the connector row alone (review/proofs_cursorworkspace/diag/diag_row.json), which is what says the hedge is about UI mocks as a class rather than about this drawing. A third model (haiku) returned 'toggle switch' sure 3/3. All six rounds are in the seal, hedges included.",
+  "10. THE STAGE-CACHE FINGERPRINT COVERS EVERY PREP MARKER, INCLUDING REPAIR OVERRIDES. That is what re-dispatched a plan agent onto a video whose plan was already built on, sealed and phone-passed, and it is why this file had to be reconstructed. If that is worth fixing, the change is in pipeline/stage_cache.py::fingerprint - a `plan_` label needs the CUT and the intake, not the matting-side markers (ship/track/prompt0/selection) that no plan reads."
+ ],
+ "open_doubts": []
+}

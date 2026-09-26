@@ -1,0 +1,157 @@
+{
+ "label": "look_aieducation_split",
+ "video": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/projects/aieducation_split",
+ "phone_scale": "405x720",
+ "sheet": "shorts_run22/review/phone_look_aieducation_split.png",
+ "rule": "a FRESH judge (never read the plan) names each crop in <=3 words. Wrong name, hedge, or 'cannot tell' = the object is redesigned, not annotated.",
+ "answer_key": "shorts_run22/review/phone_look_aieducation_split.key.json",
+ "answer_key_rule": "DO NOT OPEN the answer key until every judge_answer below is filled in. Reading it first voids the Phone Test.",
+ "cut_from": "headless page screenshots, no video render",
+ "mode": "phone-test",
+ "objects": [
+  {
+   "i": 0,
+   "t": 12.6,
+   "bbox_norm": [
+    0.25,
+    0.15,
+    0.75,
+    0.45
+   ],
+   "phone_box_px": [
+    101,
+    108,
+    303,
+    324
+   ],
+   "phone_size_px": [
+    202,
+    216
+   ],
+   "path": "shorts_run22/review/phone_look_aieducation_split/00.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  },
+  {
+   "i": 1,
+   "t": 17.6,
+   "bbox_norm": [
+    0.05,
+    0.15,
+    0.95,
+    0.45
+   ],
+   "phone_box_px": [
+    20,
+    108,
+    384,
+    324
+   ],
+   "phone_size_px": [
+    364,
+    216
+   ],
+   "path": "shorts_run22/review/phone_look_aieducation_split/01.png",
+   "sheet_scale": 0.824,
+   "judge_answer": null,
+   "verdict": null
+  },
+  {
+   "i": 2,
+   "t": 25.2,
+   "bbox_norm": [
+    0.15,
+    0.08,
+    0.85,
+    0.45
+   ],
+   "phone_box_px": [
+    60,
+    57,
+    344,
+    324
+   ],
+   "phone_size_px": [
+    284,
+    267
+   ],
+   "path": "shorts_run22/review/phone_look_aieducation_split/02.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  },
+  {
+   "i": 3,
+   "t": 5.2,
+   "bbox_norm": [
+    0.05,
+    0.08,
+    0.95,
+    0.4
+   ],
+   "phone_box_px": [
+    20,
+    57,
+    384,
+    288
+   ],
+   "phone_size_px": [
+    364,
+    231
+   ],
+   "path": "shorts_run22/review/phone_look_aieducation_split/03.png",
+   "sheet_scale": 0.824,
+   "judge_answer": null,
+   "verdict": null
+  },
+  {
+   "i": 4,
+   "t": 6.4,
+   "bbox_norm": [
+    0.0,
+    0.05,
+    1.0,
+    0.45
+   ],
+   "phone_box_px": [
+    0,
+    36,
+    405,
+    324
+   ],
+   "phone_size_px": [
+    405,
+    288
+   ],
+   "path": "shorts_run22/review/phone_look_aieducation_split/04.png",
+   "sheet_scale": 0.741,
+   "judge_answer": null,
+   "verdict": null
+  },
+  {
+   "i": 5,
+   "t": 29.5,
+   "bbox_norm": [
+    0.1,
+    0.1,
+    0.9,
+    0.45
+   ],
+   "phone_box_px": [
+    40,
+    72,
+    364,
+    324
+   ],
+   "phone_size_px": [
+    324,
+    252
+   ],
+   "path": "shorts_run22/review/phone_look_aieducation_split/05.png",
+   "sheet_scale": 0.926,
+   "judge_answer": null,
+   "verdict": null
+  }
+ ]
+}

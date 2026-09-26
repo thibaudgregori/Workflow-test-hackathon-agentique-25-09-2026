@@ -1,0 +1,45 @@
+{
+  "tag": "round_r9",
+  "cold_dir": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/round_r9-63b408e5",
+  "reader": "one independent `claude -p` process per crop, launched from /tmp, handed ONLY the absolute path of a blind copy under a random token - no plan, no topic, no manifest, no sealed key, and no path naming the video",
+  "prompt": "Look at the image at <absolute path of one blind crop> . Name the single everyday object drawn in it. At most FIVE words. Reply with ONE line of JSON and nothing else: {\"name\":\"<=5 words\",\"confidence\":\"sure|unsure|cannot tell\"}",
+  "dispatched_at": "2026-09-08T08:47:03",
+  "cli": "2.1.263 (Claude Code)",
+  "source_crops": {
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/phone_pcoverheat_cutout/00.png": "1185c54123dfff9e9a2914a685222b622d13c0c0b39081cf9fa6c8e98a79560c",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/phone_pcoverheat_cutout/01.png": "38149db5626ae4c72e18fc59085e97ff9902947e6c5ff93e655b7d8373dde2dc",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/phone_pcoverheat_cutout/02.png": "8547d35d452a0247e4d70643e60c22d750eb8a0b6db68b1075e626aef3173c2e",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/phone_pcoverheat_cutout/03.png": "8b2ec2f7614b04b955f1c4479f60ddd10d67a28d03c20cfeb26258978af08fb5"
+  },
+  "names": [
+    {
+      "i": 0,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/round_r9-63b408e5/00.png",
+      "name": "laptop computer",
+      "confidence": "sure",
+      "crop_sha256": "1185c54123dfff9e9a2914a685222b622d13c0c0b39081cf9fa6c8e98a79560c"
+    },
+    {
+      "i": 1,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/round_r9-63b408e5/01.png",
+      "name": "download icon (arrow over line)",
+      "confidence": "unsure",
+      "crop_sha256": "38149db5626ae4c72e18fc59085e97ff9902947e6c5ff93e655b7d8373dde2dc"
+    },
+    {
+      "i": 2,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/round_r9-63b408e5/02.png",
+      "name": "speech bubble",
+      "confidence": "sure",
+      "crop_sha256": "8547d35d452a0247e4d70643e60c22d750eb8a0b6db68b1075e626aef3173c2e"
+    },
+    {
+      "i": 3,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/round_r9-63b408e5/03.png",
+      "name": "none - task manager UI panel",
+      "confidence": "cannot tell",
+      "crop_sha256": "8b2ec2f7614b04b955f1c4479f60ddd10d67a28d03c20cfeb26258978af08fb5",
+      "over_five_words": true
+    }
+  ]
+}

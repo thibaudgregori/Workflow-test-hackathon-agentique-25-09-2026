@@ -1,0 +1,28 @@
+{
+  "tag": "kimifable-probe6",
+  "cold_dir": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/kimifable-probe6-8899aa5a",
+  "reader": "one independent `claude -p` process per crop, launched from /tmp, handed ONLY the absolute path of a blind copy under a random token - no plan, no topic, no manifest, no sealed key, and no path naming the video",
+  "prompt": "Look at the image at <absolute path of one blind crop> . Name the single everyday object drawn in it. At most FIVE words. Reply with ONE line of JSON and nothing else: {\"name\":\"<=5 words\",\"confidence\":\"sure|unsure|cannot tell\"}",
+  "dispatched_at": "2026-09-08T01:42:33",
+  "cli": "2.1.263 (Claude Code)",
+  "source_crops": {
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/proofs/kimifable_probe6/02.png": "88169b6ebe73c14af885a1b737ea31892550798a7e0f5113b930eaefc5934377",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/proofs/kimifable_probe6/03.png": "5383bad0d5083293376c254de94e6bd3d0741df6e149fa095684de3197bd4997"
+  },
+  "names": [
+    {
+      "i": 0,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/kimifable-probe6-8899aa5a/00.png",
+      "name": "web browser window",
+      "confidence": "sure",
+      "crop_sha256": "88169b6ebe73c14af885a1b737ea31892550798a7e0f5113b930eaefc5934377"
+    },
+    {
+      "i": 1,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/kimifable-probe6-8899aa5a/01.png",
+      "name": "stacked browser windows",
+      "confidence": "unsure",
+      "crop_sha256": "5383bad0d5083293376c254de94e6bd3d0741df6e149fa095684de3197bd4997"
+    }
+  ]
+}

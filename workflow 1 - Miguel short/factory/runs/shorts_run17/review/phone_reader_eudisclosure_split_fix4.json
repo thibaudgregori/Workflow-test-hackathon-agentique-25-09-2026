@@ -1,0 +1,36 @@
+{
+  "tag": "round4fix",
+  "cold_dir": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/round4fix-3c6f7be7",
+  "reader": "one independent `claude -p` process per crop, launched from /tmp, handed ONLY the absolute path of a blind copy under a random token - no plan, no topic, no manifest, no sealed key, and no path naming the video",
+  "prompt": "Look at the image at <absolute path of one blind crop> . Name the single everyday object drawn in it. At most FIVE words. Reply with ONE line of JSON and nothing else: {\"name\":\"<=5 words\",\"confidence\":\"sure|unsure|cannot tell\"}",
+  "dispatched_at": "2026-09-08T01:42:01",
+  "cli": "2.1.263 (Claude Code)",
+  "source_crops": {
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/phone_eudisclosure_split/00.png": "34a6869952f8a7645bb26632ada09decd4aa8aaf9e3df4f69547c3adbbfa150c",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/phone_eudisclosure_split/01.png": "bc9bfcf52593fbc95c33d279739614a2aa4c0125f6f5c4931ebec30c0ff380bb",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/phone_eudisclosure_split/02.png": "c7b00edfe9402441aafada2b35a78bb3dd470c0cc3e95cb08cb8a38dd97bf8cc"
+  },
+  "names": [
+    {
+      "i": 0,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/round4fix-3c6f7be7/00.png",
+      "name": "rubber stamp",
+      "confidence": "sure",
+      "crop_sha256": "34a6869952f8a7645bb26632ada09decd4aa8aaf9e3df4f69547c3adbbfa150c"
+    },
+    {
+      "i": 1,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/round4fix-3c6f7be7/01.png",
+      "name": "framed picture",
+      "confidence": "sure",
+      "crop_sha256": "bc9bfcf52593fbc95c33d279739614a2aa4c0125f6f5c4931ebec30c0ff380bb"
+    },
+    {
+      "i": 2,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/round4fix-3c6f7be7/02.png",
+      "name": "brightness slider (dimmer switch)",
+      "confidence": "unsure",
+      "crop_sha256": "c7b00edfe9402441aafada2b35a78bb3dd470c0cc3e95cb08cb8a38dd97bf8cc"
+    }
+  ]
+}

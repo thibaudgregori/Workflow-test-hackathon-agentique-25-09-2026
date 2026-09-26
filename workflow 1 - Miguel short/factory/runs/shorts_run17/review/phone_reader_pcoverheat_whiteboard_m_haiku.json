@@ -1,0 +1,44 @@
+{
+  "tag": "m_haiku",
+  "cold_dir": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/m_haiku-87fcc289",
+  "reader": "one independent `claude -p` process per crop, launched from /tmp, handed ONLY the absolute path of a blind copy under a random token - no plan, no topic, no manifest, no sealed key, and no path naming the video",
+  "prompt": "Look at the image at <absolute path of one blind crop> . Name the single everyday object drawn in it. At most FIVE words. Reply with ONE line of JSON and nothing else: {\"name\":\"<=5 words\",\"confidence\":\"sure|unsure|cannot tell\"}",
+  "dispatched_at": "2026-09-08T08:36:30",
+  "cli": "2.1.263 (Claude Code)",
+  "source_crops": {
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/phone_pcoverheat_whiteboard/00.png": "ea78a80e19b853c318b0bf9e19b1bd46cd12c3a60c83a5501765283b5620ed25",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/phone_pcoverheat_whiteboard/01.png": "57275ea0e41b3a3f8e5d5d8d1207eab6be273ba492e0970af7ac54636129168c",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/phone_pcoverheat_whiteboard/02.png": "6078a5b8d3fc869b6cba67467b3d05d195e19cdb08dd387f13067f618e02e6ce",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/phone_pcoverheat_whiteboard/03.png": "ad1541d5985aebc2f71e66a194d04f89c536ecaa3eb9e7154f539ba1e3a8394a"
+  },
+  "names": [
+    {
+      "i": 0,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/m_haiku-87fcc289/00.png",
+      "name": "laptop",
+      "confidence": "sure",
+      "crop_sha256": "ea78a80e19b853c318b0bf9e19b1bd46cd12c3a60c83a5501765283b5620ed25"
+    },
+    {
+      "i": 1,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/m_haiku-87fcc289/01.png",
+      "name": "download arrow",
+      "confidence": "sure",
+      "crop_sha256": "57275ea0e41b3a3f8e5d5d8d1207eab6be273ba492e0970af7ac54636129168c"
+    },
+    {
+      "i": 2,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/m_haiku-87fcc289/02.png",
+      "name": "speech bubble",
+      "confidence": "sure",
+      "crop_sha256": "6078a5b8d3fc869b6cba67467b3d05d195e19cdb08dd387f13067f618e02e6ce"
+    },
+    {
+      "i": 3,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/m_haiku-87fcc289/03.png",
+      "name": "computer monitor",
+      "confidence": "sure",
+      "crop_sha256": "ad1541d5985aebc2f71e66a194d04f89c536ecaa3eb9e7154f539ba1e3a8394a"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "tag": "round4haiku",
+  "cold_dir": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/round4haiku-e8f7fccb",
+  "reader": "one independent `claude -p` process per crop, launched from /tmp, handed ONLY the absolute path of a blind copy under a random token - no plan, no topic, no manifest, no sealed key, and no path naming the video",
+  "prompt": "Look at the image at <absolute path of one blind crop> . Name the single everyday object drawn in it. At most FIVE words. Reply with ONE line of JSON and nothing else: {\"name\":\"<=5 words\",\"confidence\":\"sure|unsure|cannot tell\"}",
+  "dispatched_at": "2026-09-08T01:53:29",
+  "cli": "2.1.263 (Claude Code)",
+  "source_crops": {
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/phone_cursorworkspace_whiteboard/00.png": "8570ff8e1bf725a510c2dd553ea93ca4cda4e96ea24bf0cf683a2bb3aaf75442",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/phone_cursorworkspace_whiteboard/01.png": "5467f6a7bf0ed825941b4a1915c8b59a9f6cbf0e369c1d4f5ae409e1eaa11423"
+  },
+  "names": [
+    {
+      "i": 0,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/round4haiku-e8f7fccb/00.png",
+      "name": "donuts",
+      "confidence": "sure",
+      "crop_sha256": "8570ff8e1bf725a510c2dd553ea93ca4cda4e96ea24bf0cf683a2bb3aaf75442"
+    },
+    {
+      "i": 1,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/round4haiku-e8f7fccb/01.png",
+      "name": "toggle switch",
+      "confidence": "sure",
+      "crop_sha256": "5467f6a7bf0ed825941b4a1915c8b59a9f6cbf0e369c1d4f5ae409e1eaa11423"
+    }
+  ]
+}

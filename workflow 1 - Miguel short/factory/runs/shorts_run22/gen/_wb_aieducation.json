@@ -1,0 +1,836 @@
+{
+ "video": "aieducation",
+ "format": "whiteboard",
+ "variant": "plan view (fix)",
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/projects/aieducation_whiteboard",
+ "handle": "@migueltorrez.ai",
+ "handle_key": "tiktok_ig",
+ "duration_s": 32.12,
+ "fps": 25,
+ "render": "1080x1920 @ zoom 1",
+ "board": "576x460 design units",
+ "board_box": [
+  40.0,
+  150.0,
+  536.0,
+  425.0
+ ],
+ "strokes": 33,
+ "rigids": 30,
+ "board_text": [
+  "3D ANATOMY",
+  "ONE AFTERNOON",
+  "FLAT PAGE",
+  "GUESSWORK",
+  "INSIDE"
+ ],
+ "top_ink_u": 140.0,
+ "top_band_u": 102.4,
+ "pen_top_u": 110.7,
+ "ink_bottom_px": 776.2,
+ "cap_band_top_px": 799.2,
+ "cap_clearance_px": 23.0,
+ "ink_bottom_ink_px": 776.2,
+ "cap_clearance_ink_px": 23.0,
+ "seam_pill_top_px": 805.2,
+ "cap_clearance_ink_to_pill_px": 29.0,
+ "seam_measures": "cap_clearance_px = line boxes vs the reserved band (THE GATE); cap_clearance_ink_px = glyph ink vs the same band; cap_clearance_ink_to_pill_px = glyph ink vs the pill's painted top edge (the clerk's surface)",
+ "rail_hits": [],
+ "label_law": {
+  "window_s": 1.0,
+  "key_term": "3D ANATOMY",
+  "key_term_fs_u": 23.0,
+  "written": {
+   "3D ANATOMY": 9.26,
+   "ONE AFTERNOON": 10.26,
+   "FLAT PAGE": 15.54,
+   "GUESSWORK": 16.52,
+   "INSIDE": 20.18
+  },
+  "plan": {
+   "kterm": "3D ANATOMY",
+   "kaft": "ONE AFTERNOON",
+   "kflat": "FLAT PAGE",
+   "kguess": "GUESSWORK",
+   "kins": "INSIDE"
+  },
+  "comparisons": [
+   [
+    "FLAT PAGE",
+    "INSIDE"
+   ]
+  ],
+  "unplanned_text": [],
+  "verdict": "PASS"
+ },
+ "law4": {
+  "law": "4 (overlap test)",
+  "board_words_that_also_appear_as_a_pill": {}
+ },
+ "round4": {
+  "law6_lifetimes": {
+   "duration_s": 32.12,
+   "chaptered": true,
+   "max_frac": 0.4,
+   "declared_anchors": [],
+   "lingering": [],
+   "verdict": "PASS"
+  },
+  "law2_no_enclosure": {
+   "rings": 0,
+   "boxes": 2,
+   "highlights": 2,
+   "rasters": [
+    "hl:post-claim",
+    "post-card"
+   ],
+   "wrong_tool_advisory": [],
+   "verdict": "PASS"
+  },
+  "law3_label_side": {
+   "checked": 5,
+   "detail": {
+    "3D ANATOMY": {
+     "host": "heart",
+     "dx_u": 0.0,
+     "band_u": 98.8,
+     "place": "above"
+    },
+    "ONE AFTERNOON": {
+     "host": "heart",
+     "dx_u": 0.0,
+     "band_u": 98.8,
+     "place": "below"
+    },
+    "FLAT PAGE": {
+     "host": "book2",
+     "dx_u": 0.0,
+     "band_u": 111.2,
+     "place": "below"
+    },
+    "GUESSWORK": {
+     "host": "head",
+     "dx_u": 0.0,
+     "band_u": 62.4,
+     "place": "below"
+    },
+    "INSIDE": {
+     "host": "heart3",
+     "dx_u": 0.0,
+     "band_u": 122.2,
+     "place": "below"
+    }
+   },
+   "verdict": "PASS"
+  },
+  "law5_spacing": {
+   "gate_u": 8.5,
+   "gate_px": 15.9,
+   "aim_u": 12.8,
+   "aim_px": 24.0,
+   "measured_on": "element line boxes",
+   "under_aim": [],
+   "objects": 19,
+   "verdict": "PASS"
+  },
+  "law5_spacing_ink": {
+   "gate_u": 8.5,
+   "gate_px": 15.9,
+   "aim_u": 12.8,
+   "aim_px": 24.0,
+   "measured_on": "glyph ink extents",
+   "under_aim": [],
+   "objects": 19,
+   "verdict": "PASS"
+  },
+  "law5_no_crossing": {
+   "strokes": 33,
+   "types": 5,
+   "verdict": "PASS"
+  },
+  "law4_anchors": {
+   "targets": 1,
+   "detail": {
+    "easel-board": {
+     "n": 3,
+     "spread_u": 0.0,
+     "level": true,
+     "mirrored": false,
+     "on_rect": true
+    }
+   },
+   "verdict": "PASS"
+  }
+ },
+ "outro": {
+  "move": "opaque sheet rises over the board",
+  "wipe_start": 27.76,
+  "wipe_end": 28.32,
+  "travel_px": 862.5,
+  "sheet_opaque": true,
+  "sheet_covers_px": 862.5,
+  "card_ink_enters_px": 322.5,
+  "board_covered_px": 600.0,
+  "overlap_px": 277.5,
+  "board_moves": false,
+  "board_fades": false,
+  "outro_start": 27.76,
+  "verdict": "PASS"
+ },
+ "captions": 31,
+ "cap_font_px": 56.2,
+ "cap_max_pill_w_px": 748.4,
+ "cap_w_budget_px": 756.0,
+ "anchors": {
+  "start": 0.1,
+  "same": 1.48,
+  "seam0": 3.0,
+  "cue": 3.32,
+  "xmark": 3.94,
+  "threed": 5.92,
+  "kterm": 9.26,
+  "kaft": 10.26,
+  "accurate": 11.88,
+  "seam1": 13.4,
+  "kflat": 15.54,
+  "kguess": 16.52,
+  "seam2": 17.94,
+  "screens": 19.26,
+  "kins": 20.18,
+  "seam3": 21.74,
+  "ai": 22.58,
+  "build": 23.74,
+  "inter": 24.46,
+  "apps": 25.54,
+  "forall": 26.36,
+  "outro": 27.76,
+  "news": 28.74
+ },
+ "html_bytes": 124173,
+ "sfx": 27,
+ "pen_loops": 14,
+ "pen_seconds": 6.57,
+ "pen_duty_pct": 20.5,
+ "captions_law3b": {
+  "beats_before_merge": 31,
+  "beats_after_merge": 31,
+  "merges": 0,
+  "merged_away": [],
+  "widest_pill_px": 748.4,
+  "budget_px": 756.0,
+  "beats": [
+   [
+    0.1,
+    1.22,
+    "Education will no longer"
+   ],
+   [
+    1.22,
+    2.04,
+    "be the same"
+   ],
+   [
+    2.04,
+    3.0,
+    "due to AI."
+   ],
+   [
+    3.0,
+    3.94,
+    "Now, this guy on"
+   ],
+   [
+    3.94,
+    4.96,
+    "X built out an"
+   ],
+   [
+    4.96,
+    7.42,
+    "entire 3D interactive tool"
+   ],
+   [
+    7.42,
+    7.98,
+    "to be able to"
+   ],
+   [
+    7.98,
+    9.26,
+    "explore the entire human"
+   ],
+   [
+    9.26,
+    10.26,
+    "anatomy in a"
+   ],
+   [
+    10.26,
+    11.26,
+    "single afternoon,"
+   ],
+   [
+    11.26,
+    12.78,
+    "full of accurate 3D"
+   ],
+   [
+    12.78,
+    13.96,
+    "models. No longer will"
+   ],
+   [
+    13.96,
+    15.02,
+    "we have to just"
+   ],
+   [
+    15.02,
+    16.18,
+    "look at textbooks and"
+   ],
+   [
+    16.18,
+    17.24,
+    "have to imagine things"
+   ],
+   [
+    17.24,
+    17.94,
+    "in our head."
+   ],
+   [
+    17.94,
+    18.5,
+    "Now we will be"
+   ],
+   [
+    18.5,
+    19.26,
+    "able to look at"
+   ],
+   [
+    19.26,
+    20.78,
+    "screens and see how"
+   ],
+   [
+    20.78,
+    21.74,
+    "things are built."
+   ],
+   [
+    21.74,
+    22.86,
+    "Teachers who adopt AI"
+   ],
+   [
+    22.86,
+    23.74,
+    "will be able to"
+   ],
+   [
+    23.74,
+    25.54,
+    "build out interactive"
+   ],
+   [
+    25.54,
+    26.36,
+    "applications"
+   ],
+   [
+    26.36,
+    27.1,
+    "for all of their"
+   ],
+   [
+    27.1,
+    28.26,
+    "students. Now follow for"
+   ],
+   [
+    28.26,
+    28.98,
+    "more AI news,"
+   ],
+   [
+    28.98,
+    30.14,
+    "videos, and tutorials each"
+   ],
+   [
+    30.14,
+    31.1,
+    "and every single day,"
+   ],
+   [
+    31.1,
+    31.5,
+    "and catch you in"
+   ],
+   [
+    31.5,
+    32.0,
+    "the next one."
+   ]
+  ],
+  "law": "captions.py 3b \u2014 merge_function_only_beats over the WHOLE beat stream, then assert_no_function_only_beat inside build()"
+ },
+ "boards": [
+  {
+   "board": 0,
+   "in": 0.18,
+   "erase_at": 3.0,
+   "erase": 0.3,
+   "name": "one open ink-line book with ruled lines on its left leaf and a heart printed on its right page, which then peels up and is re-inked larger above the spread, leaving a dashed ghost of itself on the page it came off",
+   "keys": []
+  },
+  {
+   "board": 1,
+   "in": 3.04,
+   "erase_at": 13.4,
+   "erase": 0.3,
+   "name": "the source post as a bordered card with X's own mark, the handle and the claim line marker-highlighted; then the same heart drawn large with its great vessels, three terracotta hotspots, a rotation arc under it, 3D ANATOMY above and ONE AFTERNOON below, and its interior vessels filling in",
+   "keys": [
+    "3D ANATOMY",
+    "ONE AFTERNOON"
+   ]
+  },
+  {
+   "board": 2,
+   "in": 13.44,
+   "erase_at": 17.94,
+   "erase": 0.3,
+   "name": "the same book flat at the left inside a terracotta marker box with FLAT PAGE under it, and at the right a head in profile with a dashed thought cloud holding a wobbly unfinished heart and GUESSWORK under it, both keys on one baseline",
+   "keys": [
+    "FLAT PAGE",
+    "GUESSWORK"
+   ]
+  },
+  {
+   "board": 3,
+   "in": 17.98,
+   "erase_at": 21.74,
+   "erase": 0.3,
+   "name": "the same heart drawn once, then its front half erased and re-inked swung aside on the notch with the septum and two chamber lines drawn in behind it, a cursor arrow beside it and INSIDE written under the whole stack",
+   "keys": [
+    "INSIDE"
+   ]
+  },
+  {
+   "board": 4,
+   "in": 21.78,
+   "erase_at": 27.76,
+   "erase": "the outro's rising sheet",
+   "name": "a classroom easel \u2014 board, ledge, three splayed legs and a cross-brace \u2014 with the ChatGPT, Claude and Gemini tiles in a row above it sending three terracotta connectors into its board, the heart drawn on that board inside a terracotta marker box, and three small copies of it on the brace",
+   "keys": []
+  }
+ ],
+ "seam_law": {
+  "plan_mode": "chapters",
+  "chapters": 5,
+  "seams": [
+   3.0,
+   13.4,
+   17.94,
+   21.74
+  ],
+  "erase_s": [
+   0.3,
+   0.3,
+   0.3,
+   0.3
+  ],
+  "erase_completes": [
+   3.3,
+   13.7,
+   18.24,
+   22.04
+  ],
+  "qc_seams": "3,13.4,17.94,21.74",
+  "handover": [
+   {
+    "seam": 3.0,
+    "completes": 3.3,
+    "incoming": "the source post card's border, first ink 3.04 (INSIDE the erase), complete 3.34 \u2014 0.04 s after the erase finishes, inside LAW 45's 0.30 s"
+   },
+   {
+    "seam": 13.4,
+    "completes": 13.7,
+    "incoming": "the flat book's whole outline, 13.44-13.86 \u2014 0.16 s after the erase finishes"
+   },
+   {
+    "seam": 17.94,
+    "completes": 18.24,
+    "incoming": "the heart's two halves, 17.98-18.42, a closed silhouette 0.18 s after the erase finishes"
+   },
+   {
+    "seam": 21.74,
+    "completes": 22.04,
+    "incoming": "the easel's board, 21.78-22.10 \u2014 a 300x187 px rectangle, 0.06 s after the erase finishes"
+   }
+  ],
+  "outro_wipe": 27.76,
+  "outro_note": "27.76 is the OUTRO WIPE \u2014 an opaque rising sheet, not a chapter seam \u2014 so it is not passed to seam_check and not passed to qc_pass as a seam."
+ },
+ "pointing_cues": {
+  "n": 1,
+  "waived": [],
+  "cards": [
+   {
+    "cue": "this guy",
+    "cue_at": 3.319,
+    "window": [
+     2.319,
+     4.319
+    ],
+    "card_in": 3.04,
+    "card_complete": 3.34,
+    "card_out": 6.6,
+    "on_screen_s": 3.82,
+    "platform": "X",
+    "highlight_at": 4.18,
+    "highlight_lines": [
+     "A 3D human anatomy application",
+     "built with @threejs using GPT 5.6."
+    ],
+    "metrics_chrome": "NONE \u2014 no likes, no replies, no views (GLOBAL LAW 3)",
+    "attribution": "THE BUGGED DEV / @THEBUGGEDDEV, written once, here and nowhere else in the video",
+    "note": "the sentence names X and the card wears X's own mark and X's own handle, so the picture names the same platform as the sentence (RUN-13 clerk finding). The board cannot paste the screenshot the post carried, so the claim is written inside the card and the marker runs under it \u2014 the plan's own whiteboard_version for beat 1."
+   }
+  ]
+ },
+ "phone_test_objects": [
+  {
+   "i": 0,
+   "name": "an open book with a heart lifting off the page",
+   "t": 2.55,
+   "bbox_board_u": [
+    144.0,
+    170.0,
+    432.0,
+    402.0
+   ],
+   "bbox_canvas": [
+    270.0,
+    318.75,
+    810.0,
+    753.75
+   ],
+   "bbox_norm": [
+    0.25,
+    0.16602,
+    0.75,
+    0.39258
+   ],
+   "plan_name": "open book heart",
+   "plan_t": 2.4
+  },
+  {
+   "i": 1,
+   "name": "a heart",
+   "t": 12.8,
+   "bbox_board_u": [
+    198.0,
+    172.0,
+    378.0,
+    336.0
+   ],
+   "bbox_canvas": [
+    371.25,
+    322.5,
+    708.75,
+    630.0
+   ],
+   "bbox_norm": [
+    0.34375,
+    0.16797,
+    0.65625,
+    0.32812
+   ],
+   "plan_name": "3D anatomy heart",
+   "plan_t": 12.6
+  },
+  {
+   "i": 2,
+   "name": "a head in profile thinking of a heart",
+   "t": 17.72,
+   "bbox_board_u": [
+    352.0,
+    148.0,
+    466.0,
+    310.0
+   ],
+   "bbox_canvas": [
+    660.0,
+    277.5,
+    873.75,
+    581.25
+   ],
+   "bbox_norm": [
+    0.61111,
+    0.14453,
+    0.80903,
+    0.30273
+   ],
+   "plan_name": "thinking head profile",
+   "plan_t": 17.4
+  },
+  {
+   "i": 3,
+   "name": "an easel",
+   "t": 25.3,
+   "bbox_board_u": [
+    186.0,
+    240.0,
+    390.0,
+    422.0
+   ],
+   "bbox_canvas": [
+    348.75,
+    450.0,
+    731.25,
+    791.25
+   ],
+   "bbox_norm": [
+    0.32292,
+    0.23438,
+    0.67708,
+    0.41211
+   ],
+   "plan_name": "classroom easel board",
+   "plan_t": 25.0
+  }
+ ],
+ "phone_test_source": "plans/aieducation_plan.json -> bespoke_objects, redrawn in marker at THIS board's seats: the plan's bboxes are the shared core's (canvas space) and cannot be copied onto a 576 x 460 board. The TIMES are this lane's own, per the 2026-09-15 whiteboard rule. See plans/aieducation_wb_notes.md.",
+ "emphasis": [
+  {
+   "at": 4.18,
+   "target": "post-card claim lines 3-4",
+   "kind": "marker highlight, one fill per line",
+   "why": "LAW 38 rule 1: the words the viewer reads are the post's own type living in a source card, so the emphasis is the marker fill wiped open left-to-right over THOSE TWO LINES \u2014 never a box, never a ring, never a union box over the paragraph."
+  },
+  {
+   "at": 15.54,
+   "target": "book2",
+   "kind": "terracotta marker box",
+   "why": "LAW 38 rule 2: the flat textbook is a DRAWN object, so it takes the box. The pen taps its top-left corner (RUN-13)."
+  },
+  {
+   "at": 25.54,
+   "target": "easel-board",
+   "kind": "terracotta marker box",
+   "why": "LAW 38 rule 2: the easel board is a DRAWN object. Same primitive, same corner tap."
+  }
+ ],
+ "marks_inked": {
+  "cast": "chatgpt / claude / gemini \u2014 the plan's own topical roster (plan.cast_note: 'the three products a teacher would actually build one of these with'), each as the PRODUCT mark (LAW 35: ai-models/chatgpt-color.png, never the openai wordmark; ai-models/claude-color.png, never claude-code) in COLOUR, in the chart's 112 frame px tile at radius 18 with the marker's detail hairline and the mark's INK at 0.50 of the tile.",
+  "x": "platforms/x-logo.svg, inked as a PATH straight into the board's own svg at the source card's header.",
+  "not_used": "GPT 5.6 and Three.js are named INSIDE the post's own quoted words, which are card content, not stage marks; Three.js has no registry file (plan.cast_note)."
+ },
+ "connectors": [
+  {
+   "name": "c-chatgpt",
+   "to": "easel-board",
+   "from": [
+    168.0,
+    213.733
+   ],
+   "end": [
+    233.6,
+    256.0
+   ],
+   "drawn_at": 23.74,
+   "note": "LAW 40: built with anchor_points(EASEL_BOARD_BOX, 3, 'top'), level to 0.0 u and symmetric about x = 288. No end is hand-placed."
+  },
+  {
+   "name": "c-claude",
+   "to": "easel-board",
+   "from": [
+    288.0,
+    213.733
+   ],
+   "end": [
+    288.0,
+    256.0
+   ],
+   "drawn_at": 23.86,
+   "note": "LAW 40: built with anchor_points(EASEL_BOARD_BOX, 3, 'top'), level to 0.0 u and symmetric about x = 288. No end is hand-placed."
+  },
+  {
+   "name": "c-gemini",
+   "to": "easel-board",
+   "from": [
+    408.0,
+    213.733
+   ],
+   "end": [
+    342.4,
+    256.0
+   ],
+   "drawn_at": 23.98,
+   "note": "LAW 40: built with anchor_points(EASEL_BOARD_BOX, 3, 'top'), level to 0.0 u and symmetric about x = 288. No end is hand-placed."
+  }
+ ],
+ "plan_geometry": {
+  "hook_u": [
+   150.0,
+   176.0,
+   426.0,
+   396.0
+  ],
+  "book_u": [
+   150.0,
+   288.0,
+   426.0,
+   396.0
+  ],
+  "page_heart_u": [
+   338.0,
+   320.0,
+   376.0,
+   354.2
+  ],
+  "lift_heart_u": [
+   238.0,
+   176.0,
+   338.0,
+   268.0
+  ],
+  "card_u": [
+   132.0,
+   158.0,
+   444.0,
+   294.0
+  ],
+  "heart_u": [
+   212.0,
+   182.0,
+   364.0,
+   330.0
+  ],
+  "arc_u": [
+   226.0,
+   336.0,
+   350.0,
+   358.0
+  ],
+  "book2_u": [
+   80.5,
+   228.0,
+   251.5,
+   300.0
+  ],
+  "head_u": [
+   362.0,
+   156.0,
+   458.0,
+   302.0
+  ],
+  "cloud_u": [
+   362.0,
+   156.0,
+   454.0,
+   206.0
+  ],
+  "heart3_u": [
+   194.0,
+   176.0,
+   382.0,
+   334.0
+  ],
+  "swing": [
+   28.0,
+   6.0,
+   10.0
+  ],
+  "tiles_u": [
+   [
+    138.1335,
+    154.0,
+    197.8665,
+    213.733
+   ],
+   [
+    258.1335,
+    154.0,
+    317.8665,
+    213.733
+   ],
+   [
+    378.1335,
+    154.0,
+    437.8665,
+    213.733
+   ]
+  ],
+  "easel_u": [
+   194.0,
+   256.0,
+   382.0,
+   414.0
+  ],
+  "easel_board_u": [
+   208.0,
+   256.0,
+   368.0,
+   356.0
+  ],
+  "easel_ends_u": [
+   [
+    233.6,
+    256.0
+   ],
+   [
+    288.0,
+    256.0
+   ],
+   [
+    342.4,
+    256.0
+   ]
+  ],
+  "copies_u": [
+   235.0,
+   364.6,
+   341.0,
+   388.0
+  ],
+  "keys_u": {
+   "3D ANATOMY": [
+    201.18,
+    140.0,
+    374.82,
+    175.65
+   ],
+   "ONE AFTERNOON": [
+    215.95,
+    366.0,
+    360.05,
+    389.15
+   ],
+   "FLAT PAGE": [
+    114.85,
+    330.0,
+    217.15,
+    353.15
+   ],
+   "GUESSWORK": [
+    358.85,
+    330.0,
+    461.15,
+    353.15
+   ],
+   "INSIDE": [
+    252.53,
+    348.0,
+    323.47,
+    371.15
+   ]
+  },
+  "key_row_y": 330.0,
+  "symmetry": "chapters 0, 1, 3 and 4 are symmetric about x = 288 by construction; chapter 2 is the deliberate PAIR, with the book at cx 166 and the head at cx 410 \u2014 mirror-symmetric about 288.",
+  "note": "THIS BOARD'S geometry, asserted against the plan's ORDER, SIDES, CHAPTERS and INSTANTS rather than its coordinates: the same four bespoke objects, the same five keys, the same above/below placement, the same five chapters with the same four erases, the same three connectors into one target and the same one pointing-cue card."
+ }
+}

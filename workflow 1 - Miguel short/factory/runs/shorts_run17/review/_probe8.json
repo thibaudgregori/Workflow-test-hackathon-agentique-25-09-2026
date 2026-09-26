@@ -1,0 +1,20 @@
+{
+  "tag": "kimifable-probe8",
+  "cold_dir": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/kimifable-probe8-edeace45",
+  "reader": "one independent `claude -p` process per crop, launched from /tmp, handed ONLY the absolute path of a blind copy under a random token - no plan, no topic, no manifest, no sealed key, and no path naming the video",
+  "prompt": "Look at the image at <absolute path of one blind crop> . Name the single everyday object drawn in it. At most FIVE words. Reply with ONE line of JSON and nothing else: {\"name\":\"<=5 words\",\"confidence\":\"sure|unsure|cannot tell\"}",
+  "dispatched_at": "2026-09-08T01:46:40",
+  "cli": "2.1.263 (Claude Code)",
+  "source_crops": {
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/proofs/kimifable_probe8/03.png": "808ac5f2ac28ecafaddbf18b94d43258003aec153e4eb8507346551845f5716a"
+  },
+  "names": [
+    {
+      "i": 0,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/kimifable-probe8-edeace45/00.png",
+      "name": "file folder",
+      "confidence": "sure",
+      "crop_sha256": "808ac5f2ac28ecafaddbf18b94d43258003aec153e4eb8507346551845f5716a"
+    }
+  ]
+}

@@ -1,0 +1,381 @@
+{
+ "label": "cursorworkspace_whiteboard",
+ "video": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/cursorworkspace_whiteboard.mp4",
+ "duration_s": 21.56,
+ "detector": "mediapipe/blazeface",
+ "segment_source": "auto:layout-detector",
+ "segments": null,
+ "every_s": 0.5,
+ "tol_pct": 4.0,
+ "band_level": "warning",
+ "full_face": {
+  "n": 0,
+  "worst_dx_pct": null,
+  "worst_t": null,
+  "mean_abs_dx_pct": null,
+  "offenders": []
+ },
+ "band": {
+  "n": 43,
+  "worst_dx_pct": 4.35,
+  "worst_t": 16.5,
+  "warnings": [
+   {
+    "t": 16.5,
+    "dx_pct": 4.35,
+    "face_h_pct": 14.7,
+    "class": "band",
+    "score": 0.99,
+    "skin": 0.89
+   }
+  ]
+ },
+ "samples": [
+  {
+   "t": 0.0,
+   "dx_pct": 0.19,
+   "face_h_pct": 15.8,
+   "class": "band",
+   "score": 0.98,
+   "skin": 0.9
+  },
+  {
+   "t": 0.5,
+   "dx_pct": 0.56,
+   "face_h_pct": 15.4,
+   "class": "band",
+   "score": 0.98,
+   "skin": 0.9
+  },
+  {
+   "t": 1.0,
+   "dx_pct": 1.48,
+   "face_h_pct": 14.8,
+   "class": "band",
+   "score": 0.98,
+   "skin": 0.92
+  },
+  {
+   "t": 1.5,
+   "dx_pct": 0.28,
+   "face_h_pct": 15.1,
+   "class": "band",
+   "score": 0.98,
+   "skin": 0.92
+  },
+  {
+   "t": 2.0,
+   "dx_pct": -0.19,
+   "face_h_pct": 15.8,
+   "class": "band",
+   "score": 0.99,
+   "skin": 0.9
+  },
+  {
+   "t": 2.5,
+   "dx_pct": -0.65,
+   "face_h_pct": 15.5,
+   "class": "band",
+   "score": 0.98,
+   "skin": 0.88
+  },
+  {
+   "t": 3.0,
+   "dx_pct": 1.11,
+   "face_h_pct": 15.0,
+   "class": "band",
+   "score": 0.98,
+   "skin": 0.91
+  },
+  {
+   "t": 3.5,
+   "dx_pct": 1.85,
+   "face_h_pct": 15.4,
+   "class": "band",
+   "score": 0.98,
+   "skin": 0.9
+  },
+  {
+   "t": 4.0,
+   "dx_pct": 1.02,
+   "face_h_pct": 15.1,
+   "class": "band",
+   "score": 0.98,
+   "skin": 0.91
+  },
+  {
+   "t": 4.5,
+   "dx_pct": -1.39,
+   "face_h_pct": 15.3,
+   "class": "band",
+   "score": 0.99,
+   "skin": 0.9
+  },
+  {
+   "t": 5.0,
+   "dx_pct": 0.83,
+   "face_h_pct": 16.1,
+   "class": "band",
+   "score": 0.98,
+   "skin": 0.88
+  },
+  {
+   "t": 5.5,
+   "dx_pct": 1.48,
+   "face_h_pct": 15.6,
+   "class": "band",
+   "score": 0.98,
+   "skin": 0.9
+  },
+  {
+   "t": 6.0,
+   "dx_pct": 0.28,
+   "face_h_pct": 15.5,
+   "class": "band",
+   "score": 0.98,
+   "skin": 0.9
+  },
+  {
+   "t": 6.5,
+   "dx_pct": 1.57,
+   "face_h_pct": 15.1,
+   "class": "band",
+   "score": 0.98,
+   "skin": 0.9
+  },
+  {
+   "t": 7.0,
+   "dx_pct": 3.52,
+   "face_h_pct": 14.8,
+   "class": "band",
+   "score": 0.99,
+   "skin": 0.92
+  },
+  {
+   "t": 7.5,
+   "dx_pct": 1.94,
+   "face_h_pct": 15.1,
+   "class": "band",
+   "score": 0.99,
+   "skin": 0.92
+  },
+  {
+   "t": 8.0,
+   "dx_pct": 3.8,
+   "face_h_pct": 14.7,
+   "class": "band",
+   "score": 0.99,
+   "skin": 0.93
+  },
+  {
+   "t": 8.5,
+   "dx_pct": 2.13,
+   "face_h_pct": 15.3,
+   "class": "band",
+   "score": 0.99,
+   "skin": 0.91
+  },
+  {
+   "t": 9.0,
+   "dx_pct": 0.83,
+   "face_h_pct": 15.5,
+   "class": "band",
+   "score": 0.98,
+   "skin": 0.91
+  },
+  {
+   "t": 9.5,
+   "dx_pct": -1.39,
+   "face_h_pct": 15.1,
+   "class": "band",
+   "score": 0.98,
+   "skin": 0.91
+  },
+  {
+   "t": 10.0,
+   "dx_pct": 1.94,
+   "face_h_pct": 15.1,
+   "class": "band",
+   "score": 0.98,
+   "skin": 0.93
+  },
+  {
+   "t": 10.5,
+   "dx_pct": 0.56,
+   "face_h_pct": 16.2,
+   "class": "band",
+   "score": 0.98,
+   "skin": 0.88
+  },
+  {
+   "t": 11.0,
+   "dx_pct": 1.39,
+   "face_h_pct": 15.3,
+   "class": "band",
+   "score": 0.98,
+   "skin": 0.9
+  },
+  {
+   "t": 11.5,
+   "dx_pct": -0.93,
+   "face_h_pct": 15.6,
+   "class": "band",
+   "score": 0.98,
+   "skin": 0.89
+  },
+  {
+   "t": 12.0,
+   "dx_pct": 0.37,
+   "face_h_pct": 15.6,
+   "class": "band",
+   "score": 0.99,
+   "skin": 0.89
+  },
+  {
+   "t": 12.5,
+   "dx_pct": 2.04,
+   "face_h_pct": 15.2,
+   "class": "band",
+   "score": 0.99,
+   "skin": 0.91
+  },
+  {
+   "t": 13.0,
+   "dx_pct": 2.59,
+   "face_h_pct": 14.8,
+   "class": "band",
+   "score": 0.99,
+   "skin": 0.91
+  },
+  {
+   "t": 13.5,
+   "dx_pct": 0.74,
+   "face_h_pct": 15.2,
+   "class": "band",
+   "score": 0.99,
+   "skin": 0.9
+  },
+  {
+   "t": 14.0,
+   "dx_pct": 2.41,
+   "face_h_pct": 15.6,
+   "class": "band",
+   "score": 0.99,
+   "skin": 0.88
+  },
+  {
+   "t": 14.5,
+   "dx_pct": 1.76,
+   "face_h_pct": 16.6,
+   "class": "band",
+   "score": 0.98,
+   "skin": 0.88
+  },
+  {
+   "t": 15.0,
+   "dx_pct": 1.67,
+   "face_h_pct": 15.6,
+   "class": "band",
+   "score": 0.98,
+   "skin": 0.89
+  },
+  {
+   "t": 15.5,
+   "dx_pct": -0.74,
+   "face_h_pct": 15.4,
+   "class": "band",
+   "score": 0.99,
+   "skin": 0.91
+  },
+  {
+   "t": 16.0,
+   "dx_pct": 1.85,
+   "face_h_pct": 15.6,
+   "class": "band",
+   "score": 0.98,
+   "skin": 0.88
+  },
+  {
+   "t": 16.5,
+   "dx_pct": 4.35,
+   "face_h_pct": 14.7,
+   "class": "band",
+   "score": 0.99,
+   "skin": 0.89
+  },
+  {
+   "t": 17.0,
+   "dx_pct": 2.5,
+   "face_h_pct": 15.3,
+   "class": "band",
+   "score": 0.99,
+   "skin": 0.89
+  },
+  {
+   "t": 17.5,
+   "dx_pct": -0.56,
+   "face_h_pct": 15.6,
+   "class": "band",
+   "score": 0.99,
+   "skin": 0.9
+  },
+  {
+   "t": 18.0,
+   "dx_pct": 0.74,
+   "face_h_pct": 15.2,
+   "class": "band",
+   "score": 0.98,
+   "skin": 0.9
+  },
+  {
+   "t": 18.5,
+   "dx_pct": 1.94,
+   "face_h_pct": 15.5,
+   "class": "band",
+   "score": 0.98,
+   "skin": 0.88
+  },
+  {
+   "t": 19.0,
+   "dx_pct": -0.19,
+   "face_h_pct": 15.6,
+   "class": "band",
+   "score": 0.98,
+   "skin": 0.89
+  },
+  {
+   "t": 19.5,
+   "dx_pct": 2.13,
+   "face_h_pct": 14.5,
+   "class": "band",
+   "score": 0.98,
+   "skin": 0.92
+  },
+  {
+   "t": 20.0,
+   "dx_pct": 3.15,
+   "face_h_pct": 14.8,
+   "class": "band",
+   "score": 0.99,
+   "skin": 0.92
+  },
+  {
+   "t": 20.5,
+   "dx_pct": 3.98,
+   "face_h_pct": 15.1,
+   "class": "band",
+   "score": 0.99,
+   "skin": 0.91
+  },
+  {
+   "t": 21.0,
+   "dx_pct": 3.15,
+   "face_h_pct": 15.0,
+   "class": "band",
+   "score": 0.99,
+   "skin": 0.91
+  }
+ ],
+ "pass": true,
+ "verdict": "PASS"
+}

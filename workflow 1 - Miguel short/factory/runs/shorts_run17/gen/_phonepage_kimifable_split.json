@@ -1,0 +1,33 @@
+{
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/projects/kimifable_split",
+ "label": "kimifable_split",
+ "mode": "phone-test",
+ "composition_px": [
+  1080,
+  1920
+ ],
+ "duration_s": 38.12,
+ "sheet": "shorts_run17/review/phone_kimifable_split.png",
+ "manifest": "shorts_run17/review/phone_kimifable_split.json",
+ "answer_key": "shorts_run17/review/phone_kimifable_split.key.json",
+ "n_objects": 4,
+ "phone_sizes_px": [
+  [
+   112,
+   51
+  ],
+  [
+   164,
+   133
+  ],
+  [
+   122,
+   81
+  ],
+  [
+   123,
+   90
+  ]
+ ],
+ "wall_s": 1.85
+}

@@ -1,0 +1,33 @@
+{
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/projects/aieducation_whiteboard",
+ "label": "aieducation_whiteboard",
+ "mode": "phone-test",
+ "composition_px": [
+  1080,
+  1920
+ ],
+ "duration_s": 32.12,
+ "sheet": "shorts_run22/review/phone_aieducation_whiteboard.png",
+ "manifest": "shorts_run22/review/phone_aieducation_whiteboard.json",
+ "answer_key": "shorts_run22/review/phone_aieducation_whiteboard.key.json",
+ "n_objects": 4,
+ "phone_sizes_px": [
+  [
+   202,
+   163
+  ],
+  [
+   126,
+   116
+  ],
+  [
+   80,
+   113
+  ],
+  [
+   144,
+   128
+  ]
+ ],
+ "wall_s": 1.82
+}

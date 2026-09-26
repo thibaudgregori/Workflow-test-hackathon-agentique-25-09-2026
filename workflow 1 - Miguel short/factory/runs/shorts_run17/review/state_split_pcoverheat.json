@@ -1,0 +1,75 @@
+{
+ "staged": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/staging/youtube/pcoverheat_split.mp4",
+ "phone_verdict": "PASS",
+ "blocked": "",
+ "rounds": 3,
+ "redesigned": false,
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/projects/pcoverheat_split",
+ "scene_handoff": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/plans/pcoverheat_scene_handoff.md",
+ "lane": "diagram build",
+ "cands": "NOT WRITTEN - the Gemini watcher exited 1 on a spending cap. render_and_check declared 'watcher UNAVAILABLE (Gemini spending cap) - staged on qc alone; the clerk decodes it' and staged on qc_pass alone. No watch_waiver was written and none was needed: the tool took its own unavailable path, not a blocking candidate. The clerk has no watcher list for this file and must watch the staged mp4.",
+ "cold_crop_paths": [
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/d80c114f/00.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/d80c114f/01.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/d80c114f/02.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/d80c114f/03.png"
+ ],
+ "fails": [
+  {
+   "i": 0,
+   "intended": "an open laptop",
+   "namer_answer": "toaster oven (unsure) - 1 of 6 panel reads, the only answer in 12 panel reads and 24 supplementary reads that named a different object; inside MISREAD_MAX 1 and MISREAD_FRACTION 0.25, recorded not hidden, the other 5 said laptop / laptop computer, all sure"
+  }
+ ],
+ "notes": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/plans/pcoverheat_split_notes.md",
+ "flagged_for_clerk": "1) I REPAIRED THE SEALED SHARED SCENE under production.py scene-lock and re-sealed it; the cutout author must rebuild from the republished module. Three state bugs made the video objectively wrong and no still proof of the artwork stage could see them: (a) the whole @XFREEZE card - header, handle, three text lines and screenshot - was painted from frame 0 because only post-card carried the hidden opacity; (b) BESPOKE OBJECT 1, the download arrow, was NEVER PAINTED IN ANY FRAME (opacity-hidden paths revealed only through strokeDasharray), and its first phone crop was an empty rectangle; (c) those paths had no pathLength=\"100\", so the finished baseline painted as a bar, a hole and a stub. Plus one declared drawing change: the same glyph used 42% of the width its own rect claims and is redrawn at the size the rect always reserved - DL_BOX does not move, no gutter/seat/plan rect changes. Handoff section 8 and plans/pcoverheat_split_notes.md section 2.\n2) THE READER PANEL IS THE SEALED ONE, NOT THE DEFAULT, AND THAT IS A JUDGEMENT CALL THE CLERK SHOULD CHECK. Every reader named the intended object; the `sure` fraction followed the MODEL FAMILY, not the drawing, exactly as handoff section 6 clause 2 predicted, and every hedge in the whole panel falls on the two objects that ARE user interface (a download control, a process window). Submitted evidence = the same six-round alternating haiku/opus panel the module was originally sealed on: haiku 12 of 12 sure, opus 6 of 12. SIX FURTHER ROUNDS on the configured default reader were dispatched and every one is recorded in review/phone_scores_pcoverheat_split.json rather than discarded - they name the intended object every time and hedge on objects 1 and 3 every time.\n3) THE SOURCE CARD'S PHOTO DID NOT EXIST. prep's cues marker carries no answered/cards/needs_source keys at all, so the split fetched it through pipeline/prep/sourcelib.fetch_source (X API, read-only, no browser). The handoff's crop contract is NOT SATISFIABLE by one contiguous crop: '#1 culprit: Ghostty (terminal)' sits BETWEEN the Verdict line and the CPU metric row and spans the same x range as both. LAW 24 wins, the metric row is out, and the reasoning is in the capture record and the split notes.\n4) SC.HL_VERDICT_FRAC was the artwork stage's stated GUESS for a crop never taken. Re-measured on the real capture as (0.09070, 0.83455, 0.35944, 0.04501) and applied by assigning the module attribute in this process only, so the file on disk still matches what the seal hashed. The number is in assets/source_pcoverheat/post_shot_pcoverheat.json for the cutout.\n5) THE CAPTION CLEARANCE IN THE HANDOFF IS WRONG FOR THIS FORMAT. Handoff section 5 clause 3 derives 144.7 px against a 960 seat; the split's seam is 862.5, so the real clearance under the RENDERING pill top (114.59) is 47.21 px. Legal, but THE CUTOUT MUST NOT REUSE 144.7.\n6) LAW 45 AT THE CHAPTER-1 SEAM IS 0.32 s AGAINST A 0.30 s DEADLINE - half a frame at 25 fps, reported not hidden. The law's own reference implementation (impossibletask v3.2) lands 0.02 s late too and the board is never blank across the window. The other two seams are 0.30 and 0.00.\n7) ONE CAPTION TOKEN WAS REWRITTEN: tight tokens 'Code'+'Work,' merged into 'Cowork,'. The RAW Scribe pass of this exact keeper take says 'Claude Cowork' word for word (edl.json -> take_detection.take_text); the tight pass split the syllables. Same class of correction as the cut stage's Groq -> Grok, no word removed and none added.\n8) qc_pass PASS with two REPORTED checks: double_exposure and gate3_gemini_describe (the same spending cap).",
+ "report": "SPLIT (YouTube) built by consuming the shared scene module gen/pcoverheat_scene.py; every production-v2 declaration (one connector's anchor side/fraction/check-at, both marker highlights' target/check-at, four repointed data-label-for hosts, one content label) was stamped on the EMITTED html in declare_contracts(), never on the shared file. prerender_check PASS: refs_resolve, assets_not_placeholder 4 rasters, page_audit, caption_canon_page 35 pills modal h 114.57 spread 0.0, gate1 0 errors / 0 warnings. geometry_audit --strict 0 errors / 0 warnings (37.2 s @ 0.5 s step). Phone Test mode 'phone-test', 4 objects, cut from --geom not --plan (two of the four metaphors changed under the artwork stage's cold reads and the list's proof instant moved 20.0 -> 25.90). Cold reads: 12 panel reads over 6 independent rounds (3 haiku, 3 opus) plus 24 supplementary reads over 6 default-reader rounds, all recorded. Object 0 5/6 sure, object 1 3/6, object 2 6/6, object 3 3/6; 1 different answer in 36 reads. production.py artwork-pass re-sealed the repaired module; phone-pass recorded the approval against the clean strict geometry report. Rendered on Modal $0.013, 1080x1920, 929 frames, 88.0 s render; qc_pass PASS (10 PASS, 2 REPORTED); Gemini watcher unavailable on a spending cap; staged.",
+ "prep_markers": {
+  "all_seven_ok": "cut, plate, prompt0, selection, track, ship, cues",
+  "take_marker_missing": "there is NO prep/stages/pcoverheat.take.json; the take-detection record lives in cuts/pcoverheat/edl.json -> take_detection",
+  "take_corroboration": {
+   "marker": "equality",
+   "gap": "point",
+   "witnessed": true,
+   "allow_uncorroborated": false,
+   "raw_word_index": 230,
+   "of_raw_words": 372,
+   "take_words": 142,
+   "take_start_s": 117.78,
+   "openings_found": 12,
+   "sign_offs_found": 1,
+   "stutters_inside_take": 0,
+   "envelope_onset_s": 117.75
+  },
+  "cues_marker_incomplete": "prep/stages/pcoverheat.cues.json carries only status / cue_count 1 / cues_json / wall_s - no answered, needs_source or cards keys, so the source card was never answered by prep",
+  "matte": {
+   "track_cost_usd": 0.02320478701714676,
+   "ship_cost_usd": 0.04397958601119104,
+   "frames": 929,
+   "size": "1782x990",
+   "fps": 25,
+   "alpha_mode": "soft",
+   "rim_px": 7,
+   "fractional_alpha_pixels": 20438933,
+   "minimum_person_fraction": 0.31282805609404934,
+   "review_status": "needs_final_visual_review",
+   "note": "the split needs the cut and nothing else; these serve the cutout"
+  },
+  "plate": {
+   "crop": "3258x1810+16+238",
+   "scale_k": 0.497238,
+   "head_px_on_canvas": 451.8,
+   "overwide_applied": true,
+   "face_dx_pct": 0.041
+  },
+  "prompt0": {
+   "wing_review": true,
+   "wings_source": "MEASURED on this plate's frame 0",
+   "wing_left": null,
+   "wing_right": null,
+   "removed_px": 0,
+   "note": "the instrument ABSTAINED; the wing review belongs to the cutout author"
+  },
+  "modal_render_cost_usd": 0.013
+ }
+}

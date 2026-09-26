@@ -1,0 +1,20 @@
+{
+  "tag": "candGr1",
+  "cold_dir": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/candGr1-81709c59",
+  "reader": "one independent `claude -p` process per crop, launched from /tmp, handed ONLY the absolute path of a blind copy under a random token - no plan, no topic, no manifest, no sealed key, and no path naming the video",
+  "prompt": "Look at the image at <absolute path of one blind crop> . Name the single everyday object drawn in it. At most FIVE words. Reply with ONE line of JSON and nothing else: {\"name\":\"<=5 words\",\"confidence\":\"sure|unsure|cannot tell\"}",
+  "dispatched_at": "2026-09-08T01:44:03",
+  "cli": "2.1.263 (Claude Code)",
+  "source_crops": {
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/proofs_eudisclosure_slider4/G.png": "8e50cbf2bc4d8ae1565894e692a494f5b576220bb54c7405e3056764b2a0022d"
+  },
+  "names": [
+    {
+      "i": 0,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/candGr1-81709c59/00.png",
+      "name": "marker pen",
+      "confidence": "sure",
+      "crop_sha256": "8e50cbf2bc4d8ae1565894e692a494f5b576220bb54c7405e3056764b2a0022d"
+    }
+  ]
+}

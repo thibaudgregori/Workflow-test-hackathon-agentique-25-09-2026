@@ -1,0 +1,18 @@
+{
+ "id": "pcoverheat",
+ "stage": "cut",
+ "status": "ok",
+ "wall_s": 76.6,
+ "at": "2026-09-08T00:28:16",
+ "keys": {
+  "status": "ok",
+  "master": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/cuts/pcoverheat/master.mp4",
+  "audio": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/cuts/pcoverheat/audio.m4a",
+  "edl": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/cuts/pcoverheat/edl.json",
+  "transcript_tight": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/cuts/pcoverheat/transcript_tight.json",
+  "cut_master_duration_s": 37.16,
+  "analysis_wav_written": false,
+  "tight_audio_duration_s": 37.14,
+  "wall_s": 76.6
+ }
+}

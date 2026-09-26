@@ -1,0 +1,50 @@
+{
+ "vid": "cursorworkspace",
+ "fmt": "split",
+ "scored_by": "the split author (re-dispatch session, 2026-09-08 08:40-08:52), on reader answers that named no plan, no topic and no key",
+ "why_this_file": "The binding approval review/phone_pass_cursorworkspace_split.json was written on rounds 1-3 and is still hash-valid (production.py phone-check exits 0 against the unchanged project). This file is the FULL eight-round record on the SAME byte-identical crops (00.png e04e6b4d..., 01.png ec6cd44e...), submitted to production.py phone-pass so the instrument, not the author, rules on the enlarged sample.",
+ "rounds": [
+  {"tag": "round1", "model": "opus (fallback)", "evidence": "review/phone_reader_cursorworkspace_split.json"},
+  {"tag": "round2", "model": "haiku (fallback)", "evidence": "review/phone_reader_cursorworkspace_split_round2.json"},
+  {"tag": "round3", "model": "haiku (fallback)", "evidence": "review/phone_reader_cursorworkspace_split_round3.json"},
+  {"tag": "round4", "model": "configured reader (inherited, unnamed)", "evidence": "review/phone_reader_cursorworkspace_split_round4.json"},
+  {"tag": "round5", "model": "configured reader (inherited, unnamed)", "evidence": "review/phone_reader_cursorworkspace_split_round5.json"},
+  {"tag": "round6", "model": "configured reader (inherited, unnamed)", "evidence": "review/phone_reader_cursorworkspace_split_round6.json"},
+  {"tag": "round7haiku", "model": "haiku (named)", "evidence": "review/phone_reader_cursorworkspace_split_round7_haiku.json"},
+  {"tag": "round7opus", "model": "opus (named)", "evidence": "review/phone_reader_cursorworkspace_split_round7_opus.json"}
+ ],
+ "objects": [
+  {
+   "i": 0,
+   "intended": "an arch bridge",
+   "verdict": "PASS",
+   "reason": "Eight independent readers over three models, 8/8 the intended head noun and 8/8 sure. 250x67 device px.",
+   "reads": [
+    {"tag": "round1", "answer": "bridge", "confidence": "sure", "match": "intended"},
+    {"tag": "round2", "answer": "bridge", "confidence": "sure", "match": "intended"},
+    {"tag": "round3", "answer": "bridge", "confidence": "sure", "match": "intended"},
+    {"tag": "round4", "answer": "bridge", "confidence": "sure", "match": "intended"},
+    {"tag": "round5", "answer": "bridge", "confidence": "sure", "match": "intended"},
+    {"tag": "round6", "answer": "bridge", "confidence": "sure", "match": "intended"},
+    {"tag": "round7haiku", "answer": "bridge", "confidence": "sure", "match": "intended"},
+    {"tag": "round7opus", "answer": "bridge", "confidence": "sure", "match": "intended"}
+   ]
+  },
+  {
+   "i": 1,
+   "intended": "a settings panel",
+   "verdict": "PASS",
+   "reason": "Eight independent readers over three models named 'toggle switch' EIGHT times out of eight - zero different objects, zero 'cannot tell' - and the artwork seal's six earlier rounds on this same drawing named it 'toggle switch' six times more. Fourteen reads, one noun. SCORE THE IDEA, NOT THE NOUN (Miguel, 2026-09-06; STANDARD.md -> THE PHONE TEST): the switch is the drawn CONTENT of this settings panel and the single motion that IS the video's claim, so naming the content instead of its container is the amendment's explicit PASS case. THE HEDGE IS DISCLOSED AND IT IS NOT UNANIMOUS ACROSS MODELS: sure 3 of 8 (haiku 3/3 sure; opus 0/2; the inherited configured reader 0/3). The same models returned 'sure' freely on other lanes' crops in this same hour (review/phone_reader_kimifable_*_round4/5.json, 4/4 sure at 08:24-08:25), so the hedge is this crop's container-versus-content ambiguity under a prompt that asks for ONE everyday object, not a model-wide mood. 210x100 device px.",
+   "reads": [
+    {"tag": "round1", "answer": "toggle switch", "confidence": "unsure", "match": "synonym"},
+    {"tag": "round2", "answer": "toggle switch", "confidence": "sure", "match": "synonym"},
+    {"tag": "round3", "answer": "toggle switch", "confidence": "sure", "match": "synonym"},
+    {"tag": "round4", "answer": "toggle switch", "confidence": "unsure", "match": "synonym"},
+    {"tag": "round5", "answer": "toggle switch", "confidence": "unsure", "match": "synonym"},
+    {"tag": "round6", "answer": "toggle switch", "confidence": "unsure", "match": "synonym"},
+    {"tag": "round7haiku", "answer": "toggle switch", "confidence": "sure", "match": "synonym"},
+    {"tag": "round7opus", "answer": "toggle switch", "confidence": "unsure", "match": "synonym"}
+   ]
+  }
+ ]
+}

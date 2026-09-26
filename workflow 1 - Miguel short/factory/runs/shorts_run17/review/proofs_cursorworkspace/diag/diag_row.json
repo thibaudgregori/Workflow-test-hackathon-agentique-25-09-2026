@@ -1,0 +1,20 @@
+{
+  "tag": "diagrow",
+  "cold_dir": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/diagrow-59833cfd",
+  "reader": "one independent `claude -p` process per crop, launched from /tmp, handed ONLY the absolute path of a blind copy under a random token - no plan, no topic, no manifest, no sealed key, and no path naming the video",
+  "prompt": "Look at the image at <absolute path of one blind crop> . Name the single everyday object drawn in it. At most FIVE words. Reply with ONE line of JSON and nothing else: {\"name\":\"<=5 words\",\"confidence\":\"sure|unsure|cannot tell\"}",
+  "dispatched_at": "2026-09-08T01:20:15",
+  "cli": "2.1.263 (Claude Code)",
+  "source_crops": {
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/proofs_cursorworkspace/diag/row.png": "94f0c5c6eedd1eb024412c1cb5be48e62e09b652676548e9f24b5151dcc77267"
+  },
+  "names": [
+    {
+      "i": 0,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/diagrow-59833cfd/00.png",
+      "name": "toggle switch",
+      "confidence": "unsure",
+      "crop_sha256": "94f0c5c6eedd1eb024412c1cb5be48e62e09b652676548e9f24b5151dcc77267"
+    }
+  ]
+}

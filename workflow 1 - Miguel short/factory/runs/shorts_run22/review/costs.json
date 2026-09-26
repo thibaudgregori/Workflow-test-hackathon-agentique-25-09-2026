@@ -1,0 +1,59 @@
+{
+ "run": "shorts_run22",
+ "run_dir": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22",
+ "ledger": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/costs.jsonl",
+ "rows": 26,
+ "total_usd": 0.549833,
+ "by_service": {
+  "modal": 0.292916,
+  "gemini": 0.253351,
+  "elevenlabs": 0.003566,
+  "other": 0.0
+ },
+ "by_stage": {
+  "scribe": 0.003566,
+  "sweep": 0.0373,
+  "track": 0.042294,
+  "ship": 0.137222,
+  "render": 0.0761,
+  "watch": 0.213183,
+  "gate3": 0.040168
+ },
+ "by_video": {
+  "aieducation": {
+   "modal": 0.292916,
+   "gemini": 0.253351,
+   "elevenlabs": 0.003566,
+   "other": 0.0,
+   "total": 0.549833,
+   "rows": 26,
+   "stages": {
+    "render": 0.0761,
+    "gate3": 0.040168,
+    "watch": 0.213183,
+    "track": 0.042294,
+    "ship": 0.137222,
+    "sweep": 0.0373,
+    "scribe": 0.003566
+   }
+  }
+ },
+ "by_format": {
+  "cutout": 0.054788,
+  "split": 0.162012,
+  "whiteboard": 0.112651
+ },
+ "staged_shorts": 3,
+ "staged_files": [
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/staging/reels/aieducation_whiteboard.mp4",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/staging/tiktok/aieducation_cutout.mp4",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/staging/youtube/aieducation_split.mp4"
+ ],
+ "usd_per_delivered_short": 0.183278,
+ "stages_never_recorded": [
+  "draft",
+  "verify",
+  "clerk_watch"
+ ],
+ "scribe_rate_note": "estimate at $0.40/audio-hour (ElevenLabs Scribe list rate, tools/elevenlabs.md; the API returns no cost, so this is not measured)"
+}

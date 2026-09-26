@@ -1,0 +1,44 @@
+{
+  "tag": "seal5_4",
+  "cold_dir": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/seal5_4-d20e3686",
+  "reader": "one independent `claude -p` process per crop, launched from /tmp, handed ONLY the absolute path of a blind copy under a random token - no plan, no topic, no manifest, no sealed key, and no path naming the video",
+  "prompt": "Look at the image at <absolute path of one blind crop> . Name the single everyday object drawn in it. At most FIVE words. Reply with ONE line of JSON and nothing else: {\"name\":\"<=5 words\",\"confidence\":\"sure|unsure|cannot tell\"}",
+  "dispatched_at": "2026-09-08T08:57:51",
+  "cli": "2.1.263 (Claude Code)",
+  "source_crops": {
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/proofs_eudisclosure_r5/00.png": "c9d6b7b2dcbcb93c58a0642616114bfbc870539df69a5819a8202af71576721d",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/proofs_eudisclosure_r5/01.png": "618ef57a9ace87398f01869e3a44c8ec66ef2e127118ed711379e09a93e77a7d",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/proofs_eudisclosure_r5/02.png": "860d01027566ab5623d65971699bfc0c1066b8e9a24a65a03be2758c95859a56",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/proofs_eudisclosure_r5/03.png": "6a48c61c28743507680bac3212d81d865a767b3a2495f2ade71f0fbe99993a54"
+  },
+  "names": [
+    {
+      "i": 0,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/seal5_4-d20e3686/00.png",
+      "name": "price tag",
+      "confidence": "sure",
+      "crop_sha256": "c9d6b7b2dcbcb93c58a0642616114bfbc870539df69a5819a8202af71576721d"
+    },
+    {
+      "i": 1,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/seal5_4-d20e3686/01.png",
+      "name": "picture frame with mountain",
+      "confidence": "unsure",
+      "crop_sha256": "618ef57a9ace87398f01869e3a44c8ec66ef2e127118ed711379e09a93e77a7d"
+    },
+    {
+      "i": 2,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/seal5_4-d20e3686/02.png",
+      "name": "photograph",
+      "confidence": "unsure",
+      "crop_sha256": "860d01027566ab5623d65971699bfc0c1066b8e9a24a65a03be2758c95859a56"
+    },
+    {
+      "i": 3,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/seal5_4-d20e3686/03.png",
+      "name": "framed landscape picture",
+      "confidence": "sure",
+      "crop_sha256": "6a48c61c28743507680bac3212d81d865a767b3a2495f2ade71f0fbe99993a54"
+    }
+  ]
+}

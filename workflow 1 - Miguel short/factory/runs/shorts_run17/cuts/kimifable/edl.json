@@ -1,0 +1,667 @@
+{
+  "vid": "kimifable",
+  "source": "/Users/migle/Movies/2026-09-04 13-46-50.mp4",
+  "source_take_start": 93.12,
+  "source_take_end": 132.22,
+  "source_take_duration": 39.1,
+  "cut_master_duration": 38.12,
+  "cut_fps": 25,
+  "cut_audio": "48000,2",
+  "face_measurement": {
+    "probes": [
+      1.91,
+      4.57,
+      7.62,
+      10.67,
+      13.72,
+      17.15,
+      20.58,
+      24.02,
+      27.45,
+      31.26,
+      35.07
+    ],
+    "n_probes": 11,
+    "face_cx_px": 1807.0,
+    "face_cx_min_max": [
+      1779.7,
+      1886.6
+    ],
+    "head_h_median_px": 925.7,
+    "cap_top_min_px": 373,
+    "windows": {
+      "face_bottom_hd.mp4": {
+        "vf": "crop=2208:2160:702:0,scale=1080:1058:flags=lanczos",
+        "x0": 702,
+        "width": 2208,
+        "out_size": [
+          1080,
+          1058
+        ],
+        "window_centre_px": 1806.0,
+        "offset_from_face_px": 1.0,
+        "keyframes_in_first_30s": 30,
+        "max_gap_frames": 25
+      },
+      "face_full_hd.mp4": {
+        "vf": "crop=1216:2160:1198:0,scale=1080:1920:flags=lanczos",
+        "x0": 1198,
+        "width": 1216,
+        "out_size": [
+          1080,
+          1920
+        ],
+        "window_centre_px": 1806.0,
+        "offset_from_face_px": 1.0,
+        "keyframes_in_first_30s": 30,
+        "max_gap_frames": 25
+      }
+    },
+    "note": "windows are MEASURED on THIS cut master, never inherited"
+  },
+  "face_probe_rows": [
+    {
+      "t": 1.91,
+      "face_cx_px": 1886.6,
+      "eye_y_px": 778.1,
+      "chin_y_px": 1292.7,
+      "head_top_px": 373,
+      "face_h_px": 694.6,
+      "head_h_px": 919.7,
+      "cap_measured": true,
+      "shoulder": {
+        "y0.55": {
+          "y": 1797,
+          "span": 1434,
+          "x0": 1406,
+          "x1": 2839
+        },
+        "y0.70": {
+          "y": 1935,
+          "span": 1948,
+          "x0": 1138,
+          "x1": 3085
+        },
+        "y0.85": {
+          "y": 2073,
+          "span": 1946,
+          "x0": 1105,
+          "x1": 3050
+        },
+        "y1.00": {
+          "y": 2159,
+          "span": 1962,
+          "x0": 1094,
+          "x1": 3055
+        }
+      }
+    },
+    {
+      "t": 4.57,
+      "face_cx_px": 1796.4,
+      "eye_y_px": 816.1,
+      "chin_y_px": 1318.0,
+      "head_top_px": 378,
+      "face_h_px": 681.3,
+      "head_h_px": 940.0,
+      "cap_measured": true,
+      "shoulder": {
+        "y0.55": {
+          "y": 1833,
+          "span": 2056,
+          "x0": 797,
+          "x1": 2852
+        },
+        "y0.70": {
+          "y": 1974,
+          "span": 2292,
+          "x0": 753,
+          "x1": 3044
+        },
+        "y0.85": {
+          "y": 2115,
+          "span": 1137,
+          "x0": 694,
+          "x1": 1830
+        },
+        "y1.00": {
+          "y": 2159,
+          "span": 1113,
+          "x0": 670,
+          "x1": 1782
+        }
+      }
+    },
+    {
+      "t": 7.62,
+      "face_cx_px": 1807.0,
+      "eye_y_px": 798.1,
+      "chin_y_px": 1287.3,
+      "head_top_px": 378,
+      "face_h_px": 671.4,
+      "head_h_px": 909.3,
+      "cap_measured": true,
+      "shoulder": {
+        "y0.55": {
+          "y": 1787,
+          "span": 2029,
+          "x0": 814,
+          "x1": 2842
+        },
+        "y0.70": {
+          "y": 1923,
+          "span": 2361,
+          "x0": 769,
+          "x1": 3129
+        },
+        "y0.85": {
+          "y": 2059,
+          "span": 1160,
+          "x0": 1904,
+          "x1": 3063
+        },
+        "y1.00": {
+          "y": 2159,
+          "span": 1045,
+          "x0": 1997,
+          "x1": 3041
+        }
+      }
+    },
+    {
+      "t": 10.67,
+      "face_cx_px": 1812.0,
+      "eye_y_px": 817.9,
+      "chin_y_px": 1321.1,
+      "head_top_px": 377,
+      "face_h_px": 678.3,
+      "head_h_px": 944.1,
+      "cap_measured": true,
+      "shoulder": {
+        "y0.55": {
+          "y": 1840,
+          "span": 2071,
+          "x0": 797,
+          "x1": 2867
+        },
+        "y0.70": {
+          "y": 1981,
+          "span": 1084,
+          "x0": 1955,
+          "x1": 3038
+        },
+        "y0.85": {
+          "y": 2123,
+          "span": 975,
+          "x0": 2057,
+          "x1": 3031
+        },
+        "y1.00": {
+          "y": 2159,
+          "span": 1015,
+          "x0": 2049,
+          "x1": 3063
+        }
+      }
+    },
+    {
+      "t": 13.72,
+      "face_cx_px": 1786.9,
+      "eye_y_px": 817.4,
+      "chin_y_px": 1311.9,
+      "head_top_px": 374,
+      "face_h_px": 669.4,
+      "head_h_px": 937.9,
+      "cap_measured": true,
+      "shoulder": {
+        "y0.55": {
+          "y": 1826,
+          "span": 2049,
+          "x0": 807,
+          "x1": 2855
+        },
+        "y0.70": {
+          "y": 1967,
+          "span": 2291,
+          "x0": 760,
+          "x1": 3050
+        },
+        "y0.85": {
+          "y": 2108,
+          "span": 1147,
+          "x0": 705,
+          "x1": 1851
+        },
+        "y1.00": {
+          "y": 2159,
+          "span": 1081,
+          "x0": 677,
+          "x1": 1757
+        }
+      }
+    },
+    {
+      "t": 17.15,
+      "face_cx_px": 1831.1,
+      "eye_y_px": 798.4,
+      "chin_y_px": 1301.7,
+      "head_top_px": 376,
+      "face_h_px": 669.1,
+      "head_h_px": 925.7,
+      "cap_measured": true,
+      "shoulder": {
+        "y0.55": {
+          "y": 1810,
+          "span": 1211,
+          "x0": 811,
+          "x1": 2021
+        },
+        "y0.70": {
+          "y": 1949,
+          "span": 824,
+          "x0": 2247,
+          "x1": 3070
+        },
+        "y0.85": {
+          "y": 2087,
+          "span": 913,
+          "x0": 2132,
+          "x1": 3044
+        },
+        "y1.00": {
+          "y": 2159,
+          "span": 876,
+          "x0": 2234,
+          "x1": 3109
+        }
+      }
+    },
+    {
+      "t": 20.58,
+      "face_cx_px": 1841.0,
+      "eye_y_px": 794.8,
+      "chin_y_px": 1291.8,
+      "head_top_px": 379,
+      "face_h_px": 675.4,
+      "head_h_px": 912.8,
+      "cap_measured": true,
+      "shoulder": {
+        "y0.55": {
+          "y": 1793,
+          "span": 2030,
+          "x0": 812,
+          "x1": 2841
+        },
+        "y0.70": {
+          "y": 1929,
+          "span": 2349,
+          "x0": 781,
+          "x1": 3129
+        },
+        "y0.85": {
+          "y": 2066,
+          "span": 1065,
+          "x0": 1992,
+          "x1": 3056
+        },
+        "y1.00": {
+          "y": 2159,
+          "span": 1054,
+          "x0": 1989,
+          "x1": 3042
+        }
+      }
+    },
+    {
+      "t": 24.02,
+      "face_cx_px": 1842.2,
+      "eye_y_px": 809.7,
+      "chin_y_px": 1309.5,
+      "head_top_px": 376,
+      "face_h_px": 682.8,
+      "head_h_px": 933.5,
+      "cap_measured": true,
+      "shoulder": {
+        "y0.55": {
+          "y": 1822,
+          "span": 2044,
+          "x0": 808,
+          "x1": 2851
+        },
+        "y0.70": {
+          "y": 1962,
+          "span": 1108,
+          "x0": 1948,
+          "x1": 3055
+        },
+        "y0.85": {
+          "y": 2102,
+          "span": 1048,
+          "x0": 1994,
+          "x1": 3041
+        },
+        "y1.00": {
+          "y": 2159,
+          "span": 1036,
+          "x0": 2009,
+          "x1": 3044
+        }
+      }
+    },
+    {
+      "t": 27.45,
+      "face_cx_px": 1806.5,
+      "eye_y_px": 806.8,
+      "chin_y_px": 1309.0,
+      "head_top_px": 377,
+      "face_h_px": 668.6,
+      "head_h_px": 932.0,
+      "cap_measured": true,
+      "shoulder": {
+        "y0.55": {
+          "y": 1820,
+          "span": 2052,
+          "x0": 801,
+          "x1": 2852
+        },
+        "y0.70": {
+          "y": 1960,
+          "span": 2310,
+          "x0": 750,
+          "x1": 3059
+        },
+        "y0.85": {
+          "y": 2100,
+          "span": 1001,
+          "x0": 2042,
+          "x1": 3042
+        },
+        "y1.00": {
+          "y": 2159,
+          "span": 1006,
+          "x0": 2035,
+          "x1": 3040
+        }
+      }
+    },
+    {
+      "t": 31.26,
+      "face_cx_px": 1779.7,
+      "eye_y_px": 797.4,
+      "chin_y_px": 1302.2,
+      "head_top_px": 378,
+      "face_h_px": 674.0,
+      "head_h_px": 924.2,
+      "cap_measured": true,
+      "shoulder": {
+        "y0.55": {
+          "y": 1810,
+          "span": 2039,
+          "x0": 802,
+          "x1": 2840
+        },
+        "y0.70": {
+          "y": 1948,
+          "span": 2318,
+          "x0": 752,
+          "x1": 3069
+        },
+        "y0.85": {
+          "y": 2087,
+          "span": 1055,
+          "x0": 1990,
+          "x1": 3044
+        },
+        "y1.00": {
+          "y": 2159,
+          "span": 1013,
+          "x0": 2020,
+          "x1": 3032
+        }
+      }
+    },
+    {
+      "t": 35.07,
+      "face_cx_px": 1797.9,
+      "eye_y_px": 795.4,
+      "chin_y_px": 1287.7,
+      "head_top_px": 376,
+      "face_h_px": 654.6,
+      "head_h_px": 911.7,
+      "cap_measured": true,
+      "shoulder": {
+        "y0.55": {
+          "y": 1788,
+          "span": 2029,
+          "x0": 814,
+          "x1": 2842
+        },
+        "y0.70": {
+          "y": 1925,
+          "span": 2358,
+          "x0": 770,
+          "x1": 3127
+        },
+        "y0.85": {
+          "y": 2061,
+          "span": 1081,
+          "x0": 708,
+          "x1": 1788
+        },
+        "y1.00": {
+          "y": 2159,
+          "span": 1022,
+          "x0": 2030,
+          "x1": 3051
+        }
+      }
+    }
+  ],
+  "take_detection": {
+    "method": "last scripted opening that reaches the spoken sign-off; the content rule decides, the marker rule and the gap sweep witness",
+    "opening_families": [
+      [
+        "kimi",
+        "k3",
+        "just",
+        "beat"
+      ]
+    ],
+    "sign_off_key": [
+      "see",
+      "you",
+      "in",
+      "the",
+      "next"
+    ],
+    "openings_found": [
+      0,
+      5,
+      19,
+      25,
+      59,
+      87,
+      106,
+      118
+    ],
+    "openings_without_truncation_arm": 8,
+    "truncation_arm_added": 0,
+    "sign_offs_found": 1,
+    "inner_markers": [],
+    "markers_before_keeper": [
+      18,
+      86
+    ],
+    "take_word_index": 118,
+    "take_words": 138,
+    "raw_words": 256,
+    "take_start_s": 93.2,
+    "take_text": "Kimi K3 just beat Fable 5 at a third of the price. Now, this was for one specific benchmark, and you have to remember that AI models have very specific domains for which they are better. Now, in this case, Kimi K3 is fantastic as front-end design, and you have to remember that Fable is the most expensive model that you can have in terms of price per token. So if you're someone who is running a lot of designs, using Kimi K3 is now a completely viable option that is not only going to get you similar results, but it's also going to cut your build by 66%. Now follow for more AI news videos and tutorials on how you can set all of this up each and every single day. See you in the next one.",
+    "cross_check_marker_rule": {
+      "verdict": "bound",
+      "answer": 87,
+      "markers_total": 2,
+      "markers_before_take": 2,
+      "restarts_before_take": 8,
+      "under_count": 6,
+      "test": "^no[.,!?]$ OR a trailing hyphen/ellipsis",
+      "morphology": {
+        "punctuated_spoken_no": 0,
+        "truncations": 2,
+        "total": 2
+      },
+      "note": "EQUALITY is the strongest form; BOUND is legal and expected when abandonments carry no partial word; ABSTAINS is legal on a raw with no markers at all."
+    },
+    "cross_check_transcript_gap_rule": {
+      "verdict": "DISAGREES",
+      "correct_thresholds": [],
+      "sweep": {
+        ">=0.8": {
+          "n_gaps": 8,
+          "answers": 250,
+          "is_correct": false,
+          "words_early": -132
+        },
+        ">=0.9": {
+          "n_gaps": 7,
+          "answers": 250,
+          "is_correct": false,
+          "words_early": -132
+        },
+        ">=1.0": {
+          "n_gaps": 6,
+          "answers": 106,
+          "is_correct": false,
+          "words_early": 12
+        },
+        ">=1.5": {
+          "n_gaps": 4,
+          "answers": 87,
+          "is_correct": false,
+          "words_early": 31
+        },
+        ">=2.0": {
+          "n_gaps": 2,
+          "answers": 59,
+          "is_correct": false,
+          "words_early": 59
+        },
+        ">=2.5": {
+          "n_gaps": 2,
+          "answers": 59,
+          "is_correct": false,
+          "words_early": 59
+        },
+        ">=3.0": {
+          "n_gaps": 1,
+          "answers": 19,
+          "is_correct": false,
+          "words_early": 99
+        },
+        ">=4.0": {
+          "n_gaps": 1,
+          "answers": 19,
+          "is_correct": false,
+          "words_early": 99
+        },
+        ">=6.0": {
+          "n_gaps": 1,
+          "answers": 19,
+          "is_correct": false,
+          "words_early": 99
+        },
+        ">=8.0": {
+          "n_gaps": 1,
+          "answers": 19,
+          "is_correct": false,
+          "words_early": 99
+        }
+      },
+      "boundary_gap_s": 0.04,
+      "note": "a rule correct on a BAND of thresholds is evidence; a single correct point is not, which is why all 10 are recorded with the answer each gives"
+    },
+    "corroboration": {
+      "marker": "bound",
+      "gap": "DISAGREES",
+      "witnessed": true,
+      "allow_uncorroborated": false
+    },
+    "closure_is_asserted": "no discard marker and no further scripted opening survives inside w118..w255, and the take reaches the sign-off at w250",
+    "stutters_inside_take": 0,
+    "largest_in_take_gap_s": 0.9,
+    "expected_pins_asserted": [],
+    "head_measurement": {
+      "onset_rule": "silence-run end",
+      "primary_rule": "END of the last >= 0.3s run of sub-threshold 10ms windows (silence DURATION, not amplitude)",
+      "cross_check_rule": "SUSTAIN: first 10ms window holding >= threshold for 0.15s; speech may lead it by at most 0.35s",
+      "measured_onset_s": 93.22,
+      "sustain_onset_s": 93.22,
+      "sustain_lead_in_s": 0.0,
+      "silence_run_s": [
+        92.86,
+        93.22
+      ],
+      "silence_run_duration_s": 0.36,
+      "scribe_start_s": 93.2,
+      "scribe_vs_onset_s": -0.02,
+      "scribe_start_inside_silence_drift_s": 0.0,
+      "prev_utterance_audible_end_s": 93.41,
+      "silence_before_take_s": -0.19,
+      "envelope_threshold": 0.01925,
+      "envelope_peak": 0.3208,
+      "envelope_floor": 1.2e-05,
+      "head_s": 93.12,
+      "head_lead_s": 0.1,
+      "head_inside_silence_run": true,
+      "head_pad_vs_onset_s": 0.1,
+      "head_pad_vs_scribe_s": 0.08
+    },
+    "cross_check_envelope_gap_rule": "the end of the last >= 0.3s silence run in a 10ms-window RMS envelope is 93.22s, which is 0.02s from the winner's Scribe start (93.2s). The run itself is 0.36s long."
+  },
+  "silence_noise": "-35dB",
+  "silence_min": 0.4,
+  "silence_keep": 0.16,
+  "micro_cuts_source": [],
+  "detected_silences": [
+    {
+      "start": 31.257,
+      "end": 31.735
+    },
+    {
+      "start": 37.312,
+      "end": 38.179
+    }
+  ],
+  "keep_segments": [
+    {
+      "tight_start": 0,
+      "source_start": 93.12,
+      "source_end": 124.457
+    },
+    {
+      "tight_start": 31.337,
+      "source_start": 124.775,
+      "source_end": 130.512
+    },
+    {
+      "tight_start": 37.074,
+      "source_start": 131.219,
+      "source_end": 132.22
+    }
+  ],
+  "edl_keep_segments_duration_s": 38.075,
+  "audio_sync_offset_ms": 0,
+  "audio_written": [
+    "audio.m4a (48 kHz stereo)"
+  ],
+  "analysis_wav_written": false,
+  "mix_source": "audio.m4a (48 kHz stereo) \u2014 there is no 16 kHz file here",
+  "raw_duration": 132.88,
+  "tight_transcript": {
+    "file": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/cuts/kimifable/transcript_tight.json",
+    "words": 138,
+    "keyterms_sent": 107,
+    "first_word_s": 0.079,
+    "audio_duration_secs": 38.098
+  }
+}

@@ -1,0 +1,123 @@
+{
+ "set": "seal",
+ "phone_scale": "405x720",
+ "module": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/gen/pcoverheat_scene.py",
+ "objects": [
+  {
+   "i": 0,
+   "label": "laptop",
+   "intended": "an open laptop",
+   "core_box": [
+    430.0,
+    108.0,
+    650.0,
+    344.0
+   ],
+   "norm_box": [
+    0.3981,
+    0.1562,
+    0.6019,
+    0.2792
+   ],
+   "phone_box_px": [
+    161,
+    112,
+    244,
+    201
+   ],
+   "phone_size_px": [
+    83,
+    89
+   ],
+   "crop": "review/proofs/crop_seal_00_laptop.png",
+   "frame": "review/proofs/frame_seal_00.png"
+  },
+  {
+   "i": 1,
+   "label": "download",
+   "intended": "a download arrow",
+   "core_box": [
+    390.0,
+    348.0,
+    690.0,
+    508.0
+   ],
+   "norm_box": [
+    0.3611,
+    0.2812,
+    0.6389,
+    0.3646
+   ],
+   "phone_box_px": [
+    146,
+    202,
+    259,
+    262
+   ],
+   "phone_size_px": [
+    113,
+    60
+   ],
+   "crop": "review/proofs/crop_seal_01_download.png",
+   "frame": "review/proofs/frame_seal_01.png"
+  },
+  {
+   "i": 2,
+   "label": "bubble",
+   "intended": "a speech bubble",
+   "core_box": [
+    310.0,
+    94.0,
+    770.0,
+    210.0
+   ],
+   "norm_box": [
+    0.287,
+    0.149,
+    0.713,
+    0.2094
+   ],
+   "phone_box_px": [
+    116,
+    107,
+    289,
+    151
+   ],
+   "phone_size_px": [
+    173,
+    44
+   ],
+   "crop": "review/proofs/crop_seal_02_bubble.png",
+   "frame": "review/proofs/frame_seal_02.png"
+  },
+  {
+   "i": 3,
+   "label": "list",
+   "intended": "a process list",
+   "core_box": [
+    246.0,
+    108.0,
+    834.0,
+    384.0
+   ],
+   "norm_box": [
+    0.2278,
+    0.1562,
+    0.7722,
+    0.3
+   ],
+   "phone_box_px": [
+    92,
+    112,
+    313,
+    216
+   ],
+   "phone_size_px": [
+    221,
+    104
+   ],
+   "crop": "review/proofs/crop_seal_03_list.png",
+   "frame": "review/proofs/frame_seal_03.png"
+  }
+ ]
+}

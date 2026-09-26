@@ -1,0 +1,107 @@
+{
+ "label": "aieducation_whiteboard",
+ "video": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/output/aieducation_whiteboard.mp4",
+ "phone_scale": "405x720",
+ "sheet": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/review/phone_aieducation_whiteboard.png",
+ "rule": "a FRESH judge (never read the plan) names each crop in <=3 words. Wrong name, hedge, or 'cannot tell' = the object is redesigned, not annotated.",
+ "answer_key": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/review/phone_aieducation_whiteboard.key.json",
+ "answer_key_rule": "DO NOT OPEN the answer key until every judge_answer below is filled in. Reading it first voids the Phone Test.",
+ "objects": [
+  {
+   "i": 0,
+   "t": 2.55,
+   "bbox_norm": [
+    0.25,
+    0.166,
+    0.75,
+    0.3926
+   ],
+   "phone_box_px": [
+    101,
+    119,
+    303,
+    282
+   ],
+   "phone_size_px": [
+    202,
+    163
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/review/phone_aieducation_whiteboard/00.png",
+   "sheet_scale": 1.0,
+   "judge_answer": "Open book with heart",
+   "verdict": null
+  },
+  {
+   "i": 1,
+   "t": 12.8,
+   "bbox_norm": [
+    0.3438,
+    0.168,
+    0.6562,
+    0.3281
+   ],
+   "phone_box_px": [
+    139,
+    120,
+    265,
+    236
+   ],
+   "phone_size_px": [
+    126,
+    116
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/review/phone_aieducation_whiteboard/01.png",
+   "sheet_scale": 1.0,
+   "judge_answer": "Anatomical heart with dots",
+   "verdict": null
+  },
+  {
+   "i": 2,
+   "t": 17.72,
+   "bbox_norm": [
+    0.6111,
+    0.1445,
+    0.809,
+    0.3027
+   ],
+   "phone_box_px": [
+    247,
+    104,
+    327,
+    217
+   ],
+   "phone_size_px": [
+    80,
+    113
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/review/phone_aieducation_whiteboard/02.png",
+   "sheet_scale": 1.0,
+   "judge_answer": "Head thinking about heart",
+   "verdict": null
+  },
+  {
+   "i": 3,
+   "t": 25.3,
+   "bbox_norm": [
+    0.3229,
+    0.2344,
+    0.6771,
+    0.4121
+   ],
+   "phone_box_px": [
+    130,
+    168,
+    274,
+    296
+   ],
+   "phone_size_px": [
+    144,
+    128
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/review/phone_aieducation_whiteboard/03.png",
+   "sheet_scale": 1.0,
+   "judge_answer": "Easel with heart drawing",
+   "verdict": null
+  }
+ ]
+}

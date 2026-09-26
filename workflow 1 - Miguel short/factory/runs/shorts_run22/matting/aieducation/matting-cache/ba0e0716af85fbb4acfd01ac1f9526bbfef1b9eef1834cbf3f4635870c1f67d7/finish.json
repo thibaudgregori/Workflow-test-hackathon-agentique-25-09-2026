@@ -1,0 +1,22 @@
+{
+  "status": "ok",
+  "frames": 803,
+  "width": 1584,
+  "height": 990,
+  "fps": 25.0,
+  "alpha_mode": "soft",
+  "rim_px": 7,
+  "temporal": 1,
+  "hashes": {
+    "cut": "6fbd4304a2c5bdb1c51747d0717b561d27a29d51e31785c920029e18473d1ecf",
+    "rim": "73a1828994ae496e8572762155e1a05be978569e756059f9cae9f3f6760805f6",
+    "alpha": "0f0c1f303955734bc3571f51a0ebf750128b94bc39d2eb0bfef262919020e534"
+  },
+  "seconds": 64.755337291,
+  "estimated_compute_usd": 0.029445546972963522,
+  "fractional_alpha_pixels": 16766099,
+  "minimum_person_fraction": 0.36665136210590754,
+  "review_status": "needs_final_visual_review",
+  "ship_source_sha256": "cf367be51d742c272d9f79db8a13e00297684001ebf666283095059206e149e7",
+  "client_wall_seconds": 84.06857891698019
+}

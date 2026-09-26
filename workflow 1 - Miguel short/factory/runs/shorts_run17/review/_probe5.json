@@ -1,0 +1,20 @@
+{
+  "tag": "kimifable-probe5",
+  "cold_dir": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/kimifable-probe5-2e31e26f",
+  "reader": "one independent `claude -p` process per crop, launched from /tmp, handed ONLY the absolute path of a blind copy under a random token - no plan, no topic, no manifest, no sealed key, and no path naming the video",
+  "prompt": "Look at the image at <absolute path of one blind crop> . Name the single everyday object drawn in it. At most FIVE words. Reply with ONE line of JSON and nothing else: {\"name\":\"<=5 words\",\"confidence\":\"sure|unsure|cannot tell\"}",
+  "dispatched_at": "2026-09-08T01:40:49",
+  "cli": "2.1.263 (Claude Code)",
+  "source_crops": {
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/proofs/kimifable_probe5/03.png": "5f0f20d35254f11258adf83a1fa832928b728dfd40e15943b8c3192943fdcaad"
+  },
+  "names": [
+    {
+      "i": 0,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/kimifable-probe5-2e31e26f/00.png",
+      "name": "stacked browser windows",
+      "confidence": "unsure",
+      "crop_sha256": "5f0f20d35254f11258adf83a1fa832928b728dfd40e15943b8c3192943fdcaad"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/projects/kimifable_cutout",
+ "label": "kimifable_cutout",
+ "mode": "phone-test",
+ "composition_px": [
+  1080,
+  1920
+ ],
+ "duration_s": 38.12,
+ "sheet": "review/phone_kimifable_cutout.png",
+ "manifest": "review/phone_kimifable_cutout.json",
+ "answer_key": "review/phone_kimifable_cutout.key.json",
+ "n_objects": 4,
+ "phone_sizes_px": [
+  [
+   112,
+   51
+  ],
+  [
+   164,
+   133
+  ],
+  [
+   123,
+   81
+  ],
+  [
+   123,
+   90
+  ]
+ ],
+ "wall_s": 1.88
+}

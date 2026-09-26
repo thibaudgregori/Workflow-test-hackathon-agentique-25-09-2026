@@ -1,0 +1,12 @@
+{
+ "id": "primeagent",
+ "stage": "plate",
+ "status": "skipped",
+ "wall_s": 0.0,
+ "at": "2026-09-15T22:06:50",
+ "keys": {
+  "status": "skipped",
+  "note": "no reusable plate on disk (FileNotFoundError: [Errno 2] No such file or directory: '/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/matting/primeagent/plate.json')",
+  "wall_s": 0.0
+ }
+}

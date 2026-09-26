@@ -1,0 +1,101 @@
+{
+  "tag": "kimifable_probe3",
+  "phone": [
+    405,
+    720
+  ],
+  "objects": [
+    {
+      "i": 0,
+      "intended": "a price tag",
+      "t": 3.0,
+      "chapter": 0,
+      "core": [
+        261.0,
+        324.0,
+        451.0,
+        524.0
+      ],
+      "phone_box": [
+        98,
+        194,
+        169,
+        268
+      ],
+      "phone_px": [
+        71,
+        74
+      ],
+      "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/proofs/kimifable_probe3/00.png"
+    },
+    {
+      "i": 1,
+      "intended": "a benchmark scorecard",
+      "t": 10.0,
+      "chapter": 1,
+      "core": [
+        280.0,
+        108.0,
+        800.0,
+        448.0
+      ],
+      "phone_box": [
+        105,
+        112,
+        300,
+        240
+      ],
+      "phone_px": [
+        195,
+        128
+      ],
+      "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/proofs/kimifable_probe3/01.png"
+    },
+    {
+      "i": 2,
+      "intended": "a website layout",
+      "t": 15.6,
+      "chapter": 2,
+      "core": [
+        192.0,
+        220.0,
+        520.0,
+        437.2
+      ],
+      "phone_box": [
+        72,
+        154,
+        195,
+        236
+      ],
+      "phone_px": [
+        123,
+        82
+      ],
+      "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/proofs/kimifable_probe3/02.png"
+    },
+    {
+      "i": 3,
+      "intended": "stacked browser windows",
+      "t": 24.6,
+      "chapter": 3,
+      "core": [
+        180.0,
+        100.0,
+        520.0,
+        340.0
+      ],
+      "phone_box": [
+        68,
+        110,
+        195,
+        200
+      ],
+      "phone_px": [
+        127,
+        90
+      ],
+      "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/proofs/kimifable_probe3/03.png"
+    }
+  ]
+}

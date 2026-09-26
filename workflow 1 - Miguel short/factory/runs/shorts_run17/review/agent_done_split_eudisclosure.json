@@ -1,0 +1,23 @@
+{
+ "staged": "",
+ "phone_verdict": "FAIL",
+ "blocked": "bespoke object 03 (a brightness slider) failed the phone gate: two of four independent cold readers named a DIFFERENT object (dumbbell; unidentifiable line drawing) and two more single-object dispatches added barbell / dimmer-unsure. production.py phone-pass refused with 'A failed object cannot be rendered', so no approval exists and nothing was rendered or staged. Nine candidate drawings were cut and read cold under the scene lock; the taller seat (candidate F, preserved at gen/eudisclosure_scene.slider_repair_candidateF.py.bak) removes the barbell entirely but no drawing reaches consensus's half-sure bar today, because the SEALED reader lane is at its usage cap and every calibrated substitute hedges on the run's OWN sealed slider crop. Module reverted to its sealed sha256, lock released, cutout lane unblocked.",
+ "rounds": 4,
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/projects/eudisclosure_split",
+ "scene_handoff": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/plans/eudisclosure_scene_handoff.md",
+ "lane": "diagram build",
+ "prerender": "PASS (refs_resolve, assets_not_placeholder, page_audit, caption_canon_page 27 pills modal h 114.54, gate1 0 errors / 0 warnings)",
+ "geometry_audit_strict": "0 errors, 0 warnings",
+ "phone_test": {
+  "mode": "phone-test",
+  "objects": 3,
+  "sheet": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/phone_eudisclosure_split.png"
+ },
+ "cold_crop_paths": [
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/8b0cdc09/00.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/8b0cdc09/01.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/8b0cdc09/02.png"
+ ],
+ "ss3b_merge_count": 0,
+ "notes": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/plans/eudisclosure_split_notes.md"
+}

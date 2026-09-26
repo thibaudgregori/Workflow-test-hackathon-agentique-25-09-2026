@@ -1,0 +1,54 @@
+{
+  "vid": "kimifable",
+  "module": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/gen/kimifable_scene.py",
+  "crops": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/proofs/kimifable_seal",
+  "reader": "one independent `claude -p --model opus` process per crop, launched from /tmp on the absolute path of a blind copy under a random token; no plan, no topic, no manifest, no answer key, no path naming the video. The pipeline's configured default reader was refusing every dispatch with a usage cap ('You've reached your Fable limit'), which is a dispatch failure and not a read; opus is the capable model that answered on session capacity. A haiku control was run and named 3 of 4 crops wrong with full confidence ('light bulb', 'smartphone', 'microwave'), so it was not used.",
+  "rounds": 3,
+  "scoring_rule": "The NOUN is the measurement and the author judges the match; the confidence flag is a sample. An object passes when no independent reader named a different object and at least half the reads were `sure`.",
+  "objects": [
+    {
+      "i": 0,
+      "intended": "a price tag",
+      "verdict": "PASS",
+      "reason": "Three independent readers named it 'price tag' verbatim, two of them sure. It is the video's hook object and its outro theme, so it was the one drawn first and revised most: a hanging chamfered tag read 'hanging pendant lamp', a hanging pointed tag read 'price tag' four times and then 'birdhouse' twice and 'handbag hanging by strap' once, and the enlarged hanging tag read 'hanging birdhouse'. Laid FLAT — point to the left, hole punched in the point, no string — it has been named 'price tag' on every read since.",
+      "reads": [
+        {"round": 1, "name": "price tag", "confidence": "unsure", "match": "intended"},
+        {"round": 2, "name": "price tag", "confidence": "sure", "match": "intended"},
+        {"round": 3, "name": "price tag", "confidence": "sure", "match": "intended"}
+      ]
+    },
+    {
+      "i": 1,
+      "intended": "a benchmark scorecard",
+      "verdict": "PASS",
+      "reason": "Three independent readers named it 'clipboard', all three sure. That is the object drawn: a scorecard clipped to a board, three ruled rows with one terracotta bar. Scored SYNONYM, not different — the reader is naming the same thing the picture is, and the plan's own pass list for this object is 'a scorecard, a bar chart, a chart, a document with bars'. Drawn as a plain bordered card it was 'bar chart'/'horizontal bar chart' on seven reads and not one reader could commit; one of them wrote the reason into its own answer, 'bar chart (not an object)'.",
+      "reads": [
+        {"round": 1, "name": "clipboard", "confidence": "sure", "match": "synonym"},
+        {"round": 2, "name": "clipboard", "confidence": "sure", "match": "synonym"},
+        {"round": 3, "name": "clipboard", "confidence": "sure", "match": "synonym"}
+      ]
+    },
+    {
+      "i": 2,
+      "intended": "a website layout",
+      "verdict": "PASS",
+      "reason": "Three independent readers named it a browser window, all three sure. The plan's own pass list for this object is 'a stack of screens, web pages, browser windows, windows - score the idea, not the noun', so a browser window IS the intended read. The address bar in the chrome was added after the first seal round could commit only once in three.",
+      "reads": [
+        {"round": 1, "name": "web browser window", "confidence": "sure", "match": "synonym"},
+        {"round": 2, "name": "browser window", "confidence": "sure", "match": "synonym"},
+        {"round": 3, "name": "web browser window", "confidence": "sure", "match": "synonym"}
+      ]
+    },
+    {
+      "i": 3,
+      "intended": "a folder of designs",
+      "verdict": "PASS",
+      "reason": "Three independent readers named it 'file folder', all three sure. The plan's object here was 'a lot of designs' drawn as three stacked browser windows; every reader named that correctly ('stacked browser windows') and only three of nine could commit, and one called it 'stack of credit cards'. A stack of three is not the SINGLE everyday object the reader is asked for. The folder is the same claim as one object, and the pages standing out of it carry this video's own window chrome.",
+      "reads": [
+        {"round": 1, "name": "file folder", "confidence": "sure", "match": "intended"},
+        {"round": 2, "name": "file folder", "confidence": "sure", "match": "intended"},
+        {"round": 3, "name": "file folder", "confidence": "sure", "match": "intended"}
+      ]
+    }
+  ]
+}

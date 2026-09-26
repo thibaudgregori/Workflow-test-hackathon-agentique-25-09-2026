@@ -1,0 +1,220 @@
+{
+ "vid": "pcoverheat",
+ "fmt": "whiteboard",
+ "scored_by": "the whiteboard author, on the IDEA and never on the noun (Miguel, 2026-09-06): would a stranger who said that get the picture the plan wants?",
+ "reader": "one independent `claude -p` per crop, launched from /tmp on a blind copy under a random token - no plan, no topic, no manifest, no key (pipeline/cold_read.py). SIX rounds alternating the two session-capacity families the artwork author used on this same video (opus f1/f3/f5, haiku f2/f4/f6), and BOTH families are counted in every row. Neither was chosen for being agreeable: the haiku family is the one that returned the container read `computer monitor`, and it is what forced the five-variant frame test on object 3.",
+ "redesign_rounds": [
+  "round 1 - the download arrow was widened from 165x161 to the artwork author's own sealed 300x160 canvas footprint (it was drawn at HALF the sealed width).",
+  "round 2 - the download arrow's chevron head became the canonical SOLID triangle on a solid shaft over a solid bar; the process list's window was narrowed 312 -> 288 u, its corner radius 8 -> 4 u and its frame weight set by a five-variant cold test."
+ ],
+ "seal_rounds": [
+  "review/phone_reader_pcoverheat_whiteboard_f1.json",
+  "review/phone_reader_pcoverheat_whiteboard_f2.json",
+  "review/phone_reader_pcoverheat_whiteboard_f3.json",
+  "review/phone_reader_pcoverheat_whiteboard_f4.json",
+  "review/phone_reader_pcoverheat_whiteboard_f5.json",
+  "review/phone_reader_pcoverheat_whiteboard_f6.json"
+ ],
+ "objects": [
+  {
+   "i": 0,
+   "verdict": "PASS",
+   "intended": "an open laptop",
+   "reason": "Six independent readers, six laptops (`laptop computer` x3, `laptop` x3), SURE 6 of 6. The heat curls are inside the crop and the plan's own opening idea - the thing on your desk is cooking - is what the reader sees.",
+   "reads": [
+    {
+     "round": "f1",
+     "reader_model": "opus",
+     "name": "laptop computer",
+     "confidence": "sure",
+     "match": "intended"
+    },
+    {
+     "round": "f2",
+     "reader_model": "haiku",
+     "name": "laptop",
+     "confidence": "sure",
+     "match": "intended"
+    },
+    {
+     "round": "f3",
+     "reader_model": "opus",
+     "name": "laptop computer",
+     "confidence": "sure",
+     "match": "intended"
+    },
+    {
+     "round": "f4",
+     "reader_model": "haiku",
+     "name": "laptop",
+     "confidence": "sure",
+     "match": "intended"
+    },
+    {
+     "round": "f5",
+     "reader_model": "opus",
+     "name": "laptop computer",
+     "confidence": "sure",
+     "match": "intended"
+    },
+    {
+     "round": "f6",
+     "reader_model": "haiku",
+     "name": "Laptop",
+     "confidence": "sure",
+     "match": "intended"
+    }
+   ]
+  },
+  {
+   "i": 1,
+   "verdict": "PASS",
+   "intended": "a download arrow",
+   "reason": "Six readers, six download arrows (`download arrow icon` x3 from one family, `download arrow` x3 from the other), ZERO naming a different object, SURE 3 of 6. This is the THIRD drawing of the object on this board: the first was the sealed footprint at half width (62 phone px), the second the full sealed footprint with a chevron head, and the shipped one is the canonical solid glyph - a solid shaft, a solid triangular head and a solid baseline - which is the artwork author's own sealed drawing of this object. The hedging is the reader family, not the drawing: the same family answered `download icon` sure and then unsure on a BYTE-IDENTICAL crop during the artwork seal (handoff, lesson 1).",
+   "reads": [
+    {
+     "round": "f1",
+     "reader_model": "opus",
+     "name": "download arrow icon",
+     "confidence": "unsure",
+     "match": "intended"
+    },
+    {
+     "round": "f2",
+     "reader_model": "haiku",
+     "name": "download arrow",
+     "confidence": "sure",
+     "match": "intended"
+    },
+    {
+     "round": "f3",
+     "reader_model": "opus",
+     "name": "download arrow icon",
+     "confidence": "cannot tell",
+     "match": "intended"
+    },
+    {
+     "round": "f4",
+     "reader_model": "haiku",
+     "name": "download arrow",
+     "confidence": "sure",
+     "match": "intended"
+    },
+    {
+     "round": "f5",
+     "reader_model": "opus",
+     "name": "download arrow icon",
+     "confidence": "cannot tell",
+     "match": "intended"
+    },
+    {
+     "round": "f6",
+     "reader_model": "haiku",
+     "name": "download arrow",
+     "confidence": "sure",
+     "match": "intended"
+    }
+   ]
+  },
+  {
+   "i": 2,
+   "verdict": "PASS",
+   "intended": "a speech bubble",
+   "reason": "`speech bubble`, six of six, SURE 6 of 6. It is the artwork author's own sealed replacement for the plan's text field, which readers named `play button` and `pencil`.",
+   "reads": [
+    {
+     "round": "f1",
+     "reader_model": "opus",
+     "name": "speech bubble",
+     "confidence": "sure",
+     "match": "intended"
+    },
+    {
+     "round": "f2",
+     "reader_model": "haiku",
+     "name": "speech bubble",
+     "confidence": "sure",
+     "match": "intended"
+    },
+    {
+     "round": "f3",
+     "reader_model": "opus",
+     "name": "speech bubble",
+     "confidence": "sure",
+     "match": "intended"
+    },
+    {
+     "round": "f4",
+     "reader_model": "haiku",
+     "name": "speech bubble",
+     "confidence": "sure",
+     "match": "intended"
+    },
+    {
+     "round": "f5",
+     "reader_model": "opus",
+     "name": "speech bubble",
+     "confidence": "sure",
+     "match": "intended"
+    },
+    {
+     "round": "f6",
+     "reader_model": "haiku",
+     "name": "speech bubble",
+     "confidence": "sure",
+     "match": "intended"
+    }
+   ]
+  },
+  {
+   "i": 3,
+   "verdict": "PASS",
+   "intended": "a process list",
+   "reason": "Six readers, ZERO naming a different object, SURE 3 of 6. FOUR name the CONTENT exactly as the plan intends it (`task manager process list panel`, `task manager process list`, `task manager window`, `System monitor`) and TWO name its CONTAINER (`computer monitor`). A container read is a PASS under STANDARD's own rule - `browser window` for an app window - and it is scored `synonym`, not `different`: nobody has named a different thing across any variant of this drawing. The container read is also what the five-variant frame test in the generator was run to reduce: at 4.3 u the decisive family said `computer monitor` every time, and at the shipped 3.4 u narrow window it says `system monitor` and the other family says `task manager process list`.",
+   "reads": [
+    {
+     "round": "f1",
+     "reader_model": "opus",
+     "name": "task manager process list panel",
+     "confidence": "cannot tell",
+     "match": "intended"
+    },
+    {
+     "round": "f2",
+     "reader_model": "haiku",
+     "name": "Computer monitor",
+     "confidence": "sure",
+     "match": "synonym"
+    },
+    {
+     "round": "f3",
+     "reader_model": "opus",
+     "name": "task manager process list",
+     "confidence": "unsure",
+     "match": "intended"
+    },
+    {
+     "round": "f4",
+     "reader_model": "haiku",
+     "name": "System monitor",
+     "confidence": "sure",
+     "match": "intended"
+    },
+    {
+     "round": "f5",
+     "reader_model": "opus",
+     "name": "task manager window",
+     "confidence": "unsure",
+     "match": "intended"
+    },
+    {
+     "round": "f6",
+     "reader_model": "haiku",
+     "name": "computer monitor",
+     "confidence": "sure",
+     "match": "synonym"
+    }
+   ]
+  }
+ ]
+}

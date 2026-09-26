@@ -1,0 +1,44 @@
+{
+  "tag": "r2c",
+  "cold_dir": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/r2c-e5ffe5c3",
+  "reader": "one independent `claude -p` process per crop, launched from /tmp, handed ONLY the absolute path of a blind copy under a random token - no plan, no topic, no manifest, no sealed key, and no path naming the video",
+  "prompt": "Look at the image at <absolute path of one blind crop> . Name the single everyday object drawn in it. At most FIVE words. Reply with ONE line of JSON and nothing else: {\"name\":\"<=5 words\",\"confidence\":\"sure|unsure|cannot tell\"}",
+  "dispatched_at": "2026-09-08T01:17:54",
+  "cli": "2.1.263 (Claude Code)",
+  "source_crops": {
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/proofs/crop_seal_00_laptop.png": "1304720cf6d8ee7b555c7ee6b4e7f5cbf2ef36bcb9e0685dc23dd4a7b3ef6a40",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/proofs/crop_seal_01_download.png": "4629ea76dab54e3e2e59cd0d708a4f48eac06b807d0a0e6124b79a05ec32d89c",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/proofs/crop_seal_02_field.png": "aae0e5c9b45cb47507dea6d32c0bdfb6b1eae947642631416059c9c1487cf49f",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/proofs/crop_seal_03_list.png": "b8edcaeece459efc5d9376a7548efb80fac4efaf5750879414c70be253612ff6"
+  },
+  "names": [
+    {
+      "i": 0,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/r2c-e5ffe5c3/00.png",
+      "name": "laptop computer",
+      "confidence": "unsure",
+      "crop_sha256": "1304720cf6d8ee7b555c7ee6b4e7f5cbf2ef36bcb9e0685dc23dd4a7b3ef6a40"
+    },
+    {
+      "i": 1,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/r2c-e5ffe5c3/01.png",
+      "name": "download icon",
+      "confidence": "unsure",
+      "crop_sha256": "4629ea76dab54e3e2e59cd0d708a4f48eac06b807d0a0e6124b79a05ec32d89c"
+    },
+    {
+      "i": 2,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/r2c-e5ffe5c3/02.png",
+      "name": "terminal command prompt with cursor",
+      "confidence": "cannot tell",
+      "crop_sha256": "aae0e5c9b45cb47507dea6d32c0bdfb6b1eae947642631416059c9c1487cf49f"
+    },
+    {
+      "i": 3,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/r2c-e5ffe5c3/03.png",
+      "name": "task manager window",
+      "confidence": "unsure",
+      "crop_sha256": "b8edcaeece459efc5d9376a7548efb80fac4efaf5750879414c70be253612ff6"
+    }
+  ]
+}

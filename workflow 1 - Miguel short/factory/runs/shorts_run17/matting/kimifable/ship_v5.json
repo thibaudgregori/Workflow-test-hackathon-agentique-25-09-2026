@@ -1,0 +1,27 @@
+{
+  "status": "ok",
+  "frames": 953,
+  "width": 1320,
+  "height": 990,
+  "fps": 25.0,
+  "alpha_mode": "soft",
+  "rim_px": 7,
+  "temporal": 1,
+  "hashes": {
+    "cut": "29612a15c6e06c31d4bcb83020e1c0b36cf88261072f59794f869f77bb69c278",
+    "rim": "bd720ee24fc643e33acc3912a0795be7fe8a97a1b39ee28a68d1db2a1e1001bf",
+    "alpha": "3df30553f5e27b08de6333d31a4107aa0ffaad0e7d977f9a8ea222fac9a9f4f2"
+  },
+  "seconds": 87.605111189,
+  "estimated_compute_usd": 0.039835796159862075,
+  "fractional_alpha_pixels": 18428379,
+  "minimum_person_fraction": 0.4286524334251607,
+  "review_status": "needs_final_visual_review",
+  "ship_source_sha256": "cf367be51d742c272d9f79db8a13e00297684001ebf666283095059206e149e7",
+  "client_wall_seconds": 101.96270833304152,
+  "outputs": {
+    "cut": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/kimifable/matte_kimifable_v5_cut.webm",
+    "rim": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/kimifable/matte_kimifable_v5_rim.webm",
+    "alpha": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/kimifable/matte_kimifable_v5_alpha.webm"
+  }
+}

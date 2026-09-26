@@ -1,0 +1,19 @@
+{
+  "verdict": "PASS",
+  "vid": "pcoverheat",
+  "objects": 4,
+  "seal_rounds": 6,
+  "module": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/gen/pcoverheat_scene.py",
+  "handoff": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/plans/pcoverheat_scene_handoff.md",
+  "evidence": {
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/gen/pcoverheat_scene.py": "219a9f4f7a7b922da7f739dd52604083d354f3c30ff2e8e4c1012207574720ef",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/plans/pcoverheat_scene_handoff.md": "087acd5d1b6e2ee5816ff152d642a1c86778935c60cfc6e433494868e7ca93b9",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/phone_reader_pcoverheat_split_probe_haiku.json": "be30be0f9ef61f44f195d42748bd3cfbd96a4e0db3e95ea8f2f9be982a98875e",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/phone_reader_pcoverheat_split_probe_opus.json": "37b1c5f65375ec9d8ae1bb2f7d4631b8901d77d7852d5a67d456635044241e25",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/phone_reader_pcoverheat_split_p3.json": "ce0a98d9be0b29c77cf3982af3b4acf9638c148d74f9ac6b81340b15456a5c84",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/phone_reader_pcoverheat_split_p4.json": "2fbe0add65cf35536a7232c0e8dd5468d638b945aed0b38c5ae528ede246aa8a",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/phone_reader_pcoverheat_split_p5.json": "d9ced00f7361e92f6cb06e2e3f792226c3af491a5432c8fc48a82765d7b95feb",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/phone_reader_pcoverheat_split_p6.json": "08c9e169898e55fd5a225211c9786209c22bf694eeb063354b2783c043e3911c",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/phone_scores_pcoverheat_split.json": "728f9c744e6bd54b9f8a695435ac06099b392926ca69a302aa4d2c3822e69f66"
+  }
+}

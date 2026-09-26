@@ -1,0 +1,20 @@
+{
+  "tag": "confirm2_r3",
+  "cold_dir": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/review/cold/confirm2_r3-deabefaa",
+  "reader": "one independent `claude -p` process per crop, launched from /tmp, handed ONLY the absolute path of a blind copy under a random token - no plan, no topic, no manifest, no sealed key, and no path naming the video",
+  "prompt": "Look at the image at <absolute path of one blind crop> . Name the single everyday object drawn in it. At most FIVE words. Reply with ONE line of JSON and nothing else: {\"name\":\"<=5 words\",\"confidence\":\"sure|unsure|cannot tell\"}",
+  "dispatched_at": "2026-09-15T15:18:47",
+  "cli": "2.1.272 (Claude Code)",
+  "source_crops": {
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/review/phone_aieducation_whiteboard/00.png": "3ad21a9f5ff296eb95cac3f12db7964a0b146e291208c7ca7ed38bee5cc9ab67"
+  },
+  "names": [
+    {
+      "i": 0,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/review/cold/confirm2_r3-deabefaa/00.png",
+      "name": "open book",
+      "confidence": "sure",
+      "crop_sha256": "3ad21a9f5ff296eb95cac3f12db7964a0b146e291208c7ca7ed38bee5cc9ab67"
+    }
+  ]
+}

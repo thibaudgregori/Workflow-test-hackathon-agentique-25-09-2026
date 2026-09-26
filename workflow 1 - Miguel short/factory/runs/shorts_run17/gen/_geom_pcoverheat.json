@@ -1,0 +1,158 @@
+{
+ "video": "pcoverheat",
+ "fps": 25,
+ "duration": 37.16,
+ "shared": {
+  "beat_edges": [
+   0.099,
+   4.859,
+   7.719,
+   10.839,
+   14.159,
+   20.34,
+   25.459,
+   30.659,
+   32.54,
+   37.16
+  ],
+  "phone_test_objects": [
+   {
+    "name": "an open laptop",
+    "t": 1.9,
+    "space": "norm",
+    "bbox": [
+     0.39815,
+     0.15625,
+     0.60185,
+     0.27917
+    ],
+    "phone_px": [
+     82,
+     88
+    ]
+   },
+   {
+    "name": "a download arrow",
+    "t": 13.3,
+    "space": "norm",
+    "bbox": [
+     0.36111,
+     0.28125,
+     0.63889,
+     0.36458
+    ],
+    "phone_px": [
+     112,
+     60
+    ]
+   },
+   {
+    "name": "a speech bubble",
+    "t": 16.6,
+    "space": "norm",
+    "bbox": [
+     0.28704,
+     0.14896,
+     0.71296,
+     0.20938
+    ],
+    "phone_px": [
+     172,
+     44
+    ]
+   },
+   {
+    "name": "a process list",
+    "t": 25.9,
+    "space": "norm",
+    "bbox": [
+     0.22778,
+     0.15625,
+     0.77222,
+     0.3
+    ],
+    "phone_px": [
+     220,
+     104
+    ]
+   }
+  ]
+ },
+ "formats": {
+  "split": {
+   "phone_test_objects": [
+    {
+     "name": "an open laptop",
+     "t": 1.9,
+     "space": "norm",
+     "bbox": [
+      0.39815,
+      0.15625,
+      0.60185,
+      0.27917
+     ],
+     "phone_px": [
+      82,
+      88
+     ]
+    },
+    {
+     "name": "a download arrow",
+     "t": 13.3,
+     "space": "norm",
+     "bbox": [
+      0.36111,
+      0.28125,
+      0.63889,
+      0.36458
+     ],
+     "phone_px": [
+      112,
+      60
+     ]
+    },
+    {
+     "name": "a speech bubble",
+     "t": 16.6,
+     "space": "norm",
+     "bbox": [
+      0.28704,
+      0.14896,
+      0.71296,
+      0.20938
+     ],
+     "phone_px": [
+      172,
+      44
+     ]
+    },
+    {
+     "name": "a process list",
+     "t": 25.9,
+     "space": "norm",
+     "bbox": [
+      0.22778,
+      0.15625,
+      0.77222,
+      0.3
+     ],
+     "phone_px": [
+      220,
+      104
+     ]
+    }
+   ],
+   "core": {
+    "left": 0.0,
+    "top": 192.0
+   },
+   "scale": 1.0,
+   "seat": 862.5,
+   "voice": {
+    "source": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/cuts/pcoverheat/audio.m4a",
+    "sample_rate": 48000,
+    "channels": 2
+   }
+  }
+ }
+}

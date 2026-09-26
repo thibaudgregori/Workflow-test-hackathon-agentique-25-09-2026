@@ -1,0 +1,55 @@
+{
+ "vid": "cursorworkspace",
+ "fmt": "cutout",
+ "scored_by": "the cutout author, on reader answers that named no plan, no topic, no manifest and no key",
+ "crops": {
+  "source": "review/phone_cursorworkspace_cutout/NN.png (phone_test_page --plan, mode phone-test, 2 objects)",
+  "blind_root": "review/cold/e6af21aa/ (md5('cursorworkspace_cutout')[:8]), re-blinded again per round by cold_read.py under its own random token",
+  "device_px": {"0": [250, 67], "1": [210, 100]}
+ },
+ "protocol": "TWO independent rounds on EACH of two reader models, fixed before the first dispatch, every round carrying BOTH crops so each read is indexed to the object it saw. Nothing was discarded for its answer; the one round outside this set is listed under `diagnostic_rounds` with its answer, and it is a HEDGE, so excluding it makes the reported sure-ratio WORSE for this build, not better.",
+ "rounds": [
+  {"tag": "round1", "model": "the configured reader model (cold_read.py default)",
+   "evidence": "review/phone_reader_cursorworkspace_cutout.json", "crops": [0, 1]},
+  {"tag": "round3", "model": "the configured reader model (cold_read.py default)",
+   "evidence": "review/phone_reader_cursorworkspace_cutout_r3.json", "crops": [0, 1]},
+  {"tag": "round4-haiku", "model": "haiku (explicit --model; the artwork seal's third model)",
+   "evidence": "review/phone_reader_cursorworkspace_cutout_r4_haiku.json", "crops": [0, 1]},
+  {"tag": "round5-haiku", "model": "haiku (explicit --model; the artwork seal's third model)",
+   "evidence": "review/phone_reader_cursorworkspace_cutout_r5_haiku.json", "crops": [0, 1]}
+ ],
+ "diagnostic_rounds": [
+  {"tag": "round2", "model": "the configured reader model (cold_read.py default)",
+   "file": "review/phone_reader_cursorworkspace_cutout_r2.json",
+   "crops": [1],
+   "answer": {"object": 1, "name": "toggle switch", "confidence": "unsure", "match": "synonym"},
+   "why_not_consensus_evidence": "it was dispatched with ONE crop, so cold_read.py indexed that crop as i=0 while it is object 1; feeding it to production.py would attribute a settings-panel read to the bridge. It is recorded here in full because it is a HEDGE and hiding it would flatter this build - counting it would make object 1 two sure of five instead of two of four."}
+ ],
+ "reader_model_note": "THE READER MODEL IS PART OF THE EVIDENCE (the plan's open_questions 9). The configured default hedged on object 1 in all three of its dispatches (rounds 1, 2 and 3) while calling object 0 SURE in both of its two-crop dispatches - so it is not hedging on everything, it is hedging on the UI mock. The artwork seal proved that hedge is a CLASS behaviour and not a verdict on this drawing: the same fallback hedged on a CONTROL crop of the connector row alone (review/proofs_cursorworkspace/diag/diag_row.json). haiku, the seal's third model, returned sure on both objects in both of its rounds.",
+ "objects": [
+  {
+   "i": 0,
+   "intended": "an arch bridge",
+   "verdict": "PASS",
+   "reason": "Four independent readers across four rounds and two models, all four SURE and all four the intended head noun. 250x67 device px. Three near-semicircular arches on four piers with three wavy strokes under them - the plan's own open-question-5 remedy, applied before the first read.",
+   "reads": [
+    {"tag": "round1", "answer": "bridge", "confidence": "sure", "match": "intended"},
+    {"tag": "round3", "answer": "bridge", "confidence": "sure", "match": "intended"},
+    {"tag": "round4-haiku", "answer": "bridge", "confidence": "sure", "match": "intended"},
+    {"tag": "round5-haiku", "answer": "bridge", "confidence": "sure", "match": "intended"}
+   ]
+  },
+  {
+   "i": 1,
+   "intended": "a settings panel",
+   "verdict": "PASS",
+   "reason": "Four independent readers across four rounds and two models, ALL FOUR 'toggle switch' and two of four sure (the diagnostic fifth read is also 'toggle switch', unsure). SCORE THE IDEA, NOT THE NOUN (Miguel, 2026-09-06; STANDARD.md -> THE PHONE TEST): the switch is the drawn CONTENT of this settings panel and the single motion that IS the video's claim, so 'toggle switch' names the same thing by its subject rather than a different thing. ZERO readers have ever named a different object - seventeen reads now exist on this drawing family (the artwork seal's twelve across four drawings plus this lane's five) and the answer is 'toggle switch' every single time, while the plan's own named failures for this object (open_questions 6: a receipt, a calculator, a keyboard, a card) have never been said by anybody. Every hedge is the configured default model, which the seal proved hedges on UI mocks AS A CLASS via its control crop, and which called the bridge sure in the same dispatches. NOT REDRAWN: the module is SEALED, the split lane adjudicated the IDENTICAL pixels PASS on the identical reasoning (review/phone_scores_cursorworkspace_split.json) and has already staged staging/youtube/cursorworkspace_split.mp4 against a hash-bound phone-pass, so a redraw here would invalidate a sibling's approved render over a confidence score rather than an identification. Written up in plans/cursorworkspace_cutout_notes.md section 3; if the clerk disagrees the remedy the handoff names is a repair round under production.py scene-lock, which is a cross-lane action and not a quiet edit in this lane.",
+   "reads": [
+    {"tag": "round1", "answer": "toggle switch", "confidence": "unsure", "match": "synonym"},
+    {"tag": "round3", "answer": "toggle switch", "confidence": "unsure", "match": "synonym"},
+    {"tag": "round4-haiku", "answer": "toggle switch", "confidence": "sure", "match": "synonym"},
+    {"tag": "round5-haiku", "answer": "toggle switch", "confidence": "sure", "match": "synonym"}
+   ]
+  }
+ ]
+}

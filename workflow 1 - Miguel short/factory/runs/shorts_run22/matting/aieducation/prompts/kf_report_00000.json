@@ -1,0 +1,58 @@
+{
+ "frame": 0,
+ "plate": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/sam2/sessions/aieducation/plate_wide_25.mp4",
+ "dark_threshold": 60,
+ "wing_right": null,
+ "wing_right_rows": "400,620",
+ "wing_left": null,
+ "wing_left_rows": "400,520",
+ "removed_right_px": 0,
+ "removed_left_px": 0,
+ "removed": {
+  "px": 0,
+  "median_luma": -1,
+  "max_luma": -1
+ },
+ "birefnet": {
+  "area": 483176,
+  "bands": {
+   "cap": {
+    "left": 505,
+    "right": 878
+   },
+   "head": {
+    "left": 482,
+    "right": 906
+   },
+   "jaw": {
+    "left": 336,
+    "right": 1046
+   },
+   "neck": {
+    "left": 234,
+    "right": 1178
+   }
+  }
+ },
+ "prompt": {
+  "area": 483176,
+  "bands": {
+   "cap": {
+    "left": 505,
+    "right": 878
+   },
+   "head": {
+    "left": 482,
+    "right": 906
+   },
+   "jaw": {
+    "left": 336,
+    "right": 1046
+   },
+   "neck": {
+    "left": 234,
+    "right": 1178
+   }
+  }
+ }
+}

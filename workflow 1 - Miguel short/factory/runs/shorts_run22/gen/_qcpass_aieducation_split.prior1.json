@@ -1,0 +1,515 @@
+{
+ "render": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/output/aieducation_split.mp4",
+ "vid": "aieducation",
+ "fmt": "split",
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/projects/aieducation_split",
+ "checks": {
+  "decoded_blank_frames": {
+   "ok": true,
+   "result": {
+    "frames": 803,
+    "fps": 25.0,
+    "zone": [
+     0,
+     862,
+     1080,
+     862
+    ],
+    "ink_floor": 0.0006,
+    "min_ink_frac": 0.0,
+    "empty_frames_total": 2,
+    "leading_trailing_empty": 2,
+    "interior_blank_frames": [],
+    "pass": true
+   },
+   "wall_s": 0.0
+  },
+  "zero_ink_law": {
+   "ok": true,
+   "result": {
+    "render": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/output/aieducation_split.mp4",
+    "frames": 803,
+    "fps": 25.0,
+    "zone_bottom_design_px": 862.5,
+    "zone_px": [
+     1080,
+     862
+    ],
+    "first_word_s": 0.099,
+    "leading_empty_frames": 2,
+    "first_judged_frame": 3,
+    "min_ink_frac_judged": 0.02533514,
+    "min_ink_frac_at_s": 13.56,
+    "blank_frames": [],
+    "verdict": "PASS"
+   },
+   "wall_s": 0.0
+  },
+  "clip_coverage_page": {
+   "ok": true,
+   "result": {
+    "duration_s": 32.12,
+    "fps": 25,
+    "groups": {
+     "stage": {
+      "clips": 0,
+      "checked": false,
+      "note": "fewer than two clips \u2014 nothing can hand over"
+     },
+     "tz": {
+      "clips": 1,
+      "checked": false,
+      "note": "fewer than two clips \u2014 nothing can hand over"
+     },
+     "scap": {
+      "clips": 30,
+      "checked": true,
+      "frames": 803,
+      "span": [
+       0.08,
+       32.1
+      ],
+      "holes": [],
+      "ghosts": [],
+      "pass": true
+     }
+    },
+    "holes": 0,
+    "ghosts": 0,
+    "pass": true
+   },
+   "wall_s": 0.0
+  },
+  "double_exposure": {
+   "ok": true,
+   "result": {
+    "frames": 803,
+    "fps": 25.0,
+    "first_word_s": 0.099,
+    "leading_blank_run_frames": 4,
+    "after_first_word": {
+     "from_frame": 3,
+     "from_t": 0.12,
+     "basis": "first spoken word",
+     "min_ink": 0,
+     "min_ink_t": 0.12,
+     "min_ink40": 0,
+     "min_ink40_t": 0.12,
+     "zero_ink_frames": [
+      0.12,
+      3.2,
+      3.24,
+      3.28,
+      3.32,
+      18.12,
+      21.92,
+      21.96,
+      22.0,
+      22.04,
+      22.08,
+      22.12,
+      22.16,
+      22.2,
+      22.24,
+      28.08,
+      28.12,
+      28.16,
+      28.2,
+      28.24
+     ],
+     "zero_ink40_frames": [
+      0.12,
+      0.16,
+      3.12,
+      3.16,
+      3.2,
+      3.24,
+      3.28,
+      3.32,
+      7.0,
+      7.04,
+      13.52,
+      13.56,
+      13.6,
+      18.08,
+      18.12,
+      21.88,
+      21.92,
+      21.96,
+      22.0,
+      22.04,
+      22.08,
+      22.12,
+      22.16,
+      22.2,
+      22.24,
+      28.04,
+      28.08,
+      28.12,
+      28.16,
+      28.2,
+      28.24
+     ]
+    },
+    "after_leading_run": {
+     "from_frame": 4,
+     "from_t": 0.16,
+     "basis": "opening fade-up cleared",
+     "min_ink": 0,
+     "min_ink_t": 3.2,
+     "min_ink40": 0,
+     "min_ink40_t": 0.16,
+     "zero_ink_frames": [
+      3.2,
+      3.24,
+      3.28,
+      3.32,
+      18.12,
+      21.92,
+      21.96,
+      22.0,
+      22.04,
+      22.08,
+      22.12,
+      22.16,
+      22.2,
+      22.24,
+      28.08,
+      28.12,
+      28.16,
+      28.2,
+      28.24
+     ],
+     "zero_ink40_frames": [
+      0.16,
+      3.12,
+      3.16,
+      3.2,
+      3.24,
+      3.28,
+      3.32,
+      7.0,
+      7.04,
+      13.52,
+      13.56,
+      13.6,
+      18.08,
+      18.12,
+      21.88,
+      21.92,
+      21.96,
+      22.0,
+      22.04,
+      22.08,
+      22.12,
+      22.16,
+      22.2,
+      22.24,
+      28.04,
+      28.08,
+      28.12,
+      28.16,
+      28.2,
+      28.24
+     ]
+    },
+    "after_first_readable_ink": {
+     "from_frame": 5,
+     "from_t": 0.2,
+     "basis": "first READABLE ink on screen",
+     "min_ink": 0,
+     "min_ink_t": 3.2,
+     "min_ink40": 0,
+     "min_ink40_t": 3.12,
+     "zero_ink_frames": [
+      3.2,
+      3.24,
+      3.28,
+      3.32,
+      18.12,
+      21.92,
+      21.96,
+      22.0,
+      22.04,
+      22.08,
+      22.12,
+      22.16,
+      22.2,
+      22.24,
+      28.08,
+      28.12,
+      28.16,
+      28.2,
+      28.24
+     ],
+     "zero_ink40_frames": [
+      3.12,
+      3.16,
+      3.2,
+      3.24,
+      3.28,
+      3.32,
+      7.0,
+      7.04,
+      13.52,
+      13.56,
+      13.6,
+      18.08,
+      18.12,
+      21.88,
+      21.92,
+      21.96,
+      22.0,
+      22.04,
+      22.08,
+      22.12,
+      22.16,
+      22.2,
+      22.24,
+      28.04,
+      28.08,
+      28.12,
+      28.16,
+      28.2,
+      28.24
+     ]
+    },
+    "double_exposure_floor_px": 600,
+    "double_exposure_frames": [
+     {
+      "t": 5.96,
+      "outgoing_px": 2043,
+      "incoming_px": 1358
+     },
+     {
+      "t": 6.0,
+      "outgoing_px": 1336,
+      "incoming_px": 3060
+     },
+     {
+      "t": 6.04,
+      "outgoing_px": 1217,
+      "incoming_px": 4916
+     },
+     {
+      "t": 6.08,
+      "outgoing_px": 999,
+      "incoming_px": 7070
+     },
+     {
+      "t": 6.48,
+      "outgoing_px": 1070,
+      "incoming_px": 10941
+     },
+     {
+      "t": 6.52,
+      "outgoing_px": 2724,
+      "incoming_px": 5343
+     },
+     {
+      "t": 6.56,
+      "outgoing_px": 7677,
+      "incoming_px": 2168
+     },
+     {
+      "t": 19.36,
+      "outgoing_px": 618,
+      "incoming_px": 729
+     }
+    ],
+    "double_exposure_count": 8,
+    "note": "candidates, not a verdict \u2014 adjudicate each window (procedure v3); the opening fade-up legitimately fires"
+   },
+   "wall_s": 0.06
+  },
+  "face_centring": {
+   "ok": true,
+   "result": {
+    "label": "aieducation_split",
+    "video": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/output/aieducation_split.mp4",
+    "duration_s": 32.14,
+    "detector": "mediapipe/blazeface",
+    "segment_source": "explicit:--segments",
+    "segments": [
+     [
+      0.0,
+      32.14
+     ]
+    ],
+    "every_s": 0.5,
+    "tol_pct": 4.0,
+    "band_level": "warning",
+    "full_face": {
+     "n": 0,
+     "worst_dx_pct": null,
+     "worst_t": null,
+     "mean_abs_dx_pct": null,
+     "offenders": []
+    },
+    "band": {
+     "n": 64,
+     "worst_dx_pct": 5.19,
+     "worst_t": 3.5,
+     "warnings": [
+      {
+       "t": 3.5,
+       "dx_pct": 5.19,
+       "face_h_pct": 15.2,
+       "class": "band",
+       "score": 0.99,
+       "skin": 0.89
+      }
+     ]
+    },
+    "pass": true,
+    "verdict": "PASS"
+   },
+   "wall_s": 1.07
+  },
+  "pill_canon_rendered": {
+   "ok": true,
+   "result": {
+    "samples": 60,
+    "band_rows_px": [
+     772,
+     952
+    ],
+    "frames_without_a_pill": 0,
+    "distinct_heights_px": {
+     "114": 60
+    },
+    "modal_height_px": 114,
+    "modal_height_design_px": 114.0,
+    "spread_px": 0,
+    "spread_max_px": 2.0,
+    "canonical_height_px": 114.59,
+    "canonical_height_design_px": 114.59,
+    "modal_vs_canon_px": 0.59,
+    "tolerance_px": 3.0,
+    "delivery_scale": 1.0,
+    "widest_pill_px": 704,
+    "widest_pill_in_design_px": 704.0,
+    "verdict": "PASS",
+    "pass": true
+   },
+   "wall_s": 0.0
+  },
+  "gate1_geometry_audit": {
+   "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/geometry_audit.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/projects/aieducation_split --step 0.25 --out /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/gen/_gate1_aieducation_split.json",
+   "rc": 0,
+   "stdout": "aieducation_split: 0 errors, 0 warnings (32.1s @ 0.25s step)\n",
+   "stderr": "",
+   "wall_s": 3.71
+  },
+  "gate2_frame_review": {
+   "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/frame_review.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/output/aieducation_split.mp4 --full --transcript /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/cuts/aieducation/transcript_tight.json",
+   "rc": 0,
+   "stdout": "_000.jpg\n  t=00:20.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/output/frames_aieducation_split/f_0020_333.jpg\n  t=00:20.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/output/frames_aieducation_split/f_0020_666.jpg\n  t=00:21.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/output/frames_aieducation_split/f_0021_000.jpg\n  t=00:21.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/output/frames_aieducation_split/f_0021_333.jpg\n  t=00:21.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/output/frames_aieducation_split/f_0021_666.jpg\n  t=00:22.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/output/frames_aieducation_split/f_0022_000.jpg\n  t=00:23.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/output/frames_aieducation_split/f_0023_000.jpg\n  t=00:23.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/output/frames_aieducation_split/f_0023_333.jpg\n  t=00:23.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/output/frames_aieducation_split/f_0023_666.jpg\n  t=00:24.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/output/frames_aieducation_split/f_0024_000.jpg\n  t=00:24.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/output/frames_aieducation_split/f_0024_333.jpg\n  t=00:24.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/output/frames_aieducation_split/f_0024_666.jpg\n  t=00:25.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/output/frames_aieducation_split/f_0025_000.jpg\n  t=00:25.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/output/frames_aieducation_split/f_0025_333.jpg\n  t=00:25.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/output/frames_aieducation_split/f_0025_666.jpg\n  t=00:26.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/output/frames_aieducation_split/f_0026_333.jpg\n  t=00:26.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/output/frames_aieducation_split/f_0026_666.jpg\n  t=00:27.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/output/frames_aieducation_split/f_0027_666.jpg\n  t=00:28.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/output/frames_aieducation_split/f_0028_000.jpg\n  t=00:28.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/output/frames_aieducation_split/f_0028_666.jpg\n  t=00:29.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/output/frames_aieducation_split/f_0029_000.jpg\n  t=00:29.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/output/frames_aieducation_split/f_0029_333.jpg\n  t=00:30.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/output/frames_aieducation_split/f_0030_000.jpg\n  t=00:31.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/output/frames_aieducation_split/f_0031_000.jpg\n  t=00:31.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/output/frames_aieducation_split/f_0031_333.jpg\n  t=00:31.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/output/frames_aieducation_split/f_0031_666.jpg\n\nManifest: /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/output/frames_aieducation_split/manifest.md  (delete dir after review)\n",
+   "stderr": "",
+   "wall_s": 1.2
+  },
+  "gate3_gemini_describe": {
+   "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run3/qc_v3.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/output/aieducation_split.mp4 aieducation --label qcpass_aieducation_split",
+   "rc": 0,
+   "stdout": "{\n \"pass\": true,\n \"describe_errors\": [],\n \"visual_errors\": [],\n \"semantic_errors\": [],\n \"described_frames\": 14,\n \"model\": \"gemini-3.5-flash-lite\",\n \"usage\": {\n  \"in\": 11738,\n  \"out\": 1198,\n  \"thoughts\": 0,\n  \"calls\": 3\n },\n \"cost_usd\": 0.006516\n}\n",
+   "stderr": "",
+   "wall_s": 19.29,
+   "cost_usd": 0.006516,
+   "model": "gemini-3.5-flash-lite",
+   "usage": {
+    "in": 11738,
+    "out": 1198,
+    "thoughts": 0,
+    "calls": 3
+   }
+  },
+  "audio_guards": {
+   "ok": true,
+   "result": {
+    "mix_8_16k_db": -30.72,
+    "master_8_16k_db": -30.62,
+    "delta_db": -0.1,
+    "tolerance_db": 6.0,
+    "speech_margin_db_p85_p15_33ms_s16le": 21.167,
+    "sync": {
+     "lag_ms": 0,
+     "r": 0.9969,
+     "instrument": "10 ms |x| envelope, +/-250 ms search"
+    },
+    "audio_initial_padding_samples": 0,
+    "verdict": "PASS",
+    "pass": true
+   },
+   "wall_s": 1.2
+  },
+  "contact_sheet": {
+   "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/contact_sheet.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/output/aieducation_split.mp4 --id aieducation --fmt split --run /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22",
+   "rc": 0,
+   "stdout": "{\n \"sheet\": \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/review/sheet_aieducation_split.png\",\n \"id\": \"aieducation\",\n \"fmt\": \"split\",\n \"duration_s\": 32.14,\n \"frame_source\": \"even\",\n \"times\": [\n  1.34,\n  4.02,\n  6.7,\n  9.37,\n  12.05,\n  14.73,\n  17.41,\n  20.09,\n  22.77,\n  25.45,\n  28.12,\n  30.8\n ],\n \"size_px\": [\n  1798,\n  4344\n ]\n}\n",
+   "stderr": "",
+   "wall_s": 3.67
+  },
+  "phone_crops": {
+   "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/phone_crops.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/output/aieducation_split.mp4 --out /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/review --label aieducation_split --at 2.4:0.30556,0.13854,0.69444,0.34375:an open book with a heart lifting off the page --at 12.6:0.34259,0.18333,0.65741,0.36042:a heart --at 17.4:0.58333,0.18854,0.84259,0.33958:a head in profile thinking --at 25.0:0.32407,0.19167,0.67593,0.37917:an easel",
+   "rc": 0,
+   "stdout": "{\n \"sheet\": \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/review/phone_aieducation_split.png\",\n \"manifest\": \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/review/phone_aieducation_split.json\",\n \"answer_key\": \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/review/phone_aieducation_split.key.json\",\n \"n_objects\": 4,\n \"phone_sizes_px\": [\n  [\n   158,\n   148\n  ],\n  [\n   128,\n   128\n  ],\n  [\n   105,\n   109\n  ],\n  [\n   142,\n   135\n  ]\n ]\n}\n",
+   "stderr": "",
+   "wall_s": 1.43
+  }
+ },
+ "skipped": {
+  "cutout_checks_24_25": "cutout only, and needs --project",
+  "edge_clip": "cutout only, and needs --alpha",
+  "whiteboard_seam_law": "whiteboard only, and needs --seams (the chapter erase times)",
+  "face_hf_vs_plate": "needs --plate (the display plate)",
+  "head_scale_vs_framing": "needs --alpha and --edge-box (the crown comes from the matte's own alpha, the chin from MediaPipe on the delivered frame)"
+ },
+ "zone_bottom_design_px": 862.5,
+ "decode": {
+  "frames": 803,
+  "fps": 25.0,
+  "size": [
+   1080,
+   1920
+  ],
+  "grid_frames": 64,
+  "caption_band_rows": [
+   772,
+   952
+  ],
+  "caption_seat_design_px": 862.5,
+  "wall_s": 6.87
+ },
+ "gate3_cost_usd": 0.006516,
+ "verdicts": {
+  "decoded_blank_frames": "PASS",
+  "zero_ink_law": "PASS",
+  "clip_coverage_page": "PASS",
+  "double_exposure": "REPORTED",
+  "face_centring": "PASS",
+  "pill_canon_rendered": "PASS",
+  "gate1_geometry_audit": "PASS",
+  "gate2_frame_review": "PASS",
+  "gate3_gemini_describe": "PASS",
+  "audio_guards": "PASS",
+  "contact_sheet": "PASS",
+  "phone_crops": "PASS"
+ },
+ "wall_s": {
+  "decoded_blank_frames": 0.0,
+  "zero_ink_law": 0.0,
+  "clip_coverage_page": 0.0,
+  "double_exposure": 0.06,
+  "face_centring": 1.07,
+  "pill_canon_rendered": 0.0,
+  "gate1_geometry_audit": 3.71,
+  "gate2_frame_review": 1.2,
+  "gate3_gemini_describe": 19.29,
+  "audio_guards": 1.2,
+  "contact_sheet": 3.67,
+  "phone_crops": 1.43,
+  "single_decode": 6.87
+ },
+ "total_wall_s": 19.31,
+ "pass": true
+}

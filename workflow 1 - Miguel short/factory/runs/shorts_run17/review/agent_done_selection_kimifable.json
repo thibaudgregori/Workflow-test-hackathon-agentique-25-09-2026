@@ -1,0 +1,28 @@
+{
+  "id": "kimifable",
+  "stage": "selection",
+  "decision": "APPROVED",
+  "selection": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/kimifable/selection.json",
+  "status": "reviewed",
+  "reviewer": "visual-agent",
+  "mask": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/kimifable/selection.mask.png",
+  "mask_sha256": "f88a68affd67fb297c8cd6f3234a38e1f826afee221810bd5e2dc880d595469c",
+  "base_mask_sha256": "6811ad6fa6288c70bbe1a4b01efdbcb75acbad428286b1490ee99c8533aa5a7b",
+  "edits": 0,
+  "edits_file": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/kimifable/edits.json",
+  "identity": {
+    "plate_sha256": "3a4cc717e8f8ea1aa2a5f3250de586db8bc6ea2b2db4c3feae6bfcc8e8953811",
+    "source_sha256": "e63b65259cac211ffc2cd392b15579458a4f434a08d0478cae8708dafc70b3a3",
+    "crop_sha256": "ae8f99f9b5cd11e307026b95e0a2aa235f2f1f8f88a0226fe1199a5368721f5f",
+    "first_frame_sha256": "ab6fa557dcde7a47c336a14012666ef3bff6ba2e87ce4faa5c74911278619eab",
+    "width": 1200,
+    "height": 900,
+    "fps": 25.0,
+    "frames": 953
+  },
+  "validate": "passed on plate/source/crop/first-frame hashes after approve",
+  "inspected": "First frame plus BiRefNet mask kf_00000.png as outline overlay and as cream and dark composites, full frame and 2x on head, left ear, both hands, both shoulder edges and cap crown.",
+  "findings": "Cap crown complete from row 54, no wall fringe. Jaw, beard, sideburns and both ears preserved. Black chair headrest excluded on both sides of the head (six sampled chair points all outside the mask). Both moving hands and forearms retained, no plush-toy or shelf bleed. Single connected component, zero interior holes, 43.7 percent coverage.",
+  "reason_no_edits": "The initial mask boundary was already correct on these exact pixels, so no include or exclude polygon was warranted; the inspected mask was approved unedited.",
+  "reuse_scope": "this exact source, plate and crop only"
+}

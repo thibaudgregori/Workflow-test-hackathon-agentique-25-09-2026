@@ -1,0 +1,27 @@
+{
+ "run": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17",
+ "out_dir": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output",
+ "jobs": [
+  {
+   "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/projects/pcoverheat_whiteboard",
+   "vid": "pcoverheat",
+   "fmt": "whiteboard",
+   "quality": "high",
+   "stage": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/staging/reels/pcoverheat_whiteboard.mp4",
+   "qc_args": [
+    "--voice-master",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/cuts/pcoverheat/audio.m4a",
+    "--seams",
+    "6.56,13.65,24.8",
+    "--phone-at",
+    "2.1:0.3681,0.1777,0.6319,0.3203:an open laptop",
+    "--phone-at",
+    "13.45:0.3681,0.2891,0.6319,0.3789:a download arrow",
+    "--phone-at",
+    "16.3:0.2813,0.1484,0.7187,0.2344:a speech bubble",
+    "--phone-at",
+    "25.6:0.2396,0.1739,0.7604,0.3164:a process list"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,35 @@
+{
+  "ok": true,
+  "spec": {
+    "mode": "matanyone2",
+    "frames": 953,
+    "max_side": 1024,
+    "precision": "bf16",
+    "warmup": 10,
+    "input_sha256": "3a4cc717e8f8ea1aa2a5f3250de586db8bc6ea2b2db4c3feae6bfcc8e8953811",
+    "mask_sha256": "f88a68affd67fb297c8cd6f3234a38e1f826afee221810bd5e2dc880d595469c"
+  },
+  "frames": 953,
+  "fps": 25.0,
+  "source_size": [
+    1200,
+    900
+  ],
+  "inference_size": [
+    1024,
+    768
+  ],
+  "load_seconds": 3.2031384339999995,
+  "process_seconds": 71.94795910100001,
+  "total_worker_seconds": 77.098423477,
+  "peak_gpu_gib": 1.1353883743286133,
+  "torch": "2.8.0+cu128",
+  "gpu": "NVIDIA L4",
+  "alpha_sha256": "7f4e53d57da4dea603328e736ae05f4e5af09fa963184f3228a827917410dcc6",
+  "function_seconds": 80.475489471,
+  "estimated_compute_usd": 0.02283250587271212,
+  "model_revision": "40c894a6f68d1f55c86ab0de838d89dc61587930",
+  "worker_sha256": "c55c2915c27b87ef0a435cec744fd300e41a26aa268746328c9f1a35560c826f",
+  "cost_note": "Function runtime estimate; startup and scale-down additional, not an invoice.",
+  "client_wall_seconds": 89.35207241598982
+}

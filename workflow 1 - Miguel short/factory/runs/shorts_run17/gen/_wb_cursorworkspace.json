@@ -1,0 +1,736 @@
+{
+ "video": "cursorworkspace",
+ "format": "whiteboard",
+ "variant": "plan view (fix)",
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/projects/cursorworkspace_whiteboard",
+ "handle": "@migueltorrez.ai",
+ "handle_key": "tiktok_ig",
+ "duration_s": 21.532,
+ "fps": 25,
+ "render": "1080x1920 @ zoom 1",
+ "board": "576x460 design units",
+ "board_box": [
+  60.0,
+  150.0,
+  516.0,
+  416.0
+ ],
+ "strokes": 20,
+ "rigids": 33,
+ "board_text": [
+  "CURSOR",
+  "GOOGLE",
+  "WORKSPACE",
+  "READ AND WRITE",
+  "GMAIL",
+  "CALENDAR",
+  "DRIVE",
+  "SHEETS",
+  "WORKSPACE",
+  "CUSTOMIZED PAGE"
+ ],
+ "top_ink_u": 152.0,
+ "top_band_u": 102.4,
+ "pen_top_u": 110.7,
+ "ink_bottom_px": 758.5,
+ "cap_band_top_px": 799.2,
+ "cap_clearance_px": 40.7,
+ "ink_bottom_ink_px": 758.5,
+ "cap_clearance_ink_px": 40.7,
+ "seam_pill_top_px": 805.2,
+ "cap_clearance_ink_to_pill_px": 46.7,
+ "seam_measures": "cap_clearance_px = line boxes vs the reserved band (THE GATE); cap_clearance_ink_px = glyph ink vs the same band; cap_clearance_ink_to_pill_px = glyph ink vs the pill's painted top edge (the clerk's surface)",
+ "rail_hits": [],
+ "label_law": {
+  "window_s": 1.0,
+  "key_term": "CURSOR",
+  "key_term_fs_u": 23.5,
+  "written": {
+   "CURSOR": 1.52,
+   "GOOGLE": 3.46,
+   "READ AND WRITE": 5.72,
+   "GMAIL": 7.14,
+   "CALENDAR": 8.06,
+   "DRIVE": 9.22,
+   "SHEETS": 11.04,
+   "WORKSPACE": 12.76,
+   "CUSTOMIZED PAGE": 15.3
+  },
+  "plan": {
+   "cursor1": "CURSOR",
+   "workspace1": "GOOGLE",
+   "write": "READ AND WRITE",
+   "gmail": "GMAIL",
+   "calendar": "CALENDAR",
+   "drive": "DRIVE",
+   "sheets": "SHEETS",
+   "page": "CUSTOMIZED PAGE"
+  },
+  "comparisons": [],
+  "unplanned_text": [],
+  "verdict": "PASS"
+ },
+ "law4": {
+  "law": "4 (overlap test)",
+  "board_words_that_also_appear_as_a_pill": {}
+ },
+ "round4": {
+  "law6_lifetimes": {
+   "duration_s": 21.53,
+   "chaptered": true,
+   "max_frac": 0.4,
+   "declared_anchors": [],
+   "lingering": [],
+   "verdict": "PASS"
+  },
+  "law2_no_enclosure": {
+   "rings": 0,
+   "boxes": 1,
+   "highlights": 0,
+   "rasters": [],
+   "wrong_tool_advisory": [],
+   "verdict": "PASS"
+  },
+  "law3_label_side": {
+   "checked": 8,
+   "detail": {
+    "CURSOR": {
+     "host": "cursor-tile",
+     "dx_u": 0.0,
+     "band_u": 38.8,
+     "place": "above"
+    },
+    "GOOGLE": {
+     "host": "ws-tile",
+     "dx_u": 0.0,
+     "band_u": 38.8,
+     "place": "above"
+    },
+    "READ AND WRITE": "unwelded",
+    "GMAIL": {
+     "host": "gmail-tile",
+     "dx_u": 0.0,
+     "band_u": 38.8,
+     "place": "below"
+    },
+    "CALENDAR": {
+     "host": "calendar-tile",
+     "dx_u": 0.0,
+     "band_u": 38.8,
+     "place": "below"
+    },
+    "DRIVE": {
+     "host": "drive-tile",
+     "dx_u": 0.0,
+     "band_u": 38.8,
+     "place": "below"
+    },
+    "SHEETS": {
+     "host": "sheets-tile",
+     "dx_u": 0.0,
+     "band_u": 38.8,
+     "place": "below"
+    },
+    "CUSTOMIZED PAGE": {
+     "host": "panel-card",
+     "dx_u": 0.0,
+     "band_u": 194.1,
+     "place": "above"
+    }
+   },
+   "verdict": "PASS"
+  },
+  "law5_spacing": {
+   "gate_u": 8.5,
+   "gate_px": 15.9,
+   "aim_u": 12.8,
+   "aim_px": 24.0,
+   "measured_on": "element line boxes",
+   "under_aim": [],
+   "objects": 23,
+   "verdict": "PASS"
+  },
+  "law5_spacing_ink": {
+   "gate_u": 8.5,
+   "gate_px": 15.9,
+   "aim_u": 12.8,
+   "aim_px": 24.0,
+   "measured_on": "glyph ink extents",
+   "under_aim": [
+    "type:GOOGLE | type:WORKSPACE = 12.7u (23.8 px)"
+   ],
+   "objects": 23,
+   "verdict": "PASS"
+  },
+  "law5_no_crossing": {
+   "strokes": 20,
+   "types": 10,
+   "verdict": "PASS"
+  },
+  "law4_anchors": {
+   "targets": 2,
+   "detail": {
+    "cursor-tile": {
+     "n": 1,
+     "spread_u": 0.0,
+     "level": true,
+     "mirrored": false,
+     "on_rect": true
+    },
+    "ws-tile": {
+     "n": 1,
+     "spread_u": 0.0,
+     "level": true,
+     "mirrored": false,
+     "on_rect": true
+    }
+   },
+   "verdict": "PASS"
+  }
+ },
+ "outro": {
+  "move": "opaque sheet rises over the board",
+  "wipe_start": 17.32,
+  "wipe_end": 17.88,
+  "travel_px": 862.5,
+  "sheet_opaque": true,
+  "sheet_covers_px": 862.5,
+  "card_ink_enters_px": 322.5,
+  "board_covered_px": 577.5,
+  "overlap_px": 255.0,
+  "board_moves": false,
+  "board_fades": false,
+  "outro_start": 17.32,
+  "verdict": "PASS"
+ },
+ "captions": 22,
+ "cap_font_px": 56.2,
+ "cap_max_pill_w_px": 748.4,
+ "cap_w_budget_px": 756.0,
+ "anchors": {
+  "cursor1": 0.68,
+  "now1": 1.44,
+  "workspace1": 2.96,
+  "read": 4.5,
+  "write": 5.24,
+  "to": 6.26,
+  "gmail": 6.88,
+  "calendar": 7.68,
+  "drive": 8.82,
+  "sheets": 10.72,
+  "now2": 11.28,
+  "connecting": 12.78,
+  "cursor2": 13.42,
+  "page": 15.14,
+  "workspace2": 16.54,
+  "outro": 17.32,
+  "news": 18.3
+ },
+ "html_bytes": 64708,
+ "sfx": 18,
+ "pen_loops": 6,
+ "pen_seconds": 2.48,
+ "pen_duty_pct": 11.5,
+ "captions_law3b": {
+  "beats_before_merge": 22,
+  "beats_after_merge": 22,
+  "merges": 0,
+  "merged_away": [],
+  "widest_pill_px": 748.4,
+  "budget_px": 756.0,
+  "beats": [
+   [
+    0.12,
+    1.26,
+    "If you're using Cursor,"
+   ],
+   [
+    1.26,
+    1.82,
+    "you can now connect"
+   ],
+   [
+    1.82,
+    2.64,
+    "directly to your"
+   ],
+   [
+    2.64,
+    3.76,
+    "Google Workspace."
+   ],
+   [
+    3.76,
+    4.94,
+    "This gives you read"
+   ],
+   [
+    4.94,
+    6.88,
+    "and write access to"
+   ],
+   [
+    6.88,
+    8.54,
+    "Gmail, Google Calendar,"
+   ],
+   [
+    8.54,
+    9.26,
+    "Google Drive,"
+   ],
+   [
+    9.26,
+    10.06,
+    "as well"
+   ],
+   [
+    10.06,
+    11.28,
+    "as Google Sheets."
+   ],
+   [
+    11.28,
+    12.22,
+    "Now, you can do"
+   ],
+   [
+    12.22,
+    13.42,
+    "this by connecting your"
+   ],
+   [
+    13.42,
+    14.36,
+    "cursor from"
+   ],
+   [
+    14.36,
+    15.14,
+    "the customized"
+   ],
+   [
+    15.14,
+    16.28,
+    "page directly to your"
+   ],
+   [
+    16.28,
+    17.32,
+    "Google Workspace."
+   ],
+   [
+    17.32,
+    18.12,
+    "Now follow for more"
+   ],
+   [
+    18.12,
+    18.5,
+    "AI news,"
+   ],
+   [
+    18.5,
+    19.6,
+    "videos, and tutorials each"
+   ],
+   [
+    19.6,
+    20.5,
+    "and every single day,"
+   ],
+   [
+    20.5,
+    20.9,
+    "and catch you in"
+   ],
+   [
+    20.9,
+    21.4,
+    "the next one"
+   ]
+  ],
+  "law": "captions.py 3b \u2014 merge_function_only_beats over the WHOLE beat stream, then assert_no_function_only_beat inside build()"
+ },
+ "boards": [
+  {
+   "board": 0,
+   "in": 0.46,
+   "out": 6.5,
+   "name": "one bridge, two banks, two lanes of traffic \u2014 an arch bridge, the Cursor tile, the Google Workspace tile, and the read and write arrows running opposite ways across it",
+   "keys": [
+    "CURSOR",
+    "GOOGLE",
+    "WORKSPACE",
+    "READ AND WRITE"
+   ]
+  },
+  {
+   "board": 1,
+   "in": 6.74,
+   "out": 11.46,
+   "name": "the four named apps \u2014 one growing centred row of real colour marks with their names written under them",
+   "keys": [
+    "GMAIL",
+    "CALENDAR",
+    "DRIVE",
+    "SHEETS"
+   ]
+  },
+  {
+   "board": 2,
+   "in": 11.58,
+   "out": "the outro's rising sheet (17.32)",
+   "name": "the page where you switch it on \u2014 a settings card wearing Cursor's mark, one connector row, one toggle that flips",
+   "keys": [
+    "WORKSPACE",
+    "CUSTOMIZED PAGE"
+   ]
+  }
+ ],
+ "seam_law": {
+  "plan_mode": "chapters",
+  "mode": "CHAPTERS \u2014 LAW 43's default; the plan's own reason is three idea groups that do not modify one another's picture",
+  "chapter_erases": [
+   {
+    "at": 6.5,
+    "completes": 6.78,
+    "hands_over_to": "the Gmail tile, which starts at 6.74 (inside the erase) and carries the real colour Gmail mark at 7.04, 0.26 s after the erase closes (LAW 45)"
+   },
+   {
+    "at": 11.46,
+    "completes": 11.7,
+    "hands_over_to": "the settings card, which starts at 11.58 (inside the erase) and wears the real Cursor mark at 11.98, 0.28 s after the erase closes (LAW 45)"
+   }
+  ],
+  "partial_clears": [],
+  "qc_seams": "6.5,11.46",
+  "note": "the outro anchor 17.32 also registers as a chapter_seams() seam because every chapter-2 rigid ends there; it is the opaque rising sheet, not a chapter erase, and it is NOT passed to qc_pass --seams."
+ },
+ "pointing_cues": {
+  "n": 0,
+  "scanner_cue_count": 0,
+  "why_none": "prep/stages/cursorworkspace.cues.json is status ok with cue_count 0 and the plan's own pointing_cues list is empty. The script never cites a person, a post or a platform: it is Cursor's own release described in the second person throughout.",
+  "cards": [],
+  "waived": []
+ },
+ "phone_test_objects": [
+  {
+   "name": "an arch bridge",
+   "t": 1.6,
+   "space": "norm",
+   "bbox": [
+    0.18588,
+    0.30007,
+    0.81412,
+    0.39896
+   ],
+   "plan_bbox": [
+    0.19259,
+    0.30208,
+    0.80741,
+    0.39505
+   ],
+   "board_box_u": [
+    110.93333333333334,
+    309.3333333333333,
+    465.06666666666666,
+    404.53333333333336
+   ],
+   "cold": "CURSOR is written at 1.52 but its box ends at board y 240.5, above the crop's 308.27; the cursor tile ends at 308.27 too, so the crop holds the bridge and nothing else"
+  },
+  {
+   "name": "a settings panel",
+   "t": 13.9,
+   "space": "norm",
+   "bbox": [
+    0.2338,
+    0.20859,
+    0.7662,
+    0.32682
+   ],
+   "plan_bbox": [
+    0.24074,
+    0.2125,
+    0.75926,
+    0.35208
+   ],
+   "board_box_u": [
+    138.66666666666666,
+    217.6,
+    437.3333333333333,
+    330.6666666666667
+   ],
+   "cold": "CUSTOMIZED PAGE is not written until 15.30 and its box ends at board y 204.8, above the crop's 217.6; the emphasis box does not fire until 16.28"
+  }
+ ],
+ "reflow": [
+  {
+   "tile": "gmail-tile",
+   "opens_at_cx_u": 288.0,
+   "final_cx_u": 147.2,
+   "steps": 3,
+   "offsets_px": [
+    264.0,
+    176.0,
+    88.0,
+    0.0
+   ]
+  },
+  {
+   "tile": "calendar-tile",
+   "opens_at_cx_u": 334.93,
+   "final_cx_u": 241.07,
+   "steps": 2,
+   "offsets_px": [
+    176.0,
+    88.0,
+    0.0
+   ]
+  },
+  {
+   "tile": "drive-tile",
+   "opens_at_cx_u": 381.87,
+   "final_cx_u": 334.93,
+   "steps": 1,
+   "offsets_px": [
+    88.0,
+    0.0
+   ]
+  },
+  {
+   "tile": "sheets-tile",
+   "opens_at_cx_u": 428.8,
+   "final_cx_u": 428.8,
+   "steps": 0,
+   "offsets_px": [
+    0.0
+   ]
+  }
+ ],
+ "emphasis": [
+  {
+   "at": 16.28,
+   "targets": [
+    "conn-row"
+   ],
+   "kind": "box",
+   "why": "LAW 38 rule 2 \u2014 the connector row is a DRAWN object, so the emphasis is the terracotta marker box, popped from scale 0.55 with the pen tapping its TOP-LEFT corner. It fires on 'directly to your Google Workspace' (16.279), the moment the instruction closes."
+  }
+ ],
+ "law40_connectors": {
+  "helper": "anchor_points(tile_box, 2, side, inset=0.28)",
+  "cursor-tile": {
+   "anchors": [
+    [
+     189.86666666666667,
+     265.2586666666666
+    ],
+    [
+     189.86666666666667,
+     291.54133333333334
+    ]
+   ],
+   "read_end": [
+    189.86666666666667,
+    265.2586666666666
+   ]
+  },
+  "ws-tile": {
+   "anchors": [
+    [
+     386.1333333333333,
+     265.2586666666666
+    ],
+    [
+     386.1333333333333,
+     291.54133333333334
+    ]
+   ],
+   "write_end": [
+    386.1333333333333,
+    291.54133333333334
+   ]
+  },
+  "level_u": 0.0,
+  "mirror_axis_u": 278.4,
+  "tile_axis_u": 278.4
+ },
+ "marks_inked": {
+  "cursor": "coding-tools/cursor.png, COLOUR. The story's subject editor, on the left bank in chapter 0 and plain on the settings card's header bar in chapter 2.",
+  "google-workspace": "platforms/google-workspace.png, COLOUR \u2014 the SAME file the sealed scene module paints, so the three platforms cannot argue three different marks. FLAGGED FOR THE CLERK: the registered artwork under that key is the multicolour Google G, i.e. the COMPANY mark, not a distinct Google Workspace product mark, which is what the plan's open question 1 asked to be fetched. Substituting a different mark here would put a mark on Reels that the YouTube split and the TikTok cutout do not carry, so the disagreement is logged rather than improvised (wb_notes.md note 7).",
+  "gmail": "platforms/gmail-color.png, COLOUR.",
+  "google-calendar": "platforms/google-calendar.png, COLOUR.",
+  "google-drive": "platforms/google-drive.svg, COLOUR \u2014 rasterised at 1024 px to measure its ink box, exactly as cutout_core.measure_mark does.",
+  "google-sheets": "platforms/google-sheets.png, COLOUR.",
+  "sizing": "every mark is normalised to the chart's 0.50-of-tile ink side (29.87 u) BY AREA with its ink centroid corrected, so the envelope, the square, the triangle and the sheet read as equals in one row at 405x720."
+ },
+ "drawn_geometry_vs_plan": {
+  "note": "the plan derived canvas_rects INSIDE the whiteboard's legal surface on purpose, so this board divides them by S=1.875 and draws them. The bridge's internal anatomy and the settings card's header are the two redesigns, both logged in plans/cursorworkspace_wb_notes.md.",
+  "rects_board_u": {
+   "bridge": [
+    110.93333333333334,
+    309.3333333333333,
+    465.06666666666666,
+    404.53333333333336
+   ],
+   "bridge_opening": [
+    122.66666666666667,
+    234.13333333333333,
+    453.3333333333333,
+    307.8666666666667
+   ],
+   "cursor-tile": [
+    130.13333333333333,
+    248.5333333333333,
+    189.86666666666667,
+    308.26666666666665
+   ],
+   "ws-tile": [
+    386.1333333333333,
+    248.5333333333333,
+    445.8666666666667,
+    308.26666666666665
+   ],
+   "read-arrow": [
+    189.86666666666667,
+    258.2586666666666,
+    386.1333333333333,
+    272.2586666666666
+   ],
+   "write-arrow": [
+    189.86666666666667,
+    284.54133333333334,
+    386.1333333333333,
+    298.54133333333334
+   ],
+   "app_tiles": [
+    [
+     117.33333333333331,
+     234.66666666666666,
+     177.06666666666666,
+     294.4
+    ],
+    [
+     211.2,
+     234.66666666666666,
+     270.93333333333334,
+     294.4
+    ],
+    [
+     305.06666666666666,
+     234.66666666666666,
+     364.8,
+     294.4
+    ],
+    [
+     398.93333333333334,
+     234.66666666666666,
+     458.6666666666667,
+     294.4
+    ]
+   ],
+   "panel-card": [
+    138.66666666666666,
+    217.6,
+    437.3333333333333,
+    330.6666666666667
+   ],
+   "conn-row": [
+    155.73333333333332,
+    265.6,
+    420.26666666666665,
+    322.1333333333333
+   ],
+   "toggle-track": [
+    313.59999999999997,
+    275.2,
+    409.59999999999997,
+    312.5333333333333
+   ]
+  },
+  "keys_board_u": {
+   "CURSOR": {
+    "box": [
+     104.27,
+     204.16,
+     215.73,
+     240.53
+    ],
+    "fs_u": 23.467
+   },
+   "GOOGLE": {
+    "box": [
+     383.07,
+     196.35,
+     448.93,
+     217.84
+    ],
+    "fs_u": 13.867
+   },
+   "WORKSPACE": {
+    "box": [
+     368.51,
+     219.04,
+     463.49,
+     240.53
+    ],
+    "fs_u": 13.867
+   },
+   "READ AND WRITE": {
+    "box": [
+     194.16,
+     152.0,
+     381.84,
+     180.11
+    ],
+    "fs_u": 18.133
+   },
+   "CUSTOMIZED PAGE": {
+    "box": [
+     199.6,
+     180.0,
+     376.4,
+     204.8
+    ],
+    "fs_u": 16.0
+   },
+   "GMAIL": {
+    "box": [
+     119.12,
+     309.33,
+     175.28,
+     330.83
+    ],
+    "fs_u": 13.867
+   },
+   "CALENDAR": {
+    "box": [
+     198.43,
+     309.33,
+     283.71,
+     330.83
+    ],
+    "fs_u": 13.867
+   },
+   "DRIVE": {
+    "box": [
+     306.85,
+     309.33,
+     363.01,
+     330.83
+    ],
+    "fs_u": 13.867
+   },
+   "SHEETS": {
+    "box": [
+     395.87,
+     309.33,
+     461.73,
+     330.83
+    ],
+    "fs_u": 13.867
+   }
+  }
+ }
+}

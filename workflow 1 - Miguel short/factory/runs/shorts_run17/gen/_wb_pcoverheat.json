@@ -1,0 +1,507 @@
+{
+ "video": "pcoverheat",
+ "format": "whiteboard",
+ "variant": "plan view (fix)",
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/projects/pcoverheat_whiteboard",
+ "handle": "@migueltorrez.ai",
+ "handle_key": "tiktok_ig",
+ "duration_s": 37.16,
+ "fps": 25,
+ "render": "1080x1920 @ zoom 1",
+ "board": "576x460 design units",
+ "board_box": [
+  90.0,
+  150.0,
+  486.0,
+  420.0
+ ],
+ "strokes": 30,
+ "rigids": 36,
+ "board_text": [
+  "OVERHEATING",
+  "THREE APPS",
+  "CODEX",
+  "CLAUDE COWORK",
+  "GROK BUILD",
+  "INSTALL",
+  "TELL THEM",
+  "PROCESSES",
+  "HOT",
+  "RAM",
+  "CPU",
+  "THE CULPRIT"
+ ],
+ "top_ink_u": 140.0,
+ "top_band_u": 102.4,
+ "pen_top_u": 110.7,
+ "ink_bottom_px": 776.5,
+ "cap_band_top_px": 799.2,
+ "cap_clearance_px": 22.7,
+ "ink_bottom_ink_px": 776.5,
+ "cap_clearance_ink_px": 22.7,
+ "seam_pill_top_px": 805.2,
+ "cap_clearance_ink_to_pill_px": 28.7,
+ "seam_measures": "cap_clearance_px = line boxes vs the reserved band (THE GATE); cap_clearance_ink_px = glyph ink vs the same band; cap_clearance_ink_to_pill_px = glyph ink vs the pill's painted top edge (the clerk's surface)",
+ "rail_hits": [],
+ "label_law": {
+  "window_s": 1.0,
+  "key_term": "OVERHEATING",
+  "key_term_fs_u": 25.6,
+  "written": {
+   "OVERHEATING": 1.4,
+   "THREE APPS": 6.66,
+   "CODEX": 8.7,
+   "CLAUDE COWORK": 9.98,
+   "GROK BUILD": 10.44,
+   "INSTALL": 12.9,
+   "TELL THEM": 15.42,
+   "PROCESSES": 17.9,
+   "HOT": 21.68,
+   "RAM": 23.2,
+   "CPU": 24.74,
+   "PROCESSES@up": 25.1,
+   "HOT@up": 25.1,
+   "RAM@up": 25.1,
+   "CPU@up": 25.1,
+   "THE CULPRIT": 30.22
+  },
+  "plan": {
+   "overheating": "OVERHEATING",
+   "three": "THREE APPS",
+   "codex": "CODEX",
+   "cowork": "CLAUDE COWORK",
+   "grok": "GROK BUILD",
+   "install": "INSTALL",
+   "tell": "TELL THEM",
+   "processes": "PROCESSES",
+   "hot": "HOT",
+   "ram": "RAM",
+   "cpu": "CPU",
+   "culprit": "THE CULPRIT"
+  },
+  "comparisons": [],
+  "unplanned_text": [],
+  "verdict": "PASS"
+ },
+ "law4": {
+  "law": "4 (overlap test)",
+  "board_words_that_also_appear_as_a_pill": {
+   "CLAUDE COWORK": [
+    9.98,
+    13.65
+   ],
+   "TELL THEM": [
+    15.42,
+    24.8
+   ]
+  }
+ },
+ "round4": {
+  "law6_lifetimes": {
+   "duration_s": 37.16,
+   "chaptered": true,
+   "max_frac": 0.4,
+   "declared_anchors": [
+    "process-list",
+    "process-list@up"
+   ],
+   "lingering": [],
+   "verdict": "PASS"
+  },
+  "law2_no_enclosure": {
+   "rings": 0,
+   "boxes": 1,
+   "highlights": 1,
+   "rasters": [
+    "post-card"
+   ],
+   "wrong_tool_advisory": [],
+   "verdict": "PASS"
+  },
+  "law3_label_side": {
+   "checked": 12,
+   "detail": {
+    "OVERHEATING": {
+     "host": "hot-laptop",
+     "dx_u": 0.0,
+     "band_u": 91.0,
+     "place": "below"
+    },
+    "THREE APPS": {
+     "host": "tile-cowork",
+     "dx_u": 0.0,
+     "band_u": 39.0,
+     "place": "above"
+    },
+    "CODEX": {
+     "host": "tile-codex",
+     "dx_u": 0.0,
+     "band_u": 39.0,
+     "place": "below"
+    },
+    "CLAUDE COWORK": {
+     "host": "tile-cowork",
+     "dx_u": 0.0,
+     "band_u": 39.0,
+     "place": "below"
+    },
+    "GROK BUILD": {
+     "host": "tile-grok",
+     "dx_u": 0.0,
+     "band_u": 39.0,
+     "place": "below"
+    },
+    "INSTALL": {
+     "host": "download-kit",
+     "dx_u": 0.0,
+     "band_u": 93.6,
+     "place": "below"
+    },
+    "TELL THEM": {
+     "host": "bubble",
+     "dx_u": 0.0,
+     "band_u": 156.0,
+     "place": "below"
+    },
+    "PROCESSES": "unwelded",
+    "HOT": "unwelded",
+    "RAM": "unwelded",
+    "CPU": "unwelded",
+    "THE CULPRIT": {
+     "host": "process-list@up",
+     "dx_u": 0.0,
+     "band_u": 187.2,
+     "place": "below"
+    }
+   },
+   "verdict": "PASS"
+  },
+  "law5_spacing": {
+   "gate_u": 8.5,
+   "gate_px": 15.9,
+   "aim_u": 12.8,
+   "aim_px": 24.0,
+   "measured_on": "element line boxes",
+   "under_aim": [],
+   "objects": 32,
+   "verdict": "PASS"
+  },
+  "law5_spacing_ink": {
+   "gate_u": 8.5,
+   "gate_px": 15.9,
+   "aim_u": 12.8,
+   "aim_px": 24.0,
+   "measured_on": "glyph ink extents",
+   "under_aim": [],
+   "objects": 32,
+   "verdict": "PASS"
+  },
+  "law5_no_crossing": {
+   "strokes": 30,
+   "types": 12,
+   "verdict": "PASS"
+  },
+  "law4_anchors": {
+   "targets": 1,
+   "detail": {
+    "process-list": {
+     "n": 1,
+     "spread_u": 0.0,
+     "level": true,
+     "mirrored": false,
+     "on_rect": true
+    }
+   },
+   "verdict": "PASS"
+  }
+ },
+ "outro": {
+  "move": "opaque sheet rises over the board",
+  "wipe_start": 32.54,
+  "wipe_end": 33.1,
+  "travel_px": 862.5,
+  "sheet_opaque": true,
+  "sheet_covers_px": 862.5,
+  "card_ink_enters_px": 322.5,
+  "board_covered_px": 600.0,
+  "overlap_px": 277.5,
+  "board_moves": false,
+  "board_fades": false,
+  "outro_start": 32.54,
+  "verdict": "PASS"
+ },
+ "captions": 44,
+ "cap_font_px": 56.2,
+ "cap_max_pill_w_px": 710.7,
+ "cap_w_budget_px": 756.0,
+ "anchors": {
+  "laptop": 0.22,
+  "overheating": 0.94,
+  "card": 3.24,
+  "three": 6.54,
+  "codex": 8.38,
+  "cowork": 9.14,
+  "grok": 10.06,
+  "install": 12.46,
+  "tell": 14.84,
+  "processes": 17.38,
+  "hot": 21.68,
+  "ram": 23.2,
+  "cpu": 24.74,
+  "culprit": 30.22,
+  "outro": 32.54,
+  "daily": 33.38
+ },
+ "html_bytes": 105425,
+ "sfx": 19,
+ "pen_loops": 7,
+ "pen_seconds": 3.44,
+ "pen_duty_pct": 9.3,
+ "captions_law3b": {
+  "beats_before_merge": 44,
+  "beats_after_merge": 44,
+  "merges": 0,
+  "merged_away": [],
+  "widest_pill_px": 710.7,
+  "budget_px": 756.0,
+  "cowork_merge": "transcript words 31-32 ('Code' + 'Work,') -> 'Cowork,' so the pill reads 'Claude Cowork,' (plan open_questions[1])",
+  "law": "captions.py 3b \u2014 merge_function_only_beats over the WHOLE beat stream, then assert_no_function_only_beat inside build()"
+ },
+ "boards": [
+  {
+   "board": 0,
+   "in": 0.3,
+   "erase_at": 6.56,
+   "name": "the machine is cooking, and somebody already had an agent diagnose it",
+   "keys": [
+    "OVERHEATING"
+   ]
+  },
+  {
+   "board": 1,
+   "in": 6.66,
+   "erase_at": 13.65,
+   "name": "three programs, and the one step to have them",
+   "keys": [
+    "THREE APPS",
+    "CODEX",
+    "CLAUDE COWORK",
+    "GROK BUILD",
+    "INSTALL"
+   ]
+  },
+  {
+   "board": 2,
+   "in": 13.71,
+   "erase_at": 24.8,
+   "name": "the single instruction, and the three things the answer is about",
+   "keys": [
+    "TELL THEM",
+    "PROCESSES",
+    "HOT",
+    "RAM",
+    "CPU"
+   ]
+  },
+  {
+   "board": 3,
+   "in": 25.1,
+   "erase_at": "the outro's rising sheet (32.54)",
+   "name": "it scans, it names the one process doing it, and it closes it",
+   "keys": [
+    "PROCESSES",
+    "HOT",
+    "RAM",
+    "CPU",
+    "THE CULPRIT"
+   ]
+  }
+ ],
+ "seam_law": {
+  "chapters": 4,
+  "seams": [
+   6.56,
+   13.65,
+   24.8
+  ],
+  "erase_s": 0.3,
+  "erase_completes": [
+   6.86,
+   13.95,
+   25.1
+  ],
+  "outro_wipe": 32.54,
+  "law45": {
+   "6.56": "FIRST method \u2014 THREE APPS starts inside the erase at 6.66 and is fully written at 6.94, 0.08 s after the erase completes at 6.86.",
+   "13.65": "FIRST method \u2014 the speech bubble starts INSIDE the erase at 13.71 (SEAM_LAP) and is complete at 14.03, so its ink is on the board through every frame of the handover and the zone never reaches zero.",
+   "24.8": "SECOND method, CARRY \u2014 the process list is complete and on screen through every frame of the erase and makes its one move at 25.10-25.40. Dead time 0.00 s by construction."
+  },
+  "qc_seams": "6.56,13.65,24.8",
+  "outro_note": "32.54 is the OUTRO WIPE \u2014 an opaque rising sheet, not a chapter seam \u2014 so it is not passed to seam_check."
+ },
+ "pointing_cues": {
+  "n": 1,
+  "waived": [],
+  "cards": [
+   {
+    "cue_i": 0,
+    "at": 3.24,
+    "phrase": "like this guy",
+    "platform": "X",
+    "card_on_screen": [
+     2.7,
+     6.56
+    ],
+    "hold_s": 3.86,
+    "source_url": "https://x.com/XFreeze/status/2084122084297359607",
+    "handle": "@XFreeze",
+    "claim": "so I asked Grok Build to investigate",
+    "highlight_at": 3.24,
+    "metrics_rendered": false,
+    "png": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/gen/_wb_assets/card_pcoverheat_wb.png",
+    "record": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/gen/_wb_assets/card_pcoverheat_wb.json"
+   }
+  ],
+  "note": "pointing_cues.py --vid pcoverheat = 1 cue and prep's stages.cues agrees (cue_count 1). The sentence NAMES the platform, so the card wears the X frame and the X handle; the handle appears here and nowhere else in the video."
+ },
+ "phone_test_objects": [
+  {
+   "t": 2.1,
+   "name": "an open laptop",
+   "bbox": [
+    397.5,
+    341.2,
+    682.5,
+    615.0
+   ]
+  },
+  {
+   "t": 13.45,
+   "name": "a download arrow",
+   "bbox": [
+    397.5,
+    555.0,
+    682.5,
+    727.5
+   ]
+  },
+  {
+   "t": 16.3,
+   "name": "a speech bubble",
+   "bbox": [
+    303.8,
+    285.0,
+    776.2,
+    450.0
+   ]
+  },
+  {
+   "t": 25.6,
+   "name": "a process list",
+   "bbox": [
+    258.8,
+    333.8,
+    821.2,
+    607.5
+   ]
+  }
+ ],
+ "phone_test_at": [
+  "2.1:397.5,341.2,682.5,615.0:an open laptop",
+  "13.45:397.5,555.0,682.5,727.5:a download arrow",
+  "16.3:303.8,285.0,776.2,450.0:a speech bubble",
+  "25.6:258.8,333.8,821.2,607.5:a process list"
+ ],
+ "qc_phone_at": [
+  "2.1:0.3681,0.1777,0.6319,0.3203:an open laptop",
+  "13.45:0.3681,0.2891,0.6319,0.3789:a download arrow",
+  "16.3:0.2813,0.1484,0.7187,0.2344:a speech bubble",
+  "25.6:0.2396,0.1739,0.7604,0.3164:a process list"
+ ],
+ "emphasis": [
+  {
+   "at": 3.24,
+   "target": "post-card claim line",
+   "kind": "highlight",
+   "why": "LAW 38 rule 1 \u2014 the words are PIXELS on a raster"
+  },
+  {
+   "at": 28.96,
+   "off": 32.54,
+   "target": "row-culprit",
+   "kind": "box",
+   "why": "LAW 38 rule 2 \u2014 a row this factory DREW"
+  }
+ ],
+ "marks_inked": {
+  "codex": "assets/logos/coding-tools/codex-color.png, ink side 33.1 u (62 core px)",
+  "claude-cowork": "assets/logos/ai-models/claude-cowork.png \u2014 the ORANGE mark, ink side 39.5 u (74 core px)",
+  "grok": "assets/logos/ai-models/grok.png, ink side 41.6 u (78 core px) \u2014 LAW 35: no Grok Build mark exists, so the mark says WHAT KIND and the written key says WHICH ONE",
+  "tile": "112 canvas px, radius 18 canvas px, one thin ink hairline (LAW 32: no odd one out)"
+ },
+ "displacements": [
+  {
+   "at": 25.1,
+   "what": "the process list, the only mark carried across a chapter seam, moves up as one piece",
+   "px": 180
+  }
+ ],
+ "card": {
+  "post_id": "2084122084297359607",
+  "source_url": "https://x.com/XFreeze/status/2084122084297359607",
+  "handed_url": "https://x.com/XFreeze/status/2084122084297359607",
+  "relationship": "the handed URL IS the original",
+  "author": {
+   "name": "X Freeze",
+   "username": "XFreeze",
+   "verified": false
+  },
+  "handle_rendered": "@XFreeze",
+  "card_lines": [
+   "my MacBook was heating up my lap...",
+   "so I asked Grok Build to investigate",
+   "It found the culprit"
+  ],
+  "claim_line_index": 1,
+  "claim": "so I asked Grok Build to investigate",
+  "full_post_text": "my MacBook was heating up my lap and nearly cooking my balls, so I asked Grok Build to investigate\n\nIt found the culprit \ud83d\ude02 https://t.co/dN5NDyI16X",
+  "dropped": [
+   "and nearly cooking my balls (elided with the post's own ellipsis, plan open_questions[2])",
+   "the trailing emoji (no emoji font in this harness)",
+   "the t.co media link (the photo is not on this card)"
+  ],
+  "metrics_rendered": false,
+  "metrics_in_payload_not_rendered": {
+   "bookmark_count": 814,
+   "impression_count": 869124,
+   "like_count": 3484,
+   "quote_count": 20,
+   "reply_count": 346,
+   "retweet_count": 353
+  },
+  "media_in_card": null,
+  "ascii_only": true,
+  "file": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/gen/_wb_assets/card_pcoverheat_wb.png",
+  "pixels": [
+   2184,
+   711
+  ],
+  "css_box": {
+   "width": 728,
+   "height": 237
+  },
+  "aspect": 3.07173,
+  "device_scale_factor": 3,
+  "claim_rect_fractions": {
+   "x": 0.03984,
+   "y": 0.55696,
+   "w": 0.77144,
+   "h": 0.14768
+  },
+  "law3_window": [
+   2.0,
+   4.0
+  ],
+  "renderer": "shorts_run17/gen/_pcoverheat_wb_card.py (local file://, no live-site automation)"
+ }
+}

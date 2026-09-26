@@ -1,0 +1,9 @@
+{
+ "verdict": "PASS",
+ "scene_handoff": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/plans/pcoverheat_scene_handoff.md",
+ "scene_module": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/gen/pcoverheat_scene.py",
+ "artwork_pass": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/artwork_pass_pcoverheat.json",
+ "cold_reads_run": 4,
+ "proofs": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/proofs",
+ "reason": "Four bespoke objects, four cold-read seals over SIX independent rounds (24 reads, zero readers naming a different object): an open laptop with heat coming off it (laptop x6, 5/6 sure), a download arrow over its baseline (download arrow x6, 3/6 sure), a speech bubble (speech bubble x6, 5/6 sure) and a process list (table x3 / task manager x3, 3/6 sure). Two of the plan's drawings were changed by the readers and not by me: the TEXT FIELD read 'play button' / 'pencil' / 'thumbs up' at 0/6 sure and became A SPEECH BUBBLE carrying the instruction as terracotta ink (LAW 4 intact); the DOWNLOAD KIT read 'inbox' x3 then 'rain' x2 and became the canonical arrow over a baseline. Re-verified this session after the stage cache was invalidated by an unrelated edit to .claude/workflows/daily-shorts.js (the only fingerprint input touched since the seal; plan.json, transcript, master, STANDARD.md and PRODUCTION.md are byte-identical): artwork-check PASS against live hashes, all 9 evidence files hash-match, and re-running gen/_pcoverheat_proof.py --set seal reproduced all four sealed phone crops byte-for-byte. No object was redrawn and no reader was re-run, because nothing about the artwork changed."
+}

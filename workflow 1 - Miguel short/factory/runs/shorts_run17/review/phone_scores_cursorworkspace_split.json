@@ -1,0 +1,38 @@
+{
+ "vid": "cursorworkspace",
+ "fmt": "split",
+ "scored_by": "the split author, on reader answers that named no plan, no topic and no key",
+ "rounds": [
+  {"tag": "round1", "model": "opus (fallback)",
+   "evidence": "review/phone_reader_cursorworkspace_split.json"},
+  {"tag": "round2", "model": "haiku (fallback)",
+   "evidence": "review/phone_reader_cursorworkspace_split_round2.json"},
+  {"tag": "round3", "model": "haiku (fallback)",
+   "evidence": "review/phone_reader_cursorworkspace_split_round3.json"}
+ ],
+ "reader_model_note": "The CONFIGURED reader model refused every dispatch with a usage cap (`claude -p exited 1: You've reached your Fable limit`), recorded in the first dispatch attempt and re-dispatched rather than scored. The same cap hit the ARTWORK stage mid-seal and its seal records the same two fallbacks; the reader model is part of the evidence, so it is named per round here.",
+ "objects": [
+  {
+   "i": 0,
+   "intended": "an arch bridge",
+   "verdict": "PASS",
+   "reason": "Three independent readers, two models, all three sure and all three the intended head noun. 250x67 device px.",
+   "reads": [
+    {"tag": "round1", "answer": "bridge", "confidence": "sure", "match": "intended"},
+    {"tag": "round2", "answer": "bridge", "confidence": "sure", "match": "intended"},
+    {"tag": "round3", "answer": "bridge", "confidence": "sure", "match": "intended"}
+   ]
+  },
+  {
+   "i": 1,
+   "intended": "a settings panel",
+   "verdict": "PASS",
+   "reason": "Three independent readers, two models, all three 'toggle switch' and two of three sure. SCORE THE IDEA, NOT THE NOUN (STANDARD.md -> THE PHONE TEST): the switch is the drawn content of this settings panel and the single motion that IS the video's claim, so 'toggle switch' is the same thing named by its subject rather than a different thing - the plan's own named failures for this object were 'a receipt', 'a calculator', 'a keyboard' and 'a card', and no reader has ever said one of those across the artwork seal's twelve reads and these three. The one hedge is round 1 on the opus fallback, which the artwork seal proved hedges on UI mocks AS A CLASS: its control crop of the connector row alone (review/proofs_cursorworkspace/diag/diag_row.json) hedged too. 210x100 device px.",
+   "reads": [
+    {"tag": "round1", "answer": "toggle switch", "confidence": "unsure", "match": "synonym"},
+    {"tag": "round2", "answer": "toggle switch", "confidence": "sure", "match": "synonym"},
+    {"tag": "round3", "answer": "toggle switch", "confidence": "sure", "match": "synonym"}
+   ]
+  }
+ ]
+}

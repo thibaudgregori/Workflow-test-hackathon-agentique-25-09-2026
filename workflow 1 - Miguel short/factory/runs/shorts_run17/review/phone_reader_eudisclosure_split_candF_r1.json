@@ -1,0 +1,20 @@
+{
+  "tag": "candFr1",
+  "cold_dir": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/candFr1-c47d002c",
+  "reader": "one independent `claude -p` process per crop, launched from /tmp, handed ONLY the absolute path of a blind copy under a random token - no plan, no topic, no manifest, no sealed key, and no path naming the video",
+  "prompt": "Look at the image at <absolute path of one blind crop> . Name the single everyday object drawn in it. At most FIVE words. Reply with ONE line of JSON and nothing else: {\"name\":\"<=5 words\",\"confidence\":\"sure|unsure|cannot tell\"}",
+  "dispatched_at": "2026-09-08T01:38:55",
+  "cli": "2.1.263 (Claude Code)",
+  "source_crops": {
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/proofs_eudisclosure_slider3/F.png": "329376c0d755c4e3409e2a2b4329b94c683f34882194ce2033f387875c160860"
+  },
+  "names": [
+    {
+      "i": 0,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/candFr1-c47d002c/00.png",
+      "name": "brightness slider (dimmer switch)",
+      "confidence": "unsure",
+      "crop_sha256": "329376c0d755c4e3409e2a2b4329b94c683f34882194ce2033f387875c160860"
+    }
+  ]
+}

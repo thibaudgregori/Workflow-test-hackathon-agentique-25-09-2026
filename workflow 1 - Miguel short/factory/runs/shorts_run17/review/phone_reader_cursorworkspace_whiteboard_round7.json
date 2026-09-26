@@ -1,0 +1,28 @@
+{
+  "tag": "round7",
+  "cold_dir": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/round7-970cb65f",
+  "reader": "one independent `claude -p` process per crop, launched from /tmp, handed ONLY the absolute path of a blind copy under a random token - no plan, no topic, no manifest, no sealed key, and no path naming the video",
+  "prompt": "Look at the image at <absolute path of one blind crop> . Name the single everyday object drawn in it. At most FIVE words. Reply with ONE line of JSON and nothing else: {\"name\":\"<=5 words\",\"confidence\":\"sure|unsure|cannot tell\"}",
+  "dispatched_at": "2026-09-08T08:44:08",
+  "cli": "2.1.263 (Claude Code)",
+  "source_crops": {
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/phone_cursorworkspace_whiteboard/00.png": "46b78a5e0fc0f8729027269d11718fb2679fb022dc92cb65347173e819b806c2",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/phone_cursorworkspace_whiteboard/01.png": "5bcccca30eb1e45ccc7d259948c096b6ae6f06027935ebda570fd889af753436"
+  },
+  "names": [
+    {
+      "i": 0,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/round7-970cb65f/00.png",
+      "name": "bridge",
+      "confidence": "sure",
+      "crop_sha256": "46b78a5e0fc0f8729027269d11718fb2679fb022dc92cb65347173e819b806c2"
+    },
+    {
+      "i": 1,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/round7-970cb65f/01.png",
+      "name": "toggle switch",
+      "confidence": "unsure",
+      "crop_sha256": "5bcccca30eb1e45ccc7d259948c096b6ae6f06027935ebda570fd889af753436"
+    }
+  ]
+}

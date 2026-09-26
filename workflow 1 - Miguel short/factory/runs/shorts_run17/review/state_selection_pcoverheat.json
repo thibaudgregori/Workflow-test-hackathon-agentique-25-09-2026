@@ -1,0 +1,26 @@
+{
+  "id": "pcoverheat",
+  "stage": "selection",
+  "decision": "approved",
+  "selection": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/pcoverheat/selection.json",
+  "status": "reviewed",
+  "reviewer": "visual-agent",
+  "mask": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/pcoverheat/selection.mask.png",
+  "mask_sha256": "ea50905a4136137474986c8348e27682615fbf0b60cbdaad5be548c65abcdac4",
+  "base_mask_sha256": "b6a986add829168cd65e9b0983d0cf025c94f02702114cd632227ab4d9c8a54e",
+  "edits": [],
+  "edits_file": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/pcoverheat/edits.json",
+  "identity": {
+    "plate_sha256": "413a61abb71c37a3cd4cd3a991f327c5c96d7128d0818af3a0b01d421b7057b2",
+    "source_sha256": "283859c43bba5c3c1985f7e3e71ab053a2552b8f1b69b29d9fa19be20d38a17a",
+    "crop_sha256": "726df4ce0b549b6d50abb6e2c5b0a6e62b31f0a5621bfd18dee244ce00739ce7",
+    "first_frame_sha256": "e25c3270a940f517db69cf7df9ff583c603de933e5fdd74b8305f207d19cf2e7",
+    "width": 1620,
+    "height": 900,
+    "fps": 25.0,
+    "frames": 929
+  },
+  "validate": "pass",
+  "reuse_scope": "this exact source, plate and crop only",
+  "checked": "Actual first frame plus gamma-lifted 8-10x zooms: cap crown and brim, both ears on the outer helix against the black chair, jaw, beard and chin, neck, both shoulders at the black-on-black shirt/chair junctions (x 620-820 and x 1010-1210, y 480-640), the excluded chair wing left of the head and chair column right of it. One connected component, zero interior holes, 31.3 percent coverage, crown at y=68, no top/left/right frame-edge contact. No hands visible in this frame. No include or exclude polygon was needed; the inspected mask was approved unchanged."
+}

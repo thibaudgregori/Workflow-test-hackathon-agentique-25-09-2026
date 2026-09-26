@@ -1,0 +1,109 @@
+{
+ "run": "shorts_run17",
+ "run_dir": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17",
+ "ledger": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/costs.jsonl",
+ "rows": 36,
+ "total_usd": 0.761293,
+ "by_service": {
+  "modal": 0.690033,
+  "gemini": 0.0,
+  "elevenlabs": 0.07126,
+  "other": 0.0
+ },
+ "by_stage": {
+  "scribe": 0.07126,
+  "sweep": 0.1445,
+  "track": 0.081139,
+  "ship": 0.290894,
+  "render": 0.1735
+ },
+ "by_video": {
+  "cursorworkspace": {
+   "modal": 0.141785,
+   "gemini": 0.0,
+   "elevenlabs": 0.014301,
+   "other": 0.0,
+   "total": 0.156086,
+   "rows": 9,
+   "stages": {
+    "scribe": 0.014301,
+    "track": 0.016581,
+    "ship": 0.054204,
+    "sweep": 0.026,
+    "render": 0.045
+   }
+  },
+  "eudisclosure": {
+   "modal": 0.129578,
+   "gemini": 0.0,
+   "elevenlabs": 0.016575,
+   "other": 0.0,
+   "total": 0.146153,
+   "rows": 7,
+   "stages": {
+    "scribe": 0.016575,
+    "track": 0.01852,
+    "ship": 0.069058,
+    "sweep": 0.0326,
+    "render": 0.0094
+   }
+  },
+  "kimifable": {
+   "modal": 0.203105,
+   "gemini": 0.0,
+   "elevenlabs": 0.018991,
+   "other": 0.0,
+   "total": 0.222096,
+   "rows": 10,
+   "stages": {
+    "scribe": 0.018991,
+    "track": 0.022833,
+    "ship": 0.079672,
+    "sweep": 0.0435,
+    "render": 0.0571
+   }
+  },
+  "pcoverheat": {
+   "modal": 0.215565,
+   "gemini": 0.0,
+   "elevenlabs": 0.021393,
+   "other": 0.0,
+   "total": 0.236958,
+   "rows": 10,
+   "stages": {
+    "scribe": 0.021393,
+    "track": 0.023205,
+    "ship": 0.08796,
+    "sweep": 0.0424,
+    "render": 0.062
+   }
+  }
+ },
+ "by_format": {
+  "cutout": 0.0589,
+  "split": 0.0344,
+  "whiteboard": 0.0802
+ },
+ "staged_shorts": 10,
+ "staged_files": [
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/staging/reels/cursorworkspace_whiteboard.mp4",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/staging/reels/eudisclosure_whiteboard.mp4",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/staging/reels/kimifable_whiteboard.mp4",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/staging/reels/pcoverheat_whiteboard.mp4",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/staging/tiktok/cursorworkspace_cutout.mp4",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/staging/tiktok/kimifable_cutout.mp4",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/staging/tiktok/pcoverheat_cutout.mp4",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/staging/youtube/cursorworkspace_split.mp4",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/staging/youtube/kimifable_split.mp4",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/staging/youtube/pcoverheat_split.mp4"
+ ],
+ "usd_per_delivered_short": 0.076129,
+ "stages_never_recorded": [
+  "draft",
+  "watch",
+  "gate3",
+  "verify",
+  "clerk_watch"
+ ],
+ "scribe_rate_note": "estimate at $0.40/audio-hour (ElevenLabs Scribe list rate, tools/elevenlabs.md; the API returns no cost, so this is not measured)"
+}

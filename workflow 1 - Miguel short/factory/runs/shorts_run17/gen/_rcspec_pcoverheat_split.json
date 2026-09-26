@@ -1,0 +1,22 @@
+{
+ "run": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17",
+ "out_dir": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output",
+ "jobs": [
+  {
+   "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/projects/pcoverheat_split",
+   "vid": "pcoverheat",
+   "fmt": "split",
+   "quality": "high",
+   "stage": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/staging/youtube/pcoverheat_split.mp4",
+   "qc_args": [
+    "--voice-master", "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/cuts/pcoverheat/audio.m4a",
+    "--phone-at", "1.90:0.39815,0.15625,0.60185,0.27917:an_open_laptop",
+    "--phone-at", "13.30:0.36111,0.28125,0.63889,0.36458:a_download_arrow",
+    "--phone-at", "16.60:0.28704,0.14896,0.71296,0.20938:a_speech_bubble",
+    "--phone-at", "25.90:0.22778,0.15625,0.77222,0.30000:a_process_list",
+    "--face-segments", "full",
+    "--face-band"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1577 @@
+{
+ "video": "primeagent",
+ "lane": "diagram build",
+ "fps": 25,
+ "duration": 43.175,
+ "seam": 862.5,
+ "sfx": {
+  "whoosh": {
+   "mean_volume": "-17.5 dB"
+  },
+  "pop": {
+   "mean_volume": "-36.4 dB"
+  },
+  "click": {
+   "mean_volume": "-23.1 dB"
+  },
+  "_gains": {
+   "structure": 0.14,
+   "detail": 0.09,
+   "published_corpus_flat": 0.18,
+   "note": "a gain constant means nothing without its source loudness (SFX LAW v2); these are the run-9 to run-23 shipped values for THESE files"
+  }
+ },
+ "cutout_lanes_for_the_other_author": [
+  "claude-code",
+  "codex",
+  "cursor",
+  "opencode",
+  "copilot",
+  "antigravity"
+ ],
+ "formats": {
+  "split": {
+   "staged": {
+    "voice": {
+     "source": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/cuts/primeagent/audio.m4a",
+     "sample_rate": 48000,
+     "channels": 2
+    },
+    "audio_library": {
+     "bed": "/Users/migle/Documents/Workspace/assets/audio/music/shorts-factory/bed_split_v2.mp3",
+     "sfx_root": "/Users/migle/Documents/Workspace/assets/audio/sfx/shorts-factory"
+    },
+    "face": {
+     "file": "face_bottom_hd.mp4",
+     "w": 1080,
+     "h": 1058
+    },
+    "marks": {
+     "claude-code": {
+      "source": "/Users/migle/Documents/Workspace/assets/logos/coding-tools/claudecode-color.png",
+      "url": "assets/logos/claudecode-color.png",
+      "bytes": 1467
+     },
+     "codex": {
+      "source": "/Users/migle/Documents/Workspace/assets/logos/coding-tools/codex-color.png",
+      "url": "assets/logos/codex-color.png",
+      "bytes": 7578
+     },
+     "cursor": {
+      "source": "/Users/migle/Documents/Workspace/assets/logos/coding-tools/cursor.png",
+      "url": "assets/logos/cursor.png",
+      "bytes": 4422
+     }
+    }
+   },
+   "seat": 862.5,
+   "scale": 1.0,
+   "core": {
+    "left": 0.0,
+    "top": 192.0
+   },
+   "band": {
+    "content_top": 252.0,
+    "content_bottom": 741.0,
+    "law30_line": 192.0,
+    "clear_below_law30": 60.0,
+    "pill_top_rendered": 805.205,
+    "pill_height_rendered": 114.59,
+    "pill_centre_used": 862.5,
+    "clear_above_pill": 64.21,
+    "core_top_used": 192.0,
+    "core_top_in_handoff": 192.0,
+    "core_raised_px": 0.0,
+    "note": "content_top is the core's declared CONTENT_Y0 (ONE SINGLE TOOL's box top in chapter 2) and content_bottom its CONTENT_Y1 (the crossed pair's lowest ink in chapter 3).  NOTHING IS RAISED: this lane seats the core exactly where the handoff put it, so the cutout's boxes and this page's differ by scale alone."
+   },
+   "rail": {
+    "ink_left_x": 310.0,
+    "ink_right_x": 770.0,
+    "union_axis_x": 540.0,
+    "readable_type_left_x": 340.0,
+    "readable_type_right_x": 740.0,
+    "law30_rail_x": 918.0,
+    "rail_overshoot_px": 0.0,
+    "margins": [
+     310.0,
+     310.0
+    ],
+    "note": "the widest readable key is PRIME AGENT, whose 400 px seat stops at x 740, 178 px inside the 918 rail.  The widest INK on the board is the crossed pair (310..770), which is drawing, not readable type, and the amendment to LAW 30 keeps the composition centred and symmetric.  No caption pill crosses the rail (CAP.assert_law12 on the widest)."
+   },
+   "axis": {
+    "beats": [
+     {
+      "beat": 0,
+      "window": [
+       0.1,
+       2.36
+      ],
+      "at": 2.35,
+      "ink_left": 340.0,
+      "ink_right": 740.0,
+      "axis": 540.0,
+      "offset_from_540": 0.0,
+      "margins": [
+       340.0,
+       340.0
+      ],
+      "marks": [
+       "key-prime-agent",
+       "machine-hook"
+      ]
+     },
+     {
+      "beat": 1,
+      "window": [
+       2.36,
+       8.72
+      ],
+      "at": 8.56,
+      "ink_left": 364.5,
+      "ink_right": 715.5,
+      "axis": 540.0,
+      "offset_from_540": 0.0,
+      "margins": [
+       364.5,
+       364.5
+      ],
+      "marks": [
+       "key-regular-agents",
+       "toolbox"
+      ]
+     },
+     {
+      "beat": 2,
+      "window": [
+       8.72,
+       12.74
+      ],
+      "at": 12.73,
+      "ink_left": 390.0,
+      "ink_right": 690.0,
+      "axis": 540.0,
+      "offset_from_540": 0.0,
+      "margins": [
+       390.0,
+       390.0
+      ],
+      "marks": [
+       "key-one-tool",
+       "machine-main"
+      ]
+     },
+     {
+      "beat": 3,
+      "window": [
+       12.74,
+       15.78
+      ],
+      "at": 15.77,
+      "ink_left": 390.0,
+      "ink_right": 690.0,
+      "axis": 540.0,
+      "offset_from_540": 0.0,
+      "margins": [
+       390.0,
+       390.0
+      ],
+      "marks": [
+       "bed-part",
+       "key-one-tool",
+       "machine-main"
+      ]
+     },
+     {
+      "beat": 4,
+      "window": [
+       15.78,
+       25.42
+      ],
+      "at": 25.31,
+      "ink_left": 310.0,
+      "ink_right": 770.0,
+      "axis": 540.0,
+      "offset_from_540": 0.0,
+      "margins": [
+       310.0,
+       310.0
+      ],
+      "marks": [
+       "toolpair"
+      ]
+     },
+     {
+      "beat": 5,
+      "window": [
+       25.42,
+       30.32
+      ],
+      "at": 30.31,
+      "ink_left": 390.0,
+      "ink_right": 690.0,
+      "axis": 540.0,
+      "offset_from_540": 0.0,
+      "margins": [
+       390.0,
+       390.0
+      ],
+      "marks": [
+       "key-rlm",
+       "machine-out",
+       "rlm-slab"
+      ]
+     },
+     {
+      "beat": 6,
+      "window": [
+       30.32,
+       38.78
+      ],
+      "at": 38.57,
+      "ink_left": 320.0,
+      "ink_right": 760.0,
+      "axis": 540.0,
+      "offset_from_540": 0.0,
+      "margins": [
+       320.0,
+       320.0
+      ],
+      "marks": [
+       "key-rlm",
+       "machine-out",
+       "rlm-slab",
+       "tile-claude-code",
+       "tile-codex",
+       "tile-cursor",
+       "vs-rule"
+      ]
+     }
+    ],
+    "mode": "REPORTED",
+    "beats_sampled_empty": [
+     {
+      "beat": 1,
+      "sampled_at": 8.56,
+      "beat_end": 8.72,
+      "why": "the beat's own end instant falls inside a chapter handover, so the sweep walked back to the last instant the beat's board was settled.  The board is never empty on screen - the outgoing ink is still fading (LAW 45)."
+     },
+     {
+      "beat": 4,
+      "sampled_at": 25.31,
+      "beat_end": 25.42,
+      "why": "the beat's own end instant falls inside a chapter handover, so the sweep walked back to the last instant the beat's board was settled.  The board is never empty on screen - the outgoing ink is still fading (LAW 45)."
+     },
+     {
+      "beat": 6,
+      "sampled_at": 38.57,
+      "beat_end": 38.78,
+      "why": "the beat's own end instant falls inside a chapter handover, so the sweep walked back to the last instant the beat's board was settled.  The board is never empty on screen - the outgoing ink is still fading (LAW 45)."
+     },
+     {
+      "beat": 7,
+      "window": [
+       38.78,
+       43.175
+      ],
+      "why": "this beat holds no board mark at any instant - it is the OUTRO beat, whose marks are the sheet and the lockup and are excluded from this sweep by design."
+     }
+    ],
+    "worst": {
+     "beat": 0,
+     "offset_px": 0.0
+    },
+    "frame_margin_floor_px": 40.0,
+    "note": "the composition is symmetric about x = 540 in EVERY chapter by construction: each machine placement is seated at left = 540 - 148k, the toolbox at 540 - 160k, the crossed pair's two tool centres are +-30 px about 540, the slab and the rule are centred, and the tile row is 320 / 484 / 648 (centre 540).  Every written key is centred on 540 too."
+   },
+   "plan_lane": {
+    "lane": "diagram build",
+    "lane_reason": "The script is one mechanism being assembled in front of the viewer - a fixed toolbox, then a single machine, then the two things it makes, then the base it stands on - so the argument IS the diagram growing, which is what diagram build does and what icon choreography (a wall of real marks) cannot do for a product nobody has a logo for yet.",
+    "beats": 8,
+    "beat_edges_scene": [
+     0.1,
+     2.36,
+     8.72,
+     12.74,
+     15.78,
+     25.42,
+     30.32,
+     38.78,
+     43.175
+    ],
+    "beat_edges_plan": [
+     0.1,
+     1.98,
+     8.48,
+     12.48,
+     15.48,
+     25.24,
+     30.0,
+     38.36,
+     43.175
+    ],
+    "open_doubts": []
+   },
+   "law40": {
+    "connectors": {},
+    "connectors_in_dom": 0,
+    "arrowheads": 0,
+    "line_svg_called_by_build": false,
+    "law40_letter": "LAW 40 binds connectors that EXIST and does not require any.  The plan's first cut ran two terracotta lines from the machine to the two finished tools; the crossed pair then took the WHOLE board (handoff section 9 item 3), which leaves no machine on screen for a line to leave, and a connector to nothing is worse than none.  Every remaining relationship here is CONTAINMENT - the tools in the box, the part on the bed, the machine on the slab - and containment is carried by the declared blocks (LAW 41).  `SC.anchor_points` stays in the module so a lane that later adds a connector cannot hand-place its end."
+   },
+   "law42": {
+    "board_mode": "chapters",
+    "chapters": 5,
+    "anchors": [
+     "machine-hook",
+     "machine-main",
+     "machine-out",
+     "o-sheet",
+     "o-glyph",
+     "o-rule",
+     "o-slot"
+    ],
+    "marks_that_leave": [
+     "bed-part",
+     "hammer",
+     "key-one-tool",
+     "key-prime-agent",
+     "key-regular-agents",
+     "key-rlm",
+     "machine-hook",
+     "machine-main",
+     "machine-out",
+     "rlm-slab",
+     "screwdriver",
+     "tile-claude-code",
+     "tile-codex",
+     "tile-cursor",
+     "toolbox",
+     "toolpair",
+     "vs-rule"
+    ],
+    "shares": {
+     "machine-hook": 0.048,
+     "key-prime-agent": 0.029,
+     "toolbox": 0.142,
+     "key-regular-agents": 0.128,
+     "machine-main": 0.296,
+     "key-one-tool": 0.213,
+     "bed-part": 0.172,
+     "toolpair": 0.086,
+     "hammer": 0.086,
+     "screwdriver": 0.071,
+     "machine-out": 0.305,
+     "rlm-slab": 0.268,
+     "key-rlm": 0.213,
+     "tile-claude-code": 0.134,
+     "tile-codex": 0.131,
+     "tile-cursor": 0.127,
+     "vs-rule": 0.123
+    },
+    "longest_lived_mark": {
+     "mark": "machine-out",
+     "share": 0.305
+    },
+    "machine_share_across_its_three_instances": 0.649,
+    "plan_boards_mode": "chapters",
+    "board_mode_reason": "LAW 43: chapters are the default and this script changes subject four times. The toolbox is not modified by the machine - it is REPLACED by it - what the machine makes is its own picture, and the RLM slab with the competing marks is a fourth. Every seam lands on the object the next sentence is about (LAW 45).",
+    "over_40pct_without_declaration": [],
+    "note": "every board mark carries a finite t_to, which is exactly the declaration LAW 42 asks a CHAPTERED build for, and every one of those t_to values IS a chapter seam.  No single element holds more than 30.5% of the runtime; the MACHINE as an object holds 64.9% across its three instances, which is why all three also carry `data-anchor=\"1\"` and are named in SC.SCENE_ANCHORS.  The only marks that never leave are the four outro ones."
+   },
+   "law38": {
+    "groups": [],
+    "border_flips": [
+     {
+      "target": "machine-main",
+      "kind": "box",
+      "fires_at": 17.62,
+      "settles_at": 18.0,
+      "releases_at": 18.6,
+      "held_s": 0.6,
+      "ink": "rgb(221,114,89)",
+      "rest_ink": "#141416",
+      "separate_element": false,
+      "dom_primitive": "#machine-main .mkf1 stroke: the gantry's own outline, ink -> terracotta over 0.38 s and back",
+      "target_life": [
+       8.72,
+       21.5
+      ]
+     },
+     {
+      "target": "tile-claude-code",
+      "kind": "box",
+      "fires_at": 33.28,
+      "settles_at": 33.66,
+      "releases_at": 34.6,
+      "held_s": 0.94,
+      "ink": "rgb(221,114,89)",
+      "rest_ink": "#141416",
+      "separate_element": false,
+      "dom_primitive": "#tile-claude-code borderColor: the tile's own 3 px border, ink-alpha -> terracotta",
+      "target_life": [
+       32.8,
+       38.6
+      ]
+     },
+     {
+      "target": "tile-codex",
+      "kind": "box",
+      "fires_at": 33.28,
+      "settles_at": 33.66,
+      "releases_at": 34.6,
+      "held_s": 0.94,
+      "ink": "rgb(221,114,89)",
+      "rest_ink": "#141416",
+      "separate_element": false,
+      "dom_primitive": "#tile-codex borderColor: the tile's own 3 px border, ink-alpha -> terracotta",
+      "target_life": [
+       32.96,
+       38.6
+      ]
+     },
+     {
+      "target": "tile-cursor",
+      "kind": "box",
+      "fires_at": 33.28,
+      "settles_at": 33.66,
+      "releases_at": 34.6,
+      "held_s": 0.94,
+      "ink": "rgb(221,114,89)",
+      "rest_ink": "#141416",
+      "separate_element": false,
+      "dom_primitive": "#tile-cursor borderColor: the tile's own 3 px border, ink-alpha -> terracotta",
+      "target_life": [
+       33.12,
+       38.6
+      ]
+     }
+    ],
+    "rings_ellipses_circles": 0,
+    "highlights": 0,
+    "separate_emphasis_elements": 0,
+    "data_emphasis_stamped": 0,
+    "emphasis_events": 2,
+    "why": "LAW 38 rule 1 gives TEXT IN A RASTER the marker highlight, and this video prints NO raster-borne type at all - no post, no screenshot, no UI capture, and pointing_cues returned nothing.  So both emphases fall under rule 2 (a DRAWN target takes boxing), and in both the box IS the target's own outline: the machine's gantry strokes at 17.62 ('workshop') and the three tile borders together at 33.28 ('regular').  NO ELEMENT IS ADDED, so there is nothing to carry `data-emphasis`, and pointing a target at itself would make visual_laws compare an element's ink with itself - the geminigems_split reading, one recording earlier in this run.  Rule 3: the module emits no `<circle>` tag anywhere; the filament spool's disc and hub are two-arc `<path>`s."
+   },
+   "law41": {
+    "pairs_measured": 638,
+    "judged": 204,
+    "tightest_core_px": 98.0,
+    "tightest_pair": [
+     "key-rlm",
+     "tile-codex",
+     33.0
+    ],
+    "floor": 24.0,
+    "refusal_line": 16.0,
+    "split_scale_k": 1.0,
+    "tightest_on_this_page_px": 98.0,
+    "under_aim": [],
+    "blocks": [
+     [
+      "machine-hook",
+      "key-prime-agent"
+     ],
+     [
+      "toolbox",
+      "key-regular-agents"
+     ],
+     [
+      "machine-main",
+      "key-one-tool"
+     ],
+     [
+      "machine-main",
+      "bed-part"
+     ],
+     [
+      "shelf",
+      "hammer",
+      "screwdriver"
+     ],
+     [
+      "machine-out",
+      "rlm-slab",
+      "key-rlm"
+     ],
+     [
+      "toolpair",
+      "hammer",
+      "screwdriver"
+     ]
+    ],
+    "series": [
+     [
+      "tile-claude-code",
+      "tile-codex",
+      "tile-cursor"
+     ]
+    ],
+    "overlap_ok": [
+     "bed-part",
+     "toolpair",
+     "vs-rule"
+    ],
+    "stale_block_declared": [
+     "shelf",
+     "hammer",
+     "screwdriver"
+    ],
+    "stale_block_note": "SC.DECLARED_BLOCKS still carries a 'shelf' block from the draft where the two tools stood on a shelf.  No element with that id is emitted, so the entry binds nothing; the pair that shipped is the ('toolpair','hammer','screwdriver') block beside it.  Logged, not edited - the module is the design seat's.",
+    "gate_scaling_note": "every non-block gutter here is authored at >= 42 CORE px so the cutout's ~0.95 seat still clears 40 canvas px; this lane's k is 1.00, so the core number IS the page number",
+    "instrument": "this build's own co-alive sweep at 0.25 s over the module's ink rects; geometry_audit --strict is the independent measurement on the rendered DOM"
+   },
+   "law39": {
+    "key-prime-agent": {
+     "host": "machine-hook",
+     "side": "above",
+     "text": "PRIME AGENT",
+     "key_box_core": [
+      340.0,
+      96.0,
+      740.0,
+      154.0
+     ],
+     "host_box_core": [
+      356.4,
+      203.1,
+      723.6,
+      456.9
+     ],
+     "key_box_canvas": [
+      340.0,
+      288.0,
+      740.0,
+      346.0
+     ],
+     "centre_error_px": 0.0,
+     "band_px": 55.08,
+     "gap_px": 49.1,
+     "at": 1.1,
+     "host_at": 0.3,
+     "delay_after_host_s": 0.8
+    },
+    "key-regular-agents": {
+     "host": "toolbox",
+     "side": "above",
+     "text": "REGULAR AGENTS",
+     "key_box_core": [
+      390.0,
+      100.0,
+      690.0,
+      144.0
+     ],
+     "host_box_core": [
+      364.5,
+      176.6,
+      715.5,
+      453.5
+     ],
+     "key_box_canvas": [
+      390.0,
+      292.0,
+      690.0,
+      336.0
+     ],
+     "centre_error_px": 0.0,
+     "band_px": 52.65,
+     "gap_px": 32.6,
+     "at": 3.06,
+     "host_at": 2.46,
+     "delay_after_host_s": 0.6
+    },
+    "key-one-tool": {
+     "host": "machine-main",
+     "side": "above",
+     "text": "ONE SINGLE TOOL",
+     "key_box_core": [
+      390.0,
+      60.0,
+      690.0,
+      104.0
+     ],
+     "host_box_core": [
+      397.2,
+      126.2,
+      682.8,
+      323.6
+     ],
+     "key_box_canvas": [
+      390.0,
+      252.0,
+      690.0,
+      296.0
+     ],
+     "centre_error_px": 0.0,
+     "band_px": 42.84,
+     "gap_px": 22.2,
+     "at": 12.32,
+     "host_at": 8.72,
+     "delay_after_host_s": 3.6
+    },
+    "key-rlm": {
+     "host": "rlm-slab",
+     "side": "below",
+     "text": "RLM",
+     "key_box_core": [
+      460.0,
+      294.0,
+      620.0,
+      338.0
+     ],
+     "host_box_core": [
+      390.0,
+      252.0,
+      690.0,
+      278.0
+     ],
+     "key_box_canvas": [
+      460.0,
+      486.0,
+      620.0,
+      530.0
+     ],
+     "centre_error_px": 0.0,
+     "band_px": 45.0,
+     "gap_px": 16.0,
+     "at": 29.4,
+     "host_at": 27.02,
+     "delay_after_host_s": 2.38
+    },
+    "_law50": {
+     "co_alive_key_pairs": [],
+     "keys_above": [
+      "key-prime-agent",
+      "key-regular-agents",
+      "key-one-tool"
+     ],
+     "keys_below": [
+      "key-rlm"
+     ],
+     "verdict": "PASS - no two written keys share the board at any instant, so LAW 50's sibling clause has no pair to bind.  The three keys of chapters 0, 1 and 2 still sit the same way (ABOVE their object); RLM is alone in its chapter and sits BELOW its slab, where the slab's own meaning - the thing underneath - puts it."
+    },
+    "_key_term": {
+     "text": "PRIME AGENT",
+     "at": 1.1,
+     "font_px": 48.0,
+     "design_units": 25.6,
+     "other_key_font_px": 28.0,
+     "seat_canvas": [
+      340.0,
+      288.0,
+      740.0,
+      346.0
+     ],
+     "debut_axis": "x = 540, the composition's own axis to 0.0 px.  It is the FIRST type in the video and there is no mark on the board before it, so it is alone for 1.96 s.",
+     "first_type_at": 1.1,
+     "alone_until": 3.06,
+     "type_order": [
+      [
+       "key-prime-agent",
+       1.1
+      ],
+      [
+       "key-regular-agents",
+       3.06
+      ],
+      [
+       "key-one-tool",
+       12.32
+      ],
+      [
+       "key-rlm",
+       29.4
+      ]
+     ]
+    },
+    "_hook": {
+     "object": "the tool printing machine - the video's claim (one tool whose output is other tools) as ONE everyday object, drawn COMPLETE from its first settled frame: frame, spool, rail, nozzle, bed AND a part already on that bed, so LAW 20's vessel corollary is satisfied by construction",
+     "first_ink_at": 0.3,
+     "opens_centred_on_x": 540.0,
+     "alone_until": 1.1,
+     "one_displacement": "none - the machine never moves.  The scale-in of its arrival is an entrance, not a move (LAW 1 / LAW 25)."
+    }
+   },
+   "law37": {
+    "scan_cue_count": 0,
+    "plan_declared_cards": 0,
+    "prep_marker": "prep/stages/primeagent.cues.json -> cue_count 0",
+    "source_post_cards": 0,
+    "platform_frames_chosen": 0,
+    "verdict": "GLOBAL LAW 3 is satisfied BY ABSENCE.  The recording names no platform, no post and no person, so this lane invents no source card and no platform frame.",
+    "instrument": "pointing_cues.scan re-run on transcript_tight.json"
+   },
+   "law2": {
+    "stage_marks": 3,
+    "assert_cast_resolves": {
+     "claude-code": {
+      "path": "/Users/migle/Documents/Workspace/assets/logos/coding-tools/claudecode-color.png",
+      "bytes": 1467,
+      "size": [
+       640,
+       640
+      ],
+      "ink_fill": 0.679,
+      "quantised_colours": 1,
+      "diag_fwd": 0.631,
+      "diag_back": 0.631,
+      "bbox": [
+       0,
+       133,
+       640,
+       534
+      ]
+     },
+     "codex": {
+      "path": "/Users/migle/Documents/Workspace/assets/logos/coding-tools/codex-color.png",
+      "bytes": 7578,
+      "size": [
+       640,
+       640
+      ],
+      "ink_fill": 0.97,
+      "quantised_colours": 13,
+      "diag_fwd": 0.894,
+      "diag_back": 0.894,
+      "bbox": [
+       0,
+       0,
+       640,
+       640
+      ]
+     },
+     "cursor": {
+      "path": "/Users/migle/Documents/Workspace/assets/logos/coding-tools/cursor.png",
+      "bytes": 4422,
+      "size": [
+       640,
+       640
+      ],
+      "ink_fill": 0.541,
+      "quantised_colours": 1,
+      "diag_fwd": 0.255,
+      "diag_back": 0.439,
+      "bbox": [
+       39,
+       0,
+       601,
+       640
+      ]
+     }
+    },
+    "ink_aspects": {
+     "claude-code": 1.596,
+     "codex": 1.0,
+     "cursor": 0.8781
+    },
+    "size_core_px": 74.0,
+    "tile_px": 112.0,
+    "cutout_lanes_not_ours": [
+     "claude-code",
+     "codex",
+     "cursor",
+     "opencode",
+     "copilot",
+     "antigravity"
+    ],
+    "raster_cards": 0,
+    "why": "LAW 2 binds a NAMED product to its own registry logo.  The script names no product at all - Prime Agent is the stage object, drawn, and it has no mark - so the three marks on this board are the TOPICAL field the script does name ('regular AI agents'): Claude Code, Codex and Cursor, the agents this channel actually names, in the chart's own 112 px tiles (LAW 33: real marks, never generic glyphs; LAW 29: no placeholder tiles).  MARK IDENTITY: the FILE is claudecode-color.png, the plain no-outline mascot, never the die-cut claude-code.png sticker whose white edge would halo on cream.  The six cutout lane marks belong to the OTHER author."
+   },
+   "law22": {
+    "events": 20,
+    "tightest_gap_s": 0.38,
+    "tightest_pair_s": [
+     3.8,
+     4.18
+    ],
+    "kinds": {
+     "pop": 8,
+     "click": 11,
+     "whoosh": 1
+    },
+    "rule": "an OBJECT arriving takes a pop at structure gain; a written KEY takes a click at detail gain; the machine ACTING (a tool standing up, a tool lifting off, the part growing on the bed, the rule drawing) takes a click; the outro sheet takes a whoosh",
+    "deliberately_silent": {
+     "lift3b@7.840": "the wrench DROPS BACK; a return to rest is the tail of the lift that was already struck at 7.32",
+     "lift2/lift3 returns": "each lift's drop-back shares its word with the NEXT tool's lift, which is the event the ear is given - one sound per gesture, not two",
+     "emph@17.620 / emphout@18.600 / emph2@33.280 / emph2out@34.600": "a border or outline flip is not an arrival; nothing appears and nothing leaves, so nothing is struck",
+     "the four chapter erases": "a chapter erase HANDS OVER rather than clearing; the incoming object on the far side of the seam is what the ear is given",
+     "tiles@32.960 / 33.120": "the three agent tiles are ONE arrival with a 0.16 s stagger, not three events; the 32.80 pop is the whole gesture",
+     "chip@39.260": "the outro lockup rides the sheet's whoosh at 38.78"
+    }
+   },
+   "cues": {
+    "keyterm": {
+     "word_spoken": 5,
+     "text": "type",
+     "edge": "start",
+     "t": 1.1,
+     "word_edge": 1.1
+    },
+    "clear0": {
+     "word_spoken": 9,
+     "text": "Regular",
+     "edge": "start",
+     "t": 2.36,
+     "word_edge": 2.36
+    },
+    "keyreg": {
+     "word_spoken": 11,
+     "text": "agents",
+     "edge": "start",
+     "t": 3.06,
+     "word_edge": 3.06
+    },
+    "tool1": {
+     "word_spoken": 14,
+     "text": "list",
+     "edge": "start",
+     "t": 3.8,
+     "word_edge": 3.8
+    },
+    "tool2": {
+     "word_spoken": 16,
+     "text": "tools",
+     "edge": "start",
+     "t": 4.18,
+     "word_edge": 4.18
+    },
+    "lift1": {
+     "word_spoken": 19,
+     "text": "decide",
+     "edge": "start",
+     "t": 4.7,
+     "word_edge": 4.7
+    },
+    "lift2": {
+     "word_spoken": 26,
+     "text": "read",
+     "edge": "start",
+     "t": 6.38,
+     "word_edge": 6.38
+    },
+    "lift3": {
+     "word_spoken": 30,
+     "text": "write",
+     "edge": "start",
+     "t": 7.32,
+     "word_edge": 7.32
+    },
+    "machine1": {
+     "word_spoken": 34,
+     "text": "Now,",
+     "edge": "start",
+     "t": 8.72,
+     "word_edge": 8.72
+    },
+    "keyone": {
+     "word_spoken": 46,
+     "text": "one",
+     "edge": "start",
+     "t": 11.62,
+     "word_edge": 11.62
+    },
+    "part": {
+     "word_spoken": 54,
+     "text": "build",
+     "edge": "start",
+     "t": 14.06,
+     "word_edge": 14.06
+    },
+    "emph": {
+     "word_spoken": 68,
+     "text": "workshop,",
+     "edge": "start",
+     "t": 17.62,
+     "word_edge": 17.62
+    },
+    "hammer": {
+     "word_spoken": 81,
+     "text": "hammer",
+     "edge": "start",
+     "t": 21.62,
+     "word_edge": 21.62
+    },
+    "screw": {
+     "word_spoken": 84,
+     "text": "screwdriver",
+     "edge": "start",
+     "t": 22.28,
+     "word_edge": 22.28
+    },
+    "machine_out2": {
+     "word_spoken": 94,
+     "text": "Now,",
+     "edge": "start",
+     "t": 25.42,
+     "word_edge": 25.42
+    },
+    "slab": {
+     "word_spoken": 101,
+     "text": "built",
+     "edge": "start",
+     "t": 27.02,
+     "word_edge": 27.02
+    },
+    "keyrlm": {
+     "word_spoken": 110,
+     "text": "RLM,",
+     "edge": "start",
+     "t": 29.4,
+     "word_edge": 29.4
+    },
+    "tiles": {
+     "word_spoken": 123,
+     "text": "against",
+     "edge": "start",
+     "t": 32.8,
+     "word_edge": 32.8
+    },
+    "rule": {
+     "word_spoken": 124,
+     "text": "regular",
+     "edge": "start",
+     "t": 33.28,
+     "word_edge": 33.28
+    },
+    "emph2": {
+     "word_spoken": 124,
+     "text": "regular",
+     "edge": "start",
+     "t": 33.28,
+     "word_edge": 33.28
+    },
+    "outro": {
+     "word_spoken": 142,
+     "text": "Now",
+     "edge": "start",
+     "t": 38.78,
+     "word_edge": 38.78
+    },
+    "machine0": {
+     "word_spoken": 0,
+     "text": "Prime",
+     "edge": "inside",
+     "t": 0.3,
+     "window": [
+      0.1,
+      1.28
+     ]
+    },
+    "rack": {
+     "word_spoken": 9,
+     "text": "Regular",
+     "edge": "inside",
+     "t": 2.46,
+     "window": [
+      2.36,
+      3.66
+     ]
+    },
+    "tool3": {
+     "word_spoken": 18,
+     "text": "they",
+     "edge": "inside",
+     "t": 4.56,
+     "window": [
+      4.56,
+      5.64
+     ]
+    },
+    "lift3b": {
+     "word_spoken": 31,
+     "text": "code,",
+     "edge": "inside",
+     "t": 7.84,
+     "window": [
+      7.68,
+      8.88
+     ]
+    },
+    "clear1": {
+     "word_spoken": 33,
+     "text": "example.",
+     "edge": "inside",
+     "t": 8.58,
+     "window": [
+      8.1,
+      9.48
+     ]
+    },
+    "emphout": {
+     "word_spoken": 69,
+     "text": "and",
+     "edge": "inside",
+     "t": 18.6,
+     "window": [
+      18.24,
+      19.4
+     ]
+    },
+    "clear2a": {
+     "word_spoken": 76,
+     "text": "able",
+     "edge": "inside",
+     "t": 21.5,
+     "window": [
+      20.48,
+      21.7
+     ]
+    },
+    "clear2": {
+     "word_spoken": 93,
+     "text": "settle.",
+     "edge": "inside",
+     "t": 25.34,
+     "window": [
+      25.0,
+      26.24
+     ]
+    },
+    "emph2out": {
+     "word_spoken": 126,
+     "text": "agents,",
+     "edge": "inside",
+     "t": 34.6,
+     "window": [
+      34.02,
+      35.3
+     ]
+    },
+    "clear3": {
+     "word_spoken": 141,
+     "text": "forward.",
+     "edge": "inside",
+     "t": 38.6,
+     "window": [
+      38.08,
+      39.36
+     ]
+    },
+    "chip": {
+     "word_spoken": 144,
+     "text": "for",
+     "edge": "inside",
+     "t": 39.26,
+     "window": [
+      39.12,
+      40.26
+     ]
+    },
+    "_free": {
+     "law24_repair": {
+      "mark": "key-one-tool",
+      "module_fires_at": 11.62,
+      "this_page_fires_at": 12.32,
+      "word": "tool.",
+      "word_window": [
+       12.32,
+       13.48
+      ],
+      "why": "LAW 24 - at 11.62 only 'one' has been spoken; 'single' lands at 11.98 and 'tool.' at 12.32, so two thirds of ONE SINGLE TOOL would be on screen before the words that license it.  12.32 is the start of 'tool.', the first instant the whole key is behind its words, and it is inside that word's own 1.0 s LABEL_WINDOW.  The repair is made on the EMITTED tween string; the module on disk is untouched."
+     },
+     "cues_declared_unused": {
+      "cues": {
+       "tool3": 4.56
+      },
+      "why": "`tool3` survives in the module's table from the pegboard draft; `build()` fires only tool1 and tool2 because the rebuilt toolbox carries TWO tools.  It is verified against the transcript so the table cannot silently rot, and it emits nothing."
+     },
+     "law45": {
+      "board_mode": "chapters",
+      "erases": 5,
+      "seams": [
+       {
+        "erase_at": 2.36,
+        "last_word_ends": 1.98,
+        "fade_s": 0.22,
+        "erase_completes": 2.58,
+        "hands_over_to": "toolbox",
+        "incoming_arrives_at": 2.46,
+        "lag_after_erase_s": 0.0
+       },
+       {
+        "erase_at": 8.58,
+        "last_word_ends": 8.48,
+        "fade_s": 0.22,
+        "erase_completes": 8.8,
+        "hands_over_to": "machine-main",
+        "incoming_arrives_at": 8.72,
+        "lag_after_erase_s": 0.0
+       },
+       {
+        "erase_at": 21.5,
+        "last_word_ends": 21.46,
+        "fade_s": 0.22,
+        "erase_completes": 21.72,
+        "hands_over_to": "toolpair",
+        "incoming_arrives_at": 21.62,
+        "lag_after_erase_s": 0.0
+       },
+       {
+        "erase_at": 25.34,
+        "last_word_ends": 25.24,
+        "fade_s": 0.22,
+        "erase_completes": 25.56,
+        "hands_over_to": "machine-out",
+        "incoming_arrives_at": 25.42,
+        "lag_after_erase_s": 0.0
+       },
+       {
+        "erase_at": 38.6,
+        "last_word_ends": 38.36,
+        "fade_s": 0.22,
+        "erase_completes": 38.82,
+        "hands_over_to": "o-sheet",
+        "incoming_arrives_at": 38.78,
+        "lag_after_erase_s": 0.0
+       }
+      ],
+      "verdict": "PASS - every one of the five seams lands on the first word of the next idea ('Regular', 'Now,', 'hammer', 'Now,', 'Now') and every one hands over to the object that sentence is about while the outgoing ink is still fading, so the zone never goes empty."
+     },
+     "outro": {
+      "t": 38.78,
+      "last_board_arrival_completes": 33.58,
+      "clear_s": 5.2,
+      "sheet": {
+       "d": 0.46,
+       "lockup_in": 39.26,
+       "kind": "OPAQUE RISING SHEET, never a fade and never a scrim"
+      },
+      "note": "the chapter-4 erase at 38.60 deliberately overlaps the sheet rising at 38.78: the sheet IS the handover and is itself opaque ink."
+     }
+    }
+   },
+   "word_sync": {
+    "states_checked": 4,
+    "disagreements": 0,
+    "states": [
+     {
+      "state": "key-prime-agent",
+      "first_visible_text": "PRIME AGENT",
+      "at": 1.1,
+      "word": "type",
+      "word_window": [
+       1.1,
+       2.24
+      ],
+      "agrees": true,
+      "why": "PRIME AGENT lands on the spoken 'type' of 'a new type of AI agent'; BOTH of its own words were already spoken - 'Prime' at 0.10 and 'Agent' at 0.44, complete by 0.70 - so nothing peeks ahead (LAW 24)"
+     },
+     {
+      "state": "key-regular-agents",
+      "first_visible_text": "REGULAR AGENTS",
+      "at": 3.06,
+      "word": "agents",
+      "word_window": [
+       3.06,
+       4.36
+      ],
+      "agrees": true,
+      "why": "REGULAR AGENTS lands on the spoken 'agents' of 'Regular AI agents'; 'Regular' was spoken at 2.36, so the whole key is behind its words"
+     },
+     {
+      "state": "key-one-tool",
+      "first_visible_text": "ONE SINGLE TOOL",
+      "at": 12.32,
+      "word": "tool.",
+      "word_window": [
+       12.32,
+       13.48
+      ],
+      "agrees": true,
+      "why": "ONE SINGLE TOOL lands on the spoken 'tool.' of 'one single tool.'; 'one' was spoken at 11.62 and 'single' at 11.98, so the whole key is behind its words.  THIS IS THE LAW 24 REPAIR - the module fires at 11.62, this page at 12.32"
+     },
+     {
+      "state": "key-rlm",
+      "first_visible_text": "RLM",
+      "at": 29.4,
+      "word": "RLM,",
+      "word_window": [
+       29.4,
+       31.0
+      ],
+      "agrees": true,
+      "why": "RLM lands on the spoken 'RLM,' (29.40-30.00), the only written key in its chapter"
+     }
+    ],
+    "digits_that_tick": 0,
+    "note": "no number is typed on this board and nothing counts up.  The other state changes are the two border flips, the three tool lifts and the part growing on the bed, and each is cut on the word the cue table verifies."
+   },
+   "tween_repairs": {
+    "key_one_tool_arrival": {
+     "was": 11.62,
+     "now": 12.32,
+     "word_it_now_lands_on": "tool. (12.32-12.48)",
+     "why": "LAW 24 NO PEEK-AHEAD.  At 11.62 only 'one' has been spoken; 'single' arrives at 11.98 and 'tool.' at 12.32, so two thirds of ONE SINGLE TOOL would have been readable before the words that license it.  12.32 is the first instant the whole key is behind its words and it is inside that word's own 1.0 s LABEL_WINDOW, so LAW 39's time half still holds.  The seat, the ink, the size, the 0.28 s entrance and the 21.50 release are the module's, untouched."
+    }
+   },
+   "production_v2_declarations": {
+    "connectors_stamped": 0,
+    "emphases_stamped": 0,
+    "labels_repointed": 0,
+    "contracts": {
+     "connectors": {},
+     "emphases": {},
+     "connectors_stamped": 0,
+     "emphases_stamped": 0
+    },
+    "why": "NOTHING IS STAMPED ON THIS PAGE, and that is the instrument's reading rather than an omission.  The module draws NO connector (`line_svg` is never called by `build()`), so there is no anchor to derive and no `data-check-at` to place.  Neither emphasis is an ELEMENT: both are the target's OWN outline or border flipping ink -> terracotta, so there is nothing to carry `data-emphasis`, and pointing a target at itself would make visual_laws compare an element's ink with itself.  All four `data-label-for` attributes and all six `data-block` lockups are stamped by the MODULE and are verified here rather than re-written."
+   },
+   "phone_objects": [
+    {
+     "name": "open toolbox with tools",
+     "t": 8.2,
+     "space": "norm",
+     "bbox": [
+      0.3375,
+      0.19198,
+      0.6625,
+      0.3362
+     ],
+     "canvas": [
+      364.5,
+      368.6,
+      715.5,
+      645.5
+     ],
+     "phone_px": [
+      132,
+      104
+     ]
+    },
+    {
+     "name": "tool printing machine",
+     "t": 1.8,
+     "space": "norm",
+     "bbox": [
+      0.33,
+      0.20578,
+      0.67,
+      0.33797
+     ],
+     "canvas": [
+      356.4,
+      395.1,
+      723.6,
+      648.9
+     ],
+     "phone_px": [
+      138,
+      95
+     ]
+    },
+    {
+     "name": "two crossed tools",
+     "t": 24.4,
+     "space": "norm",
+     "bbox": [
+      0.28704,
+      0.16406,
+      0.71296,
+      0.38594
+     ],
+     "canvas": [
+      310.0,
+      315.0,
+      770.0,
+      741.0
+     ],
+     "phone_px": [
+      172,
+      160
+     ]
+    }
+   ],
+   "phone_objects_vs_plan": {
+    "objects": [
+     {
+      "plan_name": "open toolbox with tools",
+      "built_name": "open toolbox with tools",
+      "plan_t": 8.2,
+      "built_t": 8.2,
+      "plan_bbox": [
+       0.3375,
+       0.192,
+       0.6625,
+       0.3362
+      ],
+      "built_bbox": [
+       0.3375,
+       0.19198,
+       0.6625,
+       0.3362
+      ],
+      "plan_phone_px": [
+       132,
+       104
+      ],
+      "built_phone_px": [
+       132,
+       104
+      ],
+      "delta_px": [
+       0.0,
+       0.04,
+       0.0,
+       0.0
+      ],
+      "max_delta_px": 0.04
+     },
+     {
+      "plan_name": "tool printing machine",
+      "built_name": "tool printing machine",
+      "plan_t": 1.8,
+      "built_t": 1.8,
+      "plan_bbox": [
+       0.33,
+       0.2058,
+       0.67,
+       0.338
+      ],
+      "built_bbox": [
+       0.33,
+       0.20578,
+       0.67,
+       0.33797
+      ],
+      "plan_phone_px": [
+       138,
+       95
+      ],
+      "built_phone_px": [
+       138,
+       95
+      ],
+      "delta_px": [
+       0.0,
+       0.04,
+       0.0,
+       0.06
+      ],
+      "max_delta_px": 0.06
+     },
+     {
+      "plan_name": "two crossed tools",
+      "built_name": "two crossed tools",
+      "plan_t": 24.4,
+      "built_t": 24.4,
+      "plan_bbox": [
+       0.287,
+       0.1641,
+       0.713,
+       0.3859
+      ],
+      "built_bbox": [
+       0.28704,
+       0.16406,
+       0.71296,
+       0.38594
+      ],
+      "plan_phone_px": [
+       173,
+       160
+      ],
+      "built_phone_px": [
+       172,
+       160
+      ],
+      "delta_px": [
+       0.04,
+       0.08,
+       0.04,
+       0.08
+      ],
+      "max_delta_px": 0.08
+     }
+    ],
+    "worst_delta_px": 0.08,
+    "source_used_for_the_render_job": "SC.BESPOKE mapped through this format's k and origin",
+    "seal": "review/artwork_pass_primeagent.json - verdict PASS, sealed by the design seat against the module and handoff hashes.  Object 2 ('two crossed tools') was accepted by MIGUEL HIMSELF on 2026-09-21; the four earlier reader rounds are history and no lane may reopen them."
+   },
+   "transcript": {
+    "partials_dropped": [],
+    "token_merges": [],
+    "law47_tail_s": 0.195,
+    "law47_cap_s": 0.24,
+    "law47_overshoot_s": 0.0,
+    "law47_verdict": "PASS - the master runs 0.195s past the last word against a 0.240s cap",
+    "law46": "the scripted opening \"Prime Agent is a new type of AI agent\" occurs ONCE inside the keeper take, at word 0 / 0.10 s; the raw carries ten openings and the cut keeps the last one that reaches the sign-off",
+    "take_corroboration": {
+     "source": "cuts/primeagent/edl.json -> take_detection",
+     "method": "last scripted opening that reaches the spoken sign-off; the content rule decides, the marker rule and the gap sweep witness",
+     "raw_word_index": 329,
+     "raw_start_s": 165.7,
+     "words": 163,
+     "of_raw_words": 492,
+     "openings": 10,
+     "sign_offs_found": 1,
+     "marker_rule": "bound",
+     "marker_answer": 308,
+     "markers_before_take": 7,
+     "marker_note": "EQUALITY is the strongest form; BOUND is legal and expected when abandonments carry no partial word; ABSTAINS is legal on a raw with no markers at all.",
+     "gap_rule": "band",
+     "gap_correct_thresholds": [
+      0.8,
+      0.9,
+      1.0
+     ],
+     "corroboration": {
+      "marker": "bound",
+      "gap": "band",
+      "witnessed": true,
+      "allow_uncorroborated": false
+     },
+     "silence_before_take_s": 1.42
+    },
+    "words": 163,
+    "phrase_groups_repartitioned": 13,
+    "function_word_merges": 0,
+    "beats_before_merge": 44,
+    "board_keys_forbidden_at_split": [
+     "one single tool",
+     "one single tool!",
+     "one single tool,",
+     "one single tool.",
+     "one single tool?",
+     "prime agent",
+     "prime agent!",
+     "prime agent,",
+     "prime agent.",
+     "prime agent?",
+     "regular agents",
+     "regular agents!",
+     "regular agents,",
+     "regular agents.",
+     "regular agents?",
+     "rlm",
+     "rlm!",
+     "rlm,",
+     "rlm.",
+     "rlm?"
+    ],
+    "orphan_repartitions": [],
+    "board_key_echo_repairs": [
+     {
+      "offending_pill": "RLM,",
+      "board_key": "key-rlm",
+      "key_window": [
+       29.4,
+       38.6
+      ],
+      "action": "backward-merge",
+      "replaced_by": [
+       "which is called RLM,"
+      ]
+     }
+    ],
+    "solo_word_merges": [],
+    "caption_echoes_not_overlapping": []
+   },
+   "render": {
+    "w": 1080,
+    "h": 1920,
+    "zoom": 1
+   },
+   "handle_key": "yt",
+   "handle": "@migueltorrezai",
+   "captions": {
+    "n": 43,
+    "widest_px": 731.9,
+    "font_px": 56.2,
+    "pill_height_px": 114.59,
+    "sizes": 1,
+    "function_word_merges": 0,
+    "texts": [
+     "Prime Agent is a new",
+     "type of AI agent.",
+     "Regular AI agents",
+     "have a list of tools that",
+     "they decide to use,",
+     "whether they need",
+     "to read a document",
+     "or write code,",
+     "for example.",
+     "Now, Prime Agent",
+     "is different in the",
+     "way that it only",
+     "has one single tool.",
+     "This tool allows it",
+     "to build any tool",
+     "that it might need.",
+     "Think about it like",
+     "having a personalized",
+     "workshop, and your AI",
+     "agent is literally just",
+     "able to create either a",
+     "hammer or a screwdriver",
+     "depending on the task",
+     "that it needs to settle.",
+     "Now, it's the first type",
+     "of agent built on top",
+     "of this technology,",
+     "which is called RLM,",
+     "so we don't really know",
+     "if it's going to really",
+     "be competing against",
+     "regular AI agents,",
+     "but it's always super",
+     "interesting and",
+     "exciting to see how",
+     "the technology is",
+     "moving forward.",
+     "Now follow for more",
+     "AI news, videos, and",
+     "tutorials each and",
+     "every single day,",
+     "and catch you",
+     "in the next one."
+    ],
+    "aspects": [
+     5.55,
+     4.49,
+     4.79,
+     5.98,
+     4.94,
+     4.97,
+     5.1,
+     3.79,
+     3.51,
+     4.83,
+     4.58,
+     4.25,
+     5.12,
+     4.81,
+     4.43,
+     4.91,
+     4.84,
+     5.64,
+     5.83,
+     5.38,
+     5.71,
+     6.39,
+     5.79,
+     5.74,
+     5.76,
+     5.38,
+     4.9,
+     5.32,
+     6.15,
+     5.27,
+     5.59,
+     4.78,
+     5.4,
+     4.12,
+     5.09,
+     4.59,
+     4.43,
+     5.44,
+     5.34,
+     4.78,
+     4.46,
+     3.79,
+     4.2
+    ],
+    "min_aspect": 3.51
+   }
+  }
+ }
+}

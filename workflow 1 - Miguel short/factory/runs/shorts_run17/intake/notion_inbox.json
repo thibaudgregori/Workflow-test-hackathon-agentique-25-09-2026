@@ -1,0 +1,299 @@
+{
+  "db": "3aa31704-6eeb-819b-b3ec-c97cd524af62",
+  "db_icon": {
+    "type": "icon",
+    "icon": {
+      "name": "inbox",
+      "color": "blue"
+    }
+  },
+  "property_names": [
+    "Captured At",
+    "Drive Package",
+    "Idea",
+    "Instagram Status",
+    "Instagram URL",
+    "Lane",
+    "Last Reviewed",
+    "Posted On",
+    "Promoted Idea",
+    "Raw Note",
+    "Recording",
+    "Related Content Atoms",
+    "Related LinkedIn Posts",
+    "Related YouTube Videos",
+    "Repetition Risk",
+    "Review Notes",
+    "Source URL",
+    "Status",
+    "Suggested Platforms",
+    "TikTok Status",
+    "TikTok URL",
+    "YouTube Status",
+    "YouTube URL"
+  ],
+  "total_rows": 395,
+  "api_pages": 4,
+  "status_counts": {
+    "New": 287,
+    "False": 3,
+    "Ready to Publish": 25,
+    "Filmed": 19,
+    "Published": 59,
+    "For Later": 2
+  },
+  "filmed": [
+    {
+      "id": "3b431704-6eeb-81b5-8330-c1330835a7aa",
+      "title": "Flux 3 Video ships",
+      "recording": "",
+      "icon": {
+        "type": "icon",
+        "icon": {
+          "name": "inbox",
+          "color": "blue"
+        }
+      },
+      "url": "https://app.notion.com/p/Flux-3-Video-ships-3b4317046eeb81b58330c1330835a7aa"
+    },
+    {
+      "id": "3b431704-6eeb-81ad-84a1-d394ab75ab4e",
+      "title": "Luna's 80% pricing cut is permanent",
+      "recording": "",
+      "icon": {
+        "type": "icon",
+        "icon": {
+          "name": "inbox",
+          "color": "blue"
+        }
+      },
+      "url": "https://app.notion.com/p/Luna-s-80-pricing-cut-is-permanent-3b4317046eeb81ad84a1d394ab75ab4e"
+    },
+    {
+      "id": "3b431704-6eeb-813f-b4ff-c3e57bb382c3",
+      "title": "Grok can now generate 1080p video",
+      "recording": "",
+      "icon": {
+        "type": "icon",
+        "icon": {
+          "name": "inbox",
+          "color": "blue"
+        }
+      },
+      "url": "https://app.notion.com/p/Grok-can-now-generate-1080p-video-3b4317046eeb813fb4ffc3e57bb382c3"
+    },
+    {
+      "id": "3b431704-6eeb-81f3-8d55-c3f487e499d3",
+      "title": "Qwen 3.8 Max launched",
+      "recording": "",
+      "icon": {
+        "type": "icon",
+        "icon": {
+          "name": "inbox",
+          "color": "blue"
+        }
+      },
+      "url": "https://app.notion.com/p/Qwen-3-8-Max-launched-3b4317046eeb81f38d55c3f487e499d3"
+    },
+    {
+      "id": "3b431704-6eeb-8112-9987-ebd29833f1b0",
+      "title": "MiniMax runs on a single RTX 5090",
+      "recording": "",
+      "icon": {
+        "type": "icon",
+        "icon": {
+          "name": "inbox",
+          "color": "blue"
+        }
+      },
+      "url": "https://app.notion.com/p/MiniMax-runs-on-a-single-RTX-5090-3b4317046eeb81129987ebd29833f1b0"
+    },
+    {
+      "id": "3b431704-6eeb-81f4-85db-ee9b81f6de5d",
+      "title": "Cursor Agents read/write/act across Google Workspace",
+      "recording": "",
+      "icon": {
+        "type": "icon",
+        "icon": {
+          "name": "inbox",
+          "color": "blue"
+        }
+      },
+      "url": "https://app.notion.com/p/Cursor-Agents-read-write-act-across-Google-Workspace-3b4317046eeb81f485dbee9b81f6de5d"
+    },
+    {
+      "id": "3b431704-6eeb-81ad-ac51-e65b780b1a9f",
+      "title": "A2A Herald release (agent-to-agent)",
+      "recording": "",
+      "icon": {
+        "type": "icon",
+        "icon": {
+          "name": "inbox",
+          "color": "blue"
+        }
+      },
+      "url": "https://app.notion.com/p/A2A-Herald-release-agent-to-agent-3b4317046eeb81adac51e65b780b1a9f"
+    },
+    {
+      "id": "3b431704-6eeb-81cb-8235-d1a3f18229cc",
+      "title": "ElevenLabs now does 10M+ conversations a week",
+      "recording": "",
+      "icon": {
+        "type": "icon",
+        "icon": {
+          "name": "inbox",
+          "color": "blue"
+        }
+      },
+      "url": "https://app.notion.com/p/ElevenLabs-now-does-10M-conversations-a-week-3b4317046eeb81cb8235d1a3f18229cc"
+    },
+    {
+      "id": "3b431704-6eeb-81f3-8964-cc925089a0b3",
+      "title": "Grok automations now fire from Plaid and Stripe events",
+      "recording": "",
+      "icon": {
+        "type": "icon",
+        "icon": {
+          "name": "inbox",
+          "color": "blue"
+        }
+      },
+      "url": "https://app.notion.com/p/Grok-automations-now-fire-from-Plaid-and-Stripe-events-3b4317046eeb81f38964cc925089a0b3"
+    },
+    {
+      "id": "3b431704-6eeb-8195-b37e-df493cda4706",
+      "title": "GEO depends on the model — AI SEO/GEO is brutally hard",
+      "recording": "",
+      "icon": {
+        "type": "icon",
+        "icon": {
+          "name": "inbox",
+          "color": "blue"
+        }
+      },
+      "url": "https://app.notion.com/p/GEO-depends-on-the-model-AI-SEO-GEO-is-brutally-hard-3b4317046eeb8195b37edf493cda4706"
+    },
+    {
+      "id": "3b431704-6eeb-81a6-b436-dc9940f2b54a",
+      "title": "One detail improved UX 10x for millions, thanks to Codex",
+      "recording": "",
+      "icon": {
+        "type": "icon",
+        "icon": {
+          "name": "inbox",
+          "color": "blue"
+        }
+      },
+      "url": "https://app.notion.com/p/One-detail-improved-UX-10x-for-millions-thanks-to-Codex-3b4317046eeb81a6b436dc9940f2b54a"
+    },
+    {
+      "id": "3b431704-6eeb-81bc-9ddf-cf4829d5dc2f",
+      "title": "User asked Grok Build to diagnose why his computer overheats",
+      "recording": "",
+      "icon": {
+        "type": "icon",
+        "icon": {
+          "name": "inbox",
+          "color": "blue"
+        }
+      },
+      "url": "https://app.notion.com/p/User-asked-Grok-Build-to-diagnose-why-his-computer-overheats-3b4317046eeb81bc9ddfcf4829d5dc2f"
+    },
+    {
+      "id": "3b431704-6eeb-8184-9420-ff2a8aafe460",
+      "title": "Kimi K3 matches Fable 5 at a third of the price",
+      "recording": "",
+      "icon": {
+        "type": "icon",
+        "icon": {
+          "name": "inbox",
+          "color": "blue"
+        }
+      },
+      "url": "https://app.notion.com/p/Kimi-K3-matches-Fable-5-at-a-third-of-the-price-3b4317046eeb81849420ff2a8aafe460"
+    },
+    {
+      "id": "3b431704-6eeb-81f5-9eac-c6e499484067",
+      "title": "Hermes doctor: one-stop shop to audit your whole Hermes setup",
+      "recording": "",
+      "icon": {
+        "type": "icon",
+        "icon": {
+          "name": "inbox",
+          "color": "blue"
+        }
+      },
+      "url": "https://app.notion.com/p/Hermes-doctor-one-stop-shop-to-audit-your-whole-Hermes-setup-3b4317046eeb81f59eacc6e499484067"
+    },
+    {
+      "id": "3b431704-6eeb-812d-8b25-cad40e47397a",
+      "title": "Real estate firm cut SaaS from ~$100k/year to ~$300/month",
+      "recording": "",
+      "icon": {
+        "type": "icon",
+        "icon": {
+          "name": "inbox",
+          "color": "blue"
+        }
+      },
+      "url": "https://app.notion.com/p/Real-estate-firm-cut-SaaS-from-100k-year-to-300-month-3b4317046eeb812d8b25cad40e47397a"
+    },
+    {
+      "id": "3b431704-6eeb-813b-842a-f1115f6043b0",
+      "title": "ChatGPT for interactive education tools: a dev made a 3D [one]",
+      "recording": "",
+      "icon": {
+        "type": "icon",
+        "icon": {
+          "name": "inbox",
+          "color": "blue"
+        }
+      },
+      "url": "https://app.notion.com/p/ChatGPT-for-interactive-education-tools-a-dev-made-a-3D-one-3b4317046eeb813b842af1115f6043b0"
+    },
+    {
+      "id": "3b431704-6eeb-81b3-9fdd-e73b085d721c",
+      "title": "From Aug 2, Europeans must disclose AI-modified images",
+      "recording": "",
+      "icon": {
+        "type": "icon",
+        "icon": {
+          "name": "inbox",
+          "color": "blue"
+        }
+      },
+      "url": "https://app.notion.com/p/From-Aug-2-Europeans-must-disclose-AI-modified-images-3b4317046eeb81b39fdde73b085d721c"
+    },
+    {
+      "id": "3b431704-6eeb-817c-a097-f73587e664d1",
+      "title": "Grok Build email triggers: email as source of truth for automations",
+      "recording": "",
+      "icon": {
+        "type": "icon",
+        "icon": {
+          "name": "inbox",
+          "color": "blue"
+        }
+      },
+      "url": "https://app.notion.com/p/Grok-Build-email-triggers-email-as-source-of-truth-for-automations-3b4317046eeb817ca097f73587e664d1"
+    },
+    {
+      "id": "3b431704-6eeb-8162-a8d7-e63941f8a917",
+      "title": "Grok 4.5 reaches the frontier of legal work",
+      "recording": "",
+      "icon": {
+        "type": "icon",
+        "icon": {
+          "name": "inbox",
+          "color": "blue"
+        }
+      },
+      "url": "https://app.notion.com/p/Grok-4-5-reaches-the-frontier-of-legal-work-3b4317046eeb8162a8d7e63941f8a917"
+    }
+  ],
+  "_t": {
+    "start": "2026-09-07T22:24:46Z",
+    "end": "2026-09-07T22:24:48Z",
+    "wall_s": 2.51
+  }
+}

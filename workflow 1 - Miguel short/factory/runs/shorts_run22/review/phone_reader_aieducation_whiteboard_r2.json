@@ -1,0 +1,44 @@
+{
+  "tag": "confirm_r2",
+  "cold_dir": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/review/cold/confirm_r2-3d38c605",
+  "reader": "one independent `claude -p` process per crop, launched from /tmp, handed ONLY the absolute path of a blind copy under a random token - no plan, no topic, no manifest, no sealed key, and no path naming the video",
+  "prompt": "Look at the image at <absolute path of one blind crop> . Name the single everyday object drawn in it. At most FIVE words. Reply with ONE line of JSON and nothing else: {\"name\":\"<=5 words\",\"confidence\":\"sure|unsure|cannot tell\"}",
+  "dispatched_at": "2026-09-15T15:16:44",
+  "cli": "2.1.272 (Claude Code)",
+  "source_crops": {
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/review/phone_aieducation_whiteboard/00.png": "98712022d9661d12fffa4dcecb303105665b115e6c74c7a5fc88ae7c8dbb7a07",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/review/phone_aieducation_whiteboard/01.png": "6d57ee6c0c4f875acee045e86c67edc156181afe7a89d06a75c571bb7258e759",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/review/phone_aieducation_whiteboard/02.png": "12bb127e6d85c33cfe0a54881687d4912dc06e8879a655ba6469f73413adb86c",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/review/phone_aieducation_whiteboard/03.png": "0f7fda1f66bcdd8b202353bd7220e298f553e48058f0b7edd1a52af2414affe9"
+  },
+  "names": [
+    {
+      "i": 0,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/review/cold/confirm_r2-3d38c605/00.png",
+      "name": "greeting card",
+      "confidence": "unsure",
+      "crop_sha256": "98712022d9661d12fffa4dcecb303105665b115e6c74c7a5fc88ae7c8dbb7a07"
+    },
+    {
+      "i": 1,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/review/cold/confirm_r2-3d38c605/01.png",
+      "name": "heart",
+      "confidence": "unsure",
+      "crop_sha256": "6d57ee6c0c4f875acee045e86c67edc156181afe7a89d06a75c571bb7258e759"
+    },
+    {
+      "i": 2,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/review/cold/confirm_r2-3d38c605/02.png",
+      "name": "head with heart thought bubble",
+      "confidence": "cannot tell",
+      "crop_sha256": "12bb127e6d85c33cfe0a54881687d4912dc06e8879a655ba6469f73413adb86c"
+    },
+    {
+      "i": 3,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/review/cold/confirm_r2-3d38c605/03.png",
+      "name": "easel with canvas",
+      "confidence": "sure",
+      "crop_sha256": "0f7fda1f66bcdd8b202353bd7220e298f553e48058f0b7edd1a52af2414affe9"
+    }
+  ]
+}

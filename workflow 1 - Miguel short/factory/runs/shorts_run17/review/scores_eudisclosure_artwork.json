@@ -1,0 +1,157 @@
+{
+  "vid": "eudisclosure",
+  "rounds": [
+    "review/phone_reader_eudisclosure_artwork_r1.json",
+    "review/phone_reader_eudisclosure_artwork_r2.json",
+    "review/phone_reader_eudisclosure_artwork_r3.json",
+    "review/phone_reader_eudisclosure_artwork_r4.json",
+    "review/phone_reader_eudisclosure_artwork_r5.json"
+  ],
+  "rule": "STANDARD.md cold-read section: a name that is the intended thing or an obvious synonym PASSES; a different thing, a HEDGE, or \"cannot tell\" FAILS. production.consensus additionally requires at least half the reads to be sure. Both are applied here as written and neither is relaxed.",
+  "objects": [
+    {
+      "i": 0,
+      "intended": "a hanging label",
+      "verdict": "PASS",
+      "reads": [
+        {
+          "name": "price tag",
+          "confidence": "sure",
+          "match": "synonym"
+        },
+        {
+          "name": "price tag",
+          "confidence": "sure",
+          "match": "synonym"
+        },
+        {
+          "name": "price tag",
+          "confidence": "sure",
+          "match": "synonym"
+        },
+        {
+          "name": "price tag",
+          "confidence": "sure",
+          "match": "synonym"
+        },
+        {
+          "name": "price tag",
+          "confidence": "sure",
+          "match": "synonym"
+        }
+      ],
+      "sure": 5,
+      "of": 5,
+      "different": 0,
+      "reason": "Every one of the 5 independent reads named the intended object or an obvious synonym (0 different). 5 of 5 were SURE, which clears the law's half-the-reads floor."
+    },
+    {
+      "i": 1,
+      "intended": "a sparkle picture",
+      "verdict": "FAIL",
+      "reads": [
+        {
+          "name": "framed picture",
+          "confidence": "unsure",
+          "match": "synonym"
+        },
+        {
+          "name": "framed picture",
+          "confidence": "sure",
+          "match": "synonym"
+        },
+        {
+          "name": "framed picture (photo frame)",
+          "confidence": "unsure",
+          "match": "synonym"
+        },
+        {
+          "name": "picture frame with mountain",
+          "confidence": "unsure",
+          "match": "synonym"
+        },
+        {
+          "name": "framed mountain picture",
+          "confidence": "unsure",
+          "match": "synonym"
+        }
+      ],
+      "sure": 1,
+      "of": 5,
+      "different": 0,
+      "reason": "Every one of the 5 independent reads named the intended object or an obvious synonym (0 different). 1 of 5 were SURE, which MISSES the law's half-the-reads floor."
+    },
+    {
+      "i": 2,
+      "intended": "a dog-eared photo",
+      "verdict": "FAIL",
+      "reads": [
+        {
+          "name": "framed landscape photo picture",
+          "confidence": "unsure",
+          "match": "synonym"
+        },
+        {
+          "name": "photograph",
+          "confidence": "sure",
+          "match": "synonym"
+        },
+        {
+          "name": "photograph",
+          "confidence": "unsure",
+          "match": "synonym"
+        },
+        {
+          "name": "photograph",
+          "confidence": "unsure",
+          "match": "synonym"
+        },
+        {
+          "name": "photograph of mountains",
+          "confidence": "unsure",
+          "match": "synonym"
+        }
+      ],
+      "sure": 1,
+      "of": 5,
+      "different": 0,
+      "reason": "Every one of the 5 independent reads named the intended object or an obvious synonym (0 different). 1 of 5 were SURE, which MISSES the law's half-the-reads floor."
+    },
+    {
+      "i": 3,
+      "intended": "a framed photograph",
+      "verdict": "PASS",
+      "reads": [
+        {
+          "name": "framed picture of mountains",
+          "confidence": "sure",
+          "match": "synonym"
+        },
+        {
+          "name": "framed landscape picture",
+          "confidence": "unsure",
+          "match": "synonym"
+        },
+        {
+          "name": "framed landscape picture",
+          "confidence": "unsure",
+          "match": "synonym"
+        },
+        {
+          "name": "framed landscape picture",
+          "confidence": "sure",
+          "match": "synonym"
+        },
+        {
+          "name": "framed landscape picture",
+          "confidence": "sure",
+          "match": "synonym"
+        }
+      ],
+      "sure": 3,
+      "of": 5,
+      "different": 0,
+      "reason": "Every one of the 5 independent reads named the intended object or an obvious synonym (0 different). 3 of 5 were SURE, which clears the law's half-the-reads floor."
+    }
+  ]
+}

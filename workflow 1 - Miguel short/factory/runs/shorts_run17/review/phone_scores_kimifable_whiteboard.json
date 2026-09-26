@@ -1,0 +1,83 @@
+{
+ "video": "kimifable",
+ "format": "whiteboard",
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/projects/kimifable_whiteboard",
+ "evidence": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/phone_reader_kimifable_whiteboard_round2.json",
+ "rounds": 2,
+ "scored_by": "the whiteboard author, against the plan's intended names; the readers never saw the plan, the topic or a key",
+ "rule": "SCORE THE IDEA, NOT THE NOUN (Miguel, 2026-09-06): a reader who names the drawn content or its container, or a sibling noun of the same thing, PASSES. Only a DIFFERENT thing, a hedge or 'cannot tell' FAILS.",
+ "objects": [
+  {
+   "i": 0,
+   "intended": "a price tag",
+   "reader": "price tag",
+   "confidence": "sure",
+   "verdict": "PASS",
+   "reason": "the intended name, exactly, confidently"
+  },
+  {
+   "i": 1,
+   "intended": "a benchmark scorecard",
+   "reader": "clipboard",
+   "confidence": "sure",
+   "verdict": "PASS",
+   "reason": "SYNONYM: the reader is naming the thing the picture IS. The sealed artwork scored this same object the same way (scene handoff 8: 'clipboard' sure x3), because the plan's own amendment redrew the scorecard ON a clipboard precisely so a reader would have an everyday object to name. Round 1 read it 'briefcase' UNSURE and was a FAIL; the board was rebuilt PORTRAIT with the paper drawn as its own inset sheet and the clip straddling the top edge with its jaw showing."
+  },
+  {
+   "i": 2,
+   "intended": "a website layout",
+   "reader": "browser window",
+   "confidence": "sure",
+   "verdict": "PASS",
+   "reason": "SYNONYM / container of the drawn content: a website layout drawn as the page itself IS a browser window. The sealed artwork's readers said the same three times ('web browser window' / 'browser window')."
+  },
+  {
+   "i": 3,
+   "intended": "a folder of designs",
+   "reader": "file folder with documents",
+   "confidence": "sure",
+   "verdict": "PASS",
+   "reason": "the intended object plus what it holds, confidently"
+  }
+ ],
+ "round1": {
+  "evidence": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/phone_reader_kimifable_whiteboard.json",
+  "results": [
+   {
+    "i": 0,
+    "reader": "price tag",
+    "confidence": "sure",
+    "verdict": "PASS"
+   },
+   {
+    "i": 1,
+    "reader": "briefcase",
+    "confidence": "unsure",
+    "verdict": "FAIL",
+    "fix": "a wide landscape rounded board with a small tab sitting ON its top edge is a case with a handle. Redrawn PORTRAIT (164x172 u), corner radius 10 -> 6, the paper drawn as its own inset rectangle, and the clip moved to STRADDLE the top edge with its jaw line showing."
+   },
+   {
+    "i": 2,
+    "reader": "browser window",
+    "confidence": "sure",
+    "verdict": "PASS"
+   },
+   {
+    "i": 3,
+    "reader": "file folder",
+    "confidence": "sure",
+    "verdict": "PASS"
+   }
+  ]
+ },
+ "verdict": "PASS",
+ "crop_identity": {
+  "note": "after the round-2 read the project changed ONCE more (the mark tile's border went from the detail hairline to the object weight, so the 11.50 chapter handover clears seam_check's 2,600 ink-px floor). No bespoke-object crop contains a tile, and all four crops re-rendered BYTE-IDENTICAL to the images the round-2 readers were handed.",
+  "sha256": {
+   "00.png": "c68d8d20e31218f0a5cf9e3252592d535737af9a10b63a75b7eb36211fb14f6d",
+   "01.png": "4451d3bb00ef3eda8b5c8da7dbd571433ebb8f0120388c120c1ba37e64c7e15c",
+   "02.png": "72aa1986ded061f030925003c219680a2fbe020904f8c52876dd7f0198f8eef7",
+   "03.png": "9db6fc92d4eb61ae58fe447bf1c6fb7b5ec1e44db0e7547b1e915a98ec7971f6"
+  }
+ }
+}

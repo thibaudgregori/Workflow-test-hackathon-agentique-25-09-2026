@@ -1,0 +1,28 @@
+{
+ "id": "aieducation",
+ "stage": "ship",
+ "status": "ok",
+ "wall_s": 103.21377025003312,
+ "at": "2026-09-15T22:10:00",
+ "keys": {
+  "status": "ok",
+  "backend": "matanyone2",
+  "frames": 803,
+  "width": 1584,
+  "height": 990,
+  "fps": 25.0,
+  "alpha_mode": "soft",
+  "rim_px": 7,
+  "temporal": 1,
+  "seconds": 86.13093377,
+  "estimated_compute_usd": 0.039165458203894395,
+  "fractional_alpha_pixels": 15805478,
+  "minimum_person_fraction": 0.36307774716865626,
+  "review_status": "needs_final_visual_review",
+  "ship_source_sha256": "cf367be51d742c272d9f79db8a13e00297684001ebf666283095059206e149e7",
+  "client_wall_seconds": 103.21377025003312,
+  "ship_seconds": 86.13093377,
+  "wall_s": 103.21377025003312,
+  "cost_usd": 0.039165458203894395
+ }
+}

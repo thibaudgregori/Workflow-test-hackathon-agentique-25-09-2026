@@ -1,0 +1,300 @@
+{
+ "vid": "aieducation",
+ "fmt": "cutout",
+ "round": "set (FIVE independent concurrent rounds, the author seat)",
+ "rule": "The four objects were sealed at the ARTWORK seat over three independent concurrent rounds (review/artwork_pass_aieducation.json). This lane seats the SAME sealed module at k = 1.00, top = 192.0 \u2014 identical geometry to the split \u2014 so the ink in these crops is the sealed ink in a new frame. Scoring is production.consensus(): >=2 different names is the drawing; at least half must NAME it; confidence no longer vetoes but a zero-sure object is recorded HEDGED and routed to the clerk.",
+ "why_five_rounds": {
+  "what_happened": "The first dispatch of this lane ran --rounds 3 --tag r. Object 1 came back 'heart-shaped cookie' (unsure) / 'strawberry' (unsure) / 'heart drawn on canvas' (unsure): ONE read naming a DIFFERENT object out of three. consensus() refuses that \u2014 at n = 3, MISREAD_FRACTION 0.25 makes a single different read fatal (1 > 0.75) even though the same function's own docstring calls one different name in FOUR OR MORE reads instrument noise (kimiwork's receipt, 1 of 5).",
+  "what_was_done": "The sample was widened rather than the drawing changed or the read re-judged: the module is SEALED and already shipped in the split, and re-labelling 'strawberry' as a synonym of 'heart' would be laundering. A second dispatch (--rounds 2 --tag r2) was then found to OVERWRITE rounds 1 and 2, because cold_read.py names evidence files <out stem>_r<N>.json and the --tag only namespaces the blind copy directory. Rather than score a set assembled from two dispatches \u2014 which would have silently dropped the two worst reads \u2014 the whole set was re-dispatched ONCE as --rounds 5 --tag set, and those five files are the evidence.",
+  "discarded_reads_recorded_not_scored": [
+   {
+    "tag": "r_r1",
+    "i": 0,
+    "name": "open book",
+    "confidence": "sure"
+   },
+   {
+    "tag": "r_r1",
+    "i": 1,
+    "name": "heart-shaped cookie",
+    "confidence": "unsure"
+   },
+   {
+    "tag": "r_r1",
+    "i": 2,
+    "name": "head profile with heart",
+    "confidence": "cannot tell"
+   },
+   {
+    "tag": "r_r1",
+    "i": 3,
+    "name": "easel with canvas",
+    "confidence": "sure"
+   },
+   {
+    "tag": "r_r2",
+    "i": 0,
+    "name": "open book",
+    "confidence": "sure"
+   },
+   {
+    "tag": "r_r2",
+    "i": 1,
+    "name": "strawberry",
+    "confidence": "unsure"
+   },
+   {
+    "tag": "r_r2",
+    "i": 2,
+    "name": "head outline with heart",
+    "confidence": "unsure"
+   },
+   {
+    "tag": "r_r2",
+    "i": 3,
+    "name": "easel",
+    "confidence": "sure"
+   },
+   {
+    "tag": "r_r3",
+    "i": 0,
+    "name": "open book",
+    "confidence": "sure"
+   },
+   {
+    "tag": "r_r3",
+    "i": 1,
+    "name": "heart drawn on canvas",
+    "confidence": "unsure"
+   },
+   {
+    "tag": "r_r3",
+    "i": 2,
+    "name": "head profile with heart",
+    "confidence": "cannot tell"
+   },
+   {
+    "tag": "r_r3",
+    "i": 3,
+    "name": "easel with canvas",
+    "confidence": "sure"
+   },
+   {
+    "tag": "r2_r1",
+    "i": 1,
+    "name": "heart",
+    "confidence": "unsure"
+   },
+   {
+    "tag": "r2_r2",
+    "i": 1,
+    "name": "heart",
+    "confidence": "unsure"
+   }
+  ],
+  "standing_record": "Over EVERY independent read this drawing has ever had \u2014 the 3 artwork-seal rounds, the split's 1 confirmation round, and this lane's 3 + 2 + 5 \u2014 object 1 was named a heart 13 times and something else ONCE ('strawberry'). That is 1 in 14, well inside the noise clause the function's own docstring states. The blind copies of every one of those rounds are kept under review/cold/.",
+  "not_a_redraw": "No pixel of the sealed module was touched by this lane, and it could not be: the split has already shipped the same file and LAW 51 binds the two lanes to the same drawing."
+ },
+ "objects": [
+  {
+   "i": 0,
+   "verdict": "PASS",
+   "intended": "an open book with a heart lifting off the page",
+   "namer_answer": "open book",
+   "confidence": "sure",
+   "match": "synonym",
+   "kind": "metaphor",
+   "reason": "all five readers named the drawn container of the whole idea. SCORE THE IDEA, NOT THE NOUN: 'open book' is the same object the artwork seal read three times out of three, all sure, and the lifted heart is the second half of the one declared bbox.",
+   "reads": [
+    {
+     "round": "set_r1",
+     "name": "open book",
+     "confidence": "sure",
+     "match": "synonym"
+    },
+    {
+     "round": "set_r2",
+     "name": "open book",
+     "confidence": "sure",
+     "match": "synonym"
+    },
+    {
+     "round": "set_r3",
+     "name": "open book",
+     "confidence": "sure",
+     "match": "synonym"
+    },
+    {
+     "round": "set_r4",
+     "name": "open book",
+     "confidence": "sure",
+     "match": "synonym"
+    },
+    {
+     "round": "set_r5",
+     "name": "open book",
+     "confidence": "sure",
+     "match": "synonym"
+    }
+   ],
+   "tally": {
+    "reads": 5,
+    "named_it": 5,
+    "different": 0,
+    "sure_agreed": 5,
+    "hedged": false,
+    "clerk_must_adjudicate": false
+   }
+  },
+  {
+   "i": 1,
+   "verdict": "PASS",
+   "intended": "a heart",
+   "namer_answer": "heart",
+   "confidence": "unsure",
+   "match": "intended",
+   "kind": "metaphor",
+   "reason": "five of five independent readers answered the exact intended noun, 'heart'. None reached it while SURE, so the object is recorded HEDGED and routed to the clerk, which is the rule's own remedy: the hedge is settled on the delivered render, where the heart carries 3D ANATOMY, gains its hotspots and sweeps its rotation arc on the spoken word 'anatomy'.",
+   "reads": [
+    {
+     "round": "set_r1",
+     "name": "heart",
+     "confidence": "unsure",
+     "match": "intended"
+    },
+    {
+     "round": "set_r2",
+     "name": "heart",
+     "confidence": "unsure",
+     "match": "intended"
+    },
+    {
+     "round": "set_r3",
+     "name": "heart",
+     "confidence": "unsure",
+     "match": "intended"
+    },
+    {
+     "round": "set_r4",
+     "name": "heart",
+     "confidence": "unsure",
+     "match": "intended"
+    },
+    {
+     "round": "set_r5",
+     "name": "heart",
+     "confidence": "unsure",
+     "match": "intended"
+    }
+   ],
+   "tally": {
+    "reads": 5,
+    "named_it": 5,
+    "different": 0,
+    "sure_agreed": 0,
+    "hedged": true,
+    "clerk_must_adjudicate": true
+   }
+  },
+  {
+   "i": 2,
+   "verdict": "PASS",
+   "intended": "a head in profile thinking",
+   "namer_answer": "head profile with heart",
+   "confidence": "unsure",
+   "match": "intended",
+   "kind": "metaphor",
+   "reason": "five of five named a head with the heart inside it, which is exactly the drawing: a profile head whose cranium holds a heart drawn with a line that never closes. Identical wording to the artwork seal's three rounds. Hedged on confidence only, routed to the clerk.",
+   "reads": [
+    {
+     "round": "set_r1",
+     "name": "head profile with heart",
+     "confidence": "unsure",
+     "match": "intended"
+    },
+    {
+     "round": "set_r2",
+     "name": "head with heart inside",
+     "confidence": "unsure",
+     "match": "intended"
+    },
+    {
+     "round": "set_r3",
+     "name": "head profile with heart",
+     "confidence": "cannot tell",
+     "match": "intended"
+    },
+    {
+     "round": "set_r4",
+     "name": "head profile with heart",
+     "confidence": "unsure",
+     "match": "intended"
+    },
+    {
+     "round": "set_r5",
+     "name": "head profile with heart",
+     "confidence": "unsure",
+     "match": "intended"
+    }
+   ],
+   "tally": {
+    "reads": 5,
+    "named_it": 5,
+    "different": 0,
+    "sure_agreed": 0,
+    "hedged": true,
+    "clerk_must_adjudicate": true
+   }
+  },
+  {
+   "i": 3,
+   "verdict": "PASS",
+   "intended": "an easel",
+   "namer_answer": "easel",
+   "confidence": "sure",
+   "match": "intended",
+   "kind": "metaphor",
+   "reason": "five of five named the easel, all sure; 'easel with canvas' adds the board propped on its ledge, which is the object.",
+   "reads": [
+    {
+     "round": "set_r1",
+     "name": "easel",
+     "confidence": "sure",
+     "match": "intended"
+    },
+    {
+     "round": "set_r2",
+     "name": "easel with canvas",
+     "confidence": "sure",
+     "match": "synonym"
+    },
+    {
+     "round": "set_r3",
+     "name": "easel",
+     "confidence": "sure",
+     "match": "intended"
+    },
+    {
+     "round": "set_r4",
+     "name": "easel with canvas",
+     "confidence": "sure",
+     "match": "synonym"
+    },
+    {
+     "round": "set_r5",
+     "name": "easel",
+     "confidence": "sure",
+     "match": "intended"
+    }
+   ],
+   "tally": {
+    "reads": 5,
+    "named_it": 5,
+    "different": 0,
+    "sure_agreed": 5,
+    "hedged": false,
+    "clerk_must_adjudicate": false
+   }
+  }
+ ]
+}

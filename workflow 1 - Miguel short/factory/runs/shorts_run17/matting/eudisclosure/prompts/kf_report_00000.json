@@ -1,0 +1,58 @@
+{
+ "frame": 0,
+ "plate": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/eudisclosure/plate_wide_25.mp4",
+ "dark_threshold": 60,
+ "wing_right": null,
+ "wing_right_rows": "400,620",
+ "wing_left": null,
+ "wing_left_rows": "400,520",
+ "removed_right_px": 0,
+ "removed_left_px": 0,
+ "removed": {
+  "px": 0,
+  "median_luma": -1,
+  "max_luma": -1
+ },
+ "birefnet": {
+  "area": 492551,
+  "bands": {
+   "cap": {
+    "left": 485,
+    "right": 884
+   },
+   "head": {
+    "left": 464,
+    "right": 899
+   },
+   "jaw": {
+    "left": 367,
+    "right": 1069
+   },
+   "neck": {
+    "left": 212,
+    "right": 1132
+   }
+  }
+ },
+ "prompt": {
+  "area": 492551,
+  "bands": {
+   "cap": {
+    "left": 485,
+    "right": 884
+   },
+   "head": {
+    "left": 464,
+    "right": 899
+   },
+   "jaw": {
+    "left": 367,
+    "right": 1069
+   },
+   "neck": {
+    "left": 212,
+    "right": 1132
+   }
+  }
+ }
+}

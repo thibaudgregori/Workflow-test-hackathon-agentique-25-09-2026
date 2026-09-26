@@ -1,0 +1,26 @@
+{
+ "vid": "pcoverheat",
+ "cues": [
+  {
+   "i": 24,
+   "j": 28,
+   "t": 3.24,
+   "kind": "person",
+   "phrase": "like this guy",
+   "word": "like",
+   "window": [
+    2.24,
+    4.24
+   ],
+   "card_hold_s": [
+    2.0,
+    4.0
+   ]
+  }
+ ],
+ "cue_window_s": 1.0,
+ "card_hold_s": [
+  2.0,
+  4.0
+ ]
+}

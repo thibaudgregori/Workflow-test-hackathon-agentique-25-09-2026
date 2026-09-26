@@ -1,0 +1,28 @@
+{
+ "run": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17",
+ "out_dir": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output",
+ "jobs": [
+  {
+   "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/projects/kimifable_split",
+   "vid": "kimifable",
+   "fmt": "split",
+   "quality": "high",
+   "stage": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/staging/youtube/kimifable_split.mp4",
+   "qc_args": [
+    "--voice-master",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/cuts/kimifable/audio.m4a",
+    "--phone-at",
+    "3.00:0.19074,0.28854,0.46852,0.35938:a price tag",
+    "--phone-at",
+    "10.00:0.29630,0.15417,0.70370,0.33958:a benchmark scorecard",
+    "--phone-at",
+    "15.60:0.17778,0.21458,0.48148,0.32771:a website layout",
+    "--phone-at",
+    "24.60:0.17222,0.15208,0.47593,0.27708:a folder of designs",
+    "--face-segments",
+    "full",
+    "--face-band"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,126 @@
+{
+ "video": "eudisclosure",
+ "fps": 25,
+ "duration": 27.68,
+ "shared": {
+  "beat_edges": [
+   0.099,
+   3.32,
+   6.3,
+   11.54,
+   14.04,
+   17.78,
+   23.36,
+   27.68
+  ],
+  "phone_test_objects": [
+   {
+    "name": "a rubber stamp",
+    "t": 1.2,
+    "space": "norm",
+    "bbox": [
+     0.42778,
+     0.20833,
+     0.57222,
+     0.27604
+    ],
+    "phone_px": [
+     58,
+     49
+    ]
+   },
+   {
+    "name": "a framed photo",
+    "t": 8.6,
+    "space": "norm",
+    "bbox": [
+     0.41852,
+     0.28542,
+     0.58148,
+     0.36458
+    ],
+    "phone_px": [
+     66,
+     57
+    ]
+   },
+   {
+    "name": "a brightness slider",
+    "t": 19.7,
+    "space": "norm",
+    "bbox": [
+     0.37778,
+     0.30521,
+     0.62222,
+     0.34479
+    ],
+    "phone_px": [
+     99,
+     28
+    ]
+   }
+  ]
+ },
+ "formats": {
+  "split": {
+   "phone_test_objects": [
+    {
+     "name": "a rubber stamp",
+     "t": 1.2,
+     "space": "norm",
+     "bbox": [
+      0.42778,
+      0.20833,
+      0.57222,
+      0.27604
+     ],
+     "phone_px": [
+      58,
+      49
+     ]
+    },
+    {
+     "name": "a framed photo",
+     "t": 8.6,
+     "space": "norm",
+     "bbox": [
+      0.41852,
+      0.28542,
+      0.58148,
+      0.36458
+     ],
+     "phone_px": [
+      66,
+      57
+     ]
+    },
+    {
+     "name": "a brightness slider",
+     "t": 19.7,
+     "space": "norm",
+     "bbox": [
+      0.37778,
+      0.30521,
+      0.62222,
+      0.34479
+     ],
+     "phone_px": [
+      99,
+      28
+     ]
+    }
+   ],
+   "core": {
+    "left": 0.0,
+    "top": 192.0
+   },
+   "scale": 1.0,
+   "seat": 862.5,
+   "voice": {
+    "source": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/cuts/eudisclosure/audio.m4a",
+    "sample_rate": 48000,
+    "channels": 2
+   }
+  }
+ }
+}

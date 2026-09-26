@@ -1,0 +1,19 @@
+{
+ "staged": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/staging/reels/pcoverheat_whiteboard.mp4",
+ "phone_verdict": "PASS",
+ "blocked": "",
+ "rounds": 2,
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/projects/pcoverheat_whiteboard",
+ "cold_crop_paths": [
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/79f755a2/00.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/79f755a2/01.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/79f755a2/02.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/79f755a2/03.png"
+ ],
+ "render_rounds": 2,
+ "render_round_1": "qc FAIL \u2014 zero_ink_law / decoded_blank_frames, ONE interior blank frame at 13.84 s inside the chapter-1 erase; fixed by starting the speech bubble INSIDE the erase (13.71, SEAM_LAP) instead of after it (13.99)",
+ "qc": "PASS (13 checks; decoded_blank_frames PASS, zero_ink_law PASS min ink 0.204%, whiteboard_seam_law PASS dead 0.00 s at all three seams, gate1 PASS, gate2 PASS, face_centring PASS, pill_canon_rendered PASS, phone_crops PASS, audio_guards PASS)",
+ "watcher": "UNAVAILABLE (Gemini spending cap) \u2014 render_and_check staged on qc alone and recorded it; no cands_pcoverheat_whiteboard.json was produced, so the clerk decodes the file itself",
+ "modal_cost_usd_this_lane": 0.0247,
+ "notes": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/plans/pcoverheat_wb_notes.md"
+}

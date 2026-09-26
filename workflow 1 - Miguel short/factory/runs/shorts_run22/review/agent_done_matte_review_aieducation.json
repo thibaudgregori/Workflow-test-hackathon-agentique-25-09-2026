@@ -1,0 +1,7 @@
+{
+  "verdict": "HOLD",
+  "reasons": "No matte exists for aieducation, so no sheet or tile could be looked at. matte_review.py aborted with: missing /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/matting/aieducation/matte_aieducation_v5_cut.webm. Verified by hand: the run has no matting/ directory at all, and find over the whole run folder returns zero .webm files, so nothing alpha-bearing was ever produced or propagated. review/matte_aieducation/ was created by the script but is empty (no playback.jpg, face_2x.jpg, chair_sides.jpg, hands.jpg, metrics.json). The two formats actually shipped for this recording use opaque rectangular person bands, not a cutout: projects/aieducation_split/assets/v/face_bottom_hd.mp4 and projects/aieducation_whiteboard/assets/v/face_band.mp4. So either this recording legitimately has no cutout lane and the matte review stage does not apply to it, or the matting stage never ran. I build nothing and fix nothing, and numbers or absence never PASS a matte, so this is a HOLD for the orchestrator to resolve.",
+  "worst_frames": "n/a - no frames decoded",
+  "sheets": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/review/matte_aieducation",
+  "metrics": "no metrics.json written; matte_review.py exited on missing matte_aieducation_v5_cut.webm"
+}

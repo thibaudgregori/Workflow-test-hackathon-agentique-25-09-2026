@@ -1,0 +1,397 @@
+{
+ "video": "eudisclosure",
+ "format": "whiteboard",
+ "variant": "plan view (fix)",
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/projects/eudisclosure_whiteboard",
+ "handle": "@migueltorrez.ai",
+ "handle_key": "tiktok_ig",
+ "duration_s": 27.68,
+ "fps": 25,
+ "render": "1080x1920 @ zoom 1",
+ "board": "576x460 design units",
+ "board_box": [
+  90.0,
+  150.0,
+  486.0,
+  420.0
+ ],
+ "strokes": 36,
+ "rigids": 28,
+ "board_text": [
+  "DISCLOSE IN EUROPE",
+  "CHATBOT",
+  "AI CONTENT",
+  "AI IMAGES",
+  "GENERATED",
+  "MODIFIED",
+  "REAL IMAGE",
+  "SCREENSHOT",
+  "COLOR OR LIGHTING"
+ ],
+ "top_ink_u": 152.5,
+ "top_band_u": 102.4,
+ "pen_top_u": 110.7,
+ "ink_bottom_px": 775.7,
+ "cap_band_top_px": 799.2,
+ "cap_clearance_px": 23.5,
+ "ink_bottom_ink_px": 763.9,
+ "cap_clearance_ink_px": 35.3,
+ "seam_pill_top_px": 805.2,
+ "cap_clearance_ink_to_pill_px": 41.3,
+ "seam_measures": "cap_clearance_px = line boxes vs the reserved band (THE GATE); cap_clearance_ink_px = glyph ink vs the same band; cap_clearance_ink_to_pill_px = glyph ink vs the pill's painted top edge (the clerk's surface)",
+ "rail_hits": [],
+ "label_law": {
+  "window_s": 1.0,
+  "key_term": "DISCLOSE IN EUROPE",
+  "key_term_fs_u": 22.5,
+  "written": {
+   "DISCLOSE IN EUROPE": 2.0,
+   "CHATBOT": 4.74,
+   "AI CONTENT": 5.78,
+   "AI IMAGES": 8.5,
+   "GENERATED": 11.94,
+   "MODIFIED": 12.98,
+   "REAL IMAGE": 15.42,
+   "SCREENSHOT": 16.98,
+   "COLOR OR LIGHTING": 21.1
+  },
+  "plan": {
+   "disclose": "DISCLOSE IN EUROPE",
+   "chatbot": "CHATBOT",
+   "content": "AI CONTENT",
+   "images": "AI IMAGES",
+   "realimage": "REAL IMAGE",
+   "screenshot": "SCREENSHOT",
+   "colorlight": "COLOR OR LIGHTING"
+  },
+  "comparisons": [
+   [
+    "GENERATED",
+    "MODIFIED"
+   ]
+  ],
+  "unplanned_text": [],
+  "verdict": "PASS"
+ },
+ "law4": {
+  "law": "4 (overlap test)",
+  "board_words_that_also_appear_as_a_pill": {}
+ },
+ "round4": {
+  "law6_lifetimes": {
+   "duration_s": 27.68,
+   "chaptered": true,
+   "max_frac": 0.4,
+   "declared_anchors": [
+    "stamp",
+    "stamp-impression",
+    "type:DISCLOSE IN EUROPE"
+   ],
+   "lingering": [],
+   "verdict": "PASS"
+  },
+  "law2_no_enclosure": {
+   "rings": 0,
+   "boxes": 2,
+   "highlights": 0,
+   "rasters": [
+    "type:SCREENSHOT"
+   ],
+   "wrong_tool_advisory": [],
+   "verdict": "PASS"
+  },
+  "law3_label_side": {
+   "checked": 7,
+   "detail": {
+    "DISCLOSE IN EUROPE": {
+     "host": "stamp-impression",
+     "dx_u": 0.0,
+     "band_u": 31.2,
+     "place": "below"
+    },
+    "CHATBOT": {
+     "host": "bubble",
+     "dx_u": 0.0,
+     "band_u": 62.4,
+     "place": "below"
+    },
+    "AI CONTENT": {
+     "host": "page",
+     "dx_u": 0.0,
+     "band_u": 62.4,
+     "place": "below"
+    },
+    "AI IMAGES": {
+     "host": "ai-picture",
+     "dx_u": 0.0,
+     "band_u": 62.4,
+     "place": "below"
+    },
+    "REAL IMAGE": {
+     "host": "photo-real",
+     "dx_u": 0.0,
+     "band_u": 62.4,
+     "place": "below"
+    },
+    "SCREENSHOT": {
+     "host": "screen-window",
+     "dx_u": 0.0,
+     "band_u": 62.4,
+     "place": "below"
+    },
+    "COLOR OR LIGHTING": {
+     "host": "slider",
+     "dx_u": 0.0,
+     "band_u": 106.6,
+     "place": "below"
+    }
+   },
+   "verdict": "PASS"
+  },
+  "law5_spacing": {
+   "gate_u": 8.5,
+   "gate_px": 15.9,
+   "aim_u": 12.8,
+   "aim_px": 24.0,
+   "measured_on": "element line boxes",
+   "under_aim": [],
+   "objects": 28,
+   "verdict": "PASS"
+  },
+  "law5_spacing_ink": {
+   "gate_u": 8.5,
+   "gate_px": 15.9,
+   "aim_u": 12.8,
+   "aim_px": 24.0,
+   "measured_on": "glyph ink extents",
+   "under_aim": [],
+   "objects": 28,
+   "verdict": "PASS"
+  },
+  "law5_no_crossing": {
+   "strokes": 36,
+   "types": 9,
+   "verdict": "PASS"
+  },
+  "law4_anchors": {
+   "targets": 2,
+   "detail": {
+    "tag-generated": {
+     "n": 1,
+     "spread_u": 0.0,
+     "level": true,
+     "mirrored": false,
+     "on_rect": true
+    },
+    "tag-modified": {
+     "n": 1,
+     "spread_u": 0.0,
+     "level": true,
+     "mirrored": false,
+     "on_rect": true
+    }
+   },
+   "verdict": "PASS"
+  }
+ },
+ "outro": {
+  "move": "opaque sheet rises over the board",
+  "wipe_start": 23.54,
+  "wipe_end": 24.1,
+  "travel_px": 862.5,
+  "sheet_opaque": true,
+  "sheet_covers_px": 862.5,
+  "card_ink_enters_px": 322.5,
+  "board_covered_px": 576.6,
+  "overlap_px": 254.1,
+  "board_moves": false,
+  "board_fades": false,
+  "outro_start": 23.54,
+  "verdict": "PASS"
+ },
+ "captions": 30,
+ "cap_font_px": 56.2,
+ "cap_max_pill_w_px": 748.4,
+ "cap_w_budget_px": 756.0,
+ "anchors": {
+  "europe": 0.68,
+  "disclose": 1.48,
+  "whether": 3.32,
+  "chatbot": 4.02,
+  "generated0": 5.26,
+  "content": 5.72,
+  "images": 7.96,
+  "complex": 8.96,
+  "gen": 11.54,
+  "modified": 13.3,
+  "took": 14.44,
+  "realimage": 15.42,
+  "or": 15.92,
+  "screenshot": 16.5,
+  "slight": 18.9,
+  "colorlight": 20.38,
+  "disclose2": 22.68,
+  "outro": 23.54,
+  "daily": 25.72
+ },
+ "html_bytes": 78114,
+ "sfx": 21,
+ "pen_loops": 8,
+ "pen_seconds": 4.99,
+ "pen_duty_pct": 18.0,
+ "captions_law3b": {
+  "beats_before_merge": 30,
+  "beats_after_merge": 30,
+  "merges": 0,
+  "merged_away": [],
+  "widest_pill_px": 748.4,
+  "budget_px": 756.0,
+  "law": "captions.py 3b \u2014 merge_function_only_beats over the WHOLE beat stream, then assert_no_function_only_beat inside build()"
+ },
+ "boards": [
+  {
+   "board": 0,
+   "in": 0.3,
+   "erase_at": 6.15,
+   "name": "the duty, and the two kinds of AI use it covers",
+   "keys": [
+    "DISCLOSE IN EUROPE",
+    "CHATBOT",
+    "AI CONTENT"
+   ]
+  },
+  {
+   "board": 1,
+   "in": 7.96,
+   "erase_at": 13.9,
+   "name": "an AI image has to declare WHICH kind it is",
+   "keys": [
+    "DISCLOSE IN EUROPE",
+    "AI IMAGES",
+    "GENERATED",
+    "MODIFIED"
+   ]
+  },
+  {
+   "board": 2,
+   "in": 14.44,
+   "erase_at": "the outro's rising sheet (23.54)",
+   "name": "a real capture, a hair-thin edit, and the duty lands anyway",
+   "keys": [
+    "DISCLOSE IN EUROPE",
+    "REAL IMAGE",
+    "SCREENSHOT",
+    "COLOR OR LIGHTING"
+   ]
+  }
+ ],
+ "seam_law": {
+  "chapters": 3,
+  "seams": [
+   6.15,
+   13.9
+  ],
+  "erase_s": 0.3,
+  "erase_completes": [
+   6.45,
+   14.2
+  ],
+  "outro_wipe": 23.54,
+  "law45": "satisfied by CARRY, the law's SECOND sanctioned method: the anchor block (the rubber stamp, its impression and the fully written key term DISCLOSE IN EUROPE) is complete and on screen through every frame of both erases, so a seam never hands over to a bare stroke. Dead time is 0.00 s by construction.",
+  "qc_seams": "6.15,13.9",
+  "outro_note": "23.54 is the OUTRO WIPE \u2014 an opaque rising sheet, not a chapter seam \u2014 so it is not passed to seam_check."
+ },
+ "pointing_cues": {
+  "n": 0,
+  "cards": [],
+  "waived": [],
+  "note": "pointing_cues.py --vid eudisclosure = 0 cues and prep's stages.cues agrees (cue_count 0). Across 100 spoken words there is no 'this guy', no post, no platform named as a source and no URL: Miguel states a rule, he cites nobody. So GLOBAL LAW 3 and LAW 38 rule 1 have no target here, every emphasis is a BOX, and any card, post frame or screenshot capture in a build of this plan would be a defect."
+ },
+ "phone_test_objects": [
+  {
+   "t": 1.2,
+   "name": "a rubber stamp",
+   "bbox": [
+    438.8,
+    382.5,
+    641.2,
+    532.5
+   ]
+  },
+  {
+   "t": 10.5,
+   "name": "a framed photo",
+   "bbox": [
+    438.8,
+    558.8,
+    641.2,
+    731.2
+   ]
+  },
+  {
+   "t": 20.2,
+   "name": "a brightness slider",
+   "bbox": [
+    380.6,
+    626.2,
+    697.5,
+    716.2
+   ]
+  }
+ ],
+ "phone_test_at": [
+  "1.2:438.8,382.5,641.2,532.5:a rubber stamp",
+  "10.5:438.8,558.8,641.2,731.2:a framed photo",
+  "20.2:380.6,626.2,697.5,716.2:a brightness slider"
+ ],
+ "emphasis": [
+  {
+   "at": 8.96,
+   "off": 9.7,
+   "target": "ai-picture",
+   "kind": "box"
+  },
+  {
+   "at": 13.3,
+   "off": 13.9,
+   "target": "tag-modified",
+   "kind": "box"
+  }
+ ],
+ "marks_inked": {
+  "none": "The script names no product, company or model across 100 words, so LAW 2 has nothing to bind and no registry mark appears on this board (plan.marks_on_stage). The GRAPHIC CHART's 112 px tile grammar is exercised in the cutout's depth lanes; every other point of the chart is reproduced here."
+ },
+ "impression_series": {
+  "n": 5,
+  "size_u": [
+   48.0,
+   10.0
+  ],
+  "color": "#C4573A",
+  "hosts": [
+   "stamp (1.58)",
+   "bubble (4.60)",
+   "page (5.90)",
+   "photo-real (22.68)",
+   "screen-window (22.68)"
+  ],
+  "why": "LAW 41's series: >= 3 identical shapes are inferred as one run. It is also the through-line the whole video is built on \u2014 the same mark, ending on the two things the viewer just watched being edited."
+ },
+ "displacements": [
+  {
+   "at": 3.32,
+   "what": "the anchor block rises 108 canvas px as one piece (LAW 19 / LAW 28)",
+   "px": 108
+  },
+  {
+   "at": 15.92,
+   "what": "the real photo and its name slide 270 canvas px left together",
+   "px": 270
+  },
+  {
+   "at": 20.38,
+   "what": "the slider knob moves 14 canvas px and stops dead",
+   "px": 14
+  }
+ ]
+}

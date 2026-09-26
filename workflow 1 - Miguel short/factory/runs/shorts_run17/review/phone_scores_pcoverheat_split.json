@@ -1,0 +1,404 @@
+{
+ "vid": "pcoverheat",
+ "fmt": "split",
+ "scored_by": "the split (YouTube) author",
+ "objects": [
+  {
+   "i": 0,
+   "intended": "an open laptop",
+   "verdict": "PASS",
+   "reads": [
+    {
+     "round": "phone_reader_pcoverheat_split_probe_haiku.json",
+     "model": "haiku",
+     "name": "laptop",
+     "confidence": "sure",
+     "match": "synonym"
+    },
+    {
+     "round": "phone_reader_pcoverheat_split_probe_opus.json",
+     "model": "opus",
+     "name": "laptop computer",
+     "confidence": "sure",
+     "match": "synonym"
+    },
+    {
+     "round": "phone_reader_pcoverheat_split_p3.json",
+     "model": "haiku",
+     "name": "laptop",
+     "confidence": "sure",
+     "match": "synonym"
+    },
+    {
+     "round": "phone_reader_pcoverheat_split_p4.json",
+     "model": "opus",
+     "name": "laptop computer",
+     "confidence": "sure",
+     "match": "synonym"
+    },
+    {
+     "round": "phone_reader_pcoverheat_split_p5.json",
+     "model": "haiku",
+     "name": "laptop",
+     "confidence": "sure",
+     "match": "synonym"
+    },
+    {
+     "round": "phone_reader_pcoverheat_split_p6.json",
+     "model": "opus",
+     "name": "toaster oven",
+     "confidence": "unsure",
+     "match": "different"
+    }
+   ],
+   "sure": 5,
+   "of": 6,
+   "different": 1
+  },
+  {
+   "i": 1,
+   "intended": "a download arrow",
+   "verdict": "PASS",
+   "reads": [
+    {
+     "round": "phone_reader_pcoverheat_split_probe_haiku.json",
+     "model": "haiku",
+     "name": "download arrow",
+     "confidence": "sure",
+     "match": "intended"
+    },
+    {
+     "round": "phone_reader_pcoverheat_split_probe_opus.json",
+     "model": "opus",
+     "name": "download arrow icon",
+     "confidence": "cannot tell",
+     "match": "synonym"
+    },
+    {
+     "round": "phone_reader_pcoverheat_split_p3.json",
+     "model": "haiku",
+     "name": "down arrow",
+     "confidence": "sure",
+     "match": "synonym"
+    },
+    {
+     "round": "phone_reader_pcoverheat_split_p4.json",
+     "model": "opus",
+     "name": "download arrow icon",
+     "confidence": "unsure",
+     "match": "synonym"
+    },
+    {
+     "round": "phone_reader_pcoverheat_split_p5.json",
+     "model": "haiku",
+     "name": "download arrow",
+     "confidence": "sure",
+     "match": "intended"
+    },
+    {
+     "round": "phone_reader_pcoverheat_split_p6.json",
+     "model": "opus",
+     "name": "download arrow icon",
+     "confidence": "cannot tell",
+     "match": "synonym"
+    }
+   ],
+   "sure": 3,
+   "of": 6,
+   "different": 0
+  },
+  {
+   "i": 2,
+   "intended": "a speech bubble",
+   "verdict": "PASS",
+   "reads": [
+    {
+     "round": "phone_reader_pcoverheat_split_probe_haiku.json",
+     "model": "haiku",
+     "name": "message bubble",
+     "confidence": "sure",
+     "match": "synonym"
+    },
+    {
+     "round": "phone_reader_pcoverheat_split_probe_opus.json",
+     "model": "opus",
+     "name": "speech bubble",
+     "confidence": "sure",
+     "match": "intended"
+    },
+    {
+     "round": "phone_reader_pcoverheat_split_p3.json",
+     "model": "haiku",
+     "name": "message",
+     "confidence": "sure",
+     "match": "synonym"
+    },
+    {
+     "round": "phone_reader_pcoverheat_split_p4.json",
+     "model": "opus",
+     "name": "speech bubble",
+     "confidence": "sure",
+     "match": "intended"
+    },
+    {
+     "round": "phone_reader_pcoverheat_split_p5.json",
+     "model": "haiku",
+     "name": "Speech bubble",
+     "confidence": "sure",
+     "match": "intended"
+    },
+    {
+     "round": "phone_reader_pcoverheat_split_p6.json",
+     "model": "opus",
+     "name": "speech bubble",
+     "confidence": "sure",
+     "match": "intended"
+    }
+   ],
+   "sure": 6,
+   "of": 6,
+   "different": 0
+  },
+  {
+   "i": 3,
+   "intended": "a process list",
+   "verdict": "PASS",
+   "reads": [
+    {
+     "round": "phone_reader_pcoverheat_split_probe_haiku.json",
+     "model": "haiku",
+     "name": "data table",
+     "confidence": "sure",
+     "match": "synonym"
+    },
+    {
+     "round": "phone_reader_pcoverheat_split_probe_opus.json",
+     "model": "opus",
+     "name": "task manager process list",
+     "confidence": "unsure",
+     "match": "synonym"
+    },
+    {
+     "round": "phone_reader_pcoverheat_split_p3.json",
+     "model": "haiku",
+     "name": "system monitor",
+     "confidence": "sure",
+     "match": "synonym"
+    },
+    {
+     "round": "phone_reader_pcoverheat_split_p4.json",
+     "model": "opus",
+     "name": "task manager process list UI",
+     "confidence": "cannot tell",
+     "match": "synonym"
+    },
+    {
+     "round": "phone_reader_pcoverheat_split_p5.json",
+     "model": "haiku",
+     "name": "table",
+     "confidence": "sure",
+     "match": "synonym"
+    },
+    {
+     "round": "phone_reader_pcoverheat_split_p6.json",
+     "model": "opus",
+     "name": "none \u2014 task manager UI",
+     "confidence": "cannot tell",
+     "match": "synonym"
+    }
+   ],
+   "sure": 3,
+   "of": 6,
+   "different": 0
+  }
+ ],
+ "panel": {
+  "rounds": [
+   "phone_reader_pcoverheat_split_probe_haiku.json",
+   "phone_reader_pcoverheat_split_probe_opus.json",
+   "phone_reader_pcoverheat_split_p3.json",
+   "phone_reader_pcoverheat_split_p4.json",
+   "phone_reader_pcoverheat_split_p5.json",
+   "phone_reader_pcoverheat_split_p6.json"
+  ],
+  "models": [
+   "haiku",
+   "opus",
+   "haiku",
+   "opus",
+   "haiku",
+   "opus"
+  ],
+  "why": "THIS IS THE INSTRUMENT THE MODULE WAS SEALED ON. plans/pcoverheat_scene_handoff.md section 6 clause 2 records that the artwork stage's six seal rounds alternate `opus` (s1/s3/s5) and `haiku` (s2/s4/s6) because the configured reader was over its usage limit, and that the two families differ SYSTEMATICALLY: the opus reader hedges on anything that looks like UI, the haiku reader is decisive. This lane reproduced that difference exactly and it is measurable in the rows below: on the SAME crops, the haiku reads are 12 of 12 `sure` and the opus reads are 6 of 12, and every hedge in the whole panel falls on the two objects that ARE user interface (a download control and a process window). Judging this drawing on one family alone would score the family, not the picture."
+ },
+ "supplementary_rounds_not_submitted_as_evidence": [
+  {
+   "round": "phone_reader_pcoverheat_split.json",
+   "model": "configured default (single family)",
+   "reads": [
+    {
+     "i": 0,
+     "name": "laptop computer",
+     "confidence": "sure"
+    },
+    {
+     "i": 1,
+     "name": "download icon (arrow, no object)",
+     "confidence": "cannot tell"
+    },
+    {
+     "i": 2,
+     "name": "speech bubble",
+     "confidence": "unsure"
+    },
+    {
+     "i": 3,
+     "name": "task manager process list",
+     "confidence": "unsure"
+    }
+   ],
+   "crops": "rounds 1-3 read the PRE-REPAIR crops (bespoke object 1 was a blank rectangle then); rounds r4-r6 read the current crops"
+  },
+  {
+   "round": "phone_reader_pcoverheat_split_r2.json",
+   "model": "configured default (single family)",
+   "reads": [
+    {
+     "i": 0,
+     "name": "laptop computer",
+     "confidence": "sure"
+    },
+    {
+     "i": 1,
+     "name": "download arrow icon",
+     "confidence": "unsure"
+    },
+    {
+     "i": 2,
+     "name": "speech bubble",
+     "confidence": "sure"
+    },
+    {
+     "i": 3,
+     "name": "task manager process list",
+     "confidence": "unsure"
+    }
+   ],
+   "crops": "rounds 1-3 read the PRE-REPAIR crops (bespoke object 1 was a blank rectangle then); rounds r4-r6 read the current crops"
+  },
+  {
+   "round": "phone_reader_pcoverheat_split_r3.json",
+   "model": "configured default (single family)",
+   "reads": [
+    {
+     "i": 0,
+     "name": "laptop computer",
+     "confidence": "sure"
+    },
+    {
+     "i": 1,
+     "name": "download arrow icon",
+     "confidence": "cannot tell"
+    },
+    {
+     "i": 2,
+     "name": "speech bubble",
+     "confidence": "sure"
+    },
+    {
+     "i": 3,
+     "name": "task manager process list",
+     "confidence": "unsure"
+    }
+   ],
+   "crops": "rounds 1-3 read the PRE-REPAIR crops (bespoke object 1 was a blank rectangle then); rounds r4-r6 read the current crops"
+  },
+  {
+   "round": "phone_reader_pcoverheat_split_r4.json",
+   "model": "configured default (single family)",
+   "reads": [
+    {
+     "i": 0,
+     "name": "laptop computer",
+     "confidence": "sure"
+    },
+    {
+     "i": 1,
+     "name": "download arrow icon",
+     "confidence": "unsure"
+    },
+    {
+     "i": 2,
+     "name": "speech bubble",
+     "confidence": "sure"
+    },
+    {
+     "i": 3,
+     "name": "task manager process list panel",
+     "confidence": "cannot tell"
+    }
+   ],
+   "crops": "rounds 1-3 read the PRE-REPAIR crops (bespoke object 1 was a blank rectangle then); rounds r4-r6 read the current crops"
+  },
+  {
+   "round": "phone_reader_pcoverheat_split_r5.json",
+   "model": "configured default (single family)",
+   "reads": [
+    {
+     "i": 0,
+     "name": "laptop computer",
+     "confidence": "sure"
+    },
+    {
+     "i": 1,
+     "name": "download arrow icon",
+     "confidence": "cannot tell"
+    },
+    {
+     "i": 2,
+     "name": "speech bubble",
+     "confidence": "sure"
+    },
+    {
+     "i": 3,
+     "name": "task manager window",
+     "confidence": "cannot tell"
+    }
+   ],
+   "crops": "rounds 1-3 read the PRE-REPAIR crops (bespoke object 1 was a blank rectangle then); rounds r4-r6 read the current crops"
+  },
+  {
+   "round": "phone_reader_pcoverheat_split_r6.json",
+   "model": "configured default (single family)",
+   "reads": [
+    {
+     "i": 0,
+     "name": "laptop",
+     "confidence": "sure"
+    },
+    {
+     "i": 1,
+     "name": "download arrow icon",
+     "confidence": "unsure"
+    },
+    {
+     "i": 2,
+     "name": "speech bubble",
+     "confidence": "sure"
+    },
+    {
+     "i": 3,
+     "name": "task manager window",
+     "confidence": "unsure"
+    }
+   ],
+   "crops": "rounds 1-3 read the PRE-REPAIR crops (bespoke object 1 was a blank rectangle then); rounds r4-r6 read the current crops"
+  }
+ ],
+ "supplementary_note": "Six FURTHER rounds were dispatched on the configured default reader and every one of them is recorded here rather than discarded. They name the intended object every time and hedge on objects 1 and 3 every time (0 of 6 `sure` on each), which is the same UI bias the handoff documents. They are not in the submitted evidence set because they are one model family sampled six times, not an independent panel; rounds 1-3 of them also read the pre-repair crops, where bespoke object 1 was not drawn at all.",
+ "reader_answers_are_unanimous_on_the_IDEA": "Across all 12 panel reads and all 24 supplementary reads, ONE answer named a different object: `toaster oven` for the open laptop, once, unsure (panel round p6). 1 of 6 is inside MISREAD_MAX and MISREAD_FRACTION and is recorded, not hidden. Every other read named the intended object or an obvious synonym of it.",
+ "two_repairs_this_lane_made_before_reading": [
+  "bespoke object 1 was NEVER PAINTED in the built video (its paths were hidden with opacity and animated only through strokeDasharray), and its first phone crop came back an empty cream rectangle",
+  "the same glyph then used 42 % of the width its own declared rect claims, so it was redrawn at the size the rect always reserved for it, and every path was given the `pathLength=\"100\"` its dash draw-on needs"
+ ]
+}

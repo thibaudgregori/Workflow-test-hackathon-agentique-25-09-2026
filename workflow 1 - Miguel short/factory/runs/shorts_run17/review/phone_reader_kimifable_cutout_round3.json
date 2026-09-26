@@ -1,0 +1,20 @@
+{
+  "tag": "round3",
+  "cold_dir": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/round3-b416c17c",
+  "reader": "one independent `claude -p` process per crop, launched from /tmp, handed ONLY the absolute path of a blind copy under a random token - no plan, no topic, no manifest, no sealed key, and no path naming the video",
+  "prompt": "Look at the image at <absolute path of one blind crop> . Name the single everyday object drawn in it. At most FIVE words. Reply with ONE line of JSON and nothing else: {\"name\":\"<=5 words\",\"confidence\":\"sure|unsure|cannot tell\"}",
+  "dispatched_at": "2026-09-08T08:23:50",
+  "cli": "2.1.263 (Claude Code)",
+  "source_crops": {
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/phone_kimifable_cutout/00.png": "6c548040f1ad2f6447bb8b75aab05cdfeb63b22f59bf89a5e9efceb88708755e"
+  },
+  "names": [
+    {
+      "i": 0,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/round3-b416c17c/00.png",
+      "name": "luggage tag",
+      "confidence": "unsure",
+      "crop_sha256": "6c548040f1ad2f6447bb8b75aab05cdfeb63b22f59bf89a5e9efceb88708755e"
+    }
+  ]
+}

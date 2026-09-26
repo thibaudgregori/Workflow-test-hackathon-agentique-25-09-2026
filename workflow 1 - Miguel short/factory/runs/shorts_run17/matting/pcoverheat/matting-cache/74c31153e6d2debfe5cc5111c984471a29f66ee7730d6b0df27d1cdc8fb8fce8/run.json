@@ -1,0 +1,35 @@
+{
+  "ok": true,
+  "spec": {
+    "mode": "matanyone2",
+    "frames": 929,
+    "max_side": 1024,
+    "precision": "bf16",
+    "warmup": 10,
+    "input_sha256": "413a61abb71c37a3cd4cd3a991f327c5c96d7128d0818af3a0b01d421b7057b2",
+    "mask_sha256": "ea50905a4136137474986c8348e27682615fbf0b60cbdaad5be548c65abcdac4"
+  },
+  "frames": 929,
+  "fps": 25.0,
+  "source_size": [
+    1620,
+    900
+  ],
+  "inference_size": [
+    1024,
+    568
+  ],
+  "load_seconds": 3.748078564,
+  "process_seconds": 70.693675247,
+  "total_worker_seconds": 77.714053459,
+  "peak_gpu_gib": 0.898158073425293,
+  "torch": "2.8.0+cu128",
+  "gpu": "NVIDIA L4",
+  "alpha_sha256": "a659ace8733f6484fb123ded07df6e0fe9e6ffa715769621c49791f70dcff2ef",
+  "function_seconds": 81.787632233,
+  "estimated_compute_usd": 0.02320478701714676,
+  "model_revision": "40c894a6f68d1f55c86ab0de838d89dc61587930",
+  "worker_sha256": "c55c2915c27b87ef0a435cec744fd300e41a26aa268746328c9f1a35560c826f",
+  "cost_note": "Function runtime estimate; startup and scale-down additional, not an invoice.",
+  "client_wall_seconds": 90.80860049999319
+}

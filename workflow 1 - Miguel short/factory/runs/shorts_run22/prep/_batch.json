@@ -1,0 +1,100 @@
+{
+ "run": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22",
+ "intake": "shorts_run22/prep/_intake.json",
+ "videos": 2,
+ "sessions_root": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/matting",
+ "workers": 2,
+ "tag": "v2",
+ "emit": "v5",
+ "backend": "matanyone2",
+ "gpu": "l4",
+ "cost_basis": "runtime estimates, not provider invoice",
+ "ship_where": "modal",
+ "batch_wall_s": 189.3,
+ "modal_cost_usd": 0.0979,
+ "modal_cost_breakdown_usd": {
+  "sweep": 0.0373,
+  "track": 0.0214,
+  "ship": 0.0392,
+  "repair": 0.0
+ },
+ "repairs": {},
+ "repair_rounds_max": 2,
+ "repair_detail": {},
+ "summary_lines": [
+  "aieducation          PREPARED; final visual review required",
+  "primeagent           no ship"
+ ],
+ "ship_seconds": {
+  "aieducation": 86.13093377,
+  "primeagent": null
+ },
+ "per_stage_wall_s": {
+  "aieducation": {
+   "cut": 30.7,
+   "plate": 126.3,
+   "display_plate": null,
+   "prompt0": 15.2,
+   "track": 84.79792374995304,
+   "ship": 103.21377025003312,
+   "cues": 0.0,
+   "repair": null
+  },
+  "primeagent": {
+   "cut": 0.0,
+   "plate": 0.0,
+   "display_plate": null,
+   "prompt0": 0.0,
+   "track": null,
+   "ship": null,
+   "cues": 0.0,
+   "repair": null
+  }
+ },
+ "status": {
+  "aieducation": {
+   "cut": "ok",
+   "plate": "ok",
+   "display_plate": "reused",
+   "prompt0": "ok",
+   "track": "ok",
+   "ship": "ok",
+   "cues": "ok",
+   "repair": "-"
+  },
+  "primeagent": {
+   "cut": "error",
+   "plate": "error",
+   "display_plate": "-",
+   "prompt0": "blocked",
+   "track": "error",
+   "ship": "-",
+   "cues": "error",
+   "repair": "-"
+  }
+ },
+ "stage_totals_s": {
+  "cut": 30.7,
+  "plate": 126.3,
+  "display_plate": 0.0,
+  "prompt0": 15.2,
+  "track": 84.8,
+  "ship": 103.2,
+  "cues": 0.0,
+  "repair": 0.0
+ },
+ "serial_equivalent_s": 360.3,
+ "needs_source": {
+  "aieducation": [
+   0
+  ],
+  "primeagent": null
+ },
+ "wing_review": [
+  "aieducation"
+ ],
+ "packages": {
+  "aieducation": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/prep/aieducation.json",
+  "primeagent": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/prep/primeagent.json"
+ }
+}

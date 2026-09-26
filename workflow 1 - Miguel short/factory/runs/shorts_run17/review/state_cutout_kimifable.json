@@ -1,0 +1,18 @@
+{
+ "staged": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/staging/tiktok/kimifable_cutout.mp4",
+ "phone_verdict": "PASS",
+ "blocked": "",
+ "rounds": 1,
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/projects/kimifable_cutout",
+ "redesigned": false,
+ "cands": "review/cands_kimifable_cutout.json NOT WRITTEN - the Gemini watcher returned 429 RESOURCE_EXHAUSTED (monthly spending cap, $0 spent) and render_and_check staged on qc_pass alone, recording watch_unavailable. No hand-edited substitute was written. The clerk decodes the file itself.",
+ "cold_crop_paths": [
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/266248d6/00.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/266248d6/01.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/266248d6/02.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/266248d6/03.png"
+ ],
+ "fails": [],
+ "flagged_for_clerk": "The Gemini watcher was unavailable (429 monthly cap), so no candidate list exists for this file; qc_pass passed all 16 verdicts. LAW 48 outline read is the author's and is evidenced in review/matte_kimifable_cutout/.",
+ "report": "see plans/kimifable_cutout_notes.md"
+}

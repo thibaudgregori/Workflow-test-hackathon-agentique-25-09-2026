@@ -1,0 +1,91 @@
+{
+  "status": "ok",
+  "backend": "matanyone2",
+  "key": "340c711e58da7e4943863870ce0587bb6aaa3820cdbedc788cd7a2672adf8a4e",
+  "selection": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/kimifable/selection.json",
+  "headroom": {
+    "identity": {
+      "alpha_sha256": "7f4e53d57da4dea603328e736ae05f4e5af09fa963184f3228a827917410dcc6",
+      "display_sha256": "31220df18858f567f87936b251bf77b3e77f1fadcffd73c3a03b70c8dd2ba92b",
+      "guard_sha256": "90e6a7f8cf1a142b9a8ab4cf0054f9803188279b68642b84430db31afe79999a",
+      "expected_frames": 953,
+      "floor_px": 24.0
+    },
+    "pass": true,
+    "frames_checked": 953,
+    "min_top_clearance_px": 41.800000000000004,
+    "floor_px": 24.0,
+    "worst_frame": 783,
+    "worst_seconds": 31.32,
+    "unsafe_frames": 0,
+    "first_unsafe_frames": [],
+    "scope": "Every matte frame, top edge of prepared person layer; no caption or semantic face claim"
+  },
+  "track": {
+    "ok": true,
+    "spec": {
+      "mode": "matanyone2",
+      "frames": 953,
+      "max_side": 1024,
+      "precision": "bf16",
+      "warmup": 10,
+      "input_sha256": "3a4cc717e8f8ea1aa2a5f3250de586db8bc6ea2b2db4c3feae6bfcc8e8953811",
+      "mask_sha256": "f88a68affd67fb297c8cd6f3234a38e1f826afee221810bd5e2dc880d595469c"
+    },
+    "frames": 953,
+    "fps": 25.0,
+    "source_size": [
+      1200,
+      900
+    ],
+    "inference_size": [
+      1024,
+      768
+    ],
+    "load_seconds": 3.2031384339999995,
+    "process_seconds": 71.94795910100001,
+    "total_worker_seconds": 77.098423477,
+    "peak_gpu_gib": 1.1353883743286133,
+    "torch": "2.8.0+cu128",
+    "gpu": "NVIDIA L4",
+    "alpha_sha256": "7f4e53d57da4dea603328e736ae05f4e5af09fa963184f3228a827917410dcc6",
+    "function_seconds": 80.475489471,
+    "estimated_compute_usd": 0.02283250587271212,
+    "model_revision": "40c894a6f68d1f55c86ab0de838d89dc61587930",
+    "worker_sha256": "c55c2915c27b87ef0a435cec744fd300e41a26aa268746328c9f1a35560c826f",
+    "cost_note": "Function runtime estimate; startup and scale-down additional, not an invoice.",
+    "client_wall_seconds": 89.35207241598982
+  },
+  "ship": {
+    "status": "ok",
+    "frames": 953,
+    "width": 1320,
+    "height": 990,
+    "fps": 25.0,
+    "alpha_mode": "soft",
+    "rim_px": 7,
+    "temporal": 1,
+    "hashes": {
+      "cut": "29612a15c6e06c31d4bcb83020e1c0b36cf88261072f59794f869f77bb69c278",
+      "rim": "bd720ee24fc643e33acc3912a0795be7fe8a97a1b39ee28a68d1db2a1e1001bf",
+      "alpha": "3df30553f5e27b08de6333d31a4107aa0ffaad0e7d977f9a8ea222fac9a9f4f2"
+    },
+    "seconds": 87.605111189,
+    "estimated_compute_usd": 0.039835796159862075,
+    "fractional_alpha_pixels": 18428379,
+    "minimum_person_fraction": 0.4286524334251607,
+    "review_status": "needs_final_visual_review",
+    "ship_source_sha256": "cf367be51d742c272d9f79db8a13e00297684001ebf666283095059206e149e7",
+    "client_wall_seconds": 101.96270833304152,
+    "outputs": {
+      "cut": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/kimifable/matte_kimifable_v5_cut.webm",
+      "rim": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/kimifable/matte_kimifable_v5_rim.webm",
+      "alpha": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/kimifable/matte_kimifable_v5_alpha.webm"
+    }
+  },
+  "outputs": {
+    "cut": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/kimifable/matte_kimifable_v5_cut.webm",
+    "rim": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/kimifable/matte_kimifable_v5_rim.webm",
+    "alpha": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/kimifable/matte_kimifable_v5_alpha.webm"
+  }
+}

@@ -1,0 +1,33 @@
+{
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/projects/kimifable_whiteboard",
+ "label": "kimifable_whiteboard",
+ "mode": "phone-test",
+ "composition_px": [
+  1080,
+  1920
+ ],
+ "duration_s": 38.12,
+ "sheet": "shorts_run17/review/phone_kimifable_whiteboard.png",
+ "manifest": "shorts_run17/review/phone_kimifable_whiteboard.json",
+ "answer_key": "shorts_run17/review/phone_kimifable_whiteboard.key.json",
+ "n_objects": 4,
+ "phone_sizes_px": [
+  [
+   100,
+   41
+  ],
+  [
+   120,
+   135
+  ],
+  [
+   111,
+   69
+  ],
+  [
+   97,
+   68
+  ]
+ ],
+ "wall_s": 2.06
+}

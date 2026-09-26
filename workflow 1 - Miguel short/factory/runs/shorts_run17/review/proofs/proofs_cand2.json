@@ -1,0 +1,65 @@
+{
+ "set": "cand2",
+ "phone_scale": "405x720",
+ "module": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/gen/pcoverheat_scene.py",
+ "objects": [
+  {
+   "i": 0,
+   "label": "ask-C-bubble",
+   "intended": "a speech bubble",
+   "core_box": [
+    310.0,
+    94.0,
+    770.0,
+    210.0
+   ],
+   "norm_box": [
+    0.287,
+    0.149,
+    0.713,
+    0.2094
+   ],
+   "phone_box_px": [
+    116,
+    107,
+    289,
+    151
+   ],
+   "phone_size_px": [
+    173,
+    44
+   ],
+   "crop": "review/proofs/crop_cand2_00_ask-C-bubble.png",
+   "frame": "review/proofs/frame_cand2_00.png"
+  },
+  {
+   "i": 1,
+   "label": "ask-D-field",
+   "intended": "a text field",
+   "core_box": [
+    320.0,
+    94.0,
+    760.0,
+    210.0
+   ],
+   "norm_box": [
+    0.2963,
+    0.149,
+    0.7037,
+    0.2094
+   ],
+   "phone_box_px": [
+    120,
+    107,
+    285,
+    151
+   ],
+   "phone_size_px": [
+    165,
+    44
+   ],
+   "crop": "review/proofs/crop_cand2_01_ask-D-field.png",
+   "frame": "review/proofs/frame_cand2_01.png"
+  }
+ ]
+}

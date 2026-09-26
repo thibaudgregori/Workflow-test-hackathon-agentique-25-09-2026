@@ -1,0 +1,167 @@
+{
+ "vid": "pcoverheat",
+ "scored_by": "the artwork author, on the IDEA and never on the noun (Miguel, 2026-09-06): would a stranger who said that get the picture the plan wants?",
+ "seal_rounds": [
+  "review/phone_reader_pcoverheat_artwork_s1.json",
+  "review/phone_reader_pcoverheat_artwork_s2.json",
+  "review/phone_reader_pcoverheat_artwork_s3.json",
+  "review/phone_reader_pcoverheat_artwork_s4.json",
+  "review/phone_reader_pcoverheat_artwork_s5.json",
+  "review/phone_reader_pcoverheat_artwork_s6.json"
+ ],
+ "reader": "one independent `claude -p` per crop, launched from /tmp on a blind copy under a random token, no plan, no topic, no manifest, no key (pipeline/cold_read.py). The configured default reader was over its usage limit for this whole session, so the six rounds alternate two other session-capacity models - rounds s1/s3/s5 on `opus`, rounds s2/s4/s6 on `haiku` - and BOTH families are counted in every row. Neither was chosen for being agreeable: the haiku reader is the one that named a drawing `mailbox`, `play button`, `thumbs up`, `inbox` and `rain`, and every one of those findings forced a redesign.",
+ "objects": [
+  {
+   "i": 0,
+   "verdict": "PASS",
+   "intended": "an open laptop",
+   "reason": "Six independent readers, six laptops: `laptop computer` x3 and `laptop` x3, five of six sure, nobody naming anything else. The heat waves are inside the crop and one earlier reader volunteered `overheating laptop`, which is the whole idea of the opening in two words.",
+   "reads": [
+    {
+     "name": "laptop computer",
+     "confidence": "unsure",
+     "match": "intended"
+    },
+    {
+     "name": "laptop",
+     "confidence": "sure",
+     "match": "intended"
+    },
+    {
+     "name": "laptop computer",
+     "confidence": "sure",
+     "match": "intended"
+    },
+    {
+     "name": "laptop",
+     "confidence": "sure",
+     "match": "intended"
+    },
+    {
+     "name": "laptop computer",
+     "confidence": "sure",
+     "match": "intended"
+    },
+    {
+     "name": "laptop",
+     "confidence": "sure",
+     "match": "intended"
+    }
+   ]
+  },
+  {
+   "i": 1,
+   "verdict": "PASS",
+   "intended": "a download arrow",
+   "reason": "`download arrow` x3, `download icon arrow`, `download icon`, `download arrow icon` - six readers, one object, three of six sure and no other noun offered. This is the third drawing of this object: the plan's tray was named INBOX by three readers and a cloud-and-arrow was named RAIN by two, so the sealed drawing is the canonical arrow over a baseline, with no container to be an inbox and no cloud to rain.",
+   "reads": [
+    {
+     "name": "download icon arrow",
+     "confidence": "unsure",
+     "match": "intended"
+    },
+    {
+     "name": "download arrow",
+     "confidence": "sure",
+     "match": "intended"
+    },
+    {
+     "name": "download icon",
+     "confidence": "unsure",
+     "match": "intended"
+    },
+    {
+     "name": "download arrow",
+     "confidence": "sure",
+     "match": "intended"
+    },
+    {
+     "name": "download arrow icon",
+     "confidence": "unsure",
+     "match": "intended"
+    },
+    {
+     "name": "download arrow",
+     "confidence": "sure",
+     "match": "intended"
+    }
+   ]
+  },
+  {
+   "i": 2,
+   "verdict": "PASS",
+   "intended": "a speech bubble",
+   "reason": "`speech bubble`, unanimous, six of six, five of them sure - and seventeen of seventeen independent reads of this drawing across every round it has ever been in. It replaced the plan's text field, which two rounds of readers named `play button`, `pencil` and `none - abstract chevron and dashes`.",
+   "reads": [
+    {
+     "name": "speech bubble",
+     "confidence": "sure",
+     "match": "intended"
+    },
+    {
+     "name": "speech bubble",
+     "confidence": "sure",
+     "match": "intended"
+    },
+    {
+     "name": "speech bubble",
+     "confidence": "unsure",
+     "match": "intended"
+    },
+    {
+     "name": "speech bubble",
+     "confidence": "sure",
+     "match": "intended"
+    },
+    {
+     "name": "speech bubble",
+     "confidence": "sure",
+     "match": "intended"
+    },
+    {
+     "name": "speech bubble",
+     "confidence": "sure",
+     "match": "intended"
+    }
+   ]
+  },
+  {
+   "i": 3,
+   "verdict": "PASS",
+   "intended": "a process list",
+   "reason": "`table` x3 and `task manager` x3 (`task manager UI panel`, `task manager process list UI`, `task manager window`), three of six sure and nobody naming a different object. Both nouns are the plan's own declared synonym set for this object - `list`, `table`, `task manager`, `spreadsheet` - and a stranger who says either has the picture the plan wants: the things running on your machine, measured. The earlier six-row drawing and a grid-ruled variant were discarded: the grid version was named COMPUTER MONITOR by three readers, which is the container, not its content.",
+   "reads": [
+    {
+     "name": "none; task manager UI panel",
+     "confidence": "cannot tell",
+     "match": "synonym"
+    },
+    {
+     "name": "table",
+     "confidence": "sure",
+     "match": "synonym"
+    },
+    {
+     "name": "task manager process list UI",
+     "confidence": "cannot tell",
+     "match": "synonym"
+    },
+    {
+     "name": "table",
+     "confidence": "sure",
+     "match": "synonym"
+    },
+    {
+     "name": "task manager window",
+     "confidence": "unsure",
+     "match": "synonym"
+    },
+    {
+     "name": "table",
+     "confidence": "sure",
+     "match": "synonym"
+    }
+   ]
+  }
+ ]
+}

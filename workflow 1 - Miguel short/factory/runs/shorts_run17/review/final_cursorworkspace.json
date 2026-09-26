@@ -1,0 +1,74 @@
+{
+ "vid": "cursorworkspace",
+ "run": "shorts_run17",
+ "clerk": "v3.1 independent",
+ "verdict": "PASS",
+ "phone_verdict": "PASS",
+ "confirmed": 0,
+ "dismissed": 18,
+ "renders_judged": 3,
+ "watcher": {
+  "cands_files_present": 0,
+  "cost_usd_not_spent": 0.0,
+  "note": "no cands_*.json exists for any render in shorts_run17; account-level Gemini 429 monthly spending cap. All candidates below are clerk-originated."
+ },
+ "per_render": {
+  "split": {
+   "confirmed": 0,
+   "dismissed": 5,
+   "cands_file": null
+  },
+  "cutout": {
+   "confirmed": 0,
+   "dismissed": 8,
+   "cands_file": null
+  },
+  "whiteboard": {
+   "confirmed": 0,
+   "dismissed": 5,
+   "cands_file": null
+  }
+ },
+ "phone_test": {
+  "objects": 6,
+  "pass": 6,
+  "fail": 0,
+  "pre_flagged_failures": 0,
+  "answers": {
+   "00": "bridge over water",
+   "01": "Google Workspace toggle"
+  }
+ },
+ "instruments": {
+  "face_center_check_reels": {
+   "verdict": "PASS",
+   "band_worst_dx_pct": 4.35,
+   "band_worst_t": 16.5,
+   "tol_pct": 4.0,
+   "full_face_n": 0
+  },
+  "whiteboard_zero_ink_reels": {
+   "verdict": "PASS",
+   "blank_frames": 0,
+   "min_ink_frac": 0.0020419,
+   "at_s": 0.36
+  },
+  "durations_s": {
+   "split": 21.56,
+   "cutout": 21.56,
+   "whiteboard": 21.56
+  },
+  "handles": {
+   "split": "@migueltorrezai",
+   "cutout": "@migueltorrez.ai",
+   "whiteboard": "@migueltorrez.ai"
+  },
+  "caption_canon": "PASS"
+ },
+ "reviewed_files": {
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/staging/youtube/cursorworkspace_split.mp4": "329e15a934d761de9a871d28a466995d3efeaa37e51196a51c48c61c4decd538",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/staging/reels/cursorworkspace_whiteboard.mp4": "5a87ce632b2e867fadf812244fee1c4bce9f930dcd3b2c0898f6d581c64610bc",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/staging/tiktok/cursorworkspace_cutout.mp4": "c506bcf3b072e3232c85521ee2a06faa9b660a987b895ff64d2744f3f5b887f6"
+ },
+ "report": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/clerk_v3_cursorworkspace.md"
+}

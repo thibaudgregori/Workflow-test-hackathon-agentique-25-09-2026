@@ -1,0 +1,123 @@
+{
+ "set": "cand",
+ "phone_scale": "405x720",
+ "module": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/gen/pcoverheat_scene.py",
+ "objects": [
+  {
+   "i": 0,
+   "label": "download-A",
+   "intended": "a download arrow",
+   "core_box": [
+    420.0,
+    392.0,
+    660.0,
+    512.0
+   ],
+   "norm_box": [
+    0.3889,
+    0.3042,
+    0.6111,
+    0.3667
+   ],
+   "phone_box_px": [
+    158,
+    219,
+    248,
+    264
+   ],
+   "phone_size_px": [
+    90,
+    45
+   ],
+   "crop": "review/proofs/crop_cand_00_download-A.png",
+   "frame": "review/proofs/frame_cand_00.png"
+  },
+  {
+   "i": 1,
+   "label": "download-B",
+   "intended": "a download arrow",
+   "core_box": [
+    420.0,
+    392.0,
+    660.0,
+    512.0
+   ],
+   "norm_box": [
+    0.3889,
+    0.3042,
+    0.6111,
+    0.3667
+   ],
+   "phone_box_px": [
+    158,
+    219,
+    248,
+    264
+   ],
+   "phone_size_px": [
+    90,
+    45
+   ],
+   "crop": "review/proofs/crop_cand_01_download-B.png",
+   "frame": "review/proofs/frame_cand_01.png"
+  },
+  {
+   "i": 2,
+   "label": "field-A",
+   "intended": "a text field",
+   "core_box": [
+    246.0,
+    94.0,
+    834.0,
+    174.0
+   ],
+   "norm_box": [
+    0.2278,
+    0.149,
+    0.7722,
+    0.1906
+   ],
+   "phone_box_px": [
+    92,
+    107,
+    313,
+    137
+   ],
+   "phone_size_px": [
+    221,
+    30
+   ],
+   "crop": "review/proofs/crop_cand_02_field-A.png",
+   "frame": "review/proofs/frame_cand_02.png"
+  },
+  {
+   "i": 3,
+   "label": "field-B",
+   "intended": "a text field",
+   "core_box": [
+    246.0,
+    94.0,
+    834.0,
+    174.0
+   ],
+   "norm_box": [
+    0.2278,
+    0.149,
+    0.7722,
+    0.1906
+   ],
+   "phone_box_px": [
+    92,
+    107,
+    313,
+    137
+   ],
+   "phone_size_px": [
+    221,
+    30
+   ],
+   "crop": "review/proofs/crop_cand_03_field-B.png",
+   "frame": "review/proofs/frame_cand_03.png"
+  }
+ ]
+}

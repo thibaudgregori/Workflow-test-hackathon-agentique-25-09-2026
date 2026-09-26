@@ -1,0 +1,17 @@
+{
+  "verdict": "PASS",
+  "vid": "eudisclosure",
+  "objects": 3,
+  "seal_rounds": 4,
+  "module": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/gen/eudisclosure_scene.py",
+  "handoff": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/plans/eudisclosure_scene_handoff.md",
+  "evidence": {
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/gen/eudisclosure_scene.py": "d3e960ae2e4845a1b8d5da980ce2a4237da182608941aed23e26d97e67ae80f5",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/plans/eudisclosure_scene_handoff.md": "235d50cf65c4f072295dfb3e9eb3ffcded2bcf33f86d3b8ccbb9fad4d6490ac7",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/phone_reader_eudisclosure_artwork.json": "b64ecec901a60950f891c9821b1ebe4c7e3755338bc06bd292d24610a725b833",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/phone_reader_eudisclosure_artwork_r2.json": "0c5dcda3e8af2cd653f33c5c877d4ea7fe51fc342cab16ea4567d7c13b72f915",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/phone_reader_eudisclosure_artwork_r3.json": "44b2f872c0aa3815ef0bbc3eb68d9cac04a46c787a1d41dede5fde0b62510e5a",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/phone_reader_eudisclosure_artwork_r4.json": "2b458c8fd23846beb94bff0c1e0fd6db8e1032f9dca1f1acc8e951f1da6f854a",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/scores_eudisclosure_artwork.json": "e60f567c2e596ef6705195a692c3e2c84c39bab58f01f07e8bcf82806416ba0e"
+  }
+}

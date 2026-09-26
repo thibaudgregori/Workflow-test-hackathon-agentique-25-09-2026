@@ -1,0 +1,44 @@
+{
+  "tag": "kimifable-seal-r1",
+  "cold_dir": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/kimifable-seal-r1-c3bcd6d6",
+  "reader": "one independent `claude -p` process per crop, launched from /tmp, handed ONLY the absolute path of a blind copy under a random token - no plan, no topic, no manifest, no sealed key, and no path naming the video",
+  "prompt": "Look at the image at <absolute path of one blind crop> . Name the single everyday object drawn in it. At most FIVE words. Reply with ONE line of JSON and nothing else: {\"name\":\"<=5 words\",\"confidence\":\"sure|unsure|cannot tell\"}",
+  "dispatched_at": "2026-09-08T01:47:09",
+  "cli": "2.1.263 (Claude Code)",
+  "source_crops": {
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/proofs/kimifable_seal/00.png": "5ec707391d41014076af63b698a375f1f8db25e201cedf1d6e947b4b9f2137b6",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/proofs/kimifable_seal/01.png": "e39eed66641e3a8f42f02771689b416379f51b39c4318553c4f0bfa30476da3a",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/proofs/kimifable_seal/02.png": "88169b6ebe73c14af885a1b737ea31892550798a7e0f5113b930eaefc5934377",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/proofs/kimifable_seal/03.png": "808ac5f2ac28ecafaddbf18b94d43258003aec153e4eb8507346551845f5716a"
+  },
+  "names": [
+    {
+      "i": 0,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/kimifable-seal-r1-c3bcd6d6/00.png",
+      "name": "price tag",
+      "confidence": "unsure",
+      "crop_sha256": "5ec707391d41014076af63b698a375f1f8db25e201cedf1d6e947b4b9f2137b6"
+    },
+    {
+      "i": 1,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/kimifable-seal-r1-c3bcd6d6/01.png",
+      "name": "clipboard",
+      "confidence": "sure",
+      "crop_sha256": "e39eed66641e3a8f42f02771689b416379f51b39c4318553c4f0bfa30476da3a"
+    },
+    {
+      "i": 2,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/kimifable-seal-r1-c3bcd6d6/02.png",
+      "name": "web browser window",
+      "confidence": "sure",
+      "crop_sha256": "88169b6ebe73c14af885a1b737ea31892550798a7e0f5113b930eaefc5934377"
+    },
+    {
+      "i": 3,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/kimifable-seal-r1-c3bcd6d6/03.png",
+      "name": "file folder",
+      "confidence": "sure",
+      "crop_sha256": "808ac5f2ac28ecafaddbf18b94d43258003aec153e4eb8507346551845f5716a"
+    }
+  ]
+}

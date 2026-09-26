@@ -1,0 +1,977 @@
+{
+ "render": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/cursorworkspace_whiteboard.mp4",
+ "vid": "cursorworkspace",
+ "fmt": "whiteboard",
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/projects/cursorworkspace_whiteboard",
+ "checks": {
+  "decoded_blank_frames": {
+   "ok": true,
+   "result": {
+    "frames": 539,
+    "fps": 25.0,
+    "zone": [
+     0,
+     799,
+     1080,
+     799
+    ],
+    "ink_floor": 0.0006,
+    "min_ink_frac": 0.0,
+    "empty_frames_total": 9,
+    "leading_trailing_empty": 9,
+    "interior_blank_frames": [],
+    "pass": true
+   },
+   "wall_s": 0.0
+  },
+  "zero_ink_law": {
+   "ok": true,
+   "result": {
+    "render": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/cursorworkspace_whiteboard.mp4",
+    "frames": 539,
+    "fps": 25.0,
+    "zone_bottom_design_px": 799.205,
+    "zone_px": [
+     1080,
+     799
+    ],
+    "first_word_s": 0.119,
+    "leading_empty_frames": 9,
+    "first_judged_frame": 9,
+    "min_ink_frac_judged": 0.0020419,
+    "min_ink_frac_at_s": 0.36,
+    "blank_frames": [],
+    "verdict": "PASS"
+   },
+   "wall_s": 0.0
+  },
+  "clip_coverage_page": {
+   "ok": true,
+   "result": {
+    "duration_s": 21.532,
+    "fps": 25,
+    "groups": {
+     "stage": {
+      "clips": 0,
+      "checked": false,
+      "note": "fewer than two clips \u2014 nothing can hand over"
+     },
+     "tz": {
+      "clips": 1,
+      "checked": false,
+      "note": "fewer than two clips \u2014 nothing can hand over"
+     },
+     "scap": {
+      "clips": 22,
+      "checked": true,
+      "frames": 538,
+      "span": [
+       0.12,
+       21.38
+      ],
+      "holes": [],
+      "ghosts": [],
+      "pass": true
+     }
+    },
+    "holes": 0,
+    "ghosts": 0,
+    "pass": true
+   },
+   "wall_s": 0.0
+  },
+  "double_exposure": {
+   "ok": true,
+   "result": {
+    "frames": 539,
+    "fps": 25.0,
+    "first_word_s": 0.119,
+    "leading_blank_run_frames": 9,
+    "after_first_word": {
+     "from_frame": 3,
+     "from_t": 0.12,
+     "basis": "first spoken word",
+     "min_ink": 0,
+     "min_ink_t": 0.12,
+     "min_ink40": 0,
+     "min_ink40_t": 0.12,
+     "zero_ink_frames": [
+      0.12,
+      0.16,
+      0.2,
+      0.24,
+      0.28,
+      0.32
+     ],
+     "zero_ink40_frames": [
+      0.12,
+      0.16,
+      0.2,
+      0.24,
+      0.28,
+      0.32
+     ]
+    },
+    "after_leading_run": {
+     "from_frame": 9,
+     "from_t": 0.36,
+     "basis": "opening fade-up cleared",
+     "min_ink": 279,
+     "min_ink_t": 0.36,
+     "min_ink40": 249,
+     "min_ink40_t": 0.36,
+     "zero_ink_frames": [],
+     "zero_ink40_frames": []
+    },
+    "after_first_readable_ink": {
+     "from_frame": 9,
+     "from_t": 0.36,
+     "basis": "first READABLE ink on screen",
+     "min_ink": 279,
+     "min_ink_t": 0.36,
+     "min_ink40": 249,
+     "min_ink40_t": 0.36,
+     "zero_ink_frames": [],
+     "zero_ink40_frames": []
+    },
+    "double_exposure_floor_px": 600,
+    "double_exposure_frames": [
+     {
+      "t": 1.0,
+      "outgoing_px": 820,
+      "incoming_px": 617
+     },
+     {
+      "t": 1.04,
+      "outgoing_px": 1162,
+      "incoming_px": 652
+     },
+     {
+      "t": 1.08,
+      "outgoing_px": 1591,
+      "incoming_px": 620
+     },
+     {
+      "t": 1.24,
+      "outgoing_px": 615,
+      "incoming_px": 994
+     },
+     {
+      "t": 10.84,
+      "outgoing_px": 1022,
+      "incoming_px": 795
+     }
+    ],
+    "double_exposure_count": 5,
+    "note": "candidates, not a verdict \u2014 adjudicate each window (procedure v3); the opening fade-up legitimately fires"
+   },
+   "wall_s": 0.04
+  },
+  "face_centring": {
+   "ok": true,
+   "result": {
+    "label": "cursorworkspace_whiteboard",
+    "video": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/cursorworkspace_whiteboard.mp4",
+    "duration_s": 21.56,
+    "detector": "mediapipe/blazeface",
+    "segment_source": "auto:layout-detector",
+    "segments": null,
+    "every_s": 0.5,
+    "tol_pct": 4.0,
+    "band_level": "warning",
+    "full_face": {
+     "n": 0,
+     "worst_dx_pct": null,
+     "worst_t": null,
+     "mean_abs_dx_pct": null,
+     "offenders": []
+    },
+    "band": {
+     "n": 43,
+     "worst_dx_pct": 4.35,
+     "worst_t": 16.5,
+     "warnings": [
+      {
+       "t": 16.5,
+       "dx_pct": 4.35,
+       "face_h_pct": 14.7,
+       "class": "band",
+       "score": 0.99,
+       "skin": 0.89
+      }
+     ]
+    },
+    "pass": true,
+    "verdict": "PASS"
+   },
+   "wall_s": 0.83
+  },
+  "pill_canon_rendered": {
+   "ok": true,
+   "result": {
+    "samples": 60,
+    "band_rows_px": [
+     772,
+     952
+    ],
+    "frames_without_a_pill": 1,
+    "distinct_heights_px": {
+     "114": 59
+    },
+    "modal_height_px": 114,
+    "modal_height_design_px": 114.0,
+    "spread_px": 0,
+    "spread_max_px": 2.0,
+    "canonical_height_px": 114.59,
+    "canonical_height_design_px": 114.59,
+    "modal_vs_canon_px": 0.59,
+    "tolerance_px": 3.0,
+    "delivery_scale": 1.0,
+    "widest_pill_px": 748,
+    "widest_pill_in_design_px": 748.0,
+    "verdict": "PASS",
+    "pass": true
+   },
+   "wall_s": 0.0
+  },
+  "gate1_geometry_audit": {
+   "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/geometry_audit.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/projects/cursorworkspace_whiteboard --step 0.25 --out /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/gen/_gate1_cursorworkspace_whiteboard.json",
+   "rc": 0,
+   "stdout": "cursorworkspace_whiteboard: 0 errors, 0 warnings (21.5s @ 0.25s step)\n",
+   "stderr": "",
+   "wall_s": 3.13
+  },
+  "gate2_frame_review": {
+   "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/frame_review.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/cursorworkspace_whiteboard.mp4 --full --transcript /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/cuts/cursorworkspace/transcript_tight.json",
+   "rc": 0,
+   "stdout": "-factory/shorts_run17/output/frames_cursorworkspace_whiteboard/f_0010_333.jpg\n  t=00:11.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/frames_cursorworkspace_whiteboard/f_0011_000.jpg\n  t=00:11.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/frames_cursorworkspace_whiteboard/f_0011_333.jpg\n  t=00:11.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/frames_cursorworkspace_whiteboard/f_0011_666.jpg\n  t=00:12.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/frames_cursorworkspace_whiteboard/f_0012_000.jpg\n  t=00:12.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/frames_cursorworkspace_whiteboard/f_0012_333.jpg\n  t=00:12.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/frames_cursorworkspace_whiteboard/f_0012_666.jpg\n  t=00:13.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/frames_cursorworkspace_whiteboard/f_0013_333.jpg\n  t=00:13.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/frames_cursorworkspace_whiteboard/f_0013_666.jpg\n  t=00:14.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/frames_cursorworkspace_whiteboard/f_0014_333.jpg\n  t=00:14.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/frames_cursorworkspace_whiteboard/f_0014_666.jpg\n  t=00:15.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/frames_cursorworkspace_whiteboard/f_0015_000.jpg\n  t=00:15.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/frames_cursorworkspace_whiteboard/f_0015_666.jpg\n  t=00:16.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/frames_cursorworkspace_whiteboard/f_0016_000.jpg\n  t=00:16.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/frames_cursorworkspace_whiteboard/f_0016_333.jpg\n  t=00:17.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/frames_cursorworkspace_whiteboard/f_0017_333.jpg\n  t=00:17.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/frames_cursorworkspace_whiteboard/f_0017_666.jpg\n  t=00:18.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/frames_cursorworkspace_whiteboard/f_0018_000.jpg\n  t=00:18.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/frames_cursorworkspace_whiteboard/f_0018_333.jpg\n  t=00:19.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/frames_cursorworkspace_whiteboard/f_0019_333.jpg\n  t=00:19.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/frames_cursorworkspace_whiteboard/f_0019_666.jpg\n  t=00:20.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/frames_cursorworkspace_whiteboard/f_0020_333.jpg\n  t=00:20.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/frames_cursorworkspace_whiteboard/f_0020_666.jpg\n  t=00:21.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/frames_cursorworkspace_whiteboard/f_0021_000.jpg\n  t=00:21.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/frames_cursorworkspace_whiteboard/f_0021_333.jpg\n\nManifest: /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/frames_cursorworkspace_whiteboard/manifest.md  (delete dir after review)\n",
+   "stderr": "",
+   "wall_s": 0.98
+  },
+  "gate3_gemini_describe": {
+   "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run3/qc_v3.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/cursorworkspace_whiteboard.mp4 cursorworkspace --label qcpass_cursorworkspace_whiteboard",
+   "rc": 1,
+   "stdout": "",
+   "stderr": "upload retry 1: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Your project has exceeded its monthly spending cap. Please go to AI Studio at https://ai.studio/spend to manage your project spend cap. Learn more at https://ai.google.dev/gemini-api/docs/billing#project-spend-caps. ', 'status': 'RESOURCE_EXHAUSTED'}}\nupload retry 2: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Your project has exceeded its monthly spending cap. Please go to AI Studio at https://ai.studio/spend to manage your project spend cap. Learn more at https://ai.google.dev/gemini-api/docs/billing#project-spend-caps. ', 'status': 'RESOURCE_EXHAUSTED'}}\nupload retry 3: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Your project has exceeded its monthly spending cap. Please go to AI Studio at https://ai.studio/spend to manage your project spend cap. Learn more at https://ai.google.dev/gemini-api/docs/billing#project-spend-caps. ', 'status': 'RESOURCE_EXHAUSTED'}}\nTraceback (most recent call last):\n  File \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run3/qc_v3.py\", line 277, in <module>\n    cand = upload_retry(cand_path)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run3/qc_v3.py\", line 202, in upload_retry\n    raise RuntimeError(f\"upload failed: {path}\")\nRuntimeError: upload failed: /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/cursorworkspace_whiteboard.mp4\n",
+   "wall_s": 20.4
+  },
+  "audio_guards": {
+   "ok": true,
+   "result": {
+    "mix_8_16k_db": -29.16,
+    "master_8_16k_db": -28.94,
+    "delta_db": -0.22,
+    "tolerance_db": 6.0,
+    "speech_margin_db_p85_p15_33ms_s16le": 22.466,
+    "sync": {
+     "lag_ms": 0,
+     "r": 0.9971,
+     "instrument": "10 ms |x| envelope, +/-250 ms search"
+    },
+    "audio_initial_padding_samples": 0,
+    "verdict": "PASS",
+    "pass": true
+   },
+   "wall_s": 0.71
+  },
+  "contact_sheet": {
+   "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/contact_sheet.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/cursorworkspace_whiteboard.mp4 --id cursorworkspace --fmt whiteboard --run /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17 --geom /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/gen/_geom_cursorworkspace.json",
+   "rc": 0,
+   "stdout": "{\n \"sheet\": \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/sheet_cursorworkspace_whiteboard.png\",\n \"id\": \"cursorworkspace\",\n \"fmt\": \"whiteboard\",\n \"duration_s\": 21.56,\n \"frame_source\": \"shared.beat_edges\",\n \"times\": [\n  0.47,\n  2.69,\n  4.11,\n  6.85,\n  8.08,\n  9.88,\n  11.63,\n  13.47,\n  15.27,\n  17.07,\n  17.67,\n  21.41\n ],\n \"size_px\": [\n  1798,\n  4344\n ]\n}\n",
+   "stderr": "",
+   "wall_s": 3.39
+  },
+  "phone_crops": {
+   "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/phone_crops.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/cursorworkspace_whiteboard.mp4 --out /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review --label cursorworkspace_whiteboard --at 1.6:0.18588,0.30007,0.81412,0.39896:an arch bridge --at 13.9:0.2338,0.20859,0.7662,0.32682:a settings panel",
+   "rc": 0,
+   "stdout": "{\n \"sheet\": \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/phone_cursorworkspace_whiteboard.png\",\n \"manifest\": \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/phone_cursorworkspace_whiteboard.json\",\n \"answer_key\": \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/phone_cursorworkspace_whiteboard.key.json\",\n \"n_objects\": 2,\n \"phone_sizes_px\": [\n  [\n   254,\n   71\n  ],\n  [\n   216,\n   85\n  ]\n ]\n}\n",
+   "stderr": "",
+   "wall_s": 0.86
+  },
+  "whiteboard_seam_law": {
+   "ok": true,
+   "result": {
+    "video": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/cursorworkspace_whiteboard.mp4",
+    "erase_dur": 0.3,
+    "land_within": 0.3,
+    "scan_s": 1.6,
+    "thresholds": {
+     "ink_thr": 170,
+     "dilate_px": 9,
+     "min_minor_px": 46,
+     "min_major_px": 118,
+     "min_ink_px": 2600,
+     "min_sigma_px": 18.0,
+     "word": [
+      26,
+      80,
+      80,
+      900,
+      3
+     ],
+     "pen_match_min": 0.62,
+     "pen_bleed": 6,
+     "persist_frames": 3
+    },
+    "seams": [
+     {
+      "erase_at": 6.5,
+      "erase_completes": 6.8,
+      "law_probe_at": 7.12,
+      "dead_s": 0.16,
+      "dead_capped": false,
+      "at_law_probe": {
+       "t": 7.12,
+       "ink_pct_of_zone": 0.406,
+       "qualifying": 1,
+       "landed_on": {
+        "box": [
+         472,
+         426,
+         136,
+         137
+        ],
+        "ink": 3460,
+        "sigma_minor": 30.6,
+        "parts": 3,
+        "kind": "object",
+        "qualifies": true
+       },
+       "verdict": "PASS"
+      },
+      "blobs_at_law_probe": [
+       {
+        "box": [
+         472,
+         426,
+         136,
+         137
+        ],
+        "ink": 3460,
+        "sigma_minor": 30.6,
+        "parts": 3,
+        "kind": "object",
+        "qualifies": true
+       }
+      ],
+      "verdict": "PASS",
+      "window": [
+       {
+        "t": 6.8,
+        "ink_pct_of_zone": 0.066,
+        "qualifying": 0,
+        "verdict": "FAIL"
+       },
+       {
+        "t": 6.84,
+        "ink_pct_of_zone": 0.104,
+        "qualifying": 0,
+        "verdict": "FAIL"
+       },
+       {
+        "t": 6.88,
+        "ink_pct_of_zone": 0.261,
+        "qualifying": 0,
+        "verdict": "FAIL"
+       },
+       {
+        "t": 6.92,
+        "ink_pct_of_zone": 0.44,
+        "qualifying": 0,
+        "verdict": "FAIL"
+       },
+       {
+        "t": 6.96,
+        "ink_pct_of_zone": 0.467,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 7.0,
+        "ink_pct_of_zone": 0.459,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 7.04,
+        "ink_pct_of_zone": 0.412,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 7.08,
+        "ink_pct_of_zone": 0.406,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 7.12,
+        "ink_pct_of_zone": 0.406,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 7.16,
+        "ink_pct_of_zone": 0.413,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 7.2,
+        "ink_pct_of_zone": 0.427,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 7.24,
+        "ink_pct_of_zone": 0.446,
+        "qualifying": 0,
+        "verdict": "FAIL"
+       },
+       {
+        "t": 7.28,
+        "ink_pct_of_zone": 0.475,
+        "qualifying": 0,
+        "verdict": "FAIL"
+       },
+       {
+        "t": 7.32,
+        "ink_pct_of_zone": 0.507,
+        "qualifying": 0,
+        "verdict": "FAIL"
+       },
+       {
+        "t": 7.36,
+        "ink_pct_of_zone": 0.553,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 7.4,
+        "ink_pct_of_zone": 0.553,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 7.44,
+        "ink_pct_of_zone": 0.553,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 7.48,
+        "ink_pct_of_zone": 0.553,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 7.52,
+        "ink_pct_of_zone": 0.548,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 7.56,
+        "ink_pct_of_zone": 0.548,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 7.6,
+        "ink_pct_of_zone": 0.548,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 7.64,
+        "ink_pct_of_zone": 0.548,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 7.68,
+        "ink_pct_of_zone": 0.541,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 7.72,
+        "ink_pct_of_zone": 0.578,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 7.76,
+        "ink_pct_of_zone": 0.626,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 7.8,
+        "ink_pct_of_zone": 0.687,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 7.84,
+        "ink_pct_of_zone": 0.896,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 7.88,
+        "ink_pct_of_zone": 1.007,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 7.92,
+        "ink_pct_of_zone": 1.024,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 7.96,
+        "ink_pct_of_zone": 0.984,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 8.0,
+        "ink_pct_of_zone": 0.967,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 8.04,
+        "ink_pct_of_zone": 0.965,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 8.08,
+        "ink_pct_of_zone": 0.957,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 8.12,
+        "ink_pct_of_zone": 0.971,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 8.16,
+        "ink_pct_of_zone": 1.036,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 8.2,
+        "ink_pct_of_zone": 1.075,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 8.24,
+        "ink_pct_of_zone": 1.14,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 8.28,
+        "ink_pct_of_zone": 1.185,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 8.32,
+        "ink_pct_of_zone": 1.191,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 8.36,
+        "ink_pct_of_zone": 1.191,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 8.4,
+        "ink_pct_of_zone": 1.191,
+        "qualifying": 2,
+        "verdict": "PASS"
+       }
+      ]
+     },
+     {
+      "erase_at": 11.46,
+      "erase_completes": 11.76,
+      "law_probe_at": 12.08,
+      "dead_s": 0.0,
+      "dead_capped": false,
+      "at_law_probe": {
+       "t": 12.08,
+       "ink_pct_of_zone": 1.38,
+       "qualifying": 1,
+       "landed_on": {
+        "box": [
+         247,
+         393,
+         586,
+         240
+        ],
+        "ink": 10492,
+        "sigma_minor": 83.2,
+        "parts": 3,
+        "kind": "object",
+        "qualifies": true
+       },
+       "verdict": "PASS"
+      },
+      "blobs_at_law_probe": [
+       {
+        "box": [
+         247,
+         393,
+         586,
+         240
+        ],
+        "ink": 10492,
+        "sigma_minor": 83.2,
+        "parts": 3,
+        "kind": "object",
+        "qualifies": true
+       },
+       {
+        "box": [
+         336,
+         430,
+         144,
+         30
+        ],
+        "ink": 1373,
+        "sigma_minor": 3.1,
+        "parts": 1,
+        "kind": "-",
+        "qualifies": false
+       }
+      ],
+      "verdict": "PASS",
+      "window": [
+       {
+        "t": 11.76,
+        "ink_pct_of_zone": 0.729,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 11.8,
+        "ink_pct_of_zone": 0.884,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 11.84,
+        "ink_pct_of_zone": 0.84,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 11.88,
+        "ink_pct_of_zone": 0.989,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 11.92,
+        "ink_pct_of_zone": 0.992,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 11.96,
+        "ink_pct_of_zone": 1.066,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 12.0,
+        "ink_pct_of_zone": 1.263,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 12.04,
+        "ink_pct_of_zone": 1.387,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 12.08,
+        "ink_pct_of_zone": 1.38,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 12.12,
+        "ink_pct_of_zone": 1.377,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 12.16,
+        "ink_pct_of_zone": 1.377,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 12.2,
+        "ink_pct_of_zone": 1.377,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 12.24,
+        "ink_pct_of_zone": 1.377,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 12.28,
+        "ink_pct_of_zone": 1.377,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 12.32,
+        "ink_pct_of_zone": 1.377,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 12.36,
+        "ink_pct_of_zone": 1.377,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 12.4,
+        "ink_pct_of_zone": 1.377,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 12.44,
+        "ink_pct_of_zone": 1.377,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 12.48,
+        "ink_pct_of_zone": 1.397,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 12.52,
+        "ink_pct_of_zone": 1.329,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 12.56,
+        "ink_pct_of_zone": 1.329,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 12.6,
+        "ink_pct_of_zone": 1.324,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 12.64,
+        "ink_pct_of_zone": 1.473,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 12.68,
+        "ink_pct_of_zone": 1.529,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 12.72,
+        "ink_pct_of_zone": 1.587,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 12.76,
+        "ink_pct_of_zone": 1.775,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 12.8,
+        "ink_pct_of_zone": 1.914,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 12.84,
+        "ink_pct_of_zone": 2.075,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 12.88,
+        "ink_pct_of_zone": 2.222,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 12.92,
+        "ink_pct_of_zone": 2.448,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 12.96,
+        "ink_pct_of_zone": 3.276,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 13.0,
+        "ink_pct_of_zone": 3.292,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 13.04,
+        "ink_pct_of_zone": 3.301,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 13.08,
+        "ink_pct_of_zone": 3.275,
+        "qualifying": 1,
+        "verdict": "PASS"
+       },
+       {
+        "t": 13.12,
+        "ink_pct_of_zone": 3.12,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 13.16,
+        "ink_pct_of_zone": 3.115,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 13.2,
+        "ink_pct_of_zone": 3.114,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 13.24,
+        "ink_pct_of_zone": 3.114,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 13.28,
+        "ink_pct_of_zone": 3.114,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 13.32,
+        "ink_pct_of_zone": 3.114,
+        "qualifying": 2,
+        "verdict": "PASS"
+       },
+       {
+        "t": 13.36,
+        "ink_pct_of_zone": 3.114,
+        "qualifying": 2,
+        "verdict": "PASS"
+       }
+      ]
+     }
+    ],
+    "extra_probes": [],
+    "dead_total_s": 0.16,
+    "failed": [],
+    "verdict": "PASS"
+   },
+   "wall_s": 4.8
+  }
+ },
+ "skipped": {
+  "cutout_checks_24_25": "cutout only, and needs --project",
+  "edge_clip": "cutout only, and needs --alpha",
+  "face_hf_vs_plate": "needs --plate (the display plate)",
+  "head_scale_vs_framing": "needs --alpha and --edge-box (the crown comes from the matte's own alpha, the chin from MediaPipe on the delivered frame)"
+ },
+ "zone_bottom_design_px": 799.21,
+ "decode": {
+  "frames": 539,
+  "fps": 25.0,
+  "size": [
+   1080,
+   1920
+  ],
+  "grid_frames": 43,
+  "caption_band_rows": [
+   772,
+   952
+  ],
+  "caption_seat_design_px": 862.5,
+  "wall_s": 5.74
+ },
+ "verdicts": {
+  "decoded_blank_frames": "PASS",
+  "zero_ink_law": "PASS",
+  "clip_coverage_page": "PASS",
+  "double_exposure": "REPORTED",
+  "face_centring": "PASS",
+  "pill_canon_rendered": "PASS",
+  "gate1_geometry_audit": "PASS",
+  "gate2_frame_review": "PASS",
+  "gate3_gemini_describe": "REPORTED",
+  "audio_guards": "PASS",
+  "contact_sheet": "PASS",
+  "phone_crops": "PASS",
+  "whiteboard_seam_law": "PASS"
+ },
+ "advisory": {
+  "gate3_gemini_describe": "FAIL from gemini describe-mode, downgraded to REPORTED: the clerk adjudicates its describe_errors against the frames"
+ },
+ "wall_s": {
+  "decoded_blank_frames": 0.0,
+  "zero_ink_law": 0.0,
+  "clip_coverage_page": 0.0,
+  "double_exposure": 0.04,
+  "face_centring": 0.83,
+  "pill_canon_rendered": 0.0,
+  "gate1_geometry_audit": 3.13,
+  "gate2_frame_review": 0.98,
+  "gate3_gemini_describe": 20.4,
+  "audio_guards": 0.71,
+  "contact_sheet": 3.39,
+  "phone_crops": 0.86,
+  "whiteboard_seam_law": 4.8,
+  "single_decode": 5.74
+ },
+ "total_wall_s": 20.42,
+ "pass": true
+}

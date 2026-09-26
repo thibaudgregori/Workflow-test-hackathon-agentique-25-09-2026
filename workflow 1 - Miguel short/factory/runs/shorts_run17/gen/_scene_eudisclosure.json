@@ -1,0 +1,844 @@
+{
+  "rects": {
+    "key-disclosure": {
+      "plan": [
+        334,
+        286,
+        746,
+        344
+      ],
+      "built": [
+        334.0,
+        286.0,
+        746.0,
+        344.0
+      ],
+      "delta_px": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_abs_delta": 0.0
+    },
+    "tag": {
+      "plan": [
+        462,
+        380,
+        618,
+        500
+      ],
+      "built": [
+        462.0,
+        380.0,
+        618.0,
+        496.0
+      ],
+      "delta_px": [
+        0.0,
+        0.0,
+        0.0,
+        -4.0
+      ],
+      "max_abs_delta": 4.0
+    },
+    "tag_body": {
+      "plan": [
+        478,
+        392,
+        618,
+        496
+      ],
+      "built": [
+        478.0,
+        392.0,
+        618.0,
+        496.0
+      ],
+      "delta_px": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_abs_delta": 0.0
+    },
+    "bubble": {
+      "plan": [
+        244,
+        576,
+        396,
+        704
+      ],
+      "built": [
+        244.0,
+        576.0,
+        396.0,
+        704.0
+      ],
+      "delta_px": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_abs_delta": 0.0
+    },
+    "key-chatbot": {
+      "plan": [
+        267,
+        720,
+        372,
+        756
+      ],
+      "built": [
+        230.5,
+        720.0,
+        409.5,
+        760.0
+      ],
+      "delta_px": [
+        -36.5,
+        0.0,
+        37.5,
+        4.0
+      ],
+      "max_abs_delta": 37.5
+    },
+    "stack": {
+      "plan": [
+        684,
+        576,
+        836,
+        688
+      ],
+      "built": [
+        684.0,
+        576.0,
+        836.0,
+        688.0
+      ],
+      "delta_px": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_abs_delta": 0.0
+    },
+    "key-aicontent": {
+      "plan": [
+        685,
+        720,
+        835,
+        756
+      ],
+      "built": [
+        670.5,
+        720.0,
+        849.5,
+        760.0
+      ],
+      "delta_px": [
+        -14.5,
+        0.0,
+        14.5,
+        4.0
+      ],
+      "max_abs_delta": 14.5
+    },
+    "gen-card": {
+      "plan": [
+        244,
+        496,
+        476,
+        660
+      ],
+      "built": [
+        244.0,
+        496.0,
+        476.0,
+        660.0
+      ],
+      "delta_px": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_abs_delta": 0.0
+    },
+    "gen-card_centred": {
+      "plan": [
+        424,
+        496,
+        656,
+        660
+      ],
+      "built": [
+        424.0,
+        496.0,
+        656.0,
+        660.0
+      ],
+      "delta_px": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_abs_delta": 0.0
+    },
+    "key-generated": {
+      "plan": [
+        270,
+        686,
+        450,
+        722
+      ],
+      "built": [
+        253.5,
+        686.0,
+        466.5,
+        726.0
+      ],
+      "delta_px": [
+        -16.5,
+        0.0,
+        16.5,
+        4.0
+      ],
+      "max_abs_delta": 16.5
+    },
+    "mod-card": {
+      "plan": [
+        604,
+        496,
+        836,
+        660
+      ],
+      "built": [
+        604.0,
+        496.0,
+        836.0,
+        660.0
+      ],
+      "delta_px": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_abs_delta": 0.0
+    },
+    "key-modified": {
+      "plan": [
+        637,
+        686,
+        802,
+        722
+      ],
+      "built": [
+        613.5,
+        686.0,
+        826.5,
+        726.0
+      ],
+      "delta_px": [
+        -23.5,
+        0.0,
+        24.5,
+        4.0
+      ],
+      "max_abs_delta": 24.5
+    },
+    "photo": {
+      "plan": [
+        340,
+        420,
+        740,
+        646
+      ],
+      "built": [
+        340.0,
+        420.0,
+        740.0,
+        646.0
+      ],
+      "delta_px": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_abs_delta": 0.0
+    },
+    "key-photo": {
+      "plan": [
+        450,
+        372,
+        630,
+        408
+      ],
+      "built": [
+        433.5,
+        372.0,
+        646.5,
+        412.0
+      ],
+      "delta_px": [
+        -16.5,
+        0.0,
+        16.5,
+        4.0
+      ],
+      "max_abs_delta": 16.5
+    },
+    "key-color": {
+      "plan": [
+        412,
+        672,
+        667,
+        708
+      ],
+      "built": [
+        391.5,
+        672.0,
+        688.5,
+        712.0
+      ],
+      "delta_px": [
+        -20.5,
+        0.0,
+        21.5,
+        4.0
+      ],
+      "max_abs_delta": 21.5
+    },
+    "tag-2": {
+      "plan": [
+        740,
+        556,
+        856,
+        694
+      ],
+      "built": [
+        740.0,
+        596.0,
+        846.0,
+        690.0
+      ],
+      "delta_px": [
+        0.0,
+        40.0,
+        -10.0,
+        -4.0
+      ],
+      "max_abs_delta": 40.0
+    },
+    "tag-2_body": {
+      "plan": [
+        754,
+        596,
+        856,
+        690
+      ],
+      "built": [
+        744.0,
+        596.0,
+        846.0,
+        690.0
+      ],
+      "delta_px": [
+        -10.0,
+        0.0,
+        -10.0,
+        0.0
+      ],
+      "max_abs_delta": 10.0
+    },
+    "key-disclose": {
+      "plan": [
+        736,
+        710,
+        856,
+        746
+      ],
+      "built": [
+        722.0,
+        710.0,
+        868.0,
+        750.0
+      ],
+      "delta_px": [
+        -14.0,
+        0.0,
+        12.0,
+        4.0
+      ],
+      "max_abs_delta": 14.0
+    },
+    "conn-left_ends": {
+      "plan": [
+        [
+          522.32,
+          500
+        ],
+        [
+          320,
+          576
+        ]
+      ],
+      "built": [
+        [
+          486.96,
+          496.0
+        ],
+        [
+          320.0,
+          576.0
+        ]
+      ]
+    },
+    "conn-right_ends": {
+      "plan": [
+        [
+          557.68,
+          500
+        ],
+        [
+          760,
+          576
+        ]
+      ],
+      "built": [
+        [
+          593.04,
+          496.0
+        ],
+        [
+          760.0,
+          576.0
+        ]
+      ]
+    },
+    "conn-or_ends": {
+      "plan": [
+        [
+          476,
+          578
+        ],
+        [
+          604,
+          578
+        ]
+      ],
+      "built": [
+        [
+          476.0,
+          578.0
+        ],
+        [
+          604.0,
+          578.0
+        ]
+      ]
+    }
+  },
+  "rect_deviation": "Small and itemised. The only systematic one is the KEY SEATS: the plan's label boxes imply JetBrains Mono 800 at ~23 core px, and the GRAPHIC CHART's own reference (run 15) sets the non-term key at 28. This module uses 26 with the plan's letter-spacing, keeps EVERY key centre the plan's own value, and re-derives each seat as ink + 12 px. plans/eudisclosure_scene_notes.md carries every other one.",
+  "phone_sizes": {
+    "a hanging label": {
+      "core_box": [
+        462.0,
+        188.0,
+        618.0,
+        304.0
+      ],
+      "held_at_s": 2.0,
+      "phone_px_at_split": [
+        58.5,
+        43.5
+      ],
+      "plan_phone_px": [
+        58.5,
+        45.0
+      ]
+    },
+    "a sparkle picture": {
+      "core_box": [
+        244.0,
+        304.0,
+        476.0,
+        468.0
+      ],
+      "held_at_s": 12.4,
+      "phone_px_at_split": [
+        87.0,
+        61.5
+      ],
+      "plan_phone_px": [
+        87.0,
+        61.6
+      ]
+    },
+    "a dog-eared photo": {
+      "core_box": [
+        604.0,
+        304.0,
+        836.0,
+        468.0
+      ],
+      "held_at_s": 13.8,
+      "phone_px_at_split": [
+        87.0,
+        61.5
+      ],
+      "plan_phone_px": [
+        87.0,
+        61.6
+      ]
+    },
+    "a framed photograph": {
+      "core_box": [
+        340.0,
+        228.0,
+        740.0,
+        454.0
+      ],
+      "held_at_s": 15.7,
+      "phone_px_at_split": [
+        150.0,
+        84.8
+      ],
+      "plan_phone_px": [
+        150.0,
+        84.7
+      ]
+    }
+  },
+  "connectors": {
+    "conn-left": {
+      "from": [
+        486.96,
+        304.0
+      ],
+      "end": [
+        320.0,
+        384.0
+      ],
+      "target": "bubble",
+      "draws": 3.96,
+      "node_lands": 4.1
+    },
+    "conn-right": {
+      "from": [
+        593.04,
+        304.0
+      ],
+      "end": [
+        760.0,
+        384.0
+      ],
+      "target": "stack",
+      "draws": 5.06,
+      "node_lands": 5.2
+    },
+    "conn-or": {
+      "from": [
+        476.0,
+        386.0
+      ],
+      "end": [
+        604.0,
+        386.0
+      ],
+      "target": "mod-card",
+      "draws": 12.6,
+      "node_lands": 12.92
+    },
+    "helper": "anchor_points(box, n, side, inset=0.16)",
+    "verdict": "PASS"
+  },
+  "gutters": {
+    "floor_core_px": 16.0,
+    "aim_core_px": 24.0,
+    "per_chapter": {
+      "chapter0": {
+        "tightest_pair": "key-disclosure <-> bubble",
+        "tightest_core_px": 232.0,
+        "at_cutout_k095_px": 220.4
+      },
+      "chapter1": {
+        "tightest_pair": "gen-card <-> mod-card",
+        "tightest_core_px": 128.0,
+        "at_cutout_k095_px": 121.6
+      },
+      "chapter2": {
+        "tightest_pair": "key-disclosure <-> key-photo",
+        "tightest_core_px": 28.0,
+        "at_cutout_k095_px": 26.6
+      }
+    },
+    "tightest_in_video": {
+      "pair": "key-disclosure <-> key-photo",
+      "core_px": 28.0,
+      "at_cutout_k095_px": 26.6
+    },
+    "verdict": "PASS"
+  },
+  "symmetry": {
+    "per_chapter": {
+      "chapter0": {
+        "subject_ink_x": [
+          230.5,
+          849.5
+        ],
+        "subject_axis": 540.0,
+        "subject_error_px": 0.0,
+        "full_ink_x": [
+          230.5,
+          849.5
+        ],
+        "full_axis": 540.0,
+        "full_error_px": 0.0
+      },
+      "chapter1": {
+        "subject_ink_x": [
+          244.0,
+          836.0
+        ],
+        "subject_axis": 540.0,
+        "subject_error_px": 0.0,
+        "full_ink_x": [
+          244.0,
+          836.0
+        ],
+        "full_axis": 540.0,
+        "full_error_px": 0.0
+      },
+      "chapter2": {
+        "subject_ink_x": [
+          334.0,
+          746.0
+        ],
+        "subject_axis": 540.0,
+        "subject_error_px": 0.0,
+        "full_ink_x": [
+          334.0,
+          868.0
+        ],
+        "full_axis": 601.0,
+        "full_error_px": 61.0,
+        "declared_offset": "The payoff label and its key sit right of the axis by construction: the label HANGS OFF the photograph's right edge on a string (plan beat 6), the photograph itself is centred on 540.0 to 0.0 px, and the label lives for the last 1.26 s of the argument."
+      }
+    },
+    "verdict": "PASS"
+  },
+  "band": {
+    "ink_core_y": [
+      94.0,
+      568.0
+    ],
+    "ink_canvas_y": [
+      286.0,
+      760.0
+    ],
+    "ink_x": [
+      230.5,
+      868.0
+    ],
+    "declared_band_core": [
+      94.0,
+      568.0
+    ],
+    "right_rail_clearance_px": 50.0,
+    "left_rail_clearance_px": 68.5,
+    "verdict": "PASS"
+  },
+  "labels": {
+    "pairs": {
+      "key-disclosure": {
+        "host": "tag",
+        "side": "above",
+        "key_axis": 540.0,
+        "host_axis": 540.0,
+        "offset_px": 0.0,
+        "band_px": 23.4
+      },
+      "key-chatbot": {
+        "host": "bubble",
+        "side": "below",
+        "key_axis": 320.0,
+        "host_axis": 320.0,
+        "offset_px": 0.0,
+        "band_px": 22.8
+      },
+      "key-aicontent": {
+        "host": "stack",
+        "side": "below",
+        "key_axis": 760.0,
+        "host_axis": 760.0,
+        "offset_px": 0.0,
+        "band_px": 22.8
+      },
+      "key-generated": {
+        "host": "gen-card",
+        "side": "below",
+        "key_axis": 360.0,
+        "host_axis": 360.0,
+        "offset_px": 0.0,
+        "band_px": 34.8
+      },
+      "key-modified": {
+        "host": "mod-card",
+        "side": "below",
+        "key_axis": 720.0,
+        "host_axis": 720.0,
+        "offset_px": 0.0,
+        "band_px": 34.8
+      },
+      "key-photo": {
+        "host": "photo",
+        "side": "above",
+        "key_axis": 540.0,
+        "host_axis": 540.0,
+        "offset_px": 0.0,
+        "band_px": 60.0
+      },
+      "key-color": {
+        "host": "photo",
+        "side": "below",
+        "key_axis": 540.0,
+        "host_axis": 540.0,
+        "offset_px": 0.0,
+        "band_px": 60.0
+      },
+      "key-disclose": {
+        "host": "tag-2",
+        "side": "below",
+        "key_axis": 795.0,
+        "host_axis": 793.0,
+        "offset_px": 2.0,
+        "band_px": 15.9
+      }
+    },
+    "verdict": "PASS"
+  },
+  "outro": {
+    "last_board_ink": 23.02,
+    "outro_anchor": 23.36,
+    "clear_s": 0.34,
+    "sheet": {
+      "up": 23.36,
+      "d": 0.46,
+      "chip_in": 23.86
+    },
+    "verdict": "PASS"
+  },
+  "board_mode": "chapters",
+  "seams": [
+    10.26,
+    14.6
+  ],
+  "emphases": [
+    {
+      "at": 7.42,
+      "target": "stack",
+      "kind": "panel border flip",
+      "sel": "#stack .stkc",
+      "from": "#141416",
+      "to": "rgb(221,114,89)",
+      "duration": 0.38,
+      "dies_at": 10.26,
+      "why": "LAW 38 rule 2: a DRAWN object takes BOXING, and the DOM lane's boxing is the border flip on the object's own border \u2014 no new geometry, therefore no new gutter. Never a ring."
+    }
+  ],
+  "interior_events": {
+    "gen-horizon": {
+      "host": "gen-card",
+      "sel": "#gen-card .ghz",
+      "t": [
+        11.0,
+        14.6
+      ]
+    },
+    "gen-spark": {
+      "host": "gen-card",
+      "sel": "#gen-card .gspk",
+      "t": [
+        11.54,
+        14.6
+      ]
+    },
+    "mod-dogear": {
+      "host": "mod-card",
+      "sel": "#mod-card .fink",
+      "t": [
+        12.92,
+        14.6
+      ]
+    },
+    "mod-sun": {
+      "host": "mod-card",
+      "sel": "#mod-card .fink",
+      "t": [
+        12.92,
+        14.6
+      ]
+    },
+    "mod-mountain": {
+      "host": "mod-card",
+      "sel": "#mod-card .fink",
+      "t": [
+        12.92,
+        14.6
+      ]
+    },
+    "mod-stroke": {
+      "host": "mod-card",
+      "sel": "#mod-card .mstk",
+      "t": [
+        13.3,
+        14.6
+      ]
+    },
+    "photo-mountain": {
+      "host": "photo",
+      "sel": "#photo .fink",
+      "t": [
+        14.86,
+        23.36
+      ]
+    },
+    "photo-sun": {
+      "host": "photo",
+      "sel": "#photo .psun",
+      "t": [
+        14.86,
+        23.36
+      ],
+      "events": {
+        "recolour": 20.42,
+        "rays_extend": 20.96
+      }
+    },
+    "photo-spark": {
+      "host": "photo",
+      "sel": "#photo .pspk",
+      "t": [
+        18.86,
+        23.36
+      ]
+    }
+  },
+  "content_band_core": [
+    94.0,
+    568.0
+  ],
+  "content_band_canvas": [
+    286.0,
+    760.0
+  ],
+  "marks_on_stage": 0,
+  "cutout_lane_marks": 6
+}

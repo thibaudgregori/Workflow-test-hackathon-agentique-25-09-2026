@@ -1,0 +1,19 @@
+{
+  "verdict": "PASS",
+  "vid": "cursorworkspace",
+  "objects": 2,
+  "seal_rounds": 6,
+  "module": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/gen/cursorworkspace_scene.py",
+  "handoff": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/plans/cursorworkspace_scene_handoff.md",
+  "evidence": {
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/gen/cursorworkspace_scene.py": "f8c1e9bf072b2882b4e82bb686b23e563384824c603ef669ac238a059a31f12a",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/plans/cursorworkspace_scene_handoff.md": "0b6586fca77d4a307092ec45d2e8ae7e2fa5d3479987c383fe587fd4dae3c3b4",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/phone_reader_cursorworkspace_artwork.json": "cf9234aac15d8c8f10bb2fd7123800f95ed3ba1097df2458135f89c5c2c77928",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/phone_reader_cursorworkspace_artwork_round2.json": "c1cf0039355fc4375ceafaf1a7108bb016501f44a38d68a8392502454b0955db",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/phone_reader_cursorworkspace_artwork_round3.json": "feb676415e0b4e425acc95f321681e6618e4c373c73c5267831ea86cc66c9c06",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/phone_reader_cursorworkspace_artwork_round4.json": "c5f9ab7ed3e967b28f4d5599ce083955e0bf1183ff59a4858434fa36cc2daf93",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/phone_reader_cursorworkspace_artwork_round5.json": "116a5044b0add1a885b1a852c7fe74ca4a56934395358f12cd3980810188a349",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/phone_reader_cursorworkspace_artwork_round6.json": "2725fa811ed6bb66c71f4a3887efdd5215386d5e8bc0d3500f7da62a4ea4e4b7",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/artwork_scores_cursorworkspace.json": "a12d054f84b43aa30348c38dbca4196388289ee3eaa5aa6e0e512ed0b32cdbe9"
+  }
+}

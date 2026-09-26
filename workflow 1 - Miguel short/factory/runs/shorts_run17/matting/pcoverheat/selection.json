@@ -1,0 +1,206 @@
+{
+  "version": 1,
+  "status": "reviewed",
+  "identity": {
+    "plate_sha256": "413a61abb71c37a3cd4cd3a991f327c5c96d7128d0818af3a0b01d421b7057b2",
+    "source_sha256": "283859c43bba5c3c1985f7e3e71ab053a2552b8f1b69b29d9fa19be20d38a17a",
+    "crop_sha256": "726df4ce0b549b6d50abb6e2c5b0a6e62b31f0a5621bfd18dee244ce00739ce7",
+    "first_frame_sha256": "e25c3270a940f517db69cf7df9ff583c603de933e5fdd74b8305f207d19cf2e7",
+    "width": 1620,
+    "height": 900,
+    "fps": 25.0,
+    "frames": 929
+  },
+  "mask": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/pcoverheat/selection.mask.png",
+  "mask_sha256": "ea50905a4136137474986c8348e27682615fbf0b60cbdaad5be548c65abcdac4",
+  "base_mask_sha256": "b6a986add829168cd65e9b0983d0cf025c94f02702114cd632227ab4d9c8a54e",
+  "edits": [],
+  "reviewer": "visual-agent",
+  "notes": "Inspected the actual first frame of plate_wide_25.mp4 (1620x900, crown at y=68) and the BiRefNet mask kf_00000.png at full frame plus gamma-lifted 8-10x zooms. Cap crown and brim edge follow the hat. Both ears are fully inside, boundary on the outer helix against the black chair. Jaw, beard, moustache, chin and neck are inside. Both shoulders and the shirt are inside; at the black-on-black shoulder-to-chair junctions (x 620-820 and x 1010-1210, y 480-640) the gamma-lifted pixels show the folded shirt inside the line and the smooth chair backrest outside it. The chair wing left of the head (chair_prompt box 668,239-790,506) and the chair column right of the head are excluded. No hands are visible in this frame. Mask is one connected component, zero interior holes, 31.3 percent coverage, no top/left/right frame-edge contact. No include or exclude polygon was needed, so edits.json is an explicit empty list and the inspected mask is approved unchanged.",
+  "crop": {
+    "file": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/pcoverheat/plate_wide_25.mp4",
+    "master": [
+      3840,
+      2160,
+      929
+    ],
+    "crop": "3258x1810+16+238",
+    "scale_k": 0.497238,
+    "head_px_on_canvas": 451.8,
+    "head_frac_of_1920": 0.2353,
+    "face_px_on_canvas": 335.6,
+    "cap_top_on_plate": 58.7,
+    "chin_on_plate": 527.4,
+    "face_cx_on_plate": 900.4,
+    "shoulder_rule_crop_w": 2117,
+    "dropped": 0,
+    "kept_dupes": [],
+    "expect_frames": 929,
+    "ffmpeg_vf": "setpts=N/(25*TB),crop=3258:1810:16:238,scale=1620:900:flags=lanczos",
+    "plate_size": [
+      1620,
+      900
+    ],
+    "paint_scale": 1.1,
+    "head_parity": {
+      "crop": "2172x1810+740+238",
+      "scale_k": 0.497238,
+      "plate_size": [
+        1080,
+        900
+      ]
+    },
+    "probe": {
+      "width": 1620,
+      "height": 900,
+      "r_frame_rate": "25/1",
+      "duration": "37.160000",
+      "nb_read_frames": "929"
+    },
+    "headroom": {
+      "cap_top_on_canvas_px": 64.6,
+      "target_on_canvas_px": 64.0,
+      "hard_floor_on_canvas_px": 24.0,
+      "bottom_planted": false,
+      "slid_up_master_px": 112,
+      "note": "the crop is bottom-planted unless that would cut the crown; sliding it up spends the bottom of his chest, which the format runs off the canvas anyway, and touches neither `k` (head height on canvas) nor `x0` (face centring)"
+    },
+    "overwide": {
+      "applied": true,
+      "k": {
+        "exact": "90/181",
+        "float": 0.4972375691
+      },
+      "lattice": {
+        "extension_step_master_px": 181,
+        "plate_width_multiple_of": 180,
+        "derivation": "box_w = plate_w * 1.10 whole (plate_w % 10), EVEN (plate_w % 20), and plate_w moves in steps of p=90; lcm(20, 90) = 180"
+      },
+      "measured_need_master_px": {
+        "left": 396.9,
+        "right": 347.9
+      },
+      "need_floor_master_px": {},
+      "margin_floor": {
+        "canvas_px": 24.0,
+        "master_px": 43.9,
+        "source": "edge_clip_check's own limb-margin floor"
+      },
+      "extension": {
+        "left_master_px": 724,
+        "left_plate_px": 360,
+        "left_canvas_px": 396.0,
+        "right_master_px": 362,
+        "right_plate_px": 180,
+        "right_canvas_px": 198.0,
+        "left_headroom_remaining_master_px": 16,
+        "right_headroom_remaining_master_px": 566,
+        "clamped_by_master_edge": {
+          "left": false,
+          "right": false
+        },
+        "lattice_padding_steps": 1
+      },
+      "window_headparity": "2172x1810+740+238",
+      "window_overwide": "3258x1810+16+238",
+      "crop": [
+        3258,
+        1810,
+        16,
+        238
+      ],
+      "plate_size": [
+        1620,
+        900
+      ],
+      "plate_aspect": "1620:900 = 1.800:1",
+      "plate_box": {
+        "w": 1782.0,
+        "h": 990.0,
+        "left": -450.0,
+        "top": 930.0,
+        "right": 1332.0,
+        "centred": false,
+        "note": "the origin is NOT (1080 - box_w)/2.  An over-wide plate is deliberately asymmetric; the generator's plate_origin() reads `left` from here, and ship.py's edge gate takes it as --edge-box."
+      },
+      "nothing_on_canvas_moves": {
+        "visible_master_window_headparity": [
+          838.73,
+          2813.27
+        ],
+        "visible_master_window_overwide": [
+          838.73,
+          2813.27
+        ],
+        "visible_window_drift_master_px": 0.0,
+        "visible_window_drift_canvas_px": 0.0,
+        "head_on_delivery_canvas_px": 497.0,
+        "head_law_framing_md": 496.0,
+        "face_centre_canvas_x": 540.44,
+        "face_dx_pct": 0.041,
+        "frozen_post_params_still_valid": "BLEED 8, MORPH_K 2, SIGMA_HI 4.0, FEATHER 0.55, RIM_PX 7 are all in PLATE px and k is unchanged, so a plate px is the same physical size it has always been"
+      },
+      "cost": "the plate carries 1.50x the columns, so the track and the staged layers cost proportionally more, and the chassis reads a non-centred box.  Nothing the viewer receives changes except that his hands now have an outline where the frame cuts them.",
+      "proof": "this only MAKES the plate.  The window is proved afterwards on the newly tracked SAM2 alpha, every frame, by pipeline/edge_clip_check.py inside ship.py.",
+      "silhouette_measurement": {
+        "crop_window": "2172x?+740+238",
+        "frames_measured": 156,
+        "sweep_rows_inside_crop": 640,
+        "left": {
+          "shoulder_baseline_master_row": 2007,
+          "rows_above_baseline": 589,
+          "contact_coverage_at_baseline": 0.9103,
+          "extreme_master_x_above_baseline": 387,
+          "head_parity_border_master_x": 740,
+          "clearance_master_px": 353
+        },
+        "right": {
+          "shoulder_baseline_master_row": 1953,
+          "rows_above_baseline": 571,
+          "contact_coverage_at_baseline": 0.9167,
+          "extreme_master_x_above_baseline": 3216,
+          "head_parity_border_master_x": 2912,
+          "clearance_master_px": 304
+        }
+      },
+      "sweep": {
+        "file": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/gen/_birefnet_master_pcoverheat.json",
+        "frames_measured": 156,
+        "stride": 6,
+        "model": "birefnet-general",
+        "wall_seconds": 106.9,
+        "lane": {
+          "where": "modal",
+          "app": "shorts-factory-birefnet",
+          "gpu": "A10G",
+          "container": "ac185888-b2b9-481b-bfe0-35cdc3ce748b",
+          "onnx": "birefnet-general.onnx",
+          "providers": [
+            "CUDAExecutionProvider",
+            "CPUExecutionProvider"
+          ],
+          "input_bytes": 26832651,
+          "model_load_seconds": 4.3,
+          "inference_seconds": 83.3,
+          "seconds_per_frame": 0.534,
+          "t_import_epoch": 1788820140.5644643,
+          "t_fn_enter_epoch": 1788820141.736146,
+          "t_fn_exit_epoch": 1788820233.630068,
+          "proxy": true,
+          "proxy_seconds": 5.0,
+          "client_wall_seconds": 106.9,
+          "uploaded_bytes": 26832651,
+          "cold_start_seconds": 11.33,
+          "billed_container_seconds": 95.1,
+          "measured_cost_usd": 0.0424,
+          "cost_breakdown_usd": {
+            "gpu": 0.0291,
+            "cpu": 0.01,
+            "mem": 0.0034
+          }
+        }
+      }
+    }
+  },
+  "reuse_scope": "this exact source, plate and crop only"
+}

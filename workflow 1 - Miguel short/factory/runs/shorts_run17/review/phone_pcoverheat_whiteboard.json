@@ -1,0 +1,107 @@
+{
+ "label": "pcoverheat_whiteboard",
+ "video": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/pcoverheat_whiteboard.mp4",
+ "phone_scale": "405x720",
+ "sheet": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/phone_pcoverheat_whiteboard.png",
+ "rule": "a FRESH judge (never read the plan) names each crop in <=3 words. Wrong name, hedge, or 'cannot tell' = the object is redesigned, not annotated.",
+ "answer_key": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/phone_pcoverheat_whiteboard.key.json",
+ "answer_key_rule": "DO NOT OPEN the answer key until every judge_answer below is filled in. Reading it first voids the Phone Test.",
+ "objects": [
+  {
+   "i": 0,
+   "t": 2.1,
+   "bbox_norm": [
+    0.3681,
+    0.1777,
+    0.6319,
+    0.3203
+   ],
+   "phone_box_px": [
+    149,
+    127,
+    255,
+    230
+   ],
+   "phone_size_px": [
+    106,
+    103
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/phone_pcoverheat_whiteboard/00.png",
+   "sheet_scale": 1.0,
+   "judge_answer": "overheating laptop",
+   "verdict": null
+  },
+  {
+   "i": 1,
+   "t": 13.45,
+   "bbox_norm": [
+    0.3681,
+    0.2891,
+    0.6319,
+    0.3789
+   ],
+   "phone_box_px": [
+    149,
+    208,
+    255,
+    272
+   ],
+   "phone_size_px": [
+    106,
+    64
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/phone_pcoverheat_whiteboard/01.png",
+   "sheet_scale": 1.0,
+   "judge_answer": "download arrow",
+   "verdict": null
+  },
+  {
+   "i": 2,
+   "t": 16.3,
+   "bbox_norm": [
+    0.2813,
+    0.1484,
+    0.7187,
+    0.2344
+   ],
+   "phone_box_px": [
+    113,
+    106,
+    291,
+    168
+   ],
+   "phone_size_px": [
+    178,
+    62
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/phone_pcoverheat_whiteboard/02.png",
+   "sheet_scale": 1.0,
+   "judge_answer": "speech bubble",
+   "verdict": null
+  },
+  {
+   "i": 3,
+   "t": 25.6,
+   "bbox_norm": [
+    0.2396,
+    0.1739,
+    0.7604,
+    0.3164
+   ],
+   "phone_box_px": [
+    97,
+    125,
+    307,
+    227
+   ],
+   "phone_size_px": [
+    210,
+    102
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/phone_pcoverheat_whiteboard/03.png",
+   "sheet_scale": 1.0,
+   "judge_answer": "process monitor table",
+   "verdict": null
+  }
+ ]
+}

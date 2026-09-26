@@ -1,0 +1,107 @@
+{
+ "label": "aieducation_split",
+ "video": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/output/aieducation_split.mp4",
+ "phone_scale": "405x720",
+ "sheet": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/review/phone_aieducation_split.png",
+ "rule": "a FRESH judge (never read the plan) names each crop in <=3 words. Wrong name, hedge, or 'cannot tell' = the object is redesigned, not annotated.",
+ "answer_key": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/review/phone_aieducation_split.key.json",
+ "answer_key_rule": "DO NOT OPEN the answer key until every judge_answer below is filled in. Reading it first voids the Phone Test.",
+ "objects": [
+  {
+   "i": 0,
+   "t": 2.4,
+   "bbox_norm": [
+    0.3056,
+    0.1385,
+    0.6944,
+    0.3438
+   ],
+   "phone_box_px": [
+    123,
+    99,
+    281,
+    247
+   ],
+   "phone_size_px": [
+    158,
+    148
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/review/phone_aieducation_split/00.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  },
+  {
+   "i": 1,
+   "t": 12.6,
+   "bbox_norm": [
+    0.3426,
+    0.1833,
+    0.6574,
+    0.3604
+   ],
+   "phone_box_px": [
+    138,
+    131,
+    266,
+    259
+   ],
+   "phone_size_px": [
+    128,
+    128
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/review/phone_aieducation_split/01.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  },
+  {
+   "i": 2,
+   "t": 17.4,
+   "bbox_norm": [
+    0.5833,
+    0.1885,
+    0.8426,
+    0.3396
+   ],
+   "phone_box_px": [
+    236,
+    135,
+    341,
+    244
+   ],
+   "phone_size_px": [
+    105,
+    109
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/review/phone_aieducation_split/02.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  },
+  {
+   "i": 3,
+   "t": 25.0,
+   "bbox_norm": [
+    0.3241,
+    0.1917,
+    0.6759,
+    0.3792
+   ],
+   "phone_box_px": [
+    131,
+    138,
+    273,
+    273
+   ],
+   "phone_size_px": [
+    142,
+    135
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/review/phone_aieducation_split/03.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  }
+ ]
+}

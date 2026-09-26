@@ -1,0 +1,101 @@
+{
+  "tag": "kimifable_cand_chamfer",
+  "phone": [
+    405,
+    720
+  ],
+  "objects": [
+    {
+      "i": 0,
+      "intended": "a price tag",
+      "t": 3.0,
+      "chapter": 0,
+      "core": [
+        281.0,
+        344.0,
+        431.0,
+        492.0
+      ],
+      "phone_box": [
+        105,
+        201,
+        162,
+        256
+      ],
+      "phone_px": [
+        57,
+        55
+      ],
+      "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/proofs/kimifable_cand_chamfer/00.png"
+    },
+    {
+      "i": 1,
+      "intended": "a benchmark scorecard",
+      "t": 10.0,
+      "chapter": 1,
+      "core": [
+        340.0,
+        128.0,
+        740.0,
+        408.0
+      ],
+      "phone_box": [
+        128,
+        120,
+        278,
+        225
+      ],
+      "phone_px": [
+        150,
+        105
+      ],
+      "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/proofs/kimifable_cand_chamfer/01.png"
+    },
+    {
+      "i": 2,
+      "intended": "a website layout",
+      "t": 15.6,
+      "chapter": 2,
+      "core": [
+        226.0,
+        240.0,
+        486.0,
+        400.0
+      ],
+      "phone_box": [
+        85,
+        162,
+        182,
+        222
+      ],
+      "phone_px": [
+        97,
+        60
+      ],
+      "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/proofs/kimifable_cand_chamfer/02.png"
+    },
+    {
+      "i": 3,
+      "intended": "stacked browser windows",
+      "t": 24.6,
+      "chapter": 3,
+      "core": [
+        200.0,
+        120.0,
+        500.0,
+        320.0
+      ],
+      "phone_box": [
+        75,
+        117,
+        188,
+        192
+      ],
+      "phone_px": [
+        113,
+        75
+      ],
+      "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/proofs/kimifable_cand_chamfer/03.png"
+    }
+  ]
+}

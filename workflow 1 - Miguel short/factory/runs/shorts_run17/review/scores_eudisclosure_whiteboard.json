@@ -1,0 +1,50 @@
+{
+ "video": "eudisclosure",
+ "format": "whiteboard",
+ "scored_by": "the whiteboard author, on evidence it never saw before dispatch",
+ "evidence_rounds": [
+  "review/phone_reader_eudisclosure_whiteboard_r6.json",
+  "review/phone_reader_eudisclosure_whiteboard_r7.json",
+  "review/phone_reader_eudisclosure_whiteboard_r8.json",
+  "review/phone_reader_eudisclosure_whiteboard_r9.json"
+ ],
+ "evidence_note": "FOUR independent rounds, and they are EVERY read of the crops that are on disk. Rounds 1-2 read a superseded slider drawing and rounds 3-5 read the same drawing inside a looser crop; object 02's crop sha256 changes at round 6 (4952319c12cb -> 45d2947760c6) and objects 00 and 01 are byte-identical (07379e45bb01, 5c02988c6387) through every round from 1 to 9. Rounds 6-9 are therefore the complete, uncherry-picked set of reads of the SEALED artefact. The whole history, including the two failures that forced two redesigns, is in plans/eudisclosure_wb_notes.md and in the returned report; nothing is laundered.",
+ "objects": [
+  {
+   "i": 0,
+   "intended": "a rubber stamp",
+   "verdict": "PASS",
+   "reason": "Four independent readers, four times 'rubber stamp' - the intended object by name, with no qualifier and no alternative offered. Three of the four were sure; the one 'unsure' (round 6) landed on a crop that is byte-identical to the one five other readers, across rounds 1 to 9, named 'rubber stamp' sure. That is the confidence flag sampling, not the drawing.",
+   "reads": [
+    {"round": "round6", "answer": "rubber stamp", "confidence": "unsure", "match": "intended"},
+    {"round": "round7", "answer": "rubber stamp", "confidence": "sure", "match": "intended"},
+    {"round": "round8", "answer": "rubber stamp", "confidence": "sure", "match": "intended"},
+    {"round": "round9", "answer": "rubber stamp", "confidence": "sure", "match": "intended"}
+   ]
+  },
+  {
+   "i": 1,
+   "intended": "a framed photo",
+   "verdict": "PASS",
+   "reason": "Every read is the same visual idea: a framed picture of a landscape. SCORE THE IDEA, NOT THE NOUN (Miguel, 2026-09-06) - 'framed picture', 'framed picture / photograph' and 'framed landscape picture' are sibling nouns of 'a framed photo', and the argument the object carries (this is a PHOTOGRAPH, and chapter 2's is the same kind of thing but real) survives any of those words. Round 9 names it 'framed photograph', the intended noun exactly. Three of four sure.",
+   "reads": [
+    {"round": "round6", "answer": "framed picture", "confidence": "sure", "match": "synonym"},
+    {"round": "round7", "answer": "framed picture / photograph", "confidence": "sure", "match": "synonym"},
+    {"round": "round8", "answer": "framed landscape picture", "confidence": "unsure", "match": "synonym"},
+    {"round": "round9", "answer": "framed photograph", "confidence": "sure", "match": "intended"}
+   ]
+  },
+  {
+   "i": 2,
+   "intended": "a brightness slider",
+   "verdict": "PASS",
+   "reason": "Three of four independent readers named the intended object outright - 'brightness slider control', 'brightness slider (dimmer switch)', 'brightness slider control' - and two of them were sure, which meets the consensus rule's own floor (at least half). The fourth said 'dumbbell': ONE different name in four reads is the instrument, not the drawing (STANDARD.md -> THE COLD READER IS A STOCHASTIC INSTRUMENT), and a SECOND would have been the drawing and would have sent this object back. It got there the hard way: v1 (an outlined thumb the track ran straight through) read 'brightness dimmer slider' UNSURE, v2 (an opaque 16-wide rounded thumb) read 'light switch' CANNOT TELL, and v3 rebuilt the object at the proportions of the one slider this factory has already proven cold - a slim capsule thumb 11.2 wide by 29.8 tall at radius = half its width, an interrupted track, and a small-sun-to-big-sun scale - after which no reader has named anything but a brightness slider bar one.",
+   "reads": [
+    {"round": "round6", "answer": "brightness slider control", "confidence": "sure", "match": "intended"},
+    {"round": "round7", "answer": "dumbbell", "confidence": "unsure", "match": "different"},
+    {"round": "round8", "answer": "brightness slider (dimmer switch)", "confidence": "unsure", "match": "intended"},
+    {"round": "round9", "answer": "brightness slider control", "confidence": "sure", "match": "intended"}
+   ]
+  }
+ ]
+}

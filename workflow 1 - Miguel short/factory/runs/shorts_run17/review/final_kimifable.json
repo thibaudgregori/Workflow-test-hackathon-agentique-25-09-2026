@@ -1,0 +1,37 @@
+{
+ "vid": "kimifable",
+ "run": "shorts_run17",
+ "clerk": "v3.1 independent",
+ "date": "2026-09-08",
+ "verdict": "PASS",
+ "phone_verdict": "PASS",
+ "confirmed": 0,
+ "renders_judged": 3,
+ "renders_staged": 3,
+ "dismissed": {
+  "split": 5,
+  "cutout": 5,
+  "whiteboard": 3
+ },
+ "clerk_originated_rows": 13,
+ "watcher": {
+  "cands_files_present": false,
+  "reason": "Gemini project over monthly spend cap (429 RESOURCE_EXHAUSTED); render_and_check watcher and gate3_gemini_describe both produced no output",
+  "cost_usd_not_spent": 0.0,
+  "wall_clock_s": null
+ },
+ "phone_test": {
+  "objects": 12,
+  "pass": 12,
+  "fail": 0,
+  "pre_flagged_fails": 0,
+  "mode": "real crops (not spaced-fallback)"
+ },
+ "instruments": "PASS",
+ "report": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/clerk_v3_kimifable.md",
+ "reviewed_files": {
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/staging/youtube/kimifable_split.mp4": "29ac1642db3aae92793fe16ddbb046875676eceba5f0879f0f7c4cdf5219beb7",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/staging/tiktok/kimifable_cutout.mp4": "d88ced4a1fe68c77b8945d1f5049f2905443baf3ec7a86c6af96a6d1b0441da7",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/staging/reels/kimifable_whiteboard.mp4": "626c4ad2b46628a713120007b12108fc0822c071e98a28fa003ed47044fccfdd"
+ }
+}

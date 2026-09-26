@@ -1,0 +1,315 @@
+{
+ "video": "kimifable",
+ "format": "cutout",
+ "fps": 25,
+ "duration": 38.12,
+ "plate": {
+  "box": {
+   "w": 1320.0,
+   "h": 990.0,
+   "left": -120.0,
+   "top": 930.0
+  },
+  "whole_pixels": true,
+  "equals_encoded": {
+   "cut": {
+    "w": 1320,
+    "h": 990
+   },
+   "rim": {
+    "w": 1320,
+    "h": 990
+   }
+  },
+  "derived_from": "the ENCODED size of the staged layers, never PLATE_SCALE, and the origin READ from plate.json"
+ },
+ "seat": 886.2,
+ "shared": {
+  "phone_test_objects": [
+   {
+    "name": "a price tag",
+    "t": 3.0,
+    "space": "norm",
+    "bbox": [
+     0.1907,
+     0.2885,
+     0.4685,
+     0.3594
+    ]
+   },
+   {
+    "name": "a benchmark scorecard",
+    "t": 10.0,
+    "space": "norm",
+    "bbox": [
+     0.2963,
+     0.1542,
+     0.7037,
+     0.3396
+    ]
+   },
+   {
+    "name": "a website layout",
+    "t": 15.6,
+    "space": "norm",
+    "bbox": [
+     0.1778,
+     0.2146,
+     0.4815,
+     0.3277
+    ]
+   },
+   {
+    "name": "a folder of designs",
+    "t": 24.6,
+    "space": "norm",
+    "bbox": [
+     0.1722,
+     0.1521,
+     0.4759,
+     0.2771
+    ]
+   }
+  ]
+ },
+ "matte": {
+  "cut": {
+   "w": 1320,
+   "h": 990
+  },
+  "rim": {
+   "w": 1320,
+   "h": 990
+  },
+  "plate": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/kimifable/plate_display_1320x990.mp4",
+  "session": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/kimifable",
+  "consumed_as_is": "MATTES_FINAL.md is absent, so no decree binds - but nothing here asks for a re-track either.  The shipped layers are consumed as they are and their `needs_final_visual_review` is answered BY EYE, by this author and by the clerk, at the delivered crop and normal playback speed (PRODUCTION.md, 2026-09-06)",
+  "hashes": {
+   "cut": "29612a15c6e06c31d4bcb83020e1c0b36cf88261072f59794f869f77bb69c278",
+   "rim": "bd720ee24fc643e33acc3912a0795be7fe8a97a1b39ee28a68d1db2a1e1001bf",
+   "alpha": "3df30553f5e27b08de6333d31a4107aa0ffaad0e7d977f9a8ea222fac9a9f4f2"
+  },
+  "frames": 953,
+  "alpha_mode": "soft",
+  "rim_px": 7,
+  "fractional_alpha_pixels": 18428379,
+  "minimum_person_fraction": 0.4286524334251607,
+  "review_status": "needs_final_visual_review",
+  "backend": "matanyone2",
+  "headroom_guard": {
+   "pass": true,
+   "frames_checked": 953,
+   "min_top_clearance_px": 41.800000000000004,
+   "floor_px": 24.0,
+   "unsafe_frames": 0,
+   "worst_frame": 783
+  },
+  "selection": "reviewed",
+  "cost_usd": {
+   "track": 0.02283250587271212,
+   "ship": 0.039835796159862075,
+   "total": 0.06267
+  }
+ },
+ "depth_field": {
+  "seat": {
+   "band": [
+    1007.5,
+    1401.5
+   ],
+   "band_h": 394.0,
+   "inter_lane_gap": 26.0,
+   "seat_offset_from_pill": 64.0,
+   "foundation_offset": 63.61,
+   "drift_from_foundation_seat": 0.39,
+   "margin_px": 169.5,
+   "candidates_scanned": 99,
+   "candidates_safe": 97,
+   "instrument": "5th percentile of the PER-FRAME gutter; the union envelope describes a body that never existed",
+   "lanes": [
+    {
+     "lane": "far",
+     "tile": 78.0,
+     "y": 1007.5,
+     "frames": 318,
+     "gutter_p05": 326.6,
+     "gutter_median": 360.7,
+     "gutter_min_single_frame": 309.0,
+     "frames_under_tile": 0
+    },
+    {
+     "lane": "mid",
+     "tile": 116.0,
+     "y": 1111.5,
+     "frames": 318,
+     "gutter_p05": 310.1,
+     "gutter_median": 334.3,
+     "gutter_min_single_frame": 287.0,
+     "frames_under_tile": 0
+    },
+    {
+     "lane": "near",
+     "tile": 148.0,
+     "y": 1253.5,
+     "frames": 318,
+     "gutter_p05": 317.5,
+     "gutter_median": 336.5,
+     "gutter_min_single_frame": 125.3,
+     "frames_under_tile": 1
+    }
+   ]
+  },
+  "lanes": {
+   "far": {
+    "x0": -216.0,
+    "w": 2018.0,
+    "y": 1007.5,
+    "tile": 78.0,
+    "gap": 30.0,
+    "pitch": 108.0,
+    "tiles": 18,
+    "opacity": 0.34,
+    "dist": 46.0,
+    "travel": 506.0,
+    "steps": 11
+   },
+   "mid": {
+    "x0": -304.0,
+    "w": 2920.0,
+    "y": 1111.5,
+    "tile": 116.0,
+    "gap": 36.0,
+    "pitch": 152.0,
+    "tiles": 19,
+    "opacity": 0.66,
+    "dist": 112.0,
+    "travel": 1232.0,
+    "steps": 11
+   },
+   "near": {
+    "x0": -384.0,
+    "w": 4136.0,
+    "y": 1253.5,
+    "tile": 148.0,
+    "gap": 44.0,
+    "pitch": 192.0,
+    "tiles": 21,
+    "opacity": 1.0,
+    "dist": 208.0,
+    "travel": 2288.0,
+    "steps": 11
+   }
+  },
+  "tiles": 58,
+  "step_beats": [
+   3.52,
+   6.32,
+   9.68,
+   12.76,
+   16.04,
+   19.32,
+   22.44,
+   25.52,
+   29.08,
+   31.72,
+   35.36
+  ],
+  "step_n": 11,
+  "step_pulse_s": 3.21,
+  "foundation_pulse_s": 3.17,
+  "pop_behind": [],
+  "pop_behind_why_none": "cutout law 16 keys the crossing to a beat where he NAMES the tool.  The only two tools this take names are Kimi K3 and Fable 5, and both are STAGE subject marks; ROUND-2/3 law 6 keeps the story's own subject mark out of the depth field (the run-9 defect) and the plan says in as many words that `kimi` and `claude` are deliberately ABSENT from the lanes.  Not one of the six depth marks is ever spoken, so a card carrying one would pop a live app window for a tool the viewer has not heard of, on a beat about somebody else.  The plan declares no window and the plan is the contract.",
+  "cast": [
+   "openai",
+   "gemini",
+   "deepseek",
+   "qwen",
+   "mistral",
+   "grok"
+  ],
+  "cast_source": "plan.cutout_logo_lanes, verbatim",
+  "substitutions": {},
+  "banned_asserted": [
+   "airtable",
+   "anthropic",
+   "anthropic-wordmark",
+   "chatgpt",
+   "claude",
+   "claude-black",
+   "claude-code",
+   "claude-code-sticker",
+   "claude-cowork",
+   "claude-cowork-pale",
+   "claude-mark",
+   "deepseek-mark",
+   "exa",
+   "excalidraw",
+   "figma",
+   "gdrive",
+   "gmail",
+   "google-drive",
+   "kimi",
+   "kimi-mark",
+   "n8n",
+   "notion",
+   "nous-girl",
+   "slack",
+   "spotify",
+   "telegram",
+   "whatsapp",
+   "youtube"
+  ],
+  "opacities": [
+   0.34,
+   0.66,
+   1.0
+  ],
+  "hook_clear_s": 0.939,
+  "foundation": "formats/cutout/lib/cutout_depthfield.py (grokpublish, approved 2026-09-01) - unmodified"
+ },
+ "core": {
+  "left": 0.0,
+  "top": 192.0,
+  "w": 1080.0,
+  "h": 600.0,
+  "placement": {
+   "k": 1.0,
+   "k_uncapped": 1.2922,
+   "left": 0.0,
+   "top": 192.0,
+   "seat": "the scene's own origin: the band already lands legally in this session's MEASURED stage zone at k=1, so the cutout's canvas rects ARE the scene's and the cold Phone Test crops the objects it means to",
+   "stage_zone": [
+    192.0,
+    802.4
+   ],
+   "content_band_core": [
+    94.0,
+    554.0
+   ],
+   "content_band_canvas": [
+    286.0,
+    746.0
+   ],
+   "core_margin": 8.0,
+   "handoff_predicted_scale": "~0.95 (the handoff's SS2 gate-scaling table) - that was the chassis's habit, not a measurement; this session's stage zone is 610.4 px and does not need it"
+  }
+ },
+ "envelope": {
+  "CAP_H_seat_constant": 108.2,
+  "CAP_H_true_rendered": 114.59,
+  "CAP_MIN_CLEAR": 26.5,
+  "true_clear_to_crown": 26.5,
+  "CAP_Y": 886.2,
+  "CAP_Y_pct": 0.4616,
+  "pill_bottom": 943.5,
+  "pill_bottom_pct": 0.4914,
+  "ZY0": 192.0,
+  "ZY1": 802.4,
+  "stage_height": 610.4,
+  "vs_definitive": {
+   "CAP_Y": 949.5,
+   "ZY1": 868.9,
+   "why_different": "a different plate: this session's crown sits well below the plate's top row (bottom_planted false, crop slid up 94 master px), and the plate is OVER-WIDE (1320x990 at -120)"
+  }
+ }
+}

@@ -1,0 +1,52 @@
+{
+ "tag": "merged_r1",
+ "composed_from": [
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/review/phone_reader_aieducation_artwork_r1.json",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/review/phone_reader_aieducation_artwork2_r1.json"
+ ],
+ "note": "Round 1 of the seal. Objects 0, 2 and 3 are the reads of the seal dispatch; object 1 is the read of the REDRAWN peak heart (dispatch seal2) after one reader in three called the first drawing a strawberry. No crop was re-read unchanged: every read here is an independent reader on the crop that is now the artwork, and each read carries its own crop sha256.",
+ "reader": "one independent `claude -p` process per crop, launched from /tmp, handed ONLY the absolute path of a blind copy under a random token - no plan, no topic, no manifest, no sealed key, and no path naming the video",
+ "prompt": "Look at the image at <absolute path of one blind crop> . Name the single everyday object drawn in it. At most FIVE words. Reply with ONE line of JSON and nothing else: {\"name\":\"<=5 words\",\"confidence\":\"sure|unsure|cannot tell\"}",
+ "cli": "2.1.272 (Claude Code)",
+ "dispatched_at": [
+  "2026-09-15T14:50:30",
+  "2026-09-15T14:51:56"
+ ],
+ "source_crops": {
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/review/proofs/crop_seal_00_hook.png": "5a7ced542d9e6772eaa0197d52269fd719d667c57e50b64670879f17406f557e",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/review/proofs/crop_seal_01_heart.png": "4e098b4c4748d93810fee081d5e8120b399795eb4d98dde95bdc46f20ab6295f",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/review/proofs/crop_seal_02_head.png": "cd02eede1da4bdfd5b7f973556b84b1f3ad91bd21b31adfffbc7a40df98469ca",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/review/proofs/crop_seal_03_easel.png": "c6e2acff0ee9d487799cb2eec07d4af921e0e1ee13460409a73c5dc23bcfd571",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/review/proofs/crop_seal2_01_heart.png": "ba31c56aee9b282ba2e780fcab805f90f0df9f5a9e9c85278ef094253b62525c"
+ },
+ "names": [
+  {
+   "i": 0,
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/review/cold/seal_r1-02236b16/00.png",
+   "name": "open book",
+   "confidence": "sure",
+   "crop_sha256": "5a7ced542d9e6772eaa0197d52269fd719d667c57e50b64670879f17406f557e"
+  },
+  {
+   "i": 1,
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/review/cold/seal2_r1-c789cef0/00.png",
+   "name": "heart",
+   "confidence": "unsure",
+   "crop_sha256": "ba31c56aee9b282ba2e780fcab805f90f0df9f5a9e9c85278ef094253b62525c"
+  },
+  {
+   "i": 2,
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/review/cold/seal_r1-02236b16/02.png",
+   "name": "head profile with heart",
+   "confidence": "unsure",
+   "crop_sha256": "cd02eede1da4bdfd5b7f973556b84b1f3ad91bd21b31adfffbc7a40df98469ca"
+  },
+  {
+   "i": 3,
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/review/cold/seal_r1-02236b16/03.png",
+   "name": "easel with canvas",
+   "confidence": "sure",
+   "crop_sha256": "c6e2acff0ee9d487799cb2eec07d4af921e0e1ee13460409a73c5dc23bcfd571"
+  }
+ ]
+}

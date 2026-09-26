@@ -1,0 +1,25 @@
+{
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/projects/cursorworkspace_cutout",
+ "label": "cursorworkspace_cutout",
+ "mode": "phone-test",
+ "composition_px": [
+  1080,
+  1920
+ ],
+ "duration_s": 21.532,
+ "sheet": "shorts_run17/review/phone_cursorworkspace_cutout.png",
+ "manifest": "shorts_run17/review/phone_cursorworkspace_cutout.json",
+ "answer_key": "shorts_run17/review/phone_cursorworkspace_cutout.key.json",
+ "n_objects": 2,
+ "phone_sizes_px": [
+  [
+   250,
+   67
+  ],
+  [
+   210,
+   100
+  ]
+ ],
+ "wall_s": 1.42
+}

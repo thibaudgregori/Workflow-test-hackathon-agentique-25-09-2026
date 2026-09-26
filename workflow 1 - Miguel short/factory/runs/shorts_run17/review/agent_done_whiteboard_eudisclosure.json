@@ -1,0 +1,32 @@
+{
+ "staged": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/staging/reels/eudisclosure_whiteboard.mp4",
+ "phone_verdict": "PASS",
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/projects/eudisclosure_whiteboard",
+ "redesigned": true,
+ "rounds": 3,
+ "blocked": "",
+ "cold_crop_paths": [
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/bc7683b8/00.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/bc7683b8/01.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/bc7683b8/02.png"
+ ],
+ "cands": "MISSING, and not a lane failure: review/cands_eudisclosure_whiteboard.json was never written because the Gemini API project is over its MONTHLY SPENDING CAP (429 RESOURCE_EXHAUSTED on every upload, reproduced 3x by hand). No cands_*.json exists for any video in shorts_run17. render_and_check recorded watch_unavailable and staged on qc_pass alone; no watch_waiver was written because there was no candidate to waive. Details + the exact re-run command: review/watcher_unavailable_eudisclosure_whiteboard.md",
+ "fails": [
+  {
+   "i": 2,
+   "intended": "a brightness slider",
+   "namer_answer": "dumbbell (unsure) - round7, 1 of 4 reads of the sealed crop; instrument noise under STANDARD's own rule, and a SECOND would have sent the object back"
+  },
+  {
+   "i": 2,
+   "intended": "a brightness slider",
+   "namer_answer": "brightness dimmer slider (unsure) - round1, on the SUPERSEDED v1 drawing; forced redesign 1"
+  },
+  {
+   "i": 2,
+   "intended": "a brightness slider",
+   "namer_answer": "light switch (cannot tell) - round2, on the SUPERSEDED v2 drawing; forced redesign 2"
+  }
+ ],
+ "flagged_for_clerk": "1) Gemini watcher UNAVAILABLE run-wide (monthly spend cap) - no cands file for the clerk to adjudicate; see review/watcher_unavailable_eudisclosure_whiteboard.md. 2) LAW OVERRIDE: the two declaration plates read GENERATED / MODIFIED, not the plan's AI GENERATED / AI MODIFIED - caption_identity_guard (GLOBAL LAW 4) refuses the plan's string against the live pill 'AI modified.' (12.88-14.04s). 3) The plan's beat-6 themed OUTRO STAMP is absent: whiteboard_build.outro_block() takes no glyph and forking the shared harness is forbidden - a harness limitation, not a per-video fix. Both are written up in plans/eudisclosure_wb_notes.md."
+}

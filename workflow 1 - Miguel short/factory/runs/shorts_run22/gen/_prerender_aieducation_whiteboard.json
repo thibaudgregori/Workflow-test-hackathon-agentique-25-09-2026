@@ -1,0 +1,111 @@
+{
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/projects/aieducation_whiteboard",
+ "fmt": "whiteboard",
+ "step": 0.25,
+ "checks": {
+  "refs_resolve": {
+   "referenced": 13,
+   "missing": [],
+   "pass": true,
+   "error": null,
+   "wall_s": 0.12
+  },
+  "assets_not_placeholder": {
+   "rasters": 3,
+   "placeholder_shaped": [],
+   "undecodable": [],
+   "report": {
+    "assets/logos/chatgpt.png": {
+     "size": [
+      1024,
+      1024
+     ],
+     "judged": "decode only (capture)"
+    },
+    "assets/logos/claude.png": {
+     "size": [
+      640,
+      640
+     ],
+     "ink_fill": 0.399,
+     "quantised_colours": 1,
+     "diag_fwd": 0.463,
+     "diag_back": 0.541,
+     "bbox": [
+      0,
+      0,
+      640,
+      640
+     ]
+    },
+    "assets/logos/gemini.png": {
+     "size": [
+      640,
+      640
+     ],
+     "ink_fill": 0.353,
+     "quantised_colours": 77,
+     "diag_fwd": 0.381,
+     "diag_back": 0.381,
+     "bbox": [
+      26,
+      26,
+      614,
+      614
+     ]
+    }
+   },
+   "pass": true,
+   "error": null,
+   "wall_s": 0.11
+  },
+  "page_audit": {
+   "ids": 240,
+   "unique_ids": 240,
+   "duplicate_ids": [],
+   "tween_selectors": 153,
+   "dead_tween_targets": [],
+   "pass": true,
+   "error": null,
+   "wall_s": 0.0
+  },
+  "caption_canon_page": {
+   "pills": 31,
+   "modal_height_px": 114.53,
+   "canon_height_px": 114.59,
+   "height_spread_px": 0.0,
+   "tolerance_design_px": 3.0,
+   "heights_off_canon": [],
+   "squarer_than_min_aspect": [],
+   "min_aspect": 1.45,
+   "function_only_beat_law": null,
+   "pass": true,
+   "error": null,
+   "wall_s": 0.0
+  },
+  "gate1_geometry_audit": {
+   "returncode": 0,
+   "errors": 0,
+   "warnings": 0,
+   "warnings_after_waivers": 0,
+   "waived": [],
+   "report": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/projects/aieducation_whiteboard/geometry_audit/report.json",
+   "stdout": "aieducation_whiteboard: 0 errors, 0 warnings (32.1s @ 0.25s step)\n",
+   "stderr": "",
+   "bar": "0 errors, 0 warnings",
+   "pass": true,
+   "error": null,
+   "wall_s": 1.28
+  }
+ },
+ "skipped": {
+  "cutout_edge_fade_guard": "cutout only",
+  "cutout_checks_24_25": "cutout only"
+ },
+ "duration_s": 32.12,
+ "page_zoom": 1.000543114973262,
+ "page_load_wall_s": 1.2,
+ "failed": [],
+ "verdict": "PASS",
+ "total_wall_s": 2.71
+}

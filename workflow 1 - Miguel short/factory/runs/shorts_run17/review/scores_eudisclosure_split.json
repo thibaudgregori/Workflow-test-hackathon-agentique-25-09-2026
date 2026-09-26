@@ -1,0 +1,64 @@
+{
+  "vid": "eudisclosure",
+  "fmt": "split",
+  "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/projects/eudisclosure_split",
+  "verdict": "HOLD",
+  "scored_by": "the split author, on four independent cold-read rounds of BYTE-IDENTICAL crops (sha256 34a6869952f8a764.., bc9bfcf52593fbc9.., c6c1424819ce2e96..)",
+  "reader": "pipeline/cold_read.py dispatch, one independent `claude -p` per crop from /tmp on absolute paths, blind copies under random tokens",
+  "reader_model": "claude-opus-4-1 (remapped by the CLI to Opus 5). THE SEALED READER LANE WAS UNAVAILABLE: plain `claude -p` returned 'You've reached your Fable limit' on every attempt across the session, so the run's own reader - the one that sealed this scene 4/4 sure this morning - could not be used. The substitute was CALIBRATED before it was trusted, on the artwork stage's own sealed crops: see review/reader_instrument_control_eudisclosure_split*.json.",
+  "objects": [
+    {
+      "i": 0,
+      "intended": "a rubber stamp",
+      "verdict": "PASS",
+      "reason": "Four independent readers, four identical answers, all sure.",
+      "reads": [
+        {"round": 1, "name": "rubber stamp", "confidence": "sure", "match": "intended"},
+        {"round": 2, "name": "rubber stamp", "confidence": "sure", "match": "intended"},
+        {"round": 3, "name": "rubber stamp", "confidence": "sure", "match": "intended"},
+        {"round": 4, "name": "rubber stamp", "confidence": "sure", "match": "intended"}
+      ]
+    },
+    {
+      "i": 1,
+      "intended": "a framed photo",
+      "verdict": "PASS",
+      "reason": "Four independent readers, four namings of the same drawn content, three of them sure. SCORE THE IDEA, NOT THE NOUN (Miguel, 2026-09-06): 'framed picture' and 'framed picture of mountain' are the container and the content of a framed photo, and the argument the object carries survives either word. This matches the artwork seal's own profile for this object (4/4 'picture frame', 3/4 sure).",
+      "reads": [
+        {"round": 1, "name": "framed picture of mountain", "confidence": "unsure", "match": "intended"},
+        {"round": 2, "name": "framed picture", "confidence": "sure", "match": "intended"},
+        {"round": 3, "name": "framed picture", "confidence": "sure", "match": "intended"},
+        {"round": 4, "name": "framed picture of mountain", "confidence": "sure", "match": "intended"}
+      ]
+    },
+    {
+      "i": 2,
+      "intended": "a brightness slider",
+      "verdict": "FAIL",
+      "reason": "TWO of four independent readers named a DIFFERENT object ('dumbbell', and 'unidentifiable line drawing' which is a refusal rather than a name), and two more reads dispatched separately added 'barbell' cannot tell and 'dimmer switch (brightness slider)' unsure. Three readers converging on the barbell family is the drawing, not the instrument, and production.py consensus refuses it on MISREAD_MAX. It is NOT rendered. See plans/eudisclosure_split_notes.md for the nine-candidate repair ladder cut and read this session, and for the instrument control that stops this being scored as a clean drawing failure.",
+      "reads": [
+        {"round": 1, "name": "brightness slider control", "confidence": "sure", "match": "intended"},
+        {"round": 2, "name": "unidentifiable line drawing", "confidence": "cannot tell", "match": "different"},
+        {"round": 3, "name": "dumbbell", "confidence": "cannot tell", "match": "different"},
+        {"round": 4, "name": "brightness slider", "confidence": "sure", "match": "intended"}
+      ],
+      "supplementary_reads": [
+        {"round": 5, "name": "dimmer switch (brightness slider)", "confidence": "unsure", "match": "intended"},
+        {"round": 6, "name": "barbell", "confidence": "cannot tell", "match": "different"}
+      ]
+    }
+  ],
+  "instrument_control": {
+    "why": "An instrument that fails a proven-good artefact cannot be used to fail a new one, so the substitute reader was run on the ARTWORK stage's OWN sealed crops - the ones its four sealed rounds named 'rubber stamp' / 'picture frame' / 'brightness slider', every one sure.",
+    "claude-opus-4-5": ["rubber stamp sure", "coffee mug sure", "key sure"],
+    "claude-opus-4-1": ["rubber stamp sure", "framed landscape picture sure", "brightness dimmer slider control UNSURE"],
+    "claude-opus-5[1m]": ["rubber stamp sure", "framed landscape picture sure", "brightness slider UNSURE"],
+    "claude-opus-5": ["rubber stamp sure", "framed picture of mountain sure", "brightness slider control UNSURE"],
+    "finding": "claude-opus-4-5 is not a usable reader at all (2 of 3 sealed objects wrong) and was discarded. The three calibrated aliases name the stamp and the framed photo correctly and confidently, and every one of them hedges on the SEALED slider crop that the run's own reader called sure four times. The confidence token for this object class is a property of today's instrument, measured on a known-good control.",
+    "files": [
+      "review/reader_instrument_control_eudisclosure_split.json",
+      "review/reader_instrument_control_eudisclosure_split_calibrated.json",
+      "review/phone_reader_eudisclosure_split.uncalibrated_opus45.json"
+    ]
+  }
+}

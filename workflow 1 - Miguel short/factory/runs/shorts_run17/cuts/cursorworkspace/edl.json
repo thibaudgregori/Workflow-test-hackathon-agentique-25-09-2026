@@ -1,0 +1,669 @@
+{
+  "vid": "cursorworkspace",
+  "source": "/Users/migle/Movies/2026-09-04 14-17-15.mp4",
+  "source_take_start": 84.61,
+  "source_take_end": 106.459,
+  "source_take_duration": 21.849,
+  "cut_master_duration": 21.532,
+  "cut_fps": 25,
+  "cut_audio": "48000,2",
+  "face_measurement": {
+    "probes": [
+      1.08,
+      2.58,
+      4.31,
+      6.03,
+      7.75,
+      9.69,
+      11.63,
+      13.57,
+      15.5,
+      17.66,
+      19.81
+    ],
+    "n_probes": 11,
+    "face_cx_px": 1782.0,
+    "face_cx_min_max": [
+      1730.5,
+      1831.6
+    ],
+    "head_h_median_px": 913.1,
+    "cap_top_min_px": 341,
+    "windows": {
+      "face_bottom_hd.mp4": {
+        "vf": "crop=2208:2160:678:0,scale=1080:1058:flags=lanczos",
+        "x0": 678,
+        "width": 2208,
+        "out_size": [
+          1080,
+          1058
+        ],
+        "window_centre_px": 1782.0,
+        "offset_from_face_px": 0.0,
+        "keyframes_in_first_30s": 22,
+        "max_gap_frames": 25
+      },
+      "face_full_hd.mp4": {
+        "vf": "crop=1216:2160:1174:0,scale=1080:1920:flags=lanczos",
+        "x0": 1174,
+        "width": 1216,
+        "out_size": [
+          1080,
+          1920
+        ],
+        "window_centre_px": 1782.0,
+        "offset_from_face_px": 0.0,
+        "keyframes_in_first_30s": 22,
+        "max_gap_frames": 25
+      }
+    },
+    "note": "windows are MEASURED on THIS cut master, never inherited"
+  },
+  "face_probe_rows": [
+    {
+      "t": 1.08,
+      "face_cx_px": 1812.0,
+      "eye_y_px": 790.1,
+      "chin_y_px": 1276.1,
+      "head_top_px": 381,
+      "face_h_px": 654.4,
+      "head_h_px": 895.1,
+      "cap_measured": true,
+      "shoulder": {
+        "y0.55": {
+          "y": 1768,
+          "span": 2075,
+          "x0": 775,
+          "x1": 2849
+        },
+        "y0.70": {
+          "y": 1902,
+          "span": 2167,
+          "x0": 714,
+          "x1": 2880
+        },
+        "y0.85": {
+          "y": 2036,
+          "span": 2397,
+          "x0": 670,
+          "x1": 3066
+        },
+        "y1.00": {
+          "y": 2159,
+          "span": 2417,
+          "x0": 619,
+          "x1": 3035
+        }
+      }
+    },
+    {
+      "t": 2.58,
+      "face_cx_px": 1777.4,
+      "eye_y_px": 806.7,
+      "chin_y_px": 1294.9,
+      "head_top_px": 381,
+      "face_h_px": 665.6,
+      "head_h_px": 913.9,
+      "cap_measured": true,
+      "shoulder": {
+        "y0.55": {
+          "y": 1796,
+          "span": 2082,
+          "x0": 756,
+          "x1": 2837
+        },
+        "y0.70": {
+          "y": 1933,
+          "span": 2420,
+          "x0": 701,
+          "x1": 3120
+        },
+        "y0.85": {
+          "y": 2070,
+          "span": 2408,
+          "x0": 642,
+          "x1": 3049
+        },
+        "y1.00": {
+          "y": 2159,
+          "span": 2423,
+          "x0": 605,
+          "x1": 3027
+        }
+      }
+    },
+    {
+      "t": 4.31,
+      "face_cx_px": 1818.0,
+      "eye_y_px": 792.3,
+      "chin_y_px": 1281.7,
+      "head_top_px": 382,
+      "face_h_px": 659.2,
+      "head_h_px": 899.7,
+      "cap_measured": true,
+      "shoulder": {
+        "y0.55": {
+          "y": 1775,
+          "span": 2084,
+          "x0": 764,
+          "x1": 2847
+        },
+        "y0.70": {
+          "y": 1910,
+          "span": 2217,
+          "x0": 697,
+          "x1": 2913
+        },
+        "y0.85": {
+          "y": 2045,
+          "span": 2406,
+          "x0": 654,
+          "x1": 3059
+        },
+        "y1.00": {
+          "y": 2159,
+          "span": 1352,
+          "x0": 613,
+          "x1": 1964
+        }
+      }
+    },
+    {
+      "t": 6.03,
+      "face_cx_px": 1782.0,
+      "eye_y_px": 819.8,
+      "chin_y_px": 1329.8,
+      "head_top_px": 384,
+      "face_h_px": 700.7,
+      "head_h_px": 945.8,
+      "cap_measured": true,
+      "shoulder": {
+        "y0.55": {
+          "y": 1849,
+          "span": 2127,
+          "x0": 735,
+          "x1": 2861
+        },
+        "y0.70": {
+          "y": 1991,
+          "span": 2384,
+          "x0": 687,
+          "x1": 3070
+        },
+        "y0.85": {
+          "y": 2132,
+          "span": 2407,
+          "x0": 628,
+          "x1": 3034
+        },
+        "y1.00": {
+          "y": 2159,
+          "span": 2431,
+          "x0": 612,
+          "x1": 3042
+        }
+      }
+    },
+    {
+      "t": 7.75,
+      "face_cx_px": 1800.1,
+      "eye_y_px": 797.8,
+      "chin_y_px": 1310.3,
+      "head_top_px": 387,
+      "face_h_px": 688.9,
+      "head_h_px": 923.3,
+      "cap_measured": true,
+      "shoulder": {
+        "y0.55": {
+          "y": 1817,
+          "span": 2045,
+          "x0": 814,
+          "x1": 2858
+        },
+        "y0.70": {
+          "y": 1956,
+          "span": 1163,
+          "x0": 781,
+          "x1": 1943
+        },
+        "y0.85": {
+          "y": 2094,
+          "span": 1110,
+          "x0": 742,
+          "x1": 1851
+        },
+        "y1.00": {
+          "y": 2159,
+          "span": 1138,
+          "x0": 1958,
+          "x1": 3095
+        }
+      }
+    },
+    {
+      "t": 9.69,
+      "face_cx_px": 1730.5,
+      "eye_y_px": 789.3,
+      "chin_y_px": 1285.7,
+      "head_top_px": 381,
+      "face_h_px": 675.0,
+      "head_h_px": 904.7,
+      "cap_measured": true,
+      "shoulder": {
+        "y0.55": {
+          "y": 1782,
+          "span": 2034,
+          "x0": 810,
+          "x1": 2843
+        },
+        "y0.70": {
+          "y": 1918,
+          "span": 2180,
+          "x0": 735,
+          "x1": 2914
+        },
+        "y0.85": {
+          "y": 2054,
+          "span": 1049,
+          "x0": 702,
+          "x1": 1750
+        },
+        "y1.00": {
+          "y": 2159,
+          "span": 945,
+          "x0": 656,
+          "x1": 1600
+        }
+      }
+    },
+    {
+      "t": 11.63,
+      "face_cx_px": 1770.0,
+      "eye_y_px": 761.1,
+      "chin_y_px": 1247.8,
+      "head_top_px": 341,
+      "face_h_px": 657.3,
+      "head_h_px": 906.8,
+      "cap_measured": true,
+      "shoulder": {
+        "y0.55": {
+          "y": 1745,
+          "span": 2095,
+          "x0": 775,
+          "x1": 2869
+        },
+        "y0.70": {
+          "y": 1881,
+          "span": 621,
+          "x0": 1603,
+          "x1": 2223
+        },
+        "y0.85": {
+          "y": 2017,
+          "span": 690,
+          "x0": 1556,
+          "x1": 2245
+        },
+        "y1.00": {
+          "y": 2153,
+          "span": 904,
+          "x0": 1474,
+          "x1": 2377
+        }
+      }
+    },
+    {
+      "t": 13.57,
+      "face_cx_px": 1767.2,
+      "eye_y_px": 813.8,
+      "chin_y_px": 1316.5,
+      "head_top_px": 381,
+      "face_h_px": 682.2,
+      "head_h_px": 935.5,
+      "cap_measured": true,
+      "shoulder": {
+        "y0.55": {
+          "y": 1830,
+          "span": 2093,
+          "x0": 758,
+          "x1": 2850
+        },
+        "y0.70": {
+          "y": 1970,
+          "span": 1786,
+          "x0": 1256,
+          "x1": 3041
+        },
+        "y0.85": {
+          "y": 2111,
+          "span": 1060,
+          "x0": 1232,
+          "x1": 2291
+        },
+        "y1.00": {
+          "y": 2159,
+          "span": 1007,
+          "x0": 1252,
+          "x1": 2258
+        }
+      }
+    },
+    {
+      "t": 15.5,
+      "face_cx_px": 1764.0,
+      "eye_y_px": 797.3,
+      "chin_y_px": 1295.1,
+      "head_top_px": 382,
+      "face_h_px": 679.5,
+      "head_h_px": 913.1,
+      "cap_measured": true,
+      "shoulder": {
+        "y0.55": {
+          "y": 1797,
+          "span": 2072,
+          "x0": 766,
+          "x1": 2837
+        },
+        "y0.70": {
+          "y": 1934,
+          "span": 2409,
+          "x0": 712,
+          "x1": 3120
+        },
+        "y0.85": {
+          "y": 2071,
+          "span": 1294,
+          "x0": 1753,
+          "x1": 3046
+        },
+        "y1.00": {
+          "y": 2159,
+          "span": 755,
+          "x0": 628,
+          "x1": 1382
+        }
+      }
+    },
+    {
+      "t": 17.66,
+      "face_cx_px": 1812.7,
+      "eye_y_px": 810.8,
+      "chin_y_px": 1314.2,
+      "head_top_px": null,
+      "face_h_px": 678.3,
+      "head_h_px": 963.2,
+      "cap_measured": false,
+      "shoulder": {
+        "y0.55": {
+          "y": 1843,
+          "span": 942,
+          "x0": 1433,
+          "x1": 2374
+        },
+        "y0.70": {
+          "y": 1988,
+          "span": 1113,
+          "x0": 1273,
+          "x1": 2385
+        },
+        "y0.85": {
+          "y": 2132,
+          "span": 1932,
+          "x0": 1171,
+          "x1": 3102
+        },
+        "y1.00": {
+          "y": 2159,
+          "span": 1964,
+          "x0": 1140,
+          "x1": 3103
+        }
+      }
+    },
+    {
+      "t": 19.81,
+      "face_cx_px": 1831.6,
+      "eye_y_px": 778.1,
+      "chin_y_px": 1248.8,
+      "head_top_px": 375,
+      "face_h_px": 641.0,
+      "head_h_px": 873.8,
+      "cap_measured": true,
+      "shoulder": {
+        "y0.55": {
+          "y": 1728,
+          "span": 1070,
+          "x0": 1815,
+          "x1": 2884
+        },
+        "y0.70": {
+          "y": 1859,
+          "span": 2120,
+          "x0": 740,
+          "x1": 2859
+        },
+        "y0.85": {
+          "y": 1990,
+          "span": 2404,
+          "x0": 696,
+          "x1": 3099
+        },
+        "y1.00": {
+          "y": 2121,
+          "span": 2389,
+          "x0": 642,
+          "x1": 3030
+        }
+      }
+    }
+  ],
+  "take_detection": {
+    "method": "last scripted opening that reaches the spoken sign-off; the content rule decides, the marker rule and the gap sweep witness",
+    "opening_families": [
+      [
+        "if",
+        "youre",
+        "using",
+        "cursor"
+      ]
+    ],
+    "sign_off_key": [
+      "catch",
+      "you",
+      "in",
+      "the",
+      "next"
+    ],
+    "openings_found": [
+      0,
+      22,
+      28,
+      43,
+      47,
+      61,
+      73,
+      135,
+      139,
+      161,
+      184
+    ],
+    "openings_without_truncation_arm": 10,
+    "truncation_arm_added": 1,
+    "sign_offs_found": 1,
+    "inner_markers": [],
+    "markers_before_keeper": [
+      25,
+      27,
+      42,
+      46,
+      60,
+      72,
+      134,
+      138,
+      160,
+      183
+    ],
+    "take_word_index": 184,
+    "take_words": 70,
+    "raw_words": 254,
+    "take_start_s": 84.779,
+    "take_text": "If you're using Cursor, you can now connect directly to your Google Workspace. This gives you read and write access to Gmail, Google Calendar, Google Drive, as well as Google Sheets. Now, you can do this by connecting your cursor from the customized page directly to your Google Workspace. Now, follow for more AI news, videos, and tutorials each and every single day, and catch you in the next one.",
+    "cross_check_marker_rule": {
+      "verdict": "equality",
+      "answer": 184,
+      "markers_total": 10,
+      "markers_before_take": 10,
+      "restarts_before_take": 11,
+      "under_count": 1,
+      "test": "^no[.,!?]$ OR a trailing hyphen/ellipsis",
+      "morphology": {
+        "punctuated_spoken_no": 0,
+        "truncations": 10,
+        "total": 10
+      },
+      "note": "EQUALITY is the strongest form; BOUND is legal and expected when abandonments carry no partial word; ABSTAINS is legal on a raw with no markers at all."
+    },
+    "cross_check_transcript_gap_rule": {
+      "verdict": "DISAGREES",
+      "correct_thresholds": [],
+      "sweep": {
+        ">=0.8": {
+          "n_gaps": 12,
+          "answers": 189,
+          "is_correct": false,
+          "words_early": -5
+        },
+        ">=0.9": {
+          "n_gaps": 10,
+          "answers": 189,
+          "is_correct": false,
+          "words_early": -5
+        },
+        ">=1.0": {
+          "n_gaps": 9,
+          "answers": 189,
+          "is_correct": false,
+          "words_early": -5
+        },
+        ">=1.5": {
+          "n_gaps": 6,
+          "answers": 189,
+          "is_correct": false,
+          "words_early": -5
+        },
+        ">=2.0": {
+          "n_gaps": 5,
+          "answers": 135,
+          "is_correct": false,
+          "words_early": 49
+        },
+        ">=2.5": {
+          "n_gaps": 3,
+          "answers": 135,
+          "is_correct": false,
+          "words_early": 49
+        },
+        ">=3.0": {
+          "n_gaps": 3,
+          "answers": 135,
+          "is_correct": false,
+          "words_early": 49
+        },
+        ">=4.0": {
+          "n_gaps": 2,
+          "answers": 26,
+          "is_correct": false,
+          "words_early": 158
+        },
+        ">=6.0": {
+          "n_gaps": 0,
+          "answers": null,
+          "is_correct": false,
+          "words_early": null
+        },
+        ">=8.0": {
+          "n_gaps": 0,
+          "answers": null,
+          "is_correct": false,
+          "words_early": null
+        }
+      },
+      "boundary_gap_s": 1.419,
+      "note": "a rule correct on a BAND of thresholds is evidence; a single correct point is not, which is why all 10 are recorded with the answer each gives"
+    },
+    "corroboration": {
+      "marker": "equality",
+      "gap": "DISAGREES",
+      "witnessed": true,
+      "allow_uncorroborated": false
+    },
+    "closure_is_asserted": "no discard marker and no further scripted opening survives inside w184..w253, and the take reaches the sign-off at w248",
+    "stutters_inside_take": 0,
+    "largest_in_take_gap_s": 1.54,
+    "expected_pins_asserted": [],
+    "head_measurement": {
+      "onset_rule": "silence-run end",
+      "primary_rule": "END of the last >= 0.3s run of sub-threshold 10ms windows (silence DURATION, not amplitude)",
+      "cross_check_rule": "SUSTAIN: first 10ms window holding >= threshold for 0.15s; speech may lead it by at most 0.35s",
+      "measured_onset_s": 84.71,
+      "sustain_onset_s": 84.71,
+      "sustain_lead_in_s": 0.0,
+      "silence_run_s": [
+        83.26,
+        84.71
+      ],
+      "silence_run_duration_s": 1.45,
+      "scribe_start_s": 84.779,
+      "scribe_vs_onset_s": 0.069,
+      "scribe_start_inside_silence_drift_s": 0.0,
+      "prev_utterance_audible_end_s": 83.25,
+      "silence_before_take_s": 1.46,
+      "envelope_threshold": 0.02133,
+      "envelope_peak": 0.35549,
+      "envelope_floor": 5e-06,
+      "head_s": 84.61,
+      "head_lead_s": 0.1,
+      "head_inside_silence_run": true,
+      "head_pad_vs_onset_s": 0.1,
+      "head_pad_vs_scribe_s": 0.169
+    },
+    "cross_check_envelope_gap_rule": "the end of the last >= 0.3s silence run in a 10ms-window RMS envelope is 84.71s, which is 0.069s from the winner's Scribe start (84.779s). The run itself is 1.45s long."
+  },
+  "silence_noise": "-35dB",
+  "silence_min": 0.4,
+  "silence_keep": 0.16,
+  "micro_cuts_source": [],
+  "detected_silences": [
+    {
+      "start": 11.033,
+      "end": 11.517
+    }
+  ],
+  "keep_segments": [
+    {
+      "tight_start": 0,
+      "source_start": 84.61,
+      "source_end": 95.723
+    },
+    {
+      "tight_start": 11.113,
+      "source_start": 96.047,
+      "source_end": 106.459
+    }
+  ],
+  "edl_keep_segments_duration_s": 21.524,
+  "audio_sync_offset_ms": 0,
+  "audio_written": [
+    "audio.m4a (48 kHz stereo)"
+  ],
+  "analysis_wav_written": false,
+  "mix_source": "audio.m4a (48 kHz stereo) \u2014 there is no 16 kHz file here",
+  "raw_duration": 107.24,
+  "tight_transcript": {
+    "file": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/cuts/cursorworkspace/transcript_tight.json",
+    "words": 70,
+    "keyterms_sent": 111,
+    "first_word_s": 0.119,
+    "audio_duration_secs": 21.532
+  }
+}

@@ -1,0 +1,2870 @@
+{
+ "video": "aieducation",
+ "lane": "icon choreography",
+ "fps": 25,
+ "duration": 32.12,
+ "format": "cutout",
+ "platform": "tiktok",
+ "sfx": {
+  "whoosh": {
+   "mean_volume": "-17.5 dB"
+  },
+  "pop": {
+   "mean_volume": "-36.4 dB"
+  },
+  "click": {
+   "mean_volume": "-23.1 dB"
+  },
+  "_gains": {
+   "structure": 0.14,
+   "detail": 0.09,
+   "published_corpus_flat": 0.18,
+   "note": "a gain constant means nothing without its source loudness (SFX LAW v2); these are the run-9 to run-21 shipped values for THESE files"
+  }
+ },
+ "scene": "gen/aieducation_scene.py (the plan+artwork author's SEALED shared lane scene, imported; this lane authors none of it)",
+ "handoff": "plans/aieducation_scene_handoff.md",
+ "seal": "review/artwork_pass_aieducation.json",
+ "lifetimes": {
+  "book": [
+   0.1,
+   3.0
+  ],
+  "page-heart": [
+   0.86,
+   3.0
+  ],
+  "page-ghost": [
+   1.48,
+   3.0
+  ],
+  "card-wrap": [
+   3.32,
+   6.86
+  ],
+  "post-hl": [
+   4.3,
+   6.86
+  ],
+  "heart": [
+   7.0,
+   13.4
+  ],
+  "hot-0": [
+   7.98,
+   13.4
+  ],
+  "hot-1": [
+   8.08,
+   13.4
+  ],
+  "hot-2": [
+   8.18,
+   13.4
+  ],
+  "arc": [
+   9.26,
+   13.4
+  ],
+  "key-term": [
+   9.62,
+   13.4
+  ],
+  "key-afternoon": [
+   10.52,
+   13.4
+  ],
+  "book2": [
+   13.54,
+   17.94
+  ],
+  "head": [
+   16.18,
+   17.94
+  ],
+  "key-flat": [
+   15.54,
+   17.94
+  ],
+  "key-guess": [
+   17.02,
+   17.94
+  ],
+  "heart3": [
+   18.1,
+   21.74
+  ],
+  "cursor": [
+   20.18,
+   21.74
+  ],
+  "key-inside": [
+   20.54,
+   21.74
+  ],
+  "tile-chatgpt": [
+   22.24,
+   27.76
+  ],
+  "tile-claude": [
+   22.36,
+   27.76
+  ],
+  "tile-gemini": [
+   22.48,
+   27.76
+  ],
+  "conn-0": [
+   23.4,
+   27.76
+  ],
+  "conn-1": [
+   23.46,
+   27.76
+  ],
+  "conn-2": [
+   23.52,
+   27.76
+  ],
+  "easel": [
+   23.74,
+   27.76
+  ],
+  "easel-board": [
+   23.74,
+   27.76
+  ],
+  "easel-heart": [
+   24.46,
+   27.76
+  ],
+  "copy-0": [
+   26.36,
+   27.76
+  ],
+  "copy-1": [
+   26.5,
+   27.76
+  ],
+  "copy-2": [
+   26.64,
+   27.76
+  ],
+  "o-sheet": [
+   27.76,
+   null
+  ],
+  "o-glyph": [
+   28.26,
+   null
+  ],
+  "o-rule": [
+   28.56,
+   null
+  ],
+  "o-slot": [
+   28.66,
+   null
+  ]
+ },
+ "blocks": [
+  [
+   "book",
+   "page-heart",
+   "page-ghost"
+  ],
+  [
+   "heart",
+   "hot-0",
+   "hot-1",
+   "hot-2",
+   "arc",
+   "key-term",
+   "key-afternoon"
+  ],
+  [
+   "book2",
+   "key-flat"
+  ],
+  [
+   "head",
+   "key-guess"
+  ],
+  [
+   "heart3",
+   "cursor",
+   "key-inside"
+  ],
+  [
+   "easel",
+   "easel-board",
+   "easel-heart"
+  ],
+  [
+   "easel",
+   "copy-0",
+   "copy-1",
+   "copy-2"
+  ]
+ ],
+ "chapters": 5,
+ "seams": [
+  3.0,
+  13.4,
+  17.94,
+  21.74,
+  27.76
+ ],
+ "key_term": "3D ANATOMY",
+ "marks": {
+  "chatgpt": "logos/ai-models/chatgpt-color.png",
+  "claude": "logos/ai-models/claude-color.png",
+  "gemini": "logos/ai-models/gemini-color.png",
+  "cursor": "logos/coding-tools/cursor.png",
+  "grok": "logos/ai-models/grok.png",
+  "lovable": "logos/design-tools/lovable-color.png"
+ },
+ "banned_asserted": [
+  "anthropic-wordmark",
+  "claude-code",
+  "grok-bot",
+  "grok-bot-app",
+  "instagram",
+  "nous-girl",
+  "openai",
+  "openai-wordmark",
+  "qwen-lockup",
+  "spotify",
+  "telegram",
+  "three",
+  "threejs",
+  "tiktok",
+  "twitter",
+  "whatsapp",
+  "x",
+  "x-logo",
+  "xai",
+  "youtube"
+ ],
+ "edge_box": "1584x990+-252+930",
+ "formats": {
+  "cutout": {
+   "staged": {
+    "voice": {
+     "source": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/cuts/aieducation/audio.m4a",
+     "sample_rate": 48000,
+     "channels": 2
+    },
+    "matte": {
+     "cut": {
+      "w": 1584,
+      "h": 990
+     },
+     "rim": {
+      "w": 1584,
+      "h": 990
+     },
+     "plate": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/matting/aieducation/plate_display_1584x990.mp4",
+     "session": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/matting/aieducation",
+     "alpha_sha256": "26a814128d88f09edddd45dc86528126fe5eca475524bae0441b35b5fb08d60a",
+     "consumed_as_is": "MATTES_FINAL.md is absent, so no decree binds \u2014 and nothing here asks for another track.  Stage 17's viewer HOLD was a path-resolution bug (fixed at source in matte_review.py); stage 18's SAM2 fallback REFUSED and was never installed; the haze gate then held the FIRST shipped matte and the contour was redrawn and re-shipped.  The layers this build stages are the re-shipped ones and their metrics are clean.  They keep `needs_final_visual_review` until the clerk answers it (PRODUCTION.md, 2026-09-06).",
+     "hashes": {
+      "cut": "b352ce8fa025a6caeeb01879a679316639367e5d896404af039dff8255a5ade6",
+      "rim": "5e21e902022471a2516a826fe43854230fc6b2b9987e0a2babc23655759e8b89",
+      "alpha": "26a814128d88f09edddd45dc86528126fe5eca475524bae0441b35b5fb08d60a"
+     },
+     "frames": 803,
+     "alpha_mode": "soft",
+     "rim_px": 7,
+     "fractional_alpha_pixels": 15805478,
+     "minimum_person_fraction": 0.36307774716865626,
+     "review_status": "needs_final_visual_review",
+     "backend": "matanyone2",
+     "headroom_guard": {
+      "pass": true,
+      "frames_checked": 803,
+      "min_top_clearance_px": 25.3,
+      "floor_px": 24.0,
+      "unsafe_frames": 0,
+      "worst_frame": 247
+     },
+     "selection": "reviewed",
+     "cost_usd": {
+      "track": 0.021391062094777438,
+      "ship": 0.039165458203894395,
+      "total": 0.060557
+     }
+    },
+    "marks": {
+     "chatgpt": {
+      "source": "/Users/migle/Documents/Workspace/assets/logos/ai-models/chatgpt-color.png",
+      "url": "assets/logos/chatgpt-color.png",
+      "bytes": 75110,
+      "where": "stage + depth lane"
+     },
+     "claude": {
+      "source": "/Users/migle/Documents/Workspace/assets/logos/ai-models/claude-color.png",
+      "url": "assets/logos/claude-color.png",
+      "bytes": 9337,
+      "where": "stage + depth lane"
+     },
+     "gemini": {
+      "source": "/Users/migle/Documents/Workspace/assets/logos/ai-models/gemini-color.png",
+      "url": "assets/logos/gemini-color.png",
+      "bytes": 19333,
+      "where": "stage + depth lane"
+     },
+     "cursor": {
+      "source": "/Users/migle/Documents/Workspace/assets/logos/coding-tools/cursor.png",
+      "url": "assets/logos/cursor.png",
+      "bytes": 4422,
+      "where": "depth lane"
+     },
+     "grok": {
+      "source": "/Users/migle/Documents/Workspace/assets/logos/ai-models/grok.png",
+      "url": "assets/logos/grok.png",
+      "bytes": 31458,
+      "where": "depth lane"
+     },
+     "lovable": {
+      "source": "/Users/migle/Documents/Workspace/assets/logos/design-tools/lovable-color.png",
+      "url": "assets/logos/lovable-color.png",
+      "bytes": 27264,
+      "where": "depth lane"
+     }
+    },
+    "card_assets": {
+     "x_mark": {
+      "source": "/Users/migle/Documents/Workspace/assets/logos/platforms/x-logo.svg",
+      "url": "assets/x-logo.svg"
+     },
+     "screenshot": {
+      "source": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/assets/source_aieducation/quoted_video_poster.jpg",
+      "url": "assets/quoted_video_poster.jpg",
+      "bytes": 105740
+     }
+    }
+   },
+   "seat": 870.2,
+   "scale": 1.0,
+   "edge_fade": {
+    "masked_containers": 3,
+    "fade_px": 46.0,
+    "meters_exempt": [],
+    "clipping_containers_on_the_page": 0,
+    "unclip": {
+     "element": "pc-shot",
+     "removed": "overflow:hidden",
+     "radius_moved_to": "the <img>, 8 px (10 px frame radius less the 2 px border)",
+     "pixels_cropped_by_the_clip": 0,
+     "why": "the raster is authored at exactly the frame's content size with object-fit:cover, so the clip rounded corners and cropped nothing; GLOBAL LAW 8 exists for hard-chopped lanes and this page now has no unmasked clipping container at all",
+     "module_bytes_changed": 0
+    }
+   },
+   "plate": {
+    "box": {
+     "w": 1584.0,
+     "h": 990.0,
+     "left": -252.0,
+     "top": 930.0
+    },
+    "whole_pixels": true,
+    "equals_encoded": {
+     "cut": {
+      "w": 1584,
+      "h": 990
+     },
+     "rim": {
+      "w": 1584,
+      "h": 990
+     }
+    },
+    "plate_scale": 1.1,
+    "derived_from": "the ENCODED size of the staged layers, never PLATE_SCALE, and the origin READ from plate.json"
+   },
+   "unclip": {
+    "element": "pc-shot",
+    "removed": "overflow:hidden",
+    "radius_moved_to": "the <img>, 8 px (10 px frame radius less the 2 px border)",
+    "pixels_cropped_by_the_clip": 0,
+    "why": "the raster is authored at exactly the frame's content size with object-fit:cover, so the clip rounded corners and cropped nothing; GLOBAL LAW 8 exists for hard-chopped lanes and this page now has no unmasked clipping container at all",
+    "module_bytes_changed": 0
+   },
+   "core": {
+    "left": 0.0,
+    "top": 192.0,
+    "w": 1080.0,
+    "h": 600.0,
+    "placement": {
+     "k": 1.0,
+     "k_uncapped": 1.0478,
+     "left": 0.0,
+     "top": 192.0,
+     "seat": "the scene's own origin: the band already lands legally in this session's MEASURED stage zone at k = 1, so the cutout's canvas rects ARE the scene's, the split's and the plan's, the cold Phone Test crops the objects it means to, and LAW 51's cross-lane parity with the split is exact rather than close",
+     "identity_seat": true,
+     "stage_zone": [
+      192.0,
+      786.4
+     ],
+     "stage_zone_px": 594.4,
+     "content_band_core": [
+      20.0,
+      572.0
+     ],
+     "content_band_px": 552.0,
+     "content_band_canvas": [
+      212.0,
+      764.0
+     ],
+     "core_margin": 8.0,
+     "handoff_note": "the handoff says 'k from THAT session's matte envelope'.  This session's envelope gives a 594.4 px stage zone against a 552.0 px content band, so the cap at 1.0 binds and the scene is seated unscaled."
+    }
+   },
+   "band": {
+    "content_top": 212.0,
+    "content_bottom": 764.0,
+    "law30_top_10pct": 192.0,
+    "pill_top": 812.91,
+    "pill_height_used": 114.59,
+    "pill_centre_used": 870.2,
+    "clear_above_pill": 48.91,
+    "core_top_used": 192.0,
+    "core_top_in_handoff": 192.0,
+    "core_raised_px": 0.0,
+    "note": "content_top is the core's declared CONTENT_Y0 (the tool tile row's top in chapter 4) and content_bottom its CONTENT_Y1 (ONE AFTERNOON's box bottom in chapter 1).  NOTHING IS RAISED: this lane seats the core exactly where the handoff put it, so the cutout's boxes and this page's differ by scale alone."
+   },
+   "rail": {
+    "ink_left_x": 120.0,
+    "ink_right_x": 940.0,
+    "union_axis_x": 530.0,
+    "readable_type_left_x": 170.0,
+    "readable_type_right_x": 880.0,
+    "law30_rail_x": 918.0,
+    "rail_overshoot_px": 0.0,
+    "margins": [
+     120.0,
+     140.0
+    ],
+    "note": "the widest readable key is GUESSWORK, stopping at x 880, 38 px inside the 918 rail.  The widest ink box at rest is the source card (140..940), a raster asset card and not readable board type; from 5.92 it deliberately scales past the frame to bring the screenshot's own 3D heart up to a phone-readable size, which is the plan's GO CLOSER instruction and costs the card's chrome.  No caption pill crosses the rail (CAP.assert_law12 on the widest pill)."
+   },
+   "core_gutter": {
+    "tightest_core_px": 108.0,
+    "tightest_pair": [
+     "tile-claude",
+     "easel-board",
+     23.75
+    ],
+    "k": 1.0,
+    "canvas_px": 108.0,
+    "law41_refusal": 16.0,
+    "law41_aim": 24.0,
+    "blocks": [
+     [
+      "book",
+      "page-heart",
+      "page-ghost"
+     ],
+     [
+      "heart",
+      "hot-0",
+      "hot-1",
+      "hot-2",
+      "arc",
+      "key-term",
+      "key-afternoon"
+     ],
+     [
+      "book2",
+      "key-flat"
+     ],
+     [
+      "head",
+      "key-guess"
+     ],
+     [
+      "heart3",
+      "cursor",
+      "key-inside"
+     ],
+     [
+      "easel",
+      "easel-board",
+      "easel-heart"
+     ],
+     [
+      "easel",
+      "copy-0",
+      "copy-1",
+      "copy-2"
+     ]
+    ]
+   },
+   "occlusion": {
+    "core_lowest_ink_canvas_y": 764.0,
+    "measured_crown_canvas_y": 954.0,
+    "clear_px": 190.0,
+    "behind_declarations": 0,
+    "note": "the crown is the union top of EVERY frame of the shipped alpha, not a sample.  The one moving atom in this scene, the zoomed source card, is measured separately in assert_reframe(): its lowest visible edge lands at canvas 786.1, still 167.9 px clear of the crown."
+   },
+   "axis": {
+    "beats": [
+     {
+      "beat": 0,
+      "window": [
+       0.1,
+       3.0
+      ],
+      "at": 2.99,
+      "ink_left": 330.0,
+      "ink_right": 750.0,
+      "axis": 540.0,
+      "offset_from_540": 0.0,
+      "margins": [
+       330.0,
+       330.0
+      ],
+      "marks": [
+       "book",
+       "page-ghost",
+       "page-heart"
+      ]
+     },
+     {
+      "beat": 1,
+      "window": [
+       3.0,
+       13.4
+      ],
+      "at": 13.39,
+      "ink_left": 318.0,
+      "ink_right": 762.0,
+      "axis": 540.0,
+      "offset_from_540": 0.0,
+      "margins": [
+       318.0,
+       318.0
+      ],
+      "marks": [
+       "arc",
+       "heart",
+       "hot-0",
+       "hot-1",
+       "hot-2",
+       "key-afternoon",
+       "key-term"
+      ]
+     },
+     {
+      "beat": 2,
+      "window": [
+       13.4,
+       17.94
+      ],
+      "at": 17.93,
+      "ink_left": 120.0,
+      "ink_right": 910.0,
+      "axis": 515.0,
+      "offset_from_540": -25.0,
+      "margins": [
+       120.0,
+       170.0
+      ],
+      "marks": [
+       "book2",
+       "head",
+       "key-flat",
+       "key-guess"
+      ]
+     },
+     {
+      "beat": 3,
+      "window": [
+       17.94,
+       21.74
+      ],
+      "at": 21.73,
+      "ink_left": 390.0,
+      "ink_right": 690.0,
+      "axis": 540.0,
+      "offset_from_540": 0.0,
+      "margins": [
+       390.0,
+       390.0
+      ],
+      "marks": [
+       "cursor",
+       "heart3",
+       "key-inside"
+      ]
+     },
+     {
+      "beat": 4,
+      "window": [
+       21.74,
+       27.76
+      ],
+      "at": 27.75,
+      "ink_left": 244.0,
+      "ink_right": 836.0,
+      "axis": 540.0,
+      "offset_from_540": 0.0,
+      "margins": [
+       244.0,
+       244.0
+      ],
+      "marks": [
+       "copy-0",
+       "copy-1",
+       "copy-2",
+       "easel",
+       "easel-board",
+       "easel-heart",
+       "tile-chatgpt",
+       "tile-claude",
+       "tile-gemini"
+      ]
+     }
+    ],
+    "mode": "REPORTED",
+    "worst": {
+     "beat": 2,
+     "offset_px": -25.0
+    },
+    "frame_margin_floor_px": 40.0,
+    "note": "the composition is symmetric about x = 540 in every chapter but the deliberate pair in chapter 2 (the book at centre 280, the head at centre 770), whose ink extents are 120..910 for an optical axis of 515 \u2014 the handoff's own declared exception.  Every beat keeps both margins well outside the 40 px minimum."
+   },
+   "law40": {
+    "connectors": {
+     "conn-0": {
+      "target": "easel-board",
+      "side": "top",
+      "fraction": 0.16,
+      "check_at": 25.0,
+      "end_core": [
+       455.0,
+       240.0
+      ],
+      "end_canvas": [
+       455.0,
+       432.0
+      ],
+      "start_core": [
+       300.0,
+       132.0
+      ],
+      "stroke_completes": 23.7,
+      "target_born": 23.74,
+      "connector_life": [
+       23.4,
+       27.76
+      ]
+     },
+     "conn-1": {
+      "target": "easel-board",
+      "side": "top",
+      "fraction": 0.5,
+      "check_at": 25.0,
+      "end_core": [
+       540.0,
+       240.0
+      ],
+      "end_canvas": [
+       540.0,
+       432.0
+      ],
+      "start_core": [
+       540.0,
+       132.0
+      ],
+      "stroke_completes": 23.76,
+      "target_born": 23.74,
+      "connector_life": [
+       23.46,
+       27.76
+      ]
+     },
+     "conn-2": {
+      "target": "easel-board",
+      "side": "top",
+      "fraction": 0.84,
+      "check_at": 25.0,
+      "end_core": [
+       625.0,
+       240.0
+      ],
+      "end_canvas": [
+       625.0,
+       432.0
+      ],
+      "start_core": [
+       780.0,
+       132.0
+      ],
+      "stroke_completes": 23.82,
+      "target_born": 23.74,
+      "connector_life": [
+       23.52,
+       27.76
+      ]
+     }
+    },
+    "connectors_in_dom": 3,
+    "arrowheads": 0,
+    "ends_level_px": 0.0,
+    "ends_x": [
+     455.0,
+     540.0,
+     625.0
+    ],
+    "mirror_error_px": 0.0,
+    "law40_letter": "THREE connectors into ONE target, so the law's level/mirror clause binds in full: the ends come from SC.anchor_points(EASEL_BOARD_BOX, 3, 'top') \u2014 level to 0.0 px, symmetric about x = 540, held off the corners by inset 0.16 \u2014 and no end is hand-typed.  They terminate ON the board's virtual rectangle, with no arrowhead, which is the reference scene's own grammar."
+   },
+   "law42": {
+    "board_mode": "chapters",
+    "chapters": 5,
+    "anchors": [
+     "o-glyph",
+     "o-rule",
+     "o-slot"
+    ],
+    "marks_that_leave": [
+     "arc",
+     "book",
+     "book2",
+     "card-wrap",
+     "conn-0",
+     "conn-1",
+     "conn-2",
+     "copy-0",
+     "copy-1",
+     "copy-2",
+     "cursor",
+     "easel",
+     "easel-board",
+     "easel-heart",
+     "head",
+     "heart",
+     "heart3",
+     "hot-0",
+     "hot-1",
+     "hot-2",
+     "key-afternoon",
+     "key-flat",
+     "key-guess",
+     "key-inside",
+     "key-term",
+     "page-ghost",
+     "page-heart",
+     "post-hl",
+     "tile-chatgpt",
+     "tile-claude",
+     "tile-gemini"
+    ],
+    "shares": {
+     "book": 0.09,
+     "page-heart": 0.067,
+     "page-ghost": 0.047,
+     "card-wrap": 0.11,
+     "post-hl": 0.08,
+     "heart": 0.199,
+     "hot-0": 0.169,
+     "hot-1": 0.166,
+     "hot-2": 0.163,
+     "arc": 0.129,
+     "key-term": 0.118,
+     "key-afternoon": 0.09,
+     "book2": 0.137,
+     "head": 0.055,
+     "key-flat": 0.075,
+     "key-guess": 0.029,
+     "heart3": 0.113,
+     "cursor": 0.049,
+     "key-inside": 0.037,
+     "tile-chatgpt": 0.172,
+     "tile-claude": 0.168,
+     "tile-gemini": 0.164,
+     "conn-0": 0.136,
+     "conn-1": 0.134,
+     "conn-2": 0.132,
+     "easel": 0.125,
+     "easel-board": 0.125,
+     "easel-heart": 0.103,
+     "copy-0": 0.044,
+     "copy-1": 0.039,
+     "copy-2": 0.035
+    },
+    "longest_lived_mark": {
+     "mark": "heart",
+     "share": 0.199
+    },
+    "plan_boards_mode": "chapters",
+    "board_mode_reason": "LAW 43: chapters are the default and this script has five distinct idea groups, not one accumulating picture - the book becoming a thing, the developer's tool, the old way's cost, the inside of the model, the classroom. Holding all five on one surface at legible size is impossible on a phone, and nothing in beat 4 points back at the textbook drawing from beat 2.",
+    "note": "every board mark is finite; the only anchors are the three outro marks, which are born after the rising sheet"
+   },
+   "law38": {
+    "groups": [
+     {
+      "id": "post-hl",
+      "kind": "highlight",
+      "declared_target": "post-card",
+      "at": 5.5,
+      "fires_at": 4.3,
+      "completes": 4.7,
+      "declared": true,
+      "geometry_added_px": 0,
+      "ink": "rgba(196,87,58,0.30)",
+      "target_ink": "#141416",
+      "dom_primitive": "the terracotta marker fill rgba(196,87,58,.30) wiped open left to right under the post's claim line on a STATIC card, the run-6 primitive"
+     }
+    ],
+    "border_flips": [
+     {
+      "target": "book2",
+      "from": 15.54,
+      "to": 16.34,
+      "ink": "rgb(221,114,89)",
+      "declared": false,
+      "dom_primitive": "the object's OWN border flips transparent -> terracotta and back with the sentence; no element is added, so no gutter moves and no box can crowd it"
+     },
+     {
+      "target": "easel-board",
+      "from": 25.54,
+      "to": 26.3,
+      "ink": "rgb(221,114,89)",
+      "declared": false,
+      "dom_primitive": "the object's OWN border flips transparent -> terracotta and back with the sentence; no element is added, so no gutter moves and no box can crowd it"
+     }
+    ],
+    "rings_ellipses_circles": 0,
+    "highlights": 1,
+    "separate_emphasis_elements": 1,
+    "why": "LAW 38 rule 1 gives TEXT IN A RASTER the marker highlight, and this video prints exactly one piece of raster-borne type: the source post's claim line.  Rule 2 gives a DRAWN target BOXING, whose GRAPHIC CHART form (clause 6) is the panel border flip; both flipped targets are drawn marks with their own panel stroke, so the emphasis IS that stroke.  No separate element exists for them to carry `data-emphasis`, and declaring a target as its own `data-emphasis-target` would make visual_laws compare an element's ink with itself.  Rule 3: no ring, no ellipse, no circle \u2014 the module emits no <circle> tag at all."
+   },
+   "law41": {
+    "pairs_measured": 781,
+    "judged": 71,
+    "tightest_core_px": 108.0,
+    "tightest_pair": [
+     "tile-claude",
+     "easel-board",
+     23.75
+    ],
+    "floor": 24.0,
+    "refusal_line": 16.0,
+    "split_scale_k": 1.0,
+    "tightest_on_this_page_px": 108.0,
+    "under_aim": [],
+    "blocks": [
+     [
+      "book",
+      "page-heart",
+      "page-ghost"
+     ],
+     [
+      "heart",
+      "hot-0",
+      "hot-1",
+      "hot-2",
+      "arc",
+      "key-term",
+      "key-afternoon"
+     ],
+     [
+      "book2",
+      "key-flat"
+     ],
+     [
+      "head",
+      "key-guess"
+     ],
+     [
+      "heart3",
+      "cursor",
+      "key-inside"
+     ],
+     [
+      "easel",
+      "easel-board",
+      "easel-heart"
+     ],
+     [
+      "easel",
+      "copy-0",
+      "copy-1",
+      "copy-2"
+     ]
+    ],
+    "series": [
+     [
+      "hot-0",
+      "hot-1",
+      "hot-2"
+     ],
+     [
+      "tile-chatgpt",
+      "tile-claude",
+      "tile-gemini"
+     ],
+     [
+      "copy-0",
+      "copy-1",
+      "copy-2"
+     ]
+    ],
+    "overlap_ok": [
+     "arc",
+     "copy-0",
+     "copy-1",
+     "copy-2",
+     "cursor",
+     "easel",
+     "easel-heart",
+     "hot-0",
+     "hot-1",
+     "hot-2",
+     "page-ghost",
+     "page-heart",
+     "post-hl"
+    ],
+    "gate_scaling_note": "every non-block gutter here is authored at >= 42 CORE px; this lane's measured seat caps k at 1.00, so the core number IS the page number and nothing shrinks a gutter",
+    "instrument": "this build's own co-alive sweep at 0.25 s over the module's rects; geometry_audit --strict is the independent measurement on the rendered page"
+   },
+   "law39": {
+    "key-term": {
+     "host": "heart",
+     "side": "above",
+     "text": "3D ANATOMY",
+     "key_box_core": [
+      318.0,
+      62.0,
+      762.0,
+      120.0
+     ],
+     "host_box_core": [
+      370.0,
+      160.0,
+      710.0,
+      500.0
+     ],
+     "key_box_canvas": [
+      318.0,
+      254.0,
+      762.0,
+      312.0
+     ],
+     "centre_error_px": 0.0,
+     "band_px": 51.0,
+     "gap_px": 40.0,
+     "at": 9.62,
+     "host_at": 7.0,
+     "delay_after_host_s": 2.62
+    },
+    "key-afternoon": {
+     "host": "heart",
+     "side": "below",
+     "text": "ONE AFTERNOON",
+     "key_box_core": [
+      400.0,
+      528.0,
+      680.0,
+      572.0
+     ],
+     "host_box_core": [
+      370.0,
+      160.0,
+      710.0,
+      500.0
+     ],
+     "key_box_canvas": [
+      400.0,
+      720.0,
+      680.0,
+      764.0
+     ],
+     "centre_error_px": 0.0,
+     "band_px": 51.0,
+     "gap_px": 28.0,
+     "at": 10.52,
+     "host_at": 7.0,
+     "delay_after_host_s": 3.52
+    },
+    "key-flat": {
+     "host": "book2",
+     "side": "below",
+     "text": "FLAT PAGE",
+     "key_box_core": [
+      170.0,
+      506.0,
+      390.0,
+      550.0
+     ],
+     "host_box_core": [
+      120.0,
+      236.0,
+      440.0,
+      406.0
+     ],
+     "key_box_canvas": [
+      170.0,
+      698.0,
+      390.0,
+      742.0
+     ],
+     "centre_error_px": 0.0,
+     "band_px": 48.0,
+     "gap_px": 100.0,
+     "at": 15.54,
+     "host_at": 13.54,
+     "delay_after_host_s": 2.0
+    },
+    "key-guess": {
+     "host": "head",
+     "side": "below",
+     "text": "GUESSWORK",
+     "key_box_core": [
+      660.0,
+      506.0,
+      880.0,
+      550.0
+     ],
+     "host_box_core": [
+      630.0,
+      170.0,
+      910.0,
+      460.0
+     ],
+     "key_box_canvas": [
+      660.0,
+      698.0,
+      880.0,
+      742.0
+     ],
+     "centre_error_px": 0.0,
+     "band_px": 42.0,
+     "gap_px": 46.0,
+     "at": 17.02,
+     "host_at": 16.18,
+     "delay_after_host_s": 0.84
+    },
+    "key-inside": {
+     "host": "heart3",
+     "side": "below",
+     "text": "INSIDE",
+     "key_box_core": [
+      460.0,
+      492.0,
+      620.0,
+      536.0
+     ],
+     "host_box_core": [
+      390.0,
+      130.0,
+      690.0,
+      450.0
+     ],
+     "key_box_canvas": [
+      460.0,
+      684.0,
+      620.0,
+      728.0
+     ],
+     "centre_error_px": 0.0,
+     "band_px": 45.0,
+     "gap_px": 42.0,
+     "at": 20.54,
+     "host_at": 18.1,
+     "delay_after_host_s": 2.44
+    },
+    "_law50": {
+     "siblings": [
+      "key-flat",
+      "key-guess"
+     ],
+     "side": "below",
+     "baseline_core_y": 506.0,
+     "font_px": 28.0,
+     "verdict": "PASS \u2014 FLAT PAGE and GUESSWORK name the two halves of one drawing, sit on the same side of their own objects and share one baseline"
+    },
+    "_key_term": {
+     "text": "3D ANATOMY",
+     "at": 9.62,
+     "font_px": 48.0,
+     "design_units": 25.6,
+     "other_key_font_px": 28.0,
+     "seat_canvas": [
+      318.0,
+      254.0,
+      762.0,
+      312.0
+     ],
+     "debut_axis": "x = 540, the heart's own axis to 0.0 px.  It is the FIRST type in the video (the post card is a raster asset card, not board type) and it is alone for 0.90 s.",
+     "first_type_at": 9.62,
+     "alone_until": 10.52,
+     "type_order": [
+      [
+       "key-term",
+       9.62
+      ],
+      [
+       "key-afternoon",
+       10.52
+      ],
+      [
+       "key-flat",
+       15.54
+      ],
+      [
+       "key-guess",
+       17.02
+      ],
+      [
+       "key-inside",
+       20.54
+      ]
+     ]
+    },
+    "_hook": {
+     "object": "an open book with a heart printed on its page \u2014 the video's idea (a printed page becomes a thing you can hold) as ONE everyday object, drawn complete from its first settled frame, and the outro's themed glyph as well",
+     "first_ink_at": 0.1,
+     "opens_centred_on_x": 540.0,
+     "alone_until": 0.86,
+     "one_displacement_at": 1.48,
+     "displacement": "the printed heart peels off the page and settles above it, once, then holds (LAW 1)"
+    }
+   },
+   "law37": {
+    "scan_cue_count": 1,
+    "plan_declared_cards": 1,
+    "prep_marker": "prep/stages/aieducation.cues.json -> cue_count 1",
+    "cue": {
+     "i": 11,
+     "j": 12,
+     "t": 3.32,
+     "kind": "person",
+     "phrase": "this guy",
+     "word": "this",
+     "window": [
+      2.32,
+      4.32
+     ],
+     "card_hold_s": [
+      2.0,
+      4.0
+     ]
+    },
+    "answered_by": "card-wrap",
+    "raised_at": 3.32,
+    "held_s": 3.54,
+    "platform": "X \u2014 the sentence says 'this guy on X' and the card wears the X frame, carries @THEBUGGEDDEV and shows the screenshot the post itself carried (the run-13 picture/sentence ruling)",
+    "highlight": "the marker fill runs under the post's own claim line (#post-hl), never a box on raster type",
+    "metrics_chrome": 0,
+    "instrument": "pointing_cues.scan re-run on transcript_tight.json"
+   },
+   "law2": {
+    "stage_marks": 3,
+    "depth_marks": 6,
+    "assert_cast_resolves": {
+     "chatgpt": {
+      "path": "/Users/migle/Documents/Workspace/assets/logos/ai-models/chatgpt-color.png",
+      "bytes": 75110,
+      "size": [
+       1024,
+       1024
+      ],
+      "ink_fill": 0.963,
+      "quantised_colours": 14,
+      "diag_fwd": 0.931,
+      "diag_back": 0.861,
+      "bbox": [
+       0,
+       0,
+       1024,
+       1024
+      ]
+     },
+     "claude": {
+      "path": "/Users/migle/Documents/Workspace/assets/logos/ai-models/claude-color.png",
+      "bytes": 9337,
+      "size": [
+       640,
+       640
+      ],
+      "ink_fill": 0.399,
+      "quantised_colours": 1,
+      "diag_fwd": 0.463,
+      "diag_back": 0.541,
+      "bbox": [
+       0,
+       0,
+       640,
+       640
+      ]
+     },
+     "gemini": {
+      "path": "/Users/migle/Documents/Workspace/assets/logos/ai-models/gemini-color.png",
+      "bytes": 19333,
+      "size": [
+       640,
+       640
+      ],
+      "ink_fill": 0.353,
+      "quantised_colours": 77,
+      "diag_fwd": 0.381,
+      "diag_back": 0.381,
+      "bbox": [
+       26,
+       26,
+       614,
+       614
+      ]
+     },
+     "cursor": {
+      "path": "/Users/migle/Documents/Workspace/assets/logos/coding-tools/cursor.png",
+      "bytes": 4422,
+      "size": [
+       640,
+       640
+      ],
+      "ink_fill": 0.541,
+      "quantised_colours": 1,
+      "diag_fwd": 0.255,
+      "diag_back": 0.439,
+      "bbox": [
+       39,
+       0,
+       601,
+       640
+      ]
+     },
+     "grok": {
+      "path": "/Users/migle/Documents/Workspace/assets/logos/ai-models/grok.png",
+      "bytes": 31458,
+      "size": [
+       1000,
+       1000
+      ],
+      "ink_fill": 0.235,
+      "quantised_colours": 1,
+      "diag_fwd": 0.174,
+      "diag_back": 0.358,
+      "bbox": [
+       39,
+       57,
+       961,
+       942
+      ]
+     },
+     "lovable": {
+      "path": "/Users/migle/Documents/Workspace/assets/logos/design-tools/lovable-color.png",
+      "bytes": 27264,
+      "size": [
+       640,
+       640
+      ],
+      "ink_fill": 0.76,
+      "quantised_colours": 23,
+      "diag_fwd": 0.828,
+      "diag_back": 0.603,
+      "bbox": [
+       0,
+       0,
+       630,
+       640
+      ]
+     }
+    },
+    "mark_files": {
+     "chatgpt": "logos/ai-models/chatgpt-color.png",
+     "claude": "logos/ai-models/claude-color.png",
+     "gemini": "logos/ai-models/gemini-color.png",
+     "cursor": "logos/coding-tools/cursor.png",
+     "grok": "logos/ai-models/grok.png",
+     "lovable": "logos/design-tools/lovable-color.png"
+    },
+    "ink_aspects": {
+     "chatgpt": 1.0,
+     "claude": 1.0,
+     "gemini": 1.0,
+     "cursor": 0.8781,
+     "grok": 1.0418,
+     "lovable": 0.9844
+    },
+    "stage_ink_side_core_px": {
+     "chatgpt": 74.0,
+     "claude": 74.0,
+     "gemini": 74.0
+    },
+    "tile_px": 112.0,
+    "law36_stage_containment": [
+     {
+      "mark": "chatgpt",
+      "tile": 112.0,
+      "ink_side": 74.0,
+      "ink_wh": [
+       74.0,
+       74.0
+      ],
+      "padding_box": 106.0
+     },
+     {
+      "mark": "claude",
+      "tile": 112.0,
+      "ink_side": 74.0,
+      "ink_wh": [
+       74.0,
+       74.0
+      ],
+      "padding_box": 106.0
+     },
+     {
+      "mark": "gemini",
+      "tile": 112.0,
+      "ink_side": 74.0,
+      "ink_wh": [
+       74.0,
+       74.0
+      ],
+      "padding_box": 106.0
+     }
+    ],
+    "law36_depth_containment": [
+     {
+      "lane": "far",
+      "tile": 78.0,
+      "ink_side": 39.0,
+      "padding_box": 72.0,
+      "worst": [
+       "cursor",
+       41.6
+      ]
+     },
+     {
+      "lane": "mid",
+      "tile": 116.0,
+      "ink_side": 58.0,
+      "padding_box": 110.0,
+      "worst": [
+       "cursor",
+       61.9
+      ]
+     },
+     {
+      "lane": "near",
+      "tile": 148.0,
+      "ink_side": 74.0,
+      "padding_box": 142.0,
+      "worst": [
+       "cursor",
+       79.0
+      ]
+     }
+    ],
+    "depth_roster": [
+     "chatgpt",
+     "claude",
+     "gemini",
+     "cursor",
+     "grok",
+     "lovable"
+    ],
+    "depth_roster_source": "plan.cutout_logo_lanes, unchanged",
+    "depth_substitutions": {},
+    "banned_asserted": [
+     "anthropic-wordmark",
+     "claude-code",
+     "grok-bot",
+     "grok-bot-app",
+     "instagram",
+     "nous-girl",
+     "openai",
+     "openai-wordmark",
+     "qwen-lockup",
+     "spotify",
+     "telegram",
+     "three",
+     "threejs",
+     "tiktok",
+     "twitter",
+     "whatsapp",
+     "x",
+     "x-logo",
+     "xai",
+     "youtube"
+    ],
+    "card_chrome": {
+     "x_mark": "logos/platforms/x-logo.svg, 34 px, INK, inside the card header \u2014 CHROME, never a cast tile and never a lane tile",
+     "screenshot": "assets/source_aieducation/quoted_video_poster.jpg, the first frame of the video the post carried"
+    },
+    "file_picks_are_mark_identity": {
+     "chatgpt": "ai-models/chatgpt-color.png \u2014 the PRODUCT mark for ChatGPT (LAW 35), never the openai wordmark",
+     "claude": "ai-models/claude-color.png \u2014 Anthropic's product burst, never `claude-code`, never the sticker",
+     "gemini": "ai-models/gemini-color.png \u2014 the spark",
+     "cursor": "coding-tools/cursor.png \u2014 the cube",
+     "grok": "ai-models/grok.png \u2014 the black circular slash, NOT `grok-bot`, NOT `grok.svg`",
+     "lovable": "design-tools/lovable-color.png \u2014 the mark"
+    },
+    "subject_mark_clause": "the run-9 defect is a THIRD-PARTY SUBJECT mark appearing on the stage and in the lanes on the same frame.  This video's subject is the anatomy HEART, a drawing, and no drawing can be a registry key, so the clause has no target here.  The three cast marks appear in both places because the plan's `cutout_logo_lanes_note` puts them there in writing.",
+    "why": "LAW 2 binds a NAMED tool to its logo and this script names no product at all, so the three stage tiles are the TOPICAL roster the plan chose for 'teachers who adopt AI' (LAW 33: real marks, never generic glyphs), sized BY THEIR INK to 74 px inside the 112 px tile (LAW 32: one radius, no odd one out).  The six lane marks are the plan's own topical roster and every one resolves to a SYMBOL cut, so no substitution was needed."
+   },
+   "law22": {
+    "events": 26,
+    "tightest_gap_s": 0.34,
+    "tightest_pair_s": [
+     16.18,
+     16.52
+    ],
+    "kinds": {
+     "pop": 12,
+     "click": 11,
+     "whoosh": 3
+    },
+    "rule": "an OBJECT arriving takes a pop at structure gain; a written KEY takes a click at detail gain; the machine ACTING (the arc sweeping, the heart opening, the lines drawing) takes a click at structure gain; a DISPLACEMENT, a camera MOVE or the outro sheet takes a whoosh",
+    "deliberately_silent": {
+     "settle@2.040": "the settle is the END of the heart's own lift, not a second arrival; the 1.48 whoosh is the whole gesture",
+     "keyflat@15.540": "FLAT PAGE lands on the same frame as the border flip; a flip is not an arrival and the key's own click would double the same event",
+     "keyguess@17.020": "GUESSWORK lands on the same frame as the wobbly heart completing inside the bubble; the draw's click is that event's sound",
+     "emph@15.540 / emphout@16.340 / emph2@25.540 / emph2out@26.300": "a colour flip is not an arrival; nothing appears and nothing leaves, so nothing is struck",
+     "copiesland@26.880": "the three copies were already struck as they left; the landing is the same gesture finishing",
+     "erase0/1/2/3": "a chapter erase hands over rather than clearing; the arriving object on the far side of each seam is what the ear is given",
+     "tiles 2 and 3": "three identical tiles 0.12 s apart are ONE arrival with a stagger, not three events"
+    }
+   },
+   "cues": {
+    "book": {
+     "word_spoken": 0,
+     "text": "Education",
+     "edge": "start",
+     "t": 0.1,
+     "word_edge": 0.099
+    },
+    "pageheart": {
+     "word_spoken": 2,
+     "text": "no",
+     "edge": "start",
+     "t": 0.86,
+     "word_edge": 0.859
+    },
+    "lift": {
+     "word_spoken": 6,
+     "text": "same",
+     "edge": "start",
+     "t": 1.48,
+     "word_edge": 1.48
+    },
+    "settle": {
+     "word_spoken": 7,
+     "text": "due",
+     "edge": "start",
+     "t": 2.04,
+     "word_edge": 2.039
+    },
+    "erase0": {
+     "word_spoken": 10,
+     "text": "Now,",
+     "edge": "start",
+     "t": 3.0,
+     "word_edge": 3.0
+    },
+    "card": {
+     "word_spoken": 11,
+     "text": "this",
+     "edge": "start",
+     "t": 3.32,
+     "word_edge": 3.319
+    },
+    "hl": {
+     "word_spoken": 15,
+     "text": "built",
+     "edge": "start",
+     "t": 4.3,
+     "word_edge": 4.299
+    },
+    "zoom": {
+     "word_spoken": 19,
+     "text": "3D",
+     "edge": "start",
+     "t": 5.92,
+     "word_edge": 5.92
+    },
+    "heart": {
+     "word_spoken": 21,
+     "text": "tool",
+     "edge": "start",
+     "t": 7.0,
+     "word_edge": 7.0
+    },
+    "hotspots": {
+     "word_spoken": 26,
+     "text": "explore",
+     "edge": "start",
+     "t": 7.98,
+     "word_edge": 7.98
+    },
+    "arc": {
+     "word_spoken": 30,
+     "text": "anatomy",
+     "edge": "start",
+     "t": 9.26,
+     "word_edge": 9.26
+    },
+    "afternoon": {
+     "word_spoken": 34,
+     "text": "afternoon,",
+     "edge": "start",
+     "t": 10.52,
+     "word_edge": 10.519
+    },
+    "vessels": {
+     "word_spoken": 37,
+     "text": "accurate",
+     "edge": "start",
+     "t": 11.88,
+     "word_edge": 11.88
+    },
+    "erase1": {
+     "word_spoken": 40,
+     "text": "No",
+     "edge": "start",
+     "t": 13.4,
+     "word_edge": 13.399
+    },
+    "book2": {
+     "word_spoken": 41,
+     "text": "longer",
+     "edge": "start",
+     "t": 13.54,
+     "word_edge": 13.539
+    },
+    "emph": {
+     "word_spoken": 49,
+     "text": "textbooks",
+     "edge": "start",
+     "t": 15.54,
+     "word_edge": 15.539
+    },
+    "keyflat": {
+     "word_spoken": 49,
+     "text": "textbooks",
+     "edge": "start",
+     "t": 15.54,
+     "word_edge": 15.539
+    },
+    "head": {
+     "word_spoken": 51,
+     "text": "have",
+     "edge": "start",
+     "t": 16.18,
+     "word_edge": 16.18
+    },
+    "bubble": {
+     "word_spoken": 53,
+     "text": "imagine",
+     "edge": "start",
+     "t": 16.52,
+     "word_edge": 16.52
+    },
+    "wobble": {
+     "word_spoken": 54,
+     "text": "things",
+     "edge": "start",
+     "t": 17.02,
+     "word_edge": 17.02
+    },
+    "keyguess": {
+     "word_spoken": 54,
+     "text": "things",
+     "edge": "start",
+     "t": 17.02,
+     "word_edge": 17.02
+    },
+    "erase2": {
+     "word_spoken": 58,
+     "text": "Now",
+     "edge": "start",
+     "t": 17.94,
+     "word_edge": 17.94
+    },
+    "open": {
+     "word_spoken": 66,
+     "text": "screens",
+     "edge": "start",
+     "t": 19.26,
+     "word_edge": 19.26
+    },
+    "cursor": {
+     "word_spoken": 68,
+     "text": "see",
+     "edge": "start",
+     "t": 20.18,
+     "word_edge": 20.18
+    },
+    "keyinside": {
+     "word_spoken": 69,
+     "text": "how",
+     "edge": "start",
+     "t": 20.54,
+     "word_edge": 20.539
+    },
+    "erase3": {
+     "word_spoken": 73,
+     "text": "Teachers",
+     "edge": "start",
+     "t": 21.74,
+     "word_edge": 21.739
+    },
+    "tiles": {
+     "word_spoken": 75,
+     "text": "adopt",
+     "edge": "start",
+     "t": 22.24,
+     "word_edge": 22.239
+    },
+    "lines": {
+     "word_spoken": 80,
+     "text": "to",
+     "edge": "start",
+     "t": 23.4,
+     "word_edge": 23.399
+    },
+    "easel": {
+     "word_spoken": 81,
+     "text": "build",
+     "edge": "start",
+     "t": 23.74,
+     "word_edge": 23.739
+    },
+    "easelheart": {
+     "word_spoken": 83,
+     "text": "interactive",
+     "edge": "start",
+     "t": 24.46,
+     "word_edge": 24.459
+    },
+    "emph2": {
+     "word_spoken": 84,
+     "text": "applications",
+     "edge": "start",
+     "t": 25.54,
+     "word_edge": 25.539
+    },
+    "copies": {
+     "word_spoken": 85,
+     "text": "for",
+     "edge": "start",
+     "t": 26.36,
+     "word_edge": 26.359
+    },
+    "copiesland": {
+     "word_spoken": 88,
+     "text": "their",
+     "edge": "start",
+     "t": 26.88,
+     "word_edge": 26.879
+    },
+    "outro": {
+     "word_spoken": 90,
+     "text": "Now",
+     "edge": "start",
+     "t": 27.76,
+     "word_edge": 27.76
+    },
+    "cardout": {
+     "word_spoken": 20,
+     "text": "interactive",
+     "edge": "inside",
+     "t": 6.86,
+     "window": [
+      6.339,
+      7.859
+     ]
+    },
+    "keyterm": {
+     "word_spoken": 30,
+     "text": "anatomy",
+     "edge": "inside",
+     "t": 9.62,
+     "window": [
+      9.26,
+      10.959
+     ]
+    },
+    "heart3": {
+     "word_spoken": 59,
+     "text": "we",
+     "edge": "inside",
+     "t": 18.1,
+     "window": [
+      18.1,
+      19.18
+     ]
+    },
+    "emphout": {
+     "word_spoken": 52,
+     "text": "to",
+     "edge": "inside",
+     "t": 16.34,
+     "window": [
+      16.34,
+      17.399
+     ]
+    },
+    "emph2out": {
+     "word_spoken": 84,
+     "text": "applications",
+     "edge": "inside",
+     "t": 26.3,
+     "window": [
+      25.539,
+      27.299
+     ]
+    },
+    "_free": {
+     "law45": {
+      "board_mode": "chapters",
+      "erases": 5,
+      "seams": [
+       {
+        "erase_at": 3.0,
+        "last_word_ends": 2.599,
+        "fade_s": 0.22,
+        "erase_completes": 3.22,
+        "hands_over_to": "card-wrap",
+        "incoming_arrives_at": 3.32,
+        "lag_after_erase_s": 0.1
+       },
+       {
+        "erase_at": 13.4,
+        "last_word_ends": 13.099,
+        "fade_s": 0.22,
+        "erase_completes": 13.62,
+        "hands_over_to": "book2",
+        "incoming_arrives_at": 13.54,
+        "lag_after_erase_s": 0.0
+       },
+       {
+        "erase_at": 17.94,
+        "last_word_ends": 17.619,
+        "fade_s": 0.22,
+        "erase_completes": 18.16,
+        "hands_over_to": "heart3",
+        "incoming_arrives_at": 18.1,
+        "lag_after_erase_s": 0.0
+       },
+       {
+        "erase_at": 21.74,
+        "last_word_ends": 21.439,
+        "fade_s": 0.22,
+        "erase_completes": 21.96,
+        "hands_over_to": "tile-chatgpt",
+        "incoming_arrives_at": 22.24,
+        "lag_after_erase_s": 0.28
+       },
+       {
+        "erase_at": 27.76,
+        "last_word_ends": 27.539,
+        "fade_s": 0.22,
+        "erase_completes": 27.98,
+        "hands_over_to": "o-sheet",
+        "incoming_arrives_at": 27.76,
+        "lag_after_erase_s": 0.0
+       }
+      ],
+      "verdict": "PASS \u2014 every erase is a 0.22 s handover with the next chapter's identifying object already arriving inside it; the last seam hands over to the opaque rising sheet and the lockup"
+     },
+     "outro": {
+      "t": 27.76,
+      "last_board_event_completes": 26.98,
+      "clear_s": 0.78,
+      "sheet": {
+       "d": 0.46,
+       "lockup_in": 28.26,
+       "kind": "OPAQUE RISING SHEET, never a fade and never a scrim"
+      }
+     }
+    }
+   },
+   "word_sync": {
+    "states_checked": 5,
+    "disagreements": 0,
+    "states": [
+     {
+      "state": "key-term",
+      "first_visible_text": "3D ANATOMY",
+      "at": 9.62,
+      "word": "anatomy",
+      "word_window": [
+       9.26,
+       10.959
+      ],
+      "agrees": true,
+      "why": "3D ANATOMY lands inside the spoken 'anatomy'; its other word '3D' was already spoken at 5.92, so nothing peeks ahead (LAW 24)"
+     },
+     {
+      "state": "key-afternoon",
+      "first_visible_text": "ONE AFTERNOON",
+      "at": 10.52,
+      "word": "afternoon,",
+      "word_window": [
+       10.519,
+       11.899
+      ],
+      "agrees": true,
+      "why": "ONE AFTERNOON lands on the spoken 'afternoon'"
+     },
+     {
+      "state": "key-flat",
+      "first_visible_text": "FLAT PAGE",
+      "at": 15.54,
+      "word": "textbooks",
+      "word_window": [
+       15.539,
+       16.979
+      ],
+      "agrees": true,
+      "why": "FLAT PAGE lands on the spoken 'textbooks' \u2014 the page the sentence is naming.  The word 'textbooks' itself is in the caption pill at that instant, so LAW 4 forbids printing it on the board"
+     },
+     {
+      "state": "key-guess",
+      "first_visible_text": "GUESSWORK",
+      "at": 17.02,
+      "word": "things",
+      "word_window": [
+       17.02,
+       18.199
+      ],
+      "agrees": true,
+      "why": "GUESSWORK lands on 'things', inside the 1.0 s window of 'imagine' (16.52-17.979) \u2014 the act it names"
+     },
+     {
+      "state": "key-inside",
+      "first_visible_text": "INSIDE",
+      "at": 20.54,
+      "word": "how",
+      "word_window": [
+       20.539,
+       21.659
+      ],
+      "agrees": true,
+      "why": "INSIDE lands on 'how', inside 'see how things are built'; the heart has been open since 'screens' 19.26"
+     }
+    ],
+    "digits_that_tick": 0,
+    "note": "no number is typed on this board and nothing counts up.  The other state changes are the heart's lift (1.48, on 'same'), its opened front half (19.26, on 'screens') and the two border flips, and each is cut on the word the cue table verifies."
+   },
+   "production_v2_declarations": {
+    "connectors_stamped": 3,
+    "emphases_stamped": 1,
+    "labels_repointed": 0,
+    "virtual_rects_stamped": 0,
+    "contracts": {
+     "connectors": {
+      "conn-0": {
+       "target": "easel-board",
+       "side": "top",
+       "fraction": 0.16,
+       "check_at": 25.0,
+       "end_core": [
+        455.0,
+        240.0
+       ],
+       "end_canvas": [
+        455.0,
+        432.0
+       ],
+       "start_core": [
+        300.0,
+        132.0
+       ],
+       "stroke_completes": 23.7,
+       "target_born": 23.74,
+       "connector_life": [
+        23.4,
+        27.76
+       ]
+      },
+      "conn-1": {
+       "target": "easel-board",
+       "side": "top",
+       "fraction": 0.5,
+       "check_at": 25.0,
+       "end_core": [
+        540.0,
+        240.0
+       ],
+       "end_canvas": [
+        540.0,
+        432.0
+       ],
+       "start_core": [
+        540.0,
+        132.0
+       ],
+       "stroke_completes": 23.76,
+       "target_born": 23.74,
+       "connector_life": [
+        23.46,
+        27.76
+       ]
+      },
+      "conn-2": {
+       "target": "easel-board",
+       "side": "top",
+       "fraction": 0.84,
+       "check_at": 25.0,
+       "end_core": [
+        625.0,
+        240.0
+       ],
+       "end_canvas": [
+        625.0,
+        432.0
+       ],
+       "start_core": [
+        780.0,
+        132.0
+       ],
+       "stroke_completes": 23.82,
+       "target_born": 23.74,
+       "connector_life": [
+        23.52,
+        27.76
+       ]
+      }
+     },
+     "emphases": {
+      "post-hl": {
+       "id": "post-hl",
+       "kind": "highlight",
+       "declared_target": "post-card",
+       "at": 5.5,
+       "fires_at": 4.3,
+       "completes": 4.7,
+       "declared": true,
+       "geometry_added_px": 0,
+       "ink": "rgba(196,87,58,0.30)",
+       "target_ink": "#141416",
+       "dom_primitive": "the terracotta marker fill rgba(196,87,58,.30) wiped open left to right under the post's claim line on a STATIC card, the run-6 primitive"
+      }
+     }
+    },
+    "why": "the shared scene emits `data-connect-to` on its three connectors but no anchor and no instant, because only a FORMAT knows the timeline it seats them on; both are re-derived from the target's own built rect and stamped HERE, on the emitted string only, so the SEALED module the split author reads is untouched.  ONE `data-emphasis` is stamped, the marker highlight, because it is the only emphasis with an element of its own; the two border flips change the target's own stroke and have nothing to declare.  All five `data-label-for` hosts are real DOM ids, so nothing is repointed and no virtual rectangle is needed."
+   },
+   "reveal_repair": {
+    "strokes_revealed": 3,
+    "dashes_closed": 6,
+    "rows": [
+     {
+      "selector": "#arc .ar",
+      "reveal_at": 9.3,
+      "whole_stroke_at": 9.72,
+      "authored_state": "opacity=\"0\" on the path",
+      "module_raises": "strokeOpacity only"
+     },
+     {
+      "selector": "#head .bb",
+      "reveal_at": 16.56,
+      "whole_stroke_at": 17.0,
+      "authored_state": "opacity=\"0\" on the path",
+      "module_raises": "strokeOpacity only"
+     },
+     {
+      "selector": "#head .wb",
+      "reveal_at": 17.06,
+      "whole_stroke_at": 17.42,
+      "authored_state": "opacity=\"0\" on the path",
+      "module_raises": "strokeOpacity only"
+     },
+     {
+      "selector": "#conn-0 .sline",
+      "reveal_at": null,
+      "whole_stroke_at": 23.7,
+      "authored_state": "visible path",
+      "module_raises": "strokeOpacity only"
+     },
+     {
+      "selector": "#conn-1 .sline",
+      "reveal_at": null,
+      "whole_stroke_at": 23.76,
+      "authored_state": "visible path",
+      "module_raises": "strokeOpacity only"
+     },
+     {
+      "selector": "#conn-2 .sline",
+      "reveal_at": null,
+      "whole_stroke_at": 23.82,
+      "authored_state": "visible path",
+      "module_raises": "strokeOpacity only"
+     }
+    ],
+    "module_bytes_changed": 0,
+    "why": "draw() animates a FIXED dasharray of 100 and raises strokeOpacity only.  On a path longer than 100 units that rests as a broken pattern, and on a path whose glyph authored element opacity 0 it never appears at all.  Both are repaired on the emitted tween list at the module's own instants, so the geometry, the timing and the sealed drawing are unchanged; faded strokes (fadeink) are untouched."
+   },
+   "reframe_repair": {
+    "origin": [
+     486.0,
+     372.0
+    ],
+    "scale": 1.92,
+    "module_translate": [
+     54.0,
+     -72.0
+    ],
+    "reframed_translate": [
+     -43.9,
+     -111.7
+    ],
+    "ty_centre": -99.76,
+    "ty_capped_by_stage_zone": -111.68,
+    "binding": "stage zone",
+    "screenshot_canvas": [
+     98.4,
+     200.8,
+     981.6,
+     753.7
+    ],
+    "screenshot_wh": [
+     883.2,
+     552.9
+    ],
+    "screenshot_core_box_final": [
+     307.0,
+     241.0,
+     460.0,
+     288.0
+    ],
+    "screenshot_at_rest_wh": [
+     460.0,
+     288.0
+    ],
+    "closer_by": 1.92,
+    "card_canvas": [
+     -222.2,
+     -173.6,
+     1313.8,
+     786.4
+    ],
+    "frame_margin_px": 24.0,
+    "stage_zone": [
+     192.0,
+     786.4
+    ],
+    "pill_top": 812.91,
+    "card_bottom_to_pill_px": 26.5,
+    "card_bottom_to_crown_px": 167.6,
+    "module_aim_post_text_canvas_x": [
+     -49.4,
+     1348.3
+    ],
+    "module_aim_would_slice": true,
+    "confirmed_row_this_repairs": {
+     "source": "review/final_aieducation.json -> confirmed_rows[0]",
+     "render": "split",
+     "class": "cramp_overlap_clipping",
+     "window": [
+      6.15,
+      6.9
+     ],
+     "settled": [
+      6.4,
+      6.85
+     ],
+     "measured_by_the_clerk": "post-text bbox x0=2 x1=1071 on a 1080-wide frame, five consecutive samples, so a HELD state"
+    },
+    "chrome_faded": [
+     "#pc-x",
+     "#pc-handle",
+     "#pc-hair",
+     "#pc-body",
+     "#post-hl"
+    ],
+    "chrome_fade_s": 0.3,
+    "panel_dissolved": {
+     "element": "#post-card",
+     "to": "backgroundColor rgba(0,0,0,0), borderWidth 0",
+     "why": "GLOBAL LAW 8 \u2014 a PAINTED box may not straddle a frame edge without an alpha ramp, and the panel is the only thing in this move that does.  Dissolved, the only element left at the edge is nothing: the screenshot is entirely inside the canvas."
+    },
+    "why": "SAME instant, SAME scale, SAME origin, SAME duration and SAME easing; only the AIM changes, and the card's chrome leaves by fading instead of by being cut.  The plan's GO CLOSER instruction is honoured on the object it names \u2014 the screenshot the post carried \u2014 and nothing readable is sliced by a frame edge.",
+    "tween_replaced": "tl.to(\"#card-wrap\",{scale:1.92,transformOrigin:\"486px 372px\",x:54,y:-72,duration:0.56,ease:SOFT},5.92);",
+    "tween_written": "tl.to(\"#card-wrap\",{scale:1.92,transformOrigin:\"486px 372px\",x:-43.9,y:-111.7,duration:0.56,ease:SOFT},5.92);",
+    "module_bytes_changed": 0
+   },
+   "plan_geometry": {
+    "verdict": "PASS",
+    "objects": {
+     "open book heart": {
+      "plan_core": [
+       330.0,
+       74.0,
+       750.0,
+       468.0
+      ],
+      "built_core": [
+       330.0,
+       74.0,
+       750.0,
+       468.0
+      ],
+      "built_canvas": [
+       330.0,
+       266.0,
+       750.0,
+       660.0
+      ],
+      "max_delta_px": 0.0
+     },
+     "3D anatomy heart": {
+      "plan_core": [
+       370.0,
+       160.0,
+       710.0,
+       500.0
+      ],
+      "built_core": [
+       370.0,
+       160.0,
+       710.0,
+       500.0
+      ],
+      "built_canvas": [
+       370.0,
+       352.0,
+       710.0,
+       692.0
+      ],
+      "max_delta_px": 0.0
+     },
+     "thinking head profile": {
+      "plan_core": [
+       630.0,
+       170.0,
+       910.0,
+       460.0
+      ],
+      "built_core": [
+       630.0,
+       170.0,
+       910.0,
+       460.0
+      ],
+      "built_canvas": [
+       630.0,
+       362.0,
+       910.0,
+       652.0
+      ],
+      "max_delta_px": 0.0
+     },
+     "classroom easel board": {
+      "plan_core": [
+       350.0,
+       176.0,
+       730.0,
+       536.0
+      ],
+      "built_core": [
+       350.0,
+       176.0,
+       730.0,
+       536.0
+      ],
+      "built_canvas": [
+       350.0,
+       368.0,
+       730.0,
+       728.0
+      ],
+      "max_delta_px": 0.0
+     }
+    },
+    "worst_delta_px": 0.0,
+    "objects_compared": 4,
+    "note": "the plan carries no `canvas_rects` block, so the compared geometry is its four `core_box` declarations; at k = 1.00 and top = 192 each is reproduced exactly and differs from the canvas only by the 192 px offset."
+   },
+   "transcript": {
+    "partials_dropped": [],
+    "token_merges": [],
+    "law47_tail_s": 0.241,
+    "law47_cap_s": 0.24,
+    "law47_overshoot_s": 0.001,
+    "law47_verdict": "REPORTED \u2014 0.241s against a 0.240s cap",
+    "law46": "the scripted opening \"education will no longer be the same\" occurs ONCE inside the keeper take, at word 0 / 0.099 s; the raw has eight openings and the cut keeps the last one that reaches the sign-off",
+    "take_corroboration": {
+     "source": "cuts/aieducation/edl.json -> take_detection",
+     "method": "last scripted opening that reaches the spoken sign-off; the content rule decides, the marker rule and the gap sweep witness",
+     "raw_word_index": 112,
+     "raw_start_s": 95.4,
+     "words": 111,
+     "of_raw_words": 223,
+     "openings": 8,
+     "sign_offs_found": 1,
+     "marker_rule": "equality",
+     "marker_answer": 112,
+     "markers_before_take": 5,
+     "marker_note": "EQUALITY is the strongest form; BOUND is legal and expected when abandonments carry no partial word; ABSTAINS is legal on a raw with no markers at all.",
+     "gap_rule": "DISAGREES",
+     "gap_answer_each_threshold": 108,
+     "gap_boundary_gap_s": 0.07,
+     "gap_note": "the gap sweep DISAGREES on this take and it is recorded, not hidden: every threshold answers word 108 ('Now follow for more'), four words early, because the boundary gap into the keeper take is 0.07 s \u2014 he runs the sign-off straight on.  The MARKER rule is EQUALITY on 112 and is the stronger form; corroboration.witnessed is true.",
+     "corroboration": {
+      "marker": "equality",
+      "gap": "DISAGREES",
+      "witnessed": true,
+      "allow_uncorroborated": false
+     },
+     "silence_before_take_s": -0.24
+    },
+    "words": 111,
+    "phrase_groups_repartitioned": 11,
+    "function_word_merges": 0,
+    "beats_before_merge": 30,
+    "board_keys_forbidden_at_split": [
+     "3d anatomy",
+     "3d anatomy!",
+     "3d anatomy,",
+     "3d anatomy.",
+     "3d anatomy?",
+     "flat page",
+     "flat page!",
+     "flat page,",
+     "flat page.",
+     "flat page?",
+     "guesswork",
+     "guesswork!",
+     "guesswork,",
+     "guesswork.",
+     "guesswork?",
+     "inside",
+     "inside!",
+     "inside,",
+     "inside.",
+     "inside?",
+     "one afternoon",
+     "one afternoon!",
+     "one afternoon,",
+     "one afternoon.",
+     "one afternoon?"
+    ],
+    "orphan_repartitions": [],
+    "board_key_echo_repairs": [],
+    "solo_word_merges": [],
+    "caption_echoes_not_overlapping": []
+   },
+   "matte_visual_review": {
+    "session": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/matting/aieducation",
+    "layers": [
+     "matte_aieducation_v5_cut.webm",
+     "matte_aieducation_v5_rim.webm",
+     "matte_aieducation_v5_alpha.webm"
+    ],
+    "structural": {
+     "frames": 803,
+     "size": "1584x990 @25",
+     "alpha_mode": "soft",
+     "rim_px": 7,
+     "fractional_alpha_pixels": 15805478,
+     "minimum_person_fraction": 0.36307774716865626,
+     "headroom_guard": true,
+     "headroom_frames_checked": 803,
+     "headroom_min_top_clearance_px": 25.3,
+     "headroom_unsafe_frames": 0,
+     "crown_gate": {
+      "frames_on_plate_top": 0,
+      "frames": 803,
+      "frac": 0.0,
+      "floor": 0.25,
+      "verdict": "the crown is a head"
+     },
+     "envelope_per_frame_top": {
+      "p05": 58.0,
+      "median": 61.0,
+      "frames_touching_row0": 0
+     }
+    },
+    "viewer_metrics": {
+     "source": "review/matte_aieducation/metrics.json",
+     "background_haze": {
+      "px_floor": 1500,
+      "detach_px": 14,
+      "p50": 0,
+      "p95": 0,
+      "max": 12,
+      "frames_over_floor": 0,
+      "longest_run_s": 0.0,
+      "hold_seconds_limit": 1.0,
+      "worst_sample_s": 0.0,
+      "hold": false
+     },
+     "frozen_edge": {
+      "frozen_sd": 1.5,
+      "min_cols": 12,
+      "sd_ratio": 4.0,
+      "runs": [],
+      "hold": false
+     },
+     "chair_band_px": {
+      "reference": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/matting/aieducation/selection.mask.png",
+      "p50": 143,
+      "p95": 2728,
+      "max": 8695,
+      "max_at_s": 3.4
+     },
+     "soft_alpha_px": {
+      "rest_median": 13217,
+      "p95_over_rest": 1.07,
+      "max_over_rest": 1.28,
+      "frames_over_2p5x": 0
+     },
+     "extra_components": {
+      "max": 0,
+      "frames": 0
+     },
+     "holes": {
+      "max": 1,
+      "frames": 1
+     },
+     "iou_frame_to_frame": {
+      "p05": 0.9612,
+      "min": 0.9347
+     },
+     "auto_hold": []
+    },
+    "selection_status": "reviewed",
+    "selection_reviewer": "astra, run 22 source-pixel contour review",
+    "selection_notes": "Excluded the viewer-left black chair patch attached outside the cap and ear: 4567 previously selected chair pixels, inclusive changed bbox x503-567 y233-388 in the 1440x900 plate. The existing selection and keyframe overlay visibly contained this patch despite the prior no-edits approval note. Traced the chair side of the cap/ear boundary from selection.frame.png at 4x and 8x, preserving the visible cap, hair, ear and facial edge. Inspected both prompt overlays at 2x and both shoulder-arrival junctions at 4x; their contours already follow the shirt and require no extra cut. All rows y389-899, including neck, shoulders and both hands, are unchanged. Explicit source-traced anatomy ROI differences and furniture-region counts are recorded in astra_contour_review/verification.json. The early playback tiles f12, f25 and f40 show the corresponding retained chair streak. Approval covers this local first-frame selection only; temporal correction must be checked after the parent reruns the GPU stages.",
+    "history": {
+     "stage17_viewer": "HOLD",
+     "stage17_cause": "a PATH-RESOLUTION bug, not a matte finding: the matte batch shipped into the shared pipeline/sam2/sessions/aieducation because it was launched without --sessions <run>/matting, and matte_review.py only looked run-local.  Fixed at source (resolve_session()) by the repair round.",
+     "stage18_sam2_fallback": "error",
+     "stage18_error": "no reviewed selection in the MatAnyone2 session; the fallback starts from the reviewed contour",
+     "repair_fixed": false,
+     "repair_root_cause": "The matting stage DID run and ship for aieducation - prep/_batch_matte.log shows track ok 83.1s and ship ok 84.1s, and the triple matte_aieducation_v5_{cut,rim,alpha}.webm plus plate_wide_25.mp4 are on disk - but it shipped into the factory-wide default sessions root (pipeline/sam2/sessions/aieducation) because the matte batch was launched without --sessions <run>/matting, while matte_review.py only ever looked at the run-local <run>/matting/<id>, so it declared a shipped matte missing after having already created the empty review/matte_aieducation/; artifacts fully survived.",
+     "why_this_lane_re_reads_it": "no independent viewer has recorded a verdict against the layers this build stages, so the LAW 48 read below is measured on THEM, on the four sheets under review/matte_aieducation/ that were written against this exact session."
+    },
+    "wing_review": {
+     "instrument": "prep prompt0 \u2014 wing_review TRUE, and it names this id",
+     "wing_left": null,
+     "wing_right": null,
+     "wing_cut_applied": false,
+     "removed_px": 0,
+     "verdict": "ABSTAINED at prep \u2014 the instrument proposes no cut rather than guessing (zero false positives, zero recall on the run-9 corpus).  The abstention was then answered by the contour round that redrew the selection after the haze gate held the first matte; the current selection.json is that reviewed contour and the re-measured haze is 0.0 s held against a 1.0 s limit.",
+     "no_chair_object": "the session carries a `chair_prompt.json`, and the production client's soft-alpha finish does NO automatic chair carving (PRODUCTION.md).  The geo incident was a chair-EXCLUSION object eating an ear; nothing of the kind was applied here."
+    },
+    "law48_read": "PASS, read on the layers this build stages (the re-shipped ones), at the delivered crop and normal playback speed, on the four sheets under review/matte_aieducation/ written against this exact session.  THE CONDITION THAT HELD THE PREDECESSOR IS GONE: the streak of chair hanging off the left of his head at 0.48 / 1.00 / 1.60 s is absent \u2014 background_haze p50 0, p95 0, max 12 px against a 1500 px floor, frames over floor 0, LONGEST RUN 0.0 s against the 1.0 s limit, hold false \u2014 and the chair band's own p50 is 143 px, with its single worst sample (8695 px) at 3.4 s, a gesture peak rather than a held state.  frozen_edge returns NO runs at sd_ratio 4.0, so no column of the silhouette is pinned to furniture (the run-21 grokemail signature).  The outline is a soft FRACTIONAL alpha with a 7 px cream rim rather than a binary mask \u2014 15,805,478 fractional alpha pixels over 803 frames is ~19.7k soft pixels per frame, a feathered edge and not a hard key \u2014 so there is no stair-stepping to flicker, and frame-to-frame IoU p05 is 0.9612 with a minimum of 0.9347 at the fastest gesture.  extra_components 0 over every sampled frame; holes reach 1 on a single sampled frame and never form a run.  soft_alpha_px p95 is 1.07x its own rest median and the max 1.28x, against the 2.5x ceiling, with 0 frames over it: no frame smears.  The minimum person fraction is 0.36308, so no frame loses the body.  Every one of the 803 frames clears the top edge by at least 25.3 px against the 24 px floor and NONE touches alpha row 0, so the crown is a head and the caption is seated on a head rather than on a cut.  THE CLERK STILL WATCHES THE DELIVERED FILE: this is the author's read, not a substitute for the clerk's, and `review_status` stays `needs_final_visual_review` until the clerk answers it.",
+    "no_modal_matting_call": "no re-track, no re-selection, no repair pass and no matting dispatch of any kind was made by this lane.  The only Modal call this lane makes is the render."
+   },
+   "stage_zone": [
+    192.0,
+    786.4
+   ],
+   "envelope": {
+    "CAP_H_seat_constant": 108.2,
+    "CAP_H_true_rendered": 114.59,
+    "CAP_MIN_CLEAR": 26.5,
+    "true_clear_to_crown": 26.5,
+    "CAP_Y": 870.2,
+    "CAP_Y_pct": 0.4532,
+    "pill_bottom": 927.5,
+    "pill_bottom_pct": 0.4831,
+    "ZY0": 192.0,
+    "ZY1": 786.4,
+    "stage_height": 594.4,
+    "vs_definitive": {
+     "CAP_Y": 949.5,
+     "ZY1": 868.9,
+     "why_different": "a different plate: this session's crown sits below the plate's top row (bottom_planted false, crop slid up 72 master px), and the plate is OVER-WIDE (1584x990 at -252)"
+    }
+   },
+   "crown_gate": {
+    "frames_on_plate_top": 0,
+    "frames": 803,
+    "frac": 0.0,
+    "floor": 0.25,
+    "verdict": "the crown is a head"
+   },
+   "depth_field": {
+    "seat": {
+     "band": [
+      991.5,
+      1385.5
+     ],
+     "band_h": 394.0,
+     "inter_lane_gap": 26.0,
+     "seat_offset_from_pill": 64.0,
+     "foundation_offset": 63.61,
+     "drift_from_foundation_seat": 0.39,
+     "margin_px": 164.0,
+     "candidates_scanned": 107,
+     "candidates_safe": 89,
+     "instrument": "5th percentile of the PER-FRAME gutter; the union envelope describes a body that never existed",
+     "lanes": [
+      {
+       "lane": "far",
+       "tile": 78.0,
+       "y": 991.5,
+       "frames": 268,
+       "gutter_p05": 340.9,
+       "gutter_median": 361.8,
+       "gutter_min_single_frame": 324.4,
+       "frames_under_tile": 0
+      },
+      {
+       "lane": "mid",
+       "tile": 116.0,
+       "y": 1095.5,
+       "frames": 268,
+       "gutter_p05": 308.3,
+       "gutter_median": 325.5,
+       "gutter_min_single_frame": 283.7,
+       "frames_under_tile": 0
+      },
+      {
+       "lane": "near",
+       "tile": 148.0,
+       "y": 1237.5,
+       "frames": 268,
+       "gutter_p05": 312.0,
+       "gutter_median": 326.6,
+       "gutter_min_single_frame": 113.2,
+       "frames_under_tile": 1
+      }
+     ]
+    },
+    "lanes": {
+     "far": {
+      "x0": -216.0,
+      "w": 1926.0,
+      "y": 991.5,
+      "tile": 78.0,
+      "gap": 30.0,
+      "pitch": 108.0,
+      "tiles": 17,
+      "opacity": 0.34,
+      "dist": 46.0,
+      "travel": 414.0,
+      "steps": 9
+     },
+     "mid": {
+      "x0": -304.0,
+      "w": 2696.0,
+      "y": 1095.5,
+      "tile": 116.0,
+      "gap": 36.0,
+      "pitch": 152.0,
+      "tiles": 17,
+      "opacity": 0.66,
+      "dist": 112.0,
+      "travel": 1008.0,
+      "steps": 9
+     },
+     "near": {
+      "x0": -384.0,
+      "w": 3720.0,
+      "y": 1237.5,
+      "tile": 148.0,
+      "gap": 44.0,
+      "pitch": 192.0,
+      "tiles": 19,
+      "opacity": 1.0,
+      "dist": 208.0,
+      "travel": 1872.0,
+      "steps": 9
+     }
+    },
+    "tiles": 53,
+    "step_beats": [
+     3.32,
+     6.32,
+     10.0,
+     12.76,
+     16.32,
+     19.28,
+     22.84,
+     26.36,
+     29.36
+    ],
+    "step_n": 9,
+    "step_pulse_s": 3.26,
+    "foundation_pulse_s": 3.17,
+    "pop_behind": null,
+    "spoken_depth_marks": [],
+    "pop_behind_why_none": "MEASURED, not omitted.  Cutout law 16 keys the crossing to 'the beat where he NAMES the tool'.  This take names no product at all: a lexical sweep of all six lane marks over the whole tight transcript returns ZERO hits, and the only proper nouns he says are 'X' (the platform, which is card chrome and deliberately not a lane mark) and 'AI'.  There is therefore no legal beat to key a crossing to, and improvising one is exactly what this lane may not do.",
+    "cast": [
+     "chatgpt",
+     "claude",
+     "gemini",
+     "cursor",
+     "grok",
+     "lovable"
+    ],
+    "cast_list_why": "the field's stride is 7 and this roster is 6 long; gcd(7,6)=1, so every lane cycles all six of the plan's marks with no repeat knob needed.",
+    "cast_source": "plan.cutout_logo_lanes, unchanged",
+    "substitutions": {},
+    "banned_asserted": [
+     "anthropic-wordmark",
+     "claude-code",
+     "grok-bot",
+     "grok-bot-app",
+     "instagram",
+     "nous-girl",
+     "openai",
+     "openai-wordmark",
+     "qwen-lockup",
+     "spotify",
+     "telegram",
+     "three",
+     "threejs",
+     "tiktok",
+     "twitter",
+     "whatsapp",
+     "x",
+     "x-logo",
+     "xai",
+     "youtube"
+    ],
+    "opacities": [
+     0.34,
+     0.66,
+     1.0
+    ],
+    "hook_clear_s": 2.04,
+    "seams": [
+     3.0,
+     13.4,
+     17.94,
+     21.74,
+     27.76
+    ],
+    "foundation": "formats/cutout/lib/cutout_depthfield.py (grokpublish, approved 2026-09-01) \u2014 unmodified"
+   },
+   "phone_test_objects": [
+    {
+     "name": "an open book with a heart lifting off the page",
+     "t": 2.4,
+     "space": "norm",
+     "bbox": [
+      0.30556,
+      0.13854,
+      0.69444,
+      0.34375
+     ],
+     "canvas": [
+      330.0,
+      266.0,
+      750.0,
+      660.0
+     ],
+     "phone_px": [
+      158,
+      148
+     ]
+    },
+    {
+     "name": "a heart",
+     "t": 12.6,
+     "space": "norm",
+     "bbox": [
+      0.34259,
+      0.18333,
+      0.65741,
+      0.36042
+     ],
+     "canvas": [
+      370.0,
+      352.0,
+      710.0,
+      692.0
+     ],
+     "phone_px": [
+      128,
+      128
+     ]
+    },
+    {
+     "name": "a head in profile thinking",
+     "t": 17.4,
+     "space": "norm",
+     "bbox": [
+      0.58333,
+      0.18854,
+      0.84259,
+      0.33958
+     ],
+     "canvas": [
+      630.0,
+      362.0,
+      910.0,
+      652.0
+     ],
+     "phone_px": [
+      105,
+      109
+     ]
+    },
+    {
+     "name": "an easel",
+     "t": 25.0,
+     "space": "norm",
+     "bbox": [
+      0.32407,
+      0.19167,
+      0.67593,
+      0.37917
+     ],
+     "canvas": [
+      350.0,
+      368.0,
+      730.0,
+      728.0
+     ],
+     "phone_px": [
+      142,
+      135
+     ]
+    }
+   ],
+   "phone_test_vs_plan": {
+    "objects": [
+     {
+      "plan_name": "open book heart",
+      "built_name": "an open book with a heart lifting off the page",
+      "plan_t": 2.4,
+      "built_t": 2.4,
+      "plan_bbox": [
+       0.3056,
+       0.1385,
+       0.6944,
+       0.3438
+      ],
+      "built_bbox": [
+       0.30556,
+       0.13854,
+       0.69444,
+       0.34375
+      ],
+      "plan_core_box": [
+       330.0,
+       74.0,
+       750.0,
+       468.0
+      ],
+      "built_core_box": [
+       330.0,
+       74.0,
+       750.0,
+       468.0
+      ],
+      "plan_phone_px": [
+       157,
+       148
+      ],
+      "built_phone_px": [
+       158,
+       148
+      ],
+      "max_delta_px": 0.1
+     },
+     {
+      "plan_name": "3D anatomy heart",
+      "built_name": "a heart",
+      "plan_t": 12.6,
+      "built_t": 12.6,
+      "plan_bbox": [
+       0.3426,
+       0.1833,
+       0.6574,
+       0.3604
+      ],
+      "built_bbox": [
+       0.34259,
+       0.18333,
+       0.65741,
+       0.36042
+      ],
+      "plan_core_box": [
+       370.0,
+       160.0,
+       710.0,
+       500.0
+      ],
+      "built_core_box": [
+       370.0,
+       160.0,
+       710.0,
+       500.0
+      ],
+      "plan_phone_px": [
+       127,
+       128
+      ],
+      "built_phone_px": [
+       128,
+       128
+      ],
+      "max_delta_px": 0.06
+     },
+     {
+      "plan_name": "thinking head profile",
+      "built_name": "a head in profile thinking",
+      "plan_t": 17.4,
+      "built_t": 17.4,
+      "plan_bbox": [
+       0.5833,
+       0.1885,
+       0.8426,
+       0.3396
+      ],
+      "built_bbox": [
+       0.58333,
+       0.18854,
+       0.84259,
+       0.33958
+      ],
+      "plan_core_box": [
+       630.0,
+       170.0,
+       910.0,
+       460.0
+      ],
+      "built_core_box": [
+       630.0,
+       170.0,
+       910.0,
+       460.0
+      ],
+      "plan_phone_px": [
+       105,
+       109
+      ],
+      "built_phone_px": [
+       105,
+       109
+      ],
+      "max_delta_px": 0.08
+     },
+     {
+      "plan_name": "classroom easel board",
+      "built_name": "an easel",
+      "plan_t": 25.0,
+      "built_t": 25.0,
+      "plan_bbox": [
+       0.3241,
+       0.1917,
+       0.6759,
+       0.3792
+      ],
+      "built_bbox": [
+       0.32407,
+       0.19167,
+       0.67593,
+       0.37917
+      ],
+      "plan_core_box": [
+       350.0,
+       176.0,
+       730.0,
+       536.0
+      ],
+      "built_core_box": [
+       350.0,
+       176.0,
+       730.0,
+       536.0
+      ],
+      "plan_phone_px": [
+       142,
+       135
+      ],
+      "built_phone_px": [
+       142,
+       135
+      ],
+      "max_delta_px": 0.06
+     }
+    ],
+    "source_used_for_the_phone_test": "--plan (the plan's own boxes; identical to the built boxes at k = 1.00, top = 192)",
+    "worst_delta_px": 0.1
+   },
+   "render": {
+    "w": 1080,
+    "h": 1920,
+    "zoom": 1
+   },
+   "handle_key": "tiktok_ig",
+   "handle": "@migueltorrez.ai",
+   "captions": {
+    "n": 30,
+    "widest_px": 706.6,
+    "font_px": 56.2,
+    "pill_height_px": 114.59,
+    "sizes": 1,
+    "seat_max_w": 756.0,
+    "function_word_merges": 0,
+    "texts": [
+     "Education will no",
+     "longer be the same",
+     "due to AI.",
+     "Now, this guy on X",
+     "built out an entire",
+     "3D interactive tool",
+     "to be able to explore",
+     "the entire human",
+     "anatomy in a",
+     "single afternoon,",
+     "full of accurate",
+     "3D models.",
+     "No longer will",
+     "we have to just",
+     "look at textbooks",
+     "and have to imagine",
+     "things in our head.",
+     "Now we will be able to",
+     "look at screens and see",
+     "how things are built.",
+     "Teachers who adopt AI",
+     "will be able to build out",
+     "interactive applications",
+     "for all of their students.",
+     "Now follow for more",
+     "AI news, videos, and",
+     "tutorials each and",
+     "every single day,",
+     "and catch you",
+     "in the next one."
+    ],
+    "source": "BUILT HERE from pipeline/captions.py, the canon every chassis reads \u2014 the board-key forbid list (LAW 4), merge_function_only_beats over the WHOLE beat stream, the orphan repartition and assert_no_function_only_beat."
+   },
+   "caption_texts": [
+    "Education will no",
+    "longer be the same",
+    "due to AI.",
+    "Now, this guy on X",
+    "built out an entire",
+    "3D interactive tool",
+    "to be able to explore",
+    "the entire human",
+    "anatomy in a",
+    "single afternoon,",
+    "full of accurate",
+    "3D models.",
+    "No longer will",
+    "we have to just",
+    "look at textbooks",
+    "and have to imagine",
+    "things in our head.",
+    "Now we will be able to",
+    "look at screens and see",
+    "how things are built.",
+    "Teachers who adopt AI",
+    "will be able to build out",
+    "interactive applications",
+    "for all of their students.",
+    "Now follow for more",
+    "AI news, videos, and",
+    "tutorials each and",
+    "every single day,",
+    "and catch you",
+    "in the next one."
+   ]
+  }
+ }
+}

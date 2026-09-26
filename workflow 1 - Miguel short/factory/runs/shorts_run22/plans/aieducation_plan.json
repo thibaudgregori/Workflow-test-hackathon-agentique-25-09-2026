@@ -1,0 +1,499 @@
+{
+ "id": "aieducation",
+ "duration_s": 32.12,
+ "lane": "icon choreography",
+ "lane_reason": "The script is a chain of named things swapping places - a printed textbook page, a 3D heart you can turn, a head that has to imagine, a classroom board - so the argument is carried by objects arriving and leaving on the spoken word, which is exactly icon choreography's grammar and the lane Miguel ranks first.",
+ "wing_review": "prompt0 not landed at plan time - the prompt0 marker is status 'blocked' (blocked: plate stage is not ok, 14:25:23, because plate/track/cues all ran before the cut master landed at 14:28:35). The cutout author owns the wing review.",
+ "prep_numbers_seen": {
+  "cut": "ok, wall 30.7 s, cut_master_duration_s 32.12, tight_audio_duration_s 32.095, analysis_wav_written false (48 kHz only, by design)",
+  "plate": "error - 'no cut master to derive a plate from' (stamped 14:25:23, before the cut landed 14:28:35)",
+  "prompt0": "blocked - 'plate stage is not ok'",
+  "track": "error - 'No valid prepared plate'; no Modal cost booked for this recording",
+  "ship": "no marker on disk at plan time - matte not shipped",
+  "cues": "error - 'no tight transcript to scan for cues'; the plan author re-ran pointing_cues.py by hand (see pointing_cues below)",
+  "false_start_check": "LAW 46 clear - the opening key 'education will no longer be the same' appears exactly once in the tight cut (word 0 'Education' at 0.099); the raw intake transcript repeats 'AI is changing education. No longer will we have to just read textbooks' twice and the cut correctly keeps the later, complete take."
+ },
+ "beats": [
+  {
+   "i": 0,
+   "t_start": 0.1,
+   "t_end": 3.0,
+   "words": "Education will no longer be the same due to AI.",
+   "says": "Education itself is about to change shape.",
+   "picture": "An open textbook is drawn on the axis, and a heart prints flat on its right page. On 'the same' that printed heart PEELS UP off the paper and settles above the book, leaving a dashed ghost of itself on the page it came off.",
+   "objects": [
+    "open textbook",
+    "page heart (flat, then lifted)"
+   ],
+   "emphasis": [],
+   "whiteboard_version": "The same drawing in marker: one open spread, the heart inked flat on the right page, then re-inked larger above the page while the first heart is left behind as a broken, dashed outline."
+  },
+  {
+   "i": 1,
+   "t_start": 3.0,
+   "t_end": 13.4,
+   "words": "Now, this guy on X built out an entire 3D interactive tool to be able to explore the entire human anatomy in a single afternoon, full of accurate 3D models.",
+   "says": "One developer shipped a whole interactive 3D anatomy tool in one afternoon.",
+   "picture": "The pointing cue lands first: the X post card by @thebuggeddev, with the marker highlight on the line that carries the claim, then a closer move into the screenshot the post carried (Anatomy Atelier, a 3D heart on screen). The card leaves and THE SAME HEART from beat 0 takes the stage large, gains three terracotta hotspot dots, sweeps once around a terracotta rotation arc on 'anatomy', and fills in its accurate interior vessels on 'accurate 3D models'.",
+   "objects": [
+    "X source post card",
+    "3D anatomy heart",
+    "rotation arc",
+    "hotspot dots"
+   ],
+   "emphasis": [
+    {
+     "target": "the claim line inside the X post card",
+     "kind": "highlight",
+     "why": "LAW 38 rule 1 - the words the viewer reads are type inside a raster post card, so the emphasis is the factory's marker fill, never a box and never a ring."
+    }
+   ],
+   "whiteboard_version": "The board cannot paste a raster, so the post is inked as a bordered card with a small X mark and the handle written, the claim line written inside it and the marker run under that line; then the card is erased and the heart is drawn big with its arc."
+  },
+  {
+   "i": 2,
+   "t_start": 13.4,
+   "t_end": 17.94,
+   "words": "No longer will we have to just look at textbooks and have to imagine things in our head.",
+   "says": "The old way was a flat page plus your imagination doing the rest.",
+   "picture": "Board clears. The textbook returns at the left, flat, and a boxed emphasis lands on it on 'textbooks'. At the right a head in profile is drawn, and inside its skull a heart is drawn with a line that never closes - the organ the reader is forced to invent.",
+   "objects": [
+    "flat textbook",
+    "thinking head in profile",
+    "the imagined heart, dashed, inside the skull"
+   ],
+   "emphasis": [
+    {
+     "target": "flat textbook",
+     "kind": "box",
+     "why": "LAW 38 rule 2 - the target is a DRAWN object, not raster text, so it takes boxing (the DOM lane's panel border flip), never a ring or a highlight."
+    }
+   ],
+   "whiteboard_version": "Same two drawings side by side; the imagined heart is inked inside the head in dashes, and the emphasis is a marker box around the book rather than a border flip."
+  },
+  {
+   "i": 3,
+   "t_start": 17.94,
+   "t_end": 21.74,
+   "words": "Now we will be able to look at screens and see how things are built.",
+   "says": "Now you can open the thing up and look at how it is actually made.",
+   "picture": "Board clears. The heart returns centre stage and OPENS: its front half swings aside on a hinge at the notch, showing the chambers, the septum and the coronary lines inside, with a small cursor arrow resting where a hotspot was.",
+   "objects": [
+    "3D anatomy heart (opened on its hinge)",
+    "cursor arrow"
+   ],
+   "emphasis": [],
+   "whiteboard_version": "The heart is drawn once, then its front half is erased and re-inked swung aside with the chambers drawn in behind it; INSIDE is written under it."
+  },
+  {
+   "i": 4,
+   "t_start": 21.74,
+   "t_end": 27.76,
+   "words": "Teachers who adopt AI will be able to build out interactive applications for all of their students.",
+   "says": "A teacher with AI can build one of these for her own class.",
+   "picture": "Board clears. Three real tool tiles sit in a row and send terracotta connectors down into a classroom easel; the heart appears on the easel's board on 'interactive applications' and the board's own border flips terracotta; then the model copies itself and the three copies land in a row on the easel's cross-brace - one for every student.",
+   "objects": [
+    "three tool tiles (ChatGPT, Claude, Gemini)",
+    "classroom easel",
+    "three small hearts"
+   ],
+   "emphasis": [
+    {
+     "target": "classroom easel board",
+     "kind": "box",
+     "why": "LAW 38 rule 2 - the easel board is a DRAWN object, so the emphasis is the panel border flip; no ring, no ellipse, no circle."
+    }
+   ],
+   "whiteboard_version": "The tiles become three small inked marks in boxes, the easel is drawn legs first with its board propped on the ledge, and the three copies are three quick small hearts inked in a row on the brace."
+  },
+  {
+   "i": 5,
+   "t_start": 27.76,
+   "t_end": 32.12,
+   "words": "Now follow for more AI news, videos, and tutorials each and every single day, and catch you in the next one.",
+   "says": "The sign-off.",
+   "picture": "An opaque cream sheet rises and clears the board, then the chassis outro lockup fades up on this video's own themed object: the heart, drawn small, above the terracotta rule, the mono handle and the daily AI micro-line, all on one centred axis.",
+   "objects": [
+    "heart glyph (small)",
+    "outro lockup"
+   ],
+   "emphasis": [],
+   "whiteboard_version": "Identical device - the rising sheet, then the same lockup on the same small heart."
+  }
+ ],
+ "bespoke_objects": [
+  {
+   "name": "open book heart",
+   "t": 2.4,
+   "bbox": [
+    0.3056,
+    0.1385,
+    0.6944,
+    0.3438
+   ],
+   "space": "norm",
+   "why_bespoke": "The whole video is the flat printed page becoming a thing you can hold, and no stock mark says that. It is ONE two-part object - the open book AND the heart that has just left its page - declared with one bbox so the cold namer sees the whole idea rather than half of it.",
+   "how_drawn": "Two ink-line page leaves meeting at a spine with a few ruled text lines on the left leaf, and above the right leaf a heart in the same ink with two vessel stubs, sitting clear of the page with a short lift line under it.",
+   "core_box": [
+    330.0,
+    74.0,
+    750.0,
+    468.0
+   ]
+  },
+  {
+   "name": "3D anatomy heart",
+   "t": 12.6,
+   "bbox": [
+    0.3426,
+    0.1833,
+    0.6574,
+    0.3604
+   ],
+   "space": "norm",
+   "why_bespoke": "The thing the developer actually built is a heart you can turn, and the source post's own screenshot opens on a heart - so the short's peak object is that heart, drawn in ink, with the rotation arc and hotspot dots that make it explorable rather than printed.",
+   "how_drawn": "A heart silhouette in heavy ink with two great vessels at the top, a few interior vessel lines, three small terracotta hotspot dots on its face, and a terracotta arc with an arrowhead sweeping under it.",
+   "core_box": [
+    370.0,
+    160.0,
+    710.0,
+    500.0
+   ]
+  },
+  {
+   "name": "thinking head profile",
+   "t": 17.4,
+   "bbox": [
+    0.5833,
+    0.1885,
+    0.8426,
+    0.3396
+   ],
+   "space": "norm",
+   "why_bespoke": "The old way's cost is invisible: the student has to build the organ in their own head. A head in profile with a dashed bubble holding a wobbly, unfinished heart is the only way to show guesswork as a picture.",
+   "how_drawn": "A profile head outline (brow, nose, lips, chin, neck) in ink, with a dashed cloud growing off the crown that contains a small, deliberately wobbly heart drawn with a broken line.",
+   "core_box": [
+    630.0,
+    170.0,
+    910.0,
+    460.0
+   ]
+  },
+  {
+   "name": "classroom easel board",
+   "t": 25.0,
+   "bbox": [
+    0.3241,
+    0.1917,
+    0.6759,
+    0.3792
+   ],
+   "space": "norm",
+   "why_bespoke": "The last beat moves from one developer to any teacher, and the teacher's own instrument is the board on its tripod. It carries the heart the class will use, which is what makes the beat a handover instead of a claim.",
+   "how_drawn": "A rounded rectangle board on a ledge, standing on three splayed tripod legs with a cross-brace, all in ink line; the board's face stays empty until the heart is placed on it.",
+   "core_box": [
+    350.0,
+    176.0,
+    730.0,
+    536.0
+   ]
+  }
+ ],
+ "labels": [
+  {
+   "for": "3D anatomy heart",
+   "text": "3D ANATOMY",
+   "place": "above",
+   "at": 9.26,
+   "note": "LAW 39: centred on the heart's own axis (x=540), entirely above it. LAW 9: this is the key term and it is the FIRST type on the board in every lane - nothing is written before 9.26. Both of its words are spoken by 9.96 ('3D' at 5.92, 'anatomy' at 9.26), so there is no peek-ahead. Declared with data-label-for on the DOM and label_plan= on the board."
+  },
+  {
+   "for": "flat textbook",
+   "text": "FLAT PAGE",
+   "place": "below",
+   "at": 15.54,
+   "note": "LAW 39 + LAW 50: centred under the book and on the SAME baseline as its sibling GUESSWORK. Deliberately not the word 'textbook', which the caption pill is saying at that instant (LAW 4's caption-echo)."
+  },
+  {
+   "for": "thinking head profile",
+   "text": "GUESSWORK",
+   "place": "below",
+   "at": 16.52,
+   "note": "LAW 50: the sibling of FLAT PAGE, same placement, same baseline. Not 'imagine' or 'in our head', both live in the pill at that moment."
+  },
+  {
+   "for": "3D anatomy heart",
+   "text": "INSIDE",
+   "place": "below",
+   "at": 20.18,
+   "note": "LAW 39: centred under the exploded stack. The only key in chapter 3, so LAW 50's sibling clause is vacuous here."
+  }
+ ],
+ "lifetimes": [
+  {
+   "mark": "open book heart",
+   "t_from": 0.1,
+   "t_to": 3.1,
+   "anchor": null,
+   "note": "LAW 42: chaptered build, so every mark declares a finite exit at its chapter's erase."
+  },
+  {
+   "mark": "X source post card",
+   "t_from": 3.2,
+   "t_to": 6.6,
+   "anchor": null,
+   "note": "GLOBAL LAW 3: 3.4 s on screen, no metrics chrome, then it leaves."
+  },
+  {
+   "mark": "3D anatomy heart",
+   "t_from": 6.6,
+   "t_to": 13.4,
+   "anchor": null,
+   "note": "Re-drawn in chapter 3 (17.94-21.74) as the exploded stack and again as the outro glyph; it is the video's spine but the board still erases between chapters."
+  },
+  {
+   "mark": "3D ANATOMY",
+   "t_from": 9.26,
+   "t_to": 13.4,
+   "anchor": null,
+   "note": "the key term lives with its object."
+  },
+  {
+   "mark": "ONE AFTERNOON",
+   "t_from": 10.26,
+   "t_to": 13.4,
+   "anchor": null,
+   "note": null
+  },
+  {
+   "mark": "flat textbook",
+   "t_from": 13.5,
+   "t_to": 17.94,
+   "anchor": null,
+   "note": null
+  },
+  {
+   "mark": "thinking head profile",
+   "t_from": 16.04,
+   "t_to": 17.94,
+   "anchor": null,
+   "note": null
+  },
+  {
+   "mark": "FLAT PAGE",
+   "t_from": 15.54,
+   "t_to": 17.94,
+   "anchor": null,
+   "note": null
+  },
+  {
+   "mark": "GUESSWORK",
+   "t_from": 16.52,
+   "t_to": 17.94,
+   "anchor": null,
+   "note": null
+  },
+  {
+   "mark": "exploded heart stack",
+   "t_from": 18.1,
+   "t_to": 21.74,
+   "anchor": null,
+   "note": null
+  },
+  {
+   "mark": "INSIDE",
+   "t_from": 20.18,
+   "t_to": 21.74,
+   "anchor": null,
+   "note": null
+  },
+  {
+   "mark": "tool tiles (3)",
+   "t_from": 22.24,
+   "t_to": 27.76,
+   "anchor": null,
+   "note": null
+  },
+  {
+   "mark": "classroom easel board",
+   "t_from": 23.74,
+   "t_to": 27.76,
+   "anchor": null,
+   "note": null
+  },
+  {
+   "mark": "easel heart",
+   "t_from": 24.46,
+   "t_to": 27.76,
+   "anchor": null,
+   "note": null
+  },
+  {
+   "mark": "outro lockup",
+   "t_from": 28.26,
+   "t_to": null,
+   "anchor": "outro",
+   "note": "the chassis lockup holds to the last frame."
+  },
+  {
+   "mark": "three copies (on the easel brace)",
+   "t_from": 26.36,
+   "t_to": 27.76,
+   "anchor": null,
+   "note": "three identical shapes in a row: a series, inferred as one block."
+  }
+ ],
+ "connectors": [
+  {
+   "to": "classroom easel board",
+   "from": [
+    "chatgpt tile",
+    "claude tile",
+    "gemini tile"
+   ],
+   "note": "LAW 40: three connectors into ONE target, so the ends are built with whiteboard_build.anchor_points(EASEL_BOARD_BOX, 3, 'top', inset=0.16) - level to 0 px and symmetric about x=540 - and declared with data-connect-to on the DOM and connectors=[...] on the board. No end is hand-placed."
+  }
+ ],
+ "blocks": [
+  [
+   "open textbook",
+   "page heart"
+  ],
+  [
+   "3D anatomy heart",
+   "3D ANATOMY",
+   "ONE AFTERNOON"
+  ],
+  [
+   "flat textbook",
+   "FLAT PAGE"
+  ],
+  [
+   "thinking head profile",
+   "dashed thought bubble",
+   "GUESSWORK"
+  ],
+  [
+   "3D anatomy heart (opened)",
+   "cursor arrow",
+   "INSIDE"
+  ],
+  [
+   "classroom easel board",
+   "easel heart",
+   "three copies"
+  ]
+ ],
+ "blocks_note": "LAW 41: these are the welds geometry cannot infer - a label welded to its object, a heart resting ON a desk top, the bubble welded to the head it grows from, the heart sitting on the easel's board. The three-desk row and the three-tile row are >=3 identical shapes and are inferred as series.",
+ "pointing_cues": [
+  {
+   "cue_i": 0,
+   "at": 3.32,
+   "phrase": "this guy",
+   "asset": "shorts_run22/assets/source_aieducation/ - the genuine X post by The Bugged Dev (@thebuggeddev), https://x.com/thebuggeddev/status/2083884856531177942, 2 Aug 2026, recovered from this recording's Notion inbox row (3b431704-6eeb-813b-842a-f1115f6043b0, Source URL https://x.com/gdb/status/2083934330146197989 - Greg Brockman's 'chatgpt for building interactive educational tools', which QUOTES it). Saved: syndication.json, quoted_video_poster.jpg (1200x752, the first frame of the video the post carried - the Anatomy Atelier app with its 3D heart), quoted_video.mp4, avatar_thebuggeddev.jpg. Built as an X post card in the graphic chart: cream card #FFFDF9, 3 px ink-alpha border, radius 18, a header row carrying the X mark (assets/logos/platforms/x-logo.svg in INK) with 'THE BUGGED DEV - @THEBUGGEDDEV' in JetBrains Mono uppercase, a hairline, the post's own words, and the screenshot it carried beneath them. NO metrics chrome (GLOBAL LAW 3).",
+   "platform": "X",
+   "inner": "the video the post carried, held on its first frame: the Anatomy Atelier web app, a 3D heart on a cream ground with its organ library and a HEART panel. After the highlight lands, the card moves closer into that screenshot so the heart and the word Heart fill the held frame (run-17 'go closer on the inner read': the read target ends at >= 42 design px cap height, and the card's chrome may leave the frame to pay for it).",
+   "highlight": "the line 'A 3D human anatomy application built with @threejs using GPT 5.6 Sol.' - the marker fill runs under exactly that line, because it is the sentence that carries the claim Miguel is making."
+  }
+ ],
+ "boards": {
+  "mode": "chapters",
+  "why": "LAW 43: chapters are the default and this script has five distinct idea groups, not one accumulating picture - the book becoming a thing, the developer's tool, the old way's cost, the inside of the model, the classroom. Holding all five on one surface at legible size is impossible on a phone, and nothing in beat 4 points back at the textbook drawing from beat 2.",
+  "chapters": [
+   {
+    "i": 0,
+    "t_start": 0.1,
+    "t_end": 3.1,
+    "erase_at": 3.1,
+    "holds": [
+     "open book heart"
+    ],
+    "why_together": "the hook: one object, drawn complete, that carries the whole thesis."
+   },
+   {
+    "i": 1,
+    "t_start": 3.1,
+    "t_end": 13.4,
+    "erase_at": 13.4,
+    "holds": [
+     "X source post card",
+     "3D anatomy heart",
+     "3D ANATOMY",
+     "ONE AFTERNOON"
+    ],
+    "why_together": "the news and its evidence: the post that proves it and the object it produced."
+   },
+   {
+    "i": 2,
+    "t_start": 13.4,
+    "t_end": 17.94,
+    "erase_at": 17.94,
+    "holds": [
+     "flat textbook",
+     "FLAT PAGE",
+     "thinking head profile",
+     "GUESSWORK"
+    ],
+    "why_together": "the old way, stated as a pair: the flat page and the head that has to fill in the rest."
+   },
+   {
+    "i": 3,
+    "t_start": 17.94,
+    "t_end": 21.74,
+    "erase_at": 21.74,
+    "holds": [
+     "3D anatomy heart (opened)",
+     "cursor arrow",
+     "INSIDE"
+    ],
+    "why_together": "the new way, one picture: the same object opened up."
+   },
+   {
+    "i": 4,
+    "t_start": 21.74,
+    "t_end": 27.76,
+    "erase_at": 27.76,
+    "holds": [
+     "chatgpt tile",
+     "claude tile",
+     "gemini tile",
+     "classroom easel board",
+     "easel heart",
+     "three copies"
+    ],
+    "why_together": "the handover to teachers: the tools, the board they build on, and the class that receives it."
+   }
+  ],
+  "key_term": "3D ANATOMY",
+  "key_term_note": "LAW 9: written FIRST among all type in every lane, alone, at 48 px core (25.6 design units, above the 22 floor), centred on the heart's own axis, at 9.26 when 'anatomy' is spoken. No other type exists on the board before it; the X post card is a raster asset card, not board type."
+ },
+ "cast": [
+  "chatgpt",
+  "claude",
+  "gemini"
+ ],
+ "cast_note": "THE ROSTER IS TOPICAL: the script's own comparison in beat 4 is 'teachers who adopt AI', and these are the three products a teacher would actually build one of these with. The story's own subject marks stay off the roster - the tool was built with GPT and Three.js, and Three.js has no registry file, so neither is used as a stage mark. Files, named not guessed: ai-models/chatgpt-color.png (the PRODUCT mark for 'ChatGPT', never the openai wordmark - LAW 35), ai-models/claude-color.png (never claude-code, never the sticker), ai-models/gemini-color.png. The X mark on the source card is platforms/x-logo.svg, rendered in INK inside the card header, and it is card chrome, not a cast tile.",
+ "cutout_logo_lanes": [
+  "chatgpt",
+  "claude",
+  "gemini",
+  "cursor",
+  "grok",
+  "lovable"
+ ],
+ "cutout_logo_lanes_note": "TOPICAL, per the run-13 review: every mark in the depth field is something you would actually build an interactive teaching app with - the three cast products plus their obvious neighbours in the same category (coding-tools/cursor.png, ai-models/grok.png, design-tools/lovable-color.png). Mixed set, no mark repeated, and the story's own stage object (the heart) is never a lane mark.",
+ "open_questions": [
+  "The inner zoom at 5.4-6.6 holds the Anatomy Atelier screenshot on its 3D heart plus the word 'Heart'; if the split author measures that the heart alone reads better at 405x720 than heart-plus-panel, crop to the heart and drop the panel - the claim does not depend on the panel text.",
+  "Beat 4's three desks are drawn at the same size as each other and sit on one baseline; if the cutout's k makes the desk row read as clutter at phone size, the outer two desks may lose their hearts and keep only the centre one, provided all three desks stay.",
+  "The outro glyph is the heart; if the chassis lockup's rule reads better under a smaller glyph on the cutout, scale the glyph, never the rule."
+ ],
+ "open_doubts": [],
+ "open_doubts_note": "None. The one pointing cue is answered by the genuine post on the platform the sentence names (X), recovered from the Notion inbox row, with the screenshot it carried; the pictures, the claim and the cast are all decided here.",
+ "module": "shorts_run22/gen/aieducation_scene.py",
+ "scene_handoff": "shorts_run22/plans/aieducation_scene_handoff.md",
+ "departures_from_this_plan": [
+  "chapter 3 draws no app frame: a rounded rectangle around the heart is a screen the Phone Test would have to ignore, and the cursor arrow already argues interactivity (handoff s9.1)",
+  "chapter 4 lands the three copies on the easel's own cross-brace instead of on three desks: the desk row could not clear the easel's legs by the 42 px gutter without shrinking the easel back into the television it first read as (handoff s9.2)",
+  "the hook leaves a dashed ghost of the heart on the page it came off, so the lift reads as a departure rather than as a second heart (handoff s9.3)"
+ ]
+}

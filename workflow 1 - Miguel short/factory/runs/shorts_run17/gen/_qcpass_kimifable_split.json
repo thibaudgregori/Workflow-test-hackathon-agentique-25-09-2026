@@ -1,0 +1,422 @@
+{
+ "render": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/kimifable_split.mp4",
+ "vid": "kimifable",
+ "fmt": "split",
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/projects/kimifable_split",
+ "checks": {
+  "decoded_blank_frames": {
+   "ok": true,
+   "result": {
+    "frames": 953,
+    "fps": 25.0,
+    "zone": [
+     0,
+     862,
+     1080,
+     862
+    ],
+    "ink_floor": 0.0006,
+    "min_ink_frac": 0.0,
+    "empty_frames_total": 2,
+    "leading_trailing_empty": 2,
+    "interior_blank_frames": [],
+    "pass": true
+   },
+   "wall_s": 0.0
+  },
+  "zero_ink_law": {
+   "ok": true,
+   "result": {
+    "render": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/kimifable_split.mp4",
+    "frames": 953,
+    "fps": 25.0,
+    "zone_bottom_design_px": 862.5,
+    "zone_px": [
+     1080,
+     862
+    ],
+    "first_word_s": 0.079,
+    "leading_empty_frames": 2,
+    "first_judged_frame": 2,
+    "min_ink_frac_judged": 0.01480837,
+    "min_ink_frac_at_s": 12.04,
+    "blank_frames": [],
+    "verdict": "PASS"
+   },
+   "wall_s": 0.0
+  },
+  "clip_coverage_page": {
+   "ok": true,
+   "result": {
+    "duration_s": 38.12,
+    "fps": 25,
+    "groups": {
+     "stage": {
+      "clips": 0,
+      "checked": false,
+      "note": "fewer than two clips \u2014 nothing can hand over"
+     },
+     "tz": {
+      "clips": 1,
+      "checked": false,
+      "note": "fewer than two clips \u2014 nothing can hand over"
+     },
+     "scap": {
+      "clips": 38,
+      "checked": true,
+      "frames": 953,
+      "span": [
+       0.08,
+       38.1
+      ],
+      "holes": [],
+      "ghosts": [],
+      "pass": true
+     }
+    },
+    "holes": 0,
+    "ghosts": 0,
+    "pass": true
+   },
+   "wall_s": 0.0
+  },
+  "double_exposure": {
+   "ok": true,
+   "result": {
+    "frames": 953,
+    "fps": 25.0,
+    "first_word_s": 0.079,
+    "leading_blank_run_frames": 8,
+    "after_first_word": {
+     "from_frame": 2,
+     "from_t": 0.08,
+     "basis": "first spoken word",
+     "min_ink": 0,
+     "min_ink_t": 0.08,
+     "min_ink40": 0,
+     "min_ink40_t": 0.08,
+     "zero_ink_frames": [
+      0.08,
+      0.12,
+      0.16,
+      0.2,
+      0.24,
+      0.28,
+      4.68,
+      4.72,
+      4.76,
+      11.6,
+      11.64,
+      11.68,
+      11.72,
+      21.72,
+      21.76,
+      21.8,
+      32.92,
+      32.96,
+      33.0,
+      33.04,
+      33.08
+     ],
+     "zero_ink40_frames": [
+      0.08,
+      0.12,
+      0.16,
+      0.2,
+      0.24,
+      0.28,
+      4.68,
+      4.72,
+      4.76,
+      11.6,
+      11.64,
+      11.68,
+      11.72,
+      21.72,
+      21.76,
+      21.8,
+      32.92,
+      32.96,
+      33.0,
+      33.04,
+      33.08
+     ]
+    },
+    "after_leading_run": {
+     "from_frame": 8,
+     "from_t": 0.32,
+     "basis": "opening fade-up cleared",
+     "min_ink": 0,
+     "min_ink_t": 4.68,
+     "min_ink40": 0,
+     "min_ink40_t": 4.68,
+     "zero_ink_frames": [
+      4.68,
+      4.72,
+      4.76,
+      11.6,
+      11.64,
+      11.68,
+      11.72,
+      21.72,
+      21.76,
+      21.8,
+      32.92,
+      32.96,
+      33.0,
+      33.04,
+      33.08
+     ],
+     "zero_ink40_frames": [
+      4.68,
+      4.72,
+      4.76,
+      11.6,
+      11.64,
+      11.68,
+      11.72,
+      21.72,
+      21.76,
+      21.8,
+      32.92,
+      32.96,
+      33.0,
+      33.04,
+      33.08
+     ]
+    },
+    "after_first_readable_ink": {
+     "from_frame": 8,
+     "from_t": 0.32,
+     "basis": "first READABLE ink on screen",
+     "min_ink": 0,
+     "min_ink_t": 4.68,
+     "min_ink40": 0,
+     "min_ink40_t": 4.68,
+     "zero_ink_frames": [
+      4.68,
+      4.72,
+      4.76,
+      11.6,
+      11.64,
+      11.68,
+      11.72,
+      21.72,
+      21.76,
+      21.8,
+      32.92,
+      32.96,
+      33.0,
+      33.04,
+      33.08
+     ],
+     "zero_ink40_frames": [
+      4.68,
+      4.72,
+      4.76,
+      11.6,
+      11.64,
+      11.68,
+      11.72,
+      21.72,
+      21.76,
+      21.8,
+      32.92,
+      32.96,
+      33.0,
+      33.04,
+      33.08
+     ]
+    },
+    "double_exposure_floor_px": 600,
+    "double_exposure_frames": [],
+    "double_exposure_count": 0,
+    "note": "candidates, not a verdict \u2014 adjudicate each window (procedure v3); the opening fade-up legitimately fires"
+   },
+   "wall_s": 0.07
+  },
+  "face_centring": {
+   "ok": true,
+   "result": {
+    "label": "kimifable_split",
+    "video": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/kimifable_split.mp4",
+    "duration_s": 38.14,
+    "detector": "mediapipe/blazeface",
+    "segment_source": "explicit:--segments",
+    "segments": [
+     [
+      0.0,
+      38.14
+     ]
+    ],
+    "every_s": 0.5,
+    "tol_pct": 4.0,
+    "band_level": "warning",
+    "full_face": {
+     "n": 0,
+     "worst_dx_pct": null,
+     "worst_t": null,
+     "mean_abs_dx_pct": null,
+     "offenders": []
+    },
+    "band": {
+     "n": 76,
+     "worst_dx_pct": 4.72,
+     "worst_t": 37.0,
+     "warnings": [
+      {
+       "t": 37.0,
+       "dx_pct": 4.72,
+       "face_h_pct": 14.7,
+       "class": "band",
+       "score": 0.99,
+       "skin": 0.89
+      }
+     ]
+    },
+    "pass": true,
+    "verdict": "PASS"
+   },
+   "wall_s": 1.31
+  },
+  "pill_canon_rendered": {
+   "ok": true,
+   "result": {
+    "samples": 60,
+    "band_rows_px": [
+     772,
+     952
+    ],
+    "frames_without_a_pill": 0,
+    "distinct_heights_px": {
+     "114": 60
+    },
+    "modal_height_px": 114,
+    "modal_height_design_px": 114.0,
+    "spread_px": 0,
+    "spread_max_px": 2.0,
+    "canonical_height_px": 114.59,
+    "canonical_height_design_px": 114.59,
+    "modal_vs_canon_px": 0.59,
+    "tolerance_px": 3.0,
+    "delivery_scale": 1.0,
+    "widest_pill_px": 752,
+    "widest_pill_in_design_px": 752.0,
+    "verdict": "PASS",
+    "pass": true
+   },
+   "wall_s": 0.0
+  },
+  "gate1_geometry_audit": {
+   "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/geometry_audit.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/projects/kimifable_split --step 0.25 --out /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/gen/_gate1_kimifable_split.json",
+   "rc": 0,
+   "stdout": "kimifable_split: 0 errors, 0 warnings (38.1s @ 0.25s step)\n",
+   "stderr": "",
+   "wall_s": 4.36
+  },
+  "gate2_frame_review": {
+   "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/frame_review.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/kimifable_split.mp4 --full --transcript /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/cuts/kimifable/transcript_tight.json",
+   "rc": 0,
+   "stdout": "tory/shorts_run17/output/frames_kimifable_split/f_0025_000.jpg\n  t=00:25.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/frames_kimifable_split/f_0025_333.jpg\n  t=00:25.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/frames_kimifable_split/f_0025_666.jpg\n  t=00:26.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/frames_kimifable_split/f_0026_666.jpg\n  t=00:27.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/frames_kimifable_split/f_0027_666.jpg\n  t=00:28.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/frames_kimifable_split/f_0028_000.jpg\n  t=00:28.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/frames_kimifable_split/f_0028_333.jpg\n  t=00:28.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/frames_kimifable_split/f_0028_666.jpg\n  t=00:29.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/frames_kimifable_split/f_0029_333.jpg\n  t=00:30.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/frames_kimifable_split/f_0030_000.jpg\n  t=00:30.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/frames_kimifable_split/f_0030_333.jpg\n  t=00:30.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/frames_kimifable_split/f_0030_666.jpg\n  t=00:31.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/frames_kimifable_split/f_0031_333.jpg\n  t=00:31.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/frames_kimifable_split/f_0031_666.jpg\n  t=00:32.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/frames_kimifable_split/f_0032_666.jpg\n  t=00:33.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/frames_kimifable_split/f_0033_000.jpg\n  t=00:33.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/frames_kimifable_split/f_0033_333.jpg\n  t=00:33.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/frames_kimifable_split/f_0033_666.jpg\n  t=00:34.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/frames_kimifable_split/f_0034_666.jpg\n  t=00:35.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/frames_kimifable_split/f_0035_000.jpg\n  t=00:35.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/frames_kimifable_split/f_0035_333.jpg\n  t=00:35.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/frames_kimifable_split/f_0035_666.jpg\n  t=00:36.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/frames_kimifable_split/f_0036_000.jpg\n  t=00:36.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/frames_kimifable_split/f_0036_333.jpg\n  t=00:37.0  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/frames_kimifable_split/f_0037_000.jpg\n  t=00:37.3  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/frames_kimifable_split/f_0037_333.jpg\n  t=00:37.7  /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/frames_kimifable_split/f_0037_666.jpg\n\nManifest: /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/frames_kimifable_split/manifest.md  (delete dir after review)\n",
+   "stderr": "",
+   "wall_s": 1.6
+  },
+  "gate3_gemini_describe": {
+   "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run3/qc_v3.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/kimifable_split.mp4 kimifable --label qcpass_kimifable_split",
+   "rc": 1,
+   "stdout": "",
+   "stderr": "upload retry 1: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Your project has exceeded its monthly spending cap. Please go to AI Studio at https://ai.studio/spend to manage your project spend cap. Learn more at https://ai.google.dev/gemini-api/docs/billing#project-spend-caps. ', 'status': 'RESOURCE_EXHAUSTED'}}\nupload retry 2: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Your project has exceeded its monthly spending cap. Please go to AI Studio at https://ai.studio/spend to manage your project spend cap. Learn more at https://ai.google.dev/gemini-api/docs/billing#project-spend-caps. ', 'status': 'RESOURCE_EXHAUSTED'}}\nupload retry 3: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Your project has exceeded its monthly spending cap. Please go to AI Studio at https://ai.studio/spend to manage your project spend cap. Learn more at https://ai.google.dev/gemini-api/docs/billing#project-spend-caps. ', 'status': 'RESOURCE_EXHAUSTED'}}\nTraceback (most recent call last):\n  File \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run3/qc_v3.py\", line 277, in <module>\n    cand = upload_retry(cand_path)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run3/qc_v3.py\", line 202, in upload_retry\n    raise RuntimeError(f\"upload failed: {path}\")\nRuntimeError: upload failed: /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/kimifable_split.mp4\n",
+   "wall_s": 20.37
+  },
+  "audio_guards": {
+   "ok": true,
+   "result": {
+    "mix_8_16k_db": -28.71,
+    "master_8_16k_db": -28.52,
+    "delta_db": -0.19,
+    "tolerance_db": 6.0,
+    "speech_margin_db_p85_p15_33ms_s16le": 19.333,
+    "sync": {
+     "lag_ms": 0,
+     "r": 0.9956,
+     "instrument": "10 ms |x| envelope, +/-250 ms search"
+    },
+    "audio_initial_padding_samples": 0,
+    "verdict": "PASS",
+    "pass": true
+   },
+   "wall_s": 0.93
+  },
+  "contact_sheet": {
+   "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/contact_sheet.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/kimifable_split.mp4 --id kimifable --fmt split --run /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17 --geom /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/gen/_geom_kimifable.json",
+   "rc": 0,
+   "stdout": "{\n \"sheet\": \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/sheet_kimifable_split.png\",\n \"id\": \"kimifable\",\n \"fmt\": \"split\",\n \"duration_s\": 38.14,\n \"frame_source\": \"shared.beat_edges\",\n \"times\": [\n  0.43,\n  1.59,\n  3.85,\n  4.77,\n  11.39,\n  15.07,\n  20.99,\n  23.83,\n  26.83,\n  29.45,\n  32.99,\n  37.99\n ],\n \"size_px\": [\n  1798,\n  4344\n ]\n}\n",
+   "stderr": "",
+   "wall_s": 4.02
+  },
+  "phone_crops": {
+   "cmd": "/Users/migle/Documents/Workspace/.venv/bin/python /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/phone_crops.py /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/kimifable_split.mp4 --out /Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review --label kimifable_split --at 3.00:0.19074,0.28854,0.46852,0.35938:a price tag --at 10.00:0.29630,0.15417,0.70370,0.33958:a benchmark scorecard --at 15.60:0.17778,0.21458,0.48148,0.32771:a website layout --at 24.60:0.17222,0.15208,0.47593,0.27708:a folder of designs",
+   "rc": 0,
+   "stdout": "{\n \"sheet\": \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/phone_kimifable_split.png\",\n \"manifest\": \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/phone_kimifable_split.json\",\n \"answer_key\": \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/phone_kimifable_split.key.json\",\n \"n_objects\": 4,\n \"phone_sizes_px\": [\n  [\n   112,\n   51\n  ],\n  [\n   164,\n   133\n  ],\n  [\n   122,\n   81\n  ],\n  [\n   123,\n   90\n  ]\n ]\n}\n",
+   "stderr": "",
+   "wall_s": 0.89
+  }
+ },
+ "skipped": {
+  "cutout_checks_24_25": "cutout only, and needs --project",
+  "edge_clip": "cutout only, and needs --alpha",
+  "whiteboard_seam_law": "whiteboard only, and needs --seams (the chapter erase times)",
+  "face_hf_vs_plate": "needs --plate (the display plate)",
+  "head_scale_vs_framing": "needs --alpha and --edge-box (the crown comes from the matte's own alpha, the chin from MediaPipe on the delivered frame)"
+ },
+ "zone_bottom_design_px": 862.5,
+ "decode": {
+  "frames": 953,
+  "fps": 25.0,
+  "size": [
+   1080,
+   1920
+  ],
+  "grid_frames": 76,
+  "caption_band_rows": [
+   772,
+   952
+  ],
+  "caption_seat_design_px": 862.5,
+  "wall_s": 8.36
+ },
+ "verdicts": {
+  "decoded_blank_frames": "PASS",
+  "zero_ink_law": "PASS",
+  "clip_coverage_page": "PASS",
+  "double_exposure": "REPORTED",
+  "face_centring": "PASS",
+  "pill_canon_rendered": "PASS",
+  "gate1_geometry_audit": "PASS",
+  "gate2_frame_review": "PASS",
+  "gate3_gemini_describe": "REPORTED",
+  "audio_guards": "PASS",
+  "contact_sheet": "PASS",
+  "phone_crops": "PASS"
+ },
+ "advisory": {
+  "gate3_gemini_describe": "FAIL from gemini describe-mode, downgraded to REPORTED: the clerk adjudicates its describe_errors against the frames"
+ },
+ "wall_s": {
+  "decoded_blank_frames": 0.0,
+  "zero_ink_law": 0.0,
+  "clip_coverage_page": 0.0,
+  "double_exposure": 0.07,
+  "face_centring": 1.31,
+  "pill_canon_rendered": 0.0,
+  "gate1_geometry_audit": 4.36,
+  "gate2_frame_review": 1.6,
+  "gate3_gemini_describe": 20.37,
+  "audio_guards": 0.93,
+  "contact_sheet": 4.02,
+  "phone_crops": 0.89,
+  "single_decode": 8.36
+ },
+ "total_wall_s": 20.39,
+ "pass": true
+}

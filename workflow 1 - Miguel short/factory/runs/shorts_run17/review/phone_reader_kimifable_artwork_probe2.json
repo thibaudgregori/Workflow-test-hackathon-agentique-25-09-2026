@@ -1,0 +1,44 @@
+{
+  "tag": "kimifable-probe2",
+  "cold_dir": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/kimifable-probe2-0ed043c6",
+  "reader": "one independent `claude -p` process per crop, launched from /tmp, handed ONLY the absolute path of a blind copy under a random token - no plan, no topic, no manifest, no sealed key, and no path naming the video",
+  "prompt": "Look at the image at <absolute path of one blind crop> . Name the single everyday object drawn in it. At most FIVE words. Reply with ONE line of JSON and nothing else: {\"name\":\"<=5 words\",\"confidence\":\"sure|unsure|cannot tell\"}",
+  "dispatched_at": "2026-09-08T01:34:42",
+  "cli": "2.1.263 (Claude Code)",
+  "source_crops": {
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/proofs/kimifable_probe2/00.png": "1756e928894a6d883f40725aea5e4497043f1031c4227b627b845ff4576b2d24",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/proofs/kimifable_probe2/01.png": "cf14beabb110887a2575e73c39ef4f59404622b4c84af6bb2b2e7e6f981d3c39",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/proofs/kimifable_probe2/02.png": "458730f74a6be48ba717a463190464e568ee5e7a27b318acb3e3b64e78d12582",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/proofs/kimifable_probe2/03.png": "c5b235953dba4b20c0a40032a1b77f1547eb36d4c7a86921f399cbb9827f35b4"
+  },
+  "names": [
+    {
+      "i": 0,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/kimifable-probe2-0ed043c6/00.png",
+      "name": "price tag",
+      "confidence": "sure",
+      "crop_sha256": "1756e928894a6d883f40725aea5e4497043f1031c4227b627b845ff4576b2d24"
+    },
+    {
+      "i": 1,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/kimifable-probe2-0ed043c6/01.png",
+      "name": "bar chart",
+      "confidence": "unsure",
+      "crop_sha256": "cf14beabb110887a2575e73c39ef4f59404622b4c84af6bb2b2e7e6f981d3c39"
+    },
+    {
+      "i": 2,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/kimifable-probe2-0ed043c6/02.png",
+      "name": "browser window",
+      "confidence": "unsure",
+      "crop_sha256": "458730f74a6be48ba717a463190464e568ee5e7a27b318acb3e3b64e78d12582"
+    },
+    {
+      "i": 3,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/kimifable-probe2-0ed043c6/03.png",
+      "name": "stacked browser windows",
+      "confidence": "unsure",
+      "crop_sha256": "c5b235953dba4b20c0a40032a1b77f1547eb36d4c7a86921f399cbb9827f35b4"
+    }
+  ]
+}

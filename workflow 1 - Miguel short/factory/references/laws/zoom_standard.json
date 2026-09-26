@@ -1,0 +1,225 @@
+{
+ "authority": "REVIEW_2026-08-30.md Global Law 7 (THE 0% ZOOM STANDARD)",
+ "master": {
+  "file": "hermesinfinite/source_cut_master.mp4",
+  "w": 3840,
+  "h": 2160
+ },
+ "canvas": {
+  "w": 1080,
+  "h": 1920
+ },
+ "measured_union": {
+  "n_frames": 64,
+  "head_l_min": 1375.0,
+  "head_l_median": 1473.0,
+  "head_r_max": 2382.0,
+  "head_r_median": 2274.0,
+  "head_span_union": 1007.0,
+  "head_span_median": 801.0,
+  "head_top_min": 215.9,
+  "head_top_median": 331.5,
+  "chin_max": 1629.3,
+  "chin_median": 1555.2,
+  "eye_min": 802.0,
+  "eye_max": 921.4,
+  "eye_median": 873.0,
+  "nose_cx_min": 1809.9,
+  "nose_cx_max": 1987.9,
+  "nose_cx_median": 1871.9,
+  "torso_span_median": 2526.5,
+  "torso_l_min": 604.0,
+  "torso_r_max": 3516.0
+ },
+ "median_geometry": {
+  "head_h": 1217.6,
+  "face_h": 930.4,
+  "head_w": 801.0,
+  "eye_y": 873.0,
+  "eye_frac_of_master_h": 0.4042
+ },
+ "zoom00": {
+  "crop": {
+   "w": 1216,
+   "h": 2160,
+   "x": 1270,
+   "y": 0
+  },
+  "note": "widest possible full-bleed 9:16 window of a 2160-tall master; 1215 rounded to 1216 for even-width yuv420p (+0.08% horizontal squeeze, below perception)"
+ },
+ "rule": "Zoom levels are HARD CROP CUTS from the 4K master. Never a scale animation, never an expansion of an already-cropped plate.",
+ "recentre_rule": "A window may be re-centred horizontally on the face position AT THE CUT, then held STATIC for the whole hold (a window that follows the face per-frame is a camera move -- Global Law 5). Travel is capped by `recentre_band_px` around the 0% centre; outside that band the widest measured head (883 px) no longer fits.",
+ "lateral_sway_px": 178.0,
+ "levels": [
+  {
+   "level_pct": 0,
+   "crop": {
+    "w": 1216,
+    "h": 2160,
+    "x": 1270,
+    "y": 0
+   },
+   "ffmpeg_crop": "crop=1216:2160:1270:0",
+   "ffmpeg_vf_tail": "crop=1216:2160:1270:0,scale=1080:1920:flags=lanczos",
+   "aspect": 0.56296,
+   "aspect_err_pct": 0.082,
+   "scale_k": 0.88816,
+   "head_px_on_canvas": 1081,
+   "margins_px_master": {
+    "left_of_head_union": 105.0,
+    "right_of_head_union": 104.0,
+    "above_head_union": 215.9,
+    "below_chin_union": 530.7
+   },
+   "contains_head_union": true,
+   "frames_head_clipped": 0,
+   "recentre_band_px": 166.5,
+   "head_frac_of_1920": 0.5632,
+   "face_frac_of_1920": 0.4304,
+   "head_w_frac_of_1080": 0.6587,
+   "in_zoom00_plate": {
+    "w": 1080,
+    "h": 1920,
+    "x": 0,
+    "y": 0,
+    "note": "fallback only: cropping the already-scaled 1080x1920 plate costs a second resample. Cut from the 4K master when you can."
+   }
+  },
+  {
+   "level_pct": 5,
+   "crop": {
+    "w": 1154,
+    "h": 2052,
+    "x": 1300,
+    "y": 44
+   },
+   "ffmpeg_crop": "crop=1154:2052:1300:44",
+   "ffmpeg_vf_tail": "crop=1154:2052:1300:44,scale=1080:1920:flags=lanczos",
+   "aspect": 0.56238,
+   "aspect_err_pct": -0.022,
+   "scale_k": 0.93588,
+   "head_px_on_canvas": 1140,
+   "margins_px_master": {
+    "left_of_head_union": 75.0,
+    "right_of_head_union": 72.0,
+    "above_head_union": 171.9,
+    "below_chin_union": 466.7
+   },
+   "contains_head_union": true,
+   "frames_head_clipped": 0,
+   "recentre_band_px": 135.5,
+   "head_frac_of_1920": 0.5935,
+   "face_frac_of_1920": 0.4535,
+   "head_w_frac_of_1080": 0.6941,
+   "in_zoom00_plate": {
+    "w": 1026,
+    "h": 1824,
+    "x": 26,
+    "y": 40,
+    "note": "fallback only: cropping the already-scaled 1080x1920 plate costs a second resample. Cut from the 4K master when you can."
+   }
+  },
+  {
+   "level_pct": 10,
+   "crop": {
+    "w": 1094,
+    "h": 1944,
+    "x": 1332,
+    "y": 88
+   },
+   "ffmpeg_crop": "crop=1094:1944:1332:88",
+   "ffmpeg_vf_tail": "crop=1094:1944:1332:88,scale=1080:1920:flags=lanczos",
+   "aspect": 0.56276,
+   "aspect_err_pct": 0.046,
+   "scale_k": 0.9872,
+   "head_px_on_canvas": 1202,
+   "margins_px_master": {
+    "left_of_head_union": 43.0,
+    "right_of_head_union": 44.0,
+    "above_head_union": 127.9,
+    "below_chin_union": 402.7
+   },
+   "contains_head_union": true,
+   "frames_head_clipped": 0,
+   "recentre_band_px": 105.5,
+   "head_frac_of_1920": 0.626,
+   "face_frac_of_1920": 0.4784,
+   "head_w_frac_of_1080": 0.7322,
+   "in_zoom00_plate": {
+    "w": 972,
+    "h": 1728,
+    "x": 56,
+    "y": 78,
+    "note": "fallback only: cropping the already-scaled 1080x1920 plate costs a second resample. Cut from the 4K master when you can."
+   }
+  },
+  {
+   "level_pct": 15,
+   "crop": {
+    "w": 1032,
+    "h": 1836,
+    "x": 1362,
+    "y": 130
+   },
+   "ffmpeg_crop": "crop=1032:1836:1362:130",
+   "ffmpeg_vf_tail": "crop=1032:1836:1362:130,scale=1080:1920:flags=lanczos",
+   "aspect": 0.56209,
+   "aspect_err_pct": -0.073,
+   "scale_k": 1.04651,
+   "head_px_on_canvas": 1274,
+   "margins_px_master": {
+    "left_of_head_union": 13.0,
+    "right_of_head_union": 12.0,
+    "above_head_union": 85.9,
+    "below_chin_union": 336.7
+   },
+   "contains_head_union": true,
+   "frames_head_clipped": 0,
+   "recentre_band_px": 74.5,
+   "head_frac_of_1920": 0.6637,
+   "face_frac_of_1920": 0.5071,
+   "head_w_frac_of_1080": 0.7762,
+   "in_zoom00_plate": {
+    "w": 918,
+    "h": 1632,
+    "x": 82,
+    "y": 116,
+    "note": "fallback only: cropping the already-scaled 1080x1920 plate costs a second resample. Cut from the 4K master when you can."
+   }
+  },
+  {
+   "level_pct": 20,
+   "crop": {
+    "w": 972,
+    "h": 1728,
+    "x": 1392,
+    "y": 174
+   },
+   "ffmpeg_crop": "crop=972:1728:1392:174",
+   "ffmpeg_vf_tail": "crop=972:1728:1392:174,scale=1080:1920:flags=lanczos",
+   "aspect": 0.5625,
+   "aspect_err_pct": 0.0,
+   "scale_k": 1.11111,
+   "head_px_on_canvas": 1353,
+   "margins_px_master": {
+    "left_of_head_union": -17.0,
+    "right_of_head_union": -18.0,
+    "above_head_union": 41.9,
+    "below_chin_union": 272.7
+   },
+   "contains_head_union": false,
+   "frames_head_clipped": 3,
+   "recentre_band_px": 44.5,
+   "head_frac_of_1920": 0.7046,
+   "face_frac_of_1920": 0.5384,
+   "head_w_frac_of_1080": 0.8241,
+   "in_zoom00_plate": {
+    "w": 864,
+    "h": 1536,
+    "x": 108,
+    "y": 154,
+    "note": "fallback only: cropping the already-scaled 1080x1920 plate costs a second resample. Cut from the 4K master when you can."
+   }
+  }
+ ]
+}

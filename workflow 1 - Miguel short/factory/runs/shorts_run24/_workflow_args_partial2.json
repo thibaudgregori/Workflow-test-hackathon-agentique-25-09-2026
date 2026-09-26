@@ -1,0 +1,65 @@
+{
+  "run": "shorts_run24",
+  "day": "2026-09-21",
+  "videos": [
+    {
+      "id": "primeagent",
+      "recording": "2026-09-21 14-19-53",
+      "lane": "diagram build",
+      "transcript": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/intake/transcripts/2026-09-21 14-19-53.json",
+      "topic": "Prime Agent is a new kind of agent: instead of many fixed tools it has one tool that builds any tool it needs, the first agent that grows its own toolbox.",
+      "notion_id": "3b431704-6eeb-81ab-87d1-d7893b35065d",
+      "keep": [
+        "split",
+        "whiteboard"
+      ],
+      "redo": "Miguel approved the split and the whiteboard. The cutout is REJECTED for two reasons. (1) THE CHAIR: the black chair wings are inside the cutout at both shoulders on every frame; matte_review.py auto-holds this matte (furniture on the silhouette, chair band p95 5,591 px, sheets under review/matte_primeagent/). Nobody ever reviewed this matte: the selection in matting/primeagent/selection.json was approved by a v3 agent that did not look, and the matte was tracked from it. Astra: review the frame-0 outline on the overlay, exclude the chair at BOTH shoulders and beside the head, keep him whole, approve as codex-astra; then, because this is a chair leak, SKIP the MatAnyone re-track and go straight to the chair lane fallback_sam2.py --run <run> --vid primeagent --tag fb1; look at the four sheets; hold for Miguel if chair remains. (2) THE LANES: the existing gen/primeagent_cutout_gen.py fades the depth lanes in at SC.BESPOKE[0]['t'] (8.2 s), leaving empty cream behind him for eight seconds. Cutout author: change that fade-in to the chassis intro at the start of the take (the lanes are there from frame 0), rebuild against the new matte, and re-render the cutout only. The design and the scene are final and sealed: the design agent keeps them and returns."
+    },
+    {
+      "id": "geminigems",
+      "recording": "2026-09-21 15-07-17",
+      "lane": "steps & checklist",
+      "transcript": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/intake/transcripts/2026-09-21 15-07-17.json",
+      "topic": "Google is sunsetting Gemini Gems on October 20 and replacing them with Skills, the standard Anthropic introduced; how to migrate a Gem into a Skill.",
+      "notion_id": "3b731704-6eeb-8125-9a72-ca66e87fb8ca",
+      "keep": [
+        "split",
+        "whiteboard",
+        "cutout"
+      ],
+      "matte_ok": true,
+      "redo": "Approved in full by Miguel after the logo fix. Nothing to do."
+    },
+    {
+      "id": "cursorspacex",
+      "recording": "2026-09-21 14-40-43",
+      "lane": "kinetic type",
+      "transcript": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/intake/transcripts/2026-09-21 14-40-43.json",
+      "topic": "Cursor, one of the most loved developer AI brands, has been acquired by SpaceX AI and the Cursor brand is being rolled out over the coming months.",
+      "notion_id": "3b531704-6eeb-81a5-ae22-eee6dd9a3b10",
+      "keep": [
+        "split",
+        "whiteboard",
+        "cutout"
+      ],
+      "matte_ok": true,
+      "redo": "Approved in full by Miguel. Nothing to do."
+    },
+    {
+      "id": "claudesessions",
+      "recording": "2026-09-21 14-39-08",
+      "lane": "diagram build",
+      "transcript": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/intake/transcripts/2026-09-21 14-39-08.json",
+      "topic": "Claude Code sessions can now talk to each other: one session messages another, so you no longer switch between sessions to coordinate work.",
+      "notion_id": "3b531704-6eeb-8174-bc31-f34e89cef0aa",
+      "keep": [
+        "split",
+        "whiteboard",
+        "cutout"
+      ],
+      "matte_ok": true,
+      "redo": "Approved in full by Miguel (the cutout with Astra's SAM2 matte). Nothing to do."
+    }
+  ],
+  "partial": "run 24 partial rerun 2: Prime Agent cutout (chair + lanes) after Miguel checked the four cutouts on 2026-09-22"
+}

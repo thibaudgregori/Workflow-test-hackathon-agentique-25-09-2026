@@ -1,0 +1,1336 @@
+{
+  "video": "claudesessions",
+  "format": "cutout",
+  "fps": 25,
+  "duration": 21.24,
+  "plate": {
+    "box": {
+      "w": 1584.0,
+      "h": 990.0,
+      "left": -153.0,
+      "top": 930.0
+    },
+    "whole_pixels": true,
+    "equals_encoded": {
+      "cut": {
+        "w": 1584,
+        "h": 990
+      },
+      "rim": {
+        "w": 1584,
+        "h": 990
+      }
+    }
+  },
+  "seat": 878.2,
+  "core": {
+    "left": 0.0,
+    "top": 216.7,
+    "scale": 1.0
+  },
+  "envelope": {
+    "CAP_Y": 878.2,
+    "ZY0": 192.0,
+    "ZY1": 794.4,
+    "CAP_H_true_rendered": 114.59,
+    "true_clear_to_crown": 26.504999999999953
+  },
+  "voice": {
+    "source": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/cuts/claudesessions/audio.m4a",
+    "sample_rate": 48000,
+    "channels": 2
+  },
+  "band": {
+    "content_top": 240.7,
+    "content_bottom": 745.7,
+    "law30_line": 192.0,
+    "clear_below_law30": 48.7,
+    "pill_top_rendered": 820.905,
+    "pill_height_rendered": 114.59,
+    "pill_centre_used": 878.2,
+    "clear_above_pill": 75.21,
+    "core_top_used": 216.7,
+    "core_top_in_handoff": 192.0,
+    "core_raised_px": -24.7,
+    "note": "content_top is the core's declared CONTENT_Y0 (the key term's box top in chapter 0) and content_bottom its CONTENT_Y1 (TEAMMATES' box bottom in chapter 1).  NOTHING IS RAISED: this lane seats the core exactly where the handoff put it, so the cutout's boxes and this page's differ by scale alone."
+  },
+  "rail": {
+    "ink_left_x": 155.0,
+    "ink_right_x": 910.0,
+    "union_axis_x": 532.5,
+    "readable_type_left_x": 155.0,
+    "readable_type_right_x": 910.0,
+    "law30_rail_x": 918.0,
+    "rail_overshoot_px": 0.0,
+    "margins": [
+      155.0,
+      170.0
+    ],
+    "note": "the widest readable key is ONE SESSION, whose box stops at x 910, 8 px inside the 918 rail - the handoff's own LAW 30 RAIL clause, and the reason that key must never be widened.  No caption pill crosses the rail (CAP.assert_law12 on the widest pill)."
+  },
+  "depth_field": {
+    "seat": {
+      "band": [
+        999.5,
+        1393.5
+      ],
+      "band_h": 394.0,
+      "inter_lane_gap": 26.0,
+      "seat_offset_from_pill": 64.0,
+      "foundation_offset": 63.61,
+      "drift_from_foundation_seat": 0.39,
+      "margin_px": 146.7,
+      "candidates_scanned": 103,
+      "candidates_safe": 52,
+      "instrument": "5th percentile of the PER-FRAME gutter; the union envelope describes a body that never existed",
+      "lanes": [
+        {
+          "lane": "far",
+          "tile": 78.0,
+          "y": 999.5,
+          "frames": 177,
+          "gutter_p05": 321.8,
+          "gutter_median": 350.8,
+          "gutter_min_single_frame": 312.3,
+          "frames_under_tile": 0
+        },
+        {
+          "lane": "mid",
+          "tile": 116.0,
+          "y": 1103.5,
+          "frames": 177,
+          "gutter_p05": 293.6,
+          "gutter_median": 321.1,
+          "gutter_min_single_frame": 256.2,
+          "frames_under_tile": 0
+        },
+        {
+          "lane": "near",
+          "tile": 148.0,
+          "y": 1245.5,
+          "frames": 177,
+          "gutter_p05": 294.7,
+          "gutter_median": 324.4,
+          "gutter_min_single_frame": 64.8,
+          "frames_under_tile": 4
+        }
+      ]
+    },
+    "lanes": {
+      "far": {
+        "x0": -216.0,
+        "w": 1788.0,
+        "y": 999.5,
+        "tile": 78.0,
+        "gap": 30.0,
+        "pitch": 108.0,
+        "tiles": 16,
+        "opacity": 0.34,
+        "dist": 46.0,
+        "travel": 276.0,
+        "steps": 6
+      },
+      "mid": {
+        "x0": -304.0,
+        "w": 2360.0,
+        "y": 1103.5,
+        "tile": 116.0,
+        "gap": 36.0,
+        "pitch": 152.0,
+        "tiles": 15,
+        "opacity": 0.66,
+        "dist": 112.0,
+        "travel": 672.0,
+        "steps": 6
+      },
+      "near": {
+        "x0": -384.0,
+        "w": 3096.0,
+        "y": 1245.5,
+        "tile": 148.0,
+        "gap": 44.0,
+        "pitch": 192.0,
+        "tiles": 16,
+        "opacity": 1.0,
+        "dist": 208.0,
+        "travel": 1248.0,
+        "steps": 6
+      }
+    },
+    "tiles": 47,
+    "step_beats": [
+      3.2,
+      6.4,
+      8.96,
+      12.56,
+      15.44,
+      18.56
+    ],
+    "step_n": 6,
+    "cast": [
+      "codex",
+      "cursor",
+      "copilot",
+      "opencode",
+      "antigravity",
+      "openclaw"
+    ],
+    "pop_behind": null,
+    "reason": "No depth-lane product is named in this take; the subject mark stays on the stage."
+  },
+  "matte": {
+    "session": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/matting/claudesessions",
+    "cut": {
+      "w": 1584,
+      "h": 990
+    },
+    "rim": {
+      "w": 1584,
+      "h": 990
+    },
+    "hashes": {
+      "cut": "3a5245d9c1886fe6cd46e313d868d2d942b7985c570124048f7a62b24db2d226",
+      "rim": "95b91cae18193084a1a95653b66765c9186643f1d9545071d48f999f91d334f0",
+      "alpha": "d65eff56ca03ecd73da76d3e0b2f2ca9c268501f15199843ab33b67490badc91"
+    }
+  },
+  "shared": {
+    "beat_edges": [
+      0.1,
+      2.02,
+      6.38,
+      9.72,
+      17.0,
+      21.24
+    ],
+    "phone_test_objects": [
+      {
+        "name": "two walkie talkies",
+        "t": 2.4,
+        "space": "norm",
+        "bbox": [
+          0.20093,
+          0.17953,
+          0.79907,
+          0.36391
+        ],
+        "canvas": [
+          217.0,
+          344.7,
+          863.0,
+          698.7
+        ],
+        "phone_px": [
+          242,
+          133
+        ]
+      },
+      {
+        "name": "three walkie talkies",
+        "t": 16.0,
+        "space": "norm",
+        "bbox": [
+          0.18981,
+          0.16286,
+          0.81019,
+          0.29151
+        ],
+        "canvas": [
+          205.0,
+          312.7,
+          875.0,
+          559.7
+        ],
+        "phone_px": [
+          251,
+          93
+        ]
+      }
+    ]
+  },
+  "captions": {
+    "partials_dropped": [],
+    "token_merges": [],
+    "law47_tail_s": 0.22,
+    "law47_cap_s": 0.24,
+    "law47_overshoot_s": 0.0,
+    "law47_verdict": "PASS - the master runs 0.220s past the last word against a 0.240s cap",
+    "law46": "the scripted opening \"Claude can now talk with itself\" occurs ONCE inside the keeper take, at word 0 / 0.40 s; the raw carries three openings and the cut keeps the last one that reaches the sign-off",
+    "take_corroboration": {
+      "source": "cuts/claudesessions/edl.json -> take_detection",
+      "method": "last scripted opening that reaches the spoken sign-off; the content rule decides, the marker rule and the gap sweep witness",
+      "raw_word_index": 14,
+      "raw_start_s": 44.7,
+      "words": 74,
+      "of_raw_words": 88,
+      "openings": 3,
+      "sign_offs_found": 1,
+      "marker_rule": "equality",
+      "marker_answer": 14,
+      "markers_before_take": 2,
+      "marker_note": "EQUALITY is the strongest form; BOUND is legal and expected when abandonments carry no partial word; ABSTAINS is legal on a raw with no markers at all.",
+      "gap_rule": "band",
+      "gap_correct_thresholds": [
+        0.8,
+        0.9,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0,
+        4.0,
+        6.0
+      ],
+      "gap_boundary_gap_s": 6.64,
+      "corroboration": {
+        "marker": "equality",
+        "gap": "band",
+        "witnessed": true,
+        "allow_uncorroborated": false
+      },
+      "silence_before_take_s": 6.43
+    },
+    "words": 74,
+    "phrase_groups_repartitioned": 10,
+    "function_word_merges": 0,
+    "beats_before_merge": 23,
+    "board_keys_forbidden_at_split": [
+      "long-running",
+      "long-running!",
+      "long-running,",
+      "long-running.",
+      "long-running?",
+      "one session",
+      "one session!",
+      "one session,",
+      "one session.",
+      "one session?",
+      "sessions talk",
+      "sessions talk!",
+      "sessions talk,",
+      "sessions talk.",
+      "sessions talk?",
+      "teammates",
+      "teammates!",
+      "teammates,",
+      "teammates.",
+      "teammates?"
+    ],
+    "orphan_repartitions": [],
+    "board_key_echo_repairs": [],
+    "solo_word_merges": [],
+    "caption_echoes_not_overlapping": []
+  },
+  "caption_beats": [
+    {
+      "text": "Claude can now",
+      "start": 0.4,
+      "end": 0.9,
+      "w": 491.47,
+      "dur": 0.54
+    },
+    {
+      "text": "talk with itself.",
+      "start": 0.94,
+      "end": 1.66,
+      "w": 472.36,
+      "dur": 1.08
+    },
+    {
+      "text": "Now, if you're",
+      "start": 2.02,
+      "end": 2.58,
+      "w": 434.03,
+      "dur": 0.66
+    },
+    {
+      "text": "using Claude Code,",
+      "start": 2.68,
+      "end": 3.42,
+      "w": 578.91,
+      "dur": 1.16
+    },
+    {
+      "text": "sessions can now",
+      "start": 3.84,
+      "end": 4.48,
+      "w": 527.77,
+      "dur": 0.72
+    },
+    {
+      "text": "communicate with",
+      "start": 4.56,
+      "end": 5.5,
+      "w": 556.03,
+      "dur": 1.02
+    },
+    {
+      "text": "one another.",
+      "start": 5.58,
+      "end": 6.02,
+      "w": 402.5,
+      "dur": 0.8
+    },
+    {
+      "text": "That means that you no",
+      "start": 6.38,
+      "end": 7.16,
+      "w": 702.55,
+      "dur": 0.82
+    },
+    {
+      "text": "longer have to switch",
+      "start": 7.2,
+      "end": 8.28,
+      "w": 641.62,
+      "dur": 1.12
+    },
+    {
+      "text": "from session to session.",
+      "start": 8.32,
+      "end": 9.3,
+      "w": 702.78,
+      "dur": 1.4
+    },
+    {
+      "text": "If you leave",
+      "start": 9.72,
+      "end": 10.26,
+      "w": 373.16,
+      "dur": 0.88
+    },
+    {
+      "text": "long-running tasks,",
+      "start": 10.6,
+      "end": 11.44,
+      "w": 588.41,
+      "dur": 1.14
+    },
+    {
+      "text": "you can have",
+      "start": 11.74,
+      "end": 12.22,
+      "w": 410.64,
+      "dur": 0.8
+    },
+    {
+      "text": "one single session",
+      "start": 12.54,
+      "end": 13.5,
+      "w": 551.77,
+      "dur": 1.22
+    },
+    {
+      "text": "and just have them",
+      "start": 13.76,
+      "end": 14.4,
+      "w": 574.69,
+      "dur": 0.68
+    },
+    {
+      "text": "communicate and work",
+      "start": 14.44,
+      "end": 15.42,
+      "w": 685.62,
+      "dur": 1.02
+    },
+    {
+      "text": "together as teammates.",
+      "start": 15.46,
+      "end": 16.62,
+      "w": 700.75,
+      "dur": 1.54
+    },
+    {
+      "text": "Now, follow for more",
+      "start": 17.0,
+      "end": 17.72,
+      "w": 635.22,
+      "dur": 0.78
+    },
+    {
+      "text": "AI news, videos, and",
+      "start": 17.78,
+      "end": 18.62,
+      "w": 611.56,
+      "dur": 0.9
+    },
+    {
+      "text": "tutorials each and",
+      "start": 18.68,
+      "end": 19.36,
+      "w": 547.44,
+      "dur": 0.72
+    },
+    {
+      "text": "every single day,",
+      "start": 19.4,
+      "end": 19.9,
+      "w": 511.53,
+      "dur": 0.82
+    },
+    {
+      "text": "and catch you",
+      "start": 20.22,
+      "end": 20.54,
+      "w": 434.31,
+      "dur": 0.36
+    },
+    {
+      "text": "in the next one.",
+      "start": 20.58,
+      "end": 21.02,
+      "w": 481.3,
+      "dur": 0.66
+    }
+  ],
+  "checks": {
+    "word_sync": {
+      "states_checked": 4,
+      "disagreements": 0,
+      "states": [
+        {
+          "state": "key-term",
+          "first_visible_text": "SESSIONS TALK",
+          "at": 3.84,
+          "word": "sessions",
+          "word_window": [
+            3.84,
+            5.18
+          ],
+          "agrees": true,
+          "why": "SESSIONS TALK lands on the spoken 'sessions', the first word of 'sessions can now communicate with one another'; its second word TALK was already spoken at 0.94 so nothing peeks ahead (LAW 24)"
+        },
+        {
+          "state": "key-long",
+          "first_visible_text": "LONG-RUNNING",
+          "at": 10.6,
+          "word": "long-running",
+          "word_window": [
+            10.6,
+            12.12
+          ],
+          "agrees": true,
+          "why": "LONG-RUNNING lands on the spoken 'long-running'"
+        },
+        {
+          "state": "key-one",
+          "first_visible_text": "ONE SESSION",
+          "at": 13.2,
+          "word": "session",
+          "word_window": [
+            13.2,
+            14.5
+          ],
+          "agrees": true,
+          "why": "ONE SESSION lands on the spoken 'session' of 'one single session'; 'one' was spoken at 12.54 and 'single' at 12.90, so the whole key is behind its words"
+        },
+        {
+          "state": "key-team",
+          "first_visible_text": "TEAMMATES",
+          "at": 16.26,
+          "word": "teammates.",
+          "word_window": [
+            16.26,
+            17.62
+          ],
+          "agrees": true,
+          "why": "TEAMMATES lands on the spoken 'teammates.'"
+        }
+      ],
+      "digits_that_tick": 0,
+      "note": "no number is typed on this board and nothing counts up.  The other state changes are the two border flips and the three pulses, and each is cut on the word the cue table verifies."
+    },
+    "cues": {
+      "arc": {
+        "word_spoken": 3,
+        "text": "talk",
+        "edge": "start",
+        "t": 0.94,
+        "word_edge": 0.94
+      },
+      "pulse": {
+        "word_spoken": 5,
+        "text": "itself.",
+        "edge": "start",
+        "t": 1.32,
+        "word_edge": 1.32
+      },
+      "tile": {
+        "word_spoken": 10,
+        "text": "Claude",
+        "edge": "start",
+        "t": 2.94,
+        "word_edge": 2.94
+      },
+      "keyterm": {
+        "word_spoken": 12,
+        "text": "sessions",
+        "edge": "start",
+        "t": 3.84,
+        "word_edge": 3.84
+      },
+      "pulse2": {
+        "word_spoken": 15,
+        "text": "communicate",
+        "edge": "start",
+        "t": 4.56,
+        "word_edge": 4.56
+      },
+      "pulse3": {
+        "word_spoken": 17,
+        "text": "one",
+        "edge": "start",
+        "t": 5.58,
+        "word_edge": 5.58
+      },
+      "tileout": {
+        "word_spoken": 19,
+        "text": "That",
+        "edge": "start",
+        "t": 6.38,
+        "word_edge": 6.38
+      },
+      "you": {
+        "word_spoken": 22,
+        "text": "you",
+        "edge": "start",
+        "t": 6.94,
+        "word_edge": 6.94
+      },
+      "arrows": {
+        "word_spoken": 27,
+        "text": "switch",
+        "edge": "start",
+        "t": 7.9,
+        "word_edge": 7.9
+      },
+      "emph": {
+        "word_spoken": 27,
+        "text": "switch",
+        "edge": "start",
+        "t": 7.9,
+        "word_edge": 7.9
+      },
+      "strike": {
+        "word_spoken": 31,
+        "text": "session.",
+        "edge": "start",
+        "t": 8.98,
+        "word_edge": 8.98
+      },
+      "erase0": {
+        "word_spoken": 32,
+        "text": "If",
+        "edge": "start",
+        "t": 9.72,
+        "word_edge": 9.72
+      },
+      "teamA": {
+        "word_spoken": 34,
+        "text": "leave",
+        "edge": "start",
+        "t": 10.04,
+        "word_edge": 10.04
+      },
+      "keylong": {
+        "word_spoken": 35,
+        "text": "long-running",
+        "edge": "start",
+        "t": 10.6,
+        "word_edge": 10.6
+      },
+      "teamC": {
+        "word_spoken": 40,
+        "text": "one",
+        "edge": "start",
+        "t": 12.54,
+        "word_edge": 12.54
+      },
+      "emph2": {
+        "word_spoken": 41,
+        "text": "single",
+        "edge": "start",
+        "t": 12.9,
+        "word_edge": 12.9
+      },
+      "keyone": {
+        "word_spoken": 42,
+        "text": "session",
+        "edge": "start",
+        "t": 13.2,
+        "word_edge": 13.2
+      },
+      "arcs": {
+        "word_spoken": 47,
+        "text": "communicate",
+        "edge": "start",
+        "t": 14.44,
+        "word_edge": 14.44
+      },
+      "teampulse": {
+        "word_spoken": 49,
+        "text": "work",
+        "edge": "start",
+        "t": 15.24,
+        "word_edge": 15.24
+      },
+      "keyteam": {
+        "word_spoken": 52,
+        "text": "teammates.",
+        "edge": "start",
+        "t": 16.26,
+        "word_edge": 16.26
+      },
+      "outro": {
+        "word_spoken": 53,
+        "text": "Now,",
+        "edge": "start",
+        "t": 17.0,
+        "word_edge": 17.0
+      },
+      "emphout": {
+        "word_spoken": 31,
+        "text": "session.",
+        "edge": "inside",
+        "t": 9.3,
+        "window": [
+          8.98,
+          10.3
+        ]
+      },
+      "teamB": {
+        "word_spoken": 34,
+        "text": "leave",
+        "edge": "inside",
+        "t": 10.26,
+        "window": [
+          10.04,
+          11.26
+        ]
+      },
+      "emph2out": {
+        "word_spoken": 45,
+        "text": "have",
+        "edge": "inside",
+        "t": 14.1,
+        "window": [
+          14.06,
+          15.2
+        ]
+      },
+      "_free": {
+        "hook_before_speech": {
+          "cues": {
+            "radioL": 0.1,
+            "radioR": 0.3
+          },
+          "first_word_at": 0.4,
+          "why": "LAW 20 - the hook is the video's idea AS AN OBJECT and is COMPLETE from its first frame, so the two radios are authored ahead of the first spoken word rather than cut on it."
+        },
+        "law45": {
+          "board_mode": "chapters",
+          "erases": 2,
+          "seams": [
+            {
+              "erase_at": 9.72,
+              "last_word_ends": 9.3,
+              "fade_s": 0.22,
+              "erase_completes": 9.94,
+              "hands_over_to": "team-a",
+              "incoming_arrives_at": 10.04,
+              "lag_after_erase_s": 0.1
+            },
+            {
+              "erase_at": 17.0,
+              "last_word_ends": 16.62,
+              "fade_s": 0.22,
+              "erase_completes": 17.22,
+              "hands_over_to": "o-sheet",
+              "incoming_arrives_at": 17.0,
+              "lag_after_erase_s": 0.0
+            }
+          ],
+          "verdict": "PASS - the 9.72 seam lands on 'If', the start of a new idea, and hands over to team-a at 10.04 while the pair is still fading; the 17.00 seam hands over to the opaque rising sheet and the lockup"
+        },
+        "outro": {
+          "t": 17.0,
+          "last_board_event_completes": 16.56,
+          "clear_s": 0.44,
+          "sheet": {
+            "d": 0.44,
+            "lockup_in": 17.5,
+            "kind": "OPAQUE RISING SHEET, never a fade and never a scrim"
+          }
+        }
+      }
+    },
+    "law37": {
+      "scan_cue_count": 0,
+      "plan_declared_cards": 0,
+      "prep_marker": "prep/stages/claudesessions.cues.json -> cue_count 0",
+      "source_post_cards": 0,
+      "platform_frames_chosen": 0,
+      "verdict": "GLOBAL LAW 3 is satisfied BY ABSENCE.  The recording points at nothing and shows no post, so this lane invents no tweet card and no platform frame.",
+      "instrument": "pointing_cues.scan re-run on transcript_tight.json"
+    },
+    "law41": {
+      "pairs_measured": 749,
+      "judged": 208,
+      "tightest_core_px": 42.3,
+      "tightest_pair": [
+        "key-long",
+        "key-team",
+        16.5
+      ],
+      "floor": 24.0,
+      "refusal_line": 16.0,
+      "split_scale_k": 1.0,
+      "tightest_on_this_page_px": 42.3,
+      "under_aim": [],
+      "blocks": [
+        [
+          "radio-l",
+          "arc"
+        ],
+        [
+          "radio-r",
+          "arc"
+        ],
+        [
+          "you",
+          "shl-l",
+          "shl-r",
+          "strike",
+          "you-emph"
+        ],
+        [
+          "team-a",
+          "key-long"
+        ],
+        [
+          "team-c",
+          "key-one",
+          "team-c-emph"
+        ],
+        [
+          "team-a",
+          "team-b",
+          "team-c",
+          "arc-a",
+          "arc-c",
+          "key-team"
+        ]
+      ],
+      "series": [
+        [
+          "team-a",
+          "team-b",
+          "team-c"
+        ],
+        [
+          "shl-l",
+          "shl-r"
+        ],
+        [
+          "radio-l",
+          "radio-r"
+        ]
+      ],
+      "overlap_ok": [
+        "arc",
+        "arc-a",
+        "arc-c",
+        "shl-l",
+        "shl-r",
+        "strike",
+        "team-c-emph",
+        "you-emph"
+      ],
+      "gate_scaling_note": "every non-block gutter here is authored at >= 42 CORE px so the cutout's ~0.95 seat still clears 40 canvas px; this lane's k is 1.00, so the core number IS the page number",
+      "instrument": "this build's own co-alive sweep at 0.25 s over the module's rects; geometry_audit --strict is the independent measurement on the rendered page"
+    },
+    "law39": {
+      "key-long": {
+        "host": "team-a",
+        "side": "below",
+        "text": "LONG-RUNNING",
+        "key_box_core": [
+          155.0,
+          385.0,
+          385.0,
+          429.0
+        ],
+        "host_box_core": [
+          205.0,
+          96.0,
+          335.0,
+          343.0
+        ],
+        "key_box_canvas": [
+          155.0,
+          601.7,
+          385.0,
+          645.7
+        ],
+        "centre_error_px": 0.0,
+        "band_px": 19.5,
+        "gap_px": 42.0,
+        "at": 10.6,
+        "host_at": 10.04,
+        "delay_after_host_s": 0.56
+      },
+      "key-one": {
+        "host": "team-c",
+        "side": "below",
+        "text": "ONE SESSION",
+        "key_box_core": [
+          710.0,
+          385.0,
+          910.0,
+          429.0
+        ],
+        "host_box_core": [
+          745.0,
+          96.0,
+          875.0,
+          343.0
+        ],
+        "key_box_canvas": [
+          710.0,
+          601.7,
+          910.0,
+          645.7
+        ],
+        "centre_error_px": 0.0,
+        "band_px": 19.5,
+        "gap_px": 42.0,
+        "at": 13.2,
+        "host_at": 12.54,
+        "delay_after_host_s": 0.66
+      },
+      "key-team": {
+        "host": "team-b",
+        "side": "below",
+        "text": "TEAMMATES",
+        "key_box_core": [
+          390.0,
+          471.0,
+          690.0,
+          529.0
+        ],
+        "host_box_core": [
+          475.0,
+          96.0,
+          605.0,
+          343.0
+        ],
+        "key_box_canvas": [
+          390.0,
+          687.7,
+          690.0,
+          745.7
+        ],
+        "centre_error_px": 0.0,
+        "band_px": 19.5,
+        "gap_px": 128.0,
+        "at": 16.26,
+        "host_at": 10.26,
+        "delay_after_host_s": 6.0
+      },
+      "_law50": {
+        "siblings": [
+          "key-long",
+          "key-one"
+        ],
+        "side": "below",
+        "baseline_core_y": 385.0,
+        "font_px": 28.0,
+        "verdict": "PASS - LONG-RUNNING and ONE SESSION name two radios of the same row, sit on the same side of their own object and share one baseline.  TEAMMATES names a DIFFERENT object (the whole row), so it is not their sibling; it also sits below, on its own lower baseline."
+      },
+      "_key_term": {
+        "text": "SESSIONS TALK",
+        "at": 3.84,
+        "font_px": 48.0,
+        "design_units": 25.6,
+        "other_key_font_px": [
+          28.0,
+          40.0
+        ],
+        "seat_canvas": [
+          270.0,
+          240.7,
+          810.0,
+          298.7
+        ],
+        "debut_axis": "x = 540, the composition's own axis to 0.0 px.  It is the FIRST type in the video - the Claude Code tile at 2.94 is a MARK, not type - and it is alone for 6.76 s.",
+        "first_type_at": 3.84,
+        "alone_until": 10.6,
+        "type_order": [
+          [
+            "key-term",
+            3.84
+          ],
+          [
+            "key-long",
+            10.6
+          ],
+          [
+            "key-one",
+            13.2
+          ],
+          [
+            "key-team",
+            16.26
+          ]
+        ]
+      },
+      "_hook": {
+        "object": "two two-way radios facing each other - the video's claim (two sessions now speak directly) as ONE everyday object, drawn complete from its first settled frame, and the outro's themed glyph as well",
+        "first_ink_at": 0.1,
+        "opens_centred_on_x": 540.0,
+        "alone_until": 0.94,
+        "one_displacement": "none - the radios never move.  The only travel in chapter 0 is the pulse riding the arc's own path, which is a dash offset and not a moving element (LAW 1)."
+      }
+    },
+    "law42": {
+      "board_mode": "chapters",
+      "chapters": 2,
+      "anchors": [
+        "o-glyph",
+        "o-rule",
+        "o-slot"
+      ],
+      "marks_that_leave": [
+        "arc",
+        "arc-a",
+        "arc-c",
+        "cc-tile",
+        "key-long",
+        "key-one",
+        "key-team",
+        "key-term",
+        "radio-l",
+        "radio-r",
+        "shl-l",
+        "shl-r",
+        "strike",
+        "team-a",
+        "team-b",
+        "team-c",
+        "team-c-emph",
+        "you",
+        "you-emph"
+      ],
+      "shares": {
+        "radio-l": 0.453,
+        "radio-r": 0.444,
+        "arc": 0.413,
+        "cc-tile": 0.162,
+        "key-term": 0.277,
+        "you": 0.131,
+        "shl-l": 0.086,
+        "shl-r": 0.082,
+        "you-emph": 0.066,
+        "strike": 0.035,
+        "team-a": 0.328,
+        "team-b": 0.317,
+        "team-c": 0.21,
+        "team-c-emph": 0.056,
+        "arc-a": 0.121,
+        "arc-c": 0.121,
+        "key-long": 0.301,
+        "key-one": 0.179,
+        "key-team": 0.035
+      },
+      "longest_lived_mark": {
+        "mark": "radio-l",
+        "share": 0.453
+      },
+      "plan_boards_mode": "chapters",
+      "board_mode_reason": "LAW 43: chapters are the default and this script has TWO separate ideas, not one that accumulates. Idea one is the pair (they talk, so you stop shuttling); idea two is the team (three of them, one of which you keep). Drawing the second on top of the first would leave the struck-out figure and the Claude Code tile on the board under the teammates argument, which is exactly the crowding LAW 43 inverted the format for. Two chapters in 17 s of content, with the erase at 9.72 landing on 'If' - a real idea handover (LAW 45), not a sentence end.",
+      "over_40pct_without_declaration": [],
+      "note": "every board mark carries a finite t_to, which is exactly the declaration LAW 42 asks a CHAPTERED build for; the only anchors are the three outro marks.  radio-l holds 45.3% of the runtime and radio-r 44.3%, but both are the hook object of chapter 0 and both carry a finite t_to at that chapter's own erase, so LAW 42's 40% clause - which binds a mark WITHOUT a declaration - does not fire."
+    }
+  },
+  "cast": {
+    "claude-code": {
+      "path": "/Users/migle/Documents/Workspace/assets/logos/coding-tools/claudecode-color.png",
+      "bytes": 1467,
+      "size": [
+        640,
+        640
+      ],
+      "ink_fill": 0.679,
+      "quantised_colours": 1,
+      "diag_fwd": 0.631,
+      "diag_back": 0.631,
+      "bbox": [
+        0,
+        133,
+        640,
+        534
+      ]
+    },
+    "codex": {
+      "path": "/Users/migle/Documents/Workspace/assets/logos/coding-tools/codex-color.png",
+      "bytes": 7578,
+      "size": [
+        640,
+        640
+      ],
+      "ink_fill": 0.97,
+      "quantised_colours": 13,
+      "diag_fwd": 0.894,
+      "diag_back": 0.894,
+      "bbox": [
+        0,
+        0,
+        640,
+        640
+      ]
+    },
+    "cursor": {
+      "path": "/Users/migle/Documents/Workspace/assets/logos/coding-tools/cursor.png",
+      "bytes": 4422,
+      "size": [
+        640,
+        640
+      ],
+      "ink_fill": 0.541,
+      "quantised_colours": 1,
+      "diag_fwd": 0.255,
+      "diag_back": 0.439,
+      "bbox": [
+        39,
+        0,
+        601,
+        640
+      ]
+    },
+    "copilot": {
+      "path": "/Users/migle/Documents/Workspace/assets/logos/coding-tools/copilot-color.png",
+      "bytes": 29398,
+      "size": [
+        640,
+        640
+      ],
+      "ink_fill": 0.698,
+      "quantised_colours": 68,
+      "diag_fwd": 0.641,
+      "diag_back": 0.331,
+      "bbox": [
+        0,
+        26,
+        640,
+        614
+      ]
+    },
+    "opencode": {
+      "path": "/Users/migle/Documents/Workspace/assets/logos/coding-tools/opencode-color.png",
+      "bytes": 3413,
+      "size": [
+        1872,
+        336
+      ],
+      "ink_fill": 0.527,
+      "quantised_colours": 3,
+      "diag_fwd": 0.54,
+      "diag_back": 0.536,
+      "bbox": [
+        0,
+        0,
+        1872,
+        336
+      ]
+    },
+    "antigravity": {
+      "path": "/Users/migle/Documents/Workspace/assets/logos/coding-tools/antigravity-color.png",
+      "bytes": 71914,
+      "size": [
+        540,
+        540
+      ],
+      "ink_fill": 0.369,
+      "quantised_colours": 111,
+      "diag_fwd": 0.584,
+      "diag_back": 0.587,
+      "bbox": [
+        67,
+        84,
+        471,
+        456
+      ]
+    },
+    "openclaw": {
+      "path": "/Users/migle/Documents/Workspace/assets/logos/coding-tools/openclaw-color.png",
+      "bytes": 13319,
+      "size": [
+        640,
+        640
+      ],
+      "ink_fill": 0.609,
+      "quantised_colours": 17,
+      "diag_fwd": 0.592,
+      "diag_back": 0.591,
+      "bbox": [
+        0,
+        44,
+        640,
+        632
+      ]
+    }
+  },
+  "dom_repairs": {
+    "team_c_emph_box": {
+      "was_core": [
+        735.0,
+        146.0,
+        885.0,
+        353.0
+      ],
+      "now_core": [
+        731.0,
+        82.0,
+        889.0,
+        357.0
+      ],
+      "target_core": [
+        745.0,
+        96.0,
+        875.0,
+        343.0
+      ],
+      "was_top_gap_px": -50.0,
+      "now_min_gap_px": 14.0,
+      "why": "visual_laws measures an emphasis box's clearance against the TARGET ELEMENT's rect.  #team-c is the whole radio, antenna included (core y 96), while the module's box started at the BODY (core y 146), so the top gap was -50 px and the emphasis was refused before render.  LAW 51 says the antenna is part of the radio, so the correct box encloses the radio: 14 px clear on every side, 12 px after the 4 px border's half-width.  The instant, the ink, the radius and the scale-in are unchanged."
+    },
+    "key_team_label_for": {
+      "was": "team-row",
+      "now": "team-b",
+      "why": "LAW 39's instrument needs a REAL host id and `team-row` is not a DOM element.  TEAMMATES names the whole row and the row's own axis IS team-b's axis (centre x 540 to 0.0 px), so repointing changes nothing the viewer sees and nothing the law measures."
+    }
+  },
+  "contracts": {
+    "connectors": {
+      "arc-a": {
+        "target": "team-b",
+        "side": "left",
+        "fraction": 0.621457,
+        "check_at": 16.0,
+        "end_core": [
+          475.0,
+          249.5
+        ],
+        "end_canvas": [
+          475.0,
+          441.5
+        ],
+        "start_core": [
+          321.22,
+          96.0
+        ],
+        "stroke_completes": 14.84,
+        "target_born": 10.26,
+        "connector_life": [
+          14.44,
+          17.0
+        ]
+      },
+      "arc-c": {
+        "target": "team-b",
+        "side": "right",
+        "fraction": 0.621457,
+        "check_at": 16.0,
+        "end_core": [
+          605.0,
+          249.5
+        ],
+        "end_canvas": [
+          605.0,
+          441.5
+        ],
+        "start_core": [
+          758.78,
+          96.0
+        ],
+        "stroke_completes": 14.84,
+        "target_born": 10.26,
+        "connector_life": [
+          14.44,
+          17.0
+        ]
+      }
+    },
+    "emphases": {
+      "you-emph": {
+        "id": "you-emph",
+        "kind": "box",
+        "declared_target": "you",
+        "at": 8.6,
+        "fires_at": 7.9,
+        "completes": 8.14,
+        "declared": true,
+        "ink": "#C4573A",
+        "target_ink": "#141416",
+        "box_core": [
+          452.0,
+          282.0,
+          630.0,
+          454.0
+        ],
+        "target_core": [
+          482.0,
+          296.0,
+          598.0,
+          438.0
+        ],
+        "gaps_px": [
+          30.0,
+          32.0,
+          14.0,
+          16.0
+        ],
+        "clearance_after_stroke_px": 12.0,
+        "dom_primitive": "a 4 px terracotta panel border around the drawn object, scaled in over 0.24 s and released on its own word"
+      },
+      "team-c-emph": {
+        "id": "team-c-emph",
+        "kind": "box",
+        "declared_target": "team-c",
+        "at": 13.6,
+        "fires_at": 12.9,
+        "completes": 13.14,
+        "declared": true,
+        "ink": "#C4573A",
+        "target_ink": "#141416",
+        "box_core": [
+          731.0,
+          82.0,
+          889.0,
+          357.0
+        ],
+        "target_core": [
+          745.0,
+          96.0,
+          875.0,
+          343.0
+        ],
+        "gaps_px": [
+          14.0,
+          14.0,
+          14.0,
+          14.0
+        ],
+        "clearance_after_stroke_px": 12.0,
+        "dom_primitive": "a 4 px terracotta panel border around the drawn object, scaled in over 0.24 s and released on its own word"
+      }
+    }
+  },
+  "edge_fade": {
+    "masked_containers": 3,
+    "fade_px": 46.0,
+    "meters_exempt": []
+  },
+  "handle": "@migueltorrez.ai"
+}

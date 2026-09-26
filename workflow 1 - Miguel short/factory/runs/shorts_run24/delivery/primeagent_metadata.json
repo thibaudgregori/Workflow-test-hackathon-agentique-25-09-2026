@@ -1,0 +1,23 @@
+{
+  "title": "Prime Agent Has One Tool That Builds Every Tool It Needs",
+  "lines": ["AN AGENT THAT", "BUILDS ITS OWN", "TOOLS"],
+  "kw": "tools",
+  "pose": "plush-cheek",
+  "kw_reason": "The whole short contrasts agents that pick from a fixed list of tools with Prime Agent, whose single tool builds any tool it needs. TOOLS is the object of that change and fits the 8 character highlight.",
+  "hl_reason": "Read top to bottom the cover states the claim in one line: an AI agent that makes its own tools instead of choosing from a preset list. The long set-up words sit above so the short keyword can carry the biggest type.",
+  "sentence": "An agent that builds its own tools.",
+  "claim": "Prime Agent is a new type of AI agent with one single tool that lets it build whatever tool the task needs, instead of choosing from a fixed list like regular agents.",
+  "quotes": [
+    "Regular AI agents have a list of tools that they decide to use",
+    "it only has one single tool. This tool allows it to build any tool that it might need.",
+    "your AI agent is literally just able to create either a hammer or a screwdriver depending on the task that it needs to settle"
+  ],
+  "ct": "explainer",
+  "cl": "concise",
+  "reason": "The short explains how Prime Agent differs from regular agents (one tool that builds tools versus a fixed tool list) with a workshop analogy; it gives no launch details, steps or settings, so a concise explainer fits.",
+  "yd": "Prime Agent is a new type of AI agent. Regular agents pick from a fixed list of tools, like reading a document or writing code. Prime Agent has one single tool, and that tool builds any tool it needs. Think of a personal workshop that makes a hammer or a screwdriver depending on the task. It is the first agent built on RLM, and we don't know yet if it will beat regular agents.\n\nFollow @migueltorrezai for daily AI news and tutorials.\n\n#AIAgents #PrimeAgent #AI",
+  "tags": ["Prime Agent", "AI Agents", "RLM", "AI Tools", "Agent Tool Use", "Artificial Intelligence", "AI News"],
+  "tt": "Prime Agent is a new type of AI agent: instead of choosing from a list of tools, it has one single tool that builds any tool it needs. A hammer for one task, a screwdriver for the next. It is the first agent built on RLM, and nobody knows yet if it beats regular agents. Follow @migueltorrez.ai for daily AI news. #aiagents #primeagent #ai #tech",
+  "ig": "Prime Agent is a new type of AI agent.\n\nRegular agents pick from a fixed list of tools. Prime Agent has one single tool, and it uses it to build whatever tool the task needs. A personal workshop that makes a hammer or a screwdriver on demand.\n\nIt is the first agent built on RLM. Whether it beats regular agents is still an open question.\n\nFollow @migueltorrez.ai for daily AI news and tutorials.\n\n#aiagents #primeagent #artificialintelligence",
+  "rr": "No prompt, link or resource is promised."
+}

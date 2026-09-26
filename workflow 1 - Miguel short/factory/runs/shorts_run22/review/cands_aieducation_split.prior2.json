@@ -1,0 +1,376 @@
+{
+ "video": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/output/aieducation_split.mp4",
+ "video_id": "aieducation",
+ "fmt": "split",
+ "model": "gemini-3.5-flash-lite",
+ "duration_s": 32.141,
+ "fps_sampled": 3.0,
+ "windows": [
+  [
+   0.0,
+   32.14
+  ],
+  [
+   0.0,
+   20.0
+  ],
+  [
+   17.0,
+   32.14
+  ]
+ ],
+ "whole_pass": true,
+ "thinking": "medium",
+ "media_resolution": "HIGH",
+ "jobs": 3,
+ "transcript": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/cuts/aieducation/transcript_tight.json",
+ "video_summary": "The video discusses how AI is transforming education by enabling interactive 3D anatomy tools and allowing teachers to build custom applications. It features a speaker presenting visual illustrations and concludes with a call to follow for more AI content.",
+ "beat_log": [
+  {
+   "t_start": 0.0,
+   "t_end": 2.6,
+   "on_screen": "Open book outline drawing with a heart appearing above and inside the right page, top cream zone.",
+   "said": "Education will no longer be the same due to AI.",
+   "marks_visible": "none",
+   "labels_visible": "none",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "none",
+   "picture_vs_sentence": "Picture illustrates education/learning with a book and heart.",
+   "from_window": [
+    0.0,
+    32.14
+   ]
+  },
+  {
+   "t_start": 0.0,
+   "t_end": 2.8,
+   "on_screen": "Open book icon with heart outline on top, speaker below",
+   "said": "Education will no longer be the same due to AI.",
+   "marks_visible": "none",
+   "labels_visible": "Education will no longer be the same due to AI.",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "caption pill on the seam, below the book icon",
+   "picture_vs_sentence": "picture shows a book being updated with a heart, compatible with education changes",
+   "from_window": [
+    0.0,
+    20.0
+   ]
+  },
+  {
+   "t_start": 2.6,
+   "t_end": 6.16,
+   "on_screen": "Tweet card from X by THE BUGGED DEV showing an anatomy app interface, top cream zone.",
+   "said": "Now, this guy on X built out an entire 3D",
+   "marks_visible": "X",
+   "labels_visible": "THE BUGGED DEV @THEBUGGEDDEV A 3D human anatomy application built with @threejs using GPT 5.6 Sol.",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "ABOVE and inside tweet card",
+   "picture_vs_sentence": "Picture shows a tweet showcasing a 3D human anatomy app.",
+   "from_window": [
+    0.0,
+    32.14
+   ]
+  },
+  {
+   "t_start": 2.8,
+   "t_end": 6.0,
+   "on_screen": "X post card with profile 'The Bugged Dev', anatomy app preview, speaker below",
+   "said": "Now, this guy on X built out an entire 3D",
+   "marks_visible": "X",
+   "labels_visible": "NOW, THIS GUY ON X / THE BUGGED DEV / A 3D human anatomy application built with @threejs using GPT 5.6 Sol.",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "caption pill below post card",
+   "picture_vs_sentence": "picture shows the post on X being discussed",
+   "from_window": [
+    0.0,
+    20.0
+   ]
+  },
+  {
+   "t_start": 6.0,
+   "t_end": 13.0,
+   "on_screen": "Detailed UI of Anatomy Atelier application with 3D heart model and organ lists, speaker below",
+   "said": "interactive tool to be able to explore the entire human anatomy in a single afternoon, full of accurate 3D models.",
+   "marks_visible": "none",
+   "labels_visible": "Anatomy Atelier / 3D ANATOMY / ONE AFTERNOON",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "3D ANATOMY above heart drawing, ONE AFTERNOON below heart drawing",
+   "picture_vs_sentence": "picture shows the 3D interactive tool mentioned",
+   "from_window": [
+    0.0,
+    20.0
+   ]
+  },
+  {
+   "t_start": 6.16,
+   "t_end": 13.1,
+   "on_screen": "Heart outline drawing with three red dots, rotating red arrow below, and text '3D ANATOMY' and 'ONE AFTERNOON'.",
+   "said": "interactive tool to be able to explore the entire human anatomy in a single afternoon, full of accurate 3D models.",
+   "marks_visible": "none",
+   "labels_visible": "3D ANATOMY, ONE AFTERNOON",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "ABOVE and BELOW heart drawing",
+   "picture_vs_sentence": "Picture illustrates exploring a heart with 3D anatomy annotations.",
+   "from_window": [
+    0.0,
+    32.14
+   ]
+  },
+  {
+   "t_start": 13.0,
+   "t_end": 18.0,
+   "on_screen": "Left: open book icon with box and label 'FLAT PAGE'; Right: head profile icon with label 'GUESSWORK'",
+   "said": "No longer will we have to just look at textbooks and have to imagine things in our head.",
+   "marks_visible": "none",
+   "labels_visible": "FLAT PAGE / GUESSWORK",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "FLAT PAGE below book, GUESSWORK below head. Uneven baselines: FLAT PAGE and GUESSWORK sit at slightly different vertical positions.",
+   "picture_vs_sentence": "picture illustrates textbooks vs imagination",
+   "from_window": [
+    0.0,
+    20.0
+   ]
+  },
+  {
+   "t_start": 13.1,
+   "t_end": 18.0,
+   "on_screen": "Open book drawing on the left, head silhouette drawing on the right.",
+   "said": "No longer will we have to just look at textbooks and have to imagine things in our head.",
+   "marks_visible": "none",
+   "labels_visible": "FLAT PAGE, GUESSWORK",
+   "touching_or_clipped": "red box around the book outline and label FLAT PAGE touching the book",
+   "empty_regions": "none",
+   "label_placement": "BELOW book and head illustrations",
+   "picture_vs_sentence": "Picture contrasts flat textbooks with imagination/guesswork.",
+   "from_window": [
+    0.0,
+    32.14
+   ]
+  },
+  {
+   "t_start": 17.0,
+   "t_end": 18.0,
+   "on_screen": "Top half shows two cards side by side: left is an open book labeled FLAT PAGE, right is a head profile with a heart labeled GUESSWORK. Bottom half shows the speaker.",
+   "said": "and have to imagine things in our head.",
+   "marks_visible": "none",
+   "labels_visible": "FLAT PAGE, GUESSWORK, things in our head.",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "BELOW for both book and head labels.",
+   "picture_vs_sentence": "The picture shows a book and a head representing imagination, matching the sentence.",
+   "from_window": [
+    17.0,
+    32.14
+   ]
+  },
+  {
+   "t_start": 18.0,
+   "t_end": 22.0,
+   "on_screen": "Heart outline being drawn, getting split by a vertical line and cursor arrow.",
+   "said": "Now we will be able to look at screens and see how things are built.",
+   "marks_visible": "none",
+   "labels_visible": "INSIDE",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "BELOW heart drawing",
+   "picture_vs_sentence": "Picture shows looking inside a structure.",
+   "from_window": [
+    0.0,
+    32.14
+   ]
+  },
+  {
+   "t_start": 18.0,
+   "t_end": 20.0,
+   "on_screen": "Heart outline being drawn/filled with internal leaf/vessel lines",
+   "said": "Now we will be able to look at screens and see",
+   "marks_visible": "none",
+   "labels_visible": "none",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "none",
+   "picture_vs_sentence": "picture shows seeing inside screens/models",
+   "from_window": [
+    0.0,
+    20.0
+   ]
+  },
+  {
+   "t_start": 18.0,
+   "t_end": 22.0,
+   "on_screen": "Top half shows a whiteboard-style drawing of a heart/anatomy outline being drawn with a pencil, with the label INSIDE below it. Bottom half shows the speaker.",
+   "said": "Now we will be able to look at screens and see how things are built.",
+   "marks_visible": "none",
+   "labels_visible": "INSIDE, Now we will be able to look at screens and see how things are built.",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "BELOW for INSIDE.",
+   "picture_vs_sentence": "The picture shows a drawing being formed on a screen, matching seeing how things are built.",
+   "from_window": [
+    17.0,
+    32.14
+   ]
+  },
+  {
+   "t_start": 22.0,
+   "t_end": 27.54,
+   "on_screen": "Three icons at the top (ChatGPT, Claude, Gemini/Sparkle), red lines connecting to a whiteboard on an easel with a heart inside and more hearts appearing underneath on the easel frame.",
+   "said": "Teachers who adopt AI will be able to build out interactive applications for all of their students.",
+   "marks_visible": "ChatGPT logo, Claude Code pixel mascot, Gemini icon",
+   "labels_visible": "none",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "none",
+   "picture_vs_sentence": "Picture shows AI tools feeding into an application builder for students.",
+   "from_window": [
+    0.0,
+    32.14
+   ]
+  },
+  {
+   "t_start": 22.0,
+   "t_end": 28.0,
+   "on_screen": "Top half shows three app icons (OpenAI, Anthropic, Google) connected by red lines to a central laptop on a stand, with hearts appearing inside and underneath. Bottom half shows the speaker.",
+   "said": "Teachers who adopt AI will be able to build out interactive applications for all of their students.",
+   "marks_visible": "OpenAI logo, Anthropic logo, Google sparkle logo",
+   "labels_visible": "Teachers who adopt AI will be able to build out interactive applications for all of their students.",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "none",
+   "picture_vs_sentence": "The picture illustrates AI tools connecting to build applications for students, matching the sentence.",
+   "from_window": [
+    17.0,
+    32.14
+   ]
+  },
+  {
+   "t_start": 27.54,
+   "t_end": 31.88,
+   "on_screen": "Heart icon, handle text '@migueltorrezai', and 'daily AI' text.",
+   "said": "Now follow for more AI news, videos, and tutorials each and every single day, and catch you in the next one.",
+   "marks_visible": "none",
+   "labels_visible": "@migueltorrezai, daily AI",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "BELOW heart icon",
+   "picture_vs_sentence": "Outro handle card showing social media branding.",
+   "from_window": [
+    0.0,
+    32.14
+   ]
+  },
+  {
+   "t_start": 28.0,
+   "t_end": 32.14,
+   "on_screen": "Top half shows an outro card with a heart outline, the handle @migueltorrezai, and the subtitle daily AI. Bottom half shows the speaker.",
+   "said": "Now follow for more AI news, videos, and tutorials each and every single day, and catch you in the next one.",
+   "marks_visible": "none",
+   "labels_visible": "@migueltorrezai, daily AI, Now follow for more AI news, videos, and tutorials each and every single day, and catch you in the next one.",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "BELOW for daily AI relative to the handle.",
+   "picture_vs_sentence": "The picture shows the outro handle card.",
+   "from_window": [
+    17.0,
+    32.14
+   ]
+  }
+ ],
+ "all_summaries": [
+  "The video discusses how AI is transforming education by enabling interactive 3D anatomy tools and allowing teachers to build custom applications. It features a speaker presenting visual illustrations and concludes with a call to follow for more AI content.",
+  "The video discusses how AI is transforming education, showcasing a 3D interactive human anatomy tool built by a user on X as an example. It argues that traditional textbooks will be replaced by immersive, interactive digital tools for students.",
+  "The video discusses how AI will transform education by replacing textbooks with interactive 3D models and allowing teachers to build applications for students. It concludes with a call to follow for daily AI news and tutorials."
+ ],
+ "candidates": [
+  {
+   "t_start": 13.5,
+   "t_end": 17.8,
+   "on_screen": "FLAT PAGE and GUESSWORK labels under icons",
+   "said": "No longer will we have to just look at textbooks and have to imagine things in our head.",
+   "claim": "Two labels in one row have uneven baselines.",
+   "klass": "uneven_baselines",
+   "severity": "minor",
+   "motion_or_held": "held",
+   "window": [
+    0.0,
+    20.0
+   ],
+   "seen_in_passes": 1,
+   "id": "C1"
+  },
+  {
+   "t_start": 15.66,
+   "t_end": 17.66,
+   "on_screen": "A red rectangular box drawn around the open book illustration with the label 'FLAT PAGE' below it.",
+   "said": "look at textbooks and have to imagine things in our head.",
+   "claim": "A red box is drawn around text/image content on a document/graphic.",
+   "klass": "ring_or_box_on_image_text",
+   "severity": "blocking",
+   "motion_or_held": "held",
+   "window": [
+    0.0,
+    32.14
+   ],
+   "seen_in_passes": 1,
+   "id": "C2"
+  }
+ ],
+ "counts": {
+  "candidates": 2,
+  "blocking": 1,
+  "motion": 0
+ },
+ "calls": [
+  {
+   "pass": 1,
+   "window": [
+    0.0,
+    32.14
+   ],
+   "model": "gemini-3.5-flash-lite",
+   "fps": 3.0,
+   "thinking": "medium",
+   "input_tokens": 30093,
+   "output_tokens": 1425,
+   "thinking_tokens": 0,
+   "cost_usd": 0.01259
+  },
+  {
+   "pass": 1,
+   "window": [
+    0.0,
+    20.0
+   ],
+   "model": "gemini-3.5-flash-lite",
+   "fps": 3.0,
+   "thinking": "medium",
+   "input_tokens": 20290,
+   "output_tokens": 1073,
+   "thinking_tokens": 0,
+   "cost_usd": 0.008769
+  },
+  {
+   "pass": 1,
+   "window": [
+    17.0,
+    32.14
+   ],
+   "model": "gemini-3.5-flash-lite",
+   "fps": 3.0,
+   "thinking": "medium",
+   "input_tokens": 16207,
+   "output_tokens": 3054,
+   "thinking_tokens": 2169,
+   "cost_usd": 0.012497
+  }
+ ],
+ "cost_usd": 0.033856,
+ "wall_clock_s": 19.8
+}

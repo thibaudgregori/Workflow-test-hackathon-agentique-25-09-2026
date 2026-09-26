@@ -1,0 +1,35 @@
+{
+  "id": "cursorworkspace",
+  "stage": "selection",
+  "decision": "APPROVED",
+  "selection": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/cursorworkspace/selection.json",
+  "status": "reviewed",
+  "validate": "OK",
+  "mask": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/cursorworkspace/selection.mask.png",
+  "mask_sha256": "784e41a3b315f45d48679f94c0df27afe18632a0d56f9d570833ead8f010fc05",
+  "base_mask_sha256": "e3da425da0c8e487f7ccf335dd1372da237c1374f97bbdfb37d7b293cab1360a",
+  "reviewer": "visual-agent",
+  "edits": [],
+  "edits_reason": "No boundary correction needed at the delivered crop and normal viewing size; the inspected BiRefNet/kf_00000 mask already preserves cap, face, jaw, beard, both ears, neck, both shoulders and both hands, and already excludes the chair backrest, both headrest wings, the chair shoulder shadow and the shelf/plush background.",
+  "identity": {
+    "plate_sha256": "2c045a03d20499167057bee0cf9915e88199da1c453362cb9f4b017d0eab9753",
+    "source_sha256": "fe711b3d629c43acc3ea9f0aac99fab4b055dc9f9773b8781e2b68df73bfbfee",
+    "crop_sha256": "3ae8ff4f940bdccc28cfca4d9a922e3f28e0346f20dfa19a73f0b84cb4d935d8",
+    "first_frame_sha256": "552e674be3bd8fde04badd47ec5245384db6c5264ef2e5524acadda6c9fec48d",
+    "width": 1260, "height": 900, "fps": 25.0, "frames": 538
+  },
+  "inspected": [
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/_selection_views/cursorworkspace_frame.png",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/_selection_views/cursorworkspace_overlay.png",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/_selection_views/cursorworkspace_cream.png",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/_selection_views/cursorworkspace_dark.png",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/_selection_views/z_head_cream.png",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/_selection_views/z_lsh_cream.png",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/_selection_views/z_rsh_cream.png",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/_selection_views/z_bl_cream.png",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/_selection_views/z_br_cream.png",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/_selection_views/z_hands_cream.png"
+  ],
+  "mask_stats": {"components": 1, "area_px": 458031, "coverage": 0.4039, "bbox_x": [56, 1226], "bbox_y": [77, 899], "top_edge_contact_px": 0, "side_edge_contact_px": 0},
+  "reuse_scope": "this exact source, plate and crop only"
+}

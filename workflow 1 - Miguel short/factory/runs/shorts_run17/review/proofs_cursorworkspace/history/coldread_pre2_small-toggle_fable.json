@@ -1,0 +1,28 @@
+{
+  "tag": "round2",
+  "cold_dir": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/round2-001bed9a",
+  "reader": "one independent `claude -p` process per crop, launched from /tmp, handed ONLY the absolute path of a blind copy under a random token - no plan, no topic, no manifest, no sealed key, and no path naming the video",
+  "prompt": "Look at the image at <absolute path of one blind crop> . Name the single everyday object drawn in it. At most FIVE words. Reply with ONE line of JSON and nothing else: {\"name\":\"<=5 words\",\"confidence\":\"sure|unsure|cannot tell\"}",
+  "dispatched_at": "2026-09-08T01:11:22",
+  "cli": "2.1.263 (Claude Code)",
+  "source_crops": {
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/proofs_cursorworkspace/crops/round2_00_an-arch-bridge.png": "bc8ea03f6639fca10a9be9c29415f3392d352272e14d9079d99374f28a66a57f",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/proofs_cursorworkspace/crops/round2_01_a-settings-panel.png": "d9f48c58e014f8ba20883db405fca6b3307a8eb52b64dc6caa4bdad697186510"
+  },
+  "names": [
+    {
+      "i": 0,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/round2-001bed9a/00.png",
+      "name": "bridge",
+      "confidence": "sure",
+      "crop_sha256": "bc8ea03f6639fca10a9be9c29415f3392d352272e14d9079d99374f28a66a57f"
+    },
+    {
+      "i": 1,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/round2-001bed9a/01.png",
+      "name": "toggle switch settings card",
+      "confidence": "unsure",
+      "crop_sha256": "d9f48c58e014f8ba20883db405fca6b3307a8eb52b64dc6caa4bdad697186510"
+    }
+  ]
+}

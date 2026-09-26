@@ -1,0 +1,107 @@
+{
+ "label": "kimifable_whiteboard",
+ "video": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/kimifable_whiteboard.mp4",
+ "phone_scale": "405x720",
+ "sheet": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/phone_kimifable_whiteboard.png",
+ "rule": "a FRESH judge (never read the plan) names each crop in <=3 words. Wrong name, hedge, or 'cannot tell' = the object is redesigned, not annotated.",
+ "answer_key": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/phone_kimifable_whiteboard.key.json",
+ "answer_key_rule": "DO NOT OPEN the answer key until every judge_answer below is filled in. Reading it first voids the Phone Test.",
+ "objects": [
+  {
+   "i": 0,
+   "t": 2.75,
+   "bbox_norm": [
+    0.2098,
+    0.2949,
+    0.4564,
+    0.3526
+   ],
+   "phone_box_px": [
+    84,
+    212,
+    184,
+    253
+   ],
+   "phone_size_px": [
+    100,
+    41
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/phone_kimifable_whiteboard/00.png",
+   "sheet_scale": 1.0,
+   "judge_answer": "A price tag",
+   "verdict": "PASS"
+  },
+  {
+   "i": 1,
+   "t": 10.6,
+   "bbox_norm": [
+    0.3507,
+    0.1474,
+    0.6493,
+    0.3359
+   ],
+   "phone_box_px": [
+    142,
+    106,
+    262,
+    241
+   ],
+   "phone_size_px": [
+    120,
+    135
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/phone_kimifable_whiteboard/01.png",
+   "sheet_scale": 1.0,
+   "judge_answer": "Clipboard with bar chart",
+   "verdict": "PASS"
+  },
+  {
+   "i": 2,
+   "t": 14.8,
+   "bbox_norm": [
+    0.1968,
+    0.2253,
+    0.4699,
+    0.3211
+   ],
+   "phone_box_px": [
+    79,
+    162,
+    190,
+    231
+   ],
+   "phone_size_px": [
+    111,
+    69
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/phone_kimifable_whiteboard/02.png",
+   "sheet_scale": 1.0,
+   "judge_answer": "A browser window",
+   "verdict": "PASS"
+  },
+  {
+   "i": 3,
+   "t": 24.9,
+   "bbox_norm": [
+    0.1841,
+    0.1562,
+    0.4236,
+    0.25
+   ],
+   "phone_box_px": [
+    74,
+    112,
+    171,
+    180
+   ],
+   "phone_size_px": [
+    97,
+    68
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/phone_kimifable_whiteboard/03.png",
+   "sheet_scale": 1.0,
+   "judge_answer": "A file folder",
+   "verdict": "PASS"
+  }
+ ]
+}

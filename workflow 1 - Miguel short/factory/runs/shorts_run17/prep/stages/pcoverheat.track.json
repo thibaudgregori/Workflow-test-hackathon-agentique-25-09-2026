@@ -1,0 +1,17 @@
+{
+ "id": "pcoverheat",
+ "stage": "track",
+ "status": "ok",
+ "wall_s": 90.80860049999319,
+ "at": "2026-09-08T00:42:19",
+ "keys": {
+  "status": "ok",
+  "backend": "matanyone2",
+  "model": "MatAnyone 2",
+  "alpha": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/pcoverheat/alpha_v1.mkv",
+  "track_seconds": 81.787632233,
+  "cost_usd": 0.02320478701714676,
+  "review_status": "needs_final_visual_review",
+  "wall_s": 90.80860049999319
+ }
+}

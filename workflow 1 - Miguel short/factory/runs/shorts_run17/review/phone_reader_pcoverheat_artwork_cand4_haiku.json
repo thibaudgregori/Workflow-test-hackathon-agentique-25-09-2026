@@ -1,0 +1,44 @@
+{
+  "tag": "cand4haiku",
+  "cold_dir": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/cand4haiku-ef7d1f08",
+  "reader": "one independent `claude -p` process per crop, launched from /tmp, handed ONLY the absolute path of a blind copy under a random token - no plan, no topic, no manifest, no sealed key, and no path naming the video",
+  "prompt": "Look at the image at <absolute path of one blind crop> . Name the single everyday object drawn in it. At most FIVE words. Reply with ONE line of JSON and nothing else: {\"name\":\"<=5 words\",\"confidence\":\"sure|unsure|cannot tell\"}",
+  "dispatched_at": "2026-09-08T01:32:07",
+  "cli": "2.1.263 (Claude Code)",
+  "source_crops": {
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/proofs/crop_cand4_00_dl-I-cloudbar.png": "edcb482e97fc10b2d23e03fd5eeaa980d2dcd22e221ca4f58f5df454ca4ac1b6",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/proofs/crop_cand4_01_dl-J-bar.png": "929a4077255415dbd810a6888d074873b16deb5334ce601e9c0eaf9932630331",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/proofs/crop_cand4_02_list-G-window.png": "33b0fb39db891bd584cfc96137aadf094645d09221558c7cd06c903f42c16aa9",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/proofs/crop_cand4_03_list-H-sheet.png": "59aac861604e3257e7d034a487f2fd1fc5581e5e6834cfc47a9a860dda862e1d"
+  },
+  "names": [
+    {
+      "i": 0,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/cand4haiku-ef7d1f08/00.png",
+      "name": "cloud",
+      "confidence": "sure",
+      "crop_sha256": "edcb482e97fc10b2d23e03fd5eeaa980d2dcd22e221ca4f58f5df454ca4ac1b6"
+    },
+    {
+      "i": 1,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/cand4haiku-ef7d1f08/01.png",
+      "name": "download arrow",
+      "confidence": "sure",
+      "crop_sha256": "929a4077255415dbd810a6888d074873b16deb5334ce601e9c0eaf9932630331"
+    },
+    {
+      "i": 2,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/cand4haiku-ef7d1f08/02.png",
+      "name": "process monitor table",
+      "confidence": "sure",
+      "crop_sha256": "33b0fb39db891bd584cfc96137aadf094645d09221558c7cd06c903f42c16aa9"
+    },
+    {
+      "i": 3,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/cand4haiku-ef7d1f08/03.png",
+      "name": "checklist",
+      "confidence": "sure",
+      "crop_sha256": "59aac861604e3257e7d034a487f2fd1fc5581e5e6834cfc47a9a860dda862e1d"
+    }
+  ]
+}

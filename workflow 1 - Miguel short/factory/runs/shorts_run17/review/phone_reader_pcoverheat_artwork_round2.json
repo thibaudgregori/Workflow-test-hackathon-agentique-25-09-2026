@@ -1,0 +1,44 @@
+{
+  "tag": "round2",
+  "cold_dir": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/round2-6c17e946",
+  "reader": "one independent `claude -p` process per crop, launched from /tmp, handed ONLY the absolute path of a blind copy under a random token - no plan, no topic, no manifest, no sealed key, and no path naming the video",
+  "prompt": "Look at the image at <absolute path of one blind crop> . Name the single everyday object drawn in it. At most FIVE words. Reply with ONE line of JSON and nothing else: {\"name\":\"<=5 words\",\"confidence\":\"sure|unsure|cannot tell\"}",
+  "dispatched_at": "2026-09-08T01:12:42",
+  "cli": "2.1.263 (Claude Code)",
+  "source_crops": {
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/proofs/crop_seal_00_laptop.png": "1304720cf6d8ee7b555c7ee6b4e7f5cbf2ef36bcb9e0685dc23dd4a7b3ef6a40",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/proofs/crop_seal_01_download.png": "29c5146a5650ee03b491e4ce3bf0622ef3c0dc73578eb4941d3e09a7fd2fa424",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/proofs/crop_seal_02_field.png": "16b8557cdc0eb5ec37643c61f3788d7066008ab5c642e21ed52899c379c32c6b",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/proofs/crop_seal_03_list.png": "1a920a1c4c5786db869e9668e71ae440d2c5cf0a44d8ef523a9bff9a4234e60a"
+  },
+  "names": [
+    {
+      "i": 0,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/round2-6c17e946/00.png",
+      "name": "laptop",
+      "confidence": "sure",
+      "crop_sha256": "1304720cf6d8ee7b555c7ee6b4e7f5cbf2ef36bcb9e0685dc23dd4a7b3ef6a40"
+    },
+    {
+      "i": 1,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/round2-6c17e946/01.png",
+      "name": "mailbox",
+      "confidence": "unsure",
+      "crop_sha256": "29c5146a5650ee03b491e4ce3bf0622ef3c0dc73578eb4941d3e09a7fd2fa424"
+    },
+    {
+      "i": 2,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/round2-6c17e946/02.png",
+      "name": "pencil",
+      "confidence": "unsure",
+      "crop_sha256": "16b8557cdc0eb5ec37643c61f3788d7066008ab5c642e21ed52899c379c32c6b"
+    },
+    {
+      "i": 3,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/round2-6c17e946/03.png",
+      "name": "table",
+      "confidence": "sure",
+      "crop_sha256": "1a920a1c4c5786db869e9668e71ae440d2c5cf0a44d8ef523a9bff9a4234e60a"
+    }
+  ]
+}

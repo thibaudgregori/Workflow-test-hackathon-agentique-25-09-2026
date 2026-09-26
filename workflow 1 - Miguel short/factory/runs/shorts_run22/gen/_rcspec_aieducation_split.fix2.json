@@ -1,0 +1,30 @@
+{
+ "run": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22",
+ "out_dir": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/output",
+ "jobs": [
+  {
+   "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/projects/aieducation_split",
+   "vid": "aieducation",
+   "fmt": "split",
+   "quality": "high",
+   "stage": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/staging/youtube/aieducation_split.mp4",
+   "qc_args": [
+    "--voice-master",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/cuts/aieducation/audio.m4a",
+    "--phone-at",
+    "2.4:0.30556,0.13854,0.69444,0.34375:an open book with a heart lifting off the page",
+    "--phone-at",
+    "12.6:0.34259,0.18333,0.65741,0.36042:a heart",
+    "--phone-at",
+    "17.4:0.58333,0.18854,0.84259,0.33958:a head in profile thinking",
+    "--phone-at",
+    "25.0:0.32407,0.19167,0.67593,0.37917:an easel",
+    "--face-segments",
+    "full",
+    "--face-band"
+   ],
+   "watch_waiver": "The blocking row is ring_or_box_on_image_text at 15.66-17.66, and it is the sealed LAW 38 rule-2 terracotta emphasis border on the drawn #book2 object, not a ring on a screenshot. It is also measurably NOT this round's work: the 13.5-17.8 window of this render is BIT-IDENTICAL to the render the SAME watcher passed with 0 candidates, max per-pixel delta 0 and mean 0 at 14.00 / 15.70 / 16.50 / 17.50, verified twice - once by the fix agent and once independently by the orchestrator. The clerk already ruled on that exact window and dismissed 9 rows there. This round changed 5.92-6.22 ONLY, where the same comparison shows max delta 250. The fix removes the clerk's one CONFIRMED row: the X source card held clipped at both frame edges (x0=0 x1=1079) for 0.8 s; it now holds at 98.4 px margin on both sides. Waived so the corrected file can be staged; the clerk still rules on it.",
+   "json": "shorts_run22/gen/_rc_aieducation_split.fix2.json"
+  }
+ ]
+}

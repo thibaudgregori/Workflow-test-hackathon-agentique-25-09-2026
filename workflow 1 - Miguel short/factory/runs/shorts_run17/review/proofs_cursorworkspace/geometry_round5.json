@@ -1,0 +1,46 @@
+{
+ "law41": {
+  "pair": [
+   "key-cursor",
+   "read-arrow"
+  ],
+  "core_px": 27.92,
+  "at_k095": 26.52,
+  "t": 5.1
+ },
+ "law15": {
+  "t": 2.3,
+  "centre": 540.0,
+  "err": 0.0
+ },
+ "band": [
+  98.0,
+  566.5
+ ],
+ "arrows": {
+  "read": [
+   356.0,
+   293.92
+  ],
+  "write": [
+   724.0,
+   370.08
+  ]
+ },
+ "law45": [
+  {
+   "seam": 6.72,
+   "object": "gmail-tile",
+   "complete_at": 6.98,
+   "lag_s": 0.26
+  },
+  {
+   "seam": 11.680000000000001,
+   "object": "panel-card",
+   "complete_at": 11.9,
+   "lag_s": 0.22
+  }
+ ],
+ "probes": 14,
+ "rigids": 31
+}

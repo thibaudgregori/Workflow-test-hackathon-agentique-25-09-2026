@@ -1,0 +1,303 @@
+{
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/projects/pcoverheat_cutout",
+ "fmt": "cutout",
+ "step": 0.25,
+ "checks": {
+  "refs_resolve": {
+   "referenced": 17,
+   "missing": [],
+   "pass": true,
+   "error": null,
+   "wall_s": 0.13
+  },
+  "assets_not_placeholder": {
+   "rasters": 10,
+   "placeholder_shaped": [],
+   "undecodable": [],
+   "report": {
+    "assets/source/shot_pcoverheat_crop.png": {
+     "size": [
+      1192,
+      552
+     ],
+     "judged": "decode only (capture)"
+    },
+    "assets/logos/codex-color.png": {
+     "size": [
+      640,
+      640
+     ],
+     "ink_fill": 0.97,
+     "quantised_colours": 13,
+     "diag_fwd": 0.894,
+     "diag_back": 0.894,
+     "bbox": [
+      0,
+      0,
+      640,
+      640
+     ]
+    },
+    "assets/logos/claude-cowork.png": {
+     "size": [
+      473,
+      487
+     ],
+     "ink_fill": 0.321,
+     "quantised_colours": 13,
+     "diag_fwd": 0.391,
+     "diag_back": 1.0,
+     "bbox": [
+      20,
+      20,
+      454,
+      468
+     ]
+    },
+    "assets/logos/grok.png": {
+     "size": [
+      1000,
+      1000
+     ],
+     "judged": "decode only (capture)"
+    },
+    "assets/logos/cursor.png": {
+     "size": [
+      640,
+      640
+     ],
+     "ink_fill": 0.541,
+     "quantised_colours": 1,
+     "diag_fwd": 0.255,
+     "diag_back": 0.439,
+     "bbox": [
+      39,
+      0,
+      601,
+      640
+     ]
+    },
+    "assets/logos/copilot-color.png": {
+     "size": [
+      640,
+      640
+     ],
+     "ink_fill": 0.698,
+     "quantised_colours": 68,
+     "diag_fwd": 0.641,
+     "diag_back": 0.331,
+     "bbox": [
+      0,
+      26,
+      640,
+      614
+     ]
+    },
+    "assets/logos/opencode-color.png": {
+     "size": [
+      1872,
+      336
+     ],
+     "judged": "decode only (capture)"
+    },
+    "assets/logos/antigravity-color.png": {
+     "size": [
+      540,
+      540
+     ],
+     "ink_fill": 0.369,
+     "quantised_colours": 111,
+     "diag_fwd": 0.584,
+     "diag_back": 0.587,
+     "bbox": [
+      67,
+      84,
+      471,
+      456
+     ]
+    },
+    "assets/logos/openclaw-color.png": {
+     "size": [
+      640,
+      640
+     ],
+     "ink_fill": 0.609,
+     "quantised_colours": 17,
+     "diag_fwd": 0.592,
+     "diag_back": 0.591,
+     "bbox": [
+      0,
+      44,
+      640,
+      632
+     ]
+    },
+    "assets/logos/github-mark.png": {
+     "size": [
+      512,
+      512
+     ],
+     "ink_fill": 0.771,
+     "quantised_colours": 11,
+     "diag_fwd": 0.704,
+     "diag_back": 0.704,
+     "bbox": [
+      12,
+      15,
+      499,
+      502
+     ]
+    }
+   },
+   "pass": true,
+   "error": null,
+   "wall_s": 0.28
+  },
+  "page_audit": {
+   "ids": 190,
+   "unique_ids": 190,
+   "duplicate_ids": [],
+   "tween_selectors": 59,
+   "dead_tween_targets": [],
+   "pass": true,
+   "error": null,
+   "wall_s": 0.0
+  },
+  "caption_canon_page": {
+   "pills": 45,
+   "modal_height_px": 114.63,
+   "canon_height_px": 114.59,
+   "height_spread_px": 0.0,
+   "tolerance_design_px": 3.0,
+   "heights_off_canon": [],
+   "squarer_than_min_aspect": [],
+   "min_aspect": 1.45,
+   "function_only_beat_law": null,
+   "pass": true,
+   "error": null,
+   "wall_s": 0.0
+  },
+  "gate1_geometry_audit": {
+   "returncode": 0,
+   "errors": 0,
+   "warnings": 0,
+   "warnings_after_waivers": 0,
+   "waived": [],
+   "report": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/projects/pcoverheat_cutout/geometry_audit/report.json",
+   "stdout": "pcoverheat_cutout: 0 errors, 0 warnings (37.2s @ 0.25s step)\n",
+   "stderr": "",
+   "bar": "0 errors, 0 warnings",
+   "pass": true,
+   "error": null,
+   "wall_s": 1.63
+  },
+  "cutout_edge_fade_guard": {
+   "masked_containers": 4,
+   "fade_px": 46.0,
+   "meters_exempt": [],
+   "pass": true,
+   "wall_s": 0.0
+  },
+  "cutout_checks_24_25": {
+   "check24_edge_fade": {
+    "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/projects/pcoverheat_cutout",
+    "masks": {
+     "masked_containers": 4,
+     "fade_px": 46.0,
+     "meters_exempt": []
+    },
+    "gate1": {
+     "edgefade_violations": 0,
+     "elements": [],
+     "ok": true
+    },
+    "ok": true
+   },
+   "check25_depth_field": {
+    "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/projects/pcoverheat_cutout",
+    "foundation": {
+     "tiles": [
+      78.0,
+      116.0,
+      148.0
+     ],
+     "gaps": [
+      30.0,
+      36.0,
+      44.0
+     ],
+     "inter_lane_gap": 26.0,
+     "band_h": 394.0
+    },
+    "band": [
+     965.0,
+     1359.0
+    ],
+    "inter_lane_gutters": [
+     26.0,
+     26.0
+    ],
+    "band_h": 394.0,
+    "step_events": 12,
+    "pop_behind": false,
+    "lanes": {
+     "far": {
+      "y": 965.0,
+      "wrapper": [
+       1080.0,
+       78.0
+      ],
+      "tiles": 18,
+      "tile_w": [
+       78.0
+      ],
+      "pitches": [
+       108.0
+      ]
+     },
+     "mid": {
+      "y": 1069.0,
+      "wrapper": [
+       1080.0,
+       116.0
+      ],
+      "tiles": 19,
+      "tile_w": [
+       116.0
+      ],
+      "pitches": [
+       152.0
+      ]
+     },
+     "near": {
+      "y": 1211.0,
+      "wrapper": [
+       1080.0,
+       148.0
+      ],
+      "tiles": 21,
+      "tile_w": [
+       148.0
+      ],
+      "pitches": [
+       192.0
+      ]
+     }
+    },
+    "violations": [],
+    "ok": true
+   },
+   "fails": [],
+   "pass": true,
+   "error": null,
+   "wall_s": 0.11
+  }
+ },
+ "skipped": {},
+ "duration_s": 37.16,
+ "page_zoom": 0.9997031886024423,
+ "page_load_wall_s": 1.28,
+ "failed": [],
+ "verdict": "PASS",
+ "total_wall_s": 3.43
+}

@@ -1,0 +1,20 @@
+{
+ "staged": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/staging/reels/kimifable_whiteboard.mp4",
+ "phone_verdict": "PASS",
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/projects/kimifable_whiteboard",
+ "rounds": 2,
+ "redesigned": true,
+ "cands": "none — the Gemini watcher was UNAVAILABLE (spending cap), so render_and_check staged on qc_pass alone and no review/cands_kimifable_whiteboard.json exists. Not a waiver I wrote: the driver recorded watch FAIL / watcher UNAVAILABLE and says the clerk decodes the file.",
+ "cold_crop_paths": [
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/f6803dee/00.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/f6803dee/01.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/f6803dee/02.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/f6803dee/03.png"
+ ],
+ "fails": [
+  {"i": 1, "intended": "a benchmark scorecard (drawn as a clipboard)", "namer_answer": "briefcase (unsure) — round 1; redrawn PORTRAIT with an inset paper sheet and a straddling clip, round 2 read 'clipboard' sure"}
+ ],
+ "flagged_for_clerk": "the Gemini watcher never ran (spending cap), so there is no candidate list for this file; the 11.50 chapter handover is chapter 2's lone Kimi tile and seam_check now reports dead 0.00 s on all three seams after the tile border went to the object weight.",
+ "qc": "PASS — 13 checks, whiteboard_seam_law dead 0.00s at 4.55 / 11.50 / 21.60, phone_crops PASS, zero_ink_law PASS, pill_canon_rendered PASS",
+ "notes": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/plans/kimifable_wb_notes.md"
+}

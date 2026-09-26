@@ -1,0 +1,1840 @@
+{
+ "video": "cursorspacex",
+ "lane": "icon choreography",
+ "fps": 25,
+ "duration": 22.12,
+ "format": "cutout",
+ "platform": "tiktok",
+ "sfx": {
+  "whoosh": {
+   "mean_volume": "-17.5 dB"
+  },
+  "pop": {
+   "mean_volume": "-36.4 dB"
+  },
+  "click": {
+   "mean_volume": "-23.1 dB"
+  },
+  "_gains": {
+   "structure": 0.14,
+   "detail": 0.09,
+   "published_corpus_flat": 0.18,
+   "note": "a gain constant means nothing without its source loudness (SFX LAW v2); these are the run-9 to run-22 shipped values for THESE files"
+  }
+ },
+ "scene": "gen/cursorspacex_scene.py (the plan+artwork author's SEALED shared lane scene, imported; this lane authors none of it)",
+ "handoff": "plans/cursorspacex_scene_handoff.md",
+ "seal": "review/artwork_pass_cursorspacex.json",
+ "lifetimes": {
+  "pole": [
+   0.18,
+   null
+  ],
+  "foot": [
+   0.18,
+   null
+  ],
+  "banner": [
+   0.52,
+   null
+  ],
+  "heart": [
+   1.08,
+   5.9
+  ],
+  "key-sunset": [
+   5.08,
+   null
+  ],
+  "mark-cursor": [
+   5.68,
+   null
+  ],
+  "card-spacex": [
+   7.08,
+   null
+  ],
+  "tile-grok": [
+   17.44,
+   null
+  ],
+  "conn-spacex": [
+   14.62,
+   null
+  ],
+  "conn-grok": [
+   17.44,
+   null
+  ]
+ },
+ "blocks": [
+  [
+   "pole",
+   "foot",
+   "banner"
+  ],
+  [
+   "banner",
+   "heart"
+  ],
+  [
+   "banner",
+   "mark-cursor"
+  ],
+  [
+   "banner",
+   "key-sunset"
+  ],
+  [
+   "card-spacex",
+   "mark-spacex"
+  ],
+  [
+   "tile-grok",
+   "mark-grok"
+  ]
+ ],
+ "chapters": 1,
+ "seams": [],
+ "key_term": "SUNSET",
+ "marks": {
+  "cursor": "logos/coding-tools/cursor.png",
+  "grok": "logos/ai-models/grok.png",
+  "spacex": "logos/ai-models/spacex-wordmark.svg",
+  "codex": "logos/coding-tools/codex-color.png",
+  "copilot": "logos/coding-tools/copilot-color.png",
+  "antigravity": "logos/coding-tools/antigravity-color.png",
+  "lovable": "logos/design-tools/lovable-color.png",
+  "openai": "logos/ai-models/openai.png"
+ },
+ "banned_asserted": [
+  "anthropic-wordmark",
+  "claude-code",
+  "cursor",
+  "grok",
+  "grok-bot",
+  "grok-bot-app",
+  "instagram",
+  "nous-girl",
+  "openai-wordmark",
+  "spacex",
+  "spacex-wordmark",
+  "spotify",
+  "telegram",
+  "tesla",
+  "tiktok",
+  "twitter",
+  "whatsapp",
+  "x",
+  "x-logo",
+  "xai",
+  "youtube"
+ ],
+ "edge_box": "1342x990+-109+930",
+ "formats": {
+  "cutout": {
+   "staged": {
+    "voice": {
+     "source": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/cuts/cursorspacex/audio.m4a",
+     "sample_rate": 48000,
+     "channels": 2
+    },
+    "matte": {
+     "cut": {
+      "w": 1342,
+      "h": 990
+     },
+     "rim": {
+      "w": 1342,
+      "h": 990
+     },
+     "plate": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/matting/cursorspacex/plate_display_1342x990.mp4",
+     "session": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/matting/cursorspacex",
+     "alpha_sha256": "8f0feb7645bd2e6c8bbbf7192cb47af16ca13edf2b71dab1494ce1bb50fa7e19",
+     "consumed_as_is": "MATTES_FINAL.md is absent, so no decree binds \u2014 and nothing here asks for another track.  Stage 17's independent viewer returned PASS on this exact session, so no SAM2 fallback and no repair round ever ran.  The layers this build stages are the first and only export; they keep `needs_final_visual_review` until the clerk answers it (PRODUCTION.md, 2026-09-06).",
+     "hashes": {
+      "cut": "aecfa32c2582f8514eab5321c226ef0335746150df7fc2b9343630915e12160f",
+      "rim": "db1c179712d2d3d4acfe261b489c693c6076e0c2ddb678191f6bdbe554404caa",
+      "alpha": "8f0feb7645bd2e6c8bbbf7192cb47af16ca13edf2b71dab1494ce1bb50fa7e19"
+     },
+     "frames": 553,
+     "alpha_mode": "soft",
+     "rim_px": 7,
+     "fractional_alpha_pixels": 11587715,
+     "minimum_person_fraction": 0.4409407036083638,
+     "review_status": "needs_final_visual_review",
+     "backend": "matanyone2",
+     "headroom_guard": {
+      "pass": true,
+      "frames_checked": 553,
+      "min_top_clearance_px": 36.300000000000004,
+      "floor_px": 24.0,
+      "unsafe_frames": 0,
+      "worst_frame": 343
+     },
+     "selection": "reviewed",
+     "cost_usd": {
+      "track": 0.0180021564875984,
+      "ship": 0.02764171659389056,
+      "total": 0.045644
+     }
+    },
+    "marks": {
+     "cursor": {
+      "source": "/Users/migle/Documents/Workspace/assets/logos/coding-tools/cursor.png",
+      "url": "assets/logos/cursor.png",
+      "bytes": 4422,
+      "where": "stage"
+     },
+     "grok": {
+      "source": "/Users/migle/Documents/Workspace/assets/logos/ai-models/grok.png",
+      "url": "assets/logos/grok.png",
+      "bytes": 31458,
+      "where": "stage"
+     },
+     "spacex": {
+      "source": "/Users/migle/Documents/Workspace/assets/logos/ai-models/spacex-wordmark.svg",
+      "url": "assets/logos/spacex-wordmark.svg",
+      "bytes": 1211,
+      "where": "stage"
+     },
+     "codex": {
+      "source": "/Users/migle/Documents/Workspace/assets/logos/coding-tools/codex-color.png",
+      "url": "assets/logos/codex-color.png",
+      "bytes": 7578,
+      "where": "depth lane"
+     },
+     "copilot": {
+      "source": "/Users/migle/Documents/Workspace/assets/logos/coding-tools/copilot-color.png",
+      "url": "assets/logos/copilot-color.png",
+      "bytes": 29398,
+      "where": "depth lane"
+     },
+     "antigravity": {
+      "source": "/Users/migle/Documents/Workspace/assets/logos/coding-tools/antigravity-color.png",
+      "url": "assets/logos/antigravity-color.png",
+      "bytes": 71914,
+      "where": "depth lane"
+     },
+     "lovable": {
+      "source": "/Users/migle/Documents/Workspace/assets/logos/design-tools/lovable-color.png",
+      "url": "assets/logos/lovable-color.png",
+      "bytes": 27264,
+      "where": "depth lane"
+     },
+     "openai": {
+      "source": "/Users/migle/Documents/Workspace/assets/logos/ai-models/openai.png",
+      "url": "assets/logos/openai.png",
+      "bytes": 11297,
+      "where": "depth lane"
+     }
+    }
+   },
+   "seat": 881.2,
+   "scale": 1.0,
+   "edge_fade": {
+    "masked_containers": 3,
+    "fade_px": 46.0,
+    "meters_exempt": [],
+    "clipping_containers_from_the_scene": 0
+   },
+   "plate": {
+    "box": {
+     "w": 1342.0,
+     "h": 990.0,
+     "left": -109.0,
+     "top": 930.0
+    },
+    "whole_pixels": true,
+    "equals_encoded": {
+     "cut": {
+      "w": 1342,
+      "h": 990
+     },
+     "rim": {
+      "w": 1342,
+      "h": 990
+     }
+    },
+    "plate_scale": 1.1,
+    "derived_from": "the ENCODED size of the staged layers, never PLATE_SCALE, and the origin READ from plate.json"
+   },
+   "core": {
+    "left": 0.0,
+    "top": 192.0,
+    "w": 1080.0,
+    "h": 600.0,
+    "placement": {
+     "k": 1.0,
+     "k_uncapped": 1.0639,
+     "left": 0.0,
+     "top": 192.0,
+     "seat": "the scene's own origin: the band already lands legally in this session's MEASURED stage zone at k = 1, so the cutout's canvas rects ARE the scene's, the split's and the plan's, the cold Phone Test crops the object it means to, and LAW 51's cross-lane parity with the split is exact rather than close",
+     "identity_seat": true,
+     "stage_zone": [
+      192.0,
+      797.4
+     ],
+     "stage_zone_px": 605.4,
+     "content_band_core": [
+      10.0,
+      564.0
+     ],
+     "content_band_px": 554.0,
+     "content_band_canvas": [
+      202.0,
+      756.0
+     ],
+     "core_margin": 8.0,
+     "handoff_note": "the handoff says 'k from THAT session's matte envelope'.  This session's envelope gives a 605.4 px stage zone against a 554.0 px content band, so the cap at 1.0 binds and the scene is seated unscaled."
+    }
+   },
+   "band": {
+    "content_top": 202.0,
+    "content_bottom": 756.0,
+    "law30_top_10pct": 192.0,
+    "pill_top": 823.91,
+    "pill_height_used": 114.59,
+    "pill_centre_used": 881.2,
+    "clear_above_pill": 67.91,
+    "core_top_used": 192.0,
+    "core_top_in_handoff": 192.0,
+    "core_raised_px": 0.0,
+    "note": "content_top is the core's declared CONTENT_Y0 (the key term's box top) and content_bottom its CONTENT_Y1 (the card row's bottom).  NOTHING IS RAISED: this lane seats the core exactly where the handoff put it, so the split's boxes and this page's are identical."
+   },
+   "rail": {
+    "ink_left_x": 318.0,
+    "ink_right_x": 762.0,
+    "union_axis_x": 540.0,
+    "readable_type_left_x": 318.0,
+    "readable_type_right_x": 762.0,
+    "law30_rail_x": 918.0,
+    "rail_overshoot_px": 0.0,
+    "margins": [
+     318.0,
+     318.0
+    ],
+    "note": "the ONE readable key is SUNSET.  Its text BOX is the full centred 444 px span 318..762 (text-align:center, nowrap), so even the box stops 156 px inside the 918 rail; the six glyphs of painted ink are far narrower than that.  No caption pill crosses the rail (CAP.assert_law12 on the widest pill)."
+   },
+   "core_gutter": {
+    "tightest_core_px": 44.0,
+    "tightest_pair": [
+     "pole",
+     "key-sunset",
+     5.25
+    ],
+    "k": 1.0,
+    "canvas_px": 44.0,
+    "law41_refusal": 16.0,
+    "law41_aim": 24.0,
+    "blocks": [
+     [
+      "pole",
+      "foot",
+      "banner"
+     ],
+     [
+      "banner",
+      "heart"
+     ],
+     [
+      "banner",
+      "mark-cursor"
+     ],
+     [
+      "banner",
+      "key-sunset"
+     ],
+     [
+      "card-spacex",
+      "mark-spacex"
+     ],
+     [
+      "tile-grok",
+      "mark-grok"
+     ]
+    ]
+   },
+   "occlusion": {
+    "core_lowest_ink_canvas_y": 756.0,
+    "measured_crown_canvas_y": 965.0,
+    "clear_px": 209.0,
+    "behind_declarations": 0,
+    "moving_atoms": "NONE of the scene's atoms travels toward him: the only vertical move is the flag stepping DOWN the pole, and its lowest ink at the retired seat is core 380 (canvas 572), still above the card row that defines CONTENT_Y1.",
+    "note": "the crown is the union top of EVERY frame of the shipped alpha, not a sample."
+   },
+   "axis": {
+    "beats": [
+     {
+      "beat": 0,
+      "window": [
+       0.18,
+       5.68
+      ],
+      "at": 5.67,
+      "ink_left": 318.0,
+      "ink_right": 762.0,
+      "axis": 540.0,
+      "offset_from_540": 0.0,
+      "margins": [
+       318.0,
+       318.0
+      ],
+      "marks": [
+       "banner",
+       "foot",
+       "heart",
+       "key-sunset",
+       "pole"
+      ]
+     },
+     {
+      "beat": 1,
+      "window": [
+       5.68,
+       8.24
+      ],
+      "at": 8.23,
+      "ink_left": 318.0,
+      "ink_right": 762.0,
+      "axis": 540.0,
+      "offset_from_540": 0.0,
+      "margins": [
+       318.0,
+       318.0
+      ],
+      "marks": [
+       "banner",
+       "card-spacex",
+       "foot",
+       "key-sunset",
+       "mark-cursor",
+       "pole"
+      ]
+     },
+     {
+      "beat": 2,
+      "window": [
+       8.24,
+       11.62
+      ],
+      "at": 11.61,
+      "ink_left": 318.0,
+      "ink_right": 762.0,
+      "axis": 540.0,
+      "offset_from_540": 0.0,
+      "margins": [
+       318.0,
+       318.0
+      ],
+      "marks": [
+       "banner",
+       "card-spacex",
+       "foot",
+       "key-sunset",
+       "mark-cursor",
+       "pole"
+      ]
+     },
+     {
+      "beat": 3,
+      "window": [
+       11.62,
+       13.8
+      ],
+      "at": 13.79,
+      "ink_left": 318.0,
+      "ink_right": 762.0,
+      "axis": 540.0,
+      "offset_from_540": 0.0,
+      "margins": [
+       318.0,
+       318.0
+      ],
+      "marks": [
+       "banner",
+       "card-spacex",
+       "foot",
+       "key-sunset",
+       "mark-cursor",
+       "pole"
+      ]
+     },
+     {
+      "beat": 4,
+      "window": [
+       13.8,
+       17.88
+      ],
+      "at": 17.87,
+      "ink_left": 318.0,
+      "ink_right": 762.0,
+      "axis": 540.0,
+      "offset_from_540": 0.0,
+      "margins": [
+       318.0,
+       318.0
+      ],
+      "marks": [
+       "banner",
+       "card-spacex",
+       "conn-grok",
+       "conn-spacex",
+       "foot",
+       "key-sunset",
+       "mark-cursor",
+       "pole",
+       "tile-grok"
+      ]
+     },
+     {
+      "beat": 5,
+      "window": [
+       17.88,
+       22.12
+      ],
+      "at": 18.29,
+      "ink_left": 318.0,
+      "ink_right": 762.0,
+      "axis": 540.0,
+      "offset_from_540": 0.0,
+      "margins": [
+       318.0,
+       318.0
+      ],
+      "marks": [
+       "banner",
+       "card-spacex",
+       "conn-grok",
+       "conn-spacex",
+       "foot",
+       "key-sunset",
+       "mark-cursor",
+       "pole",
+       "tile-grok"
+      ]
+     }
+    ],
+    "mode": "REPORTED",
+    "worst": {
+     "beat": 0,
+     "offset_px": 0.0
+    },
+    "frame_margin_floor_px": 40.0,
+    "note": "the composition is centred on x = 540: the hook's ink runs 401..679 for an optical centre of 540 and the finished frame's ink runs 342..738 for 540.  The one deliberate offset is the beats where the SpaceX card is already at its final row seat and the Grok tile has not been named yet \u2014 that group's centre sits left of the axis.  It is a SEAT, not a drift: nothing moves.  Every beat keeps both margins well outside the 40 px minimum."
+   },
+   "law40": {
+    "connectors": {
+     "conn-spacex": {
+      "target": "card-spacex",
+      "side": "top",
+      "fraction": 0.5,
+      "check_at": 15.4,
+      "end_core": [
+       460.0,
+       452.0
+      ],
+      "end_canvas": [
+       460.0,
+       644.0
+      ],
+      "start_core": [
+       463.32,
+       380.0
+      ],
+      "stroke_completes": 15.02,
+      "target_born": 7.08,
+      "connector_life": [
+       14.62,
+       22.12
+      ]
+     },
+     "conn-grok": {
+      "target": "tile-grok",
+      "side": "top",
+      "fraction": 0.5,
+      "check_at": 18.1,
+      "end_core": [
+       682.0,
+       452.0
+      ],
+      "end_canvas": [
+       682.0,
+       644.0
+      ],
+      "start_core": [
+       634.68,
+       380.0
+      ],
+      "stroke_completes": 17.88,
+      "target_born": 17.44,
+      "connector_life": [
+       17.44,
+       22.12
+      ]
+     }
+    },
+    "connectors_in_dom": 2,
+    "arrowheads": 2,
+    "source_ends_level_px": 0.0,
+    "source_ends_x": [
+     463.32,
+     634.68
+    ],
+    "flag_axis": 549.0,
+    "mirror_error_px": 0.0,
+    "law40_letter": "ONE source (the retired flag) fanning into TWO targets, so the law's level/mirror clause does not bind by its letter \u2014 it is written for several connectors entering ONE target.  The ends are built with the law's own helper anyway: the two sources are `anchor_points(BANNER_LOW_INK, 2, 'bottom')`, level to 0.0 px and symmetric about the flag's own axis, and each target end is `anchor_points(<target box>, 1, 'top')`, on the card's own top edge so the line terminates AT the edge and never on top of the target (LAW 7).  No end is hand-placed."
+   },
+   "law42": {
+    "board_mode": "single",
+    "chapters": 1,
+    "seams": [],
+    "anchors": [
+     "pole",
+     "foot",
+     "banner",
+     "key-sunset",
+     "mark-cursor",
+     "card-spacex",
+     "tile-grok",
+     "conn-spacex",
+     "conn-grok",
+     "o-glyph",
+     "o-rule",
+     "o-slot"
+    ],
+    "marks_that_leave": [
+     "heart"
+    ],
+    "shares": {
+     "pole": 0.992,
+     "foot": 0.992,
+     "banner": 0.976,
+     "heart": 0.218,
+     "key-sunset": 0.77,
+     "mark-cursor": 0.743,
+     "card-spacex": 0.68,
+     "tile-grok": 0.212,
+     "conn-spacex": 0.339,
+     "conn-grok": 0.212
+    },
+    "over_40pct": {
+     "pole": 0.992,
+     "foot": 0.992,
+     "banner": 0.976,
+     "key-sunset": 0.77,
+     "mark-cursor": 0.743,
+     "card-spacex": 0.68
+    },
+    "longest_lived_mark": {
+     "mark": "pole",
+     "share": 0.992
+    },
+    "plan_boards_mode": "single",
+    "board_mode_reason": "LAW 43: this is the exception the law names - ONE idea that accumulates on one surface. There is exactly one pole and the finished frame IS the argument: the Cursor flag retired at its foot, the two marks that absorbed it underneath, two strokes joining them. Erasing any of it would erase the claim, so there is no chapter seam and nothing was ever meant to leave.",
+    "note": "this board is SINGLE, so it is all-anchor by definition and every accumulating mark carries `data-anchor=\"1\"` in the DOM.  The heart is the ONE finite mark (1.08 -> 5.90, 21.8 % of the runtime) and it leaves IN PLACE, cross-fading into the Cursor mark on the word 'Cursor'.  The two connectors live 33.9 % and 21.2 %, both under the 40 % line, so neither needs the declaration it does not carry."
+   },
+   "law38": {
+    "groups": [],
+    "border_flips": [
+     {
+      "target": "card-spacex",
+      "at": 15.82,
+      "duration": 0.38,
+      "completes": 16.2,
+      "from_ink": "rgba(17,17,17,0.16)",
+      "to_ink": "rgb(221,114,89)",
+      "declared": false,
+      "geometry_added_px": 0,
+      "dom_primitive": "the card's OWN border flips rgba(17,17,17,0.16) -> terracotta with the sentence; no element is added, so no gutter moves and no box can crowd it"
+     },
+     {
+      "target": "tile-grok",
+      "at": 17.78,
+      "duration": 0.38,
+      "completes": 18.16,
+      "from_ink": "rgba(17,17,17,0.16)",
+      "to_ink": "rgb(221,114,89)",
+      "declared": false,
+      "geometry_added_px": 0,
+      "dom_primitive": "the card's OWN border flips rgba(17,17,17,0.16) -> terracotta with the sentence; no element is added, so no gutter moves and no box can crowd it"
+     }
+    ],
+    "rings_ellipses_circles": 0,
+    "highlights": 0,
+    "separate_emphasis_elements": 0,
+    "why": "LAW 38 rule 2 gives a DRAWN target BOXING, whose GRAPHIC CHART form (clause 6) is the panel border flip; both flipped targets are drawn cards with their own panel stroke, so the emphasis IS that stroke.  No separate element exists for them to carry `data-emphasis`, and declaring a target as its own `data-emphasis-target` would make visual_laws compare an element's ink with itself.  Rule 1's marker HIGHLIGHT has no target at all: this video prints no raster type (pointing_cues returns ZERO cues), so there is no post, screenshot or document to underline.  Rule 3: no ring, no ellipse, no circle \u2014 the module emits no <circle> and no <ellipse> tag at all."
+   },
+   "law41": {
+    "pairs_measured": 1014,
+    "judged": 204,
+    "tightest_core_px": 44.0,
+    "tightest_pair": [
+     "pole",
+     "key-sunset",
+     5.25
+    ],
+    "floor": 24.0,
+    "refusal_line": 16.0,
+    "scale_k": 1.0,
+    "tightest_on_this_page_px": 44.0,
+    "under_aim": [],
+    "blocks": [
+     [
+      "pole",
+      "foot",
+      "banner"
+     ],
+     [
+      "banner",
+      "heart"
+     ],
+     [
+      "banner",
+      "mark-cursor"
+     ],
+     [
+      "banner",
+      "key-sunset"
+     ],
+     [
+      "card-spacex",
+      "mark-spacex"
+     ],
+     [
+      "tile-grok",
+      "mark-grok"
+     ]
+    ],
+    "series": [],
+    "overlap_ok": [
+     "conn-grok",
+     "conn-spacex",
+     "foot",
+     "heart",
+     "mark-cursor"
+    ],
+    "flag_seat_tracked": {
+     "riders": [
+      "banner",
+      "heart",
+      "mark-cursor"
+     ],
+     "step_dy_core_px": [
+      23.0,
+      46.0,
+      70.0
+     ],
+     "steps_at": [
+      9.84,
+      12.0,
+      13.24
+     ]
+    },
+    "gate_scaling_note": "every non-block gutter here is authored at >= 44 CORE px; this lane's measured seat caps k at 1.00, so the core number IS the page number and nothing shrinks a gutter",
+    "instrument": "this build's own co-alive sweep at 0.25 s over the module's rects, with the flag and its face carried to their true seat at each instant; geometry_audit --strict is the independent measurement on the rendered page"
+   },
+   "law39": {
+    "key-sunset": {
+     "host": "banner",
+     "side": "above",
+     "text": "SUNSET",
+     "key_box_core": [
+      318.0,
+      10.0,
+      762.0,
+      68.0
+     ],
+     "host_box_core": [
+      423.0,
+      148.0,
+      675.0,
+      310.0
+     ],
+     "key_box_canvas": [
+      318.0,
+      202.0,
+      762.0,
+      260.0
+     ],
+     "centre_error_px": -9.0,
+     "band_px": 37.8,
+     "gap_px": 80.0,
+     "at": 5.08,
+     "host_at": 0.52,
+     "delay_after_host_s": 4.56,
+     "stays_above_after_the_descent": "the flag steps DOWN the pole three times and the key does not move, so the `above` relation only widens (gap 80 -> 150 px)"
+    },
+    "_law50": {
+     "siblings": [],
+     "side": null,
+     "verdict": "N/A \u2014 there is exactly ONE written key in this video, so there is no sibling baseline to hold and no pair to place on one side."
+    },
+    "_key_term": {
+     "text": "SUNSET",
+     "at": 5.08,
+     "font_px": 48.0,
+     "design_units": 25.6,
+     "other_key_font_px": 28.0,
+     "other_keys": 0,
+     "seat_canvas": [
+      318.0,
+      202.0,
+      762.0,
+      260.0
+     ],
+     "debut_axis": "x = 540.0, the COMPOSITION's axis.  The flag's own ink centre is 549.0, so the key sits 9.0 px left of its host's middle and well inside LAW 39's +-15 % band (37.8 px) \u2014 the handoff's own declared seat (flag ink 423..675, band 511..587).",
+     "first_type_at": 5.08,
+     "alone_until": null,
+     "alone_for_the_whole_video": true,
+     "type_order": [
+      [
+       "key-sunset",
+       5.08
+      ]
+     ]
+    },
+    "_hook": {
+     "object": "a flag on a pole with a heart printed on it \u2014 the video's idea (a brand everybody loves is being taken down) as ONE everyday object, drawn complete by 2.60 s, and the outro's themed glyph as well",
+     "first_ink_at": 0.18,
+     "assembly_axis": 540.0,
+     "mast_alone_axis": 419.0,
+     "why_the_mast_is_left_of_centre": "a flagpole is not a symmetric object: the mast is the left EDGE of the assembly and the cloth hangs to the right of it.  The ASSEMBLY (401..679) is centred on 540 to 0.0 px, which is what the eye reads.",
+     "alone_until": 5.08,
+     "one_displacement_at": 9.84,
+     "displacement": "the flag steps DOWN the pole three times, each step landing on its own spoken word and HOLDING (LAW 1) \u2014 never a glide"
+    }
+   },
+   "law37": {
+    "scan_cue_count": 0,
+    "plan_declared_cards": 0,
+    "prep_marker": "prep/stages/cursorspacex.cues.json -> cue_count 0",
+    "cue": null,
+    "answered_by": null,
+    "verdict": "GLOBAL LAW 3 is satisfied trivially: the acquisition is the news, not anybody's post.  There is no source card, no screenshot, no raster type and therefore no marker highlight anywhere in this composition.",
+    "instrument": "pointing_cues.scan re-run on transcript_tight.json"
+   },
+   "law2": {
+    "stage_marks": 3,
+    "depth_marks": 5,
+    "assert_cast_resolves": {
+     "cursor": {
+      "path": "/Users/migle/Documents/Workspace/assets/logos/coding-tools/cursor.png",
+      "bytes": 4422,
+      "size": [
+       640,
+       640
+      ],
+      "ink_fill": 0.541,
+      "quantised_colours": 1,
+      "diag_fwd": 0.255,
+      "diag_back": 0.439,
+      "bbox": [
+       39,
+       0,
+       601,
+       640
+      ]
+     },
+     "grok": {
+      "path": "/Users/migle/Documents/Workspace/assets/logos/ai-models/grok.png",
+      "bytes": 31458,
+      "size": [
+       1000,
+       1000
+      ],
+      "ink_fill": 0.235,
+      "quantised_colours": 1,
+      "diag_fwd": 0.174,
+      "diag_back": 0.358,
+      "bbox": [
+       39,
+       57,
+       961,
+       942
+      ]
+     },
+     "spacex": {
+      "path": "/Users/migle/Documents/Workspace/assets/logos/ai-models/spacex-wordmark.svg",
+      "bytes": 1211,
+      "size": [
+       256,
+       32
+      ],
+      "ink_fill": 0.218,
+      "quantised_colours": 1,
+      "diag_fwd": 0.28,
+      "diag_back": 0.484,
+      "bbox": [
+       1,
+       0,
+       255,
+       32
+      ]
+     },
+     "codex": {
+      "path": "/Users/migle/Documents/Workspace/assets/logos/coding-tools/codex-color.png",
+      "bytes": 7578,
+      "size": [
+       640,
+       640
+      ],
+      "ink_fill": 0.97,
+      "quantised_colours": 13,
+      "diag_fwd": 0.894,
+      "diag_back": 0.894,
+      "bbox": [
+       0,
+       0,
+       640,
+       640
+      ]
+     },
+     "copilot": {
+      "path": "/Users/migle/Documents/Workspace/assets/logos/coding-tools/copilot-color.png",
+      "bytes": 29398,
+      "size": [
+       640,
+       640
+      ],
+      "ink_fill": 0.698,
+      "quantised_colours": 68,
+      "diag_fwd": 0.641,
+      "diag_back": 0.331,
+      "bbox": [
+       0,
+       26,
+       640,
+       614
+      ]
+     },
+     "antigravity": {
+      "path": "/Users/migle/Documents/Workspace/assets/logos/coding-tools/antigravity-color.png",
+      "bytes": 71914,
+      "size": [
+       540,
+       540
+      ],
+      "ink_fill": 0.369,
+      "quantised_colours": 111,
+      "diag_fwd": 0.584,
+      "diag_back": 0.587,
+      "bbox": [
+       67,
+       84,
+       471,
+       456
+      ]
+     },
+     "lovable": {
+      "path": "/Users/migle/Documents/Workspace/assets/logos/design-tools/lovable-color.png",
+      "bytes": 27264,
+      "size": [
+       640,
+       640
+      ],
+      "ink_fill": 0.76,
+      "quantised_colours": 23,
+      "diag_fwd": 0.828,
+      "diag_back": 0.603,
+      "bbox": [
+       0,
+       0,
+       630,
+       640
+      ]
+     },
+     "openai": {
+      "path": "/Users/migle/Documents/Workspace/assets/logos/ai-models/openai.png",
+      "bytes": 11297,
+      "size": [
+       640,
+       640
+      ],
+      "ink_fill": 0.375,
+      "quantised_colours": 1,
+      "diag_fwd": 0.287,
+      "diag_back": 0.275,
+      "bbox": [
+       0,
+       0,
+       640,
+       635
+      ]
+     }
+    },
+    "mark_files": {
+     "cursor": "logos/coding-tools/cursor.png",
+     "grok": "logos/ai-models/grok.png",
+     "spacex": "logos/ai-models/spacex-wordmark.svg",
+     "codex": "logos/coding-tools/codex-color.png",
+     "copilot": "logos/coding-tools/copilot-color.png",
+     "antigravity": "logos/coding-tools/antigravity-color.png",
+     "lovable": "logos/design-tools/lovable-color.png",
+     "openai": "logos/ai-models/openai.png"
+    },
+    "ink_aspects": {
+     "cursor": 0.8781,
+     "grok": 1.0418,
+     "spacex": 8.0794,
+     "codex": 1.0,
+     "copilot": 1.0884,
+     "antigravity": 1.086,
+     "lovable": 0.9844,
+     "openai": 1.0079
+    },
+    "stage_ink_side_core_px": {
+     "cursor": 96.0,
+     "grok": 56.0
+    },
+    "tile_px": 112.0,
+    "law36_stage_containment": [
+     {
+      "mark": "cursor",
+      "host": "the flag's drawn face",
+      "host_wh": [
+       252.0,
+       162.0
+      ],
+      "ink_side": 96.0,
+      "ink_wh": [
+       90.0,
+       102.4
+      ]
+     },
+     {
+      "mark": "grok",
+      "host": "the 112 px chassis tile",
+      "host_wh": [
+       112.0,
+       112.0
+      ],
+      "ink_side": 56.0,
+      "ink_wh": [
+       57.2,
+       54.9
+      ],
+      "padding_box": 106.0,
+      "ink_fraction_of_tile": 0.5
+     },
+     {
+      "mark": "spacex",
+      "host": "the 236 x 112 card",
+      "host_wh": [
+       236.0,
+       112.0
+      ],
+      "ink_wh": [
+       196.0,
+       24.5
+      ],
+      "padding_box": [
+       230.0,
+       106.0
+      ],
+      "side_margin_px": 20.0,
+      "phone_px_tall": 9.2
+     }
+    ],
+    "law36_depth_containment": [
+     {
+      "lane": "far",
+      "tile": 78.0,
+      "ink_side": 39.0,
+      "padding_box": 72.0,
+      "worst": [
+       "copilot",
+       40.7
+      ]
+     },
+     {
+      "lane": "mid",
+      "tile": 116.0,
+      "ink_side": 58.0,
+      "padding_box": 110.0,
+      "worst": [
+       "copilot",
+       60.5
+      ]
+     },
+     {
+      "lane": "near",
+      "tile": 148.0,
+      "ink_side": 74.0,
+      "padding_box": 142.0,
+      "worst": [
+       "copilot",
+       77.2
+      ]
+     }
+    ],
+    "depth_roster": [
+     "codex",
+     "copilot",
+     "antigravity",
+     "lovable",
+     "openai"
+    ],
+    "depth_roster_source": "plan.cutout_logo_lanes, unchanged",
+    "depth_substitutions": {},
+    "banned_asserted": [
+     "anthropic-wordmark",
+     "claude-code",
+     "cursor",
+     "grok",
+     "grok-bot",
+     "grok-bot-app",
+     "instagram",
+     "nous-girl",
+     "openai-wordmark",
+     "spacex",
+     "spacex-wordmark",
+     "spotify",
+     "telegram",
+     "tesla",
+     "tiktok",
+     "twitter",
+     "whatsapp",
+     "x",
+     "x-logo",
+     "xai",
+     "youtube"
+    ],
+    "file_picks_are_mark_identity": {
+     "cursor": "coding-tools/cursor.png \u2014 the PRODUCT mark (LAW 35 / LAW 16), the thing being sunset, printed ON the flag",
+     "spacex": "ai-models/spacex-wordmark.svg \u2014 SpaceX publishes a WORDMARK and nothing else, so the acquirer's mark is the wordmark at 196 x 24.5 inside a 236 x 112 card.  A wordmark squeezed into a 112 px square would be ~7 px of ink at phone size, i.e. LAW 8 illegible; the card keeps the chassis tile's radius, border and row seat and only its WIDTH differs.",
+     "grok": "ai-models/grok.png \u2014 the black circular slash, NOT `grok-bot`, NOT `grok.svg`",
+     "codex": "coding-tools/codex-color.png",
+     "copilot": "coding-tools/copilot-color.png",
+     "antigravity": "coding-tools/antigravity-color.png",
+     "lovable": "design-tools/lovable-color.png",
+     "openai": "ai-models/openai.png \u2014 the FLOWER symbol cut (measured ink aspect 1.008), never the wordmark"
+    },
+    "subject_mark_clause": "this story's three subject marks \u2014 cursor, spacex and grok \u2014 are all on the STAGE and are therefore barred from the depth lanes, by the plan's own note and by the asserted `DEPTH_BANNED` list.  The run-9 defect (a third-party subject mark on the stage and in the lanes on the same frame) cannot occur here.",
+    "why": "LAW 2 binds a NAMED tool to its logo: this take names Cursor, SpaceX AI and Grok, and each gets its own registry mark on the stage.  The five lane marks are the plan's own topical roster (LAW 33: real marks, never generic glyphs) and every one resolves to a SYMBOL cut, so no substitution was needed."
+   },
+   "law22": {
+    "events": 12,
+    "tightest_gap_s": 0.34,
+    "tightest_pair_s": [
+     0.18,
+     0.52
+    ],
+    "kinds": {
+     "pop": 5,
+     "click": 2,
+     "whoosh": 5
+    },
+    "rule": "an OBJECT arriving takes a pop at structure gain; a written KEY takes a click at detail gain; the machine ACTING (a stroke drawing) takes a click at structure gain; a DISPLACEMENT (the flag unfurling, each step down the pole) or the outro sheet takes a whoosh",
+    "deliberately_silent": {
+     "foot@0.380": "the splayed foot is the END of the mast's own arrival, not a second object; the 0.18 pop is the whole gesture",
+     "spxflip@15.820 / grokflip@17.780": "a colour flip is not an arrival; nothing appears and nothing leaves, so nothing is struck",
+     "conn-spacex@14.620": "the stroke drawing into the card IS the absorb beat and takes the click; its arrowhead 0.06 s later is the same gesture finishing",
+     "conn-grok@17.520": "the Grok tile and its stroke are ONE arrival 0.08 s apart; the tile's pop is that event's sound"
+    }
+   },
+   "cues": {
+    "pole": {
+     "word_spoken": 0,
+     "text": "One",
+     "edge": "start",
+     "t": 0.18,
+     "word_edge": 0.18
+    },
+    "flag": {
+     "word_spoken": 3,
+     "text": "most",
+     "edge": "start",
+     "t": 0.52,
+     "word_edge": 0.52
+    },
+    "heart": {
+     "word_spoken": 4,
+     "text": "loved",
+     "edge": "start",
+     "t": 1.08,
+     "word_edge": 1.08
+    },
+    "keyterm": {
+     "word_spoken": 17,
+     "text": "sunset.",
+     "edge": "start",
+     "t": 5.08,
+     "word_edge": 5.08
+    },
+    "cursor": {
+     "word_spoken": 18,
+     "text": "Cursor",
+     "edge": "start",
+     "t": 5.68,
+     "word_edge": 5.68
+    },
+    "spacex": {
+     "word_spoken": 23,
+     "text": "SpaceX",
+     "edge": "start",
+     "t": 7.08,
+     "word_edge": 7.08
+    },
+    "step1": {
+     "word_spoken": 33,
+     "text": "mapping",
+     "edge": "start",
+     "t": 9.84,
+     "word_edge": 9.84
+    },
+    "step2": {
+     "word_spoken": 40,
+     "text": "next",
+     "edge": "start",
+     "t": 12.0,
+     "word_edge": 12.0
+    },
+    "step3": {
+     "word_spoken": 43,
+     "text": "months",
+     "edge": "start",
+     "t": 13.24,
+     "word_edge": 13.24
+    },
+    "absorb": {
+     "word_spoken": 47,
+     "text": "absorbed",
+     "edge": "start",
+     "t": 14.62,
+     "word_edge": 14.62
+    },
+    "spxflip": {
+     "word_spoken": 49,
+     "text": "SpaceX",
+     "edge": "start",
+     "t": 15.82,
+     "word_edge": 15.82
+    },
+    "grok": {
+     "word_spoken": 52,
+     "text": "Grok.",
+     "edge": "start",
+     "t": 17.44,
+     "word_edge": 17.44
+    },
+    "outro": {
+     "word_spoken": 55,
+     "text": "for",
+     "edge": "inside",
+     "t": 18.3,
+     "window": [
+      18.22,
+      19.34
+     ]
+    },
+    "_free": {
+     "law43": {
+      "board_mode": "single",
+      "erases": 0,
+      "seams": [],
+      "plan_why": "LAW 43: this is the exception the law names - ONE idea that accumulates on one surface. There is exactly one pole and the finished frame IS the argument: the Cursor flag retired at its foot, the two marks that absorbed it underneath, two strokes joining them. Erasing any of it would erase the claim, so there is no chapter seam and nothing was ever meant to leave.",
+      "verdict": "PASS \u2014 LAW 43's declared exception: ONE idea accumulating on ONE surface, and the finished frame IS the claim.  Nothing is erased before the outro sheet, so LAW 45 has no seam to judge."
+     },
+     "outro": {
+      "t": 18.3,
+      "last_board_event_completes": 18.16,
+      "clear_s": 0.14,
+      "sheet": {
+       "d": 0.46,
+       "lockup_in": 18.8,
+       "kind": "OPAQUE RISING SHEET, never a fade and never a scrim"
+      },
+      "why_18_30": "the sign-off starts at 17.88 but the Grok tile only lands at 17.44, so raising the sheet on 'Now' would cover the finished claim 0.44 s after it completed.  The authored cue holds the final frame ~0.86 s first; the outro still runs 3.82 s."
+     }
+    }
+   },
+   "word_sync": {
+    "states_checked": 1,
+    "disagreements": 0,
+    "states": [
+     {
+      "state": "key-sunset",
+      "first_visible_text": "SUNSET",
+      "at": 5.08,
+      "word": "sunset.",
+      "word_window": [
+       5.08,
+       6.5
+      ],
+      "agrees": true,
+      "why": "SUNSET lands on the spoken 'sunset.' \u2014 the word the sentence ends on.  It is the FIRST type in the video and nothing else is written before or after it, so no state can peek ahead of its word (LAW 24)"
+     }
+    ],
+    "digits_that_tick": 0,
+    "note": "no number is typed on this board and nothing counts up.  The other state changes are the heart -> Cursor mark swap (5.68, on the spoken 'Cursor'), the SpaceX card's arrival (7.08, on 'SpaceX'), the three stepped descents (9.84 'mapping', 12.00 'next', 13.24 'months') and the two border flips (15.82 'SpaceX', 17.78 inside 'Grok'), and each is cut on the word the cue table verifies."
+   },
+   "production_v2_declarations": {
+    "connectors_stamped": 2,
+    "emphases_stamped": 0,
+    "labels_repointed": 0,
+    "virtual_rects_stamped": 0,
+    "contracts": {
+     "connectors": {
+      "conn-spacex": {
+       "target": "card-spacex",
+       "side": "top",
+       "fraction": 0.5,
+       "check_at": 15.4,
+       "end_core": [
+        460.0,
+        452.0
+       ],
+       "end_canvas": [
+        460.0,
+        644.0
+       ],
+       "start_core": [
+        463.32,
+        380.0
+       ],
+       "stroke_completes": 15.02,
+       "target_born": 7.08,
+       "connector_life": [
+        14.62,
+        22.12
+       ]
+      },
+      "conn-grok": {
+       "target": "tile-grok",
+       "side": "top",
+       "fraction": 0.5,
+       "check_at": 18.1,
+       "end_core": [
+        682.0,
+        452.0
+       ],
+       "end_canvas": [
+        682.0,
+        644.0
+       ],
+       "start_core": [
+        634.68,
+        380.0
+       ],
+       "stroke_completes": 17.88,
+       "target_born": 17.44,
+       "connector_life": [
+        17.44,
+        22.12
+       ]
+      }
+     },
+     "emphases": {}
+    },
+    "why": "the shared scene emits `data-connect-to` on its two connectors but no anchor and no instant, because only a FORMAT knows the timeline it seats them on; both are re-derived from the target's own built rect and stamped HERE, on the emitted string only, so the SEALED module the split author reads is untouched.  NO `data-emphasis` is stamped: both emphases are panel border flips on the target's own stroke, which add no element, and there is no raster type in this video for rule 1's marker highlight to underline.  The one `data-label-for` host is a real DOM id, so nothing is repointed and no virtual rectangle is needed."
+   },
+   "reveal_repair": {
+    "draw_helpers": 0,
+    "dash_tokens": 0,
+    "stroke_classes": [
+     "cn",
+     "fg",
+     "ft",
+     "ht",
+     "og",
+     "pl"
+    ],
+    "all_revealed": true,
+    "why": "every glyph authors opacity=\"0\" on its path and a `fadeink()` tween raises ELEMENT opacity by class selector; there is no dasharray, no dashoffset and no strokeOpacity anywhere on the page, so the run-22 defect class cannot exist in this composition."
+   },
+   "plan_geometry": {
+    "verdict": "PASS",
+    "objects": {
+     "flag on pole": {
+      "plan_canvas": [
+       397.01,
+       303.94,
+       682.99,
+       595.97
+      ],
+      "built_core": [
+       401.0,
+       112.0,
+       679.0,
+       404.0
+      ],
+      "built_canvas": [
+       401.0,
+       304.0,
+       679.0,
+       596.0
+      ],
+      "max_delta_px": 3.992
+     }
+    },
+    "worst_delta_px": 3.992,
+    "objects_compared": 1,
+    "note": "the plan carries no `core_box` block for this recording, so the compared geometry is its normalised `bbox`.  At k = 1.00 and top = 192 the built canvas box is 401..679 x 304..596 against the plan's 397..683 x 303.9..596.0: identical in y and 4 px of horizontal pad, both centred on 540."
+   },
+   "transcript": {
+    "partials_dropped": [],
+    "token_merges": [],
+    "law47_tail_s": 0.22,
+    "law47_cap_s": 0.24,
+    "law47_overshoot_s": 0.0,
+    "law47_verdict": "PASS \u2014 the master runs 0.220s past the last word against a 0.240s cap",
+    "law46": "the scripted opening \"one of the most loved brands in the ai space\" occurs ONCE inside the keeper take, at word 0 / 0.180 s; the raw has 5 openings and the cut keeps the last one that reaches the sign-off",
+    "take_corroboration": {
+     "source": "cuts/cursorspacex/edl.json -> take_detection",
+     "method": "last scripted opening that reaches the spoken sign-off; the content rule decides, the marker rule and the gap sweep witness",
+     "raw_word_index": 172,
+     "raw_start_s": 92.86,
+     "words": 74,
+     "of_raw_words": 246,
+     "openings": 5,
+     "sign_offs_found": 1,
+     "marker_rule": "bound",
+     "marker_answer": 168,
+     "markers_before_take": 10,
+     "marker_note": "EQUALITY is the strongest form; BOUND is legal and expected when abandonments carry no partial word; ABSTAINS is legal on a raw with no markers at all.",
+     "gap_rule": "band",
+     "gap_correct_thresholds": [
+      0.8,
+      0.9
+     ],
+     "witness_note": "THE TRANSCRIPT DECIDES THE TAKE (PRODUCTION.md, 2026-09-21): the content rule answers word 172 and the two cross-checks are WITNESSES, not vetoes.  The gap sweep AGREES at its two correct thresholds (>=0.8 and >=0.9 both answer 172, 0 words early); the marker rule returns BOUND at 168 because all ten abandonments before the keeper are truncations carrying no punctuated 'no', which the rule's own note calls legal and expected.  A BOUND at 168 does not answer PAST the keeper.",
+     "corroboration": {
+      "marker": "bound",
+      "gap": "band",
+      "witnessed": true,
+      "allow_uncorroborated": false
+     }
+    },
+    "words": 74,
+    "phrase_groups_repartitioned": 12,
+    "function_word_merges": 0,
+    "beats_before_merge": 22,
+    "board_keys_forbidden_at_split": [
+     "sunset",
+     "sunset!",
+     "sunset,",
+     "sunset.",
+     "sunset?"
+    ],
+    "orphan_repartitions": [],
+    "board_key_echo_repairs": [],
+    "solo_word_merges": [],
+    "caption_echoes_not_overlapping": []
+   },
+   "matte_visual_review": {
+    "session": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/matting/cursorspacex",
+    "layers": [
+     "matte_cursorspacex_v5_cut.webm",
+     "matte_cursorspacex_v5_rim.webm",
+     "matte_cursorspacex_v5_alpha.webm"
+    ],
+    "structural": {
+     "frames": 553,
+     "size": "1342x990 @25",
+     "alpha_mode": "soft",
+     "rim_px": 7,
+     "fractional_alpha_pixels": 11587715,
+     "minimum_person_fraction": 0.4409407036083638,
+     "headroom_guard": true,
+     "headroom_frames_checked": 553,
+     "headroom_min_top_clearance_px": 36.300000000000004,
+     "headroom_unsafe_frames": 0,
+     "crown_gate": {
+      "frames_on_plate_top": 0,
+      "frames": 553,
+      "frac": 0.0,
+      "floor": 0.25,
+      "verdict": "the crown is a head"
+     },
+     "envelope_per_frame_top": {
+      "p05": 51.0,
+      "median": 54.0,
+      "frames_touching_row0": 0
+     }
+    },
+    "viewer_metrics": {
+     "source": "review/matte_cursorspacex/metrics.json",
+     "background_haze": {
+      "px_floor": 1500,
+      "detach_px": 14,
+      "p50": 0,
+      "p95": 0,
+      "max": 635,
+      "frames_over_floor": 0,
+      "longest_run_s": 0.0,
+      "hold_seconds_limit": 1.0,
+      "worst_sample_s": 13.6,
+      "hold": false
+     },
+     "frozen_edge": {
+      "frozen_sd": 1.5,
+      "min_cols": 12,
+      "sd_ratio": 4.0,
+      "runs": [],
+      "hold": false
+     },
+     "chair_band_px": {
+      "reference": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/matting/cursorspacex/selection.mask.png",
+      "p50": 1153,
+      "p95": 5382,
+      "max": 7852,
+      "max_at_s": 13.4
+     },
+     "soft_alpha_px": {
+      "rest_median": 13310,
+      "p95_over_rest": 1.09,
+      "max_over_rest": 1.28,
+      "frames_over_2p5x": 0
+     },
+     "extra_components": {
+      "max": 0,
+      "frames": 0
+     },
+     "holes": {
+      "max": 0,
+      "frames": 0
+     },
+     "iou_frame_to_frame": {
+      "p05": 0.9407,
+      "min": 0.8866
+     },
+     "auto_hold": []
+    },
+    "selection_status": "reviewed",
+    "selection_reviewer": "visual-agent",
+    "selection_notes": "Opened selection.frame.png (1220x900) and the BiRefNet kf_00000 mask as a red overlay plus contour, then inspected 2x-7x shadow-lifted crops of the head band, both chair-shoulder junctions, both hands and the lower-left/lower-right shoulder edges. Cap crown, hairline, both ears, jaw, beard, neck and both motion-blurred hands sat inside the initial mask; right-side (viewer) chair wing was already excluded, the contour hugging the jaw to (686,455) then the shoulder silhouette. One real defect: on the viewer-left the contour cut diagonally through the chair wing from about y=380 downwards, so the chair slab between its wall edge (x~368-373) and its neck edge (x~443-458) was included from y~380 to the shoulder. Measured the chair's left/right edges per row and the shoulder seam per column, then wrote one exclude polygon bounded on the right by the chair/skin edge minus 3px and on the bottom by the shoulder seam minus ~6px so no jaw, neck or shoulder pixel is carved. Re-inspected the corrected boundary at 5x: it now runs along the chair/neck edge and then along the shoulder top silhouette; a few pixels of chair remain as a rim rather than risk cutting the shoulder. Mask stays a single component with no holes; coverage 45.2% -> 44.7%.",
+    "history": {
+     "stage17_viewer": "PASS",
+     "stage17_worst_frames": "525, 335, 345",
+     "stage18_sam2_fallback": "never ran \u2014 stage 17 PASSED",
+     "repair_rounds": 0,
+     "why_this_lane_re_reads_it": "an independent viewer HAS recorded a PASS against exactly these layers, and this read is the author's own second pair of eyes on the same four sheets, not a substitute for it."
+    },
+    "wing_review": {
+     "instrument": "prep prompt0 \u2014 wing_review TRUE, and it names this id",
+     "wing_left": null,
+     "wing_right": null,
+     "wing_cut_applied": false,
+     "removed_px": 0,
+     "prompt_area_px": 496691,
+     "verdict": "ABSTAINED at prep \u2014 the instrument proposes no cut rather than guessing (zero false positives, zero recall on the run-9 corpus).  The abstention is ANSWERED by the shipped result rather than left open: the chair-sides sheet shows pure cream on both sides of the head on all six sampled frames INCLUDING the chair-band maximum at 13.4 s, and background haze reads p95 0 / max 635 px against a 1500 px floor with 0 frames over it.  No headrest wing survives into the matte, so no cut was owed.",
+     "no_chair_object": "the session carries a `chair_prompt.json`, and the production client's soft-alpha finish does NO automatic chair carving (PRODUCTION.md).  The geo incident was a chair-EXCLUSION object eating an ear; nothing of the kind was applied here."
+    },
+    "law48_read": "PASS, read at the delivered crop and normal playback speed on the four sheets under review/matte_cursorspacex/, which were written against exactly the layers this build stages.  THE THREE THINGS LAW 48 NAMES ARE ABSENT.  (1) NO CHAIR BESIDE THE HEAD: chair_sides.jpg is pure cream left and right of the head on all six sampled frames, including 13.4 s which IS the chair-band maximum (7,852 px at the band's own worst sample, p50 1,153); background haze is p95 0 and max 635 px against a 1,500 px floor, 0 frames over it, hold FALSE, longest run 0.0 s.  (2) NO SPLASH AT THE NECK: face_2x.jpg pairs eight source/composite head bands and every ear helix and lobe, temple, cap-brim tip, cheek line, chin and neck is preserved with no bite and no lobe of chair leaking in.  (3) NO EDGE FLICKER: frozen_edge returns NO runs at sd_ratio 4.0, so no column of the silhouette is pinned to furniture (the run-21 grokemail signature); frame-to-frame IoU p05 is 0.9407 with a minimum of 0.8866 at the fastest gesture; soft_alpha_px p95 is 1.09x its own rest median and the max 1.28x against a 2.5x ceiling with 0 frames over it, so no frame smears; extra_components 0 and holes 0 over every sampled frame.  The outline is a soft FRACTIONAL alpha with a 7 px cream rim rather than a binary mask \u2014 11,587,715 fractional alpha pixels over 553 frames is ~21.0k soft pixels per frame, a feathered edge and not a hard key \u2014 so there is no stair-stepping to flicker.  The minimum person fraction is 0.44094, so no frame loses the body.  THE ONE AMBIGUOUS TILE was already run down by the independent viewer: the pale fringe over the raised fist at f525 / 21.0 s is the SOURCE's own motion blur against a bright wall, confirmed by decoding the shipped cut.webm RGBA against plate_display_1342x990.mp4 on the same crop \u2014 the matte follows that exact contour with soft alpha.  Every one of the 553 frames clears the top edge by at least 36.3 px against the 24 px floor and NONE touches alpha row 0, so the crown is a head and the caption is seated on a head rather than on a cut.  THE CLERK STILL WATCHES THE DELIVERED FILE: this is the author's read, not a substitute for the clerk's, and `review_status` stays `needs_final_visual_review` until the clerk answers it.",
+    "no_modal_matting_call": "no re-track, no re-selection, no repair pass and no matting dispatch of any kind was made by this lane.  The only Modal call this lane makes is the render."
+   },
+   "stage_zone": [
+    192.0,
+    797.4
+   ],
+   "envelope": {
+    "CAP_H_seat_constant": 108.2,
+    "CAP_H_true_rendered": 114.59,
+    "CAP_MIN_CLEAR": 26.5,
+    "true_clear_to_crown": 26.5,
+    "CAP_Y": 881.2,
+    "CAP_Y_pct": 0.459,
+    "pill_bottom": 938.5,
+    "pill_bottom_pct": 0.4888,
+    "ZY0": 192.0,
+    "ZY1": 797.4,
+    "stage_height": 605.4,
+    "vs_definitive": {
+     "CAP_Y": 949.5,
+     "ZY1": 868.9,
+     "why_different": "a different plate: this session's crown sits below the plate's top row (bottom_planted false, crop slid up 4 master px), and the plate is OVER-WIDE (1342x990 at -109)"
+    }
+   },
+   "crown_gate": {
+    "frames_on_plate_top": 0,
+    "frames": 553,
+    "frac": 0.0,
+    "floor": 0.25,
+    "verdict": "the crown is a head"
+   },
+   "depth_field": {
+    "seat": {
+     "band": [
+      1002.5,
+      1396.5
+     ],
+     "band_h": 394.0,
+     "inter_lane_gap": 26.0,
+     "seat_offset_from_pill": 64.0,
+     "foundation_offset": 63.61,
+     "drift_from_foundation_seat": 0.39,
+     "margin_px": 150.2,
+     "candidates_scanned": 101,
+     "candidates_safe": 75,
+     "instrument": "5th percentile of the PER-FRAME gutter; the union envelope describes a body that never existed",
+     "lanes": [
+      {
+       "lane": "far",
+       "tile": 78.0,
+       "y": 1002.5,
+       "frames": 185,
+       "gutter_p05": 297.6,
+       "gutter_median": 343.1,
+       "gutter_min_single_frame": 252.9,
+       "frames_under_tile": 0
+      },
+      {
+       "lane": "mid",
+       "tile": 116.0,
+       "y": 1106.5,
+       "frames": 185,
+       "gutter_p05": 280.4,
+       "gutter_median": 321.1,
+       "gutter_min_single_frame": 225.4,
+       "frames_under_tile": 0
+      },
+      {
+       "lane": "near",
+       "tile": 148.0,
+       "y": 1248.5,
+       "frames": 185,
+       "gutter_p05": 298.2,
+       "gutter_median": 329.9,
+       "gutter_min_single_frame": 106.6,
+       "frames_under_tile": 1
+      }
+     ]
+    },
+    "lanes": {
+     "far": {
+      "x0": -216.0,
+      "w": 1788.0,
+      "y": 1002.5,
+      "tile": 78.0,
+      "gap": 30.0,
+      "pitch": 108.0,
+      "tiles": 16,
+      "opacity": 0.34,
+      "dist": 46.0,
+      "travel": 276.0,
+      "steps": 6
+     },
+     "mid": {
+      "x0": -304.0,
+      "w": 2360.0,
+      "y": 1106.5,
+      "tile": 116.0,
+      "gap": 36.0,
+      "pitch": 152.0,
+      "tiles": 15,
+      "opacity": 0.66,
+      "dist": 112.0,
+      "travel": 672.0,
+      "steps": 6
+     },
+     "near": {
+      "x0": -384.0,
+      "w": 3096.0,
+      "y": 1248.5,
+      "tile": 148.0,
+      "gap": 44.0,
+      "pitch": 192.0,
+      "tiles": 16,
+      "opacity": 1.0,
+      "dist": 208.0,
+      "travel": 1248.0,
+      "steps": 6
+     }
+    },
+    "tiles": 47,
+    "step_beats": [
+     3.04,
+     6.36,
+     9.6,
+     13.24,
+     16.24,
+     19.48
+    ],
+    "step_n": 6,
+    "step_pulse_s": 3.22,
+    "foundation_pulse_s": 3.17,
+    "pop_behind": null,
+    "spoken_depth_marks": [],
+    "pop_behind_why_none": "MEASURED, not omitted.  Cutout law 16 keys the crossing to 'the beat where he NAMES the tool'.  A lexical sweep of all five lane marks over the whole tight transcript returns ZERO hits: the only products this take names are Cursor, SpaceX AI and Grok, and all three are STAGE marks and therefore barred from the lanes by the plan's own note.  There is no legal beat to key a crossing to, and improvising one is exactly what this lane may not do.",
+    "cast": [
+     "codex",
+     "copilot",
+     "antigravity",
+     "lovable",
+     "openai"
+    ],
+    "cast_list_why": "the field's stride is 7 and this roster is 5 long; gcd(7,5)=1, so every lane cycles all five of the plan's marks with no repeat knob needed.",
+    "cast_source": "plan.cutout_logo_lanes, unchanged",
+    "substitutions": {},
+    "banned_asserted": [
+     "anthropic-wordmark",
+     "claude-code",
+     "cursor",
+     "grok",
+     "grok-bot",
+     "grok-bot-app",
+     "instagram",
+     "nous-girl",
+     "openai-wordmark",
+     "spacex",
+     "spacex-wordmark",
+     "spotify",
+     "telegram",
+     "tesla",
+     "tiktok",
+     "twitter",
+     "whatsapp",
+     "x",
+     "x-logo",
+     "xai",
+     "youtube"
+    ],
+    "opacities": [
+     0.34,
+     0.66,
+     1.0
+    ],
+    "hook_clear_s": 2.6,
+    "seams": [],
+    "foundation": "formats/cutout/lib/cutout_depthfield.py (grokpublish, approved 2026-09-01) \u2014 unmodified"
+   },
+   "phone_test_objects": [
+    {
+     "name": "flag on pole",
+     "t": 2.6,
+     "space": "norm",
+     "bbox": [
+      0.3713,
+      0.15833,
+      0.6287,
+      0.31042
+     ],
+     "canvas": [
+      401.0,
+      304.0,
+      679.0,
+      596.0
+     ],
+     "phone_px": [
+      104,
+      110
+     ]
+    }
+   ],
+   "phone_test_vs_plan": {
+    "objects": [
+     {
+      "plan_name": "flag on pole",
+      "built_name": "flag on pole",
+      "plan_t": 2.6,
+      "built_t": 2.6,
+      "plan_bbox": [
+       0.3676,
+       0.1583,
+       0.6324,
+       0.3104
+      ],
+      "built_bbox": [
+       0.3713,
+       0.15833,
+       0.6287,
+       0.31042
+      ],
+      "built_core_box": [
+       401.0,
+       112.0,
+       679.0,
+       404.0
+      ],
+      "plan_phone_px": [
+       107,
+       110
+      ],
+      "built_phone_px": [
+       104,
+       110
+      ],
+      "delta_px": [
+       4.0,
+       0.06,
+       4.0,
+       0.04
+      ],
+      "max_delta_px": 4.0
+     }
+    ],
+    "source_used_for_the_phone_test": "--plan (the plan's own box, centred identically on the built one and 4 px wider on each side)",
+    "worst_delta_px": 4.0,
+    "tolerance_px": 4.1,
+    "centre_agreement_px": 0.0,
+    "why_the_tolerance": "the plan's bbox pads the drawn assembly by 4 px horizontally (397..683 against the built 401..679) and agrees EXACTLY in y (304..596).  Both are centred on 540.  Handoff section 9.5 makes the module's core box authoritative for geometry; the Phone Test crop is 8 px wider than the ink, which crops the same object."
+   },
+   "render": {
+    "w": 1080,
+    "h": 1920,
+    "zoom": 1
+   },
+   "handle_key": "tiktok_ig",
+   "handle": "@migueltorrez.ai",
+   "captions": {
+    "n": 22,
+    "widest_px": 744.2,
+    "font_px": 56.2,
+    "pill_height_px": 114.59,
+    "sizes": 1,
+    "seat_max_w": 756.0,
+    "function_word_merges": 0,
+    "texts": [
+     "One of the most",
+     "loved brands in",
+     "the AI space by",
+     "developers is soon",
+     "going to be sunset.",
+     "Cursor has been",
+     "acquired by SpaceX AI,",
+     "and they confirmed",
+     "that they're going",
+     "to be mapping out",
+     "the Cursor brand",
+     "over the next few coming",
+     "months",
+     "while it gets absorbed",
+     "by SpaceX AI",
+     "and Grok.",
+     "Now, follow for more",
+     "AI news, videos, and",
+     "tutorials each and",
+     "every single day,",
+     "and catch you",
+     "in the next one."
+    ],
+    "source": "BUILT HERE from pipeline/captions.py, the canon every chassis reads \u2014 the board-key forbid list (LAW 4), merge_function_only_beats over the WHOLE beat stream, the orphan repartition and assert_no_function_only_beat."
+   },
+   "caption_texts": [
+    "One of the most",
+    "loved brands in",
+    "the AI space by",
+    "developers is soon",
+    "going to be sunset.",
+    "Cursor has been",
+    "acquired by SpaceX AI,",
+    "and they confirmed",
+    "that they're going",
+    "to be mapping out",
+    "the Cursor brand",
+    "over the next few coming",
+    "months",
+    "while it gets absorbed",
+    "by SpaceX AI",
+    "and Grok.",
+    "Now, follow for more",
+    "AI news, videos, and",
+    "tutorials each and",
+    "every single day,",
+    "and catch you",
+    "in the next one."
+   ]
+  }
+ }
+}

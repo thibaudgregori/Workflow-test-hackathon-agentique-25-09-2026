@@ -1,0 +1,31 @@
+{
+ "run": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17",
+ "out_dir": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output",
+ "jobs": [
+  {
+   "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/projects/kimifable_cutout",
+   "vid": "kimifable",
+   "fmt": "cutout",
+   "quality": "high",
+   "stage": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/staging/tiktok/kimifable_cutout.mp4",
+   "qc_args": [
+    "--voice-master",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/cuts/kimifable/audio.m4a",
+    "--phone-at",
+    "3.0:0.1907,0.2885,0.4685,0.3594:a price tag",
+    "--phone-at",
+    "10.0:0.2963,0.1542,0.7037,0.3396:a benchmark scorecard",
+    "--phone-at",
+    "15.6:0.1778,0.2146,0.4815,0.3277:a website layout",
+    "--phone-at",
+    "24.6:0.1722,0.1521,0.4759,0.2771:a folder of designs",
+    "--alpha",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/kimifable/matte_kimifable_v5_alpha.webm",
+    "--edge-box",
+    "1320x990+-120+930",
+    "--plate",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/kimifable/plate_display_1320x990.mp4"
+   ]
+  }
+ ]
+}

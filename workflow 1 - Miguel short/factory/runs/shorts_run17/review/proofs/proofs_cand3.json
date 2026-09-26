@@ -1,0 +1,65 @@
+{
+ "set": "cand3",
+ "phone_scale": "405x720",
+ "module": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/gen/pcoverheat_scene.py",
+ "objects": [
+  {
+   "i": 0,
+   "label": "dl-E-cloud",
+   "intended": "a cloud download",
+   "core_box": [
+    390.0,
+    348.0,
+    690.0,
+    508.0
+   ],
+   "norm_box": [
+    0.3611,
+    0.2812,
+    0.6389,
+    0.3646
+   ],
+   "phone_box_px": [
+    146,
+    202,
+    259,
+    262
+   ],
+   "phone_size_px": [
+    113,
+    60
+   ],
+   "crop": "review/proofs/crop_cand3_00_dl-E-cloud.png",
+   "frame": "review/proofs/frame_cand3_00.png"
+  },
+  {
+   "i": 1,
+   "label": "dl-F-bar",
+   "intended": "a download arrow",
+   "core_box": [
+    390.0,
+    348.0,
+    690.0,
+    508.0
+   ],
+   "norm_box": [
+    0.3611,
+    0.2812,
+    0.6389,
+    0.3646
+   ],
+   "phone_box_px": [
+    146,
+    202,
+    259,
+    262
+   ],
+   "phone_size_px": [
+    113,
+    60
+   ],
+   "crop": "review/proofs/crop_cand3_01_dl-F-bar.png",
+   "frame": "review/proofs/frame_cand3_01.png"
+  }
+ ]
+}

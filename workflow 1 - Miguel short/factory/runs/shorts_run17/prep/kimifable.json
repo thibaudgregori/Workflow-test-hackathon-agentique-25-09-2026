@@ -1,0 +1,310 @@
+{
+ "id": "kimifable",
+ "run": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17",
+ "recording": "2026-09-04 13-46-50",
+ "gpu": null,
+ "session": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/kimifable",
+ "cut_dir": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/cuts/kimifable",
+ "stages": {
+  "cut": {
+   "status": "ok",
+   "master": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/cuts/kimifable/master.mp4",
+   "audio": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/cuts/kimifable/audio.m4a",
+   "face_plates": [
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/cuts/kimifable/face_full_hd.mp4",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/cuts/kimifable/face_bottom_hd.mp4"
+   ],
+   "edl": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/cuts/kimifable/edl.json",
+   "transcript_tight": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/cuts/kimifable/transcript_tight.json",
+   "cut_master_duration_s": 38.12,
+   "take": {
+    "word_index": 118,
+    "start_s": 93.2,
+    "words": 138,
+    "of_raw_words": 256,
+    "openings": 8
+   },
+   "corroboration": {
+    "marker": "bound",
+    "gap": "DISAGREES",
+    "witnessed": true,
+    "allow_uncorroborated": false
+   },
+   "analysis_wav_written": false,
+   "tight_audio_duration_s": 38.098,
+   "wall_s": 76.5
+  },
+  "plate": {
+   "status": "ok",
+   "plate": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/kimifable/plate_wide_25.mp4",
+   "crop": "2440x1830+610+236",
+   "plate_size": [
+    1200,
+    900
+   ],
+   "scale_k": 0.491803,
+   "head_px_on_canvas": 452.1,
+   "overwide_applied": true,
+   "extension_master_px": {
+    "left_master_px": 122,
+    "left_plate_px": 60,
+    "left_canvas_px": 66.0,
+    "right_master_px": 122,
+    "right_plate_px": 60,
+    "right_canvas_px": 66.0,
+    "left_headroom_remaining_master_px": 610,
+    "right_headroom_remaining_master_px": 790,
+    "clamped_by_master_edge": {
+     "left": false,
+     "right": false
+    },
+    "lattice_padding_steps": 0
+   },
+   "plate_box": {
+    "w": 1320.0,
+    "h": 990.0,
+    "left": -120.0,
+    "top": 930.0,
+    "right": 1200.0,
+    "centred": false,
+    "note": "the origin is NOT (1080 - box_w)/2.  An over-wide plate is deliberately asymmetric; the generator's plate_origin() reads `left` from here, and ship.py's edge gate takes it as --edge-box."
+   },
+   "face_dx_pct": 0.0,
+   "visible_window_drift_master_px": 0.0,
+   "sweep": {
+    "file": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/gen/_birefnet_master_kimifable.json",
+    "frames_measured": 160,
+    "stride": 6,
+    "model": "birefnet-general",
+    "wall_seconds": 108.7,
+    "lane": {
+     "where": "modal",
+     "app": "shorts-factory-birefnet",
+     "gpu": "A10G",
+     "container": "25b9f872-96d2-4a5b-98c4-20a8e9891218",
+     "onnx": "birefnet-general.onnx",
+     "providers": [
+      "CUDAExecutionProvider",
+      "CPUExecutionProvider"
+     ],
+     "input_bytes": 26658730,
+     "model_load_seconds": 4.2,
+     "inference_seconds": 85.9,
+     "seconds_per_frame": 0.537,
+     "t_import_epoch": 1788820140.4687328,
+     "t_fn_enter_epoch": 1788820141.5162761,
+     "t_fn_exit_epoch": 1788820235.8705654,
+     "proxy": true,
+     "proxy_seconds": 5.3,
+     "client_wall_seconds": 108.7,
+     "uploaded_bytes": 26658730,
+     "cold_start_seconds": 10.59,
+     "billed_container_seconds": 97.4,
+     "measured_cost_usd": 0.0435,
+     "cost_breakdown_usd": {
+      "gpu": 0.0298,
+      "cpu": 0.0102,
+      "mem": 0.0035
+     }
+    }
+   },
+   "plate_json": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/kimifable/plate.json",
+   "wall_s": 160.4
+  },
+  "prompt0": {
+   "status": "ok",
+   "retries": [],
+   "prompt_guard": {
+    "repaired": false,
+    "why": "no frame-0 prompt yet"
+   },
+   "prompt0_status": "ok",
+   "prompt_png": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/kimifable/prompts/kf_00000.png",
+   "overlay_png": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/kimifable/prompts/kf_overlay_00000.png",
+   "wings_source": "MEASURED on this plate's frame 0",
+   "wing_right": null,
+   "wing_left": null,
+   "wing_cut_applied": false,
+   "wing_review": true,
+   "wing_review_note": "the instrument proposed no cut.  It abstains rather than guesses (see the module docstring: zero false positives, zero recall on the run-9 corpus).  Look at kf_overlay_00000.png; if a headrest wing is inside the green prompt, measure its inner column and pass an explicit `wings` block on the intake row.  If you miss one, the protrusion gate inside ship.py is the net.",
+   "removed_px": 0,
+   "prompt_area_px": 471979,
+   "chair_prompt": {
+    "status": "ok",
+    "json": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/kimifable/chair_prompt.json",
+    "overlay": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/kimifable/prompts/chair_overlay_00000.png",
+    "band": {
+     "crown": 54,
+     "head_width": 322.0,
+     "band_top": 353,
+     "shoulder_arrival": 533
+    },
+    "found": [
+     "left"
+    ],
+    "overridden_sides": null,
+    "left": {
+     "found": true,
+     "box": [
+      373,
+      229,
+      488,
+      496
+     ],
+     "points": [
+      [
+       409,
+       264,
+       1
+      ],
+      [
+       408,
+       330,
+       1
+      ],
+      [
+       420,
+       395,
+       1
+      ],
+      [
+       430,
+       461,
+       1
+      ],
+      [
+       599,
+       173,
+       0
+      ],
+      [
+       438,
+       363,
+       0
+      ],
+      [
+       530,
+       587,
+       0
+      ],
+      [
+       589,
+       653,
+       0
+      ]
+     ],
+     "rows": [
+      233,
+      492
+     ],
+     "rows_with_run": 260,
+     "cols": [
+      381,
+      480
+     ],
+     "run_width": {
+      "min": 17,
+      "max": 100,
+      "median": 50
+     },
+     "luma": {
+      "mean": 23.2,
+      "p95": 40,
+      "max": 166
+     },
+     "area_px": 15431
+    },
+    "right": {
+     "found": false,
+     "why": "24 sandwiched dark region(s) beside the head, none of them 80+ rows tall and under 150 px wide (tallest 260)"
+    }
+   },
+   "wall_s": 47.0
+  },
+  "cues": {
+   "status": "ok",
+   "cue_count": 0,
+   "cues_json": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/gen/_cues_kimifable.json",
+   "answered": [],
+   "needs_source": [],
+   "cards": [],
+   "wall_s": 0.0
+  },
+  "selection": {
+   "status": "ok",
+   "selection": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/kimifable/selection.json",
+   "wall_s": 88.27397720795125
+  },
+  "display_plate": {
+   "status": "ok",
+   "wall_s": 135.5,
+   "file": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/kimifable/plate_display_1320x990.mp4",
+   "log": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/prep/logs/display_kimifable.log",
+   "bytes": 54231855
+  },
+  "track": {
+   "status": "ok",
+   "backend": "matanyone2",
+   "model": "MatAnyone 2",
+   "alpha": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/kimifable/alpha_v1.mkv",
+   "track_seconds": 80.475489471,
+   "cost_usd": 0.02283250587271212,
+   "review_status": "needs_final_visual_review",
+   "wall_s": 89.35207241598982
+  },
+  "ship": {
+   "status": "ok",
+   "backend": "matanyone2",
+   "frames": 953,
+   "width": 1320,
+   "height": 990,
+   "fps": 25.0,
+   "alpha_mode": "soft",
+   "rim_px": 7,
+   "temporal": 1,
+   "hashes": {
+    "cut": "29612a15c6e06c31d4bcb83020e1c0b36cf88261072f59794f869f77bb69c278",
+    "rim": "bd720ee24fc643e33acc3912a0795be7fe8a97a1b39ee28a68d1db2a1e1001bf",
+    "alpha": "3df30553f5e27b08de6333d31a4107aa0ffaad0e7d977f9a8ea222fac9a9f4f2"
+   },
+   "seconds": 87.605111189,
+   "estimated_compute_usd": 0.039835796159862075,
+   "fractional_alpha_pixels": 18428379,
+   "minimum_person_fraction": 0.4286524334251607,
+   "review_status": "needs_final_visual_review",
+   "ship_source_sha256": "cf367be51d742c272d9f79db8a13e00297684001ebf666283095059206e149e7",
+   "client_wall_seconds": 101.96270833304152,
+   "outputs": {
+    "cut": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/kimifable/matte_kimifable_v5_cut.webm",
+    "rim": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/kimifable/matte_kimifable_v5_rim.webm",
+    "alpha": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/kimifable/matte_kimifable_v5_alpha.webm"
+   },
+   "headroom": {
+    "identity": {
+     "alpha_sha256": "7f4e53d57da4dea603328e736ae05f4e5af09fa963184f3228a827917410dcc6",
+     "display_sha256": "31220df18858f567f87936b251bf77b3e77f1fadcffd73c3a03b70c8dd2ba92b",
+     "guard_sha256": "90e6a7f8cf1a142b9a8ab4cf0054f9803188279b68642b84430db31afe79999a",
+     "expected_frames": 953,
+     "floor_px": 24.0
+    },
+    "pass": true,
+    "frames_checked": 953,
+    "min_top_clearance_px": 41.800000000000004,
+    "floor_px": 24.0,
+    "worst_frame": 783,
+    "worst_seconds": 31.32,
+    "unsafe_frames": 0,
+    "first_unsafe_frames": [],
+    "scope": "Every matte frame, top edge of prepared person layer; no caption or semantic face claim"
+   },
+   "ship_seconds": 87.605111189,
+   "wall_s": 101.96270833304152,
+   "cost_usd": 0.039835796159862075
+  }
+ },
+ "no_chair_object": false,
+ "started": "2026-09-08T00:27:00",
+ "backend": "matanyone2",
+ "finished": "2026-09-08T00:45:23",
+ "wall_s": 699.0
+}

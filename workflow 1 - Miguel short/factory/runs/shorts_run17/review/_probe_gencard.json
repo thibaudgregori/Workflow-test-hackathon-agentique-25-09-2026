@@ -1,0 +1,28 @@
+{
+  "tag": "probe",
+  "cold_dir": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/probe-206beead",
+  "reader": "one independent `claude -p` process per crop, launched from /tmp, handed ONLY the absolute path of a blind copy under a random token - no plan, no topic, no manifest, no sealed key, and no path naming the video",
+  "prompt": "Look at the image at <absolute path of one blind crop> . Name the single everyday object drawn in it. At most FIVE words. Reply with ONE line of JSON and nothing else: {\"name\":\"<=5 words\",\"confidence\":\"sure|unsure|cannot tell\"}",
+  "dispatched_at": "2026-09-08T08:54:16",
+  "cli": "2.1.263 (Claude Code)",
+  "source_crops": {
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/proofs_eudisclosure_probe/A_big.png": "1097369c43810f759fe3f97681a61480c83f0d7773696ca89aff3e886b4a7bbe",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/proofs_eudisclosure_probe/B_mat.png": "e55d282aa82a063778dab170f52869e1546d11734934a6fc26e2b56fcbd773a6"
+  },
+  "names": [
+    {
+      "i": 0,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/probe-206beead/00.png",
+      "name": "sparkle over jagged line",
+      "confidence": "cannot tell",
+      "crop_sha256": "1097369c43810f759fe3f97681a61480c83f0d7773696ca89aff3e886b4a7bbe"
+    },
+    {
+      "i": 1,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/probe-206beead/01.png",
+      "name": "framed picture (photo frame)",
+      "confidence": "unsure",
+      "crop_sha256": "e55d282aa82a063778dab170f52869e1546d11734934a6fc26e2b56fcbd773a6"
+    }
+  ]
+}

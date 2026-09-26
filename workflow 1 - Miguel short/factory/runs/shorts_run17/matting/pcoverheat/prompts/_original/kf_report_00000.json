@@ -1,0 +1,58 @@
+{
+ "frame": 0,
+ "plate": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/pcoverheat/plate_wide_25.mp4",
+ "dark_threshold": 60,
+ "wing_right": null,
+ "wing_right_rows": "400,620",
+ "wing_left": null,
+ "wing_left_rows": "400,520",
+ "removed_right_px": 0,
+ "removed_left_px": 0,
+ "removed": {
+  "px": 0,
+  "median_luma": -1,
+  "max_luma": -1
+ },
+ "birefnet": {
+  "area": 456463,
+  "bands": {
+   "cap": {
+    "left": 718,
+    "right": 1065
+   },
+   "head": {
+    "left": 722,
+    "right": 1057
+   },
+   "jaw": {
+    "left": 572,
+    "right": 1156
+   },
+   "neck": {
+    "left": 434,
+    "right": 1352
+   }
+  }
+ },
+ "prompt": {
+  "area": 456463,
+  "bands": {
+   "cap": {
+    "left": 718,
+    "right": 1065
+   },
+   "head": {
+    "left": 722,
+    "right": 1057
+   },
+   "jaw": {
+    "left": 572,
+    "right": 1156
+   },
+   "neck": {
+    "left": 434,
+    "right": 1352
+   }
+  }
+ }
+}

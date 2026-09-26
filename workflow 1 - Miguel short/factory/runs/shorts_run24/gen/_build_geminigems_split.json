@@ -1,0 +1,1899 @@
+{
+ "video": "geminigems",
+ "lane": "diagram build",
+ "fps": 25,
+ "duration": 20.92,
+ "seam": 862.5,
+ "sfx": {
+  "whoosh": {
+   "mean_volume": "-17.5 dB"
+  },
+  "pop": {
+   "mean_volume": "-36.4 dB"
+  },
+  "click": {
+   "mean_volume": "-23.1 dB"
+  },
+  "_gains": {
+   "structure": 0.14,
+   "detail": 0.09,
+   "published_corpus_flat": 0.18,
+   "note": "a gain constant means nothing without its source loudness (SFX LAW v2); these are the run-9 to run-22 shipped values for THESE files"
+  }
+ },
+ "prep_markers": {
+  "cut": {
+   "id": "geminigems",
+   "stage": "cut",
+   "status": "ok",
+   "wall_s": 58.7,
+   "at": "2026-09-21T17:53:51",
+   "keys": {
+    "status": "ok",
+    "master": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/cuts/geminigems/master.mp4",
+    "audio": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/cuts/geminigems/audio.m4a",
+    "edl": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/cuts/geminigems/edl.json",
+    "transcript_tight": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/cuts/geminigems/transcript_tight.json",
+    "cut_master_duration_s": 20.92,
+    "analysis_wav_written": false,
+    "tight_audio_duration_s": 20.883,
+    "wall_s": 58.7
+   }
+  },
+  "plate": {
+   "id": "geminigems",
+   "stage": "plate",
+   "status": "ok",
+   "wall_s": 105.0,
+   "at": "2026-09-21T17:55:36",
+   "keys": {
+    "status": "ok",
+    "plate": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/matting/geminigems/plate_wide_25.mp4",
+    "crop": "2816x1760+440+226",
+    "scale_k": 0.511364,
+    "head_px_on_canvas": 449.9,
+    "overwide_applied": true,
+    "face_dx_pct": -0.01,
+    "visible_window_drift_master_px": 0.0,
+    "plate_json": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/matting/geminigems/plate.json",
+    "wall_s": 105.0
+   }
+  },
+  "prompt0": {
+   "id": "geminigems",
+   "stage": "prompt0",
+   "status": "ok",
+   "wall_s": 33.2,
+   "at": "2026-09-21T17:56:09",
+   "keys": {
+    "status": "ok",
+    "prompt0_status": "ok",
+    "prompt_png": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/matting/geminigems/prompts/kf_00000.png",
+    "overlay_png": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/matting/geminigems/prompts/kf_overlay_00000.png",
+    "wings_source": "MEASURED on this plate's frame 0",
+    "wing_right": null,
+    "wing_left": null,
+    "wing_cut_applied": false,
+    "wing_review": true,
+    "wing_review_note": "the instrument proposed no cut.  It abstains rather than guesses (see the module docstring: zero false positives, zero recall on the run-9 corpus).  Look at kf_overlay_00000.png; if a headrest wing is inside the green prompt, measure its inner column and pass an explicit `wings` block on the intake row.  If you miss one, the protrusion gate inside ship.py is the net.",
+    "removed_px": 0,
+    "prompt_area_px": 449909,
+    "wall_s": 33.2
+   }
+  },
+  "selection": {
+   "id": "geminigems",
+   "stage": "selection",
+   "status": "ok",
+   "wall_s": 74.32195974999922,
+   "at": "2026-09-21T17:58:23",
+   "keys": {
+    "status": "ok",
+    "selection": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/matting/geminigems/selection.json",
+    "wall_s": 74.32195974999922
+   }
+  },
+  "track": {
+   "id": "geminigems",
+   "stage": "track",
+   "status": "ok",
+   "wall_s": 69.26357708399883,
+   "at": "2026-09-21T18:00:49",
+   "keys": {
+    "status": "ok",
+    "backend": "matanyone2",
+    "model": "MatAnyone 2",
+    "alpha": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/matting/geminigems/alpha_v1.mkv",
+    "track_seconds": 55.670235175,
+    "cost_usd": 0.015794759123851,
+    "review_status": "needs_final_visual_review",
+    "wall_s": 69.26357708399883
+   }
+  },
+  "ship": {
+   "id": "geminigems",
+   "stage": "ship",
+   "status": "ok",
+   "wall_s": 76.2907647920074,
+   "at": "2026-09-21T18:00:49",
+   "keys": {
+    "status": "ok",
+    "backend": "matanyone2",
+    "frames": 523,
+    "width": 1584,
+    "height": 990,
+    "fps": 25.0,
+    "alpha_mode": "soft",
+    "rim_px": 7,
+    "temporal": 1,
+    "seconds": 58.444045353,
+    "estimated_compute_usd": 0.02657567630291616,
+    "fractional_alpha_pixels": 11233636,
+    "minimum_person_fraction": 0.3424631415161718,
+    "review_status": "needs_final_visual_review",
+    "ship_source_sha256": "0154788627eb98961c3eb2bc600e14d29cbc4f0de84b5c925b98e03e19bbd250",
+    "client_wall_seconds": 76.2907647920074,
+    "ship_seconds": 58.444045353,
+    "wall_s": 76.2907647920074,
+    "cost_usd": 0.02657567630291616
+   }
+  },
+  "cues": {
+   "id": "geminigems",
+   "stage": "cues",
+   "status": "ok",
+   "wall_s": 0.0,
+   "at": "2026-09-21T17:56:09",
+   "keys": {
+    "status": "ok",
+    "cue_count": 0,
+    "cues_json": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/gen/_cues_geminigems.json",
+    "wall_s": 0.0
+   }
+  }
+ },
+ "cutout_lanes_for_the_other_author": [
+  "chatgpt",
+  "grok",
+  "perplexity",
+  "copilot",
+  "kimi",
+  "deepseek"
+ ],
+ "formats": {
+  "split": {
+   "staged": {
+    "voice": {
+     "source": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/cuts/geminigems/audio.m4a",
+     "sample_rate": 48000,
+     "channels": 2
+    },
+    "music": {
+     "source": "/Users/migle/Documents/Workspace/assets/audio/music/shorts-factory/bed_split_v2.mp3",
+     "url": "assets/music/bed.mp3"
+    },
+    "sfx_sources": {
+     "whoosh": "/Users/migle/Documents/Workspace/assets/audio/sfx/shorts-factory/whoosh.mp3",
+     "pop": "/Users/migle/Documents/Workspace/assets/audio/sfx/shorts-factory/pop.mp3",
+     "click": "/Users/migle/Documents/Workspace/assets/audio/sfx/shorts-factory/click.mp3"
+    },
+    "face": {
+     "file": "face_bottom_hd.mp4",
+     "w": 1080,
+     "h": 1058
+    },
+    "marks": {
+     "gemini": {
+      "source": "/Users/migle/Documents/Workspace/assets/logos/ai-models/gemini-color.png",
+      "url": "assets/logos/gemini-color.png",
+      "bytes": 19333
+     },
+     "claude": {
+      "source": "/Users/migle/Documents/Workspace/assets/logos/ai-models/claude-color.png",
+      "url": "assets/logos/claude-color.png",
+      "bytes": 9337
+     }
+    }
+   },
+   "seat": 862.5,
+   "scale": 1.0,
+   "core": {
+    "left": 0.0,
+    "top": 192.0
+   },
+   "band": {
+    "content_top": 272.0,
+    "content_bottom": 760.0,
+    "law30_top_10pct": 192.0,
+    "pill_top": 805.21,
+    "pill_height_used": 114.59,
+    "pill_centre_used": 862.5,
+    "clear_above_pill": 45.21,
+    "core_top_used": 192.0,
+    "core_top_in_handoff": 192.0,
+    "core_raised_px": 0.0,
+    "note": "content_top is the core's declared CONTENT_Y0 (the chapter-2 parcel's box top) and content_bottom its CONTENT_Y1 (SUNSET OCT 20's box bottom in chapter 0).  NOTHING IS RAISED: this lane seats the core exactly where the handoff put it, so the cutout's boxes and this page's differ by scale alone."
+   },
+   "rail": {
+    "ink_left_x": 135.0,
+    "ink_right_x": 945.0,
+    "union_axis_x": 540.0,
+    "readable_type_left_x": 162.0,
+    "readable_type_right_x": 918.0,
+    "law30_rail_x": 918.0,
+    "rail_overshoot_px": 0.0,
+    "margins": [
+     135.0,
+     135.0
+    ],
+    "note": "the widest readable key is COMMUNITY, whose 176 px SEAT ends exactly on the 918 rail while its own type ink stops at 910.4 \u2014 the seat is the box, the ink is what the viewer reads, and neither crosses.  The widest ink box on the board is the crowd (715..945), a DRAWING and not readable type, which the round-4 amendment leaves to the composition.  The full-bleed outro sheet and the full-width outro lockup SEAT are excluded by name; the lockup's own ink is the centred handle chip inside it.  No caption pill crosses the rail (CAP.assert_law12 on the widest pill)."
+   },
+   "axis": {
+    "beats": [
+     {
+      "beat": 0,
+      "window": [
+       0.119,
+       2.74
+      ],
+      "at": 2.73,
+      "ink_left": 410.0,
+      "ink_right": 670.0,
+      "axis": 540.0,
+      "offset_from_540": 0.0,
+      "margins": [
+       410.0,
+       410.0
+      ],
+      "marks": [
+       "gem"
+      ]
+     },
+     {
+      "beat": 1,
+      "window": [
+       2.74,
+       5.52
+      ],
+      "at": 5.51,
+      "ink_left": 360.0,
+      "ink_right": 720.0,
+      "axis": 540.0,
+      "offset_from_540": 0.0,
+      "margins": [
+       360.0,
+       360.0
+      ],
+      "marks": [
+       "gem",
+       "gemini-tile",
+       "key-gemini-gems",
+       "key-sunset"
+      ]
+     },
+     {
+      "beat": 2,
+      "window": [
+       5.52,
+       7.8
+      ],
+      "at": 7.79,
+      "ink_left": 160.0,
+      "ink_right": 920.0,
+      "axis": 540.0,
+      "offset_from_540": 0.0,
+      "margins": [
+       160.0,
+       160.0
+      ],
+      "marks": [
+       "arrow",
+       "claude-tile",
+       "gem",
+       "gemini-tile",
+       "key-skills",
+       "parcel"
+      ]
+     },
+     {
+      "beat": 3,
+      "window": [
+       7.8,
+       10.46
+      ],
+      "at": 10.45,
+      "ink_left": 160.0,
+      "ink_right": 920.0,
+      "axis": 540.0,
+      "offset_from_540": 0.0,
+      "margins": [
+       160.0,
+       160.0
+      ],
+      "marks": [
+       "arrow",
+       "claude-tile",
+       "gem",
+       "gemini-tile",
+       "key-skills",
+       "parcel"
+      ]
+     },
+     {
+      "beat": 4,
+      "window": [
+       10.46,
+       14.18
+      ],
+      "at": 14.17,
+      "ink_left": 135.0,
+      "ink_right": 945.0,
+      "axis": 540.0,
+      "offset_from_540": 0.0,
+      "margins": [
+       135.0,
+       135.0
+      ],
+      "marks": [
+       "conn-left",
+       "conn-right",
+       "crowd",
+       "key-community",
+       "key-skills",
+       "key-teammates",
+       "parcel",
+       "trio"
+      ]
+     },
+     {
+      "beat": 5,
+      "window": [
+       14.18,
+       17.52
+      ],
+      "at": 17.51,
+      "ink_left": 135.0,
+      "ink_right": 945.0,
+      "axis": 540.0,
+      "offset_from_540": 0.0,
+      "margins": [
+       135.0,
+       135.0
+      ],
+      "marks": [
+       "conn-left",
+       "conn-right",
+       "crowd",
+       "key-community",
+       "key-skills",
+       "key-teammates",
+       "parcel",
+       "trio"
+      ]
+     },
+     {
+      "beat": 6,
+      "window": [
+       17.52,
+       20.92
+      ],
+      "at": 20.91,
+      "ink_left": 448.0,
+      "ink_right": 632.0,
+      "axis": 540.0,
+      "offset_from_540": 0.0,
+      "margins": [
+       448.0,
+       448.0
+      ],
+      "marks": [
+       "o-gem",
+       "o-glyph",
+       "o-rule"
+      ]
+     }
+    ],
+    "mode": "REPORTED",
+    "worst": {
+     "beat": 0,
+     "offset_px": 0.0
+    },
+    "frame_margin_floor_px": 40.0,
+    "excluded": [
+     "o-sheet",
+     "o-slot"
+    ],
+    "note": "the composition is SYMMETRIC about x = 540 in every chapter: chapter 0 is one centred stack, chapter 1's ink runs 160..920 and chapter 2's 135..945, both for an optical axis of exactly 540.0.  The one element that bleeds past the frame is the outro's opaque rising sheet, which is the ground itself and is excluded by name."
+   },
+   "law40": {
+    "connectors": {
+     "arrow": {
+      "target": "parcel",
+      "side": "left",
+      "fraction": 0.5,
+      "check_at": 8.6,
+      "end_core": [
+       660.0,
+       337.5
+      ],
+      "end_canvas": [
+       660.0,
+       529.5
+      ],
+      "start_core": [
+       440.0,
+       337.5
+      ],
+      "target_rect_at_check": [
+       660.0,
+       230.0,
+       920.0,
+       445.0
+      ],
+      "stroke_completes": 6.92,
+      "target_born": 7.16,
+      "connector_life": [
+       6.4,
+       10.46
+      ]
+     },
+     "conn-left": {
+      "target": "trio",
+      "side": "top",
+      "fraction": 0.5,
+      "check_at": 12.0,
+      "end_core": [
+       250.0,
+       318.0
+      ],
+      "end_canvas": [
+       250.0,
+       510.0
+      ],
+      "start_core": [
+       410.0,
+       187.5
+      ],
+      "target_rect_at_check": [
+       135.0,
+       318.0,
+       365.0,
+       508.0
+      ],
+      "stroke_completes": 11.36,
+      "target_born": 11.14,
+      "connector_life": [
+       10.9,
+       17.52
+      ]
+     },
+     "conn-right": {
+      "target": "crowd",
+      "side": "top",
+      "fraction": 0.5,
+      "check_at": 14.6,
+      "end_core": [
+       830.0,
+       318.0
+      ],
+      "end_canvas": [
+       830.0,
+       510.0
+      ],
+      "start_core": [
+       670.0,
+       187.5
+      ],
+      "target_rect_at_check": [
+       715.0,
+       318.0,
+       945.0,
+       508.0
+      ],
+      "stroke_completes": 11.36,
+      "target_born": 12.86,
+      "connector_life": [
+       10.9,
+       17.52
+      ]
+     }
+    },
+    "connectors_in_dom": 3,
+    "arrowheads": 0,
+    "fanout": [
+     "conn-left",
+     "conn-right"
+    ],
+    "ends_level_px": 0.0,
+    "ends_x": [
+     250.0,
+     830.0
+    ],
+    "mirror_error_px": 0.0,
+    "law40_letter": "Each connector has ONE target, so the law's level/mirror clause does not strictly bind \u2014 but the two fan-out strokes are authored as one aligned pair, so it is measured anyway: both ends come from SC.anchor_points(<target>_BOX, 1, 'top'), are level to 0.0 px and mirror-symmetric about x = 540.  No end is hand-placed on a drawing's outline and no stroke carries an arrowhead: every one terminates ON its target's virtual rectangle, mid-edge."
+   },
+   "law42": {
+    "board_mode": "chapters",
+    "chapters": 4,
+    "declared_anchors": [
+     "parcel",
+     "key-skills",
+     "o-sheet",
+     "o-glyph",
+     "o-gem",
+     "o-rule",
+     "o-slot"
+    ],
+    "plan_declared_anchors": [
+     "key-skills",
+     "o-gem",
+     "o-glyph",
+     "o-rule",
+     "o-sheet",
+     "o-slot",
+     "parcel"
+    ],
+    "marks_that_leave": [
+     "arrow",
+     "claude-tile",
+     "conn-left",
+     "conn-right",
+     "crowd",
+     "gem",
+     "gemini-tile",
+     "key-community",
+     "key-gemini-gems",
+     "key-skills",
+     "key-sunset",
+     "key-teammates",
+     "parcel",
+     "trio"
+    ],
+    "chapter_seams": [
+     5.52,
+     10.46,
+     17.52
+    ],
+    "shares": {
+     "gem": 0.486,
+     "gemini-tile": 0.359,
+     "key-gemini-gems": 0.105,
+     "key-sunset": 0.02,
+     "arrow": 0.194,
+     "parcel": 0.495,
+     "claude-tile": 0.158,
+     "key-skills": 0.479,
+     "conn-left": 0.316,
+     "conn-right": 0.316,
+     "trio": 0.305,
+     "key-teammates": 0.285,
+     "crowd": 0.223,
+     "key-community": 0.201,
+     "o-sheet": 0.163,
+     "o-glyph": 0.137,
+     "o-gem": 0.107,
+     "o-rule": 0.077,
+     "o-slot": 0.07
+    },
+    "over_40pct_all_declared": {
+     "gem": {
+      "share": 0.486,
+      "declaration": "finite t_to at 10.46"
+     },
+     "parcel": {
+      "share": 0.495,
+      "declaration": "finite t_to at 17.52"
+     },
+     "key-skills": {
+      "share": 0.479,
+      "declaration": "finite t_to at 17.52"
+     }
+    },
+    "plan_boards_mode": "chapters",
+    "board_mode_reason": "LAW 43: chapters are the default and this script changes SUBJECT twice - the dead product, then the replacement pair, then the fan-out to two audiences. Holding all nine marks on one board would put the pair and the crowd at a scale the Phone Test would refuse. Each seam is a HANDOVER, never a blank: at 5.52 the gem and its tile are already travelling left while the two keys fade, and at 10.46 the parcel and its SKILLS key are already travelling to the axis while the gem, the tile and the arrow fade.",
+    "note": "every board mark carries a finite window that lands on a declared chapter seam; the only open-ended marks are the five outro marks, all named in SC.SCENE_ANCHORS and born after the rising sheet.  The parcel holds 49.5 % and is ALSO named in board_anchors \u2014 it is the spine the fan-out points back at."
+   },
+   "law38": {
+    "groups": [],
+    "border_flips": [
+     {
+      "target": "claude-tile",
+      "from": 8.26,
+      "to": 10.32,
+      "from_ink": "rgba(17,17,17,0.16)",
+      "to_ink": "#C4573A",
+      "declared": false,
+      "dom_primitive": "the tile's OWN 3 px border flips rgba(17,17,17,0.16) -> #C4573A and back with the sentence; no element is added, so no gutter moves and no box can crowd it"
+     }
+    ],
+    "rings_ellipses_circles": 0,
+    "highlights": 0,
+    "separate_emphasis_elements": 0,
+    "emphases_total": 1,
+    "why": "LAW 38 rule 1 gives TEXT IN A RASTER the marker highlight, and this video prints NO raster-borne type at all \u2014 there is no source card, no screenshot and no capture, only the two registry marks in their tiles \u2014 so rule 1 has no instance.  Rule 2 gives a DRAWN target BOXING, whose GRAPHIC CHART form (clause 6) is the panel border flip; the Claude tile is a drawn panel with its own stroke, so the emphasis IS that stroke.  No separate element exists for it to carry `data-emphasis`, and declaring the target as its own `data-emphasis-target` would make visual_laws compare an element's ink with itself.  Rule 3: no ring, no ellipse, no circle \u2014 the module emits no <circle> tag at all, and even the heads in the two people drawings are two-arc <path>s (SC._circle_path)."
+   },
+   "law41": {
+    "pairs_measured": 894,
+    "judged": 338,
+    "samples_skipped_mid_travel": 3,
+    "tightest_core_px": 27.0,
+    "tightest_pair": [
+     "o-rule",
+     "o-slot",
+     19.5
+    ],
+    "floor": 24.0,
+    "refusal_line": 16.0,
+    "split_scale_k": 1.0,
+    "tightest_on_this_page_px": 27.0,
+    "under_aim": [],
+    "blocks": [
+     [
+      "gemini-tile",
+      "gem",
+      "key-gemini-gems",
+      "key-sunset"
+     ],
+     [
+      "claude-tile",
+      "parcel",
+      "key-skills"
+     ],
+     [
+      "trio",
+      "key-teammates"
+     ],
+     [
+      "crowd",
+      "key-community"
+     ],
+     [
+      "o-glyph",
+      "o-gem"
+     ]
+    ],
+    "overlap_ok": [
+     "arrow",
+     "conn-left",
+     "conn-right",
+     "o-gem",
+     "o-sheet"
+    ],
+    "bleed": [
+     "o-sheet"
+    ],
+    "gate_scaling_note": "every non-block gutter here is authored at >= 20 CORE px and the load-bearing ones at 45, so the cutout's ~0.95 seat still clears 43 canvas px; this lane's k is 1.00, so the core number IS the page number",
+    "instrument": "this build's own co-alive sweep at 0.25 s over the module's rects, with each travelling mark read at the seat it actually occupies; geometry_audit --strict is the independent measurement on the rendered page"
+   },
+   "law39": {
+    "key-gemini-gems": {
+     "host": "gem",
+     "side": "below",
+     "text": "GEMINI GEMS",
+     "key_box_core": [
+      360.0,
+      460.0,
+      720.0,
+      518.0
+     ],
+     "host_box_core": [
+      410.0,
+      230.0,
+      670.0,
+      445.0
+     ],
+     "key_box_canvas": [
+      360.0,
+      652.0,
+      720.0,
+      710.0
+     ],
+     "centre_error_px": 0.0,
+     "band_px": 39.0,
+     "gap_px": 15.0,
+     "at": 3.32,
+     "host_at": 0.3,
+     "travels_with_host": false,
+     "delay_after_host_s": 3.02
+    },
+    "key-sunset": {
+     "host": "gem",
+     "side": "below",
+     "text": "SUNSET OCT 20",
+     "key_box_core": [
+      416.0,
+      524.0,
+      664.0,
+      568.0
+     ],
+     "host_box_core": [
+      410.0,
+      230.0,
+      670.0,
+      445.0
+     ],
+     "key_box_canvas": [
+      416.0,
+      716.0,
+      664.0,
+      760.0
+     ],
+     "centre_error_px": 0.0,
+     "band_px": 39.0,
+     "gap_px": 79.0,
+     "at": 5.1,
+     "host_at": 0.3,
+     "travels_with_host": false,
+     "delay_after_host_s": 4.8
+    },
+    "key-skills": {
+     "host": "parcel",
+     "side": "below",
+     "text": "SKILLS",
+     "key_box_core": [
+      728.0,
+      468.0,
+      852.0,
+      512.0
+     ],
+     "host_box_core": [
+      660.0,
+      230.0,
+      920.0,
+      445.0
+     ],
+     "key_box_canvas": [
+      728.0,
+      660.0,
+      852.0,
+      704.0
+     ],
+     "centre_error_px": 0.0,
+     "band_px": 39.0,
+     "gap_px": 23.0,
+     "at": 7.5,
+     "host_at": 7.16,
+     "travels_with_host": true,
+     "delay_after_host_s": 0.34
+    },
+    "key-teammates": {
+     "host": "trio",
+     "side": "below",
+     "text": "TEAMMATES",
+     "key_box_core": [
+      162.0,
+      520.0,
+      338.0,
+      564.0
+     ],
+     "host_box_core": [
+      135.0,
+      318.0,
+      365.0,
+      508.0
+     ],
+     "key_box_canvas": [
+      162.0,
+      712.0,
+      338.0,
+      756.0
+     ],
+     "centre_error_px": 0.0,
+     "band_px": 34.5,
+     "gap_px": 12.0,
+     "at": 11.56,
+     "host_at": 11.14,
+     "travels_with_host": false,
+     "delay_after_host_s": 0.42
+    },
+    "key-community": {
+     "host": "crowd",
+     "side": "below",
+     "text": "COMMUNITY",
+     "key_box_core": [
+      742.0,
+      520.0,
+      918.0,
+      564.0
+     ],
+     "host_box_core": [
+      715.0,
+      318.0,
+      945.0,
+      508.0
+     ],
+     "key_box_canvas": [
+      742.0,
+      712.0,
+      918.0,
+      756.0
+     ],
+     "centre_error_px": 0.0,
+     "band_px": 34.5,
+     "gap_px": 12.0,
+     "at": 13.32,
+     "host_at": 12.86,
+     "travels_with_host": false,
+     "delay_after_host_s": 0.46
+    },
+    "_law50": {
+     "siblings": [
+      "key-teammates",
+      "key-community"
+     ],
+     "side": "below",
+     "baseline_core_y": 520.0,
+     "seat_w": 176.0,
+     "font_px": 28.0,
+     "verdict": "PASS \u2014 TEAMMATES and COMMUNITY name the two halves of one comparison, sit on the same side of their own objects, share one 176 px seat and one baseline (core y 520)",
+     "not_siblings": "GEMINI GEMS and SUNSET OCT 20 both hang under the gem but are different CLASSES of label \u2014 a key term and a date stamp \u2014 so LAW 50's sibling rule is not engaged by that pair (the plan says so too)"
+    },
+    "_key_term": {
+     "text": "GEMINI GEMS",
+     "at": 3.32,
+     "font_px": 48.0,
+     "design_units": 25.6,
+     "other_key_font_px": 28.0,
+     "seat_canvas": [
+      360.0,
+      652.0,
+      720.0,
+      710.0
+     ],
+     "debut_axis": "x = 540, the gem's own axis to 0.0 px.  It is the FIRST type in the video \u2014 nothing raster-borne carries type here at all \u2014 and it is alone for 1.78 s.",
+     "first_type_at": 3.32,
+     "alone_until": 5.1,
+     "type_order": [
+      [
+       "key-gemini-gems",
+       3.32
+      ],
+      [
+       "key-sunset",
+       5.1
+      ],
+      [
+       "key-skills",
+       7.5
+      ],
+      [
+       "key-teammates",
+       11.56
+      ],
+      [
+       "key-community",
+       13.32
+      ]
+     ]
+    },
+    "_hook": {
+     "object": "a cut gemstone with a crack through it \u2014 the video's idea (a thing called a Gem is broken and finished) as ONE everyday object, drawn complete from its first settled frame, and the outro's themed glyph carries the same stone",
+     "first_ink_at": 0.3,
+     "opens_centred_on_x": 540.0,
+     "alone_until": 2.94,
+     "one_displacement_at": 5.52,
+     "displacement": "the gem translates 250 px left with its tile, once, then holds (LAW 1 / LAW 19)"
+    }
+   },
+   "law37": {
+    "scan_cue_count": 0,
+    "plan_declared_cards": 0,
+    "prep_marker": "prep/stages/geminigems.cues.json -> cue_count 0",
+    "verdict": "PASS \u2014 he cites nobody and points at nothing, so no source card is raised and there is nothing to waive",
+    "rasters_on_this_page": 2,
+    "rasters_note": "the only two rasters in the whole video are the Gemini and Claude registry marks inside their 112 px tiles; there is no screenshot, no post card and no source capture of any kind",
+    "instrument": "pointing_cues.scan re-run on transcript_tight.json"
+   },
+   "law2": {
+    "stage_marks": 2,
+    "assert_cast_resolves": {
+     "gemini": {
+      "path": "/Users/migle/Documents/Workspace/assets/logos/ai-models/gemini-color.png",
+      "bytes": 19333,
+      "size": [
+       640,
+       640
+      ],
+      "ink_fill": 0.353,
+      "quantised_colours": 77,
+      "diag_fwd": 0.381,
+      "diag_back": 0.381,
+      "bbox": [
+       26,
+       26,
+       614,
+       614
+      ]
+     },
+     "claude": {
+      "path": "/Users/migle/Documents/Workspace/assets/logos/ai-models/claude-color.png",
+      "bytes": 9337,
+      "size": [
+       640,
+       640
+      ],
+      "ink_fill": 0.399,
+      "quantised_colours": 1,
+      "diag_fwd": 0.463,
+      "diag_back": 0.541,
+      "bbox": [
+       0,
+       0,
+       640,
+       640
+      ]
+     }
+    },
+    "ink_aspects": {
+     "gemini": 1.0,
+     "claude": 1.0
+    },
+    "size_core_px": {
+     "gemini": 74.0,
+     "claude": 74.0
+    },
+    "tile_px": 112.0,
+    "cutout_lanes_not_ours": [
+     "chatgpt",
+     "grok",
+     "perplexity",
+     "copilot",
+     "kimi",
+     "deepseek"
+    ],
+    "why": "LAW 2 binds a NAMED model to its logo, and this script names two: Gemini (whose product is dying) and, by naming the standard, Anthropic's Claude.  LAW 35 takes the PRODUCT mark: gemini-color, and claude-color rather than the anthropic-wordmark company lockup \u2014 never claude-code and never the white-outlined sticker.  Marks are sized BY THEIR INK to 74 px inside the 112 px tile (LAW 33: real registry marks, never generic glyphs)."
+   },
+   "law22": {
+    "events": 18,
+    "tightest_gap_s": 0.34,
+    "tightest_pair_s": [
+     7.16,
+     7.5
+    ],
+    "kinds": {
+     "pop": 7,
+     "click": 8,
+     "whoosh": 3
+    },
+    "rule": "an OBJECT arriving takes a pop at structure gain; a written KEY takes a click at detail gain; the machine ACTING (a stroke drawing, a lid opening) takes a click at structure gain; a DISPLACEMENT, a camera MOVE or the outro sheet takes a whoosh",
+    "deliberately_silent": {
+     "crack@0.520": "MEASURED: the gem's own arrival pop is at 0.300 and the crack is 0.220 s later \u2014 inside the 0.30 s flam line.  The stone appearing and the stone breaking are ONE opening gesture, and the pop is what the ear is given for it.",
+     "emph@8.260 / emphout@10.320": "a colour flip is not an arrival; nothing appears and nothing leaves, so nothing is struck",
+     "conn@10.900": "MEASURED: the two connectors draw at 10.900 and the pair they point at lands 0.240 s later \u2014 inside the flam line.  The stroke reaching its target and the target arriving are one gesture; the pair's pop is the event the ear needs.",
+     "key_skills@7.500 is kept, o_slot@19.450 is not": "the lockup rises 0.150 s after the terracotta rule, one continuous outro gesture; the rule's click covers both",
+     "seam erases": "a chapter erase here HANDS OVER by carrying its object across, and the carry is scored as the displacement it is (whoosh at 5.52 and 10.46), never twice"
+    }
+   },
+   "cues": {
+    "crack": {
+     "word_spoken": 2,
+     "text": "killed",
+     "edge": "start",
+     "t": 0.52,
+     "word_edge": 0.52
+    },
+    "tile_g": {
+     "word_spoken": 11,
+     "text": "Gemini",
+     "edge": "start",
+     "t": 2.94,
+     "word_edge": 2.94
+    },
+    "keyterm": {
+     "word_spoken": 12,
+     "text": "Gems",
+     "edge": "start",
+     "t": 3.32,
+     "word_edge": 3.32
+    },
+    "seam1": {
+     "word_spoken": 19,
+     "text": "and",
+     "edge": "start",
+     "t": 5.52,
+     "word_edge": 5.52
+    },
+    "arrow": {
+     "word_spoken": 23,
+     "text": "replaced",
+     "edge": "start",
+     "t": 6.4,
+     "word_edge": 6.4
+    },
+    "parcel": {
+     "word_spoken": 25,
+     "text": "Skills,",
+     "edge": "start",
+     "t": 7.16,
+     "word_edge": 7.16
+    },
+    "emph": {
+     "word_spoken": 28,
+     "text": "standard",
+     "edge": "start",
+     "t": 8.26,
+     "word_edge": 8.26
+    },
+    "open": {
+     "word_spoken": 31,
+     "text": "sharing",
+     "edge": "start",
+     "t": 9.08,
+     "word_edge": 9.08
+    },
+    "seam2": {
+     "word_spoken": 35,
+     "text": "either",
+     "edge": "start",
+     "t": 10.46,
+     "word_edge": 10.46
+    },
+    "trio": {
+     "word_spoken": 38,
+     "text": "teammates",
+     "edge": "start",
+     "t": 11.14,
+     "word_edge": 11.14
+    },
+    "outro": {
+     "word_spoken": 59,
+     "text": "Don't",
+     "edge": "start",
+     "t": 17.52,
+     "word_edge": 17.52
+    },
+    "o_gem": {
+     "word_spoken": 62,
+     "text": "migrate",
+     "edge": "start",
+     "t": 18.68,
+     "word_edge": 18.68
+    },
+    "gem": {
+     "word_spoken": 0,
+     "text": "Google",
+     "edge": "inside",
+     "t": 0.3,
+     "window": [
+      0.12,
+      1.32
+     ]
+    },
+    "date": {
+     "word_spoken": 18,
+     "text": "20th,",
+     "edge": "inside",
+     "t": 5.1,
+     "window": [
+      5.06,
+      6.28
+     ]
+    },
+    "key_skills": {
+     "word_spoken": 25,
+     "text": "Skills,",
+     "edge": "inside",
+     "t": 7.5,
+     "window": [
+      7.16,
+      8.46
+     ]
+    },
+    "emphout": {
+     "word_spoken": 34,
+     "text": "workflows,",
+     "edge": "inside",
+     "t": 10.32,
+     "window": [
+      9.86,
+      11.32
+     ]
+    },
+    "conn": {
+     "word_spoken": 36,
+     "text": "with",
+     "edge": "inside",
+     "t": 10.9,
+     "window": [
+      10.74,
+      11.86
+     ]
+    },
+    "key_team": {
+     "word_spoken": 38,
+     "text": "teammates",
+     "edge": "inside",
+     "t": 11.56,
+     "window": [
+      11.14,
+      12.52
+     ]
+    },
+    "crowd": {
+     "word_spoken": 41,
+     "text": "members",
+     "edge": "inside",
+     "t": 12.86,
+     "window": [
+      12.36,
+      13.78
+     ]
+    },
+    "key_comm": {
+     "word_spoken": 44,
+     "text": "community.",
+     "edge": "inside",
+     "t": 13.32,
+     "window": [
+      13.28,
+      14.74
+     ]
+    },
+    "o_glyph": {
+     "word_spoken": 60,
+     "text": "forget",
+     "edge": "inside",
+     "t": 18.05,
+     "window": [
+      17.68,
+      19.1
+     ]
+    },
+    "o_rule": {
+     "word_spoken": 64,
+     "text": "gems,",
+     "edge": "inside",
+     "t": 19.3,
+     "window": [
+      19.2,
+      20.46
+     ]
+    },
+    "o_slot": {
+     "word_spoken": 64,
+     "text": "gems,",
+     "edge": "inside",
+     "t": 19.45,
+     "window": [
+      19.2,
+      20.46
+     ]
+    },
+    "_free": {
+     "law45": {
+      "board_mode": "chapters",
+      "erases": 3,
+      "seams": [
+       {
+        "erase_at": 5.52,
+        "last_word_ends": 5.28,
+        "fade_s": 0.22,
+        "erase_completes": 5.74,
+        "hands_over_by": "carry",
+        "carried_across": [
+         "gem",
+         "gemini-tile"
+        ],
+        "next_object": "arrow",
+        "next_object_at": 6.4
+       },
+       {
+        "erase_at": 10.46,
+        "last_word_ends": 10.32,
+        "fade_s": 0.22,
+        "erase_completes": 10.68,
+        "hands_over_by": "carry",
+        "carried_across": [
+         "parcel",
+         "key-skills"
+        ],
+        "next_object": "conn-left",
+        "next_object_at": 10.9
+       },
+       {
+        "erase_at": 17.52,
+        "last_word_ends": 17.04,
+        "fade_s": 0.22,
+        "erase_completes": 17.74,
+        "hands_over_by": "carry",
+        "carried_across": [
+         "o-sheet"
+        ],
+        "next_object": "o-sheet",
+        "next_object_at": 17.52
+       }
+      ],
+      "verdict": "PASS \u2014 the first two seams CARRY the outgoing chapter's complete object across (the gem and its tile travel left, the parcel and its key travel to the axis), which is LAW 45's second sanctioned form; the third hands over to the opaque rising sheet, fully painted at 17.98"
+     },
+     "outro": {
+      "t": 17.52,
+      "last_board_event_completes": 13.6,
+      "clear_s": 3.92,
+      "sheet": {
+       "d": 0.46,
+       "kind": "OPAQUE RISING SHEET, never a fade and never a scrim"
+      }
+     }
+    }
+   },
+   "word_sync": {
+    "states_checked": 5,
+    "disagreements": 0,
+    "states": [
+     {
+      "state": "key-gemini-gems",
+      "first_visible_text": "GEMINI GEMS",
+      "at": 3.32,
+      "word": "Gems",
+      "word_window": [
+       3.32,
+       4.52
+      ],
+      "agrees": true,
+      "why": "GEMINI GEMS lands on the spoken 'Gems'; its other word 'Gemini' was spoken at 2.94, so nothing peeks ahead (LAW 24)"
+     },
+     {
+      "state": "key-sunset",
+      "first_visible_text": "SUNSET OCT 20",
+      "at": 5.1,
+      "word": "20th,",
+      "word_window": [
+       5.06,
+       6.28
+      ],
+      "agrees": true,
+      "why": "SUNSET OCT 20 shows only after the NUMBER is spoken ('20th', 5.06-5.28) \u2014 never on the earlier word 'sunset' (3.94), because the line reads OCT 20 and LAW 24 forbids a number the viewer has not heard"
+     },
+     {
+      "state": "key-skills",
+      "first_visible_text": "SKILLS",
+      "at": 7.5,
+      "word": "Skills,",
+      "word_window": [
+       7.16,
+       8.46
+      ],
+      "agrees": true,
+      "why": "SKILLS lands inside the spoken 'Skills,' (7.16-7.46)"
+     },
+     {
+      "state": "key-teammates",
+      "first_visible_text": "TEAMMATES",
+      "at": 11.56,
+      "word": "teammates",
+      "word_window": [
+       11.14,
+       12.52
+      ],
+      "agrees": true,
+      "why": "TEAMMATES lands inside the spoken 'teammates' (11.14-11.52)"
+     },
+     {
+      "state": "key-community",
+      "first_visible_text": "COMMUNITY",
+      "at": 13.32,
+      "word": "community.",
+      "word_window": [
+       13.28,
+       14.74
+      ],
+      "agrees": true,
+      "why": "COMMUNITY lands inside the spoken 'community.' (13.28-13.74)"
+     }
+    ],
+    "digits_that_tick": 0,
+    "note": "nothing counts up on this board.  The only number typed anywhere in the video is the 20 inside SUNSET OCT 20, and it is a STATIC date that first appears 0.04 s after the word '20th' starts.  The other state changes are the crack (0.52, on 'killed'), the border flip (8.26, on 'standard'), the lid opening (9.08, on 'sharing') and the gem dropping into the parcel (18.68, on 'migrate'), and each is cut on the word the cue table verifies."
+   },
+   "production_v2_declarations": {
+    "connectors_stamped": 3,
+    "emphases_stamped": 0,
+    "labels_repointed": 0,
+    "contracts": {
+     "connectors": {
+      "arrow": {
+       "target": "parcel",
+       "side": "left",
+       "fraction": 0.5,
+       "check_at": 8.6,
+       "end_core": [
+        660.0,
+        337.5
+       ],
+       "end_canvas": [
+        660.0,
+        529.5
+       ],
+       "start_core": [
+        440.0,
+        337.5
+       ],
+       "target_rect_at_check": [
+        660.0,
+        230.0,
+        920.0,
+        445.0
+       ],
+       "stroke_completes": 6.92,
+       "target_born": 7.16,
+       "connector_life": [
+        6.4,
+        10.46
+       ]
+      },
+      "conn-left": {
+       "target": "trio",
+       "side": "top",
+       "fraction": 0.5,
+       "check_at": 12.0,
+       "end_core": [
+        250.0,
+        318.0
+       ],
+       "end_canvas": [
+        250.0,
+        510.0
+       ],
+       "start_core": [
+        410.0,
+        187.5
+       ],
+       "target_rect_at_check": [
+        135.0,
+        318.0,
+        365.0,
+        508.0
+       ],
+       "stroke_completes": 11.36,
+       "target_born": 11.14,
+       "connector_life": [
+        10.9,
+        17.52
+       ]
+      },
+      "conn-right": {
+       "target": "crowd",
+       "side": "top",
+       "fraction": 0.5,
+       "check_at": 14.6,
+       "end_core": [
+        830.0,
+        318.0
+       ],
+       "end_canvas": [
+        830.0,
+        510.0
+       ],
+       "start_core": [
+        670.0,
+        187.5
+       ],
+       "target_rect_at_check": [
+        715.0,
+        318.0,
+        945.0,
+        508.0
+       ],
+       "stroke_completes": 11.36,
+       "target_born": 12.86,
+       "connector_life": [
+        10.9,
+        17.52
+       ]
+      }
+     },
+     "emphases": {}
+    },
+    "why": "the shared scene emits `data-connect-to` on its three connectors but no anchor and no instant, because only a FORMAT knows the timeline it seats them on; both are re-derived from the target's own built rect AT THE CHECK INSTANT (four marks travel, so a constant rect would be the wrong rect) and stamped here, on the emitted string only.  ZERO `data-emphasis` is stamped: the one emphasis in this video is a border flip on the Claude tile's own stroke and no separate element exists to declare.  All five `data-label-for` hosts are real DOM ids, so nothing is repointed."
+   },
+   "draw_on_law": {
+    "drawn_paths": 4,
+    "rows": [
+     {
+      "class": "crk",
+      "pathLength": 100,
+      "authored_element_opacity": null
+     },
+     {
+      "class": "cline",
+      "pathLength": 100,
+      "authored_element_opacity": null
+     },
+     {
+      "class": "cline",
+      "pathLength": 100,
+      "authored_element_opacity": null
+     },
+     {
+      "class": "cline",
+      "pathLength": 100,
+      "authored_element_opacity": null
+     }
+    ],
+    "strokes_revealed": 0,
+    "dashes_closed": 0,
+    "module_bytes_changed": 0,
+    "verdict": "PASS \u2014 every drawn stroke declares pathLength=\"100\", so `draw()`'s fixed dasharray of 100 equals the path's own declared length and the finished stroke is whole.  None of them authors element opacity 0, so run 22's reveal repair has no instance here and this lane changes nothing on the emitted tween list."
+   },
+   "plan_geometry": {
+    "verdict": "PASS",
+    "objects": {
+     "a cracked gem": {
+      "plan_bbox_norm": [
+       0.3796,
+       0.2198,
+       0.6204,
+       0.3318
+      ],
+      "built_bbox_norm": [
+       0.37963,
+       0.21979,
+       0.62037,
+       0.33177
+      ],
+      "built_core": [
+       410.0,
+       230.0,
+       670.0,
+       445.0
+      ],
+      "built_canvas": [
+       410.0,
+       422.0,
+       670.0,
+       637.0
+      ],
+      "max_delta_px": 0.056
+     },
+     "a tied parcel": {
+      "plan_bbox_norm": [
+       0.6111,
+       0.225,
+       0.8519,
+       0.337
+      ],
+      "built_bbox_norm": [
+       0.61111,
+       0.21979,
+       0.85185,
+       0.33177
+      ],
+      "built_core": [
+       660.0,
+       230.0,
+       920.0,
+       445.0
+      ],
+      "built_canvas": [
+       660.0,
+       422.0,
+       920.0,
+       637.0
+      ],
+      "max_delta_px": 10.04
+     },
+     "two people together": {
+      "plan_bbox_norm": [
+       0.125,
+       0.2656,
+       0.338,
+       0.3646
+      ],
+      "built_bbox_norm": [
+       0.125,
+       0.26562,
+       0.33796,
+       0.36458
+      ],
+      "built_core": [
+       135.0,
+       318.0,
+       365.0,
+       508.0
+      ],
+      "built_canvas": [
+       135.0,
+       510.0,
+       365.0,
+       700.0
+      ],
+      "max_delta_px": 0.048
+     },
+     "a crowd of people": {
+      "plan_bbox_norm": [
+       0.662,
+       0.2656,
+       0.875,
+       0.3646
+      ],
+      "built_bbox_norm": [
+       0.66204,
+       0.26562,
+       0.875,
+       0.36458
+      ],
+      "built_core": [
+       715.0,
+       318.0,
+       945.0,
+       508.0
+      ],
+      "built_canvas": [
+       715.0,
+       510.0,
+       945.0,
+       700.0
+      ],
+      "max_delta_px": 0.048
+     }
+    },
+    "worst_delta_px": 10.04,
+    "objects_compared": 4,
+    "tolerance_px": 12.0,
+    "note": "the plan carries no `core_box` block for this recording \u2014 only normalised canvas boxes sketched before the drawings existed \u2014 so the comparison is made in normalised space with a 12 px tolerance and every delta is printed: three of the four land inside 0.1 px, and the parcel sits 10.0 px HIGHER than the sketch because the drawing that was finally made shares the gem's own 260x215 authoring box and its baseline.  The held instants match exactly."
+   },
+   "transcript": {
+    "partials_dropped": [],
+    "token_merges": [],
+    "law47_tail_s": 0.28,
+    "law47_cap_s": 0.24,
+    "law47_overshoot_s": 0.04,
+    "law47_verdict": "REPORTED \u2014 0.280s against a 0.240s cap",
+    "law46": "the scripted opening \"google just killed another one of their products yet again\" occurs ONCE inside the keeper take, at word 0 / 0.12 s; the raw has 8 openings and the cut keeps the last one that reaches the sign-off",
+    "take_corroboration": {
+     "source": "cuts/geminigems/edl.json -> take_detection",
+     "method": "last scripted opening that reaches the spoken sign-off; the content rule decides, the marker rule and the gap sweep witness",
+     "raw_word_index": 266,
+     "raw_start_s": 112.66,
+     "words": 72,
+     "of_raw_words": 338,
+     "openings": 8,
+     "sign_offs_found": 1,
+     "marker_rule": "equality",
+     "marker_answer": 266,
+     "markers_before_take": 8,
+     "marker_note": "EQUALITY is the strongest form; BOUND is legal and expected when abandonments carry no partial word; ABSTAINS is legal on a raw with no markers at all.",
+     "gap_rule": "band",
+     "gap_correct_thresholds": [
+      0.8,
+      0.9,
+      1.0,
+      1.5,
+      2.0
+     ],
+     "corroboration": {
+      "marker": "equality",
+      "gap": "band",
+      "witnessed": true,
+      "allow_uncorroborated": false
+     }
+    },
+    "words": 72,
+    "phrase_groups_repartitioned": 8,
+    "function_word_merges": 0,
+    "beats_before_merge": 23,
+    "board_keys_forbidden_at_split": [
+     "community",
+     "community!",
+     "community,",
+     "community.",
+     "community?",
+     "gemini gems",
+     "gemini gems!",
+     "gemini gems,",
+     "gemini gems.",
+     "gemini gems?",
+     "skills",
+     "skills!",
+     "skills,",
+     "skills.",
+     "skills?",
+     "sunset oct 20",
+     "sunset oct 20!",
+     "sunset oct 20,",
+     "sunset oct 20.",
+     "sunset oct 20?",
+     "teammates",
+     "teammates!",
+     "teammates,",
+     "teammates.",
+     "teammates?"
+    ],
+    "orphan_repartitions": [],
+    "board_key_echo_repairs": [],
+    "solo_word_merges": [],
+    "caption_echoes_not_overlapping": []
+   },
+   "phone_test_objects": [
+    {
+     "name": "a cracked gem",
+     "t": 2.0,
+     "space": "norm",
+     "bbox": [
+      0.37963,
+      0.21979,
+      0.62037,
+      0.33177
+     ],
+     "canvas": [
+      410.0,
+      422.0,
+      670.0,
+      637.0
+     ],
+     "phone_px": [
+      98,
+      81
+     ]
+    },
+    {
+     "name": "a tied parcel",
+     "t": 8.6,
+     "space": "norm",
+     "bbox": [
+      0.61111,
+      0.21979,
+      0.85185,
+      0.33177
+     ],
+     "canvas": [
+      660.0,
+      422.0,
+      920.0,
+      637.0
+     ],
+     "phone_px": [
+      98,
+      81
+     ]
+    },
+    {
+     "name": "two people together",
+     "t": 12.0,
+     "space": "norm",
+     "bbox": [
+      0.125,
+      0.26562,
+      0.33796,
+      0.36458
+     ],
+     "canvas": [
+      135.0,
+      510.0,
+      365.0,
+      700.0
+     ],
+     "phone_px": [
+      86,
+      71
+     ]
+    },
+    {
+     "name": "a crowd of people",
+     "t": 14.6,
+     "space": "norm",
+     "bbox": [
+      0.66204,
+      0.26562,
+      0.875,
+      0.36458
+     ],
+     "canvas": [
+      715.0,
+      510.0,
+      945.0,
+      700.0
+     ],
+     "phone_px": [
+      86,
+      71
+     ]
+    }
+   ],
+   "phone_test_vs_plan": {
+    "objects": [
+     {
+      "plan_name": "a cracked gem",
+      "built_name": "a cracked gem",
+      "plan_t": 2.0,
+      "built_t": 2.0,
+      "plan_bbox": [
+       0.3796,
+       0.2198,
+       0.6204,
+       0.3318
+      ],
+      "built_bbox": [
+       0.37963,
+       0.21979,
+       0.62037,
+       0.33177
+      ],
+      "built_core_box": [
+       410.0,
+       230.0,
+       670.0,
+       445.0
+      ],
+      "plan_phone_px": [
+       98,
+       81
+      ],
+      "built_phone_px": [
+       98,
+       81
+      ],
+      "max_delta_px": 0.06
+     },
+     {
+      "plan_name": "a tied parcel",
+      "built_name": "a tied parcel",
+      "plan_t": 8.6,
+      "built_t": 8.6,
+      "plan_bbox": [
+       0.6111,
+       0.225,
+       0.8519,
+       0.337
+      ],
+      "built_bbox": [
+       0.61111,
+       0.21979,
+       0.85185,
+       0.33177
+      ],
+      "built_core_box": [
+       660.0,
+       230.0,
+       920.0,
+       445.0
+      ],
+      "plan_phone_px": [
+       98,
+       81
+      ],
+      "built_phone_px": [
+       98,
+       81
+      ],
+      "max_delta_px": 10.04
+     },
+     {
+      "plan_name": "two people together",
+      "built_name": "two people together",
+      "plan_t": 12.0,
+      "built_t": 12.0,
+      "plan_bbox": [
+       0.125,
+       0.2656,
+       0.338,
+       0.3646
+      ],
+      "built_bbox": [
+       0.125,
+       0.26562,
+       0.33796,
+       0.36458
+      ],
+      "built_core_box": [
+       135.0,
+       318.0,
+       365.0,
+       508.0
+      ],
+      "plan_phone_px": [
+       86,
+       71
+      ],
+      "built_phone_px": [
+       86,
+       71
+      ],
+      "max_delta_px": 0.04
+     },
+     {
+      "plan_name": "a crowd of people",
+      "built_name": "a crowd of people",
+      "plan_t": 14.6,
+      "built_t": 14.6,
+      "plan_bbox": [
+       0.662,
+       0.2656,
+       0.875,
+       0.3646
+      ],
+      "built_bbox": [
+       0.66204,
+       0.26562,
+       0.875,
+       0.36458
+      ],
+      "built_core_box": [
+       715.0,
+       318.0,
+       945.0,
+       508.0
+      ],
+      "plan_phone_px": [
+       86,
+       71
+      ],
+      "built_phone_px": [
+       86,
+       71
+      ],
+      "max_delta_px": 0.04
+     }
+    ],
+    "source_used_for_the_phone_test": "--plan (the plan's own boxes)",
+    "worst_delta_px": 10.04,
+    "note": "the plan's `bbox` values are NORMALISED canvas boxes written before the drawings existed (handoff section 9.4); SC.BESPOKE carries the real CORE boxes and is authoritative for geometry.  The deltas below are that known difference, measured rather than waved away."
+   },
+   "render": {
+    "w": 1080,
+    "h": 1920,
+    "zoom": 1
+   },
+   "handle_key": "yt",
+   "handle": "@migueltorrezai",
+   "captions": {
+    "n": 23,
+    "widest_px": 726.3,
+    "font_px": 56.2,
+    "pill_height_px": 114.59,
+    "sizes": 1,
+    "function_word_merges": 0,
+    "texts": [
+     "Google just killed",
+     "another one of",
+     "their products",
+     "yet again.",
+     "Now, Gemini Gems",
+     "are being sunset on",
+     "October 20th, and",
+     "they're being completely",
+     "replaced by Skills,",
+     "the new standard",
+     "way of sharing your",
+     "AI workflows, either",
+     "with your teammates",
+     "or with members",
+     "of your community.",
+     "Now, follow for more",
+     "AI news, videos, and",
+     "tutorials each and",
+     "every single day.",
+     "Don't forget",
+     "to migrate your",
+     "gems, and see you",
+     "in the next one"
+    ],
+    "aspects": [
+     4.69,
+     4.01,
+     3.88,
+     2.85,
+     4.98,
+     5.14,
+     4.82,
+     6.34,
+     4.83,
+     4.68,
+     5.19,
+     5.34,
+     5.54,
+     4.56,
+     5.04,
+     5.54,
+     5.34,
+     4.78,
+     4.46,
+     3.45,
+     4.19,
+     4.85,
+     4.07
+    ],
+    "min_aspect": 2.85
+   }
+  }
+ }
+}

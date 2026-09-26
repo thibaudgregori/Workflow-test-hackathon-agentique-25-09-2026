@@ -1,0 +1,27 @@
+{
+  "status": "ok",
+  "frames": 803,
+  "width": 1584,
+  "height": 990,
+  "fps": 25.0,
+  "alpha_mode": "soft",
+  "rim_px": 7,
+  "temporal": 1,
+  "hashes": {
+    "cut": "b352ce8fa025a6caeeb01879a679316639367e5d896404af039dff8255a5ade6",
+    "rim": "5e21e902022471a2516a826fe43854230fc6b2b9987e0a2babc23655759e8b89",
+    "alpha": "26a814128d88f09edddd45dc86528126fe5eca475524bae0441b35b5fb08d60a"
+  },
+  "seconds": 86.13093377,
+  "estimated_compute_usd": 0.039165458203894395,
+  "fractional_alpha_pixels": 15805478,
+  "minimum_person_fraction": 0.36307774716865626,
+  "review_status": "needs_final_visual_review",
+  "ship_source_sha256": "cf367be51d742c272d9f79db8a13e00297684001ebf666283095059206e149e7",
+  "client_wall_seconds": 103.21377025003312,
+  "outputs": {
+    "cut": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/matting/aieducation/matte_aieducation_v5_cut.webm",
+    "rim": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/matting/aieducation/matte_aieducation_v5_rim.webm",
+    "alpha": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/matting/aieducation/matte_aieducation_v5_alpha.webm"
+  }
+}

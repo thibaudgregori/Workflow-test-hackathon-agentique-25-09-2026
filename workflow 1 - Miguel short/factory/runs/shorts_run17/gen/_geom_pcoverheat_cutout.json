@@ -1,0 +1,311 @@
+{
+ "video": "pcoverheat",
+ "format": "cutout",
+ "fps": 25,
+ "duration": 37.16,
+ "plate": {
+  "box": {
+   "w": 1782.0,
+   "h": 990.0,
+   "left": -450.0,
+   "top": 930.0
+  },
+  "whole_pixels": true,
+  "equals_encoded": {
+   "cut": {
+    "w": 1782,
+    "h": 990
+   },
+   "rim": {
+    "w": 1782,
+    "h": 990
+   }
+  },
+  "derived_from": "the ENCODED size of the staged layers, never PLATE_SCALE, and the origin READ from plate.json"
+ },
+ "seat": 881.7,
+ "shared": {
+  "phone_test_objects": [
+   {
+    "name": "an open laptop",
+    "t": 1.9,
+    "space": "norm",
+    "bbox": [
+     0.3841,
+     0.1276,
+     0.6159,
+     0.2675
+    ]
+   },
+   {
+    "name": "a download arrow",
+    "t": 13.3,
+    "space": "norm",
+    "bbox": [
+     0.342,
+     0.2699,
+     0.6581,
+     0.3647
+    ]
+   },
+   {
+    "name": "a speech bubble",
+    "t": 16.6,
+    "space": "norm",
+    "bbox": [
+     0.2577,
+     0.1193,
+     0.7424,
+     0.1881
+    ]
+   },
+   {
+    "name": "a process list",
+    "t": 25.9,
+    "space": "norm",
+    "bbox": [
+     0.1902,
+     0.1276,
+     0.8098,
+     0.2912
+    ]
+   }
+  ]
+ },
+ "matte": {
+  "cut": {
+   "w": 1782,
+   "h": 990
+  },
+  "rim": {
+   "w": 1782,
+   "h": 990
+  },
+  "plate": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/pcoverheat/plate_display_1782x990.mp4",
+  "session": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/pcoverheat",
+  "consumed_as_is": "the reviewed selection and the shipped layers are consumed exactly as prep left them: no re-track, no re-selection, no repair pass, no matting call of any kind.  The only Modal calls in this lane are renders.",
+  "frames": 929,
+  "alpha_mode": "soft",
+  "rim_px": 7,
+  "fractional_alpha_pixels": 20438933,
+  "minimum_person_fraction": 0.31282805609404934,
+  "review_status": "needs_final_visual_review",
+  "headroom_guard": {
+   "pass": true,
+   "frames_checked": 929,
+   "min_top_clearance_px": 41.800000000000004,
+   "floor_px": 24.0,
+   "unsafe_frames": 0,
+   "worst_frame": 761
+  },
+  "selection": "reviewed",
+  "cost_usd": {
+   "track": 0.02320478701714676,
+   "ship": 0.04397958601119104,
+   "birefnet_sweep": 0.0424
+  }
+ },
+ "depth_field": {
+  "seat": {
+   "band": [
+    965.0,
+    1359.0
+   ],
+   "band_h": 394.0,
+   "inter_lane_gap": 26.0,
+   "seat_offset_from_pill": 26.0,
+   "foundation_offset": 63.61,
+   "drift_from_foundation_seat": 37.61,
+   "margin_px": 10.0,
+   "candidates_scanned": 101,
+   "candidates_safe": 1,
+   "instrument": "5th percentile of the PER-FRAME gutter; the union envelope describes a body that never existed",
+   "lanes": [
+    {
+     "lane": "far",
+     "tile": 78.0,
+     "y": 965.0,
+     "frames": 310,
+     "gutter_p05": 357.9,
+     "gutter_median": 394.8,
+     "gutter_min_single_frame": 298.0,
+     "frames_under_tile": 0
+    },
+    {
+     "lane": "mid",
+     "tile": 116.0,
+     "y": 1069.0,
+     "frames": 310,
+     "gutter_p05": 291.4,
+     "gutter_median": 339.8,
+     "gutter_min_single_frame": 249.6,
+     "frames_under_tile": 0
+    },
+    {
+     "lane": "near",
+     "tile": 148.0,
+     "y": 1211.0,
+     "frames": 310,
+     "gutter_p05": 158.0,
+     "gutter_median": 329.9,
+     "gutter_min_single_frame": -15.5,
+     "frames_under_tile": 15
+    }
+   ]
+  },
+  "lanes": {
+   "far": {
+    "x0": -216.0,
+    "w": 2018.0,
+    "y": 965.0,
+    "tile": 78.0,
+    "gap": 30.0,
+    "pitch": 108.0,
+    "tiles": 18,
+    "opacity": 0.34,
+    "dist": 46.0,
+    "travel": 506.0,
+    "steps": 11
+   },
+   "mid": {
+    "x0": -304.0,
+    "w": 2920.0,
+    "y": 1069.0,
+    "tile": 116.0,
+    "gap": 36.0,
+    "pitch": 152.0,
+    "tiles": 19,
+    "opacity": 0.66,
+    "dist": 112.0,
+    "travel": 1232.0,
+    "steps": 11
+   },
+   "near": {
+    "x0": -384.0,
+    "w": 4136.0,
+    "y": 1211.0,
+    "tile": 148.0,
+    "gap": 44.0,
+    "pitch": 192.0,
+    "tiles": 21,
+    "opacity": 1.0,
+    "dist": 208.0,
+    "travel": 2288.0,
+    "steps": 11
+   }
+  },
+  "tiles": 58,
+  "step_beats": [
+   3.24,
+   6.12,
+   9.44,
+   12.48,
+   15.88,
+   18.64,
+   21.68,
+   24.72,
+   28.36,
+   31.2,
+   34.36
+  ],
+  "step_n": 11,
+  "step_pulse_s": 3.12,
+  "foundation_pulse_s": 3.17,
+  "pop_behind": [],
+  "pop_behind_why_none": "cutout law 16 keys the crossing to a beat where he NAMES the tool.  This take names three - Codex 8.38, Claude Cowork 9.14, Grok Build 10.06 - and at each of those instants that tool's own mark is ALREADY on the STAGE in its 112 px tile.  ROUND-2/3 law 6 keeps the story's own subject mark out of the depth field (which is why the plan's cutout_logo_lanes name six neighbours and none of the three), so a crossing here would be either the same mark twice in one instant or a mark he never names.  Nothing else in the take is a mark: AI, RAM, CPU and 'processes' are categories.  The plan declares no window; the handoff's SS5.7 offers the tile arrivals as a seat without asking for one, and that seat sits above the silhouette (lowest ink canvas 758, cap top ~845), so a card crossing there could never be occluded by him - which is the whole point of the detail.",
+  "cast": [
+   "cursor",
+   "copilot",
+   "opencode",
+   "antigravity",
+   "openclaw",
+   "github"
+  ],
+  "cast_source": "plan.cutout_logo_lanes, verbatim",
+  "banned_asserted": [
+   "airtable",
+   "chatgpt",
+   "claude",
+   "claude-code-sticker",
+   "claude-cowork",
+   "claude-cowork-pale",
+   "codex",
+   "exa",
+   "excalidraw",
+   "figma",
+   "gdrive",
+   "gemini",
+   "gmail",
+   "google-drive",
+   "grok",
+   "n8n",
+   "notion",
+   "nous-girl",
+   "slack",
+   "spotify",
+   "telegram",
+   "whatsapp",
+   "x-logo",
+   "youtube"
+  ],
+  "opacities": [
+   0.34,
+   0.66,
+   1.0
+  ],
+  "hook_clear_s": 2.6,
+  "foundation": "formats/cutout/lib/cutout_depthfield.py (grokpublish, approved 2026-09-01) - unmodified"
+ },
+ "core": {
+  "left": -74.5,
+  "top": 122.16,
+  "w": 1080.0,
+  "h": 600.0,
+  "placement": {
+   "k": 1.138,
+   "left": -74.5,
+   "top": 122.16,
+   "binding": "law30_right_rail",
+   "limits": {
+    "stage_zone": 1.2614,
+    "law30_right_rail": 1.1386,
+    "law30_top_10pct": 1.2614,
+    "seam_clearance": 1.306,
+    "frame_margin": 1.7161
+   },
+   "seat": "the handoff's SS5.1 formula - the content BAND centred on the MEASURED stage zone, at the largest scale LAW 30's right rail allows.  The 600 px core BOX is never what is centred (that is the LAW 15 defect the handoff names).",
+   "stage_zone": [
+    192.0,
+    803.4
+   ],
+   "content_band_core": [
+    94.0,
+    566.0
+   ],
+   "content_band_canvas": [
+    229.1,
+    766.3
+   ],
+   "core_margin": 8.0,
+   "why_not_1_0": "at k = 1 the band uses 472 px of a 611.4 px stage zone and leaves 139 px of empty cream; it also makes every bespoke object 12 % smaller on the phone than this session's envelope allows, which is the opposite of STANDARD's remedy for a hedged cold read"
+  }
+ },
+ "envelope": {
+  "CAP_H_seat_constant": 108.2,
+  "CAP_H_true_rendered": 114.59,
+  "CAP_MIN_CLEAR": 26.5,
+  "true_clear_to_crown": 26.5,
+  "CAP_Y": 887.2,
+  "CAP_Y_pct": 0.4621,
+  "pill_bottom": 944.5,
+  "pill_bottom_pct": 0.4919,
+  "ZY0": 192.0,
+  "ZY1": 803.4,
+  "stage_height": 611.4,
+  "vs_definitive": {
+   "CAP_Y": 949.5,
+   "ZY1": 868.9,
+   "why_different": "a different plate"
+  }
+ }
+}

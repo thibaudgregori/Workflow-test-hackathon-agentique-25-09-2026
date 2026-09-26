@@ -1,0 +1,36 @@
+{
+  "tag": "control",
+  "cold_dir": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/control-dc050986",
+  "reader": "one independent `claude -p` process per crop, launched from /tmp, handed ONLY the absolute path of a blind copy under a random token - no plan, no topic, no manifest, no sealed key, and no path naming the video",
+  "prompt": "Look at the image at <absolute path of one blind crop> . Name the single everyday object drawn in it. At most FIVE words. Reply with ONE line of JSON and nothing else: {\"name\":\"<=5 words\",\"confidence\":\"sure|unsure|cannot tell\"}",
+  "dispatched_at": "2026-09-08T01:22:30",
+  "cli": "2.1.263 (Claude Code)",
+  "source_crops": {
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/proofs_eudisclosure_r1/01.png": "9746c635076adb25b995a19a24e1cab46dcf3602f0bb7f4f065df8c1165aafb5",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/proofs_eudisclosure_r1/02.png": "27edb67b456f4090f46edb4848477a7ef6985fb18471137f7f720506c54b8a66",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/proofs_eudisclosure_r1/03.png": "39ee5b5685243fb39ce7315b2d71727353f09a2fa1e39b05a7679ba63ea4b8fd"
+  },
+  "names": [
+    {
+      "i": 0,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/control-dc050986/00.png",
+      "name": "rubber stamp",
+      "confidence": "sure",
+      "crop_sha256": "9746c635076adb25b995a19a24e1cab46dcf3602f0bb7f4f065df8c1165aafb5"
+    },
+    {
+      "i": 1,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/control-dc050986/01.png",
+      "name": "coffee mug",
+      "confidence": "sure",
+      "crop_sha256": "27edb67b456f4090f46edb4848477a7ef6985fb18471137f7f720506c54b8a66"
+    },
+    {
+      "i": 2,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/control-dc050986/02.png",
+      "name": "key",
+      "confidence": "sure",
+      "crop_sha256": "39ee5b5685243fb39ce7315b2d71727353f09a2fa1e39b05a7679ba63ea4b8fd"
+    }
+  ]
+}

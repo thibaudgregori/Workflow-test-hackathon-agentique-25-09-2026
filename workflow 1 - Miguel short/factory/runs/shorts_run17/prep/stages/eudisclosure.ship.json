@@ -1,0 +1,28 @@
+{
+ "id": "eudisclosure",
+ "stage": "ship",
+ "status": "ok",
+ "wall_s": 89.89443774998654,
+ "at": "2026-09-08T00:45:23",
+ "keys": {
+  "status": "ok",
+  "backend": "matanyone2",
+  "frames": 692,
+  "width": 1584,
+  "height": 990,
+  "fps": 25.0,
+  "alpha_mode": "soft",
+  "rim_px": 7,
+  "temporal": 1,
+  "seconds": 75.93573197299999,
+  "estimated_compute_usd": 0.03452949604276255,
+  "fractional_alpha_pixels": 14013495,
+  "minimum_person_fraction": 0.34549727068666464,
+  "review_status": "needs_final_visual_review",
+  "ship_source_sha256": "cf367be51d742c272d9f79db8a13e00297684001ebf666283095059206e149e7",
+  "client_wall_seconds": 89.89443774998654,
+  "ship_seconds": 75.93573197299999,
+  "wall_s": 89.89443774998654,
+  "cost_usd": 0.03452949604276255
+ }
+}

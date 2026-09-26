@@ -1,0 +1,29 @@
+{
+ "verdict": "PASS",
+ "plan_json": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/plans/aieducation_plan.json",
+ "plan_md": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/plans/aieducation_plan.md",
+ "lane": "icon choreography",
+ "lane_reason": "The script is a chain of named things swapping places - a printed textbook page, a 3D heart you can turn, a head that has to imagine, a classroom easel - so the argument is carried by objects arriving and leaving on the spoken word, which is icon choreography's grammar.",
+ "beats": 6,
+ "bespoke_names": [
+  "open book heart",
+  "3D anatomy heart",
+  "thinking head profile",
+  "classroom easel board"
+ ],
+ "cues": "1 cue, 1 answered, 0 waived. cue 0 at 3.32 s ('this guy') is answered by the genuine X post of @thebuggeddev (x.com/thebuggeddev/status/2083884856531177942), recovered from the recording's Notion inbox row whose Source URL (x.com/gdb/status/2083934330146197989, Greg Brockman) quotes it; X frame, X handle, the claim line marker-highlighted, the app screenshot it carried inside, held 3.54 s with a closer move into the screenshot at 5.92 s.",
+ "board_mode": "chapters",
+ "open_questions": [
+  "The inner zoom at 5.92-6.86 holds the Anatomy Atelier screenshot on its 3D heart; if the split author measures that the heart alone reads better at 405x720 than heart-plus-panel, crop to the heart - the claim does not depend on the panel text.",
+  "The three copies land on the easel's cross-brace; if the cutout's k makes the row read as clutter at phone size, keep all three but drop their interior ink, never the count.",
+  "The outro glyph is the heart; if the chassis lockup's rule reads better under a smaller glyph on the cutout, scale the glyph, never the rule."
+ ],
+ "open_doubts": [],
+ "scene_module": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/gen/aieducation_scene.py",
+ "scene_handoff": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/plans/aieducation_scene_handoff.md",
+ "artwork_pass": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/review/artwork_pass_aieducation.json",
+ "cold_reads_run": 4,
+ "proofs": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/review/proofs (crop_seal_*.png, crop_seal2_01_heart.png, compose_*_phone.png, chart_compare_run15.png); readers: review/phone_reader_aieducation_artwork_r1..r3.json, _artwork2_r1..r3.json, merged _merged_r1..r3.json; scores: review/artwork_scores_aieducation.json",
+ "artwork_pass_verdict": "PASS - 4 objects, 3 seal rounds; object 2 (thinking head profile) is a HEDGED pass (3/3 readers named it, none flagged sure) and the clerk must adjudicate it on the delivered render.",
+ "reason": "Plan written with no open doubts (the pointing cue's genuine X post was recovered, and the platform the sentence names is the platform the card wears), then the shared scene drawn in the graphic chart's language and sealed on three independent cold rounds: open book 3/3 sure, heart 3/3 after one redraw, head profile with heart 3/3 hedged, easel 3/3 sure."
+}

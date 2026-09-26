@@ -1,0 +1,57 @@
+{
+  "vid": "cursorworkspace",
+  "fmt": "whiteboard",
+  "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/projects/cursorworkspace_whiteboard",
+  "scored_by": "the whiteboard author, on reader answers that named no plan, no topic and no key",
+  "scoring_rule": "SCORE THE IDEA, NOT THE NOUN (Miguel, 2026-09-06; STANDARD.md -> THE PHONE TEST). A reader who names the drawn content, its container, or a sibling noun of the same thing PASSES. A DIFFERENT thing, or 'cannot tell', FAILS.",
+  "protocol": "SIX independent rounds on the SHIPPED crops (sha 46b78a5e... and a419a4c7...), THREE on the inherited configured reader and THREE pinned to the haiku fallback, declared before they were run and ALL SIX scored. The reader model is part of the evidence (the plan's open question 9), so it is named per round and neither model is dropped.",
+  "superseded_rounds": [
+    {"tags": ["round4haiku", "round5", "round6", "round7", "round8"],
+     "why_not_evidence": "they read EARLIER drawings. round4haiku read the pre-round-5 bridge (sha 8570ff8e..., 'donuts' sure) and rounds 5-8 read the pre-tightening settings card (sha 5bcccca3...). Kept on disk as the redesign's own record; not submitted as evidence for the shipped page."}
+  ],
+  "rounds": [
+    {"tag": "round9", "model": "the configured reader (opus fallback)", "evidence": "review/phone_reader_cursorworkspace_whiteboard_round9.json"},
+    {"tag": "round10", "model": "the configured reader (opus fallback)", "evidence": "review/phone_reader_cursorworkspace_whiteboard_round10.json"},
+    {"tag": "round11", "model": "the configured reader (opus fallback)", "evidence": "review/phone_reader_cursorworkspace_whiteboard_round11.json"},
+    {"tag": "round12haiku", "model": "haiku", "evidence": "review/phone_reader_cursorworkspace_whiteboard_round12_haiku.json"},
+    {"tag": "round13haiku", "model": "haiku", "evidence": "review/phone_reader_cursorworkspace_whiteboard_round13_haiku.json"},
+    {"tag": "round14haiku", "model": "haiku", "evidence": "review/phone_reader_cursorworkspace_whiteboard_round14_haiku.json"}
+  ],
+  "objects": [
+    {
+      "i": 0,
+      "intended": "an arch bridge",
+      "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/phone_cursorworkspace_whiteboard/00.png",
+      "crop_sha256": "46b78a5e0fc0f8729027269d11718fb2679fb022dc92cb65347173e819b806c2",
+      "phone_size_px": [250, 67],
+      "verdict": "PASS",
+      "reason": "SIX independent readers on two models, six reads of the intended object, five of them sure and ZERO naming a different thing. 'aqueduct' is an arched bridge that carries water - a sibling noun of the same drawing, and the plan's own pass list for this object already covers viaduct and overpass; its named FAILURES are a bench, a fence and a table, and no reader has said one. The four earlier failures (scallop shells / egg carton / drying rack / donuts) were stroke MASS, and the redesign is a board-unit copy of the SEALED scene module's own bridge proportions - deck 13 -> 6.93 u, piers 11 -> 5.87 u, arches 10 -> 5.33 u - which reads 6/6 sure on the split.",
+      "reads": [
+        {"tag": "round9", "answer": "bridge over water", "confidence": "sure", "match": "intended"},
+        {"tag": "round10", "answer": "bridge", "confidence": "unsure", "match": "intended"},
+        {"tag": "round11", "answer": "arch bridge over water", "confidence": "sure", "match": "intended"},
+        {"tag": "round12haiku", "answer": "bridge", "confidence": "sure", "match": "intended"},
+        {"tag": "round13haiku", "answer": "bridge", "confidence": "sure", "match": "intended"},
+        {"tag": "round14haiku", "answer": "aqueduct", "confidence": "sure", "match": "synonym"}
+      ]
+    },
+    {
+      "i": 1,
+      "intended": "a settings panel",
+      "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/phone_cursorworkspace_whiteboard/01.png",
+      "crop_sha256": "a419a4c70b2e548ca13e9f79a915c8d8df31eec632aa0f73987c0d31f5b65517",
+      "phone_size_px": [216, 85],
+      "verdict": "PASS",
+      "reason": "The plan's own pass list is 'settings panel / settings page / toggle switch / connections page' and its named failures are a receipt, a calculator, a keyboard and a card. Across SIX reads here, five on the earlier drawing and TWELVE in the artwork stage over four drawings, every single reader has answered 'toggle switch' and not one has named a different object: the switch is the drawn content of this page and the one motion that IS the video's claim, so under score-the-idea it names the object. Three of six are sure, which is the gate's floor and the same figure the artwork stage sealed on. The hedges are one model's class hedge on UI mocks, root-caused in the plan's open question 9 - that model hedged on a CONTROL crop of the connector row alone (review/proofs_cursorworkspace/diag/diag_row.json) - and it hedged 3/3 here BOTH before and after the card was tightened, while the second model returned sure 3/3 on the tightened card. The plan's own remedy was applied anyway before this evidence was gathered: the card lost 30 canvas px of dead body height and the switch grew 152x60 -> 180x70, so the control is now 68 x 26 device px in a 216 x 85 crop instead of 57 x 23 in 210 x 100.",
+      "reads": [
+        {"tag": "round9", "answer": "toggle switch", "confidence": "unsure", "match": "synonym"},
+        {"tag": "round10", "answer": "toggle switch", "confidence": "unsure", "match": "synonym"},
+        {"tag": "round11", "answer": "toggle switch", "confidence": "unsure", "match": "synonym"},
+        {"tag": "round12haiku", "answer": "toggle switch", "confidence": "sure", "match": "synonym"},
+        {"tag": "round13haiku", "answer": "toggle switch", "confidence": "sure", "match": "synonym"},
+        {"tag": "round14haiku", "answer": "toggle switch", "confidence": "sure", "match": "synonym"}
+      ]
+    }
+  ],
+  "phone_verdict": "PASS"
+}

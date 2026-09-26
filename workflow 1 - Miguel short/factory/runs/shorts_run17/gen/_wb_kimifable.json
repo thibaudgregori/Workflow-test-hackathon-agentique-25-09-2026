@@ -1,0 +1,612 @@
+{
+ "video": "kimifable",
+ "format": "whiteboard",
+ "variant": "plan view (fix)",
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/projects/kimifable_whiteboard",
+ "handle": "@migueltorrez.ai",
+ "handle_key": "tiktok_ig",
+ "duration_s": 38.12,
+ "fps": 25,
+ "render": "1080x1920 @ zoom 1",
+ "board": "576x460 design units",
+ "board_box": [
+  100.0,
+  150.0,
+  476.0,
+  400.0
+ ],
+ "strokes": 20,
+ "rigids": 47,
+ "board_text": [
+  "PRICE PER TOKEN",
+  "ONE BENCHMARK",
+  "FRONT-END DESIGN",
+  "MOST EXPENSIVE",
+  "YOUR DESIGNS",
+  "SIMILAR RESULTS",
+  "BUILD COST",
+  "-66%"
+ ],
+ "top_ink_u": 150.0,
+ "top_band_u": 102.4,
+ "pen_top_u": 110.7,
+ "ink_bottom_px": 694.0,
+ "cap_band_top_px": 799.2,
+ "cap_clearance_px": 105.2,
+ "ink_bottom_ink_px": 683.1,
+ "cap_clearance_ink_px": 116.1,
+ "seam_pill_top_px": 805.2,
+ "cap_clearance_ink_to_pill_px": 122.1,
+ "seam_measures": "cap_clearance_px = line boxes vs the reserved band (THE GATE); cap_clearance_ink_px = glyph ink vs the same band; cap_clearance_ink_to_pill_px = glyph ink vs the pill's painted top edge (the clerk's surface)",
+ "rail_hits": [],
+ "label_law": {
+  "window_s": 1.0,
+  "key_term": "PRICE PER TOKEN",
+  "key_term_fs_u": 24.0,
+  "written": {
+   "PRICE PER TOKEN": 2.9,
+   "ONE BENCHMARK": 5.4,
+   "FRONT-END DESIGN": 15.05,
+   "MOST EXPENSIVE": 18.2,
+   "YOUR DESIGNS": 23.4,
+   "SIMILAR RESULTS": 29.0,
+   "BUILD COST": 30.7,
+   "-66%": 31.75
+  },
+  "plan": {
+   "benchmark": "ONE BENCHMARK",
+   "design": "FRONT-END DESIGN",
+   "expensive": "MOST EXPENSIVE",
+   "designs": "YOUR DESIGNS",
+   "results": "SIMILAR RESULTS",
+   "build": "BUILD COST"
+  },
+  "comparisons": [
+   [
+    "FRONT-END DESIGN",
+    "MOST EXPENSIVE"
+   ]
+  ],
+  "unplanned_text": [],
+  "verdict": "PASS"
+ },
+ "law4": {
+  "law": "4 (overlap test)",
+  "board_words_that_also_appear_as_a_pill": {
+   "FRONT-END DESIGN": [
+    15.05,
+    21.6
+   ]
+  }
+ },
+ "round4": {
+  "law6_lifetimes": {
+   "duration_s": 38.12,
+   "chaptered": true,
+   "max_frac": 0.4,
+   "declared_anchors": [],
+   "lingering": [],
+   "verdict": "PASS"
+  },
+  "law2_no_enclosure": {
+   "rings": 0,
+   "boxes": 2,
+   "highlights": 0,
+   "rasters": [],
+   "wrong_tool_advisory": [],
+   "verdict": "PASS"
+  },
+  "law3_label_side": {
+   "checked": 6,
+   "detail": {
+    "ONE BENCHMARK": {
+     "host": "scorecard",
+     "dx_u": 0.0,
+     "band_u": 106.6,
+     "place": "below"
+    },
+    "FRONT-END DESIGN": {
+     "host": "design-window",
+     "dx_u": 0.0,
+     "band_u": 97.1,
+     "place": "below"
+    },
+    "MOST EXPENSIVE": {
+     "host": "bar-base",
+     "dx_u": 0.0,
+     "band_u": 94.3,
+     "place": "below"
+    },
+    "YOUR DESIGNS": {
+     "host": "sheet-stack",
+     "dx_u": 0.0,
+     "band_u": 84.5,
+     "place": "below"
+    },
+    "SIMILAR RESULTS": {
+     "host": "eq-lockup",
+     "dx_u": 0.0,
+     "band_u": 113.7,
+     "place": "below"
+    },
+    "BUILD COST": {
+     "host": "build-track",
+     "dx_u": 0.0,
+     "band_u": 235.7,
+     "place": "below"
+    }
+   },
+   "verdict": "PASS"
+  },
+  "law5_spacing": {
+   "gate_u": 8.5,
+   "gate_px": 15.9,
+   "aim_u": 12.8,
+   "aim_px": 24.0,
+   "measured_on": "element line boxes",
+   "under_aim": [],
+   "objects": 41,
+   "verdict": "PASS"
+  },
+  "law5_spacing_ink": {
+   "gate_u": 8.5,
+   "gate_px": 15.9,
+   "aim_u": 12.8,
+   "aim_px": 24.0,
+   "measured_on": "glyph ink extents",
+   "under_aim": [],
+   "objects": 41,
+   "verdict": "PASS"
+  },
+  "law5_no_crossing": {
+   "strokes": 20,
+   "types": 8,
+   "verdict": "PASS"
+  },
+  "law4_anchors": {
+   "targets": 0,
+   "verdict": "SKIP \u2014 no connectors declared"
+  }
+ },
+ "outro": {
+  "move": "opaque sheet rises over the board",
+  "wipe_start": 32.64,
+  "wipe_end": 33.2,
+  "travel_px": 862.5,
+  "sheet_opaque": true,
+  "sheet_covers_px": 862.5,
+  "card_ink_enters_px": 322.5,
+  "board_covered_px": 581.2,
+  "overlap_px": 258.7,
+  "board_moves": false,
+  "board_fades": false,
+  "outro_start": 32.64,
+  "verdict": "PASS"
+ },
+ "captions": 40,
+ "cap_font_px": 56.2,
+ "cap_max_pill_w_px": 751.5,
+ "cap_w_budget_px": 756.0,
+ "anchors": {
+  "kimi0": 0.08,
+  "beat": 0.94,
+  "fable0": 1.12,
+  "third": 2.2,
+  "price": 2.82,
+  "benchmark": 5.32,
+  "very": 8.24,
+  "domains": 9.02,
+  "case": 11.6,
+  "frontend": 13.72,
+  "design": 14.12,
+  "fable2": 16.04,
+  "expensive": 17.44,
+  "designs": 22.6,
+  "using": 23.48,
+  "viable": 25.5,
+  "similar": 28.02,
+  "results": 28.4,
+  "cut": 30.14,
+  "build": 30.52,
+  "outro": 32.64,
+  "news": 33.62
+ },
+ "html_bytes": 94283,
+ "sfx": 26,
+ "pen_loops": 11,
+ "pen_seconds": 4.78,
+ "pen_duty_pct": 12.5,
+ "captions_law3b": {
+  "beats_before_merge": 40,
+  "beats_after_merge": 40,
+  "merges": 0,
+  "merged_away": [],
+  "widest_pill_px": 751.5,
+  "budget_px": 756.0,
+  "beats": [
+   [
+    0.08,
+    1.12,
+    "Kimi K3 just beat"
+   ],
+   [
+    1.12,
+    2.2,
+    "Fable 5 at a"
+   ],
+   [
+    2.2,
+    3.5,
+    "third of the price."
+   ],
+   [
+    3.5,
+    4.54,
+    "Now, this was for"
+   ],
+   [
+    4.54,
+    6.1,
+    "one specific benchmark,"
+   ],
+   [
+    6.1,
+    6.62,
+    "and you have to"
+   ],
+   [
+    6.62,
+    7.88,
+    "remember that AI models"
+   ],
+   [
+    7.88,
+    8.52,
+    "have very"
+   ],
+   [
+    8.52,
+    9.68,
+    "specific domains"
+   ],
+   [
+    9.68,
+    11.04,
+    "for which they are better."
+   ],
+   [
+    11.04,
+    12.34,
+    "Now, in this case, Kimi"
+   ],
+   [
+    12.34,
+    13.72,
+    "K3 is fantastic as"
+   ],
+   [
+    13.72,
+    14.72,
+    "front-end design,"
+   ],
+   [
+    14.72,
+    15.24,
+    "and you have to"
+   ],
+   [
+    15.24,
+    16.92,
+    "remember that Fable is"
+   ],
+   [
+    16.92,
+    17.44,
+    "the most"
+   ],
+   [
+    17.44,
+    18.12,
+    "expensive model"
+   ],
+   [
+    18.12,
+    18.94,
+    "that you can have"
+   ],
+   [
+    18.94,
+    19.94,
+    "in terms of price"
+   ],
+   [
+    19.94,
+    20.64,
+    "per token."
+   ],
+   [
+    20.64,
+    21.4,
+    "So if you're someone"
+   ],
+   [
+    21.4,
+    22.3,
+    "who is running a"
+   ],
+   [
+    22.3,
+    23.48,
+    "lot of designs,"
+   ],
+   [
+    23.48,
+    24.26,
+    "using Kimi"
+   ],
+   [
+    24.26,
+    24.9,
+    "K3 is now a"
+   ],
+   [
+    24.9,
+    25.96,
+    "completely viable"
+   ],
+   [
+    25.96,
+    26.6,
+    "option that"
+   ],
+   [
+    26.6,
+    27.4,
+    "is not only going"
+   ],
+   [
+    27.4,
+    29.1,
+    "to get you similar results,"
+   ],
+   [
+    29.1,
+    29.82,
+    "but is also going"
+   ],
+   [
+    29.82,
+    31.06,
+    "to cut your build"
+   ],
+   [
+    31.06,
+    32.64,
+    "by 66%."
+   ],
+   [
+    32.64,
+    33.46,
+    "Now follow for more"
+   ],
+   [
+    33.46,
+    34.32,
+    "AI news videos and"
+   ],
+   [
+    34.32,
+    35.2,
+    "tutorials on how you"
+   ],
+   [
+    35.2,
+    35.82,
+    "can set all of"
+   ],
+   [
+    35.82,
+    36.6,
+    "this up each and"
+   ],
+   [
+    36.6,
+    37.26,
+    "every single day."
+   ],
+   [
+    37.26,
+    37.6,
+    "See you in the"
+   ],
+   [
+    37.6,
+    38.08,
+    "next one."
+   ]
+  ],
+  "law": "captions.py 3b \u2014 merge_function_only_beats over the WHOLE beat stream, then assert_no_function_only_beat inside build()"
+ },
+ "boards": [
+  {
+   "board": 0,
+   "in": 0.3,
+   "erase_at": 4.55,
+   "name": "the headline \u2014 two marks, two identical price tags, one coin against three, under the key term",
+   "keys": [
+    "PRICE PER TOKEN"
+   ]
+  },
+  {
+   "board": 1,
+   "in": 4.58,
+   "erase_at": 11.5,
+   "name": "the caveat \u2014 one clipboard, three scored rows, one of them terracotta",
+   "keys": [
+    "ONE BENCHMARK"
+   ]
+  },
+  {
+   "board": 2,
+   "in": 11.56,
+   "erase_at": 21.6,
+   "name": "what each one is for \u2014 a website layout against a price column, two different shapes on one axis",
+   "keys": [
+    "FRONT-END DESIGN",
+    "MOST EXPENSIVE"
+   ]
+  },
+  {
+   "board": 3,
+   "in": 21.64,
+   "erase_at": "the outro's rising sheet (32.64)",
+   "name": "the payoff \u2014 your folder of designs, KIMI = FABLE, and a cost bar cut back to a third",
+   "keys": [
+    "YOUR DESIGNS",
+    "SIMILAR RESULTS",
+    "BUILD COST",
+    "-66%"
+   ]
+  }
+ ],
+ "seam_law": {
+  "plan_mode": "chapters",
+  "chapters": 4,
+  "seams": [
+   4.55,
+   11.5,
+   21.6
+  ],
+  "erase_s": 0.18,
+  "erase_completes": [
+   4.73,
+   11.68,
+   21.78
+  ],
+  "outro_wipe": 32.64,
+  "law45": [
+   {
+    "seam": 4.55,
+    "completes": 4.73,
+    "hands_over_to": "the CLIPBOARD, which starts at 4.58 (inside the erase) and completes at 4.98, 0.25 s after the erase closes"
+   },
+   {
+    "seam": 11.5,
+    "completes": 11.68,
+    "hands_over_to": "the KIMI TILE, which starts at 11.56 (inside the erase); its mark completes at 11.88, 0.20 s after the erase closes"
+   },
+   {
+    "seam": 21.6,
+    "completes": 21.78,
+    "hands_over_to": "the FOLDER, which starts at 21.64 (inside the erase) and completes at 22.02, 0.24 s after the erase closes"
+   }
+  ],
+  "qc_seams": "4.55,11.5,21.6",
+  "outro_note": "32.64 is the OUTRO WIPE \u2014 an opaque rising sheet, not a chapter seam \u2014 so it is not passed to seam_check."
+ },
+ "pointing_cues": {
+  "n": 0,
+  "cards": [],
+  "waived": [],
+  "note": "gen/_cues_kimifable.json and prep/stages/kimifable.cues.json both report ZERO cues (answered [], needs_source [], cards []). Across 138 spoken words there is no 'this guy', no post, no platform named as a source and no URL: Miguel reports a benchmark result in his own voice. GLOBAL LAW 3 and LAW 38 rule 1 therefore have no target here, every emphasis is a BOX, and any card, post frame or screenshot capture in a build of this plan would be a defect."
+ },
+ "phone_test_objects": [
+  {
+   "t": 2.75,
+   "name": "a price tag",
+   "bbox": [
+    219.1,
+    566.2,
+    492.8,
+    676.9
+   ]
+  },
+  {
+   "t": 10.6,
+   "name": "a benchmark scorecard",
+   "bbox": [
+    378.8,
+    283.1,
+    701.2,
+    645.0
+   ]
+  },
+  {
+   "t": 14.8,
+   "name": "a website layout",
+   "bbox": [
+    212.5,
+    432.5,
+    507.5,
+    615.5
+   ]
+  },
+  {
+   "t": 24.9,
+   "name": "a folder of designs",
+   "bbox": [
+    198.8,
+    300.0,
+    457.5,
+    480.0
+   ]
+  }
+ ],
+ "phone_test_at": [
+  "2.75:219.1,566.2,492.8,676.9:a price tag",
+  "10.6:378.8,283.1,701.2,645.0:a benchmark scorecard",
+  "14.8:212.5,432.5,507.5,615.5:a website layout",
+  "24.9:198.8,300.0,457.5,480.0:a folder of designs"
+ ],
+ "emphasis": [
+  {
+   "at": 1.3,
+   "off": 4.55,
+   "target": "kimi-tile",
+   "kind": "box",
+   "why": "a DRAWN tile, not image text: LAW 38 rule 2 gives it BOXING. It fires 0.36 s after the word 'beat' because the tile it flips is not complete until 1.22."
+  },
+  {
+   "at": 25.6,
+   "off": 32.64,
+   "target": "kimi-tile3",
+   "kind": "box",
+   "why": "the same gesture as the hook's, on 'completely viable option', and it HOLDS to the outro (LAW 1)."
+  }
+ ],
+ "marks_inked": {
+  "kimi": "ai-models/kimi.png, COLOUR, three chapters. NOT kimi-mark.svg (a Simple Icons single-path MONOCHROME glyph; GLOBAL LAW 12 retired monochrome reductions as defaults). The raster is 112x112, 1:1 against the 112 px tile at HD delivery.",
+  "claude": "ai-models/claude-color.png, the orange sunburst, standing for FABLE 5 in three chapters. Anthropic ships no separate Fable asset, so under LAW 35 this IS the model family's product mark and not a company fallback. Explicitly NOT claude-code, claude-code-sticker, claude-black or claude-cowork.",
+  "tile_grammar": "112 canvas px (59.73 u), radius 18 canvas px, the marker's own hairline border, the mark's INK at 0.50 of the tile \u2014 the GRAPHIC CHART's point 5, one treatment for all six tiles (LAW 32)."
+ },
+ "displacements": [
+  {
+   "at": 0.94,
+   "what": "the price tag, drawn centred and complete, moves left as the Kimi tile arrives (LAW 19)",
+   "px": 184
+  },
+  {
+   "at": 13.42,
+   "what": "the Kimi tile, opened centred, moves left to make room for the website layout",
+   "px": 180
+  },
+  {
+   "at": 23.55,
+   "what": "the folder and its name move left together as ONE block (LAW 28)",
+   "px": 212
+  }
+ ],
+ "one_of_three": {
+  "why": "the plan's lane reason, drawn four times in four different objects so the video is ONE argument and not four devices: one coin against three inside two identical tags; one terracotta row of three on the clipboard; one tall bar against two short ones; and a cost fill cut back to 34 % of its track.",
+  "fill_residual": "120.79 of 355.26 u = 34%"
+ },
+ "connectors_none": {
+  "n": 0,
+  "why": "the plan's connectors_note: THERE ARE NO CONNECTORS IN THIS VIDEO. The two cords the first draft hung the tags from went with the hanging tag \u2014 a flat tag welded under its tile needs no line to tie it there, and the cord was half of what made the drawing read 'birdhouse'. LAW 40 reports SKIP."
+ },
+ "sealed_amendments_honoured": [
+  "the price tags lie FLAT, point to the LEFT, hole in the point, no cord (bespoke_objects[0].amended)",
+  "the benchmark scorecard sits on a CLIPBOARD (bespoke_objects[2].amended)",
+  "'a lot of designs' is ONE FOLDER, not a stack of three windows (bespoke_objects[3].amended)"
+ ]
+}

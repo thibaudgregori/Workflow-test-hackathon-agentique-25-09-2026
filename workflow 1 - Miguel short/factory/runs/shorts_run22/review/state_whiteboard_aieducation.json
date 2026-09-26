@@ -1,0 +1,24 @@
+{
+ "staged": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/staging/reels/aieducation_whiteboard.mp4",
+ "phone_verdict": "PASS",
+ "blocked": "",
+ "rounds": 2,
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/projects/aieducation_whiteboard",
+ "redesigned": true,
+ "cands": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/review/cands_aieducation_whiteboard.json",
+ "cold_crop_paths": [
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/review/cold/56e0d67f/00.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/review/cold/56e0d67f/01.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/review/cold/56e0d67f/02.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/review/cold/56e0d67f/03.png"
+ ],
+ "fails": [
+  {
+   "i": 0,
+   "intended": "open book heart",
+   "namer_answer": "round 1: 'greeting card' x3 \u2014 REDESIGNED (page block + tilted rules); round 2: 'open book' x3, all sure"
+  }
+ ],
+ "flagged_for_clerk": "Two HEDGED passes, recorded and routed, no different name on either: object 1 'heart' x3 (unsure) and object 2 'head with heart thought bubble' x3 (cannot tell). production.py::consensus no longer lets the confidence flag veto a noun that reached the object; the artwork seat routed the same head the same way. Adjudicate both on the delivered render, where they move and carry 3D ANATOMY / GUESSWORK.",
+ "report": "see the author return"
+}

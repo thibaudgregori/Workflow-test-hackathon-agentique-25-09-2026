@@ -1,0 +1,58 @@
+{
+ "post_id": "2084122084297359607",
+ "source_url": "https://x.com/XFreeze/status/2084122084297359607",
+ "handed_url": "https://x.com/XFreeze/status/2084122084297359607",
+ "relationship": "the handed URL IS the original",
+ "author": {
+  "name": "X Freeze",
+  "username": "XFreeze",
+  "verified": false
+ },
+ "handle_rendered": "@XFreeze",
+ "card_lines": [
+  "my MacBook was heating up my lap...",
+  "so I asked Grok Build to investigate",
+  "It found the culprit"
+ ],
+ "claim_line_index": 1,
+ "claim": "so I asked Grok Build to investigate",
+ "full_post_text": "my MacBook was heating up my lap and nearly cooking my balls, so I asked Grok Build to investigate\n\nIt found the culprit \ud83d\ude02 https://t.co/dN5NDyI16X",
+ "dropped": [
+  "and nearly cooking my balls (elided with the post's own ellipsis, plan open_questions[2])",
+  "the trailing emoji (no emoji font in this harness)",
+  "the t.co media link (the photo is not on this card)"
+ ],
+ "metrics_rendered": false,
+ "metrics_in_payload_not_rendered": {
+  "bookmark_count": 814,
+  "impression_count": 869124,
+  "like_count": 3484,
+  "quote_count": 20,
+  "reply_count": 346,
+  "retweet_count": 353
+ },
+ "media_in_card": null,
+ "ascii_only": true,
+ "file": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/gen/_wb_assets/card_pcoverheat_wb.png",
+ "pixels": [
+  2184,
+  711
+ ],
+ "css_box": {
+  "width": 728,
+  "height": 237
+ },
+ "aspect": 3.07173,
+ "device_scale_factor": 3,
+ "claim_rect_fractions": {
+  "x": 0.03984,
+  "y": 0.55696,
+  "w": 0.77144,
+  "h": 0.14768
+ },
+ "law3_window": [
+  2.0,
+  4.0
+ ],
+ "renderer": "shorts_run17/gen/_pcoverheat_wb_card.py (local file://, no live-site automation)"
+}

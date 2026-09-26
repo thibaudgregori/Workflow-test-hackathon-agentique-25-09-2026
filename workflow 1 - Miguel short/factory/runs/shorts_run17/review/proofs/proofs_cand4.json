@@ -1,0 +1,123 @@
+{
+ "set": "cand4",
+ "phone_scale": "405x720",
+ "module": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/gen/pcoverheat_scene.py",
+ "objects": [
+  {
+   "i": 0,
+   "label": "dl-I-cloudbar",
+   "intended": "a cloud download",
+   "core_box": [
+    390.0,
+    348.0,
+    690.0,
+    508.0
+   ],
+   "norm_box": [
+    0.3611,
+    0.2812,
+    0.6389,
+    0.3646
+   ],
+   "phone_box_px": [
+    146,
+    202,
+    259,
+    262
+   ],
+   "phone_size_px": [
+    113,
+    60
+   ],
+   "crop": "review/proofs/crop_cand4_00_dl-I-cloudbar.png",
+   "frame": "review/proofs/frame_cand4_00.png"
+  },
+  {
+   "i": 1,
+   "label": "dl-J-bar",
+   "intended": "a download arrow",
+   "core_box": [
+    390.0,
+    348.0,
+    690.0,
+    508.0
+   ],
+   "norm_box": [
+    0.3611,
+    0.2812,
+    0.6389,
+    0.3646
+   ],
+   "phone_box_px": [
+    146,
+    202,
+    259,
+    262
+   ],
+   "phone_size_px": [
+    113,
+    60
+   ],
+   "crop": "review/proofs/crop_cand4_01_dl-J-bar.png",
+   "frame": "review/proofs/frame_cand4_01.png"
+  },
+  {
+   "i": 2,
+   "label": "list-G-window",
+   "intended": "a process list",
+   "core_box": [
+    246.0,
+    108.0,
+    834.0,
+    384.0
+   ],
+   "norm_box": [
+    0.2278,
+    0.1562,
+    0.7722,
+    0.3
+   ],
+   "phone_box_px": [
+    92,
+    112,
+    313,
+    216
+   ],
+   "phone_size_px": [
+    221,
+    104
+   ],
+   "crop": "review/proofs/crop_cand4_02_list-G-window.png",
+   "frame": "review/proofs/frame_cand4_02.png"
+  },
+  {
+   "i": 3,
+   "label": "list-H-sheet",
+   "intended": "a process list",
+   "core_box": [
+    246.0,
+    108.0,
+    834.0,
+    384.0
+   ],
+   "norm_box": [
+    0.2278,
+    0.1562,
+    0.7722,
+    0.3
+   ],
+   "phone_box_px": [
+    92,
+    112,
+    313,
+    216
+   ],
+   "phone_size_px": [
+    221,
+    104
+   ],
+   "crop": "review/proofs/crop_cand4_03_list-H-sheet.png",
+   "frame": "review/proofs/frame_cand4_03.png"
+  }
+ ]
+}

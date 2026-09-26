@@ -1,0 +1,2004 @@
+{
+ "video": "pcoverheat",
+ "lane": "diagram build",
+ "fps": 25,
+ "duration": 37.16,
+ "seam": 862.5,
+ "sfx": {
+  "whoosh": {
+   "mean_volume": "-17.5 dB"
+  },
+  "pop": {
+   "mean_volume": "-36.4 dB"
+  },
+  "click": {
+   "mean_volume": "-23.1 dB"
+  },
+  "_gains": {
+   "structure": 0.14,
+   "detail": 0.09,
+   "published_corpus_flat": 0.18,
+   "note": "a gain constant means nothing without its source loudness (SFX LAW v2); these are the run-9/12/13/14/15/16/17 shipped values for THESE files"
+  }
+ },
+ "cutout_lanes_for_the_other_author": [
+  "cursor",
+  "copilot",
+  "opencode",
+  "antigravity",
+  "openclaw",
+  "github"
+ ],
+ "formats": {
+  "split": {
+   "staged": {
+    "voice": {
+     "source": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/cuts/pcoverheat/audio.m4a",
+     "sample_rate": 48000,
+     "channels": 2
+    },
+    "face": {
+     "file": "face_bottom_hd.mp4",
+     "w": 1080,
+     "h": 1058
+    },
+    "source_shot": {
+     "post_id": "2084122084297359607",
+     "source_url": "https://x.com/XFreeze/status/2084122084297359607",
+     "author": "XFreeze",
+     "created_at": "2026-08-03T03:40:00.000Z",
+     "fetched_by": "pipeline/prep/sourcelib.fetch_source (X API v2, read-only)",
+     "record": "shorts_run17/assets/source_pcoverheat_2084122084297359607.json",
+     "original_photo": "2084122084297359607_0.jpg",
+     "original_size": [
+      1896,
+      2324
+     ],
+     "crop_box_xyxy": [
+      60,
+      13,
+      1835,
+      835
+     ],
+     "crop_size": [
+      1775,
+      822
+     ],
+     "aspect": 2.159367,
+     "module_aspect": 2.15942,
+     "sha256": "2e4b1af8f922dc623587abc8ac9e9e79295b64bb02112586d92d94d885e263d9",
+     "contains": [
+      "the macOS window title strip with the session's tabs",
+      "the session header strip",
+      "the task line 'Task Sample CPU, memory, thermal, power usage'",
+      "the user's own prompt bubble",
+      "the line 'Verdict: Ghostty is the heat source'",
+      "the line \"It's not a mystery process - one app is doing almost all the damage.\""
+     ],
+     "culprit_line_cropped_out": true,
+     "metric_row_cropped_out": true,
+     "why_the_metric_row_is_out": "THE HANDOFF'S CROP CONTRACT IS NOT SATISFIABLE BY ONE CONTIGUOUS CROP. It asks for a title strip, the Verdict line AND the metric row 'CPU ~700-830% (several full cores)', while also requiring that '#1 culprit: Ghostty (terminal)' be cropped out. In the source photo that culprit line sits BETWEEN the Verdict line (ink rows 704-731) and the metric table (CPU row at ~1074), and it spans the same x range as both, so no rectangle contains the verdict and the CPU row without containing the payoff word. LAW 24 is the binding half of the instruction and the metric row is the wish, so the crop keeps the title strip and the Verdict line (which is also the highlight's target and the claim the card exists to carry) and stops 22 px above the culprit line's first ink.",
+     "hl_verdict_frac": [
+      0.0907,
+      0.83455,
+      0.35944,
+      0.04501
+     ],
+     "hl_verdict_frac_note": "the box of 'Verdict: Ghostty is the heat source' as fractions of the ZOOMED window (596 x 276 core px), measured on THIS capture at alpha<150 with 6 px of horizontal and 5 px of vertical padding; the 9:01 AM timestamp cluster on the right is excluded, so the fill scopes the claim line and nothing else (LAW 38 rule 1). The module's own HL_VERDICT_FRAC is the artwork author's stated GUESS for a crop that was never taken; the handoff's instruction is to re-measure it against the actual capture, which is what this number is. The split applies it by assigning SC.HL_VERDICT_FRAC in its own process; the module file on disk is untouched.",
+     "for_the_cutout_author": "use this file, this crop and this hl_verdict_frac; do not re-fetch and do not re-crop."
+    },
+    "marks": {
+     "codex": {
+      "source": "/Users/migle/Documents/Workspace/assets/logos/coding-tools/codex-color.png",
+      "url": "assets/logos/codex-color.png",
+      "bytes": 7578
+     },
+     "claude-cowork": {
+      "source": "/Users/migle/Documents/Workspace/assets/logos/ai-models/claude-cowork.png",
+      "url": "assets/logos/claude-cowork.png",
+      "bytes": 21219
+     },
+     "grok": {
+      "source": "/Users/migle/Documents/Workspace/assets/logos/ai-models/grok.png",
+      "url": "assets/logos/grok.png",
+      "bytes": 31458
+     },
+     "x-logo": {
+      "source": "/Users/migle/Documents/Workspace/assets/logos/platforms/x-logo.svg",
+      "url": "assets/logos/x-logo.svg",
+      "bytes": 243
+     }
+    }
+   },
+   "seat": 862.5,
+   "scale": 1.0,
+   "core": {
+    "left": 0.0,
+    "top": 192.0
+   },
+   "band": {
+    "content_top": 286.0,
+    "content_bottom": 758.0,
+    "law30_top_10pct": 192.0,
+    "pill_top": 805.21,
+    "pill_height_used": 114.59,
+    "pill_centre_used": 862.5,
+    "clear_above_pill": 47.21,
+    "note": "content_top is THREE APPS' / the speech bubble's box top (canvas 286) and content_bottom is OVERHEATING's box bottom (canvas 758, the lowest ink in the video).  Both are REAL painted ink.  THE HANDOFF DERIVED THIS CLEARANCE AGAINST A 960 SEAT and reported 144.7 px; the split's canonical seam is 862.5, so the real clearance under the RENDERING pill top is 47.21 px \u2014 still legal, and the CUTOUT author must re-derive it off its own envelope."
+   },
+   "rail": {
+    "ink_left_x": 208.0,
+    "ink_right_x": 872.0,
+    "optical_axis_x": 540.0,
+    "readable_type_left_x": 208.0,
+    "readable_type_right_x": 872.0,
+    "law30_rail_x": 918.0,
+    "margins": [
+     208.0,
+     208.0
+    ],
+    "note": "the union of every declared box runs x 208..872 about an axis of 540"
+   },
+   "law40": {
+    "harness": "whiteboard_build.anchor_points, re-derived and asserted",
+    "conn-ask-list": {
+     "from": [
+      376.0,
+      212.0
+     ],
+     "mid_y": 272.0,
+     "end": [
+      540.0,
+      288.0
+     ],
+     "target": "process-list",
+     "draws": 17.1,
+     "target_draws": 17.44,
+     "leads_node_by_s": 0.34
+    },
+    "type_clearance_px": 16.0,
+    "note": "one connector into one target, so LAW 40's letter does not bind; the end is built with the law's own helper anyway"
+   },
+   "law42": {
+    "board_mode": "chapters",
+    "chapters": [
+     {
+      "i": 0,
+      "t_start": 0.099,
+      "t_end": 6.86,
+      "erase_at": 6.56
+     },
+     {
+      "i": 1,
+      "t_start": 6.86,
+      "t_end": 13.95,
+      "erase_at": 13.65
+     },
+     {
+      "i": 2,
+      "t_start": 13.95,
+      "t_end": 25.1,
+      "erase_at": 24.8
+     },
+     {
+      "i": 3,
+      "t_start": 25.1,
+      "t_end": 32.54,
+      "erase_at": 32.54
+     }
+    ],
+    "anchors": [
+     "process-list"
+    ],
+    "shares": {
+     "hot-laptop": 0.059,
+     "heat-waves": 0.042,
+     "key-overheating": 0.147,
+     "post-card": 0.115,
+     "post-header": 0.115,
+     "post-hair": 0.115,
+     "post-text-a": 0.04,
+     "post-text-b": 0.04,
+     "post-text-c": 0.04,
+     "hl-post-line": 0.023,
+     "post-inner": 0.115,
+     "hl-verdict": 0.069,
+     "key-three-apps": 0.19,
+     "tile-codex": 0.149,
+     "key-codex": 0.141,
+     "tile-cowork": 0.129,
+     "key-cowork": 0.113,
+     "tile-grok": 0.104,
+     "key-grok": 0.094,
+     "download-kit": 0.04,
+     "key-install": 0.028,
+     "prompt-field": 0.298,
+     "prompt-ink-0": 0.269,
+     "prompt-ink-1": 0.264,
+     "prompt-ink-2": 0.26,
+     "prompt-ink-3": 0.256,
+     "prompt-ink-4": 0.251,
+     "key-ask": 0.263,
+     "conn-ask-list": 0.215,
+     "process-list": 0.419,
+     "key-hot": 0.305,
+     "key-ram": 0.264,
+     "key-cpu": 0.222,
+     "scan-sweep": 0.067,
+     "key-culprit": 0.075,
+     "close-x": 0.039,
+     "o-sheet": 0.124,
+     "o-glyph": 0.109,
+     "o-rule": 0.101,
+     "o-slot": 0.098
+    },
+    "longest_lived_mark": {
+     "mark": "process-list",
+     "share": 0.419
+    },
+    "board_mode_reason": "FOUR separate idea groups \u2014 the problem and its receipt, the three programs, the ask and what it measures, and the scan that names and closes the culprit.  The one mark carried across a seam is the process list, which is why it is a declared anchor (15.56 s of 37.16 is 41.9%), and the outro glyph is the hook object drawn small with no heat."
+   },
+   "law38": {
+    "groups": [
+     {
+      "id": "hl-post-line",
+      "kind": "highlight",
+      "target": "post-text-b",
+      "at": 3.24,
+      "duration": 0.34,
+      "lifetime": [
+       3.24,
+       4.08
+      ],
+      "target_lifetime": [
+       2.6,
+       4.08
+      ]
+     },
+     {
+      "id": "hl-verdict",
+      "kind": "highlight",
+      "target": "post-inner",
+      "at": 4.3,
+      "duration": 0.34,
+      "lifetime": [
+       4.3,
+       6.86
+      ],
+      "target_lifetime": [
+       2.6,
+       6.86
+      ]
+     },
+     {
+      "id": "list-row-2",
+      "kind": "box",
+      "target": "list-row-2",
+      "at": 28.959,
+      "duration": 0.38,
+      "declared": false,
+      "dom_primitive": "ROW BORDER FLIP \u2014 borderColor rgba(0,0,0,0) -> rgb(221,114,89), on the target's OWN 2 px transparent border"
+     }
+    ],
+    "rings_ellipses_circles": 0,
+    "highlights": 2,
+    "why_the_flip_is_undeclared": "the emphasis IS the target, so a data-emphasis declaration would be measured for 4 px clearance from itself and for a colour that differs from its own ink \u2014 two violations of a rule the border flip does not break.  Asserted here instead."
+   },
+   "law41": {
+    "pairs_measured": 29,
+    "tightest": [
+     {
+      "pair": [
+       "download-kit",
+       "key-codex"
+      ],
+      "core_px": 32.0
+     },
+     {
+      "pair": [
+       "download-kit",
+       "key-cowork"
+      ],
+      "core_px": 32.0
+     },
+     {
+      "pair": [
+       "download-kit",
+       "key-grok"
+      ],
+      "core_px": 32.0
+     },
+     {
+      "pair": [
+       "key-ask",
+       "process-list"
+      ],
+      "core_px": 32.0
+     },
+     {
+      "pair": [
+       "key-codex",
+       "key-cowork"
+      ],
+      "core_px": 32.0
+     },
+     {
+      "pair": [
+       "key-cowork",
+       "key-grok"
+      ],
+      "core_px": 32.0
+     },
+     {
+      "pair": [
+       "key-overheating",
+       "post-card"
+      ],
+      "core_px": 40.0
+     },
+     {
+      "pair": [
+       "key-codex",
+       "tile-cowork"
+      ],
+      "core_px": 77.7
+     }
+    ],
+    "tightest_at_k095": 30.4,
+    "blocks": [
+     [
+      "hot-laptop",
+      "heat-waves",
+      "key-overheating"
+     ],
+     [
+      "post-card",
+      "post-header",
+      "post-text-a",
+      "post-text-b",
+      "post-text-c",
+      "post-inner",
+      "hl-post-line",
+      "hl-verdict"
+     ],
+     [
+      "key-three-apps",
+      "tile-codex",
+      "tile-cowork",
+      "tile-grok"
+     ],
+     [
+      "tile-codex",
+      "key-codex"
+     ],
+     [
+      "tile-cowork",
+      "key-cowork"
+     ],
+     [
+      "tile-grok",
+      "key-grok"
+     ],
+     [
+      "download-kit",
+      "key-install"
+     ],
+     [
+      "prompt-field",
+      "key-ask",
+      "conn-ask-list"
+     ],
+     [
+      "process-list",
+      "key-hot",
+      "key-ram",
+      "key-cpu"
+     ],
+     [
+      "process-list",
+      "key-culprit",
+      "close-x"
+     ],
+     [
+      "o-sheet",
+      "o-glyph",
+      "o-rule",
+      "o-slot"
+     ]
+    ],
+    "instrument": "pcoverheat_scene.assert_gutters(), the module's own"
+   },
+   "law39": {
+    "key-overheating": {
+     "host": "hot-laptop",
+     "side": "below",
+     "text": "OVERHEATING",
+     "key_box": [
+      316.0,
+      508.0,
+      764.0,
+      566.0
+     ],
+     "host_box": [
+      430.0,
+      200.0,
+      650.0,
+      344.0
+     ],
+     "centre_error_px": 0.0,
+     "band_px": 33.0,
+     "gap_px": 164.0,
+     "at": 1.4,
+     "host_at": 0.3,
+     "delay_after_host_s": 1.1
+    },
+    "key-three-apps": {
+     "host": "tile-cowork",
+     "side": "above",
+     "text": "THREE APPS",
+     "key_box": [
+      400.0,
+      94.0,
+      680.0,
+      138.0
+     ],
+     "host_box": [
+      484.0,
+      150.0,
+      596.0,
+      262.0
+     ],
+     "centre_error_px": 0.0,
+     "band_px": 16.8,
+     "gap_px": 12.0,
+     "at": 6.86,
+     "host_at": 9.14,
+     "delay_after_host_s": -2.28
+    },
+    "key-codex": {
+     "host": "tile-codex",
+     "side": "below",
+     "text": "CODEX",
+     "key_box": [
+      208.0,
+      278.0,
+      408.0,
+      316.0
+     ],
+     "host_box": [
+      252.0,
+      150.0,
+      364.0,
+      262.0
+     ],
+     "centre_error_px": 0.0,
+     "band_px": 16.8,
+     "gap_px": 16.0,
+     "at": 8.7,
+     "host_at": 8.38,
+     "delay_after_host_s": 0.32
+    },
+    "key-cowork": {
+     "host": "tile-cowork",
+     "side": "below",
+     "text": "CLAUDE COWORK",
+     "key_box": [
+      440.0,
+      278.0,
+      640.0,
+      316.0
+     ],
+     "host_box": [
+      484.0,
+      150.0,
+      596.0,
+      262.0
+     ],
+     "centre_error_px": 0.0,
+     "band_px": 16.8,
+     "gap_px": 16.0,
+     "at": 9.72,
+     "host_at": 9.14,
+     "delay_after_host_s": 0.58
+    },
+    "key-grok": {
+     "host": "tile-grok",
+     "side": "below",
+     "text": "GROK BUILD",
+     "key_box": [
+      672.0,
+      278.0,
+      872.0,
+      316.0
+     ],
+     "host_box": [
+      716.0,
+      150.0,
+      828.0,
+      262.0
+     ],
+     "centre_error_px": 0.0,
+     "band_px": 16.8,
+     "gap_px": 16.0,
+     "at": 10.44,
+     "host_at": 10.06,
+     "delay_after_host_s": 0.38
+    },
+    "key-install": {
+     "host": "download-kit",
+     "side": "below",
+     "text": "INSTALL",
+     "key_box": [
+      470.0,
+      520.0,
+      610.0,
+      558.0
+     ],
+     "host_box": [
+      390.0,
+      348.0,
+      690.0,
+      508.0
+     ],
+     "centre_error_px": 0.0,
+     "band_px": 45.0,
+     "gap_px": 12.0,
+     "at": 12.9,
+     "host_at": 12.46,
+     "delay_after_host_s": 0.44
+    },
+    "key-ask": {
+     "host": "prompt-field",
+     "side": "below",
+     "text": "TELL THEM",
+     "key_box": [
+      452.0,
+      220.0,
+      628.0,
+      256.0
+     ],
+     "host_box": [
+      310.0,
+      94.0,
+      770.0,
+      210.0
+     ],
+     "centre_error_px": 0.0,
+     "band_px": 69.0,
+     "gap_px": 10.0,
+     "at": 15.3,
+     "host_at": 13.99,
+     "delay_after_host_s": 1.31
+    },
+    "key-culprit": {
+     "host": "list-row-2",
+     "side": "below",
+     "text": "THE CULPRIT",
+     "key_box": [
+      408.0,
+      416.0,
+      672.0,
+      466.0
+     ],
+     "host_box": [
+      258.0,
+      288.0,
+      822.0,
+      332.0
+     ],
+     "centre_error_px": 0.0,
+     "band_px": 84.6,
+     "gap_px": 84.0,
+     "at": 30.219,
+     "host_at": 17.44,
+     "delay_after_host_s": 12.779
+    },
+    "list-title": {
+     "kind": "content",
+     "host": "process-list",
+     "text": "PROCESSES",
+     "key_box": [
+      268.0,
+      296.0,
+      528.0,
+      328.0
+     ],
+     "host_box": [
+      246.0,
+      288.0,
+      834.0,
+      564.0
+     ],
+     "why": "LAW 39's carve-out: a key contained by a shape is that shape's own content, never a label beside it"
+    },
+    "key-hot": {
+     "kind": "content",
+     "host": "process-list",
+     "text": "HOT",
+     "key_box": [
+      510.0,
+      336.0,
+      574.0,
+      370.0
+     ],
+     "host_box": [
+      246.0,
+      288.0,
+      834.0,
+      564.0
+     ],
+     "why": "LAW 39's carve-out: a key contained by a shape is that shape's own content, never a label beside it"
+    },
+    "key-ram": {
+     "kind": "content",
+     "host": "process-list",
+     "text": "RAM",
+     "key_box": [
+      594.0,
+      336.0,
+      658.0,
+      370.0
+     ],
+     "host_box": [
+      246.0,
+      288.0,
+      834.0,
+      564.0
+     ],
+     "why": "LAW 39's carve-out: a key contained by a shape is that shape's own content, never a label beside it"
+    },
+    "key-cpu": {
+     "kind": "content",
+     "host": "process-list",
+     "text": "CPU",
+     "key_box": [
+      678.0,
+      336.0,
+      742.0,
+      370.0
+     ],
+     "host_box": [
+      246.0,
+      288.0,
+      834.0,
+      564.0
+     ],
+     "why": "LAW 39's carve-out: a key contained by a shape is that shape's own content, never a label beside it"
+    },
+    "_key_term": {
+     "text": "OVERHEATING",
+     "at": 1.4,
+     "font_px": 48.0,
+     "design_units": 25.6,
+     "label_class_font_px": 30.0,
+     "first_type_at": 1.4,
+     "alone_until": 6.86,
+     "type_order": [
+      [
+       "key-overheating",
+       1.4
+      ],
+      [
+       "key-three-apps",
+       6.86
+      ],
+      [
+       "key-codex",
+       8.7
+      ],
+      [
+       "key-cowork",
+       9.72
+      ],
+      [
+       "key-grok",
+       10.44
+      ],
+      [
+       "key-install",
+       12.9
+      ],
+      [
+       "key-ask",
+       15.3
+      ],
+      [
+       "key-culprit",
+       30.219
+      ]
+     ]
+    },
+    "_hook": {
+     "object": "an open laptop with heat coming off it \u2014 the video's idea as ONE everyday object, complete from its first settled frame, and the same object WITHOUT the heat closes the outro",
+     "first_ink_at": 0.3,
+     "opens_centred_on_x": 540.0,
+     "alone_until": 0.939
+    }
+   },
+   "law37": {
+    "scan_cue_count": 1,
+    "cue": {
+     "i": 12,
+     "j": 14,
+     "t": 3.24,
+     "kind": "person",
+     "phrase": "like this guy",
+     "word": "like",
+     "window": [
+      2.24,
+      4.24
+     ],
+     "card_hold_s": [
+      2.0,
+      4.0
+     ]
+    },
+    "plan_declared_cards": 1,
+    "prep_marker": "prep/stages/pcoverheat.cues.json -> cue_count 1",
+    "instrument": "pointing_cues.scan re-run on transcript_tight.json",
+    "card_enters_at": 2.6,
+    "card_holds_s": 4.26,
+    "highlight_at": 3.24,
+    "asset": {
+     "post_id": "2084122084297359607",
+     "source_url": "https://x.com/XFreeze/status/2084122084297359607",
+     "author": "XFreeze",
+     "created_at": "2026-08-03T03:40:00.000Z",
+     "fetched_by": "pipeline/prep/sourcelib.fetch_source (X API v2, read-only)",
+     "record": "shorts_run17/assets/source_pcoverheat_2084122084297359607.json",
+     "original_photo": "2084122084297359607_0.jpg",
+     "original_size": [
+      1896,
+      2324
+     ],
+     "crop_box_xyxy": [
+      60,
+      13,
+      1835,
+      835
+     ],
+     "crop_size": [
+      1775,
+      822
+     ],
+     "aspect": 2.159367,
+     "module_aspect": 2.15942,
+     "sha256": "2e4b1af8f922dc623587abc8ac9e9e79295b64bb02112586d92d94d885e263d9",
+     "contains": [
+      "the macOS window title strip with the session's tabs",
+      "the session header strip",
+      "the task line 'Task Sample CPU, memory, thermal, power usage'",
+      "the user's own prompt bubble",
+      "the line 'Verdict: Ghostty is the heat source'",
+      "the line \"It's not a mystery process - one app is doing almost all the damage.\""
+     ],
+     "culprit_line_cropped_out": true,
+     "metric_row_cropped_out": true,
+     "why_the_metric_row_is_out": "THE HANDOFF'S CROP CONTRACT IS NOT SATISFIABLE BY ONE CONTIGUOUS CROP. It asks for a title strip, the Verdict line AND the metric row 'CPU ~700-830% (several full cores)', while also requiring that '#1 culprit: Ghostty (terminal)' be cropped out. In the source photo that culprit line sits BETWEEN the Verdict line (ink rows 704-731) and the metric table (CPU row at ~1074), and it spans the same x range as both, so no rectangle contains the verdict and the CPU row without containing the payoff word. LAW 24 is the binding half of the instruction and the metric row is the wish, so the crop keeps the title strip and the Verdict line (which is also the highlight's target and the claim the card exists to carry) and stops 22 px above the culprit line's first ink.",
+     "hl_verdict_frac": [
+      0.0907,
+      0.83455,
+      0.35944,
+      0.04501
+     ],
+     "hl_verdict_frac_note": "the box of 'Verdict: Ghostty is the heat source' as fractions of the ZOOMED window (596 x 276 core px), measured on THIS capture at alpha<150 with 6 px of horizontal and 5 px of vertical padding; the 9:01 AM timestamp cluster on the right is excluded, so the fill scopes the claim line and nothing else (LAW 38 rule 1). The module's own HL_VERDICT_FRAC is the artwork author's stated GUESS for a crop that was never taken; the handoff's instruction is to re-measure it against the actual capture, which is what this number is. The split applies it by assigning SC.HL_VERDICT_FRAC in its own process; the module file on disk is untouched.",
+     "for_the_cutout_author": "use this file, this crop and this hl_verdict_frac; do not re-fetch and do not re-crop."
+    },
+    "no_metrics_chrome": "the module paints no likes, reposts or views; the metric text INSIDE the screenshot is the post's own content, not engagement chrome",
+    "attribution": "@XFREEZE appears on the card's header row and nowhere else in the video"
+   },
+   "law2": {
+    "stage_marks": 4,
+    "assert_cast_resolves": {
+     "codex": {
+      "path": "/Users/migle/Documents/Workspace/assets/logos/coding-tools/codex-color.png",
+      "bytes": 7578,
+      "size": [
+       640,
+       640
+      ],
+      "ink_fill": 0.97,
+      "quantised_colours": 13,
+      "diag_fwd": 0.894,
+      "diag_back": 0.894,
+      "bbox": [
+       0,
+       0,
+       640,
+       640
+      ]
+     },
+     "claude-cowork": {
+      "path": "/Users/migle/Documents/Workspace/assets/logos/ai-models/claude-cowork.png",
+      "bytes": 21219,
+      "size": [
+       473,
+       487
+      ],
+      "ink_fill": 0.321,
+      "quantised_colours": 13,
+      "diag_fwd": 0.391,
+      "diag_back": 1.0,
+      "bbox": [
+       20,
+       20,
+       454,
+       468
+      ]
+     },
+     "grok": {
+      "path": "/Users/migle/Documents/Workspace/assets/logos/ai-models/grok.png",
+      "bytes": 31458,
+      "size": [
+       1000,
+       1000
+      ],
+      "ink_fill": 0.235,
+      "quantised_colours": 1,
+      "diag_fwd": 0.174,
+      "diag_back": 0.358,
+      "bbox": [
+       39,
+       57,
+       961,
+       942
+      ]
+     },
+     "x-logo": {
+      "path": "/Users/migle/Documents/Workspace/assets/logos/platforms/x-logo.svg",
+      "bytes": 243,
+      "size": [
+       256,
+       231
+      ],
+      "ink_fill": 0.365,
+      "quantised_colours": 1,
+      "diag_fwd": 0.753,
+      "diag_back": 0.659,
+      "bbox": [
+       0,
+       0,
+       255,
+       231
+      ]
+     }
+    },
+    "ink_aspects": {
+     "codex": 1.0,
+     "claude-cowork": 0.969,
+     "grok": 1.042
+    },
+    "sizes_core_px": {
+     "tile_marks": [
+      62.0,
+      74.0,
+      78.0
+     ],
+     "x_mark": 30.0
+    },
+    "source_shot": {
+     "post_id": "2084122084297359607",
+     "source_url": "https://x.com/XFreeze/status/2084122084297359607",
+     "author": "XFreeze",
+     "created_at": "2026-08-03T03:40:00.000Z",
+     "fetched_by": "pipeline/prep/sourcelib.fetch_source (X API v2, read-only)",
+     "record": "shorts_run17/assets/source_pcoverheat_2084122084297359607.json",
+     "original_photo": "2084122084297359607_0.jpg",
+     "original_size": [
+      1896,
+      2324
+     ],
+     "crop_box_xyxy": [
+      60,
+      13,
+      1835,
+      835
+     ],
+     "crop_size": [
+      1775,
+      822
+     ],
+     "aspect": 2.159367,
+     "module_aspect": 2.15942,
+     "sha256": "2e4b1af8f922dc623587abc8ac9e9e79295b64bb02112586d92d94d885e263d9",
+     "contains": [
+      "the macOS window title strip with the session's tabs",
+      "the session header strip",
+      "the task line 'Task Sample CPU, memory, thermal, power usage'",
+      "the user's own prompt bubble",
+      "the line 'Verdict: Ghostty is the heat source'",
+      "the line \"It's not a mystery process - one app is doing almost all the damage.\""
+     ],
+     "culprit_line_cropped_out": true,
+     "metric_row_cropped_out": true,
+     "why_the_metric_row_is_out": "THE HANDOFF'S CROP CONTRACT IS NOT SATISFIABLE BY ONE CONTIGUOUS CROP. It asks for a title strip, the Verdict line AND the metric row 'CPU ~700-830% (several full cores)', while also requiring that '#1 culprit: Ghostty (terminal)' be cropped out. In the source photo that culprit line sits BETWEEN the Verdict line (ink rows 704-731) and the metric table (CPU row at ~1074), and it spans the same x range as both, so no rectangle contains the verdict and the CPU row without containing the payoff word. LAW 24 is the binding half of the instruction and the metric row is the wish, so the crop keeps the title strip and the Verdict line (which is also the highlight's target and the claim the card exists to carry) and stops 22 px above the culprit line's first ink.",
+     "hl_verdict_frac": [
+      0.0907,
+      0.83455,
+      0.35944,
+      0.04501
+     ],
+     "hl_verdict_frac_note": "the box of 'Verdict: Ghostty is the heat source' as fractions of the ZOOMED window (596 x 276 core px), measured on THIS capture at alpha<150 with 6 px of horizontal and 5 px of vertical padding; the 9:01 AM timestamp cluster on the right is excluded, so the fill scopes the claim line and nothing else (LAW 38 rule 1). The module's own HL_VERDICT_FRAC is the artwork author's stated GUESS for a crop that was never taken; the handoff's instruction is to re-measure it against the actual capture, which is what this number is. The split applies it by assigning SC.HL_VERDICT_FRAC in its own process; the module file on disk is untouched.",
+     "for_the_cutout_author": "use this file, this crop and this hl_verdict_frac; do not re-fetch and do not re-crop."
+    },
+    "cutout_lanes_not_ours": [
+     "cursor",
+     "copilot",
+     "opencode",
+     "antigravity",
+     "openclaw",
+     "github"
+    ],
+    "why": "LAW 2 binds a NAMED tool to its logo and this script names three programs and one platform; the three tile marks are sized BY THEIR INK (62 / 74 / 78 core px), never by their boxes, so a 0.971-coverage glyph and a 0.238-coverage glyph read as equals in one row of 112 px tiles"
+   },
+   "cues": {
+    "waves": {
+     "word_spoken": 4,
+     "text": "overheating,",
+     "edge": "start",
+     "t": 0.939,
+     "word_edge": 0.939
+    },
+    "hlpost": {
+     "word_spoken": 12,
+     "text": "like",
+     "edge": "start",
+     "t": 3.24,
+     "word_edge": 3.24
+    },
+    "tileA": {
+     "word_spoken": 29,
+     "text": "Codex,",
+     "edge": "start",
+     "t": 8.38,
+     "word_edge": 8.38
+    },
+    "tileB": {
+     "word_spoken": 30,
+     "text": "Claude",
+     "edge": "start",
+     "t": 9.14,
+     "word_edge": 9.139
+    },
+    "dlkit": {
+     "word_spoken": 45,
+     "text": "install",
+     "edge": "start",
+     "t": 12.46,
+     "word_edge": 12.46
+    },
+    "colhot": {
+     "word_spoken": 79,
+     "text": "hot,",
+     "edge": "start",
+     "t": 21.68,
+     "word_edge": 21.68
+    },
+    "colram": {
+     "word_spoken": 85,
+     "text": "RAM,",
+     "edge": "start",
+     "t": 23.199,
+     "word_edge": 23.199
+    },
+    "colcpu": {
+     "word_spoken": 91,
+     "text": "CPU.",
+     "edge": "start",
+     "t": 24.739,
+     "word_edge": 24.739
+    },
+    "scan": {
+     "word_spoken": 96,
+     "text": "look",
+     "edge": "start",
+     "t": 26.119,
+     "word_edge": 26.119
+    },
+    "emph": {
+     "word_spoken": 109,
+     "text": "pinpoint",
+     "edge": "start",
+     "t": 28.959,
+     "word_edge": 28.959
+    },
+    "keyculprit": {
+     "word_spoken": 112,
+     "text": "culprit,",
+     "edge": "start",
+     "t": 30.219,
+     "word_edge": 30.219
+    },
+    "closebtn": {
+     "word_spoken": 117,
+     "text": "close",
+     "edge": "start",
+     "t": 31.559,
+     "word_edge": 31.559
+    },
+    "outro": {
+     "word_spoken": 121,
+     "text": "Now,",
+     "edge": "start",
+     "t": 32.54,
+     "word_edge": 32.54
+    },
+    "laptop": {
+     "word_spoken": 1,
+     "text": "your",
+     "edge": "inside",
+     "t": 0.3,
+     "window": [
+      0.219,
+      1.299
+     ]
+    },
+    "keyterm": {
+     "word_spoken": 4,
+     "text": "overheating,",
+     "edge": "inside",
+     "t": 1.4,
+     "window": [
+      0.939,
+      2.319
+     ]
+    },
+    "laptopout": {
+     "word_spoken": 7,
+     "text": "now",
+     "edge": "inside",
+     "t": 2.3,
+     "window": [
+      2.139,
+      3.24
+     ]
+    },
+    "card": {
+     "word_spoken": 8,
+     "text": "help",
+     "edge": "inside",
+     "t": 2.6,
+     "window": [
+      2.279,
+      3.44
+     ]
+    },
+    "zoom": {
+     "word_spoken": 15,
+     "text": "did",
+     "edge": "inside",
+     "t": 3.86,
+     "window": [
+      3.759,
+      4.879
+     ]
+    },
+    "hlverdict": {
+     "word_spoken": 17,
+     "text": "X.",
+     "edge": "inside",
+     "t": 4.3,
+     "window": [
+      4.299,
+      5.459
+     ]
+    },
+    "ch0erase": {
+     "word_spoken": 26,
+     "text": "three",
+     "edge": "inside",
+     "t": 6.56,
+     "window": [
+      6.539,
+      7.719
+     ]
+    },
+    "threeapps": {
+     "word_spoken": 27,
+     "text": "applications,",
+     "edge": "inside",
+     "t": 6.86,
+     "window": [
+      6.819,
+      8.399
+     ]
+    },
+    "keyA": {
+     "word_spoken": 29,
+     "text": "Codex,",
+     "edge": "inside",
+     "t": 8.7,
+     "window": [
+      8.38,
+      9.779
+     ]
+    },
+    "keyB": {
+     "word_spoken": 32,
+     "text": "Work,",
+     "edge": "inside",
+     "t": 9.72,
+     "window": [
+      9.599,
+      10.8
+     ]
+    },
+    "tileC": {
+     "word_spoken": 34,
+     "text": "Grok",
+     "edge": "inside",
+     "t": 10.06,
+     "window": [
+      10.059,
+      11.319
+     ]
+    },
+    "keyC": {
+     "word_spoken": 35,
+     "text": "Build.",
+     "edge": "inside",
+     "t": 10.44,
+     "window": [
+      10.38,
+      11.599
+     ]
+    },
+    "keyinstall": {
+     "word_spoken": 46,
+     "text": "them",
+     "edge": "inside",
+     "t": 12.9,
+     "window": [
+      12.859,
+      13.979
+     ]
+    },
+    "ch1erase": {
+     "word_spoken": 49,
+     "text": "website,",
+     "edge": "inside",
+     "t": 13.65,
+     "window": [
+      13.539,
+      14.899
+     ]
+    },
+    "field": {
+     "word_spoken": 49,
+     "text": "website,",
+     "edge": "inside",
+     "t": 13.99,
+     "window": [
+      13.539,
+      14.899
+     ]
+    },
+    "ink": {
+     "word_spoken": 55,
+     "text": "them,",
+     "edge": "inside",
+     "t": 15.1,
+     "window": [
+      15.019,
+      16.119
+     ]
+    },
+    "keyask": {
+     "word_spoken": 55,
+     "text": "them,",
+     "edge": "inside",
+     "t": 15.3,
+     "window": [
+      15.019,
+      16.119
+     ]
+    },
+    "stem": {
+     "word_spoken": 64,
+     "text": "computer",
+     "edge": "inside",
+     "t": 17.1,
+     "window": [
+      16.94,
+      18.339
+     ]
+    },
+    "list": {
+     "word_spoken": 65,
+     "text": "processes",
+     "edge": "inside",
+     "t": 17.44,
+     "window": [
+      17.379,
+      19.0
+     ]
+    },
+    "ch2erase": {
+     "word_spoken": 91,
+     "text": "CPU.",
+     "edge": "inside",
+     "t": 24.8,
+     "window": [
+      24.739,
+      26.1
+     ]
+    },
+    "move": {
+     "word_spoken": 91,
+     "text": "CPU.",
+     "edge": "inside",
+     "t": 25.1,
+     "window": [
+      24.739,
+      26.1
+     ]
+    },
+    "retract": {
+     "word_spoken": 118,
+     "text": "it",
+     "edge": "inside",
+     "t": 31.86,
+     "window": [
+      31.819,
+      32.899
+     ]
+    },
+    "_free": {
+     "scanend": {
+      "t": 28.6,
+      "starts": 26.119,
+      "travel_s": 2.48,
+      "clear_before_emphasis_s": 0.359,
+      "kind": "ONE continuous pass, then it is gone"
+     },
+     "law45": [
+      {
+       "erase": "ch0erase",
+       "erase_completes": 6.86,
+       "handover_object": "key-three-apps",
+       "completes": 7.16,
+       "gap_s": 0.3,
+       "limit_s": 0.3,
+       "branch": "the board's KEY WORD, written into the space the card leaves",
+       "verdict": "PASS"
+      },
+      {
+       "erase": "ch1erase",
+       "erase_completes": 13.93,
+       "handover_object": "prompt-field",
+       "completes": 14.25,
+       "gap_s": 0.32,
+       "limit_s": 0.3,
+       "branch": "the speech bubble, drawn fast",
+       "verdict": "REPORTED \u2014 over the 0.30 s deadline by 0.02s, half a frame at 25 fps; the law's own reference implementation (impossibletask v3.2, SEAM_LAP 0.04 + SEAM_DRAW 0.28 against a 0.30 s erase) lands 0.02 s late too, and the board is never blank across the window: the bubble is visibly drawing from 13.99"
+      },
+      {
+       "erase": "ch2erase",
+       "erase_completes": 25.08,
+       "handover_object": "process-list",
+       "completes": 17.86,
+       "gap_s": 0.0,
+       "limit_s": 0.3,
+       "branch": "CARRIED across the seam, complete since 17.86",
+       "verdict": "PASS"
+      }
+     ],
+     "outro": {
+      "t": 32.54,
+      "last_board_event_completes": 32.22,
+      "clear_s": 0.32,
+      "sheet": {
+       "up": 32.54,
+       "d": 0.46,
+       "chip_in": 33.1,
+       "kind": "OPAQUE RISING SHEET, never a fade and never a scrim"
+      }
+     }
+    }
+   },
+   "production_v2_declarations": {
+    "conn-ask-list": {
+     "target": "process-list",
+     "anchor_side": "top",
+     "anchor_fraction": 0.5,
+     "end": [
+      540.0,
+      288.0
+     ],
+     "completes_at": 17.5,
+     "target_settles_at": 17.86,
+     "check_at": 18.6
+    },
+    "hl-post-line": {
+     "kind": "highlight",
+     "target": "post-text-b",
+     "wipes": [
+      3.24,
+      3.58
+     ],
+     "check_at": 3.8,
+     "why": "LAW 38 rule 1: the target is TYPE inside a source card, so the tool is the marker"
+    },
+    "hl-verdict": {
+     "kind": "highlight",
+     "target": "post-inner",
+     "wipes": [
+      4.3,
+      4.64
+     ],
+     "check_at": 5.6,
+     "why": "LAW 38 rule 1: the target is TYPE inside a source card, so the tool is the marker"
+    },
+    "_label_repointed": {
+     "map": {
+      "row-culprit": "list-row-2",
+      "col-hot": "process-list",
+      "col-ram": "process-list",
+      "col-cpu": "process-list"
+     },
+     "why": "the shared module writes the PLAN's conceptual host names; `row-culprit` is this DOM's `list-row-2` and `col-hot`/`col-ram`/`col-cpu` are three columns inside `process-list` with no element of their own.  geometry_audit SKIPS a label whose host id does not exist, so a dangling name silently retires LAW 3 on four keys.  No geometry moves."
+    },
+    "list-title": {
+     "kind": "content label",
+     "host": "process-list",
+     "contained_by_host": true,
+     "axis_offset_px": -142.0,
+     "why": "the window's own name, declared so Gate 1 stops guessing a host for it"
+    },
+    "_note": "visual_laws.CHECK_JS requires anchor side/fraction/check-at on every element carrying data-connect-to and target/check-at on every data-emphasis; the shared scene emits data-connect-to, data-overlap-ok and data-emphasis only.  Stamped on the EMITTED string so the module the cutout author is reading is not mutated.  No geometry moves.",
+    "_no_emphasis_declared_on_the_row": "the third emphasis in this video is the culprit row's OWN border flip; see assert_emphasis_law"
+   },
+   "plan_geometry": {
+    "matched": [
+     "heat-waves",
+     "hot-laptop",
+     "key-overheating",
+     "key-three-apps",
+     "post-card",
+     "post-header",
+     "post-inner-small",
+     "post-inner-zoom",
+     "post-text-a",
+     "post-text-b",
+     "post-text-c"
+    ],
+    "declared_deviations": [
+     {
+      "rect": "tile-codex",
+      "plan": [
+       252,
+       386,
+       364,
+       498
+      ],
+      "built": [
+       252.0,
+       342.0,
+       364.0,
+       454.0
+      ]
+     },
+     {
+      "rect": "tile-cowork",
+      "plan": [
+       484,
+       386,
+       596,
+       498
+      ],
+      "built": [
+       484.0,
+       342.0,
+       596.0,
+       454.0
+      ]
+     },
+     {
+      "rect": "tile-grok",
+      "plan": [
+       716,
+       386,
+       828,
+       498
+      ],
+      "built": [
+       716.0,
+       342.0,
+       828.0,
+       454.0
+      ]
+     },
+     {
+      "rect": "key-codex",
+      "plan": [
+       258,
+       514,
+       358,
+       552
+      ],
+      "built": [
+       208.0,
+       470.0,
+       408.0,
+       508.0
+      ]
+     },
+     {
+      "rect": "key-cowork",
+      "plan": [
+       434,
+       514,
+       646,
+       552
+      ],
+      "built": [
+       440.0,
+       470.0,
+       640.0,
+       508.0
+      ]
+     },
+     {
+      "rect": "key-grok",
+      "plan": [
+       682,
+       514,
+       862,
+       552
+      ],
+      "built": [
+       672.0,
+       470.0,
+       872.0,
+       508.0
+      ]
+     },
+     {
+      "rect": "download-kit",
+      "plan": [
+       440,
+       592,
+       640,
+       700
+      ],
+      "built": [
+       390.0,
+       540.0,
+       690.0,
+       700.0
+      ]
+     },
+     {
+      "rect": "key-install",
+      "plan": [
+       478,
+       712,
+       602,
+       750
+      ],
+      "built": [
+       470.0,
+       712.0,
+       610.0,
+       750.0
+      ]
+     },
+     {
+      "rect": "prompt-field",
+      "plan": [
+       246,
+       290,
+       834,
+       362
+      ],
+      "built": [
+       310.0,
+       286.0,
+       770.0,
+       402.0
+      ]
+     },
+     {
+      "rect": "key-ask",
+      "plan": [
+       456,
+       378,
+       624,
+       414
+      ],
+      "built": [
+       452.0,
+       412.0,
+       628.0,
+       448.0
+      ]
+     },
+     {
+      "rect": "process-list",
+      "plan": [
+       246,
+       446,
+       834,
+       750
+      ],
+      "built": [
+       246.0,
+       480.0,
+       834.0,
+       756.0
+      ]
+     },
+     {
+      "rect": "process-list-ch3",
+      "plan": [
+       246,
+       300,
+       834,
+       604
+      ],
+      "built": [
+       246.0,
+       300.0,
+       834.0,
+       576.0
+      ]
+     },
+     {
+      "rect": "row-culprit",
+      "plan": [
+       258,
+       496,
+       822,
+       526
+      ],
+      "built": [
+       258.0,
+       480.0,
+       822.0,
+       524.0
+      ]
+     },
+     {
+      "rect": "close-x",
+      "plan": [
+       846,
+       496,
+       876,
+       526
+      ],
+      "built": [
+       770.0,
+       486.0,
+       802.0,
+       518.0
+      ]
+     },
+     {
+      "rect": "key-culprit",
+      "plan": [
+       408,
+       636,
+       672,
+       686
+      ],
+      "built": [
+       408.0,
+       608.0,
+       672.0,
+       658.0
+      ]
+     }
+    ],
+    "not_built_by_this_module": [
+     "emph-culprit"
+    ],
+    "deviation_count": 14,
+    "verdict": "PASS"
+   },
+   "hl_verdict_frac": {
+    "module_guess": [
+     0.055,
+     0.375,
+     0.76,
+     0.135
+    ],
+    "measured_on_this_capture": [
+     0.0907,
+     0.83455,
+     0.35944,
+     0.04501
+    ],
+    "applied": "SC.HL_VERDICT_FRAC assigned in THIS process only; the module file on disk is byte-identical to the artwork seal, and the measurement is written into the capture record for the cutout author"
+   },
+   "transcript": {
+    "partials_dropped": [],
+    "law47_tail_s": 0.24,
+    "law47_cap_s": 0.24,
+    "law47_overshoot_s": 0.0,
+    "law47_verdict": "PASS \u2014 the master runs 0.240s past the last word against a 0.240s cap",
+    "law46": "the opening key \"If your computer keeps overheating,\" occurs once, at word 0 / 0.099 s; no restart and no discard marker anywhere inside the keeper take",
+    "take_corroboration": {
+     "source": "cuts/pcoverheat/edl.json -> take_detection (there is NO prep/stages/pcoverheat.take.json)",
+     "marker": "equality",
+     "gap": "point",
+     "witnessed": true,
+     "allow_uncorroborated": false,
+     "raw_word_index": 230,
+     "raw_start_s": 117.78,
+     "words": 142,
+     "of_raw_words": 372,
+     "openings": 12,
+     "sign_offs_found": 1,
+     "stutters_inside_take": 0,
+     "envelope_onset_s": 117.75
+    },
+    "token_merge": {
+     "at": 31,
+     "n": 2,
+     "text": "Cowork,",
+     "raw_evidence": "Claude Cowork",
+     "why": "the raw Scribe pass of this take says 'Claude Cowork'; the tight pass split it into 'Code Work'"
+    },
+    "words": 142,
+    "phrase_groups_repartitioned": 14,
+    "function_word_merges": 0,
+    "beats_before_merge": 37,
+    "board_keys_forbidden_at_split": [
+     "claude cowork",
+     "claude cowork!",
+     "claude cowork,",
+     "claude cowork.",
+     "claude cowork?",
+     "codex",
+     "codex!",
+     "codex,",
+     "codex.",
+     "codex?",
+     "cpu",
+     "cpu!",
+     "cpu,",
+     "cpu.",
+     "cpu?",
+     "grok build",
+     "grok build!",
+     "grok build,",
+     "grok build.",
+     "grok build?",
+     "hot",
+     "hot!",
+     "hot,",
+     "hot.",
+     "hot?",
+     "install",
+     "install!",
+     "install,",
+     "install.",
+     "install?",
+     "overheating",
+     "overheating!",
+     "overheating,",
+     "overheating.",
+     "overheating?",
+     "processes",
+     "processes!",
+     "processes,",
+     "processes.",
+     "processes?",
+     "ram",
+     "ram!",
+     "ram,",
+     "ram.",
+     "ram?",
+     "tell them",
+     "tell them!",
+     "tell them,",
+     "tell them.",
+     "tell them?",
+     "the culprit",
+     "the culprit!",
+     "the culprit,",
+     "the culprit.",
+     "the culprit?",
+     "three apps",
+     "three apps!",
+     "three apps,",
+     "three apps.",
+     "three apps?"
+    ],
+    "orphan_repartitions": [],
+    "board_key_echo_repairs": [
+     {
+      "offending_pill": "Codex,",
+      "board_key": "key-codex",
+      "key_window": [
+       8.7,
+       13.93
+      ],
+      "action": "backward-merge",
+      "replaced_by": [
+       "either Codex,"
+      ]
+     }
+    ],
+    "solo_word_merges": [
+     {
+      "solo": "Claude",
+      "direction": "backward",
+      "merged_to": "either Codex, Claude"
+     }
+    ],
+    "caption_echoes_not_overlapping": []
+   },
+   "phone_test_objects": [
+    {
+     "name": "an open laptop",
+     "t": 1.9,
+     "space": "norm",
+     "bbox": [
+      0.39815,
+      0.15625,
+      0.60185,
+      0.27917
+     ],
+     "phone_px": [
+      82,
+      88
+     ]
+    },
+    {
+     "name": "a download arrow",
+     "t": 13.3,
+     "space": "norm",
+     "bbox": [
+      0.36111,
+      0.28125,
+      0.63889,
+      0.36458
+     ],
+     "phone_px": [
+      112,
+      60
+     ]
+    },
+    {
+     "name": "a speech bubble",
+     "t": 16.6,
+     "space": "norm",
+     "bbox": [
+      0.28704,
+      0.14896,
+      0.71296,
+      0.20938
+     ],
+     "phone_px": [
+      172,
+      44
+     ]
+    },
+    {
+     "name": "a process list",
+     "t": 25.9,
+     "space": "norm",
+     "bbox": [
+      0.22778,
+      0.15625,
+      0.77222,
+      0.3
+     ],
+     "phone_px": [
+      220,
+      104
+     ]
+    }
+   ],
+   "phone_test_vs_plan": {
+    "objects": [
+     {
+      "plan_name": "an open laptop",
+      "built_name": "an open laptop",
+      "plan_t": 1.9,
+      "built_t": 1.9,
+      "plan_bbox": [
+       0.3981,
+       0.1563,
+       0.6019,
+       0.2792
+      ],
+      "built_bbox": [
+       0.39815,
+       0.15625,
+       0.60185,
+       0.27917
+      ],
+      "plan_phone_px": [
+       83,
+       88
+      ],
+      "built_phone_px": [
+       82,
+       88
+      ],
+      "max_delta_px": 0.1,
+      "metaphor_changed": false
+     },
+     {
+      "plan_name": "a download arrow",
+      "built_name": "a download arrow",
+      "plan_t": 13.3,
+      "built_t": 13.3,
+      "plan_bbox": [
+       0.4074,
+       0.3083,
+       0.5926,
+       0.3646
+      ],
+      "built_bbox": [
+       0.36111,
+       0.28125,
+       0.63889,
+       0.36458
+      ],
+      "plan_phone_px": [
+       75,
+       41
+      ],
+      "built_phone_px": [
+       112,
+       60
+      ],
+      "max_delta_px": 51.94,
+      "metaphor_changed": false
+     },
+     {
+      "plan_name": "a text field",
+      "built_name": "a speech bubble",
+      "plan_t": 16.6,
+      "built_t": 16.6,
+      "plan_bbox": [
+       0.2278,
+       0.151,
+       0.7722,
+       0.1885
+      ],
+      "built_bbox": [
+       0.28704,
+       0.14896,
+       0.71296,
+       0.20938
+      ],
+      "plan_phone_px": [
+       220,
+       27
+      ],
+      "built_phone_px": [
+       172,
+       44
+      ],
+      "max_delta_px": 63.98,
+      "metaphor_changed": true
+     },
+     {
+      "plan_name": "a process list",
+      "built_name": "a process list",
+      "plan_t": 20.0,
+      "built_t": 25.9,
+      "plan_bbox": [
+       0.2278,
+       0.2323,
+       0.7722,
+       0.3906
+      ],
+      "built_bbox": [
+       0.22778,
+       0.15625,
+       0.77222,
+       0.3
+      ],
+      "plan_phone_px": [
+       220,
+       114
+      ],
+      "built_phone_px": [
+       220,
+       104
+      ],
+      "max_delta_px": 173.95,
+      "metaphor_changed": false
+     }
+    ],
+    "source_used_for_the_phone_test": "--geom",
+    "why": "two of the four metaphors changed under the artwork author's cold reads and the module's DEVIATIONS record every rect that moved; --plan would crop a board this build never drew"
+   },
+   "render": {
+    "w": 1080,
+    "h": 1920,
+    "zoom": 1
+   },
+   "handle_key": "yt",
+   "handle": "@migueltorrezai",
+   "captions": {
+    "n": 35,
+    "widest_px": 743.1,
+    "font_px": 56.2,
+    "pill_height_px": 114.59,
+    "sizes": 1,
+    "function_word_merges": 0,
+    "texts": [
+     "If your computer",
+     "keeps overheating,",
+     "AI can now help",
+     "you fix that,",
+     "like this guy did on X.",
+     "Now, you're going",
+     "to use one of these",
+     "three applications,",
+     "either Codex, Claude",
+     "Cowork, or Grok Build.",
+     "The only thing that you",
+     "have to do is install them",
+     "from their website, and",
+     "you're going to tell them,",
+     "\"Hey,",
+     "can you look at all of",
+     "my computer processes",
+     "and tell me exactly",
+     "what is going wrong?\"",
+     "Either your computer is",
+     "too hot, you are using",
+     "too much RAM, or you're",
+     "using too much CPU.",
+     "AI is going to look at all",
+     "of the processes in your",
+     "computer, and it's going",
+     "to pinpoint exactly the",
+     "culprit, and it can",
+     "even close it for you.",
+     "Now, follow for more",
+     "AI news, videos, and",
+     "tutorials on how",
+     "you can do this,",
+     "and see you in the",
+     "next one"
+    ],
+    "aspects": [
+     4.44,
+     4.98,
+     4.33,
+     3.39,
+     5.61,
+     4.78,
+     5.02,
+     4.92,
+     5.45,
+     5.88,
+     6.06,
+     6.47,
+     6.02,
+     6.49,
+     1.84,
+     5.46,
+     6.05,
+     5.04,
+     5.84,
+     6.02,
+     5.65,
+     6.34,
+     5.42,
+     6.18,
+     6.11,
+     6.2,
+     5.86,
+     4.65,
+     5.38,
+     5.54,
+     5.34,
+     4.42,
+     4.22,
+     4.8,
+     2.61
+    ],
+    "min_aspect": 1.84
+   }
+  }
+ }
+}

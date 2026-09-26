@@ -1,0 +1,53 @@
+{
+ "vid": "pcoverheat",
+ "verdict": "PASS",
+ "phone_verdict": "PASS",
+ "confirmed": 0,
+ "dismissed": 8,
+ "renders_judged": 3,
+ "clerk": "v3.1",
+ "watcher_cands_present": false,
+ "watcher_cost_usd_not_spent": 0.0,
+ "watcher_note": "no cands_pcoverheat_*.json for any of the three renders; gemini project over monthly spend cap (429 RESOURCE_EXHAUSTED) also crashed gate3 describe-mode, rc=1, zero describe_errors to adjudicate",
+ "gate3_gemini_describe": "REPORTED (infrastructure failure, no picture claims)",
+ "instruments": {
+  "face_center_check_reels": {
+   "verdict": "PASS",
+   "worst_dx_pct_band": 5.19,
+   "worst_t": 3.0,
+   "n_band": 74,
+   "full_face_n": 0,
+   "tol_pct": 4.0
+  },
+  "whiteboard_zero_ink_reels": {
+   "verdict": "PASS",
+   "frames": 929,
+   "min_ink_frac_judged": 0.00203843,
+   "min_ink_frac_at_s": 0.2,
+   "blank_frames": []
+  },
+  "durations_s": {
+   "split": 37.181333,
+   "whiteboard": 37.181333,
+   "cutout": 37.181333
+  },
+  "handles": {
+   "split": "@migueltorrezai",
+   "whiteboard": "@migueltorrez.ai",
+   "cutout": "@migueltorrez.ai"
+  }
+ },
+ "phone_test": {
+  "objects": 12,
+  "passed": 12,
+  "failed": 0,
+  "pre_flagged_failures": 0,
+  "flag_files": []
+ },
+ "report": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/clerk_v3_pcoverheat.md",
+ "reviewed_files": {
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/staging/youtube/pcoverheat_split.mp4": "ebc831c8bd2e4e0123a9e0d1313677e5bad58e5fdf6f430e9129921ed17300bb",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/staging/reels/pcoverheat_whiteboard.mp4": "8daf49343f3c04ec51a6a6976e14ca860008f511252bf1b4e21a1b4ff18be2dc",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/staging/tiktok/pcoverheat_cutout.mp4": "ed81794fc15982022ea0a7a860fede88bd32b6e82e44b451be0873522df510f3"
+ }
+}

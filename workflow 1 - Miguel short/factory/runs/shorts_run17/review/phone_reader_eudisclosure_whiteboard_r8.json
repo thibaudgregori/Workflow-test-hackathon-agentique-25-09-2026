@@ -1,0 +1,36 @@
+{
+  "tag": "round8",
+  "cold_dir": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/round8-56eaa8fe",
+  "reader": "one independent `claude -p` process per crop, launched from /tmp, handed ONLY the absolute path of a blind copy under a random token - no plan, no topic, no manifest, no sealed key, and no path naming the video",
+  "prompt": "Look at the image at <absolute path of one blind crop> . Name the single everyday object drawn in it. At most FIVE words. Reply with ONE line of JSON and nothing else: {\"name\":\"<=5 words\",\"confidence\":\"sure|unsure|cannot tell\"}",
+  "dispatched_at": "2026-09-08T01:44:59",
+  "cli": "2.1.263 (Claude Code)",
+  "source_crops": {
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/bc7683b8/00.png": "07379e45bb01b63389d1eca0685bc2153571ab3da8730be35edd85cefb601e82",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/bc7683b8/01.png": "5c02988c63871c7c4b6da600aebb384796f8a298722e04d89f454938b80f7b59",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/bc7683b8/02.png": "45d2947760c6425c051c2c908b1abad007f2a99be287b16d76aa4802b91d7e37"
+  },
+  "names": [
+    {
+      "i": 0,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/round8-56eaa8fe/00.png",
+      "name": "rubber stamp",
+      "confidence": "sure",
+      "crop_sha256": "07379e45bb01b63389d1eca0685bc2153571ab3da8730be35edd85cefb601e82"
+    },
+    {
+      "i": 1,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/round8-56eaa8fe/01.png",
+      "name": "framed landscape picture",
+      "confidence": "unsure",
+      "crop_sha256": "5c02988c63871c7c4b6da600aebb384796f8a298722e04d89f454938b80f7b59"
+    },
+    {
+      "i": 2,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/round8-56eaa8fe/02.png",
+      "name": "brightness slider (dimmer switch)",
+      "confidence": "unsure",
+      "crop_sha256": "45d2947760c6425c051c2c908b1abad007f2a99be287b16d76aa4802b91d7e37"
+    }
+  ]
+}

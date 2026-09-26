@@ -1,0 +1,8 @@
+{
+ "launched": false,
+ "pid": 58113,
+ "log": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/prep/_batch.log",
+ "intake": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/prep/_intake.json",
+ "rows": 2,
+ "note": "LAUNCH FAILED HARD. prep_batch started (pid 58113) and died in 0.2s: the run's raw Scribe transcripts do not exist. Both rows errored at cut with [Errno 2] No such file or directory: shorts_run22/intake/transcripts/'2026-09-04 15-14-05'.json and .../'2026-09-04 13-29-36'.json. shorts_run22/ contained only prep/ and review/ - there is no intake/ directory at all, so no transcripts, no CLAIMS.md, no MATTES_FINAL.md. Cascade: plate ERROR 'no cut master to derive a plate from', cues ERROR 'no tight transcript to scan for cues'; track and ship never ran ('no ship' for both). Stage markers in prep/stages/ EXIST but carry error status - downstream gates must not read them as progress. The Scribe cost-ledger lines could not be booked either: no transcript means no audio_duration_secs to price. The raw recordings themselves are present (~/Movies/2026-09-04 13-29-36.mp4 and 2026-09-04 15-14-05.mp4). BLOCKER: the upstream intake/Scribe v2 pass for run 22 must be run first, then prep_batch relaunched unchanged. The intake list itself needed no repair - it was already present and complete, with opening_families, sign_off_key and keyterms on both rows."
+}

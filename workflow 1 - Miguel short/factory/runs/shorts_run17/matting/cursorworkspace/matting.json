@@ -1,0 +1,91 @@
+{
+  "status": "ok",
+  "backend": "matanyone2",
+  "key": "f8ecd5ff03f9ce99248b40c5eacc7b23dccaff9b117360ae4c313933045b7c8a",
+  "selection": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/cursorworkspace/selection.json",
+  "headroom": {
+    "identity": {
+      "alpha_sha256": "008cb680a8d895c919511a1cd357e39017805f398c2dc0f0714f87f1713a1029",
+      "display_sha256": "0bb0f4a71a2dac2c3305dd008725f702625f0a9dd2d180cf1f72895221ceb7c8",
+      "guard_sha256": "90e6a7f8cf1a142b9a8ab4cf0054f9803188279b68642b84430db31afe79999a",
+      "expected_frames": 538,
+      "floor_px": 24.0
+    },
+    "pass": true,
+    "frames_checked": 538,
+    "min_top_clearance_px": 50.6,
+    "floor_px": 24.0,
+    "worst_frame": 128,
+    "worst_seconds": 5.12,
+    "unsafe_frames": 0,
+    "first_unsafe_frames": [],
+    "scope": "Every matte frame, top edge of prepared person layer; no caption or semantic face claim"
+  },
+  "track": {
+    "ok": true,
+    "spec": {
+      "mode": "matanyone2",
+      "frames": 538,
+      "max_side": 1024,
+      "precision": "bf16",
+      "warmup": 10,
+      "input_sha256": "2c045a03d20499167057bee0cf9915e88199da1c453362cb9f4b017d0eab9753",
+      "mask_sha256": "784e41a3b315f45d48679f94c0df27afe18632a0d56f9d570833ead8f010fc05"
+    },
+    "frames": 538,
+    "fps": 25.0,
+    "source_size": [
+      1260,
+      900
+    ],
+    "inference_size": [
+      1024,
+      732
+    ],
+    "load_seconds": 3.690876223,
+    "process_seconds": 49.100772479,
+    "total_worker_seconds": 54.548345884999996,
+    "peak_gpu_gib": 1.0969352722167969,
+    "torch": "2.8.0+cu128",
+    "gpu": "NVIDIA L4",
+    "alpha_sha256": "008cb680a8d895c919511a1cd357e39017805f398c2dc0f0714f87f1713a1029",
+    "function_seconds": 58.44232248,
+    "estimated_compute_usd": 0.0165812557340256,
+    "model_revision": "40c894a6f68d1f55c86ab0de838d89dc61587930",
+    "worker_sha256": "c55c2915c27b87ef0a435cec744fd300e41a26aa268746328c9f1a35560c826f",
+    "cost_note": "Function runtime estimate; startup and scale-down additional, not an invoice.",
+    "client_wall_seconds": 66.82733400003053
+  },
+  "ship": {
+    "status": "ok",
+    "frames": 538,
+    "width": 1386,
+    "height": 990,
+    "fps": 25.0,
+    "alpha_mode": "soft",
+    "rim_px": 7,
+    "temporal": 1,
+    "hashes": {
+      "cut": "3a5568d8df7cfdf27df2f70985b7e1381914c7bdfca1a21af762c3f6236904dc",
+      "rim": "e78cc20fa72c6fa2bc97f477e423f9c4adc0fc4b5d4351a28ac4dbace19f9405",
+      "alpha": "05274766acda15600c3096743d25bfc970c498e714cbf8478a2ea18f44ebb1b1"
+    },
+    "seconds": 59.60233151,
+    "estimated_compute_usd": 0.0271023721842272,
+    "fractional_alpha_pixels": 12283508,
+    "minimum_person_fraction": 0.394773856895069,
+    "review_status": "needs_final_visual_review",
+    "ship_source_sha256": "cf367be51d742c272d9f79db8a13e00297684001ebf666283095059206e149e7",
+    "client_wall_seconds": 70.5872459160164,
+    "outputs": {
+      "cut": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/cursorworkspace/matte_cursorworkspace_v5_cut.webm",
+      "rim": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/cursorworkspace/matte_cursorworkspace_v5_rim.webm",
+      "alpha": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/cursorworkspace/matte_cursorworkspace_v5_alpha.webm"
+    }
+  },
+  "outputs": {
+    "cut": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/cursorworkspace/matte_cursorworkspace_v5_cut.webm",
+    "rim": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/cursorworkspace/matte_cursorworkspace_v5_rim.webm",
+    "alpha": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/cursorworkspace/matte_cursorworkspace_v5_alpha.webm"
+  }
+}

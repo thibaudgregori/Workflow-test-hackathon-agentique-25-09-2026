@@ -1,0 +1,151 @@
+{
+ "video": "kimifable",
+ "format": "cutout",
+ "label": "kimifable_cutout",
+ "instrument": "pipeline/cold_read.py dispatch - one independent `claude -p` per crop, launched from /tmp on the absolute path of a blind copy under a random token, with no plan, no topic and no answer key",
+ "evidence_rounds_scored": [
+  "review/phone_reader_kimifable_cutout.json (round1)",
+  "review/phone_reader_kimifable_cutout_round2.json (round2)",
+  "review/phone_reader_kimifable_cutout_round4.json (round4)",
+  "review/phone_reader_kimifable_cutout_round5.json (round5)"
+ ],
+ "disclosed_extra_read": {
+  "file": "review/phone_reader_kimifable_cutout_round3.json (round3)",
+  "objects": [
+   0
+  ],
+  "answer": "luggage tag / unsure",
+  "why_not_in_the_evidence_set": "production.read_rows requires EVERY evidence round to answer EVERY object; round3 was a single-crop confirmation dispatch on object 0 only, so the tool cannot take it. It is NOT dropped: object 0's honest tally over ALL FIVE independent reads is 3 of 5 sure with 0 different, which passes production.consensus' own arithmetic (3*2 >= 5) on the larger denominator too. Excluding it would not have been allowed to change the verdict and it does not."
+ },
+ "scoring_rule": "STANDARD.md -> THE PHONE TEST / SCORE THE IDEA, NOT THE NOUN (Miguel, 2026-09-06): a reader who names the drawn content, its container, or a sibling noun of the same thing PASSES; only a DIFFERENT thing, a hedge or 'cannot tell' FAILS. The arithmetic over those judgements is production.consensus': <=1 different, and at least half the reads `sure`.",
+ "objects": [
+  {
+   "i": 0,
+   "intended": "a price tag",
+   "verdict": "PASS",
+   "reason": "4 of 4 scored reads named a TAG and 3 of 4 were sure; 0 named a different object. 'luggage tag' is a sibling noun of the same thing - the plan's own re-read guidance lists 'tag', 'label', 'luggage tag' as passing answers for this object - and the hedge is the instrument, not the drawing: production.consensus records this exact sure/unsure/unsure/sure pattern on BYTE-IDENTICAL crops as the reason one draw is not a measurement. Including the disclosed round-3 read the tally is 3 of 5 sure, 0 different, which still passes.",
+   "reads": [
+    {
+     "round": "round1",
+     "name": "luggage tag",
+     "confidence": "unsure",
+     "match": "synonym"
+    },
+    {
+     "round": "round2",
+     "name": "price tag",
+     "confidence": "sure",
+     "match": "intended"
+    },
+    {
+     "round": "round4",
+     "name": "price tag",
+     "confidence": "sure",
+     "match": "intended"
+    },
+    {
+     "round": "round5",
+     "name": "price tag",
+     "confidence": "sure",
+     "match": "intended"
+    }
+   ]
+  },
+  {
+   "i": 1,
+   "intended": "a benchmark scorecard",
+   "verdict": "PASS",
+   "reason": "4 of 4 sure, 4 of 4 'clipboard'. The object IS a scorecard clipped to a board, and the reader is naming the container it saw - the artwork author put it on a clipboard for exactly this reason, because as a bare card seven readers said 'bar chart' and not one could commit. Scored SYNONYM under SCORE THE IDEA, NOT THE NOUN.",
+   "reads": [
+    {
+     "round": "round1",
+     "name": "clipboard",
+     "confidence": "sure",
+     "match": "synonym"
+    },
+    {
+     "round": "round2",
+     "name": "clipboard",
+     "confidence": "sure",
+     "match": "synonym"
+    },
+    {
+     "round": "round4",
+     "name": "clipboard",
+     "confidence": "sure",
+     "match": "synonym"
+    },
+    {
+     "round": "round5",
+     "name": "clipboard",
+     "confidence": "sure",
+     "match": "synonym"
+    }
+   ]
+  },
+  {
+   "i": 2,
+   "intended": "a website layout",
+   "verdict": "PASS",
+   "reason": "4 of 4 sure; 'web browser window' / 'browser window' is the container the layout is drawn inside, and the brief names 'browser window' for an app window as an explicit PASS.",
+   "reads": [
+    {
+     "round": "round1",
+     "name": "web browser window",
+     "confidence": "sure",
+     "match": "synonym"
+    },
+    {
+     "round": "round2",
+     "name": "web browser window",
+     "confidence": "sure",
+     "match": "synonym"
+    },
+    {
+     "round": "round4",
+     "name": "web browser window",
+     "confidence": "sure",
+     "match": "synonym"
+    },
+    {
+     "round": "round5",
+     "name": "browser window",
+     "confidence": "sure",
+     "match": "synonym"
+    }
+   ]
+  },
+  {
+   "i": 3,
+   "intended": "a folder of designs",
+   "verdict": "PASS",
+   "reason": "4 of 4 sure, 4 of 4 'file folder' - the intended object named, minus its contents word.",
+   "reads": [
+    {
+     "round": "round1",
+     "name": "file folder",
+     "confidence": "sure",
+     "match": "synonym"
+    },
+    {
+     "round": "round2",
+     "name": "file folder",
+     "confidence": "sure",
+     "match": "synonym"
+    },
+    {
+     "round": "round4",
+     "name": "file folder",
+     "confidence": "sure",
+     "match": "synonym"
+    },
+    {
+     "round": "round5",
+     "name": "file folder",
+     "confidence": "sure",
+     "match": "synonym"
+    }
+   ]
+  }
+ ]
+}

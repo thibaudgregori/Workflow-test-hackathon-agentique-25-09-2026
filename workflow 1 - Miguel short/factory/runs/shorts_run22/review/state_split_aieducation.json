@@ -1,0 +1,37 @@
+{
+ "staged": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/staging/youtube/aieducation_split.mp4",
+ "phone_verdict": "PASS",
+ "blocked": "",
+ "rounds": 1,
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/projects/aieducation_split",
+ "scene_handoff": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/plans/aieducation_scene_handoff.md",
+ "lane": "icon choreography",
+ "generator": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/gen/aieducation_split_gen.py",
+ "prerender": "PASS in 2.73s (refs_resolve, assets_not_placeholder 5 rasters, page_audit, caption_canon_page 30 pills modal h 114.66 spread 0.0, gate1 0 errors / 0 warnings; cutout checks SKIP)",
+ "geometry_strict": "0 errors, 0 warnings (32.1s @ 0.5s step) -> projects/aieducation_split/geometry_audit/report.json",
+ "phone_test": {
+  "mode": "phone-test",
+  "objects": 4,
+  "sheet": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/review/phone_aieducation_split.png"
+ },
+ "cold_crops": [
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/review/cold/04562c3c/00.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/review/cold/04562c3c/01.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/review/cold/04562c3c/02.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/review/cold/04562c3c/03.png"
+ ],
+ "cold_read": "1 confirmation round: 'open book' sure / 'heart' sure / 'human head in profile' unsure / 'easel with canvas' sure - 0 different, 4 PASS",
+ "word_sync": "5 states checked, 0 disagreements",
+ "ss3b_merges": 0,
+ "render": {
+  "wall_s": 133.0,
+  "render_s": 91.8,
+  "qc": "PASS",
+  "watch": "PASS",
+  "candidates": 0,
+  "modal_usd": 0.0135,
+  "gemini_usd": 0.03644,
+  "total_usd": 0.04994
+ },
+ "notes": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/plans/aieducation_split_notes.md"
+}

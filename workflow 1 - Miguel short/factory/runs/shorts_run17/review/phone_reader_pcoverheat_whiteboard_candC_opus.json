@@ -1,0 +1,20 @@
+{
+  "tag": "candC_opus",
+  "cold_dir": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/candC_opus-d304449d",
+  "reader": "one independent `claude -p` process per crop, launched from /tmp, handed ONLY the absolute path of a blind copy under a random token - no plan, no topic, no manifest, no sealed key, and no path naming the video",
+  "prompt": "Look at the image at <absolute path of one blind crop> . Name the single everyday object drawn in it. At most FIVE words. Reply with ONE line of JSON and nothing else: {\"name\":\"<=5 words\",\"confidence\":\"sure|unsure|cannot tell\"}",
+  "dispatched_at": "2026-09-08T08:39:31",
+  "cli": "2.1.263 (Claude Code)",
+  "source_crops": {
+    "/private/tmp/claude-502/-Users-migle-Documents-Workspace/1ad6e9a8-54c1-4a5a-a394-38253392daad/scratchpad/candC/phone_candC/00.png": "976344fefcf257a2bf5b0d53ccea417d68601f379ce1d64663ce7648c93d27b5"
+  },
+  "names": [
+    {
+      "i": 0,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/candC_opus-d304449d/00.png",
+      "name": "task manager window",
+      "confidence": "unsure",
+      "crop_sha256": "976344fefcf257a2bf5b0d53ccea417d68601f379ce1d64663ce7648c93d27b5"
+    }
+  ]
+}

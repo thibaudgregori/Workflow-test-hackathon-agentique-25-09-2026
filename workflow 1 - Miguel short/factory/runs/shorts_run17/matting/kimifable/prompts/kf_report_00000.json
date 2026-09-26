@@ -1,0 +1,58 @@
+{
+ "frame": 0,
+ "plate": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/kimifable/plate_wide_25.mp4",
+ "dark_threshold": 60,
+ "wing_right": null,
+ "wing_right_rows": "400,620",
+ "wing_left": null,
+ "wing_left_rows": "400,520",
+ "removed_right_px": 0,
+ "removed_left_px": 0,
+ "removed": {
+  "px": 0,
+  "median_luma": -1,
+  "max_luma": -1
+ },
+ "birefnet": {
+  "area": 471979,
+  "bands": {
+   "cap": {
+    "left": 418,
+    "right": 764
+   },
+   "head": {
+    "left": 402,
+    "right": 763
+   },
+   "jaw": {
+    "left": 239,
+    "right": 885
+   },
+   "neck": {
+    "left": 123,
+    "right": 1062
+   }
+  }
+ },
+ "prompt": {
+  "area": 471979,
+  "bands": {
+   "cap": {
+    "left": 418,
+    "right": 764
+   },
+   "head": {
+    "left": 402,
+    "right": 763
+   },
+   "jaw": {
+    "left": 239,
+    "right": 885
+   },
+   "neck": {
+    "left": 123,
+    "right": 1062
+   }
+  }
+ }
+}

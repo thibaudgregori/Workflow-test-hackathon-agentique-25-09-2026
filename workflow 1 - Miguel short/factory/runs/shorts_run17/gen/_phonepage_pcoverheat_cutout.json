@@ -1,0 +1,33 @@
+{
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/projects/pcoverheat_cutout",
+ "label": "pcoverheat_cutout",
+ "mode": "phone-test",
+ "composition_px": [
+  1080,
+  1920
+ ],
+ "duration_s": 37.16,
+ "sheet": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/phone_pcoverheat_cutout.png",
+ "manifest": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/phone_pcoverheat_cutout.json",
+ "answer_key": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/phone_pcoverheat_cutout.key.json",
+ "n_objects": 4,
+ "phone_sizes_px": [
+  [
+   94,
+   101
+  ],
+  [
+   128,
+   68
+  ],
+  [
+   196,
+   50
+  ],
+  [
+   250,
+   118
+  ]
+ ],
+ "wall_s": 2.07
+}

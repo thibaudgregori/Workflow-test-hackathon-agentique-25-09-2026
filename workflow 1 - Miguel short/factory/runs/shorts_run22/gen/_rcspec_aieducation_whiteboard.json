@@ -1,0 +1,27 @@
+{
+ "run": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22",
+ "out_dir": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/output",
+ "jobs": [
+  {
+   "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/projects/aieducation_whiteboard",
+   "vid": "aieducation",
+   "fmt": "whiteboard",
+   "quality": "high",
+   "stage": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/staging/reels/aieducation_whiteboard.mp4",
+   "qc_args": [
+    "--voice-master",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/cuts/aieducation/audio.m4a",
+    "--seams",
+    "3,13.4,17.94,21.74",
+    "--phone-at",
+    "2.55:0.2500,0.1660,0.7500,0.3926:open book heart",
+    "--phone-at",
+    "12.80:0.3438,0.1680,0.6562,0.3281:3D anatomy heart",
+    "--phone-at",
+    "17.72:0.6111,0.1445,0.8090,0.3027:thinking head profile",
+    "--phone-at",
+    "25.30:0.3229,0.2344,0.6771,0.4121:classroom easel board"
+   ]
+  }
+ ]
+}

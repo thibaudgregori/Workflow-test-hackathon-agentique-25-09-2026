@@ -1,0 +1,70 @@
+{
+ "vid": "aieducation",
+ "verdict": "PASS (Miguel, on the delivered renders)",
+ "phone_verdict": "PASS",
+ "confirmed": 0,
+ "renders_judged": 3,
+ "approved_by": "Miguel",
+ "approved_at": "2026-09-16",
+ "basis": "Miguel watched all three renders on 2026-09-16 after the card re-aim fix and said 'perfect', then asked for it to be packaged and scheduled. HIS VERDICT IS THE VERDICT (STANDARD: approved = done). Instruments: all three renders pass qc_pass and the post-render watcher raised 0 candidates on each. The split carries a recorded watch_waiver whose row an independent clerk has since refuted on its own evidence.",
+ "reviewed_files": {
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/staging/youtube/aieducation_split.mp4": "1844069ab8ae03b63cba11da2bce092e9306e223c8905315e133f5f22a6fe69c",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/staging/reels/aieducation_whiteboard.mp4": "425c98909357d034e2266f9ec89fc51d6ea06e38144b21c4c3f0f737b1c6c532",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/staging/tiktok/aieducation_cutout.mp4": "b8b6b702d8153080078ee130bd1bd649b42a194dfb3092a21cb29f49f6945033"
+ },
+ "instruments": {
+  "split": {
+   "verdicts": {
+    "decoded_blank_frames": "PASS",
+    "zero_ink_law": "PASS",
+    "clip_coverage_page": "PASS",
+    "double_exposure": "REPORTED",
+    "face_centring": "PASS",
+    "pill_canon_rendered": "PASS",
+    "gate1_geometry_audit": "PASS",
+    "gate2_frame_review": "PASS",
+    "gate3_gemini_describe": "PASS",
+    "audio_guards": "PASS",
+    "contact_sheet": "PASS",
+    "phone_crops": "PASS"
+   }
+  },
+  "whiteboard": {
+   "verdicts": {
+    "decoded_blank_frames": "PASS",
+    "zero_ink_law": "PASS",
+    "clip_coverage_page": "PASS",
+    "double_exposure": "REPORTED",
+    "face_centring": "PASS",
+    "pill_canon_rendered": "PASS",
+    "gate1_geometry_audit": "PASS",
+    "gate2_frame_review": "PASS",
+    "gate3_gemini_describe": "PASS",
+    "audio_guards": "PASS",
+    "contact_sheet": "PASS",
+    "phone_crops": "PASS",
+    "whiteboard_seam_law": "PASS"
+   }
+  },
+  "cutout": {
+   "verdicts": {
+    "decoded_blank_frames": "PASS",
+    "zero_ink_law": "PASS",
+    "clip_coverage_page": "PASS",
+    "double_exposure": "REPORTED",
+    "face_centring": "PASS",
+    "pill_canon_rendered": "PASS",
+    "gate1_geometry_audit": "PASS",
+    "gate2_frame_review": "PASS",
+    "cutout_checks_24_25": "PASS",
+    "gate3_gemini_describe": "PASS",
+    "audio_guards": "PASS",
+    "contact_sheet": "PASS",
+    "phone_crops": "PASS",
+    "edge_clip": "PASS",
+    "face_hf_vs_plate": "PASS",
+    "head_scale_vs_framing": "PASS"
+   }
+  }
+ }
+}

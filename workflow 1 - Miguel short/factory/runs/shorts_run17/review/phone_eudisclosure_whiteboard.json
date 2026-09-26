@@ -1,0 +1,83 @@
+{
+ "label": "eudisclosure_whiteboard",
+ "video": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/eudisclosure_whiteboard.mp4",
+ "phone_scale": "405x720",
+ "sheet": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/phone_eudisclosure_whiteboard.png",
+ "rule": "a FRESH judge (never read the plan) names each crop in <=3 words. Wrong name, hedge, or 'cannot tell' = the object is redesigned, not annotated.",
+ "answer_key": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/phone_eudisclosure_whiteboard.key.json",
+ "answer_key_rule": "DO NOT OPEN the answer key until every judge_answer below is filled in. Reading it first voids the Phone Test.",
+ "objects": [
+  {
+   "i": 0,
+   "t": 1.2,
+   "bbox_norm": [
+    0.4063,
+    0.1992,
+    0.5937,
+    0.2773
+   ],
+   "phone_box_px": [
+    164,
+    143,
+    240,
+    199
+   ],
+   "phone_size_px": [
+    76,
+    56
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/phone_eudisclosure_whiteboard/00.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  },
+  {
+   "i": 1,
+   "t": 10.5,
+   "bbox_norm": [
+    0.4063,
+    0.291,
+    0.5937,
+    0.3808
+   ],
+   "phone_box_px": [
+    164,
+    209,
+    240,
+    274
+   ],
+   "phone_size_px": [
+    76,
+    65
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/phone_eudisclosure_whiteboard/01.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  },
+  {
+   "i": 2,
+   "t": 20.2,
+   "bbox_norm": [
+    0.3524,
+    0.3261,
+    0.6458,
+    0.373
+   ],
+   "phone_box_px": [
+    142,
+    234,
+    261,
+    268
+   ],
+   "phone_size_px": [
+    119,
+    34
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/phone_eudisclosure_whiteboard/02.png",
+   "sheet_scale": 1.0,
+   "judge_answer": null,
+   "verdict": null
+  }
+ ]
+}

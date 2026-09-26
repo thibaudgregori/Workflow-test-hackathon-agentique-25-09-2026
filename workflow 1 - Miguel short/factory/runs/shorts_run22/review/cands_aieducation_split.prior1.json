@@ -1,0 +1,343 @@
+{
+ "video": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/output/aieducation_split.mp4",
+ "video_id": "aieducation",
+ "fmt": "split",
+ "model": "gemini-3.5-flash-lite",
+ "duration_s": 32.141,
+ "fps_sampled": 3.0,
+ "windows": [
+  [
+   0.0,
+   32.14
+  ],
+  [
+   0.0,
+   20.0
+  ],
+  [
+   17.0,
+   32.14
+  ]
+ ],
+ "whole_pass": true,
+ "thinking": "medium",
+ "media_resolution": "HIGH",
+ "jobs": 3,
+ "transcript": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/cuts/aieducation/transcript_tight.json",
+ "video_summary": "The video discusses how AI is transforming education, demonstrating an interactive 3D human anatomy application built by a developer on X. It then shows how teachers can use AI tools to create custom interactive applications for students, concluding with a call to follow for more daily AI news.",
+ "beat_log": [
+  {
+   "t_start": 0.0,
+   "t_end": 2.7,
+   "on_screen": "Open book outline with heart icon appearing above it in the top cream zone; speaker in a black t-shirt and baseball cap below; caption pill on the seam reading 'Education will no longer be the same'.",
+   "said": "Education will no longer be the same due to AI.",
+   "marks_visible": "none",
+   "labels_visible": "Education will no longer be the same due to AI.",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "none",
+   "picture_vs_sentence": "Picture illustrates education and heart/passion for learning, matching the introduction.",
+   "from_window": [
+    0.0,
+    32.14
+   ]
+  },
+  {
+   "t_start": 0.0,
+   "t_end": 3.0,
+   "on_screen": "Open book outline drawing with a heart icon appearing on the top cream zone.",
+   "said": "Education will no longer be the same due to AI.",
+   "marks_visible": "none",
+   "labels_visible": "none",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "none",
+   "picture_vs_sentence": "Picture illustrates the concept of changing education with symbolic drawings.",
+   "from_window": [
+    0.0,
+    20.0
+   ]
+  },
+  {
+   "t_start": 2.7,
+   "t_end": 6.1,
+   "on_screen": "Tweet card from 'THE BUGGED DEV' with text and 3D heart anatomy interface in the top cream zone; speaker below.",
+   "said": "Now, this guy on X built out an entire 3D",
+   "marks_visible": "none",
+   "labels_visible": "THE BUGGED DEV @THEBUGGEDDEV A 3D human anatomy application built with @threejs using GPT 5.6 Sol.",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "ABOVE and BELOW the main post content",
+   "picture_vs_sentence": "Picture shows a post on X showcasing a 3D application, perfectly matching the sentence.",
+   "from_window": [
+    0.0,
+    32.14
+   ]
+  },
+  {
+   "t_start": 3.0,
+   "t_end": 6.0,
+   "on_screen": "X post card displayed in the top cream zone showing a heart anatomy app preview.",
+   "said": "Now, this guy on X built out an entire 3D",
+   "marks_visible": "X",
+   "labels_visible": "THE BUGGED DEV, @THEBUGGEDDEV, A 3D human anatomy application built with @threejs using GPT 5.6 Sol.",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "above",
+   "picture_vs_sentence": "Picture shows the specific X post mentioned in the speech.",
+   "from_window": [
+    0.0,
+    20.0
+   ]
+  },
+  {
+   "t_start": 6.0,
+   "t_end": 13.0,
+   "on_screen": "Heart outline with three red dots, a rotating red arrow below, and labels '3D ANATOMY' and 'ONE AFTERNOON'.",
+   "said": "interactive tool to be able to explore the entire human anatomy in a single afternoon, full of accurate 3D models.",
+   "marks_visible": "none",
+   "labels_visible": "3D ANATOMY, ONE AFTERNOON",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "3D ANATOMY is above the heart; ONE AFTERNOON is below the arrow.",
+   "picture_vs_sentence": "Picture illustrates exploring anatomy models.",
+   "from_window": [
+    0.0,
+    20.0
+   ]
+  },
+  {
+   "t_start": 6.1,
+   "t_end": 13.1,
+   "on_screen": "Line drawing of a heart with three red dots and a curved arrow below, with the label '3D ANATOMY' above and 'ONE AFTERNOON' below.",
+   "said": "interactive tool to be able to explore the entire human anatomy in a single afternoon, full of accurate 3D models.",
+   "marks_visible": "none",
+   "labels_visible": "3D ANATOMY ONE AFTERNOON",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "3D ANATOMY is ABOVE the heart; ONE AFTERNOON is BELOW the arrow. Both are correctly placed.",
+   "picture_vs_sentence": "Picture illustrates exploring human anatomy with a heart diagram and model markers.",
+   "from_window": [
+    0.0,
+    32.14
+   ]
+  },
+  {
+   "t_start": 13.0,
+   "t_end": 18.0,
+   "on_screen": "Open book icon on the left with label 'FLAT PAGE' below, and a head profile outline on the right with label 'GUESSWORK' below.",
+   "said": "No longer will we have to just look at textbooks and have to imagine things in our head.",
+   "marks_visible": "none",
+   "labels_visible": "FLAT PAGE, GUESSWORK",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "FLAT PAGE is below the book; GUESSWORK is below the head profile.",
+   "picture_vs_sentence": "Picture contrasts flat textbooks with imaginative guesswork.",
+   "from_window": [
+    0.0,
+    20.0
+   ]
+  },
+  {
+   "t_start": 13.1,
+   "t_end": 18.0,
+   "on_screen": "Side-by-side icons: an open book labeled 'FLAT PAGE' on the left, and a head outline labeled 'GUESSWORK' with a heart inside on the right.",
+   "said": "No longer will we have to just look at textbooks and have to imagine things in our head.",
+   "marks_visible": "none",
+   "labels_visible": "FLAT PAGE GUESSWORK",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "FLAT PAGE is BELOW the book icon; GUESSWORK is BELOW the head icon. Both correctly placed.",
+   "picture_vs_sentence": "Picture contrasts flat textbooks with guesswork/imagination, matching the audio.",
+   "from_window": [
+    0.0,
+    32.14
+   ]
+  },
+  {
+   "t_start": 17.0,
+   "t_end": 18.0,
+   "on_screen": "Two line icons (flat page book on left, guesswork head with heart on right) on a cream background above the speaker.",
+   "said": "No longer will we have to just look at textbooks and have to imagine things in our head.",
+   "marks_visible": "none",
+   "labels_visible": "FLAT PAGE, GUESSWORK, things in our head.",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "Labels are positioned below the respective icons.",
+   "picture_vs_sentence": "Picture illustrates textbooks and imagining things in our head.",
+   "from_window": [
+    17.0,
+    32.14
+   ]
+  },
+  {
+   "t_start": 18.0,
+   "t_end": 22.0,
+   "on_screen": "Drawn heart icon being split/explored with a cursor arrow and label 'INSIDE'.",
+   "said": "Now we will be able to look at screens and see how things are built.",
+   "marks_visible": "none",
+   "labels_visible": "INSIDE",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "INSIDE is BELOW the heart drawing.",
+   "picture_vs_sentence": "Picture shows looking inside an object, matching the sentence.",
+   "from_window": [
+    0.0,
+    32.14
+   ]
+  },
+  {
+   "t_start": 18.0,
+   "t_end": 20.0,
+   "on_screen": "Anatomical heart-like organ drawing being sketched on screen.",
+   "said": "Now we will be able to look at screens and see how",
+   "marks_visible": "none",
+   "labels_visible": "none",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "none",
+   "picture_vs_sentence": "Picture shows an interactive screen visual being drawn.",
+   "from_window": [
+    0.0,
+    20.0
+   ]
+  },
+  {
+   "t_start": 18.0,
+   "t_end": 21.5,
+   "on_screen": "A line drawing of a heart shape with a leaf inside on a cream background above the speaker.",
+   "said": "Now we will be able to look at screens and see how things are built.",
+   "marks_visible": "none",
+   "labels_visible": "INSIDE, how things are built.",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "Label INSIDE is below the drawing.",
+   "picture_vs_sentence": "Picture shows a heart outline with an internal structure being drawn.",
+   "from_window": [
+    17.0,
+    32.14
+   ]
+  },
+  {
+   "t_start": 21.5,
+   "t_end": 27.5,
+   "on_screen": "Three AI logos (ChatGPT, Anthropic asterisk, Google Gemini spark) at top with red arrows pointing down to a laptop on an easel, with hearts appearing.",
+   "said": "Teachers who adopt AI will be able to build out interactive applications for all of their students.",
+   "marks_visible": "ChatGPT logo, Anthropic asterisk logo, Google Gemini spark logo",
+   "labels_visible": "Teachers who adopt AI will be able to build out interactive applications for all of their students.",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "Caption pill on seam is centered properly.",
+   "picture_vs_sentence": "Picture shows AI logos and an easel building interactive applications.",
+   "from_window": [
+    17.0,
+    32.14
+   ]
+  },
+  {
+   "t_start": 22.0,
+   "t_end": 27.5,
+   "on_screen": "Three AI logos (ChatGPT, Claude Code pixel mascot, and a star icon) at the top connected by red lines to an easel displaying a screen with a heart.",
+   "said": "Teachers who adopt AI will be able to build out interactive applications for all of their students.",
+   "marks_visible": "ChatGPT, Claude Code pixel mascot",
+   "labels_visible": "none",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "none",
+   "picture_vs_sentence": "Picture illustrates teachers building apps via AI tools, matching the sentence.",
+   "from_window": [
+    0.0,
+    32.14
+   ]
+  },
+  {
+   "t_start": 27.5,
+   "t_end": 32.14,
+   "on_screen": "Outro handle card with a heart, text '@migueltorrezai' and subtitle 'daily AI'.",
+   "said": "Now follow for more AI news, videos, and tutorials each and every single day, and catch you in the next one.",
+   "marks_visible": "none",
+   "labels_visible": "@migueltorrezai daily AI",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "daily AI is BELOW the handle.",
+   "picture_vs_sentence": "Picture shows the standard handle outro card.",
+   "from_window": [
+    0.0,
+    32.14
+   ]
+  },
+  {
+   "t_start": 27.5,
+   "t_end": 32.14,
+   "on_screen": "Outro handle card with an outline heart, handle @migueltorrezai, and daily AI subtitle on a cream background above the speaker.",
+   "said": "Now follow for more AI news, videos, and tutorials each and every single day, and catch you in the next one.",
+   "marks_visible": "none",
+   "labels_visible": "@migueltorrezai, daily AI, Now follow for more AI news, videos, and tutorials each and every single day, and catch you in the next one.",
+   "touching_or_clipped": "none",
+   "empty_regions": "none",
+   "label_placement": "Handle label is correctly placed below the heart icon.",
+   "picture_vs_sentence": "Picture shows the outro handle card for the creator.",
+   "from_window": [
+    17.0,
+    32.14
+   ]
+  }
+ ],
+ "all_summaries": [
+  "The video discusses how AI is transforming education, demonstrating an interactive 3D human anatomy application built by a developer on X. It then shows how teachers can use AI tools to create custom interactive applications for students, concluding with a call to follow for more daily AI news.",
+  "The video discusses how AI will transform education by replacing traditional textbooks with interactive 3D anatomical models and immersive applications. The speaker illustrates this by showing an anatomical tool built by a developer on X and contrasting flat textbook learning with interactive screen-based exploration.",
+  "This video segment discusses how AI will transform education by enabling teachers to build interactive applications for students instead of relying solely on textbooks. It concludes with a standard outro encouraging viewers to follow for daily AI content."
+ ],
+ "candidates": [],
+ "counts": {
+  "candidates": 0,
+  "blocking": 0,
+  "motion": 0
+ },
+ "calls": [
+  {
+   "pass": 1,
+   "window": [
+    0.0,
+    32.14
+   ],
+   "model": "gemini-3.5-flash-lite",
+   "fps": 3.0,
+   "thinking": "medium",
+   "input_tokens": 30093,
+   "output_tokens": 1398,
+   "thinking_tokens": 0,
+   "cost_usd": 0.012523
+  },
+  {
+   "pass": 1,
+   "window": [
+    0.0,
+    20.0
+   ],
+   "model": "gemini-3.5-flash-lite",
+   "fps": 3.0,
+   "thinking": "medium",
+   "input_tokens": 20290,
+   "output_tokens": 2951,
+   "thinking_tokens": 2025,
+   "cost_usd": 0.013465
+  },
+  {
+   "pass": 1,
+   "window": [
+    17.0,
+    32.14
+   ],
+   "model": "gemini-3.5-flash-lite",
+   "fps": 3.0,
+   "thinking": "medium",
+   "input_tokens": 16207,
+   "output_tokens": 2236,
+   "thinking_tokens": 1396,
+   "cost_usd": 0.010452
+  }
+ ],
+ "cost_usd": 0.03644,
+ "wall_clock_s": 23.5
+}

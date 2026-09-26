@@ -1,0 +1,31 @@
+{
+ "run": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17",
+ "out_dir": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output",
+ "jobs": [
+  {
+   "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/projects/pcoverheat_cutout",
+   "vid": "pcoverheat",
+   "fmt": "cutout",
+   "quality": "high",
+   "stage": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/staging/tiktok/pcoverheat_cutout.mp4",
+   "qc_args": [
+    "--voice-master",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/cuts/pcoverheat/audio.m4a",
+    "--phone-at",
+    "1.9:0.3981,0.1562,0.6019,0.2792:an open laptop",
+    "--phone-at",
+    "13.3:0.3611,0.2812,0.6389,0.3646:a download arrow",
+    "--phone-at",
+    "16.6:0.287,0.149,0.713,0.2094:a speech bubble",
+    "--phone-at",
+    "25.9:0.2278,0.1562,0.7722,0.3:a process list",
+    "--alpha",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/pcoverheat/matte_pcoverheat_v5_alpha.webm",
+    "--edge-box",
+    "1782x990+-450+930",
+    "--plate",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/pcoverheat/plate_display_1782x990.mp4"
+   ]
+  }
+ ]
+}

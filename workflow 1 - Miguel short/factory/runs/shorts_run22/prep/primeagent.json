@@ -1,0 +1,42 @@
+{
+ "id": "primeagent",
+ "run": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22",
+ "recording": "2026-09-04 15-14-05",
+ "gpu": null,
+ "session": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/matting/primeagent",
+ "cut_dir": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/cuts/primeagent",
+ "stages": {
+  "cut": {
+   "status": "error",
+   "wall_s": 0.0,
+   "error": "RuntimeError: NO INDEPENDENT WITNESS: the marker rule abstains and the gap rule is correct at no threshold in [0.8, 0.9, 1.0, 1.5, 2.0, 2.5, 3.0, 4.0, 6.0, 8.0].  The family has never cut a take on the content rule alone; pin the numbers by hand and pass allow_uncorroborated=True with a written reason.",
+   "traceback": "Traceback (most recent call last):\n  File \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/prep/prep_batch.py\", line 500, in prep_front\n    edl = cutlib.build_cut(\n          ^^^^^^^^^^^^^^^^^\n  File \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/prep/cutlib.py\", line 958, in build_cut\n    detection = detect_take(words, opening_key=opening_key,\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/prep/cutlib.py\", line 655, in detect_take\n    raise RuntimeError(\nRuntimeError: NO INDEPENDENT WITNESS: the marker rule abstains and the gap rule is correct at no threshold in [0.8, 0.9, 1.0, 1.5, 2.0, 2.5, 3.0, 4.0, 6.0, 8.0].  The family has never cut a take on the content rule alone; pin the numbers by hand and pass allow_uncorroborated=True with a written reason.\n"
+  },
+  "plate": {
+   "status": "error",
+   "wall_s": 0.0,
+   "error": "RuntimeError: no cut master to derive a plate from",
+   "traceback": "Traceback (most recent call last):\n  File \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/prep/prep_batch.py\", line 571, in prep_front\n    raise RuntimeError(\"no cut master to derive a plate from\")\nRuntimeError: no cut master to derive a plate from\n"
+  },
+  "prompt0": {
+   "status": "blocked",
+   "error": "blocked: plate stage is not ok",
+   "wall_s": 0.0
+  },
+  "cues": {
+   "status": "error",
+   "wall_s": 0.0,
+   "error": "RuntimeError: no tight transcript to scan for cues",
+   "traceback": "Traceback (most recent call last):\n  File \"/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/pipeline/prep/prep_batch.py\", line 685, in prep_front\n    raise RuntimeError(\"no tight transcript to scan for cues\")\nRuntimeError: no tight transcript to scan for cues\n"
+  },
+  "track": {
+   "status": "error",
+   "error": "No valid prepared plate"
+  }
+ },
+ "no_chair_object": false,
+ "started": "2026-09-15T22:06:50",
+ "backend": "matanyone2",
+ "finished": "2026-09-15T22:10:00",
+ "wall_s": 0.0
+}

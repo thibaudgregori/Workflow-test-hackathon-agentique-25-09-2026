@@ -1,0 +1,63 @@
+{
+ "label": "cursorworkspace_cutout",
+ "video": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output/cursorworkspace_cutout.mp4",
+ "phone_scale": "405x720",
+ "sheet": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/phone_cursorworkspace_cutout.png",
+ "rule": "a FRESH judge (never read the plan) names each crop in <=3 words. Wrong name, hedge, or 'cannot tell' = the object is redesigned, not annotated.",
+ "answer_key": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/phone_cursorworkspace_cutout.key.json",
+ "answer_key_rule": "DO NOT OPEN the answer key until every judge_answer below is filled in. Reading it first voids the Phone Test.",
+ "objects": [
+  {
+   "i": 0,
+   "t": 2.3,
+   "bbox_norm": [
+    0.1926,
+    0.3021,
+    0.8074,
+    0.3951
+   ],
+   "phone_box_px": [
+    77,
+    217,
+    327,
+    284
+   ],
+   "phone_size_px": [
+    250,
+    67
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/phone_cursorworkspace_cutout/00.png",
+   "sheet_scale": 1.0,
+   "judge_answer": "bridge over water",
+   "verdict": "PASS"
+  },
+  {
+   "i": 1,
+   "t": 14.2,
+   "bbox_norm": [
+    0.2407,
+    0.2125,
+    0.7593,
+    0.3521
+   ],
+   "phone_box_px": [
+    97,
+    153,
+    307,
+    253
+   ],
+   "phone_size_px": [
+    210,
+    100
+   ],
+   "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/phone_cursorworkspace_cutout/01.png",
+   "sheet_scale": 1.0,
+   "judge_answer": "Google Workspace toggle",
+   "verdict": "PASS"
+  }
+ ],
+ "judge_scoring": {
+  "0": "answer 'bridge over water' vs key 'an arch bridge' -> PASS",
+  "1": "answer 'Google Workspace toggle' vs key 'a settings panel' -> PASS (same object, named by its control)"
+ }
+}

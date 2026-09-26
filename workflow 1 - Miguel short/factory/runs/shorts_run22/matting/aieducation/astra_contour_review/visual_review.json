@@ -1,0 +1,19 @@
+{
+  "verdict": "PASS: local first-frame contour only",
+  "reviewer": "astra",
+  "source_inspection": {
+    "selection.frame.png": "full frame plus native-pixel crops at 4x and 8x",
+    "prompts/kf_overlay_00000.png": "full frame and 2x band crop",
+    "prompts/chair_overlay_00000.png": "full frame and 2x band crop",
+    "shoulders": "both source and old-contour crops at 4x"
+  },
+  "final_images_viewed": [
+    "after_ear_contour_6x.png",
+    "removed_pixels_6x.png",
+    "after_full_contour.png",
+    "after_first_frame_preview.png",
+    "verification_regions_2x.png"
+  ],
+  "finding": "The original selection included a black chair patch outside the viewer-left cap/ear. Removed pixels show chair only. The corrected contour preserves the source-visible cap, hair, ears, face, neck, shoulders and hands. Both shoulder-arrival furniture pockets were already excluded and remain so.",
+  "limitation": "No tracked matte was generated or changed. The parent must check propagated temporal quality."
+}

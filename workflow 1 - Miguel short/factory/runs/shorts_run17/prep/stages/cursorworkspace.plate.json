@@ -1,0 +1,19 @@
+{
+ "id": "cursorworkspace",
+ "stage": "plate",
+ "status": "ok",
+ "wall_s": 97.3,
+ "at": "2026-09-08T00:29:36",
+ "keys": {
+  "status": "ok",
+  "plate": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/cursorworkspace/plate_wide_25.mp4",
+  "crop": "2534x1810+543+210",
+  "scale_k": 0.497238,
+  "head_px_on_canvas": 450.2,
+  "overwide_applied": true,
+  "face_dx_pct": -0.02,
+  "visible_window_drift_master_px": 0.0,
+  "plate_json": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/cursorworkspace/plate.json",
+  "wall_s": 97.3
+ }
+}

@@ -1,0 +1,27 @@
+{
+  "status": "ok",
+  "frames": 929,
+  "width": 1782,
+  "height": 990,
+  "fps": 25.0,
+  "alpha_mode": "soft",
+  "rim_px": 7,
+  "temporal": 1,
+  "hashes": {
+    "cut": "afe744ffca5d4ba0d9d1fcf113531e8067ad039aa18844276a89324e72ec3610",
+    "rim": "81a72f7073c651d94d147557f51d0a1eeaa44ed31bb0e4a297049009dc99a9d5",
+    "alpha": "04648a94751652855695a2ccc38516d8ac205386367fa3a234120c96f69b99ff"
+  },
+  "seconds": 96.717949532,
+  "estimated_compute_usd": 0.04397958601119104,
+  "fractional_alpha_pixels": 20438933,
+  "minimum_person_fraction": 0.31282805609404934,
+  "review_status": "needs_final_visual_review",
+  "ship_source_sha256": "cf367be51d742c272d9f79db8a13e00297684001ebf666283095059206e149e7",
+  "client_wall_seconds": 110.95612812496256,
+  "outputs": {
+    "cut": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/pcoverheat/matte_pcoverheat_v5_cut.webm",
+    "rim": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/pcoverheat/matte_pcoverheat_v5_rim.webm",
+    "alpha": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/pcoverheat/matte_pcoverheat_v5_alpha.webm"
+  }
+}

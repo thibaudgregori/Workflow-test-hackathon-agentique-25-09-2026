@@ -1,0 +1,329 @@
+{
+ "id": "pcoverheat",
+ "run": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17",
+ "recording": "2026-09-04 13-49-31",
+ "gpu": null,
+ "session": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/pcoverheat",
+ "cut_dir": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/cuts/pcoverheat",
+ "stages": {
+  "cut": {
+   "status": "ok",
+   "master": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/cuts/pcoverheat/master.mp4",
+   "audio": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/cuts/pcoverheat/audio.m4a",
+   "face_plates": [
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/cuts/pcoverheat/face_full_hd.mp4",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/cuts/pcoverheat/face_bottom_hd.mp4"
+   ],
+   "edl": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/cuts/pcoverheat/edl.json",
+   "transcript_tight": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/cuts/pcoverheat/transcript_tight.json",
+   "cut_master_duration_s": 37.16,
+   "take": {
+    "word_index": 230,
+    "start_s": 117.78,
+    "words": 142,
+    "of_raw_words": 372,
+    "openings": 12
+   },
+   "corroboration": {
+    "marker": "equality",
+    "gap": "point",
+    "witnessed": true,
+    "allow_uncorroborated": false
+   },
+   "analysis_wav_written": false,
+   "tight_audio_duration_s": 37.14,
+   "wall_s": 76.6
+  },
+  "plate": {
+   "status": "ok",
+   "plate": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/pcoverheat/plate_wide_25.mp4",
+   "crop": "3258x1810+16+238",
+   "plate_size": [
+    1620,
+    900
+   ],
+   "scale_k": 0.497238,
+   "head_px_on_canvas": 451.8,
+   "overwide_applied": true,
+   "extension_master_px": {
+    "left_master_px": 724,
+    "left_plate_px": 360,
+    "left_canvas_px": 396.0,
+    "right_master_px": 362,
+    "right_plate_px": 180,
+    "right_canvas_px": 198.0,
+    "left_headroom_remaining_master_px": 16,
+    "right_headroom_remaining_master_px": 566,
+    "clamped_by_master_edge": {
+     "left": false,
+     "right": false
+    },
+    "lattice_padding_steps": 1
+   },
+   "plate_box": {
+    "w": 1782.0,
+    "h": 990.0,
+    "left": -450.0,
+    "top": 930.0,
+    "right": 1332.0,
+    "centred": false,
+    "note": "the origin is NOT (1080 - box_w)/2.  An over-wide plate is deliberately asymmetric; the generator's plate_origin() reads `left` from here, and ship.py's edge gate takes it as --edge-box."
+   },
+   "face_dx_pct": 0.041,
+   "visible_window_drift_master_px": 0.0,
+   "sweep": {
+    "file": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/gen/_birefnet_master_pcoverheat.json",
+    "frames_measured": 156,
+    "stride": 6,
+    "model": "birefnet-general",
+    "wall_seconds": 106.9,
+    "lane": {
+     "where": "modal",
+     "app": "shorts-factory-birefnet",
+     "gpu": "A10G",
+     "container": "ac185888-b2b9-481b-bfe0-35cdc3ce748b",
+     "onnx": "birefnet-general.onnx",
+     "providers": [
+      "CUDAExecutionProvider",
+      "CPUExecutionProvider"
+     ],
+     "input_bytes": 26832651,
+     "model_load_seconds": 4.3,
+     "inference_seconds": 83.3,
+     "seconds_per_frame": 0.534,
+     "t_import_epoch": 1788820140.5644643,
+     "t_fn_enter_epoch": 1788820141.736146,
+     "t_fn_exit_epoch": 1788820233.630068,
+     "proxy": true,
+     "proxy_seconds": 5.0,
+     "client_wall_seconds": 106.9,
+     "uploaded_bytes": 26832651,
+     "cold_start_seconds": 11.33,
+     "billed_container_seconds": 95.1,
+     "measured_cost_usd": 0.0424,
+     "cost_breakdown_usd": {
+      "gpu": 0.0291,
+      "cpu": 0.01,
+      "mem": 0.0034
+     }
+    }
+   },
+   "plate_json": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/pcoverheat/plate.json",
+   "wall_s": 160.5
+  },
+  "prompt0": {
+   "status": "ok",
+   "retries": [],
+   "prompt_guard": {
+    "repaired": false,
+    "why": "no frame-0 prompt yet"
+   },
+   "prompt0_status": "ok",
+   "prompt_png": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/pcoverheat/prompts/kf_00000.png",
+   "overlay_png": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/pcoverheat/prompts/kf_overlay_00000.png",
+   "wings_source": "MEASURED on this plate's frame 0",
+   "wing_right": null,
+   "wing_left": null,
+   "wing_cut_applied": false,
+   "wing_review": true,
+   "wing_review_note": "the instrument proposed no cut.  It abstains rather than guesses (see the module docstring: zero false positives, zero recall on the run-9 corpus).  Look at kf_overlay_00000.png; if a headrest wing is inside the green prompt, measure its inner column and pass an explicit `wings` block on the intake row.  If you miss one, the protrusion gate inside ship.py is the net.",
+   "removed_px": 0,
+   "prompt_area_px": 456463,
+   "chair_prompt": {
+    "status": "ok",
+    "json": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/pcoverheat/chair_prompt.json",
+    "overlay": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/pcoverheat/prompts/chair_overlay_00000.png",
+    "band": {
+     "crown": 68,
+     "head_width": 322.0,
+     "band_top": 363,
+     "shoulder_arrival": 543
+    },
+    "found": [
+     "left"
+    ],
+    "overridden_sides": null,
+    "left": {
+     "found": true,
+     "box": [
+      668,
+      239,
+      790,
+      506
+     ],
+     "points": [
+      [
+       706,
+       274,
+       1
+      ],
+      [
+       707,
+       340,
+       1
+      ],
+      [
+       718,
+       405,
+       1
+      ],
+      [
+       729,
+       471,
+       1
+      ],
+      [
+       895,
+       183,
+       0
+      ],
+      [
+       741,
+       373,
+       0
+      ],
+      [
+       832,
+       596,
+       0
+      ],
+      [
+       891,
+       663,
+       0
+      ]
+     ],
+     "rows": [
+      243,
+      502
+     ],
+     "rows_with_run": 260,
+     "cols": [
+      676,
+      782
+     ],
+     "run_width": {
+      "min": 21,
+      "max": 107,
+      "median": 58
+     },
+     "luma": {
+      "mean": 21.2,
+      "p95": 37,
+      "max": 172
+     },
+     "area_px": 17015
+    },
+    "right": {
+     "found": false,
+     "why": "25 sandwiched dark region(s) beside the head, none of them 80+ rows tall and under 150 px wide (tallest 260)"
+    }
+   },
+   "wall_s": 46.9
+  },
+  "cues": {
+   "status": "ok",
+   "cue_count": 1,
+   "cues_json": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/gen/_cues_pcoverheat.json",
+   "answered": [
+    {
+     "cue_i": 0,
+     "at": 3.24,
+     "phrase": "like this guy",
+     "kind": "person",
+     "window": [
+      2.24,
+      4.24
+     ],
+     "card_hold_s": [
+      2.0,
+      4.0
+     ],
+     "status": "NEEDS_SOURCE",
+     "note": "no source URL was supplied for this cue.  The prep stage never chooses which post answers a cue and never chooses the claim span \u2014 supply `url` (+ optional `body` prefix and `claim`) on the intake row's cues block, or waive the cue in writing."
+    }
+   ],
+   "needs_source": [
+    0
+   ],
+   "cards": [],
+   "wall_s": 0.0
+  },
+  "selection": {
+   "status": "ok",
+   "selection": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/pcoverheat/selection.json",
+   "wall_s": 198.50899975001812
+  },
+  "display_plate": {
+   "status": "ok",
+   "wall_s": 479.7,
+   "file": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/pcoverheat/plate_display_1782x990.mp4",
+   "log": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/prep/logs/display_pcoverheat.log",
+   "bytes": 65189115
+  },
+  "track": {
+   "status": "ok",
+   "backend": "matanyone2",
+   "model": "MatAnyone 2",
+   "alpha": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/pcoverheat/alpha_v1.mkv",
+   "track_seconds": 81.787632233,
+   "cost_usd": 0.02320478701714676,
+   "review_status": "needs_final_visual_review",
+   "wall_s": 90.80860049999319
+  },
+  "ship": {
+   "status": "ok",
+   "backend": "matanyone2",
+   "frames": 929,
+   "width": 1782,
+   "height": 990,
+   "fps": 25.0,
+   "alpha_mode": "soft",
+   "rim_px": 7,
+   "temporal": 1,
+   "hashes": {
+    "cut": "afe744ffca5d4ba0d9d1fcf113531e8067ad039aa18844276a89324e72ec3610",
+    "rim": "81a72f7073c651d94d147557f51d0a1eeaa44ed31bb0e4a297049009dc99a9d5",
+    "alpha": "04648a94751652855695a2ccc38516d8ac205386367fa3a234120c96f69b99ff"
+   },
+   "seconds": 96.717949532,
+   "estimated_compute_usd": 0.04397958601119104,
+   "fractional_alpha_pixels": 20438933,
+   "minimum_person_fraction": 0.31282805609404934,
+   "review_status": "needs_final_visual_review",
+   "ship_source_sha256": "cf367be51d742c272d9f79db8a13e00297684001ebf666283095059206e149e7",
+   "client_wall_seconds": 110.95612812496256,
+   "outputs": {
+    "cut": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/pcoverheat/matte_pcoverheat_v5_cut.webm",
+    "rim": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/pcoverheat/matte_pcoverheat_v5_rim.webm",
+    "alpha": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/pcoverheat/matte_pcoverheat_v5_alpha.webm"
+   },
+   "headroom": {
+    "identity": {
+     "alpha_sha256": "a659ace8733f6484fb123ded07df6e0fe9e6ffa715769621c49791f70dcff2ef",
+     "display_sha256": "045dba2b36cb32c9f3268c3a49f31ec026e95d5be48dbe8ee69ecd121cd00a79",
+     "guard_sha256": "90e6a7f8cf1a142b9a8ab4cf0054f9803188279b68642b84430db31afe79999a",
+     "expected_frames": 929,
+     "floor_px": 24.0
+    },
+    "pass": true,
+    "frames_checked": 929,
+    "min_top_clearance_px": 41.800000000000004,
+    "floor_px": 24.0,
+    "worst_frame": 761,
+    "worst_seconds": 30.44,
+    "unsafe_frames": 0,
+    "first_unsafe_frames": [],
+    "scope": "Every matte frame, top edge of prepared person layer; no caption or semantic face claim"
+   },
+   "ship_seconds": 96.717949532,
+   "wall_s": 110.95612812496256,
+   "cost_usd": 0.04397958601119104
+  }
+ },
+ "no_chair_object": false,
+ "started": "2026-09-08T00:27:00",
+ "backend": "matanyone2",
+ "finished": "2026-09-08T00:45:23",
+ "wall_s": 1164.0
+}

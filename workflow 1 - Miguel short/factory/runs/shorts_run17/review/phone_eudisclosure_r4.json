@@ -1,0 +1,70 @@
+{
+  "tag": "r4",
+  "variant": "taper",
+  "objects": [
+    {
+      "key": "00",
+      "file": "review/proofs_eudisclosure_r4/00.png",
+      "t": 2.0,
+      "phone_box": [
+        173,
+        142,
+        232,
+        186
+      ],
+      "phone_px": [
+        59,
+        44
+      ],
+      "variant": "taper"
+    },
+    {
+      "key": "01",
+      "file": "review/proofs_eudisclosure_r4/01.png",
+      "t": 12.4,
+      "phone_box": [
+        92,
+        186,
+        178,
+        248
+      ],
+      "phone_px": [
+        86,
+        62
+      ],
+      "variant": "taper"
+    },
+    {
+      "key": "02",
+      "file": "review/proofs_eudisclosure_r4/02.png",
+      "t": 13.8,
+      "phone_box": [
+        226,
+        186,
+        314,
+        248
+      ],
+      "phone_px": [
+        88,
+        62
+      ],
+      "variant": "taper"
+    },
+    {
+      "key": "03",
+      "file": "review/proofs_eudisclosure_r4/03.png",
+      "t": 15.7,
+      "phone_box": [
+        128,
+        158,
+        278,
+        242
+      ],
+      "phone_px": [
+        150,
+        84
+      ],
+      "variant": "taper"
+    }
+  ]
+}

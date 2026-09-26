@@ -1,0 +1,24 @@
+{
+ "id": "eudisclosure",
+ "stage": "ship",
+ "status": "ok",
+ "wall_s": 89.89443774998654,
+ "at": "2026-09-08T01:26:44",
+ "keys": {
+  "status": "ok",
+  "repair_reason": "Prep never failed: the ship stage landed ok at 00:45:23 and it was the GATE AGENT that returned nothing three times without even writing its started sentinel, so this override only restates a marker that was already ok and gives the retried gate an unambiguous second file to read; measured evidence: eudisclosure.ship.json status ok, all three matte_eudisclosure_v5_{cut,rim,alpha}.webm on disk at 1584x990 25fps with 692 frames each (27.68s cut master x 25 = 692) and sha256 equal to the hashes recorded in ship_v5.json, track marker ok at $0.0185, ship $0.0345, nothing in prep refused or repaired this encode.",
+  "backend": "matanyone2",
+  "frames": 692,
+  "width": 1584,
+  "height": 990,
+  "fps": 25.0,
+  "alpha_mode": "soft",
+  "rim_px": 7,
+  "minimum_person_fraction": 0.34549727068666464,
+  "ship_source_sha256": "cf367be51d742c272d9f79db8a13e00297684001ebf666283095059206e149e7",
+  "review_status": "needs_final_visual_review",
+  "override_scope": "the gate's read of the ship MARKER only; it approves no visual quality, replaces no reviewed selection (matting/eudisclosure/selection.json, reviewed 00:42:39) and does not stand in for the final visual review",
+  "cost_usd": 0.03452949604276255,
+  "wall_s": 89.89443774998654
+ }
+}

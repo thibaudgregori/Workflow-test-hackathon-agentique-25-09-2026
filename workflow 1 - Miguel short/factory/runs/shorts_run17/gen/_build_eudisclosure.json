@@ -1,0 +1,1932 @@
+{
+ "video": "eudisclosure",
+ "lane": "diagram build",
+ "fps": 25,
+ "duration": 27.68,
+ "seam": 862.5,
+ "sfx": {
+  "whoosh": {
+   "mean_volume": "-17.5 dB"
+  },
+  "pop": {
+   "mean_volume": "-36.4 dB"
+  },
+  "click": {
+   "mean_volume": "-23.1 dB"
+  },
+  "_gains": {
+   "structure": 0.14,
+   "detail": 0.09,
+   "published_corpus_flat": 0.18,
+   "note": "a gain constant means nothing without its source loudness (SFX LAW v2); these are the run-9/12/13/14/15/16 shipped values for THESE files"
+  }
+ },
+ "cutout_lanes_for_the_other_author": [
+  "chatgpt",
+  "claude",
+  "gemini",
+  "grok",
+  "mistral",
+  "perplexity",
+  "minimax",
+  "heygen-mark"
+ ],
+ "formats": {
+  "split": {
+   "staged": {
+    "voice": {
+     "source": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/cuts/eudisclosure/audio.m4a",
+     "sample_rate": 48000,
+     "channels": 2
+    },
+    "face": {
+     "file": "face_bottom_hd.mp4",
+     "w": 1080,
+     "h": 1058
+    },
+    "marks": {}
+   },
+   "seat": 862.5,
+   "scale": 1.0,
+   "core": {
+    "left": 0.0,
+    "top": 192.0
+   },
+   "band": {
+    "content_top": 292.0,
+    "content_bottom": 768.0,
+    "law30_top_10pct": 192.0,
+    "pill_top": 805.21,
+    "pill_height_used": 114.59,
+    "pill_centre_used": 862.5,
+    "clear_above_pill": 37.21,
+    "note": "content_top is the stamp's ANCHOR-seat top (canvas 292, the plan's own binding top constraint) and content_bottom is the key row's box bottom (canvas 768) \u2014 the highest and lowest ink authored anywhere in the video.  The scene's assert_band() proves the OPEN seat 108 px lower is inside the same band."
+   },
+   "rail": {
+    "ink_left_x": 198.0,
+    "ink_right_x": 882.0,
+    "optical_axis_x": 540.0,
+    "readable_type_left_x": 204.0,
+    "readable_type_right_x": 876.0,
+    "law30_rail_x": 918.0,
+    "margins": [
+     198.0,
+     198.0
+    ],
+    "note": "the union of every declared box runs x 198..882 about an axis of 540; the scene's assert_symmetry() proves each chapter's own LIVE ink extents are mirror-symmetric about 540 to 0.000 px"
+   },
+   "law40": {
+    "scene_copy": {
+     "from_generated": [
+      452.0,
+      432.0
+     ],
+     "end_generated": [
+      406.0,
+      432.0
+     ],
+     "from_modified": [
+      628.0,
+      432.0
+     ],
+     "end_modified": [
+      674.0,
+      432.0
+     ],
+     "level_error_px": 0.0,
+     "mirror_error_px": 0.0,
+     "helper": "anchor_points(box, 1, side) \u2014 LAW 40's own primitive",
+     "verdict": "PASS"
+    },
+    "harness": "whiteboard_build.anchor_points, re-derived and asserted",
+    "line-gen": {
+     "from": [
+      452.0,
+      432.0
+     ],
+     "end": [
+      406.0,
+      432.0
+     ],
+     "target": "tag-generated",
+     "draws": 11.54,
+     "node_pops": 11.84
+    },
+    "line-mod": {
+     "from": [
+      628.0,
+      432.0
+     ],
+     "end": [
+      674.0,
+      432.0
+     ],
+     "target": "tag-modified",
+     "draws": 12.58,
+     "node_pops": 12.88
+    },
+    "level_error_px": 0.0,
+    "mirror_error_px": 0.0,
+    "note": "one source fanning to two DIFFERENT targets, so LAW 40's letter does not bind; the ends are built with the law's own helper anyway"
+   },
+   "law42": {
+    "board_mode": "chapters",
+    "chapters": [
+     {
+      "i": 0,
+      "t_start": 0.099,
+      "t_end": 6.3,
+      "erase_at": 6.15
+     },
+     {
+      "i": 1,
+      "t_start": 6.3,
+      "t_end": 14.04,
+      "erase_at": 13.9
+     },
+     {
+      "i": 2,
+      "t_start": 14.04,
+      "t_end": 23.55,
+      "erase_at": 23.55
+     }
+    ],
+    "anchors": [
+     "stamp",
+     "stamp-impression",
+     "key-disclose"
+    ],
+    "shares": {
+     "stamp": 0.989,
+     "stamp-impression": 0.943,
+     "key-disclose": 0.928,
+     "bubble": 0.077,
+     "imp-bubble": 0.056,
+     "key-chatbot": 0.051,
+     "page": 0.032,
+     "key-content": 0.013,
+     "imp-page": 0.009,
+     "image-card": 0.215,
+     "key-images": 0.195,
+     "emph-image": 0.027,
+     "line-gen": 0.085,
+     "tag-generated": 0.074,
+     "line-mod": 0.048,
+     "tag-modified": 0.037,
+     "emph-modified": 0.022,
+     "photo-real": 0.329,
+     "key-realimage": 0.294,
+     "window-shot": 0.264,
+     "key-screenshot": 0.237,
+     "slider": 0.168,
+     "key-colorlight": 0.089,
+     "imp-photo": 0.031,
+     "imp-window": 0.031,
+     "o-sheet": 0.149,
+     "o-glyph": 0.132,
+     "o-rule": 0.121,
+     "o-slot": 0.117
+    },
+    "longest_lived_non_anchor": {
+     "mark": "photo-real",
+     "share": 0.329
+    },
+    "board_mode_reason": "THREE separate idea groups, each with its own subject, and chapter 2's photo is not chapter 1's photo \u2014 one is AI-made and one is real, which is the pivot of the sentence.  What makes the chapters cohere is the anchor block that never leaves and the terracotta impression that recurs on every chapter's objects."
+   },
+   "law38": {
+    "kind": "box",
+    "dom_primitive": "PANEL BORDER FLIP \u2014 borderColor #141416 -> rgb(221,114,89), on the target's OWN border",
+    "groups": [
+     {
+      "at": 8.96,
+      "targets": [
+       "image-card"
+      ],
+      "duration": 0.38,
+      "released_at": 9.7,
+      "why": "the emphasis says THIS is the complicated case and adds no geometry; it dies inside its own beat so the flip at 13.30 still has something to say"
+     },
+     {
+      "at": 13.3,
+      "targets": [
+       "tag-modified"
+      ],
+      "duration": 0.3,
+      "released_at": null,
+      "why": "the second half of the comparison: it holds to the chapter erase so the two plates are visibly different shapes"
+     }
+    ],
+    "rings_ellipses_circles": 0,
+    "highlights": 0,
+    "why_undeclared": "the emphasis IS the target, so a data-emphasis declaration would be measured for 4 px clearance from itself and for a colour that differs from its own ink \u2014 two violations of a rule the border flip does not break.  The handoff \u00a76 clause 5 names this explicitly: the panels carry a BACKGROUND so Gate 1 can never read the flip as an emphasis outline, and adding data-emphasis would force `_lboxemph` true.  Asserted here instead."
+   },
+   "law41": {
+    "floor_core_px": 24.0,
+    "per_chapter": {
+     "chapter0": {
+      "tightest_pair": "key-disclose <-> bubble",
+      "tightest_core_px": 24.0,
+      "at_cutout_k095_px": 22.8
+     },
+     "chapter1": {
+      "tightest_pair": "key-disclose <-> image-card",
+      "tightest_core_px": 24.0,
+      "at_cutout_k095_px": 22.8
+     },
+     "chapter2": {
+      "tightest_pair": "key-disclose <-> photo-real",
+      "tightest_core_px": 24.0,
+      "at_cutout_k095_px": 22.8
+     }
+    },
+    "tightest_in_video": {
+     "pair": "key-disclose <-> bubble",
+     "core_px": 24.0,
+     "at_cutout_k095_px": 22.8
+    },
+    "verdict": "PASS",
+    "blocks": [
+     [
+      "stamp",
+      "stamp-impression",
+      "key-disclose"
+     ],
+     [
+      "bubble",
+      "imp-bubble",
+      "key-chatbot"
+     ],
+     [
+      "page",
+      "imp-page",
+      "key-content"
+     ],
+     [
+      "image-card",
+      "key-images"
+     ],
+     [
+      "image-card",
+      "line-gen",
+      "tag-generated"
+     ],
+     [
+      "image-card",
+      "line-mod",
+      "tag-modified"
+     ],
+     [
+      "photo-real",
+      "key-realimage",
+      "imp-photo"
+     ],
+     [
+      "window-shot",
+      "key-screenshot",
+      "imp-window"
+     ],
+     [
+      "slider",
+      "key-colorlight"
+     ]
+    ],
+    "note": "the plan's own blocks_note predicted 24 px (key term to chapter body) as the tightest pair; the built scene measures exactly that in all three chapters, which is the key row's box against the body row and is intentional"
+   },
+   "law39": {
+    "key-disclose": {
+     "host": "stamp",
+     "side": "below",
+     "text": "DISCLOSE IN EUROPE",
+     "key_box": [
+      260.0,
+      278.0,
+      820.0,
+      332.0
+     ],
+     "host_box": [
+      462.0,
+      100.0,
+      618.0,
+      230.0
+     ],
+     "centre_error_px": 0.0,
+     "band_px": 23.4,
+     "gap_px": 48.0,
+     "at": 2.0,
+     "host_at": 0.3,
+     "delay_after_host_s": 1.7
+    },
+    "key-chatbot": {
+     "host": "bubble",
+     "side": "below",
+     "text": "CHATBOT",
+     "key_box": [
+      234.0,
+      532.0,
+      410.0,
+      576.0
+     ],
+     "host_box": [
+      234.0,
+      356.0,
+      410.0,
+      508.0
+     ],
+     "centre_error_px": 0.0,
+     "band_px": 26.4,
+     "gap_px": 24.0,
+     "at": 4.74,
+     "host_at": 4.02,
+     "delay_after_host_s": 0.72
+    },
+    "key-content": {
+     "host": "page",
+     "side": "below",
+     "text": "AI CONTENT",
+     "key_box": [
+      670.0,
+      532.0,
+      846.0,
+      576.0
+     ],
+     "host_box": [
+      692.0,
+      356.0,
+      824.0,
+      508.0
+     ],
+     "centre_error_px": 0.0,
+     "band_px": 19.8,
+     "gap_px": 24.0,
+     "at": 5.78,
+     "host_at": 5.26,
+     "delay_after_host_s": 0.52
+    },
+    "key-images": {
+     "host": "image-card",
+     "side": "below",
+     "text": "AI IMAGES",
+     "key_box": [
+      452.0,
+      532.0,
+      628.0,
+      576.0
+     ],
+     "host_box": [
+      452.0,
+      356.0,
+      628.0,
+      508.0
+     ],
+     "centre_error_px": 0.0,
+     "band_px": 26.4,
+     "gap_px": 24.0,
+     "at": 8.5,
+     "host_at": 7.96,
+     "delay_after_host_s": 0.54
+    },
+    "key-realimage": {
+     "host": "photo-real",
+     "side": "below",
+     "text": "REAL IMAGE",
+     "key_box": [
+      204.0,
+      532.0,
+      380.0,
+      576.0
+     ],
+     "host_box": [
+      204.0,
+      356.0,
+      380.0,
+      508.0
+     ],
+     "centre_error_px": 0.0,
+     "band_px": 26.4,
+     "gap_px": 24.0,
+     "at": 15.42,
+     "host_at": 14.44,
+     "delay_after_host_s": 0.98
+    },
+    "key-screenshot": {
+     "host": "window-shot",
+     "side": "below",
+     "text": "SCREENSHOT",
+     "key_box": [
+      700.0,
+      532.0,
+      876.0,
+      576.0
+     ],
+     "host_box": [
+      700.0,
+      356.0,
+      876.0,
+      508.0
+     ],
+     "centre_error_px": 0.0,
+     "band_px": 26.4,
+     "gap_px": 24.0,
+     "at": 16.98,
+     "host_at": 16.24,
+     "delay_after_host_s": 0.74
+    },
+    "key-colorlight": {
+     "host": "slider",
+     "side": "below",
+     "text": "COLOR OR LIGHTING",
+     "key_box": [
+      404.0,
+      532.0,
+      676.0,
+      576.0
+     ],
+     "host_box": [
+      408.0,
+      394.0,
+      672.0,
+      470.0
+     ],
+     "centre_error_px": 0.0,
+     "band_px": 39.6,
+     "gap_px": 62.0,
+     "at": 21.1,
+     "host_at": 18.9,
+     "delay_after_host_s": 2.2
+    },
+    "_key_term": {
+     "text": "DISCLOSE IN EUROPE",
+     "at": 2.0,
+     "font_px": 46.0,
+     "design_units": 24.53,
+     "label_class_font_px": 24.0,
+     "first_type_at": 2.0,
+     "alone_until": 4.74,
+     "type_order": [
+      [
+       "key-disclose",
+       2.0
+      ],
+      [
+       "key-chatbot",
+       4.74
+      ],
+      [
+       "key-content",
+       5.78
+      ],
+      [
+       "key-images",
+       8.5
+      ],
+      [
+       "key-realimage",
+       15.42
+      ],
+      [
+       "key-screenshot",
+       16.98
+      ],
+      [
+       "key-colorlight",
+       21.1
+      ]
+     ]
+    },
+    "_hook": {
+     "object": "a rubber stamp \u2014 the everyday object for putting a required mark on something you made, and the only object here that can LEAVE the mark the whole video is built on; complete from its first frame, so LAW 20's empty-vessel corollary is satisfied by construction",
+     "first_ink_at": 0.3,
+     "opens_centred_on_x": 540.0,
+     "opens_dy_px": 108.0,
+     "alone_until": 1.58
+    }
+   },
+   "law37": {
+    "scan_cue_count": 0,
+    "plan_declared_cards": 0,
+    "prep_marker": "prep/stages/eudisclosure.cues.json -> cue_count 0",
+    "instrument": "pointing_cues.scan re-run on transcript_tight.json",
+    "why": "no demonstrative-plus-person anywhere in the take; Miguel states a rule in his own words, so GLOBAL LAW 3 admits no post and there is nothing to waive"
+   },
+   "law2": {
+    "stage_marks": 0,
+    "assert_cast_resolves": {},
+    "cutout_lanes_not_ours": [
+     "chatgpt",
+     "claude",
+     "gemini",
+     "grok",
+     "mistral",
+     "perplexity",
+     "minimax",
+     "heygen-mark"
+    ],
+    "why": "LAW 2 binds a NAMED tool to its logo and this script names none in 100 words; the chart's 112 px tile grammar is exercised in the cutout's depth lanes instead"
+   },
+   "cues": {
+    "tap": {
+     "word_spoken": 9,
+     "text": "disclose",
+     "edge": "start",
+     "t": 1.48,
+     "word_edge": 1.48
+    },
+    "slide": {
+     "word_spoken": 14,
+     "text": "whether",
+     "edge": "start",
+     "t": 3.32,
+     "word_edge": 3.319
+    },
+    "bubble": {
+     "word_spoken": 17,
+     "text": "chatbot",
+     "edge": "start",
+     "t": 4.02,
+     "word_edge": 4.019
+    },
+    "page": {
+     "word_spoken": 20,
+     "text": "generated",
+     "edge": "start",
+     "t": 5.26,
+     "word_edge": 5.259
+    },
+    "card": {
+     "word_spoken": 29,
+     "text": "images,",
+     "edge": "start",
+     "t": 7.96,
+     "word_edge": 7.96
+    },
+    "emph": {
+     "word_spoken": 32,
+     "text": "more",
+     "edge": "start",
+     "t": 8.96,
+     "word_edge": 8.96
+    },
+    "lineL": {
+     "word_spoken": 43,
+     "text": "AI",
+     "edge": "start",
+     "t": 11.54,
+     "word_edge": 11.539
+    },
+    "tagL": {
+     "word_spoken": 44,
+     "text": "generated",
+     "edge": "start",
+     "t": 11.84,
+     "word_edge": 11.84
+    },
+    "lineR": {
+     "word_spoken": 45,
+     "text": "or",
+     "edge": "start",
+     "t": 12.58,
+     "word_edge": 12.579
+    },
+    "tagR": {
+     "word_spoken": 46,
+     "text": "AI",
+     "edge": "start",
+     "t": 12.88,
+     "word_edge": 12.88
+    },
+    "emphmod": {
+     "word_spoken": 47,
+     "text": "modified.",
+     "edge": "start",
+     "t": 13.3,
+     "word_edge": 13.299
+    },
+    "photo": {
+     "word_spoken": 51,
+     "text": "took",
+     "edge": "start",
+     "t": 14.44,
+     "word_edge": 14.439
+    },
+    "keyreal": {
+     "word_spoken": 54,
+     "text": "image",
+     "edge": "start",
+     "t": 15.42,
+     "word_edge": 15.42
+    },
+    "shift": {
+     "word_spoken": 55,
+     "text": "or",
+     "edge": "start",
+     "t": 15.92,
+     "word_edge": 15.92
+    },
+    "slider": {
+     "word_spoken": 67,
+     "text": "slight",
+     "edge": "start",
+     "t": 18.9,
+     "word_edge": 18.899
+    },
+    "knob": {
+     "word_spoken": 70,
+     "text": "color",
+     "edge": "start",
+     "t": 20.38,
+     "word_edge": 20.379
+    },
+    "imps": {
+     "word_spoken": 77,
+     "text": "disclose",
+     "edge": "start",
+     "t": 22.68,
+     "word_edge": 22.68
+    },
+    "stamp": {
+     "word_spoken": 1,
+     "text": "you",
+     "edge": "inside",
+     "t": 0.3,
+     "window": [
+      0.239,
+      1.299
+     ]
+    },
+    "imp0": {
+     "word_spoken": 9,
+     "text": "disclose",
+     "edge": "inside",
+     "t": 1.58,
+     "window": [
+      1.48,
+      2.939
+     ]
+    },
+    "keyterm": {
+     "word_spoken": 9,
+     "text": "disclose",
+     "edge": "inside",
+     "t": 2.0,
+     "window": [
+      1.48,
+      2.939
+     ]
+    },
+    "impb": {
+     "word_spoken": 17,
+     "text": "chatbot",
+     "edge": "inside",
+     "t": 4.6,
+     "window": [
+      4.019,
+      5.599
+     ]
+    },
+    "keychat": {
+     "word_spoken": 17,
+     "text": "chatbot",
+     "edge": "inside",
+     "t": 4.74,
+     "window": [
+      4.019,
+      5.599
+     ]
+    },
+    "keycont": {
+     "word_spoken": 21,
+     "text": "content.",
+     "edge": "inside",
+     "t": 5.78,
+     "window": [
+      5.719,
+      7.019
+     ]
+    },
+    "impp": {
+     "word_spoken": 21,
+     "text": "content.",
+     "edge": "inside",
+     "t": 5.9,
+     "window": [
+      5.719,
+      7.019
+     ]
+    },
+    "keyimg": {
+     "word_spoken": 29,
+     "text": "images,",
+     "edge": "inside",
+     "t": 8.5,
+     "window": [
+      7.96,
+      9.319
+     ]
+    },
+    "emphout": {
+     "word_spoken": 33,
+     "text": "complex",
+     "edge": "inside",
+     "t": 9.7,
+     "window": [
+      9.139,
+      10.519
+     ]
+    },
+    "window": {
+     "word_spoken": 57,
+     "text": "real",
+     "edge": "inside",
+     "t": 16.24,
+     "window": [
+      16.239,
+      17.399
+     ]
+    },
+    "keyshot": {
+     "word_spoken": 58,
+     "text": "screenshot,",
+     "edge": "inside",
+     "t": 16.98,
+     "window": [
+      16.5,
+      17.92
+     ]
+    },
+    "keylight": {
+     "word_spoken": 72,
+     "text": "lighting,",
+     "edge": "inside",
+     "t": 21.1,
+     "window": [
+      20.959,
+      22.279
+     ]
+    },
+    "_free": {
+     "erase0": {
+      "t": 6.15,
+      "hole": [
+       6.019,
+       6.299
+      ],
+      "after": "content.",
+      "before": "And"
+     },
+     "erase1": {
+      "t": 13.9,
+      "inside_word": "modified.",
+      "word": [
+       13.299,
+       13.979
+      ],
+      "last_chapter1_event_completes": 13.6
+     },
+     "ch0->ch1": {
+      "erase_at": 6.15,
+      "carried": [
+       "stamp",
+       "stamp-impression",
+       "key-disclose"
+      ],
+      "dead_time_s": 0.0,
+      "kind": "CARRY \u2014 a complete OBJECT (the stamp) and a complete WORD (DISCLOSE IN EUROPE) survive the seam, so nothing hands over to a bare stroke"
+     },
+     "ch1->ch2": {
+      "erase_at": 13.9,
+      "carried": [
+       "stamp",
+       "stamp-impression",
+       "key-disclose"
+      ],
+      "dead_time_s": 0.0,
+      "kind": "CARRY \u2014 a complete OBJECT (the stamp) and a complete WORD (DISCLOSE IN EUROPE) survive the seam, so nothing hands over to a bare stroke"
+     },
+     "outro": {
+      "t": 23.55,
+      "last_board_event_completes": 22.94,
+      "clear_s": 0.61,
+      "sheet": {
+       "up": 23.55,
+       "d": 0.46,
+       "chip_in": 24.03,
+       "kind": "OPAQUE RISING SHEET, never a fade and never a scrim"
+      }
+     }
+    },
+    "_outro_clear": {
+     "t": 23.55,
+     "last_board_event_completes": 22.94,
+     "clear_s": 0.61,
+     "sheet": {
+      "up": 23.55,
+      "d": 0.46,
+      "chip_in": 24.03,
+      "kind": "OPAQUE RISING SHEET, never a fade and never a scrim"
+     }
+    }
+   },
+   "production_v2_declarations": {
+    "line-gen": {
+     "target": "tag-generated",
+     "anchor_side": "right",
+     "anchor_fraction": 0.5,
+     "end": [
+      406.0,
+      432.0
+     ],
+     "completes_at": 11.78,
+     "target_completes_at": 12.12,
+     "check_at": 12.4
+    },
+    "line-mod": {
+     "target": "tag-modified",
+     "anchor_side": "left",
+     "anchor_fraction": 0.5,
+     "end": [
+      674.0,
+      432.0
+     ],
+     "completes_at": 12.82,
+     "target_completes_at": 13.16,
+     "check_at": 13.25
+    },
+    "_note": "visual_laws.CHECK_JS requires anchor side/fraction/check-at on every element carrying data-connect-to; the shared scene emits data-connect-to and data-overlap-ok only.  Stamped on the EMITTED string so the module the cutout author is reading is not mutated.  No geometry moves.",
+    "_no_emphasis_declared": "both emphases in this video are the target's OWN panel border flip; see assert_emphasis_law and handoff \u00a76.5"
+   },
+   "scene_report": {
+    "rects": {
+     "stamp_anchor": {
+      "plan": [
+       486,
+       292,
+       594,
+       400
+      ],
+      "built": [
+       462.0,
+       292.0,
+       618.0,
+       422.0
+      ],
+      "delta_px": [
+       -24.0,
+       0.0,
+       24.0,
+       22.0
+      ],
+      "within_2px": false
+     },
+     "stamp_open": {
+      "plan": [
+       486,
+       400,
+       594,
+       508
+      ],
+      "built": [
+       462.0,
+       400.0,
+       618.0,
+       530.0
+      ],
+      "delta_px": [
+       -24.0,
+       0.0,
+       24.0,
+       22.0
+      ],
+      "within_2px": false
+     },
+     "stamp-impression_anchor": {
+      "plan": [
+       500,
+       412,
+       580,
+       434
+      ],
+      "built": [
+       492.0,
+       434.0,
+       588.0,
+       456.0
+      ],
+      "delta_px": [
+       -8.0,
+       22.0,
+       8.0,
+       22.0
+      ],
+      "within_2px": false
+     },
+     "stamp-impression_open": {
+      "plan": [
+       500,
+       520,
+       580,
+       542
+      ],
+      "built": [
+       492.0,
+       542.0,
+       588.0,
+       564.0
+      ],
+      "delta_px": [
+       -8.0,
+       22.0,
+       8.0,
+       22.0
+      ],
+      "within_2px": false
+     },
+     "key-disclose_anchor": {
+      "plan": [
+       263,
+       448,
+       817,
+       502
+      ],
+      "built": [
+       260.0,
+       470.0,
+       820.0,
+       524.0
+      ],
+      "delta_px": [
+       -3.0,
+       22.0,
+       3.0,
+       22.0
+      ],
+      "within_2px": false
+     },
+     "key-disclose_open": {
+      "plan": [
+       263,
+       556,
+       817,
+       610
+      ],
+      "built": [
+       260.0,
+       578.0,
+       820.0,
+       632.0
+      ],
+      "delta_px": [
+       -3.0,
+       22.0,
+       3.0,
+       22.0
+      ],
+      "within_2px": false
+     },
+     "bubble": {
+      "plan": [
+       252,
+       526,
+       392,
+       636
+      ],
+      "built": [
+       234.0,
+       548.0,
+       410.0,
+       700.0
+      ],
+      "delta_px": [
+       -18.0,
+       22.0,
+       18.0,
+       64.0
+      ],
+      "within_2px": false
+     },
+     "imp-bubble": {
+      "plan": [
+       292,
+       594,
+       352,
+       616
+      ],
+      "built": [
+       274.0,
+       618.0,
+       370.0,
+       640.0
+      ],
+      "delta_px": [
+       -18.0,
+       24.0,
+       18.0,
+       24.0
+      ],
+      "within_2px": false
+     },
+     "key-chatbot": {
+      "plan": [
+       262,
+       662,
+       382,
+       706
+      ],
+      "built": [
+       234.0,
+       724.0,
+       410.0,
+       768.0
+      ],
+      "delta_px": [
+       -28.0,
+       62.0,
+       28.0,
+       62.0
+      ],
+      "within_2px": false
+     },
+     "page": {
+      "plan": [
+       688,
+       526,
+       828,
+       636
+      ],
+      "built": [
+       692.0,
+       548.0,
+       824.0,
+       700.0
+      ],
+      "delta_px": [
+       4.0,
+       22.0,
+       -4.0,
+       64.0
+      ],
+      "within_2px": false
+     },
+     "imp-page": {
+      "plan": [
+       728,
+       594,
+       788,
+       616
+      ],
+      "built": [
+       710.0,
+       618.0,
+       806.0,
+       640.0
+      ],
+      "delta_px": [
+       -18.0,
+       24.0,
+       18.0,
+       24.0
+      ],
+      "within_2px": false
+     },
+     "key-content": {
+      "plan": [
+       673,
+       662,
+       843,
+       706
+      ],
+      "built": [
+       670.0,
+       724.0,
+       846.0,
+       768.0
+      ],
+      "delta_px": [
+       -3.0,
+       62.0,
+       3.0,
+       62.0
+      ],
+      "within_2px": false
+     },
+     "image-card": {
+      "plan": [
+       478,
+       530,
+       602,
+       626
+      ],
+      "built": [
+       452.0,
+       548.0,
+       628.0,
+       700.0
+      ],
+      "delta_px": [
+       -26.0,
+       18.0,
+       26.0,
+       74.0
+      ],
+      "within_2px": false
+     },
+     "key-images": {
+      "plan": [
+       465,
+       650,
+       615,
+       694
+      ],
+      "built": [
+       452.0,
+       724.0,
+       628.0,
+       768.0
+      ],
+      "delta_px": [
+       -13.0,
+       74.0,
+       13.0,
+       74.0
+      ],
+      "within_2px": false
+     },
+     "tag-generated": {
+      "plan": [
+       206,
+       540,
+       398,
+       616
+      ],
+      "built": [
+       198.0,
+       586.0,
+       406.0,
+       662.0
+      ],
+      "delta_px": [
+       -8.0,
+       46.0,
+       8.0,
+       46.0
+      ],
+      "within_2px": false
+     },
+     "tag-modified": {
+      "plan": [
+       682,
+       540,
+       874,
+       616
+      ],
+      "built": [
+       674.0,
+       586.0,
+       882.0,
+       662.0
+      ],
+      "delta_px": [
+       -8.0,
+       46.0,
+       8.0,
+       46.0
+      ],
+      "within_2px": false
+     },
+     "photo-real_open": {
+      "plan": [
+       478,
+       530,
+       602,
+       626
+      ],
+      "built": [
+       452.0,
+       548.0,
+       628.0,
+       700.0
+      ],
+      "delta_px": [
+       -26.0,
+       18.0,
+       26.0,
+       74.0
+      ],
+      "within_2px": false
+     },
+     "photo-real_seated": {
+      "plan": [
+       220,
+       530,
+       344,
+       626
+      ],
+      "built": [
+       204.0,
+       548.0,
+       380.0,
+       700.0
+      ],
+      "delta_px": [
+       -16.0,
+       18.0,
+       36.0,
+       74.0
+      ],
+      "within_2px": false
+     },
+     "key-realimage": {
+      "plan": [
+       209,
+       650,
+       355,
+       694
+      ],
+      "built": [
+       204.0,
+       724.0,
+       380.0,
+       768.0
+      ],
+      "delta_px": [
+       -5.0,
+       74.0,
+       25.0,
+       74.0
+      ],
+      "within_2px": false
+     },
+     "window-shot": {
+      "plan": [
+       736,
+       530,
+       860,
+       626
+      ],
+      "built": [
+       700.0,
+       548.0,
+       876.0,
+       700.0
+      ],
+      "delta_px": [
+       -36.0,
+       18.0,
+       16.0,
+       74.0
+      ],
+      "within_2px": false
+     },
+     "key-screenshot": {
+      "plan": [
+       726,
+       650,
+       870,
+       694
+      ],
+      "built": [
+       700.0,
+       724.0,
+       876.0,
+       768.0
+      ],
+      "delta_px": [
+       -26.0,
+       74.0,
+       6.0,
+       74.0
+      ],
+      "within_2px": false
+     },
+     "slider_bbox": {
+      "plan": [
+       402,
+       534,
+       678,
+       578
+      ],
+      "built": [
+       408.0,
+       586.0,
+       672.0,
+       662.0
+      ],
+      "delta_px": [
+       6.0,
+       52.0,
+       -6.0,
+       84.0
+      ],
+      "within_2px": false
+     },
+     "key-colorlight": {
+      "plan": [
+       433,
+       602,
+       647,
+       642
+      ],
+      "built": [
+       404.0,
+       724.0,
+       676.0,
+       768.0
+      ],
+      "delta_px": [
+       -29.0,
+       122.0,
+       29.0,
+       126.0
+      ],
+      "within_2px": false
+     },
+     "imp-photo": {
+      "plan": [
+       236,
+       594,
+       328,
+       614
+      ],
+      "built": [
+       244.0,
+       660.0,
+       340.0,
+       682.0
+      ],
+      "delta_px": [
+       8.0,
+       66.0,
+       12.0,
+       68.0
+      ],
+      "within_2px": false
+     },
+     "imp-window": {
+      "plan": [
+       752,
+       594,
+       844,
+       614
+      ],
+      "built": [
+       740.0,
+       660.0,
+       836.0,
+       682.0
+      ],
+      "delta_px": [
+       -12.0,
+       66.0,
+       -8.0,
+       68.0
+      ],
+      "within_2px": false
+     },
+     "line-gen_ends": {
+      "plan": [
+       [
+        478,
+        578
+       ],
+       [
+        398,
+        578
+       ]
+      ],
+      "built": [
+       [
+        452.0,
+        624.0
+       ],
+       [
+        406.0,
+        624.0
+       ]
+      ],
+      "within_2px": false
+     },
+     "line-mod_ends": {
+      "plan": [
+       [
+        602,
+        578
+       ],
+       [
+        682,
+        578
+       ]
+      ],
+      "built": [
+       [
+        628.0,
+        624.0
+       ],
+       [
+        674.0,
+        624.0
+       ]
+      ],
+      "within_2px": false
+     }
+    },
+    "rect_deviation": "DELIBERATE AND WHOLESALE \u2014 the plan's own rects put the three bespoke objects on a phone at 40x40, 46x36 and 103x16 px, below the smallest crop that has ever passed a cold read in this factory (geminitools' stopwatch, 55x54). The phone test is the artwork stage's binding gate, so the composition is rebuilt at legible scale inside the plan's own band top (canvas 292), the plan's own x centres, the plan's cues, labels, lifetimes, connectors, blocks, emphases and chapters. plans/eudisclosure_scene_notes.md s1 carries the arithmetic.",
+    "phone_sizes": {
+     "a rubber stamp": {
+      "core_box": [
+       462.0,
+       208.0,
+       618.0,
+       338.0
+      ],
+      "phone_px_at_split": [
+       58.5,
+       48.8
+      ],
+      "plan_phone_px": [
+       40.5,
+       40.5
+      ]
+     },
+     "a framed photo": {
+      "core_box": [
+       452.0,
+       356.0,
+       628.0,
+       508.0
+      ],
+      "phone_px_at_split": [
+       66.0,
+       57.0
+      ],
+      "plan_phone_px": [
+       46.5,
+       36.0
+      ]
+     },
+     "a brightness slider": {
+      "core_box": [
+       408.0,
+       394.0,
+       672.0,
+       470.0
+      ],
+      "phone_px_at_split": [
+       99.0,
+       28.5
+      ],
+      "plan_phone_px": [
+       103.5,
+       16.5
+      ]
+     }
+    },
+    "connectors": {
+     "from_generated": [
+      452.0,
+      432.0
+     ],
+     "end_generated": [
+      406.0,
+      432.0
+     ],
+     "from_modified": [
+      628.0,
+      432.0
+     ],
+     "end_modified": [
+      674.0,
+      432.0
+     ],
+     "level_error_px": 0.0,
+     "mirror_error_px": 0.0,
+     "helper": "anchor_points(box, 1, side) \u2014 LAW 40's own primitive",
+     "verdict": "PASS"
+    },
+    "gutters": {
+     "floor_core_px": 24.0,
+     "per_chapter": {
+      "chapter0": {
+       "tightest_pair": "key-disclose <-> bubble",
+       "tightest_core_px": 24.0,
+       "at_cutout_k095_px": 22.8
+      },
+      "chapter1": {
+       "tightest_pair": "key-disclose <-> image-card",
+       "tightest_core_px": 24.0,
+       "at_cutout_k095_px": 22.8
+      },
+      "chapter2": {
+       "tightest_pair": "key-disclose <-> photo-real",
+       "tightest_core_px": 24.0,
+       "at_cutout_k095_px": 22.8
+      }
+     },
+     "tightest_in_video": {
+      "pair": "key-disclose <-> bubble",
+      "core_px": 24.0,
+      "at_cutout_k095_px": 22.8
+     },
+     "verdict": "PASS"
+    },
+    "symmetry": {
+     "per_chapter": {
+      "chapter0": {
+       "ink_x": [
+        234.0,
+        846.0
+       ],
+       "optical_axis": 540.0,
+       "error_px": 0.0
+      },
+      "chapter1": {
+       "ink_x": [
+        198.0,
+        882.0
+       ],
+       "optical_axis": 540.0,
+       "error_px": 0.0
+      },
+      "chapter2": {
+       "ink_x": [
+        204.0,
+        876.0
+       ],
+       "optical_axis": 540.0,
+       "error_px": 0.0
+      }
+     },
+     "verdict": "PASS"
+    },
+    "band": {
+     "ink_core_y": [
+      100.0,
+      576.0
+     ],
+     "ink_canvas_y": [
+      292.0,
+      768.0
+     ],
+     "ink_x": [
+      198.0,
+      882.0
+     ],
+     "declared_band_core": [
+      100.0,
+      576.0
+     ],
+     "right_rail_clearance_px": 36.0,
+     "left_rail_clearance_px": 36.0,
+     "verdict": "PASS"
+    },
+    "impressions": {
+     "shape": [
+      96.0,
+      22.0
+     ],
+     "count": 5,
+     "marks": {
+      "stamp-impression": {
+       "size": [
+        96.0,
+        22.0
+       ],
+       "host": null
+      },
+      "imp-bubble": {
+       "size": [
+        96.0,
+        22.0
+       ],
+       "host": "bubble",
+       "inset_px": [
+        40.0,
+        70.0,
+        40.0,
+        60.0
+       ]
+      },
+      "imp-page": {
+       "size": [
+        96.0,
+        22.0
+       ],
+       "host": "page",
+       "inset_px": [
+        18.0,
+        70.0,
+        18.0,
+        60.0
+       ]
+      },
+      "imp-photo": {
+       "size": [
+        96.0,
+        22.0
+       ],
+       "host": "photo-real",
+       "inset_px": [
+        40.0,
+        112.0,
+        40.0,
+        18.0
+       ]
+      },
+      "imp-window": {
+       "size": [
+        96.0,
+        22.0
+       ],
+       "host": "window-shot",
+       "inset_px": [
+        40.0,
+        112.0,
+        40.0,
+        18.0
+       ]
+      }
+     },
+     "verdict": "PASS"
+    },
+    "board_mode": "chapters",
+    "content_band_core": [
+     100.0,
+     576.0
+    ],
+    "content_band_canvas": [
+     292.0,
+     768.0
+    ],
+    "marks_on_stage": 0
+   },
+   "transcript": {
+    "partials_dropped": [],
+    "law47_tail_s": 0.201,
+    "law47_cap_s": 0.24,
+    "law46": "the opening key 'If you live in Europe' occurs once, at word 0 / 0.099 s; no restart and no discard marker anywhere in the take",
+    "take_corroboration": {
+     "marker": "equality",
+     "gap": "band",
+     "witnessed": true,
+     "allow_uncorroborated": false,
+     "raw_word_index": 113,
+     "raw_start_s": 92.68,
+     "words": 100,
+     "of_raw_words": 213,
+     "openings": 4
+    },
+    "words": 100,
+    "function_word_merges": 0,
+    "beats_before_merge": 27,
+    "board_keys_forbidden_at_split": [
+     "ai content",
+     "ai content!",
+     "ai content,",
+     "ai content.",
+     "ai content?",
+     "ai images",
+     "ai images!",
+     "ai images,",
+     "ai images.",
+     "ai images?",
+     "chatbot",
+     "chatbot!",
+     "chatbot,",
+     "chatbot.",
+     "chatbot?",
+     "color or lighting",
+     "color or lighting!",
+     "color or lighting,",
+     "color or lighting.",
+     "color or lighting?",
+     "disclose in europe",
+     "disclose in europe!",
+     "disclose in europe,",
+     "disclose in europe.",
+     "disclose in europe?",
+     "real image",
+     "real image!",
+     "real image,",
+     "real image.",
+     "real image?",
+     "screenshot",
+     "screenshot!",
+     "screenshot,",
+     "screenshot.",
+     "screenshot?"
+    ],
+    "board_key_echo_repairs": [],
+    "caption_echoes_not_overlapping": []
+   },
+   "phone_test_objects": [
+    {
+     "name": "a rubber stamp",
+     "t": 1.2,
+     "space": "norm",
+     "bbox": [
+      0.42778,
+      0.20833,
+      0.57222,
+      0.27604
+     ],
+     "phone_px": [
+      58,
+      49
+     ]
+    },
+    {
+     "name": "a framed photo",
+     "t": 8.6,
+     "space": "norm",
+     "bbox": [
+      0.41852,
+      0.28542,
+      0.58148,
+      0.36458
+     ],
+     "phone_px": [
+      66,
+      57
+     ]
+    },
+    {
+     "name": "a brightness slider",
+     "t": 19.7,
+     "space": "norm",
+     "bbox": [
+      0.37778,
+      0.30521,
+      0.62222,
+      0.34479
+     ],
+     "phone_px": [
+      99,
+      28
+     ]
+    }
+   ],
+   "phone_test_vs_plan": {
+    "objects": [
+     {
+      "plan_name": "a rubber stamp",
+      "built_name": "a rubber stamp",
+      "plan_t": 1.2,
+      "built_t": 1.2,
+      "plan_bbox": [
+       0.45,
+       0.2083,
+       0.55,
+       0.2646
+      ],
+      "built_bbox": [
+       0.42778,
+       0.20833,
+       0.57222,
+       0.27604
+      ],
+      "plan_phone_px": [
+       41,
+       41
+      ],
+      "built_phone_px": [
+       58,
+       49
+      ],
+      "max_delta_px": 24.0,
+      "metaphor_changed": false
+     },
+     {
+      "plan_name": "a framed photo",
+      "built_name": "a framed photo",
+      "plan_t": 8.6,
+      "built_t": 8.6,
+      "plan_bbox": [
+       0.4426,
+       0.276,
+       0.5574,
+       0.326
+      ],
+      "built_bbox": [
+       0.41852,
+       0.28542,
+       0.58148,
+       0.36458
+      ],
+      "plan_phone_px": [
+       46,
+       36
+      ],
+      "built_phone_px": [
+       66,
+       57
+      ],
+      "max_delta_px": 74.07,
+      "metaphor_changed": false
+     },
+     {
+      "plan_name": "a brightness slider",
+      "built_name": "a brightness slider",
+      "plan_t": 19.7,
+      "built_t": 19.7,
+      "plan_bbox": [
+       0.3722,
+       0.2781,
+       0.6278,
+       0.301
+      ],
+      "built_bbox": [
+       0.37778,
+       0.30521,
+       0.62222,
+       0.34479
+      ],
+      "plan_phone_px": [
+       104,
+       16
+      ],
+      "built_phone_px": [
+       99,
+       28
+      ],
+      "max_delta_px": 84.08,
+      "metaphor_changed": false
+     }
+    ],
+    "source_used_for_the_phone_test": "--geom",
+    "why": "the plan's bboxes and t values predate the artwork author's approved scale rebuild (scene notes s1) and the held-instant rule; phone_test_page's precedence is --plan over --geom, so passing --plan would silently crop stale geometry at entrance-completion instants"
+   },
+   "render": {
+    "w": 1080,
+    "h": 1920,
+    "zoom": 1
+   },
+   "handle_key": "yt",
+   "handle": "@migueltorrezai",
+   "captions": {
+    "n": 27,
+    "widest_px": 755.4,
+    "font_px": 56.2,
+    "pill_height_px": 114.59,
+    "sizes": 1,
+    "function_word_merges": 0,
+    "texts": [
+     "If you live in Europe,",
+     "now you have to disclose",
+     "whenever you're using AI,",
+     "whether it's a chatbot",
+     "or AI generated content.",
+     "And in the case of",
+     "AI generated images,",
+     "it's even more complex",
+     "because you have to say",
+     "whether an image is AI",
+     "generated or AI modified.",
+     "So if you took a real",
+     "image or a",
+     "real screenshot,",
+     "and then you use AI",
+     "to even do slight",
+     "modifications",
+     "to color or lighting,",
+     "you also have to",
+     "disclose that.",
+     "Now follow for",
+     "more AI news,",
+     "videos,",
+     "and tutorials each",
+     "and every single day,",
+     "and catch you",
+     "in the next one."
+    ],
+    "aspects": [
+     5.32,
+     6.41,
+     6.59,
+     5.71,
+     6.28,
+     4.78,
+     5.53,
+     5.93,
+     6.19,
+     5.95,
+     6.54,
+     5.25,
+     3.04,
+     4.29,
+     5.21,
+     4.48,
+     3.73,
+     5.09,
+     4.37,
+     3.7,
+     4.11,
+     3.91,
+     2.21,
+     4.78,
+     5.46,
+     3.79,
+     4.2
+    ],
+    "min_aspect": 2.21
+   }
+  }
+ }
+}

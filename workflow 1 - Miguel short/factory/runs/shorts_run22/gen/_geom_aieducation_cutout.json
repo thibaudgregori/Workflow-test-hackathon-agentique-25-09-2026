@@ -1,0 +1,373 @@
+{
+ "video": "aieducation",
+ "format": "cutout",
+ "fps": 25,
+ "duration": 32.12,
+ "plate": {
+  "box": {
+   "w": 1584.0,
+   "h": 990.0,
+   "left": -252.0,
+   "top": 930.0
+  },
+  "whole_pixels": true,
+  "equals_encoded": {
+   "cut": {
+    "w": 1584,
+    "h": 990
+   },
+   "rim": {
+    "w": 1584,
+    "h": 990
+   }
+  },
+  "plate_scale": 1.1,
+  "derived_from": "the ENCODED size of the staged layers, never PLATE_SCALE, and the origin READ from plate.json"
+ },
+ "seat": 870.2,
+ "shared": {
+  "beat_edges": [
+   0.1,
+   3.0,
+   13.4,
+   17.94,
+   21.74,
+   27.76,
+   32.12
+  ],
+  "phone_test_objects": [
+   {
+    "name": "an open book with a heart lifting off the page",
+    "t": 2.4,
+    "space": "norm",
+    "bbox": [
+     0.30556,
+     0.13854,
+     0.69444,
+     0.34375
+    ],
+    "canvas": [
+     330.0,
+     266.0,
+     750.0,
+     660.0
+    ],
+    "phone_px": [
+     158,
+     148
+    ]
+   },
+   {
+    "name": "a heart",
+    "t": 12.6,
+    "space": "norm",
+    "bbox": [
+     0.34259,
+     0.18333,
+     0.65741,
+     0.36042
+    ],
+    "canvas": [
+     370.0,
+     352.0,
+     710.0,
+     692.0
+    ],
+    "phone_px": [
+     128,
+     128
+    ]
+   },
+   {
+    "name": "a head in profile thinking",
+    "t": 17.4,
+    "space": "norm",
+    "bbox": [
+     0.58333,
+     0.18854,
+     0.84259,
+     0.33958
+    ],
+    "canvas": [
+     630.0,
+     362.0,
+     910.0,
+     652.0
+    ],
+    "phone_px": [
+     105,
+     109
+    ]
+   },
+   {
+    "name": "an easel",
+    "t": 25.0,
+    "space": "norm",
+    "bbox": [
+     0.32407,
+     0.19167,
+     0.67593,
+     0.37917
+    ],
+    "canvas": [
+     350.0,
+     368.0,
+     730.0,
+     728.0
+    ],
+    "phone_px": [
+     142,
+     135
+    ]
+   }
+  ]
+ },
+ "matte": {
+  "cut": {
+   "w": 1584,
+   "h": 990
+  },
+  "rim": {
+   "w": 1584,
+   "h": 990
+  },
+  "plate": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/matting/aieducation/plate_display_1584x990.mp4",
+  "session": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/matting/aieducation",
+  "alpha_sha256": "26a814128d88f09edddd45dc86528126fe5eca475524bae0441b35b5fb08d60a",
+  "consumed_as_is": "MATTES_FINAL.md is absent, so no decree binds \u2014 and nothing here asks for another track.  Stage 17's viewer HOLD was a path-resolution bug (fixed at source in matte_review.py); stage 18's SAM2 fallback REFUSED and was never installed; the haze gate then held the FIRST shipped matte and the contour was redrawn and re-shipped.  The layers this build stages are the re-shipped ones and their metrics are clean.  They keep `needs_final_visual_review` until the clerk answers it (PRODUCTION.md, 2026-09-06).",
+  "hashes": {
+   "cut": "b352ce8fa025a6caeeb01879a679316639367e5d896404af039dff8255a5ade6",
+   "rim": "5e21e902022471a2516a826fe43854230fc6b2b9987e0a2babc23655759e8b89",
+   "alpha": "26a814128d88f09edddd45dc86528126fe5eca475524bae0441b35b5fb08d60a"
+  },
+  "frames": 803,
+  "alpha_mode": "soft",
+  "rim_px": 7,
+  "fractional_alpha_pixels": 15805478,
+  "minimum_person_fraction": 0.36307774716865626,
+  "review_status": "needs_final_visual_review",
+  "backend": "matanyone2",
+  "headroom_guard": {
+   "pass": true,
+   "frames_checked": 803,
+   "min_top_clearance_px": 25.3,
+   "floor_px": 24.0,
+   "unsafe_frames": 0,
+   "worst_frame": 247
+  },
+  "selection": "reviewed",
+  "cost_usd": {
+   "track": 0.021391062094777438,
+   "ship": 0.039165458203894395,
+   "total": 0.060557
+  }
+ },
+ "depth_field": {
+  "seat": {
+   "band": [
+    991.5,
+    1385.5
+   ],
+   "band_h": 394.0,
+   "inter_lane_gap": 26.0,
+   "seat_offset_from_pill": 64.0,
+   "foundation_offset": 63.61,
+   "drift_from_foundation_seat": 0.39,
+   "margin_px": 164.0,
+   "candidates_scanned": 107,
+   "candidates_safe": 89,
+   "instrument": "5th percentile of the PER-FRAME gutter; the union envelope describes a body that never existed",
+   "lanes": [
+    {
+     "lane": "far",
+     "tile": 78.0,
+     "y": 991.5,
+     "frames": 268,
+     "gutter_p05": 340.9,
+     "gutter_median": 361.8,
+     "gutter_min_single_frame": 324.4,
+     "frames_under_tile": 0
+    },
+    {
+     "lane": "mid",
+     "tile": 116.0,
+     "y": 1095.5,
+     "frames": 268,
+     "gutter_p05": 308.3,
+     "gutter_median": 325.5,
+     "gutter_min_single_frame": 283.7,
+     "frames_under_tile": 0
+    },
+    {
+     "lane": "near",
+     "tile": 148.0,
+     "y": 1237.5,
+     "frames": 268,
+     "gutter_p05": 312.0,
+     "gutter_median": 326.6,
+     "gutter_min_single_frame": 113.2,
+     "frames_under_tile": 1
+    }
+   ]
+  },
+  "lanes": {
+   "far": {
+    "x0": -216.0,
+    "w": 1926.0,
+    "y": 991.5,
+    "tile": 78.0,
+    "gap": 30.0,
+    "pitch": 108.0,
+    "tiles": 17,
+    "opacity": 0.34,
+    "dist": 46.0,
+    "travel": 414.0,
+    "steps": 9
+   },
+   "mid": {
+    "x0": -304.0,
+    "w": 2696.0,
+    "y": 1095.5,
+    "tile": 116.0,
+    "gap": 36.0,
+    "pitch": 152.0,
+    "tiles": 17,
+    "opacity": 0.66,
+    "dist": 112.0,
+    "travel": 1008.0,
+    "steps": 9
+   },
+   "near": {
+    "x0": -384.0,
+    "w": 3720.0,
+    "y": 1237.5,
+    "tile": 148.0,
+    "gap": 44.0,
+    "pitch": 192.0,
+    "tiles": 19,
+    "opacity": 1.0,
+    "dist": 208.0,
+    "travel": 1872.0,
+    "steps": 9
+   }
+  },
+  "tiles": 53,
+  "step_beats": [
+   3.32,
+   6.32,
+   10.0,
+   12.76,
+   16.32,
+   19.28,
+   22.84,
+   26.36,
+   29.36
+  ],
+  "step_n": 9,
+  "step_pulse_s": 3.26,
+  "foundation_pulse_s": 3.17,
+  "pop_behind": null,
+  "spoken_depth_marks": [],
+  "pop_behind_why_none": "MEASURED, not omitted.  Cutout law 16 keys the crossing to 'the beat where he NAMES the tool'.  This take names no product at all: a lexical sweep of all six lane marks over the whole tight transcript returns ZERO hits, and the only proper nouns he says are 'X' (the platform, which is card chrome and deliberately not a lane mark) and 'AI'.  There is therefore no legal beat to key a crossing to, and improvising one is exactly what this lane may not do.",
+  "cast": [
+   "chatgpt",
+   "claude",
+   "gemini",
+   "cursor",
+   "grok",
+   "lovable"
+  ],
+  "cast_list_why": "the field's stride is 7 and this roster is 6 long; gcd(7,6)=1, so every lane cycles all six of the plan's marks with no repeat knob needed.",
+  "cast_source": "plan.cutout_logo_lanes, unchanged",
+  "substitutions": {},
+  "banned_asserted": [
+   "anthropic-wordmark",
+   "claude-code",
+   "grok-bot",
+   "grok-bot-app",
+   "instagram",
+   "nous-girl",
+   "openai",
+   "openai-wordmark",
+   "qwen-lockup",
+   "spotify",
+   "telegram",
+   "three",
+   "threejs",
+   "tiktok",
+   "twitter",
+   "whatsapp",
+   "x",
+   "x-logo",
+   "xai",
+   "youtube"
+  ],
+  "opacities": [
+   0.34,
+   0.66,
+   1.0
+  ],
+  "hook_clear_s": 2.04,
+  "seams": [
+   3.0,
+   13.4,
+   17.94,
+   21.74,
+   27.76
+  ],
+  "foundation": "formats/cutout/lib/cutout_depthfield.py (grokpublish, approved 2026-09-01) \u2014 unmodified"
+ },
+ "core": {
+  "left": 0.0,
+  "top": 192.0,
+  "w": 1080.0,
+  "h": 600.0,
+  "placement": {
+   "k": 1.0,
+   "k_uncapped": 1.0478,
+   "left": 0.0,
+   "top": 192.0,
+   "seat": "the scene's own origin: the band already lands legally in this session's MEASURED stage zone at k = 1, so the cutout's canvas rects ARE the scene's, the split's and the plan's, the cold Phone Test crops the objects it means to, and LAW 51's cross-lane parity with the split is exact rather than close",
+   "identity_seat": true,
+   "stage_zone": [
+    192.0,
+    786.4
+   ],
+   "stage_zone_px": 594.4,
+   "content_band_core": [
+    20.0,
+    572.0
+   ],
+   "content_band_px": 552.0,
+   "content_band_canvas": [
+    212.0,
+    764.0
+   ],
+   "core_margin": 8.0,
+   "handoff_note": "the handoff says 'k from THAT session's matte envelope'.  This session's envelope gives a 594.4 px stage zone against a 552.0 px content band, so the cap at 1.0 binds and the scene is seated unscaled."
+  }
+ },
+ "envelope": {
+  "CAP_H_seat_constant": 108.2,
+  "CAP_H_true_rendered": 114.59,
+  "CAP_MIN_CLEAR": 26.5,
+  "true_clear_to_crown": 26.5,
+  "CAP_Y": 870.2,
+  "CAP_Y_pct": 0.4532,
+  "pill_bottom": 927.5,
+  "pill_bottom_pct": 0.4831,
+  "ZY0": 192.0,
+  "ZY1": 786.4,
+  "stage_height": 594.4,
+  "vs_definitive": {
+   "CAP_Y": 949.5,
+   "ZY1": 868.9,
+   "why_different": "a different plate: this session's crown sits below the plate's top row (bottom_planted false, crop slid up 72 master px), and the plate is OVER-WIDE (1584x990 at -252)"
+  }
+ },
+ "voice": {
+  "source": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/cuts/aieducation/audio.m4a",
+  "sample_rate": 48000,
+  "channels": 2
+ }
+}

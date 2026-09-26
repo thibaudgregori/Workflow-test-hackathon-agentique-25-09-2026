@@ -1,0 +1,44 @@
+{
+  "tag": "kimifable-probe-haiku",
+  "cold_dir": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/kimifable-probe-haiku-a902c095",
+  "reader": "one independent `claude -p` process per crop, launched from /tmp, handed ONLY the absolute path of a blind copy under a random token - no plan, no topic, no manifest, no sealed key, and no path naming the video",
+  "prompt": "Look at the image at <absolute path of one blind crop> . Name the single everyday object drawn in it. At most FIVE words. Reply with ONE line of JSON and nothing else: {\"name\":\"<=5 words\",\"confidence\":\"sure|unsure|cannot tell\"}",
+  "dispatched_at": "2026-09-08T01:27:37",
+  "cli": "2.1.263 (Claude Code)",
+  "source_crops": {
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/proofs/kimifable_seal/00.png": "c3cac291f7afc52ff6b582005594068efb8d51a8f3ad5c6d6c23c664ebcfcdd9",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/proofs/kimifable_seal/01.png": "36da36436d554f56e6b17871f4ca308a3f68d36ca347b7315423745c66a88caf",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/proofs/kimifable_seal/02.png": "c3e82769e1156cbb55941c3c0b7f0490aec04aa9637e4c6187405ccd5ecdbc0a",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/proofs/kimifable_seal/03.png": "218b39da3a0096bbb8d43d8f238cecd46b5c7332ce76fb3d34e41b356d53e085"
+  },
+  "names": [
+    {
+      "i": 0,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/kimifable-probe-haiku-a902c095/00.png",
+      "name": "light bulb",
+      "confidence": "sure",
+      "crop_sha256": "c3cac291f7afc52ff6b582005594068efb8d51a8f3ad5c6d6c23c664ebcfcdd9"
+    },
+    {
+      "i": 1,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/kimifable-probe-haiku-a902c095/01.png",
+      "name": "bar chart",
+      "confidence": "sure",
+      "crop_sha256": "36da36436d554f56e6b17871f4ca308a3f68d36ca347b7315423745c66a88caf"
+    },
+    {
+      "i": 2,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/kimifable-probe-haiku-a902c095/02.png",
+      "name": "smartphone",
+      "confidence": "sure",
+      "crop_sha256": "c3e82769e1156cbb55941c3c0b7f0490aec04aa9637e4c6187405ccd5ecdbc0a"
+    },
+    {
+      "i": 3,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/kimifable-probe-haiku-a902c095/03.png",
+      "name": "microwave",
+      "confidence": "sure",
+      "crop_sha256": "218b39da3a0096bbb8d43d8f238cecd46b5c7332ce76fb3d34e41b356d53e085"
+    }
+  ]
+}

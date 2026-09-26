@@ -1,0 +1,2709 @@
+{
+ "video": "kimifable",
+ "lane": "counter & meter",
+ "fps": 25,
+ "duration": 38.12,
+ "seam": 862.5,
+ "sfx": {
+  "whoosh": {
+   "mean_volume": "-17.5 dB"
+  },
+  "pop": {
+   "mean_volume": "-36.4 dB"
+  },
+  "click": {
+   "mean_volume": "-23.1 dB"
+  },
+  "_gains": {
+   "structure": 0.14,
+   "detail": 0.09,
+   "published_corpus_flat": 0.18,
+   "note": "a gain constant means nothing without its source loudness (SFX LAW v2); these are the run-9/12/13/14/15/16/17 shipped values for THESE files"
+  }
+ },
+ "cutout_lanes_for_the_other_author": [
+  "openai",
+  "gemini",
+  "deepseek",
+  "qwen",
+  "mistral",
+  "grok"
+ ],
+ "formats": {
+  "split": {
+   "staged": {
+    "voice": {
+     "source": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/cuts/kimifable/audio.m4a",
+     "sample_rate": 48000,
+     "channels": 2
+    },
+    "face": {
+     "file": "face_bottom_hd.mp4",
+     "w": 1080,
+     "h": 1058
+    },
+    "marks": {
+     "kimi": {
+      "source": "/Users/migle/Documents/Workspace/assets/logos/ai-models/kimi.png",
+      "url": "assets/logos/kimi.png",
+      "bytes": 7454
+     },
+     "claude": {
+      "source": "/Users/migle/Documents/Workspace/assets/logos/ai-models/claude-color.png",
+      "url": "assets/logos/claude-color.png",
+      "bytes": 9337
+     }
+    }
+   },
+   "seat": 862.5,
+   "scale": 1.0,
+   "core": {
+    "left": 0.0,
+    "top": 192.0
+   },
+   "band": {
+    "content_top": 286.0,
+    "content_bottom": 746.0,
+    "law30_top_10pct": 192.0,
+    "pill_top": 805.21,
+    "pill_height_used": 114.59,
+    "pill_centre_used": 862.5,
+    "clear_above_pill": 59.21,
+    "note": "content_top is the KEY TERM's box top (canvas 286, the highest ink in the video) and content_bottom is BUILD COST's box bottom (canvas 746, the lowest).  Both are REAL painted ink, not a reserved envelope, and SC.self_check() re-measures them per chapter off the rects on every build. THE PLAN DERIVED ITS CLEARANCE AGAINST A 960 SEAT; the split's canonical seam is 862.5, so the real clearance under the RENDERING pill top is 59.2 px, not the plan's 156.7 \u2014 still legal, and recorded in the split notes."
+   },
+   "rail": {
+    "ink_left_x": 200.0,
+    "ink_right_x": 880.0,
+    "optical_axis_x": 540.0,
+    "readable_type_left_x": 206.6,
+    "readable_type_right_x": 873.4,
+    "law30_rail_x": 918.0,
+    "margins": [
+     200.0,
+     200.0
+    ],
+    "note": "the union of every declared box runs x 200..880 about an axis of 540; SC.self_check() proves each CHAPTER's own live ink extents are mirror-symmetric about 540 to 0.00 px, which is the number LAW 15 actually asks for"
+   },
+   "law40": {
+    "connectors": 0,
+    "law40": "SKIP \u2014 no target receives an arrow",
+    "emphasis_declarations": 0,
+    "vestigial_cues_unreferenced": [
+     "cordL",
+     "cordR"
+    ],
+    "why": "SC.CONNECTORS is empty and SC.assert_no_connectors() runs inside build(); this build re-asserts it on the emitted string and also proves no data-emphasis element exists, so visual_laws.CHECK_JS has an EMPTY node list on this page"
+   },
+   "law42": {
+    "board_mode": "chapters",
+    "chapters": [
+     {
+      "i": 0,
+      "t_start": 0.079,
+      "t_end": 4.55,
+      "erase_at": 4.55,
+      "holds": [
+       "kimi-tag",
+       "kimi-tile",
+       "kimi-coin",
+       "fable-tile",
+       "fable-tag",
+       "fable-coin-1",
+       "fable-coin-2",
+       "fable-coin-3",
+       "key-price"
+      ]
+     },
+     {
+      "i": 1,
+      "t_start": 4.75,
+      "t_end": 11.5,
+      "erase_at": 11.5,
+      "holds": [
+       "scorecard",
+       "score-head",
+       "score-row-1",
+       "score-row-2",
+       "score-row-3",
+       "key-bench"
+      ]
+     },
+     {
+      "i": 2,
+      "t_start": 11.7,
+      "t_end": 21.6,
+      "erase_at": 21.6,
+      "holds": [
+       "kimi-tile2",
+       "design-window",
+       "key-frontend",
+       "fable-tile2",
+       "bar-base",
+       "bar-fable",
+       "bar-a",
+       "bar-c",
+       "key-expensive"
+      ]
+     },
+     {
+      "i": 3,
+      "t_start": 21.8,
+      "t_end": 32.34,
+      "erase_at": 32.64,
+      "holds": [
+       "sheet-stack",
+       "key-designs",
+       "kimi-tile3",
+       "fable-tile3",
+       "equals",
+       "key-similar",
+       "build-track",
+       "build-fill",
+       "num-66",
+       "key-build"
+      ]
+     }
+    ],
+    "anchors": [],
+    "shares": {
+     "kimi-tag": 0.111,
+     "kimi-tile": 0.095,
+     "kimi-coin": 0.054,
+     "fable-tile": 0.09,
+     "fable-tag": 0.077,
+     "fable-coin-1": 0.066,
+     "fable-coin-2": 0.062,
+     "fable-coin-3": 0.059,
+     "key-price": 0.043,
+     "scorecard": 0.177,
+     "score-head": 0.173,
+     "score-row-1": 0.172,
+     "score-row-2": 0.076,
+     "score-row-3": 0.06,
+     "key-bench": 0.16,
+     "kimi-tile2": 0.26,
+     "design-window": 0.207,
+     "key-frontend": 0.172,
+     "fable-tile2": 0.146,
+     "bar-base": 0.108,
+     "bar-fable": 0.106,
+     "bar-a": 0.099,
+     "bar-c": 0.093,
+     "key-expensive": 0.089,
+     "sheet-stack": 0.284,
+     "key-designs": 0.242,
+     "kimi-tile3": 0.229,
+     "fable-tile3": 0.119,
+     "equals": 0.109,
+     "key-similar": 0.095,
+     "build-track": 0.088,
+     "key-build": 0.051,
+     "num-66": 0.023,
+     "o-sheet": 0.144,
+     "o-glyph": 0.132,
+     "o-rule": 0.124,
+     "o-slot": 0.121
+    },
+    "longest_lived": {
+     "mark": "sheet-stack",
+     "share": 0.284
+    },
+    "board_mode_reason": "FOUR separate idea groups \u2014 the headline, the caveat about benchmarks, what each model is for, and the payoff.  Nothing on chapter 0's board is still the referent in chapter 3, so nothing accumulates and every mark leaves at its own erase.  What makes the chapters cohere is the ONE-OF-THREE relationship restated in each of them, not a carried object."
+   },
+   "law38": {
+    "kind": "box",
+    "dom_primitive": "PANEL BORDER FLIP \u2014 borderColor rgba(17,17,17,0.16) -> rgb(221,114,89), on the target's OWN border, 0.38 s",
+    "groups": [
+     {
+      "at": 0.939,
+      "targets": [
+       "kimi-tile"
+      ],
+      "duration": 0.38,
+      "target_life": [
+       0.94,
+       4.55
+      ],
+      "why": "the emphasis says THIS is the model the sentence is about; it adds no geometry and it is the target's own border"
+     },
+     {
+      "at": 25.6,
+      "targets": [
+       "kimi-tile3"
+      ],
+      "duration": 0.38,
+      "target_life": [
+       23.9,
+       32.64
+      ],
+      "why": "the emphasis says THIS is the model the sentence is about; it adds no geometry and it is the target's own border"
+     }
+    ],
+    "rings_ellipses_circles": 0,
+    "highlights": 0,
+    "why_undeclared": "the emphasis IS the target, so a data-emphasis declaration would be measured for 4 px clearance from itself and for a colour that differs from its own ink \u2014 two violations of a rule the border flip does not break.  The handoff s5 names this explicitly: the tiles carry a BACKGROUND so Gate 1 can never read the flip as an emphasis outline, and adding data-emphasis would force `_lboxemph` true.  Asserted here instead."
+   },
+   "law41": {
+    "self_check": {
+     "connectors": 0,
+     "chapters": [
+      {
+       "i": 0,
+       "tightest_non_block_gutter_px": 78.0,
+       "tightest_pair": [
+        "fable-tile",
+        "key-price"
+       ],
+       "ink_x": [
+        226.0,
+        854.0
+       ],
+       "ink_y": [
+        94.0,
+        478.0
+       ],
+       "axis_err_px": 0.0,
+       "at_cutout_k095": 74.1
+      },
+      {
+       "i": 1,
+       "tightest_non_block_gutter_px": null,
+       "tightest_pair": null,
+       "ink_x": [
+        340.0,
+        740.0
+       ],
+       "ink_y": [
+        124.0,
+        510.0
+       ],
+       "axis_err_px": 0.0,
+       "at_cutout_k095": null
+      },
+      {
+       "i": 2,
+       "tightest_non_block_gutter_px": 28.0,
+       "tightest_pair": [
+        "bar-fable",
+        "fable-tile2"
+       ],
+       "ink_x": [
+        206.6,
+        873.4
+       ],
+       "ink_y": [
+        100.0,
+        496.0
+       ],
+       "axis_err_px": 0.0,
+       "at_cutout_k095": 26.6
+      },
+      {
+       "i": 3,
+       "tightest_non_block_gutter_px": 28.0,
+       "tightest_pair": [
+        "build-track",
+        "key-designs"
+       ],
+       "ink_x": [
+        200.0,
+        880.0
+       ],
+       "ink_y": [
+        120.0,
+        554.0
+       ],
+       "axis_err_px": 0.0,
+       "at_cutout_k095": 26.6
+      }
+     ],
+     "content_band_canvas": [
+      286.0,
+      746.0
+     ]
+    },
+    "tightest_in_video": {
+     "core_px": 28.0,
+     "chapter": 2,
+     "pair": [
+      "bar-fable",
+      "fable-tile2"
+     ],
+     "at_cutout_k095_px": 26.6
+    },
+    "blocks": [
+     [
+      "kimi-tile",
+      "kimi-tag",
+      "kimi-coin"
+     ],
+     [
+      "fable-tile",
+      "fable-tag",
+      "fable-coin-1",
+      "fable-coin-2",
+      "fable-coin-3"
+     ],
+     [
+      "scorecard",
+      "score-head",
+      "score-row-1",
+      "score-row-2",
+      "score-row-3",
+      "score-bar-1",
+      "score-bar-2",
+      "score-bar-3",
+      "key-bench"
+     ],
+     [
+      "kimi-tile2"
+     ],
+     [
+      "design-window",
+      "key-frontend"
+     ],
+     [
+      "fable-tile2"
+     ],
+     [
+      "bar-base",
+      "bar-a",
+      "bar-fable",
+      "bar-c",
+      "key-expensive"
+     ],
+     [
+      "sheet-stack",
+      "key-designs"
+     ],
+     [
+      "kimi-tile3"
+     ],
+     [
+      "fable-tile3"
+     ],
+     [
+      "equals",
+      "key-similar"
+     ],
+     [
+      "build-track",
+      "build-fill",
+      "num-66",
+      "key-build"
+     ]
+    ],
+    "floor_authored": 28.0,
+    "note": "the plan's own blocks_note predicted 28 px (kimi-tile3 <-> equals, equals <-> fable-tile3) as the tightest pair; the sealed module measures exactly that, and it is the value the cutout's 0.95 scaling has to survive"
+   },
+   "law39": {
+    "key-bench": {
+     "host": "scorecard",
+     "side": "below",
+     "text": "ONE BENCHMARK",
+     "key_box": [
+      417.6,
+      466.0,
+      662.4,
+      510.0
+     ],
+     "host_box": [
+      340.0,
+      124.0,
+      740.0,
+      440.0
+     ],
+     "centre_error_px": 0.0,
+     "band_px": 60.0,
+     "gap_px": 26.0,
+     "at": 5.4,
+     "host_at": 4.75,
+     "delay_after_host_s": 0.65
+    },
+    "key-frontend": {
+     "host": "design-window",
+     "side": "below",
+     "text": "FRONT-END DESIGN",
+     "key_box": [
+      206.6,
+      452.0,
+      505.4,
+      496.0
+     ],
+     "host_box": [
+      212.0,
+      240.0,
+      500.0,
+      417.20000000000005
+     ],
+     "centre_error_px": 0.0,
+     "band_px": 43.2,
+     "gap_px": 34.8,
+     "at": 15.05,
+     "host_at": 13.72,
+     "delay_after_host_s": 1.33
+    },
+    "key-expensive": {
+     "host": "bar-fable",
+     "side": "below",
+     "text": "MOST EXPENSIVE",
+     "key_box": [
+      574.6,
+      452.0,
+      873.4,
+      496.0
+     ],
+     "host_box": [
+      698.0,
+      240.0,
+      750.0,
+      417.20000000000005
+     ],
+     "centre_error_px": 0.0,
+     "band_px": 7.8,
+     "gap_px": 34.8,
+     "at": 18.2,
+     "host_at": 17.5,
+     "delay_after_host_s": 0.7
+    },
+    "key-designs": {
+     "host": "sheet-stack",
+     "side": "below",
+     "text": "YOUR DESIGNS",
+     "key_box": [
+      236.6,
+      352.0,
+      463.4,
+      396.0
+     ],
+     "host_box": [
+      206.0,
+      120.0,
+      494.0,
+      320.0
+     ],
+     "centre_error_px": 0.0,
+     "band_px": 43.2,
+     "gap_px": 32.0,
+     "at": 23.4,
+     "host_at": 21.8,
+     "delay_after_host_s": 1.6
+    },
+    "key-similar": {
+     "host": "equals",
+     "side": "below",
+     "text": "SIMILAR RESULTS",
+     "key_box": [
+      571.6,
+      270.0,
+      852.4,
+      314.0
+     ],
+     "host_box": [
+      688.0,
+      166.0,
+      736.0,
+      198.0
+     ],
+     "centre_error_px": 0.0,
+     "band_px": 7.2,
+     "gap_px": 72.0,
+     "at": 29.0,
+     "host_at": 28.5,
+     "delay_after_host_s": 0.5
+    },
+    "key-build": {
+     "host": "build-track",
+     "side": "below",
+     "text": "BUILD COST",
+     "key_box": [
+      444.6,
+      510.0,
+      635.4,
+      554.0
+     ],
+     "host_box": [
+      200.0,
+      424.0,
+      880.0,
+      484.0
+     ],
+     "centre_error_px": 0.0,
+     "band_px": 102.0,
+     "gap_px": 26.0,
+     "at": 30.7,
+     "host_at": 29.3,
+     "delay_after_host_s": 1.4
+    },
+    "_key_term": {
+     "text": "PRICE PER TOKEN",
+     "at": 2.9,
+     "font_px": 48.0,
+     "design_units": 25.6,
+     "label_class_font_px": 28.0,
+     "first_type_at": 2.9,
+     "first_label_at": 5.4,
+     "alone_until": 5.4,
+     "type_order": [
+      [
+       "key-bench",
+       5.4
+      ],
+      [
+       "key-frontend",
+       15.05
+      ],
+      [
+       "key-expensive",
+       18.2
+      ],
+      [
+       "key-designs",
+       23.4
+      ],
+      [
+       "key-similar",
+       29.0
+      ],
+      [
+       "key-build",
+       30.7
+      ]
+     ]
+    },
+    "_hook": {
+     "object": "a price tag \u2014 the everyday object for what a thing costs, which is the ONLY subject this video has; complete from its first frame (a drawn tag with its punched hole, not an empty vessel), and the same object the outro closes on, so the piece opens and closes on one idea",
+     "first_ink_at": 0.3,
+     "opens_centred_on_x": 540.0,
+     "opens_dx_px": 184.0,
+     "opens_dy_px": -110.0,
+     "alone_until": 0.94,
+     "displaces_at": 0.939
+    }
+   },
+   "law37": {
+    "scan_cue_count": 0,
+    "plan_declared_cards": 0,
+    "prep_marker": "prep/stages/kimifable.cues.json -> cue_count 0",
+    "instrument": "pointing_cues.scan re-run on transcript_tight.json",
+    "why": "no demonstrative-plus-person anywhere in the take; Miguel reports a benchmark in his own words, so GLOBAL LAW 3 admits no post and there is nothing to waive"
+   },
+   "law2": {
+    "stage_marks": 2,
+    "assert_cast_resolves": {
+     "kimi": {
+      "path": "/Users/migle/Documents/Workspace/assets/logos/ai-models/kimi.png",
+      "bytes": 7454,
+      "size": [
+       112,
+       112
+      ],
+      "ink_fill": 0.93,
+      "quantised_colours": 26,
+      "diag_fwd": 0.857,
+      "diag_back": 0.857,
+      "bbox": [
+       0,
+       0,
+       112,
+       112
+      ]
+     },
+     "claude": {
+      "path": "/Users/migle/Documents/Workspace/assets/logos/ai-models/claude-color.png",
+      "bytes": 9337,
+      "size": [
+       640,
+       640
+      ],
+      "ink_fill": 0.399,
+      "quantised_colours": 1,
+      "diag_fwd": 0.463,
+      "diag_back": 0.541,
+      "bbox": [
+       0,
+       0,
+       640,
+       640
+      ]
+     }
+    },
+    "ink_aspects": {
+     "kimi": 1.0,
+     "claude": 1.0
+    },
+    "sizes_core_px": {
+     "tile": 56.0
+    },
+    "tiles_painted": 6,
+    "cutout_lanes_not_ours": [
+     "openai",
+     "gemini",
+     "deepseek",
+     "qwen",
+     "mistral",
+     "grok"
+    ],
+    "why": "LAW 2 binds a NAMED tool to its logo and this script names two models by name.  Both are real registered COLOUR marks (LAW 12), both sit in the chart's own 112 px tile with the ink at 0.50 of the tile (chart clause 5), and all six tiles share one rounded-square treatment (LAW 32, no odd one out).  FABLE 5's mark is `claude` under LAW 35: Anthropic ships no separate 'Fable' asset, so the sunburst IS this model family's product mark."
+   },
+   "cues": {
+    "slide": {
+     "word_spoken": 3,
+     "text": "beat",
+     "edge": "start",
+     "t": 0.939,
+     "word_edge": 0.939
+    },
+    "tileL": {
+     "word_spoken": 3,
+     "text": "beat",
+     "edge": "start",
+     "t": 0.939,
+     "word_edge": 0.939
+    },
+    "emph0": {
+     "word_spoken": 3,
+     "text": "beat",
+     "edge": "start",
+     "t": 0.939,
+     "word_edge": 0.939
+    },
+    "tileR": {
+     "word_spoken": 4,
+     "text": "Fable",
+     "edge": "start",
+     "t": 1.12,
+     "word_edge": 1.12
+    },
+    "window": {
+     "word_spoken": 45,
+     "text": "front-end",
+     "edge": "start",
+     "t": 13.72,
+     "word_edge": 13.719
+    },
+    "tile2R": {
+     "word_spoken": 53,
+     "text": "Fable",
+     "edge": "start",
+     "t": 16.039,
+     "word_edge": 16.039
+    },
+    "cut": {
+     "word_spoken": 104,
+     "text": "cut",
+     "edge": "start",
+     "t": 30.139,
+     "word_edge": 30.139
+    },
+    "outro": {
+     "word_spoken": 109,
+     "text": "Now",
+     "edge": "start",
+     "t": 32.639,
+     "word_edge": 32.639
+    },
+    "tag": {
+     "word_spoken": 0,
+     "text": "Kimi",
+     "edge": "inside",
+     "t": 0.3,
+     "window": [
+      0.079,
+      1.28
+     ]
+    },
+    "tagR": {
+     "word_spoken": 5,
+     "text": "5",
+     "edge": "inside",
+     "t": 1.6,
+     "window": [
+      1.519,
+      2.599
+     ]
+    },
+    "coinR1": {
+     "word_spoken": 7,
+     "text": "a",
+     "edge": "inside",
+     "t": 2.05,
+     "window": [
+      1.959,
+      3.139
+     ]
+    },
+    "coinR2": {
+     "word_spoken": 7,
+     "text": "a",
+     "edge": "inside",
+     "t": 2.18,
+     "window": [
+      1.959,
+      3.139
+     ]
+    },
+    "coinR3": {
+     "word_spoken": 8,
+     "text": "third",
+     "edge": "inside",
+     "t": 2.31,
+     "window": [
+      2.2,
+      3.399
+     ]
+    },
+    "coinL": {
+     "word_spoken": 8,
+     "text": "third",
+     "edge": "inside",
+     "t": 2.48,
+     "window": [
+      2.2,
+      3.399
+     ]
+    },
+    "keyterm": {
+     "word_spoken": 11,
+     "text": "price.",
+     "edge": "inside",
+     "t": 2.9,
+     "window": [
+      2.819,
+      4.439
+     ]
+    },
+    "card": {
+     "word_spoken": 16,
+     "text": "one",
+     "edge": "inside",
+     "t": 4.75,
+     "window": [
+      4.539,
+      5.639
+     ]
+    },
+    "bar1": {
+     "word_spoken": 17,
+     "text": "specific",
+     "edge": "inside",
+     "t": 4.95,
+     "window": [
+      4.779,
+      6.219
+     ]
+    },
+    "keyB": {
+     "word_spoken": 18,
+     "text": "benchmark,",
+     "edge": "inside",
+     "t": 5.4,
+     "window": [
+      5.319,
+      6.759
+     ]
+    },
+    "bar2": {
+     "word_spoken": 29,
+     "text": "specific",
+     "edge": "inside",
+     "t": 8.6,
+     "window": [
+      8.519,
+      9.96
+     ]
+    },
+    "bar3": {
+     "word_spoken": 30,
+     "text": "domains",
+     "edge": "inside",
+     "t": 9.2,
+     "window": [
+      9.019,
+      10.599
+     ]
+    },
+    "tile2": {
+     "word_spoken": 38,
+     "text": "this",
+     "edge": "inside",
+     "t": 11.7,
+     "window": [
+      11.42,
+      12.539
+     ]
+    },
+    "shift2": {
+     "word_spoken": 43,
+     "text": "fantastic",
+     "edge": "inside",
+     "t": 13.4,
+     "window": [
+      12.759,
+      14.38
+     ]
+    },
+    "keyF": {
+     "word_spoken": 46,
+     "text": "design,",
+     "edge": "inside",
+     "t": 15.05,
+     "window": [
+      14.119,
+      15.42
+     ]
+    },
+    "barF": {
+     "word_spoken": 57,
+     "text": "expensive",
+     "edge": "inside",
+     "t": 17.5,
+     "window": [
+      17.44,
+      18.86
+     ]
+    },
+    "barA": {
+     "word_spoken": 57,
+     "text": "expensive",
+     "edge": "inside",
+     "t": 17.75,
+     "window": [
+      17.44,
+      18.86
+     ]
+    },
+    "barC": {
+     "word_spoken": 58,
+     "text": "model",
+     "edge": "inside",
+     "t": 18.0,
+     "window": [
+      17.92,
+      19.079
+     ]
+    },
+    "keyE": {
+     "word_spoken": 57,
+     "text": "expensive",
+     "edge": "inside",
+     "t": 18.2,
+     "window": [
+      17.44,
+      18.86
+     ]
+    },
+    "stack": {
+     "word_spoken": 74,
+     "text": "is",
+     "edge": "inside",
+     "t": 21.8,
+     "window": [
+      21.52,
+      22.659
+     ]
+    },
+    "keyD": {
+     "word_spoken": 79,
+     "text": "designs,",
+     "edge": "inside",
+     "t": 23.4,
+     "window": [
+      22.6,
+      24.079
+     ]
+    },
+    "shift3": {
+     "word_spoken": 80,
+     "text": "using",
+     "edge": "inside",
+     "t": 23.55,
+     "window": [
+      23.479,
+      24.659
+     ]
+    },
+    "tile3": {
+     "word_spoken": 81,
+     "text": "Kimi",
+     "edge": "inside",
+     "t": 23.9,
+     "window": [
+      23.719,
+      24.92
+     ]
+    },
+    "emph3": {
+     "word_spoken": 87,
+     "text": "viable",
+     "edge": "inside",
+     "t": 25.6,
+     "window": [
+      25.5,
+      26.859
+     ]
+    },
+    "tile3R": {
+     "word_spoken": 97,
+     "text": "similar",
+     "edge": "inside",
+     "t": 28.1,
+     "window": [
+      28.019,
+      29.34
+     ]
+    },
+    "equals": {
+     "word_spoken": 98,
+     "text": "results,",
+     "edge": "inside",
+     "t": 28.5,
+     "window": [
+      28.399,
+      29.779
+     ]
+    },
+    "keyS": {
+     "word_spoken": 98,
+     "text": "results,",
+     "edge": "inside",
+     "t": 29.0,
+     "window": [
+      28.399,
+      29.779
+     ]
+    },
+    "track": {
+     "word_spoken": 100,
+     "text": "is",
+     "edge": "inside",
+     "t": 29.3,
+     "window": [
+      29.26,
+      30.379
+     ]
+    },
+    "keyC": {
+     "word_spoken": 106,
+     "text": "build",
+     "edge": "inside",
+     "t": 30.7,
+     "window": [
+      30.519,
+      31.979
+     ]
+    },
+    "num": {
+     "word_spoken": 108,
+     "text": "66%.",
+     "edge": "inside",
+     "t": 31.75,
+     "window": [
+      31.719,
+      33.34
+     ]
+    },
+    "_free": {
+     "erase0": {
+      "t": 4.55,
+      "chapter_out": 0,
+      "chapter_in": 1,
+      "last_outgoing_event_completes": 3.22,
+      "incoming_opener_at": 4.75,
+      "lap_s": 0.1,
+      "kind": "OPAQUE CREAM SHEET \u2014 rise 0.16 s, cover, carry on off the top 0.12 s.  The sheet is itself ink, so assert_zone_never_blank() holds across the handover (ROUND-2/3 LAW 1), and the incoming chapter's identifying object starts inside the wipe (LAW 45)"
+     },
+     "erase1": {
+      "t": 11.5,
+      "chapter_out": 1,
+      "chapter_in": 2,
+      "last_outgoing_event_completes": 9.5,
+      "incoming_opener_at": 11.7,
+      "lap_s": 0.1,
+      "kind": "OPAQUE CREAM SHEET \u2014 rise 0.16 s, cover, carry on off the top 0.12 s.  The sheet is itself ink, so assert_zone_never_blank() holds across the handover (ROUND-2/3 LAW 1), and the incoming chapter's identifying object starts inside the wipe (LAW 45)"
+     },
+     "erase2": {
+      "t": 21.6,
+      "chapter_out": 2,
+      "chapter_in": 3,
+      "last_outgoing_event_completes": 18.48,
+      "incoming_opener_at": 21.8,
+      "lap_s": 0.1,
+      "kind": "OPAQUE CREAM SHEET \u2014 rise 0.16 s, cover, carry on off the top 0.12 s.  The sheet is itself ink, so assert_zone_never_blank() holds across the handover (ROUND-2/3 LAW 1), and the incoming chapter's identifying object starts inside the wipe (LAW 45)"
+     },
+     "outro": {
+      "t": 32.639,
+      "last_board_event_completes": 31.95,
+      "clear_s": 0.69,
+      "sheet": {
+       "up": 32.639,
+       "d": 0.46,
+       "chip_in": 33.1,
+       "kind": "OPAQUE RISING SHEET, never a fade and never a scrim"
+      }
+     }
+    },
+    "_outro_clear": {
+     "t": 32.639,
+     "last_board_event_completes": 31.95,
+     "clear_s": 0.69,
+     "sheet": {
+      "up": 32.639,
+      "d": 0.46,
+      "chip_in": 33.1,
+      "kind": "OPAQUE RISING SHEET, never a fade and never a scrim"
+     }
+    }
+   },
+   "canvas_rects": {
+    "rects": {
+     "key-price": {
+      "scene_canvas": [
+       305.0,
+       286.0,
+       775.0,
+       344.0
+      ],
+      "dom_canvas": [
+       305.0,
+       286.0,
+       775.0,
+       344.0
+      ],
+      "max_delta_px": 0.0,
+      "plan_canvas": [
+       240,
+       286,
+       840,
+       344
+      ],
+      "plan_delta_px": 65.0
+     },
+     "kimi-tile": {
+      "scene_canvas": [
+       300.0,
+       422.0,
+       412.0,
+       534.0
+      ],
+      "dom_canvas": [
+       300.0,
+       422.0,
+       412.0,
+       534.0
+      ],
+      "max_delta_px": 0.0,
+      "plan_canvas": [
+       300,
+       428,
+       412,
+       540
+      ],
+      "plan_delta_px": 6.0
+     },
+     "fable-tile": {
+      "scene_canvas": [
+       668.0,
+       422.0,
+       780.0,
+       534.0
+      ],
+      "dom_canvas": [
+       668.0,
+       422.0,
+       780.0,
+       534.0
+      ],
+      "max_delta_px": 0.0,
+      "plan_canvas": [
+       668,
+       428,
+       780,
+       540
+      ],
+      "plan_delta_px": 6.0
+     },
+     "kimi-tag": {
+      "scene_canvas": [
+       226.0,
+       574.0,
+       486.0,
+       670.0
+      ],
+      "dom_canvas": [
+       226.0,
+       574.0,
+       486.0,
+       670.0
+      ],
+      "max_delta_px": 0.0,
+      "plan_canvas": [
+       268,
+       592,
+       444,
+       696
+      ],
+      "plan_delta_px": 42.0
+     },
+     "fable-tag": {
+      "scene_canvas": [
+       594.0,
+       574.0,
+       854.0,
+       670.0
+      ],
+      "dom_canvas": [
+       594.0,
+       574.0,
+       854.0,
+       670.0
+      ],
+      "max_delta_px": 0.0,
+      "plan_canvas": [
+       636,
+       592,
+       812,
+       752
+      ],
+      "plan_delta_px": 82.0
+     },
+     "kimi-coin": {
+      "scene_canvas": [
+       371.0,
+       605.0,
+       405.0,
+       639.0
+      ],
+      "dom_canvas": [
+       371.0,
+       605.0,
+       405.0,
+       639.0
+      ],
+      "max_delta_px": 0.0,
+      "plan_canvas": [
+       340,
+       628,
+       372,
+       660
+      ],
+      "plan_delta_px": 33.0
+     },
+     "scorecard": {
+      "scene_canvas": [
+       340.0,
+       316.0,
+       740.0,
+       632.0
+      ],
+      "dom_canvas": [
+       340.0,
+       316.0,
+       740.0,
+       632.0
+      ],
+      "max_delta_px": 0.0,
+      "plan_canvas": [
+       340,
+       320,
+       740,
+       600
+      ],
+      "plan_delta_px": 32.0
+     },
+     "score-head": {
+      "scene_canvas": [
+       376.0,
+       390.0,
+       704.0,
+       397.0
+      ],
+      "dom_canvas": [
+       376.0,
+       390.0,
+       704.0,
+       397.0
+      ],
+      "max_delta_px": 0.0,
+      "plan_canvas": [
+       372,
+       366,
+       708,
+       372
+      ],
+      "plan_delta_px": 25.0
+     },
+     "kimi-tile2": {
+      "scene_canvas": [
+       300.0,
+       292.0,
+       412.0,
+       404.0
+      ],
+      "dom_canvas": [
+       300.0,
+       292.0,
+       412.0,
+       404.0
+      ],
+      "max_delta_px": 0.0,
+      "plan_canvas": [
+       304,
+       300,
+       416,
+       412
+      ],
+      "plan_delta_px": 8.0
+     },
+     "design-window": {
+      "scene_canvas": [
+       212.0,
+       432.0,
+       500.0,
+       609.2
+      ],
+      "dom_canvas": [
+       212.0,
+       432.0,
+       500.0,
+       609.2
+      ],
+      "max_delta_px": 0.0,
+      "plan_canvas": [
+       220,
+       440,
+       500,
+       608
+      ],
+      "plan_delta_px": 8.0
+     },
+     "key-frontend": {
+      "scene_canvas": [
+       206.6,
+       644.0,
+       505.4,
+       688.0
+      ],
+      "dom_canvas": [
+       206.6,
+       644.0,
+       505.4,
+       688.0
+      ],
+      "max_delta_px": 0.0,
+      "plan_canvas": [
+       206,
+       634,
+       514,
+       678
+      ],
+      "plan_delta_px": 10.0
+     },
+     "fable-tile2": {
+      "scene_canvas": [
+       668.0,
+       292.0,
+       780.0,
+       404.0
+      ],
+      "dom_canvas": [
+       668.0,
+       292.0,
+       780.0,
+       404.0
+      ],
+      "max_delta_px": 0.0,
+      "plan_canvas": [
+       664,
+       300,
+       776,
+       412
+      ],
+      "plan_delta_px": 8.0
+     },
+     "bar-base": {
+      "scene_canvas": [
+       588.0,
+       609.2,
+       860.0,
+       615.2
+      ],
+      "dom_canvas": [
+       588.0,
+       609.2,
+       860.0,
+       615.2
+      ],
+      "max_delta_px": 0.0,
+      "plan_canvas": [
+       584,
+       608,
+       856,
+       614
+      ],
+      "plan_delta_px": 4.0
+     },
+     "bar-a": {
+      "scene_canvas": [
+       596.0,
+       545.2,
+       648.0,
+       609.2
+      ],
+      "dom_canvas": [
+       596.0,
+       545.2,
+       648.0,
+       609.2
+      ],
+      "max_delta_px": 0.0,
+      "plan_canvas": [
+       592,
+       548,
+       644,
+       608
+      ],
+      "plan_delta_px": 4.0
+     },
+     "bar-fable": {
+      "scene_canvas": [
+       698.0,
+       432.0,
+       750.0,
+       609.2
+      ],
+      "dom_canvas": [
+       698.0,
+       432.0,
+       750.0,
+       609.2
+      ],
+      "max_delta_px": 0.0,
+      "plan_canvas": [
+       694,
+       440,
+       746,
+       608
+      ],
+      "plan_delta_px": 8.0
+     },
+     "bar-c": {
+      "scene_canvas": [
+       800.0,
+       507.2,
+       852.0,
+       609.2
+      ],
+      "dom_canvas": [
+       800.0,
+       507.2,
+       852.0,
+       609.2
+      ],
+      "max_delta_px": 0.0,
+      "plan_canvas": [
+       796,
+       516,
+       848,
+       608
+      ],
+      "plan_delta_px": 8.8
+     },
+     "key-expensive": {
+      "scene_canvas": [
+       574.6,
+       644.0,
+       873.4,
+       688.0
+      ],
+      "dom_canvas": [
+       574.6,
+       644.0,
+       873.4,
+       688.0
+      ],
+      "max_delta_px": 0.0,
+      "plan_canvas": [
+       594,
+       634,
+       846,
+       678
+      ],
+      "plan_delta_px": 27.4
+     },
+     "sheet-stack": {
+      "scene_canvas": [
+       206.0,
+       312.0,
+       494.0,
+       512.0
+      ],
+      "dom_canvas": [
+       206.0,
+       312.0,
+       494.0,
+       512.0
+      ],
+      "max_delta_px": 0.0,
+      "plan_canvas": [
+       200,
+       300,
+       424,
+       452
+      ],
+      "plan_delta_px": 70.0
+     },
+     "key-designs": {
+      "scene_canvas": [
+       236.6,
+       544.0,
+       463.4,
+       588.0
+      ],
+      "dom_canvas": [
+       236.6,
+       544.0,
+       463.4,
+       588.0
+      ],
+      "max_delta_px": 0.0,
+      "plan_canvas": [
+       210,
+       478,
+       390,
+       522
+      ],
+      "plan_delta_px": 73.4
+     },
+     "kimi-tile3": {
+      "scene_canvas": [
+       548.0,
+       318.0,
+       660.0,
+       430.0
+      ],
+      "dom_canvas": [
+       548.0,
+       318.0,
+       660.0,
+       430.0
+      ],
+      "max_delta_px": 0.0,
+      "plan_canvas": [
+       548,
+       318,
+       660,
+       430
+      ],
+      "plan_delta_px": 0.0
+     },
+     "equals": {
+      "scene_canvas": [
+       688.0,
+       358.0,
+       736.0,
+       390.0
+      ],
+      "dom_canvas": [
+       688.0,
+       358.0,
+       736.0,
+       390.0
+      ],
+      "max_delta_px": 0.0,
+      "plan_canvas": [
+       688,
+       358,
+       736,
+       390
+      ],
+      "plan_delta_px": 0.0
+     },
+     "fable-tile3": {
+      "scene_canvas": [
+       764.0,
+       318.0,
+       876.0,
+       430.0
+      ],
+      "dom_canvas": [
+       764.0,
+       318.0,
+       876.0,
+       430.0
+      ],
+      "max_delta_px": 0.0,
+      "plan_canvas": [
+       764,
+       318,
+       876,
+       430
+      ],
+      "plan_delta_px": 0.0
+     },
+     "key-similar": {
+      "scene_canvas": [
+       571.6,
+       462.0,
+       852.4,
+       506.0
+      ],
+      "dom_canvas": [
+       571.6,
+       462.0,
+       852.4,
+       506.0
+      ],
+      "max_delta_px": 0.0,
+      "plan_canvas": [
+       600,
+       462,
+       824,
+       506
+      ],
+      "plan_delta_px": 28.4
+     },
+     "build-track": {
+      "scene_canvas": [
+       200.0,
+       616.0,
+       880.0,
+       676.0
+      ],
+      "dom_canvas": [
+       200.0,
+       616.0,
+       880.0,
+       676.0
+      ],
+      "max_delta_px": 0.0,
+      "plan_canvas": [
+       200,
+       566,
+       880,
+       626
+      ],
+      "plan_delta_px": 50.0
+     },
+     "key-build": {
+      "scene_canvas": [
+       444.6,
+       702.0,
+       635.4,
+       746.0
+      ],
+      "dom_canvas": [
+       444.6,
+       702.0,
+       635.4,
+       746.0
+      ],
+      "max_delta_px": 0.0,
+      "plan_canvas": [
+       432,
+       652,
+       648,
+       696
+      ],
+      "plan_delta_px": 50.0
+     },
+     "num-66": {
+      "scene_canvas": [
+       554.0,
+       622.0,
+       754.0,
+       670.0
+      ],
+      "dom_canvas": [
+       554.0,
+       622.0,
+       754.0,
+       670.0
+      ],
+      "max_delta_px": 0.0,
+      "plan_canvas": [
+       572,
+       578,
+       736,
+       614
+      ],
+      "plan_delta_px": 56.0
+     },
+     "key-bench": {
+      "scene_canvas": [
+       417.6,
+       658.0,
+       662.4,
+       702.0
+      ],
+      "dom_canvas": [
+       417.6,
+       658.0,
+       662.4,
+       702.0
+      ],
+      "max_delta_px": 0.0,
+      "plan_canvas": [
+       396,
+       626,
+       684,
+       670
+      ],
+      "plan_delta_px": 32.0
+     },
+     "fable-coin-1": {
+      "scene_canvas": [
+       697.0,
+       605.0,
+       731.0,
+       639.0
+      ],
+      "dom_canvas": [
+       697.0,
+       605.0,
+       731.0,
+       639.0
+      ],
+      "max_delta_px": 0.0,
+      "plan_canvas": [
+       708,
+       616,
+       740,
+       648
+      ],
+      "plan_delta_px": 11.0
+     },
+     "fable-coin-2": {
+      "scene_canvas": [
+       739.0,
+       605.0,
+       773.0,
+       639.0
+      ],
+      "dom_canvas": [
+       739.0,
+       605.0,
+       773.0,
+       639.0
+      ],
+      "max_delta_px": 0.0,
+      "plan_canvas": [
+       708,
+       656,
+       740,
+       688
+      ],
+      "plan_delta_px": 51.0
+     },
+     "fable-coin-3": {
+      "scene_canvas": [
+       781.0,
+       605.0,
+       815.0,
+       639.0
+      ],
+      "dom_canvas": [
+       781.0,
+       605.0,
+       815.0,
+       639.0
+      ],
+      "max_delta_px": 0.0,
+      "plan_canvas": [
+       708,
+       696,
+       740,
+       728
+      ],
+      "plan_delta_px": 91.0
+     },
+     "score-bar-1": {
+      "scene_canvas": [
+       376.0,
+       442.0,
+       622.0,
+       474.0
+      ],
+      "nested_in": [
+       "score-row",
+       [
+        376.0,
+        250.0
+       ]
+      ],
+      "dom_canvas": [
+       376.0,
+       442.0,
+       622.0,
+       474.0
+      ],
+      "max_delta_px": 0.0,
+      "plan_canvas": [
+       372,
+       412,
+       624,
+       440
+      ],
+      "plan_delta_px": 34.0
+     },
+     "score-bar-2": {
+      "scene_canvas": [
+       376.0,
+       506.0,
+       512.0,
+       538.0
+      ],
+      "nested_in": [
+       "score-row",
+       [
+        376.0,
+        314.0
+       ]
+      ],
+      "dom_canvas": [
+       376.0,
+       506.0,
+       512.0,
+       538.0
+      ],
+      "max_delta_px": 0.0,
+      "plan_canvas": [
+       372,
+       472,
+       512,
+       500
+      ],
+      "plan_delta_px": 38.0
+     },
+     "score-bar-3": {
+      "scene_canvas": [
+       376.0,
+       570.0,
+       594.0,
+       602.0
+      ],
+      "nested_in": [
+       "score-row",
+       [
+        376.0,
+        378.0
+       ]
+      ],
+      "dom_canvas": [
+       376.0,
+       570.0,
+       594.0,
+       602.0
+      ],
+      "max_delta_px": 0.0,
+      "plan_canvas": [
+       372,
+       532,
+       596,
+       560
+      ],
+      "plan_delta_px": 42.0
+     }
+    },
+    "deviations_from_plan": [
+     {
+      "id": "key-price",
+      "plan": [
+       240,
+       286,
+       840,
+       344
+      ],
+      "built": [
+       305.0,
+       286.0,
+       775.0,
+       344.0
+      ],
+      "delta_px": 65.0
+     },
+     {
+      "id": "kimi-tile",
+      "plan": [
+       300,
+       428,
+       412,
+       540
+      ],
+      "built": [
+       300.0,
+       422.0,
+       412.0,
+       534.0
+      ],
+      "delta_px": 6.0
+     },
+     {
+      "id": "fable-tile",
+      "plan": [
+       668,
+       428,
+       780,
+       540
+      ],
+      "built": [
+       668.0,
+       422.0,
+       780.0,
+       534.0
+      ],
+      "delta_px": 6.0
+     },
+     {
+      "id": "kimi-tag",
+      "plan": [
+       268,
+       592,
+       444,
+       696
+      ],
+      "built": [
+       226.0,
+       574.0,
+       486.0,
+       670.0
+      ],
+      "delta_px": 42.0
+     },
+     {
+      "id": "fable-tag",
+      "plan": [
+       636,
+       592,
+       812,
+       752
+      ],
+      "built": [
+       594.0,
+       574.0,
+       854.0,
+       670.0
+      ],
+      "delta_px": 82.0
+     },
+     {
+      "id": "kimi-coin",
+      "plan": [
+       340,
+       628,
+       372,
+       660
+      ],
+      "built": [
+       371.0,
+       605.0,
+       405.0,
+       639.0
+      ],
+      "delta_px": 33.0
+     },
+     {
+      "id": "scorecard",
+      "plan": [
+       340,
+       320,
+       740,
+       600
+      ],
+      "built": [
+       340.0,
+       316.0,
+       740.0,
+       632.0
+      ],
+      "delta_px": 32.0
+     },
+     {
+      "id": "score-head",
+      "plan": [
+       372,
+       366,
+       708,
+       372
+      ],
+      "built": [
+       376.0,
+       390.0,
+       704.0,
+       397.0
+      ],
+      "delta_px": 25.0
+     },
+     {
+      "id": "kimi-tile2",
+      "plan": [
+       304,
+       300,
+       416,
+       412
+      ],
+      "built": [
+       300.0,
+       292.0,
+       412.0,
+       404.0
+      ],
+      "delta_px": 8.0
+     },
+     {
+      "id": "design-window",
+      "plan": [
+       220,
+       440,
+       500,
+       608
+      ],
+      "built": [
+       212.0,
+       432.0,
+       500.0,
+       609.2
+      ],
+      "delta_px": 8.0
+     },
+     {
+      "id": "key-frontend",
+      "plan": [
+       206,
+       634,
+       514,
+       678
+      ],
+      "built": [
+       206.6,
+       644.0,
+       505.4,
+       688.0
+      ],
+      "delta_px": 10.0
+     },
+     {
+      "id": "fable-tile2",
+      "plan": [
+       664,
+       300,
+       776,
+       412
+      ],
+      "built": [
+       668.0,
+       292.0,
+       780.0,
+       404.0
+      ],
+      "delta_px": 8.0
+     },
+     {
+      "id": "bar-base",
+      "plan": [
+       584,
+       608,
+       856,
+       614
+      ],
+      "built": [
+       588.0,
+       609.2,
+       860.0,
+       615.2
+      ],
+      "delta_px": 4.0
+     },
+     {
+      "id": "bar-a",
+      "plan": [
+       592,
+       548,
+       644,
+       608
+      ],
+      "built": [
+       596.0,
+       545.2,
+       648.0,
+       609.2
+      ],
+      "delta_px": 4.0
+     },
+     {
+      "id": "bar-fable",
+      "plan": [
+       694,
+       440,
+       746,
+       608
+      ],
+      "built": [
+       698.0,
+       432.0,
+       750.0,
+       609.2
+      ],
+      "delta_px": 8.0
+     },
+     {
+      "id": "bar-c",
+      "plan": [
+       796,
+       516,
+       848,
+       608
+      ],
+      "built": [
+       800.0,
+       507.2,
+       852.0,
+       609.2
+      ],
+      "delta_px": 8.8
+     },
+     {
+      "id": "key-expensive",
+      "plan": [
+       594,
+       634,
+       846,
+       678
+      ],
+      "built": [
+       574.6,
+       644.0,
+       873.4,
+       688.0
+      ],
+      "delta_px": 27.4
+     },
+     {
+      "id": "sheet-stack",
+      "plan": [
+       200,
+       300,
+       424,
+       452
+      ],
+      "built": [
+       206.0,
+       312.0,
+       494.0,
+       512.0
+      ],
+      "delta_px": 70.0
+     },
+     {
+      "id": "key-designs",
+      "plan": [
+       210,
+       478,
+       390,
+       522
+      ],
+      "built": [
+       236.6,
+       544.0,
+       463.4,
+       588.0
+      ],
+      "delta_px": 73.4
+     },
+     {
+      "id": "key-similar",
+      "plan": [
+       600,
+       462,
+       824,
+       506
+      ],
+      "built": [
+       571.6,
+       462.0,
+       852.4,
+       506.0
+      ],
+      "delta_px": 28.4
+     },
+     {
+      "id": "build-track",
+      "plan": [
+       200,
+       566,
+       880,
+       626
+      ],
+      "built": [
+       200.0,
+       616.0,
+       880.0,
+       676.0
+      ],
+      "delta_px": 50.0
+     },
+     {
+      "id": "key-build",
+      "plan": [
+       432,
+       652,
+       648,
+       696
+      ],
+      "built": [
+       444.6,
+       702.0,
+       635.4,
+       746.0
+      ],
+      "delta_px": 50.0
+     },
+     {
+      "id": "num-66",
+      "plan": [
+       572,
+       578,
+       736,
+       614
+      ],
+      "built": [
+       554.0,
+       622.0,
+       754.0,
+       670.0
+      ],
+      "delta_px": 56.0
+     },
+     {
+      "id": "key-bench",
+      "plan": [
+       396,
+       626,
+       684,
+       670
+      ],
+      "built": [
+       417.6,
+       658.0,
+       662.4,
+       702.0
+      ],
+      "delta_px": 32.0
+     },
+     {
+      "id": "fable-coin-1",
+      "plan": [
+       708,
+       616,
+       740,
+       648
+      ],
+      "built": [
+       697.0,
+       605.0,
+       731.0,
+       639.0
+      ],
+      "delta_px": 11.0
+     },
+     {
+      "id": "fable-coin-2",
+      "plan": [
+       708,
+       656,
+       740,
+       688
+      ],
+      "built": [
+       739.0,
+       605.0,
+       773.0,
+       639.0
+      ],
+      "delta_px": 51.0
+     },
+     {
+      "id": "fable-coin-3",
+      "plan": [
+       708,
+       696,
+       740,
+       728
+      ],
+      "built": [
+       781.0,
+       605.0,
+       815.0,
+       639.0
+      ],
+      "delta_px": 91.0
+     },
+     {
+      "id": "score-bar-1",
+      "plan": [
+       372,
+       412,
+       624,
+       440
+      ],
+      "built": [
+       376.0,
+       442.0,
+       622.0,
+       474.0
+      ],
+      "delta_px": 34.0
+     },
+     {
+      "id": "score-bar-2",
+      "plan": [
+       372,
+       472,
+       512,
+       500
+      ],
+      "built": [
+       376.0,
+       506.0,
+       512.0,
+       538.0
+      ],
+      "delta_px": 38.0
+     },
+     {
+      "id": "score-bar-3",
+      "plan": [
+       372,
+       532,
+       596,
+       560
+      ],
+      "built": [
+       376.0,
+       570.0,
+       594.0,
+       602.0
+      ],
+      "delta_px": 42.0
+     }
+    ],
+    "deviation_reason": "The plan's canvas_rects predate the ARTWORK author's approved scale rebuild: the draft's own numbers put the hook object on a phone at 66x39 px, under every crop that has ever passed a cold read in this factory, and the plan's own amendment records the rebuild (`plan.amendments[0].scale_note`).  The SEALED module is the geometry that was cold-read three times and passed, so the module wins and every delta is recorded here and in plans/kimifable_split_notes.md."
+   },
+   "scene_self_check": {
+    "connectors": 0,
+    "chapters": [
+     {
+      "i": 0,
+      "tightest_non_block_gutter_px": 78.0,
+      "tightest_pair": [
+       "fable-tile",
+       "key-price"
+      ],
+      "ink_x": [
+       226.0,
+       854.0
+      ],
+      "ink_y": [
+       94.0,
+       478.0
+      ],
+      "axis_err_px": 0.0,
+      "at_cutout_k095": 74.1
+     },
+     {
+      "i": 1,
+      "tightest_non_block_gutter_px": null,
+      "tightest_pair": null,
+      "ink_x": [
+       340.0,
+       740.0
+      ],
+      "ink_y": [
+       124.0,
+       510.0
+      ],
+      "axis_err_px": 0.0,
+      "at_cutout_k095": null
+     },
+     {
+      "i": 2,
+      "tightest_non_block_gutter_px": 28.0,
+      "tightest_pair": [
+       "bar-fable",
+       "fable-tile2"
+      ],
+      "ink_x": [
+       206.6,
+       873.4
+      ],
+      "ink_y": [
+       100.0,
+       496.0
+      ],
+      "axis_err_px": 0.0,
+      "at_cutout_k095": 26.6
+     },
+     {
+      "i": 3,
+      "tightest_non_block_gutter_px": 28.0,
+      "tightest_pair": [
+       "build-track",
+       "key-designs"
+      ],
+      "ink_x": [
+       200.0,
+       880.0
+      ],
+      "ink_y": [
+       120.0,
+       554.0
+      ],
+      "axis_err_px": 0.0,
+      "at_cutout_k095": 26.6
+     }
+    ],
+    "content_band_canvas": [
+     286.0,
+     746.0
+    ]
+   },
+   "transcript": {
+    "partials_dropped": [],
+    "law47_tail_s": 0.161,
+    "law47_cap_s": 0.24,
+    "law46": "the opening key 'Kimi K3 just beat' occurs once, at word 0 / 0.079 s; no restart anywhere in the take",
+    "take_corroboration": {
+     "marker": "bound",
+     "gap": "DISAGREES",
+     "witnessed": true,
+     "allow_uncorroborated": false,
+     "raw_word_index": 118,
+     "raw_start_s": 93.2,
+     "words": 138,
+     "of_raw_words": 256,
+     "openings": 8,
+     "note": "the GAP witness DISAGREES with the marker witness; the cut gate (review/agent_done_gate_cut_kimifable.json) passed the take with status ok, override_used false, and the tight transcript reads as one clean 138-word take with no restart and no partial word.  Recorded, not hidden."
+    },
+    "words": 138,
+    "function_word_merges": 0,
+    "beats_before_merge": 38,
+    "board_keys_forbidden_at_split": [
+     "build cost",
+     "build cost!",
+     "build cost,",
+     "build cost.",
+     "build cost?",
+     "front-end design",
+     "front-end design!",
+     "front-end design,",
+     "front-end design.",
+     "front-end design?",
+     "most expensive",
+     "most expensive!",
+     "most expensive,",
+     "most expensive.",
+     "most expensive?",
+     "one benchmark",
+     "one benchmark!",
+     "one benchmark,",
+     "one benchmark.",
+     "one benchmark?",
+     "price per token",
+     "price per token!",
+     "price per token,",
+     "price per token.",
+     "price per token?",
+     "similar results",
+     "similar results!",
+     "similar results,",
+     "similar results.",
+     "similar results?",
+     "your designs",
+     "your designs!",
+     "your designs,",
+     "your designs.",
+     "your designs?"
+    ],
+    "board_key_echo_repairs": [],
+    "caption_echoes_not_overlapping": [],
+    "min_pill_aspect": 1.642
+   },
+   "phone_test_objects": [
+    {
+     "name": "a price tag",
+     "t": 3.0,
+     "space": "norm",
+     "bbox": [
+      0.19074,
+      0.28854,
+      0.46852,
+      0.35938
+     ],
+     "phone_px": [
+      112,
+      51
+     ]
+    },
+    {
+     "name": "a benchmark scorecard",
+     "t": 10.0,
+     "space": "norm",
+     "bbox": [
+      0.2963,
+      0.15417,
+      0.7037,
+      0.33958
+     ],
+     "phone_px": [
+      165,
+      134
+     ]
+    },
+    {
+     "name": "a website layout",
+     "t": 15.6,
+     "space": "norm",
+     "bbox": [
+      0.17778,
+      0.21458,
+      0.48148,
+      0.32771
+     ],
+     "phone_px": [
+      123,
+      81
+     ]
+    },
+    {
+     "name": "a folder of designs",
+     "t": 24.6,
+     "space": "norm",
+     "bbox": [
+      0.17222,
+      0.15208,
+      0.47593,
+      0.27708
+     ],
+     "phone_px": [
+      123,
+      90
+     ]
+    }
+   ],
+   "phone_test_vs_plan": {
+    "objects": [
+     {
+      "name": "a price tag",
+      "plan_t": 3.0,
+      "built_t": 3.0,
+      "plan_bbox": [
+       0.2481,
+       0.2646,
+       0.4111,
+       0.3625
+      ],
+      "built_bbox": [
+       0.19074,
+       0.28854,
+       0.46852,
+       0.35938
+      ],
+      "plan_phone_px": [
+       66,
+       70
+      ],
+      "built_phone_px": [
+       112,
+       51
+      ],
+      "max_delta_px": 62.01,
+      "plan_index": 0,
+      "scene_index": 0
+     },
+     {
+      "name": "a benchmark scorecard",
+      "plan_t": 10.0,
+      "built_t": 10.0,
+      "plan_bbox": [
+       0.3148,
+       0.1667,
+       0.6852,
+       0.3125
+      ],
+      "built_bbox": [
+       0.2963,
+       0.15417,
+       0.7037,
+       0.33958
+      ],
+      "plan_phone_px": [
+       150,
+       105
+      ],
+      "built_phone_px": [
+       165,
+       134
+      ],
+      "max_delta_px": 51.99,
+      "plan_index": 2,
+      "scene_index": 1
+     },
+     {
+      "name": "a website layout",
+      "plan_t": 15.6,
+      "built_t": 15.6,
+      "plan_bbox": [
+       0.2037,
+       0.2292,
+       0.463,
+       0.3167
+      ],
+      "built_bbox": [
+       0.17778,
+       0.21458,
+       0.48148,
+       0.32771
+      ],
+      "plan_phone_px": [
+       105,
+       63
+      ],
+      "built_phone_px": [
+       123,
+       81
+      ],
+      "max_delta_px": 28.07,
+      "plan_index": 1,
+      "scene_index": 2
+     },
+     {
+      "name": "a folder of designs",
+      "plan_t": 24.6,
+      "built_t": 24.6,
+      "plan_bbox": [
+       0.1852,
+       0.1563,
+       0.3926,
+       0.2354
+      ],
+      "built_bbox": [
+       0.17222,
+       0.15208,
+       0.47593,
+       0.27708
+      ],
+      "plan_phone_px": [
+       84,
+       57
+      ],
+      "built_phone_px": [
+       123,
+       90
+      ],
+      "max_delta_px": 90.0,
+      "plan_index": 3,
+      "scene_index": 3
+     }
+    ],
+    "source_used_for_the_phone_test": "--geom",
+    "why": "the plan's bboxes and t values predate the artwork author's approved scale rebuild and the held-instant rule, and the two lists are ordered differently; phone_test_page's precedence is --at > --plan > --geom, so passing --plan would silently crop stale geometry at entrance-completion instants"
+   },
+   "render": {
+    "w": 1080,
+    "h": 1920,
+    "zoom": 1
+   },
+   "handle_key": "yt",
+   "handle": "@migueltorrezai",
+   "captions": {
+    "n": 38,
+    "widest_px": 751.7,
+    "font_px": 56.2,
+    "pill_height_px": 114.59,
+    "sizes": 1,
+    "function_word_merges": 0,
+    "texts": [
+     "Kimi K3 just beat Fable 5",
+     "at a third of the price.",
+     "Now,",
+     "this was for one",
+     "specific benchmark,",
+     "and you have",
+     "to remember",
+     "that AI models have",
+     "very specific domains for",
+     "which they are better.",
+     "Now,",
+     "in this case,",
+     "Kimi",
+     "K3 is fantastic",
+     "as front-end design,",
+     "and you have",
+     "to remember",
+     "that Fable is the most",
+     "expensive model that you",
+     "can have in terms of price",
+     "per token.",
+     "So if you're",
+     "someone who is",
+     "running a lot of designs,",
+     "using Kimi",
+     "K3 is now a completely",
+     "viable option that is",
+     "not only going to get",
+     "you similar results,",
+     "but is also going",
+     "to cut your build by",
+     "66%.",
+     "Now follow for more AI",
+     "news videos and tutorials",
+     "on how you can set all",
+     "of this up each and",
+     "every single day.",
+     "See you in the next one."
+    ],
+    "aspects": [
+     6.42,
+     5.64,
+     1.77,
+     4.32,
+     5.16,
+     3.65,
+     3.59,
+     5.27,
+     6.36,
+     5.67,
+     1.77,
+     3.3,
+     1.64,
+     3.9,
+     5.29,
+     3.65,
+     3.59,
+     5.68,
+     6.56,
+     6.53,
+     2.94,
+     3.21,
+     4.32,
+     6.23,
+     3.03,
+     5.98,
+     5.24,
+     5.48,
+     4.99,
+     4.44,
+     5.11,
+     1.77,
+     6.09,
+     6.55,
+     5.79,
+     5.0,
+     4.46,
+     6.16
+    ],
+    "min_aspect": 1.64
+   }
+  }
+ }
+}

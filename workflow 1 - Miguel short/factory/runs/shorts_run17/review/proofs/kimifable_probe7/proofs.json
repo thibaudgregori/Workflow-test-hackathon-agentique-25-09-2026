@@ -1,0 +1,101 @@
+{
+  "tag": "kimifable_probe7",
+  "phone": [
+    405,
+    720
+  ],
+  "objects": [
+    {
+      "i": 0,
+      "intended": "a price tag",
+      "t": 3.0,
+      "chapter": 0,
+      "core": [
+        206.0,
+        362.0,
+        506.0,
+        498.0
+      ],
+      "phone_box": [
+        77,
+        208,
+        190,
+        259
+      ],
+      "phone_px": [
+        113,
+        51
+      ],
+      "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/proofs/kimifable_probe7/00.png"
+    },
+    {
+      "i": 1,
+      "intended": "a benchmark scorecard",
+      "t": 10.0,
+      "chapter": 1,
+      "core": [
+        320.0,
+        104.0,
+        760.0,
+        460.0
+      ],
+      "phone_box": [
+        120,
+        111,
+        285,
+        244
+      ],
+      "phone_px": [
+        165,
+        133
+      ],
+      "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/proofs/kimifable_probe7/01.png"
+    },
+    {
+      "i": 2,
+      "intended": "a website layout",
+      "t": 15.6,
+      "chapter": 2,
+      "core": [
+        192.0,
+        220.0,
+        520.0,
+        437.2
+      ],
+      "phone_box": [
+        72,
+        154,
+        195,
+        236
+      ],
+      "phone_px": [
+        123,
+        82
+      ],
+      "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/proofs/kimifable_probe7/02.png"
+    },
+    {
+      "i": 3,
+      "intended": "a browser window of designs",
+      "t": 24.6,
+      "chapter": 3,
+      "core": [
+        186.0,
+        100.0,
+        514.0,
+        317.2
+      ],
+      "phone_box": [
+        70,
+        110,
+        193,
+        191
+      ],
+      "phone_px": [
+        123,
+        81
+      ],
+      "crop": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/proofs/kimifable_probe7/03.png"
+    }
+  ]
+}

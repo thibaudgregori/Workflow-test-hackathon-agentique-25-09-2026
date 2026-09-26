@@ -1,0 +1,16 @@
+{
+  "verdict": "PASS",
+  "vid": "aieducation",
+  "objects": 4,
+  "seal_rounds": 3,
+  "module": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/gen/aieducation_scene.py",
+  "handoff": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/plans/aieducation_scene_handoff.md",
+  "evidence": {
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/gen/aieducation_scene.py": "a312b10a98f3591b51aa2fa6f328efbd318383b434e99d076d8013e9df8dd67f",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/plans/aieducation_scene_handoff.md": "11de9368ba820a45b159da6528cbb87f86bb26a83245b8a8251329e6de251bd5",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/review/phone_reader_aieducation_artwork_merged_r1.json": "997a80344e55c3314e6ff6202d683a56b5b4f4f1d88c2051132cb9767a5851ea",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/review/phone_reader_aieducation_artwork_merged_r2.json": "6c6ef6ab7c9ac061c1c07a7bdf91db10255020e9ff46c927131b469f53a15f1d",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/review/phone_reader_aieducation_artwork_merged_r3.json": "4696c08b97069972086a196830436accfc81f860e22ee584062e3de3c95db447",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/review/artwork_scores_aieducation.json": "81bd094c2f13c675615927f1825765bf73d1a4f548105306966a44853ee85a67"
+  }
+}

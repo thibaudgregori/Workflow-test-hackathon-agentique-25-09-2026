@@ -1,0 +1,16 @@
+{
+ "staged": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/staging/tiktok/cursorworkspace_cutout.mp4",
+ "phone_verdict": "PASS",
+ "blocked": "",
+ "rounds": 4,
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/projects/cursorworkspace_cutout",
+ "redesigned": false,
+ "cands": "MISSING - the Gemini watcher exited 1 on an ACCOUNT-LEVEL 429 RESOURCE_EXHAUSTED (monthly spending cap); no cands_*.json exists for any video in shorts_run17. render_and_check recorded watch_unavailable and staged on qc_pass alone, which is its own rule. No watch_waiver was written because there was no candidate to waive. Written up in review/watcher_unavailable_cursorworkspace_cutout.md.",
+ "cold_crop_paths": [
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/e6af21aa/00.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/e6af21aa/01.png"
+ ],
+ "fails": [],
+ "flagged_for_clerk": "1) The Gemini watcher never ran (spending cap), so there is no candidate list to adjudicate; qc_pass's own gate3_gemini_describe is REPORTED for the same reason. Everything else in qc_pass is PASS. 2) Object 1 ('a settings panel') was named 'toggle switch' by every reader in every round of every model, but only 2 of the 4 consensus reads were 'sure'; all hedges are the configured default model, which the artwork seal proved hedges on UI mocks as a class via a control crop. The sealed module was NOT redrawn - reasoning in plans/cursorworkspace_cutout_notes.md section 3. 3) No pop-behind: every tool this take names is a stage subject mark, so cutout law 16 has no legal beat here; the plan declares no window.",
+ "report": "cutout built, phone-passed and staged."
+}

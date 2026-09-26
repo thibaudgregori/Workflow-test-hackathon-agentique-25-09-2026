@@ -1,0 +1,229 @@
+{
+ "__typename": "Tweet",
+ "favorite_count": 6008,
+ "lang": "en",
+ "created_at": "2026-08-02T15:13:56.000Z",
+ "display_text_range": [
+  0,
+  50
+ ],
+ "entities": {},
+ "id_str": "2083934330146197989",
+ "text": "chatgpt for building interactive educational tools",
+ "user": {
+  "id_str": "162124540",
+  "name": "Greg Brockman",
+  "screen_name": "gdb",
+  "is_blue_verified": true,
+  "profile_image_shape": "Circle",
+  "verified": false,
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1347621377503711233/bHg3ipfD_normal.jpg",
+  "highlighted_label": {
+   "badge": {
+    "url": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_bigger.jpg"
+   },
+   "description": "OpenAI",
+   "url": {
+    "url": "https://twitter.com/OpenAI",
+    "url_type": "DeepLink"
+   },
+   "user_label_display_type": "Badge",
+   "user_label_type": "BusinessLabel"
+  }
+ },
+ "edit_control": {
+  "edit_tweet_ids": [
+   "2083934330146197989"
+  ],
+  "editable_until_msecs": "1785687236000",
+  "edits_remaining": "5",
+  "is_edit_eligible": true
+ },
+ "conversation_count": 201,
+ "news_action_type": "conversation",
+ "quoted_tweet": {
+  "favorite_count": 11968,
+  "lang": "en",
+  "possibly_sensitive": false,
+  "reply_count": 613,
+  "retweet_count": 1554,
+  "created_at": "2026-08-02T11:57:21.000Z",
+  "display_text_range": [
+   0,
+   283
+  ],
+  "entities": {
+   "media": [
+    {
+     "display_url": "pic.x.com/vuevYA24Sn",
+     "expanded_url": "https://x.com/thebuggeddev/status/2083884856531177942/video/1",
+     "indices": [
+      283,
+      306
+     ],
+     "url": "https://t.co/vuevYA24Sn"
+    }
+   ],
+   "user_mentions": [
+    {
+     "id_str": "1155898067339501569",
+     "indices": [
+      196,
+      204
+     ],
+     "name": "Three.js",
+     "screen_name": "threejs"
+    }
+   ]
+  },
+  "id_str": "2083884856531177942",
+  "text": "Only if education could be this interactive \u2764\ufe0f\u200d\ud83d\udd25\n\nI've had a looong wish to build something genuinely useful through vibe coding, and I finally did it. \n\nA 3D human anatomy application built with @threejs using GPT 5.6 Sol. \n\nIt all started with a single design image that I created https://t.co/vuevYA24Sn",
+  "user": {
+   "id_str": "1881626824188612608",
+   "name": "The Bugged Dev",
+   "screen_name": "thebuggeddev",
+   "is_blue_verified": true,
+   "profile_image_shape": "Circle",
+   "verified": false,
+   "profile_image_url_https": "https://pbs.twimg.com/profile_images/1956770434260910080/xVO3sbPP_normal.jpg"
+  },
+  "edit_control": {
+   "edit_tweet_ids": [
+    "2083884856531177942"
+   ],
+   "editable_until_msecs": "1785675441000",
+   "edits_remaining": "5",
+   "is_edit_eligible": true
+  },
+  "mediaDetails": [
+   {
+    "additional_media_info": {},
+    "display_url": "pic.x.com/vuevYA24Sn",
+    "expanded_url": "https://x.com/thebuggeddev/status/2083884856531177942/video/1",
+    "ext_media_availability": {
+     "status": "Available"
+    },
+    "indices": [
+     283,
+     306
+    ],
+    "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2083879977976733697/img/yodeFffWmW1O2Jol.jpg",
+    "original_info": {
+     "focus_rects": [],
+     "height": 1842,
+     "width": 2940
+    },
+    "sizes": {
+     "large": {
+      "h": 1283,
+      "resize": "fit",
+      "w": 2048
+     },
+     "medium": {
+      "h": 752,
+      "resize": "fit",
+      "w": 1200
+     },
+     "small": {
+      "h": 426,
+      "resize": "fit",
+      "w": 680
+     },
+     "thumb": {
+      "h": 150,
+      "resize": "crop",
+      "w": 150
+     }
+    },
+    "type": "video",
+    "url": "https://t.co/vuevYA24Sn",
+    "video_info": {
+     "aspect_ratio": [
+      490,
+      307
+     ],
+     "duration_millis": 43325,
+     "variants": [
+      {
+       "content_type": "application/x-mpegURL",
+       "url": "https://video.twimg.com/amplify_video/2083879977976733697/pl/869DgOd7tYUV_psv.m3u8"
+      },
+      {
+       "bitrate": 256000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2083879977976733697/vid/avc1/430x270/td3kaCe1m6RSYGVe.mp4"
+      },
+      {
+       "bitrate": 832000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2083879977976733697/vid/avc1/574x360/YifuNrSOYmkUhlVp.mp4"
+      },
+      {
+       "bitrate": 2176000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2083879977976733697/vid/avc1/1148x720/Ve9Nv-ueULF9JsW_.mp4"
+      },
+      {
+       "bitrate": 10368000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2083879977976733697/vid/avc1/1722x1080/RtXcpZoTdesyPSzu.mp4"
+      },
+      {
+       "bitrate": 25128000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2083879977976733697/vid/avc1/2940x1842/ewCNR0ByLxtDpmoy.mp4"
+      }
+     ]
+    }
+   }
+  ],
+  "photos": [],
+  "video": {
+   "aspectRatio": [
+    490,
+    307
+   ],
+   "contentType": "media_entity",
+   "durationMs": 43325,
+   "mediaAvailability": {
+    "status": "available"
+   },
+   "poster": "https://pbs.twimg.com/amplify_video_thumb/2083879977976733697/img/yodeFffWmW1O2Jol.jpg",
+   "variants": [
+    {
+     "type": "application/x-mpegURL",
+     "src": "https://video.twimg.com/amplify_video/2083879977976733697/pl/869DgOd7tYUV_psv.m3u8"
+    },
+    {
+     "type": "video/mp4",
+     "src": "https://video.twimg.com/amplify_video/2083879977976733697/vid/avc1/430x270/td3kaCe1m6RSYGVe.mp4"
+    },
+    {
+     "type": "video/mp4",
+     "src": "https://video.twimg.com/amplify_video/2083879977976733697/vid/avc1/574x360/YifuNrSOYmkUhlVp.mp4"
+    },
+    {
+     "type": "video/mp4",
+     "src": "https://video.twimg.com/amplify_video/2083879977976733697/vid/avc1/1148x720/Ve9Nv-ueULF9JsW_.mp4"
+    },
+    {
+     "type": "video/mp4",
+     "src": "https://video.twimg.com/amplify_video/2083879977976733697/vid/avc1/1722x1080/RtXcpZoTdesyPSzu.mp4"
+    },
+    {
+     "type": "video/mp4",
+     "src": "https://video.twimg.com/amplify_video/2083879977976733697/vid/avc1/2940x1842/ewCNR0ByLxtDpmoy.mp4"
+    }
+   ],
+   "videoId": {
+    "type": "tweet",
+    "id": "2083884856531177942"
+   },
+   "viewCount": 0
+  },
+  "isEdited": false,
+  "isStaleEdit": false
+ },
+ "isEdited": false,
+ "isStaleEdit": false
+}

@@ -1,0 +1,117 @@
+{
+ "video": "aieducation",
+ "format": "whiteboard",
+ "rounds": 3,
+ "scored_by": "the whiteboard author",
+ "note": "Round 1 of object 0 read 'greeting card' x3 (a DIFFERENT thing: a folded sheet with a heart on it IS a greeting card). It was REDESIGNED \u2014 the leaf now carries a page block, two repeated contours under each bottom edge, and ruled lines that tilt with the page \u2014 and only that crop was re-dispatched, over three fresh independent rounds. Objects 1, 2 and 3 were never re-dispatched: an unchanged crop read again is a copy, not a measurement.",
+ "objects": [
+  {
+   "i": 0,
+   "intended": "open book heart",
+   "kind": "metaphor",
+   "verdict": "PASS",
+   "reason": "the plan's object is the OPEN BOOK the heart leaves; 'open book' is the intended noun, verbatim, three times, all sure.",
+   "reads": [
+    {
+     "round": 1,
+     "name": "open book",
+     "confidence": "sure",
+     "match": "intended"
+    },
+    {
+     "round": 2,
+     "name": "open book",
+     "confidence": "sure",
+     "match": "intended"
+    },
+    {
+     "round": 3,
+     "name": "open book",
+     "confidence": "sure",
+     "match": "intended"
+    }
+   ]
+  },
+  {
+   "i": 1,
+   "intended": "3D anatomy heart",
+   "kind": "metaphor",
+   "verdict": "PASS",
+   "reason": "the plan's object is the 3D ANATOMY HEART; 'heart' is the intended noun, three times, zero different. The hedge is the reader asking whether an anatomical heart is an 'everyday object', not whether it can see one \u2014 LAW: score the noun, not the flag.",
+   "reads": [
+    {
+     "round": 1,
+     "name": "heart",
+     "confidence": "unsure",
+     "match": "intended"
+    },
+    {
+     "round": 2,
+     "name": "heart",
+     "confidence": "unsure",
+     "match": "intended"
+    },
+    {
+     "round": 3,
+     "name": "heart",
+     "confidence": "unsure",
+     "match": "intended"
+    }
+   ]
+  },
+  {
+   "i": 2,
+   "intended": "thinking head profile",
+   "kind": "metaphor",
+   "verdict": "PASS",
+   "reason": "the plan's object is the THINKING HEAD PROFILE with the imagined heart; 'head with heart thought bubble' names the head, the bubble AND its contents, three times, zero different. The flag is 'cannot tell' about the everyday-object premise; the noun reached the object every time (the artwork seat scored the same drawing the same way and routed it).",
+   "reads": [
+    {
+     "round": 1,
+     "name": "head with heart thought bubble",
+     "confidence": "cannot tell",
+     "match": "intended"
+    },
+    {
+     "round": 2,
+     "name": "head with heart thought bubble",
+     "confidence": "cannot tell",
+     "match": "intended"
+    },
+    {
+     "round": 3,
+     "name": "head with heart thought bubble",
+     "confidence": "cannot tell",
+     "match": "intended"
+    }
+   ]
+  },
+  {
+   "i": 3,
+   "intended": "classroom easel board",
+   "kind": "metaphor",
+   "verdict": "PASS",
+   "reason": "the plan's object is the CLASSROOM EASEL BOARD; 'easel with canvas' / 'easel with heart drawing' name the easel and what is on it, three times, all sure.",
+   "reads": [
+    {
+     "round": 1,
+     "name": "easel with canvas",
+     "confidence": "sure",
+     "match": "intended"
+    },
+    {
+     "round": 2,
+     "name": "easel with canvas",
+     "confidence": "sure",
+     "match": "intended"
+    },
+    {
+     "round": 3,
+     "name": "easel with heart drawing",
+     "confidence": "sure",
+     "match": "intended"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "staged": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/staging/tiktok/pcoverheat_cutout.mp4",
+ "phone_verdict": "PASS",
+ "blocked": "",
+ "rounds": 1,
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/projects/pcoverheat_cutout",
+ "redesigned": false,
+ "cands": "NONE - review/cands_pcoverheat_cutout.json was never written: the Gemini watcher returned 429 RESOURCE_EXHAUSTED (monthly spending cap), $0. render_and_check staged on qc_pass alone and recorded watch_unavailable; no hand-edited candidate file was substituted.",
+ "cold_crop_paths": [
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/19819666/00.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/19819666/01.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/19819666/02.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/19819666/03.png"
+ ],
+ "fails": [],
+ "flagged_for_clerk": "(1) Gemini watcher unavailable (429 monthly cap) so there is no candidate list to adjudicate, and qc_pass gate3_gemini_describe is REPORTED for the same reason. (2) Matte review_status is still needs_final_visual_review in the ship marker; my LAW 48 read at t=3/12/22/33s is clean.",
+ "report": "Repair round: re-ruled the sealed scoring rows under the repaired production.py::consensus, no pixel changed, rendered and staged."
+}

@@ -1,0 +1,72 @@
+{
+ "post_url": "https://x.com/XFreeze/status/2084122084297359607",
+ "post_id": "2084122084297359607",
+ "source_photo": "2084122084297359607_0.jpg",
+ "source_photo_sha256": "4c2dc2e280538023f6395bee64aaaa164cbfe518990c3162d0a2bd19ba15acbd",
+ "crop_file": "shot_pcoverheat_crop.png",
+ "crop_sha256": "8f469446e5407de3cef11fbed6faef968cd09d7f2c5757c0993aa49603eea143",
+ "crop_size": [
+  1192,
+  552
+ ],
+ "aspect": 2.1594,
+ "x_window_native": [
+  112,
+  1786
+ ],
+ "bands_native": [
+  {
+   "what": "title strip",
+   "y": [
+    62,
+    400
+   ],
+   "filler_row": null,
+   "rows": 338
+  },
+  {
+   "what": "gap",
+   "y": null,
+   "filler_row": 640,
+   "rows": 75
+  },
+  {
+   "what": "verdict line",
+   "y": [
+    668,
+    768
+   ],
+   "filler_row": null,
+   "rows": 100
+  },
+  {
+   "what": "gap",
+   "y": null,
+   "filler_row": 930,
+   "rows": 75
+  },
+  {
+   "what": "metric row",
+   "y": [
+    953,
+    1140
+   ],
+   "filler_row": null,
+   "rows": 187
+  }
+ ],
+ "elided": "the screenshot's line '#1 culprit: Ghostty (terminal)' (native rows 863-891) and the intervening body text are ELIDED between the verdict band and the metric band.  He does not say the word 'culprit' until 30.219 s and putting the payoff word on screen at 4 s is a LAW 24 peek-ahead of this video's own ending (the plan says so in as many words).  The three kept bands are verbatim pixels of the post's own photo, in their original top-to-bottom order, at one scale; the gaps are the screenshot's OWN blank rows (native y 640 and y 930) repeated, so no pixel in this crop was drawn by this factory.",
+ "hl_verdict_frac_measured": [
+  0.0603,
+  0.5647,
+  0.3907,
+  0.0638
+ ],
+ "hl_verdict_frac_module_default": [
+  0.055,
+  0.375,
+  0.76,
+  0.135
+ ],
+ "hl_note": "SC.HL_VERDICT_FRAC is the module's GUESS for a crop that was never cut; the handoff (section 3) instructs the consuming lane to RE-MEASURE it against the actual capture.  This is the measured value, in fractions of the zoomed window, off the verdict line's own ink bbox (native x 227-853, y 704-731) plus a 10 x 8 output-px pad.  Both DOM lanes must use THIS number so one raster carries one fill."
+}

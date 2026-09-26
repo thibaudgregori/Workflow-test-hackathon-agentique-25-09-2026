@@ -1,0 +1,27 @@
+{
+ "run": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17",
+ "out_dir": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output",
+ "jobs": [
+  {
+   "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/projects/cursorworkspace_cutout",
+   "vid": "cursorworkspace",
+   "fmt": "cutout",
+   "quality": "high",
+   "stage": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/staging/tiktok/cursorworkspace_cutout.mp4",
+   "qc_args": [
+    "--voice-master",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/cuts/cursorworkspace/audio.m4a",
+    "--phone-at",
+    "2.3:0.19259,0.30208,0.80741,0.39505:an arch bridge",
+    "--phone-at",
+    "14.2:0.24074,0.2125,0.75926,0.35208:a settings panel",
+    "--alpha",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/cursorworkspace/matte_cursorworkspace_v5_alpha.webm",
+    "--edge-box",
+    "1386x990+-153+930",
+    "--plate",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/cursorworkspace/plate_display_1386x990.mp4"
+   ]
+  }
+ ]
+}

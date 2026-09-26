@@ -1,0 +1,59 @@
+{
+  "run": "shorts_run24",
+  "day": "2026-09-21",
+  "videos": [
+    {
+      "id": "primeagent",
+      "recording": "2026-09-21 14-19-53",
+      "lane": "diagram build",
+      "transcript": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/intake/transcripts/2026-09-21 14-19-53.json",
+      "topic": "Prime Agent is a new kind of agent: instead of many fixed tools it has one tool that builds any tool it needs, the first agent that grows its own toolbox.",
+      "notion_id": "3b431704-6eeb-81ab-87d1-d7893b35065d",
+      "keep": [],
+      "matte_ok": true,
+      "redo": "The previous attempt stopped before any page was built. The design agent sealed objects 0 (open toolbox) and 1 (tool printing machine) but object 2, the crossed hammer and screwdriver at 24.40 s, failed the v3 phone test four times (see plans/primeagent_scene_handoff.md section 4) and the handoff carries a 'NOT SEALED, DO NOT BUILD' banner. Miguel looked at the drawings himself, judged the phone test useless, and found the crossed pair fine. DECISION: keep the round-4 crossed hammer and screwdriver as drawn in gen/primeagent_scene.py (option 1 in section 4: its name is 'two crossed tools'), remove the banner and the 'open item' status from the handoff, seal the scene, and build everything: split, whiteboard, cutout, three renders. The matte shipped ok (prep/stages/primeagent.ship.json) and needs no review."
+    },
+    {
+      "id": "geminigems",
+      "recording": "2026-09-21 15-07-17",
+      "lane": "steps & checklist",
+      "transcript": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/intake/transcripts/2026-09-21 15-07-17.json",
+      "topic": "Google is sunsetting Gemini Gems on October 20 and replacing them with Skills, the standard Anthropic introduced; how to migrate a Gem into a Skill.",
+      "notion_id": "3b731704-6eeb-8125-9a72-ca66e87fb8ca",
+      "keep": [
+        "whiteboard"
+      ],
+      "matte_ok": true,
+      "redo": "Miguel approved the split and the cutout EXCEPT for one defect in both: the Anthropic logo stays on screen after it should have left. In gen/geminigems_scene.py find when the Anthropic mark enters and leaves, compare with the plan's lifetimes and the transcript words, and make it leave when the script moves off Anthropic. Change nothing else. Re-seal. The split author re-emits the split page from the changed scene; Astra re-runs the existing gen/geminigems_cutout_gen.py and re-renders split and cutout. The whiteboard is approved and is not touched. The matte is approved as shipped."
+    },
+    {
+      "id": "cursorspacex",
+      "recording": "2026-09-21 14-40-43",
+      "lane": "kinetic type",
+      "transcript": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/intake/transcripts/2026-09-21 14-40-43.json",
+      "topic": "Cursor, one of the most loved developer AI brands, has been acquired by SpaceX AI and the Cursor brand is being rolled out over the coming months.",
+      "notion_id": "3b531704-6eeb-81a5-ae22-eee6dd9a3b10",
+      "keep": [
+        "split",
+        "whiteboard",
+        "cutout"
+      ],
+      "matte_ok": true,
+      "redo": "Approved in full by Miguel. Nothing to do."
+    },
+    {
+      "id": "claudesessions",
+      "recording": "2026-09-21 14-39-08",
+      "lane": "diagram build",
+      "transcript": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run24/intake/transcripts/2026-09-21 14-39-08.json",
+      "topic": "Claude Code sessions can now talk to each other: one session messages another, so you no longer switch between sessions to coordinate work.",
+      "notion_id": "3b531704-6eeb-8174-bc31-f34e89cef0aa",
+      "keep": [
+        "split",
+        "whiteboard"
+      ],
+      "redo": "Miguel approved the split and the whiteboard. The cutout was never built: the first reviewed selection kept the chair headrest inside the outline beside his head. What was already tried, do not repeat it: (1) a carve of the headrest polygon and a MatAnyone re-track (the current matting/claudesessions/selection.json, mask a39d3252, matte shipped 20:40) which still shows the chair band, because MatAnyone re-grows chair welded to his black shirt (chair_audit.json, LEARNINGS 2026-09-21); (2) fallback_sam2.py --tag fb1 from the ORIGINAL chair-containing mask abaa6210, which REFUSED on LAW 48 (matting_fallback/claudesessions/REFUSED.json: the alpha kept the chair). The design and the scene are final: the design agent keeps them and makes sure a seal exists. Astra: review the frame-0 outline on the overlay (the current mask already excludes the headrest polygon; confirm he is whole and no chair remains, fix if not, approve as codex-astra with an explicit note), then SKIP the MatAnyone re-track and go straight to the chair lane: fallback_sam2.py --run <run> --vid claudesessions --tag fb1 (a corrected mask tracks under its own fb1_p<sha8> receipt; the old alpha_fb1.mkv is not reused). Look at the four sheets. If the chair is gone, build the cutout page from plans/claudesessions_scene_handoff.md and render the cutout only. If the chair is still there, hold for Miguel."
+    }
+  ],
+  "partial": "run 24 partial rerun after Miguel watched the 8 staged videos on 2026-09-21"
+}

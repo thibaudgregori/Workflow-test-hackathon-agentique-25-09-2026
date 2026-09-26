@@ -1,0 +1,28 @@
+{
+ "id": "pcoverheat",
+ "stage": "ship",
+ "status": "ok",
+ "wall_s": 110.95612812496256,
+ "at": "2026-09-08T00:42:19",
+ "keys": {
+  "status": "ok",
+  "backend": "matanyone2",
+  "frames": 929,
+  "width": 1782,
+  "height": 990,
+  "fps": 25.0,
+  "alpha_mode": "soft",
+  "rim_px": 7,
+  "temporal": 1,
+  "seconds": 96.717949532,
+  "estimated_compute_usd": 0.04397958601119104,
+  "fractional_alpha_pixels": 20438933,
+  "minimum_person_fraction": 0.31282805609404934,
+  "review_status": "needs_final_visual_review",
+  "ship_source_sha256": "cf367be51d742c272d9f79db8a13e00297684001ebf666283095059206e149e7",
+  "client_wall_seconds": 110.95612812496256,
+  "ship_seconds": 96.717949532,
+  "wall_s": 110.95612812496256,
+  "cost_usd": 0.04397958601119104
+ }
+}

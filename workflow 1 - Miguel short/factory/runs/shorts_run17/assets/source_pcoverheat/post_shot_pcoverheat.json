@@ -1,0 +1,45 @@
+{
+ "post_id": "2084122084297359607",
+ "source_url": "https://x.com/XFreeze/status/2084122084297359607",
+ "author": "XFreeze",
+ "created_at": "2026-08-03T03:40:00.000Z",
+ "fetched_by": "pipeline/prep/sourcelib.fetch_source (X API v2, read-only)",
+ "record": "shorts_run17/assets/source_pcoverheat_2084122084297359607.json",
+ "original_photo": "2084122084297359607_0.jpg",
+ "original_size": [
+  1896,
+  2324
+ ],
+ "crop_box_xyxy": [
+  60,
+  13,
+  1835,
+  835
+ ],
+ "crop_size": [
+  1775,
+  822
+ ],
+ "aspect": 2.159367,
+ "module_aspect": 2.15942,
+ "sha256": "2e4b1af8f922dc623587abc8ac9e9e79295b64bb02112586d92d94d885e263d9",
+ "contains": [
+  "the macOS window title strip with the session's tabs",
+  "the session header strip",
+  "the task line 'Task Sample CPU, memory, thermal, power usage'",
+  "the user's own prompt bubble",
+  "the line 'Verdict: Ghostty is the heat source'",
+  "the line \"It's not a mystery process - one app is doing almost all the damage.\""
+ ],
+ "culprit_line_cropped_out": true,
+ "metric_row_cropped_out": true,
+ "why_the_metric_row_is_out": "THE HANDOFF'S CROP CONTRACT IS NOT SATISFIABLE BY ONE CONTIGUOUS CROP. It asks for a title strip, the Verdict line AND the metric row 'CPU ~700-830% (several full cores)', while also requiring that '#1 culprit: Ghostty (terminal)' be cropped out. In the source photo that culprit line sits BETWEEN the Verdict line (ink rows 704-731) and the metric table (CPU row at ~1074), and it spans the same x range as both, so no rectangle contains the verdict and the CPU row without containing the payoff word. LAW 24 is the binding half of the instruction and the metric row is the wish, so the crop keeps the title strip and the Verdict line (which is also the highlight's target and the claim the card exists to carry) and stops 22 px above the culprit line's first ink.",
+ "hl_verdict_frac": [
+  0.0907,
+  0.83455,
+  0.35944,
+  0.04501
+ ],
+ "hl_verdict_frac_note": "the box of 'Verdict: Ghostty is the heat source' as fractions of the ZOOMED window (596 x 276 core px), measured on THIS capture at alpha<150 with 6 px of horizontal and 5 px of vertical padding; the 9:01 AM timestamp cluster on the right is excluded, so the fill scopes the claim line and nothing else (LAW 38 rule 1). The module's own HL_VERDICT_FRAC is the artwork author's stated GUESS for a crop that was never taken; the handoff's instruction is to re-measure it against the actual capture, which is what this number is. The split applies it by assigning SC.HL_VERDICT_FRAC in its own process; the module file on disk is untouched.",
+ "for_the_cutout_author": "use this file, this crop and this hl_verdict_frac; do not re-fetch and do not re-crop."
+}

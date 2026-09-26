@@ -1,0 +1,28 @@
+{
+  "tag": "cand3haiku",
+  "cold_dir": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/cand3haiku-c3a00ef6",
+  "reader": "one independent `claude -p` process per crop, launched from /tmp, handed ONLY the absolute path of a blind copy under a random token - no plan, no topic, no manifest, no sealed key, and no path naming the video",
+  "prompt": "Look at the image at <absolute path of one blind crop> . Name the single everyday object drawn in it. At most FIVE words. Reply with ONE line of JSON and nothing else: {\"name\":\"<=5 words\",\"confidence\":\"sure|unsure|cannot tell\"}",
+  "dispatched_at": "2026-09-08T01:27:39",
+  "cli": "2.1.263 (Claude Code)",
+  "source_crops": {
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/proofs/crop_cand3_00_dl-E-cloud.png": "66156e2003340c18c829f928d8692f5f7515ca9319a1d50ddb6c8acc690a7506",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/proofs/crop_cand3_01_dl-F-bar.png": "929a4077255415dbd810a6888d074873b16deb5334ce601e9c0eaf9932630331"
+  },
+  "names": [
+    {
+      "i": 0,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/cand3haiku-c3a00ef6/00.png",
+      "name": "cloud download icon",
+      "confidence": "sure",
+      "crop_sha256": "66156e2003340c18c829f928d8692f5f7515ca9319a1d50ddb6c8acc690a7506"
+    },
+    {
+      "i": 1,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/cand3haiku-c3a00ef6/01.png",
+      "name": "download arrow",
+      "confidence": "sure",
+      "crop_sha256": "929a4077255415dbd810a6888d074873b16deb5334ce601e9c0eaf9932630331"
+    }
+  ]
+}

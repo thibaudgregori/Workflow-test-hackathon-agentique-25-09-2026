@@ -1,0 +1,58 @@
+{
+ "frame": 0,
+ "plate": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/cursorworkspace/plate_wide_25.mp4",
+ "dark_threshold": 60,
+ "wing_right": null,
+ "wing_right_rows": "400,620",
+ "wing_left": null,
+ "wing_left_rows": "400,520",
+ "removed_right_px": 0,
+ "removed_left_px": 0,
+ "removed": {
+  "px": 0,
+  "median_luma": -1,
+  "max_luma": -1
+ },
+ "birefnet": {
+  "area": 458031,
+  "bands": {
+   "cap": {
+    "left": 430,
+    "right": 782
+   },
+   "head": {
+    "left": 440,
+    "right": 776
+   },
+   "jaw": {
+    "left": 318,
+    "right": 857
+   },
+   "neck": {
+    "left": 144,
+    "right": 1076
+   }
+  }
+ },
+ "prompt": {
+  "area": 458031,
+  "bands": {
+   "cap": {
+    "left": 430,
+    "right": 782
+   },
+   "head": {
+    "left": 440,
+    "right": 776
+   },
+   "jaw": {
+    "left": 318,
+    "right": 857
+   },
+   "neck": {
+    "left": 144,
+    "right": 1076
+   }
+  }
+ }
+}

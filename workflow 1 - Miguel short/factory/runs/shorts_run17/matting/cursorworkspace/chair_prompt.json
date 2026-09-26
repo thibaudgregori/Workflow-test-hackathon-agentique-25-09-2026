@@ -1,0 +1,153 @@
+{
+ "plate": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/cursorworkspace/plate_wide_25.mp4",
+ "body": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/cursorworkspace/prompts/birefnet_00000.png",
+ "frame": 0,
+ "size": [
+  1260,
+  900
+ ],
+ "thresholds": {
+  "dark": 60,
+  "min_run": 4,
+  "max_run": 200,
+  "edge_out": 40,
+  "edge_in": 200,
+  "min_rows": 80,
+  "row_lo_lift": 120,
+  "row_hi_drop": 40,
+  "cap_floor": 165,
+  "max_box_w": 150
+ },
+ "band": {
+  "crown": 77,
+  "head_width": 329.0,
+  "band_top": 377,
+  "shoulder_arrival": 557
+ },
+ "band_second_pass": {
+  "crown": 77,
+  "head_width": 327.5,
+  "band_top": 376,
+  "shoulder_arrival": 556
+ },
+ "band_second_pass_rejected": "pass 2 read 556 against pass 1's 557; a second pass may only move the arrival later, so pass 1 stands",
+ "band_first_pass": {
+  "crown": 77,
+  "head_width": 329.0,
+  "band_top": 377,
+  "shoulder_arrival": 557
+ },
+ "left": {
+  "found": true,
+  "side": "left",
+  "box": [
+   352,
+   253,
+   504,
+   520
+  ],
+  "points": [
+   [
+    411,
+    288,
+    1
+   ],
+   [
+    413,
+    354,
+    1
+   ],
+   [
+    423,
+    419,
+    1
+   ],
+   [
+    436,
+    485,
+    1
+   ],
+   [
+    614,
+    197,
+    0
+   ],
+   [
+    455,
+    387,
+    0
+   ],
+   [
+    546,
+    611,
+    0
+   ],
+   [
+    607,
+    677,
+    0
+   ]
+  ],
+  "n_positive": 4,
+  "n_negative": 4,
+  "rows": [
+   257,
+   516
+  ],
+  "rows_with_run": 260,
+  "rows_searched": [
+   257,
+   517
+  ],
+  "window_cols": [
+   390,
+   630
+  ],
+  "n_regions": 17,
+  "rows_with_candidate": 260,
+  "silhouette_edge": 430,
+  "cols": [
+   360,
+   496
+  ],
+  "run_width": {
+   "min": 35,
+   "max": 121,
+   "median": 89
+  },
+  "luma": {
+   "mean": 22.8,
+   "p95": 43,
+   "max": 170
+  },
+  "area_px": 21419,
+  "row_hi_drop_used": 40,
+  "ladder_tried": []
+ },
+ "right": {
+  "found": false,
+  "why": "26 sandwiched dark region(s) beside the head, none of them 80+ rows tall and under 150 px wide (tallest 260)",
+  "rows_searched": [
+   257,
+   517
+  ],
+  "window_cols": [
+   582,
+   823
+  ],
+  "rows_with_candidate": 260,
+  "n_regions": 26,
+  "silhouette_edge": 782,
+  "ladder_tried": [
+   {
+    "row_hi_drop": 40,
+    "why": "26 sandwiched dark region(s) beside the head, none of them 80+ rows tall and under 150 px wide (tallest 260)"
+   }
+  ],
+  "row_hi_drop_used": null
+ },
+ "found": [
+  "left"
+ ],
+ "overlay": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/matting/cursorworkspace/prompts/chair_overlay_00000.png"
+}

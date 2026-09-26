@@ -1,0 +1,118 @@
+{
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/projects/pcoverheat_split",
+ "fmt": "split",
+ "step": 0.25,
+ "checks": {
+  "refs_resolve": {
+   "referenced": 10,
+   "missing": [],
+   "pass": true,
+   "error": null,
+   "wall_s": 0.17
+  },
+  "assets_not_placeholder": {
+   "rasters": 4,
+   "placeholder_shaped": [],
+   "undecodable": [],
+   "report": {
+    "assets/v/post_shot.png": {
+     "size": [
+      1775,
+      822
+     ],
+     "judged": "decode only (capture)"
+    },
+    "assets/logos/codex-color.png": {
+     "size": [
+      640,
+      640
+     ],
+     "ink_fill": 0.97,
+     "quantised_colours": 13,
+     "diag_fwd": 0.894,
+     "diag_back": 0.894,
+     "bbox": [
+      0,
+      0,
+      640,
+      640
+     ]
+    },
+    "assets/logos/claude-cowork.png": {
+     "size": [
+      473,
+      487
+     ],
+     "ink_fill": 0.321,
+     "quantised_colours": 13,
+     "diag_fwd": 0.391,
+     "diag_back": 1.0,
+     "bbox": [
+      20,
+      20,
+      454,
+      468
+     ]
+    },
+    "assets/logos/grok.png": {
+     "size": [
+      1000,
+      1000
+     ],
+     "judged": "decode only (capture)"
+    }
+   },
+   "pass": true,
+   "error": null,
+   "wall_s": 0.14
+  },
+  "page_audit": {
+   "ids": 122,
+   "unique_ids": 122,
+   "duplicate_ids": [],
+   "tween_selectors": 53,
+   "dead_tween_targets": [],
+   "pass": true,
+   "error": null,
+   "wall_s": 0.0
+  },
+  "caption_canon_page": {
+   "pills": 35,
+   "modal_height_px": 114.57,
+   "canon_height_px": 114.59,
+   "height_spread_px": 0.0,
+   "tolerance_design_px": 3.0,
+   "heights_off_canon": [],
+   "squarer_than_min_aspect": [],
+   "min_aspect": 1.45,
+   "function_only_beat_law": null,
+   "pass": true,
+   "error": null,
+   "wall_s": 0.0
+  },
+  "gate1_geometry_audit": {
+   "returncode": 0,
+   "errors": 0,
+   "warnings": 0,
+   "warnings_after_waivers": 0,
+   "waived": [],
+   "report": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/projects/pcoverheat_split/geometry_audit/report.json",
+   "stdout": "pcoverheat_split: 0 errors, 0 warnings (37.2s @ 0.25s step)\n",
+   "stderr": "",
+   "bar": "0 errors, 0 warnings",
+   "pass": true,
+   "error": null,
+   "wall_s": 1.75
+  }
+ },
+ "skipped": {
+  "cutout_edge_fade_guard": "cutout only",
+  "cutout_checks_24_25": "cutout only"
+ },
+ "duration_s": 37.16,
+ "page_zoom": 1.0001682368775235,
+ "page_load_wall_s": 0.98,
+ "failed": [],
+ "verdict": "PASS",
+ "total_wall_s": 3.05
+}

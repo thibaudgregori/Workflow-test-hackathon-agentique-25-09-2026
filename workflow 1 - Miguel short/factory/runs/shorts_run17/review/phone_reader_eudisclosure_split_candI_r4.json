@@ -1,0 +1,20 @@
+{
+  "tag": "candIr4",
+  "cold_dir": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/candIr4-e1ed1c62",
+  "reader": "one independent `claude -p` process per crop, launched from /tmp, handed ONLY the absolute path of a blind copy under a random token - no plan, no topic, no manifest, no sealed key, and no path naming the video",
+  "prompt": "Look at the image at <absolute path of one blind crop> . Name the single everyday object drawn in it. At most FIVE words. Reply with ONE line of JSON and nothing else: {\"name\":\"<=5 words\",\"confidence\":\"sure|unsure|cannot tell\"}",
+  "dispatched_at": "2026-09-08T01:46:14",
+  "cli": "2.1.263 (Claude Code)",
+  "source_crops": {
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/proofs_eudisclosure_slider5/I.png": "9fac643db99049d2e30e6a0d4ee03da6d08ee9190c9635d128c939e7d4966f92"
+  },
+  "names": [
+    {
+      "i": 0,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/candIr4-e1ed1c62/00.png",
+      "name": "lipstick tube",
+      "confidence": "unsure",
+      "crop_sha256": "9fac643db99049d2e30e6a0d4ee03da6d08ee9190c9635d128c939e7d4966f92"
+    }
+  ]
+}

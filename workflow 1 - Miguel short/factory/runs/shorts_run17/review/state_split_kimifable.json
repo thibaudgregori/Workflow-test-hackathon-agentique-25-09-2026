@@ -1,0 +1,18 @@
+{
+ "staged": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/staging/youtube/kimifable_split.mp4",
+ "phone_verdict": "PASS",
+ "blocked": "",
+ "rounds": 1,
+ "redesigned": false,
+ "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/projects/kimifable_split",
+ "cold_crop_paths": [
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/7b72b6fa/00.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/7b72b6fa/01.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/7b72b6fa/02.png",
+  "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/review/cold/7b72b6fa/03.png"
+ ],
+ "fails": [],
+ "cands": "MISSING \u2014 review/cands_kimifable_split.json was never written. The Gemini watcher AND Gate 3 both returned 429 RESOURCE_EXHAUSTED (project monthly spending cap); render_and_check recorded watch_unavailable and staged on qc_pass alone. Per RUN-13 REVIEW CHANGES section 1 this is REPORTED, never backfilled: the file was watched by nothing and the clerk rules on its own decode.",
+ "flagged_for_clerk": "1) No watcher candidates exist for this render (Gemini spending cap) - do not backfill, decode it yourself. 2) qc_pass PASS 12/12 with two advisory REPORTED rows: double_exposure (the only zero-ink instants are the three chapter wipes and the outro sheet, i.e. the erases themselves) and gate3_gemini_describe (same 429 cap; advisory since 2026-09-05). 3) face_centring PASS with one band-level warning, dx 4.72% at t=37.0s - warning level on the split's fixed approved crop. 4) The built board is the SEALED artwork module, which departs from the plan's canvas_rects on 30 rects; every delta is in gen/_build_kimifable.json -> formats.split.canvas_rects.deviations_from_plan and in plans/kimifable_split_notes.md.",
+ "report": "See plans/kimifable_split_notes.md"
+}

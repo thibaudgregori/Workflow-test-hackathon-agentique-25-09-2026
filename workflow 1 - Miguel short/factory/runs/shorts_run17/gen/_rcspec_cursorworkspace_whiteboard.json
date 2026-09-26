@@ -1,0 +1,19 @@
+{
+  "run": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17",
+  "out_dir": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/output",
+  "jobs": [
+    {
+      "project": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/projects/cursorworkspace_whiteboard",
+      "vid": "cursorworkspace",
+      "fmt": "whiteboard",
+      "quality": "high",
+      "stage": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/staging/reels/cursorworkspace_whiteboard.mp4",
+      "qc_args": [
+        "--voice-master", "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run17/cuts/cursorworkspace/audio.m4a",
+        "--seams", "6.5,11.46",
+        "--phone-at", "1.6:0.18588,0.30007,0.81412,0.39896:an arch bridge",
+        "--phone-at", "13.9:0.2338,0.20859,0.7662,0.32682:a settings panel"
+      ]
+    }
+  ]
+}

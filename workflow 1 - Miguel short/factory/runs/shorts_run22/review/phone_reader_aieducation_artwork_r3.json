@@ -1,0 +1,44 @@
+{
+  "tag": "seal_r3",
+  "cold_dir": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/review/cold/seal_r3-b6f8fac9",
+  "reader": "one independent `claude -p` process per crop, launched from /tmp, handed ONLY the absolute path of a blind copy under a random token - no plan, no topic, no manifest, no sealed key, and no path naming the video",
+  "prompt": "Look at the image at <absolute path of one blind crop> . Name the single everyday object drawn in it. At most FIVE words. Reply with ONE line of JSON and nothing else: {\"name\":\"<=5 words\",\"confidence\":\"sure|unsure|cannot tell\"}",
+  "dispatched_at": "2026-09-15T14:50:22",
+  "cli": "2.1.272 (Claude Code)",
+  "source_crops": {
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/review/proofs/crop_seal_00_hook.png": "5a7ced542d9e6772eaa0197d52269fd719d667c57e50b64670879f17406f557e",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/review/proofs/crop_seal_01_heart.png": "4e098b4c4748d93810fee081d5e8120b399795eb4d98dde95bdc46f20ab6295f",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/review/proofs/crop_seal_02_head.png": "cd02eede1da4bdfd5b7f973556b84b1f3ad91bd21b31adfffbc7a40df98469ca",
+    "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/review/proofs/crop_seal_03_easel.png": "c6e2acff0ee9d487799cb2eec07d4af921e0e1ee13460409a73c5dc23bcfd571"
+  },
+  "names": [
+    {
+      "i": 0,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/review/cold/seal_r3-b6f8fac9/00.png",
+      "name": "open book",
+      "confidence": "sure",
+      "crop_sha256": "5a7ced542d9e6772eaa0197d52269fd719d667c57e50b64670879f17406f557e"
+    },
+    {
+      "i": 1,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/review/cold/seal_r3-b6f8fac9/01.png",
+      "name": "strawberry",
+      "confidence": "unsure",
+      "crop_sha256": "4e098b4c4748d93810fee081d5e8120b399795eb4d98dde95bdc46f20ab6295f"
+    },
+    {
+      "i": 2,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/review/cold/seal_r3-b6f8fac9/02.png",
+      "name": "head profile with heart",
+      "confidence": "unsure",
+      "crop_sha256": "cd02eede1da4bdfd5b7f973556b84b1f3ad91bd21b31adfffbc7a40df98469ca"
+    },
+    {
+      "i": 3,
+      "path": "/Users/migle/Documents/Workspace/projects/personal/content/shorts-factory/runs/shorts_run22/review/cold/seal_r3-b6f8fac9/03.png",
+      "name": "easel with canvas",
+      "confidence": "sure",
+      "crop_sha256": "c6e2acff0ee9d487799cb2eec07d4af921e0e1ee13460409a73c5dc23bcfd571"
+    }
+  ]
+}
