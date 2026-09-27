@@ -11,7 +11,6 @@
 6. affiche l'adresse du chat, à passer à envoyer_demandes.py.
 """
 import argparse
-import http.cookiejar
 import json
 import os
 import secrets
@@ -29,17 +28,24 @@ class N8n:
     def __init__(self, url):
         self.url = url.rstrip("/")
         self.api_key = None
-        self.http = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(http.cookiejar.CookieJar()))
+        # Cookie de session gardé à la main : n8n le marque « Secure » par défaut, et un client HTTP normal
+        # refuse alors de le renvoyer sur http://localhost. Ici, on parle à un n8n local.
+        self.cookie = None
 
     def call(self, method, path, body=None, public_api=False):
         headers = {"Content-Type": "application/json"}
         if public_api:
             headers["X-N8N-API-KEY"] = self.api_key
+        elif self.cookie:
+            headers["Cookie"] = self.cookie
         req = urllib.request.Request(self.url + path, method=method, headers=headers,
                                      data=json.dumps(body).encode() if body is not None else None)
         try:
-            with self.http.open(req, timeout=60) as r:
+            with urllib.request.urlopen(req, timeout=60) as r:
                 text = r.read().decode()
+                for value in r.headers.get_all("Set-Cookie") or []:
+                    if value.startswith("n8n-auth="):
+                        self.cookie = value.split(";", 1)[0]
         except urllib.error.HTTPError as e:
             sys.exit(f"erreur n8n {e.code} sur {method} {path} : {e.read().decode()[:300]}")
         except urllib.error.URLError as e:
@@ -58,16 +64,26 @@ def main():
         sys.exit("OPENAI_API_KEY absente : chargez votre clé dans ce terminal d'abord.")
 
     n8n = N8n(args.n8n)
-    email, password = "owner@deadweight.test", "Dw" + secrets.token_hex(8) + "!"
-    n8n.call("POST", "/rest/owner/setup", {"email": email, "firstName": "Test", "lastName": "Deadweight",
-                                           "password": password})
+    saved = dict(line.split("=", 1) for line in SECRETS.read_text(encoding="utf-8").splitlines()
+                 if "=" in line) if SECRETS.exists() else {}
+    if saved.get("N8N_WORKFLOW_ID"):
+        sys.exit(f"déjà fait : workflow {saved['N8N_WORKFLOW_ID']}, chat {saved.get('N8N_CHAT_URL')}. "
+                 f"Pour repartir de zéro : supprimez {SECRETS.name} et le dossier de données de n8n.")
+    if saved.get("N8N_TEST_PASSWORD"):  # compte déjà créé par un lancement précédent
+        email, password = saved["N8N_TEST_EMAIL"], saved["N8N_TEST_PASSWORD"]
+    else:
+        email, password = "owner@deadweight.test", "Dw" + secrets.token_hex(8) + "!"
+        n8n.call("POST", "/rest/owner/setup", {"email": email, "firstName": "Test", "lastName": "Deadweight",
+                                               "password": password})
+        SECRETS.write_text(f"N8N_URL={n8n.url}\nN8N_TEST_EMAIL={email}\nN8N_TEST_PASSWORD={password}\n",
+                           encoding="utf-8")
+        SECRETS.chmod(0o600)
     n8n.call("POST", "/rest/login", {"emailOrLdapLoginId": email, "password": password})
     scopes = n8n.call("GET", "/rest/api-keys/scopes")["data"]
-    created = n8n.call("POST", "/rest/api-keys", {"label": "deadweight", "scopes": scopes, "expiresAt": None})["data"]
+    created = n8n.call("POST", "/rest/api-keys", {"label": f"deadweight-{int(time.time())}", "scopes": scopes, "expiresAt": None})["data"]
     n8n.api_key = created.get("rawApiKey") or created.get("apiKey")
     SECRETS.write_text(f"N8N_URL={n8n.url}\nN8N_TEST_EMAIL={email}\nN8N_TEST_PASSWORD={password}\n"
                        f"N8N_API_KEY={n8n.api_key}\n", encoding="utf-8")
-    SECRETS.chmod(0o600)
     print(f"1-2. compte de test et clé d'API n8n créés → {SECRETS.name} (non commité)")
 
     wf = json.loads((HERE / "workflow-4553.json").read_text(encoding="utf-8"))
