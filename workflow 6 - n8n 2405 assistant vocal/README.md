@@ -15,7 +15,7 @@ ElevenLabs → Gradium (API REST `POST https://api.gradium.ai/api/post/speech/tt
 ## Fichiers
 
 - `workflow-2405-openai-gradium.json` : le workflow, **sans identifiants** ;
-- `questions/` : 10 questions vocales en français (`say` du Mac), une conversation qui fait appel à la mémoire ;
+- `questions/` : 10 questions vocales en français (`say -v Thomas` du Mac : la voix québécoise par défaut était mal transcrite par Whisper), une conversation qui fait appel à la mémoire ;
 - `preparer_n8n.py` : installe le workflow dans le n8n local du workflow 5, avec vos clés OpenAI et Gradium
   prises dans le terminal (jamais écrites dans ce dossier) ;
 - `envoyer_questions.py` : envoie les questions dans l'ordre, enregistre les réponses vocales dans `out/reponses/`.
