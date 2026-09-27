@@ -304,15 +304,21 @@
           "batching": {
             "batch": {
               "batchSize": 1,
-              "batchInterval": 300
+              "batchInterval": 3000
             }
           }
+        },
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Connection",
+              "value": "close"
+            }
+          ]
         }
       },
-      "typeVersion": 4.3,
-      "retryOnFail": true,
-      "maxTries": 3,
-      "waitBetweenTries": 2000
+      "typeVersion": 4.3
     }
   ],
   "connections": {
