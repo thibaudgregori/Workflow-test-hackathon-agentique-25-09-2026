@@ -21,6 +21,9 @@ Par texte : **5 appels gpt-4o** (1 traduction + 4 relectures) et 4 voix Gradium.
 - nœuds OpenAI : **« Use Responses API » désactivé**. En n8n 2.x, le nœud OpenAI Chat Model 1.3 passe par
   défaut par l'API Responses d'OpenAI, que la passerelle Deadweight ne capture pas (problème 11) : sans ce
   réglage, Deadweight ne verrait aucun appel ;
+- Gradium : **une voix à la fois** (batching 1, 3 essais). L'offre Gradium limite à 2 synthèses simultanées
+  (« Concurrency limit exceeded: 2 active sessions ») et n8n envoie les 4 langues en même temps : au premier
+  essai, les 30 textes ont échoué après avoir payé leur traduction gpt-4o ;
 - webhook en mode « Respond to Webhook node » (le modèle déclarait un nœud de réponse sans l'utiliser).
 - `gpt-4o` est **gardé** partout, comme dans le modèle.
 

@@ -300,10 +300,19 @@
               "responseFormat": "file",
               "outputPropertyName": "audio"
             }
+          },
+          "batching": {
+            "batch": {
+              "batchSize": 1,
+              "batchInterval": 300
+            }
           }
         }
       },
-      "typeVersion": 4.3
+      "typeVersion": 4.3,
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 2000
     }
   ],
   "connections": {
