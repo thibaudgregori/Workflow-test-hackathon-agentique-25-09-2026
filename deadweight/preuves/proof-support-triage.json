@@ -1,0 +1,74 @@
+{
+ "patch_id": "rules_9b500eb1",
+ "finding_id": "f_support-triage_69e84b359c_low_entropy",
+ "template": "69e84b359c",
+ "rules": [
+  {
+   "key": "compte",
+   "regex": "passe|compte|arrive|connecter"
+  },
+  {
+   "key": "technique",
+   "regex": "notification|marchent|android|application"
+  },
+  {
+   "key": "facturation",
+   "regex": "facture|abonnement|pui|télécharger"
+  },
+  {
+   "key": "livraison",
+   "regex": "coli|suivi|livreur|déposé"
+  }
+ ],
+ "app_id": "support-triage",
+ "model": "gpt-4o-mini",
+ "source": "evenements passerelle, hors exemples d'extraction",
+ "n_replayed": 112,
+ "n_replaced": 80,
+ "n_excluded_extraction_samples": 48,
+ "agreement_rate": 0.95,
+ "matched_by_rules": 80,
+ "sent_to_fallback": 0,
+ "capped": 0,
+ "rules_coverage": 0.7143,
+ "fallback_model": null,
+ "disagreements": [
+  {
+   "event_id": "evt_f1c13e010755437996e948a3ab228232",
+   "input": "Hello, Mon colis n'est toujours pas arrivé à Lyon, le suivi indique « en transit » depuis 12 jours. Bonne journée.",
+   "expected": "livraison",
+   "got": "facturation",
+   "via": "regles"
+  },
+  {
+   "event_id": "evt_3a2b9784027d49b390a5fb257da78b1a",
+   "input": "Hello, Mon colis n'est toujours pas arrivé à Strasbourg, le suivi indique « en transit » depuis 7 jours. Cordialement.",
+   "expected": "livraison",
+   "got": "facturation",
+   "via": "regles"
+  },
+  {
+   "event_id": "evt_ca0548c274d44e3c9030a98f2b7d9535",
+   "input": "Hello, Mon colis n'est toujours pas arrivé à Lille, le suivi indique « en transit » depuis 11 jours. Cordialement.",
+   "expected": "livraison",
+   "got": "facturation",
+   "via": "regles"
+  },
+  {
+   "event_id": "evt_71f4e69c1d3f486c9671393ca1f8a7b9",
+   "input": "Hello, Mon colis n'est toujours pas arrivé à Nantes, le suivi indique « en transit » depuis 9 jours.",
+   "expected": "livraison",
+   "got": "facturation",
+   "via": "regles"
+  }
+ ],
+ "cost_before_month_usd": 46.6178,
+ "cost_after_month_usd": 13.3194,
+ "cost_factor": 3.5,
+ "cost_missing": [],
+ "p95_before_ms": 916.514,
+ "p95_after_ms": 915.09,
+ "threshold": 0.95,
+ "verdict": "pass",
+ "reasons": []
+}
